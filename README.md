@@ -5,7 +5,7 @@
 ## Instructions
 
 * Use the design files to build out your User Interfaces.
-* _Project 1 - Social Card_ Start with the `Social Card` `.png` file and use [this codepen]() to build out all the components you need to complete the project to the specification.
+* _Project 1 - Social Card_ Start with the `Social Card` `.png` file and use [this codepen](https://codepen.io/lambdaschool/pen/NYYWdx) to build out all the components you need to complete the project to the specification.
 * Use the lambda Logo provided as the image for the Avatar Thumbnail
 
   * The idea here is to break this `.png` file down into components. Think of each singular piece DOM and how you will be separating each as it's own component.
