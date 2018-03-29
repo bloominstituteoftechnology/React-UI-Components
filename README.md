@@ -5,6 +5,8 @@
 ## Instructions
 
 * Use the design files to build out your
-* _Project 1 Social Card_ Start with the `Social Card` `.png` file and use [this codepen]() to build out all the components you need to complete the project to the specification.
+* _Project 1 - Social Card_ Start with the `Social Card` `.png` file and use [this codepen]() to build out all the components you need to complete the project to the specification.
 
-* Start with the `Social Card` `.png` file and use [this codepen]() to build out all the components you need to complete the project to the specification.
+  * The idea here is to break this `.png` file down into components. Think of each single piece of
+
+* _Project 1 - Social Card_ Start with the `Social Card` `.png` file and use [this codepen]() to build out all the components you need to complete the project to the specification.
