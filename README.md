@@ -6,6 +6,10 @@
 
 * Use the design files to build out your User Interfaces.
 * All components can be built out using the provided codepens that we have set up for you.
+* **DON'T FORGET** to fork your pen.
+* All styles can be achieved within the provided css pen container. Feel free to include a `cdn` for bootstrap v.4 if you'd like. Don't forget about `className` vs `class`!!
+* Once you and your partner are finished please submit the forked Pen link to your PM.
+* Work on the required features first and then move on. You can come back to Project 1 and start with the `Stretch Problem` once you're done with the requirements for Project 2.
 
 ## _Project 1 - Social Card_
 
