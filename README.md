@@ -10,13 +10,12 @@
 ## _Project 1 - Social Card_
 
 * Start with the `Social Card` `Project-1.png` file and use [this codepen](https://codepen.io/lambdaschool/pen/NYYWdx) to build out all the components you need to complete the project to the specification.
-* Use the lambda Logo provided as the image for the Avatar Thumbnail
 
-  * The idea here is to break this `.png` file down into components. Think of each singular piece as a DOM Element and how you will be separating each as it's own `functional component`.
-  * For the react Banner part of the social card you can feel free to use this `https://ibin.co/3whqv86HCUo0.png` in an src attribute on an `img` tag. Or find one on the web and use that.
-  * For the Lambda Avatar feel free to use `https://ibin.co/3whrpKSBbZ81.png` or any lambda logo you may find on the web.
-  * **Stretch Problem 1** Include the icons. This is not a trivial task.
-  * **Stretch Problem 2** After you build out a card, put together some mock data, and create a grid view of multiple cards.`
+* The idea here is to break this `.png` file down into components. Think of each singular piece as a DOM Element and how you will be separating each as it's own `functional component`.
+* For the react Banner part of the social card you can feel free to use this `https://ibin.co/3whqv86HCUo0.png` in an src attribute on an `img` tag. Or find one on the web and use that.
+* For the Lambda Avatar feel free to use `https://ibin.co/3whrpKSBbZ81.png` or any lambda logo you may find on the web.
+* **Stretch Problem 1** Include the icons. This is not a trivial task.
+* **Stretch Problem 2** After you build out a card, put together some mock data, and create a grid view of multiple cards.`
 
 ## _Project 2 - React Calculator_
 
