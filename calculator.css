@@ -38,11 +38,18 @@ body {
 }
 
 #result {
+  display: flex;
+  flex-direction: column;
   padding: 20px 10px;
   text-align: right;
   grid-area: result;
   background-color: darkslategray;
   color: white;
+}
+
+#result span:first-child {
+  font-size: 1.5rem;
+  margin-bottom: 5px;
 }
 
 #clear {

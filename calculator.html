@@ -65,14 +65,11 @@
 
       addDigit = (event) => {
         let digit = parseInt(event.target.innerHTML);
-        console.log(this.state.lastButton);
         if (this.state.display.toString().length >= 10) { return; }
         if (this.state.lastButton != "digit") {
-          console.log('here');
-          this.setState({ display: 0 });
-          console.log(this.state.display);
-        } 
-        
+          this.setState({ display: 0, lastButton: "digit" }, () => this.addDigit({ target: { innerHTML: digit } }));
+          return;
+        }
         if (this.state.display != 0) {
           this.setState({ display: this.state.display * 10 + digit });
         } else {
@@ -94,33 +91,43 @@
       }
 
       performOperation(operand) {
-        let result;
+        let result = this.state.pushed;
         switch (operand) {
           case "divide":
-            result = this.state.pushed / this.state.display;
+            result /= this.state.display;
+            result = result.toFixed(3);
             break;
           case "multiply":
-            result = this.state.pushed * this.state.display;
+            result *= this.state.display;
             break;
           case "add":
-            result = this.state.pushed + this.state.display;
+            result += this.state.display;
             break;
           case "subtract":
-            result = this.state.pushed - this.state.display;
+            result -= this.state.display;
+            break;
+          case "equals":
+            result = this.state.display;
             break;
         }
         this.setState({ display: result });
+      }
+
+      clear = () => {
+        if (this.state.display == 0) {
+          this.setState({ pushed: 0 });
+        }
+        this.setState({ display: 0 });
       }
 
       render() {
         return (
           <div className="calculator">
             <div id="result">
-              {this.state.display}
+              <span>{this.state.pushed}</span>
+              <span>{this.state.display}</span>
             </div>
-            <div id="clear" className="button button--white">
-              clear
-            </div>
+            <Button id="clear" color="white" onClick={this.clear} text="Clear" />
             {this.digits}
             {this.operands}
         </div>
