@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="calculator.css">
+  <title>Document</title>
+</head>
+<body>
+  <div id="target"></div>
+  <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+  <script crossorigin src="https://unpkg.com/babel-standalone@6.26.0/babel.js"></script>
+
+  <script type="text/babel">
+
+    class Calculator extends React.Component {
+      constructor(props) {
+        super(props);
+        this.state = {
+          pushed: 0,
+          display: 0,
+          lastOperand: "equals",
+          lastButton: "equals"
+        };
+
+        this.digits = [
+          [0, "zero"],
+          [1, "one"],
+          [2, "two"],
+          [3, "three"],
+          [4, "four"], 
+          [5, "five"],
+          [6, "six"],
+          [7, "seven"],
+          [8, "eight"],
+          [9, "nine"]
+        ].map((digit) => {
+          return (
+            <Button 
+              id={digit[1]} 
+              color="white" 
+              text={digit[0]} 
+              onClick={this.addDigit} />
+          );   
+        });
+
+        this.operands = [
+          ["÷", "divide"],
+          ["×", "multiply"],
+          ["−", "subtract"],
+          ["+", "add"],
+          ["=", "equals"]
+        ].map((operand) => {
+          return (
+            <Button 
+              id={operand[1]}
+              color="red"
+              text={operand[0]}
+              onClick={this.pushOperand} />
+          );
+        });
+      }
+
+      addDigit = (event) => {
+        let digit = parseInt(event.target.innerHTML);
+        console.log(this.state.lastButton);
+        if (this.state.display.toString().length >= 10) { return; }
+        if (this.state.lastButton != "digit") {
+          console.log('here');
+          this.setState({ display: 0 });
+          console.log(this.state.display);
+        } 
+        
+        if (this.state.display != 0) {
+          this.setState({ display: this.state.display * 10 + digit });
+        } else {
+          this.setState({ display: this.state.display + digit });
+        }
+      }
+
+      pushOperand = (event) => {
+        let operand = event.target.id;
+        if (this.state.lastOperand != "equals" || operand == "equals") {
+          this.performOperation(this.state.lastOperand);
+        }
+
+        this.setState({ 
+          pushed: this.state.display, 
+          lastOperand: operand,
+          lastButton: operand 
+        });
+      }
+
+      performOperation(operand) {
+        let result;
+        switch (operand) {
+          case "divide":
+            result = this.state.pushed / this.state.display;
+            break;
+          case "multiply":
+            result = this.state.pushed * this.state.display;
+            break;
+          case "add":
+            result = this.state.pushed + this.state.display;
+            break;
+          case "subtract":
+            result = this.state.pushed - this.state.display;
+            break;
+        }
+        this.setState({ display: result });
+      }
+
+      render() {
+        return (
+          <div className="calculator">
+            <div id="result">
+              {this.state.display}
+            </div>
+            <div id="clear" className="button button--white">
+              clear
+            </div>
+            {this.digits}
+            {this.operands}
+        </div>
+        );
+      }
+    };
+
+    class Button extends React.Component {
+      constructor(props) {
+        super(props);
+        this.state = props;
+      }
+
+      render() {
+        return (
+          <div
+            id={this.state.id}
+            className={`button button--${this.state.color}`} 
+            onClick={this.state.onClick}>
+              {this.state.text}
+          </div>
+        );
+      }
+    }
+
+    ReactDOM.render(<Calculator />, document.getElementById('target'));
+  </script>
+</body>
+</html>
