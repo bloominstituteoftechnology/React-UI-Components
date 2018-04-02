@@ -1,0 +1,37 @@
+.container {  
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    box-sizing: border-box;
+    max-width: 650px;
+  }
+  
+  .ref {
+    align-self: center;
+    margin: 0;
+    font-size: 20px;
+    padding-right: 10px;
+  }
+  
+  .content {
+    display: inline-block;
+    max-width: 500px;
+  }
+  
+  .heading {
+    display: flex;
+    align-items: center;
+  }
+  
+  img {
+      max-width: 500px;
+  }
+  
+  .logo {
+    display: inline-block;
+    max-width: 60px;
+  }
+  
+  card {
+      margin-left: 173.5px
+  }

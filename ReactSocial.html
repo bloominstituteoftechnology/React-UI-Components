@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link href="./bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+  <div id="target"></div>
+  <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+  <script crossorigin src="https://unpkg.com/babel-standalone@6.26.0/babel.js"></script>
+
+  <script type="text/babel">
+
+    const Header = props => {
+      return (
+        <div className='heading'>
+          <h1 className='ref'>
+            {props.text}
+          </h1>
+          <p className='ref'>
+           {props.refText}
+          </p>
+         </div>
+       );
+    };
+
+    const Body = props => {
+      return <p>{props.text}</p>;
+    };
+
+    const Image = props => {
+      return(
+        <div> 
+         <img className="logo" src={props.src} /> 
+        </div>
+      );
+    };
+
+    const Content = props => {
+      console.log('props', props);
+      return (
+        <div className='content'>
+          <Header text={props.headText} refText={props.refText} />
+          <Body text={props.bodyText} />
+        </div>
+      );
+    };   
+
+    const Boot = props => {
+      return (
+        <div className="card">
+          <img className="card-img-top" src="https://ibin.co/3wnC6SgIOJud.png" alt="Card image cap" />
+          <div className="card-body">
+            <p className="card-text">React makes it painless to create interactive uls. Design simple views for each state in your application.</p>
+            <a href="https://reactjs.org/" target="_blank" className="card-link">reactjs.org</a>
+          </div>
+        </div>
+      );
+    };
+
+    const App = () => { 
+      return (        
+        <div className="container">
+          <div className="logo">
+            <Image src='https://ibin.co/3whrpKSBbZ81.png'/>
+          </div>
+          <div className='content'> 
+            <Content headText='Lambda School' bodyText='Lets learn React by building simple interfaces with components. Dont try to overthink it, just keep it simple and have fun. Once you feel comfortable using components you are well on your way to mastering React!' refText='@LambdaSchool - 26 Jan'/>
+            <Boot />
+          </div>
+        </div>
+      );
+    };
+
+    ReactDOM.render(<App />, document.getElementById("target"));
+  </script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
