@@ -29,3 +29,4 @@
 
 
 * https://codepen.io/jekm321/pen/yKEoZK  Project 1 - Social Card
+* https://codepen.io/jekm321/pen/OvEQoQ?editors=0110
