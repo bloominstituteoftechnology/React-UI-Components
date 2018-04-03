@@ -1,25 +1,25 @@
 const cardProps = [
   {
-  title: "Lambda School",
-  handle: "lambdaschool",
-  date: "26 jan",
-  image: {
-    src: "https://ibin.co/3whrpKSBbZ81.png",
-    alt: "lambda logo"
-  },
+    title: "Lambda School",
+    handle: "lambdaschool",
+    date: "26 jan",
+    image: {
+      src: "https://ibin.co/3whrpKSBbZ81.png",
+      alt: "lambda logo"
+    },
 
-  message:
-    "Let's learn React by building simple interfaces with components. Don't try to overthink it, just keep it simple and have fun. Once you feel comfortable using components you are well on your way to mastering React!",
-  hero: {
-    title: "Get started with React",
     message:
-      "React makes it painless to create interactive UIs. Design simple view for eacth state in your application.",
-    url: "reactjs.org",
-    img: {
-      src: "https://ibin.co/3wnC6SgIOJud.png",
-      alt: "reactjs logo"
+      "Let's learn React by building simple interfaces with components. Don't try to overthink it, just keep it simple and have fun. Once you feel comfortable using components you are well on your way to mastering React!",
+    hero: {
+      title: "Get started with React",
+      message:
+        "React makes it painless to create interactive UIs. Design simple view for eacth state in your application.",
+      url: "reactjs.org",
+      img: {
+        src: "https://ibin.co/3wnC6SgIOJud.png",
+        alt: "reactjs logo"
+      }
     }
-  }
   }
 ];
 
@@ -49,11 +49,83 @@ const Card = ({ ...props }) => (
   </div>
 );
 
+// god this looks ugly...
+const Calculator = ({ ...props }) => (
+  <div className="Calc--container">
+    <div alt="current" className="Calc--buttons Calc--current">
+      0
+    </div>
+    <div alt="clear" className="Calc--buttons Calc--clear">
+      clear
+    </div>
+    <div alt="divide" className="Calc--buttons Calc--funcs Calc--funcs__divide">
+      /
+    </div>
+    <div
+      alt="multiply"
+      className="Calc--buttons Calc--funcs Calc--funcs__multiply"
+    >
+      x
+    </div>
+    <div
+      alt="subtract"
+      className="Calc--buttons Calc--funcs Calc--funcs__subtract"
+    >
+      -
+    </div>
+    <div alt="add" className="Calc--buttons Calc--funcs Calc--funcs__add">
+      +
+    </div>
+    <div alt="equal" className="Calc--buttons Calc--funcs Calc--funcs__equal">
+      =
+    </div>
+    <div
+      alt="seven"
+      className="Calc--buttons Calc--numbers Calc--numbers__seven"
+    >
+      7
+    </div>
+    <div
+      alt="eight"
+      className="Calc--buttons Calc--numbers Calc--numbers__eight"
+    >
+      8
+    </div>
+    <div alt="nine" className="Calc--buttons Calc--numbers Calc--numbers__nine">
+      9
+    </div>
+    <div alt="four" className="Calc--buttons Calc--numbers Calc--numbers__four">
+      4
+    </div>
+    <div alt="five" className="Calc--buttons Calc--numbers Calc--numbers__five">
+      5
+    </div>
+    <div alt="six" className="Calc--buttons Calc--numbers Calc--numbers__six">
+      6
+    </div>
+    <div alt="one" className="Calc--buttons Calc--numbers Calc--numbers__one">
+      1
+    </div>
+    <div alt="two" className="Calc--buttons Calc--numbers Calc--numbers__two">
+      2
+    </div>
+    <div
+      alt="three"
+      className="Calc--buttons Calc--numbers Calc--numbers__three"
+    >
+      3
+    </div>
+    <div alt="zero" className="Calc--buttons Calc--numbers Calc--numbers__zero">
+      0
+    </div>
+  </div>
+);
+
 const App = () => {
   return (
     <div>
       {cardProps.map(card => <Card {...card} />)}
-      <div className="Calc--container" />
+      <Calculator />
     </div>
   );
 };
