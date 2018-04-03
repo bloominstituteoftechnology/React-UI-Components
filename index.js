@@ -49,11 +49,6 @@ const Card = ({ ...props }) => (
   </div>
 );
 
-const Calc = {
-  current: "0",
-  total: 0
-};
-
 // functional programming wooOoOOOOoOoO
 // Currying: https://www.youtube.com/watch?v=iZLP4qOwY8I
 const getTotal = func => num => func(num);
@@ -70,89 +65,154 @@ const addBy = _By(add),
   divideBy = _By(divide);
 
 // god this looks ugly...
-const Calculator = ({ ...props }) => (
+const CalculatorLayout = () => (
   <div className="Calc--container">
-    <div alt="current" className="Calc--buttons Calc--current">
-      {props.current}
-    </div>
-    <div alt="clear" className="Calc--buttons Calc--clear">
-      clear
-    </div>
-    <div alt="divide" className="Calc--buttons Calc--funcs Calc--funcs__divide">
-      /
-    </div>
-    <div
-      alt="multiply"
-      className="Calc--buttons Calc--funcs Calc--funcs__multiply"
-    >
-      x
-    </div>
-    <div
-      alt="subtract"
-      className="Calc--buttons Calc--funcs Calc--funcs__subtract"
-    >
-      -
-    </div>
-    <div alt="add" className="Calc--buttons Calc--funcs Calc--funcs__add">
-      +
-    </div>
-    <div alt="equal" className="Calc--buttons Calc--funcs Calc--funcs__equal">
-      =
-    </div>
-    <div
-      alt="seven"
-      onClick={e =>
-        console.log(
-          Object.assign(props, {
-            current: props.current + e.target.textContent
-          })
-        )
-      }
-      className="Calc--buttons Calc--numbers Calc--numbers__seven"
-    >
-      7
-    </div>
-    <div
-      alt="eight"
-      className="Calc--buttons Calc--numbers Calc--numbers__eight"
-    >
-      8
-    </div>
-    <div alt="nine" className="Calc--buttons Calc--numbers Calc--numbers__nine">
-      9
-    </div>
-    <div alt="four" className="Calc--buttons Calc--numbers Calc--numbers__four">
-      4
-    </div>
-    <div alt="five" className="Calc--buttons Calc--numbers Calc--numbers__five">
-      5
-    </div>
-    <div alt="six" className="Calc--buttons Calc--numbers Calc--numbers__six">
-      6
-    </div>
-    <div alt="one" className="Calc--buttons Calc--numbers Calc--numbers__one">
-      1
-    </div>
-    <div alt="two" className="Calc--buttons Calc--numbers Calc--numbers__two">
-      2
-    </div>
-    <div
-      alt="three"
-      className="Calc--buttons Calc--numbers Calc--numbers__three"
-    >
-      3
-    </div>
-    <div alt="zero" className="Calc--buttons Calc--numbers Calc--numbers__zero">
-      0
-    </div>
+    {/* the consumer here makes all my state available inside the callback */}
+    <CalcContext.Consumer>
+      {context => (
+        <React.Fragment>
+          <div alt="current" className="Calc--buttons Calc--current">
+            {context.state.current}
+          </div>
+          <div alt="clear" className="Calc--buttons Calc--clear">
+            clear
+          </div>
+          <div
+            alt="divide"
+            className="Calc--buttons Calc--funcs Calc--funcs__divide"
+          >
+            /
+          </div>
+          <div
+            alt="multiply"
+            className="Calc--buttons Calc--funcs Calc--funcs__multiply"
+          >
+            x
+          </div>
+          <div
+            alt="subtract"
+            className="Calc--buttons Calc--funcs Calc--funcs__subtract"
+          >
+            -
+          </div>
+          <div alt="add" className="Calc--buttons Calc--funcs Calc--funcs__add">
+            +
+          </div>
+          <div
+            alt="equal"
+            className="Calc--buttons Calc--funcs Calc--funcs__equal"
+          >
+            =
+          </div>
+          <div
+            alt="seven"
+            onClick={e => context.onNumber(e.target.textContent)}
+            className="Calc--buttons Calc--numbers Calc--numbers__seven"
+          >
+            7
+          </div>
+          <div
+            alt="eight"
+            className="Calc--buttons Calc--numbers Calc--numbers__eight"
+          >
+            8
+          </div>
+          <div
+            alt="nine"
+            className="Calc--buttons Calc--numbers Calc--numbers__nine"
+          >
+            9
+          </div>
+          <div
+            alt="four"
+            className="Calc--buttons Calc--numbers Calc--numbers__four"
+          >
+            4
+          </div>
+          <div
+            alt="five"
+            className="Calc--buttons Calc--numbers Calc--numbers__five"
+          >
+            5
+          </div>
+          <div
+            alt="six"
+            className="Calc--buttons Calc--numbers Calc--numbers__six"
+          >
+            6
+          </div>
+          <div
+            alt="one"
+            className="Calc--buttons Calc--numbers Calc--numbers__one"
+          >
+            1
+          </div>
+          <div
+            alt="two"
+            className="Calc--buttons Calc--numbers Calc--numbers__two"
+          >
+            2
+          </div>
+          <div
+            alt="three"
+            className="Calc--buttons Calc--numbers Calc--numbers__three"
+          >
+            3
+          </div>
+          <div
+            alt="zero"
+            className="Calc--buttons Calc--numbers Calc--numbers__zero"
+          >
+            0
+          </div>
+        </React.Fragment>
+      )}
+    </CalcContext.Consumer>
   </div>
 );
+
+// learn how to context
+// https://www.youtube.com/watch?v=XLJN4JfniH4
+const CalcContext = React.createContext();
+
+// this is where the brain of the operation is
+class CalcProvider extends React.Component {
+  state = {
+    current: "0",
+    total: 0
+  };
+  render() {
+    return (
+      <CalcContext.Provider
+        value={{
+          state: this.state,
+          onNumber: num => this.setState({ current: this.state.current + num })
+        }}
+      >
+        {this.props.children}
+      </CalcContext.Provider>
+    );
+  }
+}
+class Calculator extends React.Component {
+  constructor(props) {
+    super(props);
+  }
+
+  render() {
+    return (
+      <CalcProvider>
+        <CalculatorLayout />
+      </CalcProvider>
+    );
+  }
+}
 
 const App = () => {
   return (
     <div>
       {cardProps.map(card => <Card {...card} />)}
-      <Calculator {...Calc} />
+      <Calculator />
     </div>
   );
 };
