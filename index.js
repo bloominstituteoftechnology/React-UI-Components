@@ -101,6 +101,13 @@ const Calculator = ({ ...props }) => (
     </div>
     <div
       alt="seven"
+      onClick={e =>
+        console.log(
+          Object.assign(props, {
+            current: props.current + e.target.textContent
+          })
+        )
+      }
       className="Calc--buttons Calc--numbers Calc--numbers__seven"
     >
       7
@@ -139,12 +146,6 @@ const Calculator = ({ ...props }) => (
       0
     </div>
   </div>
-);
-
-[...document.querySelectorAll(".Calc--numbers")].map(node =>
-  node.addEventListener("click", e =>
-    console.log(Object.assign(Calc, { current: Calc.current + e.target.innerHtml }))
-  )
 );
 
 const App = () => {
