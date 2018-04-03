@@ -49,11 +49,31 @@ const Card = ({ ...props }) => (
   </div>
 );
 
+const Calc = {
+  current: "0",
+  total: 0
+};
+
+// functional programming wooOoOOOOoOoO
+// Currying: https://www.youtube.com/watch?v=iZLP4qOwY8I
+const getTotal = func => num => func(num);
+const add = num => numNext => getTotal(() => num + numNext);
+const subtract = num => numNext => getTotal(() => num - numNext);
+const multiply = num => numNext => getTotal(() => num * numNext);
+const divide = num => numNext => getTotal(() => num / numNext);
+
+const _By = _ => num => _(num);
+
+const addBy = _By(add),
+  subtractBy = _By(subtract),
+  multiplyBy = _By(multiply),
+  divideBy = _By(divide);
+
 // god this looks ugly...
 const Calculator = ({ ...props }) => (
   <div className="Calc--container">
     <div alt="current" className="Calc--buttons Calc--current">
-      0
+      {props.current}
     </div>
     <div alt="clear" className="Calc--buttons Calc--clear">
       clear
@@ -125,7 +145,7 @@ const App = () => {
   return (
     <div>
       {cardProps.map(card => <Card {...card} />)}
-      <Calculator />
+      <Calculator {...Calc} />
     </div>
   );
 };
