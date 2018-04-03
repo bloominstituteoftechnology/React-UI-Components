@@ -178,7 +178,7 @@ const CalcContext = React.createContext();
 // this is where the brain of the operation is
 class CalcProvider extends React.Component {
   state = {
-    current: "0",
+    current: 0,
     total: 0
   };
   render() {
@@ -186,7 +186,8 @@ class CalcProvider extends React.Component {
       <CalcContext.Provider
         value={{
           state: this.state,
-          onNumber: num => this.setState({ current: this.state.current + num })
+          onNumber: num =>
+            this.setState({ current: +(this.state.current.toString() + num) })
         }}
       >
         {this.props.children}
