@@ -141,6 +141,12 @@ const Calculator = ({ ...props }) => (
   </div>
 );
 
+[...document.querySelectorAll(".Calc--numbers")].map(node =>
+  node.addEventListener("click", e =>
+    console.log(Object.assign(Calc, { current: Calc.current + e.target.innerHtml }))
+  )
+);
+
 const App = () => {
   return (
     <div>
