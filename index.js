@@ -172,7 +172,9 @@ class CalcProvider extends React.Component {
               current: 0
             }),
           onEqual: (f, num) =>
-            this.setState({ current: f(this.state.total(num)) }),
+            typeof this.state.total === "function"
+              ? this.setState({ current: f(this.state.total(num)) })
+              : this.setState({ current: 0 }),
           onClear: e => this.setState({ current: 0, total: 0 })
         }}
       >
