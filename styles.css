@@ -1,44 +1,44 @@
-.container {
-    max-width: 600px;
-    width: 100%;
-    display: grid;
-    grid-template-columns: 10% 1fr;
-  }
-  
-  .logo {
-    width: 80%;
-  }
-  
-  .Card {
-    display: grid;
-    grid-template-areas:
-      "title handle date ."
-      "message message message message"
-      "hero hero hero hero"
-      "hero hero hero hero"
-      "hero hero hero hero"
-  }
-  
-  .Card--title {
-    grid-area: title;
-  }
-  
-  .Card--handle {
-    grid-area: handle;
-  }
-  
-  .Card--date {
-    grid-area: date;
-  }
+.Card--container {
+  max-width: 600px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 10% 1fr;
+}
 
-  .Card--message {
-    grid-area: message;
-  }
-  
-  .Hero {
-    grid-area: hero;
-  }
-  
-  .Hero--image {
-    width: 100%;
-  }
+.Card--logo {
+  width: 80%;
+}
+
+.Card {
+  display: grid;
+  grid-template-areas:
+    "title handle date ."
+    "message message message message"
+    "hero hero hero hero"
+    "hero hero hero hero"
+    "hero hero hero hero";
+}
+
+.Card--title {
+  grid-area: title;
+}
+
+.Card--handle {
+  grid-area: handle;
+}
+
+.Card--date {
+  grid-area: date;
+}
+
+.Card--message {
+  grid-area: message;
+}
+
+.Hero {
+  grid-area: hero;
+}
+
+.Hero--image {
+  width: 100%;
+}
