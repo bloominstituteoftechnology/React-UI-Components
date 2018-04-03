@@ -1,4 +1,5 @@
-const cardProps = {
+const cardProps = [
+  {
   title: "Lambda School",
   handle: "lambdaschool",
   date: "26 jan",
@@ -19,7 +20,8 @@ const cardProps = {
       alt: "reactjs logo"
     }
   }
-};
+  }
+];
 
 const Card = ({ ...props }) => (
   <div className="Card--container">
@@ -50,7 +52,7 @@ const Card = ({ ...props }) => (
 const App = () => {
   return (
     <div>
-      <Card {...cardProps} />
+      {cardProps.map(card => <Card {...card} />)}
       <div className="Calc--container" />
     </div>
   );
