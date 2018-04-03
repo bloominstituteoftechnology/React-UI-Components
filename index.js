@@ -62,7 +62,23 @@ const _By = _ => num => _(num);
 const addBy = _By(add),
   subtractBy = _By(subtract),
   multiplyBy = _By(multiply),
-  divideBy = _By(divide);
+  divideBy = _By(divide),
+  equalBy = func => func();
+
+const funcs = {
+  addBy,
+  subtractBy,
+  multiplyBy,
+  divideBy,
+  equalBy
+};
+
+const calcDictionary = {
+  divide: "/",
+  multiply: "x",
+  subtract: "-",
+  add: "+"
+};
 
 // god this looks ugly...
 const CalculatorLayout = () => (
@@ -74,97 +90,59 @@ const CalculatorLayout = () => (
           <div alt="current" className="Calc--buttons Calc--current">
             {context.state.current}
           </div>
-          <div alt="clear" className="Calc--buttons Calc--clear">
+          <div
+            alt="clear"
+            onClick={e => context.onClear()}
+            className="Calc--buttons Calc--clear"
+          >
             clear
           </div>
           <div
-            alt="divide"
-            className="Calc--buttons Calc--funcs Calc--funcs__divide"
-          >
-            /
-          </div>
-          <div
-            alt="multiply"
-            className="Calc--buttons Calc--funcs Calc--funcs__multiply"
-          >
-            x
-          </div>
-          <div
-            alt="subtract"
-            className="Calc--buttons Calc--funcs Calc--funcs__subtract"
-          >
-            -
-          </div>
-          <div alt="add" className="Calc--buttons Calc--funcs Calc--funcs__add">
-            +
-          </div>
-          <div
             alt="equal"
-            className="Calc--buttons Calc--funcs Calc--funcs__equal"
+            className={`Calc--buttons Calc--funcs Calc--funcs__equal`}
+            key="equal"
+            onClick={e =>
+              context.onEqual(funcs[`equalBy`], context.state.current)
+            }
           >
             =
           </div>
-          <div
-            alt="seven"
-            onClick={e => context.onNumber(e.target.textContent)}
-            className="Calc--buttons Calc--numbers Calc--numbers__seven"
-          >
-            7
-          </div>
-          <div
-            alt="eight"
-            className="Calc--buttons Calc--numbers Calc--numbers__eight"
-          >
-            8
-          </div>
-          <div
-            alt="nine"
-            className="Calc--buttons Calc--numbers Calc--numbers__nine"
-          >
-            9
-          </div>
-          <div
-            alt="four"
-            className="Calc--buttons Calc--numbers Calc--numbers__four"
-          >
-            4
-          </div>
-          <div
-            alt="five"
-            className="Calc--buttons Calc--numbers Calc--numbers__five"
-          >
-            5
-          </div>
-          <div
-            alt="six"
-            className="Calc--buttons Calc--numbers Calc--numbers__six"
-          >
-            6
-          </div>
-          <div
-            alt="one"
-            className="Calc--buttons Calc--numbers Calc--numbers__one"
-          >
-            1
-          </div>
-          <div
-            alt="two"
-            className="Calc--buttons Calc--numbers Calc--numbers__two"
-          >
-            2
-          </div>
-          <div
-            alt="three"
-            className="Calc--buttons Calc--numbers Calc--numbers__three"
-          >
-            3
-          </div>
-          <div
-            alt="zero"
-            className="Calc--buttons Calc--numbers Calc--numbers__zero"
-          >
-            0
-          </div>
+          {/* make function buttons */}
+          {Object.keys(calcDictionary).map(func => (
+            <div
+              alt={func}
+              className={`Calc--buttons Calc--funcs Calc--funcs__${func}`}
+              key={func}
+              onClick={e =>
+                context.onFunc(funcs[`${func}By`], context.state.current)
+              }
+            >
+              {calcDictionary[func]}
+            </div>
+          ))}
+
+          {/* programmatically make calc numb buttons */}
+          {[
+            "zero",
+            "one",
+            "two",
+            "three",
+            "four",
+            "five",
+            "six",
+            "seven",
+            "eight",
+            "nine"
+          ].map((word, i) => (
+            <div
+              alt={word}
+              onClick={e => context.onNumber(e.target.textContent)}
+              className={`Calc--buttons Calc--numbers Calc--numbers__${word}`}
+              key={i}
+            >
+              {i}
+            </div>
+          ))}
         </React.Fragment>
       )}
     </CalcContext.Consumer>
@@ -187,7 +165,15 @@ class CalcProvider extends React.Component {
         value={{
           state: this.state,
           onNumber: num =>
-            this.setState({ current: +(this.state.current.toString() + num) })
+            this.setState({ current: +(this.state.current.toString() + num) }),
+          onFunc: (f, num) =>
+            this.setState({
+              total: f(num),
+              current: 0
+            }),
+          onEqual: (f, num) =>
+            this.setState({ current: f(this.state.total(num)) }),
+          onClear: e => this.setState({ current: 0, total: 0 })
         }}
       >
         {this.props.children}
@@ -195,24 +181,17 @@ class CalcProvider extends React.Component {
     );
   }
 }
-class Calculator extends React.Component {
-  constructor(props) {
-    super(props);
-  }
 
-  render() {
-    return (
-      <CalcProvider>
-        <CalculatorLayout />
-      </CalcProvider>
-    );
-  }
-}
+const Calculator = () => (
+  <CalcProvider>
+    <CalculatorLayout />
+  </CalcProvider>
+);
 
 const App = () => {
   return (
     <div>
-      {cardProps.map(card => <Card {...card} />)}
+      {cardProps.map(card => <Card {...card} key={`card-${card.title}`} />)}
       <Calculator />
     </div>
   );
