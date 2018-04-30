@@ -26,3 +26,17 @@
 * Now that you've been building out your `Social Card` use the `Project-2.png` file and [this codepen](https://codepen.io/lambdaschool/pen/xWWMzg) to build out all the components you need to build out a calculator that looks much like the one in the png.
 
 * **Stretch Problem 1** After you build out the calculator, make all of the buttons work. You have a lot of knowledge already to be able to achieve this. However feel free to research into it as much as you need.
+
+
+
+## _REACT Pargraph 
+* React is a JavaScript library for building user interfaces. React allows you to describe how your app should be displayed in a very easy to understand way. It also helps eliminate the complexity that comes with updating your DOM elements when the user interacts with your application. React provides a new way to think about building web applications and will change the way you think about interactivity on the web.
+
+
+## _Project 1 - Social Card_Code-Pen
+* https://codepen.io/jaklundun/pen/ELWmpQ 
+
+## _Project 2 - React Calculator_Code-Pen
+* https://codepen.io/jaklundun/pen/WJpZMQ 
+
+
