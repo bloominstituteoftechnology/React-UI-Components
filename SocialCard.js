@@ -70,4 +70,4 @@ const App = () => {
       </div>
   )};
   
-  ReactDOM.render(<App />, document.getElementById('target'));
+  ReactDOM.render(<App />, document.getElementById('social-card'));
