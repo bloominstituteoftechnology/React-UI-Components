@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  color: #14171a;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+}
+.tweet {
+  max-width: 600px;
+  padding: 8px;
+}
+.tweet-wrapper {
+  margin-left: 60px
+}
+.tweet-header {
+  display: flex;
+  position: relative;
+}
+.tweet-header .avatar {
+  height: 46px;
+  left: -56px;
+  position: absolute;
+  width: 46px;
+}
+.tweet-header .username,
+.tweet-header .timestamp {
+  color: #8a98a5;
+}
+.tweet-header .username {
+  margin: 0 8px;
+}
+.tweet-header .timestamp:before {
+  content:'\2022';
+  margin-right: 8px;
+}
+.media-card {
+  border: 1px solid #e9ebec;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.media-card a {
+  color: #14171a;
+  text-decoration: none;
+}
+.media-card img {
+  max-width: 100%;
+}
+.media-card-wrapper {
+  margin: 12px;
+}
+.media-card-wrapper .title {
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+}
+.media-card-wrapper .description {
+  margin: 8px 0;
+  padding: 0;
+}
+.media-card-wrapper .link {
+  color: #8a98a5;
+  margin: 0;
+  padding: 0;
+}
