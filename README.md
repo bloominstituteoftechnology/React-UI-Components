@@ -1,3 +1,12 @@
+https://codepen.io/jggarza5/pen/gzmmBj
+
+https://codepen.io/jggarza5/pen/XqMzrE
+
+React is formidable for creating components and reusing them to quickly build your app and roll it out. Thats what I took from it from creating the calculator front end and I am sure we will add event listeners later as well. 
+so it was done very quickly took 15 mins instead of hours doing it manually.
+
+
+
 # React-UI-Components
 
 * This repository is built for you to be able to gain a fundamental understanding of React Functional Components. There are a few design `.png` files that you'll find inside of the `assets` directory that your tasked to build out into pieces of UI using ReactJS.
