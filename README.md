@@ -1,3 +1,5 @@
+Initial Commit
+
 # React-UI-Components
 
 * This repository is built for you to be able to gain a fundamental understanding of React Functional Components. There are a few design `.png` files that you'll find inside of the `assets` directory that your tasked to build out into pieces of UI using ReactJS.
