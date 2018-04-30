@@ -139,7 +139,6 @@ const Header = () => {
   );
 };
 
-// Main text of tweet
 const TextContainer = props => {
   return (
     <div className="text-container">
@@ -148,10 +147,17 @@ const TextContainer = props => {
   );
 };
 
-// Holds media image, title, description and link
-const MediaCard = () => {
+const MediaCard = props => {
   return (
-    <div>
+    <div className="media-card">
+      <a href={props.mediaUrl} alt={props.mediaTitle}>
+        <img src={prop.mediaImage} alt={prop.mediaTitle}/>
+        <div className="media-card-wrapper">
+          <h2 className="title">{props.mediaTitle}</h2>
+          <p className="description">{props.mediaDescription}</p>
+          <p className="link">{props.mediaUrl}</p>
+        </div>
+      </a>
     </div>
   );
 };
@@ -182,7 +188,7 @@ const Tweet = () => {
       <div className="tweet-wrapper">
         <Header />
         <TextContainer tweetText="Let's learn React by building simple interfaces with components. Don't try to overthink it, just keep it simple and have fun. Once you feel comfortable using components you are well on your way to mastering React!"/>
-        <MediaCard />
+        <MediaCard mediaImage="https://ibin.co/3wnC6SgIOJud.png" mediaUrl="reactjs.org" mediaTitle="Get started with React" mediaDescription="React makes it painless to create interactive UIs. Design simple views for each state in your application."/>
         <Footer />
       </div>
     </div>
