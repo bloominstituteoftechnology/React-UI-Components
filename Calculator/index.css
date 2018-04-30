@@ -1,0 +1,30 @@
+body {
+    background: grey;
+}
+
+button {
+    height: 70px;
+    width: 50px;
+    font-weight: bold;
+    background: white;
+    font-size: 25px;
+}
+
+.container {
+    width: 50%;
+    margin-top: 15px;
+    border: 1px solid black;
+}
+
+.display {
+    height: 70px;
+    justify-content: flex-end;
+    align-items: center;
+    background: #222222;
+    color: white;
+}
+
+.operator {
+    color: white;
+    background: darkred;
+}
