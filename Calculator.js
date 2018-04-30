@@ -25,7 +25,7 @@ const Digit = props => {
 };
 
 const Calculator = () => (
-    <div className="container">
+    <div id="calculator" className="container">
         <h1>Calculator</h1>
             <Display />
         <div className="row">

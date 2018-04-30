@@ -1,0 +1,2 @@
+# What is React
+* React is a JS Libreary that allow us to create interactive UI. It has a focus on Browser optimization, abstracting the 'flow' and 'render' steps through ReactDOM which is in charge of this browser optimization.
