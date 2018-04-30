@@ -110,21 +110,22 @@
 <script type="text/babel">
 const Avatar = props => {
   return (
-    <img src={props.avatarSrc} />
+    <img className="avatar" src={props.avatarSrc} alt={props.fullName}/>
   );
 };
 
-const UserInfo = () => {
+const UserInfo = props => {
   return (
     <div>
+      <span className="full-name"><strong>{props.fullName}</strong></span>
+      <span className="username">@{props.username}</span>
     </div>
   );
 };
 
-const Timestamp = () => {
+const Timestamp = props => {
   return (
-    <div>
-    </div>
+    <span className="timestamp">{props.date}</span>
   );
 };
 
@@ -132,9 +133,9 @@ const Timestamp = () => {
 const Header = () => {
   return (
     <div className="tweet-header">
-      <Avatar avatarSrc="https://ibin.co/3whrpKSBbZ81.png"/>
-      <UserInfo />
-      <Timestamp />
+      <Avatar avatarSrc="https://ibin.co/3whrpKSBbZ81.png" fullName="Lambda School"/>
+      <UserInfo fullName="Lambda School" username="LambdaSchool"/>
+      <Timestamp date="26 jan"/>
     </div>
   );
 };
@@ -178,10 +179,12 @@ const Footer = () => {
 const Tweet = () => {
   return (
     <div className="tweet">
-      <Header />
-      <TextContainer />
-      <MediaCard />
-      <Footer />
+      <div className="tweet-wrapper">
+        <Header />
+        <TextContainer />
+        <MediaCard />
+        <Footer />
+      </div>
     </div>
   );
 };
@@ -196,7 +199,6 @@ const App = () => {
 };
 
 // Mount App to DOM
-// ReactDOM.render(<App />, document.getElementById('target'));
-
+ReactDOM.render(<App />, document.getElementById('target'));
 </script>
 </html>
