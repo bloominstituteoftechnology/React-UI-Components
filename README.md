@@ -26,3 +26,17 @@
 * Now that you've been building out your `Social Card` use the `Project-2.png` file and [this codepen](https://codepen.io/lambdaschool/pen/xWWMzg) to build out all the components you need to build out a calculator that looks much like the one in the png.
 
 * **Stretch Problem 1** After you build out the calculator, make all of the buttons work. You have a lot of knowledge already to be able to achieve this. However feel free to research into it as much as you need.
+
+~~~ Codepen Links ~~~
+Social Card:
+
+https://codepen.io/chris-honda/pen/vjxZRL?editors=0110
+
+
+Calculator:
+
+https://codepen.io/chris-honda/pen/mLWBzY?editors=0110
+
+## _"Challenge: In partners, write a paragraph about what ReactJS is and what problems that it tries to solve. Submit that paragraph to your Project Manager via ~Slack~ GitHub Pull Request." _
+
+ReactJS is a library (not a framework) that allows the developer to create components for easy reuse in simple applications. It is particularly useful for creating an application that needs to be frequently updated, but generally only in content, not in style. For example the social card page that we created should only change images and text, but the layout for each and every card should be the same every time. So, instead of having to create new objects every time you want to create one, React acts as a constructor that allows you to create simple components, style them, and dynamically insert content according to your needs. This saves greatly on the amount of code that has to be written, but it had to be logically sound, or else it will not work at all.
