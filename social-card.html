@@ -104,12 +104,12 @@ const Timestamp = props => {
   );
 };
 
-const Header = () => {
+const Header = props => {
   return (
     <div className="tweet-header">
-      <Avatar avatarSrc="https://ibin.co/3whrpKSBbZ81.png" fullName="Lambda School"/>
-      <UserInfo fullName="Lambda School" username="LambdaSchool"/>
-      <Timestamp date="26 jan"/>
+      <Avatar avatarSrc={props.user.avatar} fullName={props.user.fullName}/>
+      <UserInfo fullName={props.user.fullName} username={props.user.username}/>
+      <Timestamp date={props.timestamp}/>
     </div>
   );
 };
@@ -117,7 +117,7 @@ const Header = () => {
 const TextContainer = props => {
   return (
     <div className="text-container">
-      <p>{props.tweetText}</p>
+      <p>{props.message}</p>
     </div>
   );
 };
@@ -125,12 +125,12 @@ const TextContainer = props => {
 const MediaCard = props => {
   return (
     <div className="media-card">
-      <a href={props.mediaUrl} alt={props.mediaTitle}>
-        <img src={props.mediaImage} alt={props.mediaTitle}/>
+      <a href={props.media.url} alt={props.media.title}>
+        <img src={props.media.img} alt={props.media.title}/>
         <div className="media-card-wrapper">
-          <h2 className="title">{props.mediaTitle}</h2>
-          <p className="description">{props.mediaDescription}</p>
-          <p className="link">{props.mediaUrl}</p>
+          <h2 className="title">{props.media.title}</h2>
+          <p className="description">{props.media.description}</p>
+          <p className="link">{props.media.url}</p>
         </div>
       </a>
     </div>
@@ -156,14 +156,13 @@ const Footer = () => {
   );
 };
 
-// Tweet Container
-const Tweet = () => {
+const Tweet = props => {
   return (
     <div className="tweet">
       <div className="tweet-wrapper">
-        <Header />
-        <TextContainer tweetText="Let's learn React by building simple interfaces with components. Don't try to overthink it, just keep it simple and have fun. Once you feel comfortable using components you are well on your way to mastering React!"/>
-        <MediaCard mediaImage="https://ibin.co/3wnC6SgIOJud.png" mediaUrl="reactjs.org" mediaTitle="Get started with React" mediaDescription="React makes it painless to create interactive UIs. Design simple views for each state in your application."/>
+        <Header timestamp={props.timestamp} user={props.user}/>
+        <TextContainer message={props.message}/>
+        <MediaCard media={props.media}/>
         <Footer />
       </div>
     </div>
@@ -171,15 +170,26 @@ const Tweet = () => {
 };
 
 // App Container; can hold multiple tweets
-const App = () => {
+const App = props => {
+  const tweetList = props.tweets.map(tweet => <Tweet key={tweet.id} timestamp={tweet.timestamp} user={tweet.user} message={tweet.message} media={tweet.media}/>);
   return (
     <div>
-      <Tweet />
+      {tweetList}
     </div>
   );
 };
 
+const TWEETS = [
+  {
+    'id': 1,
+    'timestamp': '26 jan',
+    'user' : {'fullName': 'Lambda School', 'username': 'LambdaSchool', 'avatar': 'https://ibin.co/3whrpKSBbZ81.png'},
+    'message' : 'Let\'s learn React by building simple interfaces with components. Don\'t try to overthink it, just keep it simple and have fun. Once you feel comfortable using components you are well on your way to mastering React!',
+    'media' : {'img': 'https://ibin.co/3wnC6SgIOJud.png', 'url': 'reactjs.org', 'title': 'Get started with React', 'description': 'React makes it painless to create interactive UIs. Design simple views for each state in your application.' }
+  }
+];
+
 // Mount App to DOM
-ReactDOM.render(<App />, document.getElementById('target'));
+ReactDOM.render(<App tweets={TWEETS}/>, document.getElementById('target'));
 </script>
 </html>
