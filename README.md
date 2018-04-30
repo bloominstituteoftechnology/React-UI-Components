@@ -26,3 +26,11 @@
 * Now that you've been building out your `Social Card` use the `Project-2.png` file and [this codepen](https://codepen.io/lambdaschool/pen/xWWMzg) to build out all the components you need to build out a calculator that looks much like the one in the png.
 
 * **Stretch Problem 1** After you build out the calculator, make all of the buttons work. You have a lot of knowledge already to be able to achieve this. However feel free to research into it as much as you need.
+
+* Reactjs is a Javascript which is fast and uses the virtual dom.  It will create a new virtual dom and compare to the old virtual dom.  If anything changes then it will only change that component and not the whole rerendering the dom because that is slow.  Example: If a p tag text is change only that p tag will rerender not the whole document.
+
+* Project 1 social card
+* https://codepen.io/xangthao24-the-looper/pen/xjqrVm
+
+* Project 2 calculator
+* https://codepen.io/xangthao24-the-looper/pen/wjJqGm
