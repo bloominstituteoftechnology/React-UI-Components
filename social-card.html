@@ -129,7 +129,6 @@ const Timestamp = props => {
   );
 };
 
-// Holds Avatar, UserInfo and Timestamp
 const Header = () => {
   return (
     <div className="tweet-header">
@@ -141,9 +140,10 @@ const Header = () => {
 };
 
 // Main text of tweet
-const TextContainer = () => {
+const TextContainer = props => {
   return (
-    <div>
+    <div className="text-container">
+      <p>{props.tweetText}</p>
     </div>
   );
 };
@@ -181,7 +181,7 @@ const Tweet = () => {
     <div className="tweet">
       <div className="tweet-wrapper">
         <Header />
-        <TextContainer />
+        <TextContainer tweetText="Let's learn React by building simple interfaces with components. Don't try to overthink it, just keep it simple and have fun. Once you feel comfortable using components you are well on your way to mastering React!"/>
         <MediaCard />
         <Footer />
       </div>
