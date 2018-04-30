@@ -13,10 +13,34 @@
 <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
 <script crossorigin src="https://unpkg.com/babel-standalone@6.26.0/babel.js"></script>
 <script type="text/babel">
-// Holds Avatar, UserInfo and date
-const Header = () => {
+const Avatar = () => {
   return (
     <div>
+    </div>
+  );
+};
+
+const UserInfo = () => {
+  return (
+    <div>
+    </div>
+  );
+};
+
+const Timestamp = () => {
+  return (
+    <div>
+    </div>
+  );
+};
+
+// Holds Avatar, UserInfo and Timestamp
+const Header = () => {
+  return (
+    <div className="tweet-header">
+      <Avatar />
+      <UserInfo />
+      <Timestamp />
     </div>
   );
 };
@@ -37,10 +61,21 @@ const MediaCard = () => {
   );
 };
 
-// Holds action Buttons
+const ActionButton = () => {
+  return (
+    <div>
+    </div>
+  );
+};
+
+// Holds ActionButton's
 const Footer = () => {
   return (
     <div>
+      <ActionButton />
+      <ActionButton />
+      <ActionButton />
+      <ActionButton />
     </div>
   );
 };
