@@ -26,3 +26,12 @@
 * Now that you've been building out your `Social Card` use the `Project-2.png` file and [this codepen](https://codepen.io/lambdaschool/pen/xWWMzg) to build out all the components you need to build out a calculator that looks much like the one in the png.
 
 * **Stretch Problem 1** After you build out the calculator, make all of the buttons work. You have a lot of knowledge already to be able to achieve this. However feel free to research into it as much as you need.
+
+
+<!-- Beginning of Homework Assignment Information -->
+Codepen Link for Project #1: https://codepen.io/anon/pen/KRWWej?editors=0110
+Codepen Link for Project #2: https://codepen.io/anon/pen/VxpzOy?editors=1010
+
+Paragraph Prompt: (Write a paragraph about what ReactJS is and what problems that it tries to solve.)
+
+A: ReactJS is a JavaScript library for building user interfaces by way of small pieces of reusable code called components. The problem that it tries to solve is in regards to typical DOM behavior. DOM operations can be quite taxing on the performance of a website such as Twitter or Facebook that has data that is updating in realtime. React solves this problem by using a virtual DOM to reduce DOM operations/refreshes thus improving performance.
