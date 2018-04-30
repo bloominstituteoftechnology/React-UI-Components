@@ -17,19 +17,24 @@ const Post = () => (
         </div>
     </div>
 );
-const LinkedContent = () => (
+const LinkedContent = (props) => (
     <div className="col-12">
         {/* Hi from 'LinkedContent' */}
         <div className="card">
-            <img className="card-img-top" src="https://ibin.co/3wnC6SgIOJud.png" alt="Card image cap"></img>
+            <img className="card-img-top" src={props.source} alt="Card image cap"></img>
             <div className="card-body">
-                <h3>Get started with React</h3>
-                <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <h3>{props.linkedHeading}</h3>
+                <p className="card-text">{props.linkedContent}</p>
             </div>
         </div>
     </div>
 );
-
+LinkedContent.defaultProps = {
+    // source: "/assets/monkey.jpg", // THIS DOES NOT WORKS
+    source: "https://3.bp.blogspot.com/-_UrZdetzxyM/UbEuGPu7qII/AAAAAAABDIQ/iUgTdwkgBVU/s1600/gorila-branco-afp.jpg",
+    linkedHeading: "A heading shall be here",
+    linkedContent: "Just throw some contend in here."
+}
 const SocialIcons = props => (
     <div className="col-2">
         <figure className="figure">
@@ -53,14 +58,14 @@ const SocialAndShare = () => (
     </div>
 );
 
-const SocialCard = () => (
-    <div className="SocialCard container">
+const SocialCard = (props) => (
+    <div className="SocialCard col-5 container">
     {/* Hello from 'SocialCard' */}
         <div className="row">
             <Post />
         </div>
         <div className="row">
-            <LinkedContent />
+            <LinkedContent source={props.source} linkedHeading={props.linkedHeading} linkedContent={props.linkedContent} />
         </div>
         <div className="row">
             <SocialAndShare />
@@ -72,9 +77,8 @@ const App = () => {
     return (
       <div className="container" >
         <div className="row">
-            <div className="col-4">
-                <SocialCard />
-            </div>
+            <SocialCard source="https://ibin.co/3wnC6SgIOJud.png" linkedHeading="Get started with React" linkedContent="Some quick example text to build on the card title and make up the bulk of the card's content." />
+            <SocialCard surce="" postTitle="" />
         </div>
       </div>
 )};

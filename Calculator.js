@@ -16,13 +16,35 @@ const Result = () => (
     <div className="col-3 text-center">=</div>
 );
 
-const Digit = props => {
+const Digit = function (props) {
     if (props.digit === "0"){
         return (<div className="col-9 text-center">{props.digit}</div>)
     } else {
         return (<div className="col-3 text-center">{props.digit}</div>);
     }
 };
+
+function clicked (e) {
+    console.log('Number Clicked');
+}
+
+// class Digit extends React.Component {
+//     constructor(props) {
+//         super(props);
+//         this.clicked = this.clicked.bind(this);
+//     }
+//     clicked(e) {
+//         console.log(e.target);
+//     }
+//     render() {
+//         if (props.digit === "0"){
+//             return (<div className="col-9 text-center">{props.digit}</div>)
+//         } else {
+//             return (<div className="col-3 text-center">{props.digit}</div>);
+//         }   
+//     }
+    
+// }
 
 const Calculator = () => (
     <div id="calculator" className="container">
