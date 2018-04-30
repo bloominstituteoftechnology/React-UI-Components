@@ -27,7 +27,7 @@ const Digit = props => {
 const Calculator = () => (
     <div id="calculator" className="container">
         <h1>Calculator</h1>
-            <Display />
+        <Display />
         <div className="row">
             <Clear />
             <Operation type="/" />
