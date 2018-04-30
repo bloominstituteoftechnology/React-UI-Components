@@ -1,5 +1,19 @@
 # React-UI-Components
 
+MY WORK
+
+CODEPEN - SOCIAL CARD
+https://codepen.io/udykas/pen/rvywMK/?editors=0110
+
+CODEPEN - CALCULATOR
+https://codepen.io/udykas/pen/mLWBdG?editors=0010
+
+
+PARAGRAPH ON REACT:
+
+
+
+
 * This repository is built for you to be able to gain a fundamental understanding of React Functional Components. There are a few design `.png` files that you'll find inside of the `assets` directory that your tasked to build out into pieces of UI using ReactJS.
 
 ## Instructions
