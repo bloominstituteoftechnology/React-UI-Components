@@ -5,18 +5,112 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Social Card</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      color: #14171a;
+      font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+      font-size: 14px;
+      line-height: 18px;
+    }
+    .tweet {
+      max-width: 600px;
+      padding: 8px;
+    }
+    .tweet-wrapper {
+      margin-left: 60px
+    }
+    .tweet-header {
+      display: flex;
+      position: relative;
+    }
+    .tweet-header .avatar {
+      height: 46px;
+      left: -56px;
+      position: absolute;
+      width: 46px;
+    }
+    .tweet-header .username,
+    .tweet-header .timestamp {
+      color: #8a98a5;
+    }
+    .tweet-header .username {
+      margin: 0 8px;
+    }
+    .tweet-header .timestamp:before {
+      content:'\2022';
+      margin-right: 8px;
+    }
+    .media-card {
+      border: 1px solid #e9ebec;
+      border-radius: 5px;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+    .media-card a {
+      color: #14171a;
+      text-decoration: none;
+    }
+    .media-card img {
+      max-width: 100%;
+    }
+    .media-card-wrapper {
+      margin: 12px;
+    }
+    .media-card-wrapper .title {
+      font-size: 14px;
+      margin: 0;
+      padding: 0;
+    }
+    .media-card-wrapper .description {
+      margin: 8px 0;
+      padding: 0;
+    }
+    .media-card-wrapper .link {
+      color: #8a98a5;
+      margin: 0;
+      padding: 0;
+    }
+  </style>
 </head>
 <body>
   <div id="target"></div>
+
+  <div class="tweet">
+    <div class="tweet-wrapper">
+      <div class="tweet-header">
+        <img class="avatar" src="https://ibin.co/3whrpKSBbZ81.png" />
+        <span class="full-name"><strong>Lambda School</strong></span>
+        <span class="username">@LambdaSchool</span>
+        <span class="timestamp">26 jan</span>
+      </div>
+      <div class="text-container">
+        <p>Let's learn React by building simple interfaces with components. Don't try to overthink it, just keep it simple and have
+          fun. Once you feel comfortable using components you are well on your way to mastering React!</p>
+      </div>
+      <div class="media-card">
+        <a href="reactjs.org">
+          <img src="https://ibin.co/3wnC6SgIOJud.png">
+          <div class="media-card-wrapper">
+            <h2 class="title">Get started with React</h2>
+            <p class="description">React makes it painless to create interactive UIs. Design simple views for each state in your application.</p>
+            <p class="link">reactjs.org</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
 </body>
 <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
 <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
 <script crossorigin src="https://unpkg.com/babel-standalone@6.26.0/babel.js"></script>
 <script type="text/babel">
-const Avatar = () => {
+const Avatar = props => {
   return (
-    <div>
-    </div>
+    <img src={props.avatarSrc} />
   );
 };
 
@@ -38,7 +132,7 @@ const Timestamp = () => {
 const Header = () => {
   return (
     <div className="tweet-header">
-      <Avatar />
+      <Avatar avatarSrc="https://ibin.co/3whrpKSBbZ81.png"/>
       <UserInfo />
       <Timestamp />
     </div>
@@ -102,7 +196,7 @@ const App = () => {
 };
 
 // Mount App to DOM
-ReactDOM.render(<App />, document.getElementById('target'));
+// ReactDOM.render(<App />, document.getElementById('target'));
 
 </script>
 </html>
