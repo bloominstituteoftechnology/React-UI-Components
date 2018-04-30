@@ -10,7 +10,7 @@ https://codepen.io/udykas/pen/mLWBdG?editors=0010
 
 
 PARAGRAPH ON REACT:
-
+React is a javascript library used to build user interfaces.  It allows us to create reusable components. In conjunction with JSX, we can make a web page almost exclusively using one js file, as it allows us to use html code in js. It's often used to develop single page applications.
 
 
 
