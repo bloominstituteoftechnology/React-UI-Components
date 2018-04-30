@@ -1,5 +1,14 @@
 # React-UI-Components
 
+Ja Navey 
+CodePen - Social Card 
+https://codepen.io/JSNavey/pen/aGJyPB
+
+CodePen - Calculator
+https://codepen.io/JSNavey/pen/Zoeaaj
+
+What is React? - The library for creating user interfaces.
+
 * This repository is built for you to be able to gain a fundamental understanding of React Functional Components. There are a few design `.png` files that you'll find inside of the `assets` directory that your tasked to build out into pieces of UI using ReactJS.
 
 ## Instructions
