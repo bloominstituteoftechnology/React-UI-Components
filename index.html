@@ -2,99 +2,62 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <style>
-        .heading {
-            color: palevioletred;
-        }
-
-        .basicButton {
-            height: 40px;
-            width: 100px;
-            border: 1px solid blue;
-            font-size: 18px;
-        }
-
-        .buttonBorderRed {
-            border: 1px solid red;
-        }
-
-        .basicInput {
-            height: 40px;
-            width: 250px;
-            font-size: 18px;
-        }
-    </style>
-</head>
-
-<body>
-    <div id="target"></div>
-
-</body>
-<script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
-<script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
-<script crossorigin src="https://unpkg.com/babel-standalone@6.26.0/babel.js"></script>
-
-<script type="text/babel">
-    // const myElement = React.createElement('h1', { className: 'heading', id: 'heading-id' }, 'Hello World!'); // const myElement
-    =
-    <h1 className="heading" id="heading-id">Hello World!</h1>; const BasicHeader = props =>
-    <h1 className="heading" id="heading-id">{props.cs10IsAwesome}</h1>; // function BasicHeader () { // return
-    <h1 className="heading" id="heading-id">Hello World!</h1>; // } const BasicButton = props => { return
-    <button className={`basicButton ${props.className}`}>{props['text']}</button>; }; BasicButton.defaultProps = { text: 'Button', }; const BasicInput = () =>
-    <input className="basicInput"
-        type="text" placeholder="I am a fancy input" /> // const App = () => ( //
-    <div>
-        //
-        <BasicHeader /> //
-        <BasicButton /> //
-        <BasicInput /> // </div>
-    // ); const MyApp = () => { return (
-    <div>
-        <BasicHeader cs10IsAwesome="Killer Boots Ted!" />
-        <BasicButton className="buttonBorderRed" />
-        <BasicButton text="Button 1" />
-        <BasicButton text="Button 2" />
-        <BasicInput />
-    </div>
-    ); }; // console.log('My element',
-    <App />); ReactDOM.render(
-    <MyApp />, document.getElementById('target')); // components are the building blocks of any react application // Components are
-    encapsulated pieces of UI that we can use to `compose` out web applications using React. // every single react component
-    has access to the props object you just need to make sure you pass in props as a parameter
-</script>
-
-</html>
-
-<!-- <!DOCTYPE html>
-<html>
-
-<head>
-    <title>React UI Components</title>
+<link rel="stylesheet" href="main.css" class="main">
+    <title>Welcome to React</title>
 </head>
 
 <body>
     <div id="root"></div>
 </body>
-<script crossorigin src="https://unpkg.com/react@16/umd/react.development.js">
-</script>
-<script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js">
-</script>
-<script crossorigin src="https://unpkg.com/babel-standalone@6.26.0/babel.js">
-</script>
-<script type="txt/babel">
+<script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+<script crossorigin src="https://unpkg.com/babel-standalone@6.26.0/babel.js"></script>
 
-    const basicHeader = <h1>Welcome to React</h1>
 
-    const App = () => { return (
-    <div>
-        <h1>React Social Card</h1>
-    </div>
-    )}; ReactDom.render(
+<script type="text/babel">
 
-    <App />, document.getElementById('root'));
+    const Logo = () => { 
+        return (
+            <div>
+                <img className="logo" src="https://ibin.co/3whrpKSBbZ81.png" />
+            </div>
+        ); 
+    }    
+    const TopHeader = () => { 
+        return (
+            <div>
+                <h1 className="headerEl">Lambda School<span class="small-text">   @LambdaSchool 26 Jan</span></h1>
+                <p>Let's learn React by building simple interfaces with components. Don't try to overthink it, just keep it simple and
+                have fun. Once you feel comfortable using components you are well on your way to mastering React.
+                </p>
+            </div>
+        ); 
+    } 
+
+    const MiddleImg = () => {
+        return (
+        <div>
+    <img src="https://ibin.co/3wnC6SgIOJud.png"/>
+            </div>
+        )
+    }
+
+     const App = () => { 
+         return (
+            <div className="App">
+                <div className="logo">
+                    <Logo />
+                </div>
+                <div className="top-header">
+                    <TopHeader />
+                </div>
+                <div className="middleImg">
+                <MiddleImg />
+                </div>
+            </div>
+        ); 
+    } 
+    ReactDOM.render(<App />, document.getElementById('root'));
 </script>
-</html> -->
+
+</html>
