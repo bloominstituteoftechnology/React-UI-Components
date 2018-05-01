@@ -30,25 +30,45 @@ class Clear extends React.Component {
     }
 }
 
-const Operation = props => (
-    <div className="col-3 text-center">{props.type}</div>
-);
+/*
+ const Operation = props => (
+     <div className="col-3 text-center">{props.type}</div>
+ );
+*/
+class Operation extends React.Component {
+    constructor(props) {
+        super(props);
+        
+        // OPTION-1 ->THIS WORKS
+            // this.operation = this.operate.bind(this);
+        // OPTION-2 ->THIS WORKS
+            this.toRender = (<div onClick={this.operate.bind(this)} className="col-3 text-center">{this.props.type}</div>);
+    }
+    operate(e) {
+        console.log(e.target.textContent);
+    }
+    render() {
+        // OPTION-1 ->THIS WORKS
+            // return (<div onClick={this.operation} className="col-3 text-center">{this.props.type}</div>);
+        // OPTION-2 ->THIS WORKS
+            return this.toRender;
+    }
+}
 
 const Result = () => (
     <div className="col-3 text-center">=</div>
 );
 
-
-// const Digit = function (props) {
-//     if (props.digit === "0"){
-//         return (<div className="col-9 text-center">{props.digit}</div>)
-//     } else {
-//         return (<div className="col-3 text-center">{props.digit}</div>);
-//     }
-// };
-// Digit.prototype = Object.create(React.Component.prototype);
-
-
+/*
+ const Digit = function (props) {
+     if (props.digit === "0"){
+         return (<div className="col-9 text-center">{props.digit}</div>)
+     } else {
+         return (<div className="col-3 text-center">{props.digit}</div>);
+     }
+ };
+ Digit.prototype = Object.create(React.Component.prototype);
+*/
 class Digit extends React.Component {
     constructor(props) {
         super(props);
