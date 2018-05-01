@@ -30,3 +30,6 @@
 
 
 
+In partners, write a paragraph about what ReactJS is and what problems that it tries to solve. Submit that paragraph to your Project Manager via Slack.
+
+React.js is a Javascript Framework that streamlines DOM Manipulation. It does this by the "Virtual DOM", which allows for real-time and high volume changes to DOM due to a lot of user activity. React was developed by Facebook engineers to accomodate their high-volume DOM interactions. The way the code is streamlined allows for reuse in the same app, or possibly even a seperate app. It is also compatible with other Javascript libraries and frameworks.
