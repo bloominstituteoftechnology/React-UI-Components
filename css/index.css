@@ -1,3 +1,6 @@
+#calculator {
+  max-width: 270px;
+}
 #calculator * {
   border: 1px solid darkgreen;
   cursor: pointer;
