@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    </head>
+<body>
+  <div id="target"></div>
+  <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+  <script crossorigin src="https://unpkg.com/babel-standalone@6.26.0/babel.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+  
+<style>
+    .mein-red {
+        background-color: darkred;
+    }
+    .mein-calc {
+        border: double;
+    }
+    .inset-border-left {
+        border-left: solid gray .5px;
+    }
+    .inset-border-right {
+        border-right: solid gray .5px;
+    }
+    .inset-border-top {
+        border-top: solid gray .5px;
+    }
+    .inset-border-bottom {
+        border-bottom: solid gray .5px;
+    }
+    div {
+        font-size: 4.5rem;
+        font-weight: 200;
+        text-align: center;
+    }
+    .heavy-font {
+        font-weight: 500;
+    }
+    .mein-output {
+        background-color: black;
+        text-align: right;
+    }
+</style>
+<script type="text/babel">
+
+const Calculator = () => {
+   return (
+    <div className="container-fluid mein-calc">
+        <div className="row">
+            <div className="col-12 inset-border-top inset-border-left inset-border-bottom inset-border-right mein-output text-white">0</div>
+        </div>
+        <div className="row">
+            <div className="col-9 inset-border-left">clear</div>
+            <div className="col-3 inset-border-left inset-border-right mein-red text-white">÷</div>
+        </div>
+        <div className="row">
+            <div className="col-3 inset-border-top inset-border-left heavy-font">7</div>
+            <div className="col-3 inset-border-top inset-border-left heavy-font">8</div>
+            <div className="col-3 inset-border-top inset-border-left heavy-font">9</div>
+            <div className="col-3 inset-border-top inset-border-left inset-border-right mein-red text-white">×</div>
+        </div>
+        <div className="row">
+            <div className="col-3 inset-border-top inset-border-left heavy-font">4</div>
+            <div className="col-3 inset-border-top inset-border-left heavy-font">5</div>
+            <div className="col-3 inset-border-top inset-border-left heavy-font">6</div>
+            <div className="col-3 inset-border-top inset-border-left inset-border-right mein-red text-white">−</div>
+        </div>
+        <div className="row">
+            <div className="col-3 inset-border-top inset-border-left heavy-font">1</div>
+            <div className="col-3 inset-border-top inset-border-left heavy-font">2</div>
+            <div className="col-3 inset-border-top inset-border-left heavy-font">3</div>
+            <div className="col-3 inset-border-top inset-border-left inset-border-right mein-red text-white">+</div>
+        </div>
+        <div className="row">
+            <div className="col-9 inset-border-top inset-border-left inset-border-bottom heavy-font">0</div>
+            <div className="col-3 inset-border-top inset-border-left inset-border-bottom inset-border-right mein-red text-white">=</div>
+        </div>
+    </div>
+   )
+}
+
+const App = () => { return (
+        <div>
+            <Calculator />
+        </div>
+    )
+}
+
+ReactDOM.render(<App />, document.getElementById('target'));
+</script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+</body>
+  </html>
