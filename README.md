@@ -26,3 +26,10 @@
 * Now that you've been building out your `Social Card` use the `Project-2.png` file and [this codepen](https://codepen.io/lambdaschool/pen/xWWMzg) to build out all the components you need to build out a calculator that looks much like the one in the png.
 
 * **Stretch Problem 1** After you build out the calculator, make all of the buttons work. You have a lot of knowledge already to be able to achieve this. However feel free to research into it as much as you need.
+
+
+
+
+In partners, write a paragraph about what ReactJS is and what problems that it tries to solve. Submit that paragraph to your Project Manager via Slack.
+
+React.js is a Javascript Framework that streamlines DOM Manipulation. It does this by the "Virtual DOM", which allows for real-time and high volume changes to DOM due to a lot of user activity. React was developed by Facebook engineers to accomodate their high-volume DOM interactions. The way the code is streamlined allows for reuse in the same app, or possibly even a seperate app. It is also compatible with other Javascript libraries and frameworks.
