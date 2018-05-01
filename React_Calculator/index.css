@@ -1,0 +1,64 @@
+html {
+  font-size: 62.5%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#target {
+  width: 100%;
+  max-width: 880px;
+  font-size: 4rem;
+  font-family: Arial;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+}
+
+span {
+  padding: 10px 0 10px 0;
+  align-self: center;
+}
+
+.first-row {
+  background: black;
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+  align-content: center;
+}
+
+.threequarters-box {
+  width: 75%;
+  border-left: 2px solid gray;
+}
+
+.box {
+  width: 25%;
+  border-left: 2px solid gray;
+  border-top: 2px solid gray;
+}
+
+.red-box {
+  font-size: 5rem;
+  color: white;
+  background: rgb(147,29,37);
+  border-right: 2px solid gray;
+}
+
+.last-box {
+  border-top: 2px solid gray;
+  border-bottom: 2px solid gray;
+}
