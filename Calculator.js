@@ -16,13 +16,14 @@ const Result = () => (
     <div className="col-3 text-center">=</div>
 );
 
-const Digit = function (props) {
-    if (props.digit === "0"){
-        return (<div className="col-9 text-center">{props.digit}</div>)
-    } else {
-        return (<div className="col-3 text-center">{props.digit}</div>);
-    }
-};
+// const Digit = function (props) {
+//     if (props.digit === "0"){
+//         return (<div className="col-9 text-center">{props.digit}</div>)
+//     } else {
+//         return (<div className="col-3 text-center">{props.digit}</div>);
+//     }
+// };
+// Digit.prototype = Object.create(React.Component.prototype);
 
 function clicked (e) {
     console.log('Number Clicked');
@@ -36,23 +37,27 @@ function clicked (e) {
   (__) (_)(_)(__)(___/  (___/  \__/   (_)\_)\__/ (__)     \/\/  \__/(_)\_)(_)\_)
  
 */
-// class Digit extends React.Component {
-//     constructor(props) {
-//         super(props);
-//         this.clicked = this.clicked.bind(this);
-//     }
-//     clicked(e) {
-//         console.log(e.target);
-//     }
-//     render() {
-//         if (props.digit === "0"){
-//             return (<div className="col-9 text-center">{props.digit}</div>)
-//         } else {
-//             return (<div className="col-3 text-center">{props.digit}</div>);
-//         }   
-//     }
+class Digit extends React.Component {
+    constructor(props) {
+        super(props);
+
+        this.toRender;
+        if (props.digit === "0"){
+            this.toRender = (<div onClick={this.clicked} className="col-9 text-center">{props.digit}</div>)
+        } else {
+            this.toRender = (<div onClick={this.clicked} className="col-3 text-center">{props.digit}</div>);
+        }
+
+        this.clicked = this.clicked.bind(this);
+    }
+    clicked(e) {
+        console.log(e.target);
+    }
+    render() {
+        return this.toRender;
+    }
     
-// }
+}
 
 const Calculator = () => (
     <div id="calculator" className="container">
