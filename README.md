@@ -1,4 +1,4 @@
-# React-UI-Components
+# React-UI-Components 
 
 * This repository is built for you to be able to gain a fundamental understanding of React Functional Components. There are a few design `.png` files that you'll find inside of the `assets` directory that your tasked to build out into pieces of UI using ReactJS.
 
@@ -26,3 +26,13 @@
 * Now that you've been building out your `Social Card` use the `Project-2.png` file and [this codepen](https://codepen.io/lambdaschool/pen/xWWMzg) to build out all the components you need to build out a calculator that looks much like the one in the png.
 
 * **Stretch Problem 1** After you build out the calculator, make all of the buttons work. You have a lot of knowledge already to be able to achieve this. However feel free to research into it as much as you need.
+
+
+## Brandon
+React is a front-end library built on top of JavaScript. React has the ability to update the DOM through the use of the Virtual DOM. Instead of rerednering an entire elements container, React will only update the necessary element(s) that have occurred from an event such as a click event.
+
+### CodePen 1
+https://codepen.io/bbenefield/pen/gzmWEO?editors=0111
+
+### CodePen 2
+https://codepen.io/bbenefield/pen/MGpEzm?editors=0011
