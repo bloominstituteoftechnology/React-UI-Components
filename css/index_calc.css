@@ -42,3 +42,8 @@
   justify-content: center;
   font-size: 40px;
 }
+
+.opButton {
+  background: red;
+  color: white;
+}
