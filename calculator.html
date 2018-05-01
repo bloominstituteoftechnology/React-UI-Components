@@ -1,0 +1,60 @@
+<!DOCTYPE html> 
+<html lang = 'en'>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA Compatible" content="ie=edge">
+        <title>calculator reacts!</title>
+        <link rel="stylesheet" type="text/css" href="stylecalculator.css">
+    </head>
+    <body>
+        <div id ='target'></div> <!--wrapper div for entire application-->
+        <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script> <!--react 16 library-->
+        <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script> <!--react 16 dom-->
+        <script crossorigin src="https://unpkg.com/babel-standalone@6.26.0/babel.js"></script> <!--babel standalone script-->
+        <script type = "text/babel">
+
+       const Screen = () => <input className="screen" placeholder="input here"></input>;
+       const MyButton = props => <button className = 'button big-width'>{props.text}</button>
+       const MyButton2 = props => <button className = 'button little-width'>{props.text}</button>
+       const OperationButton = props => <button className = 'button operator'>{props.text}</button>
+       const ClearButton = props => <button className = 'button clear'>{props.text}</button>
+       const MyApp = () => { //base component that all components will be wrapped in
+           return (
+               <div>
+               <Screen />
+               <ClearButton text = "Clear"/> 
+               <OperationButton text = "/" />
+
+               <MyButton2 text = "7" />
+               <MyButton2 text = "8"/>
+               <MyButton2 text = "9"/>
+               <OperationButton text = "x"/>
+
+               <MyButton2 text = "4"/>
+               <MyButton2 text = "5"/>
+               <MyButton2 text = "6"/>
+               <OperationButton text = "-"/>
+
+               <MyButton2 text = "1"/>
+               <MyButton2 text = "2"/>
+               <MyButton2 text = "3"/>
+               <OperationButton text = "+"/>
+
+               <MyButton text = "0"/>
+               <OperationButton text = "="/>
+               </div>
+           )
+       }
+       
+       console.log('My element', <MyApp />)
+       ReactDOM.render(<MyApp />, document.getElementById('target'));     //mounting to DOM
+        
+        
+        </script>
+       
+
+    </body>
+</html>
+
+  

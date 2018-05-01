@@ -1,0 +1,39 @@
+#target{
+    width:100%;
+    max-width: 400px;
+}
+.screen{
+    width:99.5%;
+    height: 90px;
+    background-color: black;
+    color: white;
+    align-content: right;
+}
+
+.big-width{
+    width:75%;
+}
+
+.little-width{
+    width:25%;
+}
+
+.button{
+    height: 75px;
+    background-color: white;
+    font-size: 2rem;
+    font-weight: bold;
+}    
+
+.clear{
+    font-family:sans-serif;
+    width:75%;
+    font-weight: normal;
+}
+.operator{
+    width:25%;
+    background-color:darkred;
+    color: white;
+    font-weight: normal;
+}
+
