@@ -37,3 +37,7 @@ got lots of good info from https://reactjs.org/
 
 thats the calculater
 https://codepen.io/april7229/pen/qYrXpq
+
+
+mycard
+https://codepen.io/april7229/pen/XqMegg
