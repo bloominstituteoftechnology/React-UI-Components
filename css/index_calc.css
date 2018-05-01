@@ -1,0 +1,49 @@
+.calculator {
+  width: 456px;
+  height: 596px;
+  background: red;
+  margin: auto;
+  border: solid gray 1px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.display {
+  width: 456px;
+  height: 124px;
+  background: black;
+  color: white;
+  display: flex;
+  font-size: 60px;
+  align-items: center;
+  justify-content: flex-end;
+  border: solid gray 1px;
+}
+
+.bigButton {
+  width: 340px;
+  height: 92px;
+  border: solid gray 1px;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+}
+
+.normalButton {
+  width: 112px;
+  height: 92px;
+  border: solid gray 1px;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+}
+
+.opButton {
+  background: red;
+  color: white;
+}
