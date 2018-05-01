@@ -1,3 +1,11 @@
-.logoImg {
-  width:100%;
+.container {
+  margin:auto;
+  width: 568px;
+  background:yellow;
+}
+
+.lambdaLogo {
+  height: auto;
+  width: 50px;
+  padding: 0 9px;
 }
