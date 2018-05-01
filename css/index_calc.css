@@ -26,6 +26,10 @@
   height: 92px;
   border: solid gray 1px;
   background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
 }
 
 .normalButton {
@@ -33,4 +37,8 @@
   height: 92px;
   border: solid gray 1px;
   background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
 }
