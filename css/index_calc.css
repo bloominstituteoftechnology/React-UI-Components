@@ -1,0 +1,18 @@
+.calculator {
+  width: 454px;
+  height: 596px;
+  background: red;
+  margin: auto;
+  border: solid lightgray 1px;
+}
+
+.display {
+  height: 124px;
+  background: black;
+  color: white;
+  display: flex;
+  font-size: 60px;
+  align-items: center;
+  justify-content: flex-end;
+  border: solid lightgray 1px;
+}
