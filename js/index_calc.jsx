@@ -20,6 +20,23 @@ const App = () => {
   return (
     <div className="calculator">
       <Display />
+
+      <BigButton />
+      <NormalButton />
+      <NormalButton />
+      <NormalButton />
+      <NormalButton />
+      <NormalButton />
+      <NormalButton />
+      <NormalButton />
+      <NormalButton />
+      <NormalButton />
+      <NormalButton />
+      <NormalButton />
+      <NormalButton />
+      <NormalButton />
+      <BigButton />
+      <NormalButton />
     </div>
   );
 }

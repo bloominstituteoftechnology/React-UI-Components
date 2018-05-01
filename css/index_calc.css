@@ -1,12 +1,16 @@
 .calculator {
-  width: 454px;
+  width: 456px;
   height: 596px;
   background: red;
   margin: auto;
-  border: solid lightgray 1px;
+  border: solid gray 1px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
 }
 
 .display {
+  width: 456px;
   height: 124px;
   background: black;
   color: white;
@@ -14,5 +18,19 @@
   font-size: 60px;
   align-items: center;
   justify-content: flex-end;
-  border: solid lightgray 1px;
+  border: solid gray 1px;
+}
+
+.bigButton {
+  width: 340px;
+  height: 92px;
+  border: solid gray 1px;
+  background: white;
+}
+
+.normalButton {
+  width: 112px;
+  height: 92px;
+  border: solid gray 1px;
+  background: white;
 }
