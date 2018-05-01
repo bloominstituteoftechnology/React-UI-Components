@@ -4,9 +4,31 @@ const Display = () => (
     </div>
 );
 
-const Clear = () => (
-    <div className="col-9 text-center">clear</div>
-);
+/*
+ 
+  ____  _  _  __  ___    ___    __     _  _  __  ____    _    _  __  ___   _ _   ___ 
+ (_  _)( )( )(  )/ __)  (   \  /  \   ( \( )/  \(_  _)  ( \/\/ )/  \(  ,) ( ) ) / __)
+   )(   )__(  )( \__ \   ) ) )( () )   )  (( () ) )(     \    /( () ))  \  )  \ \__ \
+  (__) (_)(_)(__)(___/  (___/  \__/   (_)\_)\__/ (__)     \/\/  \__/(_)\_)(_)\_)(___/
+ 
+*/
+// const Clear = function (props) {
+//     this.clear = function () {
+//         console.log('Clear(...) clicked');
+//     }
+//     return (<div onClick={this.clear.bind(this)} className="col-9 text-center">clear</div>)
+// };
+class Clear extends React.Component {
+    constructor(props){
+        super(props);
+    }
+    clear() {
+        console.log('Clear(...) clicked');
+    }
+    render() {
+        return (<div onClick={this.clear.bind(this)} className="col-9 text-center">clear</div>)
+    }
+}
 
 const Operation = props => (
     <div className="col-3 text-center">{props.type}</div>
@@ -15,6 +37,7 @@ const Operation = props => (
 const Result = () => (
     <div className="col-3 text-center">=</div>
 );
+
 
 // const Digit = function (props) {
 //     if (props.digit === "0"){
@@ -25,18 +48,7 @@ const Result = () => (
 // };
 // Digit.prototype = Object.create(React.Component.prototype);
 
-function clicked (e) {
-    console.log('Number Clicked');
-}
 
-/*
- 
-  ____  _  _  __  ___    ___    __     _  _  __  ____    _    _  __  ___   _ _  
- (_  _)( )( )(  )/ __)  (   \  /  \   ( \( )/  \(_  _)  ( \/\/ )/  \(  ,) ( ) ) 
-   )(   )__(  )( \__ \   ) ) )( () )   )  (( () ) )(     \    /( () ))  \  )  \ 
-  (__) (_)(_)(__)(___/  (___/  \__/   (_)\_)\__/ (__)     \/\/  \__/(_)\_)(_)\_)
- 
-*/
 class Digit extends React.Component {
     constructor(props) {
         super(props);
@@ -51,12 +63,11 @@ class Digit extends React.Component {
         this.clicked = this.clicked.bind(this);
     }
     clicked(e) {
-        console.log(e.target);
+        console.log(e.target.textContent);
     }
     render() {
         return this.toRender;
     }
-    
 }
 
 const Calculator = () => (
