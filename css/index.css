@@ -1,11 +1,32 @@
 .container {
   margin:auto;
   width: 568px;
-  background:yellow;
+  display:flex;
 }
 
 .lambdaLogo {
-  height: auto;
+  height: 50px;
   width: 50px;
   padding: 0 9px;
+}
+
+.lambdaHeader {
+  display: inline;
+}
+
+.subHeader {
+  color: gray;
+}
+
+
+.headerContainer {
+  height: 20px;
+}
+
+.middleImg {
+  width: 100%;
+}
+
+.bottomContent {
+  border: lightgray 1px solid;
 }
