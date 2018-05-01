@@ -14,24 +14,28 @@
         <script crossorigin src="https://unpkg.com/babel-standalone@6.26.0/babel.js"></script> <!--babel standalone script-->
         <script type = "text/babel">
 
-       const LambdaLogo = () => <img className="logo" id="logo-id" src= './assets/lambdalogo.jpg'/>; //these
-       const ThirdHeader = () => <h3 className ="username" id ="date">Lambda School</h3>; //are
-       const MutedHeader = () => <h4 className = 'twitterhandleanddate'>@LambdaSchool - 28jan</h4>
+       const LambdaLogo = () => <img className="logo" src= './assets/lambdalogo.jpg'/>;
+       const Username = () => <div className = 'twitterhandle'>    Lambda School</div>
+       const Dates = () => <div className = 'date'>   @LambdaSchool  - 28 Jan</div>
        const TweetPartOne = () => <p className = 'tweet'>Let's learn React by building simple interfaces with components. Don't try to overthink it - just keep it simple and have fun. Once you feel comfortable using components you are well on your way to mastering React!</p>
-       const Banner = () => <img className="logo" id="logo-id" src= './assets/reactLogo.png'/>;
-       const TweetPartTwo = () => <p className = 'tweet'>React makes it painless to create interactive UIs. Design simple views for each state in your application.</p>
+       const TweetPartTwo = () => <p className = 'advertisement'>React makes it painless to create interactive UIs. Design simple views for each state in your application.</p>
        const Website = () => <p className = 'website'>reactjs.org</p>
+       const Card = () => <div className = 'card'></div>
+       const Banner = () => <img className="banner" id="logo-id" src= './assets/reactLogo.png'/>;
        const MyButton = props => <button className = 'reaction'>{props.text}</button>
        const MyApp = () => { //base component that all components will be wrapped in
            return (
                <div>
                <LambdaLogo />
-               <ThirdHeader />
-               <MutedHeader />
+               <Username />
+               <Dates />
                <TweetPartOne />
+               <Card />
                <Banner />
                <TweetPartTwo />
                <Website />
+               
+
                <MyButton text="Comment"/>
                <MyButton text ="Retweet"/>
                <MyButton text = "Love"/>
@@ -45,10 +49,7 @@
         
         
         </script>
-    <style>
-    
-    
-    </style>
+       
 
     </body>
 </html>
