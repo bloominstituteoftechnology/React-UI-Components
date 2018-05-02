@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Calculator</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    .calculator-row {
+      display: flex;
+    }
+    .total {
+      align-items: center;
+      background-color: #000;
+      border: 1px solid #98888a;
+      color: #FFF;
+      display: flex;
+      font-size: 81px;
+      justify-content: flex-end;
+      padding: 0 16px;
+      height: 120px;
+      width: 440px;
+    }
+    .btn {
+      border-color: #98888a;
+      cursor: pointer;
+      font-size: 54px;
+      height: 95px;
+      width: 110px;
+    }
+    .btn.white {
+      background-color: #FFF;
+    }
+    .btn.red {
+      background-color: #a0001e;
+      color: #FFF
+    }
+    .btn.bold {
+      font-weight: bold;
+    }
+    .btn.three-quarter {
+      width: 330px;
+    }
+  </style>
+</head>
+<body>
+  <div id="target">
+    <div class="calculator-row">
+      <div class="total">0</div>
+    </div>
+    <div class="calculator-row">
+      <button class="btn white three-quarter">clear</button>
+      <button class="btn red bold">&divide;</button>
+    </div>
+    <div class="calculator-row">
+      <button class="btn white bold">7</button>
+      <button class="btn white bold">8</button>
+      <button class="btn white bold">9</button>
+      <button class="btn red bold">&times;</button>
+    </div>
+    <div class="calculator-row">
+      <button class="btn white bold">4</button>
+      <button class="btn white bold">5</button>
+      <button class="btn white bold">6</button>
+      <button class="btn red bold">&ndash;</button>
+    </div>
+    <div class="calculator-row">
+      <button class="btn white bold">1</button>
+      <button class="btn white bold">2</button>
+      <button class="btn white bold">3</button>
+      <button class="btn red bold">+</button>
+    </div>
+    <div class="calculator-row">
+      <button class="btn white bold three-quarter">0</button>
+      <button class="btn red bold">=</button>
+    </div>
+  </div>
+</body>
+<script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+<script crossorigin src="https://unpkg.com/babel-standalone@6.26.0/babel.js"></script>
+<script type="text/babel">
+</script>
+</html>
