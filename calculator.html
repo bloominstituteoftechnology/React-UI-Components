@@ -48,7 +48,7 @@
 </head>
 <body>
   <div id="target">
-    <div class="calculator-row">
+    <!-- <div class="calculator-row">
       <div class="total">0</div>
     </div>
     <div class="calculator-row">
@@ -76,12 +76,38 @@
     <div class="calculator-row">
       <button class="btn white bold three-quarter">0</button>
       <button class="btn red bold">=</button>
-    </div>
+    </div> -->
   </div>
 </body>
 <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
 <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
 <script crossorigin src="https://unpkg.com/babel-standalone@6.26.0/babel.js"></script>
 <script type="text/babel">
+const CalculatorRow = props => {
+  return (
+    <div className="calculator-row">
+      {props.children}
+    </div>
+  );
+};
+
+// pass in color, font-weight, size
+const Button = props => {
+  return (
+    <button className={`btn ${props.color} ${props.fontWeight} ${props.size}`}>{props.text}</button>
+  );
+};
+
+const Calculator = () => {
+  return (
+    <div className="calculator">
+      <CalculatorRow>
+        <Button color="white" fontWeight="bold" size="three-quarter" text="0"/>
+      </CalculatorRow>
+    </div>
+  );
+};
+
+ReactDOM.render(<Calculator />, document.getElementById('target'));
 </script>
 </html>
