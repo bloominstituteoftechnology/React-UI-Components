@@ -47,37 +47,7 @@
   </style>
 </head>
 <body>
-  <div id="target">
-    <!-- <div class="calculator-row">
-      <div class="total">0</div>
-    </div>
-    <div class="calculator-row">
-      <button class="btn white three-quarter">clear</button>
-      <button class="btn red bold">&divide;</button>
-    </div>
-    <div class="calculator-row">
-      <button class="btn white bold">7</button>
-      <button class="btn white bold">8</button>
-      <button class="btn white bold">9</button>
-      <button class="btn red bold">&times;</button>
-    </div>
-    <div class="calculator-row">
-      <button class="btn white bold">4</button>
-      <button class="btn white bold">5</button>
-      <button class="btn white bold">6</button>
-      <button class="btn red bold">&ndash;</button>
-    </div>
-    <div class="calculator-row">
-      <button class="btn white bold">1</button>
-      <button class="btn white bold">2</button>
-      <button class="btn white bold">3</button>
-      <button class="btn red bold">+</button>
-    </div>
-    <div class="calculator-row">
-      <button class="btn white bold three-quarter">0</button>
-      <button class="btn red bold">=</button>
-    </div> -->
-  </div>
+  <div id="target"></div>
 </body>
 <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
 <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
@@ -91,7 +61,12 @@ const CalculatorRow = props => {
   );
 };
 
-// pass in color, font-weight, size
+const Total = () => {
+  return (
+    <div className="total">0</div>
+  );
+};
+
 const Button = props => {
   return (
     <button className={`btn ${props.color} ${props.fontWeight} ${props.size}`}>{props.text}</button>
@@ -102,7 +77,33 @@ const Calculator = () => {
   return (
     <div className="calculator">
       <CalculatorRow>
+        <Total />
+      </CalculatorRow>
+      <CalculatorRow>
+        <Button color="white" fontWeight="normal" size="three-quarter" text="clear"/>
+        <Button color="red" fontWeight="bold" size="single" text="&divide;"/>
+      </CalculatorRow>
+      <CalculatorRow>
+        <Button color="white" fontWeight="bold" size="single" text="7"/>
+        <Button color="white" fontWeight="bold" size="single" text="8"/>
+        <Button color="white" fontWeight="bold" size="single" text="9"/>
+        <Button color="red" fontWeight="bold" size="single" text="&times;"/>
+      </CalculatorRow>
+      <CalculatorRow>
+        <Button color="white" fontWeight="bold" size="single" text="4"/>
+        <Button color="white" fontWeight="bold" size="single" text="5"/>
+        <Button color="white" fontWeight="bold" size="single" text="6"/>
+        <Button color="red" fontWeight="bold" size="single" text="&ndash;"/>
+      </CalculatorRow>
+      <CalculatorRow>
+        <Button color="white" fontWeight="bold" size="single" text="1"/>
+        <Button color="white" fontWeight="bold" size="single" text="2"/>
+        <Button color="white" fontWeight="bold" size="single" text="3"/>
+        <Button color="red" fontWeight="bold" size="single" text="+"/>
+      </CalculatorRow>
+      <CalculatorRow>
         <Button color="white" fontWeight="bold" size="three-quarter" text="0"/>
+        <Button color="red" fontWeight="bold" size="single" text="="/>
       </CalculatorRow>
     </div>
   );
