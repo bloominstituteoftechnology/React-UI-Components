@@ -1,0 +1,61 @@
+.container {
+    display: flex;
+    margin: 0 auto;
+    border: 5px solid black;
+    width: 650px;
+    height: 550px;
+    border-sizing: border-box;
+  }
+  
+  .logobody {
+  /*   border: 5px solid black; */
+    width: 15%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .logo {
+    width: 65px;
+    height: 75px;
+    margin-top: 13px
+  }
+  
+  .body {
+  /*   border: 5px solid blue; */
+    width: 82%
+  }
+  
+  .image {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .header {
+    font-weight: 700;
+    margin-right: 10px;
+  }
+  
+  .grey {
+    color: grey;
+  }
+  
+  .flex {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 15px
+  }
+  
+  .text {
+    width: 100%;
+    margin: 15px 0
+  }
+  
+  .bottom {
+    border: 1px solid lightgrey;
+    border-radius: 10px
+  }
+  
+  .website {
+    margin-bottom: 10px;
+  }
+  

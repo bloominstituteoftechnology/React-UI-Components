@@ -1,0 +1,66 @@
+<html lang = 'en'>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA Compatible" content="ie=edge">
+        <title>calculator reacts!</title>
+        <link rel="stylesheet" type="text/css" href="calculator.css">
+    </head>
+    <body>
+        <div id ='target'></div> <!--wrapper div for entire application-->
+        <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script> <!--react 16 library-->
+        <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script> <!--react 16 dom-->
+        <script crossorigin src="https://unpkg.com/babel-standalone@6.26.0/babel.js"></script> <!--babel standalone script-->
+        <script type = "text/babel">
+
+const App = () => {
+    return (
+        <div>
+             <h1>React Calculator</h1>
+             <Calculator/>
+        </div>
+    )};
+
+const Calculator = () => (
+    <div class="calculator">
+      <Output/>
+      <Row1/> {/*Did a row thing to make it more separate but it took too much time so I just did the below with flexbox*/}
+      <Button text="7"/>
+      <Button text="8"/>
+      <Button text="9"/>
+      <Operator text="X"/>      
+      <Button text="4"/>
+      <Button text="5"/>
+      <Button text="6"/>
+      <Operator text="-"/>
+      <Button text="1"/>
+      <Button text="2"/>
+      <Button text="3"/>
+      <Operator text="+"/>
+      <WideButton text="0"/>
+      <Operator text="="/>
+    </div>
+  )
+
+const Output = () => (<div class="output">0</div>)
+
+const Button = (props) => (<button class="button">{props.text}</button>)
+
+const WideButton = (props) => (<button class="wideButton">{props.text}</button>)
+
+const Operator = (props) => (<button class="operator">{props.text}</button>)
+
+const Row1 = () => {
+  return (
+    <div>
+      <WideButton text="clear"/>
+      <Operator text="/"/>
+    </div>
+  )
+}
+
+ReactDOM.render(<App />, document.getElementById('target'));
+
+    </script>
+    </body>
+</html>
