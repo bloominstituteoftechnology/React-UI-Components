@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>React Calculator</title>
+  <link rel="stylesheet" type="text/css" href="./index.css">
+</head>
+<body>
+  <div id="target"></div>
+  <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+  <script crossorigin src="https://unpkg.com/babel-standalone@6.26.0/babel.js"></script>
+  <script src="./node_modules/moment/moment.js"></script>
+  <script type="text/babel">
+    const Button = props => <button className={props.className}>{props.text}</button> 
+
+    const App = () => {
+      return (
+        <div className="container">
+          <div><Button className="first-row" text="0" /></div>
+          <div><Button className="threequarters-box" text="clear" /><Button className="box red-box" text="&#247;" /></div>
+          <div><Button className="box" text="7" /><Button className="box" text="8" /><Button className="box" text="9" /><Button className="box red-box" text="&#215;" /></div>
+          <div><Button className="box" text="4" /><Button className="box" text="5" /><Button className="box" text="6" /><Button className="box red-box" text="&#8722;" /></div>
+          <div><Button className="box" text="1" /><Button className="box" text="2" /><Button className="box" text="3" /><Button className="box red-box" text="&#43;" /></div>
+          <div><Button className="threequarters-box last-box" text="0" /><Button className="box red-box last-box" text="&#61;" /></div>
+        </div>
+      )};
+      ReactDOM.render(<App />, document.getElementById('target'));
+    </script>
+  </body>
+</html>

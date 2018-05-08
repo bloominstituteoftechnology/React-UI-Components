@@ -1,0 +1,63 @@
+html {
+  font-size: 62.5%;
+}
+
+#target {
+  width: 100%;
+  max-width: 880px;
+  font-size: 1.6rem;
+  font-family: Arial;
+  margin: 0 auto;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.logo {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin-top: 16px;
+}
+
+.right-content {
+  width: 55%;
+  margin-left: 2%;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.lightgray {
+  font-weight: normal;
+  color: lightgray;
+}
+
+.right-bottom-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.banner {
+  width: 100%;
+  border-radius: 5px 5px 0 0;
+}
+
+.right-bottom-textcontent {
+  border: 1px solid lightgray;
+  border-radius: 0 0 5px 5px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  background: black;
+  color: white;
+}
