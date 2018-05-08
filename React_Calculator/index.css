@@ -9,8 +9,6 @@ html {
 #target {
   width: 100%;
   max-width: 880px;
-  font-size: 4rem;
-  font-family: Arial;
   margin: 0 auto;
   display: flex;
   justify-content: center;
@@ -22,33 +20,44 @@ html {
   width: 50%;
 }
 
-div {
+div, button {
+  width: 100%; 
+  font-size: 4rem; 
   display: flex;
   justify-content: center;
 }
 
-span {
-  padding: 10px 0 10px 0;
-  align-self: center;
+button {
+  padding: 10px 0 10px 0; 
 }
 
 .first-row {
   background: black;
+  border-left: 2px solid gray;
+  border-top: 2px solid gray;
+  border-right: 2px solid gray;
+  border-bottom: none; 
   color: white;
   display: flex;
   justify-content: flex-end;
-  align-content: center;
 }
 
 .threequarters-box {
   width: 75%;
   border-left: 2px solid gray;
+  border-top: 2px solid gray; 
+  border-right: none;
+  border-bottom: none; 
+  background: white;
 }
 
 .box {
   width: 25%;
+  background: white; 
   border-left: 2px solid gray;
   border-top: 2px solid gray;
+  border-right: none;
+  border-bottom: none; 
 }
 
 .red-box {
@@ -59,6 +68,5 @@ span {
 }
 
 .last-box {
-  border-top: 2px solid gray;
   border-bottom: 2px solid gray;
 }

@@ -12,38 +12,19 @@
   <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
   <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
   <script crossorigin src="https://unpkg.com/babel-standalone@6.26.0/babel.js"></script>
+  <script src="./node_modules/moment/moment.js"></script>
   <script type="text/babel">
-    const FirstRow = () => <span>0</span>
-    const SecondRowBox1 = () => <div className="threequarters-box"><span>clear</span></div>
-    const SecondRowBox2 = () => <div className="box red-box"><span>&#247;</span></div>;
-
-    const ThirdRowBox1 = () => <div className="box"><span>7</span></div>
-    const ThirdRowBox2 = () => <div className="box"><span>8</span></div>
-    const ThirdRowBox3 = () => <div className="box"><span>9</span></div>
-    const ThirdRowBox4 = () => <div className="box red-box"><span>&#215;</span></div>
-
-    const FourthRowBox1 = () => <div className="box"><span>4</span></div>
-    const FourthRowBox2 = () => <div className="box"><span>5</span></div>
-    const FourthRowBox3 = () => <div className="box"><span>6</span></div>
-    const FourthRowBox4 = () => <div className="box red-box"><span>&#8722;</span></div>
-
-    const FifthRowBox1 = () => <div className="box"><span>1</span></div>
-    const FifthRowBox2 = () => <div className="box"><span>2</span></div>
-    const FifthRowBox3 = () => <div className="box"><span>3</span></div>
-    const FifthRowBox4 = () => <div className="box red-box"><span>&#43;</span></div>
-
-    const SixRowBox1 = () => <div className="threequarters-box last-box"><span>0</span></div>
-    const SixRowBox2 = () => <div className="box red-box"><span>&#61;</span></div>
+    const Button = props => <button className={props.className}>{props.text}</button> 
 
     const App = () => {
       return (
         <div className="container">
-          <div className="first-row"><FirstRow /></div>
-          <div><SecondRowBox1 /><SecondRowBox2 /></div>
-          <div><ThirdRowBox1 /><ThirdRowBox2 /><ThirdRowBox3 /><ThirdRowBox4 /></div>
-          <div><FourthRowBox1 /><FourthRowBox2 /><FourthRowBox3 /><FourthRowBox4 /></div>
-          <div><FifthRowBox1 /><FifthRowBox2 /><FifthRowBox3 /><FifthRowBox4 /></div>
-          <div><SixRowBox1 /><SixRowBox2 /></div>
+          <div><Button className="first-row" text="0" /></div>
+          <div><Button className="threequarters-box" text="clear" /><Button className="box red-box" text="&#247;" /></div>
+          <div><Button className="box" text="7" /><Button className="box" text="8" /><Button className="box" text="9" /><Button className="box red-box" text="&#215;" /></div>
+          <div><Button className="box" text="4" /><Button className="box" text="5" /><Button className="box" text="6" /><Button className="box red-box" text="&#8722;" /></div>
+          <div><Button className="box" text="1" /><Button className="box" text="2" /><Button className="box" text="3" /><Button className="box red-box" text="&#43;" /></div>
+          <div><Button className="threequarters-box last-box" text="0" /><Button className="box red-box last-box" text="&#61;" /></div>
         </div>
       )};
       ReactDOM.render(<App />, document.getElementById('target'));

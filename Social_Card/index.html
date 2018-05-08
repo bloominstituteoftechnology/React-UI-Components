@@ -12,30 +12,29 @@
   <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
   <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
   <script crossorigin src="https://unpkg.com/babel-standalone@6.26.0/babel.js"></script>
+  <script src="./node_modules/moment/moment.js"></script>
   <script type="text/babel">
-    const LambdaLogo = () => <img className="logo" src="https://avatars2.githubusercontent.com/u/24780114?s=200&v=4"/>
-    const ProfileName = () => <p className="bold">Lambda School <span className="lightgray">@LambdaSchool &#183; 26 jan</span></p>
-    const Message = () => <p>Let&#39;s learn React by building simple interfaces with compononents. Don&#39;t try to overthink it, just keep it simple and have fun. Once you feel comfortable using components you are well on your way to mastering React!</p>
-    const Banner = () => <img className="banner" src="https://ibin.co/3wnC6SgIOJud.png"/>
-    const PageTitle = () => <p className="bold">Get start with React</p>
-    const TopParagraph = () => <p>React makes it painless to create interactive UIs. Design simple views for each state in your application.</p>
-    const PageUrl = () => <a className="lightgray" href="http://reactjs.org" target="_blank">reactjs.org</a>
+    const time = moment();
+    const Images = props => <img className={props.className} src={props.src} /> 
+    const ProfileName = props => <p className={props.fontweight}>Lambda School <span className={props.lightgray}>@LambdaSchool &#183; {time.format('MMMM Do YYYY, h:mm:ss a')}</span></p>
+    const Text = props => <p className={props.className}>{props.text}</p>
+    const PageUrl = props => <a className={props.className} href={props.href} target={props.target}>{props.text}</a>
 
     const App = () => {
       return (
         <div className="container">
           <div>
-            <LambdaLogo />
+            <Images className="logo" src="./Lambda_Logo.png" />
           </div>
           <div className="right-content">
-            <ProfileName />
-            <Message />
+            <ProfileName fontweight="bold" lightgray="lightgray" />
+            <Text text="Let&#39;s learn React by building simple interfaces with compononents. Don&#39;t try to overthink it, just keep it simple and have fun. Once you feel comfortable using components you are well on your way to mastering React!"/>
             <div className="right-bottom-content">
-              <Banner />
+              <Images className="banner" src="./Banner.png" />
               <div className="right-bottom-textcontent">
-                <PageTitle />
-                <TopParagraph />
-                <PageUrl />
+                <Text className="bold" text="Get start with React" />
+                <Text text="React makes it painless to create interactive UIs. Design simple views for each state in your application." />
+                <PageUrl className="lightgray" href="http://reactjs.org" target="_blank" text="reactjs.org" />
               </div>
             </div>
           </div>
