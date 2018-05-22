@@ -1,6 +1,6 @@
 # React-UI-Components
 
-* This repository is built for you to be able to gain a fundamental understanding of React Functional Components. There are a few design `.png` files that you'll find inside of the `assets` directory that your tasked to build out into pieces of UI using ReactJS.
+* This repository is built for you to be able to gain a fundamental understanding of React Functional Components. There are two projects for you to work on here. Each found it's own directory with an `html file` and an `png design` of what's required for you to build. The MVP (Minimum Viable Product) is defined in the steps below. You can feel free to push yourself on the stretch problems, once you've finished the MVP for **both** projects.
 
 ## Instructions
 
