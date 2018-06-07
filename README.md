@@ -27,6 +27,7 @@
 
 - We're going to break down this assignment in terms of how you should be starting to think in react. Remember that everything is a component.
 - All the files you'll need for this project are found in `Day-I-Social-Card/social-card/src/components`. You can find all the component files you should need in their respective directory. i.e. inside of the `Header` directory you should see a few `.js` files and a `.css` file.
+- Feel free to add any files for any extra components you may feel the need to build.
 - Any of the styles you write in your respective `.css` file should be available for your the components where the `.css` file is being imported.
 - We have drawn boxes around possible areas that could be components.
   - The outer box will represent the `App.js` file.
@@ -60,3 +61,7 @@
 ## _Day II - React Calculator_
 
 - For this project you're not going to be given any tips on how to break down the image file into components. Now that you've had some practice with the social card, this should be something you can start doing on your own. Just think about the image, and what potentially looks like a component.
+
+#### Day 2 MVP requirements
+
+#### Day 2 Stretch Problems
