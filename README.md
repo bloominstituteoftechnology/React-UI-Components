@@ -4,7 +4,7 @@
 
 ## Initializing the application.
 
-- This project was bootstrapped using `create-react-app` (CRA). **You will not need to install CRA in order to make this project work**
+- This project was put together using `create-react-app` (CRA). **You will not need to install CRA in order to make this project work**
 - Each project has it's own `package.json` file in it, we'll chat more about this later. So it's already set up for you to install some dependencies that are needed for you to be able to work within the React Ecosystem.
 - To start the `Social Card` project, you'll need to cd into `Day-1-Social-Card` and then into `social-card` and run `yarn install` to retrieve all the dependencies.
 - Inside of `../../social-card` you'll then need to run `yarn start` to open up a React Development Server that can take your `.js` files as components and bundle them up to work in your new environment.
@@ -26,6 +26,8 @@
 ## _Day I - Social Card_
 
 - We're going to break down this assignment in terms of how you should be starting to think in react. Remember that everything is a component.
+- All the files you'll need for this project are found in `Day-I-Social-Card/social-card/src/components`. You can find all the component files you should need in their respective directory. i.e. inside of the `Header` directory you should see a few `.js` files and a `.css` file.
+- Any of the styles you write in your respective `.css` file should be available for your the components where the `.css` file is being imported.
 - We have drawn boxes around possible areas that could be components.
   - The outer box will represent the `App.js` file.
   - The red box around the header could represent the `header` directory with a few nested components inside, the thumbnail image and the header content.
@@ -37,8 +39,24 @@
 
 #### Day 1 MVP requirements
 
+- Create a `<HeaderContainer />` container component that will hold your header components.
+
+  - Create an `<ImageThumbnail />` component using this image url https://ibin.co/3whrpKSBbZ81.png as it's img src.
+  - Create a `<HeaderTitle />` component that displays the Lambda School header text, @LambdaSchool handle and timestamp.
+  - Create a `<HeaderContent />` component that displays the copy provided in the headers content.
+
+- Create a `<CardContainer/ >` container component that will hold your card components.
+  - Create a `<CardBanner />` component that will display this image as it's background: https://ibin.co/3wnC6SgIOJud.png
+  - Create a `<CardContent />` component that displays the card copy provided.
+  - The entire `<CardContainer />` should take a user to `https://www.reactjs.org` when clicked.
+
 #### Day 1 Stretch Problems
+
+- Create a `<Footer/>` component that pulls in the icons and displays them properly.
+  - Build out the functionality so that a user can click on the icons and have them react to events.
+- Ensure that your product is as pixel perfect as possible using any tools that you were introduced to in previous weeks.
+- Look up the `moment.js` library and figure out how to format your `time-stamp` in your header to be today's date.
 
 ## _Day II - React Calculator_
 
--
+- For this project you're not going to be given any tips on how to break down the image file into components. Now that you've had some practice with the social card, this should be something you can start doing on your own. Just think about the image, and what potentially looks like a component.
