@@ -1,1 +1,17 @@
 /* All styles for your Card Components live here */
+.card-wrapper {
+    display:flex;
+    flex-direction: column;
+    margin-left: 20%;
+    margin-right:2%;
+}
+
+.card-banner {
+    width:100%;
+}
+
+.card-content {
+    border: 1px solid lightgray;
+    text-decoration: none;
+    color:black;
+}
