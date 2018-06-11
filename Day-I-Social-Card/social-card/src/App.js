@@ -1,8 +1,9 @@
-import React from 'react';
-import './App.css';
-import CardContent from './components/CardComponents/CardContainer.js'
-import HeaderContent from './components/HeaderComponents/HeaderContainer.js'
-import ImageThumbnail from "./components/ImageThumbnailComponents/ImageThumbnail.js"
+import React from "react";
+import "./App.css";
+import CardContent from "./components/CardComponents/CardContainer.js";
+import HeaderContent from "./components/HeaderComponents/HeaderContainer.js";
+import ImageThumbnail from "./components/ImageThumbnailComponents/ImageThumbnail.js";
+import Footer from "./components/FooterComponents/Footer.js";
 
 const App = () => {
   return (
@@ -12,11 +13,10 @@ const App = () => {
       </div>
 
       <div className="main-content">
-      <HeaderContent />
-      <CardContent />
-
+        <HeaderContent />
+        <CardContent />
+        <Footer />
       </div>
-
     </div>
   );
 };

@@ -12,6 +12,10 @@
 
 }
 
+.card-banner-img img {
+    display:block;
+}
+
 .card-content h2, .card-content p, .card-content a {
     margin: 5px 10px;
 }
@@ -25,7 +29,7 @@
     border-radius: 5px;
 }
 
-.card-content-link a {
+.card-content-link a:any-link {
     font-size: .8rem;
 }
 

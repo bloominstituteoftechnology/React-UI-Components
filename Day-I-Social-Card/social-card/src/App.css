@@ -10,8 +10,11 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-.gray-note, .gray-note a {
+a, a:any-link {
+  text-decoration: none;
+}
+
+.gray-note, .gray-note a:any-link {
   color: gray;
   font-size: .7rem;
-  text-decoration: none;
 }
