@@ -1,1 +1,16 @@
 /* All styles for your Card Components live here */
+.card-img {
+width: 540px;
+padding-bottom: 15px;
+border-radius: 10px;
+}
+
+.card {
+  margin-left: 60px;
+  height: 100%;
+}
+
+.card-content {
+  width: 540px;
+  margin-left: inherit;
+}

@@ -1,1 +1,22 @@
 /* All styles for your header Components live here */
+.header {
+  width:600px;
+  margin: auto;
+  display: flex;
+}
+
+.header-img {
+  width: 45px;
+  height: 50px;
+  padding-right: 15px;
+}
+
+span {
+  color: gray;
+}
+
+.profile {
+  color: black;
+  font-weight: bold;
+  padding-right: 10px;
+}
