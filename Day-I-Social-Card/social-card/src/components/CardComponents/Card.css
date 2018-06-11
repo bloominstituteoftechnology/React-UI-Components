@@ -20,6 +20,7 @@
 }
 
 .card-container{
+	max-width: 1200px;
 	margin-left:7.5%;	
 	border: 1px solid #ddd;
 	margin-top: 2%;
