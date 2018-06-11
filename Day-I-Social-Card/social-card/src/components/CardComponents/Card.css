@@ -5,8 +5,11 @@
 
 .card-image img{
   width: 505px;
-  height: 250px;
+  height: 255px;
   margin-top: 15px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+
 }
 
 .card-content {
