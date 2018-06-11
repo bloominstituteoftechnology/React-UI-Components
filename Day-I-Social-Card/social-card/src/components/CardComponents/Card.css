@@ -1,1 +1,24 @@
 /* All styles for your Card Components live here */
+
+.card-container {
+    padding-left: 60px;
+    border: 1px solid purple;
+}
+
+.react-logo {
+    height: 250px;
+}
+
+.card-text {
+    margin: 5px;
+    font-size: 14px;
+}
+
+.card-title {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.card-link {
+    color: gray;
+}
