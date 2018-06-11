@@ -3,10 +3,7 @@ import './Card.css';
 
 function CardBanner ({children}) {
   return (
-    <div className="card-banner-container">
-      <div className="logo"></div>
-      {children}
-    </div>
+    <div className="card-banner"></div>
   )
 }
 

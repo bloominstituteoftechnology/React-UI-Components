@@ -4,7 +4,6 @@ import './Card.css';
 function CardContent () {
   return (
     <div>
-      
     </div>
   )
 }
