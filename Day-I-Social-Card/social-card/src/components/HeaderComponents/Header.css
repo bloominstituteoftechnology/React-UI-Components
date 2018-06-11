@@ -23,13 +23,17 @@
 
 .imgThumb {
     display: flex;
-    flex-direction: column;
     position: fixed;
-    top: 0px;
+    top: 10px;
     left: 0px;
-    width: 100px;
-    height: 50%;
     margin: 10px;
+    border-Width:1;
+    align-items: center;
+    justify-Content: center;
+    width: 90px;
+    height: 90px;
+    background-Color:rgb(105, 25, 25);
+    border-Radius: 90px;
 }
 
 .header-container {
