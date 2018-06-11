@@ -1,0 +1,7 @@
+.Footer {
+  max-width: 51%;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  /* border: 2px solid red; */
+}

@@ -1,6 +1,6 @@
 /* All styles for your header Components live here */
 .HeaderContainer {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   display: flex;
   height: 99px;
 }
@@ -13,7 +13,7 @@
 
 #ImageThumbnail {
   /* border: 2px solid green; */
-  max-height: 52px;
+  max-height: 50px;
   background: black;
 }
 
