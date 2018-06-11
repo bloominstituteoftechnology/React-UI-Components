@@ -8,3 +8,5 @@ const ImageThumbnail = () => {
     </div>
   );
 };
+
+export default ImageThumbnail;
