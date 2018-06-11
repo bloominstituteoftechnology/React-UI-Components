@@ -1,1 +1,19 @@
 /* All styles for your header Components live here */
+
+.header-wrapper {
+    border: 1px solid red;
+}
+
+.header-content {
+    font-size: 35px;
+    color: paleturquoise;
+}
+
+.header-title {
+    font-size: 25px;
+    color: purple;
+}
+
+.image-thumbnail {
+    border: 1px solid green;
+}
