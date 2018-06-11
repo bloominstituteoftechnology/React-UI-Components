@@ -5,8 +5,13 @@ import './Header.css';
 const HeaderTitle = () => {
     return (
         <div className = "header-title"> 
-            <h1>Lambda School</h1>
-            <span> @LambdaSchool 11 June </span>
+            <div className = "top-header-title">
+                <h1>Lambda School</h1>
+                <span> @LambdaSchool 11 June </span>
+            </div>
+            <div className = "bottom-header-title">
+                Let's learn React by building simple interfaces with components. Don't try to overthink it, just keep it simple and have fun. Once you feel comfortable using components you are well on your way to mastering React!
+            </div>
         </div>
     );
 };

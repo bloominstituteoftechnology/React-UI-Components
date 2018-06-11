@@ -1,5 +1,37 @@
 /* All styles for your header Components live here */
 
+.header-container {
+    display:flex;
+    border: 2px solid black;
+}
 
+.header-content {
+    display:flex;
+    border:2px solid red;
+}
+
+.image-thumbnail {
+    border:2px solid green;
+}
+
+
+.header-title {
+    display:flex;
+    flex-direction: column;
+}
+
+.header-title .top-header-title {
+    display:flex;
+}
+
+.header-title .top-header-title h1 {
+    font-size:20px;
+    border: 1px solid blue;
+}
+
+.header-title .top-header-title span {
+    font-size:10px;
+    border:1px solid green;
+}
 
 

@@ -8,7 +8,6 @@ const HeaderContainer = () => {
     return (
         <div className = "header-container">
             <HeaderContent /> 
-            bleep
         </div>
     );
 };
