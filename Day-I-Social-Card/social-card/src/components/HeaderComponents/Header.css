@@ -1,1 +1,13 @@
 /* All styles for your header Components live here */
+* {
+    border: 1px solid black;
+}
+
+.head-img {
+    width: 85px;
+}
+
+.head-content {
+    margin-left: 16%;
+    width: 80%;
+}
