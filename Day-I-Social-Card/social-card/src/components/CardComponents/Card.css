@@ -1,8 +1,14 @@
 /* All styles for your Card Components live here */
 
 .card-banner-img{
-  max-width: 101%;
+  max-width: 100%;
+  border-radius: 2% 2% 0 0;
+}
+
+.card-container {
   border-radius: 2%;
+  border: 2px solid grey;
+  margin-left: 12%;
 }
 
 .card-container a {
@@ -11,5 +17,5 @@
   display: flex;
   flex-flow: column nowrap;
   align-items: flex-start;
-  margin-left: 12%;
+
 }

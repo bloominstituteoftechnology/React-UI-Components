@@ -6,14 +6,14 @@ const LocalDate = () => {
   let monthOut = months[new Date().getMonth()];
   let day = new Date().getDay();
 
-  return <div>{day} {monthOut}</div> 
+  return <div>{day} {monthOut}</div>
 }
 const ImageTitle = () => {
   return (
     <div class="header-title">
       <h1 class="title-text">Lambda School </h1>
-      <div class="header-handle">@LambdaSchool</div>
-      <LocalDate />
+      <div class="header-handle">@LambdaSchool </div>
+      <div class="date-time"><LocalDate /></div>
     </div>
   );
 };
