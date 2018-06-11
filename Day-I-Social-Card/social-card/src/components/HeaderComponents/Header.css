@@ -1,8 +1,25 @@
 /* All styles for your header Components live here */
 .header-wrapper {
-    font-size: 50px;
+    display:flex;
+    border:1px solid blue;
 }
 
 .header-content {
-    font-size:35px;
+    font-size:16px;
+    border:1px solid red;
+
+}
+
+.image-thumbnail {
+    width: 135px;
+    height:145px;
+    border:1px solid black;
+
+}
+
+.header-title {
+    font-size: 16px;
+    display:flex;
+    border:1px solid green;
+
 }
