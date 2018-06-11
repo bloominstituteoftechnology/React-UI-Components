@@ -1,0 +1,17 @@
+.footer-wrapper {
+    display:flex;
+    width:100%;
+    margin-left: 10%;
+    margin-right:2%;
+}
+
+.footer-item {
+    margin-left:8%;
+
+}
+
+.footer-text {
+    font-size: 1rem;
+    color:gray;
+    margin:5px;
+}

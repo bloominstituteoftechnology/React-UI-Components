@@ -2,7 +2,7 @@
 .card-wrapper {
     display:flex;
     flex-direction: column;
-    margin-left: 20%;
+    margin-left: 10%;
     margin-right:2%;
 }
 
@@ -12,6 +12,18 @@
 
 .card-content {
     border: 1px solid lightgray;
+    padding: 0 15px;
+}
+
+.get-started {
+    font-weight: bold;
+}
+
+.website-link {
+    color:gray;
+}
+
+a:-webkit-any-link {
     text-decoration: none;
     color:black;
 }

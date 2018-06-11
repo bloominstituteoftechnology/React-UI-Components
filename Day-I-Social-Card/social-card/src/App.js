@@ -2,19 +2,15 @@ import React from 'react';
 import './App.css';
 import HeaderContainer from './components/HeaderComponents/HeaderContainer';
 import CardContainer from './components/CardComponents/CardContainer';
+import Footer from './components/FooterComponents/Footer';
 
 const App = () => {
   return (
     <div className="app-container">
      <HeaderContainer />
      <CardContainer />
+     <Footer />
 
-      <p>
-        <strong>
-          Don't forget to `default export` your components and import them here
-          inside of this file in order to make them work.
-        </strong>
-      </p>
     </div>
   );
 };
