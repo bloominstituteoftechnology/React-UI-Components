@@ -17,7 +17,8 @@
   flex-flow: column;
   justify-content: center;
   border: .5px lightgray solid;
-  border-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
   border-top: none;
   padding-left: 15px;
 }
@@ -39,4 +40,5 @@
   margin-top: 5px;
   margin-bottom: 10px;
   font-size: 14px;
+  color: gray;
 }
