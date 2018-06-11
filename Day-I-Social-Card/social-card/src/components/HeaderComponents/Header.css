@@ -1,1 +1,63 @@
 /* All styles for your header Components live here */
+* {
+    box-sizing: border-box;
+}
+
+.header-container-wrapper {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.img-thumbnail{
+    background: #A20522;
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 47px;
+    height: 47px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+}
+
+.img-thumbnail img {
+    width: 29px;
+    height: 29px;
+    -webkit-filter: brightness(0) invert(1);
+}
+
+.header-title {
+    margin-left: 58px;
+    margin-top: 5px;
+}
+
+.header-title p {
+    margin: 0;
+}
+
+.header-title-text {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.header-title-handle{
+    margin: 0 6px;
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: rgb(125, 134, 143);
+    letter-spacing: -.5px;
+}
+
+.header-title-date {
+    margin: 0 6px;
+    font-size: 1.3rem;
+    color: rgb(125, 134, 143);
+    letter-spacing: -.5px;
+}
+
+.header-content {
+    margin: 10px 0 10px 58px;
+    font-size: 1.4rem;
+    letter-spacing: 0.1px;
+}
+
