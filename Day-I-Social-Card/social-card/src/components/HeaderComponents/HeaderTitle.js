@@ -4,11 +4,11 @@ import HeaderContent from './HeaderContent';
 
 const HeaderTitle = () => {
     return (
- 
-            <div className='col-10'>
-                <h5 className='header_title'>Lambda School</h5>
-            </div>   
-     
+
+        <div className='col-10'>
+            <p className='header_title'>Lambda School</p>
+        </div>
+
     )
 }
 

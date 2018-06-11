@@ -1,11 +1,17 @@
 /* All styles for your header Components live here */
 
-.header-wrapper {
+.header_title {
+    font-weight: 700;
+    margin-left: -15px;
 }
-.header-content {
-}
+
+.header-wrapper {}
+
+.header-content {}
+
 .lambdaImg {
-    width: 30px;
-    height: 30px;
+    width: 50px;
+    height: 50px;
     border-radius: 25px;
+    margin-top: 20px;
 }
