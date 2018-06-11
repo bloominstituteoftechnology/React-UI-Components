@@ -1,1 +1,32 @@
 /* All styles for your header Components live here */
+
+.container {
+    width: 590px;
+    height: 214px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+}
+
+.lambda {
+    font-size: 16px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+.logo {
+    width: 50px;
+    height: auto;
+}
+
+.dateline {
+    color: gray;
+    padding-left: 10px;
+    font-size: 14px;
+}
+
+.header-content {
+    padding-left: 60px; 
+}
