@@ -3,7 +3,7 @@
 .card-container {
     text-decoration: none;
     width: 90%;
-    float: right;
+    margin-left: 10%;
     border: 1px solid silver;
     border-radius: 5px;
 }
