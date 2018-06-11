@@ -4,7 +4,10 @@ import './Header.css'
 const HeaderTitle = () => {
   return (
     <div>
-      <h5>Lambda School</h5>
+      <span>
+        {' '}
+        <strong>Lambda School</strong>
+      </span>
       <span>@LambdaSchool · 26 Jan </span>
     </div>
   )
