@@ -6,6 +6,7 @@
   border: 1px #e6ecf0 solid;
   border-radius: 4px;
   overflow: hidden;
+  cursor: pointer;
 }
 
 .card-banner {
