@@ -6,6 +6,11 @@
 
 .header-content {
     font-size:16px;
+   
+}
+.header-text {
+    margin-top:0;
+    padding-left: 15px;
 }
 
 .image-thumbnail {
