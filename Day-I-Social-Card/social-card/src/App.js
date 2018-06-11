@@ -4,6 +4,9 @@ import HeaderContainer from './components/HeaderComponents/HeaderContainer';
 import ImageThumbnail from './components/HeaderComponents/ImageThumbnail';
 import HeaderContent from './components/HeaderComponents/HeaderContent';
 import HeaderTitle from './components/HeaderComponents/HeaderTitle';
+import CardContainer from './components/CardComponents/CardContainer';
+import CardBanner from './components/CardComponents/CardBanner';
+import CardContent from './components/CardComponents/CardContent';
 const App = () => {
   return (
     <div>
@@ -16,7 +19,12 @@ const App = () => {
     <HeaderContent />
     </div>
     </div>
-    </div> 
+    </div>
+    <CardContainer />
+    <div>
+    <CardBanner />
+    <CardContent />
+      </div> 
       <h3>Welcome to React Social Card!</h3>
       <p>
         Begin by exploring the `components` directory. You'll notice we have a
