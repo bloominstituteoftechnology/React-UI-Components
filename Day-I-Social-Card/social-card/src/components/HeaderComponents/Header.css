@@ -1,3 +1,7 @@
 .header-container {
-    display: flex;
+    /* display: flex; */
+}
+
+h1 {
+    font-size: 1rem;
 }
