@@ -2,9 +2,31 @@
 
 .card-container {
     text-decoration: none;
+    width: 90%;
+    float: right;
+    border: 1px solid silver;
+    border-radius: 5px;
+}
+
+.card-wrapper {
+    text-decoration: none;
+    color: black;
 }
 
 .card-banner {
     width: 100%;
     height: auto;
+}
+
+.card-content {
+    padding: 10px;
+}
+
+.link-title {
+    font-weight: bold;
+}
+
+.link {
+    color: gray;
+    text-decoration: none;
 }
