@@ -1,1 +1,28 @@
 /* All styles for your header Components live here */
+.header {
+  display: flex;
+}
+.header.title {
+  display: flex;
+  align-content: top;
+  margin-left: 10px;
+}
+.header .black {
+  color: black;
+  font-weight: bold;
+}
+.header p {
+  color: gray;
+}
+.header.logo {
+  height: 50px;
+}
+.header.content {
+  width: 525px;
+  margin-left: 50px;
+}
+.header.content p {
+  color: black;
+  word-wrap: break-word;
+  margin: 0 10px;
+}

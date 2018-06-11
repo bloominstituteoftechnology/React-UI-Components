@@ -3,3 +3,9 @@ body {
   padding: 0.4rem;
   font-family: sans-serif;
 }
+
+.social-card {
+  padding-top: 10px;
+  width: 600px;
+  height: 400px;
+}
