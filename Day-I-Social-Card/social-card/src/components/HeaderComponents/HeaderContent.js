@@ -1,5 +1,5 @@
 import React from 'react';
-import HeaderTitle from './HeaderTitle'
+import HeaderTitle from './HeaderTitle';
 import './Header.css';
 
 const HeaderContent = ()=> {
@@ -11,7 +11,6 @@ const HeaderContent = ()=> {
                 Once you feel comfortable using components you are well on your way to mastering React!
             </p>
         </div>
-    )
-        
+    );
 }
 export default HeaderContent;

@@ -8,7 +8,6 @@ const HeaderTitle = ()=> {
             <p> @lambdaSchool </p>
             <p> 26 jan </p>
         </div>
-    )
-        
+    );       
 }
 export default HeaderTitle;
