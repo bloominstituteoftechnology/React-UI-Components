@@ -9,7 +9,7 @@ const CardContainer = () => {
     <div className = 'card-image'>
       <CardBanner />
     </div>
-    <div className = 'card-content'>
+    <div className = 'card-text'>
       <CardContent />
     </div>
   </div>

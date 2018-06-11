@@ -2,7 +2,6 @@
   width: 560px;
   display: flex;
   justify-content: flex-start;
-  border: 2px red solid;
 }
 
 .header-logo .logo img {

@@ -5,10 +5,10 @@ const CardContent = () => {
   return (
     <div className = "card-content">
       <div className = "card-content-title">
-        Get Started with React
+        Get started with React
       </div>
       <div className = "card-content-text">
-        React makes it painless to create Interactive UIs. Design simple view for each state in your application.
+        React makes it painless to create Interactive UIs. Design simple views for each state in your application.
       </div>
       <div className = "card-content-link">
         reactjs.org
