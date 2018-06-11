@@ -47,14 +47,3 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-/* END OF RESET */
-
-
-
-
-
-body {
-  margin: 0;
-  padding: 0.4rem;
-  font-family: sans-serif;
-}

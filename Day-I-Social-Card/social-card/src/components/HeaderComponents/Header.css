@@ -1,9 +1,29 @@
 /* All styles for your header Components live here */
 /* MY CODE BELOW */
 .header-wrapper {
-    font-size: 50px ;
+    border: 1px dashed orange ;
 }
 .header-content {
-    font-size: 30px ;
-    color: dodgerblue ;
+    border: 1px dashed red ;
+    height: 100px;
+    display: flex ;
+
+}
+.header-logo {
+    border: 1px solid green ;
+    width: 60px;
+    height: 100px;
+}
+.header-logo img {
+    width: 100%; 
+}
+.header-title {
+    border: 5px solid lightblue ;
+    width: 100% ;
+}
+.header-title-top {
+    display: flex ;
+    justify-content: space-between ;
+    width: 60% ;
+    border: 1px solid red;
 }

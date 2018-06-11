@@ -8,7 +8,8 @@ import HeaderContent from './HeaderContent' ;
 const HeaderContainer = () => {
     return (
         <div className="header-wrapper">
-        Header Container <HeaderContent />
+        {/* Header Container  */}
+            <HeaderContent />
         </div>
 
     )
