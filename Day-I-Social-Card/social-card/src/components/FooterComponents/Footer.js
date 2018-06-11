@@ -4,8 +4,8 @@ class Footer extends Component {
   constructor () {
     super()
     this.state = {
-      likes: 0,
-      retweets: 0
+      likes: null,
+      retweets: null
     }
   }
 
