@@ -1,4 +1,5 @@
 /* All styles for your header Components live here */
 .header-wrapper{
-    font-size: 50px;
+    display: flex;
+    width: 850px;
 }
