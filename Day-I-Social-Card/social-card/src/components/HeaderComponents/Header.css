@@ -1,9 +1,19 @@
 /* All styles for your header Components live here */
-/*.header-wrapper {
-	font-size: 50px;
+.header-wrapper {
+	display: flex;
 }
 
-.header-content {
-	font-size: 35px;
+.header-title {
+	display: inline-block;
+}
+
+.header-title-details {
 	color: gray;
-}*/
+	display: inline-block;
+	padding-left: 10px;
+}
+
+.header-img {
+	max-width: 70px;
+	margin-right: 10px;
+}
