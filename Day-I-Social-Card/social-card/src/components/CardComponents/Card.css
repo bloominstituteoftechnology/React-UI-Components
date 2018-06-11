@@ -5,17 +5,26 @@ a {
 }
 
 .card-container {
-    border: 1px solid black;
-    height: 550px;
+    /* border: 1px solid black; */
+    height: 450px;
     display: flex;
     flex-direction: column;
 }
 
 .card-banner {
-    height: 400px;
-    padding-left: 75px;
+    display: block;
+    height: 300px;
+    margin-left: 110px;
+    border-radius: 5px 5px 0 0;
 }
 
 .card-content {
-    padding-left: 75px;
+    padding-left: 10px;
+    margin-left: 110px;
+    border: 1px solid lightgrey;
+    border-radius: 0 0 5px 5px;
+}
+
+.card-content p:last-child {
+    color: grey;
 }

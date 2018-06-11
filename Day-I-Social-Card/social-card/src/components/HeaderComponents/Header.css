@@ -1,18 +1,25 @@
 /* All styles for your header Components live here */
 .header-container {
-    border: 1px solid black;
-    height: 100px;
+    /* border: 1px solid black; */
+    height: 120px;
     display: flex;
 }
 
 .image-thumbnail {
     height: 75px;
+    margin-top: 20px;
+    margin-left: 20px
 }
 
 .header-title {
     font-size: 16px;
+    display: flex;
+    margin-top: 4px;
+    margin-bottom: 0;
+    margin-left: 20px;
 }
 
 .header-content {
     font-size: 14px;
+    margin: 0 0 0 20px;
 }
