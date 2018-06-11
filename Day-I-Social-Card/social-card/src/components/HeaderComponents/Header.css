@@ -8,17 +8,32 @@
 
 .lambda-logo {
     height: 50px;
+    margin-right: 2%;
 }
 
-.header-content-container {
-    
-}
+
 
 
 .header-title-container {
     display: flex;
-    align-items: center;
+    margin-bottom: 7px;
 }
+.header-title-container > * {
+   margin-right: 20px;
+}
+
+.lambda-title {
+    font-weight: bold;
+}
+
+.lambda-handle {
+    color: darkgrey;
+}
+
+.timestamp {
+    color: darkgrey;
+}
+
 /* <div className ="header-title-container">
 <h2 className = 'lambda-title'>Lambda School</h2>
 <p className = 'lambda-handle'>LambdaSchool</p>
