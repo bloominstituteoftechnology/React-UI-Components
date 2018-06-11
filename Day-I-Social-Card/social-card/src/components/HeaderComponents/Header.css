@@ -1,1 +1,11 @@
 /* All styles for your header Components live here */
+
+.header-wrapper {
+	font-size: 50px;
+	border: 2px solid red;
+}
+
+.header-content-wrapper {
+	font-size: 50px;
+	border: 5px solid red;
+}
