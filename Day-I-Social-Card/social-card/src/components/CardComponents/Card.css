@@ -1,15 +1,25 @@
 .card-container-container {
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
+  justify-content: center;
 }
 
 .card-container {
   display: flex;
   flex-direction: column;
   width: 500px;
-  padding: 0 10px;
-  border: 1px solid gray;
+  padding: 10px 10px;
+  border: 1px solid lightgray;
+  border-radius: 2px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  color: black;
 }
 
 img {
@@ -20,4 +30,14 @@ img {
 .banner-img {
   width: 500px;
   height: 250px;
+}
+
+.card-title {
+  font-weight: bold;
+  padding: 10px 0;
+}
+
+.card-link-text {
+  color: gray;
+  padding-top: 10px;
 }
