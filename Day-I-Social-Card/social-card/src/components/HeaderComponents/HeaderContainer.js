@@ -1,8 +1,8 @@
 import React from 'react';
 import './Header.css';
-import HeaderContent from "./HeaderContent";
 import ImageThumbnail from "./ImageThumbnail";
 import HeaderTitle from "./HeaderTitle";
+import HeaderContent from "./HeaderContent";
 
 const HeaderContainer = () => {
     return (
@@ -16,7 +16,8 @@ const HeaderContainer = () => {
                     <HeaderContent />
                 </div>
             </div>
-        </div>);
+        </div>
+    );
 };
 
 export default HeaderContainer;

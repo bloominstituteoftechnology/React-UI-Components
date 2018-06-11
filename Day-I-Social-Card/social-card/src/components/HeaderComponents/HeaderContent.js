@@ -5,7 +5,7 @@ const HeaderContent = () => {
     return (
         <div>
             <p>
-                Minim officia anim excepteur cillum eu ipsum. Minim exercitation eiusmod exercitation ut voluptate. Non laboris excepteur est ad adipisicing nostrud occaecat aliquip aute adipisicing est aliquip. Adipisicing culpa laboris nulla ullamco eu aliquip quis tempor irure irure nisi do laborum veniam.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam sit illo cumque, natus quae quos officiis. Quia nihil dignissimos nemo aut architecto fugit incidunt quasi nulla esse ipsa, sequi possimus?
             </p>
         </div>
     );
