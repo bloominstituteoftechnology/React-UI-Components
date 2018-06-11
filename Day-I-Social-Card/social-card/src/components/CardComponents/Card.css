@@ -3,6 +3,7 @@
 
 .card-container {
     padding-left: 10%;
+    cursor: pointer;
 }
 .react-image {
     width: 100%;
@@ -19,7 +20,10 @@
 .title {
     font-weight: bold;
 }
-
+.fill-link {
+    height: 100%;
+    width: 100%;
+}
 .link {
     color: darkgrey;
 }
