@@ -1,8 +1,24 @@
 /* All styles for your header Components live here */
 .header-wrapper{
-    border: 1px solid blue;
+    display: flex;
+    width: 585px;
+    height: 105px;
+    border: 2px solid orange;
 }
 
 .image {
-    height: 50px;
+    border : 2px solid lightgreen;
+    height: 55px;
+}
+.hTitle {
+    height: 30px;
+    display: flex;
+    /* border: 1px solid lightcoral; */
+}
+.hTitle h6{
+    color: gray;
+}
+.content {
+    border: 2px solid lightblue;
+    font-size: 14px;
 }

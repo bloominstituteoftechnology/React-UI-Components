@@ -1,1 +1,42 @@
 /* All styles for your Card Components live here */
+
+.card-wrapper {
+    width: 585px;
+    border: 2px solid purple;
+}
+
+.cContent {  
+    margin-left: 60px;
+    border: 1px solid gray;
+    height: 355px;
+}
+
+.cContent p {
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 15px;
+    margin-right: 25px;
+}
+
+
+.banner {
+    width: 500px;
+    height: 250px;
+}
+
+.cContent h5 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+}
+
+
+a:-webkit-any-link {
+    text-decoration: none;
+    color: black;
+}
+
+.cContent .web{
+    color: gray;
+}
