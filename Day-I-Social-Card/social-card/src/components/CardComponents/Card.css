@@ -1,1 +1,14 @@
 /* All styles for your Card Components live here */
+
+.banner {
+    width: 100%;
+}
+
+.header_Card {
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.emailLine {
+    color: gray;
+}
