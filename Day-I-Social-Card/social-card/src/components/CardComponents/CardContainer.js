@@ -5,7 +5,7 @@ import CardContent from './CardContent'
 import HeaderContainer from '../HeaderComponents/HeaderContainer'
 import Footer from '../FooterComponents/Footer'
 
-const CardContainer = () => {
+const CardContainer = (props) => {
   return (
     <div className='CardContainer'>
       <HeaderContainer />
