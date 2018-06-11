@@ -7,3 +7,7 @@ body {
 .container {
   border: 1px solid maroon;
 }
+
+* {
+  box-sizing: border-box;
+}

@@ -3,7 +3,7 @@ import './Card.css';
 
 const CardContent = () => {
     return (
-        <div>
+        <div className=' lightBorder'>
             <p className='header_Card'>Get started with React</p>
             <p>
                 React makes it painless to create interactive UIs. Design simple views for eac state in your application."
