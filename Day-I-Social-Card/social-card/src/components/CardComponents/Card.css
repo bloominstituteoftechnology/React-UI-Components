@@ -1,4 +1,18 @@
 /* All styles for your Card Components live here */
 .card {
+  display: flex;
+  flex-direction: column;
+  margin: 0 10px 0 52px;
+  border: 1px #e6ecf0 solid;
+  border-radius: 4px;
+  overflow: hidden;
+}
 
+.card-banner {
+  width: 100%;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
 }
