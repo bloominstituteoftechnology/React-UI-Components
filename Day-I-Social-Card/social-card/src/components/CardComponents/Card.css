@@ -1,1 +1,5 @@
 /* All styles for your Card Components live here */
+
+.card-wrapper {
+	font-size: 25px;
+}
