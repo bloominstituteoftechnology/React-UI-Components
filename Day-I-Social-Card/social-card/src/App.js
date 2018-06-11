@@ -33,7 +33,10 @@ const App = () => {
           <HeaderContent />
         </div>
       </div>
-
+      <div class="card-container">
+        <CardBanner />
+        <CardContent />
+      </div>
     </div>
 
   );

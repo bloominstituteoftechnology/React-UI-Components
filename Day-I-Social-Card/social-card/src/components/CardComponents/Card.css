@@ -1,13 +1,17 @@
 /* All styles for your Card Components live here */
 
 .card-container {
-    width: 800px;
+    border: 1px solid black;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
 }
 
 .card-banner {
-    width: 800px;
+    height: 300px;
+    padding-left: 75px;
 }
 
 .card-content {
-
+    padding-left: 75px;
 }
