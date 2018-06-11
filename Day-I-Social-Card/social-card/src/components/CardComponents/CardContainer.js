@@ -8,7 +8,7 @@ const CardContainer = () => {
     <div className="row">
       <div className="col-sm-1">
       </div>
-      <div className="col-sm-11">
+      <div className="col-sm-11 card-col card-container-col">
         <CardBanner />
         <CardContent />
       </div>
