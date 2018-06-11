@@ -1,0 +1,16 @@
+.Footer {
+    margin-left: 30px;
+    margin-top: 20px;
+    display: flex;
+    height: 25px;
+}
+
+.Footer img {
+    padding-left: 40px;
+}
+
+.Footer p {
+    margin-top: 5px;
+    font-size: 14px;
+    padding-left: 3px;
+}
