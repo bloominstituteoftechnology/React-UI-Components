@@ -8,4 +8,6 @@
   flex-flow: row wrap;
   justify-content: center;
   align-items: center;
+  max-width: 51%;
+  margin-top: 3%;
 }

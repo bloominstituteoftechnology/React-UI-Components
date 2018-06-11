@@ -6,9 +6,8 @@
 }
 
 .lambda-logo{
-  width: 7%;
+  width: 9%;
   height: 1%;
-  margin-top: 4%;
   margin-left: 1%;
   border-radius: 46%;
 
@@ -20,4 +19,9 @@
 
 .title-text {
   font-size: 16px;
+  margin: 0;
+}
+
+.header-title-content {
+  margin-left: 1%;
 }

@@ -8,8 +8,10 @@ const  HeaderContainer = () => {
   return (
     <div className="header-wrapper">
       <ImageThumbnail />
-      <HeaderTitle />
-      <HeaderContent />
+      <div class="header-title-content">
+        <HeaderTitle />
+        <HeaderContent />
+      </div>
     </div>
   );
 };
