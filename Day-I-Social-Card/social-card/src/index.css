@@ -57,3 +57,11 @@ body {
   font-size: 1.6rem;
   background-color: #eaeaea;
 }
+
+button {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}

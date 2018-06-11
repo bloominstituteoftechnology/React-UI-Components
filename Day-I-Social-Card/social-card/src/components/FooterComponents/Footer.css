@@ -1,0 +1,43 @@
+.footer {
+  display: flex;
+  align-items: center;
+  margin: 0 25px 0 57px;
+  padding: 9px 0 12px 2px;
+}
+
+.footer button {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #44546e;
+}
+
+.footer img {
+  display: block;
+  align-self: center;
+}
+
+.footer-button-container {
+  display: flex;
+  align-items: center;
+  height: 17px;
+}
+
+.footer-button-reply {
+  margin: 0 64px 0 0;
+}
+
+.footer-button-retweet {
+  margin: 0 46px 0 0;
+}
+
+.footer-button-retweet__img {
+  margin: 0 11px 0 0;
+}
+
+.footer-button-like {
+  margin: 0 46px 0 0;
+}
+
+.footer-button-like__img {
+  margin: 0 11px 0 0;
+}
