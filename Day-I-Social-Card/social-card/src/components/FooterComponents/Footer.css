@@ -1,0 +1,7 @@
+.footer{
+    width: 100%;
+    height: 50px;
+    background-image: radial-gradient(circle at center, white 80%, rgb(190, 190, 190));
+    display: flex;
+    justify-content: space-around;
+}

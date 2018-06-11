@@ -2,3 +2,22 @@
   Write your styles/CSS for App.js here and import into the component that you need 
   IF you'd like to attempt to use less you'll have to research how to do this with Create React App
 */
+.app{
+  width: 600px;
+  margin: auto;
+  border: 1px solid green;
+  padding: 2px;
+  letter-spacing: 1px;
+}
+p{
+  font-size: 13px;
+}
+h1{
+  letter-spacing: 0px;
+}
+svg{
+  width: 25px !important;
+  height: auto !important;
+  color: black;
+  cursor: pointer;
+}

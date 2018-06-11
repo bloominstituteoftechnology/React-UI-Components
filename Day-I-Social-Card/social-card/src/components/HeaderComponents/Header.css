@@ -1,1 +1,29 @@
 /* All styles for your header Components live here */
+.header{
+    width: 100%;
+    display: flex;
+    padding: 10px 5px;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+.header__logo{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+}
+.header__content{
+    margin-left: 10px;
+}
+.header__title h1{
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+}
+.header__title p{
+    display: inline-block;
+    color: grey;
+    margin: 2px 15px;
+}
+.header p{
+    margin: 2px 5px;
+}
