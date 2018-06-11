@@ -1,1 +1,4 @@
 /* All styles for your Card Components live here */
+.card-body {
+    border: solid black .5px;
+}
