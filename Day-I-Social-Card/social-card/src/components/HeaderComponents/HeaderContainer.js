@@ -5,6 +5,12 @@ import HeaderContent from "./HeaderContent";
 import ImageThumbnail from "./ImageThumbnail";
 
 const HeaderContainer = () => {
-  return (<div className = "header-wrapper">Header Wrapper <ImageThumbnail/> <HeaderTitle /> <HeaderContent /></div>)
+  return(<div className = "header-wrapper">
+    <ImageThumbnail/>
+    <div>
+      <HeaderTitle />
+      <HeaderContent />
+    </div>
+  </div>)
 }
 export default HeaderContainer;
