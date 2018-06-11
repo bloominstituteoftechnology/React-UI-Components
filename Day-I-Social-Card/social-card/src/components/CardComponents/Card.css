@@ -1,1 +1,9 @@
 /* All styles for your Card Components live here */
+
+
+.card-container {
+    padding-left: 10%;
+}
+.react-image {
+    width: 100%;
+}
