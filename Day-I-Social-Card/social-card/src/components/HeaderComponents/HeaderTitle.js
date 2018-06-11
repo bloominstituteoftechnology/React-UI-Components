@@ -10,10 +10,10 @@ const LocalDate = () => {
 }
 const ImageTitle = () => {
   return (
-    <div class="header-title">
-      <h1 class="title-text">Lambda School </h1>
-      <div class="header-handle">@LambdaSchool </div>
-      <div class="date-time"><LocalDate /></div>
+    <div className="header-title">
+      <h1 className="title-text">Lambda School </h1>
+      <div className="header-handle">@LambdaSchool </div>
+      <div className="date-time"><LocalDate /></div>
     </div>
   );
 };
