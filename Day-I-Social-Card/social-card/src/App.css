@@ -7,5 +7,7 @@
   flex-direction: column;
   max-width: 590px;
   width: 100%;
-  border: 1px solid blueviolet;
+  padding: 15px 0 0 10px;
+  background-color: #fff;
+  color: #333;
 }

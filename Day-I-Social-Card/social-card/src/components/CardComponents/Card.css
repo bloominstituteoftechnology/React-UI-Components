@@ -2,7 +2,7 @@
 .card {
   display: flex;
   flex-direction: column;
-  margin: 0 10px 0 52px;
+  margin: 0 25px 0 57px;
   border: 1px #e6ecf0 solid;
   border-radius: 4px;
   overflow: hidden;
@@ -11,9 +11,32 @@
 
 .card-banner {
   width: 100%;
+  height: 252px;
+  background: url(https://ibin.co/3wnC6SgIOJud.png) center center no-repeat;
+  background-size: 155%;
 }
 
 .card-content {
   display: flex;
   flex-direction: column;
+  padding: 15px;
+}
+
+.card-content__title {
+  margin: 0 0 7px 0;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.card-content__description {
+  margin: 0 0 7px 0;
+  font-size: 1.4rem;
+  line-height: 1.2;
+}
+
+.card-content__url {
+  margin: 0 0 7px 0;
+  font-size: 1.4rem;
+  line-height: 1.2;
+  color: #7d8d9c;
 }
