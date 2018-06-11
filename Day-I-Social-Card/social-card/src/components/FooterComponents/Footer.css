@@ -5,3 +5,10 @@
   justify-content: space-between;
   /* border: 2px solid red; */
 }
+.retweet {
+  cursor: pointer;
+}
+
+.like {
+  cursor: pointer;
+}
