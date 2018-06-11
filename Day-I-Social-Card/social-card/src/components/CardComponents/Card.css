@@ -7,3 +7,26 @@
 .react-image {
     width: 100%;
 }
+
+.card-content-container {
+    padding: 1rem 2%;
+}
+
+.card-content-container > * {
+    margin-bottom: .5rem;
+}
+
+.title {
+    font-weight: bold;
+}
+
+.link {
+    color: darkgrey;
+}
+/* <div class="card-content-container">
+            <div class = "title">Get started with React</div>
+            <p class="content">React makes it paineless to create interactive Uls.
+                Design simple views for each state in your application.
+            </p>
+            <p class = "link">reactjs.org</p>
+        </div> */
