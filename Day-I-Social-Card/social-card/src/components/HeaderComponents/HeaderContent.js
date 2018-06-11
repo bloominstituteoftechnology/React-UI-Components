@@ -5,9 +5,9 @@ import './Header.css';
 const HeaderContent = () => {
 	return (
 		<div className="content">
-			Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium consectetur facilis minus 
-			qui sequi deserunt libero temporibus vitae reprehenderit, eveniet aspernatur, repellendus ipsam 
-			assumenda iusto dolore ex recusandae accusamus cumque quasi veritatis? Eveniet, ducimus porro!
+			Let's learn React by building simple interfaces with components. Don't try to 
+			overthink it, just keep it simple and have fun. Once you feel comfortable using
+			components you are well on your way to mastering React!
 		</div>
 	);
 };

@@ -1,8 +1,8 @@
 import React from 'react';
 
-import HeaderContent from './HeaderContent';
-import HeaderTitle from './HeaderTitle';
+
 import ImageThumbnail from './ImageThumbnail';
+import ContentContainer from './ContentContainer';
 
 import './Header.css';
 
@@ -10,8 +10,8 @@ import './Header.css';
 const HeaderContainer = () => {
 	return (
 		<div className="header-wrapper">
-			<HeaderTitle />
-			<HeaderContent />
+			<ImageThumbnail />
+			<ContentContainer />
 		</div>
 	);
 };

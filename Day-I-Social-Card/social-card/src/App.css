@@ -4,13 +4,6 @@
 */
 *{box-sizing: border-box}
 
-.app-container {
-  width: 1100px;
-  margin: 0px auto;
-  display: flex;
-  padding: 50px;
-  justify-content: flex-start;
-}
 .container {
   width: 800px;
   margin: 0px auto;

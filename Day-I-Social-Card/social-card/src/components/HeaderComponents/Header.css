@@ -1,6 +1,36 @@
 /* All styles for your header Components live here */
 *{box-sizing: border-box}
 
+.header-wrapper {
+	width: 1100px;
+	margin: 0 auto;
+	padding-right: 120px;
+	margin-bottom: 15px;
+	display: flex;
+}
+
 .thumbnail{
 	margin-top: 10px;
+}
+
+.header-wrapper .content {
+	padding: 0 10px;
+}
+.header-title {
+	padding: 0 10px;
+	display: flex;
+	align-items: center;
+}
+.header-title h1 {
+	font-size: 26px;
+}
+.header-title .handle {
+	color: #888;
+	font-size: 20px;
+	margin: 0 10px;
+}
+.header-title .timestamp {
+	color: #888;
+	font-size: 20px;
+	margin: 0 10px;
 }

@@ -7,10 +7,9 @@ import './App.css';
 
 const App = () => {
   return (
-    <div className="app-container">
-      <ImageThumbnail />
-      <div className="container">
-        <HeaderContainer />
+    <div>
+      <HeaderContainer />
+      <div className="container">      
         <CardContainer />
         <FooterContainer />
       </div>
