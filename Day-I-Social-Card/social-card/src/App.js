@@ -1,9 +1,6 @@
 import React from 'react';
 import './App.css';
 import HeaderContainer from './components/HeaderComponents/HeaderContainer';
-import ImageThumbnail from './components/HeaderComponents/ImageThumbnail';
-import HeaderTitle from './components/HeaderComponents/HeaderTitle';
-import HeaderContent from './components/HeaderComponents/HeaderContent';
 import CardContainer from './components/CardComponents/CardContainer';
 import CardBanner from './components/CardComponents/CardBanner';
 import CardContent from './components/CardComponents/CardContent';
@@ -24,15 +21,7 @@ const App = () => {
           inside of this file in order to make them work.
         </strong>
       </p> */}
-      <div class="header-container">
-        <div>
-          <ImageThumbnail />
-        </div>
-        <div>
-          <HeaderTitle />
-          <HeaderContent />
-        </div>
-      </div>
+      <HeaderContainer />
       <div class="card-container">
         <CardBanner />
         <CardContent />

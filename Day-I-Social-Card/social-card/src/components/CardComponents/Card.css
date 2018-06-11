@@ -2,13 +2,13 @@
 
 .card-container {
     border: 1px solid black;
-    height: 450px;
+    height: 550px;
     display: flex;
     flex-direction: column;
 }
 
 .card-banner {
-    height: 300px;
+    height: 400px;
     padding-left: 75px;
 }
 
