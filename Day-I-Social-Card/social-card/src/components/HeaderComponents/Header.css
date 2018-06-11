@@ -1,1 +1,6 @@
 /* All styles for your header Components live here */
+*{box-sizing: border-box}
+
+.thumbnail{
+	margin-top: 10px;
+}
