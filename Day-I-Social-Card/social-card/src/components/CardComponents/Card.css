@@ -2,17 +2,20 @@
 .container-card {
     display: flex;
     margin: 0 auto;
-    max-width: 500px;
+    max-width: 660px;
     flex-direction: column;
+    width: 100%;
+    margin-right: 20px;
+    border: 1px solid grey;
+    border-radius: 3px;
+    margin-top: 20px;
 }
 
-.link {
-}
+
 
 .banner {
     width: 660px;
     height: auto;
-    margin-top: 20px;
 }
 
 a:-webkit-any-link {
