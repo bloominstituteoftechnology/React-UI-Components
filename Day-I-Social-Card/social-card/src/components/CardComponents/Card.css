@@ -1,1 +1,37 @@
 /* All styles for your Card Components live here */
+.card-container {
+    width: 80%;
+    height: 60%;
+    border: 1px black;
+}
+
+.card-title {
+    display: flex;
+    font-size: 20px;
+    margin: 20px;
+    position: relative;
+    left: 100px;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 75%;
+    font-size: 16px;
+    color: rgb(46, 44, 43);
+    margin: 20px;
+    position: relative;
+    left: 100px;
+}
+
+.card-banner {
+    display: flex;
+    flex-direction: column;
+    height: 40%;
+    width: 80%;
+    position: relative;
+    left: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
