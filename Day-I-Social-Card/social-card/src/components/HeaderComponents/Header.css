@@ -6,25 +6,28 @@
 /* ImageThumbnail */
 .logo {
     width: 90px;
-    height: 96.6px;
+    height: 100%;
 }
 
 /* HeaderContent */
 .header-content {
-    height: 96.6px;
+    height: 100%;
     margin-left: 10px;
 }
 .header-content p {
-    margin: 0;
-    padding-top: 10px;
-    height: 70%;
+    margin: 10px 0 0 0;
+    height: 80%;
 }
 
 /* HeaderTitle */
 .header-title {
     display: flex;
     align-items: center;
-    height: 30%;
+    height: 20%;
+}
+.header-title h3 {
+    margin-top: 3px;
+    margin-bottom: 0;
 }
 .header-title .sub-head {
     color: grey;
