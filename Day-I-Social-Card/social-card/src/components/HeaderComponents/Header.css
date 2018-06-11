@@ -19,6 +19,15 @@
     margin-left: 20px;
 }
 
+.header-title p:first-child {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.header-title p:last-child {
+    color: darkgrey;
+}
+
 .header-content {
     font-size: 14px;
     margin: 0 0 0 20px;
