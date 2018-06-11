@@ -1,1 +1,11 @@
 /* All styles for your header Components live here */
+
+.header-wrapper {
+}
+.header-content {
+}
+.lambdaImg {
+    width: 30px;
+    height: 30px;
+    border-radius: 25px;
+}
