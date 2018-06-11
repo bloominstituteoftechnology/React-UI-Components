@@ -25,6 +25,9 @@
     align-items: center;
     height: 20%;
 }
+.header-title p {
+    margin: 5px 0 5px 0;
+}
 .header-title h3 {
     margin-top: 3px;
     margin-bottom: 0;
