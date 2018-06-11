@@ -1,10 +1,18 @@
 /* All styles for your header Components live here */
 .header-container {
-    font-size: 50px;
     border: 1px solid black;
     height: 100px;
+    display: flex;
+}
+
+.image-thumbnail {
+    height: 50px;
 }
 
 .header-title {
+    font-size: 16px;
+}
 
+.header-content {
+    font-size: 14px;
 }
