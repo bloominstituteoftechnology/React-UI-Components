@@ -1,19 +1,20 @@
 /* All styles for your header Components live here */
 
-.container {
+.header-container {
     width: 600px;
-    height: 120px;
+    height: 90px;
 }
 
 .header {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .lambda {
     font-size: 16px;
     font-weight: bold;
     padding-left: 10px;
+    margin: 0;
 }
 
 .logo {
@@ -28,5 +29,6 @@
 }
 
 .header-content {
-    padding-left: 60px; 
+    padding-left: 60px;
+    margin-top: -30px;
 }

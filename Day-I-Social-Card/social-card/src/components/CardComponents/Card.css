@@ -1,10 +1,8 @@
 /* All styles for your Card Components live here */
-.container {
-    width: 600px;
-    
-}
+
 
 .card-container {
+        width: 550px;
     margin-left: 60px;
     border: 1px solid lightgray;
     border-radius: 5px;
@@ -19,11 +17,14 @@
 .card-title {
     font-size: 16px;
     font-weight: bold;
+    text-decoration: none;
 }
 .card-content {
     padding: 10px;
+    text-decoration: none;
 }
 
 .link {
     color: gray;
+    text-decoration: none;
 }

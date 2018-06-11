@@ -6,7 +6,7 @@ import Logo from './ImageThumbnail';
 
 const HeaderContainer = () => {
     return (
-        <div className='container'>
+        <div className='header-container'>
         <div className='header'>
         <Logo />
         <HeaderTitle />
