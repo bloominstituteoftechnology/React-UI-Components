@@ -1,1 +1,10 @@
 /* All styles for your header Components live here */
+.header-container {
+    font-size: 50px;
+    border: 1px solid black;
+    height: 100px;
+}
+
+.header-title {
+
+}

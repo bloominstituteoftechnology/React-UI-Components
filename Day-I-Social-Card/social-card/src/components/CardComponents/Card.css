@@ -1,1 +1,13 @@
 /* All styles for your Card Components live here */
+
+.card-container {
+    width: 800px;
+}
+
+.card-banner {
+    width: 800px;
+}
+
+.card-content {
+
+}
