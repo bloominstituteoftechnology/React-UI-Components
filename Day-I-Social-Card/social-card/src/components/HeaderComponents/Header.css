@@ -1,1 +1,6 @@
 /* All styles for your header Components live here */
+
+.header-wrapper {
+  border: 1px solid green;
+  height: 100px;
+}
