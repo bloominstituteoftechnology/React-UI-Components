@@ -4,7 +4,7 @@ import HeaderContainer from './components/HeaderComponents/HeaderContainer.js';
 
 const App = () => {
   return (
-    <div>
+    <div id="App">
       <HeaderContainer />
       <p>
         <strong>
