@@ -9,3 +9,15 @@
 .card-banner {
   width: 100%;
 }
+.card-content {
+  border-left: 1px solid #E7EDF0;
+  border-right: 1px solid #E7EDF0;
+  border-bottom: 1px solid #E7EDF0;
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+.card-content h4 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
