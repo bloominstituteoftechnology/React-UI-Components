@@ -4,9 +4,9 @@ import CardBanner from './CardBanner';
 
 
 const CardContainer = () => {
-    return (<a className="card-wrapper" href="https://www.reactjs.org">
+    return (<div className="card-wrapper" onClick={()=>{window.location.href = 'http://www.reactjs.org'}}>
         <CardBanner />
-    </a>);
+    </div>);
 }
 
 export default CardContainer;
