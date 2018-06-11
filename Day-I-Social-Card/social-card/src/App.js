@@ -6,7 +6,6 @@ const App = () => {
   return (
     <div>
       <HeaderContainer />
-
       <p>
         <strong>
           `Don't forget to `default export` your components and import them here
