@@ -1,8 +1,31 @@
 /* All styles for your header Components live here */
-.header-container {
-    font-size: 50px;
+
+.header-row {
+    margin-top: 10px;
+}
+
+.img-thumb {
+    margine-left: 5px;
+}
+
+.img-col {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.header-title-date {
+    font-size: 1.2rem;
+}
+
+.header-title-text {
+    margin: 0 1%;
+}
+
+.header-title {
+    margin-bottom: .5rem;
 }
 
 .header-content {
-    font-size: 25px;
+    line-height: 19px;
+    margin-bottom: 1.2rem;
 }

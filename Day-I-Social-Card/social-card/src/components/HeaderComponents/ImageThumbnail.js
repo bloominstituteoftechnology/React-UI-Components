@@ -2,7 +2,9 @@ import React from 'react';
 import './Header.css';
 
 const ImageThumbnail = () => {
-    return <img src='https://ibin.co/3whrpKSBbZ81.png'/>;
+    return (
+        <img src='https://ibin.co/3whrpKSBbZ81.png' className="img-fluid img-thumb" alt=""/>
+    );
 };
 
 export default ImageThumbnail;
