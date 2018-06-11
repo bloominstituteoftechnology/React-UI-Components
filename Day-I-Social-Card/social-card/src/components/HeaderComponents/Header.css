@@ -5,6 +5,7 @@
 .header.title {
   display: flex;
   align-content: top;
+  margin-top: -16px;
   margin-left: 10px;
 }
 .header .black {
@@ -18,6 +19,7 @@
   height: 50px;
 }
 .header.content {
+  margin-top: -25px;
   width: 525px;
   margin-left: 50px;
 }
