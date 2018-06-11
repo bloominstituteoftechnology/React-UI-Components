@@ -1,12 +1,12 @@
 import React from 'react'
 import './App.css'
-import HeaderContainer from '../src/components/HeaderComponents/HeaderContainer'
 import CardContainer from './components/CardComponents/CardContainer'
+import ImageThumbnail from './components/HeaderComponents/ImageThumbnail'
 
 const App = () => {
   return (
     <div className={'App'}>
-      <HeaderContainer />
+      <ImageThumbnail />
       <CardContainer />
     </div>
   )

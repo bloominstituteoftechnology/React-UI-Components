@@ -4,5 +4,10 @@
 */
 .App {
   border: 2px solid cornflowerblue;
-  max-width: 600px;
+  max-width: 585px;
+  height: 510px;
+  display: flex;
+}
+p {
+  margin-bottom: 0;
 }

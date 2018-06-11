@@ -1,16 +1,27 @@
 /* All styles for your header Components live here */
 .HeaderContainer {
   border: 2px solid red;
+  display: flex;
+  height: 99px;
 }
 
 .HeaderContent {
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
+  font-size: .9rem;
+  height: 99px;
 }
 
-.ImageThumbnail {
-  border: 2px solid green;
+#ImageThumbnail {
+  /* border: 2px solid green; */
+  max-height: 52px;
+  background: black;
 }
 
 .HeaderTitle {
-  border: 2px solid yellow;
+  /* border: 2px solid yellow; */
+  font-size: .9rem;
+}
+.username {
+  color: gray;
+  font-size: .7rem;
 }

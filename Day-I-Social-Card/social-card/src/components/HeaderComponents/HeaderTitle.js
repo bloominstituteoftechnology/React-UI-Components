@@ -8,7 +8,7 @@ const HeaderTitle = () => {
         {' '}
         <strong>Lambda School</strong>
       </span>
-      <span>@LambdaSchool · 26 Jan </span>
+      <span className='username'>@LambdaSchool · 26 Jan </span>
     </div>
   )
 }
