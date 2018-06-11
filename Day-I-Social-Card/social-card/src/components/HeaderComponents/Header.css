@@ -29,7 +29,9 @@
 }
 
 .header-text .header-title .header-title-small {
-  font-size: 13px;
+  margin-left: 5px;
+  margin-top: 2px;
+  font-size: 12px;
   color: gray;
 }
 
