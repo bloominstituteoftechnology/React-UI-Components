@@ -1,1 +1,21 @@
 /* All styles for your Card Components live here */
+.container-card {
+    display: flex;
+    margin: 0 auto;
+    max-width: 500px;
+    flex-direction: column;
+}
+
+.link {
+}
+
+.banner {
+    width: 660px;
+    height: auto;
+    margin-top: 20px;
+}
+
+a:-webkit-any-link {
+    text-decoration: none;
+    color: black;
+}
