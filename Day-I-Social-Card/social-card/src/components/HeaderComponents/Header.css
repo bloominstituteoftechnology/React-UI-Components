@@ -1,1 +1,8 @@
 /* All styles for your header Components live here */
+.header-container {
+    font-size: 50px;
+}
+
+.header-content {
+    font-size: 25px;
+}
