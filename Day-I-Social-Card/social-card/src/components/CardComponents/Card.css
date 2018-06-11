@@ -1,1 +1,29 @@
 /* All styles for your Card Components live here */
+.container {
+    width: 600px;
+    
+}
+
+.card-container {
+    margin-left: 60px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+
+.react {
+    width: 100%;
+    height: auto;
+    border-radius: 5px 5px 0 0;
+}
+
+.card-title {
+    font-size: 16px;
+    font-weight: bold;
+}
+.card-content {
+    padding: 10px;
+}
+
+.link {
+    color: gray;
+}
