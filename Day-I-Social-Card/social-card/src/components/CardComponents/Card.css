@@ -2,8 +2,10 @@
 
 
 .card-container {
-    padding-left: 10%;
+    margin-left: 10%;
     cursor: pointer;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
 }
 .react-image {
     width: 100%;
