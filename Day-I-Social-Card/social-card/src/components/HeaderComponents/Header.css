@@ -1,1 +1,10 @@
 /* All styles for your header Components live here */
+.header-wrapper {
+  font-size: 50px;
+  color: red;
+}
+
+.header-content {
+  font-size: 70px;
+  color: pink;
+}
