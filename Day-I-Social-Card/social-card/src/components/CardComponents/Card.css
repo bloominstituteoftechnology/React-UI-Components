@@ -1,1 +1,34 @@
 /* All styles for your Card Components live here */
+
+
+.card-container {
+    
+    max-width:855px;
+    display: flex;
+    padding-left: 96px;
+    padding-right:20px;
+    flex-wrap:wrap;
+}
+
+.banner {
+    width:100%;
+    max-width:855px;
+    height:300px;
+}
+
+.card-content {
+    border-right: 1px solid gray;
+    border-bottom: 1px solid gray;
+    border-left: 1px solid gray;
+    padding: 10px;
+}
+
+.grayp {
+    color:gray;
+}
+
+
+a:-webkit-any-link {
+    text-decoration: none;
+    color:black;
+}
