@@ -1,0 +1,13 @@
+.footer-container {
+    padding-left: 10%;
+}
+
+.footer-container > * {
+    margin-right: 12%;
+}
+.footer-container > *:hover {
+    color: #141414;
+}
+.footer-link {
+    color: darkgrey;
+}
