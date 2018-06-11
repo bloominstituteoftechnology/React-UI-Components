@@ -1,6 +1,32 @@
 /* All styles for your header Components live here */
 
 
-.header-container{
-  display: flex;
+.header-row{
+  margin-top: 10px;
+}
+
+.img-thumb{
+  margin-left:5px;
+}
+
+.img-col{
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.sub-title{
+  font-size: 1.2rem;
+}
+
+.twitter{
+  margin: 0 1%;
+}
+
+.header-title{
+  margin-bottom: .5rem;
+}
+
+.header-content{
+  line-height: 19px;
+  margin-bottom: 1.2rem;
 }
