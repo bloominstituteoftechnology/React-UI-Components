@@ -1,1 +1,15 @@
 /* All styles for your header Components live here */
+.header {
+  display: flex;
+  border: 1px solid red;
+}
+
+.header-image-thumbnail {
+  align-self: flex-start;
+  width: 52px;
+}
+
+.header-title {
+  padding: 9px 0;
+  border: 1px solid green;
+}
