@@ -2,18 +2,35 @@
 
 .header-wrapper {
     border: 1px solid red;
+    display: flex;
 }
 
-.header-content {
-    font-size: 35px;
-    color: paleturquoise;
+.lambda-logo {
+    height: 60px;
+}
+
+.header-all {
+    margin: 10px 25px 10px 5px;
 }
 
 .header-title {
-    font-size: 25px;
-    color: purple;
+    font-size: 14px;
+    font-weight: bold;
 }
 
-.image-thumbnail {
-    border: 1px solid green;
+.header-handle {
+    font-size: 12px;
+    color: gray;
+    margin: 0 5px;
+}
+
+.header-date {
+    font-size: 12px;
+    color: gray;
+    margin: 0 5px;
+
+}
+
+.header-content {
+    font-size: 14px;
 }
