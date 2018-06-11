@@ -7,16 +7,18 @@
 }
 
 img {
-    border:1px solid black;
+    /* border:1px solid black; */
     width: 75px;
     height:85px;
+    padding-top:13px;
+    padding-right:6px;
     
     
 
 }
 
 .headerTitle {
-    border:1px solid black;
+    /* border:1px solid black; */
     display:flex;
 
     
@@ -26,7 +28,7 @@ img {
 
 
 .header-content {
-    border:1px solid black;
+    /* border:1px solid black; */
     height:auto;
     
     
@@ -35,6 +37,15 @@ img {
 
 h4 {
     margin-right:10px;
+}
+
+.lambdagray {
+    color:lightgray;
+}
+
+ul {
+    padding-top: 6px;
+    color:lightgray;
 }
 
 
