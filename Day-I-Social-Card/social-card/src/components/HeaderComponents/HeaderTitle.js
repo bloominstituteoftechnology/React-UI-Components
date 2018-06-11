@@ -6,7 +6,7 @@ const HeaderTitle = () => {
         <div className="header-title-container">
             <h2 className='lambda-title'>Lambda School</h2>
             <p className='lambda-handle'>@LambdaSchool</p>
-            <p className='timestamp'>{moment().format('DD MMM').toLowerCase()}</p>
+            <p className='timestamp'>&middot; {moment().format('DD MMM').toLowerCase()}</p>
         </div>
     );
 }
