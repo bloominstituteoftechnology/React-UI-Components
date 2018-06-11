@@ -5,6 +5,7 @@ const CardContainer = () => {
 	return (
 		<div className="card-container">
 		Card Container
+		{Your card components go here}
 		</div>
 		)
 	}
