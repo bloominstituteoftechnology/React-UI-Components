@@ -1,5 +1,10 @@
 /* All styles for your header Components live here */
 
+.header-container{
+	display: flex;
+	border: 1px solid black;
+}
+
 .header-wrapper {
 	font-size: 25px;
 	border: 2px solid red;
