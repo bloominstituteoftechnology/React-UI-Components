@@ -14,25 +14,25 @@ const App = () => {
 
       {/* Row 2 */}
       <ClearButton />
-      <InsertButton symbol = "÷" class = "btn--red"/>
+      <InsertButton symbol = "&#247;" class = "btn--red"/>
 
       {/* Row 3 */}
       <InsertButton symbol = "7"/>
       <InsertButton symbol = "8"/>
       <InsertButton symbol = "9"/>
-      <InsertButton symbol = "X" class = "btn--red"/>
+      <InsertButton symbol = "x" class = "btn--red"/>
 
       {/* Row 4 */}
       <InsertButton symbol = "4"/>
       <InsertButton symbol = "5"/>
       <InsertButton symbol = "6"/>
-      <InsertButton symbol = "-" class = "btn--red"/>
+      <InsertButton symbol = "&#8212;" class = "btn--red"/>
 
       {/* Row 5 */}
       <InsertButton symbol = "1"/>
       <InsertButton symbol = "2"/>
       <InsertButton symbol = "3"/>
-      <InsertButton symbol = "+" class = "btn--red"/>
+      <InsertButton symbol = "&#43;" class = "btn--red"/>
 
       {/* Row 6 */}
       <InsertButton symbol = "0" class = "btn--white btn__zero" />
