@@ -3,6 +3,9 @@
 .header-container {
     display:flex;
     padding: 20px 20px 0 20px;
+    width:100%;
+    max-width:855px;
+    
     
 }
 
@@ -30,6 +33,7 @@ img {
 .header-content {
     /* border:1px solid black; */
     height:auto;
+    padding-right:30px;
     
     
 
