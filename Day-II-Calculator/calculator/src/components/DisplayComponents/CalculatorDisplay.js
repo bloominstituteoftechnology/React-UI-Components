@@ -3,14 +3,16 @@ import './Display.css'
 import NumberButton from '../ButtonComponents/NumberButton'
 import ActionButton from '../ButtonComponents/ActionButton'
 class CalculatorDisplay extends Component {
-  constructor (props) {
-    super(props)
+  constructor () {
+    super()
     this.state = {
-      display: 0
+      display: '0'
     }
   }
-  handleSubmit = (props) => {
-    this.setState({ display: this.state.display + props.text })
+  handleSubmit (num) {
+    console.log('in here')
+    // const { display } = this.state
+    this.setState({ display: this.state.display + num })
   }
 
   render () {
@@ -25,7 +27,11 @@ class CalculatorDisplay extends Component {
           buttonStyle='red-style'
           customStyle='operations'
         />
-        <NumberButton text='7' buttonStyle='number-btn' />
+        <NumberButton
+          text='7'
+          buttonStyle='number-btn'
+          onClick={() => this.handleSubmit('7')}
+        />
         <NumberButton text='8' buttonStyle='number-btn' />
         <NumberButton text='9' buttonStyle='number-btn' />
         <NumberButton
