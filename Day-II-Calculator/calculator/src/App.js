@@ -1,5 +1,8 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+import "./App.css";
+import NumberButton from "./components/ButtonComponents/NumberButton";
+import CalculatorDisplay from "./components/DisplayComponents/CalculatorDisplay";
+import ActionButton from "./components/ButtonComponents/ActionButton";
 
 const App = () => {
   return (
@@ -16,6 +19,25 @@ const App = () => {
           inside of this file in order to make them work.
         </strong>
       </p>
+      <div className="app-wrapper">
+        <CalculatorDisplay btnClass="calc-class" num="0" />
+        <ActionButton btnClass="action-btn col-xs-9" num="clear" />
+        <NumberButton btnClass="btn-class operators col-xs-3" num="÷" />
+        <NumberButton btnClass="btn-class col-xs-3" num="7" />
+        <NumberButton btnClass="btn-class col-xs-3" num="8" />
+        <NumberButton btnClass="btn-class col-xs-3" num="9" />
+        <NumberButton btnClass="btn-class operators col-xs-3" num="x" />
+        <NumberButton btnClass="btn-class col-xs-3" num="4" />
+        <NumberButton btnClass="btn-class col-xs-3" num="5" />
+        <NumberButton btnClass="btn-class col-xs-3" num="6" />
+        <NumberButton btnClass="btn-class  operators col-xs-3" num="-" />
+        <NumberButton btnClass="btn-class col-xs-3" num="1" />
+        <NumberButton btnClass="btn-class col-xs-3" num="2" />
+        <NumberButton btnClass="btn-class col-xs-3" num="3" />
+        <NumberButton btnClass="btn-class  operators col-xs-3" num="+" />
+        <ActionButton btnClass="action-btn col-xs-9" num="0" />
+        <NumberButton btnClass="btn-class operators col-xs-3" num="=" />
+      </div>
     </div>
   );
 };

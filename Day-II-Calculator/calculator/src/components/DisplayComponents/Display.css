@@ -1,0 +1,21 @@
+/* Display  */
+
+.calc-class {
+  height: 12rem;
+  border: 1px solid black;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background: black;
+  color: white;
+  padding-right: 2rem;
+}
+
+.action-btn {
+  height: 10rem;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
