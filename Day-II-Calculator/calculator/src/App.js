@@ -1,13 +1,11 @@
 import React from 'react';
 import './App.css';
-import CalculationDisplay from './components/DisplayComponents/CalculationDisplay.js';
+import Display from './components/DisplayComponents/Display.js';
 
 const App = () => {
-  return (
-    <div className="app">
-      <CalculationDisplay value="0" />
-    </div>
-  );
+
+  return <Display />
+
 };
 
 export default App;
