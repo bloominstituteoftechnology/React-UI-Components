@@ -70,49 +70,65 @@ table {
       border: 1px solid darkgrey;
       display:flex;
       justify-content: flex-end;
+      align-items: center;
+      background-color:black;
+      color:white;
+      height:128px;
+  }
+
+  .calculator-display-style {
+      font-size:70px;
+      padding-right:13px;
   }
 
   .clear-and-numbers-and-operators-container {
       width:100%;
       display:flex;
-      border:0.5px solid greenyellow;
+      /* border:0.5px solid greenyellow; */
   }
 
   .clear-and-numbers-container {
       width:75%;
-      border:0.5px solid red;
+      /* border:0.5px solid red; */
   }
 
   .clear-button-container {
       width:100%;
-      border:0.5px solid blue;
+      /* border:0.5px solid blue; */
       display:flex;
       justify-content: center;
       align-items: center;
+      height:94px;
+      font-size:50px;
+      border: 1px solid darkgrey;
   }
 
   .non-zero-numbers-container {
       width:100%; 
-      border:0.5px solid darkviolet;
+      /* border:0.5px solid darkviolet; */
       display:flex;
       flex-wrap:wrap;
   }
 
   .non-zero-number-button-style {
-      border:0.5px solid orchid;
+      /* border:0.5px solid orchid; */
       font-weight: bold;
       width: 33.3333333%;
       display:flex;
       justify-content: center;
       align-items: center;
+      height:94px;
+      border: 1px solid darkgrey;
   }
 
   .zero-number-container {
       width:100%;
-      border:0.5px solid slateblue;
+      /* border:0.5px solid slateblue; */
       display:flex;
       justify-content: center;
       align-items: center;
+      height:94px;
+      border: 1px solid darkgrey;
   }
 
   .operators-container {
@@ -125,4 +141,10 @@ table {
       width:100%; 
       background-color: darkred;
       color:white;
+      display:flex;
+      justify-content: center;
+      align-items: center;
+      height:94px;
+      font-size:60px;
+      border: 1px solid darkgray;
   }
