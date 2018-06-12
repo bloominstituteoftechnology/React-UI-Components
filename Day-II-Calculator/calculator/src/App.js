@@ -25,10 +25,10 @@ const App = () => {
       <NumberButton text="1" customStyle="white-button" />
       <NumberButton text="2" customStyle="white-button" />
       <NumberButton text="3" customStyle="white-button" />
-      <NumberButton text="+" customStyle="red-button" />
+      <NumberButton text="&#43;" customStyle="red-button" />
 
       <ActionButton text="0" customStyle="white-button" />
-      <NumberButton text="=" customStyle="red-button" />
+      <NumberButton text="&#61;" customStyle="red-button" />
     </div>
   );
 };
