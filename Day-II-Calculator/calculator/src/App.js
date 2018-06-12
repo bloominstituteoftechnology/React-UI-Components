@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import CalcDisplay from './components/DisplayComponents/CalculatorDisplay';
 
 const App = () => {
   return (
@@ -17,7 +18,7 @@ const App = () => {
         </strong>
       </p> */}
 
-
+      <CalcDisplay />
 
     </div>
   );
