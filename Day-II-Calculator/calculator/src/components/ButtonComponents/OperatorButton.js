@@ -4,7 +4,9 @@ import "./Button.css";
 const OperatorButton = props => {
   return (
     <div class="operatorButton" id={props.value}>
-      {props.value}
+        <h1>
+        {props.value}
+        </h1>
     </div>
   );
 };

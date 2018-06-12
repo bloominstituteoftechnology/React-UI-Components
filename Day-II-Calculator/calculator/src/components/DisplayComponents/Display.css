@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 .display {
     display:flex;
     max-width: 454px;
@@ -7,10 +11,18 @@
 
 .calculationDisplay {
     width: 100%;
-    font-size: 4.8rem;
     text-align: right;
-    background-color: gray;
+    background-color: #222222;
+    border: .5px solid black;
+
+}
+
+.calculationDisplay h1 {
     margin: auto;
+    padding: 22px 8px 18px 0px;
+    font-size: 4.8rem;
+    color: white;
+
 }
 
 .buttonDisplay {
@@ -19,11 +31,13 @@
 }
 
 .operatorPad {
+    width: 26%;
     display: flex;
     flex-flow: column;
 }
 
 .numPad {
+    width: 74%;
     display: flex;
     flex-flow: column;
 }

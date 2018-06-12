@@ -12,7 +12,7 @@ const buttons =
     ];
 
 let operators = {
-    operators: ["÷", "×", "-", "+", "="]
+    operators: ["÷", "×", "−", "+", "="]
 }
 
 const Display = (props) => {
