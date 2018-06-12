@@ -4,30 +4,54 @@ import CalculatorDisplay from './components/DisplayComponents/CalculatorDisplay'
 import NumberButton from './components/ButtonComponents/NumberButton';
 import ActionButton from './components/ButtonComponents/ActionButton';
 
-const App = () => {
+class App extends React.Component {
   // let number
+  constructor(props){
+    super(props);
+    this.state ={
+      total: 0
+    };
 
-  return (
-    <div className='app'>
-        <CalculatorDisplay number='0' background='btn__xlong'/>
-        <ActionButton number='clear' background='btn__long'/>
-        <NumberButton number='%' background='btn__red'/>
-        <NumberButton number='9'/>
-        <NumberButton number='8'/>
-        <NumberButton number='7'/>
-        <NumberButton number='X' background='btn__red'/>
-        <NumberButton number='6'/>
-        <NumberButton number='5'/>
-        <NumberButton number='4'/>
-        <NumberButton number='-' background='btn__red'/>        
-        <NumberButton number='3'/>
-        <NumberButton number='2'/>
-        <NumberButton number='1'/>
-        <NumberButton number='+' background='btn__red'/>
-        <ActionButton number='0' background='btn__long'/>
-        <NumberButton number='=' background='btn__red'/>
+  }
+  handleClickButton = (e) => {
+    let number = this.state.total;
+    if(e.target.outerText == 'clear'){
+      this.setState({
+        total: 0
+      })
+    }else{
+      this.setState({
+        total: Number(e.target.outerText) + number
+      })
+    }
+
+  };
+
+  render() {
+    return (
+      <div className='app'>
+        <CalculatorDisplay number={this.state.total} background='btn__xlong'/>
+        <ActionButton number='clear' onClick={this.handleClickButton} background='btn__long'/>
+        <NumberButton number='%' onClick={this.handleClickButton} background='btn__red'/>
+        <NumberButton number={9} onClick={this.handleClickButton}/>
+        <NumberButton number={8} onClick={this.handleClickButton}/>
+        <NumberButton number={7} onClick={this.handleClickButton}/>
+        <NumberButton number='X' onClick={this.handleClickButton} background='btn__red'/>
+        <NumberButton number='6' onClick={this.handleClickButton}/>
+        <NumberButton number='5' onClick={this.handleClickButton}/>
+        <NumberButton number='4' onClick={this.handleClickButton}/>
+        <NumberButton number='-' onClick={this.handleClickButton} background='btn__red'/>        
+        <NumberButton number='3' onClick={this.handleClickButton}/>
+        <NumberButton number='2' onClick={this.handleClickButton}/>
+        <NumberButton number='1' onClick={this.handleClickButton}/>
+        <NumberButton number='+' onClick={this.handleClickButton} background='btn__red'/>
+        <ActionButton number='0' onClick={this.handleClickButton} background='btn__long'/>
+        <NumberButton number='=' onClick={this.handleClickButton} background='btn__red'/>
     </div>
-  );
+    );
+    
+  }
+    
 };
 
 export default App;
