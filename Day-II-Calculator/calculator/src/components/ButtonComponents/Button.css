@@ -6,3 +6,16 @@
     font-size: 2.5rem;
     font-weight: bold;
 }
+
+.action-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    font-size: 2.5rem;
+    font-weight: regular;
+}
+
+.bold {
+    font-weight: bold;
+}
