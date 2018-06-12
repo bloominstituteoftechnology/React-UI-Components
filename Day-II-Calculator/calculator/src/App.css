@@ -1,6 +1,7 @@
 .calc-container {
     max-width: 456px;
-    margin: 5%;
+    margin: auto;
+    margin-top: 25px;
 }
 
 .calc-display {
