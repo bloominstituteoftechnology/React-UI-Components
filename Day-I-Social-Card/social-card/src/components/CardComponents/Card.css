@@ -13,16 +13,26 @@ a {
 
 .card-banner {
     display: block;
-    height: 300px;
-    margin-left: 110px;
+    height: 255px;
+    width: 505px;
+    margin-left: 62px;
     border-radius: 5px 5px 0 0;
 }
 
 .card-content {
-    padding-left: 10px;
-    margin-left: 110px;
+    width: 493px;
+    padding-left: 14px;
+    margin-left: 62px;
     border: 1px solid lightgrey;
     border-radius: 0 0 5px 5px;
+}
+
+.card-content h3 {
+    font-size: 14px;
+}
+
+.card-content p {
+    font-size: 14px;
 }
 
 .card-content p:last-child {

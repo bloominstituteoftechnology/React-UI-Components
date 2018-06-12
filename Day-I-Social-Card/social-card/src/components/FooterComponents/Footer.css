@@ -1,14 +1,14 @@
 .footer {
-    margin-left: 110px;
+    margin-left: 60px;
     display: flex;
     flex-wrap: wrap;
-    margin-top: 20px;
+    margin-top: 0;
 }
 
 .footer button {
     height: 25px;
     width: 25px;
-    margin-right: 50px;
+    margin-right: 55px;
 }
 
 .footer button:hover {
