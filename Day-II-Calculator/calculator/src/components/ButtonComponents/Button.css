@@ -1,0 +1,12 @@
+.number-buttons {
+  display: flex;
+  flex-flow: column;
+  margin: 0 auto;
+  border: 2px red solid;
+  width: 450px;
+}
+
+.number-buttons .row {
+  display: flex;
+  flex-flow: row;
+}
