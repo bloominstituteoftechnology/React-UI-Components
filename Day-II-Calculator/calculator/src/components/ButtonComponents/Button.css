@@ -1,6 +1,7 @@
 .button-container {
-    border: 1px solid black;
-    height: 468px;
+
+    max-height: 468px;
+    height: 100%;
     display: flex;
     flex-flow: wrap;
 }
@@ -26,7 +27,7 @@
 }
 
 .action-button-style {
-    width: 74%;
+    width: 74.1%;
     font-size: 43px;
     background: white;
     border: 1px solid #979797;

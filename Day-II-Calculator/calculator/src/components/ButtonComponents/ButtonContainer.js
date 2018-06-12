@@ -15,7 +15,7 @@ const ButtonContainer = () => {
             <NumberButton text='4'/>
             <NumberButton text='5'/>
             <NumberButton text='6'/>
-            <NumberButton buttonStyle='red-button-style' text='-'/>
+            <NumberButton buttonStyle='red-button-style' text='−'/>
             <NumberButton text='1'/>
             <NumberButton text='2'/>
             <NumberButton text='3'/>
