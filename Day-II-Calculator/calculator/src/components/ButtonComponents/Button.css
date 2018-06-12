@@ -1,0 +1,8 @@
+.number-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
