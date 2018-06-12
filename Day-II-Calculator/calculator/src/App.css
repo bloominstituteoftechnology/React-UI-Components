@@ -1,0 +1,23 @@
+.container {
+    max-width: 450px;
+    width: 100%;
+    border: 1px solid black;
+    margin: auto;
+}
+
+.top {
+    display: flex;
+}
+.mTop {
+    display: flex;
+}
+
+.mid {
+    display: flex;
+}
+.mbot {
+    display: flex;
+}
+.bot {
+    display: flex;
+}

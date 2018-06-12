@@ -1,1 +1,29 @@
 /* All styles for your header Components live here */
+.header-wrapper{
+    display: flex;
+    width: 585px;
+    height: 105px;
+    
+}
+
+.image {
+    
+    height: 55px;
+}
+.hTitle {
+    height: 30px;
+    display: flex;
+    /* border: 1px solid lightcoral; */
+}
+.hTitle h6{
+   
+    font-weight: normal;
+    font-size: 12px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 20px;
+}
+.content {
+  
+    font-size: 14px;
+}
