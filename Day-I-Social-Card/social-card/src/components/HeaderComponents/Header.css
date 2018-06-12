@@ -1,1 +1,38 @@
 /* All styles for your header Components live here */
+.red-circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #A0161D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-thumb {
+margin-top:5px;
+width: 25px;
+height: 25px;
+filter: brightness(0%) invert(100%) grayscale(100%);
+
+}
+.header-user {
+    margin: 0 5px 0 5px;
+    font-size: 14px;
+    font-weight: bold;
+    color: hsl(0, 0%, 20%);
+    display: inline-block;
+}
+.header-tag {
+    display: inline-block;
+    font-size: 12px;
+    color: hsl(0, 0%, 60%);
+}
+.header-content {
+    display: inline-block;
+    font-size: 12px;
+    margin: 0 5px 0 5px;
+}
+.span-wrapper {
+    display:inline-block;
+    height:25px;
+}
