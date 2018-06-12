@@ -1,0 +1,11 @@
+/* display styling */
+.display {
+    width: 452px;
+    height: 124px;
+    background: rgb(34, 34, 34);
+    font-size: 53px;
+    text-align: right;
+    padding: 40px 17px 31px;
+    line-height: 100%;
+    margin: 1px;
+}

@@ -1,0 +1,13 @@
+/* main app styling */
+* {
+    box-sizing: border-box;
+}
+
+.calc-wrapper {
+    width: 456px;
+    height: 598px;
+    margin:auto;
+    background: rgb(151, 151, 151);
+    color: whitesmoke;
+    padding: 1px;
+}
