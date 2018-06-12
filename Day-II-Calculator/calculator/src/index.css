@@ -48,6 +48,10 @@ table {
 }
 
 /* Custom classes */
+html, body {
+  height: 100%;
+}
+
 html {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 62.5%;
@@ -56,4 +60,12 @@ html {
 body {
   font-size: 1.6rem;
   background-color: #eaeaea;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
 }
