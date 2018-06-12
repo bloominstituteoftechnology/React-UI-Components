@@ -1,0 +1,10 @@
+.calculator-display {
+	background: black;
+	width: 400px;  
+	height: 100px;
+	font-size: 80px;
+	color: white;
+	text-align: right;
+}
+
+
