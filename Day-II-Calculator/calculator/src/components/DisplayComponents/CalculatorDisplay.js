@@ -4,8 +4,9 @@ import NumberButton from '../ButtonComponents/NumberButton'
 import ActionButton from '../ButtonComponents/ActionButton'
 
 const CalculatorDisplay = () => {
+   
     return (<div className="calc-container">
-        <div className="output">0</div>
+        <div className="output">{NumberButton.defaultProps.text}</div>
         <div className="row">
         <ActionButton actionStyle="action-button" text="clear" />
         <NumberButton className="number-button" customStyle="mutator" text="÷" />
@@ -32,8 +33,7 @@ const CalculatorDisplay = () => {
         <ActionButton actionStyle="action-button" text="0" />
         <NumberButton buttonStyle="number-button" customStyle="mutator" text="=" />
         </div>
-
-
+       
     </div>);
 }
 
