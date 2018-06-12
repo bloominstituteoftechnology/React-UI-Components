@@ -8,21 +8,22 @@ import ActionButton from './components/ButtonComponents/ActionButton'
 const App = () => {
   return (
     <div className="container">
-    	<NumberButton number="0"/>
-    	<NumberButton number="1"/>
-    	<NumberButton number="2"/>
-    	<NumberButton number="3"/>
-    	<NumberButton number="4"/>
-    	<NumberButton number="5"/>
-    	<NumberButton number="6"/>
-    	<NumberButton number="7"/>
-    	<NumberButton number="8"/>
-    	<NumberButton number="9"/>
-    	<CalculatorDisplay number="0"/>
-    	<ActionButton text="="/>
-    	<ActionButton text="+"/>
-    	<ActionButton text="-"/>
-    	<ActionButton text="X"/>
+    	<CalculatorDisplay name="0"/>
+    	<NumberButton text="1"/>
+    	<NumberButton text="2"/>
+    	<NumberButton text="3"/>
+    	<NumberButton text="4"/>
+    	<NumberButton text="5"/>
+    	<NumberButton text="6"/>
+    	<NumberButton text="7"/>
+    	<NumberButton text="8"/>
+    	<NumberButton text="9"/>
+    	<NumberButton text="="/>
+    	<NumberButton text="+"/>
+    	<NumberButton text="-"/>
+    	<NumberButton text="X"/>
+    	<NumberButton text="0"/>
+    	<ActionButton text="clear"/>
     </div>
   );
 };
