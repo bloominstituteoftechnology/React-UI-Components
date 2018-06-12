@@ -1,2 +1,12 @@
-import React, { Component } from 'react'
+import React from 'react'
 import './Button.css'
+
+const ActionButton = (props) => {
+  return (
+    <button className={`general-styles ${props.buttonStyle}`}>
+      <div className='clear-text'>{props.text}</div>
+    </button>
+  )
+}
+
+export default ActionButton
