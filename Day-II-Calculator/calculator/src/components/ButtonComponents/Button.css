@@ -1,0 +1,52 @@
+.action-column {
+    display: flex;
+    flex-flow: column wrap;
+    height: 460px;
+    width: 15%;
+    position: relative;
+    bottom: 360px;
+}
+
+.action-button {
+    background: rgb(155, 15, 15);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+    height: 90px;
+    line-height: 90px;
+    width: 110px;
+    border: 1px solid gray;
+}
+
+.number-column {
+    display: flex;
+    flex-flow: row wrap;
+    width: 45%;
+    margin-left: 245px;
+    height: 460px;
+}
+
+.default-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+    height: 90px;
+    line-height: 90px;
+    width: 110px;
+    font-weight: bold;
+    border: 1px solid gray;
+  }
+  
+  .default-large-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+    height: 90px;
+    line-height: 90px;
+    width: 330px;
+    border: 1px solid gray;
+  }
