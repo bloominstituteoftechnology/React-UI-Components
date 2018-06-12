@@ -1,6 +1,8 @@
 .btn {
     height: 96px;
+    width: 110px;
     font-size: 44px;
+    background: white;
 }
 
 .btn:hover {
@@ -9,11 +11,9 @@
 
 .action-btn {
     width: 334px;
-    background: white;
 }
 
 .operator-action-btn {
-    width: 110px;
     background: #A0001E;
     color: white;
 }

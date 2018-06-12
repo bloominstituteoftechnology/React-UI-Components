@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import CalcDisplay from './components/DisplayComponents/CalculatorDisplay';
 import ActionButton from './components/ButtonComponents/ActionButton';
+import NumberButton from './components/ButtonComponents/NumberButton';
 
 const App = () => {
   return (
@@ -21,11 +22,21 @@ const App = () => {
 
       <CalcDisplay />
       <ActionButton name="clear" />
-      <ActionButton defaultStyle="operator-action-btn" name="/"/>
-      <ActionButton defaultStyle="operator-action-btn" name="*"/>
-      <ActionButton defaultStyle="operator-action-btn" name="-"/>
-      <ActionButton defaultStyle="operator-action-btn" name="+"/>
-      <ActionButton defaultStyle="operator-action-btn" name="="/>
+      <ActionButton defaultStyle="operator-action-btn" name="/" />
+      <NumberButton name="7" />
+      <NumberButton name="8" />
+      <NumberButton name="9" />
+      <ActionButton defaultStyle="operator-action-btn" name="*" />
+      <NumberButton name="4" />
+      <NumberButton name="5" />
+      <NumberButton name="6" />
+      <ActionButton defaultStyle="operator-action-btn" name="-" />
+      <NumberButton name="1" />
+      <NumberButton name="2" />
+      <NumberButton name="3" />
+      <ActionButton defaultStyle="operator-action-btn" name="+" />
+      <NumberButton defaultStyle="action-btn" name="0" />
+      <ActionButton defaultStyle="operator-action-btn" name="=" />
     </div>
   );
 };
