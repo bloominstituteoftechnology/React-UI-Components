@@ -2,7 +2,6 @@ import React from 'react';
 import './App.css';
 import NumberButton from '././components/ButtonComponents/NumberButton';
 import ActionButton from '././components/ButtonComponents/ActionButton';
-import EmptyButton from '././components/ButtonComponents/EmptyButton';
 
 NumberButton.defaultProps ={ 
         number:`1`
@@ -13,27 +12,28 @@ NumberButton.defaultProps ={
 const App = () => {
   return (
     <div>
-
-	<EmptyButton customClass="blank-btn" number="clear"  />
-	<ActionButton customClass="action-btn" action="&#xf7;" />  
+	<NumberButton customClass="black-btn" number="0"  />
+	<br />
+	<NumberButton customClass="blank-btn" number="clear"  />
+	<ActionButton customClass="action-btn" action="÷" />  
 	<br />  
 	<NumberButton customClass="number-btn" number="7" />
         <NumberButton customClass="number-btn" number="8" />
         <NumberButton customClass="number-btn" number="9" />
-	<ActionButton customClass="action-btn" action="&#xd7;" />
+	<ActionButton customClass="action-btn" action="×" />
 	<br /> 
 	<NumberButton customClass="number-btn" number="4" />
         <NumberButton customClass="number-btn" number="5" />
         <NumberButton customClass="number-btn" number="6" /> 
-	<ActionButton customClass="action-btn" action="&#x208b;" />
+	<ActionButton customClass="action-btn" action="−" />
 	<br />  
 	<NumberButton customClass="number-btn" number="1" />
 	<NumberButton customClass="number-btn" number="2" />
 	<NumberButton customClass="number-btn" number="3" /> 
-	<ActionButton customClass="action-btn" action="&#x2b;" />
+	<ActionButton customClass="action-btn" action="+" />
 	<br />
-	<EmptyButton customClass="blank-btn" number="0"  />
-        <ActionButton customClass="action-btn" action="&#x3d;" /> 
+	<NumberButton customClass="blank-btn" number="0"  />
+        <ActionButton customClass="action-btn" action="=" /> 
 
 
     </div>
