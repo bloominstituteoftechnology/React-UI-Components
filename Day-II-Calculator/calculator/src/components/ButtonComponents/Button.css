@@ -1,0 +1,36 @@
+.button-container{
+    height: 500px ; 
+    background: white ;
+    font-size: 50px ;
+    line-height: 100px ;
+    color: black ;
+    text-align: center ;
+
+    display: flex ;
+}
+.calc-nums {
+    display: flex ;
+    flex-wrap: wrap ;
+    flex-direction: row-reverse ;
+}
+.calc-ops {
+    width: 100px ;
+    background: red ;
+}
+.action-button {
+    width: 298px ;
+    height: 98px;
+    border: 1px solid grey ;
+}
+.number-button {
+    border: 1px solid grey ;
+    width: 98px ;
+    height: 98px ;
+}
+.button-default {
+    background: orange ;
+
+    border: 1px solid grey ;
+    width: 98px ;
+    height: 98px ;
+}

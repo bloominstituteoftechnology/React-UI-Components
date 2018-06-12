@@ -1,0 +1,12 @@
+.calc-display-wrapper {
+    height: 150px ;
+    background: black ;
+    display: flex ;
+    justify-content: flex-end ;
+
+}
+.calc-display-output {
+    color: white ;
+    font-size: 75px ;
+    align-self: center ;
+}
