@@ -151,7 +151,7 @@ a:link {
 .card-content {
     margin-left:68px;
     margin-right:15px;
-    border:1px solid lightgray;
+    border:1px solid rgb(231, 230, 230);
     border-radius:5px 5px 5px 5px;
 }
 
