@@ -10,19 +10,23 @@
 .buttonstyle-long{
     
     justify-content: center;
-    height: 50px;
+    height: 90px;
     width: 75%;
     background: white;
     color: black;
-    border: solid 1px gray;
+    font-size: 30px;
+    
 }
 .buttonstyle-red{
+    font-size: 30px;
 width: 25%;
-height:50px;
-background: red;
+height:90px;
+background: #96001C;
+color: white;
 }
 .buttonstyle-num{
+    font-size: 30px;
 width: 25%;
-height:50px;
+height:90px;
 background: white;
 }
