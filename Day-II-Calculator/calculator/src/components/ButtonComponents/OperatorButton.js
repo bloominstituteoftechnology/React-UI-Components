@@ -3,12 +3,11 @@ import "./Button.css";
 
 const OperatorButton = props => {
   return (
-    <div class="operatorButton" id={props.value}>
+    <div className="operatorButton" id={props.value}>
         <h1>
         {props.value}
         </h1>
     </div>
   );
 };
-
 export default OperatorButton;
