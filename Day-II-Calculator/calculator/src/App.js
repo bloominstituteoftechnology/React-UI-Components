@@ -13,7 +13,7 @@ const App = () => {
      <ActionButton actionStyle="buttonstyle-long" text= "clear"/>
      <NumberButton actionStyle="buttonstyle-red" text= "&divide;"/>
      <NumberButton actionStyle="buttonstyle-num" text= "7"/>
-     <NumberButton actionStyle="buttonstyle-num" text= "9"/>
+     <NumberButton actionStyle="buttonstyle-num" text= "8"/>
      <NumberButton actionStyle="buttonstyle-num" text= "9"/>
      <NumberButton actionStyle="buttonstyle-red" text= "&times;"/>
      <NumberButton actionStyle="buttonstyle-num" text= "4"/>
