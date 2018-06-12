@@ -30,14 +30,14 @@
     flex-wrap: wrap;
 }
 
-.large-button {
+.action-button {
     width: 332px;
     height: 92px;
     margin: 1px;
     font-size: 33px;
 }
 
-.small-button {
+.number-button {
     width: 109.33px;
     height: 92px;
     margin: 1px;

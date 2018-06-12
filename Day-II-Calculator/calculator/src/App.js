@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
 
-function SmallButton(props) {
-  return <button className={props.className}>{props.name}</button>
+function NumberButton(props) {
+  return <button className={props.buttonStyle}>{props.text}</button>
 }
 
-function LargeButton(props) {
-  return <button className={props.className}>{props.name}</button>
+function ActionButton(props) {
+  return <button className={props.buttonStyle}>{props.text}</button>
 }
 
 const App = () => {
@@ -14,22 +14,22 @@ const App = () => {
     <div className="calc-wrapper">
       <div className="display">0</div>
       <div className="buttons-wrapper">
-        <LargeButton className="large-button" name="Clear"/>
-        <SmallButton className="calculation-button" name='&#247;'/>
-        <SmallButton className="small-button" name='7'/>
-        <SmallButton className="small-button" name='8'/>
-        <SmallButton className="small-button" name='9'/>
-        <SmallButton className="calculation-button" name='&#215;'/>
-        <SmallButton className="small-button" name='4'/>
-        <SmallButton className="small-button" name='5'/>
-        <SmallButton className="small-button" name='6'/>
-        <SmallButton className="calculation-button" name='&#8722;'/>
-        <SmallButton className="small-button" name='1'/>
-        <SmallButton className="small-button" name='2'/>
-        <SmallButton className="small-button" name='3'/>
-        <SmallButton className="calculation-button" name='&#43;'/>
-        <LargeButton className="large-button" name="0"/>
-        <SmallButton className="calculation-button" name='&#61;'/>
+        <ActionButton buttonStyle="action-button" text="Clear"/>
+        <NumberButton buttonStyle="calculation-button" text='&#247;'/>
+        <NumberButton buttonStyle="number-button" text='7'/>
+        <NumberButton buttonStyle="number-button" text='8'/>
+        <NumberButton buttonStyle="number-button" text='9'/>
+        <NumberButton buttonStyle="calculation-button" text='&#215;'/>
+        <NumberButton buttonStyle="number-button" text='4'/>
+        <NumberButton buttonStyle="number-button" text='5'/>
+        <NumberButton buttonStyle="number-button" text='6'/>
+        <NumberButton buttonStyle="calculation-button" text='&#8722;'/>
+        <NumberButton buttonStyle="number-button" text='1'/>
+        <NumberButton buttonStyle="number-button" text='2'/>
+        <NumberButton buttonStyle="number-button" text='3'/>
+        <NumberButton buttonStyle="calculation-button" text='&#43;'/>
+        <ActionButton buttonStyle="action-button" text="0"/>
+        <NumberButton buttonStyle="calculation-button" text='&#61;'/>
       </div>
     </div>
   );
