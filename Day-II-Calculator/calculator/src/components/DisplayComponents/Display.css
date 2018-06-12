@@ -55,3 +55,74 @@ table {
 * {
     box-sizing: border-box;
   }
+
+  /***************************/
+
+  .app-container {
+      max-width:456px;
+      max-height:598px;
+      display:flex;
+      flex-direction:column;
+  }
+
+  .calculator-display-container {
+      width: 100%;
+      border: 1px solid darkgrey;
+      display:flex;
+      justify-content: flex-end;
+  }
+
+  .clear-and-numbers-and-operators-container {
+      width:100%;
+      display:flex;
+      border:0.5px solid greenyellow;
+  }
+
+  .clear-and-numbers-container {
+      width:75%;
+      border:0.5px solid red;
+  }
+
+  .clear-button-container {
+      width:100%;
+      border:0.5px solid blue;
+      display:flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .non-zero-numbers-container {
+      width:100%; 
+      border:0.5px solid darkviolet;
+      display:flex;
+      flex-wrap:wrap;
+  }
+
+  .non-zero-number-button-style {
+      border:0.5px solid orchid;
+      font-weight: bold;
+      width: 33.3333333%;
+      display:flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .zero-number-container {
+      width:100%;
+      border:0.5px solid slateblue;
+      display:flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .operators-container {
+      width:25%;
+      display:flex;
+      flex-direction: column;
+  }
+
+  .operator-button-style {
+      width:100%; 
+      background-color: darkred;
+      color:white;
+  }
