@@ -1,0 +1,17 @@
+.buttons-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.numbers-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.nine-numbers-container {
+  width: 330px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-start;
+}
