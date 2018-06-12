@@ -7,7 +7,10 @@
     border-radius: 3px;
 }
 
+.header {
+    display: flex;
+}
 .margin {
-    margin-right: 10px;
-    
+    padding: 20px 3.75% 0 3.75%;
+    height: 75px;
 }
