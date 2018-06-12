@@ -1,0 +1,14 @@
+.result {
+  box-sizing: border-box;
+  height: 60px;
+  text-align: right;
+  background-color: black;
+  color: white;
+  border: 1px solid grey;
+  width: 100%;
+  line-height: 60px;
+  font-size: 32px;
+}
+.answer {
+  padding-right: 7px;
+}

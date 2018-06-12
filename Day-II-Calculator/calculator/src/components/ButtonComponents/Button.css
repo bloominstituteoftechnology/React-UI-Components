@@ -1,0 +1,62 @@
+.numbers {
+  width: 22%;
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 50px;
+  border: 1px solid magenta;
+  background-color: white;
+}
+
+.operators {
+  width: 34%;
+  background-color: #931D25;
+  color: white;
+  text-align: center;
+  line-height: 50px;
+  border: 1px solid grey;
+  font-weight: bold;
+  font-size: 32px;
+}
+.MainButtons {
+  height: 50px;
+  display: flex;
+  border: 0.5px solid white;
+}
+
+.ClearButton {
+  width: 66%;
+  font-size: 32px;
+  text-align: center;
+  line-height: 50px;
+  font-weight: bold;
+  background-color: white;
+}
+.operators {
+  width: 34%;
+  background-color: #931D25;
+  color: white;
+  text-align: center;
+  line-height: 50px;
+  border: 1px solid grey;
+  font-weight: bold;
+  font-size: 32px;
+}
+
+.numbers {
+  width: 22%;
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 50px;
+  border: 1px solid grey;
+  background-color: white;
+}
+.ZeroButton {
+  width: 66%;
+  font-size: 32px;
+  text-align: center;
+  line-height: 50px;
+  font-weight: bold;
+  background-color: white;
+}

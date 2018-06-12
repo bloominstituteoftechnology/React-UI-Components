@@ -1,1 +1,26 @@
 /* All styles for your header Components live here */
+
+.header-wrapper {
+    display:flex;
+   
+}
+
+.header-content {
+    font-size:16px;
+}
+
+.image-thumbnail {
+    width: 75px;
+    height:85px;
+}
+
+.header-title {
+    font-size: 16px;
+    display:flex;
+} 
+
+.header-title-small{
+	display: inline-block;
+	color: gray;
+	font-size: .8rem;
+}
