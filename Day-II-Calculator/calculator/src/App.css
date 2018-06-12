@@ -3,7 +3,8 @@
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(6, 1fr);
     background: lightblue;
-    max-width: 500px;
-    height: 600px;
-    margin: auto;
+    max-width: 400px;
+    width: 100%;
+    height: 500px;
+    margin: 0 auto;
 }
