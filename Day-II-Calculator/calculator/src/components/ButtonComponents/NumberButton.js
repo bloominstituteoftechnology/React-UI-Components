@@ -5,9 +5,13 @@ import './Button.css';
 
 const NumberButton = () => {
   return (
-    <div className = 'number'>
+    <div className = 'ClearButton'>
+
     </div>
   );
 };
+
+
+
 
 export default NumberButton;

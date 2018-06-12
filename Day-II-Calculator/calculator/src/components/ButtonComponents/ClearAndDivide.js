@@ -1,18 +1,16 @@
 import React from 'react';
+import './ClearAndDivide.css';
+
 import './Button.css';
 
 
 
-const ActionButton = () => {
+const ClearAndDivide = () => {
   return (
-    
-      <div>  
-          <div className="MainButtons">
+    <div className="MainButtons">
       <div className="ClearButton">clear</div>
       <div className="operators">&#247;</div>
     </div>
-      </div>
-      );
-};
+)};
 
-export default ActionButton;
+export default ClearAndDivide;
