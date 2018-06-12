@@ -1,24 +1,30 @@
 import React from 'react';
 import './App.css';
 import CalculatorDisplay from './components/DisplayComponents/CalculatorDisplay';
+import ActionButton from './components/ButtonComponents/ActionButton';
+import NumberButton from './components/ButtonComponents/NumberButton';
 
 const App = () => {
   return (
     <div>
-      <h3>Welcome to React Calculator</h3>
-      <p>
-        We hav given you a starter project. You'll want to build out your
-        components in their respective files, remove this code and replace it
-        with the proper components.
-      </p>
-
 	<CalculatorDisplay value="0" />	
-      <p>
-        <strong>
-          Don't forget to `default export` your components and import them here
-          inside of this file in order to make them work.
-        </strong>
-      </p>
+	<ActionButton value="clear" customClass="default-button clear-button" />
+	<ActionButton value="%" customClass="default-button operator-button" />
+	<NumberButton value="7" customClass="default-button number-button" />
+	<NumberButton value="8" customClass="default-button number-button" />
+	<NumberButton value="9" customClass="default-button number-button" />
+	<ActionButton value="x" customClass="default-button operator-button" />
+	<NumberButton value="4" customClass="default-button number-button" />
+	<NumberButton value="5" customClass="default-button number-button" />
+	<NumberButton value="6" customClass="default-button number-button" />
+	<ActionButton value="-" customClass="default-button operator-button" />
+	<NumberButton value="1" customClass="default-button number-button" />
+	<NumberButton value="2" customClass="default-button number-button" />
+	<NumberButton value="3" customClass="default-button number-button" />
+	<ActionButton value="+" customClass="default-button operator-button" />
+	<NumberButton value="0" customClass="default-button clear-button" />
+	<ActionButton value="=" customClass="default-button operator-button" />
+	
     </div>
   );
 };

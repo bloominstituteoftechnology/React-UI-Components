@@ -5,6 +5,8 @@
 	font-size: 80px;
 	color: white;
 	text-align: right;
+	padding-right: 10px;
+	box-sizing: border-box;
 }
 
 
