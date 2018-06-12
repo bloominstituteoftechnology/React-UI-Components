@@ -20,7 +20,7 @@ const App = () => {
       <NumberButton name='7' />
       <NumberButton name='8' />
       <NumberButton name='9' />
-      <NumberButton name='clear' customStyleProp='long-button'  />
+      <NumberButton name='clear' customStyleProp='clear-button'  />
       </div>
       <div className='action-buttons'>
         <ActionButton name='÷' />

@@ -8,13 +8,13 @@
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    height: 475px;
+    height: 555px;
    /* width: 454px;*/
     
 }
 
 .operator {
-    height: 95px;
+    height: 111px;
     width: 124px;
     border: 1px solid gray;
     background: #A0161D;
@@ -28,19 +28,25 @@
     flex-direction: row;
     flex-wrap: wrap-reverse;
     
-    height: 475px;
+    height: 555px;
     width: 100%;
     
 }
 .number {
-    height: 95px;
+    height: 111px;
     width: 110px;
     font-size: 42px;
     font-weight: bold;
-    
+    background-color: white;
 }
 
 .long-button {
-    height: 95px;
+    height: 111px;
     width: 100%;
+}
+
+.clear-button {
+    height: 111px;
+    width: 100%;
+    font-weight: lighter;
 }
