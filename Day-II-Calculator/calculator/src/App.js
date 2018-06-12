@@ -1,18 +1,13 @@
 import React from 'react';
 import './App.css';
-
-function NumberButton(props) {
-  return <button className={props.buttonStyle}>{props.text}</button>
-}
-
-function ActionButton(props) {
-  return <button className={props.buttonStyle}>{props.text}</button>
-}
+import ActionButton from './components/ButtonComponents/ActionButton';
+import NumberButton from './components/ButtonComponents/NumberButton';
+import CalculatorDisplay from './components/DisplayComponents/CalculatorDisplay';
 
 const App = () => {
   return (
     <div className="calc-wrapper">
-      <div className="display">0</div>
+      <CalculatorDisplay totalValue={0} />
       <div className="buttons-wrapper">
         <ActionButton buttonStyle="action-button" text="Clear"/>
         <NumberButton buttonStyle="calculation-button" text='&#247;'/>
