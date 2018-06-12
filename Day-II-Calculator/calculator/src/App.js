@@ -9,20 +9,20 @@ const App = () => {
     <div className = 'app-wrapper'>
       <Display text='0' />
       <ActionButton text='clear' customStyleProp='clear' />
-      <ActionButton text='/' customStyleProp='actions' />
+      <ActionButton text='&#247;' customStyleProp='actions' />
       <NumberButton text = '7'/>
       <NumberButton text='8' />
       <NumberButton text='9' />
-      <ActionButton text='*' customStyleProp='actions' />
+      <ActionButton text='&#215;' customStyleProp='actions' />
       <NumberButton text='4' />
       <NumberButton text='5' />
       <NumberButton text='6' />
-      <ActionButton text='-' customStyleProp='actions' />
+      <ActionButton text='&#8722;' customStyleProp='actions' />
       <NumberButton text='1' />
       <NumberButton text='2' />
       <NumberButton text='3' />
-      <ActionButton text='+' customStyleProp ='actions' />
-      <ActionButton text='=' customStyleProp ='actions' />
+      <ActionButton text='&#43;' customStyleProp ='actions' />
+      <ActionButton text='&#61;' customStyleProp ='actions' />
       <NumberButton text='0' customStyleProp = 'zero' />
     </div>
   );

@@ -7,6 +7,7 @@
     font-size: 36px;
     border: none;
     cursor: pointer;
+    font-weight: bold;
 }
 .zero {
     background-color: white;
@@ -20,6 +21,8 @@
 .actions {
     background-color: #A0001E;
     color: white;
+     font-weight: normal;
+     font-size: 60px;
 }
 .clear {
     background-color: white;
@@ -29,4 +32,5 @@
     justify-content: center;
     align-items: center;
     font-size: 36px;
+    font-weight: normal;
 }
