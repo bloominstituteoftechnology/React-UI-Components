@@ -4,8 +4,10 @@ import './Header.css';
 const HeaderContent = () => {
 return(
 <div className="upper">
+<div className="topLine">
 <p>Lambda School</p>
-<div className="subtext">@Lambda School * 26 Jan
+<p className="subtext">@Lambda School * 26 Jan
+</p>
 </div>
 <div className="paragraph">Sample text, yay! Sample text, yay! Sample text, yay! Sample text, yay! Sample text, yay! Sample text, yay! 
 Sample text, yay! Sample text, yay! Sample text, yay! Sample text, yay! Sample text, yay! Sample text, yay! 

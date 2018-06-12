@@ -8,7 +8,6 @@ const HeaderContainer = () => {
 	<div className="header">
 	<HeaderTitle />
 	<HeaderContent />
-	<p> this is hard to get </p>
 	</div>
 	);
 };
