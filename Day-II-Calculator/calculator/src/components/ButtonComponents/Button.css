@@ -6,4 +6,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  color: black;
+}
+
+.operators {
+  background: #96001c;
+  color: white;
 }
