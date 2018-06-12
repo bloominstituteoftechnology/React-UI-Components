@@ -1,0 +1,45 @@
+.main-container {
+    max-width: 200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.calc-display {
+    background-color: black;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 45px;
+}
+.display {
+    color: white;
+}
+
+.button-clear {
+    width: 100px;
+}
+
+.number-container {
+    display:flex;
+    width: 200px;
+}
+
+.number-button {
+
+}
+
+.action-container {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+.action-button {
+    width: 45px;
+    height: 35px;
+    align-self: flex-end;
+    background: red;
+    color: white; 
+    border: solid white;
+    margin-top: -5px;
+}
