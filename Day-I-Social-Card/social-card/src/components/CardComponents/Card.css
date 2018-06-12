@@ -1,1 +1,11 @@
 /* All styles for your Card Components live here */
+.card-wrapper {
+    /* border: 1px dashed yellow ; */
+    /* background: yellow ; */
+    height: 360px ;
+    margin-left: 60px ;
+}
+.card-banner img {
+    width: 100% ;
+    height: 250px ;
+}
