@@ -12,8 +12,10 @@
     height: 45px;
     width: 145px;
 }
+
 .display {
     color: white;
+    margin-right: 5px;
 }
 
 .middle-container {
