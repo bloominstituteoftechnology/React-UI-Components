@@ -16,13 +16,14 @@
   border: 2px solid lightgray;
 }
 .action-button-0 p {
-  font-size: 42px;
+  margin-top: 47px;
+  font-size: 66px;
   text-align: center;
   line-height: 0px;
 }
 .button-operations {
   height: 93px;
-  width: 118px;
+  width: 121px;
   text-align: center;
   border: 1px solid lightgray;
 }
