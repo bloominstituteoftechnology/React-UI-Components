@@ -1,0 +1,24 @@
+.longerbutton {
+    height: auto;
+    width: 375px;
+    background:white;
+    color:gray;
+    font-size:50px;
+    
+}
+
+.buttonstyle {
+    height: auto;
+    width: 125px;
+    background: darkred;
+    color: white;
+    font-size: 50px;
+}
+
+.buttonstylewhite {
+    height: auto;
+    width: 125px;
+    background: white;
+    color: black;
+    font-size: 50px;
+}

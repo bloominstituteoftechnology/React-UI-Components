@@ -1,0 +1,38 @@
+.main-container {
+    margin: 0 auto;
+    max-width: 500px;
+    width:100%;
+    border:1px solid gray;
+    
+}
+
+.firstcontainer {
+    display:flex;
+    flex-wrap:nowrap;
+    height:88px;
+  }
+
+  .secondcontainer {
+      display:flex;
+      flex-wrap:nowrap;
+      height:88px;
+  }
+
+  .thirdcontainer {
+      display:flex;
+      flex-wrap:nowrap;
+      height:88px;
+  }
+
+  .fourcontainer {
+      display:flex;
+      flex-wrap:nowrap;
+      height:88px;
+  }
+
+  .fivecontainer {
+    display:flex;
+    flex-wrap:nowrap;
+    height:88px;
+}
+
