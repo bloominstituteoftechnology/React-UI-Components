@@ -1,4 +1,4 @@
-.number-btn, .action-btn{
+.number-btn, .action-btn, .blank-btn{
 width: 100px;
 height: 100px;
 background-color: white;
@@ -11,4 +11,10 @@ border: 1px solid gray;
 .action-btn{
 background-color: maroon;
 color: white;
+}
+
+.blank-btn{
+width: 300px;
+border-right: none;
+
 }
