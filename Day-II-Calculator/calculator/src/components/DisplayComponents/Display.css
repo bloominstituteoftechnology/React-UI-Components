@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .container {  
+    max-width: 500px;
+  }
+  
+  .screen {
+    align-items: center;
+    background: #222;
+    color: white;
+    display: flex;
+    font-size: 100px;
+    justify-content: flex-end;
+    height: 125px;
+    margin: 0;
+    padding-right: 10px;
+    width: 100%;
+  }
+  

@@ -1,0 +1,67 @@
+.user {
+    display: flex;
+  }
+  
+  .col1 {
+    flex-grow: 3;
+  }
+  
+  .col2 {
+    flex-grow: 1;
+  }
+  
+  .inline {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .numBlock {
+    align-items: center;
+    background: white;
+    border: 1px solid black;
+    color: black;
+    display: flex;
+    font-size: 50px;
+    font-weight: bold;
+    justify-content: center;
+    height: 100px;
+    width: 375px;
+  }
+  
+  .numBlock:hover {
+    cursor: pointer;
+  }
+  
+  .box {
+    align-items: center;
+    background: white;
+    border: 1px solid black;
+    color: black;
+    display: flex;
+    font-size: 45px;
+    font-weight: bold;
+    justify-content: center;
+    height: 100px;
+    width: 125px;
+  }
+  
+  .box:hover {
+    cursor: pointer;
+  }
+  
+  .act {
+    align-items: center;
+    background: red;
+    border: 1px solid black;
+    color: white;
+    display: flex;
+    font-size: 60px;
+    font-weight: bold;
+    justify-content: center;
+    height: 100px;
+    width: 125px;  
+  }
+  
+  .act:hover {
+    cursor: pointer;
+  }
