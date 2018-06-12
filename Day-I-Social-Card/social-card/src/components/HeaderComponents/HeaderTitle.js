@@ -8,7 +8,9 @@ const HeaderTitle = () => {
     <p className="header-title-lambda"> Lambda School </p>
     <p className="header-title-lambda"> @LambdaSchool &nbsp; &middot;</p>
     
-   <p className="header-title-lambda">{moment().format('D MMM')}</p>
+   <p className="header-title-lambda">
+   {moment().format('D MMM')}
+   </p>
     </div>
     );
     };
