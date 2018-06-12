@@ -1,0 +1,31 @@
+.calc-container {
+    max-width: 256.05px;
+    margin: 5%;
+}
+
+.calc-display {
+    width: 100%;
+    border: 1px solid #979797;
+    border-right: 1.5px solid #979797;
+    border-left: 1.5px solid #979797;
+    border-bottom: 0;
+    background: black;
+    color: white;
+    margin: 0;
+    text-align: end;
+}
+
+.calc-content {
+    width: 101%;
+}
+
+.action-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bttn-row {
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
