@@ -3,16 +3,11 @@
     border:1px solid gray;
     font-size: 50px;
     background: whitesmoke;
-
+    width: 25%;
 }
 
 .wide-button {
-    width: 75%;
-    
-}
-
-.normal-button {
-    width: 25%;
+    width: 75%;   
 }
 
 .number-button {
@@ -23,4 +18,5 @@
     background:darkred;
     color:white;
     font-weight:normal;
+    border-right:none;
 }
