@@ -1,24 +1,33 @@
 .longerbutton {
     height: auto;
-    width: 375px;
+    width: 75%;
     background:white;
     color:gray;
-    font-size:50px;
+    font-size:5rem;
+    
+}
+
+.longerbutton1 {
+    height: auto;
+    width: 75%;
+    background:white;
+    color:black;
+    font-size:5rem;
     
 }
 
 .buttonstyle {
     height: auto;
-    width: 125px;
+    width: 25%;
     background: darkred;
     color: white;
-    font-size: 50px;
+    font-size: 5rem;
 }
 
 .buttonstylewhite {
     height: auto;
-    width: 125px;
+    width: 25%;
     background: white;
     color: black;
-    font-size: 50px;
+    font-size: 5.0rem;
 }

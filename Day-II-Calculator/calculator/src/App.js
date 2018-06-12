@@ -31,7 +31,7 @@ const App = () => {
     <NumberButton buttonstyle="buttonstyle" text="+"/>
     </div>
     <div className="fivecontainer">
-    <ActionButton actionstyle="longerbutton" text="0" />
+    <ActionButton actionstyle="longerbutton1" text="0" />
     <NumberButton buttonstyle="buttonstyle" text="="/>
     </div>
 
