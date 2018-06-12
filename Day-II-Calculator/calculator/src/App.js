@@ -41,7 +41,7 @@ const App = () => {
           <NumberButton text="4" />
           <NumberButton text="5" />
           <NumberButton text="6" />
-          <FunctionButton text="-" />
+          <FunctionButton text="—" />
         </div>
         <div className="bttn-row">
           <NumberButton text="1" />
