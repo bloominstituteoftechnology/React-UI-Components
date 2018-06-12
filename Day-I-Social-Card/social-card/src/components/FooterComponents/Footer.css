@@ -1,0 +1,34 @@
+.footer-container {
+  display: flex;
+  color: grey;
+}
+
+.fa-comment {
+  margin-left: 63px;
+  margin-top: 15px;
+}
+
+.fa-sync-alt {
+  margin-left: 63px;
+  margin-top: 17px;
+}
+
+.fa-sync-alt span {
+  margin-left: 12px;
+  font-size: 16px;
+}
+
+.fa-heart {
+  margin-left: 45px;
+  margin-top: 17px;
+}
+
+.fa-heart span {
+  margin-left: 12px;
+  font-size: 16px;
+}
+
+.fa-envelope {
+  margin-left: 44px;
+  margin-top: 17px;
+}

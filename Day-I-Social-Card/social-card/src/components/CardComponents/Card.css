@@ -2,7 +2,7 @@
 .card-container {
   height: 362px;
   width: 99%;
-  border: 1px solid red;
+  border: 1px solid grey;
   display: flex;
 }
 
