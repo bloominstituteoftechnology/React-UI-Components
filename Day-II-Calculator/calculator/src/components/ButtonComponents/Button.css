@@ -2,11 +2,13 @@
 .button{
   height: 94px;
   border: 1px solid lightgray;
+  font-size: 3.5rem;
 }
 
 .number{
   width:110px;
   background-color: white;
+  font-weight: bold;
 }
 
 .wide-number{
@@ -16,7 +18,7 @@
 
 .action{
   width:125px;
-  background-color: red;
+  background-color: #A0001E;
 }
 
 .wide-action{
