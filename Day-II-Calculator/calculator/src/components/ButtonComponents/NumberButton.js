@@ -1,8 +1,10 @@
 import React from 'react';
 import './Button.css';
 
-const NumberButton = props => {
-    return <button className={`btn ${props.defaultStyle}`}>{props.name}</button>
+class NumberButton extends React.Component {
+    render() {
+        return <button className={`btn ${this.props.defaultStyle}`} onClick={this.props.onClick}>{this.props.name}</button>;
+    }
 };
 
 NumberButton.defaultProps = {
