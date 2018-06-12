@@ -1,0 +1,9 @@
+.calculator-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    background: lightblue;
+    max-width: 500px;
+    height: 600px;
+    margin: 10px auto 0;
+}
