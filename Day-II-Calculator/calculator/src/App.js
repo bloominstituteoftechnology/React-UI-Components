@@ -21,22 +21,22 @@ const App = () => {
       </p>
       <div className="app-wrapper">
         <CalculatorDisplay btnClass="calc-class" num="0" />
-        <ActionButton btnClass="action-btn col-sm-9" num="clear" />
-        <NumberButton btnClass="btn-class operators col-sm-3" num="÷" />
-        <NumberButton btnClass="btn-class col-sm-3" num="7" />
-        <NumberButton btnClass="btn-class col-sm-3" num="8" />
-        <NumberButton btnClass="btn-class col-sm-3" num="9" />
-        <NumberButton btnClass="btn-class operators col-sm-3" num="x" />
-        <NumberButton btnClass="btn-class col-sm-3" num="4" />
-        <NumberButton btnClass="btn-class col-sm-3" num="5" />
-        <NumberButton btnClass="btn-class col-sm-3" num="6" />
-        <NumberButton btnClass="btn-class  operators col-sm-3" num="-" />
-        <NumberButton btnClass="btn-class col-sm-3" num="1" />
-        <NumberButton btnClass="btn-class col-sm-3" num="2" />
-        <NumberButton btnClass="btn-class col-sm-3" num="3" />
-        <NumberButton btnClass="btn-class  operators col-sm-3" num="+" />
-        <ActionButton btnClass="action-btn col-sm-9" num="0" />
-        <NumberButton btnClass="btn-class operators col-sm-3" num="=" />
+        <ActionButton btnClass="action-btn col-xs-9" num="clear" />
+        <NumberButton btnClass="btn-class operators col-xs-3" num="÷" />
+        <NumberButton btnClass="btn-class col-xs-3" num="7" />
+        <NumberButton btnClass="btn-class col-xs-3" num="8" />
+        <NumberButton btnClass="btn-class col-xs-3" num="9" />
+        <NumberButton btnClass="btn-class operators col-xs-3" num="x" />
+        <NumberButton btnClass="btn-class col-xs-3" num="4" />
+        <NumberButton btnClass="btn-class col-xs-3" num="5" />
+        <NumberButton btnClass="btn-class col-xs-3" num="6" />
+        <NumberButton btnClass="btn-class  operators col-xs-3" num="-" />
+        <NumberButton btnClass="btn-class col-xs-3" num="1" />
+        <NumberButton btnClass="btn-class col-xs-3" num="2" />
+        <NumberButton btnClass="btn-class col-xs-3" num="3" />
+        <NumberButton btnClass="btn-class  operators col-xs-3" num="+" />
+        <ActionButton btnClass="action-btn col-xs-9" num="0" />
+        <NumberButton btnClass="btn-class operators col-xs-3" num="=" />
       </div>
     </div>
   );
