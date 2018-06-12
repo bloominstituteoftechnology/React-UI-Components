@@ -1,5 +1,36 @@
 /* All styles for your Card Components live here */
 
 .card-banner {
-	width: 600px;
+	width: 450px;
+}
+
+.card-img {
+	width: 200px;
+}
+
+.card-container {
+	border: 2px solid red;
+	width: 450px;
+	height: 330px;
+	margin-left: 45px;
+}
+
+.title {
+	font-size: 15px;
+}
+
+.description {
+	font-size: 13px;
+	padding-top: -48px;
+	margin-top: -10px;
+}
+
+.react-link {
+	font-size: 13px;
+	text-decoration: none;
+}
+
+.main-content {
+	margin-top: -15px;
+	padding: 4px;
 }

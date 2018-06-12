@@ -3,13 +3,14 @@ import './Header.css';
 
 const HeaderTitle = () => {
 	return (
-		<div>
+		<div className="header-title">
         <h4>Lambda School <span className="Banner__greyText">@LambdaSchool ♦ 26 Jan</span></h4>
-        <p>Let's learn React by building simple interfaces with components.  Don't try to overthink it, just keep it simple and have fun.  Once you geel comfortable using components you are well on your way to mastering React!
-        </p>
-      </div>
-
-
+     <div className= "header-content">
+				<p className="header-content-wrapper">
+					Let's Learn React from Simple Interfaces with Components. Don't try to overthink, just keep it simple and have fun. Once you feel comfortable using components you are well on your way mastering React.
+				</p>
+		</div>
+     </div>
 	)
 }
 
