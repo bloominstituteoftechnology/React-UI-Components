@@ -6,3 +6,5 @@ function CalculatorDisplay ({total}) {
         <div className="calc-display">{total}</div>
     )
 }
+
+export default CalculatorDisplay

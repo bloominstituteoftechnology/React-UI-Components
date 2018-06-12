@@ -3,7 +3,7 @@ import './Button.css';
 
 function ActionButton ({action, bold}) {
     return (
-        <div className={`action-button ${bold ?? 'bold' : ''}`}>{action}</div>
+        <div className={`action-button ${(bold) ? 'bold' : ''}`}>{action}</div>
     )
 }
 
