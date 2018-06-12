@@ -10,14 +10,22 @@
     justify-content: flex-end;
     align-items: center;
     height: 45px;
-    width: 200px;
+    width: 145px;
 }
 .display {
     color: white;
 }
 
+.middle-container {
+    display: flex;
+    width: 140px;
+}
+
 .button-clear {
     width: 100px;
+    background: white;
+    border: .5px solid grey;
+    height: 35px;
 }
 
 .number-container {
@@ -33,6 +41,13 @@
     border: .5px solid grey;
 }
 
+.number-zero {
+    background: white;
+    border: .5px solid grey;
+    width: 100px;
+    height: 33.3px;
+}
+
 .action-container {
     display: flex;
     flex-direction: column;
@@ -46,5 +61,4 @@
     background: red;
     color: white; 
     border: .5px solid white;
-    margin-top: -5px;
 }
