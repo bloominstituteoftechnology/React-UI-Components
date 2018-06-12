@@ -1,0 +1,26 @@
+.container {
+    height: 100px;
+    display: flex;
+}
+
+.number-button {
+    font-size: 9px;
+    height: 30px;
+    width: 100px;
+    line-height: 18px;
+    border: 1px solid white;
+  }
+
+  .action-button {
+    width: 300px;
+    border: 1px solid white;
+  }
+
+  .red-button {
+    font-size: 9px;
+    height: 30px;
+    width: 100px;
+    line-height: 18px;
+    border: 1px solid white;
+    background: red;
+  }
