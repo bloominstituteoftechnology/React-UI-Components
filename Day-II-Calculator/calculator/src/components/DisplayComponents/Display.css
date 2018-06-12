@@ -1,15 +1,16 @@
 .display {
     box-sizing: border-box;
-    width: 456px;
+    width: 454px;
     height: 121px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
     background: black;
     color: white;
-    font-family: Helvetica, sans-serif;
-    font-size: 48px;
+    font-family: Trebuchet, sans-serif;
+    font-size: 64px;
     font-weight: lighter;
+    font-stretch: extra-condensed;
     padding: 15px 10px;
     border: 1px gray solid;
 }
