@@ -3,10 +3,10 @@ import './Card.css';
 
 const CardContent = () => {
     return (
-        <div>
-            <p>Get started with React</p>
-            <p>Pariatur Lorem mollit id fugiat consequat non Lorem incididunt do labore proident consequat ea excepteur.</p>
-            <p>reactjs.org</p>
+        <div className="card-body">
+            <p className="card-title"><strong>Get started with React</strong></p>
+            <p className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p className="card-text">reactjs.org</p>
         </div>
     );
 };
