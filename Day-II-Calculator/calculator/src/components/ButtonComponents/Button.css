@@ -3,6 +3,7 @@
     width: 345px;
     background: #ffffff;
     color: #222222;
+    font-size: 45px;
 }
 
 .operator {
@@ -10,6 +11,7 @@
     width: 115px;
     background: #90001e;
     color: #ffffff;
+    font-size: 45px;
 }
 
 .number {
@@ -17,4 +19,14 @@
     width: 115px;
     background: #ffffff;
     color: #222222;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.clear-style {
+    font-weight: lighter;
+}
+
+.zero-style {
+    font-weight: bold;
 }
