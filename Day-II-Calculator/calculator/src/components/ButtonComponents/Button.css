@@ -10,3 +10,12 @@
   font-size: 47px;
   text-align: center;
 }
+
+.button:hover{
+  cursor: pointer;
+}
+
+.button:active {
+  background-color: black;
+  color: white;
+}
