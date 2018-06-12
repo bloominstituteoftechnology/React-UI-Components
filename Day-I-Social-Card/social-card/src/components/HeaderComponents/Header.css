@@ -20,11 +20,13 @@
 
 .date-time, .header-handle {
   margin-left: 1%;
+  font-size: 12px;
+  color: grey;
 }
 
 
 .title-text {
-  font-size: 16px;
+  font-size: 14px;
   margin: 0;
 }
 
