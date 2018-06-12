@@ -20,12 +20,12 @@ const App = () => {
       </p> */}
 
       <CalcDisplay />
-      <ActionButton />
-      <ActionButton defaultStyle="operator-action-btn"/>
-      <ActionButton defaultStyle="operator-action-btn"/>
-      <ActionButton defaultStyle="operator-action-btn"/>
-      <ActionButton defaultStyle="operator-action-btn"/>
-      <ActionButton defaultStyle="operator-action-btn"/>
+      <ActionButton name="clear" />
+      <ActionButton defaultStyle="operator-action-btn" name="/"/>
+      <ActionButton defaultStyle="operator-action-btn" name="*"/>
+      <ActionButton defaultStyle="operator-action-btn" name="-"/>
+      <ActionButton defaultStyle="operator-action-btn" name="+"/>
+      <ActionButton defaultStyle="operator-action-btn" name="="/>
     </div>
   );
 };
