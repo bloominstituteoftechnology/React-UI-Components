@@ -1,7 +1,7 @@
 .calculator-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 125px repeat(5, 1fr);
+    grid-template-rows: 1.5fr repeat(5, 1fr);
     background: lightblue;
     max-width: 400px;
     width: 100%;
