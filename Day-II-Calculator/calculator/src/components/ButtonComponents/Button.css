@@ -1,0 +1,35 @@
+.small {
+  width: 100px;
+  height: 90px;
+  box-sizing: border-box;
+  border: solid black 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 36px;
+}
+
+.large {
+  width: 300px;
+  height: 90px;
+  box-sizing: border-box;
+  border: solid black 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 36px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.small:hover {
+  background-color: darkgray;
+  color: white;
+}
+
+.large:hover {
+  background-color: darkgray;
+  color: white;
+}

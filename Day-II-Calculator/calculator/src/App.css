@@ -1,0 +1,30 @@
+html {
+  background-color: black;
+}
+
+.container {
+  width: 400px;
+  background-color: white;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.calc-screen {
+  height: 100px;
+  width: 400px;
+  background-color: gray;
+}
+
+
+.numb-btns {
+  width: 300px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.red .small {
+  background-color: red;
+  color: white;
+  font-size: 60px;
+}
