@@ -5,7 +5,7 @@ import './Button.css';
 const NumberButton = props => {
     return (
         <button 
-        className={`button-style ${props.customStyleProp}`}>{props.text}
+        className={`button-style ${props.numberStyleProp}`}>{props.text}
         </button>
     );
 };

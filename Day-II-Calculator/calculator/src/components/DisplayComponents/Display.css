@@ -1,15 +1,16 @@
 .calculator-display {
     width:100%;
     background:black;
-    border:1px solid red;
+    padding: 20px 0;
     height:auto;
+    border: 1px solid gray;
     
 }
 
 .calculator-output {
     font-size: 3.8rem;
     color: white;
-    margin: 5% auto;
+    margin: auto;
     padding-right: 2%;
     text-align: end;   
 }

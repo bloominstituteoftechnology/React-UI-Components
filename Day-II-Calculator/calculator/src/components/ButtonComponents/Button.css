@@ -1,7 +1,9 @@
 .button-style {
     height:100px;
-    border:1px solid black;
+    border:1px solid gray;
     font-size: 50px;
+    background: whitesmoke;
+
 }
 
 .wide-button {
@@ -13,6 +15,12 @@
     width: 25%;
 }
 
+.number-button {
+    font-weight:bold;
+}
+
 .math-button {
-    background:red;
+    background:darkred;
+    color:white;
+    font-weight:normal;
 }

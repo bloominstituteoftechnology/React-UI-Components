@@ -1,5 +1,5 @@
 .calculator-container {
-    margin: 0 auto;
+    margin: 20px auto;
     max-width:400px;
-    border: 1px solid black;
+    border: 1px solid gray;
 }
