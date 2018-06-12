@@ -1,0 +1,33 @@
+.button-container {
+    border: 1px solid black;
+    height: 468px;
+    display: flex;
+    flex-flow: wrap;
+}
+
+.button-styles {
+    width: 24.7%;
+    padding: 10px;
+    font-weight: bold;
+    background: white;
+    border: 1px solid #979797;
+}
+
+.default-button-style {
+    font-size: 45px;
+}
+
+.red-button-style {
+    width: 25.9%;
+    font-size: 45px;
+    background: #A0001E;
+    color: white;
+    font-weight: normal;
+}
+
+.action-button-style {
+    width: 74%;
+    font-size: 43px;
+    background: white;
+    border: 1px solid #979797;
+}
