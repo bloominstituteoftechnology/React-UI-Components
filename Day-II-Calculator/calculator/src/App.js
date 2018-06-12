@@ -35,38 +35,6 @@ class App extends React.Component {
     console.log(this.state);
   }
 
-  Multiply = (value) => {
-    this.state.savedValue = Number(this.state.total);
-    this.state.total = '0';
-    this.state.operation = 'multiply';
-    this.setState(this.state);
-    console.log(this.state);
-  }
-
-  Divide = (value) => {
-    this.state.savedValue = Number(this.state.total);
-    this.state.total = '0';
-    this.state.operation = 'divide';
-    this.setState(this.state);
-    console.log(this.state);
-  }
-
-  Subtract = (value) => {
-    this.state.savedValue = Number(this.state.total);
-    this.state.total = '0';
-    this.state.operation = 'subtract';
-    this.setState(this.state);
-    console.log(this.state);
-  }
-
-  Add = (value) => {
-    this.state.savedValue = Number(this.state.total);
-    this.state.total = '0';
-    this.state.operation = 'add';
-    this.setState(this.state);
-    console.log(this.state);
-  }
-
   Result = (value) => {
     if (this.state.operation === 'multiply'){
       this.state.total = Number(this.state.total) * this.state.savedValue;
