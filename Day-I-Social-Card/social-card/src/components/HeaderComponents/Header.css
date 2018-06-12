@@ -1,1 +1,13 @@
 /* All styles for your header Components live here */
+.Header-Wrapper {
+    font-size: 50px;
+}
+
+.header-content {
+    font-size: 35px;
+    color: powderblue;
+}
+
+.header-title {
+    color: black;
+}
