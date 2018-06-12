@@ -1,0 +1,9 @@
+.display {
+    grid-area: display;
+    background-color: #222222;
+    color: lightgrey;
+    border: none;
+    font-size: 60px;
+    text-align: right;
+    padding-right: 10px;
+}

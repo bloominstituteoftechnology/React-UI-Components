@@ -1,0 +1,32 @@
+.numbers {
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    border: none;
+    cursor: pointer;
+}
+.zero {
+    background-color: white;
+    color: black;
+    grid-area: zero;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+}
+.actions {
+    background-color: #A0001E;
+    color: white;
+}
+.clear {
+    background-color: white;
+    color: black;
+    grid-area: clear;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+}
