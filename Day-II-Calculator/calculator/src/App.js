@@ -26,7 +26,7 @@ const App = () => {
         <NumberButton btnClass="btn-class col-sm-3" num="7" />
         <NumberButton btnClass="btn-class col-sm-3" num="8" />
         <NumberButton btnClass="btn-class col-sm-3" num="9" />
-        <NumberButton btnClass="btn-class operators col-sm-3" num="X" />
+        <NumberButton btnClass="btn-class operators col-sm-3" num="x" />
         <NumberButton btnClass="btn-class col-sm-3" num="4" />
         <NumberButton btnClass="btn-class col-sm-3" num="5" />
         <NumberButton btnClass="btn-class col-sm-3" num="6" />
