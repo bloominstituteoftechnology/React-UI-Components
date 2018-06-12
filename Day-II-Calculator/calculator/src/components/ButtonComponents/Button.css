@@ -1,9 +1,14 @@
-.number-btn{
-width: 80px;
-height: 80px;
+.number-btn, .action-btn{
+width: 100px;
+height: 100px;
 background-color: white;
-font-size: 1.2rem;
+font-size: 1.6rem;
 font-style: bold;
 border: 1px solid gray;
 //border-right: none;
+}
+
+.action-btn{
+background-color: maroon;
+color: white;
 }
