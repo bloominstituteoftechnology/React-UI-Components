@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import CalculatorDisplay from './components/DisplayComponents/CalculatorDisplay';
 import NumberButton from './components/ButtonComponents/NumberButton';
+import ActionButton from './components/ButtonComponents/ActionButton';
 
 const App = () => {
   return (
@@ -30,6 +31,13 @@ const App = () => {
         <div className = 'botrow'>
           <NumberButton name = '0' class = 'large'/>
         </div>
+      </div>
+      <div className = 'action-buttons'>
+        <ActionButton name = '&#247;'/>
+        <ActionButton name = 'x'/>
+        <ActionButton name = '-'/>
+        <ActionButton name = '+'/>
+        <ActionButton name = '='/>
       </div>
     </div>
       <h3>Welcome to React Calculator</h3>

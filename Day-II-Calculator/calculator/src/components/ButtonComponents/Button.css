@@ -1,12 +1,63 @@
-.number-buttons {
+.buttons {
+  margin: 0 auto;
+  width: 450px;
+  display: flex;
+  height: 465px;
+  border: 1px darkgray solid;
+
+}
+
+.buttons .number-buttons {
   display: flex;
   flex-flow: column;
   margin: 0 auto;
-  border: 2px red solid;
-  width: 450px;
+  width: 370px;
+  height: 465px;
+  justify-content: space-between;
+  border: 1px darkgray solid;
+
+}
+
+.number-buttons .toprow {
+  align-self: center;
+  font-size: 40px;
+  height: 90px;
+  width: 335px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px darkgray solid;
 }
 
 .number-buttons .row {
   display: flex;
   flex-flow: row;
+  justify-content: space-around;
+  height: 95px;
+}
+
+.row .small {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 110.5px;
+  border: 1px darkgray solid;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.number-buttons .botrow {
+  align-self: center;
+  height: 95px;
+  width: 335px;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  border: 1px darkgray solid;
+}
+
+.buttons .action-buttons {
+  width: 130px;
 }
