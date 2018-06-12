@@ -1,7 +1,7 @@
 .display {
     box-sizing: border-box;
     width: 454px;
-    height: 142px;
+    height: 123px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -9,7 +9,6 @@
     color: white;
     font-size: 64px;
     font-weight: lighter;
-
     padding: 15px 10px;
     border: 1px gray solid;
 }

@@ -3,6 +3,7 @@ import './App.css';
 import Display from './components/DisplayComponents/CalculatorDisplay';
 import ActionButton from './components/ButtonComponents/ActionButton';
 import NumberButton from './components/ButtonComponents/NumberButton';
+import SymbolButton from './components/ButtonComponents/SymbolButton';
 
 const App = () => {
   return (
@@ -10,7 +11,7 @@ const App = () => {
       <Display />
       <div className='buttons-container'>
       <div className='number-buttons'>
-      <NumberButton name='0' customStyleProp='long-button' />
+      <ActionButton name='0' customStyleProp='long-button' />
       <NumberButton name='1' />
       <NumberButton name='2' />
       <NumberButton name='3' />
@@ -20,14 +21,14 @@ const App = () => {
       <NumberButton name='7' />
       <NumberButton name='8' />
       <NumberButton name='9' />
-      <NumberButton name='clear' customStyleProp='clear-button'  />
+      <ActionButton name='clear' customStyleProp='clear-button'  />
       </div>
-      <div className='action-buttons'>
-        <ActionButton name='÷' />
-        <ActionButton name='x' />
-        <ActionButton name='-' />
-        <ActionButton name='+' />
-        <ActionButton name='=' />
+      <div className='symbol-buttons'>
+        <SymbolButton name='÷' />
+        <SymbolButton name='x' />
+        <SymbolButton name='-' />
+        <SymbolButton name='+' />
+        <SymbolButton name='=' />
       </div>
       </div>
     </div>

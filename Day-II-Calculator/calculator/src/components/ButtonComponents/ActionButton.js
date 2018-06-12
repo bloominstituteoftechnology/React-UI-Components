@@ -3,7 +3,7 @@ import './Button.css';
 
 const ActionButton = (props) => {
     console.log('PROPS', props);
-    return <button className='operator'>{props.name}</button>;
+    return <button className={`number ${props.customStyleProp}`}>{props.name}</button>;
 
 }
 
