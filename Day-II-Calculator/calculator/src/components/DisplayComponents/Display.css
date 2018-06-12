@@ -1,0 +1,10 @@
+.display-numbers {
+    width: 460px;
+    height: 135px;
+    background: #222222;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: #ffffff;
+    font-size: 80px;
+}
