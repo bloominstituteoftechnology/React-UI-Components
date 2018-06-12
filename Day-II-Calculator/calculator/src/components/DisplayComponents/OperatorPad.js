@@ -1,9 +1,18 @@
-import React from 'react';
+import React from "react";
+import OperatorButton from "../ButtonComponents/OperatorButton";
 
-const OperatorPad = (props) => {
+const OperatorPad = props => {
+  let operatorButtons = props.operators.operators.map(function(item) {
+    return (
+      <div key={item} class="operatorButton" id={item}>
+        <OperatorButton value={item} />
+      </div>
+    );
+  });
+
   return (
-    <div className="OperatorPad">
-        Operations HERE
+    <div className="operatorPad">
+        {operatorButtons}
     </div>
   );
 };

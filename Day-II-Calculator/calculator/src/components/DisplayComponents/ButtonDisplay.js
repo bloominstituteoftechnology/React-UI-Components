@@ -6,14 +6,14 @@ import OperatorPad from './OperatorPad.js';
 const ButtonDisplay = props => {
     return (
         <div className={props.customClass}>
-            <NumPad />
-            <OperatorPad />
+            <NumPad buttons={props.buttons}/>
+            <OperatorPad operators={props.operators} />
         </div>
     );
 
 };
 ButtonDisplay.defaultProps = {
-    customClass: "ButtonDisplay",
+    customClass: "buttonDisplay",
 }
 
 export default ButtonDisplay;
