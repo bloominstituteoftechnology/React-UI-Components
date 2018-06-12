@@ -26,7 +26,9 @@
     width: 75%;
     background-color: white;
 }
+
 /* need to grab first element with the same className - still working on that */
+
 .longB:nth-of-type(1) {
     font-weight: 500;
 }
@@ -39,4 +41,8 @@
 
 .whiteBack {
     background-color: white;
+}
+
+.onLine {
+    display: flex;
 }
