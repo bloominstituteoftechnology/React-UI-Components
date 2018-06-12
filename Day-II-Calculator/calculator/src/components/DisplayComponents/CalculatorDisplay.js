@@ -1,15 +1,13 @@
 import React from 'react';
 import './Display.css';
 import NumberButton from '../ButtonComponents/NumberButton';
-import ActionButton from '../ButtonComponents/ActionButton';
 
 const CalculatorDisplay = () => {
     return (
-        <div>
-        <NumberButton />
-            <ActionButton />
-        </div>    
+        <div className='wrapper'>
+            <NumberButton />
+        </div>
     )
 }
- 
+
 export default CalculatorDisplay;
