@@ -1,0 +1,39 @@
+.number-button-button {
+    background-color: white;
+    color: black;
+    height: 95px;
+    width: 25%;
+    border: 1px solid gray;
+    font-weight: bold;
+    font-size: 48px;
+}
+
+.number-button-symbol {
+    background-color: #A1001F;
+    color: white;
+    height: 95px;
+    width: 25%;
+    border: 1px solid gray;
+    font-weight: normal;
+    font-size: 48px;
+}
+
+.action-button-clear {
+    font-weight: lighter;
+    height: 95px;
+    width: 75%;
+    border: 1px solid gray;
+    background-color: white;
+    color: black;
+    font-size: 48px;
+}
+
+.action-button-zero {
+    font-weight: bold;
+    height: 95px;
+    width: 75%;
+    border: 1px solid gray;
+    background-color: white;
+    color: black;
+    font-size: 48px;
+}

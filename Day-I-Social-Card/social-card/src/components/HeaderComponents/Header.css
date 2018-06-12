@@ -1,1 +1,37 @@
 /* All styles for your header Components live here */
+.header-wrapper {
+    display: flex;
+    margin-bottom: 20px;
+};
+
+.header-title {
+    
+}
+
+.img-thumbnail {
+    height: 55px;
+    width: 55px;
+    padding: 5px;
+    margin-top: 15%; 
+}
+
+.header-title {
+    display: flex;
+}
+
+.social-name {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.social-handle {
+    font-weight: lighter;
+    color: silver;
+    margin-right: 10px;
+}
+
+.timestamp {
+    font-weight: lighter;
+    color: silver;
+    margin-right: 10px;
+}
