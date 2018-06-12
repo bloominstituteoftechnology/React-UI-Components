@@ -1,0 +1,18 @@
+.container {
+    max-width: 456px;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+.white-button {
+    background: white;
+    color: black;
+    border: 1px solid grey;
+}
+
+.red-button {
+    background: #96001C;
+    color: white;
+    border-color: #96001C;
+    border: 1px solid grey;
+}

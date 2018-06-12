@@ -3,10 +3,10 @@ import './Button.css';
 
 const NumberButton = props => {
     return (
-        <div 
-            className={`number-button-styles &{props.customTypeStyle}`}>
+        <button 
+            className={`number-button-styles ${props.customStyle}`}>
                 {props.text}
-        </div>
+        </button>
     );
 };
 

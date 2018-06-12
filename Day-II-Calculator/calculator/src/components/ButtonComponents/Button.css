@@ -1,0 +1,11 @@
+.number-button-styles {
+    height: 98px;
+    width: 25%;
+    font-size: 3rem;
+}
+
+.action-button-styles {
+    height: 98px;
+    width: 75%;
+    font-size: 3rem;
+}
