@@ -8,15 +8,16 @@
 }
 
 .action-button {
-    background: rgb(155, 15, 15);
+    background: rgb(173, 16, 16);
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 45px;
+    font-size: 60px;
     height: 90px;
     line-height: 90px;
     width: 110px;
+    font-weight: lighter;
     border: 1px solid gray;
 }
 
@@ -28,7 +29,7 @@
     height: 460px;
 }
 
-.default-button {
+.number-button {
     display: flex;
     justify-content: center;
     align-items: center;

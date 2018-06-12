@@ -14,7 +14,7 @@ const ActionButton = () => {
     return (
         <div className="action-column">
             <MyButton className="action-button" name="÷" alt="division"/>
-            <MyButton className="action-button" name="X" alt="multiply"/>
+            <MyButton className="action-button" name="x" alt="multiply"/>
             <MyButton className="action-button" name="-" alt="minus_better"/>
             <MyButton className="action-button" name="+" alt="plus"/>
             <MyButton className="action-button" name="=" alt="equals"/>

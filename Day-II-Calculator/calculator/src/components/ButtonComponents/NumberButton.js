@@ -9,7 +9,7 @@ const NumberButton = () => {
   
       MyButton.defaultProps = {
         name: 'Default text',
-        customStyle: 'default-button'
+        customStyle: 'number-button'
       };
     const LargeButton = props => {
         return <button className={props.customStyle}>{props.name}</button>;
