@@ -1,1 +1,32 @@
 /* All styles for your header Components live here */
+.header-wrapper {
+  width: 1000px;
+  margin: auto;
+  }
+
+.header-img {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  }
+
+.header-title {
+ display: inline-block;
+ width: 800px;
+ margin-left: 40px;
+}
+
+.header-content {
+  width: 800px;
+  margin: auto;
+}
+
+.twitter-handle {
+    color: gray;
+    font-weight: 100;
+    font-size: 20px;
+}
+
+.header-date {
+    font-size: 20px;
+}

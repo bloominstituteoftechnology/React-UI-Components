@@ -3,7 +3,7 @@ import './Header.css';
 
 const HeaderTitle = () => {
 	return (
-		<h1 className="header-title">Lambda School</h1>
+		<h3 className="header-title">Lambda School<span className="twitter-handle">@LambdaSchool • </span><span className="header-date"> 26 Jan</span></h3>
 		)
 	}
 

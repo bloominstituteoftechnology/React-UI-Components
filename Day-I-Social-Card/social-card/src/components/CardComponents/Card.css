@@ -1,1 +1,12 @@
 /* All styles for your Card Components live here */
+.card-container {
+  border: 1px solid gray;
+  border-radius: 10px;
+  width: 800px;
+  margin: auto;
+  }
+
+.card-banner {
+  width: 100%;
+  border-radius: 10px;
+  }
