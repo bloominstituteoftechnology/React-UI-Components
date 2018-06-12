@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import CalcDisplay from './components/DisplayComponents/CalculatorDisplay';
+import ActionButton from './components/ButtonComponents/ActionButton';
 
 const App = () => {
   return (
@@ -19,7 +20,12 @@ const App = () => {
       </p> */}
 
       <CalcDisplay />
-
+      <ActionButton />
+      <ActionButton defaultStyle="operator-action-btn"/>
+      <ActionButton defaultStyle="operator-action-btn"/>
+      <ActionButton defaultStyle="operator-action-btn"/>
+      <ActionButton defaultStyle="operator-action-btn"/>
+      <ActionButton defaultStyle="operator-action-btn"/>
     </div>
   );
 };

@@ -1,0 +1,19 @@
+.btn {
+    height: 96px;
+    font-size: 44px;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.action-btn {
+    width: 334px;
+    background: white;
+}
+
+.operator-action-btn {
+    width: 110px;
+    background: #A0001E;
+    color: white;
+}
