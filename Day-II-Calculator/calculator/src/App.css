@@ -10,6 +10,7 @@
     justify-content: flex-end;
     align-items: center;
     height: 45px;
+    width: 200px;
 }
 .display {
     color: white;
@@ -20,12 +21,16 @@
 }
 
 .number-container {
-    display:flex;
-    width: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100px;
 }
 
 .number-button {
-
+    width: 33.3px;
+    height: 33.3px;
+    background: white;
+    border: .5px solid grey;
 }
 
 .action-container {
@@ -40,6 +45,6 @@
     align-self: flex-end;
     background: red;
     color: white; 
-    border: solid white;
+    border: .5px solid white;
     margin-top: -5px;
 }
