@@ -1,5 +1,6 @@
 .calculator-display {
     height: 100px;
+    width: 380px;
     padding: 10px;
     font-size: 72px;
     font-weight: 100;
