@@ -10,6 +10,12 @@
 .clear-button {
  background: white;
  width: 75%;
+ font-weight: 100;
+}
+
+.zero-button {
+ background: white;
+ width: 75%;
 }
 
 .number-button {
@@ -18,7 +24,7 @@
 }
 
 .operator-button {
- background: red;
+ background: firebrick;
  width: 25%;
  color: white;
 } 
