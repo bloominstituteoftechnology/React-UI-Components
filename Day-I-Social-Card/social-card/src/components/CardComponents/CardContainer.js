@@ -8,7 +8,7 @@ function activateLink(link) {
 }
 const CardContainer = () => {
     return (
-        <div class = "card-container" onClick={() => 
+        <div className = "card-container" onClick={() => 
                 activateLink('https://www.reactjs.org')}>
 
         <CardBanner />
