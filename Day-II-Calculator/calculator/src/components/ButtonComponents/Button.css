@@ -1,0 +1,42 @@
+.action-button-clear {
+  height: 93px;
+  width: 330px;
+  margin-top: -2px;
+  border: 2px solid lightgray;
+}
+.action-button-clear p {
+  font-size: 42px;
+  text-align: center;
+  line-height: 0px;
+}
+.action-button-0 {
+  height: 93px;
+  width: 330px;
+  margin-top: 279px;
+  border: 2px solid lightgray;
+}
+.action-button-0 p {
+  font-size: 42px;
+  text-align: center;
+  line-height: 0px;
+}
+.button-operations {
+  height: 93px;
+  width: 118px;
+  text-align: center;
+  border: 1px solid lightgray;
+}
+.button-operations p {
+  font-size: 66px;
+  margin-top: 0px;
+}
+.button-number {
+  height: 92px;
+  width: 110px;
+  text-align: center;
+  border: 1px solid lightgray;
+}
+.button-number p {
+  font-size: 66px;
+  margin-top: 6px;
+}
