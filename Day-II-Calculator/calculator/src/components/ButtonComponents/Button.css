@@ -1,0 +1,32 @@
+.action-button{
+    display: flex;
+    justify-content: center;
+    width: 330px;
+    background: white;
+    color: black;
+    border: solid 1px gray;
+}
+
+.buttonstyle-long{
+    
+    justify-content: center;
+    height: 95px;
+    width: 75%;
+    background: white;
+    color: black;
+    font-size: 3rem;
+    
+}
+.buttonstyle-red{
+    font-size: 3rem;
+width: 25%;
+height:95px;
+background: #96001C;
+color: white;
+}
+.buttonstyle-num{
+    font-size: 3rem;
+width: 25%;
+height:95px;
+background: white;
+}
