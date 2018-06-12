@@ -1,4 +1,5 @@
 import React from 'react';
+import './Footer.css';
 
 
 const Footer = () => {
@@ -9,7 +10,7 @@ const Footer = () => {
       <i class="far fa-heart"></i>
       <i class="far fa-envelope"></i>
     </div>
-    
+
   )
 
 };
