@@ -1,0 +1,28 @@
+.action-button{
+    display: flex;
+    justify-content: center;
+    width: 330px;
+    background: white;
+    color: black;
+    border: solid 1px gray;
+}
+
+.buttonstyle-long{
+    
+    justify-content: center;
+    height: 50px;
+    width: 75%;
+    background: white;
+    color: black;
+    border: solid 1px gray;
+}
+.buttonstyle-red{
+width: 25%;
+height:50px;
+background: red;
+}
+.buttonstyle-num{
+width: 25%;
+height:50px;
+background: white;
+}
