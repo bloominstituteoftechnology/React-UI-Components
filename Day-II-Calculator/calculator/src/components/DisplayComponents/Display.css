@@ -3,30 +3,9 @@
     margin: 0 0;
     height:700px;
     flex-flow: row wrap;
-
 }
 .row {
     margin-bottom: -10px;
-}
-.number-button {
-    width: 100px;
-    font-size: 3rem;
-    font-weight: 500;
-    background: white;
-    height: 100px;
-
-}
-.action-button {
-    width: 300px;
-    height: 100px;
-    font-size: 3rem;
-    background: white;
-}
-.mutator {
-    background: darkred;
-    color: white;
-    height: 100px;
-    margin: 0 0 0 -2px;
 }
 .output {
     height: 100px;

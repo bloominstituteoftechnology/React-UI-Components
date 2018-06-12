@@ -33,7 +33,6 @@ const CalculatorDisplay = () => {
         <ActionButton actionStyle="action-button" text="0" />
         <NumberButton buttonStyle="number-button" customStyle="mutator" text="=" />
         </div>
-       
     </div>);
 }
 
