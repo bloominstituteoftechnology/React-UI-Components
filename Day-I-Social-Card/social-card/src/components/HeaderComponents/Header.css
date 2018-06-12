@@ -1,1 +1,35 @@
 /* All styles for your header Components live here */
+.header {
+  display: flex;
+  padding: 0 20px 15px 0;
+}
+
+.header-image-thumbnail {
+  align-self: flex-start;
+  width: 52px;
+}
+
+.header-title {
+  padding: 0 0 9px 0;
+}
+
+.header-title__name {
+  margin: 0 10px 0 0;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.header-title__twitter, .header-title__middle-dot, .header-title__date {
+  font-size: 1.23rem;
+  color: #7d8d9c;
+}
+
+.header-title__middle-dot {
+  margin: 0 5px;
+}
+
+.header-text {
+  padding: 0 0 0 7px;
+  font-size: 1.4rem;
+  line-height: 1.25;
+}

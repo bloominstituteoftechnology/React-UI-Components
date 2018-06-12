@@ -1,0 +1,106 @@
+.button {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  cursor: pointer; 
+  pointer-events: auto; 
+}
+
+.button:focus {
+  outline: 0;
+}
+
+.button > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+}
+
+.button--number {
+  border: 1px solid #979797;
+  background-color: #fff;  
+  color: #222;
+  font-size: 4rem;
+  font-weight: 600;
+}
+
+.button--action {
+  border: 1px solid #979797;
+  background-color: #a0001e; 
+  color: #fff;
+  font-size: 7rem;
+}
+
+.button--action > div {
+  margin-top: -13%;
+}
+
+.button--0 {
+  grid-area: zeroButton;
+}
+
+.button--1 {
+  grid-area: oneButton;
+}
+
+.button--2 {
+  grid-area: twoButton;
+}
+
+.button--3 {
+  grid-area: threeButton;
+}
+
+.button--4 {
+  grid-area: fourButton;
+}
+
+.button--5 {
+  grid-area: fiveButton;
+}
+
+.button--6 {
+  grid-area: sixButton;
+}
+
+.button--7 {
+  grid-area: sevenButton;
+}
+
+.button--8 {
+  grid-area: eightButton;
+}
+
+.button--9 {
+  grid-area: nineButton;
+}
+
+.button--divide {
+  grid-area: divideButton;
+}
+
+.button--multiply {
+  grid-area: multiplyButton;
+}
+
+.button--minus {
+  grid-area: minusButton;
+}
+
+.button--plus {
+  grid-area: plusButton;
+}
+
+.button--clear {
+  grid-area: clearButton;
+  background-color: #fff;  
+  color: #222;
+  font-size: 4.5rem;
+  font-weight: 200;
+}
+
+.button--clear > div {
+  margin-top: 0;
+}

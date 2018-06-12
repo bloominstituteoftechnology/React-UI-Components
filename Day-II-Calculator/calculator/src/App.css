@@ -1,0 +1,14 @@
+.calculator {
+  display: grid;
+  grid-template-columns: repeat(4, 114px);
+  grid-template-rows: 126px repeat(5, 94px);
+  grid-template-areas: 
+  'calcDisplay calcDisplay calcDisplay calcDisplay'
+  'clearButton clearButton clearButton divideButton'
+  'sevenButton eightButton nineButton multiplyButton'
+  'fourButton fiveButton sixButton minusButton'
+  'oneButton twoButton threeButton plusButton'
+  'zeroButton zeroButton zeroButton equalButton';
+  width: 456px;
+  border: 1px solid #979797;
+}
