@@ -1,0 +1,38 @@
+.number{
+width: 100px;
+height: 100px;
+color: black;
+font-size: 24px;
+background: white;
+text-decoration: none;
+border-radius: 8px;
+font-weight: Bold;
+}
+
+.calculator{
+    width: 400px;
+    height: 600px;
+    background: black;
+    border-radius: 8px;
+}
+
+.action{
+    width: 100px;
+    height: 100px;
+    font-size: 24px;
+    background: maroon;
+    text-decoration: none;
+    color: white;
+    border-radius: 8px;
+    font-weight: Bold;
+}
+
+.clear{
+    width: 300px;
+    height: 100px;
+    font-size: 24px;
+    background: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: Bold;
+}
