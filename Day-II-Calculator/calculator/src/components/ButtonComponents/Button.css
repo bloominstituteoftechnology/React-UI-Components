@@ -19,6 +19,9 @@
 .action{
   width:125px;
   background-color: #A0001E;
+  color: white;
+  font-size:8rem;
+  font-weight: normal;
 }
 
 .wide-action{

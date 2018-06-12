@@ -3,6 +3,12 @@
   color: white;
   height:125px;
   border: 2px solid lightgray;
-  font-size: 11rem;
+  font-size: 8rem;
   text-align: right;
+  position: relative;
+}
+
+.display span{
+  position: absolute;
+  right: 15px;
 }
