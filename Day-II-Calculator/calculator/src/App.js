@@ -12,29 +12,29 @@ const App = () => {
       <Row><CalculatorDisplay total="0" /></Row>
       <Row>
         <ActionButton action="clear" />
-        <NumberButton number="%" />
+        <NumberButton number="%" operator action-operator/>
       </Row>
       <Row>
         <NumberButton number="7" />
         <NumberButton number="8" />
         <NumberButton number="9" />
-        <NumberButton number="x" />
+        <NumberButton number="x" operator/>
       </Row>
       <Row>
         <NumberButton number="4" />
         <NumberButton number="5" />
         <NumberButton number="6" />
-        <NumberButton number="-" />
+        <NumberButton number="-" operator/>
       </Row>
       <Row>
         <NumberButton number="1" />
         <NumberButton number="2" />
         <NumberButton number="3" />
-        <NumberButton number="+" />
+        <NumberButton number="+" operator/>
       </Row>
       <Row>
-        <ActionButton action="0" />
-        <NumberButton number="=" />
+        <ActionButton action="0" bold/>
+        <NumberButton number="=" operator actionOperator/>
       </Row>
     </div>
   );

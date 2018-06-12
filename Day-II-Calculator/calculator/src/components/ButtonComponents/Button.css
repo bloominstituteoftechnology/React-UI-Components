@@ -2,19 +2,28 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 25%;
+    flex: 1;
     font-size: 2.5rem;
     font-weight: bold;
+    border: 1px solid black;
+    padding: 30px;
 }
 
 .action-button {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 75%;
+    flex: 3;
     font-size: 2.5rem;
     font-weight: regular;
+    border: 1px solid black;
 }
+
+.operator {
+    background-color: maroon;
+    color: white;
+}
+
 
 .bold {
     font-weight: bold;
