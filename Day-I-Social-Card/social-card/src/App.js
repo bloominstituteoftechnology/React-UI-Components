@@ -1,11 +1,12 @@
-import React from "react";
-import "./App.css";
-import HeaderContainer from "./components/HeaderComponents/HeaderContainer";
-
-const App = () => {
-  return (
+import React from 'react';
+ import './App.css';
+import HeaderContainer from './components/HeaderComponents/HeaderContainer';
+import CardContainer from './components/CardComponents/CardContainer';
+ 
+ const App = () => {
+   return (
     <div>
-      <HeaderContainer />
+      <h3>Welcome to React Social Card!</h3>
       <p>
         Begin by exploring the `components` directory. You'll notice we have a
         few files that we've already included in there to get you started right
@@ -18,8 +19,9 @@ const App = () => {
           inside of this file in order to make them work.
         </strong>
       </p>
-    </div>
-  );
-};
-
-export default App;
+    <div className="card-container">
+      <HeaderContainer />
+    <CardContainer />
+     </div>
+   );
+   };  
