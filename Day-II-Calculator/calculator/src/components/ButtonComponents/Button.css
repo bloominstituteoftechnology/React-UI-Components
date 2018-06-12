@@ -1,0 +1,43 @@
+.floweyTheFlower{
+	display:flex;
+	width:75%;
+	flex-wrap:wrap;
+	flex-direction:row-reverse;
+}
+
+.default{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	width:33.33%;
+	border:1px solid grey;
+	height:100px;
+	font-size:54px;
+}
+
+.large{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	width:100%;
+	border:1px solid grey;
+	height:100px;
+	font-size:54px;
+}
+.unicornTears{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	border:1px solid grey;
+	font-size:54px;
+	background:maroon;
+	color:white;
+	width:100%;
+	height:100px;
+}
+.frisk{
+	height:500px;
+	display:flex;
+	flex-direction:column;
+	width:25%;
+}
