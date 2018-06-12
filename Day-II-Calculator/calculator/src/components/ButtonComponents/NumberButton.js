@@ -7,6 +7,7 @@ const NumberButton = props => {
         <button 
         className={`button-style ${props.numberStyleProp}`}>{props.text}
         </button>
+  
     );
 };
 

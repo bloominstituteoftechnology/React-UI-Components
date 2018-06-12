@@ -7,6 +7,7 @@ const CalculatorDisplay = props => {
     <p className="calculator-output">{props.text}</p>
     </div>
     );
+
 };
 
 export default CalculatorDisplay;
