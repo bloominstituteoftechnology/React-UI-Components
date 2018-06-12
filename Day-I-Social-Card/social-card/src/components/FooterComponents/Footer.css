@@ -1,0 +1,12 @@
+.icons {
+color: hsl(0, 0%, 60%);
+cursor: pointer;
+}
+
+.icon-number {
+    color: hsl(0, 0%, 60%);
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 3px;
+}

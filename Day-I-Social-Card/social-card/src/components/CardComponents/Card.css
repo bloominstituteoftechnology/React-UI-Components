@@ -36,3 +36,6 @@
     color: hsl(0, 0%, 60%);
     padding: 0 10px 0 10px;
 }
+.pointer {
+    cursor: pointer;
+}
