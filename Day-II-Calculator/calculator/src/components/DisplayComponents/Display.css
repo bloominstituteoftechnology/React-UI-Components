@@ -1,6 +1,16 @@
 .calculator-display {
-    width: 100%;
+    width: 460px;
     height: 125px;
     border: 1px solid grey;
     background: #222;
+    font-weight: lighter;
+    font-size: 72px;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.total {
+    padding-right: 25px;
 }

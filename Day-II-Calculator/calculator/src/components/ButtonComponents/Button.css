@@ -14,12 +14,12 @@
     height: 95px;
     width: 25%;
     border: 1px solid gray;
-    font-weight: bold;
+    font-weight: normal;
     font-size: 48px;
 }
 
 .action-button-clear {
-    font-weight: normal;
+    font-weight: lighter;
     height: 95px;
     width: 75%;
     border: 1px solid gray;
