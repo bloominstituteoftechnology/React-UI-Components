@@ -1,0 +1,64 @@
+.main-container {
+    max-width: 200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.calc-display {
+    background-color: black;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 45px;
+    width: 145px;
+}
+.display {
+    color: white;
+}
+
+.middle-container {
+    display: flex;
+    width: 140px;
+}
+
+.button-clear {
+    width: 100px;
+    background: white;
+    border: .1px solid grey;
+    height: 33.3px;
+}
+
+.number-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100px;
+}
+
+.number-button {
+    width: 33.3px;
+    height: 33.3px;
+    background: white;
+    border: .1px solid grey;
+}
+
+.number-zero {
+    background: white;
+    border: .1px solid grey;
+    width: 100px;
+    height: 33.3px;
+}
+
+.action-container {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+.action-button {
+    width: 45px;
+    height: 33.3px;
+    align-self: flex-end;
+    background: red;
+    color: white; 
+    border: .1px solid white;
+}

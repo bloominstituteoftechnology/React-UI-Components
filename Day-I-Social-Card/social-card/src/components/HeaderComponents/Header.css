@@ -1,1 +1,16 @@
 /* All styles for your header Components live here */
+.container {
+    display: flex;
+    margin: 0 auto;
+    max-width: 800px;
+    width: 100%;
+    border-radius: 3px;
+}
+
+.header {
+    display: flex;
+}
+.margin {
+    padding: 20px 3.75% 0 3.75%;
+    height: 75px;
+}
