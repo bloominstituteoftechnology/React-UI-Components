@@ -1,0 +1,22 @@
+.footer-content {
+    padding-left: 61px;
+    padding-top: 15px;
+    display: flex;
+}
+
+.footer-content .images {
+    display: flex;
+    margin-right: 50px;
+}
+
+.footer-content .images span{
+    font-size: 13px;
+    margin-top: 5px;
+    margin-left: 5px;
+    color: #94A0AB;
+}
+
+.footer-content img:hover {
+    cursor: pointer;
+}
+
