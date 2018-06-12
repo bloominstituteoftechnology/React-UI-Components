@@ -1,1 +1,26 @@
 /* All styles for your header Components live here */
+
+.image{
+width:200px;
+margin-top:5px;
+height:70px;
+}
+
+img{
+width:100%;
+}
+
+.subtext{
+font-size:12px;
+padding-top:6px;
+margin-left:6px;
+}
+
+.header{
+	display:flex;
+	margin-bottom:10px;
+}
+
+.topLine{
+	display:flex;
+}
