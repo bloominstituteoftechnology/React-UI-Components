@@ -9,13 +9,12 @@ body {
   
   .app {
     display: flex;
-    font-size: 1.4em;
-    max-width: 530px;
-    font-family: 'Roboto', sans-serif;
+    flex-direction: column;
+    height: auto;
+    max-width: 700px;
+    width: 100%;
+    /* font-size: 1.4em; */
+    /* font-family: 'Roboto', sans-serif; */
   }
   
-  .gray-note, .gray-note a {
-    color: gray;
-    font-size: .7rem;
-    text-decoration: none;
-  }
+  

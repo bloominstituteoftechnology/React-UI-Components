@@ -1,5 +1,20 @@
 /* All styles for your header Components live here */
 
-.header-wrapper {
-    font-size: 20px;
+.header-container {
+    display: flex;
+    /* font-size: 20px; */
+}
+
+.image-thumbnail {
+height: 85px;
+width: 75px;
+}
+
+.header-title {
+display: flex;
+font-size: 16px;
+}
+
+.header-content {
+font-size: 16px;
 }
