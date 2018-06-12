@@ -1,0 +1,9 @@
+.container-app{
+  max-width: 455px;
+  margin: 0 auto;
+}
+
+.buttons{
+  display:flex;
+  flex-wrap: wrap;
+}

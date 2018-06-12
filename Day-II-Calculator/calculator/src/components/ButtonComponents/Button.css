@@ -1,0 +1,25 @@
+/* Base Button Class */
+.button{
+  height: 94px;
+  border: 1px solid lightgray;
+}
+
+.number{
+  width:110px;
+  background-color: white;
+}
+
+.wide-number{
+  width: 330px;
+  background-color: white;
+}
+
+.action{
+  width:125px;
+  background-color: red;
+}
+
+.wide-action{
+  width: 330px;
+  background-color:white;
+}
