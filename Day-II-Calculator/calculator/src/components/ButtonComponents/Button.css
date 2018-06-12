@@ -21,7 +21,7 @@
 .number-buttons .toprow {
   align-self: center;
   font-size: 40px;
-  height: 90px;
+  height: 95px;
   width: 335px;
   display: flex;
   justify-content: center;
@@ -60,4 +60,26 @@
 
 .buttons .action-buttons {
   width: 130px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 467.5px;
+  background-color: #A0001E;
+  color: white;
+}
+
+.buttons .action-buttons .action-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 55px;
+  border: 1px darkgray solid;
+  height: 100px;
+}
+.action-buttons .action-button:nth-child(1) {
+  height: 104px;
+}
+
+.action-buttons .action-button:nth-child(5) {
+  height: 104px;
 }

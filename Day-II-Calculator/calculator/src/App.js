@@ -35,7 +35,7 @@ const App = () => {
       <div className = 'action-buttons'>
         <ActionButton name = '&#247;'/>
         <ActionButton name = 'x'/>
-        <ActionButton name = '-'/>
+        <ActionButton name = '&#8722;'/>
         <ActionButton name = '+'/>
         <ActionButton name = '='/>
       </div>
