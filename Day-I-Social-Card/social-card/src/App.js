@@ -1,8 +1,7 @@
 import React from "react";
 import "./App.css";
 import HeaderContainer from "./components/HeaderComponents/HeaderContainer";
-import ImageThumbnail from "./components/HeaderComponents/ImageThumbnail";
-import HeaderContent from "./components/HeaderComponents/HeaderContent";
+import CardContainer from "./components/CardComponents/CardContainer";
 
 const App = () => {
   return (
@@ -22,6 +21,7 @@ const App = () => {
       </p>
       <div className="app-wrapper">
         <HeaderContainer />
+        <CardContainer />
       </div>
     </div>
   );
