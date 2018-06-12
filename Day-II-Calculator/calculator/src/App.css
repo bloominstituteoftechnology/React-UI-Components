@@ -1,0 +1,20 @@
+
+.app {
+  max-width: 457px;
+  margin: 15% auto;
+}
+
+.calculator {
+  display: flex;
+  flex-flow: column wrap;
+}
+.row {
+  display: flex;
+}
+
+.calc-display {
+  padding: 6%;
+  height: 5%;
+  padding-right: 4%;
+  font-size: 4rem;
+}
