@@ -3,11 +3,14 @@
     border-radius: 5px;
     border: 1px solid grey;
     height:100%;
-   
- 
 }
 .banner-image {
-    background: url('https://ibin.co/3wnC6SgIOJud.png');
+    background: url('https://ibin.co/3wnC6SgIOJud.png')no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  max-width:100%;
     height:200px;
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
@@ -25,6 +28,7 @@
     display: inline-block;
     font-size: 14px;
     padding: 0 10px 0 10px;
+    margin-bottom: 5px;
 }
 .link {
     display: inline-block;
