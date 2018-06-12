@@ -1,0 +1,22 @@
+.calc-display {
+    display: flex;
+    flex-direction: row;
+    height: 150px;
+    width: 70%;
+    border: 1px black;
+    border-radius: 4px;
+    background: black;
+    color: white;
+    background-size: contain;
+    margin: 30px auto 0 auto;
+}
+
+.num-display {
+    font-size: 70px;
+    color: white;
+    height: 90px;
+    display: flex;
+    margin-left: 580px;
+    width: 60%;
+    margin-top: 40px;
+}
