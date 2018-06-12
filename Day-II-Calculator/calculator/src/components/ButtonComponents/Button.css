@@ -1,0 +1,18 @@
+.button-style {
+    height:100px;
+    border:1px solid black;
+    font-size: 50px;
+}
+
+.wide-button {
+    width: 75%;
+    
+}
+
+.normal-button {
+    width: 25%;
+}
+
+.math-button {
+    background:red;
+}

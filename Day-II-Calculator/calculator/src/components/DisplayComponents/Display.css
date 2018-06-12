@@ -1,0 +1,15 @@
+.calculator-display {
+    width:100%;
+    background:black;
+    border:1px solid red;
+    height:auto;
+    
+}
+
+.calculator-output {
+    font-size: 3.8rem;
+    color: white;
+    margin: 5% auto;
+    padding-right: 2%;
+    text-align: end;   
+}
