@@ -4,8 +4,8 @@ import NumberButton from './NumberButton';
 
 const NumberCollection = props => {
 return (
-<div>
-    <NumberButton number="clear"/>
+<div className="buttonStyle">
+    <NumberButton number="clear"name="larger"/>
     <NumberButton number="9"/>
     <NumberButton number="8"/>
     <NumberButton number="7"/>
@@ -15,7 +15,7 @@ return (
     <NumberButton number="3"/>
     <NumberButton number="2"/>
     <NumberButton number="1"/>
-    <NumberButton number="0"/>
+    <NumberButton number="0" name="larger"/>
 </div>
     );
 };

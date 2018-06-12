@@ -53,5 +53,8 @@ table {
 
 .container{
     margin-top: 10px;
+    margin-left: 30%;
+    border: 3px solid gray;
+    max-width: 450px;
     
 }
