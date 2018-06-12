@@ -1,0 +1,10 @@
+.footer-container {
+    border: 1px solid yellow;
+    line-height: 25px;
+    padding-left: 53px;
+}
+
+.icon {
+    padding-top: 10px;
+    margin-right: 55px;
+}

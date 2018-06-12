@@ -1,16 +1,22 @@
 /* All styles for your header Components live here */
 
 .header-wrapper {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
+    border: 1px solid red;
 }
 
 .lambda-logo {
     height: 60px;
+    border: 1px solid green;
 }
 
 .header-all {
     margin: 10px 25px 10px 5px;
+}
+
+.header-text {
+    border: 2px solid lightskyblue;
 }
 
 .header-title {

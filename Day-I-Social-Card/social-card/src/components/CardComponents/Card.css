@@ -6,19 +6,29 @@
 }
 
 .react-logo {
-    height: 250px;
+    display: block;
+    height: 260px;
+    border-radius: 5px 5px 0 0;
 }
 
 .card-text {
-    margin: 5px;
+    margin: 0 23px 0 0px;
     font-size: 14px;
+    border: 1px solid lightgray;
+    border-radius: 0 0 5px 5px;
 }
 
 .card-title {
     font-size: 14px;
     font-weight: bold;
+    margin: 15px 5px 0px 10px;
+}
+
+.card-paragraph {
+    margin: 10px 5px 0px 10px;
 }
 
 .card-link {
     color: gray;
+    margin: 7px 5px 15px 10px;
 }
