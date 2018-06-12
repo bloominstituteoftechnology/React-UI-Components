@@ -29,11 +29,11 @@ const NumberButton = () => {
                 <MyButton customStyle='whiteBack' text='1' />
                 <MyButton customStyle='whiteBack' text='2' />
                 <MyButton customStyle='whiteBack' text='3' />
-                <MyButton customStyle='whiteBack' text='+' />
+                <MyButton customStyle='redBack' text='+' />
             </div>
             <div>
                 <MyButton customStyle='longB' text='0' />
-                <MyButton customStyle='whiteBack' text='=' />
+                <MyButton customStyle='redBack' text='=' />
             </div>
 
         </div>

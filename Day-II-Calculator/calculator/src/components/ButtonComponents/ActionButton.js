@@ -4,11 +4,11 @@ import './Button.css';
 const MyButton = props => {
     return (
         // `${console.log('props: ', props)}`
-        <button className={`displayFlex ${props.customStyle}`}>{props.text}</button>
+        <button className={`box ${props.customStyle}`}>{props.text}</button>
     )
 
 
-} 
+}
 
 const ActionButton = () => {
     return (
@@ -19,9 +19,9 @@ const ActionButton = () => {
             <div>
                 <MyButton customStyle='longB' text='clear' />
                 <MyButton customStyle='redBack' text='/' />
-            </div>    
+            </div>
         </div>
     )
 }
- 
+
 export default ActionButton;

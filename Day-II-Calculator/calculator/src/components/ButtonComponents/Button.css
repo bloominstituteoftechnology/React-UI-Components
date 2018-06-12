@@ -1,0 +1,16 @@
+.blackBack {
+    width: 100%;
+    height: 4rem;
+    font-size: 2rem;
+    background-color: black;
+    color: white;
+    text-align: right;
+}
+.whiteBack, .redBack {
+    width: 25%;
+    height: 3rem;
+}
+.longB {
+    width: 75%;
+    height: 3rem;
+}
