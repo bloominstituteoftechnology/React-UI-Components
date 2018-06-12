@@ -21,7 +21,10 @@ class App extends React.Component {
   }
 
   handleClearButton = (value) => {
-    this.setState({total: value, savedValue: '0', operation: ''});
+    this.state.savedValue = '0';
+    this.state.total = '0';
+    this.state.operation = '';
+    this.setState(this.state);
   }
 
   Multiply = (value) => {
