@@ -1,0 +1,20 @@
+.numbers {
+  width: 22%;
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 50px;
+  border: 1px solid magenta;
+  background-color: white;
+}
+
+.operators {
+  width: 34%;
+  background-color: #931D25;
+  color: white;
+  text-align: center;
+  line-height: 50px;
+  border: 1px solid orange;
+  font-weight: bold;
+  font-size: 32px;
+}
