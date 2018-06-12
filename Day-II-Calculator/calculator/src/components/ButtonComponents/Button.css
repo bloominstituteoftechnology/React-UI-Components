@@ -1,0 +1,18 @@
+.action-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    height: 475px;
+    width: 124px;
+    
+}
+
+.operator {
+    height: 95px;
+    width: 124px;
+    border: 1px solid gray;
+    background: #A0161D;
+    color: white;
+    font-size: 48px;
+    font-weight: lighter;
+}

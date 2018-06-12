@@ -1,0 +1,15 @@
+.display {
+    box-sizing: border-box;
+    width: 456px;
+    height: 121px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background: black;
+    color: white;
+    font-family: Helvetica, sans-serif;
+    font-size: 48px;
+    font-weight: lighter;
+    padding: 15px 10px;
+    border: 1px gray solid;
+}
