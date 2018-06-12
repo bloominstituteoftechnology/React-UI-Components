@@ -1,0 +1,28 @@
+.btn--white {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background: whitesmoke;
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+.btn--red {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: darkred;
+    font-size: 4rem;
+    font-weight: 400;
+}
+
+.btn__clear {
+    grid-column: 1 / 4;
+    font-weight: 300;
+}
+
+.btn__zero {
+    grid-column: 1 / 4;
+}
