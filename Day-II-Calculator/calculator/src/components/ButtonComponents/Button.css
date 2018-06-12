@@ -1,0 +1,20 @@
+.action-button {
+    height: 95px;
+    width: 345px;
+    background: #ffffff;
+    color: #222222;
+}
+
+.operator {
+    height: 95px;
+    width: 115px;
+    background: #90001e;
+    color: #ffffff;
+}
+
+.number {
+    height: 95px;
+    width: 115px;
+    background: #ffffff;
+    color: #222222;
+}
