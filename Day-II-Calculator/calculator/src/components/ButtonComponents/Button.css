@@ -7,7 +7,7 @@
 
 .operatorButton, .numButton {
     width: 33.33%;
-    border: 1px solid black;
+    border: 1px solid gray;
 
 }
 
@@ -22,7 +22,7 @@
     font-size: 3.2rem;
 }
 
-.operatorButton h1 {
+.display .operatorButton h1 {
     font-size: 5rem;
     font-weight: 100;
     color: white;
@@ -30,4 +30,9 @@
 
 .operatorButton {
     background-color: #A0001E;
+}
+
+#clear {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
 }

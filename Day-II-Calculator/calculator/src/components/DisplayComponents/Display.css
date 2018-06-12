@@ -7,13 +7,14 @@
     max-width: 454px;
     width: 100%;
     flex-direction: column;
+    font-family: "helvetica neue", helvetica, arial, sans-serif;
 }
 
 .calculationDisplay {
     width: 100%;
     text-align: right;
     background-color: #222222;
-    border: .5px solid black;
+    border: .5px solid gray;
 
 }
 
@@ -21,6 +22,8 @@
     margin: auto;
     padding: 22px 8px 18px 0px;
     font-size: 4.8rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
     color: white;
 
 }
