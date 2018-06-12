@@ -1,10 +1,10 @@
 .calc-container {
-    max-width: 256.05px;
+    max-width: 456px;
     margin: 5%;
 }
 
 .calc-display {
-    width: 100%;
+    width: 100.5%;
     border: 1px solid #979797;
     border-right: 1.5px solid #979797;
     border-left: 1.5px solid #979797;
@@ -22,10 +22,12 @@
 .action-row {
     display: flex;
     justify-content: space-between;
+    height: 93.7125px
 }
 
 .bttn-row {
     display: flex;
     align-items: center;
     margin: 0;
+    height: 93.7125px
 }
