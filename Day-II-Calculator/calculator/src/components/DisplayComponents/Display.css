@@ -1,0 +1,11 @@
+.displayP{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 12.6rem;
+    font-size: 7rem;
+    font-weight: normal;
+    background: black;
+    color: white;
+
+}

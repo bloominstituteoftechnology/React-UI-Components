@@ -1,0 +1,56 @@
+
+.clear {
+    width: 75%;
+    height: 9.5rem;
+    font-size: 4rem;
+    background: white;
+}
+.divide {
+    width: 25%;
+    height: 9.5rem;
+    background: darkred;
+    color: white;
+    font-size: 6rem;
+}
+.mult {
+    width: 25%;
+    height: 9.5rem;
+    background: darkred;
+    color: white;
+    font-size: 6rem;
+}
+.minus {
+    width: 25%;
+    height: 9.5rem;
+    background: darkred;
+    color: white;
+    font-size: 6rem; 
+}
+.add {
+    width: 25%;
+    height: 9.5rem;
+    background: darkred;
+    color: white;
+    font-size: 6rem; 
+}
+.buttonP {
+    width: 25%;
+    height: 9.5rem;
+    font-size: 4rem;
+    font-weight: bold;
+    background: white;
+}
+.zero {
+    width: 75%;
+    height: 9.5rem;
+    font-size: 4rem;  
+    font-weight: bold;
+    background: white;
+}
+.equal {
+    width: 25%;
+    height: 9.5rem;
+    background: darkred;
+    color: white;
+    font-size: 6rem; 
+}

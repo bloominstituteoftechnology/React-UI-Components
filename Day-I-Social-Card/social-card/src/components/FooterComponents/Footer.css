@@ -1,0 +1,18 @@
+
+.foot {
+    width: 585px;
+    height: 35px;
+    
+    
+}
+.foot img {
+    padding-top: 10px;
+    padding-left: 60px;
+}
+.foot span {
+    position: relative;
+    font-size: 14px;
+    left: 10px;
+    bottom: 8px;
+    
+}

@@ -2,12 +2,12 @@
 
 .card-wrapper {
     width: 585px;
-    border: 2px solid purple;
+    
 }
 
 .cContent {  
     margin-left: 60px;
-    border: 1px solid gray;
+   
     height: 355px;
 }
 

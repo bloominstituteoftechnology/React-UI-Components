@@ -3,11 +3,11 @@
     display: flex;
     width: 585px;
     height: 105px;
-    border: 2px solid orange;
+    
 }
 
 .image {
-    border : 2px solid lightgreen;
+    
     height: 55px;
 }
 .hTitle {
@@ -16,9 +16,14 @@
     /* border: 1px solid lightcoral; */
 }
 .hTitle h6{
-    color: gray;
+   
+    font-weight: normal;
+    font-size: 12px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 20px;
 }
 .content {
-    border: 2px solid lightblue;
+  
     font-size: 14px;
 }
