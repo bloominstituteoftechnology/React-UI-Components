@@ -1,3 +1,9 @@
+.container-container {
+  height: 570px;
+  width: 440px;
+  border: 1px solid gray;
+}
+
 .buttons-container {
   display: flex;
   flex-direction: row;
