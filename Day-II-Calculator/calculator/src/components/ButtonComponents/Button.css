@@ -1,0 +1,17 @@
+.button {
+	border: 1px solid black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100px;
+	width: 115px;
+	font-size: 3rem;
+}
+
+.button-clear {
+	width: 345px;
+}
+
+.button-0 {
+	width: 345px;
+}
