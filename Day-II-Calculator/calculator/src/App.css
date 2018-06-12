@@ -24,8 +24,8 @@
 .button-clear {
     width: 100px;
     background: white;
-    border: .5px solid grey;
-    height: 35px;
+    border: .1px solid grey;
+    height: 33.3px;
 }
 
 .number-container {
@@ -38,12 +38,12 @@
     width: 33.3px;
     height: 33.3px;
     background: white;
-    border: .5px solid grey;
+    border: .1px solid grey;
 }
 
 .number-zero {
     background: white;
-    border: .5px solid grey;
+    border: .1px solid grey;
     width: 100px;
     height: 33.3px;
 }
@@ -56,9 +56,9 @@
 
 .action-button {
     width: 45px;
-    height: 35px;
+    height: 33.3px;
     align-self: flex-end;
     background: red;
     color: white; 
-    border: .5px solid white;
+    border: .1px solid white;
 }
