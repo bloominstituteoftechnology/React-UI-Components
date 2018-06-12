@@ -10,7 +10,7 @@ class App extends React.Component {
     this.state = {total : 0};
   }
   clickHandler = button => {
-    console.log("")
+    console.log(button);
   }
   render() {
     return (

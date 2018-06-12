@@ -2,7 +2,7 @@
 
 .calc-display {
   color: white;
-  background-color: #222222;
+  background: linear-gradient(black, grey);
   border: 2px solid grey;
   display: flex;
   justify-content: flex-end;
