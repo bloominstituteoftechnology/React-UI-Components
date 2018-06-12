@@ -1,0 +1,33 @@
+.number {
+    flex-direction: row-reverse;
+    color: white;
+    background: black;
+    font-size: 70px;
+    height: 100px;
+    padding-right: 7px;
+}
+
+.clear {
+    width: 75%;
+    background: white;
+    height: 75px;
+    font-size: 34px;
+    
+}
+
+.operand {
+    width: 25%;
+    background: #dc2121;
+    font-size: 34px;
+}
+
+.input {
+    width: 25%;
+    background: white;
+    height: 75px;
+    font-size: 34px;
+}
+
+.row {
+    width: 365px;
+}
