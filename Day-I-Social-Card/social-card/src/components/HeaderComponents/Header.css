@@ -1,1 +1,35 @@
 /* All styles for your header Components live here */
+
+.header-content{
+    font-size: 18px;
+    color: black;
+    padding-left: 40px;
+    line-height: 20px;
+    display: flex;
+
+
+}
+
+
+.handle-name {
+    font-weight: bold;
+    font-size: 22px;
+    padding-left: 40px;
+    margin-top:0;
+}
+
+.handle-stamp {
+    color: gray;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+
+.ImageThumbnail {
+
+    height: 43px;
+    width: 43px;
+}
+
+
+
