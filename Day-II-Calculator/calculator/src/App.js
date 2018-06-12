@@ -12,34 +12,34 @@ const App = () => {
         <CalculatorDisplay className="calc-display" number="3.14"/>
 
         <div className="row">
-          <ActionButton action="clear"/>
-          <ActionButton action="÷"/>
+          <ActionButton className="bigBtn" action="clear"/>
+          <ActionButton className="mathbtn" action="÷"/>
         </div>
 
         <div className="row">
           <NumberButton number="7"/>
           <NumberButton number="8"/>
           <NumberButton number="9"/>
-          <ActionButton action="X"/>
+          <ActionButton className="mathbtn" action="X"/>
         </div>
 
         <div className="row">
           <NumberButton number="4"/>
           <NumberButton number="5"/>
           <NumberButton number="6"/>
-          <ActionButton action="-"/>
+          <ActionButton className="mathbtn" action="-"/>
         </div>
 
         <div className="row">
           <NumberButton number="1"/>
           <NumberButton number="2"/>
           <NumberButton number="3"/>
-          <ActionButton action="+"/>
+          <ActionButton className="mathbtn" action="+"/>
         </div>
 
         <div className="row">
-          <NumberButton number="0"/>
-          <ActionButton action="="/>
+          <NumberButton className="bigBtn" number="0"/>
+          <ActionButton  className="mathbtn" action="="/>
         </div>
       </div>
     </div>

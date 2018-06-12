@@ -1,0 +1,8 @@
+
+.button {
+  border: 1px solid grey;
+  padding: 3.8% 10.3%;
+  min-width: 4%;
+  max-width: 4%;
+  font-size: 47px;
+}

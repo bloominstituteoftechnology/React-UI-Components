@@ -10,6 +10,8 @@
 }
 .row {
   display: flex;
+  width: 100%;
+  justify-content: space-between;
 }
 
 .calc-display {
@@ -17,4 +19,13 @@
   height: 5%;
   padding-right: 4%;
   font-size: 4rem;
+}
+
+.mathbtn {
+  background-color: #9E0021;
+}
+
+.button.bigBtn {
+  max-width: 100%;
+  flex-grow: 1;
 }
