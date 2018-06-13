@@ -2,10 +2,10 @@ import React from "react";
 import OperatorButton from "../ButtonComponents/OperatorButton";
 
 const OperatorPad = props => {
-  let operatorButtons = props.operators.operators.map(function(item) {
+  let operatorButtons = props.operators.map(function(item) {
     return (
-      <div key={item} className="operatorButtonContainer" id={item}>
-        <OperatorButton value={item} />
+      <div key={item.name} className="operatorButtonContainer" id={item.name}>
+        <OperatorButton value={item.name} />
       </div>
     );
   });
