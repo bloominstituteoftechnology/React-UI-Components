@@ -5,7 +5,7 @@ const CalculationDisplay = props => {
   return (
     <div className="calculationDisplay">
       <div>
-        <h1>{props.total}</h1>
+        <h1>{props.newNum}</h1>
       </div>
     </div>
   );

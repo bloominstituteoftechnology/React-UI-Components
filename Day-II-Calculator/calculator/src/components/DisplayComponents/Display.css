@@ -19,6 +19,7 @@
 }
 
 .calculationDisplay h1 {
+    white-space: pre;
     margin: auto;
     padding: 22px 8px 18px 0px;
     font-size: 4.8rem;

@@ -1,12 +1,11 @@
-import React from 'react';
-import './App.css';
-import Display from './components/DisplayComponents/Display.js';
-
+import React from "react";
+import "./App.css";
+import Display from "./components/DisplayComponents/Display.js";
 
 const clear = {
-  total: "0",
+  prevNum: null,
   operator: null,
-  newNum: ""
+  newNum: "0"
 };
 
 const buttons = [
@@ -41,19 +40,12 @@ const equal = {
   name: "="
 };
 
-const operators = [
-  multiply, divide, add, subtract, equal
-];
-
+const operators = [multiply, divide, add, subtract, equal];
 
 class App extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {
-      total: "0",
-      operator: null,
-      newNum: ""
-    };
+    this.state = clear;
     this.handleChange = this.handleChange.bind(this);
   }
 
@@ -61,7 +53,6 @@ class App extends React.Component {
     let target = event.currentTarget;
     let type = target.attributes.type.value;
     let name = target.attributes.name.value;
-
 
     if (type === "number") {
       this.handleNumber(name);
@@ -82,53 +73,76 @@ class App extends React.Component {
     let operatorSelection;
     for (let operatorIndex in operators) {
       if (operators[operatorIndex].name === name) {
-        operatorSelection = operators[operatorIndex].operation
+        operatorSelection = operators[operatorIndex].operation;
       }
     }
-      this.setState({operator: operatorSelection});
+    if (this.state.operator === null) {
+      this.setState({
+        prevNum: this.state.newNum,
+        operator: operatorSelection,
+        newNum: " "
+      });
+    } else {
+      let newTotal = this.state.operator(
+        parseFloat(this.state.prevNum),
+        parseFloat(this.state.newNum)
+      );
+      newTotal = Math.round(newTotal * 1000) / 1000;
+      newTotal = newTotal.toString();
+      this.setState({
+        prevNum: newTotal,
+        operator: operatorSelection,
+        newNum: " "
+      });
+    }
   }
 
   handleEqual() {
     if (this.state.operator !== null) {
       //handles if an operator has been entered
-      if (this.state.newNum === "") {
+      if (this.state.newNum === " ") {
         //handles if a second operand hasn't been entered by negating the pending operator
-        this.setState({ operator: null });
-      }
-      else {
+        this.setState({
+          prevNum: null,
+          operator: null,
+          newNum: this.state.prevNum
+        });
+      } else {
         //performs the operator on the two operands, which updates total and clears out other state
-        let newTotal = this.state.operator(parseFloat(this.state.total), parseFloat(this.state.newNum));
+        let newTotal = this.state.operator(
+          parseFloat(this.state.prevNum),
+          parseFloat(this.state.newNum)
+        );
+        newTotal = Math.round(newTotal * 1000) / 1000;
         newTotal = newTotal.toString();
         this.setState({
-          total: newTotal,
+          prevNum: null,
           operator: null,
-          newNum: ""
+          newNum: newTotal
         });
       }
     }
   }
 
   handleNumber(name) {
-    if (this.state.operator === null) {
-      if (this.state.total === "0") {
-        this.setState({ total: name });
-      }
-      else {
-        let newTotal = this.state.total+name;
-        this.setState({ total: newTotal});
-      }
-      console.log(this.state.total);
-    }
-    else {
-      //handles a number being entered if an operation has been entered and is pending
-      this.setState({ newNum: this.state.newNum + name });
+    if (this.state.newNum === "0" || this.state.newNum === " ") {
+      this.setState({ newNum: name });
+    } else {
+      let newTotal = this.state.newNum + name;
+      this.setState({ newNum: newTotal });
     }
   }
 
   render() {
-    return (<Display total={this.state.total} buttons={buttons} operators={operators} handleChange={this.handleChange} />);
+    return (
+      <Display
+        newNum={this.state.newNum}
+        buttons={buttons}
+        operators={operators}
+        handleChange={this.handleChange}
+      />
+    );
   }
-
 }
 
 export default App;

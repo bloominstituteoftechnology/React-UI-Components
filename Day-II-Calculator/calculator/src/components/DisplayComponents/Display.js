@@ -7,7 +7,7 @@ class Display extends React.Component {
     render() {
         return (
           <div className="display">
-            <CalculationDisplay total={this.props.total} />
+            <CalculationDisplay newNum={this.props.newNum} />
             <ButtonDisplay buttons={this.props.buttons} operators={this.props.operators} handleChange={this.props.handleChange} />
           </div>
         );
