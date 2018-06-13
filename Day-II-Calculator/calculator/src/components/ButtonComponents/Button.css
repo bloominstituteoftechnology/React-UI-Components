@@ -1,6 +1,6 @@
 .number-button {
 	border: 1px solid black;
-	width: 50px;
+	width: 90px;
 	height: 50px;
 	background: white;
 	color: black;
@@ -8,8 +8,30 @@
 
 .action-button {
 	border: 1px solid black;
-	width: 50px;
+	width: 90px;
 	height: 50px;
+	background: red;
+	color: white;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	align-items: flex-start;
+	padding-left: 30px;
+}
+
+
+.clear-button {
+	width: 260px;
 	background: white;
 	color: black;
+	font-size: 30px;
+	text-align: center;
+	padding-left: 70px;
+
+}
+
+.zero-button {
+	width: 270px;
+	background: white;
+	font-size: 20px;
 }
