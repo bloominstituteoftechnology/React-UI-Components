@@ -15,6 +15,12 @@
     height: 4rem;
     font-weight: 700;
     border: 1px solid #979797;
+    cursor: pointer;
+}
+.whiteBack:hover ,
+.longB:hover, .redBack:hover {
+    background-color: #000000;
+    color: white;
 }
 
 .whiteBack,

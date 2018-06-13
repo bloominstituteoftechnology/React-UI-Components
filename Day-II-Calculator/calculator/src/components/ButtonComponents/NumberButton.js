@@ -5,7 +5,7 @@ const NumberButton = (props) => {
     console.log('NumberButton props: ', props)
   
     return (
-        <button className={`boxes ${props.customStyle}`}>{props.text}</button>
+        <button className={props.customStyle}>{props.text}</button>
     )
 }
 
