@@ -1,0 +1,12 @@
+.display {
+	border: 1px solid black;
+	width: 300px;
+	height: 80px;
+	background: black;
+	color: white;
+}
+
+.zero-display {
+	margin-left: 280px;
+	font-size: 30px;
+}
