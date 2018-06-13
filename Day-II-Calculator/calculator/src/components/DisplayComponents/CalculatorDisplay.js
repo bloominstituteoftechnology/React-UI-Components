@@ -1,12 +1,9 @@
 import React from 'react';
 import './Display.css';
 
-
-const CalculatorDisplay = () => {
+const CalculatorDisplay = (props) => {
     return (
-        <div class="CalculatorDisplay">
-            <h1>0</h1>
-        </div>
+        <button className="displayButton">{props.name}</button>
     )
 }
 

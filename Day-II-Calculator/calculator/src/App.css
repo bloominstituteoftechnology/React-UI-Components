@@ -1,0 +1,9 @@
+.calculatorContainer {
+    width: 400px;
+    height: 570px;
+    border: 1px solid grey;
+}
+
+.inputButtons {
+    display: flex;
+}

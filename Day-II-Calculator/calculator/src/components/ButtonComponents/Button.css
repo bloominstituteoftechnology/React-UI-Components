@@ -1,0 +1,30 @@
+.buttons {
+    height: 90px;
+    width: 100px;
+    border: 1px solid grey;
+    font-size: 40px;
+}
+
+.action-buttons {
+    background: rgb(151, 4, 4);
+    color: white;
+    font-size: 70px;
+}
+
+.clear-button {
+    width: 300px;
+    color: black;
+    background-color: white;
+    font-weight: 100;
+    font-size: 40px;
+}
+
+.zero-button {
+    width: 300px;
+    background-color: white;
+}
+
+.number-buttons {
+    background-color: white;
+
+}
