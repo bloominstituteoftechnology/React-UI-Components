@@ -5,6 +5,10 @@
   font-size: 3.5rem;
 }
 
+.button:hover{
+  border: 1px solid blue;
+}
+
 .number{
   width:110px;
   background-color: white;
