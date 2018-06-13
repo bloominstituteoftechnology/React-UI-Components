@@ -48,15 +48,21 @@ const operators = [
 class App extends React.Component {
   constructor(props) {
     super(props);
-    this.state = clear;
+    this.state = {
+      total: "0",
+      operator: null,
+      newNum: ""
+    };
     this.handleChange = this.handleChange.bind(this);
   }
 
   handleChange(event) {
-    console.log("response");
-    let target = event.target;
-    let type = target.type;
-    let name = target.name;
+    let target = event.currentTarget;
+    let type = target.attributes.type.value;
+    let name = target.attributes.name.value;
+
+    console.log(name);
+
 
     if (type === "number") {
       this.handleNumber(name);
@@ -108,9 +114,10 @@ class App extends React.Component {
         this.setState({ total: name });
       }
       else {
-        this.setState({ total: this.state.total + name});
+        let newTotal = this.state.total+name;
+        this.setState({ total: newTotal});
       }
-      this.setState({ total: this.state.value });
+      console.log(this.state.total);
     }
     else {
       //handles a number being entered if an operation has been entered and is pending

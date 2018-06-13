@@ -3,7 +3,7 @@ import "./Button.css";
 
 const OperatorButton = props => {
   return (
-    <div className="operatorButton" id={props.name} onClick={props.handleChange}>
+    <div className="operatorButton" name={props.name} id={props.name} type="operator" onClick={props.handleChange}>
         <h1>
         {props.name}
         </h1>
