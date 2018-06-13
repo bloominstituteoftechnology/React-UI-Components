@@ -5,11 +5,9 @@ const NumberButton = (props) => {
   return (
     <button
       className={`${props.customStyle} ${props.buttonStyle}`}
-      onClick={() => props.handleSubmit}
+      onClick={props.onClick}
     >
-      <span className='number-text' onClick={props.handleSubmit}>
-        {props.text}
-      </span>
+      <span className='number-text'>{props.text}</span>
     </button>
   )
 }

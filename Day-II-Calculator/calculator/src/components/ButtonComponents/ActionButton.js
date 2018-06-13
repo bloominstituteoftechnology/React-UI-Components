@@ -3,7 +3,10 @@ import './Button.css'
 
 const ActionButton = (props) => {
   return (
-    <button className={`general-styles ${props.buttonStyle}`}>
+    <button
+      className={`general-styles ${props.buttonStyle}`}
+      onClick={props.onClick}
+    >
       <div className='clear-text'>{props.text}</div>
     </button>
   )
