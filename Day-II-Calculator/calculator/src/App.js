@@ -8,18 +8,18 @@ class App extends React.Component {
   constructor() {
     super();
     this.state = {
-      totalNum: '',
+      
       total: 0
     }
   }
 
-  clickHandler = () => {
+  clickHandler = (num) => {
     console.log(' props clicked: ');
-
+const { total } = this.state
     // const newTotal = this.state.total;
     // const tot = { newNum: this.state.totalNum }
     // newTotal.push(tot);
-    // this.setState({ total: newTotal, totalNum: '' })
+    this.setState({ total: String(num) })
   }
 
   render() {
@@ -35,25 +35,25 @@ class App extends React.Component {
             <NumberButton customStyle='redBack' text='/' />
           </div>
           <div>
-            <NumberButton customStyle='whiteBack' text='7' onClick={this.clickHandler} />
-            <NumberButton customStyle='whiteBack' text='8' onClick={this.clickHandler} />
-            <NumberButton customStyle='whiteBack' text='9' onClick={this.clickHandler} />
+            <NumberButton customStyle='whiteBack' text='7' onClickCust={()=>this.clickHandler(7)} />
+            <NumberButton customStyle='whiteBack' text='8' onClickCust={()=>this.clickHandler(8)} />
+            <NumberButton customStyle='whiteBack' text='9' onClickCust={()=> this.clickHandler(9)} />
             <NumberButton customStyle='redBack' text='X' />
           </div>
           <div>
-            <NumberButton customStyle='whiteBack' text='4' />
-            <NumberButton customStyle='whiteBack' text='5' />
-            <NumberButton customStyle='whiteBack' text='6' />
+            <NumberButton customStyle='whiteBack' text='4' onClickCust={()=>this.clickHandler(4)} />
+            <NumberButton customStyle='whiteBack' text='5' onClickCust={()=>this.clickHandler(5)} />
+            <NumberButton customStyle='whiteBack' text='6' onClickCust={()=>this.clickHandler(6)} />
             <NumberButton customStyle='redBack' text='-' />
           </div>
           <div>
-            <NumberButton customStyle='whiteBack' text='1' />
-            <NumberButton customStyle='whiteBack' text='2' />
-            <NumberButton customStyle='whiteBack' text='3' />
+            <NumberButton customStyle='whiteBack' text='1' onClickCust={()=>this.clickHandler(1)} />
+            <NumberButton customStyle='whiteBack' text='2' onClickCust={()=>this.clickHandler(2)} />
+            <NumberButton customStyle='whiteBack' text='3' onClickCust={()=>this.clickHandler(3)} />
             <NumberButton customStyle='redBack' text='+' />
           </div>
           <div>
-            <ActionButton customStyle='longB' text='0' />
+            <NumberButton customStyle='longB' text='0' onClickCust={()=>this.clickHandler(0)} />
             <NumberButton customStyle='redBack' text='=' />
           </div>
         </div>
