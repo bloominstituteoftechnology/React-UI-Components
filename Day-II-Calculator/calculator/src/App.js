@@ -5,18 +5,10 @@ import CalculatorDisplay from './components/DisplayComponents/CalculatorDisplay'
 import ActionButton from './components/ButtonComponents/ActionButton'
 
 class App extends React.Component {
-  // constructor(props) {
-  //   super(props);
-  //   this.state = {total: 0};
-  //
-  // }
   state = {total: 0}
-  // this.clickHandler = this.clickHandler.bind(this);
 
   clickHandler = (e) => {
     let key = e.target.dataset.type;
-
-    // this.setState({ total: `${this.state.total}${e.target.innerHTML}` })
 
     if (this.state.total === 0 ){
       console.log('you clicked a number')
