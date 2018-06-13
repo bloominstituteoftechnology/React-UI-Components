@@ -13,7 +13,8 @@ const buttons = [
   ["clear"],
   ["7", "8", "9"],
   ["4", "5", "6"],
-  ["1", "2", "3"]
+  ["1", "2", "3"],
+  ["0"]
 ];
 
 const divide = {
@@ -60,8 +61,6 @@ class App extends React.Component {
     let target = event.currentTarget;
     let type = target.attributes.type.value;
     let name = target.attributes.name.value;
-
-    console.log(name);
 
 
     if (type === "number") {
@@ -125,11 +124,8 @@ class App extends React.Component {
     }
   }
 
-
   render() {
-    let totalArray = [[ this.state.total ]];
-    let fullButtons = buttons.concat(totalArray);
-    return (<Display total={this.state.total} buttons={fullButtons} operators={operators} handleChange={this.handleChange} />);
+    return (<Display total={this.state.total} buttons={buttons} operators={operators} handleChange={this.handleChange} />);
   }
 
 }

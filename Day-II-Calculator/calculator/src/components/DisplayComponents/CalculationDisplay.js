@@ -3,16 +3,12 @@ import "./Display.css";
 
 const CalculationDisplay = props => {
   return (
-    <div className={props.customClass}>
+    <div className="calculationDisplay">
       <div>
-        <h1>{props.value}</h1>
+        <h1>{props.total}</h1>
       </div>
     </div>
   );
-};
-CalculationDisplay.defaultProps = {
-  customClass: "calculationDisplay",
-  name: "0"
 };
 
 export default CalculationDisplay;
