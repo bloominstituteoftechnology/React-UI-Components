@@ -39,6 +39,7 @@ class CalculatorDisplay extends Component {
           text='&#247;'
           buttonStyle='red-style'
           customStyle='operations'
+          onClick={() => this.operation('/')}
         />
         <NumberButton
           text='7'
@@ -59,6 +60,7 @@ class CalculatorDisplay extends Component {
           text='&#215;'
           buttonStyle='red-style'
           customStyle='operations'
+          onClick={() => this.operation('*')}
         />
         <NumberButton
           text='4'
@@ -79,6 +81,7 @@ class CalculatorDisplay extends Component {
           text='&#8722;'
           buttonStyle='red-style'
           customStyle='operations'
+          onClick={() => this.operation('-')}
         />
         <NumberButton
           text='1'
