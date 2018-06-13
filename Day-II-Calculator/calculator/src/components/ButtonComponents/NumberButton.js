@@ -8,4 +8,7 @@ const NumberButton = props => {
 
 };
 
+NumberButton.defaultProps = {
+  number : 0
+}
 export default NumberButton;
