@@ -68,7 +68,7 @@ class App extends React.Component {
     } else {
       if (name === "clear") {
         this.setState(clear);
-      } else if (name === "equal") {
+      } else if (name === "=") {
         //handles equals button
         this.handleEqual();
       } else {
@@ -80,12 +80,12 @@ class App extends React.Component {
 
   handleOperators(name) {
     let operatorSelection;
-    for (let operator in operators) {
-      if (operator.name === name) {
-        operatorSelection = operator.operation
+    for (let operatorIndex in operators) {
+      if (operators[operatorIndex].name === name) {
+        operatorSelection = operators[operatorIndex].operation
       }
-      this.setState({operator: operatorSelection});
     }
+      this.setState({operator: operatorSelection});
   }
 
   handleEqual() {
@@ -97,7 +97,8 @@ class App extends React.Component {
       }
       else {
         //performs the operator on the two operands, which updates total and clears out other state
-        let newTotal = this.state.operator(this.state.total, this.state.newNum);
+        let newTotal = this.state.operator(parseFloat(this.state.total), parseFloat(this.state.newNum));
+        newTotal = newTotal.toString();
         this.setState({
           total: newTotal,
           operator: null,
