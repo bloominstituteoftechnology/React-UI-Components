@@ -5,7 +5,7 @@ const OperatorPad = props => {
   let operatorButtons = props.operators.map(function(item) {
     return (
       <div key={item.name} className="operatorButtonContainer" id={item.name}>
-        <OperatorButton value={item.name} />
+        <OperatorButton name={item.name} handleChange={props.handleChange}/>
       </div>
     );
   });

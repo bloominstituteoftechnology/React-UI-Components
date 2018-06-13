@@ -6,7 +6,7 @@ const ButtonRow = (props) => {
     let buttons = props.buttons.map(function(button) {
         return (
             <div key={button} className="numButtonContainer" id={button}>
-                <NumberButton value={button} />
+                <NumberButton name={button} handleChange={props.handleChange} />
             </div>
 
         )

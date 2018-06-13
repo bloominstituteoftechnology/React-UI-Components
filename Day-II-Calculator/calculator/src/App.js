@@ -53,6 +53,7 @@ class App extends React.Component {
   }
 
   handleChange(event) {
+    console.log("response");
     let target = event.target;
     let type = target.type;
     let name = target.name;
@@ -121,7 +122,7 @@ class App extends React.Component {
   render() {
     let totalArray = [[ this.state.total ]];
     let fullButtons = buttons.concat(totalArray);
-    return (<Display total={this.state.total} buttons={fullButtons} operators={operators} />);
+    return (<Display total={this.state.total} buttons={fullButtons} operators={operators} handleChange={this.handleChange} />);
   }
 
 }
