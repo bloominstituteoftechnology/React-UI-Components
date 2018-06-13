@@ -18,7 +18,7 @@ class CalculatorDisplay extends Component {
     this.setState({ display: display === '0' ? num : this.state.display + num })
     console.log(num)
   }
-  addNum = (operator) => {
+  operation = (operator) => {
     this.setState({ operator: operator })
     console.log(operator)
   }
@@ -99,7 +99,7 @@ class CalculatorDisplay extends Component {
           text='&#43;'
           buttonStyle='red-style'
           customStyle='operations'
-          onClick={() => this.addNum('+')}
+          onClick={() => this.operation('+')}
         />
         <ActionButton text='0' buttonStyle='clear' />
         <NumberButton
