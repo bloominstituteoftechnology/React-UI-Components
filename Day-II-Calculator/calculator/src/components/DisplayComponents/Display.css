@@ -1,14 +1,12 @@
-.result {
+.calculator-display {
   box-sizing: border-box;
   height: 60px;
   text-align: right;
   background-color: black;
   color: white;
   border: 1px solid grey;
-  width: 100%;
+  width: 300px;
   line-height: 60px;
-  font-size: 32px;
-}
-.answer {
+  font-size: 50px;
   padding-right: 7px;
 }
