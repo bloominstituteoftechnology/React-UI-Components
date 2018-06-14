@@ -1,1 +1,25 @@
 /* All styles for your Card Components live here */
+.card{
+    margin-left: 60px;
+    padding: 10px;
+}
+.card a{
+    text-decoration: none;
+    color: black;
+}
+.card img{
+    width: 100%;
+}
+.card__content{
+    padding: 0 15px;
+    padding-bottom: 15px;
+    border: 1px solid rgb(177, 177, 177);
+    margin: -4px 0;
+}
+.card__content h1{
+    font-size: 16px;
+    margin: 10px 0;
+}
+.card__a{
+    color: rgb(129, 129, 129);
+}
