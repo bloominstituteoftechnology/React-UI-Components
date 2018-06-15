@@ -7,20 +7,40 @@ import NumberButton from './components/ButtonComponents/NumberButton';
 class App extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {result: 0};
-    this.add = this.add.bind(this);
-    this.subtract = this.subtract.bind(this);
-    this.multiply = this.multiply.bind(this);
-    this.divide = this.divide.bind(this);
-    this.clear = this.clear.bind(this);
+    this.state = {
+      result: "0",
+      prevEntry: "0",
+      currEntry: "0",
+      currOp: ""
+    };
   }
 
-  handleClick() {
+  handleActionClick = (e) => {
+    if (e === "clear") {
+      this.handleClear();
+    } else if (e === "+") {
+      this.handleAdd();
+    }
+  }
+
+  handleNumClick = (e) => {
+    let newEntry = this.state.currEntry;
+    let nextEntry = e;
+    if(newEntry === "0" && nextEntry === "0") {
+      return null;
+    } else if(newEntry === "0" && nextEntry !== "0") {
+      newEntry = nextEntry;
+    } else {
+      newEntry += e;
+    }
     
+    this.setState({result: newEntry, currEntry: newEntry});
   }
 
-  add() {
-
+  handleAdd = () => {
+    this.state.currOp = "+";
+    this.state.prevEntry = this.state.currEntry;
+    this.state.currEntry = "0";
   }
 
   subtract() {
@@ -35,8 +55,8 @@ class App extends React.Component {
 
   }
 
-  clear() {
-
+  handleClear = () => {
+    this.setState({result: 0, prevEntry: "0", currEntry: "0"});
   }
 
   render() {
@@ -56,22 +76,22 @@ class App extends React.Component {
         </p> */}
 
         <CalcDisplay result={this.state.result} />
-        <ActionButton name="clear" onClick={this.handleClick} />
-        <ActionButton defaultStyle="operator-action-btn" name="/" onClick={this.handleClick} />
-        <NumberButton name="7" onClick={this.handleClick} />
-        <NumberButton name="8" onClick={this.handleClick} />
-        <NumberButton name="9" onClick={this.handleClick} />
-        <ActionButton defaultStyle="operator-action-btn" name="*" onClick={this.handleClick} />
-        <NumberButton name="4" onClick={this.handleClick} />
-        <NumberButton name="5" onClick={this.handleClick} />
-        <NumberButton name="6" onClick={this.handleClick} />
-        <ActionButton defaultStyle="operator-action-btn" name="-" onClick={this.handleClick} />
-        <NumberButton name="1" onClick={this.handleClick} />
-        <NumberButton name="2" onClick={this.handleClick} />
-        <NumberButton name="3" onClick={this.handleClick} />
-        <ActionButton defaultStyle="operator-action-btn" name="+" onClick={this.handleClick} />
-        <NumberButton defaultStyle="action-btn" name="0" onClick={this.handleClick} />
-        <ActionButton defaultStyle="operator-action-btn" name="=" onClick={this.handleClick} />
+        <ActionButton name="clear" handleActionClick={this.handleActionClick} />
+        <ActionButton defaultStyle="operator-action-btn" name="/"  handleActionClick={this.handleActionClick} />
+        <NumberButton name="7" handleNumClick={this.handleNumClick} />
+        <NumberButton name="8" handleNumClick={this.handleNumClick} />
+        <NumberButton name="9" handleNumClick={this.handleNumClick} />
+        <ActionButton defaultStyle="operator-action-btn" name="*" handleActionClick={this.handleActionClick} />
+        <NumberButton name="4" handleNumClick={this.handleNumClick} />
+        <NumberButton name="5" handleNumClick={this.handleNumClick} />
+        <NumberButton name="6" handleNumClick={this.handleNumClick} />
+        <ActionButton defaultStyle="operator-action-btn" name="-" handleActionClick={this.handleActionClick} />
+        <NumberButton name="1" handleNumClick={this.handleNumClick} />
+        <NumberButton name="2" handleNumClick={this.handleNumClick} />
+        <NumberButton name="3" handleNumClick={this.handleNumClick} />
+        <ActionButton defaultStyle="operator-action-btn" name="+" handleActionClick={this.handleActionClick} />
+        <NumberButton defaultStyle="action-btn" name="0" handleNumClick={this.handleNumClick} />
+        <ActionButton defaultStyle="operator-action-btn" name="=" handleActionClick={this.handleActionClick} />
       </div>
     );
   }

@@ -6,6 +6,7 @@
 }
 
 .btn:hover {
+    background: grey;
     cursor: pointer;
 }
 
@@ -16,4 +17,8 @@
 .operator-action-btn {
     background: #A0001E;
     color: white;
+}
+
+.calc-display p {
+    margin: auto 10px;
 }

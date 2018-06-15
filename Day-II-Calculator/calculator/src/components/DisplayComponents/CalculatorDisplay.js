@@ -3,7 +3,7 @@ import './Display.css';
 
 class CalcDisplay extends React.Component {
     render() {
-        return <div className="calc-display">0</div>;
+        return <div className="calc-display"><p>{this.props.result}</p></div>;
     }
 };
 
