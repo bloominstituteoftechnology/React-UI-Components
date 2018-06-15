@@ -1,1 +1,17 @@
 /* All styles for your header Components live here */
+
+.header-wrapper {
+    font-size: 50px;
+    display: flex;
+}
+
+.header-title {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.header-content {
+    font-size: 35px;
+    color: paleturquoise;
+}
