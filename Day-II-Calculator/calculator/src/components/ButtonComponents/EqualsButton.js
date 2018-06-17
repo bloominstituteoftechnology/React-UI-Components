@@ -2,7 +2,10 @@ import React from 'react';
 import './Button.css';
 
 const EqualsButton = (props) => {
-    return <button className = {props.class}>{props.symbol}</button>
+    return <button className = {props.class} 
+    onClick = {() => {
+        props.mathHandler();
+    }}>{props.symbol}</button>
 }
 
 EqualsButton.defaultProps = {
