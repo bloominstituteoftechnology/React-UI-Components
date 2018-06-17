@@ -1,8 +1,8 @@
 import React from 'react';
 import './Display.css';
 
-const CalculatorDisplay = () => {
-    return <div className = 'display'>0</div>
+const CalculatorDisplay = (props) => {
+    return <div className = 'display'>{props.displayValue}</div>
 }
 
 export default CalculatorDisplay;
