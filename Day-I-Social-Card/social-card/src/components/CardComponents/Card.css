@@ -20,6 +20,7 @@
    font-size: 14px;
    margin-top: -15px;
 }
-small {
+small a {
     color: lightgray;
+    text-decoration: none;
 }
