@@ -5,10 +5,10 @@ const CardContent = () => {
     return (
     <section className="banner-border">
     <div >
-  <h3> Get started with React</h3>
+  <h6> Get started with React</h6>
      </div>
      <div>
-         <p>React makes it paineless to create interactive UIs. Design simple views for each state in your application.</p>
+         <p className= "card-p">React makes it paineless to create interactive UIs. Design simple views for each state in your application.</p>
          </div>
          <div><small>reactjs.org</small></div>
      </section>

@@ -15,3 +15,8 @@
     width: 500px;
     margin: auto;
 }
+
+.card-p {
+   font-size: 12px;
+   margin-top: -15px;
+}
