@@ -5,6 +5,7 @@ import HeaderContainer from './components/HeaderComponents/HeaderContainer';
 // import HeaderTitle from './components/HeaderComponents/HeaderTitle';
 // import HeaderContent from './components/HeaderComponents/HeaderContent';
 import CardContainer from './components/CardComponents/CardContainer';
+import Footer from './components/FooterComponents/Footer';
 
 const App = () => {
   return (
@@ -14,6 +15,8 @@ const App = () => {
       <div> 
       <CardContainer />
       </div>
+
+      <div> <Footer /> </div>
     </section>
   );
 };

@@ -1,8 +1,14 @@
 /* All styles for your Card Components live here */
 
 .banner-border {
-    border: 1px solid lightgray;
-    border-radius: 1%;
+    border-bottom: 1px solid lightgray;
+    border-left: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+    border-bottom-right-radius: 1%;
+    border-bottom-left-radius: 1%;
+    width: 90%;
+    margin-left: 10%;
+    margin-top: -10px;
 }
 .card-container {
     width: 100%;
@@ -12,8 +18,8 @@
 
 .background-image {
     height: 50%;
-    width: 100%;
-    margin: auto;
+    width: 90%;
+    margin-left: 10%;
 }
 
 .card-p {
@@ -23,4 +29,7 @@
 small a {
     color: lightgray;
     text-decoration: none;
+}
+a {
+    margin-bottom: -20px;
 }

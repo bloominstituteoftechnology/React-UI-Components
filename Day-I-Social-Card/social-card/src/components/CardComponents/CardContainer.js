@@ -9,6 +9,7 @@ const CardContainer = () => {
     <section className="card-container">
   <div> <CardBanner /> </div>
   <div> <CardContent /> </div>
+
      </section>);
 };
 

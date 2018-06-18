@@ -1,4 +1,8 @@
 /* All styles for your header Components live here */
-.header-wrapper {
-    /* font-size: 50px; */
+small {
+    color: lightgray;
+}
+
+.header-content {
+    margin-left: 1.3%;
 }
