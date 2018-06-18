@@ -39,10 +39,10 @@
 
 .card-link {
     display: flex;
-    flex-direction: row;
+    justify-content: flex-start;
     width: 75%;
     font-size: 14px;
     color: rgb(46, 44, 43);
-    margin: 20px;
-    margin-left: 120px;
+    margin-left: 100px;
+    border: 3px solid blue;
 }
