@@ -24,10 +24,7 @@ const App = () => {
     <div className="container">
       <HeaderContainer />
       <CardContainer />
-      <MyButton />
-      <MyButton />
-      <MyButton />
-      <MyButton />
+
 
     </div>
   );
