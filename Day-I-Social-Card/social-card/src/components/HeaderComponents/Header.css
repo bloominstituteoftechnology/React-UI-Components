@@ -1,10 +1,48 @@
 /* All styles for your header Components live here */
 
+/* General Styles */
+
+.app-container {
+    width: 585px;
+}
+
+/* Header Styles */
+
 .header-wrapper {
-    font-size: 50px;
+    margin-top: 10px;
+    width: 100%;
 }
 
 .header-content {
-    font-size: 35px;
-    color: paleturquoise;
+    display: flex;
+    font-size: 14px;
+}
+
+.image-thumbnail {
+    width: 55px;
+    height: 55px;
+    margin-right: 5px;
+}
+
+.header-title {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header-title .title {
+    font-weight: bold;
+    width: 110px;
+    line-height: 16px;
+    vertical-align: bottom;
+}
+
+.header-title .username-date {
+    font-size: 12px;
+    color: grey;
+    line-height: 16px;
+    vertical-align: bottom;
+}
+
+.header-title p {
+    width: 100%;
 }
