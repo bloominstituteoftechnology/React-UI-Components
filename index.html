@@ -19,16 +19,15 @@
    // JSX
    // const MyElement = React.createElement('h1', { className: 'my-h1', id: 'my-id-h1' }, 'Hello World from React');
    const Header = () => <h1 className="header"> My Awesome Header </h1>;
-   
+
+   const MyButton = () => <button></button>;
    const App = () => {
        return ( 
         <div>
         <Header />
-        <Header />
-        <Header />
-        <Header />
-        <Header />
-    </div>;
+        <MyButton />
+    </div>
+     );
    };
 
    ReactDOM.render(<App />, document.getElementById('root'));
