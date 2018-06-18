@@ -1,8 +1,4 @@
 /* All styles for your Card Components live here */
-.card-container {
-    max-width: 600px;
-    height: 40%;
-}
 
 .card-title {
     display: flex;
@@ -15,13 +11,15 @@
 
 .card-content {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 75%;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 73.2%;
     font-size: 16px;
     line-height: 20px;
     color: rgb(46, 44, 43);
     margin-left: 100px;
+    margin-top: 0px;
+    border: 1px solid rgb(187, 187, 187);
 }
 
 .card-banner {
