@@ -6,7 +6,6 @@
     line-height: 20px;
     margin-left: 100px;
     margin-top: 0px;
-    border: 1px solid blue;
     width: 75%;
 
 }
@@ -21,7 +20,6 @@
     color: rgb(46, 44, 43);
     margin-left: 100px;
     margin-top: 0px;
-    border: 1px solid green;
 }
 
 .imgThumb {
@@ -32,4 +30,9 @@
     width: 8%;
     height: 0px;
     border-radius: 10px;
+}
+
+.thumb-img{
+    width: 80px;
+    height: 60px;
 }

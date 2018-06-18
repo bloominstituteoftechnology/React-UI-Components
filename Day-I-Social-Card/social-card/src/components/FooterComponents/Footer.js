@@ -4,12 +4,14 @@ import './Footer.css';
 const Footer = () => {
     return (
         <div class="footer">
-            <img src="https://ibin.co/44xlP0ABev28.png" alt="icon1"/> <sub>1</sub>
-            <img src="https://ibin.co/44xlmPyeKO8e.png" alt="icon2"/> <sub>3</sub>
-            <img src="https://ibin.co/44xl8SDNdsyU.png" alt="icon3"/> <sub>6</sub>
-            <img src="https://ibin.co/44xmBhw6oGrm.png" alt="icon4"/>
+            <img className="footer-img" src="https://png.icons8.com/small/50/000000/speech-bubble.png" alt="reply"/> 1
+            <img className="footer-img" src="https://png.icons8.com/small/50/000000/retweet.png" alt="retweet" /> 3
+            <img className="footer-img" src="https://png.icons8.com/small/50/000000/hearts.png" alt="like" /> 6
+            <img className="footer-img" src="https://png.icons8.com/small/50/000000/new-post.png" alt="message"/>
             </div>
     );
 };
 
 export default Footer;
+
+<a href="https://icons8.com">Icon pack by Icons8</a>

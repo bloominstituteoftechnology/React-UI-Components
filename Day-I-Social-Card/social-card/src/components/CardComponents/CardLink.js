@@ -4,7 +4,7 @@ import './Card.css';
 const CardLink = () => {
     return (
     <div class="card-link">
-    <p><small> reactjs.org </small></p>
+    <p><em> reactjs.org </em></p>
         </div>
     );
 };
