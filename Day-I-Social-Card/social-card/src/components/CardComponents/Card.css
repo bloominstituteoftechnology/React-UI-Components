@@ -1,2 +1,17 @@
 /* All styles for your Card Components live here */
 
+.banner-border {
+    border: 1px solid lightgray;
+    border-radius: 1%;
+}
+.card-container {
+    width: 1024px;
+    display: flex;
+    flex-direction: column;
+}
+
+.background-image {
+    height: 200px;
+    width: 500px;
+    margin: auto;
+}
