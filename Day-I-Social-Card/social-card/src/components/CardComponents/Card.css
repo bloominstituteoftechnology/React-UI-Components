@@ -1,16 +1,17 @@
 /* All styles for your Card Components live here */
 .card-container {
-    width: 80%;
-    height: 60%;
-    border: 1px black;
+    max-width: 600px;
+    height: 40%;
 }
 
 .card-title {
     display: flex;
     font-size: 20px;
-    margin: 20px;
-    position: relative;
-    left: 100px;
+    line-height: 24px;
+    margin-left: 100px;
+    margin-top: 10px;
+    width: 75%;
+    border: 3px solid red;
 }
 
 .card-content {
@@ -19,21 +20,21 @@
     align-items: center;
     width: 75%;
     font-size: 16px;
+    line-height: 20px;
     color: rgb(46, 44, 43);
-    margin: 20px;
-    position: relative;
-    left: 100px;
+    margin-left: 100px;
+    border: 3px solid green;
 }
 
 .card-banner {
-    display: flex;
-    flex-direction: column;
-    height: 20%;
-    width: 80%;
-    position: relative;
-    left: 100px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    display: block;
+    width: auto;
+    margin-left: 100px;
+}
+
+.banner {
+    height: 400px;
+    width: 85%;
 }
 
 .card-link {

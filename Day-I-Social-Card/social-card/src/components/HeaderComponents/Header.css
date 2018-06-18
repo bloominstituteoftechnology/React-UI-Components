@@ -1,43 +1,35 @@
 /* All styles for your header Components live here */
 .header-wrapper {
     display: flex;
+    justify-content: flex-start;
     font-size: 20px;
-    margin: 20px;
-    position: relative;
-    top: 10px;
-    left: 100px;
+    line-height: 20px;
+    margin-left: 100px;
+    margin-top: 0px;
+    border: 1px solid blue;
+    width: 75%;
+
 }
 
 .header-content {
     display: flex;
-    flex-direction: row;
     justify-content: center;
+    align-items: center;
     width: 75%;
     font-size: 16px;
+    line-height: 20px;
     color: rgb(46, 44, 43);
-    margin: 20px;
-    position: relative;
-    top: 10px;
-    left: 100px;
+    margin-left: 100px;
+    margin-top: 0px;
+    border: 1px solid green;
 }
 
 .imgThumb {
     display: flex;
-    position: fixed;
-    top: 10px;
-    left: 0px;
+    flex-direction: column;
+    justify-content: flex-start;
     margin: 10px;
-    border-Width:1;
-    align-items: center;
-    justify-Content: center;
-    width: 90px;
-    height: 90px;
-    background-Color:rgb(105, 25, 25);
-    border-Radius: 90px;
-}
-
-.header-container {
-    width: 100%;
-    height: 15%;
-    border: 1px black;
+    width: 8%;
+    height: 0px;
+    border-radius: 10px;
 }

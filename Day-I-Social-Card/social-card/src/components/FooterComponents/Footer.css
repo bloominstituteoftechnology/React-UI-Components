@@ -4,5 +4,6 @@
     flex-direction: row;
     width: 40%;
     justify-content: space-evenly;
-    margin-left: 90px;
+    margin-left: 100px;
+    border: 1px solid red;
 }

@@ -14,13 +14,11 @@ import Footer from './components/FooterComponents/Footer';
 const App = () => {
   return (
     <div>
-    <HeaderContainer />
       <ImageThumbnail />
       <HeaderTitle />
       <p>
       <HeaderContent />
       </p>
-      <CardContainer />
       <CardBanner />
       <CardTitle />
       <CardContent />
