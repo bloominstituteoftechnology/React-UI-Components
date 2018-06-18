@@ -4,7 +4,7 @@
 */
 
 .header-content {
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .top-content {
@@ -14,10 +14,11 @@
 }
 
 .small-text {
-  font-size: 10px;
+  font-size: 12px;
 }
 
 .header-p {
-  font-size: 12px;
+  font-size: 14px;
    margin-top: 5px;
+   margin-bottom: -15px;
 }
