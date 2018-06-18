@@ -1,13 +1,5 @@
 /* All styles for your header Components live here */
 
-/* General Styles */
-
-.app-container {
-    width: 585px;
-}
-
-/* Header Styles */
-
 .header-wrapper {
     margin-top: 10px;
     width: 100%;
@@ -15,7 +7,6 @@
 
 .header-content {
     display: flex;
-    font-size: 14px;
 }
 
 .image-thumbnail {
