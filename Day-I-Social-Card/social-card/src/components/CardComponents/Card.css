@@ -6,6 +6,7 @@
     width: 505px;
     margin-left: 62px;
     padding-bottom: 15px;
+    color: black;
 }
 
 .banner-image {
@@ -25,14 +26,18 @@
     font-weight: bold;
     width: 100%;
     margin-top: 10px;
+    text-decoration: none;
 }
 
 .card-content .description {
     margin-top: 7px;
-    width: 95%
+    width: 95%;
+    text-decoration: none;
 }
 
 .card-content .url {
     width: 100%;
     margin-top: 7px;
+    color: grey;
+    text-decoration: none;
 }
