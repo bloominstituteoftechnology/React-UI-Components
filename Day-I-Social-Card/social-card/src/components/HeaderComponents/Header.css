@@ -1,1 +1,42 @@
 /* All styles for your header Components live here */
+
+.header-wrapper {
+  display: flex;
+  width: 500px;
+  padding: 8px;
+  padding-bottom: 0;
+}
+
+.header-wrapper .content {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.header-wrapper .content p{
+  font-size: 14px;
+
+}
+
+.lambda-logo{
+  width: 54px;
+  height: 54px;
+  padding-right: 10px;
+}
+
+.title-wrapper {
+  display: flex;
+  flex-direction: row;
+  height: 32px;
+  width: 320px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title-wrapper h2{
+  font-size: 16px;
+}
+.title-wrapper p{
+  color: gray;
+  font-size: 14px;
+}
