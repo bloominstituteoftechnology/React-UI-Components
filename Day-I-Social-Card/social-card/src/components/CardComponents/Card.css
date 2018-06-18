@@ -1,9 +1,7 @@
 /* All styles for your Card Components live here */
 
 .banner-border {
-    border-bottom: 1px solid lightgray;
-    border-left: 1px solid lightgray;
-    border-right: 1px solid lightgray;
+    border: 1px solid lightgray;
     border-bottom-right-radius: 1%;
     border-bottom-left-radius: 1%;
     width: 90%;

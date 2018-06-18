@@ -2,7 +2,7 @@ import React from 'react';
 import './Header.css';
 
 const ImageThumbnail = () => {
-    return <img src="https://ibin.co/3whrpKSBbZ81.png" alt="Lambda" height="75" width="75" />;
+    return <img className="lambda" src="https://ibin.co/3whrpKSBbZ81.png" alt="Lambda" height="75" width="75" />;
 };
 
 
