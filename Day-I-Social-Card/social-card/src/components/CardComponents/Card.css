@@ -1,5 +1,9 @@
 /* All styles for your Card Components live here */
 
+.card-link {
+    text-decoration: none;
+}
+
 .card-container {
     border-radius: 5px;
     border: 1px solid #E3EAEE;
@@ -26,18 +30,15 @@
     font-weight: bold;
     width: 100%;
     margin-top: 10px;
-    text-decoration: none;
 }
 
 .card-content .description {
     margin-top: 7px;
     width: 95%;
-    text-decoration: none;
 }
 
 .card-content .url {
     width: 100%;
     margin-top: 7px;
     color: grey;
-    text-decoration: none;
 }
