@@ -1,0 +1,7 @@
+.display {
+    height: 100px;
+    width: 100%;
+    background: black;
+    color: whitesmoke;
+    border: 1px solid gray;
+}
