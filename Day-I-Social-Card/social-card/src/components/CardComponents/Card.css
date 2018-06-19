@@ -1,16 +1,20 @@
 /* All styles for your Card Components live here */
 .card-wrapper {
-    display: flex;
-    justify-content: center;
+    padding-left: 22%
+}
+.card-wrapper a{
+  text-decoration: none;
 }
 .card-img {
-    width: 80%;
+    width: 100%;
     margin-bottom: -5px
 }
 .card-content {
     text-decoration: none;
     border: 1px solid gray;
+    padding:0 24px;
 }
+
 .gray {
     color:gray;
 }
