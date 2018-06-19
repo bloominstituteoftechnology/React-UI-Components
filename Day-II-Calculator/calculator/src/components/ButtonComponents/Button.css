@@ -1,0 +1,20 @@
+.button-style {
+  height: 100px;
+  width: 125px;
+  line-height: 18px;
+  font-size: 50px;
+}
+
+.action-styles {
+  height: 100px;
+  width: 375px;
+  line-height: 18px;
+  color: black;
+  font-size: 50px;
+  font-weight: normal;
+}
+
+.function-button {
+  background: maroon;
+  color: whitesmoke;
+}
