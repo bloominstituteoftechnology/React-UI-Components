@@ -33,9 +33,9 @@ const App = () => {
           </div>
         </div>
         <div className = "operators-container">
-          <NumberButton buttonStyle = "operator-button-style" text = "/"/>
-          <NumberButton buttonStyle = "operator-button-style" text = "*"/>
-          <NumberButton buttonStyle = "operator-button-style" text = "-"/>
+          <NumberButton buttonStyle = "operator-button-style" text = "&divide;"/>
+          <NumberButton buttonStyle = "operator-button-style" text = "&times;"/>
+          <NumberButton buttonStyle = "operator-button-style" text = "&minus;"/>
           <NumberButton buttonStyle = "operator-button-style" text = "+"/>
           <ActionButton buttonStyle = "operator-button-style" text = "=" />
         </div>

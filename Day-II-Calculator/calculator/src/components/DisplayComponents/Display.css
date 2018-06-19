@@ -63,6 +63,8 @@ table {
       max-height:598px;
       display:flex;
       flex-direction:column;
+      border: 1px solid darkgrey;
+      z-index:1000;
   }
 
   .calculator-display-container {
@@ -100,7 +102,7 @@ table {
       align-items: center;
       height:94px;
       font-size:50px;
-      border: 1px solid darkgrey;
+      border: 1px solid darkgray;
   }
 
   .non-zero-numbers-container {
@@ -119,6 +121,7 @@ table {
       align-items: center;
       height:94px;
       border: 1px solid darkgrey;
+      font-size:45px;
   }
 
   .zero-number-container {
@@ -129,6 +132,12 @@ table {
       align-items: center;
       height:94px;
       border: 1px solid darkgrey;
+      border-bottom:2px solid darkgray;
+  }
+
+  .zero-number-button-style {
+    font-weight: bold;
+    font-size:45px;
   }
 
   .operators-container {
@@ -144,7 +153,7 @@ table {
       display:flex;
       justify-content: center;
       align-items: center;
-      height:94px;
+      height:94.5px;
       font-size:60px;
       border: 1px solid darkgray;
   }
