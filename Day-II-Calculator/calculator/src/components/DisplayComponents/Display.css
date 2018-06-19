@@ -1,12 +1,15 @@
 .calc-display {
     display: flex;
     flex-direction: row;
-    height: 150px;
-    width: 47%;
+    height: 130px;
+    width: 490px;
     border-radius: 4px;
     background: black;
     background-size: contain;
     margin: 20px auto 0 auto;
+    position: absolute;
+    left: 155px;
+    top: 10px;
 }
 
 .num-display {
@@ -14,7 +17,8 @@
     color: whitesmoke;
     height: 90px;
     display: flex;
-    margin-left: 380px;
+    margin-left: 420px;
     width: 60%;
     margin-top: 40px;
+    position: absolute;
 }

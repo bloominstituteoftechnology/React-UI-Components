@@ -32,7 +32,6 @@ const NumberButton = () => {
             <MyButton className="number-button" name="2"/>
             <MyButton className="number-button" name="3"/>
             <LargeButton className="number-button-large" name="0"/>
-            <ActionButton />
             </div>
     );
 };

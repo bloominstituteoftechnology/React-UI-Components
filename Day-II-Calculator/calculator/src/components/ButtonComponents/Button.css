@@ -1,22 +1,23 @@
 .action-column {
+    height: 480px;
+    width: 120px;
     display: flex;
     flex-flow: column wrap;
-    height: 460px;
-    width: 15%;
     position: relative;
-    bottom: 360px;
+    left: 521px;
+    top: 160px;
 }
 
 .action-button {
     background: rgb(173, 16, 16);
     color: white;
     display: flex;
-    justify-content: center;
+    flex-flow: column;
     align-items: center;
     font-size: 60px;
-    height: 90px;
+    height: 92px;
     line-height: 90px;
-    width: 110px;
+    width: 120px;
     font-weight: lighter;
     border: 1px solid gray;
 }
@@ -24,9 +25,11 @@
 .number-column {
     display: flex;
     flex-flow: row wrap;
-    width: 45%;
-    margin-left: 245px;
+    max-width: 460px;
     height: 460px;
+    position: absolute;
+    margin-left: 160px;
+    top: 160px;
 }
 
 .number-button {
@@ -36,7 +39,7 @@
     font-size: 45px;
     height: 90px;
     line-height: 90px;
-    width: 110px;
+    width: 120px;
     font-weight: bold;
     border: 1px solid gray;
   }
@@ -48,6 +51,6 @@
     font-size: 45px;
     height: 90px;
     line-height: 90px;
-    width: 330px;
+    width: 360px;
     border: 1px solid gray;
   }

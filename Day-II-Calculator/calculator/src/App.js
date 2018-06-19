@@ -4,14 +4,36 @@ import CalculatorDisplay from './components/DisplayComponents/CalculatorDisplay'
 import NumberButton from './components/ButtonComponents/NumberButton';
 import ActionButton from './components/ButtonComponents/ActionButton';
 
-const App = () => {
-  return (
+class App extends React.Component {
+  constructor (props) {
+    super(props);
+    this.state = {
+      total: 6,
+      currentValue: 0,
+      action: null,
+    }
+    // this.clickHandler = this.clickHandler.bind(this);
+  }
+
+  clickHandler= (event) => {
+    console.log(event.target.value);
+    this.setState({
+      // total: this.state.total +1,
+      total: 8,
+    });
+  };
+
+  render () {
+    return (
     <div>
 <CalculatorDisplay />
+<container>
 <NumberButton />
-
+<ActionButton />
+</container>
     </div>
   );
 };
+}
 
 export default App;
