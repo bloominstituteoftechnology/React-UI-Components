@@ -1,4 +1,45 @@
 /* All styles for your header Components live here */
 .header-wrapper{
     border:1px solid red;
+    width:585px;
+    height:507px;
+    margin:auto;
+}
+
+.header-content{
+    border:1px solid blue;
+    display:flex;
+    
+}
+
+p{
+    font-size: 14px;
+}
+
+.header-text{
+    border:1px solid green;
+}
+
+.header-title{
+    border:1px solid black;
+    display: flex;
+    height:50px;
+}
+
+span{
+    margin-top: 23.4px;
+    font-size: 12px;
+    color:gray;
+    padding-top: 8px;
+    margin-left: 5px;
+}
+
+.image-thumbnail{
+    margin-top: 25px;
+}
+
+.logo{
+    width:70px;
+    height: 70px;
+    border:1px solid purple;
 }
