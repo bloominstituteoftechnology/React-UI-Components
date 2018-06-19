@@ -1,0 +1,42 @@
+.button{
+  border: 1px solid lightgray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 32px;
+}
+
+.operation{
+  background: #991E1E;
+  color: white;
+  font-weight: normal;
+  font-size: 40px;
+}
+
+.operation-wrapper{
+  display: flex;
+  flex-direction: column;
+  width: 88px;
+  height: 364px;
+}
+
+.operation-wrapper .button {
+  width: 100%;
+  height: 20%;
+}
+
+.input-wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  width: 264px;
+  height: 364px;
+}
+
+.input-wrapper .long{
+  width: 100%;
+}
+
+.input-wrapper .short{
+  width: 32.58%;
+}
