@@ -23,7 +23,7 @@ const App = () => {
       <NumberButton sign="sign"  number="×"/>
       <ActionButton BigContent="BigContent" number="clear" />
       <NumberButton sign="sign" number="÷"/>
-      <CalculatorDisplay />
+      <CalculatorDisplay number="0" />
     </div>
     </section>
   );
