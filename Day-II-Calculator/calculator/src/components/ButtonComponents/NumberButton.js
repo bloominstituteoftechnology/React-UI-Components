@@ -1,22 +1,29 @@
 import React from 'react';
 import './Button.css';
 
+const Button = props => {
+    console.log ('PROPS', props.name);
+    return <button className="calc-button">{props.name}</button>
+};
 
+Button.defaultProps={
+    name:'Default Button'
+}
 
-const NumberButton= () => {
+const NumberButton= props => {
     return (
         <div className="number-button">
-            <span className="clear-button">clear</span>
-            <h2>7</h2>
-            <h2>8</h2>
-            <h2>9</h2>
-            <h2>4</h2>
-            <h2>5</h2>
-            <h2>6</h2>
-            <h2>1</h2>
-            <h2>2</h2>
-            <h2>3</h2>
-            <h2 className="zero">0</h2>  
+            {/*<Button name="clear" />*/}
+            <Button name="7" />
+            <Button name="8" />
+            <Button name="9" />
+            <Button name="4" />
+            <Button name="5" />
+            <Button name="6" />
+            <Button name="1" />
+            <Button name="2" />
+            <Button name="3" />
+            <Button name="0" />
         </div>
     );
 };

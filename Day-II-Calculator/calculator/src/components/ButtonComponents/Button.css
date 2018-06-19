@@ -1,10 +1,10 @@
 
 .number-button{
     display:flex;
-    align-content: center;
     width:333px;
     border:1px solid gray;
     flex-wrap: wrap;
+    margin:0px;
 }
 
 .clear-button{
@@ -18,17 +18,30 @@
     font-size: 38px;
 }
 
-h2{
+.calc-button{
     border:1px solid gray;
-    width:109px;
+    width:111px;
     height:93px;
     margin:0px;
     display:flex;
     align-items: center;
     justify-content: center;
+    padding:0px;
 }
 
 .zero{
     width:333px;
     height:90px;
+}
+
+{/*Action Buttons*/}
+
+.action-button{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    width: 100px;
+    margin:0px;
+    border:1px solid green;
 }
