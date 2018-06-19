@@ -2,16 +2,15 @@
 .number-holder {
     display: flex;
     width: 100%;
-    max-width: 667px;
+    max-width: 200px;
     flex-direction: row;
     flex-flow: wrap-reverse;
     margin: auto;
-    justify-content: center;
 }
 .number-content {
     border: 1px solid grey;
-    width: 166.75px;
-    height: 166.75px;
+    width: 50px;
+    height: 50px;
     font-size: 1.5rem;
     margin: auto;
 }
@@ -21,12 +20,18 @@
     color: white;
 }
 
-.bottom-content {
-    width: 500.25px;
+.BigContent{
+    width: 150px;
     border: 1px solid grey;
     font-size: 1.5rem;
 }
 
 .text-clear {
     font-weight: 200;
+}
+.DisplayContent {
+    width: 200px;
+    height: 50px;
+    background: black;
+    border: 1px solid grey;
 }
