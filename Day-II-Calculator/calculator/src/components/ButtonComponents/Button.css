@@ -4,7 +4,7 @@
     display: flex;
     flex-flow: column wrap;
     position: relative;
-    left: 521px;
+    left: 520px;
     top: 160px;
 }
 
@@ -15,9 +15,9 @@
     flex-flow: column;
     align-items: center;
     font-size: 60px;
-    height: 92px;
+    height: 90px;
     line-height: 90px;
-    width: 120px;
+    width: 115px;
     font-weight: lighter;
     border: 1px solid gray;
 }
@@ -26,7 +26,7 @@
     display: flex;
     flex-flow: row wrap;
     max-width: 460px;
-    height: 460px;
+    height: 450px;
     position: absolute;
     margin-left: 160px;
     top: 160px;
