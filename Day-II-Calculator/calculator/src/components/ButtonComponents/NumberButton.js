@@ -4,7 +4,7 @@ import './Button.css';
 const NumberButton = () => {
     return (
     
-        <section>
+        <section className="calculator">
     
         <div className="number-holder">
         {/* <button className="bottom-content"> 0 </button>
