@@ -7,7 +7,8 @@ const ActionButton = props => {
     );
 };
 ActionButton.defaultProps = {
-    buttonFunction: 'Default text'
+    buttonFunction: 'Default text',
+    buttonStyle: 'default-button-styles'
 }
  
 export default ActionButton;
