@@ -3,3 +3,8 @@ body {
   padding: 0.4rem;
   font-family: sans-serif;
 }
+
+.app-container {
+  width: 585px;
+  font-size: 14px;
+}

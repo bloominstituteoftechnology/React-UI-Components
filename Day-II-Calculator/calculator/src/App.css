@@ -1,0 +1,41 @@
+.app-container {
+    width: 452px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid #C8C8C8;
+}
+
+.default-button-styles{
+    border: 1px solid #C8C8C8;
+    line-height: 90px;
+    width: 100%;
+    font-size: 36px;
+}
+
+.calculator-left-side {
+    width: 333px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.calculator-right-side {
+    width: 119px;
+}
+
+.calculator-left-side .number-button-styles {
+    width: 111px;
+    border: 1px solid #C8C8C8;
+    line-height: 90px;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.calculator-right-side .action-button-styles {
+    border: 1px solid #C8C8C8;
+    line-height: 90px;
+    width: 100%;
+    font-size: 70px;
+    font-weight: lighter;
+    background: #96001C;
+    color: white;
+}
