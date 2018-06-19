@@ -6,11 +6,14 @@ import NumberButton from './components/ButtonComponents/NumberButton';
 
 import LargeButton from './components/ButtonComponents/LargeButton';
 
+import ActionGroup from './components/DisplayComponents/ActionGroup';
+
 
 const App = () => {
   return (
     <div className="app-container">
       <LargeButton name="clear" />
+       <ActionGroup />
       <div className="nums">
       <NumberButton name="7" />
       <NumberButton name="8" />
@@ -23,16 +26,10 @@ const App = () => {
       <NumberButton name="3" />
       </div>
 
+
       <LargeButton name="0" />
 
-      <div class="action-group">
 
-      <ActionButton name="÷" />
-      <ActionButton name="X"/>
-      <ActionButton name="–"/>
-      <ActionButton name="+"/>
-      <ActionButton name="="/>
-      </div>
 
 
     </div>
