@@ -1,13 +1,10 @@
 /* All styles for your header Components live here */
 .header-wrapper{
-    border:1px solid red;
     width:585px;
-    height:507px;
     margin:auto;
 }
 
 .header-content{
-    border:1px solid blue;
     display:flex;
     
 }
@@ -17,13 +14,13 @@ p{
 }
 
 .header-text{
-    border:1px solid green;
+    padding-left: 7px;
 }
 
 .header-title{
-    border:1px solid black;
     display: flex;
     height:50px;
+    padding-left: 4px;
 }
 
 span{
@@ -35,11 +32,10 @@ span{
 }
 
 .image-thumbnail{
-    margin-top: 25px;
+    margin-top: 23px;
 }
 
 .logo{
     width:70px;
     height: 70px;
-    border:1px solid purple;
 }
