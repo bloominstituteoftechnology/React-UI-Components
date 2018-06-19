@@ -8,6 +8,7 @@
     width: 75px;
     border: 1px solid gray;
 }
-.blue {
-    color: blue;
+.operations {
+    background: maroon;
+    color: whitesmoke;
 }
