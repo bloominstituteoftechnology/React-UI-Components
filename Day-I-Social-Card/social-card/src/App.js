@@ -6,11 +6,10 @@ import CardContainer from './components/CardComponents/CardContainer';
 
 const App = () => {
   return (
-    <div>
+    <div className= "card-container" >
      <HeaderContainer />
      <CardContainer />
- 
-     </div>
+    </div>
   );
 };
 
