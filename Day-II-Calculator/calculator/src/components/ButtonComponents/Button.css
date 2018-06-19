@@ -1,0 +1,34 @@
+
+.number-button{
+    display:flex;
+    align-content: center;
+    width:333px;
+    border:1px solid gray;
+    flex-wrap: wrap;
+}
+
+.clear-button{
+    width:332px;
+    border:1px solid gray;
+    height:90px;
+    margin:0px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 38px;
+}
+
+h2{
+    border:1px solid gray;
+    width:109px;
+    height:93px;
+    margin:0px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.zero{
+    width:333px;
+    height:90px;
+}
