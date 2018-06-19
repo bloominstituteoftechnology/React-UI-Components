@@ -4,8 +4,10 @@ import './Card.css';
 
 
 const CardBanner = () => {
-    return (    
-        <img className="card-banner" src="https://ibin.co/3wnC6SgIOJud.png" alt ="Card Banner"/>
+    return (  
+        <div>  
+             <img className="card-banner" src="https://ibin.co/3wnC6SgIOJud.png" alt ="Card Banner"/>
+        </div>
     );
 };
 
