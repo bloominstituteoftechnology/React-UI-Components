@@ -1,1 +1,35 @@
 /* All styles for your Card Components live here */
+.card-wrapper{
+  width: 422px;
+  margin-left: 74px;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+}
+
+.card-wrapper .img-wrapper img {
+  width: 422px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.card-wrapper .card-text-wrapper{
+  margin-top: 0;
+  line-height: 16px;
+  padding-left: 10px;
+}
+
+.card-wrapper .card-text-wrapper h2{
+  font-size: 14px;
+  line-height: 12px;
+  margin-top: 10px;
+}
+
+.card-wrapper .card-text-wrapper p{
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.card-wrapper .card-text-wrapper .card-footer-text {
+  color: lightgray;
+}

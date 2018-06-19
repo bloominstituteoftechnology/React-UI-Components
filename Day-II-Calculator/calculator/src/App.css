@@ -1,0 +1,9 @@
+.buttons{
+  display: flex;
+
+}
+
+.app-wrapper {
+  display: flex;
+  flex-direction: column;
+}
