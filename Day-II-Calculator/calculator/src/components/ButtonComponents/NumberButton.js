@@ -1,6 +1,5 @@
 import React from 'react';
 import './Button.css';
-import ActionButton from './ActionButton';
 
 const NumberButton = () => {
     const MyButton = props => {
@@ -17,11 +16,11 @@ const NumberButton = () => {
   
       LargeButton.defaultProps = {
         name: 'Default text',
-        customStyle: 'default-large-button'
+        customStyle: 'large-button'
       };
     return (
         <div className="number-column">
-            <LargeButton className="number-button-large" name="clear"/>
+            <LargeButton className="large-button" name="clear"/>
             <MyButton className="number-button" name="7"/>
             <MyButton className="number-button" name="8"/>
             <MyButton className="number-button" name="9"/>
@@ -31,7 +30,7 @@ const NumberButton = () => {
             <MyButton className="number-button" name="1"/>
             <MyButton className="number-button" name="2"/>
             <MyButton className="number-button" name="3"/>
-            <LargeButton className="number-button-large" name="0"/>
+            <LargeButton className="large-button" name="0"/>
             </div>
     );
 };

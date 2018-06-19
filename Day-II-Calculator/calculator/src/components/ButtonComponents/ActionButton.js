@@ -1,6 +1,5 @@
 import React from 'react';
 import './Button.css';
-import NumberButton from './NumberButton';
 
 const ActionButton = () => {
     const MyButton = props => {
@@ -8,7 +7,7 @@ const ActionButton = () => {
       };
   
       MyButton.defaultProps = {
-        name: 'Default text',
+        name: 'text',
         customStyle: 'action-button'
       };
     return (

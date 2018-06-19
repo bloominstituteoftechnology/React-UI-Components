@@ -44,7 +44,7 @@
     border: 1px solid gray;
   }
   
-  .default-large-button {
+  .large-button {
     display: flex;
     justify-content: center;
     align-items: center;
