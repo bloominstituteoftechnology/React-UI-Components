@@ -6,6 +6,17 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <title>My very first React App</title>
+<style>
+    .customClass {
+        background: rebeccapurple;
+        color: whitesmoke;
+    }
+
+    .default-button-styles {
+        background: teal;
+        color: whitesmoke;
+    }
+</style>
 </head>
 
 <body>
@@ -20,16 +31,37 @@
    // const MyElement = React.createElement('h1', { className: 'my-h1', id: 'my-id-h1' }, 'Hello World from React');
    const Header = () => <h1 className="header"> My Awesome Header </h1>;
 
-   const MyButton = () => <button></button>;
+   const MyButton = props => {
+       const clickHandler = () => {
+           alert(props.name);
+       };
+      // console.log('PROPS', props.name);
+   return (
+       <button
+       onClick={() => clickHandler()}
+        className={'button-styles ${props.customStyleProp}'}>
+        {props.name}
+        </button>
+   };
+
+    MyButton.defaultProps = {
+         name: 'Default text',
+        customStyleProp: 'default-button-styles'
+    };
+
    const App = () => {
        return ( 
         <div>
         <Header />
+        <MyButton customClass="my-fancy-button" name="fancy-button" />
+        <MyButton customStyleProp="different" />
+        <MyButton customStyleProp="one-more" />
+        <MyButton />
         <MyButton />
     </div>
      );
    };
-
+// props.children (anything that is found nested between a parent JSX element)
    ReactDOM.render(<App />, document.getElementById('root'));
     </script>
 </body>
