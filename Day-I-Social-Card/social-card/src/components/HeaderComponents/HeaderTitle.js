@@ -5,9 +5,7 @@ import './Header.css';
 const HeaderTitle = () => {
     return (
     <div>
-    <h1 className="title">LambdaSchool</h1>
-    <h2 className="handle">@LambdaSchool</h2>
-    <h2 className="date"> . 18 June</h2>
+    <h1 className="title">LambdaSchool <span class="handle">@LambdaSchool</span><span class="date"> . 18 June</span></h1>
     </div>
     )
 }
