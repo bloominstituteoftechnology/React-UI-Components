@@ -1,6 +1,11 @@
 import React from 'react';
 import './Button.css';
 
+export const addNums = props => (
+  <input onChange = {props.onChange}
+  />
+)
+
 const NumberButton = () => {
     const MyButton = props => {
         return <button className={props.customStyle}>{props.name}</button>;

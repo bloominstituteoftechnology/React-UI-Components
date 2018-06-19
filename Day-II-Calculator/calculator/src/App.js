@@ -16,24 +16,25 @@ class App extends React.Component {
    this.addValue = this.addValue.bind(this);
   }
 
-  clickHandler() {
+  clickHandler = () => {
     this.setState({
       total: this.state.total +1
     });
+    console.log(this.state.total);
   };
 
-  addValue(){
+  addValue = () => {
     this.setState({
       currentValue: this.state.currentValue + 1
     });
-    console.log(this.state.currentValue);
+    console.log(this.state.value);
   }
 
   render () {
     return (
     <div>
-<CalculatorDisplay  onClick={this.clickHandler}/>
-<NumberButton onClick={this.addValue}/>
+<CalculatorDisplay  placeholder="0" onClick={this.clickHandler}/>
+<NumberButton onChange={this.addValue}/>
 <ActionButton />
 
     </div>
