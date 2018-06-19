@@ -1,1 +1,16 @@
 /* All styles for your Card Components live here */
+.card-wrapper {
+    display: flex;
+    justify-content: center;
+}
+.card-img {
+    width: 80%;
+    margin-bottom: -5px
+}
+.card-content {
+    text-decoration: none;
+    border: 1px solid gray;
+}
+.gray {
+    color:gray;
+}

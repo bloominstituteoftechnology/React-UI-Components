@@ -3,3 +3,6 @@
     display: flex;
     align-items: center;
 }
+.gray { 
+  color: gray;
+}
