@@ -2,7 +2,7 @@ import React from 'react';
 import './Card.css';
 
 
-const CardBanner = () => <div className="card-banner"></div>
+const CardBanner = () => <a href="https://www.reactjs.org"><div className="card-banner"></div></a>
     
 
 
