@@ -1,0 +1,27 @@
+.app {
+    width: 210px;
+}
+
+.display {
+    margin-left: 5px;
+    padding-left: 10px;
+    border: 1px black solid;
+}
+
+.row-one {
+    display: flex;
+    flex-direction: row;
+    margin:5px;
+}
+
+.row-two {
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+}
+
+.row-three {
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+}
