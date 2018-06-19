@@ -2,8 +2,17 @@ import React from 'react';
 import './Button.css';
 
 const NumberButton = props => {
+    
+    const clickHandler = () => {
+        alert(props.buttonNumber);
+    }
+    
     return (
-        <button className={props.buttonStyle}>{props.buttonNumber}</button>
+        <button 
+            onClick={() => clickHandler()}
+            className={props.buttonStyle}>
+                {props.buttonNumber}
+        </button>
     );
 };
 

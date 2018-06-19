@@ -10,23 +10,23 @@ const App = () => {
       <CalculatorDisplay />
       <div className='calculator-left-side'>
         <ActionButton buttonFunction='Clear'/>
-        <NumberButton buttonNumber='1'/>
-        <NumberButton buttonNumber='2'/>
-        <NumberButton buttonNumber='3'/>
-        <NumberButton buttonNumber='4'/>
-        <NumberButton buttonNumber='5'/>
-        <NumberButton buttonNumber='6'/>
-        <NumberButton buttonNumber='7'/>
-        <NumberButton buttonNumber='8'/>
-        <NumberButton buttonNumber='9'/>
+        <NumberButton buttonNumber='1' buttonStyle='number-button-styles'/>
+        <NumberButton buttonNumber='2' buttonStyle='number-button-styles'/>
+        <NumberButton buttonNumber='3' buttonStyle='number-button-styles'/>
+        <NumberButton buttonNumber='4' buttonStyle='number-button-styles'/>
+        <NumberButton buttonNumber='5' buttonStyle='number-button-styles'/>
+        <NumberButton buttonNumber='6' buttonStyle='number-button-styles'/>
+        <NumberButton buttonNumber='7' buttonStyle='number-button-styles'/>
+        <NumberButton buttonNumber='8' buttonStyle='number-button-styles'/>
+        <NumberButton buttonNumber='9' buttonStyle='number-button-styles'/>
         <ActionButton buttonFunction='0'/>
       </div>
       <div className='calculator-right-side'>
-        <ActionButton buttonFunction='&divide;'/>
-        <ActionButton buttonFunction='&times;'/>
-        <ActionButton buttonFunction='&minus;'/>
-        <ActionButton buttonFunction='+'/>
-        <ActionButton buttonFunction='='/>
+        <ActionButton buttonFunction='&divide;' buttonStyle='action-button-styles'/>
+        <ActionButton buttonFunction='&times;' buttonStyle='action-button-styles'/>
+        <ActionButton buttonFunction='&minus;' buttonStyle='action-button-styles'/>
+        <ActionButton buttonFunction='+' buttonStyle='action-button-styles'/>
+        <ActionButton buttonFunction='=' buttonStyle='action-button-styles'/>
       </div>
     </div>
   );
