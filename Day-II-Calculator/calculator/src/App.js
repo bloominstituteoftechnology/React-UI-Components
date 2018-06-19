@@ -5,7 +5,7 @@ import ActionButton from './components/ButtonComponents/ActionButton';
 import CalculatorDisplay from './components/DisplayComponents/CalculatorDisplay';
 const App = () => {
   return (
-    <section>
+    <section className="border-radius">
       <div className="number-holder">
       <ActionButton BigContent="BigContent" number="0" />
       <NumberButton sign="sign" number="="/>
