@@ -1,0 +1,24 @@
+.app-container{
+    display: flex;
+    width: 560px;
+    flex-wrap: wrap;
+    height: 840;
+    border: 1px solid red;
+    margin: 350px;
+
+}
+
+.large-button{
+    width: 420px;
+    height:140px;
+    font-weight: 800;
+    font-size: 65px;
+    border: 1px solid red;
+    justify-content: center;
+}
+
+.nums{
+    width:420px;
+}
+
+
