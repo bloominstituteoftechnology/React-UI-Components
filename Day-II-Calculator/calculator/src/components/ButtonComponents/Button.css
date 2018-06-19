@@ -38,6 +38,8 @@
     border: 1px solid grey;
     color: white;
     font-size: 4rem;
+    text-align: right;
+    padding-right: 15px;
 }
 
 .border-radius {
