@@ -13,7 +13,7 @@ class App extends React.Component {
     <CalculatorDisplay />
     <ButtonContainer className="clear-button">
      <ActionButton className="text" text="clear" />
-     <NumberButton className="function-button" text="÷" />
+     <NumberButton color="function-button" text="÷" />
      </ButtonContainer>
      <ButtonContainer>
        <NumberButton color="number-button" text="7" />
