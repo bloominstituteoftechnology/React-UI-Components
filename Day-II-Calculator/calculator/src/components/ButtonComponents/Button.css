@@ -7,8 +7,8 @@
     margin:0px;
 }
 
-.clear-button{
-    width:332px;
+.big-button{
+    width:333px;
     border:1px solid gray;
     height:90px;
     margin:0px;
@@ -27,21 +27,27 @@
     align-items: center;
     justify-content: center;
     padding:0px;
+    font-size: 50px;
 }
 
-.zero{
-    width:333px;
-    height:90px;
-}
 
-{/*Action Buttons*/}
+/*Action Buttons*/
 
 .action-button{
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     justify-content: flex-start;
-    width: 100px;
+    width: 121px;
     margin:0px;
-    border:1px solid green;
+}
+
+.red-button{
+    width: 122px;
+    height: 92px;
+    background-color: maroon;
+    color:white;
+    padding:0px;
+    border:1px solid gray;
+    font-size: 50px;
 }

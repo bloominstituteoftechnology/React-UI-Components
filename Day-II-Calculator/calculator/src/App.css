@@ -1,7 +1,11 @@
 
 .app-container{
     margin:auto;
-    border:1px solid blue;
     width:456px;
     height:596px;
+
+}
+
+.button-container{
+    display: flex;
 }

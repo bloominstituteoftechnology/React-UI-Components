@@ -7,4 +7,11 @@
     background-color: black;
     height:124px;
     width:454px;
+    font-size: 35px;
+}
+
+h1{
+    margin-right: 16px;
+    margin-top: 26px;
+    margin-bottom: 0px;
 }

@@ -14,9 +14,11 @@ RedButton.defualtProps={
 const ActionButton = props => {
     return (
         <div className="action-button">
-            <RedButton name="X" />    
-
-
+            <RedButton name="&#247;" />
+            <RedButton name="x" />
+            <RedButton name="-" />
+            <RedButton name="+" />
+            <RedButton name="=" />    
         </div>
     );
 };
