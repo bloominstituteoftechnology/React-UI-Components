@@ -13,7 +13,7 @@ const App = () => {
       <NumberButton name="7" />
       <NumberButton name="8" />
       <NumberButton name="9" />
-      <NumberButton name="x" numberStyle="function-button" />
+      <NumberButton name="&times;" numberStyle="function-button" />
       <NumberButton name="4" />
       <NumberButton name="5" />
       <NumberButton name="6" />
