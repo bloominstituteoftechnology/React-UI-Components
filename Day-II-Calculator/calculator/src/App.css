@@ -1,0 +1,33 @@
+.app-container{
+    display: flex;
+    width: 560px;
+    flex-wrap: wrap;
+
+    border: 1px solid gray;
+    margin: 350px;
+
+}
+
+.large-button{
+    width: 420px;
+    height:140px;
+    font-weight: 550;
+    font-size: 65px;
+    border: 1px solid gray;
+    justify-content: center;
+}
+
+.nums{
+    width:420px;
+    margin-top: -560px;
+
+}
+
+.action-group{
+    margin-top:0;
+    width: 140px;
+}
+
+
+
+

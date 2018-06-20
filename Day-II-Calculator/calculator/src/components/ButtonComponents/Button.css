@@ -1,0 +1,31 @@
+.number-button{
+    width: 140px;
+    height: 140px;
+    font-weight: 550;
+    font-size: 65px;
+    border:1px solid grey;
+
+}
+
+.action-button{
+    display: flex;
+    flex-direction: column;
+    width: 140px;
+    height: 140px;
+    font-weight: 600;
+    font-size: 65px;
+    justify-content: center;
+    padding-left: 45px;
+    background: red;
+    color:white;
+
+}
+
+.large{
+    width: 420px;
+    height:160px;
+    font-weight: 550;
+    font-size: 65px;
+    border: 1px solid red;
+    padding-left: 110px;
+}
