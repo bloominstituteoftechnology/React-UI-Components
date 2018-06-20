@@ -22,7 +22,7 @@ const App = () => {
       <NumberButton text="2"/>
       <NumberButton text="3"/>
       <NumberButton custom="operations" text="+"/>
-      <ActionButton text="0"/>
+      <ActionButton custom="bold" text="0"/>
       <NumberButton custom="operations" text="="/>
     </div>
   );

@@ -1,14 +1,21 @@
 .action {
     height: 75px;
-    width:285px;
+    width:270px;
     border: 1px solid gray;
+    font-size: 30px;
+    letter-spacing: 4px;
 }
 .number {
     height: 75px;
-    width: 75px;
+    width: 90px;
     border: 1px solid gray;
+    font-size: 30px;
+    font-weight: bold;
 }
 .operations {
     background: maroon;
     color: whitesmoke;
+}
+.bold {
+    font-weight: bold;
 }
