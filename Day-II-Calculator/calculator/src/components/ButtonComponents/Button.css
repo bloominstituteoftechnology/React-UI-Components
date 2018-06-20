@@ -1,0 +1,19 @@
+
+.action-style {
+    width: 335px;
+    height: 96px;
+    background: white;
+    font-size: 42px;
+    font-weight: lighter;
+    border: none;
+}
+
+.operator-style {
+    width: 120px;
+    height: 97px;
+    background: red;
+    font-size: 42px;
+    color: white;
+    border: none;
+
+}
