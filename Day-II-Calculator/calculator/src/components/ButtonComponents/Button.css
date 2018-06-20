@@ -1,11 +1,18 @@
-.action-button {
+.button-container {
+    height: 110px;
+    display: flex;
+}
 
+.action-button {
+width: 300px;
+border: 2px solid black;
 }
 
 .number-button {
-
+width: 100px;
+border: 2px solid black;
 }
 
 .button-container {
-    
+
 }
