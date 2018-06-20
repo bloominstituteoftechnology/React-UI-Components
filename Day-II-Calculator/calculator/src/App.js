@@ -13,29 +13,29 @@ class App extends React.Component {
     <CalculatorDisplay />
     <ButtonContainer className="clear-button">
      <ActionButton className="text" text="clear" />
-     <NumberButton color="red-button" text="/" />
+     <NumberButton color="action-button" text="÷" />
      </ButtonContainer>
      <ButtonContainer>
        <NumberButton color="number-button" text="7" />
        <NumberButton color="number-button" text="8" />
        <NumberButton color="number-button" text="9" />
-       <NumberButton color="number-button" text="X" />
+       <NumberButton color="action-button" text="X" />
        </ButtonContainer>
        <ButtonContainer>
        <NumberButton color="number-button" text="4" />
        <NumberButton color="number-button" text="5" />
        <NumberButton color="number-button" text="6" />
-       <NumberButton color="number-button" text="-" />
+       <NumberButton color="action-button" text="-" />
        </ButtonContainer>
        <ButtonContainer>
        <NumberButton color="number-button" text="1" />
        <NumberButton color="number-button" text="2" />
        <NumberButton color="number-button" text="3" />
-       <NumberButton color="number-button" text="+" />
+       <NumberButton color="action-button" text="+" />
        </ButtonContainer>
        <ButtonContainer>
        <ActionButton color="number-button" text="0" />
-       <NumberButton color="number-button" text="=" />
+       <NumberButton color="action-button" text="=" />
        </ButtonContainer>
 
     </div>
