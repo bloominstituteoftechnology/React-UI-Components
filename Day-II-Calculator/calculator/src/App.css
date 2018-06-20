@@ -1,0 +1,7 @@
+.calculator-container {
+    min-height: 600px;
+    width: 400px;
+    margin: 0 auto;
+    border: 2px solid black;
+    font-family: sans-serif;
+}
