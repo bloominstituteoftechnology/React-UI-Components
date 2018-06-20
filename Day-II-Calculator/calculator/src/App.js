@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import ActionButton from './components/ButtonComponents/ActionButton';
+import CalculatorDisplay from './components/DisplayComponents/CalculatorDisplay';
 
 import NumberButton from './components/ButtonComponents/NumberButton';
 
@@ -12,6 +12,7 @@ import ActionGroup from './components/DisplayComponents/ActionGroup';
 const App = () => {
   return (
     <div className="app-container">
+      <CalculatorDisplay name="0" />
       <LargeButton name="clear" />
        <ActionGroup />
       <div className="nums">
@@ -24,10 +25,11 @@ const App = () => {
       <NumberButton name="1" />
       <NumberButton name="2" />
       <NumberButton name="3" />
+      <LargeButton name="0" />
       </div>
 
 
-      <LargeButton name="0" />
+
 
 
 
