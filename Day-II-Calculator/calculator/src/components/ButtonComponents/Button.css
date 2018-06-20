@@ -1,28 +1,32 @@
 
 .action-style {
-    width: 335px;
-    height: 99px;
+    width: 336px;
+    height: 95px;
     background: white;
-    font-size: 42px;
-    font-weight: lighter;
-    border: 1px solid gray;;
+    font-size: 40px;
+    font-weight: bold;
+    border: none;
+    border-top: 2px solid gray;
 }
 
 .operator-style {
     width: 120px;
-    height: 100px;
+    height: 95px;
     background: red;
-    font-size: 45px;
+    font-size: 46px;
     color: white;
-    border: 1px solid gray;
+    border: 2px solid gray;
+    
 
 }
 
 .number-style {
     width: 112px;
-    height: 100px;
+    height: 94px;
     font-size: 40px;
     font-weight: bold;
     border: none;
     border-right: 1px solid gray;
+    border-top: 2px solid gray;
 }
+
