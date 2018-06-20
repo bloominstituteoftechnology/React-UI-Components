@@ -5,7 +5,7 @@ import CalculatorDisplay from './components/DisplayComponents/CalculatorDisplay.
 const App = () => {
   return (
     <div>
-     <CalculatorDisplay buttonStyle="display-style" text="" />
+     <CalculatorDisplay buttonStyle="display-style" text="0" />
     </div>
   );
 };

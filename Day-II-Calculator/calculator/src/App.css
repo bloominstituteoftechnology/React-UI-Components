@@ -1,0 +1,10 @@
+
+body {
+    max-width: 456px;
+    width: 100%;
+    margin: 0 auto;
+    max-height: 598px;
+    height: 100%;
+    border: 1px solid red;
+    margin-top: 100px;
+}
