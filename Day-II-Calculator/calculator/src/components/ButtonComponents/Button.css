@@ -6,6 +6,7 @@
 
 .action-button {
 width: 300px;
+font-size: 50px;
 border: 2px solid black;
 }
 
@@ -23,7 +24,8 @@ font-size: 50px;
     font-weight: 200;
 }
 
-.red-button {
+.function-button {
     background: darkred;
+    color: black;
     font-size: 50px;
 }
