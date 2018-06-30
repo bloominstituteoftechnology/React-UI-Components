@@ -1,0 +1,53 @@
+
+.number-button{
+    display:flex;
+    width:333px;
+    border:1px solid gray;
+    flex-wrap: wrap;
+    margin:0px;
+}
+
+.big-button{
+    width:333px;
+    border:1px solid gray;
+    height:90px;
+    margin:0px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 38px;
+}
+
+.calc-button{
+    border:1px solid gray;
+    width:111px;
+    height:93px;
+    margin:0px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding:0px;
+    font-size: 50px;
+}
+
+
+/*Action Buttons*/
+
+.action-button{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    width: 121px;
+    margin:0px;
+}
+
+.red-button{
+    width: 122px;
+    height: 92px;
+    background-color: maroon;
+    color:white;
+    padding:0px;
+    border:1px solid gray;
+    font-size: 50px;
+}
