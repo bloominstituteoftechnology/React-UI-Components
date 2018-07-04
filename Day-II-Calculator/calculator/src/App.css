@@ -1,9 +1,10 @@
 .calculatorContainer {
-    width: 400px;
-    height: 570px;
-    border: 1px solid grey;
+  width: 400px;
+  height: 570px;
+  border: 1px solid grey;
+  margin: 0 auto;
 }
 
 .inputButtons {
-    display: flex;
+  display: flex;
 }
