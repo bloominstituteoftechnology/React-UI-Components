@@ -1,0 +1,21 @@
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid grey;
+  padding: 3.8% 10.3%;
+  min-width: 3%;
+  max-width: 4%;
+  font-size: 47px;
+  text-align: center;
+}
+
+.button:hover{
+  cursor: pointer;
+}
+
+.button:active {
+  background-color: black;
+  color: white;
+}
