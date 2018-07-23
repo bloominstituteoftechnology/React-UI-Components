@@ -1,0 +1,17 @@
+.calc-container{
+    width:70%;
+    margin: 0 0;
+    height:700px;
+    flex-flow: row wrap;
+}
+.row {
+    margin-bottom: -10px;
+}
+.output {
+    height: 100px;
+    width: 81.2%;
+    font-size: 5rem;
+    color: white;
+    text-align: right;
+    background: black;
+}
