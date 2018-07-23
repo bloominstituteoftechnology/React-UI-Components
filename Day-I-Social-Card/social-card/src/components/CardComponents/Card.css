@@ -1,4 +1,23 @@
 /* All styles for your Card Components live here */
-#card-banner {
-    background-image: "https://ibin.co/3wnC6SgIOJud.png";
+#cardbanner {
+    background-image: url("https://ibin.co/3wnC6SgIOJud.png");
+    width: 604px;
+    height: 317px;
+    background-size: cover;
+    display: inline-block;
+    margin-left: 20.5%;
+}
+#card-content {
+    margin-top: 10px;
+    width: 604px;
+    margin-left: 20.5%;
+    text-decoration: none;
+    display: inline-block;
+    
+}
+#card-content *{
+    color: black;
+}
+#card-content a:hover {
+    text-decoration: none;
 }
