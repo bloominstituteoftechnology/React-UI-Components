@@ -1,17 +1,27 @@
 /* All styles for your Card Components live here */
 .card-wrapper {
   height: 500px;
-  width: 400px;
+  width: 90%;
   border: 1px solid black;
+  margin: 1rem auto;
   display: flex;
   flex-direction: column;
-  margin: 0 auto;
 }
 
 .card-banner-img {
   background-image: url('https://ibin.co/3wnC6SgIOJud.png');
-  height: 200px;
+  height: 250px;
   width: auto;
   background-size:  cover;
   background-repeat: no-repeat;
+}
+
+.card-wrapper {
+  
+}
+
+
+.card-content {
+  margin: 0;
+  padding: 0.3em;
 }
