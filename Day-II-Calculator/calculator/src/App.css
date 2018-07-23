@@ -1,0 +1,26 @@
+.calc-body {
+  position: relative;
+  height: 594px;
+  width: 452px;
+  border: 2px solid lightgray;
+}
+
+.operations {
+  width: 122px;
+  height: 474px;
+  margin-top: -473px;
+  margin-left: 332px;
+  background-color: #b1384f;
+}
+
+.grid {
+  margin-top: -378px;
+  display: grid;
+  grid-template-columns: 110px 110px 110px;
+}
+
+/* .number {
+  padding: 27px;
+  font-size: 191%;
+  border: 1px solid lightgray;
+} */

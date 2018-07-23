@@ -1,0 +1,13 @@
+.display {
+  height: 121px;
+  width: 451px;
+  background-color: black;
+  color: white;
+  font-size: 80px;
+  border: 2px solid lightgray;
+}
+.display p {
+  position: absolute;
+  bottom: 403px;
+  right: 10px;
+}
