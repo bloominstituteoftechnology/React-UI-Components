@@ -4,8 +4,8 @@ import CardContent from '../CardComponents/CardContent.js';
 import CardBanner from './CardBanner.js';
 
 const CardContainer = () => {
-  return <div className="card-container">
-                <CardBanner />
+  return <div onClick={()=> window.open("https://www.reactjs.org", "_blank")} className="card-container">
+            <CardBanner />
             <CardContent />
           </div>;
 };

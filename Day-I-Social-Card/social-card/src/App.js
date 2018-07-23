@@ -5,11 +5,12 @@ import HeaderContainer from './components/HeaderComponents/HeaderContainer.js';
 
 const App = () => {
   return (
-    <div class='app-container'>
+    <div className='app-container'>
       <HeaderContainer />
       <CardContainer />
     </div>
   );
 };
+
 
 export default App;
