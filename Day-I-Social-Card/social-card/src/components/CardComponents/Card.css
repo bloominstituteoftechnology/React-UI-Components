@@ -13,10 +13,22 @@
 }
 
 .banner-bottom {
-    padding: 0 10px;
+    padding: 3px 10px;
     font-size: 0.9rem;
 }
 
 .banner-content-title {
     font-weight: bold;
+}
+
+.link {
+    text-decoration: none;
+    color: darkgray;
+}
+
+.time-stamp {
+    font-size: 0.8rem;
+    color: darkgray;
+    padding: 0 10px;
+    font-weight: normal;
 }
