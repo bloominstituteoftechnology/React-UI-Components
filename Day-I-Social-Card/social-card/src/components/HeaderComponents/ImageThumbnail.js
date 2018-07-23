@@ -3,7 +3,9 @@ import './Header.css';
 
 const ImageThumbnail = () => {
     return (
-        <div className="imageThumbnail"></div>
+        <div className="imageThumbnail">
+            <img src="/Day-I-Social-Card/design-files/image_thumbnail.jpg" alt="thumbnail" />
+        </div>
     )
 }
 
