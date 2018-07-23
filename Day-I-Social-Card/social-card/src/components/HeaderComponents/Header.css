@@ -1,1 +1,14 @@
 /* All styles for your header Components live here */
+
+.header {
+    border: 1px solid red;
+    width: 500px;
+    height: 300px;
+}
+
+.logo {
+    background-image: url('https://ibin.co/3whrpKSBbZ81.png');
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+}
