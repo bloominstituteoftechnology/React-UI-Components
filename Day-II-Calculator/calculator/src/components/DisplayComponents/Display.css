@@ -1,0 +1,159 @@
+/* All styles for your header Components live here */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+    font-size: 100%;
+    
+    font: inherit;
+    font-family: 'Roboto', sans-serif;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/********************************/
+
+* {
+    box-sizing: border-box;
+  }
+
+  /***************************/
+
+  .app-container {
+      max-width:456px;
+      max-height:598px;
+      display:flex;
+      flex-direction:column;
+      border: 1px solid darkgrey;
+      z-index:1000;
+  }
+
+  .calculator-display-container {
+      width: 100%;
+      border: 1px solid darkgrey;
+      display:flex;
+      justify-content: flex-end;
+      align-items: center;
+      background-color:black;
+      color:white;
+      height:128px;
+  }
+
+  .calculator-display-style {
+      font-size:70px;
+      padding-right:13px;
+  }
+
+  .clear-and-numbers-and-operators-container {
+      width:100%;
+      display:flex;
+      /* border:0.5px solid greenyellow; */
+  }
+
+  .clear-and-numbers-container {
+      width:75%;
+      /* border:0.5px solid red; */
+  }
+
+  .clear-button-container {
+      width:100%;
+      /* border:0.5px solid blue; */
+      display:flex;
+      justify-content: center;
+      align-items: center;
+      height:94px;
+      font-size:50px;
+      border: 1px solid darkgray;
+  }
+
+  .non-zero-numbers-container {
+      width:100%; 
+      /* border:0.5px solid darkviolet; */
+      display:flex;
+      flex-wrap:wrap;
+  }
+
+  .non-zero-number-button-style {
+      /* border:0.5px solid orchid; */
+      font-weight: bold;
+      width: 33.3333333%;
+      display:flex;
+      justify-content: center;
+      align-items: center;
+      height:94px;
+      border: 1px solid darkgrey;
+      font-size:45px;
+  }
+
+  .zero-number-container {
+      width:100%;
+      /* border:0.5px solid slateblue; */
+      display:flex;
+      justify-content: center;
+      align-items: center;
+      height:94px;
+      border: 1px solid darkgrey;
+      border-bottom:2px solid darkgray;
+  }
+
+  .zero-number-button-style {
+    font-weight: bold;
+    font-size:45px;
+  }
+
+  .operators-container {
+      width:25%;
+      display:flex;
+      flex-direction: column;
+  }
+
+  .operator-button-style {
+      width:100%; 
+      background-color: darkred;
+      color:white;
+      display:flex;
+      justify-content: center;
+      align-items: center;
+      height:94.5px;
+      font-size:60px;
+      border: 1px solid darkgray;
+  }
