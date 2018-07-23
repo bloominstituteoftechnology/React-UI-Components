@@ -25,18 +25,19 @@
 .header-title .title{
     padding-right: 5px;
     padding-left: 5px;
-    padding-bottom: 5px;
     
 }
 
 .header-title .handle{
     color: gray;
+    padding-top: 10px;
     padding-right: 5px;
     padding-left: 5px;
 }
 
 .header-title .time{
     color: gray;
+    padding-top: 10px;
     padding-right: 5px;
     padding-left: 5px;
 }
