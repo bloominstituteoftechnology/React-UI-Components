@@ -1,5 +1,7 @@
 import React from 'react';
 import './App.css';
+import cardContainer from './components/CardComponents/CardContainer';
+import headerContainer from "./components/HeaderComponents/HeaderContainer"
 
 const App = () => {
   return (
@@ -15,6 +17,7 @@ const App = () => {
         <strong>
           Don't forget to `default export` your components and import them here
           inside of this file in order to make them work.
+          <cardContainer />
         </strong>
       </p>
     </div>
