@@ -1,1 +1,35 @@
 /* All styles for your header Components live here */
+.header-container {
+    display: flex;
+    width: 600px;
+}
+
+.thumbnail-img {
+    width: 80px;
+    height: 80px;
+    background-color: black;
+    border-radius: 30px;
+
+}
+
+.header-title {
+    margin-left: 15px;
+    margin-top: 10px;
+   
+}
+
+.header-content {
+   
+}
+.header-title  {
+    font-weight: bold;
+
+}
+
+.header-title span {
+    font-weight: lighter;
+    font-size: 12px;
+}
+
+
+
