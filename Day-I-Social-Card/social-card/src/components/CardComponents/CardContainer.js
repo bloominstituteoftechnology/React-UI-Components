@@ -5,11 +5,13 @@ import Banner from './CardBanner';
 
 const CardContainer = () => {
   return (
-    <div className = 'container'>
+    <div className = 'container' onclick = "window.location.href='https://reactjs.org'">
     <Banner />
     <CardContent />
+    </div>
 
-    </div>)
+
+  )
 };
 
 export default CardContainer;
