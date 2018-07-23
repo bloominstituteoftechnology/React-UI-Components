@@ -1,1 +1,14 @@
 /* All styles for your Card Components live here */
+.container{
+    height: 500px;
+    width: 400px;
+    border: 1px solid black;
+}
+
+.banner-image{
+    width: 60%;
+}
+
+.content{
+    width: 400px;
+}
