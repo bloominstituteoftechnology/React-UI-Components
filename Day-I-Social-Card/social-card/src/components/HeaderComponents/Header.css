@@ -1,1 +1,4 @@
 /* All styles for your header Components live here */
+.header-container-wrapper {
+    border: 1px solid salmon;
+}
