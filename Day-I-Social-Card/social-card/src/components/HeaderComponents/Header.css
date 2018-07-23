@@ -19,6 +19,10 @@
     border: 1px solid black;
 }
 
+.custom-header-title .custom-span {
+    color:lightgray;
+}
+
 .custom-header-content {
     border: 1px solid orange;
 }

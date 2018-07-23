@@ -1,6 +1,11 @@
 /* All styles for your Card Components live here */
 .card-container {
     height: 500px;
-    width: 400px;
+    width: 550px;
     border: 1px solid blue;
+
+}
+
+.custom-card-img {
+    width: 100%;
 }
