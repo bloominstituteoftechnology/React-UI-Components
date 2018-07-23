@@ -19,3 +19,7 @@
     color: gray;
     margin-left: 6px;
 }
+
+.flip{
+    transform: rotateY(180deg);
+}
