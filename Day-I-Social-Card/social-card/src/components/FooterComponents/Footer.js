@@ -22,10 +22,11 @@ import './Footer.css';
 class Footer extends React.Component {
     constructor(props){
         super(props);
-        this.state = {sync: 0, like:0, comment:0}
+        this.state = {sync: 0, like:0, comment:0, message:0}
         this.handleSyncClick = this.handleSyncClick.bind(this); 
         this.handleLickClick = this.handleLikeClick.bind(this);
         this.handleCommentClick = this.handleCommentClick.bind(this);
+        this.handleMessageClick = this.handleMessageClick.bind(this); 
     }
 
     handleSyncClick() {
@@ -49,13 +50,20 @@ class Footer extends React.Component {
         
     }
 
+    handleMessageClick() {
+        this.state.message ++;
+        alert("Message sent");
+        this.forceUpdate(); 
+    }
+
+
     render(){
         return (
             <div className="footer">
                 <i onClick = {this.handleCommentClick} className="far fa-comment">  {this.state.comment}</i>
                 <i onClick={this.handleSyncClick} className="fas fa-sync">  {this.state.sync}</i>
                 <i onClick={this.handleLickClick}className="far fa-heart">  {this.state.like}</i>
-                <i className="far fa-envelope"></i>
+                <i onClick={this.handleMessageClick}className="far fa-envelope">  {this.state.message}</i>
             </div>
             );
     }
