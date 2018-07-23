@@ -1,1 +1,10 @@
 /* All styles for your Card Components live here */
+.CardBannerImg{
+    background-image: url("https://ibin.co/3wnC6SgIOJud.png");
+     width: 100%;
+    height: 300px; 
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}

@@ -1,1 +1,28 @@
 /* All styles for your header Components live here */
+.header{
+    display:flex;
+
+}
+
+.headerTitle{
+    display:flex;
+    align-items: flex-end;
+    margin: 10px 0 0 0;
+
+
+}
+.titleBold{
+    font-weight: bold;
+    margin: 0 10px 0 0;
+}
+
+.userName{
+    opacity: .6;
+    font-size: 12px;
+}
+
+.date{
+    opacity: .6;
+    font-size: 12px;
+    margin: 0 0 0 15px;
+}
