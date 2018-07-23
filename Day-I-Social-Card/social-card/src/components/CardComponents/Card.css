@@ -1,1 +1,14 @@
 /* All styles for your Card Components live here */
+
+.card-container{
+  border: 1px solid green;
+  padding-left: 60px;
+}
+
+.card-container .card-banner{
+  height: 250px;
+  width: 500px;
+  background: url('https://ibin.co/3wnC6SgIOJud.png');
+  background-size: cover;
+  border-radius: 5px;
+}

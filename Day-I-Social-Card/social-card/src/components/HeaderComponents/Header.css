@@ -1,1 +1,30 @@
 /* All styles for your header Components live here */
+.header-container {
+  width: 590px;
+  height: 110px;
+}
+
+.header-container .header-img{
+  width: 50px;
+  display: inline-block;
+  border-radius: 50%;
+}
+
+.header-container .header-img img{
+  width: 100%;
+  height: auto;
+}
+
+.header-container .header-text{
+  display: inline-block;
+  width: 540px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.header-container .header-text .header-title {
+}
+
+.header-container .header-text p{
+  margin: 0;
+}
