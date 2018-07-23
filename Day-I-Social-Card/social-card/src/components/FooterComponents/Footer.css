@@ -1,0 +1,13 @@
+.footer {
+    margin-left: 62px; 
+    margin-top: 14px; 
+}
+.footer i {
+    margin-right:64px; 
+}
+
+.fas:hover, .far:hover{
+    cursor:pointer;
+}
+
+

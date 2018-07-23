@@ -4,7 +4,7 @@ import './Card.css';
 
 
 const CardBanner = () => {
-    return <img src="https://ibin.co/3wnC6SgIOJud.png" alt="React Logo with black background"/>;
+    return <img id = "cardBanner" src="https://ibin.co/3wnC6SgIOJud.png" alt="React Logo with black background"/>;
 }
 
 export default CardBanner; 

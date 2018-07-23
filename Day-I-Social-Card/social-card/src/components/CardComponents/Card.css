@@ -1,1 +1,39 @@
 /* All styles for your Card Components live here */
+.cardContainer {
+    max-width: 590px;
+    height: 359px; 
+    
+}
+
+.cardContainer img {
+    width: 504px;
+    max-width: 100%;
+    margin-left: 62px; 
+    height: 252px; 
+    margin-top:11px;
+} 
+.cardContainer img:hover {
+    cursor:pointer;
+}
+
+.cardContent {
+    margin-left:76px;
+}
+
+.cardContent h3 {
+    margin-top: 7px;
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+.cardContainer p {
+    margin-top: 7px;
+    font-size: 14px;
+    padding-right: 35px;
+    margin-bottom: 0px; 
+}
+
+.cardContainer h5 {
+    margin-top: 7px;
+    margin-bottom: 14px;
+}
+
