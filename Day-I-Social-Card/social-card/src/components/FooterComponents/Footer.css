@@ -1,0 +1,10 @@
+.foot {
+    width: 100%;
+}
+
+i {
+    color: lightslategray;
+    font-size: 150%;
+    display: flex;
+    margin: 3% 0 5% 10.5%;
+}
