@@ -1,14 +1,40 @@
 /* All styles for your header Components live here */
 
-.header {
+.headerContainer {
     border: 1px solid red;
-    width: 500px;
-    height: 300px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding: 5px;
+}
+
+.headerContent {
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+    
+
+}
+
+.headerContent h1 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.headerContent .date{
+    font-size: 14px;
+    color: grey;
+}
+
+.headerContent p {
+    margin-top: 10px;
 }
 
 .logo {
     background-image: url('https://ibin.co/3whrpKSBbZ81.png');
-    height: 200px;
-    width: 200px;
+    height: 50px;
+    width: 50px;
     background-size: cover;
+    
 }
+
