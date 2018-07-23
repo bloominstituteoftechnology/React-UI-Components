@@ -1,1 +1,29 @@
 /* All styles for your header Components live here */
+.header-container h1{
+    font-size: 14px;
+}
+.header-container p{
+    font-size: 14px;
+}
+.header-container{
+    max-width: 590px;
+    width: 100%;
+    height: 100px;
+    position: relative;
+}
+.header-container .logo{
+    height: 50%;
+    position: absolute;
+    top: 15px;
+    left: 11px;
+}
+.header-container .header-title{
+    margin-left: 70px;
+    display: flex;
+    padding: 15px 0 5px;
+}
+.header-container .header-content{
+    margin-left: 70px;
+    padding-top: 5px;
+    line-height: 1.2;
+}
