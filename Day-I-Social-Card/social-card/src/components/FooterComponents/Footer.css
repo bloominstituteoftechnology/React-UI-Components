@@ -1,0 +1,21 @@
+.footer {
+  display: flex;
+  height: 17px;
+  margin-top: 20px;
+  margin-left: 68px;
+}
+.footer-icon {
+  display: flex;
+  justify-content: flex-start;
+  width: 80px;
+}
+
+.icon {
+  width: 20px;
+}
+
+.count {
+  padding-left: 10px;
+  padding-top: 3px;
+  font-size: 12px;
+}
