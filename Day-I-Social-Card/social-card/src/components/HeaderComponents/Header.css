@@ -1,14 +1,12 @@
 /* All styles for your header Components live here */
 
 .custom-header-container {
-    border: 1px solid red;
     width: 600px;
     height: 100px;
     display: flex;
 }
 
 .custom-header-img{
-    border: 1px solid green;
     height: 50px;
     width: 50px;
     display: block;
@@ -16,7 +14,7 @@
 }
 
 .custom-header-title {
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .custom-header-title .custom-span {
@@ -24,6 +22,6 @@
 }
 
 .custom-header-content {
-    border: 1px solid orange;
+    /* border: 1px solid orange; */
 }
 
