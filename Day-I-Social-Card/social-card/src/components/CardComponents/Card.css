@@ -1,1 +1,8 @@
 /* All styles for your Card Components live here */
+.card-wrapper {
+    padding-left: 50px;
+}
+
+.banner {
+    width: 100%;
+}

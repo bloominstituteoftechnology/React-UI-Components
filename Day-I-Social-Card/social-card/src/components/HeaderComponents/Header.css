@@ -20,3 +20,9 @@
 .header-content p {
     font-size: 18px;
 }
+
+.header-wrapper {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    display: flex;
+}
