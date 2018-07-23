@@ -1,16 +1,18 @@
 /* All styles for your header Components live here */
 
 .headerContainer {
-    border: 1px solid red;
+    border: 1px solid lightgray;
+    border-radius: 5px;
     width: 100%;
     height: auto;
     display: flex;
     padding: 5px;
+    margin-top: 10px;
 }
 
 .headerContent {
     width: 100%;
-    margin: 5px;
+    margin: 0 5px 5px 5px;
     padding: 5px;
     
 
