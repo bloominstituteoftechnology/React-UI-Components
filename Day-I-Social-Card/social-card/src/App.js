@@ -1,5 +1,7 @@
 import React from 'react';
 import './App.css';
+import HeaderContainer from './components';
+import CardContainer from './components';
 
 const App = () => {
   return (
