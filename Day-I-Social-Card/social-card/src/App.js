@@ -6,7 +6,7 @@ import HeaderContainer from './components/HeaderComponents/HeaderContainer';
 
 const App = () => {
   return (
-    <div onClick ={handleClick}className ="socialApp">
+    <div className ="socialApp">
     
       <HeaderContainer /> 
       <CardContainer />
@@ -17,9 +17,9 @@ const App = () => {
 };
 
 
-function handleClick () {
-  window.open('https://www.reactjs.org');
-}
+
+
+
 
 export default App;
 

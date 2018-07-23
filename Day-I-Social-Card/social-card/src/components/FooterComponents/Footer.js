@@ -3,21 +3,30 @@ import ReactDom from 'react-dom';
 import './Footer.css';
 
 
+ 
 
-
-const Footer = () => {
+const Footer = () => { 
+    let comment = 0;
+    let sync = 0; 
     return (
     <div className="footer">
-        <i onClick ={handleCommentClick}className="far fa-comment"></i>
-        <i className="fas fa-sync"></i>
+        <i onClick ={handleCommentClick(comment)}className="far fa-comment">{comment}</i>
+        <i onClick={handleSyncClick(sync)} className="fas fa-sync">{sync}</i>
         <i className="far fa-heart"></i>
         <i className="far fa-envelope"></i>
     </div>
     );
 }
 
-function handleCommentClick () {
-    prompt('enter your comment');
+function handleCommentClick (comment) {
+    let answer = prompt('enter your comment');
+    if (answer){
+        return comment++;
+    }
+}
+
+function handleSyncClick(sync) {
+    return sync+=1
 }
 
 export default Footer; 
