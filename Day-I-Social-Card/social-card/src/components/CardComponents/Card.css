@@ -4,13 +4,18 @@
 }
 
 .CardContentTitle {
+    margin: 0;
     font-weight: bold;
 }
 
 .CardContentBody {
-    background: black;
+    margin: 0;
 }
 
 .CardBanner {
+    height: 16rem;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: fixed;
     background-image: url('https://ibin.co/3wnC6SgIOJud.png');
 }

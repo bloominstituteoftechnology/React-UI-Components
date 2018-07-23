@@ -3,6 +3,7 @@
   IF you'd like to attempt to use less you'll have to research how to do this with Create React App
 */
 .main {
+  display: block;
   position: absolute;
   top: 30%;
   left: 40%;

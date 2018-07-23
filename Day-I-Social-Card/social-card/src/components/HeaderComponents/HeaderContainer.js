@@ -4,9 +4,9 @@ import HeaderContent from './HeaderContent';
 import ImageThumbnail from './ImageThumbnail'
 import './Header.css';
 
-const headerContainer = () => {
+const headerContainer = (props) => {
     return (
-        <div>
+        <div className="Header">
             <ImageThumbnail />
             <HeaderTitle />
             <HeaderContent />
