@@ -3,6 +3,7 @@
 	margin-top: 10px;
 	display: flex;
 	color:grey;
+	user-select: none;
 }
 
 .footer i {
