@@ -6,6 +6,11 @@
     border-radius: 5px;
 }
 
+.cardContainer__link{
+    text-decoration: none;
+    color: black;
+}
+
 .card__banner{
     max-width: 100%;
     height: auto;
@@ -14,7 +19,6 @@
 .card__content{
     padding: 10px;
 }
-
 .card__content--bold{
     font-weight: bold;
 }
