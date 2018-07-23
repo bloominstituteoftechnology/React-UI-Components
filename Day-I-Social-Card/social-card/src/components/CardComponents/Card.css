@@ -1,5 +1,9 @@
 /* All styles for your Card Components live here */
 
+.link-container {
+  text-decoration: none;
+}
+
 .card-container {
   height: 355px;
   width: 505px;
