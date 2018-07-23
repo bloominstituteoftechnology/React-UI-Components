@@ -22,17 +22,19 @@ import './Footer.css';
 class Footer extends React.Component {
     constructor(props){
         super(props);
-        this.state = {comment:0, sync: 0}
+        this.state = {sync: 0}
         this.handleSyncClick = this.handleSyncClick.bind(this); 
     }
     handleSyncClick() {
-        return this.setState.sync = this.state.sync + 1; 
+        let syncCount = this.state.sync +1;
+        console.log(syncCount);  
+        this.setState({sync : syncCount});  
     }
     render(){
         return (
             <div className="footer">
-                <i onClick ={prompt('enter comment')}className="far fa-comment">{this.state.comment}</i>
-                <i onClick={this.handleSyncClick()} className="fas fa-sync">{this.state.sync}</i>
+                <i className="far fa-comment">{this.state.comment}</i>
+                <i onClick={this.handleSyncClick} className="fas fa-sync">{this.state.sync}</i>
                 <i className="far fa-heart"></i>
                 <i className="far fa-envelope"></i>
             </div>
