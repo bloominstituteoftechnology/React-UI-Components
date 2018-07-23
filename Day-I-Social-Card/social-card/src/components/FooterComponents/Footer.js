@@ -42,9 +42,11 @@ class Footer extends React.Component {
     handleCommentClick(){
         let answer = prompt("enter comment");
         answer;
-        this.state.comment ++;
-        this.forceUpdate(); 
-
+        if(answer.length > 5){
+            this.state.comment ++;
+            this.forceUpdate(); 
+        }
+        
     }
 
     render(){
