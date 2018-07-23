@@ -1,1 +1,19 @@
 /* All styles for your Card Components live here */
+
+
+.card-container .card-banner img{
+    width: 80%;
+    margin-left: 125px;
+    margin-right: 5px;
+}
+
+.card-container .card-content{
+    margin-left: 125px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+
+.card-container .card-content a{
+    text-decoration: none;
+    color: grey;
+}

@@ -5,20 +5,14 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    border: 1px solid red;
 }
 
 .image-thumbnail{
-    border: 1px solid green;
-    height: 120px;
-    width: auto;
-    margin-top: 20px;
+    height: 100px;
+    width: 100px;
+    margin-top: 12px;
     margin-left: 10px;
     margin-right: 10px;
-}
-
-.header-title-content{
-    border: 1px solid lightblue;
 }
 
 .header-title{
