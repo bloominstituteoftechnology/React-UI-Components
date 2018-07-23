@@ -1,1 +1,8 @@
 /* All styles for your header Components live here */
+img {
+    border-radius: 50%;
+    /* 
+        background: rgb(147,29,37);
+        background-blend-mode: overlay;
+    */
+}
