@@ -1,1 +1,28 @@
 /* All styles for your header Components live here */
+
+
+.header-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 1px solid red;
+}
+
+.image-thumbnail{
+    border: 1px solid red;
+    height: 150px;
+    width: auto;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.header-title{
+    padding: 20px;
+}
+
+
+
+.header-content{
+    padding: 20px;
+
+}
