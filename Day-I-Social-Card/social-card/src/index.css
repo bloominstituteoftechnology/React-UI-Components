@@ -3,3 +3,13 @@ body {
   padding: 0.4rem;
   font-family: sans-serif;
 }
+
+.card {
+  display: flex;
+  flex-direction: column;
+  border: solid black;
+  background-color: #ffffff;
+  box-shadow: black;
+  max-width: 50%;
+  max-height: 50%;  
+}
