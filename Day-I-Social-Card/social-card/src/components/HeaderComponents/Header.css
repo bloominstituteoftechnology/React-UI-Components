@@ -9,20 +9,44 @@
 }
 
 .image-thumbnail{
-    border: 1px solid red;
-    height: 150px;
+    border: 1px solid green;
+    height: 120px;
     width: auto;
     margin-top: 20px;
     margin-left: 10px;
+    margin-right: 10px;
+}
+
+.header-title-content{
+    border: 1px solid lightblue;
 }
 
 .header-title{
-    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
+.header-title .title{
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    
+}
 
+.header-title .handle{
+    color: gray;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.header-title .time{
+    color: gray;
+    padding-right: 5px;
+    padding-left: 5px;
+}
 
 .header-content{
-    padding: 20px;
-
+    padding-left: 5px;
 }
