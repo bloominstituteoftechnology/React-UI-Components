@@ -1,1 +1,7 @@
 /* All styles for your header Components live here */
+.container-header {
+height: 100px;
+width: 100px;
+border: 1px solid red;
+}
+
