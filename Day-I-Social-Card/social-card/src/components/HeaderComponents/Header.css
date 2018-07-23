@@ -29,6 +29,8 @@
 
 .header-title span {
   padding: 0 1rem;
+  font-size: 12px;
+  opacity: .7;
 }
 
 .header-title-wrapper {
