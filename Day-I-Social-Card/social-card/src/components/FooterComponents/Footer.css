@@ -2,10 +2,10 @@
 	margin-left: 10%;
 	margin-top: 10px;
 	display: flex;
+	color:grey;
 }
 
 .footer i {
-	color: grey;
 	margin-right: 10px;
 	cursor: pointer;
 }

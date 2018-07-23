@@ -30,3 +30,7 @@
 .headerContent {
 	width: 100%
 }
+
+.headerTitle .date {
+	color: grey;
+}
