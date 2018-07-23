@@ -1,1 +1,10 @@
 /* All styles for your Card Components live here */
+.card-container {
+    border: 1px solid red;
+}
+
+.Banner-img {
+    margin-left: 75px;
+    width: 520px;    
+}
+
