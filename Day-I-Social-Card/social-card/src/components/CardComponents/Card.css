@@ -1,6 +1,14 @@
 /* All styles for your Card Components live here */
-.container-wrapper {
+.card-wrapper {
   height: 500px;
   width: 400px;
   border: 1px solid black;
+}
+
+.card-banner-img {
+  background-image: url('https://ibin.co/3wnC6SgIOJud.png');
+  height: 200px;
+  width: auto;
+  background-size:  cover;
+  background-repeat: no-repeat;
 }
