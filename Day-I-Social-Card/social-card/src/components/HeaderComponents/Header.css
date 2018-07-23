@@ -1,10 +1,10 @@
 /* All styles for your header Components live here */
 .container-header {
-/* height: 100px; */
-/* width: 100%; */
-border: 1px solid red;
-justify-content: center;
+display:flex;
+width: 100%; 
+justify-content: space-between;
 margin-top:10px;
+padding:0 2%;
 
 }
 
@@ -19,6 +19,6 @@ font-size:1.6rem;
     /* display: block; */
 }
 
-.content-header {
+/* .content-header {
 left:0;  
-}
+} */
