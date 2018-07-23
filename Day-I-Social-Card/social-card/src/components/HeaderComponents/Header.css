@@ -1,1 +1,8 @@
 /* All styles for your header Components live here */
+
+.custom-header-container {
+    border: 1px solid red;
+    width: 600px;
+    height: 100px;
+}
+

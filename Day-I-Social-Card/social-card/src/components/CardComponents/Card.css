@@ -1,6 +1,6 @@
 /* All styles for your Card Components live here */
-.container {
+.card-container {
     height: 500px;
     width: 400px;
-    border: 1px solid black;
+    border: 1px solid blue;
 }
