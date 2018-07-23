@@ -1,1 +1,28 @@
 /* All styles for your Card Components live here */
+.container-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    float: right;
+    width: 90%;
+    border: 1px solid lightgray;
+}
+
+.image-container .img-banner{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.card-content {
+    padding: 15px 15px;
+}
+
+.card-content .mid-title {
+    margin-top: 0;
+}
+
+.card-content .react-website {
+    text-decoration: none;
+    color: #899AA5;
+    font-weight: lighter;
+}
