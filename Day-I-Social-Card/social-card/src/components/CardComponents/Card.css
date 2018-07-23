@@ -1,7 +1,7 @@
 /* All styles for your Card Components live here */
 .cardContainer{
     max-width: 100%;
-    margin-left: 10%;
+    margin-left: 12%;
     border: 1px solid lightgray;
     border-radius: 5px;
 }

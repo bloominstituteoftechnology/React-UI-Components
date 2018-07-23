@@ -1,0 +1,21 @@
+.footerContainer{
+    margin-left: 12%;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 1.2rem;
+}
+
+.footerContainer__icon:not(:first-child){
+    margin-left: 40px;
+}
+
+.footerContainer__icon{
+    text-decoration: none;
+    color: gray;
+}
+
+.footerContainer__numbers{
+    color: gray;
+    margin-left: 6px;
+}
