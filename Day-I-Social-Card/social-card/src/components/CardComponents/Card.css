@@ -1,9 +1,11 @@
 /* All styles for your Card Components live here */
 .container-card {
 height:500px;
-width: 400px;
+width: 700px;
 border: 1px solid black;
+
 }
 
-
-
+.banner {
+    width: 90%;
+}
