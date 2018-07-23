@@ -1,9 +1,13 @@
 /* All styles for your header Components live here */
 .top-container {
-    width: 90%;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     float: right;
+}
+
+.logo-div .lambda-logo {
+    border: 1px solid green;
 }
 
 .title-div {
@@ -37,3 +41,4 @@
     margin: 0 5px 15px 0;
     line-height: 1.3;
 }
+
