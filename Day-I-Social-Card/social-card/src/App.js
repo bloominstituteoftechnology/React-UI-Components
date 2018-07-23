@@ -9,8 +9,11 @@ const App = () => {
 
   return (
     <div className="main-container">
+
+
       <HeaderContainer />
-      <a href="http://www.reactjs.org"><CardContainer /></a>
+      <a className="card-link" href="http://www.reactjs.org"><CardContainer /></a>
+
     </div>
   );
 }

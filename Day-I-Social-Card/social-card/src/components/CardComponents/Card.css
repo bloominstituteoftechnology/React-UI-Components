@@ -16,16 +16,23 @@
 
 .card-content{
     padding-left: 5%;
+    
 }
 
 .card-content h1{
     font-size: 14px;
+    color: black;
 }
 
-.card-content p{
+.card-content{
     font-size: 14px;
+    color: black;
 }
 
 .faded-content{
     color: lightgray;
+}
+
+.card-link{
+    text-decoration: none;
 }
