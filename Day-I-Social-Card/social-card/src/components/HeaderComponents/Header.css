@@ -4,5 +4,14 @@
     border: 1px solid red;
     width: 600px;
     height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.custom-header-img{
+    border: 1px solid green;
+    height: 50px;
+    width: 50px;
+ 
 }
 
