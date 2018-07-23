@@ -5,11 +5,21 @@
     width: 600px; 
     height: 350px;
     display: flex; 
-    justify-content: flex-end; 
+    flex-direction: column;  
+}
+.card-items{
+    position: absolute; 
+    left:55px; 
 }
 
 .banner-img{
     width: 550px; 
     height:250px; 
     border-radius: 5px; 
+ 
+}
+.below-content{
+    border: 1px solid lightcoral; 
+    width: 550px; 
+
 }
