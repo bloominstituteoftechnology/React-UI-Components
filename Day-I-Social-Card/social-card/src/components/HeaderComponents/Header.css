@@ -1,14 +1,9 @@
 /* All styles for your header Components live here */
 .thumbnail {
-    border-radius: 50%;
-    /* 
-        background: rgb(147,29,37);
-        background-blend-mode: overlay;
-    */
     transform: scale(.35);
     position: absolute;
-    left: 137.5px;
-    top: -40px;
+    left: -100px;
+    top: -45px;
 }
 
 .headerTitle {

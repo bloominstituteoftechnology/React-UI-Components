@@ -4,6 +4,7 @@
 */
 
 .appContainer {
-  width: 50%;
+  width: 505px;
   margin: 0 auto;
+  position: relative;
 }

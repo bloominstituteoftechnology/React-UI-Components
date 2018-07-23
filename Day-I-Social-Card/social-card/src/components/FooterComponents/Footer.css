@@ -1,12 +1,16 @@
+footer {
+    margin-top: 20px;
+}
+
 footer hr {
-    color: lightgray;
+    color: gray;
 }
 
 .footer {
-    margin-top: 20px;
     display: flex;
-    justify-content: space-between;
-    width: 55%;
+    justify-content: space-around;
+    width: 505px;
+    margin: 0 auto;
 }
 
 footer .stats-num {

@@ -9,16 +9,16 @@ const Footer = () => {
     return (
         <footer>
             <div className="footer">
-                <span onClick={onClickComment}>
+                <span className="icon" onClick={onClickComment}>
                     <i className="far fa-comment"></i>
                 </span>
-                <span onClick={onClickRepost}>
+                <span className="icon" onClick={onClickRepost}>
                     <i className="fas fa-sync"></i> &nbsp; <span className="stats-num">6</span>
                 </span>
-                <span onClick={onClickFav}>
+                <span className="icon" onClick={onClickFav}>
                     <i className="far fa-heart"></i> &nbsp; <span className="stats-num">4</span>
                 </span>
-                <span onClick={onClickMail}>
+                <span className="icon" onClick={onClickMail}>
                     <i className="far fa-envelope"></i>
                 </span>
             </div>
