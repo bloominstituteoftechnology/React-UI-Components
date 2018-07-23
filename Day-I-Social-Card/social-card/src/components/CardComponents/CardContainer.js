@@ -4,10 +4,10 @@ import CardBanner from './CardBanner';
 import CardContent from './CardContent';
 
 const CardContainer = () => {
-    return <a href='https://reactjs.org/' target="_blank" className='custom-card-img'><div className="card-container">
+    return <a href='https://reactjs.org/' target="_blank" className="card-container">
     <CardBanner />
     <CardContent />
-    </div></a>;
+    </a>;
 }
 
 // const card = document.querySelector('.card-container');

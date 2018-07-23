@@ -5,7 +5,8 @@
 
 
 .outer-wrapper{
-  width: 600px;
+  width: 100%;
+  max-width: 600px;
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-end;
