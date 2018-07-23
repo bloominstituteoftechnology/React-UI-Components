@@ -1,1 +1,32 @@
-/* All styles for your header Components live here */
+.header {
+  display: flex;
+}
+
+.header-title {
+  display: flex;
+  align-items: flex-end;
+  margin-top: 30px;
+}
+
+.header-title h2 {
+  font-size: 18px;
+  margin: 0;
+}
+
+.header-title span {
+  margin-left: 5px;
+  color: gray;
+  font-size: 16px; 
+}
+
+.header-content {
+  color: black;
+  margin-left: 20px; 
+  font-size: 16px; 
+}
+
+.image-thumbnail {
+  margin-top: 20px;
+  width: 70px;
+  height: 80px;
+}
