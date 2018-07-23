@@ -4,7 +4,7 @@ import './App.css';
 const App = () => {
   return (
     <div>
-      <h3>Welcome to React Social Card!</h3>
+      <h3>I need to put some components here</h3>
       <p>
         Begin by exploring the `components` directory. You'll notice we have a
         few files that we've already included in there to get you started right
