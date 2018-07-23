@@ -3,7 +3,8 @@
     margin-top: 14px; 
 }
 .footer i {
-    margin-right:64px; 
+    margin-right:64px;
+    color:#CDD3D9; 
 }
 
 .fas:hover, .far:hover{
