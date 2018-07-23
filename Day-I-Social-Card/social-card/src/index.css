@@ -3,3 +3,10 @@ body {
   padding: 0.4rem;
   font-family: sans-serif;
 }
+
+.app {
+  display: flex;
+  flex-flow: column;
+  width: 700px;
+  height: 600px;
+}
