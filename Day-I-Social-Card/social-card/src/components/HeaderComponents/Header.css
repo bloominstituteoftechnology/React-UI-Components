@@ -1,1 +1,29 @@
 /* All styles for your header Components live here */
+.container{
+    display: flex;
+
+    border: 5px solid black;
+    height: 150px; 
+    max-width: 1000px;
+}
+
+.logo{
+    border: 3px solid blue;
+   
+}
+
+.header-title{
+    display: flex;
+    align-items: center;
+}
+.main-title{
+    font-size: 14px;
+}
+
+.faded-title{
+    font-size: 12px;
+    color: lightgray;
+    padding-left: 10px;
+
+}
+
