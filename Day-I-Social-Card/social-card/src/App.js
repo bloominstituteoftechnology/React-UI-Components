@@ -5,7 +5,7 @@ import { CardContainer } from "../src/components/CardComponents/CardContainer";
 
 const App = () => {
   return (
-    <div class = "SMCard">
+    <div className = "SMCard">
     <HeaderContainer />
     <CardContainer />
     </div>
