@@ -4,9 +4,9 @@ import './Card.css';
 const CardContent = () => {
     return (
         <div className="cardContent">
-            <h2>Get started with React</h2>
+            <h4>Get started with React</h4>
             <p>
-                React makes it painless ot create interactive UIs. 
+                React makes it painless to create interactive UIs. 
                 Design simple views for each state in your application.
             </p>
             <a href="https://www.reactjs.org">reactjs.org</a>

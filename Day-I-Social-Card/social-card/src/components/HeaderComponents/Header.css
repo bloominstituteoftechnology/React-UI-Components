@@ -1,8 +1,28 @@
 /* All styles for your header Components live here */
-img {
+.thumbnail {
     border-radius: 50%;
     /* 
         background: rgb(147,29,37);
         background-blend-mode: overlay;
     */
+    transform: scale(.35);
+    position: absolute;
+    left: 137.5px;
+    top: -40px;
+}
+
+.headerTitle {
+    font-weight: 600;
+    font-size: 90%;
+}
+
+.headerInfo {
+    font-size: 75%;
+    color: gray;
+}
+
+.headerContent {
+    margin-top: 7px;
+    font-size: 87%;
+    line-height: 18px;
 }
