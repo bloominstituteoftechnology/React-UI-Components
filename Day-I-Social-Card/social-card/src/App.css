@@ -2,3 +2,20 @@
   Write your styles/CSS for App.js here and import into the component that you need 
   IF you'd like to attempt to use less you'll have to research how to do this with Create React App
 */
+.cardContainer  {
+      border: 3px solid grey; 
+  }
+
+  .cardContainer .cardBanner img {
+    width: 100%; 
+}
+
+.cardContainer .cardContent {
+  font-size: 2rem;
+  padding: 2%
+}
+
+.cardContainer .cardContent .cardContent-link {
+  text-decoration: none; 
+  color: rgb(94, 90, 90); 
+}
