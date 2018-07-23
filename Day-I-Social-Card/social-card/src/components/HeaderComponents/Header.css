@@ -1,1 +1,36 @@
 /* All styles for your header Components live here */
+.header-container {
+    /* border: 1px solid black; */
+    height: 100px;
+    width: 500px;
+    display: flex;
+}
+
+.image-thumbnail {
+    height: 58px;
+    margin-top: 5px; 
+}
+
+.header-title {
+    font-size: 14px;
+    display: flex;
+    
+    margin-bottom: 0;
+    margin-left: 8px;
+}
+
+.header-title p:first-child {
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.header-title p:last-child {
+    color: darkgrey;
+    font-size: 12px;
+}
+
+.header-content {
+    width: 500px; 
+    font-size: 14px;
+    margin: 0 0 0 8px;
+}

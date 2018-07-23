@@ -1,0 +1,24 @@
+.btn {
+    height: 96px;
+    width: 113px;
+    font-size: 44px;
+    background: white;
+}
+
+.btn:hover {
+    background: grey;
+    cursor: pointer;
+}
+
+.action-btn {
+    width: 339px;
+}
+
+.operator-action-btn {
+    background: #A0001E;
+    color: white;
+}
+
+.calc-display p {
+    margin: auto 10px;
+}
