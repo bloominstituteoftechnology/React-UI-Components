@@ -6,8 +6,8 @@ import HeaderTitle from './HeaderTitle.js'
 const HeaderContainer = () => {
     return (
         <div className="header-container">
-        <ImageThumbnail />
-        <HeaderTitle />
+            <ImageThumbnail />
+            <HeaderTitle />
         </div>
     )
 }
