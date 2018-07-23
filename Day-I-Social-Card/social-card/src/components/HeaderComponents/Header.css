@@ -5,3 +5,9 @@
   height: 500px;
   border: 1px solid red;
 }
+
+.image-thumbnail {
+  border: 1px solid green;
+  width: 100px;
+  height: 100px;
+}
