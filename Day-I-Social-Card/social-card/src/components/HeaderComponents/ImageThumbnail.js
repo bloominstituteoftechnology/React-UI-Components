@@ -4,7 +4,15 @@ import './HeaderTitle';
 import './HeaderContent';
 
 const ImageThumbnail = () => {
-    return <img class="image-thumbnail" src="https://ibin.co/3whrpKSBbZ81.png" alt="A Lambda School logo" />;
+    return (
+        <div class="thumbnail-wrapper">
+            <img 
+            class="image-thumbnail" 
+            src="https://ibin.co/3whrpKSBbZ81.png" 
+            alt="A Lambda School logo" 
+            />
+        </div>
+    );
 }
 
 export default ImageThumbnail;

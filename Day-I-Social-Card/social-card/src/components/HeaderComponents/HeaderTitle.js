@@ -1,9 +1,17 @@
 import React from 'react';
 import './Header.css';
-import ImageThumbnail from './ImageThumbnail';
+import HeaderContent from './HeaderContent';
 
 const HeaderTitle = () => {
-    return <h3 class="header-title">Lambda School @LambdaSchool 23 july</h3>;
+    return (
+        <div className="header-title-wrapper">
+            <div className="header-title">
+                Lambda School
+                {/* <span className="time-stamp">23 july</span> */}
+                <HeaderContent />
+            </div>
+        </div>
+    );
 }
 
 export default HeaderTitle;

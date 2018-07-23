@@ -1,1 +1,21 @@
 /* All styles for your header Components live here */
+
+.header-container {
+    width: 100%;
+    display: flex;
+}
+
+.image-thumbnail {
+    width: 55px;
+}
+
+.header-title{
+    font-size: 0.9rem;
+    font-weight: bold;
+    line-height: 1.0rem;
+    padding: 5px;
+}
+
+.header-content {
+    font-weight: normal;
+}
