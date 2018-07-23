@@ -9,7 +9,7 @@
   width: 505px;
   border: solid 1px #DDD;
   margin-right: 5px;
-  margin-top: 15px;
+  margin-top: 25px;
   border-radius: 5px;
 }
 
@@ -31,5 +31,5 @@
 }
 
 .card-content-link {
-  margin-top: 10px;
+  margin-top: 8px;
 }
