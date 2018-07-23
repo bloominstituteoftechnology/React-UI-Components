@@ -1,1 +1,6 @@
 /* All styles for your header Components live here */
+
+.header-container {
+    height: 50px;
+    border: 1px solid red;
+}
