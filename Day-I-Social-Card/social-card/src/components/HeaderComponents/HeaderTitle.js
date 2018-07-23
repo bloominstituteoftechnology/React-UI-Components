@@ -6,7 +6,7 @@ const HeaderTitle = () => {
 
   return(
     <div className="header-title">
-      <p>Lambda School @LambdaSchool 26 Jan</p>
+      Lambda School @LambdaSchool 26 Jan
     </div>
   );
 };

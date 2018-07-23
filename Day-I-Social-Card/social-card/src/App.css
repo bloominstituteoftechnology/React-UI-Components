@@ -6,12 +6,19 @@
   box-sizing: border-box;
 }
 
+body{
+  font-size: 62.5%;
+}
+
 .app-page{
   max-width: 880px;
   margin: 0 auto;
 }
 .app-container{
-  height: 514px;
+  height: 513px;
   width: 590px;
   border: 1px solid black;
+  margin: 0 auto;
+  padding: 15px 5px;
+  font-size: 1rem;
 }

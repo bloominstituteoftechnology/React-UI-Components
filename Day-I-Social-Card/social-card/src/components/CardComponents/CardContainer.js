@@ -8,8 +8,12 @@ const CardContainer = () => {
 
   return(
     <div className="card-container">
-      <CardBanner />
-      <CardContent />
+      <div className="border-wrapper">
+        <a href="https://www.reactjs.org">
+          <CardBanner />
+          <CardContent />
+        </a>
+      </div>
     </div>
   )
 };

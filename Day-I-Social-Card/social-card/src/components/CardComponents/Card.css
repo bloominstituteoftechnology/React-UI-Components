@@ -1,14 +1,32 @@
 /* All styles for your Card Components live here */
 
 .card-container{
-  border: 1px solid green;
   padding-left: 60px;
 }
 
-.card-container .card-banner{
-  height: 250px;
+.card-container .border-wrapper {
+  border-radius: 5px;
+  border: 1px solid lightgray;
   width: 500px;
+}
+
+.card-container .border-wrapper a {
+  text-decoration: none;
+  color: black;
+}
+
+.card-container .border-wrapper a .card-banner{
+  height: 250px;
+  width: 100%;
   background: url('https://ibin.co/3wnC6SgIOJud.png');
   background-size: cover;
-  border-radius: 5px;
+}
+
+.card-container .border-wrapper a .card-content{
+  padding-left: 15px;
+}
+
+.card-container .border-wrapper a .card-content p {
+  margin-top: 5px;
+  margin-bottom: 5px;
 }

@@ -1,7 +1,7 @@
 /* All styles for your header Components live here */
 .header-container {
   width: 590px;
-  height: 110px;
+  display: flex;
 }
 
 .header-container .header-img{
@@ -17,14 +17,12 @@
 
 .header-container .header-text{
   display: inline-block;
-  width: 540px;
-  padding-left: 10px;
-  padding-top: 10px;
+  width: 500px;
+  margin-left: 10px;
 }
 
 .header-container .header-text .header-title {
 }
 
 .header-container .header-text p{
-  margin: 0;
 }
