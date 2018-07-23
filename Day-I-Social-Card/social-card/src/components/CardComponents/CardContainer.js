@@ -4,8 +4,9 @@ import CardBanner from './CardBanner';
 import CardContent from './CardContent';
 
 const CardContainer = () => {
+    const onClick = () => window.location.href='https://reactjs.org';
     return (
-        <div className="cardContainer" onClick={() => window.location.href='https://reactjs.org'} >
+        <div className="cardContainer" onClick={onClick} >
             <CardBanner />
             <CardContent />
         </div>
