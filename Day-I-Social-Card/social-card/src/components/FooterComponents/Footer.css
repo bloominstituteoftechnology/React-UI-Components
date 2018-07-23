@@ -1,0 +1,15 @@
+.footerBar {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 505px;
+    left: 68px;
+    position: absolute;
+    top: 485px;
+    color: grey;
+    font-size: 14px;
+    align-items: center;
+}
+
+.padLeft {
+    padding-left: 55px;
+}
