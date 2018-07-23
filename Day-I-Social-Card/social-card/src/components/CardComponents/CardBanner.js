@@ -3,5 +3,5 @@ import './Card.css';
 
 
 export const CardBanner = () =>{
-    return (<div className="CardBannerImg">Test</div>);
+    return (<div className="CardBannerImg"></div>);
 }
