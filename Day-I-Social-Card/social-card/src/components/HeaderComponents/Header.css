@@ -1,17 +1,17 @@
 /* All styles for your header Components live here */
 .header {
   display: flex;
-  padding: .5rem;
-  border: 1px solid grey;
+
 }
 
 .header__image {
   flex-basis: 8.33%;
+  margin-right: .5rem;
 }
 
 .header__text {
   flex-basis: calc(100% - 8.33%);
-  padding: 0 .5rem;
+
 }
 
 .header__title {

@@ -1,1 +1,21 @@
 /* All styles for your Card Components live here */
+
+.Card {
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.Card__content {
+  padding: 0.8rem;
+  border: 1px solid #cdcdcd;
+  border-radius: 0 0 4px 4px;
+}
+
+.Card__title {
+  font-weight: bold;
+}
+
+
+.Card__url {
+  color: #999;
+}
