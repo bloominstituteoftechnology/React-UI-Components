@@ -7,7 +7,7 @@ import './Header.css';
 const headerContainer = () => {
     return (
         <div>
-            <ImageThumbnail />
+            <imageThumbnail />
             <headerTitle />
             <headerContent />
         </div>
