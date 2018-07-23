@@ -1,6 +1,7 @@
 /* All styles for your header Components live here */
 .header {
     display:flex;
+    margin-bottom: 1.5%;
 }
 
 .lambda-school {
@@ -8,7 +9,7 @@
 }
 
 .gray-lambda {
-    color: gray;
+    color: rgb(149, 166, 184);
     font-weight: 400;
     font-size: 90%;
 }
@@ -20,10 +21,12 @@
 }
 
 .text {
-   margin-left: 10px;
-   padding-right:2%;
+   margin-left: 5px;
+   line-height: 125%;
+   width: 85%;
+   letter-spacing: .2px;
 }
 
 p {
-    margin: 2% 0;
+    margin: 1.5% 0;
 }
