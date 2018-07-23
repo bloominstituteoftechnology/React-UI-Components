@@ -1,4 +1,6 @@
 import React from 'react';
 import './Card.css';
-const CardBanner = <h1>test banner</h1>; 
 
+const CardBanner = () => <div>tester</div>
+
+export default CardBanner;
