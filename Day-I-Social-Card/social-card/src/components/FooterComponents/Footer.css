@@ -1,0 +1,15 @@
+.FooterContainer{
+    opacity: .5;
+    display:flex;
+    width: 50%;
+    font-size: 20px;
+    margin-left: 10%;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+.resultsText{
+    margin: 0 0 0 10px;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: sans-serif;
+}
