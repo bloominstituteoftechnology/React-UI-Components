@@ -5,12 +5,12 @@
 }
 
 .header__image {
-  flex-basis: 8.33%;
-  margin-right: .5rem;
+  flex-basis: 12%;
+  padding-right: .8rem;
 }
 
 .header__text {
-  flex-basis: calc(100% - 8.33%);
+  flex-basis: 88%;
 
 }
 

@@ -4,7 +4,7 @@
 */
 .container {
   max-width: 700px;
-  border: 1px solid grey;
+  /* border: 1px solid grey; */
   padding: 30px;
 }
 
@@ -16,11 +16,13 @@
 
 }
 
-.card-wrapper {
+.card-wrapper,
+.footer-wrapper {
   display: flex;
   justify-content: flex-end;
 }
 
-.card-section {
-  flex-basis: calc(100% - 8.33%);
+.card-section,
+.footer-section {
+  flex-basis: 88%;
 }
