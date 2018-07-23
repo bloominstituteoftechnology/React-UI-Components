@@ -1,7 +1,7 @@
 import React from 'react';
 import './Card.css';
 
-const cardContainer = () => {
+const CardContainer = () => {
     return (
         <div>
 
@@ -9,4 +9,4 @@ const cardContainer = () => {
     )
 }
 
-export default cardContainer;
+export default CardContainer;

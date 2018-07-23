@@ -1,13 +1,13 @@
 import React from 'react';
 import './App.css';
-import headerContainer from './components/HeaderComponents/HeaderContainer';
-import cardContainer from './components/CardComponents/CardContainer';
+import HeaderContainer from './components/HeaderComponents/HeaderContainer';
+import CardContainer from './components/CardComponents/CardContainer';
 
 const App = () => {
   return (
     <div>
-      <headerContainer />
-      <cardContainer />
+      <HeaderContainer />
+      <CardContainer />
     </div>
   );
 };
