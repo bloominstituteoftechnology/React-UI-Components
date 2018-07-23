@@ -1,1 +1,25 @@
 /* All styles for your header Components live here */
+
+.header-container {
+    display: flex; 
+}
+
+.header-container .header-title {
+    display: flex;  
+}
+
+.header-container .header-title .header-heading {
+    font-size: 1.4rem; 
+    margin-right: 3%; 
+    margin-left: 3%; 
+    
+}
+
+.header-container .header-title .header-subheading, .header-subheading-date {
+    font-size: 1.2rem;
+    margin-right: 3%; 
+}
+
+.header-container .header-content {
+    font-size: 1.4rem; 
+}
