@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    .heading {
+      font-size: 50px;
+      color: palevioletred;
+      font-family: sans-serif;
+    }
+
+    .myButtonClass {
+      width: 150px;
+      height: 50px;
+      font-family: sans-serif;
+      line-height: 25px;
+      font-size: 20px;
+      color: white;
+      background: palevioletred;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="root"></div>
+  <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+  <script crossorigin src="https://unpkg.com/babel-standalone@6.26.0/babel.js"></script>
+
+  <script type="text/babel">
+
+    // ######################### React.createElement() #########################
+    // const MyElement = React.createElement(
+    //   'div',
+    //   { className: 'heading' },
+    //   React.createElement('h1',
+    //     { className: 'nested-heading' },
+    //     'Hello World from ReactJS!')
+    // ); // createElement comes from ReactJS
+
+    // ######################### JSX #########################
+    // const myMultiplyer = () => 2 * 2;
+    // const MyElement = <h1 className="heading" name="Ryan">{myMultiplyer()}</h1>; // this is JSX
+    // const MyButton = <button>Clicky</button>;
+    // const MyDiv = <div>{MyElement} {MyButton}</div>;
+
+    // ######################### Components #########################
+    const MyButton = props => {
+      console.log('PROPS ON MYBUTTON: ', props);
+      return <button className={props.buttonClass}>{props.name}</button>;
+    };
+    // create an Input component
+
+    const MyInput = () => <input placeholder="Something radical" />;
+
+    const App = () => (
+      <div>Hello from my Component
+        <MyButton buttonClass="myButtonClass" name="Click me"/>
+        <MyInput />
+      </div>
+    );// A function, that returns some JSX
+
+    console.log(App());
+    ReactDOM.render(<App />, document.getElementById('root'));// render comes from react-dom
+  </script>
+</body>
+
+</html>

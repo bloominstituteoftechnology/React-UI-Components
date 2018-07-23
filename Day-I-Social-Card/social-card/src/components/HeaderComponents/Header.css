@@ -1,1 +1,7 @@
 /* All styles for your header Components live here */
+
+.header-container {
+  width: 500px;
+  height: 500px;
+  border: 1px solid red;
+}
