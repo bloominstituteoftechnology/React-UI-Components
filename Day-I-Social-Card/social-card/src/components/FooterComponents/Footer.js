@@ -22,7 +22,7 @@ import './Footer.css';
 class Footer extends React.Component {
     constructor(props){
         super(props);
-        this.state = {sync: 0, like:0, comment:0, message:0}
+        this.state = {sync: "", like:"", comment:0, message:0}
         this.handleSyncClick = this.handleSyncClick.bind(this); 
         this.handleLickClick = this.handleLikeClick.bind(this);
         this.handleCommentClick = this.handleCommentClick.bind(this);
@@ -30,14 +30,25 @@ class Footer extends React.Component {
     }
 
     handleSyncClick() {
-        this.state.sync +=1; 
-        this.forceUpdate(); 
+        if(Number.isInteger(this.state.sync)){
+            this.state.sync +=1; 
+            this.forceUpdate();
+        } else {
+            this.state.sync = 1;
+            this.forceUpdate(); 
+        }
+         
     }
 
     handleLikeClick(){
-        this.state.like ++;
-        this.forceUpdate();
-
+        if(Number.isInteger(this.state.like)){
+            this.state.like ++;
+            this.forceUpdate(); 
+        }else {
+            this.state.sync = 1;
+            this.forceUpdate(); 
+        }
+        
     }
 
     handleCommentClick(){
@@ -46,8 +57,7 @@ class Footer extends React.Component {
         if(answer.length > 5){
             this.state.comment ++;
             this.forceUpdate(); 
-        }
-        
+        }   
     }
 
     handleMessageClick() {
@@ -55,7 +65,6 @@ class Footer extends React.Component {
         alert("Message sent");
         this.forceUpdate(); 
     }
-
 
     render(){
         return (
@@ -67,7 +76,6 @@ class Footer extends React.Component {
             </div>
             );
     }
-
 }
 
 
