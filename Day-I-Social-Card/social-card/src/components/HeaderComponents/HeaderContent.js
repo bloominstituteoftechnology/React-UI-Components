@@ -6,8 +6,10 @@ const HeaderContent = () => {
     return (
         <div className="header-content">
             <HeaderTitle />
-            <div className="ls-twit">@LambdaSchool</div>
-            <div className="date">Jan 12</div>
+          
+            <div className="learn-react">
+                <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
+            </div>
         </div>
     );
 };

@@ -7,7 +7,7 @@ body {
 .app {
   display: flex;
   flex-flow: column;
-  
+  border: solid 1px gray;
   margin: 0 auto;
   width: 590px;
   height: 514px;
