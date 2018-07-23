@@ -1,1 +1,13 @@
 /* All styles for your header Components live here */
+
+
+.header {
+    border: 1px solid red;
+    height: 20%;
+    display: flex;
+}
+
+
+.header-image {
+    width: 20px;
+}
