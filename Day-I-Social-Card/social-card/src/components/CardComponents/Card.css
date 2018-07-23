@@ -1,1 +1,6 @@
 /* All styles for your Card Components live here */
+
+
+div {
+    border: 1px solid black;
+}
