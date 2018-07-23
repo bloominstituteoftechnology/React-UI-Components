@@ -1,7 +1,7 @@
 import React from "react";
 import "./Header.css";
 
-const Header = () => {
+const HeaderTitle = () => {
 	return (
 		<div>
 			<strong> Lambda School </strong>{" "}
@@ -9,3 +9,5 @@ const Header = () => {
 		</div>
 	);
 };
+
+export default HeaderTitle;
