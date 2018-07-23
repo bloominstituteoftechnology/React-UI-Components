@@ -1,1 +1,26 @@
 /* All styles for your Card Components live here */
+.cardContainer {
+   
+}
+
+.cardBanner {
+    border: solid #575859;   
+    border-width: 1px; 
+    max-width: 100%;
+    margin: 25px 25px 0 100px;
+}
+
+.cardBanner img {
+    max-width: 100%;
+}
+
+.cardContent {
+    border: solid #575859;   
+    border-width: 1px; 
+    margin: 0 25px 0 100px;
+}
+
+.cardContent .url a {
+    text-decoration: none;
+    color: #9b9ea0;
+}
