@@ -1,14 +1,17 @@
 import React from 'react';
 import './Header.css';
+import HeaderContent from "./HeaderContent";
+import moment from "moment";
+const time = moment();
 
 const HeaderTitle = () => {
   return (
-    <div className="header-title">
-      <h1>Lambda School</h1>
-      <ul>
-        <h6>@LambdaSchool</h6>
-        <li>26 jan</li>
-      </ul>
+    <div className="header-title-wrapper">
+      <div className="header-title">
+        Lambda School
+        <span className="time-stamp">{time.format('MMM Do ')}</span>
+        <HeaderContent />
+      </div>
     </div>
   );
 };

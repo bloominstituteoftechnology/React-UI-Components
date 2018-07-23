@@ -3,6 +3,9 @@
   height: 500px;
   width: 400px;
   border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
 }
 
 .card-banner-img {
