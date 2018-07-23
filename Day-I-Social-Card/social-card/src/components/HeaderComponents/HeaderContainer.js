@@ -1,7 +1,7 @@
 import React from 'react';
 import './Header.css';
-import HeaderTitle from './HeaderTitle.js';
-import ImageThumbnail from './ImageThumnail.js';
+import HeaderTitle from './HeaderTitle';
+import ImageThumbnail from './ImageThumbnail';
 import HeaderContent from './HeaderContent';
 
 const HeaderContainer = () => {
