@@ -1,8 +1,37 @@
 /* All styles for your header Components live here */
 .header-container {
   display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .header-title {
   display: flex;
+}
+
+.header {
+  margin-top: 6px;
+  line-height: 17px;
+}
+
+.header-title {
+  padding-right: 5px;
+  margin-bottom: 8px;
+}
+
+.img-thumb {
+  padding-top: 3px;
+  width: 134px;
+  margin: 0 7px;
+}
+
+.name {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.sub {
+  font-size: 13px;
+  color: gray;
+  margin-right: 7px;
 }

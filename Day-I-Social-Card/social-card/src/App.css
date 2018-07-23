@@ -4,4 +4,10 @@
 */
 .app-container {
   width: 590px;
+  font-size: 14px;
 }
+
+.img {
+  width: 100%;
+}
+
