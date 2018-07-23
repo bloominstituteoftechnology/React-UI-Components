@@ -2,12 +2,24 @@
 .header{
     display: flex;
     margin: 0 auto;
-    border: 1px solid red;
 }
 .header-logo{
-    border: 1px solid green;
+    margin: 0;
+    padding: 0;
+    width: 150px;
 }
-.header-content{
-    border: 1px solid skyblue;
+.header-logo img{
+    width: 100%;
+    padding-top: 0.5rem;
+}
+.header-main{
+    font-size: 1rem;
+    padding: 0.5rem 0.5rem;
+
+}
+.header-main p{
+    color: gray;
+    display: inline;
+    font-size: 0.9rem;
 }
 

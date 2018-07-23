@@ -9,7 +9,6 @@ const CardContent = () => {
             <p>React makes it painless to create interactive UIs. Design simple views for each state in your application.</p>
             <h3>reactjs.org</h3>
         </div>
- 
     );
 }
 

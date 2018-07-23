@@ -8,9 +8,9 @@ const HeaderContainer = () => {
     return (
         <div className='header'>
             <div className ='header-logo'>
-                <ImageThumbnail className ='logo'/>
+                <ImageThumbnail />
             </div>
-            <div className='header-content'>
+            <div className='header-main'>
                 <HeaderTitle />
                 <HeaderContent />
             </div>
