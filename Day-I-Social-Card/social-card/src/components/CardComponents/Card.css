@@ -1,1 +1,15 @@
 /* All styles for your Card Components live here */
+
+.cardContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.banner {
+    background-image: url(https://i2.wp.com/www.andreasreiterer.at/wp-content/uploads/2017/11/react-logo.jpg?resize=825%2C510&ssl=1);
+    width: 500px;
+    height: 300px;
+    background-size: 100% 100%;
+    
+}
