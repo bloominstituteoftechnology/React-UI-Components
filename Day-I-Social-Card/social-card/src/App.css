@@ -10,3 +10,7 @@
   border: 0.5px solid #000;
   font-family: sans-serif;
 }
+
+a {
+  text-decoration: none;
+}
