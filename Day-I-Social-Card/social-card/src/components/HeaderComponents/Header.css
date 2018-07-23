@@ -1,1 +1,29 @@
 /* All styles for your header Components live here */
+.header {
+    display:flex;
+}
+
+.lambda-school {
+    font-weight: 700;
+}
+
+.gray-lambda {
+    color: gray;
+    font-weight: 400;
+    font-size: 90%;
+}
+
+.thumbnail {
+    height: 60px;
+    margin-top: 1%;
+   
+}
+
+.text {
+   margin-left: 10px;
+   padding-right:2%;
+}
+
+p {
+    margin: 2% 0;
+}

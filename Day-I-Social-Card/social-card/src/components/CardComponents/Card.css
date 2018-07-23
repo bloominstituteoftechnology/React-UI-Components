@@ -1,1 +1,27 @@
 /* All styles for your Card Components live here */
+.card-body {
+    width: 600px;
+}
+.card-container {
+    width: 500px;
+    display: flex;
+    flex-direction: column-reverse;
+    margin-left: 65px;
+    border: solid lightgray 1px;
+    border-radius: 5px;
+}
+
+.card-content {
+   padding: 1% 2%;
+  
+}
+
+.image {
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+}
+
+a{
+    color: gray;
+    text-decoration-line: none;
+}
