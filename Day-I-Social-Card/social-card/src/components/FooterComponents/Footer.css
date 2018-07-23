@@ -16,6 +16,14 @@
   margin-right: 10px;
 }
 
+.Footer__icon--liked {
+  color: #f44336;
+}
+
+.Footer__icon--retweeted {
+  color: #007fff;
+}
+
 .Footer__action:not(:last-child) {
   margin-right: 40px;
 }
