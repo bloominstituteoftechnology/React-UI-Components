@@ -1,1 +1,6 @@
 /* All styles for your header Components live here */
+.headerBox {
+    width: 500px;
+    height: 100px;
+    border: 1px solid black;
+}
