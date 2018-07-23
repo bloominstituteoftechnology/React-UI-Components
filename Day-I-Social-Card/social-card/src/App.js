@@ -15,6 +15,7 @@ const App = () => {
     
       <HeaderContainer /> 
       <CardContainer />
+      <Footer />
     </div>
     
   );
