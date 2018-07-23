@@ -5,7 +5,7 @@ import HeaderContent from "./HeaderContent";
 
 const HeaderText = () => {
 	return (
-		<div>
+		<div className="header__text">
 			<HeaderTitle />
 			<HeaderContent />
 		</div>

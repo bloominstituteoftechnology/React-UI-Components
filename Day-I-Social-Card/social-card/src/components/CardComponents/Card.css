@@ -1,1 +1,9 @@
 /* All styles for your Card Components live here */
+.cardContainer{
+    max-width: 100%;
+}
+
+.card__banner{
+    max-width: 100%;
+    height: auto;
+}

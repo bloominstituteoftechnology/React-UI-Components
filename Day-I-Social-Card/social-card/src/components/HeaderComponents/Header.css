@@ -5,4 +5,15 @@
 
 .headerContainer{
     display: flex;
+    width: 100%;
+}
+
+.header__text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header__title--bold{
+    font-weight: bold;
 }

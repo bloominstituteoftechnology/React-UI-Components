@@ -3,6 +3,8 @@
   IF you'd like to attempt to use less you'll have to research how to do this with Create React App
 */
 .appContainer{
-  max-width: 1000px;
+  width: 600px;
   margin: 0 auto;
+  font-size: .8rem;
 }
+
