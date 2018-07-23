@@ -1,13 +1,14 @@
 import React from 'react';
 import './App.css';
 import CardContainer from './components/CardComponents/CardContainer.js';
+import HeaderContainer from './components/HeaderComponents/HeaderContainer.js';
 
 const App = () => {
   return (
-    <div>
+    <div class='app-container'>
+      <HeaderContainer />
       <CardContainer />
     </div>
-
   );
 };
 

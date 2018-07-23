@@ -2,3 +2,10 @@
 .card-container {
   border: 1px solid blue;
 }
+
+.card-banner {
+/* width: 100%; */
+width: 50px;
+height: auto;
+/* border: 1px solid teal; */
+}

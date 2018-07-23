@@ -1,13 +1,13 @@
 import React from 'react';
 import './Card.css';
-import HeaderContainer from '../HeaderComponents/HeaderContainer.js';
+import CardContent from '../CardComponents/CardContent.js';
+import CardBanner from './CardBanner.js';
 
 const CardContainer = () => {
   return <div className="card-container">
-            CardContainer
-            <HeaderContainer />
+                <CardBanner />
+            <CardContent />
           </div>;
-
 };
 
 export default CardContainer;
