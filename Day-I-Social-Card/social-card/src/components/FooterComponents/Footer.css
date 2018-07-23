@@ -1,0 +1,14 @@
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    width: 45%;
+    justify-content: space-evenly;
+    margin-left: 70px;
+    margin-top: 10px;
+}
+
+.footer-img {
+    width: 25px;
+    height: 25px;
+}

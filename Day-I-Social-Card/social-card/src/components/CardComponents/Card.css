@@ -1,1 +1,44 @@
 /* All styles for your Card Components live here */
+
+.card-title {
+    display: flex;
+    font-size: 20px;
+    line-height: 24px;
+    margin-left: 100px;
+    margin-top: 10px;
+    width: 75%;
+}
+
+.card-content {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 73.2%;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgb(46, 44, 43);
+    margin-left: 100px;
+    margin-top: 0px;
+    border: 1px solid rgb(187, 187, 187);
+}
+
+.card-banner {
+    display: block;
+    width: auto;
+    margin-left: 100px;
+}
+
+.banner {
+    height: 360px;
+    width: 82%;
+}
+
+.card-link {
+    display: flex;
+    justify-content: flex-start;
+    width: 75%;
+    font-size: 14px;
+    line-height: 10px;
+    color: rgb(46, 44, 43);
+    margin-left: 100px;
+}

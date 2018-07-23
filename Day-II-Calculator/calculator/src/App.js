@@ -1,23 +1,45 @@
 import React from 'react';
 import './App.css';
+import CalculatorDisplay from './components/DisplayComponents/CalculatorDisplay';
+import NumberButton from './components/ButtonComponents/NumberButton';
+import ActionButton from './components/ButtonComponents/ActionButton';
 
-const App = () => {
-  return (
+class App extends React.Component {
+  constructor (props) {
+    super(props);
+    this.state = {
+      total: 6,
+      currentValue: 0,
+      action: null,
+    }
+   this.clickHandler = this.clickHandler.bind(this);
+   this.addValue = this.addValue.bind(this);
+  }
+
+  clickHandler = () => {
+    this.setState({
+      total: this.state.total +1
+    });
+    console.log(this.state.total);
+  };
+
+  addValue = () => {
+    this.setState({
+      currentValue: this.state.currentValue + 1
+    });
+    console.log(this.state.value);
+  }
+
+  render () {
+    return (
     <div>
-      <h3>Welcome to React Calculator</h3>
-      <p>
-        We have given you a starter project. You'll want to build out your
-        components in their respective files, remove this code and replace it
-        with the proper components.
-      </p>
-      <p>
-        <strong>
-          Don't forget to `default export` your components and import them here
-          inside of this file in order to make them work.
-        </strong>
-      </p>
+<CalculatorDisplay  placeholder="0" onClick={this.clickHandler}/>
+<NumberButton onChange={this.addValue}/>
+<ActionButton />
+
     </div>
   );
 };
+}
 
 export default App;

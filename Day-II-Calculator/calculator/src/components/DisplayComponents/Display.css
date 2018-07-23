@@ -1,0 +1,24 @@
+.calc-display {
+    display: flex;
+    flex-direction: row;
+    height: 130px;
+    width: 476px;
+    border-radius: 4px;
+    background: black;
+    background-size: contain;
+    margin: 20px auto 0 auto;
+    position: absolute;
+    left: 159px;
+    top: 10px;
+}
+
+.num-display {
+    font-size: 70px;
+    color: whitesmoke;
+    height: 90px;
+    display: flex;
+    margin-left: 410px;
+    width: 60%;
+    margin-top: 30px;
+    position: absolute;
+}

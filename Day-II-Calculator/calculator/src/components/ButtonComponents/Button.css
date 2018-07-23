@@ -1,0 +1,56 @@
+.action-column {
+    height: 480px;
+    width: 120px;
+    display: flex;
+    flex-flow: column wrap;
+    position: relative;
+    left: 520px;
+    top: 160px;
+}
+
+.action-button {
+    background: rgb(173, 16, 16);
+    color: white;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    font-size: 60px;
+    height: 90px;
+    line-height: 90px;
+    width: 115px;
+    font-weight: lighter;
+    border: 1px solid gray;
+}
+
+.number-column {
+    display: flex;
+    flex-flow: row wrap;
+    max-width: 460px;
+    height: 450px;
+    position: absolute;
+    margin-left: 160px;
+    top: 160px;
+}
+
+.number-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+    height: 90px;
+    line-height: 90px;
+    width: 120px;
+    font-weight: bold;
+    border: 1px solid gray;
+  }
+  
+  .large-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+    height: 90px;
+    line-height: 90px;
+    width: 360px;
+    border: 1px solid gray;
+  }
