@@ -9,8 +9,9 @@ const HeaderTitle = () => {
             <div className="header-title">
                 Lambda School
                 <span className="time-stamp"> 8am Lambda Time Zone</span>
-                <HeaderContent />
+                
         </div>
+        <HeaderContent />
     </div>
     );
 };
