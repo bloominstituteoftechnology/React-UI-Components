@@ -3,7 +3,6 @@ import './Header.css';
 import moment from 'moment'; 
 
 let date = Date.now(); 
-console.log(date); 
 
 const HeaderTitle = () => {
     return (
