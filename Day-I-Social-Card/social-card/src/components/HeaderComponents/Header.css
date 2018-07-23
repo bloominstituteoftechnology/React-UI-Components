@@ -21,6 +21,10 @@
     color:lightgray;
 }
 
+.custom-header-title .custom-h4 {
+    display: inline;
+}
+
 .custom-header-content {
     /* border: 1px solid orange; */
 }
