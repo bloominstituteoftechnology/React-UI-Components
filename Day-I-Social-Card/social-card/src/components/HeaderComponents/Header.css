@@ -1,1 +1,13 @@
 /* All styles for your header Components live here */
+.header{
+    display: flex;
+    margin: 0 auto;
+    border: 1px solid red;
+}
+.header-logo{
+    border: 1px solid green;
+}
+.header-content{
+    border: 1px solid skyblue;
+}
+
