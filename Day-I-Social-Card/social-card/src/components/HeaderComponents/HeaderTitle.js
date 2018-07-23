@@ -7,7 +7,7 @@ const HeaderTitle = () => {
       <h1>Lambda School</h1>
       <p className="title-container-handler colored">@LambdaSchool</p>
       <span className="title-container-handler-space">.</span>
-      <p className="title-container-handler-date">23 jul</p>
+      <p className="title-container-handler-date colored">23 jul</p>
     </div>
   );
 };
