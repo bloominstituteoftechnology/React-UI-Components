@@ -3,3 +3,9 @@ body {
   padding: 0.4rem;
   font-family: sans-serif;
 }
+
+.sauce{
+  display:flex;
+  flex-direction: row;
+  border:1px black;
+}

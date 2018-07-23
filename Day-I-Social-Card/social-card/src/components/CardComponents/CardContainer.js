@@ -4,7 +4,12 @@ import CardBanner from "./CardBanner";
 import CardContent from "./CardContent";
 
 const CardContainer = () => {
-  return;
+  return (
+    <div>
+      <CardBanner />
+      <CardContent />
+    </div>
+  );
 };
 
 export default CardContainer;
