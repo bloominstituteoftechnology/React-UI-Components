@@ -19,3 +19,37 @@
   text-decoration: none; 
   color: rgb(94, 90, 90); 
 }
+
+.header {
+  width: 800px;
+}
+
+.header-info {
+    display: flex; 
+    flex-direction: row; 
+    width: 900px;
+}
+
+.header-container {
+  display: flex; 
+  font-size: 1.5rem;
+  
+}
+
+.header-title {
+  width: 500px;
+}
+
+.header-subheading {
+  color: gray;
+}
+
+.header-subheading-date {
+  color: gray;
+  width: 300px;
+   
+}
+
+.header-content {
+  width: 80%
+}
