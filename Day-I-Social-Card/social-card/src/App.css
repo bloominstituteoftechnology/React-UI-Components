@@ -91,6 +91,9 @@ h1, h2, h3, h4, h5 {
   border: solid 1px black;
   margin: 5px;
   padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
 
 h1 {
@@ -100,4 +103,16 @@ h1 {
 
 p {
   font-size: 1.4rem;
+  line-height: 17px;
+}
+
+.colored {
+  font-size: 1.3rem;
+  color: gray;
+}
+
+.colored a {
+  font-size: 1.4rem;
+  text-decoration: none;
+  color: gray;
 }

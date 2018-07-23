@@ -27,3 +27,15 @@
   margin-top: 9px;
   line-height: 17px;
 }
+
+.title-container-handler {
+  margin-left: 5px;
+}
+
+.title-container-handler-space {
+  margin: 0 5px 0 5px;
+}
+
+.title-container-handler-date {
+  font-size: 1.2rem;
+}
