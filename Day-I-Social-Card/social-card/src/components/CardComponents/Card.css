@@ -41,9 +41,8 @@ a{
 }
 
 .cardUrl{
-    margin:10px;
-  
-    opacity: .6;
-    font-size: 12px;
+    margin:5px 10px;
+    font-weight: bold;
+    opacity: .3;
 
 }
