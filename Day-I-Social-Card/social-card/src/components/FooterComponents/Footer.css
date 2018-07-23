@@ -1,0 +1,18 @@
+.footer-container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    width: 80%;
+    flex-wrap: wrap;
+    height: 40px;
+    padding:left
+}
+
+.icon-container {
+
+}
+
+i {
+    margin: 10px 20px;
+    color: #777;
+}
