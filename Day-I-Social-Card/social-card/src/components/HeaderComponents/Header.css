@@ -1,14 +1,17 @@
 /* All styles for your header Components live here */
 .top-container {
-    width: 100%;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    float: right;
 }
 
 .title-div {
     width: 90%;
-    /* border: 1px solid blue; */
-    float: right;
+    border: 1px solid blue;
     display: flex;
     flex-wrap: wrap;
+    float: right;
     align-items: flex-end;
     margin: 20px 0;
 }
@@ -22,4 +25,15 @@
     margin: 0 20px;
     color: #899AA5;
     font-weight: lighter;
+}
+
+.top-p {
+    width: 100%;
+    border: 1px solid blue;
+}
+
+.top-p p {
+    padding: 0;
+    margin: 0 5px 15px 0;
+    line-height: 1.3;
 }
