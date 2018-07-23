@@ -8,9 +8,9 @@
 }
 
 .image-thumbnail{
-    height: 100px;
-    width: 100px;
-    margin-top: 12px;
+    height: 35px;
+    width: 35px;
+    margin-top: 15px;
     margin-left: 10px;
     margin-right: 10px;
 }
@@ -20,6 +20,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
+    margin-top: -8px;
 }
 
 .header-title .title{
@@ -30,18 +31,17 @@
 
 .header-title .handle{
     color: gray;
-    padding-top: 10px;
     padding-right: 5px;
     padding-left: 5px;
 }
 
 .header-title .time{
     color: gray;
-    padding-top: 10px;
     padding-right: 5px;
     padding-left: 5px;
 }
 
 .header-content{
+    margin-top: -29px;
     padding-left: 5px;
 }
