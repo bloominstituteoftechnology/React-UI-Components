@@ -1,1 +1,12 @@
 /* All styles for your header Components live here */
+.header-wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  width: 590px;
+  display: grid;
+  grid-template-columns: 10% 90%;
+  grid-template-rows: 100%;
+}
+.image-thumbnail {
+  width: 100%;
+}
