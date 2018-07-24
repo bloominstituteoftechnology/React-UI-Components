@@ -9,6 +9,7 @@ const ActionButton = () => {
             <button className="calculator-key key-subtract">-</button>
             <button className="calculator-key key-add">+</button>
             <button className="calculator-key key-equals">=</button>
+            <button className="calculator-key key-clear">clear</button>
         </div>
     )
 };
