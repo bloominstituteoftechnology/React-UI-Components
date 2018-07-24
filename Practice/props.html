@@ -1,0 +1,44 @@
+</head>
+
+<body>
+<div id = "root"></div>
+</body>
+<script crossorigin src="https://unpkg.com/react@16.0.0/umd/react.development.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@16.0.0/umd/react-dom.development.js"></script>
+<script crossorigin src="https://unpkg.com/babel-standalone@6.26.0/babel.js"></script>
+<script type = "text/babel">
+
+const BartComponent = props => {
+    const { bart } = props;
+    return (
+        <div>
+        <h3> Name: {bart.name}</h3>
+        <p> Age: {bart.age}</p>
+        <p> Identity: {bart.identity}</p>
+        <p> Best Friend: {bart.best_friend}</p>
+        </div>
+    );
+};
+
+
+    const App = () => {
+
+        const BartProfile = {
+            name: "Bartholomew Jo-Jo Simpson",
+            identity: "The troublemaker of the Simpson family",
+            age: "10 (2 years and 38 days older than Lisa)",
+            family: ['Homer', 'Marge', 'Lisa', 'Maggie'],
+            catchphrases: ['Aye Carumba!', 'Eat my shorts', "I didn't do it"],
+            best_friend: 'Milhouse Van Houten',
+        };
+
+        return (
+            <div>
+               <BartComponent bart={BartProfile} /> 
+            </div>    
+        );
+    };
+
+    ReactDOM.render(<App />, document.getElementById('root'));
+</script>
+</html>

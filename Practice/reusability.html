@@ -1,0 +1,28 @@
+</head>
+
+<body>
+<div id = "root"></div>
+</body>
+<script crossorigin src="https://unpkg.com/react@16.0.0/umd/react.development.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@16.0.0/umd/react-dom.development.js"></script>
+<script crossorigin src="https://unpkg.com/babel-standalone@6.26.0/babel.js"></script>
+<script type = "text/babel">
+
+
+const colors = ['#FFBAAA', '#27576B', '#D47F6A', '#AA7539', '#003D19', '#6E91A1', '#552D00'];
+let backgroundColor = '';
+const colorSelectHandler = () => {
+    const color = colors[Math.floor(Math.random()*colors.length)];
+    backgroundColor = color;
+    return;
+};
+
+colorSelectHandler();
+const MyDiv = props => <div style = {{background: backgroundColor,color: '#FFFFFF', height: '200px', width: '200px'}}> Click To Change Color</div>;
+
+
+
+
+    ReactDOM.render(<MyDiv />, document.getElementById('root'));
+</script>
+</html>
