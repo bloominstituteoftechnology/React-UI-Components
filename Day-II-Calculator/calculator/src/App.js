@@ -76,7 +76,8 @@ class App extends Component {
 				<NumberButton text="3" buttonStyle="small white" onClick={this.changeDisplay} />
 				<OperatorButton text="+" buttonStyle="small red" onClick={this.storeOperator} />
 
-				<NumberButton text="0" buttonStyle="large white" onClick={this.changeDisplay} />
+				<NumberButton text="0" buttonStyle="medium white" onClick={this.changeDisplay} />
+				<NumberButton text="." buttonStyle="small white" onClick={this.changeDisplay} />
 				<ActionButton text="=" buttonStyle="small red" onClick={this.solveMath} />
 			</div>
 		);

@@ -22,6 +22,10 @@ button:focus {
     width: 75%;
 }
 
+.medium {
+    width: 50%;
+}
+
 .white {
     background-color: white;
 }

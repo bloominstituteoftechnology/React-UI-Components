@@ -4,7 +4,7 @@ import './Display.css';
 const CalculatorDisplay = (props) => {
     return(
         <div className="result">
-            {props.result}
+            <p>{props.result}</p>
         </div>
     );
 }
