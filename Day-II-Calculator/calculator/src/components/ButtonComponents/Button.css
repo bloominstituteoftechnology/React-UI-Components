@@ -17,20 +17,20 @@
   background: red;
   color: white;
   text-align: center;
-  line-height: 100px;
+
     font-size: 3rem;
   font-weight: 200;
 }
 .num {
   text-align: center;
-  line-height: 100px;
+
   font-size: 50px;
   font-weight: 200;
 }
 
 .action {
   text-align: center;
-  line-height: 100px;
+
   font-size: 3rem;
   font-weight: 200;
   width: 300px;
