@@ -3,9 +3,10 @@ import './Header.css';
 import HeaderContent from './HeaderContent';
 
 const HeaderTitle = () => {
+    const moment = require('moment');
     return (
         <div className= "headerTitle">
-            <h4>Lambda School   <span>@LambdaSchool * 26 jan</span></h4>
+            <h4>Lambda School   <span>@LambdaSchool &middot; {moment().format('Do MMM')}</span></h4>
             <HeaderContent />
         </div>
         
