@@ -1,0 +1,38 @@
+.action-container {
+    display: flex;
+    position: relative;
+    
+}
+
+.col-action {
+    margin-left: auto;
+    padding: none;
+    margin: none;
+    display: flex;
+    position: absolute;
+    height: 576px;
+    width: 130px;
+    background: red;
+    z-index: 1
+}
+
+.col-action h1 {
+    padding: none;
+    margin: none;
+}
+
+.col-number {
+    padding: none;
+    margin: none;
+    display: flex;
+    float: right;
+    height: 576px;
+    width: 130px;
+    background: blue;
+    z-index: 1
+}
+
+.col-number h1 {
+    padding: none;
+    margin: none;
+}
