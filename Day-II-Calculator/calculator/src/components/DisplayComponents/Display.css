@@ -1,0 +1,16 @@
+.calculator-display {
+    width:100%;
+    height: 125px;
+    background: black;
+    color: white;
+    font-weight: lighter;
+    text-align: end;
+    font-size: 75px;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    letter-spacing: 14px;
+    
+
+}
