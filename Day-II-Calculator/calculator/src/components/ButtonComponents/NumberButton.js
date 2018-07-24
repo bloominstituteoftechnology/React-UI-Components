@@ -16,7 +16,7 @@ class NumberButton extends React.Component {
                 <div className= "pressingItems">
 
                     <div className="numberInputs">
-                        <div className="clear">{this.props.clear}</div>
+                        <div  onClick = {this.props.handleClearClick}className="clear">{this.props.clear}</div>
 
                         <div onClick={ () => this.props.handleButtonClick(this.props.seven)  } className="nonzero sm">{this.props.seven}</div>
                         <div onClick={() => this.props.handleButtonClick(this.props.eight)}className="nonzero">{this.props.eight}</div>
