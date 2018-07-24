@@ -14,6 +14,7 @@
 .actionButtonStyles {
   width: 25%;
   background: burlywood;
+  text-align: center;
 }
 
 /* Lets us make our action buttons fit without changing base width

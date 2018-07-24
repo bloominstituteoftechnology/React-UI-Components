@@ -11,7 +11,7 @@ const App = () => {
       <div className="calc-wrapper">
         <CalculatorDisplay total="0"/>
         <ActionButton actionButtonLabel="clear" extraStyles="clearWidth" />
-        <ActionButton actionButtonLabel="%" />
+        <ActionButton actionButtonLabel="&divide;" />
         <div className="numbersButtonsDiv">
           
           <NumberButton numberLabel="9" />
@@ -27,10 +27,10 @@ const App = () => {
         </div>
 
         <div className="actionButtonRow">
-          <ActionButton actionButtonLabel="X" extraStyles="actionButtonWidth"/>
-          <ActionButton actionButtonLabel="X" extraStyles="actionButtonWidth"/>
-          <ActionButton actionButtonLabel="X" extraStyles="actionButtonWidth"/>
-          <ActionButton actionButtonLabel="X" extraStyles="actionButtonWidth"/>
+          <ActionButton actionButtonLabel="&times;" extraStyles="actionButtonWidth"/>
+          <ActionButton actionButtonLabel="-" extraStyles="actionButtonWidth"/>
+          <ActionButton actionButtonLabel="+" extraStyles="actionButtonWidth"/>
+          <ActionButton actionButtonLabel="=" extraStyles="actionButtonWidth"/>
         </div>
 
       </div>
