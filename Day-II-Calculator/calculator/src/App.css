@@ -1,0 +1,13 @@
+.app-container{
+    width: 600px;
+    height: 780px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 40px;
+
+}
+
+.app-container button{
+    font-size: 50px;
+}

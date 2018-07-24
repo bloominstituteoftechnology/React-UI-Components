@@ -1,0 +1,91 @@
+</head>
+
+<body>
+<div id = "root"></div>
+</body>
+<script crossorigin src="https://unpkg.com/react@16.0.0/umd/react.development.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@16.0.0/umd/react-dom.development.js"></script>
+<script crossorigin src="https://unpkg.com/babel-standalone@6.26.0/babel.js"></script>
+<script type = "text/babel">
+
+<!-- content here -->
+
+
+
+const simpsonData = [
+  {
+    name: "Orville Simpson",
+    spouse: "Yuma Hickman",
+    children: [
+      {
+        name: "Abraham Simpson",
+        spouse: "Mona",
+        children: [
+          {
+            name: "Homer Simpson",
+            spouse: "Marge Bouvier",
+            children: [
+              {
+                name: "Bart Simpson"
+              },
+              {
+                name: "Lisa Simpson"
+              },
+              {
+                name: "Maggie Simpson"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+];
+
+const GrandChild = props => {
+  return (
+    <div>
+      <h3>{props.name}</h3>
+    </div>
+  );
+};
+
+const Child = props => {
+  return (
+    <div>
+      <h2>Child: {props.name}</h2>
+      {props.grandChild ? <GrandChild name={props.grandChild} /> : null}
+    </div>
+  );
+};
+
+const Parent = props => {
+  return (
+    <div>
+      <h1>Parent: {props.name}</h1>
+      {props.child ? (
+        <Child name={props.child} grandChild={props.grandChild} />
+      ) : null}
+    </div>
+  );
+};
+
+const App = () => {
+  return (
+    <div className="App">
+      <Parent
+        name={simpsonData[0].name}
+        child={simpsonData[0].children[0].name}
+        grandChild={simpsonData[0].children[0].children[0].name}
+      />
+      <Parent name={simpsonData[0].spouse} />
+      <h2>Start editing to see some magic happen!</h2>
+    </div>
+  );
+};
+
+const rootElement = document.getElementById("root");
+ReactDOM.render(<App />, rootElement);
+
+</script>
+</html>

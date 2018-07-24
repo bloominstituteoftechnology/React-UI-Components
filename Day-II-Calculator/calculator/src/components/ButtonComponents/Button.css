@@ -1,0 +1,22 @@
+.btn-styles{
+    width: 150px;
+    height: 150px;
+    background-color: #fffafa;
+}
+
+.button-colors{
+    background-color: #A0001E;
+    color: white;
+}
+
+.w-btn-styles{
+    width: 450px;
+    height: 150px;
+    background-color: #fffafa;
+    font-weight: 100;
+}
+
+.w-btn-styles .fonts{
+    font-weight: 200;
+}
+
