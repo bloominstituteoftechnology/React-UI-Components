@@ -1,1 +1,45 @@
 /* All styles for your header Components live here */
+
+.main-header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-header__img-container {
+  width: 135px;
+  margin: 0 7px 10px 0;
+}
+
+.main-header__img-container img {
+  width: 100%;
+}
+
+.main-header__title-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 13px;
+}
+
+.main-header__title--handler {
+  margin-left: 3px;
+  font-size: 1.3rem;
+  color: gray;
+}
+
+.main-header__title--handler-space {
+  margin: 0 5px 0 4px;
+  border: 1.3px solid gray;
+  background-color: gray;
+  border-radius: 50%;
+}
+
+.main-header__title--handler-date {
+  font-size: 1.2rem;
+  color: gray;
+}
+
+.main-header__content-container {
+  margin-top: 9px;
+}
