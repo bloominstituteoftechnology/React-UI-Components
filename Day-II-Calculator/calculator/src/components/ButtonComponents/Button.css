@@ -2,6 +2,7 @@
     width: 100px;
     height: 90px;
     background-color: #fffafa;
+    font-weight: 100;
 }
 
 .btn-styles:hover{
@@ -17,13 +18,10 @@
     width: 300px;
     height: 90px;
     background-color: #fffafa;
+    font-weight: 100;
 }
 
 .w-btn-styles:hover{
     background-color: grey;
-}
-
-.w-btn-styles .spec-styles{
-    font-weight: 100;
 }
 
