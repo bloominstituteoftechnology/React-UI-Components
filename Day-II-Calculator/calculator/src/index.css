@@ -3,3 +3,45 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+.container {
+  width: 454px;
+}
+
+.display-container {
+  background: #222222;
+  color: white;
+  text-align: right;
+  height: 125px;
+}
+
+.output {
+  font-size: 72px;
+  font-weight: normal;
+  padding-top: 20px;
+}
+
+.num-btn-styles {
+  background: white;
+  font-weight: bold;
+  font-size: 48px;
+  height: 95px;
+}
+
+.actn-btn-styles {
+  background: white;
+  font-weight: bold;
+  font-size: 48px;
+  height: 95px;
+}
+
+.operator {
+  font-size: 64px;
+  background: #a0001e;
+  color: white;
+  font-weight: normal;
+}
+
+.clear {
+  font-weight: normal;
+}
