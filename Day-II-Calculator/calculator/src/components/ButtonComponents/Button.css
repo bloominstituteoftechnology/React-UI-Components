@@ -1,0 +1,48 @@
+
+.number-holder {
+    display: flex;
+    width: 400px;
+    max-width: 400px;
+    flex-direction: row;
+    flex-flow: wrap-reverse;
+    margin: auto;
+    border: 1px solid darkgrey;
+}
+.number-content {
+    border: 1px solid grey;
+    width: 100px;
+    height: 100px;
+    font-size: 2rem;
+    margin: auto;
+    background: white;
+}
+
+.sign {
+    background: maroon;
+    color: white;
+}
+
+.BigContent{
+    width: 300px;
+    border: 1px solid grey;
+    font-size: 2rem;
+}
+
+.text-clear {
+    font-weight: 200;
+}
+.DisplayContent {
+    width: 400px;
+    height: 130px;
+    background: black;
+    border: 1px solid grey;
+    color: white;
+    font-size: 4rem;
+    text-align: right;
+    padding-right: 15px;
+}
+
+.border-radius {
+    border: 1px solid salmon;
+    background: wheat;
+}

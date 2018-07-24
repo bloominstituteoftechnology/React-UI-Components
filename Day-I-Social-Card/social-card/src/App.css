@@ -2,3 +2,23 @@
   Write your styles/CSS for App.js here and import into the component that you need 
   IF you'd like to attempt to use less you'll have to research how to do this with Create React App
 */
+
+.header-content {
+  font-size: 16px;
+}
+
+.top-content {
+  display: flex;
+  flex-direction: row;
+  margin: 1.5% 2% 3% 1%;
+}
+
+.small-text {
+  font-size: 12px;
+}
+
+.header-p {
+  font-size: 14px;
+   margin-top: 5px;
+   margin-bottom: -2px;
+}

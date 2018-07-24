@@ -1,1 +1,13 @@
 /* All styles for your header Components live here */
+small {
+    color: lightgray;
+}
+
+.header-content {
+    margin-left: 1.3%;
+    width: 90%;
+}
+.lambda {
+    width: 10%;
+    height: 10%;
+}
