@@ -1,19 +1,10 @@
 import React from 'react';
 import './Button.css';
 
-
-const numberBtnSquare = props =>{
+const NumberBtnSquare =props=> <div className={`square`}>{props.text}</div>; 
+const NumberBtnSquareContainer = props =>{
     return(
-       <div className="square">
-        <numberBtnSquare />
-       </div>
+        <NumberBtnSquare text ={props.text}/>
     )
 }
-
-const numberBtn = props =>{
-    return(
-       <div className="rectangle">
-        <numberBtn />
-       </div>
-    )
-}
+export default NumberBtnSquareContainer; 
