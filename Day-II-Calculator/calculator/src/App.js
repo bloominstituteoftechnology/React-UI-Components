@@ -1,23 +1,28 @@
 import React from 'react';
 import './App.css';
 import NumberButton from './components/ButtonComponents/NumberButton.js';
+import ActionButton from './components/ButtonComponents/ActionButton.js';
+import './components/ButtonComponents/Button.css';
+import './components/DisplayComponents/Display.css';
 const App = () => {
   return (
     <div>
-   <NumberButton text='1' />
-   <NumberButton text='2' />
-   <NumberButton text='3' />
-   <NumberButton text='4' />
-   <NumberButton text='5' />
-   <NumberButton text='6' />
-   <NumberButton text='7' />
-   <NumberButton text='8' />
-   <NumberButton text='9' />
-   <NumberButton text='÷' buttonStyle='operator'/>
-   <NumberButton text='×' buttonStyle='operator'/>
-   <NumberButton text='+' buttonStyle='operator'/>
-   <NumberButton text='-' buttonStyle='operator'/>
-   <NumberButton text='=' buttonStyle='operator'/>
+   <NumberButton text='1' buttonStyle='numberbutton' />
+   <NumberButton text='2' buttonStyle='numberbutton' />
+   <NumberButton text='3' buttonStyle='numberbutton' />
+   <NumberButton text='4' buttonStyle='numberbutton' />
+   <NumberButton text='5' buttonStyle='numberbutton' />
+   <NumberButton text='6' buttonStyle='numberbutton' />
+   <NumberButton text='7' buttonStyle='numberbutton' />
+   <NumberButton text='8' buttonStyle='numberbutton' />
+   <NumberButton text='9' buttonStyle='numberbutton' />
+   <NumberButton text='÷' buttonStyle='operatorbutton' />
+   <NumberButton text='×' buttonStyle='operatorbutton' />
+   <NumberButton text='+' buttonStyle='operatorbutton' />
+   <NumberButton text='-' buttonStyle='operatorbutton' />
+   <NumberButton text='=' buttonStyle='operatorbutton' />
+   <ActionButton text='0' />
+   <ActionButton text='clear' />
    </div>
   );
 };

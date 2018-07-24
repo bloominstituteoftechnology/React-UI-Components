@@ -6,7 +6,5 @@ const NumberButton=props=>{
         <button className={props.buttonStyle}>{props.text}</button>
     )
 };
-NumberButton.defaultProps={
-    buttonStyle: 'default'
-}
+
 export default NumberButton;
