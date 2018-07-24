@@ -1,0 +1,33 @@
+.actionbutton {
+    width: 74%;
+    height: 95px;
+    color: #222;
+    background-color: #FFF;
+    font-size: 32px;
+    border: 1px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.operatorbutton {
+    width: 24%;
+    height: 95px;
+    background-color: #800000;
+    color: #FFF;
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:1px solid gray;
+}
+.numberbutton{
+    width: 24%;
+    height: 95px;
+    background-color: #FFF;
+    color: black;
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:1px solid gray;
+}

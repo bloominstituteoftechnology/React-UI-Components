@@ -8,24 +8,24 @@ import './components/DisplayComponents/Display.css';
 
 const App = () => {
   return (
-    <div>
+    <div className='calculator'>
       <CalculatorDisplay />
-      <NumberButton text='1' buttonStyle='numberbutton' />
-      <NumberButton text='2' buttonStyle='numberbutton' />
-      <NumberButton text='3' buttonStyle='numberbutton' />
-      <NumberButton text='4' buttonStyle='numberbutton' />
-      <NumberButton text='5' buttonStyle='numberbutton' />
-      <NumberButton text='6' buttonStyle='numberbutton' />
+      <ActionButton text='clear' buttonStyle='actionbutton' />
+      <NumberButton text='+' buttonStyle='operatorbutton' />
       <NumberButton text='7' buttonStyle='numberbutton' />
       <NumberButton text='8' buttonStyle='numberbutton' />
       <NumberButton text='9' buttonStyle='numberbutton' />
-      <NumberButton text='÷' buttonStyle='operatorbutton' />
       <NumberButton text='×' buttonStyle='operatorbutton' />
-      <NumberButton text='+' buttonStyle='operatorbutton' />
+      <NumberButton text='4' buttonStyle='numberbutton' />
+      <NumberButton text='5' buttonStyle='numberbutton' />
+      <NumberButton text='6' buttonStyle='numberbutton' />
       <NumberButton text='-' buttonStyle='operatorbutton' />
+      <NumberButton text='1' buttonStyle='numberbutton' />
+      <NumberButton text='2' buttonStyle='numberbutton' />
+      <NumberButton text='3' buttonStyle='numberbutton' />
+      <NumberButton text='+' buttonStyle='operatorbutton' />
+      <ActionButton text='0' buttonStyle='actionbutton' />
       <NumberButton text='=' buttonStyle='operatorbutton' />
-      <ActionButton text='0' />
-      <ActionButton text='clear' />
    </div>
   );
 };

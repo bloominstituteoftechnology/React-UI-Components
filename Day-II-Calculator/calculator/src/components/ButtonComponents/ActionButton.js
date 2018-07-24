@@ -3,7 +3,8 @@ import './Button.css';
 
 const ActionButton=props=>{
    return (
-        <button className='actionbutton'>{props.text}</button>
+        <div className={props.buttonStyle}>{props.text}</div>
     )
 }
+
 export default ActionButton;
