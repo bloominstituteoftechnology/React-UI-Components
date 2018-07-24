@@ -1,1 +1,42 @@
 /* All styles for your header Components live here */
+
+.headerContainer {
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    width: 100%;
+    display: flex;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.headerContent {
+    width: 100%;
+    margin: 0 5px 5px 5px;
+    padding: 5px;
+    
+
+}
+
+.headerContent h1 {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.headerContent .date{
+    font-size: 1.4rem;
+    color: grey;
+}
+
+.headerContent p {
+    margin-top: 10px;
+    font-size: 1.4rem;
+}
+
+.logo {
+    background-image: url('https://ibin.co/3whrpKSBbZ81.png');
+    height: 50px;
+    width: 50px;
+    background-size: cover;
+    
+}
+

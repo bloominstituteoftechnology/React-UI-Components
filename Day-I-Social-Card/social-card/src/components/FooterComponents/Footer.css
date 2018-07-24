@@ -1,0 +1,13 @@
+
+.footer {
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin-top: 5px;
+    padding: 10px 10px 10px 70px;
+    display: flex;
+    
+}
+
+i {
+    padding: 0 60px 0 0;
+}
