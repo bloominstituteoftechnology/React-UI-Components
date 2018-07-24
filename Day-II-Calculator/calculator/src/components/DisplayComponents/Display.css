@@ -1,0 +1,13 @@
+.flex-container {
+    display: flex;
+    height: 100px;
+    justify-content: flex-end;
+    align-items: center;
+    background: #222;
+    color: white;
+}
+
+.total {
+    font-size: 50px;
+    padding: 5px;
+}
