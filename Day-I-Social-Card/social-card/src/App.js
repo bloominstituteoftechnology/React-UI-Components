@@ -8,7 +8,8 @@ const App = () => {
   return (
     <div className="card-container">
         <HeadContainer/>
-        
+
+        <CardBanner/>
 
     </div>
   );

@@ -1,8 +1,13 @@
 /* All styles for your Card Components live here */
 
-
 .card-container {
     border: 1px solid black;
     height: 500px;
     width: 600px;
+}
+
+.card-banner-image {
+    width: 83%;
+    border-radius: 10px;
+    margin: 2% 0 0 15%;
 }
