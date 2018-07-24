@@ -9,15 +9,18 @@
 }
 
 .small-number {
-    width: 112px;
+    max-width: 112px;
+    width: 24.56vw;
 }
 
 .large-number {
-    width: 336px;
+    max-width: 336px;
+    width: 73.68vw;
 }
 
 .action-button {
-    width: 120px;
+    max-width: 120px;
+    width: 26.32vw;
     background-color: darkred;
     color: white;
 }

@@ -1,5 +1,6 @@
 .calculator-display {
-    width: 456px;
+    max-width: 456px;
+    width: 100vw;
     height: 125px;
     background-color: black;
     border: 1px solid grey;
