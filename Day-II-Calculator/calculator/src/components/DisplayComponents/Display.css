@@ -2,5 +2,13 @@
   width: 100%;
   background: black;
   color: white;
-  height: 50px;
+  height: 128px;
+  font-size: 77px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.display {
+  padding-right: 13px;
 }

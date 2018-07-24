@@ -11,7 +11,7 @@ const Keypad = (props) => {
 
 
     return (
-      <div className="container">
+      <div className="container keypad">
         <div className="row">
           <ActionButton value="clear" onClick={props.handleClear} />
           <NumberButton extraStyle="red" value="%" onClick={props.handleDivide} />
@@ -20,7 +20,7 @@ const Keypad = (props) => {
           <NumberButton value="7" onClick={handleNumber} />
           <NumberButton value="8" onClick={handleNumber} />
           <NumberButton value="9" onClick={handleNumber} />
-          <NumberButton extraStyle="red" value="X" onClick={props.handleMultiply} />
+          <NumberButton extraStyle="red" value="x" onClick={props.handleMultiply} />
         </div>
         <div className="row">
           <NumberButton value="4" onClick={handleNumber} />
@@ -35,7 +35,7 @@ const Keypad = (props) => {
           <NumberButton extraStyle="red" value="+" onClick={props.handleAdd} />
         </div>
         <div className="row">
-          <ActionButton value="0" onClick={props.clearCalc} />
+          <ActionButton value="0" onClick={handleNumber} />
           <NumberButton extraStyle="red" value="=" onClick={props.returnValue} />
         </div>
       </div>
