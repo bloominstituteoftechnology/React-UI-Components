@@ -6,7 +6,7 @@ const NumberButton = props => {
     return (
 
         <div>
-            <ButtonCreator extraStyles={props.extraStyles} text={props.text} />
+            <ButtonCreator extraStyles={props.extraStyles} text={props.text} number={props.text} />
 
         </div>
 
