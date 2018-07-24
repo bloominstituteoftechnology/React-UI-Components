@@ -1,0 +1,19 @@
+
+
+.rectangle{
+    width: 205px; 
+    height:55px; 
+    border: 1px solid blue; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+.square{
+    border: 1px solid red; 
+    width:  67px; 
+    height: 55px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}

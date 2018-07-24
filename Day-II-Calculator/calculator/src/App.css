@@ -1,0 +1,8 @@
+.calculator{
+    max-width:276px; 
+    height: auto; 
+    display: flex; 
+    flex-wrap: wrap; 
+    border: 1px solid black; 
+    margin: auto; 
+}
