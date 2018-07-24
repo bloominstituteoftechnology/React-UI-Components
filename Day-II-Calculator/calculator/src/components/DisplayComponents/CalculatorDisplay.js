@@ -97,7 +97,7 @@ class CalculatorDisplay extends React.Component {
                 });
             }
             this.setState({
-                total: eval(this.state.total).toString(),
+                total: eval(this.state.total).toFixed(2).toString(),
             });
         }
     };
