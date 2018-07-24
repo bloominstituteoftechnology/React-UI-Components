@@ -1,1 +1,24 @@
 /* All styles for your header Components live here */
+.container-header {
+display:flex;
+width: 100%; 
+justify-content: space-between;
+margin-top:10px;
+padding:0 2%;
+
+}
+
+
+.title-head {
+font-size:1.6rem;
+
+}
+
+.thumbnail {
+    height: 70%;
+    /* display: block; */
+}
+
+/* .content-header {
+left:0;  
+} */

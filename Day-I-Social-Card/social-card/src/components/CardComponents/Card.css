@@ -1,1 +1,44 @@
 /* All styles for your Card Components live here */
+a:link{
+    text-decoration:none;
+    color:inherit;
+}
+a:visited {
+    text-decoration: none;
+    color:inherit;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+.container-card {
+height:500px;
+width: 100%;
+/* border: 1px solid black; */
+display:flex;
+flex-direction: column;
+justify-content: end;
+align-items: center;
+}
+
+.banner {
+    width: 80%;
+    height:300px;
+}
+
+.title-card {
+    font-size:1.6rem;
+    font-weight:bold;
+}
+
+.content-card{
+    display:flex;
+    width:100%;
+    padding: 0 10%;
+    flex-direction: column;
+}
