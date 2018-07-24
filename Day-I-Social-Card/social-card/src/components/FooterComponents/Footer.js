@@ -35,7 +35,8 @@ class Footer extends React.Component {
         } else {
             this.state.sync = 1; 
         }
-        this.forceUpdate();
+        // this.forceUpdate();
+        this.setState(this.state); //not sure if this.setState is better than forceUpdate or not. 
          
     }
 
@@ -45,7 +46,8 @@ class Footer extends React.Component {
         }else {
             this.state.like = 1;
         }
-        this.forceUpdate(); 
+        // this.forceUpdate();
+        this.setState(this.state); //not sure if this.setState is better than forceUpdate or not. 
         
     }
 
@@ -58,7 +60,8 @@ class Footer extends React.Component {
             } else {
                 this.state.comment = 1; 
             }
-            this.forceUpdate(); 
+            //this.forceUpdate(); 
+            this.setState(this.state); //not sure if this.setState is better than forceUpdate or not. 
         }   
     }
 
@@ -69,7 +72,8 @@ class Footer extends React.Component {
             this.state.message = 1; 
         }
         alert("Message sent");
-        this.forceUpdate(); 
+        //this.forceUpdate(); 
+        this.setState(this.state); //not sure if this.setState is better than forceUpdate or not. 
     }
 
     render(){
