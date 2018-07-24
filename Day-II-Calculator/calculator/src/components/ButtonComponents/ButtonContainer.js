@@ -6,7 +6,7 @@ import ActionButton from './ActionButton';
 
 
 
-const ButtonContainer1 = () => {
+const ButtonContainer = () => {
     return (
         <div>
             <div>
@@ -40,4 +40,4 @@ const ButtonContainer1 = () => {
 }
 
 
-export default ButtonContainer1;
+export default ButtonContainer;

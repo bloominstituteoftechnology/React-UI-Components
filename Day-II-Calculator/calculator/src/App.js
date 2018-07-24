@@ -1,18 +1,20 @@
 import React from 'react';
 import './App.css';
 
-import ButtonContainer1 from './components/ButtonComponents/ButtonContainer1';
+import ButtonContainer from './components/ButtonComponents/ButtonContainer';
 import CalculatorDisplay from './components/DisplayComponents/CalculatorDisplay';
 
 const App = () => {
   return (
-    <div>
+    <div className="container">
+
       <div className="display">
-        <CalculatorDisplay text="0" />
+        <CalculatorDisplay displaynumberStyle="display-number" text="0" />
       </div>
       <div>
-        <ButtonContainer1 />
+        <ButtonContainer />
       </div>
+
     </div>
   );
 };
