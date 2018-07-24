@@ -1,0 +1,23 @@
+.small-number, .large-number, .action-button {
+    height: 94px;
+    border: 1px solid grey;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 48px;
+}
+
+.small-number {
+    width: 112px;
+}
+
+.large-number {
+    width: 336px;
+}
+
+.action-button {
+    width: 120px;
+    background-color: darkred;
+    color: white;
+}

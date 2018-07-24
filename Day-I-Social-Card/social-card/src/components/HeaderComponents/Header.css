@@ -1,1 +1,31 @@
 /* All styles for your header Components live here */
+.headerBox {
+    width: 590px;
+    height: 100px;
+}
+
+.thumbnail {
+    margin-top: 17px;
+    margin-left: 12px;
+}
+
+.headerTitle span {
+    color: grey;
+    font-size: 13px;
+}
+
+.headerTitle {
+    position: absolute;
+    top: 16px;
+    left: 67px;
+    font-size: 15px;
+}
+
+.headerContent {
+    position: absolute;
+    left: 67px;
+    top: 25px;
+    width: 520px;
+    font-size: 14.25px;
+    line-height: 18px;
+}
