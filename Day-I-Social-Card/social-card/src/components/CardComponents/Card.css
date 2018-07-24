@@ -1,1 +1,45 @@
 /* All styles for your Card Components live here */
+
+h5 {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  padding-top: 3px;
+  padding-bottom: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+.card-container {
+  margin-left: 53px;
+  margin-top: 20px;
+  width: 90%;
+  border: 1px solid lightgrey;
+}
+
+.card-container .card-banner {
+  width: 100%;
+}
+
+.card-container .card-banner img {
+  width: 100%;
+}
+
+.card-container .card-content {
+  padding-left: 15px;
+  padding-right: 25px;
+}
+
+.faded {
+  color: silver;
+  font-weight: lighter;
+}

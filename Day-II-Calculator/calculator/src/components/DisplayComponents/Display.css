@@ -1,0 +1,15 @@
+.display {
+  width: 100%;
+  height: 127px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: black;
+  color: white;
+  padding-right: 20px;
+}
+
+.display h1 {
+  font-size: 72px;
+  font-weight: 100;
+}

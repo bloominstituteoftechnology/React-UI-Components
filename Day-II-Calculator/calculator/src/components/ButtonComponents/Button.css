@@ -1,0 +1,22 @@
+.action-button {
+  width: 336px;
+  border: 1px solid black;
+  height: 94px;
+}
+
+.action-button h1 {
+  font-weight: normal;
+}
+
+.num {
+  width: 112px;
+  border: 1px solid black;
+  height: 94px;
+}
+
+.operator {
+  width: 120px;
+  background-color: #a0051f;
+  color: white;
+  height: 94px;
+}
