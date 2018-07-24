@@ -1,0 +1,18 @@
+.action-button {
+    height: 92px;
+    width: 336px;
+}
+
+.number-button {
+    height: 92px;
+    width: 112px;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.clear-text {
+    background: orange;
+    font-family: sans-serif;
+    font-size: 3rem;
+    font-weight: 300;
+}
