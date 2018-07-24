@@ -1,0 +1,49 @@
+.default-num-bttn-style {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #979797;
+    border-right: 0;
+    height: 93.7125px;
+    width: 25.25%;
+    margin: 0;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.function-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #979797;
+    width: 24%;
+    margin: 0;
+    color: white;
+    background: #A0001E;
+    font-size: 3.5rem;
+    height: 93.7125px;
+}
+
+.action-bttn-style-clear {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #979797;
+    border-right: 0;
+    width: 76%;
+    margin: 0;
+    font-size:2.5rem;
+}
+
+.action-bttn-style-0 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #979797;
+    border-right: 0;
+    width: 76%;
+    margin: 0;
+    font-size:2.5rem;
+    font-weight: bold;
+    margin-bottom: -2px;
+}

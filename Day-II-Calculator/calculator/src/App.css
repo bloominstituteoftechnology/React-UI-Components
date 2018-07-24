@@ -1,0 +1,34 @@
+.calc-container {
+    max-width: 456px;
+    margin: auto;
+    margin-top: 25px;
+}
+
+.calc-display {
+    width: 100.5%;
+    border: 1px solid #979797;
+    border-right: 1.5px solid #979797;
+    border-left: 1.5px solid #979797;
+    border-bottom: 0;
+    background: black;
+    color: white;
+    margin: 0;
+    text-align: end;
+}
+
+.calc-content {
+    width: 101%;
+}
+
+.action-row {
+    display: flex;
+    justify-content: space-between;
+    height: 93.7125px
+}
+
+.bttn-row {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    height: 93.7125px
+}
