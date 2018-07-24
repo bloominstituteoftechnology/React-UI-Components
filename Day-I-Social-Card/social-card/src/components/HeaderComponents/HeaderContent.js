@@ -4,10 +4,9 @@ import './Header.css';
 const HeaderContent = () => {
     return (
         <p className="header-content">
-            Et adipiscing lacus cursus cubilia, erat felis. Facilisis 
-            curae; risus pharetra egestas, quisque pharetra.
-             A magnis adipiscing tincidunt nascetur, tellus mi dolor etiam, 
-             suspendisse luctus cras mollis pharetra id. Tortor.
+            Let's learn React by building simple interfaces with components. Don't try to overthink it,
+            just keep it simple and have fun. Once you feel comfortable using components you are well
+            on your way to mastering React!
              </p>
         );
     };

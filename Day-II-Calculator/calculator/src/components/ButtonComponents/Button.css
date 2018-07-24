@@ -1,0 +1,16 @@
+.btn {
+    width: 110px;
+    height: 92px;
+    color: hsl(159, 0%, 76%)
+}
+
+.btn .operator {
+    width: 118px;
+    color: white;
+    background: hsl(196, 100%, 50%)
+
+}
+.btn .longBtn {
+    width: 332px;
+    height: 92px;
+}

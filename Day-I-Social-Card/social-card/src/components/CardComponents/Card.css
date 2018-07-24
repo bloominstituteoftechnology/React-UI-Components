@@ -3,6 +3,8 @@
 
     width: 520px;
     margin-left: 75px;
+    text-decoration: none;
+    color: black;
 }
 
 
@@ -15,5 +17,23 @@
     margin-top: -4px;
     border: 1px solid rgba(128, 128, 128, 0.295);
     padding-bottom: 40px;
+    padding-right: 55px;
+    
 }
+
+a {
+    text-decoration: none;
+    
+}
+
+a span {
+    font-size: 13px;
+    font-weight: lighter;
+}
+a span:hover {
+    text-decoration: underline;
+    
+}
+
+
 

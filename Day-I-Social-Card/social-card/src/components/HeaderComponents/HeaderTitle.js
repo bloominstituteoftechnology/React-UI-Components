@@ -8,7 +8,7 @@ const HeaderTitle = () => {
         <div className="header-title-container">
             <div className="header-title">
                 Lambda School
-                <span className="time-stamp"> 8am Lambda Time Zone</span>
+                <span className="time-stamp"> July 26th</span>
                 
         </div>
         <HeaderContent />

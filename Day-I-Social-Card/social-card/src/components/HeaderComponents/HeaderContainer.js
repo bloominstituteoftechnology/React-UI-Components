@@ -8,6 +8,7 @@ const HeaderContainer = () => {
         <ImageThumbnail />
         <HeaderTitle />
         </div>
+        
     );
 };
 

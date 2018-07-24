@@ -4,15 +4,14 @@ import './Card.css';
 const CardContent = () => {
     return (
         <div className = "content-wrapper">
-        <h2 className ="content-title"> Here's a title </h2>
+        <h2 className ="content-title"> Get started with React </h2>
         <p className="card-content">
-            Et adipiscing lacus cursus cubilia, erat felis. Facilisis 
-            curae; risus pharetra egestas, quisque pharetra.
-             A magnis adipiscing tincidunt nascetur, tellus mi dolor etiam, 
-             suspendisse luctus cras mollis pharetra id. Tortor.
+            React makes it painless to create interactive UIs. 
+            Design simple views for each state in your application.
              </p>
-             <span> Link </span>
+             <a><span>React.js</span></a>
              </div>
+             
 
         );
     };
