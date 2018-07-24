@@ -1,0 +1,7 @@
+.calc-container{
+    width: 456px;
+    height: 598px;
+    border: 1px solid gray;
+    font-size: 4rem;
+    margin: auto;
+}
