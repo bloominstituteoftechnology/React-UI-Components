@@ -16,6 +16,7 @@
 }
 #card-content *{
     color: black;
+    letter-spacing: 0.35px;
 }
 #card-content a:hover {
     text-decoration: none;
