@@ -3,4 +3,6 @@
     color: white;
     font-size: 5rem;
     text-align: right;
+    padding: 1rem;
+    border: 1px solid gray;
 }
