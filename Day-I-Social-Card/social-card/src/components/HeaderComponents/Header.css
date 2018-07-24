@@ -2,22 +2,15 @@
 .top-container {
     width: 100%;
     display: flex;
-    flex-wrap: wrap;
-    float: right;
-}
-
-.logo-div .lambda-logo {
-    border: 1px solid green;
+    justify-content: center;
+    padding: 10px;
 }
 
 .title-div {
-    width: 90%;
-    border: 1px solid blue;
     display: flex;
     flex-wrap: wrap;
-    float: right;
     align-items: flex-end;
-    margin: 20px 0;
+    margin: 10px;
 }
 
 .title-div h3 {
@@ -25,15 +18,14 @@
     padding: auto;
 }
 
-.title-div p {
+.title-div .lambda-link {
     margin: 0 20px;
     color: #899AA5;
     font-weight: lighter;
 }
 
 .top-p {
-    width: 100%;
-    border: 1px solid blue;
+    margin: 5px 0;
 }
 
 .top-p p {
@@ -42,3 +34,11 @@
     line-height: 1.3;
 }
 
+.lambda-column {
+    height: 50px;
+    margin-top: 10px;
+}
+
+.lambda-column .lambda-logo {
+    height: 100%;
+}
