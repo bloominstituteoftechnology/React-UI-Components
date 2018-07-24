@@ -7,13 +7,13 @@ import NumberButton from './components/ButtonComponents/NumberButton';
 class App extends Component {
 	constructor(props){
 		super(props);
-		this.state = {total:'0'};
+		this.state = {total:''};
 	}
 
-	changeDisplay() {
-		this.setState((prevState)=> ({
-			total: Number(prevState.total + '2').toString()
-		}));
+	changeDisplay= (number) => {
+		let newTotal = this.state.total.slice();
+		newTotal += number;
+		this.setState({ total: newTotal });
 	}
 
 	resetDisplay() {
@@ -30,22 +30,22 @@ class App extends Component {
 				<ActionButton text="clear" buttonStyle="large white" onClick={this.resetDisplay.bind(this)} />
 				<NumberButton text="&#247;" buttonStyle="small red" />
 
-				<NumberButton text="7" buttonStyle="small white" onClick={this.changeDisplay.bind(this)} />
-				<NumberButton text="8" buttonStyle="small white" onClick={this.changeDisplay.bind(this)} />
-				<NumberButton text="9" buttonStyle="small white" onClick={this.changeDisplay.bind(this)} />
+				<NumberButton text="7" buttonStyle="small white" onClick={this.changeDisplay} />
+				<NumberButton text="8" buttonStyle="small white" onClick={this.changeDisplay} />
+				<NumberButton text="9" buttonStyle="small white" onClick={this.changeDisplay} />
 				<NumberButton text="&times;" buttonStyle="small red"/>
 
-				<NumberButton text="4" buttonStyle="small white" onClick={this.changeDisplay.bind(this)} />
-				<NumberButton text="5" buttonStyle="small white" onClick={this.changeDisplay.bind(this)} />
-				<NumberButton text="6" buttonStyle="small white" onClick={this.changeDisplay.bind(this)} />
+				<NumberButton text="4" buttonStyle="small white" onClick={this.changeDisplay} />
+				<NumberButton text="5" buttonStyle="small white" onClick={this.changeDisplay} />
+				<NumberButton text="6" buttonStyle="small white" onClick={this.changeDisplay} />
 				<NumberButton text="&minus;" buttonStyle="small red" />
 
-				<NumberButton text="1" buttonStyle="small white" onClick={this.changeDisplay.bind(this)} />
-				<NumberButton text="2" buttonStyle="small white" onClick={this.changeDisplay.bind(this)} />
-				<NumberButton text="3" buttonStyle="small white" onClick={this.changeDisplay.bind(this)} />
+				<NumberButton text="1" buttonStyle="small white" onClick={this.changeDisplay} />
+				<NumberButton text="2" buttonStyle="small white" onClick={this.changeDisplay} />
+				<NumberButton text="3" buttonStyle="small white" onClick={this.changeDisplay} />
 				<NumberButton text="+" buttonStyle="small red" />
 
-				<ActionButton text="0" buttonStyle="large white" onClick={this.changeDisplay.bind(this)} />
+				<ActionButton text="0" buttonStyle="large white" onClick={this.changeDisplay} />
 				<NumberButton text="=" buttonStyle="small red" />
 			</div>
 		);

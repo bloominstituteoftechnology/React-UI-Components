@@ -9,8 +9,4 @@ const CalculatorDisplay = (props) => {
     );
 }
 
-CalculatorDisplay.defaultProps = {
-  result: "0"
-};
-
 export default CalculatorDisplay;

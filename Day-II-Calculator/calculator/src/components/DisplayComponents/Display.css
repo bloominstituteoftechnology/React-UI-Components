@@ -5,5 +5,7 @@
     font-size: 48px;
     display: flex;
     justify-content: flex-end;
+    align-items: center;
     padding: 10px 20px;
+    height: 80px;
 }
