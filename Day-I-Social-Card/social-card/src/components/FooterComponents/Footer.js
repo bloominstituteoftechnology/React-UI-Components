@@ -22,7 +22,7 @@ import './Footer.css';
 class Footer extends React.Component {
     constructor(props){
         super(props);
-        this.state = {sync: "", like:"", comment:0, message:0}
+        this.state = {sync: "", like:"", comment:"", message:""}
         this.handleSyncClick = this.handleSyncClick.bind(this); 
         this.handleLickClick = this.handleLikeClick.bind(this);
         this.handleCommentClick = this.handleCommentClick.bind(this);
@@ -32,22 +32,20 @@ class Footer extends React.Component {
     handleSyncClick() {
         if(Number.isInteger(this.state.sync)){
             this.state.sync +=1; 
-            this.forceUpdate();
         } else {
-            this.state.sync = 1;
-            this.forceUpdate(); 
+            this.state.sync = 1; 
         }
+        this.forceUpdate();
          
     }
 
     handleLikeClick(){
         if(Number.isInteger(this.state.like)){
-            this.state.like ++;
-            this.forceUpdate(); 
+            this.state.like ++; 
         }else {
-            this.state.sync = 1;
-            this.forceUpdate(); 
+            this.state.like = 1;
         }
+        this.forceUpdate(); 
         
     }
 
@@ -55,13 +53,21 @@ class Footer extends React.Component {
         let answer = prompt("enter comment");
         answer;
         if(answer.length > 5){
-            this.state.comment ++;
+            if(Number.isInteger(this.state.comment)){
+                this.state.comment ++;
+            } else {
+                this.state.comment = 1; 
+            }
             this.forceUpdate(); 
         }   
     }
 
     handleMessageClick() {
-        this.state.message ++;
+        if(Number.isInteger(this.state.message)){
+            this.state.message ++;
+        } else {
+            this.state.message = 1; 
+        }
         alert("Message sent");
         this.forceUpdate(); 
     }
