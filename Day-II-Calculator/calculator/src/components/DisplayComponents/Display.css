@@ -1,0 +1,11 @@
+.topDisplay{
+    background-color: black;
+    color:white;
+    width: 5.42em;
+    height: 1.4em;
+    font-size: 90px;
+    font-weight: lighter;
+    display:flex;
+    justify-content: flex-end;
+
+}
