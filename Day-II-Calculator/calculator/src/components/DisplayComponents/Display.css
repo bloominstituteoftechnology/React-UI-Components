@@ -1,8 +1,8 @@
-.total {
-  text-align: right;
+#total {
+  justify-content: flex-end;
   background: black;
   color: white;
   font-size: 3rem;
   line-height: 100px;
-  padding: 5px;
+  padding: 6px;
 }
