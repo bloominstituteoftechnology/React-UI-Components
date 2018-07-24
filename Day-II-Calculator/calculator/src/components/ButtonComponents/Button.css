@@ -1,0 +1,32 @@
+
+.action-style {
+    width: 336px;
+    height: 95px;
+    background: white;
+    font-size: 40px;
+    font-weight: bold;
+    border: none;
+    border-top: 2px solid gray;
+}
+
+.operator-style {
+    width: 120px;
+    height: 95px;
+    background: red;
+    font-size: 46px;
+    color: white;
+    border: 2px solid gray;
+    
+
+}
+
+.number-style {
+    width: 112px;
+    height: 94px;
+    font-size: 40px;
+    font-weight: bold;
+    border: none;
+    border-right: 1px solid gray;
+    border-top: 2px solid gray;
+}
+
