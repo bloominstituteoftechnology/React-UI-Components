@@ -4,7 +4,6 @@ import './Button.css';
 const NumberButton = props => {
     return (
       <div className = "numberBtn">
-        
       </div>
     );
   };
