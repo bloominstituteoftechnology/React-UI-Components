@@ -3,17 +3,17 @@
     background-image: url("https://ibin.co/3wnC6SgIOJud.png");
     width: 604px;
     height: 317px;
-    background-size: cover;
+    background-size: 100%100%;
     display: inline-block;
-    margin-left: 20.5%;
+    margin-left: 19.2%;
+    border-radius: 7px 7px 0 0;
 }
 #card-content {
     margin-top: 10px;
-    width: 604px;
-    margin-left: 20.5%;
     text-decoration: none;
     display: inline-block;
-    
+    margin-left: 22.2%;
+    margin-right: .5%;
 }
 #card-content *{
     color: black;

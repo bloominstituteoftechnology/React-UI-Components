@@ -2,14 +2,15 @@
 .header-content-div {
     display: inline-block;
     width: 80%;
-    margin-left: 1%;
+    margin-left: 1.2%;
 }
 .img-div {
     display: inline-block;
+    width: 135px;
+    height: 145px;
 }
 .header-container{
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    letter-spacing: .3px;
 }
