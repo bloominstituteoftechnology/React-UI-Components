@@ -11,10 +11,7 @@ class App extends Component {
 		this.state = {display:'', firstNumber: null, operator: null};
 	}
 
-	changeDisplay = (number) => {
-		let newTotal = this.state.display;
-		newTotal += number;
-		this.setState({ display: newTotal });
+	checkLength = () => {
 		if (this.state.display.length <= 8) {
 			document.querySelector('.result p').style.fontSize = '48px';
 		}
@@ -24,6 +21,13 @@ class App extends Component {
 		if (this.state.display.length > 16) {
 			document.querySelector('.result p').style.fontSize = '12px';
 		}
+	}
+
+	changeDisplay = (number) => {
+		let newTotal = this.state.display;
+		newTotal += number;
+		this.setState({ display: newTotal });
+		this.checkLength();
 	}
 
 	resetDisplay = () => {
@@ -52,6 +56,7 @@ class App extends Component {
 				this.setState({ display: result, firstNumber: result, operator: null });
 			}
 		}
+		this.checkLength();
 	}
 
 	storeOperator = (operator) => {
@@ -62,6 +67,7 @@ class App extends Component {
 				display: prevState.display + operator
 			}));
 		}
+		this.checkLength();
 	}
 
 	render() {
