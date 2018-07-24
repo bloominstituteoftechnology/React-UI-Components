@@ -32,7 +32,10 @@ h3 {
 .calc-nums {
     width: 300px;
     height: 500px;
-    display: inline-flex;
+}
+
+.calc-nums div {
+    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }

@@ -4,10 +4,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    /* border: 1px solid silver; */
 }
 
 .num-btn {
-    background-color: silver;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
 }
 
 .three-fourths {
@@ -17,4 +20,6 @@
 
 .opr-btn {
     background-color: maroon;
+    color:white;
+    font-size: 20px;
 }
