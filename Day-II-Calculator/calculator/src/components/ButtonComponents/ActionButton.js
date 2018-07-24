@@ -3,10 +3,10 @@ import './Button.css';
 
 
 class ActionButton extends React.Component {
-    constructor(props){
-        super(props)
-        this.state = {}
-    }
+    // constructor(props){
+    //     super(props)
+        
+    // }
 
 
     render() {

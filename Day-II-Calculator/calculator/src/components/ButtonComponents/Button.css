@@ -86,5 +86,15 @@
 
 .fas {
     color: #FFFFFF;
-    font-size: 48px; 
+    font-size: 40px; 
+}
+
+/* Functionality styling on hover etc */
+
+.nonzero:hover, .clear:hover{
+    cursor:pointer; 
+}
+
+.operation:hover {
+    cursor:pointer;
 }

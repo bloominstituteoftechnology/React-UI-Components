@@ -3,10 +3,10 @@ import './Button.css';
 import ActionButton from './ActionButton';
 
 class NumberButton extends React.Component {
-    constructor(props){
-        super(props)
-        this.state = {}
-    }
+    // constructor(props){
+    //     super(props)
+        
+    // }
 
 
     render() {
@@ -17,17 +17,17 @@ class NumberButton extends React.Component {
                     <div className="numberInputs">
                         <div className="clear">{this.props.clear}</div>
 
-                        <div className="nonzero sm">{this.props.seven}</div>
-                        <div className="nonzero">{this.props.eight}</div>
-                        <div className="nonzero">{this.props.nine}</div>
-                        <div className="nonzero sm">{this.props.four}</div>
-                        <div className="nonzero">{this.props.five}</div>
-                        <div className="nonzero">{this.props.six}</div>
-                        <div className="nonzero sm">{this.props.one}</div>
-                        <div className="nonzero">{this.props.two}</div>
-                        <div className="nonzero">{this.props.three}</div>
+                        <div onClick={this.props.handleButtonClick(this.props.seven)} className="nonzero sm">{this.props.seven}</div>
+                        <div onClick={this.props.handleButtonClick(this.props.eight)}className="nonzero">{this.props.eight}</div>
+                        <div onClick={this.props.handleButtonClick(this.props.nine)}className="nonzero">{this.props.nine}</div>
+                        <div onClick={this.props.handleButtonClick(this.props.four)}className="nonzero sm">{this.props.four}</div>
+                        <div onClick={this.props.handleButtonClick(this.props.five)}className="nonzero">{this.props.five}</div>
+                        <div onClick={this.props.handleButtonClick(this.props.six)}className="nonzero">{this.props.six}</div>
+                        <div onClick={this.props.handleButtonClick(this.props.one)}className="nonzero sm">{this.props.one}</div>
+                        <div onClick={this.props.handleButtonClick(this.props.two)}className="nonzero">{this.props.two}</div>
+                        <div onClick={this.props.handleButtonClick(this.props.three)}className="nonzero">{this.props.three}</div>
 
-                        <div className="clear zero">{this.props.zero}</div>
+                        <div onClick={this.props.handleButtonClick(this.props.zero)}className="clear zero">{this.props.zero}</div>
                     </div>
                     <ActionButton />
                 </div>

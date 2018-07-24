@@ -2,16 +2,15 @@ import React from 'react';
 import './Display.css';
 
 class CalculatorDisplay extends React.Component {
-    constructor(props){
-        super(props)
-        this.state = {total: 0}
-    }
+    // constructor(props){
+    //     super(props)
+    // }
 
 
     render() {
        return (
              <div className="display">
-                 <div className="output">{this.state.total}</div>
+                 <div id = "onScreen"className="output">0</div>
              </div>
         ); 
     }
