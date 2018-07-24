@@ -1,5 +1,10 @@
+button:focus {outline:0;}
+button:hover {
+    cursor: pointer;
+}
+
 .operator {
-    width: 25%;
+    width: 27%;
     height: 93px;
     border-style: solid;
     border-color: gray;
@@ -9,24 +14,28 @@
     font-size: 60px;
     font-weight: normal;
     
+    
 }
 
 .digit {
     width: 25%;
     height: 93px;
     border-style: solid;
-    border-color: lightgray;
+    border-color: gray;
     border-width: 0 1px 2px;
     background: white;
     color: black;
-    font-size: 50px;
+    font-size: 45px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    
 }
 
 .custom-action-btn {
     width: 75%;
     height: 93px;
     border-style: solid;
-    border-color: lightgray;
+    border-color: gray;
     border-width: 0 1px 2px 0;
     background: white;
     color: black;
