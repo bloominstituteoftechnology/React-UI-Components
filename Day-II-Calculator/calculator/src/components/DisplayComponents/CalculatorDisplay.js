@@ -8,7 +8,7 @@ const CalculatorDisplay = props => {
 };
 
 CalculatorDisplay.defaultProps = {
-    text: 'Default Text'
+    text: 0
   };
 
 export default CalculatorDisplay;
