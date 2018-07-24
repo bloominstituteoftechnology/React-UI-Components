@@ -9,3 +9,16 @@
     border-left:none;
     font-size:2em;
 }
+
+.action-styles {
+    flex: 0 1 75%;
+}
+
+.num-styles {
+    font-weight: bold;
+}
+
+.operator-styles {
+    background: maroon;
+    color: white;
+}

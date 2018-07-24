@@ -9,21 +9,21 @@ const App = () => {
     <div className="calculator-wrapper" >
       <CalculatorDisplay />
       <ActionButton text="clear" />
-      <NumberButton text="/" />
+      <NumberButton text="&#247;" extraStyles="operator-styles" />
       <NumberButton text="7" />
       <NumberButton text="8" />
       <NumberButton text="9" />
-      <NumberButton text="X" />
+      <NumberButton text="x" extraStyles="operator-styles" />
       <NumberButton text="4" />
       <NumberButton text="5" />
       <NumberButton text="6" />
-      <NumberButton text="-" />
+      <NumberButton text="-" extraStyles="operator-styles" />
       <NumberButton text="1" />
       <NumberButton text="2" />
       <NumberButton text="3" />
-      <NumberButton text="+" />
-      <ActionButton text="0" />
-      <NumberButton text="=" />
+      <NumberButton text="+" extraStyles="operator-styles" />
+      <ActionButton text="0" extraStyles="num-styles action-styles" />
+      <NumberButton text="=" extraStyles="operator-styles" />
     </div>
   );
 };

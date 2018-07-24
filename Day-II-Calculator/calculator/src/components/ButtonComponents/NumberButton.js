@@ -7,4 +7,9 @@ const NumberButton = props => {
     )
 };
 
+NumberButton.defaultProps = {
+    text: 'Default Text',
+    extraStyles: 'num-styles'
+  };
+
 export default NumberButton;
