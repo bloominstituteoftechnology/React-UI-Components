@@ -1,6 +1,15 @@
 /* All styles for your header Components live here */
-.imageThumbnail {
-    background-image: '/Day-I-Social-Card/design-files/image_thumbnail.jpg';
+.imageThumbnail  {
     display: flex;
-    flex-direction: start;
+    float: left;
+    margin-top: 5px;
+}
+
+.imageThumbnail img {
+    width: 60px;
+    height: 30px;
+}
+
+.headerContent {
+    text-align: right;
 }
