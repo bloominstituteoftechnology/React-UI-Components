@@ -3,14 +3,20 @@
     display: flex;
     flex-wrap: wrap;
     float: right;
-    width: 85%;
+    width: 91%;
     border: 1px solid lightgray;
+    border-radius: 5px;
+}
+
+.image-container {
+    width: 100%;
 }
 
 .image-container .img-banner{
     width: 100%;
     display: flex;
     justify-content: center;
+    border-radius: 4px;
 }
 
 .card-content {

@@ -2,15 +2,20 @@
 .top-container {
     width: 100%;
     display: flex;
-    justify-content: center;
-    padding: 10px;
+    justify-content: flex-end;
+    /* border: 1px solid red; */
 }
+
+
 
 .title-div {
     display: flex;
     flex-wrap: wrap;
     align-items: flex-end;
-    margin: 10px;
+    padding: 10px 5px;
+    width: 95%;
+    /* border: 1px solid blue; */
+
 }
 
 .title-div h3 {
@@ -36,7 +41,8 @@
 
 .lambda-column {
     height: 50px;
-    margin-top: 10px;
+    margin: 0 5px;
+    margin-top: 10px;   
 }
 
 .lambda-column .lambda-logo {
