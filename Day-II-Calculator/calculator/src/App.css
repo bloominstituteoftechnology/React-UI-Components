@@ -1,6 +1,5 @@
 .calculator-container {
-    height: 600px;
+    height: 100%;
     max-width:455px;
     width: 468px;
-    border: 1px solid #000;
   }
