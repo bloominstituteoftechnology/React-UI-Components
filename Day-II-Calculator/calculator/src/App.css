@@ -1,7 +1,6 @@
 
 .wrap {
-    width: 440px;
+    max-width: 440px;
     height: auto;
     margin: 0 auto;
-    border: 1px solid red;
 }

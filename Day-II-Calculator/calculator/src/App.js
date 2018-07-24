@@ -8,27 +8,31 @@ const App = () => {
   return (
     <div className="wrap">
     <CalculatorDisplay />
-      <div><ActionButton text="clear" /><NumberButton text="&#247;" /></div>
+      <div>
+      <ActionButton text="clear" buttonStyle="actionButton" />
+      <NumberButton text="&#247;" buttonStyle="numberButtonRed" />
+      </div>
       <div> 
-      <NumberButton text="7" />
-      <NumberButton text="8" />
-      <NumberButton text="9" />
-      <NumberButton text="&#215;" />
+      <NumberButton text="7" buttonStyle="numberButton" />
+      <NumberButton text="8" buttonStyle="numberButton" />
+      <NumberButton text="9" buttonStyle="numberButton" />
+      <NumberButton text="&#215;" buttonStyle="numberButtonRed" />
       </div>
       <div>
-      <NumberButton text="4" />
-      <NumberButton text="5" />
-      <NumberButton text="6" />
-      <NumberButton text="&#8722;" />
+      <NumberButton text="4" buttonStyle="numberButton" />
+      <NumberButton text="5" buttonStyle="numberButton" />
+      <NumberButton text="6" buttonStyle="numberButton" />
+      <NumberButton text="&#8722;" buttonStyle="numberButtonRed" />
       </div>
       <div>
-      <NumberButton text="1" />
-      <NumberButton text="2" />
-      <NumberButton text="3" />
-      <NumberButton text="&#43;" />
+      <NumberButton text="1" buttonStyle="numberButton" />
+      <NumberButton text="2" buttonStyle="numberButton" />
+      <NumberButton text="3" buttonStyle="numberButton" />
+      <NumberButton text="&#43;" buttonStyle="numberButtonRed" />
       </div>
       <div>
-        <ActionButton text="0" /><NumberButton text="=" />
+      <ActionButton text="0" buttonStyle="actionButton" />
+      <NumberButton text="=" buttonStyle="numberButtonRed" />
       </div>
      
       
