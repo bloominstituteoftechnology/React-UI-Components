@@ -1,5 +1,10 @@
 .calculator-container {
-    height: 100%;
-    max-width:455px;
+    height: 595px;
+    max-width:452px;
     width: 100%;
+    border:2px solid lightgray;
+  }
+
+  .enable-flex{
+      display: flex;
   }

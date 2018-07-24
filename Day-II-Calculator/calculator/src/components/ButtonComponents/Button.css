@@ -1,6 +1,6 @@
 .operator {
     width: 25%;
-    height: 100px;
+    height: 93px;
     border-style: solid;
     border-color: gray;
     border-width: 0 1px 2px;
@@ -13,9 +13,9 @@
 
 .digit {
     width: 25%;
-    height: 100px;
+    height: 93px;
     border-style: solid;
-    border-color: gray;
+    border-color: lightgray;
     border-width: 0 1px 2px;
     background: white;
     color: black;
@@ -24,11 +24,13 @@
 
 .custom-action-btn {
     width: 75%;
-    height: 100px;
+    height: 93px;
     border-style: solid;
-    border-color: gray;
-    border-width: 0 1px 2px;
+    border-color: lightgray;
+    border-width: 0 1px 2px 0;
     background: white;
     color: black;
-    font-size: 50px;
+    font-size: 43px;
+    font-family: sans-serif;
+    font-weight: lighter;
 }
