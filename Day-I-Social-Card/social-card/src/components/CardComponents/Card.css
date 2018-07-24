@@ -8,6 +8,27 @@
 
 .card-banner-image {
     width: 83%;
-    border-radius: 10px;
+    border-radius: 10px 10px 0 0;
     margin: 2% 0 0 15%;
 }
+
+.banner-bottom {
+    width: 83%;
+    margin: 0 0 0 15%;
+    margin-top: -2px;
+    border-bottom: 1px solid #e3e3e3;
+    border-left: 1px solid #e3e3e3;
+    border-right: 1px solid #e3e3e3;
+    border-radius: 0 0 4px 4px;
+  }
+  
+  .banner-content {
+    margin: 0;
+    padding: 0.3em;
+  }
+  
+  .link {
+    text-decoration: none;
+    color: #d1d2d3;
+    margin-left: 0;
+  }
