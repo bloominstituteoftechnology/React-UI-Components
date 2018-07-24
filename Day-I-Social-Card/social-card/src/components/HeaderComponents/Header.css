@@ -1,1 +1,17 @@
 /* All styles for your header Components live here */
+.HeaderContainer {
+    display: flex;
+
+
+}
+
+.HeaderContainer img {
+    margin-top: 14px;
+    margin-right: 12px;
+}
+
+.HeaderContentP {
+    line-height: 1.4;
+    margin-top: 0;
+}
+

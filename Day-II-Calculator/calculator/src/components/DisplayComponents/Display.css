@@ -1,0 +1,10 @@
+.displayButton {
+    height: 120px;
+    width: 400px;
+    background: rgb(34, 34, 34);
+    color: white;
+    font-size: 70px;
+    text-align: right;
+    padding-right: 15px;
+    padding-top: 10px;
+}
