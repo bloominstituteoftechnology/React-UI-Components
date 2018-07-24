@@ -6,7 +6,7 @@
 }
 
 .nonzero, .zero {
-    font-size: 30px; 
+    font-size: 48px; 
     color: #222222;
     font-weight: bold;
     
@@ -37,9 +37,27 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 30px;
+    font-size: 48px;
 }
 .zero {
     border-bottom: 2px solid #979797;
     height: 96px;
+}
+
+/* Display section  */
+
+.display {
+    width: 456px; 
+    height: 124px; 
+    background: #222222;
+    color: #FFFFFF; 
+    font-size: 70px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center; 
+    
+}
+
+.output {
+    margin-right: 16px;
 }

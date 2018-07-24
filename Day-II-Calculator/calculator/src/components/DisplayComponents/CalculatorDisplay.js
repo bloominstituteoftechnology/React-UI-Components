@@ -10,7 +10,9 @@ class CalculatorDisplay extends React.Component {
 
     render() {
        return (
-             <div></div>
+             <div className="display">
+                 <div className="output">0</div>
+             </div>
         ); 
     }
 }
