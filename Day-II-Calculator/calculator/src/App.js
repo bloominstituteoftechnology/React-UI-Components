@@ -30,25 +30,27 @@ class App extends Component {
 		let secondNum = Number(this.state.display.split(this.state.operator)[1]);
 		if (this.state.operator === "*"){
 			let result = firstNum * secondNum;
-			this.setState({display: result, firstNumber: result});
+			this.setState({display: result, firstNumber: result, operator: null});
 		} else if (this.state.operator === "/"){
 			let result = firstNum / secondNum;
-			this.setState({ display: result, firstNumber: result });
+			this.setState({ display: result, firstNumber: result, operator: null });
 		} else if (this.state.operator === "+"){
 			let result = firstNum + secondNum;
-			this.setState({ display: result, firstNumber: result });
+			this.setState({ display: result, firstNumber: result, operator: null });
 		} else if (this.state.operator === "-"){
 			let result = firstNum - secondNum;
-			this.setState({ display: result, firstNumber: result });
+			this.setState({ display: result, firstNumber: result, operator: null });
 		}
 	}
 
 	storeOperator = (operator) => {
-		this.setState((prevState) => ({
-			operator: operator, 
-			firstNumber: Number(this.state.display), 
-			display: prevState.display + operator
-		}));
+		if (this.state.operator == null){
+			this.setState((prevState) => ({
+				operator: operator, 
+				firstNumber: Number(this.state.display), 
+				display: prevState.display + operator
+			}));
+		}
 	}
 
 	render() {
