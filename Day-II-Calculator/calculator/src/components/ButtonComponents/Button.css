@@ -5,12 +5,12 @@
 
 .number-button {
   width: 100px;
-  border: 1px solid #e3e3e3;
+  border: 1px solid grey;
 }
 
 .action{
   width: 300px;
-  border: 1px solid #e3e3e3; 
+  border: 1px solid grey; 
 }
 
 .operator {

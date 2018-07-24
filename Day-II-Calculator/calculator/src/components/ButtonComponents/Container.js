@@ -3,7 +3,7 @@ import './Button.css';
 
 const Container = props => {
   return (
-    <button className={`row ${props.className}`}>{props.children}</button>
+    <div className={`row ${props.className}`}>{props.children}</div>
   );
 };
 
