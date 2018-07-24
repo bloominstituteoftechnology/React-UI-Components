@@ -1,1 +1,35 @@
 /* All styles for your header Components live here */
+#header {
+    display: inline-flex;
+    width: 800px;
+    height:200px;
+}
+.logo {
+    flex-grow:2;
+    width:80px;
+    margin:0;  
+    padding:0;
+}
+.logo-img {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+.title {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+}
+.title small {
+    color: darkgray;
+    margin-left: 20px;
+    font-size: 16px;
+}
+.text {
+    flex-grow: 1;
+    margin: 0;
+    margin-right:20px;
+    padding: 0 10px;
+    width: 700px;
+}
