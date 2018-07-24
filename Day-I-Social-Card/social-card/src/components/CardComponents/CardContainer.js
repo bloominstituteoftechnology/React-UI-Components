@@ -4,7 +4,7 @@ import CardBanner from './CardBanner.js';
 import CardContent from './CardContent.js';
 
 
-const CardContainer = () => <div><CardBanner /><CardContent /></div>;
+const CardContainer = () => <div class="cardContainer"><div class="border"><CardBanner /><CardContent /></div></div>;
 
 
 

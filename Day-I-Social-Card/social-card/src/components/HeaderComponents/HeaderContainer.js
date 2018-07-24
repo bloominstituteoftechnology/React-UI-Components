@@ -6,8 +6,9 @@ import HeaderContent from './HeaderContent';
 
 
 const HeaderContainer = () => 
-<div>
-    <ImageThumbnail /><HeaderTitle /><br /><HeaderContent />
+<div class="headerContainer">
+    <div><ImageThumbnail /></div>
+    <div><HeaderTitle /><br /><HeaderContent /></div>
 </div>;
 
 export default HeaderContainer;
