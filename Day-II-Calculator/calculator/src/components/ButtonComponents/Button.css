@@ -3,7 +3,7 @@
   background-color: white;
   color: black;
   text-align: center;
-  border-bottom: 1px solid grey;
+  outline: 2px solid grey;
 }
 
 .numberButton-div p {
@@ -23,7 +23,7 @@
   background: #A0001E;
   color: white;
   text-align: center;
-  border-bottom: 1px solid grey;
+  outline: 2px solid grey;
 }
 
 .actionButtonStyles p {
@@ -40,7 +40,7 @@
   width: 74%;
   background: white;
   color: black;
-  border-bottom: 1px solid grey;
+  outline: 2px solid grey;
 }
 
 .clearWidth p {

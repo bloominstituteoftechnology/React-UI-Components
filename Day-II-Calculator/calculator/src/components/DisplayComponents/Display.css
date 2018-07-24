@@ -3,7 +3,7 @@
   background-color: black;
   color: white;
   text-align: end;
-  border-bottom: 1px solid grey;
+  outline: 2px solid grey;
 }
 
 .total-div p {
