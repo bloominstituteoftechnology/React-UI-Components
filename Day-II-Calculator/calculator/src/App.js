@@ -14,21 +14,21 @@ const App = () => {
     <ActionButton text="÷" extraStyles="operator" />
     </div>
     <div className="row second-row">
-    <NumberButton text="9" extraStyles="number" />
-    <NumberButton text="8" extraStyles="number" />
     <NumberButton text="7" extraStyles="number" />
+    <NumberButton text="8" extraStyles="number" />
+    <NumberButton text="9" extraStyles="number" />
     <ActionButton text="×" extraStyles="operator" />
     </div>
     <div className="row third-row">
-    <NumberButton text="6" extraStyles="number" />
-    <NumberButton text="5" extraStyles="number" />
     <NumberButton text="4" extraStyles="number" />
+    <NumberButton text="5" extraStyles="number" />
+    <NumberButton text="6" extraStyles="number" />
     <ActionButton text="-" extraStyles="operator" />
   </div>
     <div className="row fourth-row">
-    <NumberButton text="3" extraStyles="number" />
-    <NumberButton text="2" extraStyles="number" />
     <NumberButton text="1" extraStyles="number" />
+    <NumberButton text="2" extraStyles="number" />
+    <NumberButton text="3" extraStyles="number" />
     <ActionButton text="+" extraStyles="operator" />
   </div>
     <div className="row fifth-row">
