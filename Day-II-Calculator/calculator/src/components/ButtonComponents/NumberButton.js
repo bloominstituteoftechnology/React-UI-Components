@@ -3,7 +3,7 @@ import './Button.css';
 
 const NumberButton = props => {
     return (
-        <button ClassName={`num-butt ${props.bgColor}`}>{props.text}</button>
+        <button className={`num-butt ${props.bgColor}`}>{props.text}</button>
     );
 };
 

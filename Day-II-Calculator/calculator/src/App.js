@@ -9,32 +9,40 @@ import NumberButton from './components/ButtonComponents/NumberButton';
 const App = () => {
   
   return (
-   <div className= "container">
+   <div>
 
     <CalculatorDisplay />
     
-
+    <div className = "buttonone">
     <ActionButton className = "clear" text= "clear" />
     <NumberButton bgColor= "red-button" text = "/" />
-
-    <NumberButton text = "7" />
-    <NumberButton  text = "8" />
-    <NumberButton text = "9" />
+    </div>
+    <div className = "buttontwo">
+    <NumberButton bgColor= "num-butt" text = "7" />
+    <NumberButton bgColor= "num-butt" text = "8" />
+    <NumberButton bgColor= "num-butt" text = "9" />
     <NumberButton bgColor= "red-button" text = "X" />
+    </div>
 
-    <NumberButton  text = "4" />
-    <NumberButton text = "5" />
-    <NumberButton  text = "6" />
+<div className ="buttonthree">
+    <NumberButton bgColor= "num-butt" text = "4" />
+    <NumberButton bgColor= "num-butt" text = "5" />
+    <NumberButton bgColor= "num-butt" text = "6" />
     <NumberButton bgColor= "red-button" text = "-" />
+</div>
 
-
-    <NumberButton  text = "1" />
-    <NumberButton  text = "2" />
-    <NumberButton  text = "3" />
+<div className = "buttonfour">
+    <NumberButton bgColor= "num-butt" text = "1" />
+    <NumberButton bgColor= "num-butt" text = "2" />
+    <NumberButton bgColor= "num-butt" text = "3" />
     <NumberButton bgColor= "red-button" text = "+" />
+  
+  </div>
 
+<div className = "buttonfive">
     <ActionButton className = "zero" text="0" /> 
     <NumberButton bgColor= "red-button" text = "=" />
+</div>
 
     </div>
   );
