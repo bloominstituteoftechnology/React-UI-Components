@@ -5,7 +5,7 @@ import Banner from './CardBanner';
 
 const CardContainer = () => {
   return (
-    <div className = 'container' onclick = "window.location.href='https://reactjs.org'">
+    <div className = 'row' onClick = "window.location.href='https://reactjs.org'">
     <Banner />
     <CardContent />
     </div>

@@ -1,6 +1,23 @@
 /* All styles for your Card Components live here */
 .container {
-  height:  500px;
+  height:  600px;
   width: 500px;
   border: 1px solid black;
+}
+
+.bannerimg{
+  background-image: url("https://ibin.co/3wnC6SgIOJud.png");
+  width: 500px
+}
+.card{
+  width: 496px;
+}
+.react{
+  text-decoration: none!important;
+  color:black;
+}
+.reactlink{
+color: -webkit-link;
+cursor: pointer;
+text-decoration: underline;
 }
