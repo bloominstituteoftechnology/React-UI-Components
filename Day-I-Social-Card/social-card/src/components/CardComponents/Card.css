@@ -12,11 +12,13 @@
 
 .custom-card-banner {
     background-image: url(https://ibin.co/3wnC6SgIOJud.png);
-    background-size: cover;
+    background-size: contain;
     height: 60%;
     width: 100%;
     border-radius: 5px;
 
 }
 
-
+.custom-card-content{
+    color:black;
+}
