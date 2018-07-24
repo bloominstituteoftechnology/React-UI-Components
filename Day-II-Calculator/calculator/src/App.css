@@ -1,6 +1,6 @@
 .container{
-    max-width: 800px;
+    max-width: 600px;
     margin: 0 auto;
-    background-color: red;
+    background-color: rgb(41, 40, 40);
     border: 3px solid black;
 }

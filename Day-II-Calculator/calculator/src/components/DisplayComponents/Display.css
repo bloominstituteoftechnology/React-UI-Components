@@ -1,3 +1,6 @@
-.calculator{
-
+.display{
+    height: 100px;
+    color: white;
+    font-size: 5rem;
+    text-align: right;
 }
