@@ -6,9 +6,9 @@ import Display from './components/DisplayComponents/CalculatorDisplay.js';
 
 
 const App = () => (
-  <div>
+  <div className="app-style">
     <Display />
-    <ActionButton />
+    <ActionButton text="1" />
     <NumberButtons />
   </div>
 );

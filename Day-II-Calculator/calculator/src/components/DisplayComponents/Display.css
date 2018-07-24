@@ -1,0 +1,12 @@
+.display-style {
+  border: 1px solid gray;
+  width: 200px;
+  height: 50px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px;
+  box-sizing: border-box;
+  color: white;
+  background-color: black;
+}

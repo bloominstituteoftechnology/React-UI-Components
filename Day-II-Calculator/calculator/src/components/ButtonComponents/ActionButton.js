@@ -1,11 +1,12 @@
 import React from 'react';
 import './Button.css';
 
-
-const ActionButton = props =>{
+const ActionButton = props => {
   return (
-      <div>Action</div>
+      <div className="action-style" text="props.text">{props.text}</div>
   );
 };
+
+/*creating a action button template*/
 
 export default ActionButton;
