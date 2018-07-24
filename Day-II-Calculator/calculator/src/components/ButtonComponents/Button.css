@@ -1,26 +1,22 @@
-
-
-.rectangle{
-    width: 205px; 
-    height:55px; 
-    border: 1px solid lightgray; 
-    display: flex; 
-    justify-content: center; 
-    align-items: center; 
-    font-size: 25px; 
+.rectangle {
+  width: 205px;
+  height: 55px;
+  border: 1px solid lightgray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
 }
-
-.square{
-    border: 1px solid lightgray; 
-    width:  67px; 
-    height: 55px; 
-    display: flex; 
-    justify-content: center; 
-    align-items: center; 
-    font-size: 25px; 
+.square {
+  border: 1px solid lightgray;
+  width: 67px;
+  height: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
 }
-
-.signs{
-    background: #930000; 
-    color: white; 
+.signs {
+  background: #930000;
+  color: white;
 }
