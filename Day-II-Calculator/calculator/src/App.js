@@ -8,9 +8,15 @@ const App = () => {
     <div className="calculator-container">
       <CalculatorDisplay />
       <div>
-        <NumberButton buttonStyle='digit' symbol='÷'/>
+        <NumberButton buttonStyle='operator' symbol='÷' />
+        <NumberButton buttonStyle='operator' symbol='÷' />
       </div>
-
+      <div>
+        <NumberButton buttonStyle='digit' symbol='÷' />
+        <NumberButton buttonStyle='digit' symbol='÷' />
+        <NumberButton buttonStyle='digit' symbol='÷' />
+        <NumberButton buttonStyle='operator' symbol='÷' />
+      </div>
     </div>
   );
 };

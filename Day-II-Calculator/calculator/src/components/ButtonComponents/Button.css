@@ -1,6 +1,19 @@
-.digit {
+.operator {
     width: 25%;
-    border: 1px solid gray;
+    height: 100px;
+    border-style: solid;
+    border-color: gray;
+    border-width: 0 1px 2px;
     background: #A0001E;
     color: white;
+}
+
+.digit {
+    width: 25%;
+    height: 100px;
+    border-style: solid;
+    border-color: gray;
+    border-width: 0 1px 2px;
+    background: white;
+    color: black;
 }
