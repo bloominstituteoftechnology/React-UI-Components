@@ -3,15 +3,28 @@
     height: 94px;
     font-size: 300%;
     border: solid gray 1px;
+    font-family: 'Raleway';
 }
+
 .white {
     color: black;
+}
+.white:hover {
+    background:rgba(0, 0, 0, 0.1);
+    cursor: pointer;
 }
 
 .red {
     color: white;
     background: darkred;
     width: 120px;
+    cursor: pointer;
+}
+.shade {
+    background: blue;
+}
+.red:hover {
+    background: rgb(94, 0, 0);
 }
 
 .widebtn {
@@ -28,8 +41,13 @@
     display:flex;
     justify-content: flex-end;
     align-items: center;
+    font-family: 'Raleway';
 }
 
 p {
     margin-right: 4%;
+}
+
+i {
+    font-size: 86%;
 }
