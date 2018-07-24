@@ -1,9 +1,8 @@
 .total {
-  height: 100px;
-  background: #222222;
-  color: #ffffff;
-  font-size: 50px;
+  text-align: right;
+  background: black;
+  color: white;
+  font-size: 3rem;
   line-height: 100px;
   padding: 5px;
-  text-align: right;
 }
