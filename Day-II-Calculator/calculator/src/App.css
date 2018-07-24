@@ -1,0 +1,13 @@
+
+.main-container {
+  width: 454px;
+  height: 600px;
+  margin: auto;
+  margin-top: 100px;
+  border-left: solid 2px #979797;
+  border-top: solid 2px #979797;
+  border-bottom: solid 2px #979797;
+  background-color: #A0001E;
+}
+
+
