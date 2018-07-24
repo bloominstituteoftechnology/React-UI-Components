@@ -1,0 +1,47 @@
+#App {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    width:100%;
+}
+
+.calc {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 400px;
+    height:600px;
+}
+
+.calc-display {
+    width: 400px;
+    height: 100px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.calc-nums {
+    width: 300px;
+    height: 500px;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.calc-operators {
+    width: 100px;
+    height: 500px;
+   
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}

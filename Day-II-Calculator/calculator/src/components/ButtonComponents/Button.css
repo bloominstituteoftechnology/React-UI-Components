@@ -1,0 +1,20 @@
+.button {
+    width: 100px;
+    height:100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.num-btn {
+    background-color: silver;
+}
+
+.three-fourths {
+    width: 300px;
+    height: 100px;
+}
+
+.opr-btn {
+    background-color: maroon;
+}
