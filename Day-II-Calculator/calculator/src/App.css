@@ -1,0 +1,10 @@
+.calculator{
+    border: 1px solid red;
+    width: 250px;
+    height: 300px;
+}
+
+.row{
+    border: 1px solid red;
+    display: flex;
+}
