@@ -134,6 +134,8 @@ body {
 .container {
   width: 455px;
   font-size: 45px;
+  cursor: pointer;
+  user-select: none;
 }
 .border {
   border: 2px solid silver !important;
