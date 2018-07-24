@@ -1,0 +1,10 @@
+.display-style {
+        
+       width: 100%;
+       background: black;
+       color: white;
+       font-size: 82px;
+      height: 122px;
+       text-align: right;
+        padding-right: 15px;
+     }
