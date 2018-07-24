@@ -1,0 +1,26 @@
+button {
+    padding: 20px 20px;
+    font-size: 24px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+button:focus {
+    outline: 0;
+}
+
+.small {
+    width: 25%;
+}
+
+.red {
+    background-color: #970020;
+}
+
+.large {
+    width: 75%;
+}
+
+.white {
+    background-color: white;
+}
