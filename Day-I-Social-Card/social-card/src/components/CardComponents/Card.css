@@ -34,9 +34,11 @@
     .banner-content{
         margin: 0;
         padding: 0.3em;
-        }
+        font-weight: 300;
+        
+    }
 
-    .banner-content .h4{
+    .banner-bottom h4{
         font-weight: bold;
     }
 
