@@ -4,3 +4,8 @@
   max-width: 48rem;
   margin: 0 auto;
 }
+
+.ButtonContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
