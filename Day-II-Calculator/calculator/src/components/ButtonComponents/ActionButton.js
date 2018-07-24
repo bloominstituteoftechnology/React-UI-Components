@@ -1,3 +1,5 @@
+/*
+
 import React from 'react';
 import './Button.css';
 
@@ -20,6 +22,8 @@ const ActionContainer = props => {
   );
 };
 
-/*creating a action button template*/
+
 
 export default ActionContainer;
+
+*/

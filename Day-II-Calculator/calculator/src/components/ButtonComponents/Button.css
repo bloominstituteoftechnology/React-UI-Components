@@ -27,10 +27,10 @@
 }
 
 .number-container-style {
-  width: 150px;
+  width: 200px;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap-reverse;
+  flex-wrap: wrap;
 }
 
 .three-wide {
