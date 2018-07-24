@@ -1,8 +1,9 @@
 import React from 'react';
-import './Button.css';
+import ReacDOM from 'react-dom';
+import './operator.css';
 
 
-class ActionButton extends React.Component {
+class Operators extends React.Component {
     constructor(props){
         super(props)
         this.state = {}
@@ -17,4 +18,4 @@ class ActionButton extends React.Component {
 }
 
 
-export default ActionButton; 
+export default Operators; 

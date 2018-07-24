@@ -1,0 +1,45 @@
+.numberInputs{
+    width: 338px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+}
+
+.nonzero, .zero {
+    font-size: 30px; 
+    color: #222222;
+    font-weight: bold;
+    
+    text-align: center;
+    height: 94px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.nonzero {
+    width: 112px; 
+    border-top: 2px solid #979797;
+    border-right: 2px solid #979797;
+    
+}
+.sm {
+    width: 110px; 
+}
+
+.clear {
+    width: 334px;
+    height: 94px;
+    text-align: center;
+    border-top: 2px solid #979797;
+    border-right: 2px solid #979797;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+.zero {
+    border-bottom: 2px solid #979797;
+    height: 96px;
+}
