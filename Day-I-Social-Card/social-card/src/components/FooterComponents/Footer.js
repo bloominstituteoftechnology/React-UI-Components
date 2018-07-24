@@ -3,11 +3,11 @@ import './Footer.css';
 
 const Footer = () => {
   return (
-    <div className="footer-container">
-      <span className="footer-icon"></span>
-      <span className="footer-icon"></span>
-      <span className="footer-icon"></span>
-      <span className="footer-icon"></span>
+    <div className="main-footer__container">
+      <span className="main-footer__icon"></span>
+      <span className="main-footer__icon"></span>
+      <span className="main-footer__icon"></span>
+      <span className="main-footer__icon"></span>
     </div>
   );
 };
