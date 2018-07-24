@@ -11,12 +11,15 @@
   width: 400px;
   justify-content: center;
   display: flex;
-  margin-left: 50px;
+  margin-left: 30px;
   margin-bottom: 10px;
   border-radius: 5px;
 }
 .card{
   width: 496px;
+  border: none;
+  padding: 2px 70px 2px 50px;
+  font-size: .7rem;
 }
 .react{
   text-decoration: none!important;
