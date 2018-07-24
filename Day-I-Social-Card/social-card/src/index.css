@@ -4,8 +4,3 @@ body {
   font-family: sans-serif;
 }
 
-.sauce{
-  display:flex;
-  flex-direction: row;
-  border:1px black;
-}
