@@ -3,8 +3,8 @@ import './Button.css';
 
 const ActionButton = (props) => {
     return (
-    <div className = "actionButton">
-        <div>{props.action}</div>
+    <div className = "actionButton" data-txt = {props.type} onClick = {() => props.click(props.type)}>
+        <div>{props.text}</div>
     </div>
     )
 }
