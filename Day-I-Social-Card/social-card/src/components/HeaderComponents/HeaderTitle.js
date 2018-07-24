@@ -3,7 +3,10 @@ import './Header.css';
 
 const HeaderTitle = () => {
     return(
-        <p>Lambda School @LambdaSchool - 26 jan</p>
+        <div>
+            <span><strong>Lambda School </strong></span> 
+            <span className="headerTitleHandleAndDate">@LambdaSchool - 26 jan</span>
+        </div>
     );
 }
 

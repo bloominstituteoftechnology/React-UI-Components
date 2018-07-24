@@ -3,6 +3,13 @@
   IF you'd like to attempt to use less you'll have to research how to do this with Create React App
 */
 .wholeContainer {
-  width: 80%;
-  border: 1px solid red;
+  width: 32%;
+  margin: auto 30%; 
+}
+.cardContainersContainer {
+  padding-left: 10%;
+}
+.footerContainer {
+  margin-top: 30px;
+  padding-left: 10%;
 }

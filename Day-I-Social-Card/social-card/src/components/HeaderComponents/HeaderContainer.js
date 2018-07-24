@@ -6,7 +6,7 @@ import ImageThumbnail from './ImageThumbnail.js';
 
 const HeaderContainer = () => {
    return (
-    <div>
+    <div className="allHeader">
         <div className="lambdaLogo">
             <ImageThumbnail />
         </div>
