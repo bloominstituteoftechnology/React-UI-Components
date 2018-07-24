@@ -1,0 +1,24 @@
+.action{
+    height: 100px;
+    width: 75%;
+    background-color: white;
+    font-weight: lighter;
+    font-size: 58px;
+}
+
+.operator{
+    height: 100px;
+    width: 25%;
+    background-color: darkred;
+    font-weight: lighter;
+    font-size: 58px;
+    color: white;
+}
+
+.number{
+    height: 100px;
+    width: 25%;
+    background-color: white;
+    font-weight: lighter;
+    font-size: 58px;
+}

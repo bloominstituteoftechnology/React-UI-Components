@@ -1,0 +1,15 @@
+.display{
+    display:flex;
+    flex-direction: row-reverse; 
+    align-items: center;
+    height: 125px;
+    width: 100%;
+    background-color: black;
+    font-weight: lighter;
+    font-size: 72px;
+    color: white;
+}
+
+.display-number{
+    padding-right: 15px;
+}
