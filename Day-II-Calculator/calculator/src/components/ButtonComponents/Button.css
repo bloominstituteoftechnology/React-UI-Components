@@ -1,0 +1,52 @@
+.buttons-container {
+    width: 454px;
+    height: 475px;
+    display: flex;
+    
+}
+.symbol-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    height: 555px;
+   /* width: 454px;*/
+    
+}
+
+.operator {
+    height: 95px;
+    width: 124px;
+    border: 1px solid gray;
+    background: #A0161D;
+    color: white;
+    font-size: 64px;
+    font-weight: lighter;
+}
+
+.number-buttons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    
+    height: 475px;
+    width: 100%;
+    
+}
+.number {
+    height: 95px;
+    width: 110px;
+    font-size: 42px;
+    font-weight: bold;
+    background-color: white;
+}
+
+.long-button {
+    height: 95px;
+    width: 100%;
+}
+
+.clear-button {
+    height: 95px;
+    width: 100%;
+    font-weight: lighter;
+}
