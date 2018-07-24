@@ -15,6 +15,15 @@ class App extends Component {
 		let newTotal = this.state.display;
 		newTotal += number;
 		this.setState({ display: newTotal });
+		if (this.state.display.length <= 8) {
+			document.querySelector('.result p').style.fontSize = '48px';
+		}
+		if (this.state.display.length > 8) {
+			document.querySelector('.result p').style.fontSize = '24px';
+		}
+		if (this.state.display.length > 16) {
+			document.querySelector('.result p').style.fontSize = '12px';
+		}
 	}
 
 	resetDisplay = () => {
