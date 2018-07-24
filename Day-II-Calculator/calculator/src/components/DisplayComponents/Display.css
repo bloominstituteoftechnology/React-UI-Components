@@ -1,0 +1,18 @@
+
+
+
+.display {
+    width: 100%; 
+    background-color: darkslategrey; 
+    color: white; 
+    height: 125px; 
+    display:flex;
+    justify-content: flex-end; 
+    align-items: center;
+    font-size: 7rem; 
+    border: 2px solid grey; 
+}
+
+.display .displayNum {
+    margin-right: 3%; 
+}
