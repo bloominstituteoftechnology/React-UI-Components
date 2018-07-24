@@ -1,6 +1,7 @@
 
-#root {
-    width: 460px;
-    height: 600px;
+.wrap {
+    width: 440px;
+    height: auto;
     margin: 0 auto;
+    border: 1px solid red;
 }
