@@ -8,11 +8,28 @@
     width: 112px;
     font-size: 3rem;
     font-weight: 700;
+    background-color: white;
 }
 
+/* these are doing nothing right now */
+
 .clear-text {
-    background: orange;
     font-family: sans-serif;
     font-size: 3rem;
     font-weight: 300;
+}
+
+.number-text {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.red-button {
+    height: 92px;
+    width: 112px;
+    font-size: 4rem;
+    font-weight: 300;
+    color: white;
+    background: darkred;
+    padding-bottom: 2%;
 }
