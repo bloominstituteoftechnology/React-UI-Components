@@ -3,50 +3,77 @@ import './App.css';
 import CalculatorDisplay from './components/DisplayComponents/CalculatorDisplay';
 import ActionButton from './components/ButtonComponents/ActionButton';
 import NumberButton from './components/ButtonComponents/NumberButton';
+import OperatorButton from './components/ButtonComponents/OperatorButton';
 
 class App extends Component {
 	constructor(props){
 		super(props);
-		this.state = {total:''};
+		this.state = {display:'', firstNumber: null, operator: null};
 	}
 
-	changeDisplay= (number) => {
-		let newTotal = this.state.total.slice();
+	changeDisplay = (number) => {
+		let newTotal = this.state.display;
 		newTotal += number;
-		this.setState({ total: newTotal });
+		this.setState({ display: newTotal });
 	}
 
-	resetDisplay() {
+	resetDisplay = () => {
 		this.setState(()=> ({
-			total: '0'
+			display: ''
+		}));
+	}
+
+	solveMath = () => {
+		let firstNum = Number(this.state.firstNumber);
+		let secondNum = Number(this.state.display);
+		if (this.state.operator === "*"){
+			let result = firstNum * secondNum;
+			this.setState({display: result, firstNumber: result});
+		} else if (this.state.operator === "/"){
+			let result = firstNum / secondNum;
+			this.setState({ display: result, firstNumber: result });
+		} else if (this.state.operator === "+"){
+			let result = firstNum + secondNum;
+			this.setState({ display: result, firstNumber: result });
+		} else if (this.state.operator === "-"){
+			let result = firstNum - secondNum;
+			this.setState({ display: result, firstNumber: result });
+		}
+	}
+
+	storeOperator = (operator) => {
+		this.setState((prevState) => ({
+			operator: operator, 
+			firstNumber: Number(this.state.display), 
+			display: ''
 		}));
 	}
 
 	render() {
 		return (
 			<div className="container">
-				<CalculatorDisplay result={this.state.total} />
+				<CalculatorDisplay result={this.state.display} />
 
-				<ActionButton text="clear" buttonStyle="large white" onClick={this.resetDisplay.bind(this)} />
-				<NumberButton text="&#247;" buttonStyle="small red" />
+				<ActionButton text="clear" buttonStyle="large white" onClick={this.resetDisplay} />
+				<OperatorButton text="/" buttonStyle="small red" onClick={this.storeOperator} />
 
 				<NumberButton text="7" buttonStyle="small white" onClick={this.changeDisplay} />
 				<NumberButton text="8" buttonStyle="small white" onClick={this.changeDisplay} />
 				<NumberButton text="9" buttonStyle="small white" onClick={this.changeDisplay} />
-				<NumberButton text="&times;" buttonStyle="small red"/>
+				<OperatorButton text="*" buttonStyle="small red" onClick={this.storeOperator} />
 
 				<NumberButton text="4" buttonStyle="small white" onClick={this.changeDisplay} />
 				<NumberButton text="5" buttonStyle="small white" onClick={this.changeDisplay} />
 				<NumberButton text="6" buttonStyle="small white" onClick={this.changeDisplay} />
-				<NumberButton text="&minus;" buttonStyle="small red" />
+				<OperatorButton text="-" buttonStyle="small red" onClick={this.storeOperator} />
 
 				<NumberButton text="1" buttonStyle="small white" onClick={this.changeDisplay} />
 				<NumberButton text="2" buttonStyle="small white" onClick={this.changeDisplay} />
 				<NumberButton text="3" buttonStyle="small white" onClick={this.changeDisplay} />
-				<NumberButton text="+" buttonStyle="small red" />
+				<OperatorButton text="+" buttonStyle="small red" onClick={this.storeOperator} />
 
-				<ActionButton text="0" buttonStyle="large white" onClick={this.changeDisplay} />
-				<NumberButton text="=" buttonStyle="small red" />
+				<NumberButton text="0" buttonStyle="large white" onClick={this.changeDisplay} />
+				<ActionButton text="=" buttonStyle="small red" onClick={this.solveMath} />
 			</div>
 		);
 	}
