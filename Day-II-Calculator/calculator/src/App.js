@@ -13,11 +13,11 @@ const App = () => {
       <NumberButton text="7" />
       <NumberButton text="8" />
       <NumberButton text="9" />
-      <NumberButton text="x" extraStyles="operator-styles" />
+      <NumberButton text="&times;" extraStyles="operator-styles" />
       <NumberButton text="4" />
       <NumberButton text="5" />
       <NumberButton text="6" />
-      <NumberButton text="-" extraStyles="operator-styles" />
+      <NumberButton text="&minus;" extraStyles="operator-styles" />
       <NumberButton text="1" />
       <NumberButton text="2" />
       <NumberButton text="3" />

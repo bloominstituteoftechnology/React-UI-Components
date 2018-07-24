@@ -1,5 +1,5 @@
 .calc-display {
-    height: 50px;
+    /* height: 82px; */
     border: 1px solid black;
     justify-content: flex-end;
     align-items: center;
@@ -10,4 +10,5 @@
     display: flex;
     flex-wrap: wrap;
     flex: 0 1 100%;
+    font-size: 55px;
 }

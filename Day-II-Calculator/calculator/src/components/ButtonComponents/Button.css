@@ -3,7 +3,8 @@
     flex: 0 1 25%;
     justify-content: center;
     align-items: center;
-    height: 50px;
+    /* height: 62px; */
+    height: auto;
     border: 1px solid black;
     border-top:none;
     border-left:none;
@@ -21,4 +22,5 @@
 .operator-styles {
     background: maroon;
     color: white;
+    font-size: 300%;
 }
