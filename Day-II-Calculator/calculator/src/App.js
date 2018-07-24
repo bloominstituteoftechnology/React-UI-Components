@@ -1,10 +1,9 @@
 import React from 'react';
-import './App.css';
 
 const App = () => {
   return (
     <div>
-      <h3>Welcome to React Calculator</h3>
+      <h3 className="text-danger">Welcome to React Calculator</h3>
       <p>
         We have given you a starter project. You'll want to build out your
         components in their respective files, remove this code and replace it
