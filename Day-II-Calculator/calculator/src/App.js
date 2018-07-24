@@ -6,11 +6,10 @@ import Display from './components/DisplayComponents/CalculatorDisplay';
 export default class App extends React.Component {
   constructor() {
     super();
-
     this.state = {
       expression : '',
       value : 0,
-    }
+    };
     this.handleNumber = this.handleNumber.bind(this);
     this.handleClear = this.handleClear.bind(this);
     this.handleDivide = this.handleDivide.bind(this);
@@ -21,60 +20,67 @@ export default class App extends React.Component {
   }
 
   handleNumber = (e) => {
-    this.setState((prevState) => ({ 
-      value : e, 
-      expression : prevState.expression += e
-    }))
-  }
+    if (this.state.value !== 0 && !isNaN(this.state.expression.slice(-1))) {
+        this.setState((prevState => ({
+          value : prevState.value + "" + e,
+          expression : prevState.expression += e
+        })));
+    } else {
+      this.setState((prevState) => ({ 
+        value : e, 
+        expression : prevState.expression += e
+      }));
+    };
+  };
 
   handleClear = () => {
     this.setState({ 
       value : 0, 
       expression : '',
       currentTotal: 0
-    })
-  }
+    });
+  };
 
   handleDivide = () => {
     if (!isNaN(this.state.expression.slice(-1))) {
       this.setState((prevState) => ({
         expression : prevState.expression += "/"
-      }))
-    }
-  }
+      }));
+    };
+  };
 
   handleMultiply = () => {
     if (!isNaN(this.state.expression.slice(-1))) {
       this.setState((prevState) => ({
         expression : prevState.expression += "*"
-      }))
-    }
-  }
+      }));
+    };
+  };
 
   handleSubtract = () => {
     if (!isNaN(this.state.expression.slice(-1))) {
       this.setState((prevState) => ({
         expression : prevState.expression += "-"
-      }))
-    }
-  }
+      }));
+    };
+  };
 
   handleAdd = () => {
     if (!isNaN(this.state.expression.slice(-1))) {
       this.setState((prevState) => ({
         expression : prevState.expression += "+"
-      }))
-    }
-  }
+      }));
+    };
+  };
 
   returnValue = () => {
     if (this.state.expression) {
       console.log(this.state.expression)
       this.setState({ 
         value : eval(this.state.expression)
-      })
-    }
-  }
+      });
+    };
+  };
 
   render() {
     return (
@@ -90,8 +96,7 @@ export default class App extends React.Component {
           returnValue={this.returnValue}
         />
       </div>
-    )
-  }
-
+    );
+  };
 };
 
