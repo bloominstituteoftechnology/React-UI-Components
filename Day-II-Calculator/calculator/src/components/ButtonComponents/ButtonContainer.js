@@ -8,7 +8,7 @@ const ButtonContainer = () => {
     <div className="button-container">
       <div className="button__numbers-container">
         <div className="button__numbers--clear">
-          <NumberButton custom="btn-lg"  weight="btn-weight" content="clear" />
+          <ActionButton custom="btn-lg"  weight="btn-weight" content="clear" />
         </div>
         <div className="button__numbers--numerals">
           <div className="button__numbers--numerals-container">
