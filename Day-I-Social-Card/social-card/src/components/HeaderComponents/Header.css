@@ -1,1 +1,28 @@
 /* All styles for your header Components live here */
+
+.header-wrapper {
+    display: flex;
+    margin-bottom: 20px;
+   
+}
+
+.header-title {
+    display: flex;
+    justify-content: center;
+}
+
+.image-thumbnail {
+    width: 61px;
+    height: 60px;
+    margin-top: 10px;
+    margin-right: 15px;
+}
+
+.title {
+    font-size: 25px;
+}
+
+.handle, .date {
+    color: gray;
+    font-weight: lighter;
+}
