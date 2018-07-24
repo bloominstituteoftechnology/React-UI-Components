@@ -15,6 +15,12 @@
   width: 25%;
   background: burlywood;
 }
+
+/* Lets us make our action buttons fit without changing base width
+  which effects other buttons */
+.actionButtonWidth {
+  width: 100%;
+}
 .clearWidth {
   width: 75%;
   background: orange;

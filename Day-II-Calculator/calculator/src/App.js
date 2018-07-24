@@ -25,6 +25,14 @@ const App = () => {
           <NumberButton numberLabel="1" />
           <NumberButton numberLabel="0" extraStyles="zeroNumberStyles" />
         </div>
+
+        <div className="actionButtonRow">
+          <ActionButton actionButtonLabel="X" extraStyles="actionButtonWidth"/>
+          <ActionButton actionButtonLabel="X" extraStyles="actionButtonWidth"/>
+          <ActionButton actionButtonLabel="X" extraStyles="actionButtonWidth"/>
+          <ActionButton actionButtonLabel="X" extraStyles="actionButtonWidth"/>
+        </div>
+
       </div>
     </div>
   );
