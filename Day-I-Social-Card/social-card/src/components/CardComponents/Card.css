@@ -5,7 +5,8 @@
 }
 
 .card-container .border-wrapper {
-  border-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
   border: 1px solid lightgray;
   width: 500px;
 }
@@ -19,11 +20,12 @@
   height: 250px;
   width: 100%;
   background: url('https://ibin.co/3wnC6SgIOJud.png');
-  background-size: cover;
+  background-size: contain;
 }
 
 .card-container .border-wrapper a .card-content{
   padding-left: 15px;
+  margin-top: 15px;
 }
 
 .card-container .border-wrapper a .card-content p {

@@ -1,0 +1,10 @@
+.app-container{
+  max-width: 880px;
+  margin: 0 auto;
+  font-size: 1.6rem;
+}
+
+.app-container .starting-text{
+  margin: 0 auto;
+  width: 20%;
+}
