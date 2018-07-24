@@ -1,17 +1,19 @@
+.btn{
+  height: 95px;
+  font-size: 4rem;
+  font-weight: bold;
+}
+
 .numBtn{
   width: 33.33%;
   background: white;
-  color: black;
-  height: 95px;
-  font-size: 4rem;
+  color: #222;
 }
 
 .actionBtn{
   width: 100%;
-  background: red;
+  background: #A0001E;
   color: white;
-  height: 95px;
-  font-size: 4rem;
 }
 
 .arthimatic{
@@ -19,11 +21,12 @@
   color: white;
 }
 
-.red-btn{
-  background: red;
-  color: white;
+.clrBtn{
+  color: #222;
+  background: white;
+  font-weight: lighter;
 }
 
-.w-100{
+.zeroBtn{
   width: 100%;
 }

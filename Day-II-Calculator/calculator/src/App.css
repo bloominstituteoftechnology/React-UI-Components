@@ -1,4 +1,5 @@
 .app-container{
+  max-height: 600px;
   max-width: 455px;
   margin: 0 auto;
   font-size: 1.6rem;

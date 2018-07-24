@@ -10,7 +10,7 @@ const App = () => {
     <div className="app-container">
       <Display />
       <div className="left-btn-container">
-        <ActionButton text="clear" style="w-100" />
+        <ActionButton text="clear" styles="clrBtn" />
         <NumberButton text="7" />
         <NumberButton text="8" />
         <NumberButton text="9" />
@@ -20,7 +20,7 @@ const App = () => {
         <NumberButton text="1" />
         <NumberButton text="2" />
         <NumberButton text="3" />
-        <NumberButton text="0" style="w-100"/>
+        <NumberButton text="0" styles="zeroBtn"/>
       </div>
       <div className="right-btn-container">
         <ActionButton text="÷" />
