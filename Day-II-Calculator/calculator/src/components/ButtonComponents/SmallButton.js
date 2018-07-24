@@ -2,9 +2,9 @@ import React from 'react';
 import './Button.css';
 
 const SmallButton = props => {
-return (
-<button className = {`btn-styles ${props.colorStyles}`}> {props.text}</button>
-);
+    return (
+        <button className = {`btn-styles ${props.colorStyles}`}> {props.text}</button>
+    );
 };
 
 SmallButton.defaultProps = {
