@@ -3,8 +3,12 @@ import './Display.css';
 
 const CalculatorDisplay = props => {
     return(
-        <div className='display'>0</div>
+        <div className='display'>{props.display}</div>
     );
+}
+
+CalculatorDisplay.defaultProps = {
+    display: "0"
 }
 
 export default CalculatorDisplay;
