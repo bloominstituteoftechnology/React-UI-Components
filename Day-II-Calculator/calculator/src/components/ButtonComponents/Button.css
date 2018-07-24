@@ -1,0 +1,11 @@
+.clear-container {
+    border: 1px solid red;
+}
+
+.number-container {
+    border: 1px solid gray;
+}
+
+.cero-container {
+    border: 1px solid green;
+}
