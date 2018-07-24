@@ -50,3 +50,9 @@
     margin-top: 5%;
     border: solid 1px whitesmoke;
 }
+
+.clear-btn {
+    width: 330px;
+    height: 76px;
+    background: white;
+}

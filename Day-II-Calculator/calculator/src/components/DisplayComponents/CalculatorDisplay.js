@@ -2,18 +2,14 @@ import React from 'react';
 import './Display.css';
 
 
-class CalcuatorDisplay extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {  };
-  }
-  render() {
+const CalcuatorDisplay = (props) => {
+ 
     return (
       <div className="calc-display">
-        0 / 30
+        {props.display}
       </div>
     );
-  }
+  
 }
 
 export default CalcuatorDisplay;

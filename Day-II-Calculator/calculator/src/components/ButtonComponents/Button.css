@@ -1,0 +1,44 @@
+
+.number-button {
+    width:110px;
+    height: 76px;
+    /* border: solid 1px gray; */
+    color: white;
+    font-size: 4rem;
+    text-align: center;
+    line-height: 1.2;
+}
+
+.number-button.zero-button {
+    width: 330px;
+}
+
+.number-button:hover {
+    background: palevioletred;
+}
+
+.action-button {
+    width:68px;
+    height: 77px;
+    /* border: solid 1px gray; */
+    color: white;
+    font-size: 4rem;
+    text-align: center;
+    line-height: 1.2;
+}
+.action-button:hover {
+    background: orangered;
+}
+.action-button.clear-button {
+    width:330px;
+    height: 77px;
+    /* border: solid 1px gray; */
+    color: white;
+    font-size: 4rem;
+    text-align: end;
+    padding-right: 5%;
+    line-height: 1.2;
+}
+.action-button.clear-button:hover {
+    background: palevioletred;
+}
