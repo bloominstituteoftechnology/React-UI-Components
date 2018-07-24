@@ -4,7 +4,6 @@
     border: 1px solid lightgray;
     border-radius: 5px;
     width: 100%;
-    height: auto;
     display: flex;
     padding: 5px;
     margin-top: 10px;
@@ -19,17 +18,18 @@
 }
 
 .headerContent h1 {
-    font-size: 16px;
+    font-size: 1.8rem;
     font-weight: bold;
 }
 
 .headerContent .date{
-    font-size: 14px;
+    font-size: 1.4rem;
     color: grey;
 }
 
 .headerContent p {
     margin-top: 10px;
+    font-size: 1.4rem;
 }
 
 .logo {
