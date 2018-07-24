@@ -1,0 +1,40 @@
+button {
+        padding: 20px 20px;
+        font-size: 25px;
+        border: 1px solid black;
+        cursor: pointer;
+    }
+    
+    .key {
+        width: 25%;
+    
+    }
+    
+    .symbol {
+        background-color: #970020;
+    }
+    
+    .special {
+        width: 75%;
+    }
+    
+    .number {
+        background-color: white;
+    }
+
+    .actionButton{
+        font-size: 45px; 
+        width: 75%; 
+        height: 75px;
+        cursor: pointer;
+    }
+
+    .result {
+        width: 100%;
+        background-color:rgb(48, 44, 44);
+        font-size: 45px;
+        color: white;   
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 20px;
+}
