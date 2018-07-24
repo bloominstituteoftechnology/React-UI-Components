@@ -1,10 +1,34 @@
 import React from 'react';
 import './App.css';
 
+import Display from './components/DisplayComponents/CalculatorDisplay';
+import NumberButton from './components/ButtonComponents/NumberButton';
+import ActionButton from './components/ButtonComponents/ActionButton';
+
 const App = () => {
   return (
     <div className="app-container">
-      <div className="starting-text">Bah-la-la-la-la</div>
+      <Display />
+      <div className="left-btn-container">
+        <ActionButton text="clear" style="w-100" />
+        <NumberButton text="7" />
+        <NumberButton text="8" />
+        <NumberButton text="9" />
+        <NumberButton text="4" />
+        <NumberButton text="5" />
+        <NumberButton text="6" />
+        <NumberButton text="1" />
+        <NumberButton text="2" />
+        <NumberButton text="3" />
+        <NumberButton text="0" style="w-100"/>
+      </div>
+      <div className="right-btn-container">
+        <ActionButton text="÷" />
+        <ActionButton text="X" />
+        <ActionButton text="-" />
+        <ActionButton text="+" />
+        <ActionButton text="=" />
+      </div>
     </div>
   );
 };
