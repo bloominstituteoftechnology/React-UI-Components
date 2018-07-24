@@ -1,0 +1,14 @@
+.btn{
+    width: 25%;
+    border: 1px solid grey;
+    background-color: white;
+    height: 95px;
+    font-size: 40px;
+}
+.action-btn{
+    width: 75%;
+}
+.operator-btn{
+    background-color: darkred;
+    color: white;
+}
