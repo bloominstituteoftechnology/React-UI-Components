@@ -47,7 +47,7 @@
 /* Display section  */
 
 .display {
-    width: 456px; 
+    width: 452px; 
     height: 124px; 
     background: #222222;
     color: #FFFFFF; 
@@ -60,4 +60,23 @@
 
 .output {
     margin-right: 16px;
+}
+
+/* Operators section */
+.operators {
+    color: #FFFFFF; 
+    display: flex;
+    flex-direction: column;
+    font-size: 48px;
+}
+.operation {
+    height: 94px;
+    background: #A0001E;
+    width: 118px;
+    border-top: 2px solid #979797;
+}
+
+.pressingItems {
+    display:flex;
+
 }

@@ -4,14 +4,14 @@ import './Display.css';
 class CalculatorDisplay extends React.Component {
     constructor(props){
         super(props)
-        this.state = {}
+        this.state = {total: 0}
     }
 
 
     render() {
        return (
              <div className="display">
-                 <div className="output">0</div>
+                 <div className="output">{this.state.total}</div>
              </div>
         ); 
     }
