@@ -1,0 +1,46 @@
+.numberButton{
+    border-style: solid;
+    border-width: 1px;
+    border-color: gray;
+    width: 2em;
+    height: 1.5em;
+    font-size: 60px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.functionButton{
+    color: white;
+    background: maroon;
+    border-style: solid;
+    border-width: 1px;
+    border-color: gray;    
+    width: 2em;
+    height: 1.5em;
+    font-size: 60px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.action{
+    border-style: solid;
+    border-width: 1px;
+    border-color: gray;
+    width: 6.07em;
+    height: 1.5em;
+    font-size: 60px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.calcPad{
+    display:flex;
+    flex-wrap: wrap;
+    width: 35em;
+
+}
