@@ -1,0 +1,16 @@
+.action-component {
+  display: flex;
+}
+
+.clear-button {
+  width: 240px;
+}
+
+.opeartion-buttons {
+  display: flex;
+  flex-direction: column;
+}
+
+.zero {
+  width: 240px;
+}

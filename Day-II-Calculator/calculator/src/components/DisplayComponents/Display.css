@@ -1,0 +1,8 @@
+.display {
+  border: 1px solid black;
+  height: 100px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  max-width: 320px;
+}
