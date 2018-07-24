@@ -1,16 +1,17 @@
 .calculator-display {
-    width:100%;
-    height: 125px;
+    width:451px;
+    height: 111px;
     background: black;
     border:2px solid gray;
     color: white;
     font-weight: lighter;
     text-align: end;
-    font-size: 75px;
-    font-family: sans-serif;
+    font-size: 83px;
+    font-family: 'Courier New', Courier, monospace;
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    letter-spacing: 14px;
+    letter-spacing: 8px;
+    padding-top: 14px;
     
 }
