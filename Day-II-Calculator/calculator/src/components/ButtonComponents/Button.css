@@ -6,15 +6,18 @@
 .number-btn {
     width: 100px;
     border: 1px solid #eee;
+    line-height: 100px;
+    font-size: 50px;
+    font-weight: 200;
 }
 
 .three-q-button {
-    width: 100px;
+    width: 300px;
     border: 1px solid #eee;
 }
 
 .red-btn {
-    background: red;
+    background:#941C24;
     color: white;
     text-align: center;
     line-height: 100px;
