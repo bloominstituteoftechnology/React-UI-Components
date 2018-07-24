@@ -1,0 +1,16 @@
+.totalbox {
+    height: 100px;
+    width: 400px;
+    border: 1px solid grey;
+    background-color: black;
+    color: white;
+   display:flex;
+    justify-content: flex-end;
+}
+
+.totaltext {
+    height:100%;
+    font-size:80px;
+    font-weight: lighter;
+    
+}

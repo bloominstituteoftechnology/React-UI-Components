@@ -1,0 +1,15 @@
+
+.clear {   
+width:300px;
+height:100px;
+}
+
+.num-butt {
+    width:100px;
+    height:100px;
+    background-color: blue;
+}
+
+.red-button {
+background-color: red;
+}
