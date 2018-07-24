@@ -3,4 +3,11 @@
   background-color: black;
   color: white;
   text-align: end;
+  border: 1px solid lightgrey;
+}
+
+.total-div p {
+  font-size: 4rem;
+  margin: 0 auto;
+  padding: 2rem 1rem 1.5rem 1rem;
 }
