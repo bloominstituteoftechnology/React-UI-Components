@@ -26,20 +26,22 @@ class App extends Component {
 	}
 
 	solveMath = () => {
-		let firstNum = Number(this.state.firstNumber);
-		let secondNum = Number(this.state.display.split(this.state.operator)[1]);
-		if (this.state.operator === "*"){
-			let result = firstNum * secondNum;
-			this.setState({display: result, firstNumber: result, operator: null});
-		} else if (this.state.operator === "/"){
-			let result = firstNum / secondNum;
-			this.setState({ display: result, firstNumber: result, operator: null });
-		} else if (this.state.operator === "+"){
-			let result = firstNum + secondNum;
-			this.setState({ display: result, firstNumber: result, operator: null });
-		} else if (this.state.operator === "-"){
-			let result = firstNum - secondNum;
-			this.setState({ display: result, firstNumber: result, operator: null });
+		if (this.state.operator !== null){
+			let firstNum = Number(this.state.firstNumber);
+			let secondNum = Number(this.state.display.split(this.state.operator)[1]);
+			if (this.state.operator === "*"){
+				let result = firstNum * secondNum;
+				this.setState({display: result, firstNumber: result, operator: null});
+			} else if (this.state.operator === "/"){
+				let result = firstNum / secondNum;
+				this.setState({ display: result, firstNumber: result, operator: null });
+			} else if (this.state.operator === "+"){
+				let result = firstNum + secondNum;
+				this.setState({ display: result, firstNumber: result, operator: null });
+			} else if (this.state.operator === "-"){
+				let result = firstNum - secondNum;
+				this.setState({ display: result, firstNumber: result, operator: null });
+			}
 		}
 	}
 
