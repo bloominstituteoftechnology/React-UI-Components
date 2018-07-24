@@ -1,12 +1,11 @@
-.display{
-    width: 276px; 
-    height:65px;  
-    display: flex; 
-    justify-content: flex-end; 
-    align-items: center; 
-    font-size: 35px; 
-    color: white; 
-    background: #303030;
-    font-family: 'Open Sans', sans-serif;  
-
+.display {
+  width: 276px;
+  height: 65px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 35px;
+  color: white;
+  background: #303030;
+  font-family: "Open Sans", sans-serif;
 }
