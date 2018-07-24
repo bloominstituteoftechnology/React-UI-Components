@@ -4,11 +4,13 @@ import './components/CardComponents/Card.css';
 import './components/HeaderComponents/Header.css';
 import HeaderContainer from './components/HeaderComponents/HeaderContainer';
 import CardContainer from './components/CardComponents/CardContainer';
+import IconContainer from './components/FooterComponents/Footer.js';
 const App = () => {
   return (
-    <div class='main-content'>
+    <div className='main-content'>
       <HeaderContainer />
-      <CardContainer/>
+      <CardContainer />
+      <IconContainer />
     </div>
   );
 };

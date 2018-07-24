@@ -1,0 +1,39 @@
+i {
+    height: 20px;
+    width: 20px;
+    text-shadow:0px 0px 2px black, 0px 0px 2px black;
+    color: white;
+    height: 32px;
+    
+}
+.icon-container {
+    margin-left: 19.2%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 10px;
+}
+.icon-container *{
+    margin-right: 10%;
+    display: inline;
+}
+.fa-comment {
+    padding-top: 5px;
+    transform: scaleX(-1);
+    -moz-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    -ms-transform: scaleX(-1);
+}
+.fa-refresh {
+    padding-top: 1.5px;
+}
+.fa-heart{
+    padding-top: 1.5px;
+}
+.text {
+    margin-left: 30%;
+    color: #778899;
+}
+.fa-envelope {
+    padding-top: 5.5px;
+}
