@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    .heading {
+      font-size: 50px;
+      color: palevioletred;
+      font-family: sans-serif;
+    }
+
+    .myButtonClass {
+      width: 150px;
+      height: 50px;
+      font-family: sans-serif;
+      line-height: 25px;
+      font-size: 20px;
+      color: white;
+      background: palevioletred;
+      border-radius: 4px;
+    }
+
+    .btn-styles {
+      height: 25px;
+      width: 75px;
+    }
+
+    .red {
+      background: red;
+      color: white;
+    }
+
+    .blue {
+      background: blue;
+      color: white;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="root"></div>
+  <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+  <script crossorigin src="https://unpkg.com/babel-standalone@6.26.0/babel.js"></script>
+
+  <script type="text/babel">
+
+    // ######################### React.createElement() #########################
+    // const MyElement = React.createElement(
+    //   'div',
+    //   { className: 'heading' },
+    //   React.createElement('h1',
+    //     { className: 'nested-heading' },
+    //     'Hello World from ReactJS!')
+    // ); // createElement comes from ReactJS
+
+    // ######################### JSX #########################
+    // const myMultiplyer = () => 2 * 2;
+    // const MyElement = <h1 className="heading" name="Ryan">{myMultiplyer()}</h1>; // this is JSX
+    // const MyButton = <button>Clicky</button>;
+    // const MyDiv = <div>{MyElement} {MyButton}</div>;
+
+    // ######################### Components #########################
+    // const MyButton = props => {
+      //   console.log('PROPS ON MYBUTTON: ', props);
+      //   return <button className={props.buttonClass}>{props.name}</button>;
+      // };
+      // // create an Input component
+
+      // const MyInput = () => <input placeholder="Something radical" />;
+
+      // const App = () => (
+        //   <div>Hello from my Component
+          //     <MyButton buttonClass="myButtonClass" name="Click me"/>
+          //     <MyInput />
+          //   </div>
+          // );// A function, that returns some JSX
+
+
+
+
+
+    // ######################### Props explained #########################
+
+    // const MyComponentWithProps = props => {
+      //   console.log('Props: ', props);
+      //   return <h1>{props.greeting}, {props.name}</h1>;
+      // };
+
+      // const App = () => (
+        //   <div>
+          //     Component Props and Reusability.
+          //     {MyComponentWithProps({greeting: 'Foobar', name: 'Homer'})}
+          //     <MyComponentWithProps greeting="Hello" name="Freddy" thirdProp="Some value" />
+          //     <MyComponentWithProps greeting="Oi" name="Ryan" />
+          //     {/* We are defining our props greeting and name as ATTRIBUTES of this JSX element */}
+          //   </div>
+          // );// A function, that returns some JSX
+
+
+// ######################### Reusability explained #########################
+    // ``` Ryan's Rules of Reusability:
+
+    // 1.) Make component rely on the "BARE MINIMUM" for props. Eg. styles etc.
+    // 2.) USE Component.defaultProps = {}; to fall back to original props.
+    // 3.) Don't nest too deeply!
+    // ```
+    const ButtonCreator = props => <button className={`btn-styles ${props.extraStyles}`}>{props.text}</button>
+
+    const ButtonContainer = props => {
+      return (
+        <div>
+          <ButtonCreator extraStyles={props.extraStyles} text={props.text} />
+        </div>
+      )
+    };
+
+    ButtonCreator.defaultProps = {
+      text: 'Default Text'
+    };
+
+    // create reusable input, who's placeholder value is determined by props that you feed it in different contexts
+
+    const InputCreator = props => <input type="text" placeholder={props.placeholder} />
+
+    InputCreator.defaultProps = {
+      placeholder: 'Default Placeholder'
+    };
+
+    const App = () => (
+      <div>
+        Component Props and Reusability.
+        <ButtonContainer text="Click" extraStyles="red" />
+        <ButtonContainer text="Clack" />
+        <ButtonContainer text="Cleck" extraStyles="blue"/>
+        <ButtonContainer text="Clock" />
+        <ButtonContainer />
+        <InputCreator />
+        <InputCreator placeholder="Username" />
+        <InputCreator placeholder="Password" />
+      </div>
+    );
+
+    ReactDOM.render(<App />, document.getElementById('root'));// render comes from react-dom
+  </script>
+</body>
+
+</html>

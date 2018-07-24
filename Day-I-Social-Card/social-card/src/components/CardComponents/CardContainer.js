@@ -7,7 +7,9 @@ const CardContainer = () => {
   return <div onClick={()=> window.open("https://www.reactjs.org", "_blank")} className="card-container">
             <CardBanner />
             <CardContent />
-          </div>;
+          </div>
+          
+          ;
 };
 
 export default CardContainer;

@@ -18,10 +18,11 @@ const TwitterHandle = () => {
 };
 
 const HeaderDate = () => {
-  let todayDate = new Date().toDateString()
-  return <div className="header-date"> {todayDate}</div>;
+  // let todayDate = new Date().toDateString()
+  // return <div className="header-date"> {todayDate}</div>;
 
   // return '26 jan';
- // return moment().format('dd MMMM')
 
+  return moment().format('dddd');
+  
 };
