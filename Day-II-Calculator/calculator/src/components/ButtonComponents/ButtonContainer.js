@@ -6,7 +6,7 @@ import WideButton from './WideButton.js';
 const ButtonContainer = () => {
     return (
         <div className = "button-container">
-        <WideButton text = "clear" />
+        <WideButton text = "clear" specificStyles = "spec-styles"/>
         <SmallButton text = "&#247;" colorStyles = "button-colors" />
         <SmallButton text = "7" />
         <SmallButton text = "8" />
@@ -20,7 +20,7 @@ const ButtonContainer = () => {
         <SmallButton text = "2" />
         <SmallButton text = "3" />
         <SmallButton text = "+" colorStyles = "button-colors"/>
-        <WideButton text = "0" specificStyles = "fonts"/>
+        <WideButton text = "0" />
         <SmallButton text = "=" colorStyles = "button-colors"/>
         </div>
     );

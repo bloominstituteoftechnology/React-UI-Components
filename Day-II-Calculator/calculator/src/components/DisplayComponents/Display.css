@@ -1,12 +1,12 @@
 .display-styles{
-    width: 600px;
-    height: 180px;
+    width: 400px;
+    height: 120px;
     border: 1px solid white;
     background-color: black;
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    padding-right: 50px;
+    padding-right: 25px;
     color: white;
     font-size: 80px;
     font-weight: 100;

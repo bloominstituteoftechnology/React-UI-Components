@@ -1,6 +1,6 @@
 .app-container{
-    width: 600px;
-    height: 780px;
+    width: 400px;
+    height: 520px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;

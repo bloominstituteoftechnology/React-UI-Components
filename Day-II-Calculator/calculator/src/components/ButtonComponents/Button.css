@@ -1,7 +1,11 @@
 .btn-styles{
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     background-color: #fffafa;
+}
+
+.btn-styles:hover{
+    background-color: grey;
 }
 
 .button-colors{
@@ -10,13 +14,16 @@
 }
 
 .w-btn-styles{
-    width: 450px;
-    height: 150px;
+    width: 300px;
+    height: 100px;
     background-color: #fffafa;
-    font-weight: 100;
 }
 
-.w-btn-styles .fonts{
-    font-weight: 200;
+.w-btn-styles:hover{
+    background-color: grey;
+}
+
+.w-btn-styles .spec-styles{
+    font-weight: 100;
 }
 
