@@ -3,7 +3,11 @@
     height: 90px;
     background-color: white;
     border: 0 2px 2px 2px solid gray;
-    font-size: 20px;
+    font-size: 30px;
+}
+
+.long-button .zero {
+    font-weight: bold;
 }
 
 .symbol-button {
@@ -11,7 +15,7 @@
     height: 90px;
     background-color: darkred;
     border: 0 2px 2px 0px solid gray;
-    font-size: 20px;
+    font-size: 30px;
     color: white;
 }
 
@@ -20,5 +24,6 @@
     height: 90px;
     background-color: white;
     border: 0 2px 2px 2px solid gray;
-    font-size: 20px;
+    font-size: 30px;
+    font-weight: bold;
 }

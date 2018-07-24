@@ -8,22 +8,22 @@ const App = () => {
   return (
     <div className = "calculator">
       <CalculatorDisplay />
-      <ActionButton customStyleProp="long-button" name="clear" />
-      <ActionButton customStyleProp="symbol-button" name="&divide;" />
-      <ActionButton customStyleProp="number-button" name="7" />
-      <ActionButton customStyleProp="number-button" name="8" />
-      <ActionButton customStyleProp="number-button" name="9" />
-      <ActionButton customStyleProp="symbol-button" name="x" />
-      <ActionButton customStyleProp="number-button" name="4" />
-      <ActionButton customStyleProp="number-button" name="5" />
-      <ActionButton customStyleProp="number-button" name="6" />
-      <ActionButton customStyleProp="symbol-button" name="-" />
-      <ActionButton customStyleProp="number-button" name="1" />
-      <ActionButton customStyleProp="number-button" name="2" />
-      <ActionButton customStyleProp="number-button" name="3" />
-      <ActionButton customStyleProp="symbol-button" name="+" />
-      <ActionButton customStyleProp="long-button" name="0" />
-      <ActionButton customStyleProp="symbol-button" name="=" />
+      <ActionButton buttonStyle="long-button" text="clear" />
+      <NumberButton buttonStyle="symbol-button" text="&divide;" />
+      <NumberButton buttonStyle="number-button" text="7" />
+      <NumberButton buttonStyle="number-button" text="8" />
+      <NumberButton buttonStyle="number-button" text="9" />
+      <NumberButton buttonStyle="symbol-button" text="x" />
+      <NumberButton buttonStyle="number-button" text="4" />
+      <NumberButton buttonStyle="number-button" text="5" />
+      <NumberButton buttonStyle="number-button" text="6" />
+      <NumberButton buttonStyle="symbol-button" text="-" />
+      <NumberButton buttonStyle="number-button" text="1" />
+      <NumberButton buttonStyle="number-button" text="2" />
+      <NumberButton buttonStyle="number-button" text="3" />
+      <NumberButton buttonStyle="symbol-button" text="+" />
+      <ActionButton buttonStyle="long-button" text="0" />
+      <NumberButton buttonStyle="symbol-button" text="=" />
     </div>
   );
 };
