@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import CalculatorDisplay from './components/DisplayComponents/CalculatorDisplay';
 import NumberButton from './components/ButtonComponents/NumberButton';
+import ActionButton from './components/ButtonComponents/ActionButton';
 
 
 const App = () => {
@@ -9,6 +10,8 @@ const App = () => {
     <div className="app-wrapper">
       <div className="calc-wrapper">
         <CalculatorDisplay total="0"/>
+        <ActionButton actionButtonLabel="clear" extraStyles="clearWidth" />
+        <ActionButton actionButtonLabel="%" />
         <div className="numbersButtonsDiv">
           
           <NumberButton numberLabel="9" />

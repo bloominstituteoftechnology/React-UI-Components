@@ -10,3 +10,12 @@
   background: red;
   color: white;
 }
+
+.actionButtonStyles {
+  width: 25%;
+  background: burlywood;
+}
+.clearWidth {
+  width: 75%;
+  background: orange;
+}
