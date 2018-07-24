@@ -3,22 +3,38 @@ import './App.css';
 import Display from './components/DisplayComponents/CalculatorDisplay';
 import Action from './components/ButtonComponents/ActionButton';
 import Number from './components/ButtonComponents/NumberButton';
+import Container from './components/ButtonComponents/Container';
 
 const App = () => {
   return (
-    <div className = "container">
-      <h3>Welcome to React Calculator</h3>
-      <p>
-        We have given you a starter project. You'll want to build out your
-        components in their respective files, remove this code and replace it
-        with the proper components.
-      </p>
-      <p>
-        <strong>
-          Don't forget to `default export` your components and import them here
-          inside of this file in order to make them work.
-        </strong>
-      </p>
+    <div className = "container text-center" id = "calc">
+      <Display />
+          <Container className="clear">
+            <Action className="action" text="clear" />
+            <Number color="operator" text="/" />
+          </Container>
+          <Container>
+            <Number color="num" text="7" />
+            <Number color="num" text="8" />
+            <Number color="num" text="9" />
+            <Number color="operator" text="X" />
+          </Container>
+          <Container>
+            <Number color="num" text="4" />
+            <Number color="num" text="5" />
+            <Number color="num" text="6" />
+            <Number color="operator" text="-" />
+          </Container>
+          <Container>
+            <Number color="num" text="1" />
+            <Number color="num" text="2" />
+            <Number color="num" text="3" />
+            <Number color="operator" text="+" />
+          </Container>
+          <Container>
+            <Action className="action" text="0" />
+            <Number color="operator" text="=" />
+          </Container>
     </div>
   );
 };
