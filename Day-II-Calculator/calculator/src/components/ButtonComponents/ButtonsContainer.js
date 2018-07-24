@@ -1,7 +1,7 @@
 import React from 'react';
 import './Button.css';
 
-const ActionButton = props => {
+const ButtonsContainer = props => {
     return (
         <div>
 
@@ -9,5 +9,4 @@ const ActionButton = props => {
     );
 };
 
-export default ActionButton;
-  
+export default ButtonsContainer;
