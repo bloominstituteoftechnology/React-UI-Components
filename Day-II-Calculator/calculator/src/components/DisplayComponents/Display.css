@@ -1,8 +1,13 @@
 .display-styles{
-    width: 595px;
+    width: 600px;
     height: 180px;
-}
-
-.display-styles input::placeholder-shown{
-    font-size: 50px;
+    border: 1px solid white;
+    background-color: black;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-right: 50px;
+    color: white;
+    font-size: 80px;
+    line-height: 100px;
 }

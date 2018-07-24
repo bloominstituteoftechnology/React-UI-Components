@@ -1,9 +1,9 @@
 import React from 'react';
 import './Display.css';
 
-const Display = props => {
+const Display = () => {
     return (
-        <div > <input className = {`display-styles`} type = "text" placeholder="0">{props.text}</input></div>
+        <div className = {`display-styles`} >0</div>
     );
 };
 

@@ -4,6 +4,11 @@
     background-color:white;
 }
 
+.button-colors{
+    background-color: #A0001E;
+    color: white;
+}
+
 .w-btn-styles{
     width: 450px;
     height: 150px;
