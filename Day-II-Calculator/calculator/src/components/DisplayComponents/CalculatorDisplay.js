@@ -2,9 +2,9 @@ import React from 'react';
 import './Display.css';
 
 
-const CalculatorDisplay = () => {
+const CalculatorDisplay = (props) => {
     return (
-        <div classname="display">0</div>
+        <div className={ props.style }>{ props.text }</div>
     );
 };
 
