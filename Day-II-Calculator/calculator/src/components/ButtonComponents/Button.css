@@ -15,7 +15,7 @@
     justify-content: flex-end;
     align-items: center;
     padding-right: 20px;
-    color: white;
+    color: lightgray;
     font-size: 5rem;
 }
 .button__number{
@@ -48,7 +48,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 3rem;
+    font-size: 6rem;
 }
 
 .button__action--wide{
