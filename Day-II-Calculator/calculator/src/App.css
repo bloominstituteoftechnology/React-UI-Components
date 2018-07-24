@@ -1,4 +1,5 @@
 .main-container {
-    border: 1px solid black;
-    max-width: 800px;
+    border: 1px solid #AFAFAF;
+    max-width: 450px;
+    margin: 0 auto;
 }

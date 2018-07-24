@@ -1,11 +1,28 @@
 .clear-container {
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .number-container {
-    border: 1px solid gray;
+    /* border: 1px solid gray; */
 }
 
 .cero-container {
-    border: 1px solid green;
+    /* border: 1px solid green; */
+}
+
+.custom-button {
+    padding: 20px 0;
+    font-size: 44px;
+    font-weight: bold;
+    background-color:#FFFFFF;
+    border: 1px solid #AFAFAF;
+    width: 25%;
+}
+
+.action-button {
+    padding: 20px 0;
+    font-size: 44px;
+    border: 1px solid #AFAFAF;
+    /* font-weight: lighter; */
+    width: 75%;
 }

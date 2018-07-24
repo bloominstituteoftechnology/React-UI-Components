@@ -1,10 +1,13 @@
 import React from 'react';
 import './Button.css';
+import ActionButton from './ActionButton';
+import NumberButton from './NumberButton';
 
 const ClearContainer = () => {
     return (
         <div className="clear-container">
-            This is the clear container
+            <ActionButton text="clear"/>
+            <NumberButton text="÷"/>
         </div>
     );
 };

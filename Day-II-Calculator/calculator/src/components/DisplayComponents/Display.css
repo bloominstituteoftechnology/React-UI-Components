@@ -1,3 +1,9 @@
 .calculator-display {
-    border: 1px solid blue;
+    border: 1px solid #AFAFAF;
+    padding: 6px 5px;
+    background: black;
+    color: white;
+    font-size: 70px;
+    font-weight: lighter;
+    text-align: right;
 }

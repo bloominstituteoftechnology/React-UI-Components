@@ -8,7 +8,6 @@ import CeroContainer from './components/ButtonComponents/CeroContainer';
 const App = () => {
   return (
     <div className="main-container">
-      Main container
       <DisplayContainer />
       <ClearContainer />
       <NumberContainer />
