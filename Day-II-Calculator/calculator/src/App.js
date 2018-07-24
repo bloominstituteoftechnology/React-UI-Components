@@ -19,13 +19,15 @@ class App extends Component {
 
 	resetDisplay = () => {
 		this.setState(()=> ({
-			display: ''
+			display: '',
+			firstNumber: null,
+			operator: null
 		}));
 	}
 
 	solveMath = () => {
 		let firstNum = Number(this.state.firstNumber);
-		let secondNum = Number(this.state.display);
+		let secondNum = Number(this.state.display.split(this.state.operator)[1]);
 		if (this.state.operator === "*"){
 			let result = firstNum * secondNum;
 			this.setState({display: result, firstNumber: result});
@@ -45,7 +47,7 @@ class App extends Component {
 		this.setState((prevState) => ({
 			operator: operator, 
 			firstNumber: Number(this.state.display), 
-			display: ''
+			display: prevState.display + operator
 		}));
 	}
 
