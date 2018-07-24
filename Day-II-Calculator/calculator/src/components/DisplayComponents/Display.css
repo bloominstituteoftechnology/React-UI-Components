@@ -6,4 +6,5 @@
   text-align: right;
   border: 1px solid #8c8c8c;
   padding: 2.7rem 1rem 1.1rem;
+  overflow-x: scroll;
 }

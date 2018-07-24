@@ -20,7 +20,7 @@ class App extends React.Component<{}, State> {
   };
 
   handleNumberInput = (num: string) => () => {
-    let display;
+    if (num === '.' && this.state.display.includes('.')) return;
     if (this.state.reset) {
       this.setState({
         display: num,
@@ -49,7 +49,7 @@ class App extends React.Component<{}, State> {
       case '/':
         if (this.state.op1 === null) {
           this.setState({
-            op1: parseInt(this.state.display, 10),
+            op1: parseFloat(this.state.display),
             opCode: type,
             reset: true
           });
@@ -80,18 +80,17 @@ class App extends React.Component<{}, State> {
 
     switch (this.state.opCode) {
       case '+':
-        modifiedState.op1 = this.state.op1 + parseInt(this.state.display, 10);
+        modifiedState.op1 = this.state.op1 + parseFloat(this.state.display);
         break;
       case '-':
-        modifiedState.op1 = this.state.op1 - parseInt(this.state.display, 10);
+        modifiedState.op1 = this.state.op1 - parseFloat(this.state.display);
         break;
       case '*':
-        modifiedState.op1 = this.state.op1 * parseInt(this.state.display, 10);
+        modifiedState.op1 = this.state.op1 * parseFloat(this.state.display);
         break;
       case '/':
-        modifiedState.op1 = parseInt(
-          this.state.op1 / parseInt(this.state.display, 10),
-          10
+        modifiedState.op1 = parseFloat(
+          this.state.op1 / parseFloat(this.state.display, 10)
         );
         break;
       default:
@@ -161,8 +160,11 @@ class App extends React.Component<{}, State> {
           >
             +
           </ActionButton>
-          <NumberButton className="w-75" onClick={this.handleNumberInput('0')}>
+          <NumberButton className="w-50" onClick={this.handleNumberInput('0')}>
             0
+          </NumberButton>
+          <NumberButton className="w-25" onClick={this.handleNumberInput('.')}>
+            .
           </NumberButton>
           <ActionButton
             className="w-25 bg-attention"
