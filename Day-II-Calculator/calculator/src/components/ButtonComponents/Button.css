@@ -3,7 +3,7 @@
   display: flex;
 }
 
-.number-button {
+.numberButton {
   width: 100px;
   border: 1px solid grey;
 }
@@ -18,7 +18,7 @@
   color: white;
   text-align: center;
   line-height: 100px;
-  font-size: 50px;
+    font-size: 3rem;
   font-weight: 200;
 }
 .num {
@@ -31,7 +31,7 @@
 .action {
   text-align: center;
   line-height: 100px;
-  font-size: 50px;
+  font-size: 3rem;
   font-weight: 200;
   width: 300px;
   border: 1px solid #e3e3e3;
