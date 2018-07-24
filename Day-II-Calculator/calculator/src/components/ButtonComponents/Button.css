@@ -1,0 +1,34 @@
+/* Base Button Class */
+.button{
+  height: 94px;
+  border: 1px solid lightgray;
+  font-size: 3.5rem;
+}
+
+.button:hover{
+  border: 1px solid blue;
+}
+
+.number{
+  width:110px;
+  background-color: white;
+  font-weight: bold;
+}
+
+.wide-number{
+  width: 330px;
+  background-color: white;
+}
+
+.action{
+  width:125px;
+  background-color: #A0001E;
+  color: white;
+  font-size:8rem;
+  font-weight: normal;
+}
+
+.wide-action{
+  width: 330px;
+  background-color:white;
+}

@@ -1,1 +1,46 @@
 /* All styles for your Card Components live here */
+
+.card-col{
+  padding-right: 5%;
+}
+
+
+.img-card{
+  /* -webkit-transform: scale(1.5);
+  -moz-transform: scale(1.5);
+  -o-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  transform: scale(1.5); */
+  border-radius: 5px 5px 0 0;
+}
+
+.content{
+  border: 1px solid lightgray;
+  padding-left: 2.5%;  
+  padding-top: 10px;
+  border-radius: 0 0 5px 5px ;
+}
+
+.title{
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.desc{
+  line-height: 19px;
+  margin: 3px 0;
+}
+
+.react-link{
+  text-decoration: none;
+  color: gray;
+  font-size: 1.2rem;
+}
+
+.react-link:hover{
+  color: blue;
+}
+
+.link-container{
+  margin-bottom:9px;
+}
