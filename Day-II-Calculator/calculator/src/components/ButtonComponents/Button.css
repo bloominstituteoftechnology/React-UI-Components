@@ -1,14 +1,3 @@
-.clear-container {
-    /* border: 1px solid red; */
-}
-
-.number-container {
-    /* border: 1px solid gray; */
-}
-
-.cero-container {
-    /* border: 1px solid green; */
-}
 
 .custom-button {
     padding: 20px 0;
@@ -17,6 +6,7 @@
     background-color:#FFFFFF;
     border: 1px solid #AFAFAF;
     width: 25%;
+    cursor: pointer;
 }
 
 .action-button {
@@ -25,4 +15,5 @@
     border: 1px solid #AFAFAF;
     /* font-weight: lighter; */
     width: 75%;
+    cursor: pointer;
 }
