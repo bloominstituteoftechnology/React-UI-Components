@@ -4,7 +4,7 @@ import './Button.css';
 
 const ActionMaker = props => {
   return (
-      <div className={`action-style ${props.buttonStyle}`} text="props.text">{props.text}</div>
+      <div className={`button-style action-style ${props.buttonStyle}`} text="props.text" onClick={ () => console.log(`${props.text}`)} >{props.text}</div>
   );
 };
 
@@ -20,9 +20,6 @@ const ActionContainer = props => {
   );
 };
 
-ActionContainer.defaultProps = {
-  text: ''
-};
 /*creating a action button template*/
 
 export default ActionContainer;

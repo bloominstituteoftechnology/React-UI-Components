@@ -4,12 +4,12 @@ import './Display.css';
 
 const Display = props => {
   return (
-    <div className="display-style" text="">{props.text}</div>
+    <div className="display-style" output="">{props.output}</div>
   );
 };
 
 Display.defaultProps = {
-  text: 0
+  output: 0
 }
 
 export default Display;

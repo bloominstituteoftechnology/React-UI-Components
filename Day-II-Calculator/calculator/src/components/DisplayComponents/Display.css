@@ -10,3 +10,6 @@
   color: white;
   background-color: black;
 }
+.display-style:hover {
+ background-color: #1E1E1E;
+}

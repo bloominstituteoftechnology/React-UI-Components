@@ -1,9 +1,8 @@
 import React from 'react';
 import './Button.css';
-import ClearButton from './ClearButton.js';
 
 const ButtonMaker = props => {
-    return <div className={`button-style ${props.buttonStyle}`}>{props.text}</div>
+    return <div className={`button-style ${props.buttonStyle}`} onClick={ () => console.log(`${props.text}`)}>{props.text}</div>
 }
 
 const NumberContainer  = props => {
@@ -19,7 +18,7 @@ const NumberContainer  = props => {
       <ButtonMaker text="7" />
       <ButtonMaker text="8" />
       <ButtonMaker text="9" />
-      <ClearButton text="Clear" buttonStyle="three-wide button-style"/>
+      <ButtonMaker text="Clear" buttonStyle="three-wide"/>
     </div>
   );
 };
