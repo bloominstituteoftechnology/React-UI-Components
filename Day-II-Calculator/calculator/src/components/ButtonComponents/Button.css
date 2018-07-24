@@ -5,7 +5,7 @@
 .btn {
     width: 110px;
     height: 92px;
-    background-color: hsl(159, 0%, 76%);
+    background-color: rgb(172, 172, 172);
     border: 1px solid white;
     font-size: 60px;
     color: white;
@@ -16,8 +16,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border:1px solid rgb(175, 175, 175);
+    border:1px solid rgb(143, 143, 143);
     cursor: pointer;
+    border-top: 0;
+    border-bottom:4px solid hsla(196, 95%, 17%, 0.466);
+    border-right: 2px solid grey;
 
 }
 .operator {
@@ -29,8 +32,8 @@
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    border-top: 1px solid black;
-    border-bottom:2px solid black;
+    border-top: 0;
+    border-bottom:4px solid hsla(196, 95%, 17%, 0.466);
     border-right: 2px solid grey;
     
 
@@ -42,13 +45,15 @@
     justify-content: center;
     align-items: center;
     color: white;
-    border:1px solid rgb(175, 175, 175);
+    border:1px solid rgb(143, 143, 143);
     cursor: pointer;
+    border-bottom: 4px solid rgba(0, 0, 0, 0.459);
+   
 }
 
 .row {
     display: flex;
     flex-direction: row;
-    
+    border-left: 4px solid rgba(0, 0, 0, 0.493);
     
 }
