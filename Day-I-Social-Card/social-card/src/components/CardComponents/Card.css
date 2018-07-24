@@ -5,6 +5,13 @@
     padding-left: 60px;
     border-radius: 10px;
     
+    
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
 }
 
 .banner {
@@ -28,6 +35,7 @@
 
 .bottom, .card, .addy {
     padding-left: 10px;
+    
 }
 
 .addy {
