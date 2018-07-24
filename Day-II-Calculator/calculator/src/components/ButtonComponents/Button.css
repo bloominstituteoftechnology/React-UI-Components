@@ -1,0 +1,35 @@
+.btn {
+    width: 111px;
+    height: 94px;
+    font-size: 300%;
+    border: solid gray 1px;
+}
+.white {
+    color: black;
+}
+
+.red {
+    color: white;
+    background: darkred;
+    width: 120px;
+}
+
+.widebtn {
+    width: 333px;
+}
+
+.display {
+    height: 124px;
+    width: 451px;
+    border: solid gray 1px;
+    font-size: 400%;
+    background: black;
+    color: white;
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+p {
+    margin-right: 4%;
+}
