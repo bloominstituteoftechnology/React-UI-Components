@@ -20,7 +20,7 @@ const ButtonContainer = () => {
         <SmallButton text = "2" />
         <SmallButton text = "3" />
         <SmallButton text = "+" colorStyles = "button-colors"/>
-        <WideButton text = "0" />
+        <WideButton text = "0" specificStyles = "fonts"/>
         <SmallButton text = "=" colorStyles = "button-colors"/>
         </div>
     );

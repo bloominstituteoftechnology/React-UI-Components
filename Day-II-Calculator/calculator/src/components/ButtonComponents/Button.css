@@ -1,7 +1,7 @@
 .btn-styles{
     width: 150px;
     height: 150px;
-    background-color:white;
+    background-color: #fffafa;
 }
 
 .button-colors{
@@ -12,5 +12,11 @@
 .w-btn-styles{
     width: 450px;
     height: 150px;
+    background-color: #fffafa;
+    font-weight: 100;
+}
+
+.w-btn-styles .fonts{
+    font-weight: 200;
 }
 

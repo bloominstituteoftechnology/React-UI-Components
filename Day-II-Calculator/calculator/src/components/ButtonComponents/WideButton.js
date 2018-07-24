@@ -4,7 +4,7 @@ import './Button.css';
 
 const WideButton = props => {
     return (
-    <button className = {`w-btn-styles`}> {props.text}</button>
+    <button className = {`w-btn-styles ${props.specificStyles}`}> {props.text}</button>
     );
     };
     
