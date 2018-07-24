@@ -64,13 +64,3 @@ export default class Footer extends React.Component {
     )
   }
 }
-// const Footer = () => (
-//   <div className="footer">
-//     <FooterIcon iconImg={speechBubble}/>
-//     <FooterIcon iconImg={refresh} />
-//     <FooterIcon iconImg={heart} />
-//     <FooterIcon iconImg={mail}/>
-//   </div>
-// );
-
-// export default Footer;
