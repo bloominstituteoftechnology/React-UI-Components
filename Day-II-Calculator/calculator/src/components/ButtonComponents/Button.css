@@ -1,0 +1,16 @@
+.actionBtn {
+    width: 300px;
+    height: 100px;
+    font-size: 30px;
+}
+
+.numberBtn {
+    height: 100px;
+    width: 100px;
+    font-size: 30px;
+}
+
+/* .ops {
+    background: red;
+    color: white;
+} */
