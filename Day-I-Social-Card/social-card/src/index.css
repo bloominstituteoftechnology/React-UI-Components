@@ -1,5 +1,10 @@
 body {
-  margin: 0;
+  margin: 75px;
   padding: 0.4rem;
   font-family: sans-serif;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
 }

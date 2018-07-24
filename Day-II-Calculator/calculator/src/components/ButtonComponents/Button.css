@@ -1,0 +1,19 @@
+
+.buttonStyle{
+    height: 25px;
+}
+
+.red-btn{
+    width:25px;
+    background-color: red;
+}
+
+.reg-btn{
+    width: 25px;
+    background-color: white;
+}
+
+.reg-long{
+    background-color: white;
+    width: 75px;
+}
