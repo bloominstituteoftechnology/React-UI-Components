@@ -3,12 +3,12 @@ import './Card.css';
 
 const CardContent = () => {
     return (
-        <div>
-            <h4>Get started with React</h4>
-            <p>
+        <div className='card-content-wrapper' >
+            <h4 className='card-content-header' >Get started with React</h4>
+            <p className='card-content' >
                 React makes it paniless to create interactive UOs.  Design simple views for each state in your application.
             </p>
-            <p>reactjs.org</p>
+            <p className='card-content' >reactjs.org</p>
         </div>
     );
 };

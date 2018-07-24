@@ -1,6 +1,6 @@
 /* All styles for your header Components live here */
 .header-container-wrapper {
-    border: 1px solid salmon;
+    /* border: 1px solid salmon; */
     display: flex;
     height: 50px;
     padding: 10px;
@@ -8,7 +8,6 @@
 
 .lambda-img-wrapper {
     height: 50px;
-    /* padding: 5px; */
     padding: .4em;
 }
 
@@ -34,5 +33,6 @@
 
 .header-content {
     width: 90%;
-    line-height: 1.4;
+    line-height: 1.2;
+    font-size: 13px;
 }
