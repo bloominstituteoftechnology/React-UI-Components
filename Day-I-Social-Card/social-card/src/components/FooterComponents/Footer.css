@@ -1,0 +1,18 @@
+.footer-wrapper {
+  font-size: 16px;
+  font-weight: 600;
+  padding: 0 0.3em;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: start;
+}
+
+.footer-wrapper i {
+  padding: 1rem 1.5rem;
+  margin-left: 2rem;
+}
+
+.footer-wrapper .fa-refresh {
+  cursor: pointer;
+}
