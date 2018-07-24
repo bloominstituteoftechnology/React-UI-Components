@@ -2,3 +2,17 @@
 .card-container-wrapper {
     border: 1px dashed blue;
 }
+
+.card-container-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-banner-wrapper {
+    height: 300px;
+}
+    
+.card-banner-img {
+    max-width: 100%;
+    max-width: 100%;
+}
