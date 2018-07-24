@@ -1,0 +1,23 @@
+*{box-sizing: border-box}
+.number {
+	color: white;
+	background: #666;
+}
+
+.btn {
+	width: 20%;
+	height: 80px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 26px;
+	font-weight: bold;
+	border: 2px solid black;
+	margin: 10px;
+	border-radius: 5px;
+}
+
+.action {
+	color: white;
+	background: maroon;
+}
