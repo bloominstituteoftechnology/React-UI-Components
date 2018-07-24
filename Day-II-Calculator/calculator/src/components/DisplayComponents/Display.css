@@ -1,0 +1,9 @@
+.calculator-display{
+    height: 20%;
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 10px;
+}

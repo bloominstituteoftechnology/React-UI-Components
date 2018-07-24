@@ -1,0 +1,30 @@
+.inner-container{
+    height: 80%;
+    display: flex;
+}
+.white-button{
+    width: 75%;
+    height: 100%;
+}
+.rectangular-btn{
+    width: 100%;
+    height: 20%;
+    font-size: 3.5rem;
+}
+.square-button{
+    width: 33.3%;
+    height: 20%;
+    font-size: 3.5rem;
+}
+.red-button{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.square-button-red{
+    height: 20%;
+    color: white;
+    background-color: darkred;
+    font-size: 4rem;
+}
