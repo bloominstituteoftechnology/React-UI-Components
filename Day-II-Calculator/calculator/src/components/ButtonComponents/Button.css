@@ -1,0 +1,32 @@
+.default-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 45px;
+  height: 90px;
+  width: 110px;
+  border: 1px solid gray;
+}
+
+.number-button {
+  background: white;
+  color: gray;
+  font-weight: bold;
+}
+
+.zero-button {
+  width: 330px;
+}
+
+.action-button {
+  background: red;
+  color: gray;
+  font-size: 70px;
+}
+
+.clear-button {
+  width: 330px;
+  background: white;
+  color: gray;
+  font-weight: lighter;
+}
