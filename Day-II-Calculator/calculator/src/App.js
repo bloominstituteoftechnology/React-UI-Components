@@ -11,7 +11,7 @@ const App = () => {
       <Display className= "display" />
           <Container className="clear">
             <Action className="action" text="clear" />
-            <Number color="col operator" text="/" />
+            <Number color="col operator" text="÷" />
           </Container>
           <Container>
             <Number color="num" text="7" />
