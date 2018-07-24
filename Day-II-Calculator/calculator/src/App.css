@@ -8,16 +8,17 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  border: 1px solid grey;
 }
 .numbersButtonsDiv {
   display:flex;
   flex-direction: row-reverse;
   flex-wrap: wrap;
-  width: 75%;
+  width: 74%;
 }
 
 .actionButtonRow {
   display: flex;
   flex-direction: column;
-  width: 25%;
+  width: 26%;
 }
