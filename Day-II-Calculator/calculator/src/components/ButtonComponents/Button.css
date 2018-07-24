@@ -1,0 +1,34 @@
+.button-display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.action-btn {
+  background: darkred;
+  color: white;
+  width: 100%;
+  height:95px;
+  font-size: 70px;
+}
+
+.number-btn {
+  background: white;
+  color: black;
+  width: 100%;
+  height: 95px;
+  font-size: 50px;
+}
+
+.btn-lrg {
+  width: 75%;
+}
+
+.btn-sml {
+  width: 25%;
+}
+
+.bordered {
+  border: 1px solid gray;
+  display: flex;
+}

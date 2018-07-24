@@ -1,0 +1,16 @@
+.display {
+  background: black;
+  color: white;
+  width: 100%;
+  padding-right: 20px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  font-size: 80px;
+  height: 120px;
+}
+
+.bordered {
+  border: 1px solid gray;
+  display: flex;
+}

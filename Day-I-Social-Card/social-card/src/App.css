@@ -1,4 +1,18 @@
-/* 
-  Write your styles/CSS for App.js here and import into the component that you need 
+/*
+  Write your styles/CSS for App.js here and import into the component that you need
   IF you'd like to attempt to use less you'll have to research how to do this with Create React App
 */
+
+.outer-div {
+  max-width: 590px;
+  width: 100%;
+  max-height: 514px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0 50px 20px 0;
+  border: 1px dotted black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
