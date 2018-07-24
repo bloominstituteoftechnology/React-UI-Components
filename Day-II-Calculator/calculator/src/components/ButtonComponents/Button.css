@@ -9,12 +9,15 @@
 .rectangular-btn{
     width: 100%;
     height: 20%;
-    font-size: 3.5rem;
+    font-size: 3rem;
 }
 .square-button{
     width: 33.3%;
     height: 20%;
-    font-size: 3.5rem;
+    font-size: 3rem;
+}
+.number-button{
+    font-weight: bold;
 }
 .red-button{
     width: 25%;
