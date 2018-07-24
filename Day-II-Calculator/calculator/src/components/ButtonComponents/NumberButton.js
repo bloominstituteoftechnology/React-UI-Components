@@ -3,10 +3,11 @@ import './Button.css';
 import ActionButton from './ActionButton';
 
 class NumberButton extends React.Component {
-    // constructor(props){
-    //     super(props)
-        
-    // }
+    constructor(props){
+        super(props)
+    console.log(props);  
+    console.log(this.state);       
+    }
 
 
     render() {
@@ -17,7 +18,7 @@ class NumberButton extends React.Component {
                     <div className="numberInputs">
                         <div className="clear">{this.props.clear}</div>
 
-                        <div onClick={this.props.handleButtonClick(this.props.seven)} className="nonzero sm">{this.props.seven}</div>
+                        <div onClick={this.props.handleButtonClick} className="nonzero sm">{this.props.seven}</div>
                         <div onClick={this.props.handleButtonClick(this.props.eight)}className="nonzero">{this.props.eight}</div>
                         <div onClick={this.props.handleButtonClick(this.props.nine)}className="nonzero">{this.props.nine}</div>
                         <div onClick={this.props.handleButtonClick(this.props.four)}className="nonzero sm">{this.props.four}</div>

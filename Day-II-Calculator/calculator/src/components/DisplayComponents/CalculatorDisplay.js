@@ -2,9 +2,9 @@ import React from 'react';
 import './Display.css';
 
 class CalculatorDisplay extends React.Component {
-    // constructor(props){
-    //     super(props)
-    // }
+    constructor(props){
+        super(props)
+    }
 
 
     render() {
