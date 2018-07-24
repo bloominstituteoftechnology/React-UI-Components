@@ -7,9 +7,9 @@ import ActionButton from './components/ButtonComponents/ActionButton';
 
 const App = () => {
   return (
-    <div>
-      <CalculatorDisplay />
-      <NumberButtonLarge text="clear" /><ActionButton text="/" />
+    <div className="calculator-layout">
+      <CalculatorDisplay text="0"/>
+      <NumberButtonLarge text="clear" /><ActionButton text="&divide;" />
       <NumberButtonSmall text="7" /><NumberButtonSmall text="8" /><NumberButtonSmall text="9" /><ActionButton text="x" />
       <NumberButtonSmall text="4" /><NumberButtonSmall text="5" /><NumberButtonSmall text="6" /><ActionButton text="-" />
       <NumberButtonSmall text="1" /><NumberButtonSmall text="2" /><NumberButtonSmall text="3" /><ActionButton text="+" />
