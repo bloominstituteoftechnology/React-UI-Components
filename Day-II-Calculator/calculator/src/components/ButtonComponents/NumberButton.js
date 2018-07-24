@@ -2,10 +2,23 @@ import React from 'react';
 import './Button.css';
 
 
+class NumberButton extends React.Component {
 
-const NumberButton = props => <button className={props.buttonStyle}>{props.text}</button>
+    constructor(props) {
+        super(props);
+    }
 
 
+    numberPushed() {
+        return (this.text);
+    }
 
+    render() {
+      return(   
+      <button onClick="numberPushed()" className={this.buttonStyle}>{this.text}</button>
+      );
+    }
+
+}
 
 export default NumberButton;

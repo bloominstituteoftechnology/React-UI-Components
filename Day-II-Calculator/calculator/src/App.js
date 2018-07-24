@@ -9,8 +9,9 @@ const App = () => {
     <div className="container">
 
       <div className="display">
-        <CalculatorDisplay displaynumberStyle="display-number" text="0" />
+        <CalculatorDisplay displaynumberStyle="display-number" text={ButtonContainer} />
       </div>
+
       <div>
         <ButtonContainer />
       </div>

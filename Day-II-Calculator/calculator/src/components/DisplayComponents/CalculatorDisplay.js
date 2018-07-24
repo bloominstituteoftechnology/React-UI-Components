@@ -1,9 +1,19 @@
 import React from 'react';
 import './Display.css';
+import NumberButton from '../ButtonComponents/NumberButton';
 
-const CalculatorDisplay = props => <div className={props.displaynumberStyle}>{props.text}</div>
+class CalculatorDisplay extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = {text: new NumberButton()};
+    }
 
-
+    render() {
+        return (
+          <div className={this.state.displaynumberStyle}>{this.state.text}</div>
+        )
+    }
+}
 
 
 export default CalculatorDisplay;

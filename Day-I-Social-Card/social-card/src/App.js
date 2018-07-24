@@ -6,8 +6,8 @@ import CardContainer from './components/CardComponents/CardContainer';
 import Footer from './components/FooterComponents/Footer';
 
 
-const App = () => {
-
+class App extends React.Component {
+render(){
   return (
     <div className="main-container">
 
@@ -18,6 +18,7 @@ const App = () => {
 
     </div>
   );
+}
 }
 
 
