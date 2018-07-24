@@ -24,10 +24,19 @@ class App extends Component {
 	}
 
 	changeDisplay = (number) => {
-		let newTotal = this.state.display;
-		newTotal += number;
-		this.setState({ display: newTotal });
-		this.checkLength();
+		if (number === '.'){
+			if (this.state.display.toString().indexOf('.') === -1){
+				let newTotal = this.state.display;
+				newTotal += number;
+				this.setState({ display: newTotal });
+				this.checkLength();
+			}
+		} else {
+			let newTotal = this.state.display;
+			newTotal += number;
+			this.setState({ display: newTotal });
+			this.checkLength();
+		}
 	}
 
 	resetDisplay = () => {
