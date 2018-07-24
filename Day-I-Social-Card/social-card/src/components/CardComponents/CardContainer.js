@@ -3,6 +3,6 @@ import './Card.css';
 import CardBanner from './CardBanner.js';
 import CardContent from './CardContent.js';
 
-const CardContainer=()=><div><CardBanner/><CardContent/></div>
+const CardContainer=()=><div id='card-container'><CardBanner/><CardContent/></div>
 
 export default CardContainer;
