@@ -1,6 +1,47 @@
 /* All styles for your header Components live here */
 
-.header-container {
+.container-header {
     height: 50px;
-    border: 1px solid red;
+    padding: 10px;
+    display: flex;
+}
+
+.thumb-wrapper {
+    height: 50px;
+    padding-right: 0.4em;
+}
+
+.thumb-img {
+    height: 100%;
+}
+
+.time-stamp {
+    font-weight: 300;
+    color: grey;
+}
+
+.email-handle {
+    font-weight: 300;
+    color: grey;
+}
+
+.header-title {
+    display: flex;
+}
+
+.header-title-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+}
+
+.header-bottom {
+    margin: 10px 0px;
+    border: 1px solid purple;
+}
+
+.title-element {
+    margin-bottom: 10px;
+    margin-top: 0px;
+    padding-right: 10px;
 }

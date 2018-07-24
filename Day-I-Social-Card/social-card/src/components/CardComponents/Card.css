@@ -1,17 +1,16 @@
 /* All styles for your Card Components live here */
 
-.banner-container-wrapper {
-    border: 1px solid red;
+.banner-wrapper {
     display: flex;
     flex-direction: column;
 }
 
-.container-wrapper {
-    height: 369px;
-    width: 100%;
+.banner-container-wrapper {
+    height: 269px;
+    width: 80%;
     margin: 30px auto 0 auto;
     border-radius: 4px;
-    background: hsl(0, 0, 100%);
+    background: hsl(0, 0%, 100%);
     background-size: contain;
 }
 
@@ -40,5 +39,5 @@
 
 .link {
     text-decoration: none;
-    color: #d1d2d3;
+    color: grey;
 }
