@@ -22,19 +22,19 @@ import './Footer.css';
 class Footer extends React.Component {
     constructor(props){
         super(props);
-        this.state = {sync: "", like:"", comment:"", message:""}
+        this.state = {sync: "", like:"", comment:"", message:"", commentArray: []}
         this.handleSyncClick = this.handleSyncClick.bind(this); 
         this.handleLickClick = this.handleLikeClick.bind(this);
         this.handleCommentClick = this.handleCommentClick.bind(this);
         this.handleMessageClick = this.handleMessageClick.bind(this); 
-    }
-
+    } 
     handleSyncClick() {
         if(Number.isInteger(this.state.sync)){
             this.state.sync +=1; 
         } else {
             this.state.sync = 1; 
         }
+        //console.log(this.state.sync);
         // this.forceUpdate();
         this.setState(this.state); //not sure if this.setState is better than forceUpdate or not. 
          
@@ -79,7 +79,7 @@ class Footer extends React.Component {
     render(){
         return (
             <div className="footer">
-                <i onClick = {this.handleCommentClick} className="far fa-comment">  {this.state.comment}</i>
+                <i id = "commentMargin" onClick = {this.handleCommentClick} className="far fa-comment"></i><i>{this.state.comment}</i>
                 <i onClick={this.handleSyncClick} className="fas fa-sync">  {this.state.sync}</i>
                 <i onClick={this.handleLickClick}className="far fa-heart">  {this.state.like}</i>
                 <i onClick={this.handleMessageClick}className="far fa-envelope">  {this.state.message}</i>

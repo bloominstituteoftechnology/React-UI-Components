@@ -6,7 +6,7 @@ const HeaderTitle = () => {
     const moment = require('moment');
     return (
         <div className= "headerTitle">
-            <h4>Lambda School   <span>@LambdaSchool &middot; {moment().format('Do MMM')}</span></h4>
+            <h4>Lambda School   <span>@LambdaSchool &middot; {moment().format('D MMM').toLocaleLowerCase()}</span></h4>
             <HeaderContent />
         </div>
         

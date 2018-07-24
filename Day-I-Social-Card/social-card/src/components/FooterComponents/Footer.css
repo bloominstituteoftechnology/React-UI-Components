@@ -11,4 +11,12 @@
     cursor:pointer;
 }
 
+.fa-comment {
+    transform: rotateY(180deg);
+}
+
+#commentMargin {
+    margin-right: 4px; 
+}
+
 
