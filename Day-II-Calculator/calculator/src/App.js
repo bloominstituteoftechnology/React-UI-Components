@@ -10,11 +10,8 @@ const App = () => {
         <CalculatorDisplay />
       </div>
       <div className="button-body">
-        {/* <div className="clear-btn">
-         
-        </div> */}
         <div className="number-body">
-          <ActionButton action="CE" class="clear-button"/>
+          <ActionButton action="clear" class="clear-button"/>
           <NumberButton number="1"/>
           <NumberButton number="2" />
           <NumberButton number="3" />

@@ -1,12 +1,12 @@
 
 .number-button {
-    width:110px;
-    height: 76px;
-    /* border: solid 1px gray; */
-    color: white;
+    width:108px;
+    background: #fff;
+    color: black;
     font-size: 4rem;
     text-align: center;
     line-height: 1.2;
+    border: solid 1px #AAAAAA;
 }
 
 .number-button.zero-button {
@@ -19,21 +19,24 @@
 
 .action-button {
     width:68px;
-    height: 77px;
+    height: 78px;
     /* border: solid 1px gray; */
+    background: #9E0523;
     color: white;
     font-size: 4rem;
     text-align: center;
     line-height: 1.2;
+    border: solid 1px #AAAAAA;
 }
 .action-button:hover {
     background: orangered;
 }
 .action-button.clear-button {
     width:330px;
-    height: 77px;
+
     /* border: solid 1px gray; */
-    color: white;
+    background: #fff;
+    color: black;
     font-size: 4rem;
     text-align: end;
     padding-right: 5%;

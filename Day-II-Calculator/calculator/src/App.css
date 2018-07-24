@@ -4,7 +4,7 @@
     width: 450px;
     height: 600px;
     margin: 0 auto;
-    background: gray;
+    background: #fff;
     border: solid 1px whitesmoke;
     margin-top: 2%;
 }
@@ -23,7 +23,6 @@
     flex-flow: row;
     width: 420px;
     height: 430px;
-    background: slategray;
     margin: 0 auto;
     margin-top: 5%;
     border: solid 1px whitesmoke;
@@ -34,7 +33,6 @@
     flex-flow: row wrap;
     width: 330px;
     height: 400px;
-    background: pink;
     margin: 0 auto;
     margin-top: 5%;
     border: solid 1px whitesmoke;
@@ -45,7 +43,7 @@
     flex-flow: column wrap;
     width: 70px;
     height: 400px;
-    background: orange;
+    background: #9E0523;
     margin: 0 auto;
     margin-top: 5%;
     border: solid 1px whitesmoke;
