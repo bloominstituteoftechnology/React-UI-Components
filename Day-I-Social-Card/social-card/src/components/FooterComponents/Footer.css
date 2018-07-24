@@ -1,0 +1,15 @@
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    margin-left: 6%;
+}
+
+.font-awesome {
+    color: grey;
+}
+
+.footer p {
+    color: grey;
+}
