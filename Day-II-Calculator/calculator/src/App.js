@@ -130,18 +130,30 @@ class App extends React.Component {
 
   plusClickHandler() {
     this.setState({operator:0, isOperatorSelected:true, total:"+"});
+    let plusDiv = document.querySelector(".plus");
+    plusDiv.style.backgroundColor = "white";
+    plusDiv.style.color = "darkred";
   }
 
   minusClickHandler() {
     this.setState({operator:1, isOperatorSelected:true, total:"-"});
+    let minusDiv = document.querySelector(".minus");
+    minusDiv.style.backgroundColor = "white";
+    minusDiv.style.color = "darkred";
   }
 
   multiplyClickHandler() {
     this.setState({operator:2, isOperatorSelected:true, total:"x"});
+    let multiplyDiv = document.querySelector(".multiply");
+    multiplyDiv.style.backgroundColor = "white";
+    multiplyDiv.style.color = "darkred";
   }
 
   divideClickHandler() {
     this.setState({operator:3, isOperatorSelected:true, total:String.fromCharCode("0x00F7")});
+    let divideDiv = document.querySelector(".divide");
+    divideDiv.style.backgroundColor = "white";
+    divideDiv.style.color = "darkred";
   }
 
   equalsClickHandler() {
@@ -154,17 +166,30 @@ class App extends React.Component {
     } else {
       this.setState({total: parseInt(this.state.num1) / parseInt(this.state.num2)});
     }
-    this.setState({num1:0, num1Arr:[], num2:0, num2Arr:[], isOperatorSelected:false})
+    this.setState({num1:0, num1Arr:[], num2:0, num2Arr:[], isOperatorSelected:false});
+
+    let plusDiv = document.querySelector(".plus");
+    plusDiv.style.backgroundColor = "darkred";
+    plusDiv.style.color = "white";
+    let minusDiv = document.querySelector(".minus");
+    minusDiv.style.backgroundColor = "darkred";
+    minusDiv.style.color = "white";
+    let multiplyDiv = document.querySelector(".multiply");
+    multiplyDiv.style.backgroundColor = "darkred";
+    multiplyDiv.style.color = "white";
+    let divideDiv = document.querySelector(".divide");
+    divideDiv.style.backgroundColor = "darkred";
+    divideDiv.style.color = "white";
   }
 
   render() {
     return (<div className="calculator-layout">
     <CalculatorDisplay text={this.state.total} />
-    <div onClick={this.clearClickHandler.bind(this)}><NumberButtonLarge text="clear" /></div><div onClick={this.divideClickHandler.bind(this)}><ActionButton text="&divide;" /></div>
-    <div onClick={this.sevenClickHandler.bind(this)}><NumberButtonSmall text="7" /></div><div onClick={this.eightClickHandler.bind(this)}><NumberButtonSmall text="8" /></div><div onClick={this.nineClickHandler.bind(this)}><NumberButtonSmall text="9" /></div><div onClick={this.multiplyClickHandler.bind(this)}><ActionButton text="x" /></div>
-    <div onClick={this.fourClickHandler.bind(this)}><NumberButtonSmall text="4" /></div><div onClick={this.fiveClickHandler.bind(this)}><NumberButtonSmall text="5" /></div><div onClick={this.sixClickHandler.bind(this)}><NumberButtonSmall text="6" /></div><div onClick={this.minusClickHandler.bind(this)}><ActionButton text="-" /></div>
-    <div onClick={this.oneClickHandler.bind(this)}><NumberButtonSmall text="1" /></div><div onClick={this.twoClickHandler.bind(this)}><NumberButtonSmall text="2" /></div><div onClick={this.threeClickHandler.bind(this)}><NumberButtonSmall text="3" /></div><div onClick={this.plusClickHandler.bind(this)}><ActionButton text="+" /></div>
-    <div onClick={this.zeroClickHandler.bind(this)}><NumberButtonLarge text="0" /></div><div onClick={this.equalsClickHandler.bind(this)}><ActionButton text="=" /></div>
+    <div onClick={this.clearClickHandler.bind(this)}><NumberButtonLarge text="clear" /></div><div onClick={this.divideClickHandler.bind(this)}><ActionButton text="&divide;" name="divide" /></div>
+    <div onClick={this.sevenClickHandler.bind(this)}><NumberButtonSmall text="7" /></div><div onClick={this.eightClickHandler.bind(this)}><NumberButtonSmall text="8" /></div><div onClick={this.nineClickHandler.bind(this)}><NumberButtonSmall text="9" /></div><div onClick={this.multiplyClickHandler.bind(this)}><ActionButton text="x" name="multiply" /></div>
+    <div onClick={this.fourClickHandler.bind(this)}><NumberButtonSmall text="4" /></div><div onClick={this.fiveClickHandler.bind(this)}><NumberButtonSmall text="5" /></div><div onClick={this.sixClickHandler.bind(this)}><NumberButtonSmall text="6" /></div><div onClick={this.minusClickHandler.bind(this)}><ActionButton text="-" name="minus" /></div>
+    <div onClick={this.oneClickHandler.bind(this)}><NumberButtonSmall text="1" /></div><div onClick={this.twoClickHandler.bind(this)}><NumberButtonSmall text="2" /></div><div onClick={this.threeClickHandler.bind(this)}><NumberButtonSmall text="3" /></div><div onClick={this.plusClickHandler.bind(this)}><ActionButton text="+" name="plus" /></div>
+    <div onClick={this.zeroClickHandler.bind(this)}><NumberButtonLarge text="0" /></div><div onClick={this.equalsClickHandler.bind(this)}><ActionButton text="=" name="equals" /></div>
     </div>)
   }
 }
