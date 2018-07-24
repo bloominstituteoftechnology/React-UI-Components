@@ -1,0 +1,20 @@
+.small-number {
+    height: 125px;
+    width: 114px;
+    border: 1px solid grey;
+    box-sizing: border-box;
+}
+
+.large-number {
+    height: 125px;
+    width: 342px;
+    border: 1px solid grey;
+    box-sizing: border-box;
+}
+
+.action-button {
+    height: 125px;
+    width: 114px;
+    border: 1px solid grey;
+    box-sizing: border-box;
+}
