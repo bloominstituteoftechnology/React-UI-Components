@@ -1,0 +1,19 @@
+.calculator {
+  margin: 0 auto;
+  max-width: 320px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid grey;
+}
+
+button {
+  border: 1px solid grey;
+  width: 80px;
+  height: 80px;
+  font-size: 20px;
+}
+
+.components {
+  display: flex;
+  flex-direction: row;
+}

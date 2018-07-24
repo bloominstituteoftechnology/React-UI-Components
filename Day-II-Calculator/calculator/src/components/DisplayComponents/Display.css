@@ -1,0 +1,15 @@
+.display {
+  border: 1px solid black;
+  background: #000000;
+  height: 100px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  max-width: 320px;
+}
+
+.display p {
+  margin-right: 20px;
+  font-size: 40px;
+  color: #ffffff;
+}

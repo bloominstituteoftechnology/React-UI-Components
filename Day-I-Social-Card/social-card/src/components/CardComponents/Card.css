@@ -1,1 +1,21 @@
-/* All styles for your Card Components live here */
+.card {
+  margin-left: 90px;
+  border: 1px solid lightgrey;
+  border-radius: 7px;
+}
+
+.card-content {
+  margin-left: 20px;
+}
+
+.card-content h2 {
+  font-size: 18px;
+}
+
+.card-content :last-child {
+  color: gray;
+}
+
+.card img {
+  max-width: 560px;
+}
