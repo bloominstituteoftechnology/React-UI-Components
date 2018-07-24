@@ -9,7 +9,7 @@ const App = () => {
   return (
     <div className = "container text-center" id = "calc">
       <Display className= "display" />
-          <Container className="clear">
+          <Container>
             <Action className="action" text="clear" />
             <Number color="col operator" text="÷" />
           </Container>
