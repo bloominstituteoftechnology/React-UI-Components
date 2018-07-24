@@ -1,0 +1,19 @@
+.display {
+    box-sizing: border-box;
+    color: white;
+    border: 2px solid black;
+    width: 448px;
+    height: 100px;
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgba(0, 0, 0, 0.603);
+    padding-right: 20px;
+}
+
+h1 {
+    font-size: 80px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    align-self: center;
+    font-weight: lighter;
+
+}
