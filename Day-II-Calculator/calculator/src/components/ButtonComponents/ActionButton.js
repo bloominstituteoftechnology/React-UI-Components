@@ -3,11 +3,14 @@ import './Button.css';
 
 type Props = {
   children: string,
-  className?: string
+  className?: string,
+  onClick: any
 };
 
 const ActionButton = (props: Props) => (
-  <div className={`ActionButton ${props.className}`}>{props.children}</div>
+  <div className={`ActionButton ${props.className}`} onClick={props.onClick}>
+    {props.children}
+  </div>
 );
 
 export default ActionButton;
