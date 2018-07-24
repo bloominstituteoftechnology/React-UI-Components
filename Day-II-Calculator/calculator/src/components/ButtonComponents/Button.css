@@ -4,11 +4,18 @@
 
 .clear-button {
   width: 240px;
+  font-size: 28px;
 }
 
 .opeartion-buttons {
   display: flex;
   flex-direction: column;
+}
+
+.opeartion-button {
+  background: darkred;
+  color: white;
+  font-size: 40px;
 }
 
 .zero {
