@@ -1,1 +1,25 @@
 /* All styles for your Card Components live here */
+.card-container{
+    width: 700px;
+    margin: 0 auto;
+    padding-left: 5rem;
+}
+.card-container a{
+    text-decoration: none; 
+}
+.card-container img{
+    width: 100%;
+    border-radius: 1rem;
+}
+.card-content{
+    border: 1px solid lightgray;
+    border-radius: 1rem;
+    padding: 0.5rem;
+}
+.card-content h1, .card-content p{
+    font-size: 1rem;
+}
+
+.card-content h3{
+    color: gray;
+}
