@@ -1,5 +1,11 @@
 .btn-styles{
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     background-color:white;
 }
+
+.w-btn-styles{
+    width: 450px;
+    height: 150px;
+}
+

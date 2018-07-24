@@ -1,0 +1,8 @@
+.display-styles{
+    width: 595px;
+    height: 180px;
+}
+
+.display-styles input::placeholder-shown{
+    font-size: 50px;
+}
