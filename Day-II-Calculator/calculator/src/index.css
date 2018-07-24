@@ -10,5 +10,7 @@ html {
 
 body {
   font-size: 1.6rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
   box-sizing: border-box;
 }
