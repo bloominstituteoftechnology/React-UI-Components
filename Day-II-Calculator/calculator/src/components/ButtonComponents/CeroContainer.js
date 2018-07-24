@@ -7,7 +7,7 @@ const CeroContainer = () => {
     return (
         <div className="cero-container">
             <ActionButton text="0" />
-            <NumberButton text="=" />
+            <NumberButton buttonStyle="red-button" text="=" />
         </div>
     );
 };

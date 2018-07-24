@@ -6,8 +6,8 @@ import NumberButton from './NumberButton';
 const ClearContainer = () => {
     return (
         <div className="clear-container">
-            <ActionButton text="clear"/>
-            <NumberButton text="÷"/>
+            <ActionButton buttonStyle="action-text" text="clear"/>
+            <NumberButton buttonStyle="red-button" text="÷"/>
         </div>
     );
 };

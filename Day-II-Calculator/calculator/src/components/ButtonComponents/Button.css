@@ -3,17 +3,27 @@
     padding: 20px 0;
     font-size: 44px;
     font-weight: bold;
-    background-color:#FFFFFF;
     border: 1px solid #AFAFAF;
     width: 25%;
     cursor: pointer;
+}
+
+.red-button {
+    background: #9e0523;
+    color: #ffffff;
+    font-weight: lighter;
 }
 
 .action-button {
     padding: 20px 0;
     font-size: 44px;
     border: 1px solid #AFAFAF;
-    /* font-weight: lighter; */
+    font-weight: bold;
     width: 75%;
     cursor: pointer;
+}
+
+.action-text {
+    font-weight: lighter;
+    letter-spacing: 1px;
 }

@@ -9,15 +9,15 @@ const NumberContainer = () => {
             <NumberButton text="7"/>
             <NumberButton text="8"/>
             <NumberButton text="9"/>
-            <NumberButton text="×"/>
+            <NumberButton buttonStyle="red-button" text="×"/>
             <NumberButton text="4"/>
             <NumberButton text="5"/>
-            <NumberButton text="6"/>
-            <NumberButton text="—"/>
+            <NumberButton buttonStyle="custom-bbutton" text="6"/>
+            <NumberButton buttonStyle="red-button" text="—"/>
             <NumberButton text="1"/>
             <NumberButton text="2"/>
             <NumberButton text="3"/>
-            <NumberButton text="+"/>
+            <NumberButton buttonStyle="red-button" text="+"/>
         </div>
     );
 };
