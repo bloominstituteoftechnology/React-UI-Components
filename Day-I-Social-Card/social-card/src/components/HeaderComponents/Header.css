@@ -1,1 +1,15 @@
 /* All styles for your header Components live here */
+.imageThumbnail  {
+    display: flex;
+    float: left;
+    margin-top: 5px;
+}
+
+.imageThumbnail img {
+    width: 60px;
+    height: 30px;
+}
+
+.headerContent {
+    text-align: right;
+}
