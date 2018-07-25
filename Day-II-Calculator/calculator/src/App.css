@@ -1,0 +1,13 @@
+.app-wrapper {
+    height: 475px;
+    width: 360px;
+    background-color: grey;
+    margin: 50px auto;
+    display: grid;
+    
+    grid-gap: 1px;
+    grid-template : ' display display display display ' 1fr ' clear clear clear . ' 1fr ' . . . . ' 1fr ' . . . . ' 1fr ' . . . . ' 1fr ' zero zero zero . ' 1fr / 1fr 1fr 1fr 1fr;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30),
+  0 15px 12px rgba(0, 0, 0, 0.22);
+  
+}

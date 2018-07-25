@@ -1,1 +1,41 @@
 /* All styles for your Card Components live here */
+.card-main {
+    border-radius: 5px;
+    border: 1px solid grey;
+    height:100%;
+}
+.banner-image {
+    background: url('https://ibin.co/3wnC6SgIOJud.png')no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  max-width:100%;
+    height:200px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.card-heading {
+    padding: 5px 10px 0 10px;
+    font-size: 14px;
+    font-weight: bold;
+    color: hsl(0, 0%, 20%);
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.card-text {
+    display: inline-block;
+    font-size: 14px;
+    padding: 0 10px 0 10px;
+    margin-bottom: 5px;
+}
+.link {
+    display: inline-block;
+    font-size: 14px;
+    color: hsl(0, 0%, 60%);
+    padding: 0 10px 0 10px;
+}
+.pointer {
+    cursor: pointer;
+}
