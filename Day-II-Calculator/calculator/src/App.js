@@ -11,80 +11,82 @@ import NumberButton from './components/ButtonComponents/NumberButton';
 class App extends React.Component{
   constructor(props){
     super(props)
-    this.state = {total: 0, list: [0], display: "0", lastChar : "", characters :["*", "+", "/"], minusSign : "-", neg: false}
+    this.state = {total: 0, list: [0], display: "0", lastChar : "", characters :["*", "+", "/"], minusSign : "-", neg: 0}
     this.addToDisplay = this.addToDisplay.bind(this);
     this.clearDisplay = this.clearDisplay.bind(this); 
     this.equalDisplay = this.equalDisplay.bind(this); 
     this.checkCharacterLength = this.checkCharacterLength.bind(this); 
-    
+    this.update = this.state.display;
+    this.negativeValue = this.state.neg;
+    this.lastCharacter = this.state.lastChar; 
   }
   
   addToDisplay(item){
     //on click of one of the buttons we will add its text/prop to the display. it will also add to the list property in the state object.
     //variables because you shouldn't update the state directly
-    let update =this.state.display;//for updating display
-    let negativeValue = 0; // for checking if a negative value was used. 
+    // let update =this.state.display;//for updating display
+    // let negativeValue = 0; // for checking if a negative value was used. 
 
-    let lastCharacter = ""; //for checking the last character used. 
+    // let lastCharacter = ""; //for checking the last character used. 
 
-    console.log(update, "update")
+    console.log(this.update, "update")
     
-    console.log(negativeValue, "neg"); 
-    console.log(lastCharacter,"last");
+    console.log(this.negativeValue, "neg"); 
+    console.log(this.lastCharacter,"last");
 
     if(this.state.display[this.state.display.length-2]+ this.state.display[this.state.display.length-1] === " -"){
       console.log("negative")
     }
     
     if(this.state.display === "0" && !this.state.characters.includes(item)){
-      update = item; 
-      lastCharacter = item; 
+      this.update = item; 
+      this.lastCharacter = item; 
       //this.setState(this.state);
     } else if (this.state.display === this.state.minusSign && item === this.state.minusSign) {
-      update = "0";
-      lastCharacter = "0";//Toggle on and off for first value negative.
+      this.update = "0";
+      this.lastCharacter = "0";//Toggle on and off for first value negative.
       //this.setState(this.state); 
-      negativeValue -= 1; 
+      
     }else if (item === this.state.minusSign && this.state.lastChar === this.state.minusSign) {
-      update += " ";
-      update += item;
-      lastCharacter = item;
-      negativeValue += 1; 
+      this.update += " ";
+      this.update += item;
+      this.lastCharacter = item;
+      // negativeValue += 1; 
       //this.setState(this.state);
     }
     
     else if(this.state.characters.includes(item) && !this.state.characters.includes(this.state.lastChar)){
-      update += item; 
-      lastCharacter = item; 
+      this.update += item; 
+      this.lastCharacter = item; 
       //this.setState(this.state);
     } else if (!this.state.characters.includes(item)){
-      update += item;
-      lastCharacter = item; 
+      this.update += item;
+      this.lastCharacter = item; 
       //this.setState(this.state);
     }
     
-    lastCharacter === this.state.minus ? negativeValue = true : negativeValue = false;
-    this.setState({total: 0, list: [0], display: update, lastChar : lastCharacter, characters :["*", "+", "/"], minusSign : "-", neg: negativeValue});
+    this.lastCharacter === this.state.minus ? this.negativeValue += 1 : this.negativeValue -= 1;
+    this.setState({total: 0, list: [0], display: this.update, lastChar : this.lastCharacter, characters :["*", "+", "/"], minusSign : "-", neg: this.negativeValue});
     
     this.checkCharacterLength()
     //document.getElementById('onScreen').innerHTML =this.state.display
   }
 
   clearDisplay() {
-    this.state.display = "0";
+    this.update = "0";
     document.getElementById('onScreen').innerHTML = "0"
-    this.setState(this.state);
+    this.setState({total: 0, list: [0], display: this.update, lastChar : this.lastCharacter, characters :["*", "+", "/"], minusSign : "-", neg: this.negativeValue});
     document.getElementById('onScreen').style.fontSize = '70px';
 
   }
   equalDisplay() {
     
     if(this.state.characters.includes(this.state.lastChar)){
-      this.state.display = this.state.display.substring(0, this.state.display.length -1)
+      this.update = this.update.substring(0, this.update.length -1)
     }
     console.log(eval(this.state.display));
-    this.state.display = eval(this.state.display);
-    this.setState(this.state);
+    this.update = eval(this.state.display);
+    this.setState({total: 0, list: [0], display: this.update, lastChar : this.lastCharacter, characters :["*", "+", "/"], minusSign : "-", neg: this.negativeValue});
     //document.getElementById('onScreen').innerHTML =this.state.display
     this.checkCharacterLength()
   }
