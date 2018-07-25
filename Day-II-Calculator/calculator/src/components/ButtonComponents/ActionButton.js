@@ -23,8 +23,8 @@ class ActionButton extends React.Component {
                  
                 <div onClick={ () => this.props.handleButtonClick(this.state.plus)} className="operation"><i className="fas fa-plus"></i></div>
                  
-                <div onClick={ () => this.props.handleButtonClick(this.state.equals) }className="operation"><i className="fas fa-equals"></i></div>
-                 
+                <div onClick={this.props.handleEqualClick} className="operation"><i className="fas fa-equals"></i></div>
+                
              </div>
         ); 
     }

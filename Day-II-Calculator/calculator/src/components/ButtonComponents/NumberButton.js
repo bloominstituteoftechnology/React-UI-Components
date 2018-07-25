@@ -29,7 +29,7 @@ class NumberButton extends React.Component {
 
                         <div onClick={() => this.props.handleButtonClick(this.props.zero)}className="clear zero">{this.props.zero}</div>
                     </div>
-                    <ActionButton handleButtonClick = {item => this.props.handleButtonClick(item) }/>
+                    <ActionButton handleButtonClick = {item => this.props.handleButtonClick(item)} handleEqualClick = {this.props.handleEqualClick}/>
                 </div>
         ); 
     }

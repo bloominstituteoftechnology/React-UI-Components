@@ -21,6 +21,7 @@ class App extends React.Component{
     this.state = {total: 0, list: [0], display: "0", lastChar : ""}
     this.addToDisplay = this.addToDisplay.bind(this);
     this.clearDisplay = this.clearDisplay.bind(this); 
+    this.equalDisplay = this.equalDisplay.bind(this); 
     
   }
 
@@ -52,6 +53,9 @@ class App extends React.Component{
     console.log("clear");
 
   }
+  equalDisplay() {
+    console.log(eval(this.state.display));
+  }
 
 
   render(){
@@ -60,7 +64,7 @@ class App extends React.Component{
       <div className = "main-div">
         <CalculatorDisplay />
         <NumberButton one= "1" two="2" three="3" four="4" five="5" six="6" seven = "7" eight = "8" nine = "9" zero = "0" clear="clear"
-         handleButtonClick = {item => this.addToDisplay(item) } handleClearClick = {this.clearDisplay} />
+         handleButtonClick = {item => this.addToDisplay(item) } handleClearClick = {this.clearDisplay}  handleEqualClick = {this.equalDisplay}/>
       </div>
     );
 
