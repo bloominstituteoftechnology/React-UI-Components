@@ -14,15 +14,23 @@ class App extends React.Component {
   };
   }
   handleClick(e) {
-    if (e.target.innerHTML!=='=') {
+    if (e.target.innerHTML==='clear'){
+      this.setState({total: ''},this.updateDisplay)
+    } else if (e.target.innerHTML!=='=') {
     this.setState({total: this.state.total+e.target.innerHTML},this.updateDisplay);
-    } else {
+    } else if (e.target.innerHTML==='='){
       this.setState({total:eval(document.querySelector('.display').textContent)},this.updateDisplay);
-      
-    }
+    } 
   }
   updateDisplay() {
-    document.querySelector('.display p').innerHTML=this.state.total;
+    let newTotal=this.state.total+'';
+    if (newTotal==='') {
+      document.querySelector('.display p').innerHTML=0
+    } else if (newTotal.length>9){
+      document.querySelector('.display p').innerHTML='error';
+    }  else {
+      document.querySelector('.display p').innerHTML=newTotal;
+    }
   }
   
 render()  {
