@@ -4,40 +4,71 @@ import NumberButton from './components/ButtonComponents/NumberButton';
 import ActionButton from './components/ButtonComponents/ActionButton';
 import CalculatorDisplay from './components/DisplayComponents/CalculatorDisplay';
 
-const App = () => {
+class App extends React.Component {
+  constructor(){
+    super();
+    this.state = {
+      operation: '',
+      result: ''
+    }
+    this.handleClick = this.handleClick.bind(this);
+  }
+render(){
+
   return (
     <div className="wrap">
-    <CalculatorDisplay />
-      <div>
-      <ActionButton text="clear" buttonStyle="actionButton" />
-      <NumberButton text="&#247;" buttonStyle="numberButtonRed" />
+    <CalculatorDisplay operation={this.state.operation} result={this.state.result} />
+    <div>
+      <ActionButton label={"clear"} handleClick={this.handleClick} buttonStyle="actionButton" />
+      <NumberButton label={"÷"} handleClick={this.handleClick} buttonStyle="numberButtonRed" />
       </div>
       <div> 
-      <NumberButton text="7" buttonStyle="numberButton" />
-      <NumberButton text="8" buttonStyle="numberButton" />
-      <NumberButton text="9" buttonStyle="numberButton" />
-      <NumberButton text="&#215;" buttonStyle="numberButtonRed" />
+      <NumberButton label={"7"} handleClick={this.handleClick} buttonStyle="numberButton" />
+      <NumberButton label={"8"} handleClick={this.handleClick} buttonStyle="numberButton" />
+      <NumberButton label={"9"} handleClick={this.handleClick} buttonStyle="numberButton" />
+      <NumberButton label={"×"} handleClick={this.handleClick} buttonStyle="numberButtonRed"/>
       </div>
       <div>
-      <NumberButton text="4" buttonStyle="numberButton" />
-      <NumberButton text="5" buttonStyle="numberButton" />
-      <NumberButton text="6" buttonStyle="numberButton" />
-      <NumberButton text="&#8722;" buttonStyle="numberButtonRed" />
+      <NumberButton label={"4"} handleClick={this.handleClick} buttonStyle="numberButton" />
+      <NumberButton label={"5"} handleClick={this.handleClick} buttonStyle="numberButton" />
+      <NumberButton label={"6"} handleClick={this.handleClick} buttonStyle="numberButton" />
+      <NumberButton label={"−"} handleClick={this.handleClick} buttonStyle="numberButtonRed" />
       </div>
       <div>
-      <NumberButton text="1" buttonStyle="numberButton" />
-      <NumberButton text="2" buttonStyle="numberButton" />
-      <NumberButton text="3" buttonStyle="numberButton" />
-      <NumberButton text="&#43;" buttonStyle="numberButtonRed" />
+      <NumberButton label={"1"} handleClick={this.handleClick} buttonStyle="numberButton" />
+      <NumberButton label={"2"} handleClick={this.handleClick} buttonStyle="numberButton" />
+      <NumberButton label={"3"} handleClick={this.handleClick} buttonStyle="numberButton" />
+      <NumberButton label={"+"} handleClick={this.handleClick} buttonStyle="numberButtonRed" />
       </div>
       <div>
-      <ActionButton text="0" buttonStyle="actionButton" />
-      <NumberButton text="=" buttonStyle="numberButtonRed" />
+      <ActionButton label={"0"} handleClick={this.handleClick} buttonStyle="actionButton" />
+      <NumberButton label={"="} handleClick={this.handleClick} buttonStyle="numberButtonRed" />
       </div>
-     
-      
     </div>
   );
-};
+}
+  handleClick(event){
+    const value = event.target.value;
+    switch (value) {
+      case '=': { 
+        const result = eval(this.state.operation);
+       
+        this.setState({ result });
+        break;
+      }
+      case 'clear': {
+        
+        this.setState({operation: '', result: '' });
+        break;
+      }
+      default: {
+       
+        this.setState({ operation: this.state.operation += value});
+        break;
+      }
+    }
+  }
+
+}
 
 export default App;
