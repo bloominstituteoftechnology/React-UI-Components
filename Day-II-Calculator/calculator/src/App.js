@@ -4,6 +4,7 @@ import CalculatorDisplay from './components/DisplayComponents/CalculatorDisplay'
 import ActionButton from './components/ButtonComponents/ActionButton';
 import NumberButton from './components/ButtonComponents/NumberButton';
 import OperatorButton from './components/ButtonComponents/OperatorButton';
+import InformationDisplay from './components/InformationComponents/InformationDisplay';
 
 class App extends Component {
 	constructor(props){
@@ -105,6 +106,7 @@ class App extends Component {
 				<NumberButton text="0" buttonStyle="medium white" onClick={this.changeDisplay} />
 				<NumberButton text="." buttonStyle="small white" onClick={this.changeDisplay} />
 				<ActionButton text="=" buttonStyle="small red" onClick={this.solveMath} />
+				<InformationDisplay />
 			</div>
 		);
 	}
