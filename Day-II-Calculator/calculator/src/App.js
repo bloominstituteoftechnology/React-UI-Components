@@ -11,7 +11,8 @@ class App extends React.Component {
 			total: 0,
 			rightNumber: "",
 			operator: "",
-			leftNumber: ""
+			leftNumber: "",
+			result: ""
 		};
 	}
 
@@ -39,7 +40,8 @@ class App extends React.Component {
 			total: expression,
 			leftNumber: expression,
 			operator: "",
-			rightNumber: ""
+			rightNumber: "",
+			result: expression
 		});
 	}
 
@@ -54,59 +56,119 @@ class App extends React.Component {
 
 	calculate() {
 		let returnValue;
-		switch (this.state.operator) {
-			case "*":
-				returnValue =
-					Number(this.state.leftNumber) *
-					Number(this.state.rightNumber);
-				break;
-			case "+":
-				returnValue =
-					Number(this.state.leftNumber) +
-					Number(this.state.rightNumber);
-				break;
-			case "/":
-				returnValue =
-					Number(this.state.leftNumber) /
-					Number(this.state.rightNumber);
-				break;
-			case "-":
-				returnValue =
-					Number(this.state.leftNumber) -
-					Number(this.state.rightNumber);
-				break;
-			default:
-				break;
+		let computed;
+		if (this.state.result === "") {
+			computed = this.state.leftNumber;
+		}	else {
+			computed = this.state.result;
 		}
-		return returnValue;
-	}
+			switch (this.state.operator) {
+				case "*":
+					returnValue =
+						Number(computed) *
+						Number(this.state.rightNumber);
+					break;
+				case "+":
+					returnValue =
+						Number(computed) +
+						Number(this.state.rightNumber);
+					break;
+				case "/":
+					returnValue =
+						Number(computed) /
+						Number(this.state.rightNumber);
+					break;
+				case "-":
+					returnValue =
+						Number(computed) -
+						Number(this.state.rightNumber);
+					break;
+				default:
+					break;
+			}
+			return returnValue;
+		}
+
+
 	render() {
 		return (
 			<div className="appWrapper">
 				<CalculatorDisplay style="display" text={this.state.total} />
 				<div className="buttonWrapper">
 					<div className="whiteDiv">
-						<ActionButton onClick={()=>this.clearHandler()}
+						<ActionButton
+							onClick={() => this.clearHandler()}
 							style="button__action--wide"
 							action="clear"
 						/>
-						<NumberButton number="7" onClick={()=>this.numberHandler(7)} />
-						<NumberButton number="8" onClick={()=>this.numberHandler(8)} />
-						<NumberButton number="9" onClick={()=>this.numberHandler(9)} />
-						<NumberButton number="4" onClick={()=>this.numberHandler(4)} />
-						<NumberButton number="5" onClick={()=>this.numberHandler(5)} />
-						<NumberButton number="6" onClick={()=>this.numberHandler(6)} />
-						<NumberButton number="1" onClick={()=>this.numberHandler(1)} />
-						<NumberButton number="2" onClick={()=>this.numberHandler(2)} />
-						<NumberButton number="3" onClick={()=>this.numberHandler(3)} />
-						<NumberButton number="0" style="button__number--wide" onClick={()=>this.numberHandler(0)}/>
+						<NumberButton
+							number="7"
+							onClick={() => this.numberHandler(7)}
+						/>
+						<NumberButton
+							number="8"
+							onClick={() => this.numberHandler(8)}
+						/>
+						<NumberButton
+							number="9"
+							onClick={() => this.numberHandler(9)}
+						/>
+						<NumberButton
+							number="4"
+							onClick={() => this.numberHandler(4)}
+						/>
+						<NumberButton
+							number="5"
+							onClick={() => this.numberHandler(5)}
+						/>
+						<NumberButton
+							number="6"
+							onClick={() => this.numberHandler(6)}
+						/>
+						<NumberButton
+							number="1"
+							onClick={() => this.numberHandler(1)}
+						/>
+						<NumberButton
+							number="2"
+							onClick={() => this.numberHandler(2)}
+						/>
+						<NumberButton
+							number="3"
+							onClick={() => this.numberHandler(3)}
+						/>
+						<NumberButton
+							number="0"
+							style="button__number--wide"
+							onClick={() => this.numberHandler(0)}
+						/>
 					</div>
 					<div className="redDiv">
-						<ActionButton style="button__action" action="÷" onClick={()=>this.operatorHandler("/")}/>
-						<ActionButton style="button__action" action="x" onClick={()=>this.operatorHandler("*")}/>
-						<ActionButton style="button__action" action="-" onClick={()=>this.operatorHandler("-")}/>
-						<ActionButton style="button__action" action="+" onClick={()=>this.operatorHandler("+")}/>
-						<ActionButton style="button__action" action="=" onClick={()=>this.evaluateHandler()}/>
+						<ActionButton
+							style="button__action"
+							action="÷"
+							onClick={() => this.operatorHandler("/")}
+						/>
+						<ActionButton
+							style="button__action"
+							action="x"
+							onClick={() => this.operatorHandler("*")}
+						/>
+						<ActionButton
+							style="button__action"
+							action="-"
+							onClick={() => this.operatorHandler("-")}
+						/>
+						<ActionButton
+							style="button__action"
+							action="+"
+							onClick={() => this.operatorHandler("+")}
+						/>
+						<ActionButton
+							style="button__action"
+							action="="
+							onClick={() => this.evaluateHandler()}
+						/>
 					</div>
 				</div>
 			</div>
