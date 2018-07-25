@@ -55,7 +55,7 @@ class App extends React.Component{
 
     this.setState(this.state);
     this.checkCharacterLength()
-    document.getElementById('onScreen').innerHTML =this.state.display
+    //document.getElementById('onScreen').innerHTML =this.state.display
   }
 
   clearDisplay() {
@@ -72,7 +72,8 @@ class App extends React.Component{
     }
     console.log(eval(this.state.display));
     this.state.display = eval(this.state.display);
-    document.getElementById('onScreen').innerHTML =this.state.display
+    this.setState(this.state);
+    //document.getElementById('onScreen').innerHTML =this.state.display
     this.checkCharacterLength()
   }
 
@@ -87,9 +88,10 @@ class App extends React.Component{
 
     return (
       <div className = "main-div">
-        <CalculatorDisplay />
+        <CalculatorDisplay  displayValue ={this.state.display} />
         <NumberButton one= "1" two="2" three="3" four="4" five="5" six="6" seven = "7" eight = "8" nine = "9" zero = "0" clear="clear"
-         handleButtonClick = {item => this.addToDisplay(item) } handleClearClick = {this.clearDisplay}  handleEqualClick = {this.equalDisplay}/>
+         handleButtonClick = {item => this.addToDisplay(item) } handleClearClick = {this.clearDisplay}  handleEqualClick = {this.equalDisplay}
+         />
       </div>
     );
 

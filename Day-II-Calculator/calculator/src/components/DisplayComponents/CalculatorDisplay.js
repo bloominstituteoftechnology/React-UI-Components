@@ -10,7 +10,7 @@ class CalculatorDisplay extends React.Component {
     render() {
        return (
              <div className="display">
-                 <div id = "onScreen"className="output">0</div>
+                 <div id = "onScreen"className="output">{this.props.displayValue}</div>
              </div>
         ); 
     }
