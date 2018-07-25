@@ -11,24 +11,24 @@ import NumberButton from './components/ButtonComponents/NumberButton';
 class App extends React.Component{
   constructor(props){
     super(props)
-    this.state = {total: 0, list: [0], display: "0", lastChar : ""}
+    this.state = {total: 0, list: [0], display: "0", lastChar : "", characters :["*", "+", "/", "-"]}
     this.addToDisplay = this.addToDisplay.bind(this);
     this.clearDisplay = this.clearDisplay.bind(this); 
     this.equalDisplay = this.equalDisplay.bind(this); 
     this.checkCharacterLength = this.checkCharacterLength.bind(this); 
     
   }
-
+  
   addToDisplay(item){
     //on click of one of the buttons we will add its text/prop to the display. it will also add to the list property in the state object.
-    const characters = ["*", "+", "/", "-"]; 
+    
     if(this.state.display === "0" && item !== "*" && item !== "/" && item !== "+"){
       this.state.display = item; 
       this.state.lastChar = item; 
-    } else if(characters.includes(item) && !characters.includes(this.state.lastChar)){
+    } else if(this.state.characters.includes(item) && !this.state.characters.includes(this.state.lastChar)){
       this.state.display += item; 
       this.state.lastChar = item; 
-    } else if (!characters.includes(item)){
+    } else if (!this.state.characters.includes(item)){
       this.state.display += item;
       this.state.lastChar = item; 
     } 
@@ -45,6 +45,10 @@ class App extends React.Component{
 
   }
   equalDisplay() {
+    
+    if(this.state.characters.includes(this.state.lastChar)){
+      this.state.display = this.state.display.substring(0, this.state.display.length -1)
+    }
     console.log(eval(this.state.display));
     this.state.display = eval(this.state.display);
     document.getElementById('onScreen').innerHTML =this.state.display
