@@ -11,7 +11,7 @@ import NumberButton from './components/ButtonComponents/NumberButton';
 class App extends React.Component{
   constructor(props){
     super(props)
-    this.state = {total: 0, list: [0], display: "0", lastChar : "", characters :["*", "+", "/", "-"]}
+    this.state = {total: 0, list: [0], display: "0", lastChar : "", characters :["*", "+", "/", "-"], minusSign : "-"}
     this.addToDisplay = this.addToDisplay.bind(this);
     this.clearDisplay = this.clearDisplay.bind(this); 
     this.equalDisplay = this.equalDisplay.bind(this); 
