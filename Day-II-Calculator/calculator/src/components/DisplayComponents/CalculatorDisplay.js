@@ -1,33 +1,34 @@
 import React from 'react';
 import './Display.css';
-import Button from '../ButtonComponents/NumberButton';
+import NumberButton from '../ButtonComponents/NumberButton';
+import ActionButton from '../ButtonComponents/ActionButton';
 
 
 const Calculator = () => <div class="calculator">
-<Button class="solution" text= "so"/>
-<Button class="solution" text= "lu"/>
-<Button class="solution" text= "ti"/>
-<Button class="solution white" text= "0"/>
-<Button class="clear white" text= "clear"/>
-<Button class="clear" text= "clear"/>
-<Button class="clear white" text= "clear"/>
-<Button class="operator" text= "÷"/>
-<Button class="number" text= "7"/>
-<Button class="number" text= "8"/>
-<Button class="number" text= "9"/>
-<Button class="operator" text= "×"/>
-<Button class="number" text= "4"/>
-<Button class="number" text= "5"/>
-<Button class="number" text= "6"/>
-<Button class="operator" text= "-"/>
-<Button class="number" text= "1"/>
-<Button class="number" text= "2"/>
-<Button class="number" text= "3"/>
-<Button class="operator" text= "+"/>
-<Button class="zero white" text= "0"/>
-<Button class="zero" text= "0"/>
-<Button class="zero white" text= "0"/>
-<Button class="operator" text= "="/>
+<NumberButton class="solution" text= "so"/>
+<NumberButton class="solution" text= "lu"/>
+<NumberButton class="solution" text= "ti"/>
+<NumberButton class="solution white" text= "0"/>
+<NumberButton class="clear white" text= "clear"/>
+<NumberButton class="clear" text= "clear"/>
+<NumberButton class="clear white" text= "clear"/>
+<ActionButton class="operator" text= "÷"/>
+<NumberButton class="number" text= "7"/>
+<NumberButton class="number" text= "8"/>
+<NumberButton class="number" text= "9"/>
+<ActionButton class="operator" text= "×"/>
+<NumberButton class="number" text= "4"/>
+<NumberButton class="number" text= "5"/>
+<NumberButton class="number" text= "6"/>
+<ActionButton class="operator" text= "-"/>
+<NumberButton class="number" text= "1"/>
+<NumberButton class="number" text= "2"/>
+<NumberButton class="number" text= "3"/>
+<ActionButton class="operator" text= "+"/>
+<NumberButton class="zero white" text= "0"/>
+<NumberButton class="zero" text= "0"/>
+<NumberButton class="zero white" text= "0"/>
+<ActionButton class="operator" text= "="/>
 </div>;
 
 export default Calculator;
