@@ -49,9 +49,8 @@ class App extends React.Component{
   handleClick(event){
     const value = event.target.value; 
     switch (value) {
-      case '=': { 
-        // const answer = eval(this.state.display);        
-        this.setState({ display: eval(this.state.display) });        
+      case '=': {               
+        this.setState({ display: eval(this.state.display).toFixed(5) });        
         break; 
       }
       case 'clr': {        
