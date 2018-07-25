@@ -50,8 +50,8 @@ class App extends React.Component{
     const value = event.target.value; 
     switch (value) {
       case '=': { 
-        const answer = eval(this.state.display).toString();        
-        this.setState({ display: answer });        
+        // const answer = eval(this.state.display);        
+        this.setState({ display: eval(this.state.display) });        
         break; 
       }
       case 'clr': {        
