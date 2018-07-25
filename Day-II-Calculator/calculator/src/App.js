@@ -21,39 +21,51 @@ class App extends React.Component{
   
   addToDisplay(item){
     //on click of one of the buttons we will add its text/prop to the display. it will also add to the list property in the state object.
-    console.log(this.state.display, "test")
+    //variables because you shouldn't update the state directly
+    let update =this.state.display;//for updating display
+    let negativeValue = 0; // for checking if a negative value was used. 
+
+    let lastCharacter = ""; //for checking the last character used. 
+
+    console.log(update, "update")
     
-    console.log(this.state.neg); 
-    console.log(this.state.lastChar,"last");
+    console.log(negativeValue, "neg"); 
+    console.log(lastCharacter,"last");
 
     if(this.state.display[this.state.display.length-2]+ this.state.display[this.state.display.length-1] === " -"){
       console.log("negative")
     }
     
     if(this.state.display === "0" && !this.state.characters.includes(item)){
-      this.state.display = item; 
-      this.state.lastChar = item; 
+      update = item; 
+      lastCharacter = item; 
+      //this.setState(this.state);
     } else if (this.state.display === this.state.minusSign && item === this.state.minusSign) {
-      this.state.display = "0";
-      this.state.lastChar = "0";//Toggle on and off for first value negative. 
+      update = "0";
+      lastCharacter = "0";//Toggle on and off for first value negative.
+      //this.setState(this.state); 
+      negativeValue -= 1; 
     }else if (item === this.state.minusSign && this.state.lastChar === this.state.minusSign) {
-      this.state.display += " ";
-      this.state.display += item;
-      this.state.lastChar = item;
-      this.state.neg = true; 
+      update += " ";
+      update += item;
+      lastCharacter = item;
+      negativeValue += 1; 
+      //this.setState(this.state);
     }
     
     else if(this.state.characters.includes(item) && !this.state.characters.includes(this.state.lastChar)){
-      this.state.display += item; 
-      this.state.lastChar = item; 
+      update += item; 
+      lastCharacter = item; 
+      //this.setState(this.state);
     } else if (!this.state.characters.includes(item)){
-      this.state.display += item;
-      this.state.lastChar = item; 
+      update += item;
+      lastCharacter = item; 
+      //this.setState(this.state);
     }
     
-    this.state.lastChar === this.state.minus ? this.state.neg = true : this.state.neg = false;
-
-    this.setState(this.state);
+    lastCharacter === this.state.minus ? negativeValue = true : negativeValue = false;
+    this.setState({total: 0, list: [0], display: update, lastChar : lastCharacter, characters :["*", "+", "/"], minusSign : "-", neg: negativeValue});
+    
     this.checkCharacterLength()
     //document.getElementById('onScreen').innerHTML =this.state.display
   }
