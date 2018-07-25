@@ -4,11 +4,10 @@ import ActionButton from './ActionButton';
 
 class NumberButton extends React.Component {
     constructor(props){
-        super(props)
-    console.log(props);  
-    console.log(this.state);       
+        super(props)  
     }
 
+    
 
     render() {
        return (
@@ -30,7 +29,7 @@ class NumberButton extends React.Component {
 
                         <div onClick={() => this.props.handleButtonClick(this.props.zero)}className="clear zero">{this.props.zero}</div>
                     </div>
-                    <ActionButton />
+                    <ActionButton handleButtonClick = {item => this.props.handleButtonClick(item) }/>
                 </div>
         ); 
     }
