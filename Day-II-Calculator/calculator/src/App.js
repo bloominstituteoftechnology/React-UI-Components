@@ -1,23 +1,88 @@
 import React from 'react';
 import './App.css';
+import NumberButton from './components/ButtonComponents/NumberButton.js';
+import ActionButton from './components/ButtonComponents/ActionButton.js';
+import CalculatorDisplay from './components/DisplayComponents/CalculatorDisplay.js';
+import './components/ButtonComponents/Button.css';
+import './components/DisplayComponents/Display.css';
 
-const App = () => {
+class App extends React.Component {
+  constructor () {
+    super();
+    this.last='';
+    this.state={
+      total: ''
+  };
+  }
+  handleClick(e) {
+    if (e.target.innerHTML==='0') {
+      if (this.last==='=') {
+        this.setState({total:''},this.updateDisplay);
+      } else {
+      let currentTotal=this.state.total+'';
+      if (currentTotal.length>=1 && currentTotal[currentTotal.length-1]!=='*'&& currentTotal[currentTotal.length-1]!=='/' &&currentTotal[currentTotal.length-1]!=='+' &&currentTotal[currentTotal.length-1]!=='-'){
+        this.setState({total: this.state.total+e.target.innerHTML},this.updateDisplay);
+        this.last=0;
+      }
+    }
+    } else if (e.target.innerHTML==='clear'){
+      this.setState({total: ''},this.updateDisplay);
+    } else if (e.target.innerHTML==='*'||e.target.innerHTML==='/'||e.target.innerHTML==='-'||e.target.innerHTML==='+') {
+      let currentTotal=this.state.total+'';
+      if (currentTotal.length>=1) {
+        let lastItem=currentTotal[currentTotal.length-1];
+        if (lastItem!=='*'&&lastItem!=='-'&&lastItem!=='+'&&lastItem!=='/'){
+          this.setState({total: this.state.total+e.target.innerHTML},this.updateDisplay);
+          this.last=e.target.innerHTML;
+        }
+      }
+    } else if (Number(e.target.innerHTML)>=1) {
+      this.setState({total: this.state.total+e.target.innerHTML},this.updateDisplay);
+      this.last=e.target.innerHTML;
+    }
+    else if (e.target.innerHTML==='='){
+      let currentTotal=this.state.total+'';
+      if (Number(currentTotal[currentTotal.length-1])>=0) {
+      this.setState({total:eval(document.querySelector('.display').textContent)},this.updateDisplay);
+      this.last=e.target.innerHTML;
+      }
+    } 
+  }
+  updateDisplay() {
+    let newTotal=this.state.total+'';
+    if (newTotal==='') {
+      document.querySelector('.display p').innerHTML=0
+    } else if (newTotal.length>9){
+      document.querySelector('.display p').innerHTML='error';
+    }  else {
+      document.querySelector('.display p').innerHTML=newTotal;
+    }
+  }
+  
+render()  {
   return (
-    <div>
-      <h3>Welcome to React Calculator</h3>
-      <p>
-        We have given you a starter project. You'll want to build out your
-        components in their respective files, remove this code and replace it
-        with the proper components.
-      </p>
-      <p>
-        <strong>
-          Don't forget to `default export` your components and import them here
-          inside of this file in order to make them work.
-        </strong>
-      </p>
-    </div>
+    <div className='App' onClick={this.handleClick.bind(this)}>
+      <CalculatorDisplay />
+      <ActionButton text='clear' buttonStyle='actionbutton' />
+      <NumberButton text='/' buttonStyle='operatorbutton' />
+      <NumberButton text='7' buttonStyle='numberbutton'/>
+      <NumberButton text='8' buttonStyle='numberbutton' />
+      <NumberButton text='9' buttonStyle='numberbutton' />
+      <NumberButton text='*' buttonStyle='operatorbutton' />
+      <NumberButton text='4' buttonStyle='numberbutton' />
+      <NumberButton text='5' buttonStyle='numberbutton' />
+      <NumberButton text='6' buttonStyle='numberbutton' />
+      <NumberButton text='-' buttonStyle='operatorbutton' />
+      <NumberButton text='1' buttonStyle='numberbutton' />
+      <NumberButton text='2' buttonStyle='numberbutton' />
+      <NumberButton text='3' buttonStyle='numberbutton' />
+      <NumberButton text='+' buttonStyle='operatorbutton' />
+      <ActionButton text='0' buttonStyle='actionbutton' />
+      <NumberButton text='=' buttonStyle='operatorbutton' />
+   </div>
   );
 };
+
+}
 
 export default App;

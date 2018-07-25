@@ -1,1 +1,29 @@
 /* All styles for your Card Components live here */
+#cardbanner {
+    background-image: url("https://ibin.co/3wnC6SgIOJud.png");
+    width: 604px;
+    height: 317px;
+    background-size: 100%100%;
+    display: inline-block;
+    border-radius: 7px 7px 0 0;
+}
+#card-content {
+    margin-top: 10px;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 3%;
+    margin-right: .5%;
+}
+#card-content *{
+    color: black;
+    letter-spacing: 0.35px;
+}
+#card-content a:hover {
+    text-decoration: none;
+}
+#card-container {
+    width: 606px;
+    border: 1px solid #778899;
+    border-radius: 7px;
+    margin-left: 19.2%;
+}
