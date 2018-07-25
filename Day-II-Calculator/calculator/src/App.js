@@ -9,31 +9,43 @@ import './components/DisplayComponents/Display.css';
 class App extends React.Component {
   constructor () {
     super();
+    this.last='';
     this.state={
       total: ''
   };
   }
   handleClick(e) {
     if (e.target.innerHTML==='0') {
+      if (this.last==='=') {
+        this.setState({total:''},this.updateDisplay);
+      } else {
       let currentTotal=this.state.total+'';
       if (currentTotal.length>=1 && currentTotal[currentTotal.length-1]!=='*'&& currentTotal[currentTotal.length-1]!=='/' &&currentTotal[currentTotal.length-1]!=='+' &&currentTotal[currentTotal.length-1]!=='-'){
         this.setState({total: this.state.total+e.target.innerHTML},this.updateDisplay);
+        this.last=0;
       }
+    }
     } else if (e.target.innerHTML==='clear'){
-      this.setState({total: ''},this.updateDisplay)
+      this.setState({total: ''},this.updateDisplay);
     } else if (e.target.innerHTML==='*'||e.target.innerHTML==='/'||e.target.innerHTML==='-'||e.target.innerHTML==='+') {
       let currentTotal=this.state.total+'';
       if (currentTotal.length>=1) {
         let lastItem=currentTotal[currentTotal.length-1];
         if (lastItem!=='*'&&lastItem!=='-'&&lastItem!=='+'&&lastItem!=='/'){
           this.setState({total: this.state.total+e.target.innerHTML},this.updateDisplay);
+          this.last=e.target.innerHTML;
         }
       }
     } else if (Number(e.target.innerHTML)>=1) {
       this.setState({total: this.state.total+e.target.innerHTML},this.updateDisplay);
+      this.last=e.target.innerHTML;
     }
     else if (e.target.innerHTML==='='){
+      let currentTotal=this.state.total+'';
+      if (Number(currentTotal[currentTotal.length-1])>=0) {
       this.setState({total:eval(document.querySelector('.display').textContent)},this.updateDisplay);
+      this.last=e.target.innerHTML;
+      }
     } 
   }
   updateDisplay() {
