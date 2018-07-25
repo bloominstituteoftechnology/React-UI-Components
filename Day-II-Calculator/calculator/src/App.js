@@ -16,7 +16,7 @@ class App extends React.Component{
   render(){
     return (
       <div className="app-container">
-        <CalculatorDisplay display= {this.state.display} />
+        <CalculatorDisplay display = {this.state.display} />
         <div className="row">
           <ActionButton text = "Clear" value = 'clr' buttonStyle = "action-btn" handleClick={this.handleClick} />
           <NumberButton text = "÷" value = '/' buttonStyle = "operator-btn" handleClick={this.handleClick} />
@@ -51,18 +51,15 @@ class App extends React.Component{
     switch (value) {
       case '=': { 
         const answer = eval(this.state.display).toString();        
-        this.setState({ display: answer });
-        console.log(this.state)
+        this.setState({ display: answer });        
         break; 
       }
       case 'clr': {        
-        this.setState({ display: '' });
-        console.log(this.state)
+        this.setState({ display: '' });        
         break;
       }
       default: {        
-        this.setState({ display: this.state.display += value})
-        console.log(this.state)
+        this.setState({ display: this.state.display += value})        
         break;
       }
     }
