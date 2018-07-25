@@ -6,7 +6,14 @@ import CalculatorDisplay from './components/DisplayComponents/CalculatorDisplay.
 import './components/ButtonComponents/Button.css';
 import './components/DisplayComponents/Display.css';
 
-const App = () => {
+class App extends React.Component {
+  constructor () {
+    super();
+    this.state={
+      total:0
+  };
+  }
+render()  {
   return (
     <div className='calculator'>
       <CalculatorDisplay />
@@ -29,5 +36,6 @@ const App = () => {
    </div>
   );
 };
+}
 
 export default App;
