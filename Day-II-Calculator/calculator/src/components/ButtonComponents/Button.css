@@ -1,0 +1,24 @@
+.ButtonContainer {
+    height: 100px;
+    display: flex;
+}
+.grayButton {
+    background: lightgray;
+}
+.redButton {
+    background: red;
+}
+.align {
+    text-align: center;
+    line-height: 100px;
+    font-size: 50px;
+    font-weight: 200;
+}
+.smallButton {
+    width: 100px;
+    border: 1px solid gold;
+}
+.bigButton{
+    width: 300px;
+    border: 1px solid gold;
+}

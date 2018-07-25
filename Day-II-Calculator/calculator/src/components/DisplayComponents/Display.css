@@ -1,0 +1,9 @@
+.calculatorScreen {
+    background: black;
+    color: white;
+    height: 100px;
+    text-align: right;
+    font-size: 50px;
+    line-height: 100px;
+    padding: 5px;
+}
