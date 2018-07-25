@@ -14,11 +14,25 @@ class App extends React.Component {
   };
   }
   handleClick(e) {
-    if (e.target.innerHTML==='clear'){
+    if (e.target.innerHTML==='0') {
+      let currentTotal=this.state.total+'';
+      if (currentTotal.length>=1 && currentTotal[currentTotal.length-1]!=='*'&& currentTotal[currentTotal.length-1]!=='/' &&currentTotal[currentTotal.length-1]!=='+' &&currentTotal[currentTotal.length-1]!=='-'){
+        this.setState({total: this.state.total+e.target.innerHTML},this.updateDisplay);
+      }
+    } else if (e.target.innerHTML==='clear'){
       this.setState({total: ''},this.updateDisplay)
-    } else if (e.target.innerHTML!=='=') {
-    this.setState({total: this.state.total+e.target.innerHTML},this.updateDisplay);
-    } else if (e.target.innerHTML==='='){
+    } else if (e.target.innerHTML==='*'||e.target.innerHTML==='/'||e.target.innerHTML==='-'||e.target.innerHTML==='+') {
+      let currentTotal=this.state.total+'';
+      if (currentTotal.length>=1) {
+        let lastItem=currentTotal[currentTotal.length-1];
+        if (lastItem!=='*'&&lastItem!=='-'&&lastItem!=='+'&&lastItem!=='/'){
+          this.setState({total: this.state.total+e.target.innerHTML},this.updateDisplay);
+        }
+      }
+    } else if (Number(e.target.innerHTML)>=1) {
+      this.setState({total: this.state.total+e.target.innerHTML},this.updateDisplay);
+    }
+    else if (e.target.innerHTML==='='){
       this.setState({total:eval(document.querySelector('.display').textContent)},this.updateDisplay);
     } 
   }
