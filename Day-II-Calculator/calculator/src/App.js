@@ -53,7 +53,7 @@ class App extends React.Component{
 
   checkCharacterLength() {
     if(this.state.display.length >= 12){
-      document.getElementById('onScreen').style.fontSize = '12px';
+      document.getElementById('onScreen').style.fontSize = '20px';
     }
   }
 
