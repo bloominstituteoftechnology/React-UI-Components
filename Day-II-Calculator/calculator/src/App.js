@@ -43,10 +43,14 @@ class App extends React.Component {
       rightNumber: "",
       operator: "",
       leftNumber: "",
+      result: "",
     }
   }
 
   numberHandler(num){
+    if(this.state.leftNumber !== "" && this.state.operator === ""){
+      this.clearHandler();
+    }
     let newNumber = this.state.rightNumber + num;
     if(newNumber.length <= 5){
       this.setState({
@@ -71,6 +75,7 @@ class App extends React.Component {
       leftNumber: expression,
       operator: "",
       rightNumber: "",
+      result: expression,
     });
   }
 
@@ -80,23 +85,30 @@ class App extends React.Component {
       leftNumber: "",
       operator: "",
       rightNumber: "",
+      result: "",
     });
   }
 
   calculate(){
     let returnValue;
+    let computed;
+    if (this.state.result === "") {
+      computed = this.state.leftNumber;
+    } else {
+      computed = this.state.result;
+    }
     switch(this.state.operator){
       case "*":
-        returnValue = Number(this.state.leftNumber) * Number(this.state.rightNumber);
+        returnValue = Number(computed) * Number(this.state.rightNumber);
         break;
       case "+":
-        returnValue = Number(this.state.leftNumber) + Number(this.state.rightNumber);
+        returnValue = Number(computed) + Number(this.state.rightNumber);
         break;
       case "/":
-        returnValue = Number(this.state.leftNumber) / Number(this.state.rightNumber);
+        returnValue = Number(computed) / Number(this.state.rightNumber);
         break;
       case "-":
-        returnValue = Number(this.state.leftNumber) - Number(this.state.rightNumber);
+        returnValue = Number(computed) - Number(this.state.rightNumber);
         break;
       default:
         break;
