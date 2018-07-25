@@ -15,7 +15,7 @@ const Calculator = () => <div class="calculator">
 <Button class="number" text= "7"/>
 <Button class="number" text= "8"/>
 <Button class="number" text= "9"/>
-<Button class="operator" text= "x"/>
+<Button class="operator" text= "×"/>
 <Button class="number" text= "4"/>
 <Button class="number" text= "5"/>
 <Button class="number" text= "6"/>
