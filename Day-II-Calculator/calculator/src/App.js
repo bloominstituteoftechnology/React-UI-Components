@@ -7,6 +7,7 @@ import CalculatorDisplay from './components/DisplayComponents/CalculatorDisplay'
 class App extends React.Component {
   constructor(){
     super();
+    //Default state
     this.state = {
       operation: '',
       result: ''
@@ -17,31 +18,31 @@ render(){
 
   return (
     <div className="wrap">
-    <CalculatorDisplay operation={this.state.operation} result={this.state.result} />
-    <div>
+      <CalculatorDisplay operation={this.state.operation} result={this.state.result} />
+      <div>
       <ActionButton label={"clear"} handleClick={this.handleClick} buttonStyle="actionButton" />
       <NumberButton label={"÷"} handleClick={this.handleClick} buttonStyle="numberButtonRed" />
       </div>
       <div> 
-      <NumberButton label={"7"} handleClick={this.handleClick} buttonStyle="numberButton" />
-      <NumberButton label={"8"} handleClick={this.handleClick} buttonStyle="numberButton" />
-      <NumberButton label={"9"} handleClick={this.handleClick} buttonStyle="numberButton" />
+      <NumberButton label={7} handleClick={this.handleClick} buttonStyle="numberButton" />
+      <NumberButton label={8} handleClick={this.handleClick} buttonStyle="numberButton" />
+      <NumberButton label={9} handleClick={this.handleClick} buttonStyle="numberButton" />
       <NumberButton label={"×"} handleClick={this.handleClick} buttonStyle="numberButtonRed"/>
       </div>
       <div>
-      <NumberButton label={"4"} handleClick={this.handleClick} buttonStyle="numberButton" />
-      <NumberButton label={"5"} handleClick={this.handleClick} buttonStyle="numberButton" />
-      <NumberButton label={"6"} handleClick={this.handleClick} buttonStyle="numberButton" />
+      <NumberButton label={4} handleClick={this.handleClick} buttonStyle="numberButton" />
+      <NumberButton label={5} handleClick={this.handleClick} buttonStyle="numberButton" />
+      <NumberButton label={6} handleClick={this.handleClick} buttonStyle="numberButton" />
       <NumberButton label={"−"} handleClick={this.handleClick} buttonStyle="numberButtonRed" />
       </div>
       <div>
-      <NumberButton label={"1"} handleClick={this.handleClick} buttonStyle="numberButton" />
-      <NumberButton label={"2"} handleClick={this.handleClick} buttonStyle="numberButton" />
-      <NumberButton label={"3"} handleClick={this.handleClick} buttonStyle="numberButton" />
+      <NumberButton label={1} handleClick={this.handleClick} buttonStyle="numberButton" />
+      <NumberButton label={2} handleClick={this.handleClick} buttonStyle="numberButton" />
+      <NumberButton label={3} handleClick={this.handleClick} buttonStyle="numberButton" />
       <NumberButton label={"+"} handleClick={this.handleClick} buttonStyle="numberButtonRed" />
       </div>
       <div>
-      <ActionButton label={"0"} handleClick={this.handleClick} buttonStyle="actionButton" />
+      <ActionButton label={0} handleClick={this.handleClick} buttonStyle="actionButton" />
       <NumberButton label={"="} handleClick={this.handleClick} buttonStyle="numberButtonRed" />
       </div>
     </div>
@@ -51,7 +52,7 @@ render(){
     const value = event.target.value;
     switch (value) {
       case '=': { 
-        const result = eval(this.state.operation);
+        const result = eval(this.state.operation).toString();
        
         this.setState({ result });
         break;
