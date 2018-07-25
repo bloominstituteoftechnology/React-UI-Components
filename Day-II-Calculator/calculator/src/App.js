@@ -55,6 +55,8 @@ class App extends React.Component{
   }
   equalDisplay() {
     console.log(eval(this.state.display));
+    this.state.display = eval(this.state.display);
+    document.getElementById('onScreen').innerHTML =this.state.display
   }
 
 
