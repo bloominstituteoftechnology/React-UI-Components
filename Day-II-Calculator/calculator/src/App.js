@@ -6,14 +6,7 @@ import NumberButton from './components/ButtonComponents/NumberButton';
 
 
 
-// const App = () => {
-//   return (
-//     <div className = "main-div">
-//       <CalculatorDisplay />
-//       <NumberButton one="1" two="2" three="3" four="4" five="5" six="6" seven = "7" eight = "8" nine = "9" zero = "0" clear="clear"/>
-//     </div>
-//   );
-// };
+
 
 class App extends React.Component{
   constructor(props){
@@ -22,6 +15,7 @@ class App extends React.Component{
     this.addToDisplay = this.addToDisplay.bind(this);
     this.clearDisplay = this.clearDisplay.bind(this); 
     this.equalDisplay = this.equalDisplay.bind(this); 
+    this.checkCharacterLength = this.checkCharacterLength.bind(this); 
     
   }
 
@@ -37,12 +31,9 @@ class App extends React.Component{
     } else if (!characters.includes(item)){
       this.state.display += item;
       this.state.lastChar = item; 
-    }//else if(Number.isInteger(parseInt(this.state.display))&& this.state.display !== "0" && this.state.display[this.state.display.length-1] !== "-" && this.state.display[this.state.display.length-1] !== "*" && this.state.display[this.state.display.length-1] !== "/" && this.state.display[this.state.display.length-1] !== "+"){
-    //   this.state.display += item; 
-    //   this.state.lastChar = item; 
-    // } 
+    } 
     
-
+    this.checkCharacterLength()
     document.getElementById('onScreen').innerHTML =this.state.display
   }
 
@@ -50,13 +41,20 @@ class App extends React.Component{
     this.state.display = "0";
     document.getElementById('onScreen').innerHTML = "0"
     this.setState(this.state);
-    console.log("clear");
+    document.getElementById('onScreen').style.fontSize = '70px';
 
   }
   equalDisplay() {
     console.log(eval(this.state.display));
     this.state.display = eval(this.state.display);
     document.getElementById('onScreen').innerHTML =this.state.display
+    this.checkCharacterLength()
+  }
+
+  checkCharacterLength() {
+    if(this.state.display.length >= 12){
+      document.getElementById('onScreen').style.fontSize = '12px';
+    }
   }
 
 
