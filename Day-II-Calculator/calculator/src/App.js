@@ -50,7 +50,7 @@ class App extends React.Component{
     const value = event.target.value; 
     switch (value) {
       case '=': {               
-        this.setState({ display: eval(this.state.display).toFixed(5) });        
+        this.setState({ display: parseFloat(eval(this.state.display).toFixed(5)) });        
         break; 
       }
       case 'clr': {        
@@ -64,7 +64,7 @@ class App extends React.Component{
     }
   }
 }
-console.log(this.state)
+
 
   
 
