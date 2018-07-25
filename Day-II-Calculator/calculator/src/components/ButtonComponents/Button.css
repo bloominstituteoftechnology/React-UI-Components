@@ -1,0 +1,40 @@
+.numberPadCont {
+    display: flex;
+    height: 100px;
+}
+
+.action-btn button {
+    width: 100em;
+    width: 300px;
+    border: 1px solid #e3e3e3;
+}
+
+.btn {
+    width: 100px;
+    border: 1px solid #e3e3e3;
+}
+
+.r{
+    background: #9e0523;
+    color: #ffffff;
+    text-align: center;
+    line-height: 100px;
+    font-size: 50px;
+    font-weight: 200;
+}
+
+.w{
+    background: grey;
+    text-align: center;
+    line-height: 100px;
+    font-size: 50px;
+    font-weight: 200;
+}
+
+.three-text {
+    text-align: center;
+    line-height: 100px;
+    font-size: 50px;
+    font-weight: 200;
+  }
+

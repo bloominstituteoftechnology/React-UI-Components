@@ -1,0 +1,11 @@
+.container {
+    max-width: 500px;
+    margin: 25% 50% 50% 25%;
+    border: solid black;
+}
+
+.numberPad{
+    width: 100%;
+    border: solid green;
+    height: 75%;
+}
