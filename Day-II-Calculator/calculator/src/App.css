@@ -1,0 +1,41 @@
+* {
+    border: 1px solid gray;
+    font-size: 50px;
+    outline: none;    
+}
+
+
+
+.calculator {
+    height: 582px;
+    width: 464px;  
+    margin: 50px auto 0 auto;
+    border: 2px solid gray;
+}
+
+.solution {
+    background-color: black;
+}
+.solution, .clear, .zero {
+    border-right: 0px;
+    border-left: 0px;
+}
+
+.clear {
+    font-weight: 200;
+}
+
+.white {
+    color: white;
+}
+
+
+
+.operator {
+    background-color: #8C001A;
+    color: white;
+}
+
+.number, .zero {
+    font-weight: bold;
+}

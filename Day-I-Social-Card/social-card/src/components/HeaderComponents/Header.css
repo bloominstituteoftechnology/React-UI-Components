@@ -1,1 +1,45 @@
 /* All styles for your header Components live here */
+
+
+
+p {
+    font-size: 15px;
+    line-height: 20px;
+    margin-top: 0px;  
+    padding-left: 10px; 
+}
+
+.headerContainer {
+    display: flex;
+    width: 580px;
+    
+}
+
+
+.thumbnail {
+    width: 54px;
+    padding-top: 10px;
+}
+
+.title {
+    width: 516px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0px;
+    padding-left: 10px;
+    
+}
+
+.name {
+    font-size: 15px;
+}
+
+.stamp {
+    color: #AFB7C0;
+    font-size: 14px;
+}
+
+.date {
+    padding-left: 5px;
+}
+
