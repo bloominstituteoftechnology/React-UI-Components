@@ -29,10 +29,6 @@ const NumberContainer  = props => {
   );
 };
 
-const sendToDisplay = (x) => {
-  console.log(x);
-   return x;
 
-}
 
 export default NumberContainer;

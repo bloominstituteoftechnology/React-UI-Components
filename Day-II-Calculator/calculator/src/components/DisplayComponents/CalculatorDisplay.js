@@ -9,7 +9,7 @@ const Display = props => {
 };
 
 Display.defaultProps = {
-  output: 0
+  output: 0,
 }
 
 export default Display;
