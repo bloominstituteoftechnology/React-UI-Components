@@ -1,0 +1,20 @@
+.commentImage {
+    width: 5%;
+    filter: opacity(35%);
+    transform: scaleX(-1);
+}
+.retweetImage {
+    width: 5%;
+    filter: opacity(35%);
+    padding-left: 12%;
+}
+.heartImage {
+    width: 5%;
+    filter: opacity(35%);
+    padding-left: 12%;
+}
+.envelopeImage {
+    width: 5%;
+    filter: opacity(35%);
+    padding-left: 12%;
+}

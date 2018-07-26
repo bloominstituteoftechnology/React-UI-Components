@@ -1,1 +1,16 @@
 /* All styles for your header Components live here */
+.allHeader {
+    display: flex;
+    margin-top: 13px;
+}
+.thumbImage {
+    height: auto;
+    width: 100%;
+    border: 1px solid maroon;
+}
+.lambdaLogo {
+    margin-right: 3%;
+}
+.headerTitleHandleAndDate {
+    color: grey;
+}
