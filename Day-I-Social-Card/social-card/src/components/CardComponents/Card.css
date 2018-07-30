@@ -1,7 +1,7 @@
 /* All styles for your Card Components live here */ 
 
 .banner-wrapper {
-    display: none;
+    
     border: 1px solid pink;
     height: 500px;
 }
