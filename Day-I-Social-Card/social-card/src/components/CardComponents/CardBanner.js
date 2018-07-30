@@ -1,7 +1,8 @@
 import React from 'react';
 import './Card.css';
+import HeaderContainer from '../HeaderComponents/HeaderContainer'
 
 const CardBanner = () => {
-    return <div className="banner-container"> <img src="https://ibin.co/3whrpKSBbZ81.png" alt="Lambda Logo"/></div>
+    return <div className="CardBanner"> <HeaderContainer /></div>;
 };
 export default CardBanner;

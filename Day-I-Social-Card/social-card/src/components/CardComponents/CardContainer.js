@@ -5,7 +5,7 @@ import CardContent from './CardContent';
 
 const CardContainer = () => {
     //nest divs in the container
-    return <div className="container-wrapper"> <CardBanner /><CardContent /> </div>
+    return <div className="container-wrapper"> <CardBanner />  </div>
 };
 
 export default CardContainer;
