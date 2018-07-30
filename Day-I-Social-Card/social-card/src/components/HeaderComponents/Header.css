@@ -1,1 +1,6 @@
 /* All styles for your header Components live here */
+.container-header {
+    height: 50px;
+    padding: 10px;
+    display: flex;
+  }
