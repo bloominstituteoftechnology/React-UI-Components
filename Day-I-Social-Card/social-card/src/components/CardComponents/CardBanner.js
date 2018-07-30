@@ -1,8 +1,7 @@
 import React from 'react';
 import './Card.css';
-import HeaderContainer from '../HeaderComponents/HeaderContainer'
 
 const CardBanner = () => {
-    return <div className="CardBanner"> <HeaderContainer /></div>;
+    return <img className = "card-banner" src="https://ibin.co/3wnC6SgIOJud.png" alt="React Banner"/>;
 };
 export default CardBanner;

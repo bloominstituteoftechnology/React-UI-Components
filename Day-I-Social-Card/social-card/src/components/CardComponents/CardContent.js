@@ -1,7 +1,10 @@
 import React from 'react';
 import './Card.css';
+import CardBanner from './CardBanner';
 
 const CardContent = () => {
-    return <div className="card-content"> <h1>Lambda School</h1> <h3>@LambdaSchool 26 jan</h3> Let's learn React by building simple interfaces with components. Don't try to overthink it, just keep it simple and have fun. Once you feel comfortable using components you are well on you way to mastering React!</div>
-}
+    return <div className = "card-content"> <CardBanner /> <h2>Get Started with React</h2>  <p>React makes it painless to create interactive UIs. Design simple views for each state in your application.</p> <p className="url">reactjs.org</p></div>
+
+};
+
 export default CardContent;

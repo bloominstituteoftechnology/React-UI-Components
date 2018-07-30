@@ -1,1 +1,38 @@
 /* All styles for your header Components live here */
+.header-container{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+ 
+}
+
+.img-thumb{
+    width: 100px;
+    height: 100px;
+}
+
+
+
+ .header-title{
+    display: flex;
+    align-items: center;
+    margin: 0;
+
+} 
+
+.header-title h1 {
+    margin: 0;
+}
+
+.header-title h3 {
+    opacity: .50;
+    padding: 0 30px;
+    margin: 0
+}
+
+
+.header-par {
+    font-weight: normal;
+    line-height: 30px;
+    margin: 0 30px 0 0;
+}
