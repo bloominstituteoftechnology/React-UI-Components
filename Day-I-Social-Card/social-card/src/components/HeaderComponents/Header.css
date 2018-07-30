@@ -8,3 +8,10 @@
 .lambda-header {
     border: solid 2px lightskyblue;
 }
+
+.HeaderContainer {
+    border: solid 2px palevioletred;
+    display: flex;
+    flex-direction: row;
+    padding: 2px;
+}
