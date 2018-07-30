@@ -1,1 +1,7 @@
 /* All styles for your Card Components live here */
+.container {
+    background: blue;
+    height: 400px;
+    width: 400px;
+    border: 1px solid red;
+}
