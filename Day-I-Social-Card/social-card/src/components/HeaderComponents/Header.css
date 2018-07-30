@@ -1,7 +1,7 @@
 /* All styles for your header Components live here */
 .HeaderContainer {
-    border: solid 2px palevioletred;
-    height: 50px;
+    /* border: solid 2px palevioletred; */
+    height: 70px;
     padding: 10px;
     display: flex;
 }
@@ -9,31 +9,49 @@
 .lambda-header-wrap {
     height: 50px;
     padding: 0.3em;
+    /* border: dashed 5px black */
 }
 
 .lambda-title {
     height: 100%;
+    /* border: dashed 2px blue; */
+}
+
+.Lambda-Logo {
+    width: 50px;
+    height: 50px;
+    margin-left: 339px;
+    /* border: 2px solid black; */
 }
 
 .time-stamp {
     font-weight: 300px;
     padding: 5px;
-}
-
-.lambda-title {
-    font-size: 14px;
-    font-weight: 600px;
-    padding: 0 0.3em;
+    /* border: dashed 2px red; */
 }
 
 .lambda-header-wrap {
     flex-direction: column;
-    margin-top: 0.6em;
+    /* margin-top: 0.6em; */
+    /* border: solid 2px orange; */
+    margin-left: 10px;
+    margin-top: -10px;
+    width: 45%;
+}
+
+.lambda-title {
+    font-size: 16px;
+    font-weight: 600px;
+    /* border: solid 2px purple; */
+    width: 90%;
 }
 
 .header-content {
-    font-size: 10px;
+    font-size: 14px;
     font-weight: 400px;
-    width: 93%;
-    line-height: 1.3px;
+    width: 80%;
+    line-height: 20px;
+    /* padding: 15px; */
+    /* border: 2px solid gold; */
+    margin-top: 6px;
 }

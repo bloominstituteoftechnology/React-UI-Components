@@ -1,6 +1,7 @@
 /* All styles for your Card Components live here */
 .card-container {
     border: solid 2px purple;
+    margin: 15px auto;
 }
 
 .card-banner-image {
