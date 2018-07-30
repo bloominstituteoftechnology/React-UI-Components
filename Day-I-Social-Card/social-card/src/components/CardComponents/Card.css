@@ -1,7 +1,31 @@
 /* All styles for your Card Components live here */
-.container {
-    background: blue;
-    height: 400px;
-    width: 400px;
-    border: 2px solid red;
+.card-container {
+    border: solid 2px purple;
+}
+
+.card-banner-image {
+    height: 370px;
+    width: 700px;
+    display: flex;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+.card-content {
+    border: solid 1px gray;
+    width: 690px;
+    border-radius: 5px;
+    margin: 0 auto;
+    padding: 2px;
+}
+
+h5 {
+    font-weight: bold;
+    font-size: 16px;
+    margin: 0;
+}
+
+.react-website-link {
+    color: gray;
+    font-size: 16px;
 }
