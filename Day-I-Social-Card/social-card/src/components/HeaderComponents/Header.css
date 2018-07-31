@@ -1,1 +1,48 @@
 /* All styles for your header Components live here */
+.app-container{
+    width: 572px;
+    height: 104px;
+}
+.header-container{
+    display: flex;
+}
+.header-text{
+    display: flex;
+    flex-direction: column;
+}
+.header-container img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.name {
+    font-size: 14px;
+    font-weight: bold;
+    padding: 8px 6px;
+}
+.handle {
+    font-size: 12px;
+    color: gray;
+}
+p {
+    font-size: 14px;
+    padding: 0 6px;
+}
+.card-container{
+padding-left: 54px;
+}
+
+.card-container img {
+    width: 518px;
+    border-radius: 1%;
+}
+.content-heading {
+    font-size: 14px;
+    font-weight: bold;
+}
+.content{
+    font-size: 14px;
+}
+.content-foot{
+    color: gray;
+}
