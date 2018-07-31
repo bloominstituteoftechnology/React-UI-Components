@@ -1,0 +1,29 @@
+.container{
+
+height: 383px;
+width: 300px;
+  
+  border: 1px solid red;
+}
+
+
+
+.btnContainer {
+    height: 259px;
+    /* display: flex; */
+  }
+  
+  .btn {
+    width: 40px;
+    border: 1px solid black;
+  }
+
+ .btnColor {
+    border: 1px solid black;
+ } 
+
+ .red{
+
+    background: red;
+    color: white;
+ }
