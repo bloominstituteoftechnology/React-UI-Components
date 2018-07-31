@@ -5,10 +5,33 @@
 
 .wide-btn {
     width: 300px;
-    border: 1px solid white;
+    font-size: 40px;
+    font-weight: normal;
+    border: 1px solid gray;
+    background: white;
 }
 
 .button-container {
     height: 100px;
     display: flex;
+    border: 1px solid gray;
+}
+
+.red-btn {
+    background: #9e0523;
+    color: #ffffff;
+    text-align: center;
+    line-height: 100px;
+    font-size: 50px;
+    font-weight: 200px;
+}
+
+.num-button {
+    text-align: center;
+    line-height: 100px;
+    font-size: 50px;
+    font-weight: 200px;
+    background: white;
+    border: 1px solid gray;
+    color: black;
 }
