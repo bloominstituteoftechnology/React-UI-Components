@@ -14,7 +14,7 @@
 
 .header-content {
     width: 660px;
-    height: 130px;
+    height: 90px;
     display: flex;
     flex-direction: column;
 }

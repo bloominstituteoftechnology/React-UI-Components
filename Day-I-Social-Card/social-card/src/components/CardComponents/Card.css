@@ -24,7 +24,8 @@
     font-size: 20px;
 }
 
-.card-content h5 {
+.card-content link {
     font-size: 14px;
     color: #5F9EA0;
+    text-decoration: none;
 }
