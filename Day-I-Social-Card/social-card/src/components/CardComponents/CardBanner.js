@@ -5,7 +5,7 @@ const CardBanner = () => {
     
         <img
           alt="react logo"
-          className="banner-img"
+          className="bannerImg"
           src="https://ibin.co/3wnC6SgIOJud.png"
         />
     

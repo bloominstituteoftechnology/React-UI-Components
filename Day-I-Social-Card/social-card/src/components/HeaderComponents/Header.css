@@ -1,1 +1,29 @@
 /* All styles for your header Components live here */
+.headerContainer {
+    width: 519px;
+    display: flex;
+}
+
+
+
+.thumbContain{
+    height: 50px;
+    padding-bottom: 100px;
+  }
+
+  .headerTitle{
+
+    /* flex-direction: column; */
+    font-size: 14px;
+      font-weight: bold;
+      padding: 0 20px;
+    }
+
+    .hdrContent{
+        line-height: 1.5;
+    }
+
+   span {
+
+    color: #C1C9CD;
+   }
