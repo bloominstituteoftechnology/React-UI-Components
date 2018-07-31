@@ -1,0 +1,15 @@
+.number-button {
+    width: 200px;
+    height: 200px;
+    border: 1px solid gray;
+    background-color: white;
+    color: black;
+}
+
+.wide-btn {
+    width: 200px;
+    height: 200px;
+    border: solid 1px gray;
+    background-color: white;
+    color: black;
+}
