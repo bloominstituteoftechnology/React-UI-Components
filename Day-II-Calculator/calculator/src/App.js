@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import CalculatorContainer from './components/DisplayComponents/CalculatorDisplay';
 
 const App = () => {
   return (
@@ -16,6 +17,8 @@ const App = () => {
           inside of this file in order to make them work.
         </strong>
       </p>
+
+      <CalculatorContainer />
     </div>
   );
 };
