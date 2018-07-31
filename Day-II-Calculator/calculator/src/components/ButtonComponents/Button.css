@@ -6,7 +6,7 @@
 .wide-btn {
     width: 300px;
     font-size: 40px;
-    font-weight: normal;
+    font-weight: lighter;
     border: 1px solid gray;
     background: white;
 }
@@ -24,9 +24,10 @@
     line-height: 100px;
     font-size: 50px;
     font-weight: 200px;
+    border: 0.5px solid #9e0523;
 }
 
-.num-button {
+.num-btn {
     text-align: center;
     line-height: 100px;
     font-size: 50px;

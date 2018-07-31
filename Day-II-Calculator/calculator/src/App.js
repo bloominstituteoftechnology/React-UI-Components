@@ -16,23 +16,23 @@ const App = () => {
       </ButtonContainer>
 
       <ButtonContainer>
-        <NumberButton bgColor = "num-button" text = "7" />
-        <NumberButton bgColor = "num-button" text = "8" />
-        <NumberButton bgColor = "num-button" text = "9" />
+        <NumberButton bgColor = "num-btn" text = "7" />
+        <NumberButton bgColor = "num-btn" text = "8" />
+        <NumberButton bgColor = "num-btn" text = "9" />
         <NumberButton bgColor = "red-btn" text = "X" />
       </ButtonContainer>
 
       <ButtonContainer>
-        <NumberButton bgColor = "num-button" text = "4" />
-        <NumberButton bgColor = "num-button" text = "5" />
-        <NumberButton bgColor = "num-button" text = "6" />
+        <NumberButton bgColor = "num-btn" text = "4" />
+        <NumberButton bgColor = "num-btn" text = "5" />
+        <NumberButton bgColor = "num-btn" text = "6" />
         <NumberButton bgColor = "red-btn" text = "-" />
       </ButtonContainer>
 
       <ButtonContainer>
-        <NumberButton bgColor = "num-button" text = "1" />
-        <NumberButton bgColor = "num-button" text = "2" />
-        <NumberButton bgColor = "num-button" text = '3' />
+        <NumberButton bgColor = "num-btn" text = "1" />
+        <NumberButton bgColor = "num-btn" text = "2" />
+        <NumberButton bgColor = "num-btn" text = '3' />
         <NumberButton bgColor = "red-btn" text = "+" />
       </ButtonContainer>
 
