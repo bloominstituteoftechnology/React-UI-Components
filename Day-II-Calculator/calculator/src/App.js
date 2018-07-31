@@ -6,9 +6,10 @@ import ButtonContainer from './components/ButtonComponents/ButtonContainer';
 const App = () => {
   return (
     <div>
+      <ButtonContainer />
       <ActionButton />
       <NumberButton />
-      <ButtonContainer />
+      
       
       {/* <h3>Welcome to React Calculator</h3>
       <p>
