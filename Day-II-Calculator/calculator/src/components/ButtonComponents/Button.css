@@ -1,15 +1,14 @@
 .number-button {
-    width: 200px;
-    height: 200px;
-    border: 1px solid gray;
-    background-color: white;
-    color: black;
+    width: 100px;
+    border: 1px solid white;
 }
 
 .wide-btn {
-    width: 200px;
-    height: 200px;
-    border: solid 1px gray;
-    background-color: white;
-    color: black;
+    width: 300px;
+    border: 1px solid white;
+}
+
+.button-container {
+    height: 100px;
+    display: flex;
 }
