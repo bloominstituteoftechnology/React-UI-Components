@@ -1,0 +1,7 @@
+.outside-calc-container {
+    width: 580px;
+    height: 740px;
+    display: flex;
+    background: #FFFFFF;
+    font-size: 48px;
+  }

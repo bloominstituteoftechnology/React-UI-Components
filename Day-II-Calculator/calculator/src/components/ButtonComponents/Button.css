@@ -1,0 +1,30 @@
+.button-container {
+    width: 580px;
+    height: 580px;
+    display: flex;
+}
+
+.number-buttons {
+    width: 145px;
+    height: 116px;
+    font-weight: bold;
+    text-align: center;
+    border: 1px solid #E3E3E3;
+}
+
+.bar-buttons {
+    width: 435px;
+    height: 116px;
+    text-align: center;
+    border: 1px solid #E3E3E3;
+}
+
+.function-buttons {
+    width: 145px;
+    height: 116px;
+    font-weight: bold;
+    text-align: center;
+    background: crimson;
+    color: #FFFFFF;
+    border: 1px solid #E3E3E3;
+}
