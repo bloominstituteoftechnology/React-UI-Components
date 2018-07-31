@@ -1,4 +1,11 @@
 .number-button {
     width: 100px;
-    border: 1px solid white;
+    height: 100px;
+    border: 1px solid black;
+}
+
+.wide-btn {
+    width: 200px;
+    height: 100px;
+    border: 1px solid pink;
 }
