@@ -6,19 +6,15 @@
 .num-btn {
     width: 100px;
     height: 100px;
-    border: 1px solid black;
     font-size: 50px;
+    border: 1px solid lightgray;
 }
 
 .wide-btn {
     width: 300px;
-    height: 100px;
-    border: 1px solid pink;
     font-size: 50px;
-    font-weight: 200;
-    
-    
-    
+    font-weight: 200;   
+    border: 1px solid #e3e3e3;
 }
 .button-container {
     height: 100px;
