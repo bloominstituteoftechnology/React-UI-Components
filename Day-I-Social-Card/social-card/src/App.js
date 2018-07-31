@@ -1,9 +1,7 @@
 import React from 'react';
 import './App.css';
-import './Header.css';
-import './Card.css';
-import HeaderContainer from './HeaderContainer';
-import CardContainer from './CardContainer';
+import HeaderContainer from './components/HeaderComponents/HeaderContainer';
+import CardContainer from './components/CardComponents/CardContainer';
 
 const App = () => (
   <div className='outside-container'>
