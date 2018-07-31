@@ -1,0 +1,7 @@
+.calc-box {
+    height: 600px;
+    width: 400px;
+    margin: 0 auto;
+    border: 1px solid lightgray;
+    font-family: sans-serif;
+}
