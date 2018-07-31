@@ -9,6 +9,7 @@
 .image-thumbnail {
     width: 80px;
     height: 130px;
+    padding: 20px;
 }
 
 .header-content {

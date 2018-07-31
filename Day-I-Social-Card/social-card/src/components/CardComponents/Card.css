@@ -16,6 +16,7 @@
 .card-content {
     width: 660px;
     height: 130px;
+    padding: 20px;
 }
 
 .card-content h3 {
