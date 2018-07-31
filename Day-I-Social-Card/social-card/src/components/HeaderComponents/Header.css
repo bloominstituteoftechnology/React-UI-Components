@@ -8,14 +8,15 @@
 
 .image-thumbnail {
     width: 80px;
-    height: 130px;
-    padding: 20px;
+    height: 80px;
+    padding: 0 20px 20px 0; 
 }
 
 .header-content {
     width: 660px;
     height: 130px;
     display: flex;
+    flex-direction: column;
 }
 
 .header-title {
@@ -23,6 +24,7 @@
     height: 40px;
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 
 .header-headline {
@@ -33,4 +35,5 @@
 .header-handle {
     font-size: 14px;
     color: #5F9EA0;
+    margin-left: 20px;
 }
