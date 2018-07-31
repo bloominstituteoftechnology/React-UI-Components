@@ -5,7 +5,7 @@ import './Header.css';
 
 const HeaderTitle = () => {
     return (
-        <div className="header-wrapper">
+        <div className="header-title-wrapper">
             <div className="header-title">
         Lambda School
         <HeaderContent />

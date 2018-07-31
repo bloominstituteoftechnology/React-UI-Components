@@ -3,13 +3,13 @@ import './Card.css';
 
 const CardBanner = () => {
     return (
-        <a href="https://reactjs.org" className="banner-img-wrapper">
+        <a className="banner-container-wrapper" href="https://reactjs.org">
          <img 
-         alt="Banner Image" 
-         src="https://ibin.co/3wnC6SgIOJud.png" 
-         className="banner-img"
+             alt="Banner Image" 
+             className="banner-img"
+             src="https://ibin.co/3wnC6SgIOJud.png" 
             />
-         </a>
+        </a>
     );
 };
 
