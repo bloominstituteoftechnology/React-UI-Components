@@ -1,12 +1,12 @@
-import React from 'react';
-import './Footer.css';
+// import React from 'react';
+// import './Footer.css';
 
-const Footer = () => {
-    return (
-        <footer>
-            icons
-        </footer>
-    );
-};
+// const Footer = () => {
+//     return (
+//         <footer>
+//             icons
+//         </footer>
+//     );
+// };
 
-export default Footer;
+// export default Footer;

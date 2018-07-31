@@ -30,6 +30,12 @@
     /* border: dashed 2px red; */
 }
 
+.handle {
+    color: gray;
+    font-size: 12px;
+    margin-left: 10px;
+}
+
 .lambda-header-wrap {
     flex-direction: column;
     /* margin-top: 0.6em; */
@@ -43,15 +49,15 @@
     font-size: 16px;
     font-weight: 600px;
     /* border: solid 2px purple; */
-    width: 90%;
+    width: 100%;
 }
 
 .header-content {
     font-size: 14px;
     font-weight: 400px;
-    width: 80%;
+    width: 100%;
     line-height: 20px;
     /* padding: 15px; */
     /* border: 2px solid gold; */
-    margin-top: 6px;
+    margin-top: 20px;
 }

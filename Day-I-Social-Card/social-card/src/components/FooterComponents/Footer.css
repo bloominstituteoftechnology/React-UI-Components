@@ -1,5 +1,6 @@
 footer {
     border: solid 1px darkgoldenrod;
-    width: 100%;
+    width: 46%;
     height: 50px;
+    margin: 0 auto;
 }

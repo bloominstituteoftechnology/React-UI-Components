@@ -1,6 +1,6 @@
 /* All styles for your Card Components live here */
 .card-container {
-    border: solid 2px purple;
+    /* border: solid 2px purple; */
     margin: 15px auto;
 }
 
@@ -14,10 +14,10 @@
 
 .card-content {
     border: solid 1px gray;
-    width: 690px;
+    width: 670px;
     border-radius: 5px;
     margin: 0 auto;
-    padding: 2px;
+    padding: 12px;
 }
 
 h5 {
