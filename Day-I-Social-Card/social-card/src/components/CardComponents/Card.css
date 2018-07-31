@@ -10,15 +10,18 @@
     border-radius: 4px;
     background: hsl(0, 0%, 100%);
     background-size: contain;
+    /* border: 1px solid red; */
    
   }
   
   .banner-img {
     border-radius: 4px 4px 0 0;
     max-height: 100%;
-    max-width: 100%;
+    width: 527px;
+    
   }
   .banner-bottom {
+    
     height: 90px;
     background: #ffffff;
     width: 80%;

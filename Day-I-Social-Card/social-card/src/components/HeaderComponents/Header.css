@@ -12,10 +12,13 @@
   .thumb-img {
     height: 100%;
   }
-  
+  .handle {
+      color: #d1d2d3;
+  }
   .time-stamp {
     font-weight: 300;
     padding: 5px;
+    color: #d1d2d3;
   }
   
   .header-title {
@@ -30,7 +33,7 @@
   }
   
   .header-content {
-    font-size: 10px;
+    font-size: 12px;
     font-weight: 400;
     width: 93%;
     line-height: 1.3;
