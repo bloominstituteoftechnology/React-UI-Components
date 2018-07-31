@@ -6,11 +6,13 @@
 }
 
 .banner-img-wrapper {
-    height: 250px;
-    width: 90%;
-    margin: 35px auto 0 auto;
-    border-radius: 5px;
-    background-size: cover;
+    height: 269px;
+    width: 80%;
+    margin: 30px auto 0 auto;
+    border-radius: 4px;
+    background: white;
+    background-size: contain;
+
 }
 
 .banner-img {
@@ -20,9 +22,11 @@
   }
 
 .bottom-banner {
-    height: 95px;
-    width: 90%;
+    height: 90%;
+    background: white;
+    width: 80%;
     margin: 0 auto;
+    margin-top: -2px;
     border-bottom: 1px solid #e3e3e3;
     border-left: 1px solid #e3e3e3;
     border-right: 1px solid #e3e3e3;
@@ -31,5 +35,10 @@
 
 .banner-content {
     margin: 0;
-    padding: 0;
+    padding: 0.3em;
+}
+
+.banner-link {
+    text-decoration: none;
+    color: lightgray;
 }

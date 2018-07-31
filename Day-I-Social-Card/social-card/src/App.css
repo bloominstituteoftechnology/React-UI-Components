@@ -3,9 +3,9 @@
   IF you'd like to attempt to use less you'll have to research how to do this with Create React App
 */
 .card-container {
-  margin: auto;
   height: 500px;
-  width: 50%;
-  border: 1px solid black;
+  width: 45%;
+  margin: 1em auto;
+  border: 0.5px solid #000;
   font-family: sans-serif;
 }

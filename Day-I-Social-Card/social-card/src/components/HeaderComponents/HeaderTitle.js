@@ -7,8 +7,7 @@ const HeaderTitle = () => {
     return (
         <div className="header-wrapper">
             <div className="header-title">
-        <h1>Lambda School</h1>
-        
+        Lambda School
         <HeaderContent />
             </div>
         </div>

@@ -1,20 +1,35 @@
 /* All styles for your header Components live here */
 
-/* .container-header {
+.container-header {
     height: 50px;
     padding: 10px;
     display: flex;
-    border: 1px solid black;
-  }
-
-  .content-wrapper {
-      border: 1px solid pink;
   }
 
   .logo-wrapper {
-      border: 1px solid palevioletred;
+    height: 50px;
+    padding: 0.3em;
   }
-
+    
   .thumbnail-img {
       height: 100%;
-  } */
+  }
+
+  .header-wrapper {
+      flex-direction: column;
+      margin-top: 0.6em;
+      
+  }
+
+  .header-title {
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  .content-wrapper {
+      font-size: 10px;
+      font-weight: 400;
+      width: 93%;
+      line-height: 1.3;
+      
+  }
