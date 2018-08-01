@@ -1,7 +1,7 @@
 .container{
 
 height: 383px;
-width: 300px;
+/* width: 300px; */
   
   border: 1px solid red;
 }
@@ -9,21 +9,48 @@ width: 300px;
 
 
 .btnContainer {
-    height: 259px;
-    /* display: flex; */
+    display: flex;
+    height: 45px;
+    width:160px;
+    border: 1px solid black;
+    margin-left: 5px;
+    justify-content: center;
+    
   }
   
   .btn {
     width: 40px;
-    border: 1px solid black;
+    text-align: center;
+    background: #C5D3D8;
+    vertical-align: center;
+    
   }
 
- .btnColor {
-    border: 1px solid black;
- } 
 
- .red{
 
-    background: red;
-    color: white;
+ longButton{
+    text-align: center;
+    line-height: 100px;
+    font-size: 50px;
+    font-weight: 200;
  }
+
+ .lngButton {
+     display: inline-flex;
+     width: 40px;
+     background: #C5D3D8;
+     color: black;
+       
+ }
+
+ .lgBtn{
+     /* background: blue; */
+ }
+ .btnColor {
+    
+    background: #9e0523;
+    color: white;
+    width: 40px;
+
+ } 
+ 

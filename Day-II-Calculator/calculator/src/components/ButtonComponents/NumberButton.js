@@ -5,7 +5,8 @@ const NumberButton = props => {
 
     return (
 
-        <div className={`btn btnColor ${props.styles}`}>{props.text}</div>
+        <div className={`btn  ${props.styles}`}>{props.text}</div>
+
 
 
     ); 
