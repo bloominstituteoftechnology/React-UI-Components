@@ -1,1 +1,39 @@
 /* All styles for your header Components live here */
+.header-container {
+    width: 740px;
+    height: 130px;
+    display: flex;
+    background: #FFFFFF;
+}
+
+.image-thumbnail {
+    width: 80px;
+    height: 80px;
+    padding: 0 20px 20px 0; 
+}
+
+.header-content {
+    width: 660px;
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-title {
+    width: 660px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header-headline {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.header-handle {
+    font-size: 14px;
+    color: #5F9EA0;
+    margin-left: 20px;
+}

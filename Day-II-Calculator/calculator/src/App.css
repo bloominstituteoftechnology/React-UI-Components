@@ -1,0 +1,9 @@
+.outside-calc-container {
+    width: 580px;
+    height: 740px;
+    display: flex;
+    background: #FFFFFF;
+    flex-direction: column;
+    margin: 100px;
+    border: 1px solid #828282;
+  }

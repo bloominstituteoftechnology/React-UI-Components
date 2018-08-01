@@ -1,0 +1,41 @@
+.button-container {
+    width: 580px;
+    height: 116px;
+    display: flex;
+    flex-direction: row;
+}
+
+.bar-button {
+    width: 435px;
+    height: 116px;
+    text-align: center;
+    font-size: 48px;
+    line-height: 96px;
+    border: 1px solid #828282;
+}
+
+.number-button {
+    width: 145px;
+    height: 116px;
+    text-align: center;
+}
+
+.white-button {
+    width: 145px;
+    height: 116px;
+    text-align: center;
+    font-size: 48px;
+    line-height: 96px;
+    border: 1px solid #828282;
+}
+
+.red-button {
+    width: 145px;
+    height: 116px;
+    text-align: center;
+    background: crimson;
+    color: #FFFFFF;
+    font-size: 48px;
+    line-height: 96px;
+    border: 1px solid #828282;
+}
