@@ -4,7 +4,7 @@ import './Button.css';
 const ActionButton = props => {
     return (
 
-        <button className = {`wide-btn ${props.className}`}>
+        <button className = {`${props.className}`}>
             {props.text}
         </button>
 
