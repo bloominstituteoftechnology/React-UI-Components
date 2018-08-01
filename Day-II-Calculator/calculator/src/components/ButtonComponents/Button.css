@@ -1,6 +1,6 @@
 .button-container {
     width: 580px;
-    height: 580px;
+    height: 116px;
     display: flex;
 }
 
@@ -12,19 +12,35 @@
     border: 1px solid #E3E3E3;
 }
 
-.bar-buttons {
+.wide-buttons {
     width: 435px;
     height: 116px;
     text-align: center;
     border: 1px solid #E3E3E3;
 }
 
-.function-buttons {
+.bar-button {
+    width: 435px;
+    height: 116px;
+    text-align: center;
+    font-size: 48px;
+    line-height: 96px;
+}
+
+.white-button {
     width: 145px;
     height: 116px;
-    font-weight: bold;
+    text-align: center;
+    font-size: 48px;
+    line-height: 96px;
+}
+
+.red-button {
+    width: 145px;
+    height: 116px;
     text-align: center;
     background: crimson;
     color: #FFFFFF;
-    border: 1px solid #E3E3E3;
+    font-size: 48px;
+    line-height: 96px;
 }
