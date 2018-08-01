@@ -1,11 +1,10 @@
 import React from 'react';
 import './Button.css';
 
-const ButtonContainer = () => (
-    <div className='button-container'>
-        <ActionButton />
-        <NumberButton />
-    </div>
-);
+const ButtonContainer = props => {
+    return (    
+        <div className='button-container'>{props.children}</div>
+    );   
+};    
 
 export default ButtonContainer;
