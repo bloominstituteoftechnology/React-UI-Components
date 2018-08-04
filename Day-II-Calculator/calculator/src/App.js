@@ -42,7 +42,11 @@ class App extends React.Component {
             <NumberButton numberLabel="2" />
             <NumberButton numberLabel="1" /> */}
             {numberButtons}
-            <NumberButton numberLabel="0" extraStyles="zeroNumberStyles" />
+            <NumberButton
+              numberLabel="0"
+              extraStyles="zeroNumberStyles"
+              inputHandler={this.handleInput}
+            />
           </div>
 
           <div className="actionButtonRow">

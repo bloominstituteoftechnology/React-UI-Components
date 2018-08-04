@@ -4,6 +4,11 @@
   color: black;
   text-align: center;
   outline: 2px solid grey;
+  cursor: pointer;
+}
+.numberButton-div:hover {
+  color: white;
+  background: #a0001e;
 }
 
 .numberButton-div p {
@@ -24,6 +29,11 @@
   color: white;
   text-align: center;
   outline: 2px solid grey;
+  cursor: pointer;
+}
+.actionButtonStyles:hover {
+  background: white;
+  color: #a0001e;
 }
 
 .actionButtonStyles p {
@@ -41,6 +51,10 @@
   background: white;
   color: black;
   outline: 2px solid grey;
+}
+.clearWidth:hover {
+  color: white;
+  background: #a0001e;
 }
 
 .clearWidth p {

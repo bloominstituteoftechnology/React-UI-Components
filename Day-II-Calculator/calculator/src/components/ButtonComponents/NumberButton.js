@@ -6,6 +6,7 @@ const NumberButton = props => {
     <div
       className={`numberButton-div ${props.extraStyles}`}
       onClick={props.inputHandler}
+      id={props.id}
     >
       <p>{props.numberLabel}</p>
     </div>
