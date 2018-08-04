@@ -3,7 +3,10 @@ import "./Button.css";
 
 const NumberButton = props => {
   return (
-    <div className={`numberButton-div ${props.extraStyles}`}>
+    <div
+      className={`numberButton-div ${props.extraStyles}`}
+      onClick={props.inputHandler}
+    >
       <p>{props.numberLabel}</p>
     </div>
   );
