@@ -21,7 +21,7 @@ class App extends React.Component {
     let numberButtons = [];
     for (let i = 9; i > 0; i--) {
       numberButtons.push(
-        <NumberButton numberLabel={i} inputHandler={this.handleInput} />
+        <NumberButton numberLabel={i} id={i} inputHandler={this.handleInput} />
       );
     }
 
