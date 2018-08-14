@@ -1,0 +1,17 @@
+.main-container {
+    display: flex;
+justify-content: center;
+align-items: center;
+margin: none;
+padding: none;
+}
+
+.calculator-container {
+    margin: none;
+    padding: none;
+  border: 3px solid black;
+  height: 700px;
+  width: 500px;
+  position: absolute;
+  z-index: 0;
+}

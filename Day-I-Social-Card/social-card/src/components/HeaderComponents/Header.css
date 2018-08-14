@@ -1,1 +1,9 @@
 /* All styles for your header Components live here */
+.Header {
+    display: flex;
+    flex-direction: row;
+}
+
+.HeaderTitle {
+    
+}

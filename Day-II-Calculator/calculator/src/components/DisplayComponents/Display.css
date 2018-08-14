@@ -1,0 +1,16 @@
+.display-container {
+    padding: none;
+    margin: none;
+    color: white;
+    background: black;
+    width: 505px;
+    height: 130px;
+}
+
+.display-text {
+    padding: none;
+    margin: none;
+    text-align: center;
+    padding-top: 50px;
+    font-family: 'Roboto', sans-serif;
+}
