@@ -1,1 +1,26 @@
 /* All styles for your Card Components live here */
+.Container{
+    display: flex;
+    flex-direction: column; 
+    height: 590px;
+    width: 514px;
+    border: 1px solid red;
+    padding: 10px;
+    
+}
+
+.bannerImg {
+    height: 250px;
+
+}
+
+.bottomText{
+    font-weight: bold;
+}
+
+
+.bottomContent{
+text-decoration: none;
+line-height: 1.5;
+}
+
