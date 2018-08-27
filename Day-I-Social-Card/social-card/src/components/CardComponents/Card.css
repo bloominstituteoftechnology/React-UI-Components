@@ -2,6 +2,7 @@
 
 .card-container {
     padding-left: 17%;
+    
 }
 
 .card-link a {
@@ -14,12 +15,15 @@
 
 .card-banner img {
     width: 100%;
-    border-radius: 2%;
+    border-radius: 5px 5px 0 0;
 }
 
 .card-content {
+    margin-top: -7px;
     padding: 1%;
     color: black;
+    border: 1px solid #a5a5a5;
+    border-radius: 0 0 5px 5px;
 }
 
 .card-content .card-content-link {

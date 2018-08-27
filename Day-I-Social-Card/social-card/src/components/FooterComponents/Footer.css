@@ -5,7 +5,7 @@
 
 .footer-comment {
     width: 20%;
-    margin-left: 14%;
+    margin-left: 16%;
     cursor: pointer;
 }
 
@@ -50,4 +50,9 @@
 
 .footer-share img {
     width: 50%;
+}
+
+.comment-input-section {
+    width: 100%;
+    border: 1px solid black;
 }
