@@ -7,7 +7,7 @@ import CardContent from './CardContent.js';
 
 const CardContainer = () => (
     <div className="card-container">
-        <CardBanner />
+     
         <CardContent />
     </div>
 );

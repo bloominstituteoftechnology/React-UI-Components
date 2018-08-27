@@ -1,18 +1,24 @@
 /* All styles for your Card Components live here */
 
 
+
 .card-container {
     /* background: blue;
     border: 2px solid blue; */
     padding-left: 60px;
-    border: 1px solid lightgrey;
+    
 }
 
 .card-content {
     /* background: purple; */
-   
+    border: 1px solid lightgrey;
     border-radius: 2px;
 }
+
+.card-content .text {
+    padding: 5px 10px;
+}
+
 .card-banner img {
     width: 550px;
     border-radius: 5px;
