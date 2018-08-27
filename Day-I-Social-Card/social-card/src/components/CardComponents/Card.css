@@ -1,1 +1,30 @@
 /* All styles for your Card Components live here */
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.card {
+  margin-left: 59px;
+  margin-right: 16px;
+}
+
+.card-text {
+  border: 1px solid lightgrey;
+  padding-left: 4%;
+  border-radius: 5px;
+}
+
+.grey-text {
+  color: #7F90A0;
+  font-size: 0.8rem;
+}
+
+.image-container {
+  background-image: url('https://ibin.co/3wnC6SgIOJud.png');
+  height: 259px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 5px;
+}

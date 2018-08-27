@@ -1,1 +1,39 @@
 /* All styles for your header Components live here */
+.header-wrap {
+  display: flex;
+  flex-direction: row;  
+  margin-right: 2%;
+}
+
+.title-wrapper {
+  display: flex;
+  flex-direction: row;  
+  align-items: center;  
+}
+
+.header-paragraph {
+  margin-top: 0;
+}
+
+p {
+  color: black;
+  padding: 0 7px;
+  font-size: 0.8rem;
+}
+
+img {
+  height: 52.94px;
+  padding-top: 1.7%;
+}
+
+h1 {
+  font-size: 1rem;
+  padding-left: 7px;
+}
+
+span {
+  color: #7F90A0;
+  padding: 0 0 0 7px;
+  font-size: 0.8rem;
+}
+
