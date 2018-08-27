@@ -2,9 +2,9 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 25%;
+    width: 50%;
     margin: 20px;
-    margin-left: 100px;
+    margin-left: 80px;
     color: var(--light-gray);
     position: absolute;
 }
