@@ -1,1 +1,34 @@
 /* All styles for your Card Components live here */
+.card-container{
+    margin-left: 60px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.card-image{
+    width: 100%;
+    height: 250px;
+    background-image: url("https://ibin.co/3wnC6SgIOJud.png");
+    background-size: contain;
+    background-position: center;
+    background-clip: content-box;
+}
+.card-content{
+    padding: 20px 10px 10px 10px;
+}
+.card-content .card-title{
+    font-size: 14px;
+    font-weight: bold; 
+}
+.card-content p{
+    font-size: 14px;    
+    margin-top: 8px;
+    line-height: 18px;
+    word-spacing: 1px;
+    margin-bottom: 4px;
+}
+.card-content .card-link{    
+    font-size: 14px;
+    color:grey;  
+
+}
