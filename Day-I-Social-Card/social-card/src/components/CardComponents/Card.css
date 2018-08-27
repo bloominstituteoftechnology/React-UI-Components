@@ -1,7 +1,7 @@
 /* All styles for your Card Components live here */
 * {
   font-family: Arial;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 a {
@@ -13,8 +13,6 @@ a {
   flex-direction: column;
   justify-content: center;
   width: 600px;
-
-  border: 1px solid purple;
 }
 
 .banner {
@@ -25,8 +23,11 @@ a {
 }
 
 .content-text {
-  margin-left: 11%;
-  border: 1px solid yellow;
+  margin-left: 10%;
+  margin-top: -5px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  margin-bottom: 10px;
 }
 
 .content-text .link {

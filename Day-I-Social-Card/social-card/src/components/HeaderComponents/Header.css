@@ -2,14 +2,11 @@
 
 .header-container {
   display: flex;
-  border: 1px solid red;
 }
 .title-container {
   display: flex;
   width: 60%;
   justify-content: space-between;
-
-  border: 1px solid blue;
 }
 
 .title {
