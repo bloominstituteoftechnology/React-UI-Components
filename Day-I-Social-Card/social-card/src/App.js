@@ -1,10 +1,10 @@
 import React from 'react';
 import './App.css';
+import HeaderContainer from "./components/HeaderComponents/HeaderContainer";
 
-const App = () => {
-  return (
-    <div>
-      <h3>Welcome to React Social Card!</h3>
+const App = () => (
+  <div>
+    <title Welcome to React Social Card!/>
       <p>
         Begin by exploring the `components` directory. You'll notice we have a
         few files that we've already included in there to get you started right
@@ -19,6 +19,6 @@ const App = () => {
       </p>
     </div>
   );
-};
+
 
 export default App;
