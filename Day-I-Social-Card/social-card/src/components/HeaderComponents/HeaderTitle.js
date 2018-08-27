@@ -6,6 +6,7 @@ const HeaderTitle = props => {
         <div className="header-container-title">
             <div class="header-user-name">Lambda School </div>
             <div class ="header-user-username"> @LambdaSchool</div>
+            <div className="header-space">&bull;</div>
             <span className="header-user-date"> 26 Jan</span>
        </div>
     
