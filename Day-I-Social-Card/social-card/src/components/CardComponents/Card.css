@@ -1,1 +1,58 @@
 /* All styles for your Card Components live here */
+
+/* CardContainer */
+
+.card-container-wrapper {
+  display: flex;
+  width: 675px;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-left: 70px;
+}
+
+.card-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 590px;
+  padding: 10px 1px;
+  border: 1px solid lightgrey;
+  border-radius: 2px;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+a:visited {
+  color: #000;
+}
+
+/* CardBanner */
+
+.card-banner-img {
+  width: 640px;
+  height: 300px;
+  margin-top: -10px;
+  /* border-top-left-radius: 6px;
+  border-top-right-radius: 6px; */
+}
+
+/* CardContent */
+
+.card-title {
+  font-weight: 600;
+  padding: 10px 0;
+  margin-left: 10px;
+}
+
+.card-text {
+  width: 520px;
+  margin-left: 10px;
+}
+
+.card-link {
+  color: grey;
+  padding-top: 10px;
+  margin-left: 10px;
+}
