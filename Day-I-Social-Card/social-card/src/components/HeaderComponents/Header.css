@@ -52,7 +52,7 @@ table {
     .header-container {
       border: 1px solid red;
       display: flex;
-      width: 618px;
+      width: 589px;
     }
 
     .header-thumbnail {
@@ -70,16 +70,17 @@ table {
     }
     
         .header-title {
-          font-size: 20px;
+          font-size: 14px;
           font-weight: bold;
           font-family: sans-serif;
           padding-top: 15px;
-          padding-bottom: 15px;
+          padding-bottom: 5px;
         }
 
         .header-content {
-          font-size: 16px;
+          font-size: 14px;
           font-weight: normal;
           font-family: sans-serif;
-          line-height: 1.6rem;
+          line-height: 1.2rem;
+          padding-bottom: 13px;
         }
