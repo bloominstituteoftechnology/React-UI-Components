@@ -1,1 +1,28 @@
 /* All styles for your header Components live here */
+
+.header-container {
+    border: 2px solid green;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.header-content {
+    display: block;
+}
+
+.header-title {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.header-title h3 {
+    color: blue;
+}
+
+
+.image-thumbnail {
+    background: url('https://ibin.co/3whrpKSBbZ81.png') no-repeat;
+    background-size: 100%;
+    width: 10%;
+}
