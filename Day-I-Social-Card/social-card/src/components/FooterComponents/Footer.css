@@ -1,0 +1,7 @@
+.Footer {
+  max-width: 300px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 6.25%;
+  margin-top: 2%;
+}
