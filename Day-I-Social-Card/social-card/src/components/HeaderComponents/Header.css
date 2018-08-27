@@ -1,16 +1,11 @@
 /* All styles for your header Components live here */
 
-:root {
-    --light-gray: rgb(131, 145, 159);
-}
-
 .header-container {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     width: 100%;
-    border: 1px solid #DC978A;
     
 }
 
