@@ -1,0 +1,14 @@
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 25%;
+    margin: 20px;
+    margin-left: 100px;
+    color: var(--light-gray);
+    position: absolute;
+}
+
+.count {
+    margin: 0 0 0 3px;
+}
