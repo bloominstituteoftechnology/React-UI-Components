@@ -15,3 +15,5 @@ const CardContainer = props => {
     </div>
   );
 };
+
+export default CardContainer;
