@@ -1,2 +1,40 @@
 /* All styles for your header Components live here */
 
+.header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.header-title {
+    display: flex;
+    padding: 10px 0;
+}
+
+.org-name {
+    font-weight: bold;
+    padding: 0 8px 0 0;
+}
+
+.org-social-media {
+    padding: 0 8px 0 0;
+    color: #99A7B1;
+}
+
+.post-date {
+    color: #99A7B1;
+}
+
+.header-content-text {
+    width: 520px;
+    align-self: flex-end;
+}
+
+.header-img {
+    width: 60px;
+    align-self: flex-start;
+    margin: 20px;
+    
+}
