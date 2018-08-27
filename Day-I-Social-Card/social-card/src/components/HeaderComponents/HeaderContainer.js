@@ -1,14 +1,14 @@
 import React from 'react';
 import './Header.css';
+import HeaderTitleText from '../HeaderComponents/HeaderTitleText';
 import ImageThumbnail from '../HeaderComponents/ImageThumbnail';
-import HeaderTitle from '../HeaderComponents/HeaderTitle';
-import HeaderContent from '../HeaderComponents/HeaderContent';
 
 const HeaderContainer = () => (
-  <div>
+  <div className='header-container'>
+
     <ImageThumbnail />
-    <HeaderTitle />
-    <HeaderContent />
+    <HeaderTitleText />
+
   </div>
 )
 export default HeaderContainer;
