@@ -1,1 +1,8 @@
 /* All styles for your Card Components live here */
+.cardBanner {
+    background-image: 'https://ibin.co/3wnC6SgIOJud.png';
+}
+
+.cardTitle {
+    font-weight: bold;
+}

@@ -1,1 +1,11 @@
-/* All styles for your header Components live here */
+.mainContent {
+    font-weight: bold;
+}
+
+.imgDiv {
+    display: flex;
+}
+
+.mainImage {
+    width: 10%;
+}
