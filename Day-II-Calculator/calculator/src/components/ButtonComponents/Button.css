@@ -1,0 +1,38 @@
+.button-style {
+  border: .5px solid black;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.button-style:hover {
+  background-color: lightgray;
+}
+
+.action-style {
+  border: .5px solid gray;
+  color: white;
+  background: red;
+}
+.action-style:hover {
+  background-color: salmon;
+}
+
+.action-container-style {
+  display: flex;
+  flex-direction: column;
+}
+
+.number-container-style {
+  width: 200px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.three-wide {
+  width: 150px;
+}

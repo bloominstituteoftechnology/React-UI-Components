@@ -1,0 +1,12 @@
+.app-style {
+  border: 1ps solid green;
+}
+
+.three-wide {
+  width: 150px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+}
