@@ -2,12 +2,16 @@ import React from 'react';
 import './App.css';
 import HeaderContainer from './components/HeaderComponents/HeaderContainer';
 import CardContainer from './components/CardComponents/CardContainer';
+import MainImage from './components/HeaderComponents/ImageThumbnail';
 
 const App = () => {
   return (
-    <div>
-      <HeaderContainer />
-      <CardContainer />
+    <div class="mainDiv">
+      <MainImage />
+      <div>
+        <HeaderContainer />
+        <CardContainer />
+      </div>
     </div>
   );
 };
