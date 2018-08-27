@@ -1,1 +1,8 @@
 /* All styles for your header Components live here */
+.header-container-title{
+    display: flex;
+    width:100%;
+}
+.header-user-date{
+    color:red;
+}
