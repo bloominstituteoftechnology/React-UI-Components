@@ -4,11 +4,12 @@ import './Header.css';
 
 
 const HeaderTitle = () => (
-    <div class="header-title">
+    <div className="header-title">
         
-        <h1 class="displayname">Lambda School</h1>
-        <p class="greytext username">@LambdaSchool</p>
-        <p class="greytext date">26 jan</p>    
+        <h1 className="displayname">Lambda School</h1>
+        <p className="greytext username">@LambdaSchool</p>
+        <p className="greytext dot">⸱</p>
+        <p className="greytext date">26 jan</p>    
     </div>
 );
 

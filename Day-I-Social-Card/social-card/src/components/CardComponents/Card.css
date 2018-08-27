@@ -2,15 +2,18 @@
 
 
 .card-container {
-    background: blue;
-    border: 2px solid blue;
+    /* background: blue;
+    border: 2px solid blue; */
+    padding-left: 60px;
+    border: 1px solid lightgrey;
 }
 
 .card-content {
-    background: purple;
-    border: 2px solid purple;
+    /* background: purple; */
+   
+    border-radius: 2px;
 }
 .card-banner img {
-    width: 600px;
-    border: 2px solid pink;
+    width: 550px;
+    border-radius: 5px;
 }

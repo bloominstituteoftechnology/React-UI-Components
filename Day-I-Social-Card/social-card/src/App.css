@@ -4,10 +4,15 @@
 */
 
 .app {
-  background: grey;
+  
   width: 610px;
 }
 
 h1 {
-  font-size: 1.2rem;
+  font-size: .9rem;
+  
+}
+
+p {
+  font-size: .9rem;
 }
