@@ -26,10 +26,11 @@ h2 {
     border-radius: 0 0 5px 5px;
     width: 550px;
     padding: 10px;
-    
+
 }
 
 .card-content-link {
     font-size: 12px;
     color: #99A7B1;
+    text-decoration: none;
 }
