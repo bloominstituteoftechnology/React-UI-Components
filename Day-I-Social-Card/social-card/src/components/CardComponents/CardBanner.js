@@ -5,7 +5,7 @@ const CardBanner = props => {
   return (
     <div>
       <img
-        className="car-banner-img"
+        className="card-banner-img"
         src={'https://ibin.co/3wnC6SgIOJud.png'}
         alt="React Logo"
       />
