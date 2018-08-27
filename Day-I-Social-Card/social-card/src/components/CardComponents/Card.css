@@ -3,6 +3,11 @@
   font-family: Arial;
   font-size: 16px;
 }
+
+a {
+  color: black;
+  text-decoration: none;
+}
 .card-container {
   display: flex;
   flex-direction: column;
