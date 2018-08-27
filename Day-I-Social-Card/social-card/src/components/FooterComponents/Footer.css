@@ -1,0 +1,14 @@
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 15px 0;
+}
+
+.footer-container .footer-links {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 110px;
+}
