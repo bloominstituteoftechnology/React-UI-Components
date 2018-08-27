@@ -5,10 +5,12 @@ const ImageThumbnail = () => {
   return (
     <div className="thumb-nail">
       <img
-        src="https://pbs.twimg.com/profile_images/973277209644249089/0Te2jtBH_400x400.jpg"
+        src="https://ibin.co/3whrpKSBbZ81.png"
         alt="lambda thumbnail img"
-        class="thumb-img"
+        className="thumb-img"
       />
     </div>
   );
 };
+
+export default ImageThumbnail;
