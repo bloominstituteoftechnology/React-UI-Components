@@ -1,1 +1,9 @@
 /* All styles for your header Components live here */
+
+.HeaderContainer {
+  margin-left: 1%;
+}
+.lambda-logo {
+  width: 50px;
+  border-radius: 50%;
+}
