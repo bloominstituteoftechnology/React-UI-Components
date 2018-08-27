@@ -7,5 +7,6 @@ const CardBanner = () => (
     </a>
     
 )
-//hello world
+//hello world 
+//testing 2
 export default CardBanner;
