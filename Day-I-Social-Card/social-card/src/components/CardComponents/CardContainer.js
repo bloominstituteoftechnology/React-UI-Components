@@ -3,10 +3,10 @@ import './Card.css';
 import CardBanner from './CardBanner'
 import CardContent from './CardContent'
 
-const HeaderContainer = () => {
+const CardContainer = () => {
   return (
     <a href="https://www.reactjs.org">
-      <div>
+      <div className="CardContainer">
         <CardBanner />
         <CardContent />
       </div>
@@ -14,4 +14,4 @@ const HeaderContainer = () => {
   )
 }
 
-export default HeaderContainer
+export default CardContainer

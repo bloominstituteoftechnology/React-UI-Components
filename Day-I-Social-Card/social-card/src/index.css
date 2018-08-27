@@ -5,3 +5,8 @@ body {
   width: 590px;
   height: 514px;
 }
+
+a {
+  text-decoration: none;
+  color: black;
+}
