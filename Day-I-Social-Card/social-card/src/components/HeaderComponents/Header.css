@@ -1,11 +1,37 @@
 /* All styles for your header Components live here */
 .header-container {
-    background: blue;
+    padding-top: 9px;
+}
+
+.image-thumbnail-div, .header-title-div {
+    display: inline-block;
 }
 
 .image-thumbnail {
     width: 47px;
     height: auto;
-    padding: 9px 11px;
+    padding-left: 11px;
     border-radius: 50%;
+    position: relative;
+    bottom: 24px;
+}
+
+.header-title-div {
+    width: 521px;
+    padding-left: 10px;
+}
+
+.header-title-div .title {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.header-title-div .handle {
+    font-size: 13px;
+    color: grey;
+}
+
+.header-title-div p {
+    margin-top: 8px;
+    font-size: 14px;
 }
