@@ -1,1 +1,12 @@
 /* All styles for your Card Components live here */
+.card-banner-div {
+    background-image: url("https://ibin.co/3wnC6SgIOJud.png");
+    width: 502px;
+    height: 252px;
+    background-position: -160px -80px;
+    background-repeat: no-repeat;
+    background-size: 160%;
+    margin-top: 5px;
+    margin-left: 70px;
+    border-radius: 5px 5px 0 0;
+}
