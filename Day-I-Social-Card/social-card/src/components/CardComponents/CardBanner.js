@@ -1,2 +1,11 @@
 import React from 'react';
 import './Card.css';
+
+const CardBanner = () => (
+    <a href="https://www.reactjs.org" target="_blank">
+        <img src="https://ibin.co/3wnC6SgIOJud.png" alt="wow" href= "https://www.reactjs.org"/>
+    </a>
+    
+)
+
+export default CardBanner;

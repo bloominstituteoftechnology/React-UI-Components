@@ -1,1 +1,20 @@
 /* All styles for your header Components live here */
+.header {
+    display: flex;
+    margin-bottom: 2rem;
+    
+}
+
+.header img{
+    margin-left: -60px;
+    width: 50px;
+}
+
+.headerTitle {
+    height: 3rem;
+}
+
+.headerTitle span {
+    font-size:1.2rem;
+    color: gray;
+}
