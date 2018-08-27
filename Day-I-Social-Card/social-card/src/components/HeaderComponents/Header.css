@@ -1,32 +1,45 @@
 /* All styles for your header Components live here */
 
 .header-container {
-    flex-flow: row nowrap;
-    display: flex;
-    width: 100%;
-}
-
-.image-thumbnail {
-    margin: 20px;
+    position: relative;
 }
 
 .image-thumbnail img {
-    width: 100%;
+    width: 12%;
+    margin: 0px 10px;
+    position: absolute;
+    top: 0;
+    left: -80px;
+    padding: 0px;
 }
 
 .header-title {
     display: flex;
     flex-flow: row nowrap;
-    justify-content: center;
+    justify-content: flex-start;
+    align-items: baseline;
     width: 100%;
 
 }
 
 .header-content {
     width: 100%;
-
+    display: flex;
+    align-content: baseline;
+    justify-content: flex-start;
+    font-size: 16px;
+    margin-top: -5px;
 }
 
-.header-title h3 {
-    color: blue;
+.header-title h4 {
+   color: black;
+   padding: 0px;
+   margin: 0px 5px 0px 0px;
+}
+
+.header-title p {
+    color: slategray;
+    padding: 0px;
+    margin: 0px 5px;
+    font-size: 12px;
 }
