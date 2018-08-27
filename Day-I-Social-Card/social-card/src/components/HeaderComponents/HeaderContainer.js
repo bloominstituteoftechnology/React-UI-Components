@@ -6,12 +6,12 @@ import ImageThumbnail from './ImageThumbnail.js';
 
 const HeaderContainer = () => {
     return (
-        
         <div class = 'header-container'>
         <ImageThumbnail/>
         <HeaderTitle/>
         <HeaderContent/>
-
+        
+        
         </div>
     )
 }

@@ -5,8 +5,8 @@ const HeaderTitle = () => {
     return (
         <div class = 'header-title'>
         <h3>Lambda School</h3>
-        @LambdaSchool
-        Current Date
+        <h4>@LambdaSchool</h4>
+        <p>Current Date</p>
         </div>
     )
 }
