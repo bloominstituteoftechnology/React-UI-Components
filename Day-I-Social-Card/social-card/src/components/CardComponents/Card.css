@@ -51,30 +51,32 @@ table {
 }
 
 .card-container {
+  border: 1px solid violet;
   width: 589px;
 }
 
-.card-banner {
+    .card-banner {
 
-  margin-left: 69px;
-  width: 504px;
-}
-
-.card-content {
-  border: 1px solid lightblue;
-}
-
-    .card-h {
-      font-size: 20px;
-      font-weight: bold;
-      font-family: sans-serif;
-      padding-top: 15px;
-      padding-bottom: 15px;
+      margin-left: 69px;
+      width: 504px;
     }
 
-    .card-p {
-      font-size: 16px;
-      font-weight: normal;
-      font-family: sans-serif;
-      line-height: 1.6rem;
+    .card-content {
+      border: 1px solid lightblue;
+      padding-left: 81px;
     }
+
+      .card-h {
+        font-size: 14px;
+        font-weight: bold;
+        font-family: sans-serif;
+        /* padding-top: 15px;
+        padding-bottom: 15px; */
+      }
+
+      .card-p {
+        font-size: 14px;
+        font-weight: normal;
+        font-family: sans-serif;
+        line-height: 1.4rem;
+      }
