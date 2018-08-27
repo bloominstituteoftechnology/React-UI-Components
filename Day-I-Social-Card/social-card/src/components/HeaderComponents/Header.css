@@ -1,1 +1,47 @@
 /* All styles for your header Components live here */
+
+.container {
+    max-width: 650px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.topdiv {
+    display: flex;
+}
+
+.titlediv {
+    display: flex;
+}
+
+.name {
+    font-size: 16px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.handle {
+    font-size: 15px;
+    color: gray;
+    font-weight: lighter;
+    padding-right: 10px;
+    padding-bottom: 5px;
+}
+
+
+.timestamp {
+    font-size: 15px;
+    color: gray;
+    font-weight: lighter;
+    padding-bottom: 5px;
+}
+
+.thumbnail {
+    height: 60px;
+    width: 60px;
+}
+
+.content {
+    width: 80%;
+    margin-left: 10%;
+}

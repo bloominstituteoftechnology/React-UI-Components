@@ -2,7 +2,7 @@ import React from 'react';
 import './Header.css';
 
 const HeaderTitle = ()=> (
-    <div>
+    <div class='titlediv'>
     <h2 className='name'>Lambda School</h2>
     <p className='handle'>@LambdaSchool</p>
     <p className='timestamp'>26 jan</p>
