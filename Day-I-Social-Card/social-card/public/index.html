@@ -25,42 +25,7 @@
     <noscript>
       You need to enable JavaScript to run this app.
     </noscript>
-    <div id="root">
-      <script type='text/babel'>
-        import BasicInput from './BasicInput';
-        // app code goes here
-        // const myElement = React.createElement('h1', {className: 'heading'}, 'Hello world!');
-        
-        // JSX ==> Write html-like code in javascript
-        // const myElement = <h1 className="heading">Hello World</h1>;
-        
-        // console.log(myElement);
-    
-        // FUNCTIONAL COMPONENTS
-        
-        const BasicHeader = () => <h1 className="heading">Hello World</h1>;
-    
-        const BasicButton = () => {
-            const emotionText = 'Happy!';
-    
-            return <button>{ `Click me, Im a ${emotionText} button!`</button>;
-        };
-    
-        // const BasicInput = () => (
-        //    <input type="text" placeholder="React is the COOLEST THING EVER!!!" />
-        // )
-    
-        const App = () => (
-            <div>
-                <BasicHeader />
-                <BasicButton />
-                <BasicInput />
-            </div>
-        );
-    
-        ReactDOM.render(<App />, document.getElementById('target'));
-    </script>
-    </div>
+    <div id="root"></div>
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
