@@ -1,0 +1,35 @@
+.buttons {
+  display: flex;
+  flex-direction: row;
+}
+
+.number-row {
+  display: flex;
+  flex-direction: row;
+  width: 342px;
+}
+
+.number {
+  background-color: whitesmoke;
+  font-size: 48px;
+  font-weight: 600;
+  height: 94px;
+  width: 114px;
+}
+
+.clear {
+  font-weight: 300;
+}
+
+.clear, .zero {
+  width: 342px;
+}
+
+.operator {
+  background-color: darkred;
+  color: whitesmoke;
+  font-size: 72px;
+  font-weight: 300;
+  height: 94px;
+  width: 114px;
+}
