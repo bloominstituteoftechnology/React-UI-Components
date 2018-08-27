@@ -3,4 +3,9 @@
 .cardContainer {
     border: 1px solid lightgray;
     border-radius: 5px;
+    
+}
+
+.cardContainer p {
+    color: black;
 }
