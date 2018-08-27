@@ -1,1 +1,30 @@
 /* All styles for your header Components live here */
+
+.header-container {
+    background: red;
+    border: 2px dashed black;
+    display: flex;
+}
+
+.header-title {
+    background: orange;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    width: 100%;
+}
+
+.header-content {
+    background: yellow;
+    border: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.icon img {
+    border: 2px solid green;
+    width: 50px;
+    
+}

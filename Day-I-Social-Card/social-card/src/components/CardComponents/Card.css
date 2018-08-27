@@ -1,1 +1,16 @@
 /* All styles for your Card Components live here */
+
+
+.card-container {
+    background: blue;
+    border: 2px solid blue;
+}
+
+.card-content {
+    background: purple;
+    border: 2px solid purple;
+}
+.card-banner img {
+    width: 600px;
+    border: 2px solid pink;
+}
