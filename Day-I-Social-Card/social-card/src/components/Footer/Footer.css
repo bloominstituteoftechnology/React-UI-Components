@@ -1,12 +1,15 @@
 .footer {
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
     align-items: center;
-    width: 50%;
-    margin: 20px;
-    margin-left: 80px;
-    color: var(--light-gray);
     position: absolute;
+    width: 100%;
+    margin: 20px 0 0 120px;
+    color: var(--light-gray);
+}
+
+.footer-icon {
+    margin: 0 10% 0 0;
 }
 
 .count {
