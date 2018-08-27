@@ -10,10 +10,10 @@ const HeaderTitle = () => {
     <div className="header-title-wrapper">
       <div className="header-title">
         Lambda School
-        <span className="@thing">@LambdaSchool</span>
+        <span className="thing">@LambdaSchool • </span>
         <span className="time-stamp">{time.format("MMM do")}</span>
-        <HeaderContent />
       </div>
+      <HeaderContent />
     </div>
   );
 };
