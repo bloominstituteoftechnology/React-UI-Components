@@ -1,4 +1,9 @@
 /* All styles for your Card Components live here */
+.card-container-a {
+    text-decoration: none;
+    color:black;
+}
+
 .card-banner-div, .card-content-div {
     margin-left: 70px;
 }
