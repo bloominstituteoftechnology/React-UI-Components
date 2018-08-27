@@ -1,1 +1,14 @@
 /* All styles for your header Components live here */
+.headerContent{
+    display: flex;
+    align-items: baseline;
+}
+.headerFlex{
+    display: flex;
+}
+.headerIMG img{
+    height: 50px;
+}
+h1{
+font-size: 1.1rem;
+}
