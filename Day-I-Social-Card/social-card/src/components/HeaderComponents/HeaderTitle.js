@@ -6,11 +6,11 @@ import moment from 'moment';
 const time = moment();
 const HeaderTitle = () => {
     return (
-        <div className ="header-title-wrapper">
+        <div className="header-title-wrapper">
             <div className="header-title">
             Lambda School
-            <span className="time-stamp">{time.format('MMM do ')}</span>
-            <HeaderContent />>
+            <span className="time-stamp">{time.format('MMM Do ')}</span>
+            <HeaderContent />
             </div>
         </div>
     );

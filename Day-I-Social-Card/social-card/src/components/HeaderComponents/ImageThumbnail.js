@@ -7,7 +7,7 @@ const ImageThumbnail = () => {
             <img 
                 src="https://pbs.twimg.com/profile_images/973277209644249089/0Te2jtBH_400x400.jpg"
                 alt="lambda thumbnail image"
-                className="thum-img"
+                className="thumb-img"
             />
         </div>
     );
