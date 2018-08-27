@@ -2,6 +2,12 @@
     width: 100%;
     padding-left: 11.5%;
     display: block;
+    text-decoration: none;
+    color: black;
+}
+
+.card-container:hover {
+    cursor: pointer;
 }
 
 .card-container .banner-image {
