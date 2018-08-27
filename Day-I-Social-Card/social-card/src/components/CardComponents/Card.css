@@ -1,1 +1,40 @@
 /* All styles for your Card Components live here */
+
+.cardcontainer {
+    max-width: 650px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.cardimg {
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 5px;
+    margin-bottom: -5px;
+}
+
+.cardcontent {
+    width: 76.75%;
+    margin-left: 10%;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 0px;
+
+}
+
+.getstarted {
+    font-size: 16px;
+}
+
+.cardp {
+    width: 80%;
+    padding-bottom: 5px;
+}
+
+.url {
+    color: gray;
+    padding-top: 5px;
+}
