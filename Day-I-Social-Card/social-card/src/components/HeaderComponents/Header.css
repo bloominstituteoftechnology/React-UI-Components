@@ -1,4 +1,10 @@
 /* All styles for your header Components live here */
 div {
-    border:  1px solid green; 
+    border:  1px solid green;
+ 
 };
+
+.logo {
+    border: 1px solid green; 
+
+}
