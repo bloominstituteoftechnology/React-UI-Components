@@ -2,7 +2,10 @@ import React from 'react';
 import './Header.css';
 
 const ImageThumbnail = () => {
-  return <img className="Avatar" src="https://ibin.co/3whrpKSBbZ81.png" />
-};
+  return (
+    <div className="image-thumbnail">
+    <img className="Avatar" src="https://ibin.co/3whrpKSBbZ81.png" />
+    </div>
+)};
 
 export default ImageThumbnail;
