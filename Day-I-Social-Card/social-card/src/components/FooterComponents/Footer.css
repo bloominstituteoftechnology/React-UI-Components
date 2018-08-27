@@ -1,0 +1,26 @@
+.footer-div {
+    margin-top: 20px;
+    margin-left: 70px;
+}
+
+.footer-div span {
+    font-size: 14px;
+    margin-left: 12px;
+}
+
+.footer-div .fa-comment {
+    margin-right: 64px;
+}
+
+.footer-div .fa-heart {
+    margin-left: 46px;
+}
+
+.footer-div .fa-envelope {
+    margin-left: 43px;
+}
+
+.footer-div .fa-comment {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
