@@ -1,1 +1,29 @@
 /* All styles for your header Components live here */
+.header-container{
+    display:flex;
+    height: 102px;
+    border: 1px solid red;
+}
+
+img{
+    width:9.5%;
+    height:61px;
+    border: 1px solid lightgreen;
+
+}
+
+.header-title{
+    width:100%;
+    display:flex;
+    padding-top:7px;
+}
+
+.header-title h1{
+    font-size:.8125rem;
+    padding-left:2%;
+}
+
+.header-title .handle{
+    color:grey;
+}
+
