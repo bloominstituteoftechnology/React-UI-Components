@@ -4,5 +4,9 @@
 */
 
 .card {
-  border: 2px solid black;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-self: center;
+  width: 50%;
+  margin: 0 auto;
 }

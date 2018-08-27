@@ -1,7 +1,6 @@
 /* All styles for your header Components live here */
 
 .header-container {
-    border: 2px solid green;
     flex-flow: row nowrap;
     display: flex;
     width: 100%;
@@ -20,18 +19,14 @@
     flex-flow: row nowrap;
     justify-content: center;
     width: 100%;
-    border: 2px solid red;
+
 }
 
 .header-content {
     width: 100%;
-    border: 2px solid blue;
+
 }
 
 .header-title h3 {
     color: blue;
-}
-
-.test {
-    display: none;
 }
