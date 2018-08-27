@@ -10,3 +10,11 @@ a {
   text-decoration: none;
   color: black;
 }
+
+.bold {
+  font-weight: bold;
+}
+
+.gray {
+  color: gray;
+}

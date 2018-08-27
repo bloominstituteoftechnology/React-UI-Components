@@ -8,20 +8,17 @@
   padding: 0;
 }
 
+.HeaderText {
+  margin-left: 1%;
+}
+
 .HeaderTitle {
   display: flex;
-  justify-content: flex-start;
   align-items: baseline;
 }
 
-.HeaderTitle > *,
-.HeaderContent {
+.HeaderTitle > * {
   margin: 0;
-  padding: 0 1%;
-}
-
-.displayName {
-  font-weight: bold;
 }
 
 .displayName,
@@ -30,15 +27,22 @@
 }
 
 .accountName,
-.date {
+.date,
+.bullet {
   font-size: 13px;
-  color: gray;
+}
+
+.displayName {
+  margin-right: 1.5%;
+}
+
+.accountName {
+  margin-right: 1%;
 }
 
 .bullet {
-  color: gray;
+  margin-right: 1%;
 }
-
 
 .lambda-logo {
   width: 50px;

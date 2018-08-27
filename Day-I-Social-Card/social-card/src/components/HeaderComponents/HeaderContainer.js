@@ -8,7 +8,7 @@ const HeaderContainer = () => {
   return (
     <div className="HeaderContainer">
       <ImageThumbnail />
-      <div>
+      <div className="HeaderText">
         <HeaderTitle />
         <HeaderContent />
       </div>

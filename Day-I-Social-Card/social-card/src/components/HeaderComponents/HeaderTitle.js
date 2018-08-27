@@ -10,10 +10,10 @@ const HeaderTitle = () => {
 
   return (
     <div className="HeaderTitle">
-      <p className="displayName">Lambda School</p>
-      <p className="accountName">@LambdaSchool</p>
-      <p className="bullet"> • </p>
-      <p className="date">{today}</p>
+      <p className="displayName bold">Lambda School</p>
+      <p className="accountName gray">@LambdaSchool</p>
+      <p className="bullet gray">•</p>
+      <p className="date gray">{today}</p>
     </div>
   )
 }

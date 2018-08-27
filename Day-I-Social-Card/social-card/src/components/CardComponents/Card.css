@@ -26,7 +26,6 @@
 
 .title {
   font-size: 14px;
-  font-weight: bold;
 }
 
 .body {
@@ -34,6 +33,5 @@
 } 
 
 .source {
-  color: gray;
   font-size: 13px;
 }
