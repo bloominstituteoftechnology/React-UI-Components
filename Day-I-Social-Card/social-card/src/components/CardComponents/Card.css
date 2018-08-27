@@ -1,1 +1,29 @@
 /* All styles for your Card Components live here */
+* {
+  font-family: Arial;
+  font-size: 16px;
+}
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 600px;
+
+  border: 1px solid purple;
+}
+
+.banner {
+  margin-left: 10%;
+  width: 540px;
+
+  border-radius: 5px;
+}
+
+.content-text {
+  margin-left: 11%;
+  border: 1px solid yellow;
+}
+
+.content-text .link {
+  color: gray;
+}
