@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.3.0",
     "moment": "^2.22.2"
   }
 }
