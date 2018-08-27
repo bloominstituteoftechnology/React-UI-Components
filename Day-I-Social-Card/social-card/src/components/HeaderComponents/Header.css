@@ -1,1 +1,40 @@
 /* All styles for your header Components live here */
+.header-container {
+    display: flex;
+  }
+  
+  .title-container {
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+  }
+  
+  
+  
+  .title {
+    font-weight: bold;
+  }
+  
+  
+  
+  .handle {
+    font-weight: lighter;
+    color: rgb(211, 206, 206);
+  }
+  
+  
+  
+  .date {
+    font-weight: lighter;
+    color: rgb(182, 180, 180);
+  }
+  
+  
+  
+  .img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 50%;
+  
+  }
