@@ -1,6 +1,9 @@
 import React from 'react';
 import './App.css';
 
+import './components/HeaderComponents/HeaderContainer';
+import './components/CardComponents/CardContainer';
+
 const App = () => {
   return (
     <div>
