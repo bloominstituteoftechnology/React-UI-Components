@@ -1,0 +1,31 @@
+.footer-wrapper {
+  display: flex;
+  height: 200px;
+  width: 600px;
+  margin-top: 20px;
+
+}
+
+.footer-wrapper span {
+  margin-left: 10px;
+  font-size: 18px;
+  color: #777;
+}
+
+i {
+  transform: scaleX(-1);
+}
+
+.comment {
+  margin-left: 60px;
+  color: #888;
+}
+
+.left-fa {
+  margin-left: 90px;
+}
+
+.tom-tag {
+  text-shadow: 0px 0px 2px #555;
+  color: white;  
+}
