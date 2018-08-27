@@ -1,1 +1,47 @@
 /* All styles for your header Components live here */
+
+.header-container {
+   width: 610px;
+    
+    display: flex;
+}
+
+.header-title {
+  
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+    width: 100%;
+    padding: 0 10px;
+}
+
+.header-title .greytext {
+    padding: 0 5px;
+}
+
+.header-title .dot {
+    padding: 0;
+}
+
+
+.header-content {
+   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.post p {
+    margin: 0 0 10px 10px;
+}
+
+.icon img {
+    border-radius: 50%;
+    width: 50px;
+    background-color: black;
+}
+
+.greytext {
+    font-size: .8rem;
+    color: grey;
+}
