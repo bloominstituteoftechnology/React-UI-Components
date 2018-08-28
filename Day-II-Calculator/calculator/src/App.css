@@ -1,0 +1,13 @@
+.calculator-container {
+    height: 592px;
+    max-width:452px;
+    width: 100%;
+    border-style: solid;
+    border-color: gray;
+    border-width: 0 1px 0;
+    font-family: sans-serif;
+  }
+
+  .enable-flex{
+      display: flex;
+  }

@@ -1,1 +1,32 @@
 /* All styles for your header Components live here */
+
+.custom-header-container {
+    width: 600px;
+    height: 100px;
+    display: flex;
+}
+
+.custom-header-img{
+    height: 50px;
+    width: 50px;
+    display: block;
+ 
+}
+
+.custom-header-title {
+    /* border: 1px solid black; */
+}
+
+.custom-header-title .custom-span {
+    color:lightgray;
+    font-weight: 300;
+}
+
+.custom-header-title .custom-h4 {
+    display: inline;
+}
+
+.custom-header-content {
+    /* border: 1px solid orange; */
+}
+
