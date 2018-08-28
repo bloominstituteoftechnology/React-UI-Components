@@ -1,6 +1,7 @@
 import React from 'react';
+import './Button.css';
 
-ActionButton = props => {
+const ActionButton = props => {
   return <button className={`big-button ${props.type}`}>{props.value}</button>;
 };
 
