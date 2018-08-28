@@ -8,7 +8,7 @@ import NumberButton from './components/ButtonComponents/NumberButton';
 
 const App = () => {
   return (
-    <div className="App">
+    <div className="app">
       {/* <h3>Welcome to React Calculator</h3>
       <p>
         We have given you a starter project. You'll want to build out your
@@ -22,7 +22,9 @@ const App = () => {
         </strong>
       </p> */}
       {/* <CalculatorDisplay text="0" display-style="black-rectangle"/> */}
+      {/* <div className="calculatorDisplay"> */}
       <CalculatorDisplay />
+      {/* </div> */}
       <div className="numberSymbol">
         <div className="numbers">
           <ActionButton text="clear" buttonStyle="rectangle"/>

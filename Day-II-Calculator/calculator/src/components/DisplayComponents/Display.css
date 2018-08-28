@@ -46,3 +46,12 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+.calc-display {
+  border: 2px solid orange;
+  width: 451px;
+  height: 119px;
+  color: white;
+  font-size: 80px;
+  background-color: black;
+}

@@ -46,3 +46,10 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+.app {
+  border: 2px solid black;
+  width: 452px;
+  height: 594px;
+}
+
