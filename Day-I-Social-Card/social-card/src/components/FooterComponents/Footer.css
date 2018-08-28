@@ -1,0 +1,10 @@
+.footer-imgs {
+  display: flex;
+}
+
+.footer-imgs img {
+  height: 50px;
+  width: 20px;
+  margin-left: 10%;
+  margin-top: 10px;
+}

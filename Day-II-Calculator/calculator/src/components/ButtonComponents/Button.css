@@ -1,0 +1,23 @@
+.number-button {
+  width: 25%;
+  height: 100%;
+  font-size: 70px;
+  background: white;
+  border: 1px solid gray;
+}
+
+.action-button {
+  width: 25%;
+  height: 100%;
+  font-size: 70px;
+  background: darkred;
+  color: white;
+}
+
+.wide-button {
+  width: 75%;
+  height: 100%;
+  font-size: 70px;
+  background: white;
+  border: 1px solid gray;
+}
