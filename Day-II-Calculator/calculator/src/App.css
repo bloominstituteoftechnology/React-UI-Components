@@ -1,0 +1,8 @@
+.main-wrapper {
+  display: flex;
+  font-family: sans-serif;
+  min-height: 600px;
+  width: 400px;
+  margin: 0 auto;
+  border: 1px solid #999;
+}
