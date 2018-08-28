@@ -1,0 +1,20 @@
+.container {
+    width: 300px;
+    margin: 30px;
+  }
+  .white {
+      background-color: white;
+  }
+  .red {
+      background-color: red;
+  }
+  .sum {
+      background-color: black;
+      color: white;
+  }
+  .top {
+      
+  }
+  .top-nums {
+      
+  }
