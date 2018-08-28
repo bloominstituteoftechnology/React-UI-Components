@@ -52,6 +52,7 @@ table {
   width: 451px;
   height: 119px;
   color: white;
+  font-family: sans-serif;
   font-size: 80px;
   background-color: black;
   display: flex;
