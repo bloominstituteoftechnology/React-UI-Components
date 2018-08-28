@@ -3,7 +3,7 @@ import './Display.css';
 
 const CalculatorDisplay = (props) => {
     return (
-        <input type="text" className={props.buttonStyle} value={props.text} />
+        <input type="text" className={props.buttonStyle} defaultValue={props.text} />
     )
 }
 

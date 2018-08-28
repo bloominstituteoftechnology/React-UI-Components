@@ -1,22 +1,21 @@
 * {
   box-sizing: border-box;
 }
+
 body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
 }
 
-a:focus,
-
-button:focus,
-
-input:focus,
-
-textarea:focus {
-
-outline: none;
-
+/* Remove inner border on Chrome and 
+   Firefox
+*/
+input[type="button"]{
+  outline:none;
+}
+input[type="button"]::-moz-focus-inner {
+  border: 0;
 }
 
 #root {
