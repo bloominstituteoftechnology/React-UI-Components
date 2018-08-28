@@ -1,0 +1,15 @@
+.calculator-display{
+    background: black;
+    border:1px solid grey;
+    height:121px;
+ 
+}
+
+.calculator-display p{
+    color: white;
+    margin: 0;
+    position: absolute;
+    right: 20%;
+    font-size: 68px;
+    padding-top: 25px;
+}
