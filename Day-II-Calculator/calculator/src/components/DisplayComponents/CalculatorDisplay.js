@@ -29,7 +29,7 @@ export default class CalculatorDisplay extends React.Component {
         if (action === '='){
             console.log(action);
             const divOrMultiplyByZero = /0+(?:\.?0*)?(?!\d)/g
-        if(currentState.split(/[*/]/)[1] == 0){
+        if(currentState.split(/[*/]/)[1] === '0'){
                 if(this.state.expression.includes('*')){
                     this.setState({expression: '0'});
                 } else {
