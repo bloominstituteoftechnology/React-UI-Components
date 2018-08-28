@@ -38,7 +38,7 @@ export default class CalculatorDisplay extends React.Component {
                 }
             } else {
                 let result = eval( ((this.state.expression).replace(/\b0+/g, '')) );
-                this.setState({expression: '', evaluation: result});
+                this.setState({expression: '', evaluation: result.toLocaleString()});
             }
         } else if(action === 'clear'){
             this.setState({expression: '', evaluation: ''})
