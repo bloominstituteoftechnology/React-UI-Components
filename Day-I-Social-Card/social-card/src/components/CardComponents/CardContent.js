@@ -7,7 +7,7 @@ const CardContent = () => {
             <div className='card-title'>Get Started with React</div>
             <div className='card-status'>React makes it painless to create interactive UIs.
             Design simple views for each state in your application.</div>
-            <div className='card-link'>reactjs.org</div>
+            <a className='card-link' href='https://www.reactjs.org' target='_blank'>reactjs.org</a>
         </div>
     );
 };
