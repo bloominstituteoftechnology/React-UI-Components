@@ -1,0 +1,21 @@
+.actionButtonClass{
+    width:100%;
+    height: 20%;
+    font-size: 20px;
+    font-weight: bold;
+    /* border:1px solid grey; */
+}
+.numButtonClass{
+    width:33.33%;
+    height:20%;
+    /* border:1px solid grey; */
+    font-size: 20px;
+    font-weight: bold;
+}
+.operatorButtonClass{
+    width:100%;
+    height:20%;
+    font-size:20px;
+    font-weight: bold;
+    background-color:#A0001E;
+}
