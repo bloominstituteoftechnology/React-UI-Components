@@ -1,12 +1,10 @@
 .calculator-container {
   width: 270px;
   margin: 20px;
-
-  border: 1px solid red;
 }
 
 .display {
-  width: 270px;
+  width: 268px;
   height: 60px;
   background-color: black;
   color: white;
