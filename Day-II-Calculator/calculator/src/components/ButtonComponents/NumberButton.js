@@ -5,7 +5,7 @@ import './Button.css';
 
 function NumberButton(props) {
   return (
-    <button className={props.buttonStyle}>{props.text}</button>
+    <button className={`number-button ${props.buttonStyle}`}>{props.text}</button>
   );
 }
 
