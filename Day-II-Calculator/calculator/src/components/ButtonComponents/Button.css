@@ -1,0 +1,41 @@
+.number-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 112px;
+  height: 94px;
+  font-weight: bold;
+  border: 1px solid #979797;
+  cursor: pointer;
+}
+
+.fat-number {
+  width: 334px;
+  height: 94px;
+}
+
+.pixel-perfect-width {
+  width: 110px;
+}
+
+.action-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 94px;
+  font-size: 70px;
+  font-weight: 300;
+  color: white;
+  background: #A0001E;
+  border: 1px solid #979797;
+  cursor: pointer;
+}
+
+.fat-action {
+  width: 334px;
+  height: 94px;
+  font-size: 44px;
+  color: black;
+  background: white;
+}

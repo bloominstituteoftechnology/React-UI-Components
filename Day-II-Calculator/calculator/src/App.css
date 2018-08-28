@@ -1,0 +1,13 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+.calculator-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 456px;
+  height: 598px;
+  font-size: 42px;
+  border: 1px solid #979797;
+}
