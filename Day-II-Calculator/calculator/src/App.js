@@ -58,7 +58,6 @@ class App extends React.Component {
           operator: innerText,
           num2: "",
         });
-        console.log(this.state)
       } else {
       // if an operator has not been pressed, make that value the operator in state
       this.setState((prevState) => ({ 
