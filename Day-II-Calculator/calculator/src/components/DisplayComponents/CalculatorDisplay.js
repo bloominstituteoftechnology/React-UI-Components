@@ -10,7 +10,7 @@ export default class CalculatorDisplay extends React.Component {
         this.state = {
             expression: '',
             evaluation: 0,
-        }
+        } 
         this.handleNumberClick = this.handleNumberClick.bind(this);
         this.handleOperatorClick = this.handleOperatorClick.bind(this);
     }
@@ -36,7 +36,7 @@ export default class CalculatorDisplay extends React.Component {
                     this.setState({expression: 'NaN'});
                 }
             } else {
-                let result = eval( ((this.state.expression).replace(/\b0+/g, '')) );
+                let result = eval( ((this.state.expression)) );
                 this.setState({expression: '', evaluation: result.toLocaleString()});
             }
         } else if(action === 'clear'){
