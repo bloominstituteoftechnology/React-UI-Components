@@ -1,0 +1,20 @@
+.icons {
+	width: 20px;
+	padding-right:20%;
+}
+
+.footer-margin {
+	padding: 1% 1% 1% 14%;
+/*	border: solid yellow 1px;*/
+}
+
+.footer-flex {
+	display: flex;
+  align-items: center;
+}
+
+.image-spacing {
+	margin-right: 10%;
+	display:flex;
+	align-items: center;
+}

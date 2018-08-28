@@ -1,0 +1,10 @@
+.display-cal {
+	background-color: black;
+	color: white;
+	width: 264px;
+	height: 58px;
+	font-size: 50px;
+	display: flex;
+  justify-content: flex-end;
+  padding-right: 1%;
+}

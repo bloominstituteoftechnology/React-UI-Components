@@ -1,0 +1,55 @@
+.num-container {
+	max-width: 198px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.flexNum {
+	display: flex;
+	font-size: 50px;
+	border: solid black .5px;
+}
+
+.flexNum .btn {
+	width: 66px;
+  border: solid black .5px;
+  text-align: center;
+}
+
+.num-container .zero {
+	text-align: center;
+	font-size: 50px;
+	border: solid black .5px;
+	border-top: none;
+	border-bottom: solid black 1px;
+	height: 58px;
+}
+
+.num-container .clear {
+	text-align: center;
+	font-size: 50px;
+	border: solid black .5px;
+	border-bottom: none;
+	height: 58px;
+}
+
+.sybls {
+	height: 58.5px;
+	border: solid black .5px;
+	font-size: 50px;
+	width: 66px;
+	text-align: center;
+	background-color: red;
+	color: white;
+}
+
+
+
+
+
+
+
+
+
+
+

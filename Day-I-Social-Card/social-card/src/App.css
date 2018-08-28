@@ -2,3 +2,21 @@
   Write your styles/CSS for App.js here and import into the component that you need 
   IF you'd like to attempt to use less you'll have to research how to do this with Create React App
 */
+
+// General Styles
+
+* {
+  box-sizing: border-box;
+}
+
+.main-container {
+	max-width: 470px;
+	width: 100%;
+	margin: 0 auto;
+	/*border: solid blue 1px;*/
+}
+
+a {
+  color: black;
+  text-decoration: none; /* no underline */
+}

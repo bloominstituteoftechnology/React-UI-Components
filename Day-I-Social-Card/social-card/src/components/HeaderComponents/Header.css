@@ -1,1 +1,35 @@
 /* All styles for your header Components live here */
+
+.flex {  
+	display: flex;
+	justify-content: center;
+/*	border: solid #ff9b9b 1px;*/
+}
+
+.title {
+	font-size: 12px;
+}
+
+.title-span {
+	color: #9e9e9e;
+}
+
+.logo {
+	width: 50px;
+	/*border: solid #488c48 1px;*/
+	margin-top: 17px;
+}
+
+.contentp {
+	font-size: 12px;
+}
+
+.flex-section1 {
+	padding-right: 2.5%;
+}
+
+.flex-section2 {
+/*	border: solid lightblue 1px;*/
+	padding: 1% 1% 0 1%;
+	margin: 5px 5px 5px 0;
+}
