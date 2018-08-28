@@ -1,0 +1,27 @@
+.number-button {
+
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  border: 1px solid darkgray;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.operator-button {
+  width: 100px;
+  height: 100px;
+  background-color: #A0001E;
+  color: white;
+  border: 1px solid darkgray;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.action-button {
+  width: 300px;
+  height: 100px;
+  background-color: white;
+  font-size: 3rem;
+
+}

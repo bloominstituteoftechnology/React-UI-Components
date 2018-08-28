@@ -1,0 +1,15 @@
+.calculator-container {
+  display: flex;
+  position: static;
+  flex-direction: column;
+  width: 100%;
+  border: 1px solid darkgray;
+  max-width: 400px;
+  
+}
+
+.row1, .row2, .row3, .row4, .row5 {
+  display: flex;
+  flex-direction: row;
+
+}
