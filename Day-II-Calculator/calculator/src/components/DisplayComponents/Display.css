@@ -65,7 +65,9 @@ html {
   text-align: right;
   font-size: 8rem;
   font-weight: lighter;
-  border: 1px solid lightgray;
+  border-top: 1px solid lightgray;
+  border-left: 1px solid lightgray;
+  border-right: 1px solid lightgray;
 }
 
 .display p {
