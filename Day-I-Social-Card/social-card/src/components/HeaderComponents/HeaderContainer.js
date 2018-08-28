@@ -12,7 +12,7 @@ const HeaderContainer = props => {
     <div className="header-wrapper">
       <ImageThumbnail />
       <div className="header-title-and-content-wrapper">
-        <HeaderTitle name={props.username} tagname={props.tagname}/>
+        <HeaderTitle name={props.username} tagname={props.usertag}/>
         <HeaderContent />
       </div>
     </div>
