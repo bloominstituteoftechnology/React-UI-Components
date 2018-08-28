@@ -15,15 +15,20 @@ img{
 .header-title{
     width:100%;
     display:flex;
-    padding-top:7px;
 }
 
 .header-title h1{
-    font-size:.8125rem;
-    padding-left:2%;
+    font-size:0.8rem;
+    margin: 15px 1% -5px 1%;
 }
 
-.header-title .handle{
+.handle{
     color:grey;
+}
+
+.header-content p{
+    width: 95%;
+    padding-left:1%;
+    font-size:0.875rem;
 }
 
