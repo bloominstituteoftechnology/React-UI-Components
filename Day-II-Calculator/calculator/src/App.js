@@ -21,7 +21,12 @@ const App = () => {
           <ActionButton type="danger-btn" value="X" />
         </ButtonWrapper>
 
-        <ButtonWrapper></ButtonWrapper>
+        <ButtonWrapper>
+          <NumberButton type="num-btn" value="4" />
+          <NumberButton type="num-btn" value="5" />
+          <NumberButton type="num-btn" value="6" />
+          <ActionButton type="danger-btn" value="-" />
+        </ButtonWrapper>
 
         <ButtonWrapper></ButtonWrapper>
 
