@@ -1,0 +1,32 @@
+
+.button {
+  border: 1px gray solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 45px;
+  font-weight: bold;
+  height: 94px
+}
+
+.white {
+  max-width: 175px;
+  width: 25%;
+}
+
+.red {
+  color: white;
+  max-width: 175px;
+  width: 27%;
+  font-size: 70px;
+  font-weight: normal;
+}
+
+.action {
+  max-width: 450px;
+  width: 75%;
+}
+
+.white {background-color: white;}
+
+.red {background-color: red;}
