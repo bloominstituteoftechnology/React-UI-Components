@@ -21,16 +21,7 @@ class App extends React.Component {
   handleClick(e) {
     e.preventDefault();
     const innerText = e.target.innerText;
-    console.log(Number(innerText));
-
     const operatorArray = ["÷", "×", "−", "+"];
-    console.log(innerText)
-
-    // if (e.target.innerText === "clear") {
-    //   this.setState({ display: 0});
-    // } else {
-    //   this.setState({ display: innerText });
-    // }
 
     if (innerText === "clear") {
       this.setState({ 
@@ -80,10 +71,6 @@ class App extends React.Component {
         num2: "",
       }));
     }
-  }
-
-  componentWillUpdate(nextProps, nextState) {
-    console.log(nextState);
   }
 
   render() {
