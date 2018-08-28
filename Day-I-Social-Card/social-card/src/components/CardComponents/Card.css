@@ -12,8 +12,7 @@
     /* overflow: hidden; */
 }
 .card-banner img {
-    width: 500px;
-    border-radius: 3px 3px 0 0;
+    max-width: 500px;
     overflow: hidden;
 }
 
