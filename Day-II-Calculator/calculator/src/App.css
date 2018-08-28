@@ -1,0 +1,6 @@
+.main {
+    border: 2px solid green;
+    width: 297px;
+    display: flex;
+    flex-wrap: wrap;
+}
