@@ -18,6 +18,7 @@ const two = {
 
 const three = {
   text: "3"
+
 };
 
 const four = {
@@ -53,15 +54,15 @@ const display = {
 }
 
 const divide = {
-  text: "&divide"
+  text: "\xF7"
 }
 
 const multiply = {
-  text: "&times"
+  text: "\xD7"
 }
 
 const minus = {
-  text: "-"
+  text: "\u2013"
 }
 
 const add = {
@@ -76,23 +77,23 @@ const equals = {
 function App() {
   return (
     <div className="app">
-      <CalculatorDisplay CalculatorDisplay={display} />
-      <ActionButton ActionButton={clear} />
-      <NumberButton NumberButton={divide} />
-      <NumberButton NumberButton={seven} />
-      <NumberButton NumberButton={eight} />
-      <NumberButton NumberButton={nine} />
-      <NumberButton NumberButton={multiply} />
-      <NumberButton NumberButton={four} />
-      <NumberButton NumberButton={five} />
-      <NumberButton NumberButton={six} />
-      <NumberButton NumberButton={minus} />
-      <NumberButton NumberButton={one} />
-      <NumberButton NumberButton={two} />
-      <NumberButton NumberButton={three} />
-      <NumberButton NumberButton={add} />
-      <ActionButton ActionButton={zero}/>
-      <NumberButton NumberButton={equals} />
+      <CalculatorDisplay CalculatorDisplay={display} buttonStyle = "display"/>
+      <ActionButton ActionButton={clear} buttonStyle="clear-button"/>
+      <NumberButton NumberButton={divide} buttonStyle="operator"/>
+      <NumberButton NumberButton={seven} buttonStyle="number"/>
+      <NumberButton NumberButton={eight} buttonStyle="number"/>
+      <NumberButton NumberButton={nine} buttonStyle="number"/>
+      <NumberButton NumberButton={multiply} buttonStyle="operator"/>
+      <NumberButton NumberButton={four} buttonStyle="number"/>
+      <NumberButton NumberButton={five} buttonStyle="number"/>
+      <NumberButton NumberButton={six} buttonStyle="number"/>
+      <NumberButton NumberButton={minus} buttonStyle="operator"/>
+      <NumberButton NumberButton={one} buttonStyle="number"/>
+      <NumberButton NumberButton={two} buttonStyle="number"/>
+      <NumberButton NumberButton={three} buttonStyle="number"/>
+      <NumberButton NumberButton={add} buttonStyle="operator"/>
+      <ActionButton ActionButton={zero} buttonStyle="zero-button"/>
+      <NumberButton NumberButton={equals} buttonStyle="operator"/>
     </div>
   );
 };
