@@ -1,0 +1,13 @@
+.total-div {
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: end;
+  outline: 2px solid grey;
+}
+
+.total-div p {
+  font-size: 4rem;
+  margin: 0 auto;
+  padding: 2rem 1rem 1.5rem 1rem;
+}

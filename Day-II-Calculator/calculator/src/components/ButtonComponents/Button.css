@@ -1,0 +1,64 @@
+.numberButton-div {
+  width: 33.33%;
+  background-color: white;
+  color: black;
+  text-align: center;
+  outline: 2px solid grey;
+  cursor: pointer;
+}
+.numberButton-div:hover {
+  color: white;
+  background: #a0001e;
+}
+
+.numberButton-div p {
+  font-size: 3rem;
+  margin: 0 auto;
+  padding: 1rem 0;
+}
+
+.zeroNumberStyles {
+  width: 99.99%;
+  background: white;
+  color: black;
+}
+
+.actionButtonStyles {
+  width: 26%;
+  background: #a0001e;
+  color: white;
+  text-align: center;
+  outline: 2px solid grey;
+  cursor: pointer;
+}
+.actionButtonStyles:hover {
+  background: white;
+  color: #a0001e;
+}
+
+.actionButtonStyles p {
+  margin: 0.35rem auto;
+  font-size: 4.5rem;
+}
+/* Lets us make our action buttons fit without changing base width
+  which effects other buttons */
+.actionButtonWidth {
+  width: 100%;
+}
+
+.clearWidth {
+  width: 74%;
+  background: white;
+  color: black;
+  outline: 2px solid grey;
+}
+.clearWidth:hover {
+  color: white;
+  background: #a0001e;
+}
+
+.clearWidth p {
+  font-size: 3rem;
+  margin: 0 auto;
+  padding: 1rem 0;
+}

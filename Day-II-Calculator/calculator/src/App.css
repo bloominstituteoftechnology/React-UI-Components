@@ -1,0 +1,24 @@
+.app-wrapper {
+  max-width: 452px;
+  margin: 0 auto;
+}
+
+.calc-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  outline: 2px solid grey;
+}
+
+.numbersButtonsDiv {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  width: 74%;
+}
+
+.actionButtonRow {
+  display: flex;
+  flex-direction: column;
+  width: 26%;
+}

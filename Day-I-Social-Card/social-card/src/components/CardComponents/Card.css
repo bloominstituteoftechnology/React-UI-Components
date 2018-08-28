@@ -1,1 +1,36 @@
 /* All styles for your Card Components live here */
+.card-wrapper {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid gainsboro;
+  border-radius: .3px;
+}
+
+.card-banner-img {
+  background-image: url('https://ibin.co/3wnC6SgIOJud.png');
+  height: 350px;
+  border-radius: 3px;
+  width: auto;
+  background-size:  cover;
+  background-repeat: no-repeat;
+}
+
+
+.card-content {
+  margin: 0;
+  padding: 0.3em;
+}
+
+.card-content-wrapper h2 {
+  font-size: 14px;
+}
+.card-content-wrapper p {
+  font-size: 13px;
+}
+.card-content-wrapper a {
+  text-decoration: none;
+  font-size: 12px;
+  opacity: .8;
+}
