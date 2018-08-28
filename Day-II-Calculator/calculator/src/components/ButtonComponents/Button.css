@@ -1,5 +1,6 @@
+
+
 .nums {
-    /* border: 2px solid palevioletred; */
     display: flex;
     flex-wrap: wrap;
     width: 74%;
@@ -15,10 +16,9 @@
 }
 .action{
     width: 10%;
-    /* border: 2px solid goldenrod; */
     display: flex;
-    flex-direction: column-reverse;; 
+    flex-direction: column; 
 }
 .action .small {
-    background: red;
+    background: #96001c;
 }
