@@ -1,0 +1,10 @@
+.app {
+    margin:auto;
+    width: 454px;
+    height: 596px;
+    border: 1px solid gray;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* align-items: center; */
+}

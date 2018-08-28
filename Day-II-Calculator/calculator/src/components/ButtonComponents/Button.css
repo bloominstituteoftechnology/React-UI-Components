@@ -1,0 +1,30 @@
+.clear-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 73%;
+    height: 16%;
+    background: #FFF;
+    font-size: 44px;
+    border: 1px solid #979797;
+}
+
+.operator-btn {
+    background: #A0001E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 27%;
+    height: 16%;
+    font-size: 44px;
+    color: #FFF;
+    border: 1px solid #979797;
+}
+
+.number-btn {
+    width: 100px;
+    height: 50px;
+    border: 1px solid #979797;
+    font-size: 44px;
+    background: #FFF;
+}
