@@ -4,16 +4,27 @@
     width: 25px;
     height: 25px;
     font-size: 40px;
+    font-weight: bold;
 }
 
 /* .number.button{
 } */
 
 .number.button.number-0{
-    padding: 5px 55px 30px 95px;
+    padding: 5px 59px 30px 95px;
     width: 75px;
 }
 
 .action.button{
     background-color: #96001C;
+    color: #FFFFFF;
+    font-weight: normal;
+}
+
+.action.button.clear{
+    color: black;
+    width: 75px;
+    padding: 5px 94px 30px 60px;
+    background-color: #FFFFFF;
+    font-weight: lighter;
 }
