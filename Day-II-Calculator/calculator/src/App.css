@@ -48,9 +48,9 @@ table {
 }
 
 .app {
-  border: 2px solid black;
+  border: 2px solid darkgray;
   width: 452px;
-  height: 594px;
+  height: 593px;
 }
 
 .numberSymbol {
@@ -60,8 +60,7 @@ table {
 
 .numbers {
   display: flex;
-  flex-direction: column;
-  /* flex-wrap: wrap; */
+  flex-wrap: wrap;
   width: 74%;
   height: 470px;
 }
