@@ -2,7 +2,7 @@ import React from 'react';
 import './Button.css';
 
 
-const NumberButton = (props) => (<button className={props.buttonStyle > props.text}></button>);
+const NumberButton = (props) => (<button className={props.buttonStyle}>{props.text}</button>);
 
 
 
