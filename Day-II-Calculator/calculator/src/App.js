@@ -41,9 +41,9 @@ const App = () => {
         </div>
      
         <div className="symbols">
-          <NumberButton text="%" buttonStyle="red-square"/>
-          <NumberButton text="x" buttonStyle="red-square"/>
-          <NumberButton text="-" buttonStyle="red-square"/>
+          <NumberButton text="&divide;" buttonStyle="red-square"/>
+          <NumberButton text="&times;" buttonStyle="red-square"/>
+          <NumberButton text="&minus;" buttonStyle="red-square"/>
           <NumberButton text="+" buttonStyle="red-square"/>
           <NumberButton text="=" buttonStyle="red-square"/>
         </div>
