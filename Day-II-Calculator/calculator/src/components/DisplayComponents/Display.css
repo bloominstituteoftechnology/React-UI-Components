@@ -1,0 +1,15 @@
+.display {
+    width: 99.3%;
+    height: 120px;
+    background: #272727;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    border: 2px solid #969696;
+}
+.displaytext {
+    font-size: 80px;
+    color: white;
+    margin-right: 10px;
+    font-weight: 100;
+}
