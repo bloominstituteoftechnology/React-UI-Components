@@ -4,7 +4,7 @@ import './Card.css';
 const CardContent = () => {
   return (
     <div class= 'CardContent'>
-      <p></p>
+      <img src="https://csharpcorner-mindcrackerinc.netdna-ssl.com/article/basics-of-react-native/Images/image001"/>
         </div>
   );
 };
