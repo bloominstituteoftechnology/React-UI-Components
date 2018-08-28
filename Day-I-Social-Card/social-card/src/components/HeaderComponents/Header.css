@@ -19,14 +19,17 @@ header {
 
 .header-title {
     display: flex;
+    padding-bottom: 6px;
 }
 
 .header-title h1 {
     font-size: 12px;
+    padding-right: 6px;
 }
 .header-title p {
     font-size: 10px;
 }
 .header-description {
     font-size: 12px;
+    padding-bottom: 12px;
 }
