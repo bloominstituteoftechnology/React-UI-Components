@@ -1,1 +1,24 @@
 /* All styles for your header Components live here */
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+.img-container {
+    width: 135px;
+    margin-right: 7px;
+    margin-bottom: 10px;
+  }
+.img-container img {
+    width: 100%;
+  }
+.title-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 6.5px;
+  }
+.content-container {
+    margin-top: 9px;
+    line-height: 17px;
+  }
