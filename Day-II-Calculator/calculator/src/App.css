@@ -1,5 +1,5 @@
 .calculatorContainer {
-    width: 35rem;
+    width: 25rem;
     border: 1px solid gray;
     display: flex;
     flex-direction: column;
