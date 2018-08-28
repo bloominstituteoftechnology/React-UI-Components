@@ -29,12 +29,13 @@ export default class CalculatorDisplay extends React.Component {
         if (action === '='){
             console.log(action);
 
-            const divZeroRegex = /0+(?:\.?0*)?(?!\d)/g
-            const multiplyByZeroRegex = /0+(?:\.?0*)?(?!\d)/g
-            if(currentState.match(divZeroRegex)){
-                this.setState({expression: 'NaN'});
-            } else if(currentState.match(multiplyByZeroRegex)){
-                this.setState({expression: '0'});
+            const divOrMultiplyByZero = /0+(?:\.?0*)?(?!\d)/g
+            if(currentState.match(divOrMultiplyByZero)){
+                if(this.state.expression.includes('*')){
+                    this.setState({expression: '0'});
+                } else {
+                    this.setState({expression: 'NaN'});
+                }
             } else {
                 let result = eval( ((this.state.expression).replace(/\b0+/g, '')) );
                 this.setState({expression: '', evaluation: result});
