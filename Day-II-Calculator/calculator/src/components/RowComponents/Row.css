@@ -1,10 +1,8 @@
-.Row2 {
-  display: flex;
-  margin: 0;
-  width: 456px;
-}
-
-.Row3 {
+.Row2,
+.Row3,
+.Row4,
+.Row5,
+.Row6 {
   display: flex;
   margin: 0;
   width: 456px;

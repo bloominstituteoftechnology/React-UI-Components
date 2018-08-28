@@ -5,10 +5,10 @@ import NumberButton from '../ButtonComponents/NumberButton'
 const Row4 = () => {
   return (
     <div className="Row4">
-      <NumberButton label="4" />
-      <NumberButton label="5" />
-      <NumberButton label="6" />
-      <NumberButton label="-" />
+      <NumberButton buttonStyle="number" label="4" />
+      <NumberButton buttonStyle="number" label="5" />
+      <NumberButton buttonStyle="number" label="6" />
+      <NumberButton buttonStyle="operation" label="-" />
     </div>
   );
 };

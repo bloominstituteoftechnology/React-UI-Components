@@ -7,7 +7,7 @@
   font-weight: 300;
   border: 2px solid #979797;
   width: 335px;
-  height: 90px;
+  height: 93px;
 }
 
 .operation {
@@ -20,7 +20,9 @@
   border: 2px solid #979797;
   display: flex;
   width: 121px;
-  height: 90px;
+  height: 93px;
+  background: #A0001E;
+  color: white;
 }
 
 .number {
@@ -33,10 +35,5 @@
   border: 2px solid #979797;
   display: flex;
   width: 111.5px;
-  height: 90px;
-}
-
-.maroon {
-  background: #A0001E;
-  color: white;
+  height: 93px;
 }
