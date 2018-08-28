@@ -17,7 +17,7 @@ const App = () => {
       <NumberButton buttonStyle='pixel-perfect-width' buttonText='4' />
       <NumberButton buttonText='5' />
       <NumberButton buttonText='6' />
-      <ActionButton buttonText='-' />
+      <ActionButton buttonText='−' />
       <NumberButton buttonStyle='pixel-perfect-width' buttonText='1' />
       <NumberButton buttonText='2' />
       <NumberButton buttonText='3' />

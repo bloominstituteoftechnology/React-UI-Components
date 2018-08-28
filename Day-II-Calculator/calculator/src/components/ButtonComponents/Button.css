@@ -24,8 +24,8 @@
   align-items: center;
   width: 120px;
   height: 94px;
-  font-size: 72px;
-  font-weight: bold;
+  font-size: 70px;
+  font-weight: 300;
   color: white;
   background: #A0001E;
   border: 1px solid #979797;
@@ -36,7 +36,6 @@
   width: 334px;
   height: 94px;
   font-size: 44px;
-  font-weight: normal;
   color: black;
   background: white;
 }
