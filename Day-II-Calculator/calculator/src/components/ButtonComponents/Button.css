@@ -10,12 +10,12 @@
   height: 90px;
 }
 
-.small {
+.operation {
   display: flex;
   justify-content: center;
   align-items: center;
   font-weight: 300;
-  color: white;
+  color: black;
   font-size: 4rem;
   border: 2px solid #979797;
   display: flex;
@@ -23,6 +23,20 @@
   height: 90px;
 }
 
+.number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  color: black;
+  font-size: 3rem;
+  border: 2px solid #979797;
+  display: flex;
+  width: 111.5px;
+  height: 90px;
+}
+
 .maroon {
   background: #A0001E;
+  color: white;
 }

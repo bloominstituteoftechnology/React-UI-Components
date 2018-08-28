@@ -7,7 +7,7 @@ const Row2 = () => {
   return (
     <div className="Row2">
       <ActionButton buttonStyle="large" label="clear" />
-      <NumberButton buttonStyle="small maroon" label="÷" />
+      <NumberButton buttonStyle="operation maroon" label="÷" />
     </div>
   );
 };

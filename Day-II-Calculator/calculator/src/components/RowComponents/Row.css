@@ -2,5 +2,10 @@
   display: flex;
   margin: 0;
   width: 456px;
-  height: 130px;
+}
+
+.Row3 {
+  display: flex;
+  margin: 0;
+  width: 456px;
 }
