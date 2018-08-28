@@ -58,7 +58,7 @@ table {
     .card-banner {
 
       margin-left: 69px;
-      width: 504px;
+      width: 84%;
     }
 
     .card-content {
@@ -67,6 +67,7 @@ table {
     }
 
       .card-h {
+        color: black;
         font-size: 14px;
         font-weight: bold;
         font-family: sans-serif;
@@ -75,6 +76,7 @@ table {
       }
 
       .card-p {
+        color: black;
         font-size: 14px;
         font-weight: normal;
         font-family: sans-serif;
