@@ -4,6 +4,7 @@
     height: 600px;
     background-repeat: no-repeat;
     width: 100%;
+    background-size: 300px 100px;
 }
 
 .cardTitle {

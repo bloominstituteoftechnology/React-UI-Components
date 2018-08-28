@@ -1,0 +1,50 @@
+* {
+    font-size: 30px;
+}
+
+.container {
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.numsDiv {
+    display: flex;
+    flex-direction: column;
+}
+
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.actionButtons {
+    display:flex;
+    flex-direction: column;
+    width: 25%;
+}
+
+.belowCont {
+    display: flex;
+}
+
+.numsClear {
+    width: 75%;
+}
+
+.display {
+    background-color: black;
+    color: white;
+    padding-right: 10px;
+    height: 70px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 40px;
+    border: 1px solid grey;
+}
+
+#clear {
+    color: grey;
+    font-weight: normal;
+}

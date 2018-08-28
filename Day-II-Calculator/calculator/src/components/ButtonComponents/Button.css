@@ -1,0 +1,35 @@
+.numberButtons {
+    width: 33.33%;
+    display: flex;
+    
+}
+
+.numNums {
+    background-color: white;
+    display: flex;
+    width: 100%;
+    font-weight: 900;
+}
+
+.zeroClear {
+    width: 300.99%;
+}
+
+.actions {
+    background-color: maroon;
+    width: 100%;
+    color: white;
+}
+
+button {
+    border: 1px solid grey;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    height: 75px;
+}
+
+.clear {
+    width: 33.333%;
+    background-color: white;
+}
