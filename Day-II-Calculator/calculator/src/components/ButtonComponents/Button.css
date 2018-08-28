@@ -1,0 +1,29 @@
+button{
+    width: 100px;
+    height: 100px;
+    padding: 0;
+    margin: 1px;
+    box-sizing: border-box;
+    font-size: 30px;
+    font-weight: bold;
+}
+.btn__red{
+    background-color:rgb(121, 2, 2);
+    border-color: rgb(121, 2, 2);
+    color: white;
+}
+.btn__long{
+    width: 303px;
+    height: 100px;
+}
+.btn__xlong{
+   background-color: black;  
+    width: 404px;
+    height: 100px;
+    color: rgb(173, 165, 165);
+  
+    text-align: end;
+    padding-right: 30px;
+    font-size: 80px;
+    font-weight: 200;
+}
