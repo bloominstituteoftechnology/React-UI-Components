@@ -2,3 +2,81 @@
   Write your styles/CSS for App.js here and import into the component that you need 
   IF you'd like to attempt to use less you'll have to research how to do this with Create React App
 */
+.header{
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+}
+.card{
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+}
+.card-img{
+  width: 56%;
+  margin-left: 6.5%;
+  border-radius: 10px 10px 0 0;
+}
+.flex-head{
+  display:flex;
+  width: 50%;
+
+  justify-content: flex-start;
+}
+.flex{
+  display:flex;
+}
+.p{
+  width: 60%;
+  
+}
+.p p{
+  margin: 0;
+}
+.image{
+  width: 60%;
+  margin-left: 15%;
+  margin-top: 24%;
+}
+.athandle{
+  font-size:16px;
+  color: #a2a8b2;
+}
+.title{
+  font-size:16px;
+  font-weight: bold;
+}
+.title-container{
+  margin-right: 2%;
+}
+.border{
+ 
+}
+.cardcontent{
+  border-bottom: 1px solid lightgray;
+  border-left: 1px solid lightgray;
+  border-right: 1px solid lightgray;
+  border-radius: 0 0 10px 10px;
+  width: 55.8%;
+  margin-left: 6.5%;
+  margin-top: -2%;
+}
+.link{
+  text-decoration: none;
+  color: black;
+}
+.cardHeader{
+  font-weight: bold;
+}
+.cardHeader{
+  width: 50%;
+  margin-left: 7%;
+  margin-top: 3%;
+}
+.linked{
+  color: lightslategray;
+}
+.cardBody{
+  margin-left: 7%;
+  
+}
