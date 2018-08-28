@@ -6,7 +6,7 @@ import CalculatorDisplay from './components/DisplayComponents/CalculatorDisplay'
 const App = () => {
 
   const display = {
-    state: 0
+    text: 0
   };
 
   return (
