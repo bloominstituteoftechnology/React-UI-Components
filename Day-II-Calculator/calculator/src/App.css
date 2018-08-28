@@ -1,0 +1,8 @@
+.app {
+    margin:auto;
+    width: 454px;
+    height: 596px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

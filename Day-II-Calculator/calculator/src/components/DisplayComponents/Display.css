@@ -1,0 +1,11 @@
+.calculator-display {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background: #222;
+    color: #FFF;
+    border: 1px solid #979797;
+    width: 100%;
+    padding: 25px 12px 13px;
+    font-size: 74px;
+}
