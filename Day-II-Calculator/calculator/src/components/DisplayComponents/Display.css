@@ -1,12 +1,12 @@
 .calculator-display{
     background: black;
-    border:1px solid lightgrey;
+    border:1px solid grey;
     height:121px;
  
 }
 
 .calculator-display p{
-    color: grey;
+    color: white;
     margin: 0;
     position: absolute;
     right: 20%;

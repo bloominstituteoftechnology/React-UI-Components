@@ -1,13 +1,13 @@
 .number-button{
     height: 470px;
-    border: 1px solid lightgrey;
+    border: 1px solid grey;
     text-align:center;
 }
 
 .number-button .number{
     height: 94px;
     width: 25%;
-    border: 1px solid lightgrey;
+    border: 1px solid grey;
     font-size:2.63rem;
 }
 
@@ -17,11 +17,14 @@
     height:94px;
     width:25%;
     font-size:2.63rem;
+    border: 1px solid grey;
+
 }
 
 .number-button .action{
     width: 75%;
     height: 94px;
     font-size:2.63rem;
+    border: 1px solid grey;
 }
 

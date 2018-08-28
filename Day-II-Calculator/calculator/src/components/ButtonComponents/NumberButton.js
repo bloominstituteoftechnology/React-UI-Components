@@ -12,7 +12,7 @@ const NumberButton = () =>(
         <Box text="4" type="number"/>
         <Box text="5" type="number"/>
         <Box text="6" type="number"/>
-        <Box text="-" type="operation"/>
+        <Box text="–" type="operation"/>
         <Box text="1" type="number"/>
         <Box text="2" type="number"/>
         <Box text="3" type="number"/>
