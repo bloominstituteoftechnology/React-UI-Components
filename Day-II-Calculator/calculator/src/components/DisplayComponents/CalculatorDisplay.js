@@ -30,8 +30,11 @@ export default class CalculatorDisplay extends React.Component {
             console.log(action);
 
             var divZeroRegex = /.*\/0([^.]|$|\.(0{4,}.*|0{1,4}([^0-9]|$))).*/g
+            var multiplyByZeroRegex = /.*\*0([^.]|$|\.(0{4,}.*|0{1,4}([^0-9]|$))).*/g
             if(currentState.match(divZeroRegex)){
                 this.setState({expression: 'NaN'});
+            } else if(currentState.match(multiplyByZeroRegex)){
+                this.setState({expression: '0'});
             } else {
                 let result = eval( ((this.state.expression).replace(/\b0+/g, '')) );
                 this.setState({expression: '', evaluation: result});
