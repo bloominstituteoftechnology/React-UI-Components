@@ -19,7 +19,6 @@ function App() {
       <NumberButton buttonStyle="number-button" text="5"/>
       <NumberButton buttonStyle="number-button" text="6"/>
       <ActionButton buttonStyle="action-button" text="-"/>
-      
       <NumberButton buttonStyle="number-button" text="1"/>
       <NumberButton buttonStyle="number-button" text="2"/>
       <NumberButton buttonStyle="number-button" text="3"/>
