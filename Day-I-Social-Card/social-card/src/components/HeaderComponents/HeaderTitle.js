@@ -1,6 +1,6 @@
 import React from 'react';
 import './Header.css';
-const Header = ()=> {
+const HeaderTitle = ()=> {
     return (
         <div>
             <span className="header__title"> Lambda School </span>

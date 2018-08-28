@@ -4,17 +4,10 @@ import './Header.css';
 
 
 
-const ImageThumbnail = () => (
-<img src="https://ibin.co/3whrpKSBbZ81.png" alt="Lambda Thumbnail" />
-);
-
-
-
-
-
-
-
-
-
+const ImageThumbnail = () => {
+    return (
+        <img src="https://ibin.co/3whrpKSBbZ81.png" alt="Lambda Thumbnail" />
+    );
+};
 
 export default ImageThumbnail;
