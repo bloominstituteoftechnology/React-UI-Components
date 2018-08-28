@@ -2,7 +2,7 @@ import React from 'react';
 import './Header.css';
 
 const HeaderThumbnail = () => (
-    <h1>Header Thumbnail</h1>
+    <img src='https://ibin.co/3whrpKSBbZ81.png' />
 );
 
 export default HeaderThumbnail;

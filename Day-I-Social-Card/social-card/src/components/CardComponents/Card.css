@@ -1,1 +1,14 @@
 /* All styles for your Card Components live here */
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.card-banner {
+    background-image: url('https://ibin.co/3wnC6SgIOJud.png');
+    background-repeat: no-repeat;
+    background-size: 600px 315px;
+    width: 600px;
+    height: 315px;
+}
