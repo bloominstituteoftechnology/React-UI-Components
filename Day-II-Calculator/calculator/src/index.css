@@ -7,7 +7,45 @@ body {
   font-family: sans-serif;
 }
 
+a:focus,
+
+button:focus,
+
+input:focus,
+
+textarea:focus {
+
+outline: none;
+
+}
+
 #root {
-  max-width: 400px;
+  max-width: 455px;
   margin: 0 auto;
+}
+
+.calculator-container {
+  width: 100%;
+}
+
+.button-container {
+  width: 100%;
+  display: flex;
+  /* flex-wrap: wrap; */
+}
+
+.column-left {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.column-right {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+
+.inner-full-row {
+  width: 100%;
 }
