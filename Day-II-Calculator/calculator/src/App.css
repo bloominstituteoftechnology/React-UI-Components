@@ -1,0 +1,22 @@
+.appClass{
+    width:450px;
+    height: 600px;
+    border: 1px solid grey;
+    display:flex;
+    flex-direction: column;
+}
+.numsAndOperators{
+    width:100%;
+    height:100%;
+    display:flex;
+    flex-direction: row;
+}
+.numsAndClear{
+    width:75%;
+    height: 100%;
+}
+.operators{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+}

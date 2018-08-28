@@ -1,0 +1,13 @@
+.displayClass{
+    width: 100%;
+    height: 25%;
+    background-color: black;
+    color: white;
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+h1{
+    padding:5px;
+}

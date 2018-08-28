@@ -1,1 +1,26 @@
 /* All styles for your Card Components live here */
+.card-container{
+    width:510px;
+    margin: 0 0 0 60px;
+}
+
+.card-banner{
+    width:100%;
+    height:250px;
+}
+
+.card-content{
+    margin:0 10px 0 15px; 
+}
+
+.card-title{
+    font-size: 14px;
+}
+
+.card-text-body{
+    width:100%;
+    margin:0;
+    font-size: 14px;
+    font-weight: none;
+    line-height:18px;
+}
