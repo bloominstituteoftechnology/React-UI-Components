@@ -1,0 +1,15 @@
+.app-container {
+    
+    display: flex;
+    font-family: sans-serif;
+    justify-content: center;
+    margin: 50px;
+}
+
+.calc-container {
+    width: 450px;
+    border: 2px solid gray;
+    display: flex;
+    flex-direction: column;
+    
+}
