@@ -59,13 +59,13 @@ class App extends React.Component {
           num2: "",
         });
       } else {
-      // if an operator has not been pressed, make that value the operator in state
-      this.setState((prevState) => ({ 
-        display: innerText,
-        operator: innerText,
-      }));
+        // if an operator has not been pressed, make that value the operator in state
+        this.setState((prevState) => ({ 
+          display: innerText,
+          operator: innerText,
+        }));
+      }
     }
-  }
     
     if (innerText === "=") {
       // if equal sign is pressed, calculate the result
