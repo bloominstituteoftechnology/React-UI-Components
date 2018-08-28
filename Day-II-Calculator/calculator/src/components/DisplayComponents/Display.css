@@ -1,0 +1,11 @@
+.total {
+    /* border: 1px solid black; */
+    background: black;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 500px;
+    height: 110px;
+    font-size: 75px;
+    color: white;
+}
