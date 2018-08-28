@@ -17,8 +17,7 @@ class App extends React.Component {
 
   handleClick(e) {
     e.preventDefault();
-    const innerText = e.target.innerText
-    console.log(innerText)
+    const innerText = e.target.innerText;
 
     if (e.target.innerText === "clear") {
       this.setState({ display: 0});
