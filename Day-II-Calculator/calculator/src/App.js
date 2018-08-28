@@ -1,25 +1,27 @@
-import React from 'react';
-import './App.css';
-
+import React from "react";
+import "./App.css";
+import CalculatorDisplay from "./components/DisplayComponents/CalculatorDisplay";
+import ButtonWrapper from ".components/ButtonComponents/ButtonWrapper";
+import ActionButton from "./components/ButtonComponents/ActionButton";
+import NumberButton from "./components/ButtonComponents/NumberButton";
 const App = () => {
   return (
     <div className="main-wrapper">
-    <div className="inner-wrapper">
+      <div className="inner-wrapper">
+        <CalculatorDisplay />
+        <ButtonWrapper>
+          <ActionButton type="clr-btn" />
+          <NumberButton type="danger-btn" text="/" />
+        </ButtonWrapper>
 
+        <ButtonWrapper></ButtonWrapper>
 
-    </div>
-      <h3>Welcome to React Calculator</h3>
-      <p>
-        We have given you a starter project. You'll want to build out your
-        components in their respective files, remove this code and replace it
-        with the proper components.
-      </p>
-      <p>
-        <strong>
-          Don't forget to `default export` your components and import them here
-          inside of this file in order to make them work.
-        </strong>
-      </p>
+        <ButtonWrapper></ButtonWrapper>
+
+        <ButtonWrapper></ButtonWrapper>
+
+        <ButtonWrapper></ButtonWrapper>
+      </div>
     </div>
   );
 };
