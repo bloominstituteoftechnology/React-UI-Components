@@ -1,1 +1,10 @@
 /* All styles for your Card Components live here */
+img {
+    width:100%;
+}
+
+.cardContent {
+    padding: 1rem;
+    border:1px solid silver;
+    border-radius: 2%;
+}

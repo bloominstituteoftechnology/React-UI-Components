@@ -1,0 +1,16 @@
+.display {
+    height: 100px;
+    width: 99.4%;
+    border: 1px solid #999;
+    margin-bottom: -1;
+    color: #fff;
+    background: black;    
+}
+
+.display .display-result{
+    display: flex;
+    justify-content: flex-end;
+    margin: 5% 3% 0 0;
+    font-size: 65px;
+
+}
