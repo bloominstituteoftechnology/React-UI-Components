@@ -2,7 +2,7 @@ import React from 'react';
 
 function NumberButton(props) {
   return (
-    <button className={`number-btn ${props.type}`}>{props.value}</button>
+    <button className={`numberbtn ${props.type}`}>{props.value}</button>
   );
 }
 
