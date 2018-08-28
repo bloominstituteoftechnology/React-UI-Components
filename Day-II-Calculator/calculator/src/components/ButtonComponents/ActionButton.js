@@ -3,7 +3,7 @@ import './Button.css';
 
 function ActionButton(props) {
   return (
-    <button className = {`button-large ${props.type}`}>{props.value}</button>
+    <button className = {`action-button ${props.type}`}>{props.value}</button>
   );
 };
 

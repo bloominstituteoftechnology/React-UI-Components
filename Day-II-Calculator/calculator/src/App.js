@@ -11,8 +11,8 @@ const App = () => {
         <CalculatorDisplay/>
 
         <div className = 'button-wrap'>
-          <ActionButton type = 'act-button'/>
-          <NumberButton type = 'slash-button' text = '/'/>
+          <ActionButton type = 'act-button wide-button' value = 'clear'/>
+          <NumberButton type = 'slash-button divide-button' text = '  '/>
         </div>
 
         <div className = 'button-wrap'>
@@ -41,7 +41,7 @@ const App = () => {
           <ActionButton type = 'act-button' value = '=' />
         </div>
 
-      </div> // wrapper-sub
+      </div>
     </div> // wrapper-main
   );
 };
