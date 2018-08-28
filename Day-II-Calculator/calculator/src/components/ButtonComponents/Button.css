@@ -1,0 +1,26 @@
+.square-button {
+    border: 1px solid grey;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    height: 9rem;
+    width: 33.3%;
+}
+
+.rec-button {
+    border: 1px solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    height: 9rem;
+    width: 100%;
+}
+
+.op-button {
+    background-color: #96001C;
+    width: 100%;
+}
+

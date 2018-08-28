@@ -2,4 +2,27 @@
     width: 100%;
     max-width: 500px;
     margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid grey;
 }
+
+.num-buttons-container {
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+    padding: 0;
+}
+
+/* .num-buttons-container>* {
+    flex: 1 1 125px;
+} */
+
+.op-buttons-container {
+    width: 25%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
