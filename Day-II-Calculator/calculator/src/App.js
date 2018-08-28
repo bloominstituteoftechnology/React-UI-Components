@@ -24,22 +24,22 @@ const App = () => {
     <div className="calculator-wrapper">
       <CalculatorDisplay text="0" />
       <div className="buttons">
-        <ActionButton text="Clear" />
-        <NumberButton text="÷" type="symbol" />
-        <NumberButton text="7" type="number" />
-        <NumberButton text="8" type="number" />
-        <NumberButton text="9" type="number" />
-        <NumberButton text="x" type="symbol" />
-        <NumberButton text="4" type="number" />
-        <NumberButton text="5" type="number" />
-        <NumberButton text="6" type="number" />
-        <NumberButton text="-" type="symbol" />
-        <NumberButton text="1" type="number" />
-        <NumberButton text="2" type="number" />
-        <NumberButton text="3" type="number" />
-        <NumberButton text="+" type="symbol" />
-        <ActionButton text="0" />
-        <NumberButton text="=" type="symbol" />
+        <ActionButton text="clear" style="clear" />
+        <NumberButton text="÷" style="symbol" />
+        <NumberButton text="7" style="number" />
+        <NumberButton text="8" style="number" />
+        <NumberButton text="9" style="number" />
+        <NumberButton text="x" style="symbol" />
+        <NumberButton text="4" style="number" />
+        <NumberButton text="5" style="number" />
+        <NumberButton text="6" style="number" />
+        <NumberButton text="-" style="symbol" />
+        <NumberButton text="1" style="number" />
+        <NumberButton text="2" style="number" />
+        <NumberButton text="3" style="number" />
+        <NumberButton text="+" style="symbol" />
+        <ActionButton text="0" style="zero" />
+        <NumberButton text="=" style="symbol" />
       </div>
     </div>
   );

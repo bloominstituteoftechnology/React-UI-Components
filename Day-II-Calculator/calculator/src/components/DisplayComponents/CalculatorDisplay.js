@@ -3,9 +3,7 @@ import './Display.css';
 
 function CalculatorDisplay(props) {
   return (
-    <div className={`calculator-display ${props.buttonStyle}`}>
-      {props.text}
-    </div>
+    <div className={`calculator-display ${props.style}`}>{props.text}</div>
   );
 }
 

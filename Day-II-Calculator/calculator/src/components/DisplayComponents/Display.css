@@ -1,6 +1,6 @@
 .calculator-display {
   height: 75px;
-  border-bottom: 2px solid darkgray;
+  border-bottom: 1px solid darkgray;
   text-align: end;
   background: black;
   color: white;
