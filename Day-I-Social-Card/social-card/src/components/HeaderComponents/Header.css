@@ -57,17 +57,24 @@ table {
 
     .header-thumbnail {
       border: 1px solid green;
-      height: 64px;
+      height: 46px;
       color: white;
       background-color: red;
       border-radius: 50px;
-      width: 64px;
+      width: 47px;
+      margin-top: 14px;
+      margin-left: 3px;
+      margin-right: 9px;
 
     }
 
     .header-title-text {
       border: 1px solid lightblue;
     }
+
+      .main-header-title {
+        display:flex;
+      }
     
         .header-title {
           font-size: 14px;
@@ -75,6 +82,27 @@ table {
           font-family: sans-serif;
           padding-top: 15px;
           padding-bottom: 5px;
+        }
+
+
+        .header-handle {
+          color: gray;
+          font-size: 12px;
+          font-weight: normal;
+          font-family: sans-serif;
+          padding-top: 15px;
+          padding-bottom: 5px;
+          padding-left: 5px;
+        }
+
+        .header-timestamp {
+          color: gray;
+          font-size: 12px;
+          font-weight: normal;
+          font-family: sans-serif;
+          padding-top: 15px;
+          padding-bottom: 5px;
+          padding-left: 9px;
         }
 
         .header-content {

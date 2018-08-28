@@ -1,6 +1,11 @@
 import React from 'react';
 import './Header.css';
 
-const HeaderTitle = () => <h1 className="header-title">Lambda School</h1>;
-
+const HeaderTitle = () => (
+  <div className="main-header-title">
+   <div className="header-title">Lambda School</div>
+   <div className="header-handle">@LambdaSchool</div>
+   <div className="header-timestamp">&bull; 26 jan</div>
+  </div>
+)
 export default HeaderTitle;
