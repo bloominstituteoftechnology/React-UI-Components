@@ -1,1 +1,17 @@
 /* All styles for your Card Components live here */
+.cardBanner {
+    background-image: url("https://ibin.co/3wnC6SgIOJud.png");
+    height: 600px;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: 300px 100px;
+}
+
+.cardTitle {
+    font-weight: bold;
+}
+
+.cardCon {
+    text-decoration: none;
+    color: black;
+}
