@@ -157,6 +157,15 @@ class App extends React.Component {
       );
     }
 
+        // .
+        if(e.currentTarget.innerHTML === ".") {
+          this.setState(
+            {
+              expression: this.state.expression += "."
+            }
+          );
+        }
+
 
 
 
@@ -194,7 +203,8 @@ class App extends React.Component {
           </div>
 
           <div className="btn-wrapper">
-            <NumberButton clickfn={this.handleClick} type="wide-btn num-btn" value="0" />
+            <NumberButton clickfn={this.handleClick} type="wide-btn zero num-btn" value="0" />
+            <NumberButton clickfn={this.handleClick} type="num-btn" value="." />
             <ActionButton clickfn={this.handleClick} type="danger-btn" value="=" />
           </div>
 
