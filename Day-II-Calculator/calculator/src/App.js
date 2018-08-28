@@ -60,7 +60,7 @@ class App extends React.Component {
     if(e.currentTarget.innerHTML === "=") {
       this.setState(
         {
-          expression: (eval(this.state.expression))
+          expression: (eval(this.state.expression).toFixed(10))
         }
       );
     }

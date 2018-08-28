@@ -4,10 +4,11 @@
   width: 400px;
   padding: 10px;
   height: 100px;
-  font-size: 50px;
+  font-size: 30px;
   text-align: right;
   justify-content: flex-end;
   align-items: center;
   background-color: #222;
   color: #fff;
+  overflow: hidden;
 }
