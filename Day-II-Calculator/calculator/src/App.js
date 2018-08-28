@@ -31,25 +31,33 @@ class App extends React.Component {
         operator: "",
         num2: "",
       });
-    } else if ((Number(innerText) || innerText === "0") && !this.state.operator) {
+    }
+    
+    if ((Number(innerText) || innerText === "0") && !this.state.operator) {
       // if num is pressed, and no operator was pressed, concat to num1 in state
       this.setState((prevState) => ({ 
         display: (this.state.display ? this.state.display : "") + innerText,
         num1: prevState.num1.concat(innerText), 
       }));
-    } else if ((Number(innerText) || innerText === "0") && this.state.operator) {
+    }
+    
+    if ((Number(innerText) || innerText === "0") && this.state.operator) {
       // if num is pressed, and an operator was pressed, concat to num2 in state
       this.setState((prevState) => ({ 
         display: (this.state.display ? this.state.display : "") + innerText,
         num2: prevState.num2.concat(innerText), 
       }));
-    } else if (operatorArray.includes(innerText)) {
+    }
+    
+    if (operatorArray.includes(innerText)) {
       // if button pressed is an operator, make that value the operator in state
       this.setState((prevState) => ({ 
         display: innerText,
         operator: innerText,
       }));
-    } else if (innerText === "=") {
+    }
+    
+    if (innerText === "=") {
       // if equal sign is pressed, calculate the result
       let result;
 
@@ -72,6 +80,7 @@ class App extends React.Component {
       // convert result into a string
       result = ("" + result);
 
+      // set display and num1 to result, reset operator and num2
       this.setState({ 
         display: result,
         num1: result,
