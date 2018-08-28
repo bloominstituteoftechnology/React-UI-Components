@@ -1,0 +1,20 @@
+.display{
+    grid-column: 1/5;
+    width: 100%;
+    grid-area: 'header';
+    background-color: black;
+    color: white;
+    border: 1px solid gray;
+    align-items: center;
+    justify-self: end;
+    display: flex;
+    justify-content: flex-end;
+    
+    
+}
+
+.total{
+    font-size: 4.5rem;
+    font-weight: lighter;
+    padding-right: 5%;
+}
