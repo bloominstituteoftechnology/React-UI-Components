@@ -33,16 +33,16 @@ class App extends React.Component {
       });
     }
     
-    if ((Number(innerText) || innerText === "0") && !this.state.operator) {
-      // if num is pressed, and no operator was pressed, concat to num1 in state
+    if ((Number(innerText) || innerText === "0") && !this.state.operator && ("" + this.state.display).length < 10) {
+      // if num is pressed AND no operator was pressed AND display is less than 10 chars, concat to num1 in state
       this.setState((prevState) => ({ 
         display: (this.state.display ? this.state.display : "") + innerText,
         num1: prevState.num1.concat(innerText),
       }));
     }
     
-    if ((Number(innerText) || innerText === "0") && this.state.operator) {
-      // if num is pressed, and an operator was pressed, concat to num2 in state
+    if ((Number(innerText) || innerText === "0") && this.state.operator && ("" + this.state.display).length < 10) {
+      // if num is pressed AND an operator was pressed AND display is less than 10 chars, concat to num2 in state
       this.setState((prevState) => ({ 
         display: (this.state.display ? this.state.display : "") + innerText,
         num2: prevState.num2.concat(innerText), 
@@ -66,7 +66,7 @@ class App extends React.Component {
         }));
       }
     }
-    
+
     if (innerText === "=") {
       // if equal sign is pressed, calculate the result
       let result;
