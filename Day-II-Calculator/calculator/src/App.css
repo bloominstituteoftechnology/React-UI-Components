@@ -1,0 +1,199 @@
+.main-container{
+    max-width: 500px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 125px 100px 100px 100px 100px 100px;
+    grid-template-areas: 
+        'header header header header'
+        'clear clear clear divide'
+        'seven eight nine multiply'
+        'four five six minus'
+        'one two three plus'
+        'zero zero zero equals';
+        justify-items: center;
+        border: 1px solid gray;
+}
+
+.zero{
+    grid-column: 1/4;
+    grid-area: 'zero';
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid gray;
+    
+}
+
+.one{
+    grid-area: 'one';
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid gray;
+}
+
+.two{
+    grid-area: 'two';
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid gray;
+}
+
+.three{
+    grid-area: 'three';
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid gray;
+}
+
+.four{
+    grid-area: 'four';
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid gray;
+}
+
+.five{
+    grid-area: 'five';
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid gray;
+}
+
+.six{
+    grid-area: 'six';
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid gray;
+}
+
+.seven{
+    grid-area: 'seven';
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid gray;
+}
+
+.eight{
+    grid-area: 'eight';
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid gray;
+}
+
+.nine{
+    grid-area: 'nine';
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid gray;
+}
+
+.clear{
+    grid-column: 1/4;
+    grid-area: 'clear';
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid gray;
+}
+
+.divide{
+    grid-area: 'divide';
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: maroon;
+    color: white;
+    border: 1px solid gray;
+}
+
+.multiply{
+    grid-area: 'multiply';
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: maroon;
+    color: white;
+    border: 1px solid gray;
+
+}
+
+.minus{
+    grid-area: 'minus';
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: maroon;
+    color: white;
+    border: 1px solid gray;
+}
+
+.plus{
+    grid-area: 'plus';
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: maroon;
+    color: white;
+    border: 1px solid gray;
+}
+
+.equals{
+    grid-area: 'equals';
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: maroon;
+    color: white;
+    border: 1px solid gray;
+}
+
+#clear{
+    font-weight: lighter;
+    font-size: 3rem;
+}
+
+#divide{
+    font-weight: lighter;
+}
+
+#multiply{
+    font-weight: lighter;
+}
+
+#minus{
+    font-weight: lighter;
+}
+
+#plus{
+    font-weight: lighter;
+}
+
+#equals{
+    font-weight: lighter;
+}
