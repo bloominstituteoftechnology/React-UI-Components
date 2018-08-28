@@ -1,0 +1,29 @@
+.number-button {
+  border: none;
+  width: 25%;
+  border: 1px solid darkgray;
+  padding-top: 2px;
+  height: 70px;
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.action-button {
+  border: none;
+  width: 75%;
+  border: 1px solid darkgray;
+  padding-top: 2px;
+  height: 70px;
+  font-size: 3rem;
+  font-weight: 300;
+}
+
+.zero {
+  font-weight: 700;
+}
+
+.symbol {
+  background: darkred;
+  color: white;
+  font-weight: 200;
+}

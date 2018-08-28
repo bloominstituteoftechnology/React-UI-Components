@@ -1,0 +1,9 @@
+* {
+  box-sizing: border-box;
+}
+
+.calculator-wrapper {
+  width: 400px;
+  margin: 50px;
+  border: 2px solid darkgray;
+}

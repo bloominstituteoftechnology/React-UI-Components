@@ -1,1 +1,32 @@
 /* All styles for your Card Components live here */
+a {
+  text-decoration: none;
+}
+
+.card-container {
+  margin-left: 10%;
+  border: 1px solid lightgray;
+  border-radius: 1%;
+}
+
+.banner-container img {
+  width: 100%;
+}
+
+.card-content {
+  margin: 12px;
+  color: black;
+  line-height: 1.6;
+}
+
+.card-content h1 {
+  font-weight: bold;
+}
+
+.card-content p {
+  line-height: 1.2;
+}
+
+.card-content h2 {
+  color: darkgray;
+}
