@@ -1,0 +1,12 @@
+.btn-wrapper {
+  height: 100px;
+  display: flex;
+}
+
+.num-btn {
+  width: 100px;
+  border: 1px solid #333;
+  line-height: 100px;
+  font-size: 50px;
+}
+

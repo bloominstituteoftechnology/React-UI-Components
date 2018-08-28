@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.css";
+import "./components/ButtonComponents/Button.css";
 import CalculatorDisplay from "./components/DisplayComponents/CalculatorDisplay";
 import ActionButton from "./components/ButtonComponents/ActionButton";
 import NumberButton from "./components/ButtonComponents/NumberButton";
@@ -32,7 +33,7 @@ const App = () => {
             <NumberButton type="numbtn" value="1" />
             <NumberButton type="numbtn" value="2" />
             <NumberButton type="numbtn" value="3" />
-            <ActionButton type="dangerbtn" value="+" />
+            <ActionButton type="danger-btn" value="+" />
           </div>
 
           <div className="btn-wrapper">
