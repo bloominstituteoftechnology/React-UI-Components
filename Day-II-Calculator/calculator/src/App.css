@@ -1,0 +1,79 @@
+.calculator {
+    border: 1px solid black;
+    margin: 50px;
+    width: 275px;
+    height: 404px;
+    background: black;
+}
+
+.calculator h1 {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10px;
+    font-weight: 100;
+    color: white;
+    background: black;
+}
+
+.calcDisplay {
+    display: flex;
+}
+
+.calcDisplay .numbers {
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.calcDisplay .numbers h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    width: 28%;
+    height: 28%;
+    margin: 0px;
+    border-left: none;
+    border-top: none;
+    background: white;
+}
+
+.calcDisplay .numbers h3 {
+    font-size: 24px;
+    border: 1px solid black;
+    width: 76.5%;
+    height: 11%;
+    text-align: center;
+    padding: 20px 10px;
+    margin: 0;
+    border-left: none;
+    background: white;
+}
+
+.calcDisplay .numbers .clear {
+    font-weight: 100;
+}
+
+.calcDisplay .numbers .zero {
+    border-top: none;
+}
+
+.calculator .actionButtons h2 {
+    position: relative;
+    right: 36px;
+    top: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-bottom: none;
+    border-top: none;
+    margin: 0;
+    width: 401%;
+    height: 28.2%;
+    margin-top: 1px;
+    color: white;
+    background: rgb(170, 0, 0);
+    font-weight: 100;
+
+}
