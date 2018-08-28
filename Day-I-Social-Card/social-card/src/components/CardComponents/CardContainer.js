@@ -1,6 +1,6 @@
 import React from 'react';
-import CardBanner from '../CardComponents/CardBanner';
-import CardContent from '../CardComponents/CardContent';
+import CardBanner from './CardBanner';
+import CardContent from './CardContent';
 import './Card.css';
 
 const CardContainer = () => {

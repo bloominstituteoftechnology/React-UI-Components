@@ -1,0 +1,41 @@
+.button-container {
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.number-button {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #979797;
+    background-color: #ffffff;
+    color: #222222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.number-button p {
+    font-size: 20px;
+}
+
+.action-button {
+    width: 300px;
+    height: 100px;
+    border: 1px solid #979797;
+    background-color: #ffffff;
+    color: #222222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.operator-button {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #979797;
+    background-color: #a0001e;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
