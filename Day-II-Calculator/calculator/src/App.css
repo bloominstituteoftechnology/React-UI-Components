@@ -1,0 +1,6 @@
+.calculator-container {
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  border: 1px solid darkgray;
+}
