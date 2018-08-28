@@ -32,19 +32,16 @@ function divide(){
 
 function times(){
 	removeListeners();
-	actionBtns[1].removeEventListener('click', times);
 	numCal.innerHTML += " X ";
 }
 
 function minus(){
 	removeListeners();
-	actionBtns[2].removeEventListener('click', minus);
 	numCal.innerHTML += " – ";
 }
 
 function add(){
 	removeListeners();
-	actionBtns[3].removeEventListener('click', add);
 	numCal.innerHTML += " + ";
 }
 
