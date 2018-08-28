@@ -50,16 +50,16 @@ table {
 }
 
     .header-container {
-      border: 1px solid red;
+      /* border: 1px solid red; */
       display: flex;
       width: 589px;
     }
 
     .header-thumbnail {
-      border: 1px solid green;
+      /* border: 1px solid green; */
       height: 46px;
       color: white;
-      background-color: red;
+      /* background-color: red; */
       border-radius: 50px;
       width: 47px;
       margin-top: 14px;
@@ -69,7 +69,8 @@ table {
     }
 
     .header-title-text {
-      border: 1px solid lightblue;
+      /* border: 1px solid lightblue; */
+      margin-left: 3px;
     }
 
       .main-header-title {
@@ -109,6 +110,6 @@ table {
           font-size: 14px;
           font-weight: normal;
           font-family: sans-serif;
-          line-height: 1.2rem;
+          line-height: 1.3rem;
               padding-bottom: 13px;
         }

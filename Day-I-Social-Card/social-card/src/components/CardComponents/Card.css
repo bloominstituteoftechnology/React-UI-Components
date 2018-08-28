@@ -51,19 +51,20 @@ table {
 }
 
 .card-container {
-  border: 1px solid violet;
-  width: 589px;
+  border: 1px solid darkgray;
+  width: 504px;
+  margin-left: 63px;
+  border-radius: 5px;
 }
 
     .card-banner {
-
-      margin-left: 69px;
-      width: 84%;
+      width: 100%;
     }
 
     .card-content {
-      border: 1px solid lightblue;
-      padding-left: 74px;
+      /* border: 1px solid lightblue; */
+      padding-left: 13px;
+      height: 90px;
     }
 
       .card-h {
@@ -80,7 +81,9 @@ table {
         font-size: 14px;
         font-weight: normal;
         font-family: sans-serif;
-        line-height: 1.4rem;
+        line-height: 1.3rem;
+        margin-top: 6px;
+
       }
 
       a {
