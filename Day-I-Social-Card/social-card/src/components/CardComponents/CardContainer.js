@@ -1,7 +1,17 @@
 import React from 'react';
 import './Card.css';
 
-const CardContainer = () => <div className="container">This is the Card Container</div>
+import CardBanner from './CardBanner'
+import CardContent from './CardContent'
+
+const CardContainer = () => {
+  return (
+    <div className="card-container">
+      <CardContent />
+      <CardBanner />
+    </div>
+  )
+}
 
 
 export default CardContainer

@@ -1,1 +1,82 @@
 /* All styles for your Card Components live here */
+
+.container {
+  display: flex;
+  flex-direction: column;
+
+  max-width: 583px;
+  width: 100%;
+  max-height: 502px;
+  height: 100%;
+  letter-spacing: 0.15px;
+}
+
+.header-container {
+
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.lambda-logo {
+
+  width: 58px;
+  height: 58px;
+}
+
+.heading {
+
+  width: 80%;
+  display: flex;
+  height: 35px;
+}
+
+
+.heading-title {
+
+  display: inline-block;
+  margin: 11px 0;
+  font-size: 14px;
+}
+
+.heading-details {
+
+  display: inline-block;
+  margin: 13px 2px;
+  font-size: 12px;
+  color: gray;
+}
+
+.header-content {
+
+  margin: -25px 6px 3px 64px;
+  font-size: 14px;
+}
+
+.card-container {
+
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.card-content {
+
+  argin: 0 0 0 66px;
+}
+
+h2 {
+
+  font-size: 14px;
+  margin: 15px 0px 0 11px;
+}
+
+.card-content {
+
+  margin: 6px 37px 0 11px;
+  font-size: 14px;
+}
+
+.react-logo {
+
+  width: 502px;
+  margin: 0 0 0 66px;
+}

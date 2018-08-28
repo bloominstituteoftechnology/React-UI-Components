@@ -1,7 +1,7 @@
 import React from 'react';
 import './Card.css';
 
-const CardBanner = () => <img src="../../../images/react-logo.jpg" alt="react logo" />;
+const CardBanner = () => <img src="https://ibin.co/3wnC6SgIOJud.png" alt="react logo" className="react-logo"/>;
 
 
 export default CardBanner
