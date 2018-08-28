@@ -2,29 +2,45 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background: #FFF;
+    border: 1px solid #979797;
     width: 73%;
     height: 16%;
-    background: #FFF;
     font-size: 44px;
-    border: 1px solid #979797;
 }
 
-.operator-btn {
-    background: #A0001E;
+.zero-btn {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 27%;
+    background: #FFF;
+    border: 1px solid #979797;
+    width: 73%;
     height: 16%;
     font-size: 44px;
+    font-weight: bold;
+}
+
+.operator-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #A0001E;
     color: #FFF;
     border: 1px solid #979797;
+    width: 27%;
+    height: 16%;
+    font-size: 85px;
 }
 
 .number-btn {
-    width: 100px;
-    height: 50px;
-    border: 1px solid #979797;
-    font-size: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background: #FFF;
+    border: 1px solid #979797;
+    width: 24.333%;
+    height: 16%;
+    font-size: 44px;
+    font-weight: bold;
 }

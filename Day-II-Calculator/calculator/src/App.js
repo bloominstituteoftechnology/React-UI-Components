@@ -30,6 +30,10 @@ const App = () => {
       <NumberButton buttonStyle="number-btn" text="3" />
 
       <ActionButton buttonStyle="operator-btn" text="+" />
+
+      <ActionButton buttonStyle="zero-btn" text="0" />
+      
+      <ActionButton buttonStyle="operator-btn" text="=" />
       {/* <h3>Welcome to React Calculator</h3>
       <p>
         We have given you a starter project. You'll want to build out your
