@@ -3,11 +3,13 @@ import './Header.css';
 
 import Thumbnail from './ImageThumbnail';
 import HeaderTitle from './HeaderTitle';
+import HeaderContent from './HeaderContent';
 
 const Header = () =>(
-    <div>
+    <div class='header'>
         <Thumbnail />
         <HeaderTitle />
+        <HeaderContent />
     </div>
 );
 
