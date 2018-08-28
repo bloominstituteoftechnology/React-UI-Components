@@ -3,10 +3,11 @@ import './App.css';
 import HeaderContainer from './components/HeaderComponents/HeaderContainer.js';
 import CardContainer from './components/CardComponents/CardContainer.js';
 
+
 const App = () => (
     <div className="container">
-     <HeaderContainer/>
-     <CardContainer/>
+      <HeaderContainer/>
+      <CardContainer/>
     </div>
   );
 

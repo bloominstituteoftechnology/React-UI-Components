@@ -1,6 +1,5 @@
 /* All styles for your Card Components live here */
 .CardContainer{
-    border:1px solid purple;
     height: 360px;
     padding-left:11%;
 }

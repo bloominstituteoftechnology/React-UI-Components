@@ -4,10 +4,12 @@ import CardBanner from './CardBanner.js'
 import CardContent from './CardContent.js'
 
 const CardContainer = () => (
-    <div className="CardContainer">
-        <CardBanner/>
-        <CardContent/>
-    </div>
+    <a href ="https://react.org">
+        <div className="CardContainer">
+            <CardBanner/>
+            <CardContent/>
+        </div>
+    </a>
 );
 
 export default CardContainer;

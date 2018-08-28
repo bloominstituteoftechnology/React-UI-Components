@@ -2,13 +2,11 @@
 .header-container{
     display:flex;
     height: 102px;
-    border: 1px solid red;
 }
 
 img{
     width:9.5%;
     height:61px;
-    border: 1px solid lightgreen;
 
 }
 
@@ -19,7 +17,7 @@ img{
 
 .header-title h1{
     font-size:0.8rem;
-    margin: 15px 1% -5px 1%;
+    margin: 15px 2% -5px 2%;
 }
 
 .handle{
@@ -28,7 +26,8 @@ img{
 
 .header-content p{
     width: 95%;
-    padding-left:1%;
+    padding-left:2%;
     font-size:0.875rem;
+    line-height:19px;
 }
 
