@@ -1,0 +1,14 @@
+.black-div {
+  background-color: black;  
+  margin-top: 0;
+  display: flex; 
+  justify-content: flex-end;
+  height: 126px;
+}
+
+p {
+  color: white;
+  font-size: 4.7rem;
+  margin-right: 11px;
+  margin-top: 24px;
+}
