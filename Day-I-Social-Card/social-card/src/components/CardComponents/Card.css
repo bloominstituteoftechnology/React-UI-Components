@@ -27,6 +27,7 @@
 
 }
 
-.card-content {
+a {
   text-decoration: none;
+  color: inherit;
 }
