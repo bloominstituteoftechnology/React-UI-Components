@@ -1,0 +1,27 @@
+.button-wrap {
+  height: 100px;
+  display: flex;
+}
+.number-button {
+  width: 116.5px;
+  border: 1px solid grey;
+  line-height: 100px;
+  font-size: 50px;
+}
+
+.action-button {
+  line-height: 100px;
+  font-size: 70px;
+  width: 150px;
+}
+
+.wide-button {
+  width: 350px;
+  border: 1px solid grey;
+}
+
+.danger-button {
+  color: #fff;
+  background-color: #9e0523;
+  border: 1px solid grey;
+}
