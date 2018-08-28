@@ -2,10 +2,10 @@ import React from 'react';
 import './Button.css';
 
 
-function ActionButton(props) {
+  function MathButton(props) {
     return (
         <button className={props.buttonStyle}>{props.text}</button>
     );
   }
 
-  export default ActionButton;
+  export default MathButton;

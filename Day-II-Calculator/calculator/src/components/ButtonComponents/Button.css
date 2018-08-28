@@ -1,0 +1,23 @@
+.numberButtonStyle {
+    width: 90px;
+    height: 70px;
+    background: white;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.mathButtonStyle {
+    width: 90px;
+    height: 70px;
+    background: red;
+    font-weight: bold;
+    font-size: 30px; 
+}
+
+.actionButtonStyle {
+    width: 270px;
+    height: 70px;
+    background: white;
+    font-weight: bold;
+    font-size: 30px;
+}
