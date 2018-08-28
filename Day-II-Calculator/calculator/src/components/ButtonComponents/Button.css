@@ -1,0 +1,72 @@
+.actionbtn {
+    max-width: 400px;
+    width: 100%;
+    margin-left: 32.5%;
+    border: 1px solid gray;
+    height: 90px;
+}
+
+.btntext {
+    text-align: center;
+    font-size: 36px;
+    font-family: Arial, sans-serif;
+    font-weight: lighter;
+    color: gray;
+    letter-spacing: 2px;
+
+}
+
+.mathbtns {
+    max-width: 100px;
+    width: 100%;
+    margin-left: 60.44%;
+    margin-top: -130.5px;
+}
+
+.mathbtntext {
+    border: 0.5px solid gray;
+    background: maroon;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 48px;
+    text-align: center;
+    height: 70px;
+    padding-top: 20px;
+    margin-bottom: -40px;
+}
+
+.bottombtns {
+    margin-top: -40px;
+}
+
+
+.numbers {
+    height: 300px;
+    margin-left: 32.5%;
+    margin-top: -389.25px;
+}
+
+.numberrow {
+    max-width: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.numberrow2 {
+    margin-top: -52.75px;
+}
+
+.numberrow3 {
+    margin-top: -53px;
+}
+
+.number {
+    border: 0.5px solid gray;
+    width: 33.33%;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    font-size: 32px;
+    height: 70px;
+    padding-top: 20px;
+}

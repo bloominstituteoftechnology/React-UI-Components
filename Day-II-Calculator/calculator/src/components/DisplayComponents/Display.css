@@ -1,0 +1,16 @@
+.displaybox {
+    max-width: 500px;
+    width: 100%;
+    background: black;
+    border: 1px solid gray;
+    height: 140px;
+    margin: 0 auto;
+}
+
+.defaultdisplay {
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 72px;
+    font-weight: lighter;
+    margin-left: 90%;
+}
