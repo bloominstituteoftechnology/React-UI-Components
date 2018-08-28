@@ -3,3 +3,20 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+.digits{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  flex-flow: row wrap;
+
+  align-content: flex-end;
+}
+button{
+  width:50px;
+  height:50px;
+  background:#1f3585;
+}
