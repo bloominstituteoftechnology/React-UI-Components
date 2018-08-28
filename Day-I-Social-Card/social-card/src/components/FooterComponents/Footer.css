@@ -1,0 +1,9 @@
+.footer-div {
+    max-width: 1025px;
+    width: 55%;
+    padding-left: 14%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 0px;
+}

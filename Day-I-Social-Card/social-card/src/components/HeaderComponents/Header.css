@@ -1,1 +1,26 @@
 /* All styles for your header Components live here */
+.container-header {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+}
+.thumb-img {
+    height: 100px;
+}
+
+.header-title-wrapper {
+    margin-left: 3%;
+    margin-top: 20px;
+}
+
+.thumb-nail {
+    margin: 0;
+    padding: 0;
+    height: 100px;
+}
+
+.lambda-school-title {
+    font-weight: bold;
+}
+
