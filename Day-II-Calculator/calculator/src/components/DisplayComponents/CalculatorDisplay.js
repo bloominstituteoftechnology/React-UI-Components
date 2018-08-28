@@ -2,8 +2,9 @@ import React from 'react';
 import './Display.css';
 
 const CalculatorDisplay = (props) => {
+
     return (
-        <div className="output-display">
+        <div className={props.class.style}>
             <div className="number-display">{props.number.text}</div>
         </div>
     );

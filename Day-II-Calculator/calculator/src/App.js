@@ -6,12 +6,14 @@ import CalculatorDisplay from './components/DisplayComponents/CalculatorDisplay'
 const App = () => {
 
   const display = {
-    text: 0
+    text: 0,
+    style: "output-display"
   };
+
 
   return (
     <div className="container">
-      <CalculatorDisplay number={display}/>
+      <CalculatorDisplay number={display} class={display}/>
       <ButtonContainer />
     </div>
   );
