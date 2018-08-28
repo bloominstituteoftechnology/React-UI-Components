@@ -3,6 +3,9 @@ import "./App.css";
 import NumberButton from "../src/components/ButtonComponents/NumberButton.js";
 import ActionButton from "../src/components/ButtonComponents/ActionButton.js";
 import DisplayScreen from "../src/components/DisplayComponents/CalculatorDisplay.js";
+
+let result = 0;
+
 const App = () => {
   return (
     <div>
@@ -19,7 +22,7 @@ const App = () => {
         </strong>
       </p>
       <div class="calculator-container">
-        <DisplayScreen result="0" />
+        <DisplayScreen result={result} />
         <div class="keyboard">
           <div className="number-container">
             <ActionButton type="clear" buttonStyle="large-button" />
