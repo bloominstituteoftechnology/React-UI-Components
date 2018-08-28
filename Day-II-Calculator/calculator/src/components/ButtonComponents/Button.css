@@ -1,0 +1,49 @@
+.keyboard {
+  display: flex;
+
+  width: 270px;
+}
+
+.number-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 202px;
+}
+
+.btn {
+  width: 65px;
+  height: 45px;
+  cursor: pointer;
+  border: 1px solid gray;
+  font-size: 24px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.btn a {
+  color: black;
+  text-decoration: none;
+}
+
+.number-button {
+  color: black;
+}
+
+.action-button {
+  background-color: darkred;
+  color: white;
+}
+.large-button {
+  width: 200px;
+  height: 43px;
+  color: black;
+  background-color: white;
+}
+
+.display {
+  width: 265px;
+  height: 70px;
+  background-color: black;
+  color: white;
+  border: 1px solid gray;
+}

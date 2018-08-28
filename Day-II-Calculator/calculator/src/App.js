@@ -1,5 +1,10 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+import "./App.css";
+import NumberButton from "../src/components/ButtonComponents/NumberButton.js";
+import ActionButton from "../src/components/ButtonComponents/ActionButton.js";
+import DisplayScreen from "../src/components/DisplayComponents/CalculatorDisplay.js";
+
+let result = 0;
 
 const App = () => {
   return (
@@ -16,6 +21,31 @@ const App = () => {
           inside of this file in order to make them work.
         </strong>
       </p>
+      <div class="calculator-container">
+        <DisplayScreen result={result} />
+        <div class="keyboard">
+          <div className="number-container">
+            <ActionButton type="clear" buttonStyle="large-button" />
+            <NumberButton number="7" />
+            <NumberButton number="8" />
+            <NumberButton number="9" />
+            <NumberButton number="4" />
+            <NumberButton number="5" />
+            <NumberButton number="6" />
+            <NumberButton number="1" />
+            <NumberButton number="2" />
+            <NumberButton number="3" />
+            <NumberButton number="0" buttonStyle="large-button" />
+          </div>
+          <div className="operator-container">
+            <ActionButton type="%" />
+            <ActionButton type="x" />
+            <ActionButton type="-" />
+            <ActionButton type="+" />
+            <ActionButton type="=" />
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
