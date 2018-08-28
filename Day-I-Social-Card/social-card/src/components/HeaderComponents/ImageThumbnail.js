@@ -5,7 +5,7 @@ const ImageThumbnail = () => {
     return (
         <img 
             className ="img-thumbnail" 
-            src="/src/components/HeaderComponents/LambdaLogo.png" 
+            src="LambdaLogo.png" 
             alt="Lambda School Logo">
         </img>
     );

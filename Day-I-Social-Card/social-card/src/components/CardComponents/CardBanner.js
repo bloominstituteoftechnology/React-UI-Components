@@ -5,7 +5,7 @@ const CardBanner = () => {
     return (
         <img 
             className ="card-background" 
-            src="./background.png" 
+            src="background.png" 
             alt="picture of a blue atom">
         </img>
     );
