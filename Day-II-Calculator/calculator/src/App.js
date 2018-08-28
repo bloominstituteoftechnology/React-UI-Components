@@ -30,7 +30,7 @@ const App = () => {
         <div class="right-side">
           <NumberButton buttonStyle="math-button" number="÷"/>
           <NumberButton buttonStyle="math-button" number="×"/>
-          <NumberButton buttonStyle="math-button" number="-"/>
+          <NumberButton buttonStyle="math-button" number="−"/>
           <NumberButton buttonStyle="math-button" number="+"/>
           <NumberButton buttonStyle="math-button" number="="/>
         </div>
