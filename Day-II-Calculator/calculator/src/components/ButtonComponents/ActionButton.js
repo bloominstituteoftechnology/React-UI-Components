@@ -5,7 +5,7 @@ const ActionButton = () => {
     return (
       <div class= 'textdisplay'>
         <form>
-        <input type='text' value='0' align='right'></input>
+        <input type='number' name ='calculation' placeholder='0' step='any' ></input>
         </form>
       </div>
     );

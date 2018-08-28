@@ -54,3 +54,9 @@ form input {
     color: whitesmoke;
     font-weight: 100;
 }
+/* //Change this once calc is activated// */
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
