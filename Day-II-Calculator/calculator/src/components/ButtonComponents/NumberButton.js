@@ -1,10 +1,10 @@
 import React from 'react';
 import './Button.css';
 
-// const MyNumberButton = () => {
-//     return (
-// 	<button className={props.button.buttonStyle}>{props.button.text}</button>
-//     );
-// };
+const MyNumberButton = (props) => {
+    return (
+	<button className={props.buttonStyle}>{props.text}</button>
+    );
+};
 
-// export default MyNumberButton;
+export default MyNumberButton;

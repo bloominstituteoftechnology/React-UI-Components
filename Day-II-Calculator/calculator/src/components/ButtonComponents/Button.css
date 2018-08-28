@@ -1,6 +1,6 @@
 .wide {
     width: 75%;
-    height: 120px;
+    height: 100px;
     background: white;
     color: #272727;
     font-size: 60px;
@@ -10,7 +10,7 @@
 
 .normal {
     width: 25%;
-    height: 120px;
+    height: 100px;
     background: white;
     color: #272727;
     font-size: 60px;
