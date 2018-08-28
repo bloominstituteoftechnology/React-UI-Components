@@ -3,11 +3,20 @@ import './Card.css';
 import CardBanner from './CardBanner';
 import CardContent from './CardContent';
 
-const CardContainer = () => (
-    <div className='card-container'>
-        <CardBanner />
-        <CardContent />
-    </div>
-);
+
+
+
+const CardContainer = () => {
+    this.handleClick = () =>{
+        window.location.replace("https://www.reactjs.org");
+    };
+    return (
+        <div className='card-container' onClick={this.handleClick}>
+            <CardBanner />
+            <CardContent />
+        </div>
+    );
+};
+
 
 export default CardContainer;
