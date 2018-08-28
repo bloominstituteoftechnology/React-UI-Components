@@ -15,3 +15,8 @@
   font-size: 50px;
   width: 100px;
 }
+
+.wide-btn {
+  width: 300px;
+  border: 1px solid #333;
+}
