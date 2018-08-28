@@ -1,0 +1,62 @@
+form {
+    width: 100%;
+}
+
+form input {
+    width: 398px;
+    height: 100px;
+    border: 2px solid black;
+    font-size: 5rem;
+    color: whitesmoke;
+    background-color: #3f4247;
+}
+
+.entrypad {
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: wrap;
+    border: 1px solid gray;
+}
+
+.entrypad h2 {
+    width: 17%;
+    display: flex;
+    justify-content: center;
+    outline: 1px solid black;
+    padding: 8% 4% 8% 4% ;
+    margin: 0%;
+    font-weight: bold;
+    font-size: 2.5rem;
+
+    
+
+}
+
+.entrypad .bigbutton {
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    outline: 1px solid black;
+    padding: 8% 4% 8% 4% ;; 
+    margin: 0%;
+    padding-right: 5.3%;
+    font-weight: 100;
+    font-size: 2.5rem;
+}
+
+.entrypad .symbol {
+    width: 17%;
+    outline: 2px solid black;
+    background-color: #a50101;
+    color: whitesmoke;
+    font-weight: 100;
+}
+/* //Change this once calc is activated// */
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}

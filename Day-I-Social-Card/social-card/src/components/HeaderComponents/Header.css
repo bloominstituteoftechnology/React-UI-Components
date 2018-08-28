@@ -1,1 +1,23 @@
 /* All styles for your header Components live here */
+
+.header-text{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-text h1 {
+    font-size: 1.5rem;
+    padding-left: 1%;
+}
+
+.header-text p {
+    color: lightgray;
+    padding-left: 1%;
+    padding-top: .5%;
+}
+
+.headerpara {
+    color: blueviolet;
+}
