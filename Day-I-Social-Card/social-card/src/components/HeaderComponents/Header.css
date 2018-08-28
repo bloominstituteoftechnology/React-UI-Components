@@ -1,4 +1,9 @@
 /* All styles for your header Components live here */
-div {
+.logo {
+    border: 2px solid purple;
+    width: 10%;
+}
+.headerContainer {
     display: flex;
+    flex-direction: row;
 }
