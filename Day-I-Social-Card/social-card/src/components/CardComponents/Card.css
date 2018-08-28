@@ -1,1 +1,32 @@
 /* All styles for your Card Components live here */
+
+.card {
+    /* background-color: red; */
+    height: 300px;
+    border-radius: 5px;
+}
+
+body {
+    max-width: 600px;
+}
+
+img {
+    width: 100%;
+    height: 250px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.cardcontent {
+    border: 1px solid #E5ECF0;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.greyedout {
+    color: #7F909D;
+}
+
+.marginleft {
+    padding-left: 10px;
+}
