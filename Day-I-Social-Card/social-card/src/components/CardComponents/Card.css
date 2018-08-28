@@ -9,6 +9,12 @@
 .card-banner {
     width: 100%;
     border-radius: 3px 3px 0 0;
+    /* overflow:hidden; */
+}
+.card-banner img {
+    width: 500px;
+    border-radius: 3px 3px 0 0;
+    overflow:hidden;
 }
 
 .card-content {
