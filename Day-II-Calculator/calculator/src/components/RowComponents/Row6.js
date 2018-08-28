@@ -6,8 +6,8 @@ import NumberButton from '../ButtonComponents/NumberButton'
 const Row6 = () => {
   return (
     <div className="Row6">
-      <ActionButton label="0" />
-      <NumberButton label="=" />
+      <ActionButton buttonStyle="large" label="0" />
+      <NumberButton buttonStyle="operation" label="=" />
     </div>
   );
 };
