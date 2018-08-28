@@ -1,0 +1,31 @@
+.action-button {
+    padding: 20px 0;
+    border: 1px solid #979797;
+    height: 92px;
+    width: 330px;
+    text-align: center;
+    background: white;
+}
+.action-button-bold {
+    font-weight: bold;
+}
+.font-weight-300 {
+    font-weight: 300;
+}
+.number-button {
+    text-align: center;
+    border: 1px solid #979797;
+    width: 110px;
+    height: 92px;
+    padding: 20px 0;
+    font-weight: bold;
+    background: white;
+}
+
+.math-button {
+    width: 110px;
+    height: 92px;
+    background: #a0001e;
+    color: white;
+    border: 1px solid #979797;
+}

@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 65.2%;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+button, p {
+    font-size: 4.2rem;
+}
+.container-input {
+    display: flex;
+}
+.number-buttons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 332px;
+}
+
+.right-side {
+    display: flex;
+    flex-direction: column;
+    margin-left: -5px;
+}

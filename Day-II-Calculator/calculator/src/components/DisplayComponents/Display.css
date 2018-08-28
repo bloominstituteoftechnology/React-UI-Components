@@ -1,0 +1,9 @@
+.display {
+    width: 436px;
+    text-align: right;
+    border: 1px solid grey;
+    height: 92px;
+    padding: 20px;
+    color: white;
+    background: #222222;
+}
