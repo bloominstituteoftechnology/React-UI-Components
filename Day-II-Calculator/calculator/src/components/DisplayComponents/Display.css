@@ -1,0 +1,15 @@
+.calcDisplay {
+    background-color: black;
+    width: 500px;
+    height: 100px;
+    border: 1px solid lightgray;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.calcDisplay p {
+    color: white;
+    height: 70%;
+    font-size: 4rem;
+}
