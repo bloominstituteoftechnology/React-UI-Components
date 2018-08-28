@@ -5,10 +5,11 @@
     flex-wrap: wrap;
     font-family: sans-serif;
     font-size: 3rem;
+    color: #222;
 }
 
 .display {
-    background: black;
+    background:#222;
     height: 126px;
     width: 451px;
     color: white;
