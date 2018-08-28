@@ -2,6 +2,8 @@ import React from 'react';
 import './Header.css';
 
 
-export default ImageThumbnail = () => (
-	<h1>Lambda School</h1>;
-);
+const HeaderTitle = () => {
+	return <h3>Lambda School @LambdaSchool - 26 jan</h3>
+}
+
+export default HeaderTitle;
