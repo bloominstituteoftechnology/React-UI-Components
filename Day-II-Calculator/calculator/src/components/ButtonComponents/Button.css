@@ -1,0 +1,13 @@
+.buttonstyle{
+    color: black;
+    background: white;
+    padding: 20px 30px;
+    font-weight: bold;
+    border: 1px solid lightgray;
+}
+
+
+.buttonstyle.zero{
+    width: 220px;
+    
+}

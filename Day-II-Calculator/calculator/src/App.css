@@ -1,0 +1,52 @@
+.display{
+    max-width: 275px;
+    display: flex;
+    flex-flow: row-reverse;
+    background: black;
+}
+
+.number-box{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 290px;
+}
+.zero-section{
+    width: 275px;
+    display: flex;
+}
+.buttonstyle.multiply{
+    padding: 20px 28.5px; 
+    background: red;
+    color:white;
+    
+}
+.buttonstyle.subtract{
+    background: red;
+    color:white;
+}
+.buttonstyle.add{
+    padding: 20px 28.5px;
+    background: red;
+    color:white;
+}
+.buttonstyle.total{
+    padding: 20px 28.5px;
+    background: red;
+    color:white;
+}
+.buttonstyle.divide{
+    padding: 20px 29px;
+    background: red;
+    color:white;
+}
+.buttonstyle.clear{
+    padding: 20px 87.5px;
+}
+.text{
+    text-align: center;
+}
+.clear-section{
+    width:275px;
+    display: flex;
+    font-weight: normal;
+}
