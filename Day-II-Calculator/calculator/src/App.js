@@ -5,15 +5,34 @@ import CalculatorDisplay from "./components/DisplayComponents/CalculatorDisplay"
 import ActionButton from "./components/ButtonComponents/ActionButton";
 import NumberButton from "./components/ButtonComponents/NumberButton";
 
+class App extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      calcTotal: 11111,
+      expression: ""
+    };
 
+    this.handleClick = this.handleClick.bind(this);
+  }
 
-const App = () => {
+  handleClick(e) {
+    alert(e.currentTarget.innerHTML);
+    if(e.currentTarget.innerHTML === "clear") {
+      this.setState(
+        {
+          calcTotal: 0
+        }
+      );
+    }
+  }
+  render() {
   return (
     <div className="main-wrapper">
       <div className="inner-wrapper">
-        <CalculatorDisplay />
+        <CalculatorDisplay num={this.state.calcTotal}/>
           <div className="btn-wrapper">
-            <ActionButton type="wide-btn" value="clear" />
+            <ActionButton clickfn={this.handleClick} type="wide-btn" value="clear" />
             <ActionButton type="danger-btn divide-btn" value="&divide;" />
           </div>
 
@@ -47,6 +66,7 @@ const App = () => {
       </div>
     </div>
   );
+}
 };
 
 export default App;

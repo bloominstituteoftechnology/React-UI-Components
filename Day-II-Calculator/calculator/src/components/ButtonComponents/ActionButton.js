@@ -2,7 +2,7 @@ import React from 'react';
 
 function  ActionButton(props) {
   return (
-    <button className={`action-btn ${props.type}`}>{props.value}</button>
+    <button className={`action-btn ${props.type}`} onClick={props.clickfn}>{props.value}</button>
   );
 };
 
