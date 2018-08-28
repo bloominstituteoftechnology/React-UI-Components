@@ -12,4 +12,11 @@ const Footer = () => {
     );
 };
 
+// let tweet = document.querySelector('.fas fa-retweet');
+// count = 0;
+// tweet.click = function () {
+//     count += 1;
+//     tweet.innerHTML = count;
+// }
+
 export default Footer;
