@@ -1,0 +1,16 @@
+.footer{
+ display: flex;
+ margin-top: 30px;
+}
+
+.footer .fa{
+  margin-right: 15%;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  color: gray;
+ }
+
+ .footer span{
+  margin-left: 20px;
+}
+

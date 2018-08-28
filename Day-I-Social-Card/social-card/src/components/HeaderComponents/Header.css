@@ -1,1 +1,22 @@
 /* All styles for your header Components live here */
+
+.header-container{
+  display: flex;
+}
+
+.header-thumbnail .LambdaLogo{
+  height: 70px;
+  margin-top: 10px;
+}
+
+.header-title h3{
+  margin-left: 10px;
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.header-content{
+  margin-left: 10px;
+  width: 50vw;
+}
+
