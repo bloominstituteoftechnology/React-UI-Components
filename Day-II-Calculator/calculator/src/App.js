@@ -33,29 +33,29 @@ class App extends React.Component {
 
         <ActionButton onClick={this.handleClick} buttonStyle="clear-btn" text="clear" />
         
-        <ActionButton onClick={this.handleClick} buttonStyle="operator-btn" text="÷" />
+        <ActionButton onClick={this.handleClick} buttonStyle="operator-btn" text="&divide;" />
         
         <NumberButton onClick={this.handleClick} buttonStyle="number-btn" text="7" />
         <NumberButton onClick={this.handleClick} buttonStyle="number-btn" text="8" />
         <NumberButton onClick={this.handleClick} buttonStyle="number-btn" text="9" />
 
-        <ActionButton onClick={this.handleClick} buttonStyle="operator-btn" text="x" />
+        <ActionButton onClick={this.handleClick} buttonStyle="operator-btn" text="&times;" />
 
         <NumberButton onClick={this.handleClick} buttonStyle="number-btn" text="4" />
         <NumberButton onClick={this.handleClick} buttonStyle="number-btn" text="5" />
         <NumberButton onClick={this.handleClick} buttonStyle="number-btn" text="6" />
 
-        <ActionButton onClick={this.handleClick} buttonStyle="operator-btn" text="-" />
+        <ActionButton onClick={this.handleClick} buttonStyle="operator-btn" text="&minus;" />
 
         <NumberButton onClick={this.handleClick} buttonStyle="number-btn" text="1" />
         <NumberButton onClick={this.handleClick} buttonStyle="number-btn" text="2" />
         <NumberButton onClick={this.handleClick} buttonStyle="number-btn" text="3" />
 
-        <ActionButton onClick={this.handleClick} buttonStyle="operator-btn" text="+" />
+        <ActionButton onClick={this.handleClick} buttonStyle="operator-btn" text="&#x2b;" />
 
         <ActionButton onClick={this.handleClick} buttonStyle="zero-btn" text="0" />
         
-        <ActionButton onClick={this.handleClick} buttonStyle="operator-btn" text="=" />
+        <ActionButton onClick={this.handleClick} buttonStyle="operator-btn" text="&#x3d;" />
       </div>
     );
   }
