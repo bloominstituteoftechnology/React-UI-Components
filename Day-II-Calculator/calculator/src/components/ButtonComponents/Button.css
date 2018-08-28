@@ -9,6 +9,9 @@
 .action-button-bold {
     font-weight: bold;
 }
+.font-weight-300 {
+    font-weight: 300;
+}
 .number-button {
     text-align: center;
     border: 1px solid #979797;

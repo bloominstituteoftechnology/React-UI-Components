@@ -6,11 +6,11 @@ import ActionButton from './components/ButtonComponents/ActionButton';
 const App = () => {
   return (
     <div class="container">
-    <CalculatorDisplay />
+    <CalculatorDisplay displayStyle="display font-weight-300"/>
       <div class="container-input">
         <div class="left-side">
           <div class="action-buttons">
-            <ActionButton buttonStyle="action-button" text="clear"/>
+            <ActionButton buttonStyle="action-button font-weight-300" text="clear"/>
           </div>
           <div className="number-buttons">
             <NumberButton buttonStyle="number-button" number="7"/>
