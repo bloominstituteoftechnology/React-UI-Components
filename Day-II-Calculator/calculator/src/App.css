@@ -1,5 +1,7 @@
 .calculator {
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    padding: 10% 10%;
+    align-items: center;
+    padding: 15% 15%;
 }
