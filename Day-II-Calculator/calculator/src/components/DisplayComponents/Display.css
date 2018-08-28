@@ -54,4 +54,7 @@ table {
   color: white;
   font-size: 80px;
   background-color: black;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
