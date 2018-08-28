@@ -5,7 +5,7 @@ import './Display.css';
 const CalDisplay = (props) => (
 
 	<div className="display-cal">
-		<div>{props.nums.zero}</div>
+		<div className="to-cal">{props.nums.zero}</div>
 	</div>
 
 );
