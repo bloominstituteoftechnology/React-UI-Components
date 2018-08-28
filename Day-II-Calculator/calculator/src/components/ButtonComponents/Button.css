@@ -1,0 +1,14 @@
+.number-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 110px;
+  height: 94px;
+  font-weight: bold;
+  border: 1px solid #979797;
+}
+
+.fat {
+  width: 334px;
+  height: 94px;
+}

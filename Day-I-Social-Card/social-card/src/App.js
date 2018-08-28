@@ -9,7 +9,7 @@ const App = () => {
     <div>
       <HeaderContainer thumbnail= 'https://ibin.co/3whrpKSBbZ81.png' name='Lambda School' handle='LambdaSchool' date='26 jan' />
       <CardContainer banner='https://ibin.co/3wnC6SgIOJud.png' title='Get started with React' link='reactjs.org' />
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 };
