@@ -16,6 +16,8 @@ class App extends React.Component {
     };
 
     this.handleClick = this.handleClick.bind(this);
+    this.handleMouseEnter = this.handleMouseEnter.bind(this);
+    this.handleMouseLeave = this.handleMouseLeave.bind(this);
   }
 
   handleClick(e) {
@@ -98,6 +100,16 @@ class App extends React.Component {
         num2: "",
       });
     }
+  } // handleClick(e)
+
+  handleMouseEnter(e) {
+    e.target.style.backgroundColor = "black";
+    e.target.style.color = "white";
+  }
+
+  handleMouseLeave(e) {
+    e.target.style.backgroundColor = "white";
+    e.target.style.color = "black";
   }
 
   render() {
@@ -105,29 +117,29 @@ class App extends React.Component {
       <div className="app">
         <CalculatorDisplay display={ this.state.display } />
 
-        <ActionButton onClick={this.handleClick} buttonStyle="clear-btn" text="clear" />
+        <ActionButton onClick={this.handleClick} onMouseEnter={this.handleMouseEnter} onMouseLeave={this.handleMouseLeave} buttonStyle="clear-btn" text="clear" />
         
         <ActionButton onClick={this.handleClick} buttonStyle="operator-btn" text="&divide;" />
         
-        <NumberButton onClick={this.handleClick} buttonStyle="number-btn" text="7" />
-        <NumberButton onClick={this.handleClick} buttonStyle="number-btn" text="8" />
-        <NumberButton onClick={this.handleClick} buttonStyle="number-btn" text="9" />
+        <NumberButton onClick={this.handleClick} onMouseEnter={this.handleMouseEnter} onMouseLeave={this.handleMouseLeave} buttonStyle="number-btn" text="7" />
+        <NumberButton onClick={this.handleClick} onMouseEnter={this.handleMouseEnter} onMouseLeave={this.handleMouseLeave} buttonStyle="number-btn" text="8" />
+        <NumberButton onClick={this.handleClick} onMouseEnter={this.handleMouseEnter} onMouseLeave={this.handleMouseLeave} buttonStyle="number-btn" text="9" />
 
         <ActionButton onClick={this.handleClick} buttonStyle="operator-btn" text="&times;" />
 
-        <NumberButton onClick={this.handleClick} buttonStyle="number-btn" text="4" />
-        <NumberButton onClick={this.handleClick} buttonStyle="number-btn" text="5" />
-        <NumberButton onClick={this.handleClick} buttonStyle="number-btn" text="6" />
+        <NumberButton onClick={this.handleClick} onMouseEnter={this.handleMouseEnter} onMouseLeave={this.handleMouseLeave} buttonStyle="number-btn" text="4" />
+        <NumberButton onClick={this.handleClick} onMouseEnter={this.handleMouseEnter} onMouseLeave={this.handleMouseLeave} buttonStyle="number-btn" text="5" />
+        <NumberButton onClick={this.handleClick} onMouseEnter={this.handleMouseEnter} onMouseLeave={this.handleMouseLeave} buttonStyle="number-btn" text="6" />
 
         <ActionButton onClick={this.handleClick} buttonStyle="operator-btn" text="&minus;" />
 
-        <NumberButton onClick={this.handleClick} buttonStyle="number-btn" text="1" />
-        <NumberButton onClick={this.handleClick} buttonStyle="number-btn" text="2" />
-        <NumberButton onClick={this.handleClick} buttonStyle="number-btn" text="3" />
+        <NumberButton onClick={this.handleClick} onMouseEnter={this.handleMouseEnter} onMouseLeave={this.handleMouseLeave} buttonStyle="number-btn" text="1" />
+        <NumberButton onClick={this.handleClick} onMouseEnter={this.handleMouseEnter} onMouseLeave={this.handleMouseLeave} buttonStyle="number-btn" text="2" />
+        <NumberButton onClick={this.handleClick} onMouseEnter={this.handleMouseEnter} onMouseLeave={this.handleMouseLeave} buttonStyle="number-btn" text="3" />
 
         <ActionButton onClick={this.handleClick} buttonStyle="operator-btn" text="&#x2b;" />
 
-        <ActionButton onClick={this.handleClick} buttonStyle="zero-btn" text="0" />
+        <ActionButton onClick={this.handleClick} onMouseEnter={this.handleMouseEnter} onMouseLeave={this.handleMouseLeave} buttonStyle="zero-btn" text="0" />
         
         <ActionButton onClick={this.handleClick} buttonStyle="operator-btn" text="&#x3d;" />
       </div>

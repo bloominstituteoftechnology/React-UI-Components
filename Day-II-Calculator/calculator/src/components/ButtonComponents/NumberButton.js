@@ -3,7 +3,7 @@ import './Button.css';
 
 const NumberButton = (props) => {
     return (
-        <button onClick={ props.onClick } className={ props.buttonStyle }>
+        <button onClick={ props.onClick } onMouseEnter={ props.onMouseEnter } onMouseLeave={ props.onMouseLeave } className={ props.buttonStyle }>
             { props.text }
         </button>
     );
