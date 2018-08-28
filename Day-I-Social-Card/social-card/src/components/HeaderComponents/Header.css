@@ -1,35 +1,37 @@
-/* All styles for your header Components live here */
-.headerContainer {
+.container-header {
+    height: 50px;
+    padding: 10px;
     display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-}
-
-.headerContainer .logo {
-    padding: 30px 10px 5px 10px;
-}
-
-.headerTitle {
-    display: flex;
-    align-items: baseline;
-    padding-left: 10px;
-}
-
-.headerTitle h2 {
-    padding-left: 10px;
-    font-size: 20px;
-    color: gray;
-    font-weight: 100;
-}
-
-.headerContent {
-    width: 65%;
-    padding-left: 150px;
-    position: absolute;
-    top: 100px;
-}
-
-.centerPicture {
-    padding: 45px 0 0 150px;
-    width: 65%
-}
+  }
+  
+  .thumb-wrapper {
+    height: 50px;
+    padding: 0.3em;
+  }
+  
+  .thumb-img {
+    height: 100%;
+  }
+  
+  .time-stamp {
+    font-weight: 300;
+    padding: 5px;
+  }
+  
+  .header-title {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 0 0.3em;
+  }
+  
+  .header-title-wrapper {
+    flex-direction: column;
+    margin-top: 0.6em;
+  }
+  
+  .header-content {
+    font-size: 13px;
+    font-weight: 400;
+    width: 93%;
+    line-height: 1.3;
+  }

@@ -1,14 +1,15 @@
 import React from 'react';
 import './Card.css';
+import CardContent from './CardContent';
+import CardBanner from './CardBanner';
 
 const CardContainer = () => {
-    return (
-        <img 
-        className="centerPicture"
-        src="https://reactjs.org/logo-og.png"
-        alt="ReactLogo"
-        />
-        );
-    };
+  return (
+    <div className="banner-wrapper">
+      <CardBanner />
+      <CardContent />
+    </div>
+  );
+};
 
 export default CardContainer;
