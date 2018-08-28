@@ -1,0 +1,25 @@
+#root {
+  overflow: hidden;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  height: 96px;
+}
+
+.action {
+  width: 73.8%;
+  font-size: 2.7rem;  
+}
+
+.math {
+  background-color: #AD0004;
+  width: 26.2%;
+  color: white;  
+  font-size: 4rem;
+}
+
+.number {
+  width: 24.6%;
+  font-size: 3rem;  
+}
