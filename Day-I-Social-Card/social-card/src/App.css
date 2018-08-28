@@ -6,6 +6,8 @@
 
 .main-wrapper {
   width: 100%;
-  max-width: 900px;
+  max-width: 740px;
+  height: 625px;
   margin: 0 auto;
+  border: 2px solid #777;
 }
