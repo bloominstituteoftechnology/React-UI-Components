@@ -10,7 +10,7 @@ class App extends React.Component {
     super(props);
     this.state = {
       calcTotal: 11111,
-      expression: ""
+      expression: "2 * 2"
     };
 
     this.handleClick = this.handleClick.bind(this);
@@ -21,46 +21,94 @@ class App extends React.Component {
     if(e.currentTarget.innerHTML === "clear") {
       this.setState(
         {
-          calcTotal: 0
+          calcTotal: 0,
+          expression: ""
         }
       );
     }
+
+    if(e.currentTarget.innerHTML === "/") {
+      this.setState(
+        {
+          expression: this.state.expression += " / "
+        }
+      );
+      alert(this.state.expression);
+    }
+
+    if(e.currentTarget.innerHTML === "+") {
+      this.setState(
+        {
+          expression: this.state.expression += " + "
+        }
+      );
+      alert(this.state.expression);
+    }
+
+    if(e.currentTarget.innerHTML === "-") {
+      this.setState(
+        {
+          expression: this.state.expression += " - "
+        }
+      );
+      alert(this.state.expression);
+    }
+
+    if(e.currentTarget.innerHTML === "x") {
+      this.setState(
+        {
+          expression: this.state.expression += " x "
+        }
+      );
+      alert(this.state.expression);
+    }
+
+    if(e.currentTarget.innerHTML === "=") {
+      this.setState(
+        {
+          expression: (eval(this.state.expression))
+        }
+      );
+      alert(this.state.expression);
+    }
+
+
   }
   render() {
   return (
     <div className="main-wrapper">
       <div className="inner-wrapper">
-        <CalculatorDisplay num={this.state.calcTotal}/>
+        <CalculatorDisplay num={this.state.expression}/>
           <div className="btn-wrapper">
             <ActionButton clickfn={this.handleClick} type="wide-btn" value="clear" />
-            <ActionButton type="danger-btn divide-btn" value="&divide;" />
+            <ActionButton clickfn={this.handleClick} type="danger-btn divide-btn" value="/" />
           </div>
 
           <div className="btn-wrapper">
-            <NumberButton type="num-btn" value="7" />
-            <NumberButton type="num-btn" value="8" />
-            <NumberButton type="num-btn" value="9" />
-            <ActionButton type="danger-btn" value="&times;" />
+            <NumberButton clickfn={this.handleClick} type="num-btn" value="7" />
+            <NumberButton clickfn={this.handleClick} type="num-btn" value="8" />
+            <NumberButton clickfn={this.handleClick} type="num-btn" value="9" />
+            <ActionButton clickfn={this.handleClick} type="danger-btn" value="x" />
           </div>
 
           <div className="btn-wrapper">
-            <NumberButton type="num-btn" value="4" />
-            <NumberButton type="num-btn" value="5" />
-            <NumberButton type="num-btn" value="6" />
-            <ActionButton type="danger-btn minus-btn" value="&minus;" />
+            <NumberButton clickfn={this.handleClick} type="num-btn" value="4" />
+            <NumberButton clickfn={this.handleClick}type="num-btn" value="5" />
+            <NumberButton clickfn={this.handleClick}type="num-btn" value="6" />
+            <ActionButton clickfn={this.handleClick} type="danger-btn minus-btn" value="-" />
           </div>
 
 
           <div className="btn-wrapper">
-            <NumberButton type="numbtn" value="1" />
-            <NumberButton type="numbtn" value="2" />
-            <NumberButton type="numbtn" value="3" />
-            <ActionButton type="danger-btn" value="&#x2b;" />
+            <NumberButton clickfn={this.handleClick} type="numbtn" value="1" />
+            <NumberButton clickfn={this.handleClick} type="numbtn" value="2" />
+            <NumberButton clickfn={this.handleClick} type="numbtn" value="3" />
+            <ActionButton clickfn={this.handleClick} type="danger-btn" value="+" />
           </div>
 
           <div className="btn-wrapper">
-            <NumberButton type="wide-btn num-btn" value="0" />
-            <ActionButton type="danger-btn" value="&#x3d;" />
+            <NumberButton clickfn={this.handleClick} type="wide-btn num-btn" value="0" />
+            <ActionButton clickfn={this.handleClick} type="danger-btn" value="=" />
           </div>
 
       </div>
