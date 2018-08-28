@@ -9,7 +9,7 @@ import Row6 from './components/RowComponents/Row6'
 
 const App = () => {
   return (
-    <div>
+    <div className="App">
       <CalculatorDisplay />
       <Row2 />
       <Row3 />
