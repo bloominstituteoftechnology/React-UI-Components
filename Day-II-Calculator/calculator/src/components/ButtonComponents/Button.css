@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+    font-size: 26px;
+    padding: 5px 0;
+    margin: 0;
+}
+
+.red {
+    background-color: red;
+    color: white;
+    width: 25%;
+    box-sizing: border-box;
+}
+
+.white {
+    width: 25%;
+    box-sizing: border-box;
+}
+
+.actionButton {
+    width: 75%;
+}
