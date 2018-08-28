@@ -1,0 +1,22 @@
+.calculatorContainer {
+    width: 35rem;
+    border: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+}
+
+.calculatorDisplayContainer {
+    width: 100%;
+}
+
+.numberButtonsContainer {
+    width: 80%;
+}
+
+.actionButtonsContainer {
+    width: 20%;
+}
+
+.buttonsContainer {
+    display: flex;
+}
