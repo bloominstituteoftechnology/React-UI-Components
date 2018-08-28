@@ -2,7 +2,7 @@
     max-width: 400px;
     width: 100%;
     margin-left: 32.5%;
-    border: 0.5px solid gray;
+    border: 1px solid gray;
     height: 90px;
 }
 
@@ -19,8 +19,8 @@
 .mathbtns {
     max-width: 100px;
     width: 100%;
-    margin-left: 60.4%;
-    margin-top: -131px;
+    margin-left: 60.44%;
+    margin-top: -130.5px;
 }
 
 .mathbtntext {
@@ -43,7 +43,7 @@
 .numbers {
     height: 300px;
     margin-left: 32.5%;
-    margin-top: -389.5px;
+    margin-top: -389.25px;
 }
 
 .numberrow {
@@ -54,7 +54,7 @@
 }
 
 .numberrow2 {
-    margin-top: -53px;
+    margin-top: -52.75px;
 }
 
 .numberrow3 {
