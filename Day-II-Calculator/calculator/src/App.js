@@ -37,7 +37,7 @@ class App extends React.Component {
       // if num is pressed, and no operator was pressed, concat to num1 in state
       this.setState((prevState) => ({ 
         display: (this.state.display ? this.state.display : "") + innerText,
-        num1: prevState.num1.concat(innerText), 
+        num1: prevState.num1.concat(innerText),
       }));
     }
     
@@ -50,12 +50,23 @@ class App extends React.Component {
     }
     
     if (operatorArray.includes(innerText)) {
-      // if button pressed is an operator, make that value the operator in state
+      // if button pressed is an operator
+      if (this.state.operator) {
+        // if an operator already has been pressed replace it with the new operator and num2 with nothing
+        this.setState({ 
+          display: innerText,
+          operator: innerText,
+          num2: "",
+        });
+        console.log(this.state)
+      } else {
+      // if an operator has not been pressed, make that value the operator in state
       this.setState((prevState) => ({ 
         display: innerText,
         operator: innerText,
       }));
     }
+  }
     
     if (innerText === "=") {
       // if equal sign is pressed, calculate the result
