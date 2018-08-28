@@ -28,7 +28,7 @@ export default class CalculatorDisplay extends React.Component {
         let currentState = this.state.expression;
         if (action === '='){
             console.log(action);
-            let result = eval(this.state.expression);
+            let result = eval( ((this.state.expression).replace(/\b0+/g, '')) );
             this.setState({expression: '', evaluation: result});
         } else if(action === 'clear'){
             this.setState({expression: '', evaluation: ''})
