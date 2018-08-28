@@ -9,19 +9,15 @@
   position: absolute;
 }
 .banner .MainImg{
-  /* height: 500px; */
-  width: 100%;
-  /* margin-left: 100px; */
+  height: 400px;
   border-radius: 10px;
   display: flex;
   justify-content: flex-end;
 }
 
-
-.card-content{
+.card-content h3, .card-content p{
   margin-left: 10px;
   margin-right: 10px;
-  margin-bottom: 20px;
 }
 
 .card-content h3{
@@ -31,7 +27,9 @@
 
 .card-content a{
   color: gray;
-
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
 }
 
 

@@ -2,8 +2,6 @@
 
 .header-container{
   display: flex;
-  /* height: 100px; */
-  width: 90%;
 }
 
 .header-thumbnail .LambdaLogo{
@@ -18,7 +16,7 @@
   font-weight: bold;
 }
 .header-content{
-  /* width: 900px; */
   margin-left: 10px;
+  width: 50vw;
 }
 
