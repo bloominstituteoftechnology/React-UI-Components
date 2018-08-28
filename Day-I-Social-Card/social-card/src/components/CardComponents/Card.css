@@ -6,13 +6,13 @@ a {
 }
 
 .card {
-  margin-left: 59px;
+  margin-left: 55px;
   margin-right: 16px;
 }
 
 .card-text {
   border: 1px solid lightgrey;
-  padding-left: 4%;
+  padding-left: 1%;
   border-radius: 5px;
 }
 

@@ -18,7 +18,8 @@
 p {
   color: black;
   padding: 0 7px;
-  font-size: 0.8rem;
+  font-size: 0.89rem;
+  letter-spacing: 0.3px;
 }
 
 img {
@@ -27,7 +28,7 @@ img {
 }
 
 h1 {
-  font-size: 1rem;
+  font-size: 0.9rem;
   padding-left: 7px;
 }
 
