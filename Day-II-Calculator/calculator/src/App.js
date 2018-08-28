@@ -4,50 +4,62 @@ import NumberButton from './components/ButtonComponents/NumberButton';
 import CalculatorDisplay from './components/DisplayComponents/CalculatorDisplay';
 import ActionButton from './components/ButtonComponents/ActionButton';
 
-const App = () => {
-  return (
-    <div className="app">
-      <CalculatorDisplay />
+class App extends React.Component {
+  constructor(props) {
+    super(props);
 
-      <ActionButton buttonStyle="clear-btn" text="clear" />
-      
-      <ActionButton buttonStyle="operator-btn" text="÷" />
-      
-      <NumberButton buttonStyle="number-btn" text="7" />
-      <NumberButton buttonStyle="number-btn" text="8" />
-      <NumberButton buttonStyle="number-btn" text="9" />
+    this.state = {
+      display: 0,
+    };
 
-      <ActionButton buttonStyle="operator-btn" text="x" />
+    this.handleClick = this.handleClick.bind(this);
+  }
 
-      <NumberButton buttonStyle="number-btn" text="4" />
-      <NumberButton buttonStyle="number-btn" text="5" />
-      <NumberButton buttonStyle="number-btn" text="6" />
+  handleClick(e) {
+    e.preventDefault();
+    const innerText = e.target.innerText
+    console.log(innerText)
 
-      <ActionButton buttonStyle="operator-btn" text="-" />
+    if (e.target.innerText === "clear") {
+      this.setState({ display: 0});
+    } else {
+      this.setState({ display: innerText });
+    }
+  }
 
-      <NumberButton buttonStyle="number-btn" text="1" />
-      <NumberButton buttonStyle="number-btn" text="2" />
-      <NumberButton buttonStyle="number-btn" text="3" />
+  render() {
+    return (
+      <div className="app">
+        <CalculatorDisplay display={ this.state.display } />
 
-      <ActionButton buttonStyle="operator-btn" text="+" />
+        <ActionButton onClick={this.handleClick} buttonStyle="clear-btn" text="clear" />
+        
+        <ActionButton onClick={this.handleClick} buttonStyle="operator-btn" text="÷" />
+        
+        <NumberButton onClick={this.handleClick} buttonStyle="number-btn" text="7" />
+        <NumberButton onClick={this.handleClick} buttonStyle="number-btn" text="8" />
+        <NumberButton onClick={this.handleClick} buttonStyle="number-btn" text="9" />
 
-      <ActionButton buttonStyle="zero-btn" text="0" />
-      
-      <ActionButton buttonStyle="operator-btn" text="=" />
-      {/* <h3>Welcome to React Calculator</h3>
-      <p>
-        We have given you a starter project. You'll want to build out your
-        components in their respective files, remove this code and replace it
-        with the proper components.
-      </p>
-      <p>
-        <strong>
-          Don't forget to `default export` your components and import them here
-          inside of this file in order to make them work.
-        </strong>
-      </p> */}
-    </div>
-  );
-};
+        <ActionButton onClick={this.handleClick} buttonStyle="operator-btn" text="x" />
+
+        <NumberButton onClick={this.handleClick} buttonStyle="number-btn" text="4" />
+        <NumberButton onClick={this.handleClick} buttonStyle="number-btn" text="5" />
+        <NumberButton onClick={this.handleClick} buttonStyle="number-btn" text="6" />
+
+        <ActionButton onClick={this.handleClick} buttonStyle="operator-btn" text="-" />
+
+        <NumberButton onClick={this.handleClick} buttonStyle="number-btn" text="1" />
+        <NumberButton onClick={this.handleClick} buttonStyle="number-btn" text="2" />
+        <NumberButton onClick={this.handleClick} buttonStyle="number-btn" text="3" />
+
+        <ActionButton onClick={this.handleClick} buttonStyle="operator-btn" text="+" />
+
+        <ActionButton onClick={this.handleClick} buttonStyle="zero-btn" text="0" />
+        
+        <ActionButton onClick={this.handleClick} buttonStyle="operator-btn" text="=" />
+      </div>
+    );
+  }
+}
 
 export default App;
