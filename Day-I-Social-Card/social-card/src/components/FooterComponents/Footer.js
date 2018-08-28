@@ -4,7 +4,10 @@ import './Footer.css';
 const Footer = () => {
     return (
         <footer>
-            <img src="/Day-I-Social-Card/images/comment.jpg" alt="Speech Bubble"></img><img src="./refresh.png" alt="Shares" /><img src="" alt="Loves" /><img src="" alt="Share" />
+            <img src="comment.jpg" alt="Speech Bubble" />
+            <img src="refresh.png" alt="Shares" />
+            <img src="heart.jpg" alt="Loves" />
+            <img src="mail.jpg" alt="Share" />
         </footer>
     );
 };
