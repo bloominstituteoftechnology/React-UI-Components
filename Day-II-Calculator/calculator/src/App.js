@@ -10,6 +10,9 @@ class App extends React.Component {
 
     this.state = {
       display: 0,
+      num1: "",
+      operator: "",
+      num2: "",
     };
 
     this.handleClick = this.handleClick.bind(this);
@@ -18,12 +21,69 @@ class App extends React.Component {
   handleClick(e) {
     e.preventDefault();
     const innerText = e.target.innerText;
+    console.log(Number(innerText));
 
-    if (e.target.innerText === "clear") {
-      this.setState({ display: 0});
-    } else {
-      this.setState({ display: innerText });
+    const operatorArray = ["÷", "×", "−", "+"];
+    console.log(innerText)
+
+    // if (e.target.innerText === "clear") {
+    //   this.setState({ display: 0});
+    // } else {
+    //   this.setState({ display: innerText });
+    // }
+
+    if (innerText === "clear") {
+      this.setState({ 
+        display: 0,
+        num1: "",
+        operator: "",
+        num2: "",
+      });
+    } else if ((Number(innerText) || innerText === "0") && !this.state.operator) {
+      this.setState((prevState) => ({ 
+        display: (this.state.display ? this.state.display : "") + innerText,
+        num1: prevState.num1.concat(innerText), 
+      }));
+    } else if ((Number(innerText) || innerText === "0") && this.state.operator) {
+      this.setState((prevState) => ({ 
+        display: (this.state.display ? this.state.display : "") + innerText,
+        num2: prevState.num2.concat(innerText), 
+      }));
+    } else if (operatorArray.includes(innerText)) {
+      this.setState((prevState) => ({ 
+        display: innerText,
+        operator: innerText,
+      }));
+    } else if (innerText === "=") {
+      let result;
+
+      if (this.state.operator === "÷") {
+        result = Number(this.state.num1) / Number(this.state.num2);
+      }
+
+      if (this.state.operator === "×") {
+        result = Number(this.state.num1) * Number(this.state.num2);
+      }
+
+      if (this.state.operator === "−") {
+        result = Number(this.state.num1) - Number(this.state.num2);
+      }
+
+      if (this.state.operator === "+") {
+        result = Number(this.state.num1) + Number(this.state.num2);
+      }
+
+      this.setState((prevState) => ({ 
+        display: result,
+        num1: ("" + result),
+        operator: "",
+        num2: "",
+      }));
     }
+  }
+
+  componentWillUpdate(nextProps, nextState) {
+    console.log(nextState);
   }
 
   render() {
