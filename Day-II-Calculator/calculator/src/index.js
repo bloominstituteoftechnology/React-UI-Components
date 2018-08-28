@@ -11,41 +11,47 @@ let numCal = document.querySelector('.to-cal');
 let clearNum = document.querySelector('.clear');
 let actionBtns = document.querySelectorAll('.sybls');
 
+function removeListeners(){
+	actionBtns[0].removeEventListener('click', divide);
+	actionBtns[1].removeEventListener('click', times);
+	actionBtns[2].removeEventListener('click', minus);
+	actionBtns[3].removeEventListener('click', add);
+}
 
+function addListeners(){
+	actionBtns[0].addEventListener('click', divide);
+	actionBtns[1].addEventListener('click', times);
+	actionBtns[2].addEventListener('click', minus);
+	actionBtns[3].addEventListener('click', add);
+}
 
 function divide(){
-	actionBtns[0].removeEventListener('click', divide);
+	removeListeners();
 	numCal.innerHTML += " ÷ ";
 }
 
 function times(){
+	removeListeners();
 	actionBtns[1].removeEventListener('click', times);
 	numCal.innerHTML += " X ";
 }
 
 function minus(){
+	removeListeners();
 	actionBtns[2].removeEventListener('click', minus);
 	numCal.innerHTML += " – ";
 }
 
 function add(){
+	removeListeners();
 	actionBtns[3].removeEventListener('click', add);
 	numCal.innerHTML += " + ";
 }
 
-actionBtns[0].addEventListener('click', divide);
-actionBtns[1].addEventListener('click', times);
-actionBtns[2].addEventListener('click', minus);
-actionBtns[3].addEventListener('click', add);
-
-
+addListeners();
 
 function equals(){
-
-	actionBtns[0].addEventListener('click', divide);
-	actionBtns[1].addEventListener('click', times);
-	actionBtns[2].addEventListener('click', minus);
-	actionBtns[3].addEventListener('click', add);
+	addListeners();
 
 	let arr1 = Array.from(numCal.innerHTML);
 	console.log(arr1);
@@ -117,7 +123,13 @@ clearNum.addEventListener('click', function(){
 });
 
 zeroBtn.addEventListener('click', function(){
-	numCal.innerHTML += zeroBtn.innerHTML;
+
+	if (numCal.innerHTML === "0") {
+		numCal.innerHTML = "0";
+	} else {
+		numCal.innerHTML += zeroBtn.innerHTML;
+	}
+
 });
 
 
