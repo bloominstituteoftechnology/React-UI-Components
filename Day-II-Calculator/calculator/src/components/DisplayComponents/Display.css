@@ -1,0 +1,17 @@
+.calculator-container {
+  width: 270px;
+  margin: 20px;
+
+  border: 1px solid red;
+}
+
+.display {
+  width: 270px;
+  height: 60px;
+  background-color: black;
+  color: white;
+  border: 1px solid gray;
+  font-size: 32px;
+  text-align: right;
+  padding-top: 15px;
+}
