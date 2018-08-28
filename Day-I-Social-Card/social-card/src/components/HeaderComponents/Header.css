@@ -1,23 +1,26 @@
 /* All styles for your header Components live here */
 .container-header {
-    height: 50px;
-    /* width: 100px; */
-    padding: 10px;
+    height: 110px;
+    width: 700px;
     display: flex;
+    justify-content: center;
+    border: 1px solid black;
 }
 .thumb-wrapper {
-  
+ 
 }
 .thumb-img {
     height: 50px;
 }
 .time-stamp {
-
+    margin-left: 5px;
 }
 .header-title {
-    width: 50%;
-   
+    font-weight: bold;
 }
 .header-content {
-    
+    width: 100%;
+}
+.lambda-handle {
+    margin-left: 5px;
 }

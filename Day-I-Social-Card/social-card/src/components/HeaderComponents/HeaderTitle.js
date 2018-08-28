@@ -9,9 +9,11 @@ const HeaderTitle = () => {
         <div className="header-title-wrapper">
             <div className="header-title">
             Lambda School
+            <span className="lambda-handle">@LambdaSchool</span>
             <span className="time-stamp">{time.format('MMM Do ')}</span>
-            <HeaderContent />
             </div>
+            <HeaderContent />
+            
         </div>
     );
 };

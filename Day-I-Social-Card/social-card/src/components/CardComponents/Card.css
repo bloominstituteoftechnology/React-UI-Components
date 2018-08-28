@@ -1,1 +1,21 @@
 /* All styles for your Card Components live here */
+.container-card {
+width: 100%;
+display: flex;
+justify-content: center;
+flex-direction: column;
+border: 1px solid black;
+
+}
+.big-wrapper {
+width: 100%;
+display: flex;
+justify-content: flex-end;
+}
+.big-image {
+width: 100%;
+height: 300px;
+}
+.bottom-content {
+width: 100%;
+}
