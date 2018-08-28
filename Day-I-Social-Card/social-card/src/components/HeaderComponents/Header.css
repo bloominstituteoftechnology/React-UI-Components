@@ -1,1 +1,45 @@
 /* All styles for your header Components live here */
+
+
+.header {
+    height: 20%;
+    display: flex;
+}
+
+.header-thumbnail {
+    width: 100%;
+}
+
+.header-image {
+    margin: 2%;
+}
+
+.header-title-container {
+    display: flex;
+    flex-direction: row;
+    margin: 0 2%;
+}
+
+.header-title {
+    font-size: 18px;
+    margin-right: 1%;
+}
+
+.header-handle {
+    opacity: .6;
+    margin-right: 1%;
+}
+
+.header-timestamp {
+    opacity: .6;
+}
+
+.header-content {
+    width: 95%;
+    margin-left: 2%;
+}
+
+.header-description {
+    font-size: 15px;
+    margin-top: 0;
+}
