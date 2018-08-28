@@ -28,12 +28,17 @@ const App = () => {
           <ActionButton type="danger-btn" value="-" />
         </ButtonWrapper>
 
-        <ButtonWrapper></ButtonWrapper>
+        <ButtonWrapper>
           <NumberButton type="num-btn" value="1" />
           <NumberButton type="num-btn" value="2" />
           <NumberButton type="num-btn" value="3" />
           <ActionButton type="danger-btn" value="+" />
-        <ButtonWrapper></ButtonWrapper>
+        </ButtonWrapper>
+
+        <ButtonWrapper>
+          <NumberButton type="wide-btn num-btn" value="0" />
+          <ActionButton type="danger-btn" value="=" />
+        </ButtonWrapper>
       </div>
     </div>
   );
