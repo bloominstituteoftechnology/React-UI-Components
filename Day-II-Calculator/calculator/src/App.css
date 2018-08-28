@@ -4,5 +4,6 @@
   min-height: 600px;
   width: 400px;
   margin: 0 auto;
-  border: 1px solid #999;
+  margin-top: 20px;
+  border: 2px solid #999;
 }
