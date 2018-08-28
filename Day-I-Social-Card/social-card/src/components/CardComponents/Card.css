@@ -1,1 +1,37 @@
 /* All styles for your Card Components live here */
+.card {
+    padding-left: 60px;
+}
+
+.card-banner img {
+    max-width: 100%;
+    border-radius: 5px 5px 0px 0px;
+    margin: 0px;
+}
+
+.card-content {
+    border: 1px solid lightgray;
+    border-radius: 0px 0px 5px 5px;
+    padding: 10px;
+    margin-top: -5px;
+}
+
+.card a {
+    text-decoration: none;
+}
+
+.card-content h3 {
+    color: black;
+    text-decoration: none;
+    outline: none;
+}
+
+.card-content p {
+    color: black;
+    text-decoration: none;
+    outline: none;
+}
+
+.card-content a {
+    color: slategray;
+}
