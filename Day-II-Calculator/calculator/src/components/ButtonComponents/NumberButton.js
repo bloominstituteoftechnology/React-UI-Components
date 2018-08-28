@@ -5,11 +5,15 @@ const NumberButton = props => {
     return <button className = "numberButton">{props.btnContent}</button>;
 };
 
+const ClearButton = props => {
+    return <button className = "clearButton">{props.btnContent}</button>;
+};
+
 const NumberButtonsContainer = () => {
     return (
       <div className = "numberButtonsContainer">
           <div className = "numberRow">
-            <NumberButton btnContent= "Clear"/>
+            <ClearButton btnContent= "Clear"/>
           </div>
           <div className = "numberRow">
             <NumberButton btnContent= "7"/>

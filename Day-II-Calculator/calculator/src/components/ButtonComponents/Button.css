@@ -8,9 +8,19 @@
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    height: 20%;
 }
 .numberButton {
  width: 33.3333%;   
+ background-color: white;
+ border: 1px solid gray;
+ font-size: 3rem;
+}
+.clearButton {
+    width: 100%;   
+    background-color: white;
+    border: 1px solid gray;
+    font-size: 3rem;
 }
 
 /* Action Buttons */
@@ -20,12 +30,11 @@
 }
 .actionRow{
     width: 100%;
-    
 }
 
 .actionButton {
     font-size: 4rem;
     background-color: maroon;
     color: white;
-    border: 1px solid lightgray;
+    border: 1px solid gray;
 }
