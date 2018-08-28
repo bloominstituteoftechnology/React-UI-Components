@@ -1,1 +1,64 @@
 /* All styles for your header Components live here */
+
+/* commit */
+
+/* wrappers */
+
+.header-wrapper {
+  display: flex;
+  padding: 10px 10px 20px 10px;
+}
+
+.header-wrapper-sub {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 0 10px;
+}
+
+.header-title-wrapper {
+  display: flex;
+  flex-direction: row;
+  padding: 10px 0;
+}
+
+/* other content */
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+  margin-top: 5px;
+}
+
+.header-logo {
+  width: 30px;
+}
+
+/* HeaderTitle styles */
+
+.header-name {
+  font-weight: 600;
+  padding: 0 5px;
+}
+
+.header-tag {
+  font-weight: 200;
+  color: #888;
+  padding-right: 5px;
+}
+
+.header-break {
+  color: #888;
+}
+
+.header-date {
+  font-weight: 200;
+  color: #888;
+  padding-right: 5px; /* same styling as the tag */
+}
+
+.header-text {
+  display: flex;
+  padding-left: 5px;
+  width: 600px;
+}
