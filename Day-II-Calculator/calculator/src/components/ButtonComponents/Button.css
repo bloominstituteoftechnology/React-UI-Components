@@ -1,0 +1,27 @@
+.num-container {
+    border: 1px solid gray;
+    display: flex;
+    height: 100px;
+}
+
+.wide-action {
+    width: 375px;
+    font-size: 60px;
+}
+
+.operator {
+    width: 125px;
+    background: FireBrick ;
+    color: white;
+    font-size: 60px;
+}
+
+.number {
+    width: 125px;
+    font-size: 60px;
+}
+
+.wide-number {
+    width: 375px;
+    font-size: 60px;
+}
