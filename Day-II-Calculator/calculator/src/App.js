@@ -11,8 +11,8 @@ const App = () => {
         <CalculatorDisplay/>
 
         <div className = 'button-wrap'>
-          <ActionButton type = 'act-button wide-button' value = 'clear'/>
-          <NumberButton type = 'slash-button divide-button' text = '  '/>
+          <ActionButton type = 'wide-button' value = 'clear'/>
+          <ActionButton type = 'act-button divide-button' value = '÷'/>
         </div>
 
         <div className = 'button-wrap'>
