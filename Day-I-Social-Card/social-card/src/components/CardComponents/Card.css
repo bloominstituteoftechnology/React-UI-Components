@@ -5,10 +5,26 @@ a {
     color: black;
 }
 
+.card-container {
+    display: flex;
+}
+
 .card-banner {
     background-image: url('https://ibin.co/3wnC6SgIOJud.png');
     background-repeat: no-repeat;
-    background-size: 600px 315px;
-    width: 600px;
-    height: 315px;
+    background-size: 100% 100%;
+    /* width: 1200px;
+    height: 630px; */
+    width: 552.5px;
+    height: 290.0625px;
+    border-radius: 10px 10px 0 0;
+}
+
+.right-card {
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+.card-content {
+    margin-left: 10px;
 }

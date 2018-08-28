@@ -1,1 +1,24 @@
 /* All styles for your header Components live here */
+
+.header-container {
+    display: flex;
+}
+
+.header-thumb {
+    display: flex;
+    justify-content: center;
+}
+
+.lambda-icon {
+    width: 66%;
+    height: 66%;
+    margin-top: 20px;
+}
+
+.head-title {
+    display: flex;
+}
+
+.head-mcheader {
+    padding-right: 10px;
+}

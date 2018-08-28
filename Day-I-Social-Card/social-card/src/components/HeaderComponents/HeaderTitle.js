@@ -2,10 +2,9 @@ import React from 'react';
 import './Header.css';
 
 const HeaderTitle = () => (
-    <div>
-        <h1>Lambda School</h1>
-        <h1>@LambdaSchool</h1>
-        <h1>2018 Aug 27</h1>
+    <div className='head-title'>
+        <h4 className='head-mcheader'>Lambda School</h4>
+        <h4 className='grays'>@LambdaSchool • 2018 Aug 27</h4>
     </div>
 );
 
