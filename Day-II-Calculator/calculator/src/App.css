@@ -53,3 +53,21 @@ table {
   height: 594px;
 }
 
+.numberSymbol {
+  display: flex;
+  
+}
+
+.numbers {
+  display: flex;
+  flex-direction: column;
+  /* flex-wrap: wrap; */
+  width: 74%;
+  height: 470px;
+}
+
+.symbols {
+  display: flex;
+  flex-direction: column;
+  width: 26%;
+}
