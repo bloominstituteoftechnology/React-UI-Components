@@ -1,0 +1,34 @@
+.entrypad {
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: wrap;
+    border: 1px solid gray;
+}
+
+.entrypad h2 {
+    width: 17%;
+    display: flex;
+    justify-content: center;
+    outline: 1px solid gray;
+    padding: 4%;
+    margin: 0%;
+    
+
+}
+
+.entrypad .bigbutton {
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    outline: 1px solid gray;
+    padding: 4%; 
+    margin: 0%;
+    padding-right: 5.3%;
+}
+
+.entrypad .symbol {
+    width: 17%;
+}
