@@ -15,3 +15,8 @@
 	margin: 0 auto;
 	/*border: solid blue 1px;*/
 }
+
+a {
+  color: black;
+  text-decoration: none; /* no underline */
+}

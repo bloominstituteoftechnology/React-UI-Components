@@ -3,7 +3,7 @@
 .flex {  
 	display: flex;
 	justify-content: center;
-	/*border: solid #ff9b9b 1px;*/
+/*	border: solid #ff9b9b 1px;*/
 }
 
 .title {
@@ -29,7 +29,7 @@
 }
 
 .flex-section2 {
-	/*border: solid lightblue 1px;*/
+/*	border: solid lightblue 1px;*/
 	padding: 1% 1% 0 1%;
 	margin: 5px 5px 5px 0;
 }
