@@ -5,7 +5,7 @@ import CardContent from './CardContent.js'
 
 const CardContainer = (props) => {
   return (
-    <div className='card-container'>
+    <div className='card-container' onClick={() => window.open('http://www.reactjs.org')}>
         <CardBanner banner={props.banner} />
         <CardContent title={props.title} link={props.link} />
     </div>
