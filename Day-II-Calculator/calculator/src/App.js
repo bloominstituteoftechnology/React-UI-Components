@@ -20,10 +20,10 @@ const App = () => {
         </strong>
       </p> */}
       <Display />
-      <div className='number-action'>
-        <NumberButton />  
-        <ActionButton />
-      </div>
+      {/* <div className='number-action'> */}
+      <ActionButton />
+      <NumberButton />  
+      {/* </div> */}
     </div>
   );
 };

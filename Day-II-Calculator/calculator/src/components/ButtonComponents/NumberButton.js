@@ -4,23 +4,30 @@ import './Button.css';
 function NumberButton() {
   return (
     <div className='number-buttons'>
-      <Button text='clear' type='number' />
+      <div className='first'>
+        <Button text='÷' type='symbol' /> 
+      </div>
       <div className='num'>
         <Button text='7' type='number' />
         <Button text='8' type='number' />
         <Button text='9' type='number' />
+        <Button text='x' type='symbol' /> 
       </div>
       <div className='num'>
         <Button text='4' type='number' />
         <Button text='5' type='number' />
         <Button text='6' type='number' />
+        <Button text='-' type='symbol' /> 
       </div>
       <div className='num'>
         <Button text='1' type='number' />
         <Button text='2' type='number' />
         <Button text='3' type='number' />
+        <Button text='+' type='symbol' /> 
       </div>
-      <Button text='0' type='number' />
+      <div className='last'>
+        <Button text='=' type='symbol' /> 
+      </div>
     </div>  
   );
 } 

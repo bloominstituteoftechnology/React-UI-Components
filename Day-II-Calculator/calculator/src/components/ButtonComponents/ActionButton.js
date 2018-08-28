@@ -4,15 +4,11 @@ import './Button.css';
 function ActionButton() {
   return (
     <div className='action-buttons'>
-      <Button text='÷' type='action' />
-      <Button text='x' type='action' />
-      <Button text='-' type='action' />
-      <Button text='+' type='action' />
-      <Button text='=' type='action' />
+      <Button text='clear' type='clear' />
+      <Button text='0' type='zero' />
     </div>  
   );
 } 
-
 
 
 function Button(props) {
