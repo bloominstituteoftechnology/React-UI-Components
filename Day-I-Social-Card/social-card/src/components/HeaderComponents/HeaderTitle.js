@@ -4,13 +4,13 @@ import moment from 'moment'
 
 const HeaderTitle = () => {
   // Javascript Date
-  // const date = new Date();
-  // const options = { month: "short" };
+  // const date = new Date()
+  // const options = { month: "short" }
   // const short = new Intl.DateTimeFormat("en-US", options).format(date);
-  // const today = `${date.getDate()} ${short}`;
+  // const today = `${date.getDate()} ${short}`
 
   // MomentJS Date
-  const momentDate = moment().format("D MMM");
+  const momentDate = moment().format("D MMM")
 
   return (
     <div className="HeaderTitle">
