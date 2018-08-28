@@ -1,0 +1,23 @@
+.long{
+    width: 337.5px;
+    height: 96px;
+    background: white;
+    color: black;
+    font-size: 40px;
+}
+
+.number{
+    width: 112.5px;
+    height: 96px;
+    background: white;
+    color: black;  
+    font-size: 40px;
+}
+
+.action{
+    width: 112.5px;
+    height: 96px;
+    background: red;
+    color: white; 
+    font-size: 40px;  
+}
