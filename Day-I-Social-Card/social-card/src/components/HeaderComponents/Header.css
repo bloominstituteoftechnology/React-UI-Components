@@ -1,1 +1,17 @@
 /* All styles for your header Components live here */
+
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.header p {
+    color: grey;
+
+}
+.logo {
+    border-radius: 50%;
+    width: 13%;
+}

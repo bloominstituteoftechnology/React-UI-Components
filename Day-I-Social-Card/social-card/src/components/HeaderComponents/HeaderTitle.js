@@ -1,18 +1,19 @@
 import React from 'react';
 import './Header.css';
 
-const HeaderTitle = () => 
-    (
+const Username = () => {
+    return (
         <div className="header">
-        <h1>Wonjae Hwang</h1>
-        <h2>@Wonjaelikesmangos</h2>
-        <h2>27 Aug</h2>
+            <h1>Wonjae Hwang </h1>
+            <p>  @Wonjaelikesmangos</p>
+            <p>-27 Aug</p>
         </div>
-    )
+    );
+};
 
-export default header;
+export default Username;
 
-<App /> // this means that we are a component, The Root div
+
 
 
 

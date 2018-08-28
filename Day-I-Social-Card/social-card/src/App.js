@@ -1,11 +1,18 @@
 import React from 'react';
+
+import HeaderContainer from './components/HeaderComponents/HeaderContainer.js';
+import CardContainer from './components/CardComponents/CardContainer.js';
+// import Footer from './components/Footer.js';
 import './App.css';
-import Headercontainer from './components/Headercontainer.js';
+
+
 
 const App = () => {
   return (
-    <div>
+    <div class="container">
       <HeaderContainer />
+      <CardContainer />
+      {/* <Footer /> */}
 
       {/* <h3>Welcome to React Social Card!</h3>
       <p>

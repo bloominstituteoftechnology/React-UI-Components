@@ -1,6 +1,19 @@
 import React from 'react';
 import './Header.css';
 
-import './ImageThumbnail.js';
+import UserAvatar from './ImageThumbnail.js';
+import Username from './HeaderTitle.js';
+import Content from './HeaderContent.js';
 
-export default './ImageThumbnail.js';
+
+const HeaderContainer = () => {
+    return (
+        <div>
+            <UserAvatar />
+            <Username />
+            <Content />    
+        </div>
+    );
+};
+
+export default HeaderContainer;
