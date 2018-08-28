@@ -1,0 +1,12 @@
+.display {
+    height: 21%;
+    width: 100%;
+    background: darkslategray;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.h1 {
+    font-size: 1.4rem;
+    color: grey;
+}
