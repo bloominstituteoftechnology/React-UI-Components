@@ -1,0 +1,9 @@
+.display{
+    background: black;
+    color: white;
+    width:20%;
+}
+
+.result-display{
+    float: right;
+}
