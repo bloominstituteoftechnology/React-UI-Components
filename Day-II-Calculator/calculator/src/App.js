@@ -9,15 +9,13 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      calcTotal: 11111,
-      expression: "2 * 2"
+      expression: ""
     };
 
     this.handleClick = this.handleClick.bind(this);
   }
 
   handleClick(e) {
-    alert(e.currentTarget.innerHTML);
     if(e.currentTarget.innerHTML === "clear") {
       this.setState(
         {
@@ -33,7 +31,6 @@ class App extends React.Component {
           expression: this.state.expression += " / "
         }
       );
-      alert(this.state.expression);
     }
 
     if(e.currentTarget.innerHTML === "+") {
@@ -42,7 +39,6 @@ class App extends React.Component {
           expression: this.state.expression += " + "
         }
       );
-      alert(this.state.expression);
     }
 
     if(e.currentTarget.innerHTML === "-") {
@@ -51,16 +47,14 @@ class App extends React.Component {
           expression: this.state.expression += " - "
         }
       );
-      alert(this.state.expression);
     }
 
     if(e.currentTarget.innerHTML === "x") {
       this.setState(
         {
-          expression: this.state.expression += " x "
+          expression: this.state.expression += " * "
         }
       );
-      alert(this.state.expression);
     }
 
     if(e.currentTarget.innerHTML === "=") {
@@ -69,8 +63,101 @@ class App extends React.Component {
           expression: (eval(this.state.expression))
         }
       );
-      alert(this.state.expression);
     }
+
+    // numbers 
+
+    // 1
+    if(e.currentTarget.innerHTML === "1") {
+      this.setState(
+        {
+          expression: this.state.expression += "1"
+        }
+      );
+    }
+
+    // 2
+    if(e.currentTarget.innerHTML === "2") {
+      this.setState(
+        {
+          expression: this.state.expression += "2"
+        }
+      );
+    }
+
+    // 3
+    if(e.currentTarget.innerHTML === "3") {
+      this.setState(
+        {
+          expression: this.state.expression += "3"
+        }
+      );
+    }
+
+    // 4
+    if(e.currentTarget.innerHTML === "4") {
+      this.setState(
+        {
+          expression: this.state.expression += "4"
+        }
+      );
+    }
+
+    // 5
+    if(e.currentTarget.innerHTML === "5") {
+      this.setState(
+        {
+          expression: this.state.expression += "5"
+        }
+      );
+    }
+
+    // 6
+    if(e.currentTarget.innerHTML === "6") {
+      this.setState(
+        {
+          expression: this.state.expression += "6"
+        }
+      );
+    }
+
+    // 7
+    if(e.currentTarget.innerHTML === "7") {
+      this.setState(
+        {
+          expression: this.state.expression += "7"
+        }
+      );
+    }
+
+    // 8
+    if(e.currentTarget.innerHTML === "8") {
+      this.setState(
+        {
+          expression: this.state.expression += "8"
+        }
+      );
+    }
+
+    // 9
+    if(e.currentTarget.innerHTML === "9") {
+      this.setState(
+        {
+          expression: this.state.expression += "9"
+        }
+      );
+    }
+
+    // 0
+    if(e.currentTarget.innerHTML === "0") {
+      this.setState(
+        {
+          expression: this.state.expression += "0"
+        }
+      );
+    }
+
+
 
 
   }
