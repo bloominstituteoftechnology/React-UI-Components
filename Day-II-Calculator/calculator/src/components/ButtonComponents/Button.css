@@ -1,0 +1,28 @@
+.btn {
+  background: #fff;
+  border: 1px solid #999;  
+  font-size: 38px;  
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 25px;
+  text-align: center;
+  width: 25%;
+  cursor: pointer;
+}
+
+.btn.large{
+    width: 74.5%;
+    font-weight: lighter;
+}
+
+.btn.operator {
+    background: red;
+    color: white;
+    font-weight: bold;
+
+}
+
+.btn.num {
+    font-weight: bold;
+}
+
