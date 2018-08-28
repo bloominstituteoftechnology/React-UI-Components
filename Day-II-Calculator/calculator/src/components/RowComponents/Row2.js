@@ -6,8 +6,8 @@ import NumberButton from '../ButtonComponents/NumberButton'
 const Row2 = () => {
   return (
     <div className="Row2">
-      <ActionButton label="clear" />
-      <NumberButton label="÷" />
+      <ActionButton buttonStyle="large" label="clear" />
+      <NumberButton buttonStyle="small maroon" label="÷" />
     </div>
   );
 };
