@@ -1,0 +1,33 @@
+.number-button {
+  width: 25%;
+  height: 25%;
+  border: 1px solid grey;
+  font-size: 2.5rem;
+  font-weight: bold;
+  background: #fff;
+}
+.clear-button {
+  width: 75%;
+  height: 25%;
+  border: 1px solid grey;
+  font-size: 2.5rem;
+  background: #fff;
+  font-weight: 100;
+}
+.zero-button {
+  width: 75%;
+  height: 25%;
+  border: 1px solid grey;
+  font-size: 2.5rem;
+  background: #fff;
+  font-weight: bold;
+}
+.action-button {
+  width: 25%;
+  height: 25%;
+  border: 1px solid grey;
+  font-size: 2.5rem;
+  font-weight: 500;
+  background: #9E0510;
+  color: #FFF;
+} 
