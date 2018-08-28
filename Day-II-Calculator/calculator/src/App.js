@@ -24,6 +24,7 @@ class App extends React.Component {
     const operatorArray = ["÷", "×", "−", "+"];
 
     if (innerText === "clear") {
+      // if clear btn pressed, reset everything in state back to default
       this.setState({ 
         display: 0,
         num1: "",
@@ -31,21 +32,25 @@ class App extends React.Component {
         num2: "",
       });
     } else if ((Number(innerText) || innerText === "0") && !this.state.operator) {
+      // if num is pressed, and no operator was pressed, concat to num1 in state
       this.setState((prevState) => ({ 
         display: (this.state.display ? this.state.display : "") + innerText,
         num1: prevState.num1.concat(innerText), 
       }));
     } else if ((Number(innerText) || innerText === "0") && this.state.operator) {
+      // if num is pressed, and an operator was pressed, concat to num2 in state
       this.setState((prevState) => ({ 
         display: (this.state.display ? this.state.display : "") + innerText,
         num2: prevState.num2.concat(innerText), 
       }));
     } else if (operatorArray.includes(innerText)) {
+      // if button pressed is an operator, make that value the operator in state
       this.setState((prevState) => ({ 
         display: innerText,
         operator: innerText,
       }));
     } else if (innerText === "=") {
+      // if equal sign is pressed, calculate the result
       let result;
 
       if (this.state.operator === "÷") {
@@ -64,12 +69,15 @@ class App extends React.Component {
         result = Number(this.state.num1) + Number(this.state.num2);
       }
 
-      this.setState((prevState) => ({ 
+      // convert result into a string
+      result = ("" + result);
+
+      this.setState({ 
         display: result,
-        num1: ("" + result),
+        num1: result,
         operator: "",
         num2: "",
-      }));
+      });
     }
   }
 
