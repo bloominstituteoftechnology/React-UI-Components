@@ -22,7 +22,7 @@ const App = () => {
         <DisplayScreen result="0" />
         <div class="keyboard">
           <div className="number-container">
-            <NumberButton number="clear" type="large-button" />
+            <ActionButton type="clear" buttonStyle="large-button" />
             <NumberButton number="7" />
             <NumberButton number="8" />
             <NumberButton number="9" />
@@ -32,7 +32,7 @@ const App = () => {
             <NumberButton number="1" />
             <NumberButton number="2" />
             <NumberButton number="3" />
-            <NumberButton number="0" type="large-button" />
+            <NumberButton number="0" buttonStyle="large-button" />
           </div>
           <div className="operator-container">
             <ActionButton type="%" />
