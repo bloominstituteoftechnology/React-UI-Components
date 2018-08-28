@@ -2,13 +2,41 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 110px;
+  width: 112px;
   height: 94px;
   font-weight: bold;
   border: 1px solid #979797;
+  cursor: pointer;
 }
 
-.fat {
+.fat-number {
   width: 334px;
   height: 94px;
+}
+
+.pixel-perfect-width {
+  width: 110px;
+}
+
+.action-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 94px;
+  font-size: 72px;
+  font-weight: bold;
+  color: white;
+  background: #A0001E;
+  border: 1px solid #979797;
+  cursor: pointer;
+}
+
+.fat-action {
+  width: 334px;
+  height: 94px;
+  font-size: 44px;
+  font-weight: normal;
+  color: black;
+  background: white;
 }

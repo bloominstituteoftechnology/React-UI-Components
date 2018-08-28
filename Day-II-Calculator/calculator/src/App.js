@@ -8,9 +8,22 @@ const App = () => {
   return (
     <div className='calculator-container'>
       <CalculatorDisplay />
-      <NumberButton buttonText='7' />
+      <ActionButton buttonStyle='fat-action' buttonText='clear' />
+      <ActionButton buttonText='÷' />
+      <NumberButton buttonStyle='pixel-perfect-width' buttonText='7' />
       <NumberButton buttonText='8' />
-      <NumberButton buttonStyle='fat' buttonText='0' />
+      <NumberButton buttonText='9' />
+      <ActionButton buttonText='×' />
+      <NumberButton buttonStyle='pixel-perfect-width' buttonText='4' />
+      <NumberButton buttonText='5' />
+      <NumberButton buttonText='6' />
+      <ActionButton buttonText='-' />
+      <NumberButton buttonStyle='pixel-perfect-width' buttonText='1' />
+      <NumberButton buttonText='2' />
+      <NumberButton buttonText='3' />
+      <ActionButton buttonText='+' />
+      <NumberButton buttonStyle='fat-number' buttonText='0' />
+      <ActionButton buttonText='=' />
     </div>
   );
 };
