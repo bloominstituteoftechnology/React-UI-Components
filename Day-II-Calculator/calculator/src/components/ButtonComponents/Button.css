@@ -1,0 +1,29 @@
+.long {
+  width: 240px;
+  background-color: #ffffff;
+  border: 1px black solid;
+  height: 80px;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.operator {
+  background-color: red;
+  border: 1px black solid;
+  width: 90px;
+  height: 80px;
+  margin: 0;
+  font-size: 2rem;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.num {
+  background-color: #ffffff;
+  border: 1px black solid;
+  width: 80px;
+  height: 80px;
+  margin: 0;
+  font-size: 2rem;
+  cursor: pointer;
+}
