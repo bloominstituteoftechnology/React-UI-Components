@@ -4,78 +4,78 @@
     align-items: center;
     flex-wrap: wrap;
     width: 300px;
-}
-
-.evaluation {
-    background: #1F1F1F;
+  }
+  
+  .evaluation {
+    background: #1f1f1f;
     height: 100px;
     width: 100%;
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
     flex-direction: column;
-}
-
-.eval-number {
+  }
+  
+  .eval-number {
     color: #fff;
     font-size: 54px;
     margin: 0 5%;
-}
-
-.button {
+  }
+  
+  .button {
     height: 75px;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.button-span {
+    cursor: pointer;
+  }
+  
+  .button-span {
     font-size: 48px;
-}
-
-.white {
+  }
+  
+  .white {
     color: #fff;
-}
-
-.row-2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-}
-
-.clear {
+  }
+  
+  .clear {
     border: 1px solid black;
     width: 80%;
     background: #fff;
     color: #000;
     font-weight: 100;
-}
-
-/* Action Buttons */
-.divide {
+  }
+  
+  /* Action Buttons */
+  .divide {
     width: 20%;
-    background: #96001C;
+    background: #96001c;
     color: #fff;
     border: 1px solid black;
-}
-
-.row {
+  }
+  
+  .row {
     display: flex;
     width: 100%;
-}
-
-.number-button {
+  }
+  
+  /* Number Buttons */
+  .number-button {
     border: 1px solid black;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-grow: 1;
-}
-
-.multiply, .subtract, .add, .evaluate {
+    cursor: pointer;
+  }
+  
+  .multiply,
+  .subtract,
+  .add,
+  .evaluate {
     width: 20%;
-    background: #96001C;
+    background: #96001c;
     color: #fff;
     border: 1px solid black;
-}
+  }
+  
