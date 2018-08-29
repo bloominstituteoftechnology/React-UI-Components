@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+.calculator-container {
+    width: 100%;
+    max-height: 302px;
+    max-width: 420px;
+    margin: auto auto;
+    border: 1px solid black;
+}
+
+.keypad {
+    display: flex;
+
+}
+
+.grey {
+    width: 100%;
+    max-width: 325px;
+}
+
+.numbers {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.red {
+    width: 100%;
+    max-width: 103px;
+}

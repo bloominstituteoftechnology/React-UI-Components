@@ -1,0 +1,23 @@
+
+
+.grey-number {
+    background-color: white;
+    height: 50px;
+    border: 1px solid black;
+    width: 100%;
+    max-width: 105px;
+    text-align: center;
+}
+
+.red-action {
+    background: red;
+    height: 50px;
+    border: 1px solid black;
+    max-width: 105px;
+    text-align: center;
+}
+
+.wide-button {
+    width: 100%;
+    max-width: 315px;
+}
