@@ -1,14 +1,19 @@
 .container {
     width: 300px;
-    margin: 30px;
+    margin: 10% 0 0 40%;
   }
   .white {
       background-color: white;
+      
   }
   .red {
       background-color: red;
   }
   .sum {
+      display: flex;
+      justify-content: flex-end;
+      font-size: 55px;
+      height: 60px;
       background-color: black;
       color: white;
   }
@@ -18,3 +23,4 @@
   .top-nums {
       
   }
+  

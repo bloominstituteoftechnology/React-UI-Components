@@ -1,3 +1,12 @@
-.button {
-    width: 300px;
+.number-button {
+    font-size: 30px;
+    font-weight: bold;
+    height: 60px;
+    width: 75px;
+}
+.action-button {
+    font-size: 30px;
+    font-weight: bold;
+    height: 60px;
+    width: 75%;
 }
