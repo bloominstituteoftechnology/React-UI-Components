@@ -1,5 +1,10 @@
+:root {
+  --light-gray: rgb(131, 145, 159);
+}
+
 body {
   margin: 0;
   padding: 0.4rem;
   font-family: sans-serif;
+  overflow-x: hidden;
 }

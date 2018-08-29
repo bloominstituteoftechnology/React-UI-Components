@@ -1,1 +1,26 @@
 /* All styles for your header Components live here */
+
+.header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    
+}
+
+.header-text-content {
+    width: calc(100% - 140px);
+    align-self: flex-end;
+    margin: 20px;
+}
+
+.header-img {
+    margin: 20px;
+    align-self: flex-start;
+}
+
+.school-social-media, .date-posted {
+    color: var(--light-gray);
+    font-size: 14px;
+}

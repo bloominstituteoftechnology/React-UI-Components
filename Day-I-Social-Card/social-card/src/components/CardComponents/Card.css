@@ -1,1 +1,24 @@
 /* All styles for your Card Components live here */
+
+.card-container {
+    padding-left: 120px;
+    padding-right: 20px;
+}
+
+.react-img {
+    background: url("https://ibin.co/3wnC6SgIOJud.png") no-repeat center;
+    height: 300px;
+    background-size: cover;
+    border-radius: 5px 5px 0 0;
+}
+
+.reactjs-link {
+    color: var(--light-gray);
+    font-size: 12px;
+}
+
+.card-content {
+    border: 1px solid rgba(128, 128, 128, 0.2);
+    border-radius: 0 0 5px 5px;
+    padding: 0 20px;
+}
