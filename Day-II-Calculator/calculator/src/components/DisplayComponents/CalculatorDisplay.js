@@ -1,10 +1,11 @@
 import React from 'react';
 import './Display.css';
 
-const CalculatorDisplay = () => {
+const CalculatorDisplay = props => {
     return (
         <div className='calc-display'>
-            0
+            <input type='text' readOnly value={props.problem}/>
+            <input type='text' readOnly value={props.solution}/>
         </div>
     )
 }
