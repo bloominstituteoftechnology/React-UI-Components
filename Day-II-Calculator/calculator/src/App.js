@@ -19,7 +19,6 @@ class App extends React.Component {
     if(e.currentTarget.innerHTML === "clear") {
       this.setState(
         {
-          calcTotal: 0,
           expression: ""
         }
       );
@@ -165,7 +164,7 @@ class App extends React.Component {
             }
           );
         }
-
+        console.log(this.state.expression);
 
 
 
