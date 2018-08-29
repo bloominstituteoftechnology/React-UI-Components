@@ -1,6 +1,25 @@
 /* All styles for your Card Components live here */
 .card-container {
-  height: 200px;
-  width: 200px;
-  border: solid 1px black;
+  height: 355px;
+  width: 505px;
+  border: solid 1px #ddd;
+  margin-right: 5px;
+  margin-top:25px;
+  border-radius: 5px;
+}
+.banner-img-container {
+  width: 100%;
+}
+.banner-img-container img {
+  width: 100%;
+  height: 250px;
+}
+.card-content-container {
+  padding: 13px;
+}
+.card-content-container-text {
+  margin-top: 7px;
+}
+.card-content-link {
+  margin-top: 10px;
 }
