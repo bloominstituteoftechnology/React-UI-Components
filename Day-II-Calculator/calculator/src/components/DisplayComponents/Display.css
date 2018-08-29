@@ -1,12 +1,12 @@
-.CalculatorDisplay
+.calc-total
 {
 
     color: #f7f7f7;
-    background-color:#333333;
+    background-color:#222222;
     border: 1px solid gray;
     height: 100px;
-    font-size: 5rem;
+    font-size: 3rem;
     text-align: right;
-    padding: 1rem;
+    padding: .3rem;
 
 }
