@@ -1,0 +1,14 @@
+.calculator-wrapper {
+    width: 100%;
+    min-height: 600px;
+    max-width: 450px;
+    padding: 0 15px;
+    margin: 0 auto;
+    border: 1px solid #e3e3e3;
+    font-family: sans-serif;
+}
+
+.ButtonContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
