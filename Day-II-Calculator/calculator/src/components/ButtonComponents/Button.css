@@ -1,5 +1,5 @@
 .action{
-    border: 1px solid green;
+    border: 1px solid gray;
     font-size: 3rem;
     width: 100%;
     text-align: center;
@@ -8,6 +8,8 @@
 #number-buttons{
     border: 1px solid gray;
     font-size: 3rem;
+    width: 7.1rem;
+    height: 5rem;
 }
 
 
