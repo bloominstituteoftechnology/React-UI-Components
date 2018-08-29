@@ -1,0 +1,37 @@
+.calculatorWrapper {
+    border: 2px solid black;
+    height: 726px;
+    width: 500px;
+    margin: 100px 0px 100px 100px;
+}
+
+.calcDisplay {
+    border: 2px solid red;
+    width: 500px;
+    height: 200px;
+}
+.btn-grp-lrg {
+    border: 2px solid black;
+    margin-bottom: 50px;
+}
+button {
+    font: black;
+    font-size: 50px;
+    padding: 50px 50px;
+    background-color: white;
+}
+.btn-group-vertical {
+    margin-left: 500px;
+    margin-bottom: 0px;
+   
+}
+.btn {
+    background-color: maroon;
+    font: black;
+    font-size: 50px;
+    padding: 16px 25px;
+}
+
+
+
+
