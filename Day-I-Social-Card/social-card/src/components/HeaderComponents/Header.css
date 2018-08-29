@@ -1,1 +1,30 @@
 /* All styles for your header Components live here */
+
+img {
+    height: 30px;
+    width: 30px;
+    padding-top: 20px;
+}
+.HeaderContainer {
+    display: flex;
+    
+}
+.HdrTitle {
+    display: flex;
+    padding-left: 20px;
+    width: 600px;
+}
+h2 {
+    opacity: .5;
+    font-size: 18px;
+    padding: 5px;
+}
+h3 {
+    opacity: .5;
+    font-size: 18px;
+    padding: 2px;
+}
+p {
+    display: flex;
+    flex-direction: column;
+}
