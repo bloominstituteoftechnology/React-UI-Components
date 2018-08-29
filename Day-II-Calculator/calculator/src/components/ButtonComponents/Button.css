@@ -1,0 +1,13 @@
+.action{
+    border: 1px solid green;
+    font-size: 3rem;
+    width: 100%;
+    text-align: center;
+}
+
+#number-buttons{
+    border: 1px solid gray;
+    font-size: 3rem;
+}
+
+

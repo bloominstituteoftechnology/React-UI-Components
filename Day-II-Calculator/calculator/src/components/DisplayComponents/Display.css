@@ -1,9 +1,10 @@
 .display{
     background: black;
     color: white;
-    width:20%;
+    width:100%;
+    font-size: 3rem;
+    display: flex;
+    justify-content: flex-end;
+
 }
 
-.result-display{
-    float: right;
-}
