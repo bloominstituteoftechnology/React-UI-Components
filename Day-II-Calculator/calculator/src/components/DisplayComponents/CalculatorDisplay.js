@@ -28,19 +28,19 @@ export default class CalculatorDisplay extends React.Component {
         let currentState = this.state.expression;
         if (action === '='){
             console.log(action);
-            if(this.state.expression.length < 3 ? currentState += '0' : this.state.expression);
+            if(this.state.expression.split(/[\/*]/)[1] == false ? currentState += '0' : this.state.expression);
             if(currentState.split(/[*/]/)[1] === '0'){
                 if(this.state.expression.includes('*')){
-                    this.setState({expression: '0'});
+                    this.setState({expression: '', evaluation: 0});
                 } else {
-                    this.setState({expression: 'NaN'});
+                    this.setState({expression: 'NaN', evaluation: 0});
                 }
             } else {
                 let result = eval( ((this.state.expression)) );
                 this.setState({expression: '', evaluation: result.toLocaleString()});
             }
         } else if(action === 'clear'){
-            this.setState({expression: '', evaluation: ''})
+            this.setState({expression: '', evaluation: 0})
         } else {
             this.setState({
                 expression: currentState += action
