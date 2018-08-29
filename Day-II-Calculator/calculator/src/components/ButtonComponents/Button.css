@@ -11,6 +11,10 @@
     color: white;
 }
 
+.btn.bold {
+    font-weight: bold;
+}
+
 .btn.width3 {
     width: 60px;
 }

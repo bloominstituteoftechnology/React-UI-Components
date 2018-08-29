@@ -16,25 +16,25 @@ const App = () => {
         <NumberButton text='/' buttonStyle='red' />
       </div>
       <div>
-        <NumberButton text='7' />
-        <NumberButton text='8' />
-        <NumberButton text='9' />
+        <NumberButton text='7' buttonStyle='bold' />
+        <NumberButton text='8' buttonStyle='bold' />
+        <NumberButton text='9' buttonStyle='bold' />
         <NumberButton text='x' buttonStyle='red' />
       </div>
       <div>
-        <NumberButton text='4' />
-        <NumberButton text='5' />
-        <NumberButton text='6' />
+        <NumberButton text='4' buttonStyle='bold' />
+        <NumberButton text='5' buttonStyle='bold' />
+        <NumberButton text='6' buttonStyle='bold' />
         <NumberButton text='-' buttonStyle='red' />
       </div>
       <div>
-        <NumberButton text='1' />
-        <NumberButton text='2' />
-        <NumberButton text='3' />
+        <NumberButton text='1' buttonStyle='bold' />
+        <NumberButton text='2' buttonStyle='bold' />
+        <NumberButton text='3' buttonStyle='bold' />
         <NumberButton text='+' buttonStyle='red' />
       </div>
       <div>
-        <ActionButton text='0' buttonStyle='width3' />
+        <ActionButton text='0' buttonStyle='bold' />
         <NumberButton text='=' buttonStyle='red' />
       </div>
     </div>

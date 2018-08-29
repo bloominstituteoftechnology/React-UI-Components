@@ -1,8 +1,8 @@
 import React from 'react';
 import './Display.css';
 
-const CalculatorDisplay = (prop) => {
-    this.total = prop.total;
+const CalculatorDisplay = (props) => {
+    this.total = props.total;
     return (
         <label>{this.total}</label>
     );
