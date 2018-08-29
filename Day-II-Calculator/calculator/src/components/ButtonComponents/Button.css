@@ -1,0 +1,20 @@
+
+.btn {
+    border: 1px solid gray;
+    background-color: white;
+    color: black;
+    width: 20px;
+}
+
+.btn.red {
+    background-color: #a0001e;
+    color: white;
+}
+
+.btn.bold {
+    font-weight: bold;
+}
+
+.btn.width3 {
+    width: 60px;
+}

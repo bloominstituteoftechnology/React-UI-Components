@@ -1,0 +1,10 @@
+label {
+    box-sizing: border-box;
+    background-color: #222222;
+    color: white;
+    width: 80px;
+    max-width: 80px;
+    padding: 5px;
+    text-align: right;
+    display:inline-block
+}
