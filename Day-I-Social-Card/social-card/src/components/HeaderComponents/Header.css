@@ -3,7 +3,7 @@
 .header-container {
     background: black;
     height: 300px;
-    width: 3
+    width: 650px;
 }
 
 .header {
@@ -17,7 +17,7 @@
 }
 
 .header__text {
-    flex-basis: calc(100% - 8.33%);
+    flex-basis: calc(100% -8.33% );
     padding: 0 .5rem;
 }
 

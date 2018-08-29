@@ -1,0 +1,12 @@
+.AppContainer
+{
+    width: 100%;
+    max-width: 450px;
+    padding: 0 15px;
+     margin: 0 auto;
+}
+
+.ButtonContainer{
+    display: flex;
+    flex-wrap: wrap;
+}

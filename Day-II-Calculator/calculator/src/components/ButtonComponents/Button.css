@@ -1,0 +1,10 @@
+.ActionButton:hover,
+.NumberButton:hover {
+    background-color: #eeeeee;
+    color: black;
+    width: 100px;
+    height:100px;
+    border: 1px solid gray;
+    font-size: 2rem;
+
+}
