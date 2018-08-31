@@ -1,6 +1,8 @@
 import React from 'react';
 import './Header.css';
 
-export default ImageThubmnail = () => (
-    <image src ="https://ibin.co/3whrpKSBbZ81.png" />
-);
+const ImageThubmnail = () => {
+    return <img src ='https://ibin.co/3whrpKSBbZ81.png' alt='Lambda Logo'/>
+};
+
+export default ImageThubmnail;
