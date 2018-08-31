@@ -9,10 +9,8 @@ import HeaderContent from "./HeaderContent";
 const HeaderContainer = props => {
   return (
     <div className="header-wrapper">
-      <div className="header-title-and-content-wrapper">
-        <HeaderTitle name={props.username} tagname={props.usertag} />{" "}
-        <HeaderContent />
-      </div>{" "}
+      <ImageThumbnail />
+      <HeaderContent />
     </div>
   );
 };
