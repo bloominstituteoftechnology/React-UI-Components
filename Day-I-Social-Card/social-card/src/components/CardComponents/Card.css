@@ -1,4 +1,14 @@
 /* All styles for your Card Components live here */
+.cardContainer {
+  padding-left: 60px;
+}
+
 .reactLogo {
   width: 100%;
+  border-radius: 5px;
+}
+
+.reactLink {
+  text-decoration: none;
+  color: gray;
 }
