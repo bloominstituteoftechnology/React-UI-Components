@@ -1,0 +1,14 @@
+.output-display {
+    width: 502px; 
+    background-color: black;
+    height: 125px; 
+    color: lightgray;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 75px;
+}
+
+.number-display {
+    margin: 20px; 
+}

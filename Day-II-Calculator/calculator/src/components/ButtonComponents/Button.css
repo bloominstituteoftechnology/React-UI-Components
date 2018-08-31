@@ -1,0 +1,33 @@
+.input-fields {
+    display: flex;
+}
+
+.action-buttons .clear, .action-buttons .zero {
+    width: 375px; 
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    font-size: 60px; 
+    height: 100px; 
+    border: 1px solid lightgray;
+}
+
+.action-buttons .numbers {
+    display: grid; 
+    grid-template-columns: 125px 125px 125px; 
+}
+
+.action-buttons .numbers .number, .operator {
+    width: 124px; 
+    height: 100px; 
+    border: 1px solid lightgray;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+} 
+
+.operators {
+    background-color: #9E0523;
+    color: white; 
+}
