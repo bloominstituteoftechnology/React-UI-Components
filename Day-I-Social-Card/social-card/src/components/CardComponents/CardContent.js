@@ -3,15 +3,21 @@ import './Card.css';
 
 const CardContent = () => {
   return (
-    <div>
-      <div className="banner-title">Get started with React</div>
-      <div className="banner-content">
-        React makes it painless to create interactive UIs. Design simple views
+    <div className="banner-bottom">
+      <p className="banner-content">
+        <strong>Get started with React</strong>
+      </p>
+      <p className="banner-content">
+        React makes it painless to make interactive UI's. Design simple views
         for each state in your application.
-      </div>
-      <div className="banner-website">reactjs.org</div>
+      </p>
+      <a
+        href="http://reactjs.org"
+        className="banner-content header-content link"
+      >
+        reactjs.org
+      </a>
     </div>
   );
 };
-
 export default CardContent;

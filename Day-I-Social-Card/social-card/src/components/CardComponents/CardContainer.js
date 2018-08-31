@@ -1,11 +1,11 @@
 import React from 'react';
-import CardBanner from './CardBanner';
-import CardContent from './CardContent';
 import './Card.css';
+import CardContent from './CardContent';
+import CardBanner from './CardBanner';
 
 const CardContainer = () => {
   return (
-    <div>
+    <div className="banner-wrapper">
       <CardBanner />
       <CardContent />
     </div>
