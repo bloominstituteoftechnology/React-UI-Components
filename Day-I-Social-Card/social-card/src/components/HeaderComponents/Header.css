@@ -1,1 +1,11 @@
 /* All styles for your header Components live here */
+.imgThumb {
+  width: 40px;
+  height: 40px;
+}
+
+.headerTitle {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
