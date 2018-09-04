@@ -4,8 +4,9 @@
     width: 400 px;
     height: 100px;
     text-align: right;
+    justify-content: flex-end;
     font-size: 25px;
-    background-color: black;
+    background-color: #222;
     color: white;
     overflow: hidden;
 }
