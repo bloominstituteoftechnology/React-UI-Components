@@ -9,7 +9,8 @@ const App = () => {
   return (
     <div>
       <CalculatorDisplay />
-      <NumberButton />
+      <NumberButton text="7" bgColor="red" />
+      <NumberButton text="8" />
       <ActionButton />
     </div>
   );
