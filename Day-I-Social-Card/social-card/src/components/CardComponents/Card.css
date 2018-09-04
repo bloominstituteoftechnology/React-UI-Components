@@ -1,11 +1,17 @@
 /* All styles for your Card Components live here */
 .cardContainer {
-  padding-left: 60px;
+  margin-left: 60px;
+  border: 1px solid gray;
+  border-radius: 5px;
 }
 
 .reactLogo {
   width: 100%;
-  border-radius: 5px;
+}
+
+.card-content {
+  padding-left: 10px;
+  padding-bottom: 10px;
 }
 
 .reactLink {

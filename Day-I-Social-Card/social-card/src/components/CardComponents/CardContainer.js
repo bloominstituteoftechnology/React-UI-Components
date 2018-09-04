@@ -11,9 +11,6 @@ const CardContainer = () => {
     <div className="cardContainer">
       <CardBanner />
       <CardContent />
-      <a className="reactLink" href="https://www.reactjs.org">
-        reactjs.org
-      </a>
     </div>
   );
 };

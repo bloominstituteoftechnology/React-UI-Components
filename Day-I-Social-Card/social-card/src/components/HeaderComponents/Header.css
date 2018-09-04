@@ -14,9 +14,13 @@
 .headerTitle {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+
   padding-left: 60px;
   margin-top: -64px;
+}
+
+.header-text {
+  padding-right: 15px;
 }
 
 .headerContent {
