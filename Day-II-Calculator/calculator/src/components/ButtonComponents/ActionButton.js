@@ -1,11 +1,10 @@
 import React from 'react';
 import './Button.css';
 
-const ActionButton = () => {
+const ActionButton = props => {
   return (
     <div>
-      <button className="action-button">0</button>
-      <button className="action-button">clear</button>
+      <button className={`action-button ${props.bgColor}`}>{props.text}</button>
     </div>
   );
 };

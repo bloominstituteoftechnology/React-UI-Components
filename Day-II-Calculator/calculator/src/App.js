@@ -9,9 +9,22 @@ const App = () => {
   return (
     <div>
       <CalculatorDisplay />
-      <NumberButton text="7" bgColor="red" />
+      <ActionButton text="clear" />
+      <NumberButton text="÷" bgColor="maroon" />
+      <NumberButton text="7" />
       <NumberButton text="8" />
-      <ActionButton />
+      <NumberButton text="9" />
+      <NumberButton text="x" bgColor="maroon" />
+      <NumberButton text="4" />
+      <NumberButton text="5" />
+      <NumberButton text="6" />
+      <NumberButton text="-" bgColor="maroon" />
+      <NumberButton text="1" />
+      <NumberButton text="2" />
+      <NumberButton text="3" />
+      <NumberButton text="+" bgColor="maroon" />
+      <ActionButton text="0" />
+      <NumberButton text="=" bgColor="maroon" />
     </div>
   );
 };
