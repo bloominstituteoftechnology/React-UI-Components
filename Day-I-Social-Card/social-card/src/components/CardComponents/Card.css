@@ -18,3 +18,11 @@
   text-decoration: none;
   color: gray;
 }
+
+.containerLink {
+  text-decoration: none;
+}
+
+.card-text {
+  color: black;
+}
