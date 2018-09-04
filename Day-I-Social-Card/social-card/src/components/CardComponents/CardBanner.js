@@ -2,4 +2,6 @@ import React from 'react';
 import './Card.css';
 
 const CardBanner = () => (
-<img src='/react-1-logo-png-transparent.png' alt='card-content banner'/>);
+<img src='https://goo.gl/images/wvF5Ko' alt='card-content banner'/>);
+
+export default CardBanner;
