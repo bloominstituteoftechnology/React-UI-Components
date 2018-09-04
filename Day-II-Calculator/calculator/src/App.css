@@ -1,0 +1,32 @@
+.App{
+    border: 2px solid red;
+    width: 50%;
+    
+}
+
+
+
+
+
+.row-two{
+    display: flex;
+    justify-content: space-between;
+}
+
+.row-three{
+    display: flex;
+    justify-content: space-between;
+}
+
+.row-four{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.row-five{
+    display: flex;
+    justify-content: space-between;
+}
+

@@ -1,0 +1,10 @@
+.display{
+    background: black;
+    color: white;
+    width:100%;
+    font-size: 3rem;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+

@@ -1,1 +1,16 @@
-/* All styles for your header Components live here */
+.header-container{
+    display: flex;
+    border: 1px solid blueviolet;
+}
+
+.lambda-logo{
+    width: 8%;
+    height: 8%;
+    margin-right: 5px;
+    border-radius: 35px;
+    border: 1px solid greenyellow;
+}
+
+.header-text{
+    margin: 0 8px 0 0;
+}
