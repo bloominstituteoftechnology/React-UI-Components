@@ -3,9 +3,7 @@ import './Button.css';
 
 const ActionButton = props => {
   return (
-    <div>
-      <button className={`action-button ${props.bgColor}`}>{props.text}</button>
-    </div>
+    <button className={`three-times ${props.className}`}>{props.text}</button>
   );
 };
 

@@ -1,32 +1,45 @@
-import React from 'react';
-import './App.css';
-
+import React, { Component } from 'react';
 import CalculatorDisplay from './components/DisplayComponents/CalculatorDisplay';
 import NumberButton from './components/ButtonComponents/NumberButton';
 import ActionButton from './components/ButtonComponents/ActionButton';
+import ButtonContainer from './components/ButtonComponents/ButtonContainer';
 
-const App = () => {
-  return (
-    <div>
-      <CalculatorDisplay />
-      <ActionButton text="clear" />
-      <NumberButton text="÷" bgColor="maroon" />
-      <NumberButton text="7" />
-      <NumberButton text="8" />
-      <NumberButton text="9" />
-      <NumberButton text="x" bgColor="maroon" />
-      <NumberButton text="4" />
-      <NumberButton text="5" />
-      <NumberButton text="6" />
-      <NumberButton text="-" bgColor="maroon" />
-      <NumberButton text="1" />
-      <NumberButton text="2" />
-      <NumberButton text="3" />
-      <NumberButton text="+" bgColor="maroon" />
-      <ActionButton text="0" />
-      <NumberButton text="=" bgColor="maroon" />
-    </div>
-  );
-};
+import './App.css';
+
+class App extends Component {
+  render() {
+    return (
+      <div className="calculator-container">
+        <CalculatorDisplay />
+        <ButtonContainer className="clear-btn">
+          <ActionButton className="action-text" text="clear" />
+          <NumberButton text="÷" bgColor="maroon" />
+        </ButtonContainer>
+        <ButtonContainer>
+          <NumberButton text="7" bgColor="number" />
+          <NumberButton text="8" bgColor="number" />
+          <NumberButton text="9" bgColor="number" />
+          <NumberButton text="x" bgColor="maroon" />
+        </ButtonContainer>
+        <ButtonContainer>
+          <NumberButton text="4" bgColor="number" />
+          <NumberButton text="5" bgColor="number" />
+          <NumberButton text="6" bgColor="number" />
+          <NumberButton text="-" bgColor="maroon" />
+        </ButtonContainer>
+        <ButtonContainer>
+          <NumberButton text="1" bgColor="number" />
+          <NumberButton text="2" bgColor="number" />
+          <NumberButton text="3" bgColor="number" />
+          <NumberButton text="+" bgColor="maroon" />
+        </ButtonContainer>
+        <ButtonContainer>
+          <ActionButton text="0" className="action-text" />
+          <NumberButton text="=" bgColor="maroon" />
+        </ButtonContainer>
+      </div>
+    );
+  }
+}
 
 export default App;
