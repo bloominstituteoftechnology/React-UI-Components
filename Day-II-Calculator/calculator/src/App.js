@@ -1,23 +1,55 @@
 import React from 'react';
+import DynamicButtonGray from './components/ButtonComponents/NumberButtonGray';
+import DynamicButtonRed from './components/ButtonComponents/NumberButtonRed';
+import Display from './components/DisplayComponents/CalculatorDisplay';
+import ButtonWide from './components/ButtonComponents/WideGray';
 import './App.css';
+
+
 
 const App = () => {
   return (
-    <div>
-      <h3>Welcome to React Calculator</h3>
-      <p>
-        We have given you a starter project. You'll want to build out your
-        components in their respective files, remove this code and replace it
-        with the proper components.
-      </p>
-      <p>
-        <strong>
-          Don't forget to `default export` your components and import them here
-          inside of this file in order to make them work.
-        </strong>
-      </p>
+    <div class='container'>
+      <div class='display'>
+        <Display />
+      </div>
+      <div class='buttons'>
+      <div class='row1'>
+        <div class='clear'>
+          <ButtonWide buttonText='clear' />
+        </div>
+          <DynamicButtonRed buttonText='÷' />
+        </div>
+      </div>
+      <div class='row2'>
+        <DynamicButtonGray buttonText='7' />
+        <DynamicButtonGray buttonText='8' />
+        <DynamicButtonGray buttonText='9' />
+        <DynamicButtonRed buttonText='X' />
+      </div>
+      <div class='row3'>
+        <DynamicButtonGray buttonText='4' />
+        <DynamicButtonGray buttonText='5' />
+        <DynamicButtonGray buttonText='6' />
+        <DynamicButtonRed buttonText='-' />
+      </div>
+      <div class='row4'>
+        <DynamicButtonGray buttonText='1' />
+        <DynamicButtonGray buttonText='2' />
+        <DynamicButtonGray buttonText='3' />
+        <DynamicButtonRed buttonText='+' />
+      </div>
+      <div class='row5'>
+        <DynamicButtonGray buttonText='0' />
+          <div class='equal'>
+            <DynamicButtonRed buttonText='=' />
+        </div>
+      </div>
     </div>
   );
 };
+
+
+
 
 export default App;
