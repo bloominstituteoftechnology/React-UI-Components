@@ -1,0 +1,18 @@
+.footer-container{
+  margin-top: 15px;
+  margin-left: 60px;
+}
+
+.footer-container-icon{
+  text-decoration: none;
+  color: gray;
+  font-size: 20px;
+}
+
+.footer-container-icon:not(:first-child){
+  margin-left: 40px;
+}
+
+.flip{
+  transform: rotateY(180deg);
+}

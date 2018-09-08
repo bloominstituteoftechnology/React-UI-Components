@@ -1,0 +1,20 @@
+.app-container{
+  max-height: 600px;
+  max-width: 455px;
+  margin: 0 auto;
+  font-size: 1.6rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.app-container .left-btn-container{
+  display: flex;
+  flex-wrap: wrap;
+  width: 75%;
+}
+
+.app-container .right-btn-container{
+  width: 25%;
+  display: flex;
+  flex-wrap: wrap;
+}
