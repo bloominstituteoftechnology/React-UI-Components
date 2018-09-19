@@ -14,11 +14,13 @@
 .card-container img{
   width:100%;
   max-width:520px;
+  border-top-right-radius:10px;
+  border-top-left-radius: 10px;
 }
 
 .card-container .content{
   width: 88%;
-  margin-left: 65px;
+  margin-left: 65px;  
 }
 
 .content-banner{
