@@ -4,7 +4,7 @@ import './Header.css';
 const ImageThumbnail = () => {
   return (
     <div className="header-img">
-      <img src="https://ibin.co/3whrpKSBbZ81.png" />
+      <img alt="Lambda School logo" src="https://ibin.co/3whrpKSBbZ81.png" />
     </div>
   );
 };
