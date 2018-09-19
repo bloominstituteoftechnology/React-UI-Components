@@ -1,1 +1,31 @@
 /* All styles for your Card Components live here */
+
+.card-container {
+  align-items: flex-end;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0;
+  width: 100%;
+}
+
+.card-banner {
+  background-image: url('https://ibin.co/3wnC6SgIOJud.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  border-top: 1px solid transparent;
+  border-radius: 8px 8px 0 0;
+  height: 370px;
+  width: 85%;
+}
+
+.card-content {
+  padding: 0 50px;
+  width: 75%;
+}
+
+.react-link {
+  color: rgb(50, 84, 140);
+  text-decoration: none;
+  line-height: 24px;
+}

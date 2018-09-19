@@ -2,7 +2,11 @@
 .header-container {
   display: flex;
   justify-content: space-between;
-  width: 750px;
+  width: 100%;
+}
+.header-aside {
+  display: flex;
+  align-items: center;
 }
 .header-image {
   height: 100px;
