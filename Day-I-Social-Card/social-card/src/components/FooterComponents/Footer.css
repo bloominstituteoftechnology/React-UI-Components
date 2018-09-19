@@ -1,0 +1,25 @@
+.chat-bubble {
+    display: flex;
+    margin-bottom:20px;
+}
+
+.chat-bubble i {
+    margin: 0px 20px;
+    font-size: 15px;
+    color: rgb(112, 110, 110);
+}
+.sync {
+    display:flex;
+    margin-right: 15px;
+    letter-spacing: -10px;
+}
+.heart {
+    display:flex;
+    margin-right: 15px;
+    letter-spacing: -10px;
+}
+.chat-bubble p {
+    font-size: 13px;
+    font-weight: bold;
+    color: rgb(112, 110, 110);
+}

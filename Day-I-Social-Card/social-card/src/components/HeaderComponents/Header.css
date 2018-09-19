@@ -1,12 +1,12 @@
 .header {
-    border: 2px solid goldenrod;
+    
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
     align-items: flex-start;
     margin-top: 50px;
     width: 600px;
-    background: white;
+ 
 }
 
 .lambdaHeader {
