@@ -5,7 +5,7 @@ import './Header.css';
 const HeaderContainer = () => {
   return (
     <HeaderTitle />
-  )
+  );
 };
 
 export default HeaderContainer;
