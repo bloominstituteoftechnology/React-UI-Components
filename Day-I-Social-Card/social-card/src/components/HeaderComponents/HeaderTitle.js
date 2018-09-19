@@ -5,7 +5,9 @@ const HeaderTitle = () => {
     return (
         <div>
             <h1> Lambda School </h1>
-            <p>@LambdaSchool 26 jan </p>
+            <p>@LambdaSchool - 26 jan</p>
+
+            
         </div>
         
     )
