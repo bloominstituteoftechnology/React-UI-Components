@@ -7,6 +7,5 @@ const HeaderContainer =  () => {
 
     <HeaderTitle />
     );
-  }
-
+  };
   export default HeaderContainer;
