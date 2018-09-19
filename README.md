@@ -10,6 +10,7 @@
 - Inside of `../../social-card` you'll then need to run `yarn start` to open up a React Development Server that can take your `.js` files as components and bundle them up to work in your new environment.
 - **You'll repeat this last two steps for the calculator project, but you'll need to make sure that you're inside of `../../calculator` directory to make this work.**
 
+
 ## Instructions
 
 - Over the next two days you'll be working on two different projects in this repo.
@@ -58,6 +59,9 @@
 - Look up the `moment.js` library and figure out how to format your `time-stamp` in your header to be today's date.
 
 ## _Day II - React Calculator_
+
+- To start the `Calculator` project, you'll need to cd into `Day-II-Calculator` and then into `calculator` and run `yarn install` to retrieve all the dependencies.
+- Inside of `../../calculator` you'll then need to run `yarn start` to open up a React Development Server that can take your `.js` files as components and bundle them up to work in your new environment.
 
 - For this project you're not going to be given any tips on how to break down the image file into components. Now that you've had some practice with the social card, this should be something you can start doing on your own. Just think about the image, and what potentially looks like a component.
 - For the MVP the calculator just needs to be displayed properly. Functionality will be a part of the stretch requirement.
