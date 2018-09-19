@@ -1,1 +1,29 @@
 /* All styles for your header Components live here */
+.header-well {
+    display: flex;
+}
+
+.thumbnail-container {
+    display: flex;
+    justify-content: center;
+}
+
+.thumbnail {
+    margin-top: 10px;
+    height: 60%;
+    width: 60%;
+}
+
+.title-container {
+    display: flex;
+    justify-content: space-between;
+    width: 25%;
+}
+
+.title {
+    font-weight: bold;
+}
+
+.tag {
+    font-color: grey;
+}

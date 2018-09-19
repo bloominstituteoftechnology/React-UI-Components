@@ -1,12 +1,1 @@
 /* All styles for your Card Components live here */
-.header-well {
-    display: flex;
-}
-
-.title {
-    font-weight: bold;
-}
-
-.tag {
-    font-color: grey;
-}
