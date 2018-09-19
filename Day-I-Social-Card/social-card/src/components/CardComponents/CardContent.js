@@ -7,8 +7,8 @@ export const CardContent = (props) => {
     let embedLink = "reactjs.org"
 
     return (
-      <div>
-          <h3>{embedTitle}</h3>
+      <div class="embed-content">
+          <h4>{embedTitle}</h4>
           <p className="content">{embedContent}</p>
           <p className="embed-link">{embedLink}</p>
       </div>

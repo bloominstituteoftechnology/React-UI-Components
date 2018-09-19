@@ -5,7 +5,7 @@ import { ImageThumbnail } from './ImageThumbnail';
 
 const HeaderContainer = (props) => {
     return (
-      <div>
+      <div className="header-container">
           <ImageThumbnail />
           <HeaderContent />
       </div>

@@ -1,1 +1,37 @@
 /* All styles for your Card Components live here */
+.card-container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 12.5%;
+}
+
+.card-container:hover {
+    cursor: pointer;
+}
+
+.card-container img {
+    width: 100%;
+    height: 250px;
+    border-radius: 5px 5px 0 0;
+}
+
+.card-container .embed-content {
+    padding-left: 10px;
+    border: 1px solid lightgray;
+    border-top: none;
+    border-radius: 0 0 5px 5px;
+}
+
+.card-container .embed-content h4 {
+    margin: 5px 0 5px 0;
+}
+
+.card-container .embed-content p {
+    font-size: 14px;
+    line-height: 18px;
+    margin: 5px 0 5px 0;
+}
+
+.card-container .embed-content .embed-link {
+    color: lightgrey;
+}
