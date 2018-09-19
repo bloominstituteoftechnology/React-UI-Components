@@ -17,7 +17,7 @@
   width: 85%;
 }
 .header-title {
-  align-items: center;
+  align-items: flex-end;
   display: flex;
 }
 .handle {
