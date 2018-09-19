@@ -2,6 +2,8 @@ import React from 'react';
 import "./Footer.css";
 
 
+
+
 const Footer = () => {
 
 return (
@@ -9,7 +11,7 @@ return (
     {" "}
     <i className="far fa-comment"/>
         {" "}
-        <div className= "sync">
+        <div className= "sync" onClick={()=>{alert('clicked')}}>
             <i class="fas fa-sync" /><p>6</p></div>
 
         {" "}
