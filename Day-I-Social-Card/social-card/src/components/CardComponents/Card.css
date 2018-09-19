@@ -1,1 +1,9 @@
 /* All styles for your Card Components live here */
+
+.card-container{
+    width: 100%;
+}
+
+.card-banner{
+    max-width: 590px;
+}
