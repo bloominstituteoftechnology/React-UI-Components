@@ -1,1 +1,15 @@
 /* All styles for your Card Components live here */
+
+.cardContainer {
+  background-color: red;
+}
+
+.cardText {
+  width: 500px;
+  border: 2px dotted grey;
+
+}
+
+.tweetLinkHeadline {
+  font-weight: bold;
+}
