@@ -1,1 +1,27 @@
 /* All styles for your header Components live here */
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  width: 750px;
+}
+.header-image {
+  height: 100px;
+}
+.header-text {
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+}
+.header-title {
+  align-items: center;
+  display: flex;
+}
+.handle {
+  font-size: 14px;
+  color: gray;
+  padding: 10px;
+}
+.header-content {
+  line-height: 24px;
+  margin: 0;
+}
