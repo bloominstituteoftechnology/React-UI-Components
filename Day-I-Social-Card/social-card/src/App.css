@@ -2,36 +2,41 @@
   Write your styles/CSS for App.js here and import into the component that you need 
   IF you'd like to attempt to use less you'll have to research how to do this with Create React App
 */
-div {
-  background-color: white;
+
+.App-Container {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 880px;
+  display: flex;
+  flex-direction: column;
 }
 
 .Header-Container {
   display: flex;
-  background-color: white;
   margin: 10px;
-  width: 75%;
 }
 
 .Text-Content {
   display: flex;
   flex-direction: column;
-  background-color: white;
-  margin-left: 10px;
+  flex-wrap: wrap;
+  margin-left: 3%;
+  height: 150px;
+  justify-content: space-evenly;
 }
 
 img {
-  width: 8%;
+  width: 9%;
   height: 50px;
-  margin-top: 2vh;
+  margin-top: 12px;
+  margin-left: 2%;
 }
 
 .Header-Title {
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
-  width: 45%;
-  background-color: white;
+  width: 60%;
 }
 
 h1 {
@@ -47,6 +52,6 @@ h1 {
 
 .Main-Text {
   font-size: 14px;
-  width: 85%;
+  width: 95%;
   line-height: 18px;
 }

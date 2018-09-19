@@ -1,1 +1,36 @@
 /* All styles for your Card Components live here */
+
+.Card-Container {
+    width: 84%;
+    align-self: flex-end;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Card-Banner {
+    width: 95%;
+    height: auto;
+    align-self: left;
+}
+
+.Card-Text {
+    width: 97%;
+    align-self: left;
+    margin-left: 2%;
+}
+
+.Card-Text h1 {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.Card-Text .text {
+    font-size: 14px;
+}
+
+.gray {
+    color: rgb(122 141 158);
+    font-weight: normal;
+    font-size: 12px;
+  }
