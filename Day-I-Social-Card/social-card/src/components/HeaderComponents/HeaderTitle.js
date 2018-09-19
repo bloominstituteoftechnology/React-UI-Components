@@ -1,10 +1,10 @@
 import React from 'react';
 import './Header.css';
 
-HeaderTitle = (props) =>{
+const HeaderTitle = (props) =>{
 
     return (
-
+        <h1>Lambda School <span>&copy;LambdaSchool &sdot; 26</span></h1>
 
     )
 
