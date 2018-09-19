@@ -39,16 +39,17 @@
 
 #### Day 1 MVP requirements
 
-- Create a `<HeaderContainer />` container component that will hold your header components.
+- [x] Create a `<HeaderContainer />` container component that will hold your header components.
 
-  - Create an `<ImageThumbnail />` component using this image url https://ibin.co/3whrpKSBbZ81.png as it's img src.
-  - Create a `<HeaderTitle />` component that displays the Lambda School header text, @LambdaSchool handle and timestamp.
-  - Create a `<HeaderContent />` component that displays the copy provided in the headers content.
+  - [x] Create an `<ImageThumbnail />` component using this image url https://ibin.co/3whrpKSBbZ81.png as it's img src.
+  - [x] Create a `<HeaderTitle />` component that displays the Lambda School header text, @LambdaSchool handle and timestamp.
+  - [x] Create a `<HeaderContent />` component that displays the copy provided in the headers content.
 
-- Create a `<CardContainer/ >` container component that will hold your card components.
-  - Create a `<CardBanner />` component that will display this image as it's background: https://ibin.co/3wnC6SgIOJud.png
-  - Create a `<CardContent />` component that displays the card copy provided.
-  - The entire `<CardContainer />` should take a user to `https://www.reactjs.org` when clicked.
+- [x] Create a `<CardContainer/ >` container component that will hold your card components.
+  - [x] Create a `<CardBanner />` component that will display this image as it's background: https://ibin.co/3wnC6SgIOJud.png
+  - [x] Create a `<CardContent />` component that displays the card copy provided.
+  - [x] The entire `<CardContainer />` should take a user to `https://www.reactjs.org` when clicked.
+  - [ ] Style these components in their css files.
 
 #### Day 1 Stretch Problems
 
