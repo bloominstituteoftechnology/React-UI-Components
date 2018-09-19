@@ -5,12 +5,12 @@ import HeaderTitle from './HeaderTitle';
 import HeaderContent from './HeaderContent';
 
 
-HeaderContainer = () => {
+const HeaderContainer = () => {
     return (
-        <div>
-            <ImageThumbnail />
-            <HeaderTitle />
-            <HeaderContent />
+        <div className="header-container">
+                <ImageThumbnail />
+                <HeaderTitle />
+                <HeaderContent />
         </div>
     )
 }
