@@ -3,6 +3,9 @@
   IF you'd like to attempt to use less you'll have to research how to do this with Create React App
 */
 .app-container {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
   width: 700px;
 }
 h1 {
