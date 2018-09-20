@@ -1,4 +1,23 @@
 /* All styles for your header Components live here */
-.ht-h1 {
-    color: green;
+#root {
+    background-color: red;
+    max-width: 590px;
+    margin: 0 auto;
+}
+
+.hc-main {
+    display: flex;
+}
+
+.cc-main {
+    margin-left: 30px;
+    border: 1px solid green;
+}
+
+.cc-main img {
+    width: 100%;
+}
+
+.ft-main {
+    margin-left: 30px;
 }

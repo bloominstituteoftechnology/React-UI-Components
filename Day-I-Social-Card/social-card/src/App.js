@@ -1,19 +1,20 @@
 import React from 'react';
 import './App.css';
 import './components/HeaderComponents/Header.css';
+import './components/CardComponents/Card.css';
+import './components/FooterComponents/Footer.css';
 
 const HeaderContainer = () => {
-  return (<div>
+  return (<div className="hc-main">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous"></link>
     <ImageThumbnail />
-    <HeaderTitle />
-    <HeaderContent />
+    <HeaderContainerLeft />
   </div>);
 };
 
 const ImageThumbnail = () => {
   return(<div>
-    <img src="https://ibin.co/3whrpKSBbZ81.png" alt="Lambda School Logo"></img>
+    <img className="hc-image" src="https://ibin.co/3whrpKSBbZ81.png" alt="Lambda School Logo"></img>
   </div>);
 };
 
@@ -32,8 +33,15 @@ const HeaderContent = () => {
   </div>);
 };
 
-const CardContainer = () => {
+const HeaderContainerLeft = () => {
   return (<div>
+    <HeaderTitle />
+    <HeaderContent />
+  </div>);
+};
+
+const CardContainer = () => {
+  return (<div className="cc-main">
     <a href="https://www.reactjs.org">
       <CardBanner />
       <CardContent />
@@ -57,7 +65,7 @@ const CardContent = () => {
 };
 
 const Footer = () => {
-  return (<div>
+  return (<div className="ft-main">
     <a href="#">
       <i class="far fa-comment"></i>
     </a>
@@ -75,7 +83,7 @@ const Footer = () => {
 
 const App = () => {
   return (
-    <div>
+    <div id="root">
       <HeaderContainer />
       <CardContainer />
       <Footer />
