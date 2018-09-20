@@ -1,6 +1,25 @@
 /* All styles for your Card Components live here */
+.cardcontainer {
+    width: 80%;
+}
+
 .heading {
     color: red;
+}
+
+.heading h1 {
+    font-size: 14px;
+}
+
+.heading p {
+    font-size: 12px;
+}
+
+
+
+.cardcontainer .banner {
+    border: 5px solid purple;
+    width: 80%;
 }
 
 /* .outerbox {

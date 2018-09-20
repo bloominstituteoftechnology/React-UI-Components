@@ -3,8 +3,8 @@ import './Card.css';
 
 const CardContent = () => {
     return (
-        <div>
-            <h1 className="heading" /*style={{color: "red", textDecoration: "underline"}}*/ >Get started with React</h1>
+        <div className="heading">
+            <h1 > Get started with React</h1>
             <p>React makes it painless to create interactive UIs. 
                 Design simple views for each state in your application.  </p>
             <h4>reactjs.org</h4>
@@ -12,15 +12,6 @@ const CardContent = () => {
     )
 }
 
-// const HeadingStyle = () => {
-//     return (
-//         <style>
-//             .heading {
-//                 color: red;
-//             }
-//         </style>
-//     )
-// }
 
 
 export default CardContent;

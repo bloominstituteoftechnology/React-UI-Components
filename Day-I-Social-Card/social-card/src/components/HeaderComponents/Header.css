@@ -1,15 +1,45 @@
 /* All styles for your header Components live here */
 .headercontainer {
-    border: 2px solid goldenrod;
+    border: 5px solid goldenrod;
     display: flex;
-    flex-wrap: wrap-reverse;
+    flex-wrap: wrap;
+    height: 150px;
+}
 
+.logo {
+    width: 60%;
+    border: 1px solid green;
+    flex-grow: 0;
+    order: 1;
 }
 
 .headertitle {
     border: 1px solid orange;
+    display: flex;
+    justify-content: space-around;
+    order: 1;
+    width: 60%;
+    height: 30px;
+    flex-grow: 0;
+}
+
+.headertitle h1 {
+    font-size: 14px;
+}
+
+.headertitle p {
+    font-size: 12px;
 }
 
 .headercontent {
     border: 1px solid pink;
+    width: 90%;
+    order: 3;
+    margin-left: 100px;
+    margin-bottom: 100px;
+    flex-grow: 2;
+}
+
+.headercontent p {
+    font-size: 12px;
 }
