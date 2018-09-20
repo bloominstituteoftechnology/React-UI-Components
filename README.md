@@ -49,7 +49,7 @@
   - [x] Create a `<CardBanner />` component that will display this image as it's background: https://ibin.co/3wnC6SgIOJud.png
   - [x] Create a `<CardContent />` component that displays the card copy provided.
   - [x] The entire `<CardContainer />` should take a user to `https://www.reactjs.org` when clicked.
-  - [ ] Style these components in their css files.
+  - [x] Style these components in their css files.
 
 #### Day 1 Stretch Problems
 
