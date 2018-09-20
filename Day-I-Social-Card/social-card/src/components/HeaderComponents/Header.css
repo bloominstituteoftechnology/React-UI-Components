@@ -1,1 +1,39 @@
 /* All styles for your header Components live here */
+.headerContainer{
+    max-width: 590px;
+    width:95%;
+    display:flex;
+    
+    
+}
+
+.title{
+    display:flex;
+    align-items:center;
+    
+}
+.title h1{
+    font-size:14px;
+}
+.title p{
+    font-size:12px;
+    color:gray;
+    padding-left:5px;
+}
+
+.titleContainer{
+    width:90%;
+}
+.thumb{
+    width:85%;
+    margin-top:10px;
+    margin-left:5px;
+}
+
+.imageContainer{
+    width:10%;
+}
+.titlePara{
+    font-size:14px;
+    margin-top:0px;
+}

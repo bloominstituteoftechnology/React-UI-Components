@@ -1,1 +1,37 @@
 /* All styles for your Card Components live here */
+.cardContain{
+    max-width: 590px;
+    width:95%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    cursor: pointer;
+    text-decoration: none;
+    color:black;
+
+}
+
+.banner{
+    width:90%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    
+}
+.content{
+    width:87%;
+    
+}
+
+.content h1{
+    font-size:14px;
+    margin:10px 0px;
+}
+.react{
+    color:gray;
+    
+}
+.content p{
+    margin:0px;
+    margin-bottom: 5px;
+    font-size:14px;
+}
