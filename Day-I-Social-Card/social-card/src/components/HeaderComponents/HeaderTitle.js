@@ -6,8 +6,8 @@ const HeaderTitle = () => {
     <div className="header-title">
       <h1>Lambda School</h1>
       <p>@LambdaSchool</p>
-      <p>·</p>
-      <p>26 Jan</p>
+      <p>•</p>
+      <p>26 jan</p>
     </div>
   );
 };
