@@ -1,4 +1,8 @@
 /* All styles for your Card Components live here */
+.cardLink a{
+    text-decoration: none;
+    color: black;
+}
 .cardContainer {
     margin-left: 8.25%;
 }
