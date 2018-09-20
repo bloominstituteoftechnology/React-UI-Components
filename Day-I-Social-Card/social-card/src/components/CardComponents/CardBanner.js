@@ -3,7 +3,7 @@ import './Card.css';
 
 const CardBanner = () =>{
     return(
-        <div>
+        <div className='cardImg'>
         This will be an image;    
         </div>
     )
