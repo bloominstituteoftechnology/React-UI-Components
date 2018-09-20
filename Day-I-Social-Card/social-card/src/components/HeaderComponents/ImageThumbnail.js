@@ -4,7 +4,9 @@ import './Header.css';
 const ImageThumbnail = (props) => {
 
     return (
-        <img className= "lambda-thumbnail" src="./lambda-school.png" alt="Lambda School Logo"/>
+        <div className="image-container">
+            <img className= "lambda-thumbnail" src="./lambda-school.png" alt="Lambda School Logo"/>
+        </div>
 
     )
 
