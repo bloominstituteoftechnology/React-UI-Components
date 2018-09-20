@@ -22,52 +22,23 @@
     <title>React App</title>
   </head>
   <body>
-    <div id="root">starting app...</div>
-
+    <noscript>
+      You need to enable JavaScript to run this app.
+    </noscript>
     <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
     <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
     <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
-    <script type="text/babel">
-      const App = (props) => {
-        return (
-          <div>
-            <HeaderContainer />
-            <Content appName="RussellReact" />
-          </div>
-        );
-      }
+    <div id="root"></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
 
-      const HeaderContainer = (props) => {
-        return (
-          <div>
-          <ImageThumbnail />
-          <HeaderTitle />
-          <HeaderContent />
-          </div>
-        );
-      }
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
 
-      const ImageThumbnail = (props) => {
-        return (
-
-        );
-      }
-//Header container to hold header components. ImageThumbnail - https://ibin.co/3whrpKSBbZ81.png
-//                                            HeaderTitle Lambda School Header Text, @LambdaSchool handle and timestamp
-//                                            HeaderContent - Displays copy provided in the headers content
-
-      const Content = (props) => {
-        return (
-          <div>
-            I am the content of the {props.appName} app.
-          </div>
-        );
-      }
-
-      ReactDOM.render(
-        <App />,
-        document.getElementById('root')
-      )  
-    </script>
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
   </body>
 </html>
+<a href=""></a>
