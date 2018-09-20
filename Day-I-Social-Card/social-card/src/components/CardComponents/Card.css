@@ -12,15 +12,19 @@
 .bannerImg {
     width: 500px ;
     height: 245px ;
-    margin: 0 auto ;
+    margin: auto 10px 0 auto  ;
     border-top-left-radius: 7px;
     border-top-right-radius: 7px ;
 }
 
 .lowerContent {
-    border: 3px solid green ;
-    width: 80% ;
-    margin: 0 auto ;
+    /* border: 3px solid green ; */
+    border: 1px solid black ;
+    border-bottom-left-radius: 5px ;
+    border-bottom-right-radius: 5px ;
+    border-top: none ;
+    width: 84.5% ;
+    margin: auto 10px 0 auto  ;
 }
 
 .lowerPara {

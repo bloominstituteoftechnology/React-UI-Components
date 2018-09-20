@@ -67,4 +67,6 @@ div .headerPara {
 	font-size: 14px;
 	background: red ;
 	line-height: 25px ;
+	width: 87.5% ;
+	margin: 5px 0px 0px 30px ;
 }
