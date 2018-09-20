@@ -24,3 +24,7 @@ background-color: #A0001E;
  outline: solid #979797;
  font-weight: bold;
 }
+
+.no-bold {
+  font-weight: lighter;
+}
