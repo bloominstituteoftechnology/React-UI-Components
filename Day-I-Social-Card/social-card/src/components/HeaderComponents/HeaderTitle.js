@@ -5,9 +5,9 @@ import './Header.css';
 const HeaderTitle = (props) => {
     return (
         <section className='title-container'>
-            <p className='title'>Lambda School</p>
-            <p className='tag'>@LambdaSchool</p>
-            <p className='tag'>. 26 Jan</p>
+            <p className='title'>{props.userName}</p>
+            <p className='tag'>{props.userLink}</p>
+            <p className='tag'>{props.postDate}</p>
         </section>
     );
 }

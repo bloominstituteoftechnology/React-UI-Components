@@ -5,11 +5,11 @@ import './Card.css';
 const CardContent = (props) => {
     return (
         <section className='card-content-container'>
-            <p className='title'>Get started with React</p>
+            <p className='title'>{props.postTitle}</p>
             <section className='paragraph'>
-                <p>React makes it painless to create interactive UIs. Design simple views for each state in your application</p>
+                <p>{props.postMainText}</p>
             </section>
-            <p className='tag'>reactjs.org</p>
+            <p className='tag'>{props.postUrl}</p>
         </section>
     );
 };

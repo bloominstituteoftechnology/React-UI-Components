@@ -5,7 +5,7 @@ import './Header.css';
 const ImageThumbnail = (props) => {
     return (
         <section className='thumbnail-container'>
-            <img className='thumbnail' src='https://ibin.co/3whrpKSBbZ81.png'></img>
+            <img className='thumbnail' src={props.profileIcon}></img>
         </section>
     );
 }

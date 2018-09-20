@@ -10,6 +10,8 @@ import { faSyncAlt } from '@fortawesome/free-solid-svg-icons';
 import { faHeart } from '@fortawesome/free-solid-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
+
+
 library.add(faComment);
 library.add(faSyncAlt);
 library.add(faHeart);
