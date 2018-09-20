@@ -20,9 +20,10 @@
    display: flex; 
    flex-wrap: wrap; 
    width: 70%; 
+   transform: translate(0px, 12px); 
     
 }
  .Main-Text {
    font-size: 14px;
-   width: 100%;
+   width: 99%;
 } 
