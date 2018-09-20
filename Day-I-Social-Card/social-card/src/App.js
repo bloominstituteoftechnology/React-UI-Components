@@ -28,8 +28,8 @@ import Footer from './components/FooterComponents/Footer';
 const App = () => {
 	return (
     <div className="bodyCont">
-    <HeaderContainer />,
-    <CardContainer />,
+    <HeaderContainer />
+    <CardContainer />
     <Footer />
     </div>
 	);
