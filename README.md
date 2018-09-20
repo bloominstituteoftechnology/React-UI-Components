@@ -55,7 +55,7 @@
 #### Day 1 Stretch Problems
 
 [x] Create a `<Footer/>` component that pulls in the icons and displays them properly.
-  - Build out the functionality so that a user can click on the icons and have them react to events.
+  [x] Build out the functionality so that a user can click on the icons and have them react to events.
 [x] Ensure that your product is as pixel perfect as possible using any tools that you were introduced to in previous weeks.
 - Look up the `moment.js` library and figure out how to format your `time-stamp` in your header to be today's date.
 

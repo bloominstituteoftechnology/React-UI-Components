@@ -12,6 +12,7 @@
     width: 15.5%;
     display: flex;
     align-items: flex-start;
+    cursor: pointer;
 }
 
 .card-footer a .social-counter {
