@@ -8,3 +8,5 @@ const CardContainer = () => (
     <CardBanner />
   </a>
 );
+
+export default CardContainer;
