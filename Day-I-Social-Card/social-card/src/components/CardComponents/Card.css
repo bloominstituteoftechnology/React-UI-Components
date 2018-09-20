@@ -8,10 +8,17 @@
     display: flex;
     flex-flow: column nowrap;
     text-decoration: none;
-    border: 1px solid gray;
+    border: 1px solid #e5ecf0;
     border-radius: 5px;
+}
+
+.card-container a .card-content {
+    padding-left: 10px;
+    color: black;
 }
 
 .card-container a .card-banner img {
     width: 100%;
 }
+
+

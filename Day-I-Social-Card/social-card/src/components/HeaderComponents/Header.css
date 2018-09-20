@@ -3,8 +3,14 @@
     display: flex;
 }
 
+.header-container .img-thumb {
+    margin-top: 6px;
+    padding-right: 9px;
+    width: 15%;
+}
+
 .header-container .img-thumb img {
-    width: 100%;
+    width: 90%;
 }
 
 .header-container .header-title-content {
@@ -27,4 +33,12 @@
 .header-container .header-title-content .header-title  p {
     font-size: 0.7rem;
     margin-top: 10px;
+}
+
+.header-container .header-title-content .header-content {
+    margin-top: -11px;
+}
+
+.header-container .header-title-content .header-content p {
+    font-size: 0.8rem;
 }
