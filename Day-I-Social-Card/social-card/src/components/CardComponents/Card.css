@@ -1,1 +1,15 @@
 /* All styles for your Card Components live here */
+
+.card-body {
+    margin: 15px;
+    margin-left: 68px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-banner {
+    width: 100%;
+    height: 253px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
