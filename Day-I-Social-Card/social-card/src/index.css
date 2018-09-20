@@ -70,3 +70,8 @@ p {
     font-size: 1.4rem;
     line-height: 1.25;
 }
+
+a {
+    text-decoration: none;
+    color: black;
+}

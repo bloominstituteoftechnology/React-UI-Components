@@ -1,6 +1,7 @@
 .Card-Container {
     display: flex;
     flex-direction: column;
+    margin-bottom: 20px;
 }
 
 .card-banner {
@@ -8,11 +9,6 @@
     max-width: 503.56px;
     width: 100%;
     height: 252px;
-}
-
-a {
-    text-decoration: none;
-    color: black;
 }
 
 .card-text {
