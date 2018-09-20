@@ -1,1 +1,12 @@
 /* All styles for your Card Components live here */
+
+.card__container {
+    margin-left: 60px;
+}
+
+.card__banner {
+    background: url(https://ibin.co/3wnC6SgIOJud.png);
+    height: 250px;
+    width: 500px;
+    background-size: contain;
+}
