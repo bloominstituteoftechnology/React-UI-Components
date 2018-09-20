@@ -37,6 +37,7 @@
     width: 100% ;
     display: flex ;
     justify-content: space-between ;
+    margin-top: -5px ;
 }
 .rowTwo td {
     border: 2px solid gray !important;
@@ -49,12 +50,45 @@
 }
 
 table {
-    border: 3px solid green ;
+    /* border: 3px solid green ; */
     width: 100% ;
+    display: flex ;
+    flex-direction: column ;
 }
 
 .rowTwo td:last-of-type {
     color: white ;
     background: #A0001E ;
 
+}
+
+.r3Outer {
+    width: 100% ; 
+
+}
+.rowThreeDiv {
+    width: 100% ; 
+
+}
+
+.rowThree {
+    width: 100% ;
+    display: flex ;
+    justify-content: space-between ;
+    margin-top: -5px ;
+}
+
+.rowThree td {
+    border: 2px solid gray !important;
+    width: 17% ;
+    padding: 20px 20px 20px 20px ;
+    color: black ;
+    text-align: center ;
+    font-size: 4rem ;
+    font-weight: bolder ;
+}
+
+.rowThree td:last-of-type {
+    color: white ;
+    background: #A0001E ;
 }
