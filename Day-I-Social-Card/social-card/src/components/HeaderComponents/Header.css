@@ -56,3 +56,13 @@
     font-size: 1.5rem;
     font-weight: bold;
 }
+
+.card-header-content {
+    margin-top: 5px;
+}
+
+.card-header-content p {
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    letter-spacing: 0.01rem;
+}
