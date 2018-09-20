@@ -3,7 +3,7 @@ import './Header.css';
 
 const ImageThumbnail = () => {
     return (
-        <img class='lambdathumb' src='https://ibin.co/3whrpKSBbZ81.png'/> 
+        <img class='lambda-thumb' src='https://ibin.co/3whrpKSBbZ81.png'/> 
     )
 };
 

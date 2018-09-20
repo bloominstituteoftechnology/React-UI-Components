@@ -47,8 +47,13 @@ table {
 	border-spacing: 0;
 }
 
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+
+}
+
 body {
   margin: 0;
-  padding: 0.4rem;
   font-family: sans-serif;
 }
