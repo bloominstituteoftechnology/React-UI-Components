@@ -1,1 +1,21 @@
 /* All styles for your header Components live here */
+
+.header-container {
+    display: flex;
+  }
+  
+  .header-content {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .header-title {
+    display: flex;
+    font-size: 0.7rem;
+  }
+   
+  .logo-container img {
+    width: 60px;
+    height: 80px;
+    margin-right: 10px;
+  }
