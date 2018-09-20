@@ -1,1 +1,18 @@
 /* All styles for your header Components live here */
+
+.thumbnail {
+    background-image: url("https://ibin.co/3whrpKSBbZ81.png");
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-size: 100%;
+}
+
+.header {
+    display: flex;
+
+}
+.school-info{
+    display: flex;
+    
+}
