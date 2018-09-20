@@ -1,6 +1,8 @@
 import React from 'react';
 import './App.css';
-
+import ImageThumbnail from './ImageThumbnail';
+import HeaderTitle from './HeaderTitle';
+import Headercontent from './HeaderContent';
 const App = () => {
   return (
     <div>
