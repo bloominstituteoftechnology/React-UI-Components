@@ -28,3 +28,8 @@ background-color: #fff;
 .no-bold {
   font-weight: lighter;
 }
+
+.color-red {
+   background-color: #A0001E;
+   color: white;
+}
