@@ -2,6 +2,12 @@ import React from 'react';
 import './App.css';
 import './components/HeaderComponents/Header.css';
 
+const ImageThumbnail = () => {
+  return(<div>
+    <img src="https://ibin.co/3whrpKSBbZ81.png" alt="react logo"></img>
+  </div>)
+}
+
 const HeaderTitle = () => {
   return (<div>
     <h1> Lambda School</h1>
@@ -17,12 +23,19 @@ const HeaderContent = () => {
   </div>);
 };
 
+const HeaderContainer = () => {
+  return (<div>
+    <ImageThumbnail />
+    <HeaderTitle />
+    <HeaderContent />
+  </div>)
+}
+
 
 const App = () => {
   return (
     <div>
-    <HeaderTitle />
-    <HeaderContent />
+      <HeaderContainer />
     </div>
   );
 };
