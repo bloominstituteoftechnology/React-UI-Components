@@ -7,9 +7,9 @@ import ImageThumbnail from './ImageThumbnail';
 
 const HeaderContainer = () => {
     return (
-        <div class="Header-Container">
+        <div className="Header-Container">
             <ImageThumbnail />
-            <div class="Text-Content">
+            <div className="Text-Content">
                 <HeaderTitle />
                 <HeaderContent />
             </div>

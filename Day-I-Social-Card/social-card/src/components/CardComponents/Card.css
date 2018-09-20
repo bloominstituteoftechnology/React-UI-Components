@@ -9,28 +9,33 @@
 }
 
 .Card-Banner {
-    width: 95%;
+    width: 100%;
     height: auto;
-    align-self: left;
 }
 
 .Card-Text {
-    width: 97%;
-    align-self: left;
+    width: 100%;
     margin-left: 2%;
+    border: 1px solid lightgray;
+    border-top: none;
 }
 
 .Card-Text h1 {
     font-weight: bold;
     font-size: 14px;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 
 .Card-Text .text {
     font-size: 14px;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 
 .gray {
     color: rgb(122 141 158);
     font-weight: normal;
-    font-size: 12px;
+    font-size: 14px;
+    margin-left: 2%;
   }
