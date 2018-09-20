@@ -6,6 +6,11 @@
 .header-container__logo {
   height: 5rem;
 }
+
+.header-margin {
+  margin-top: 2rem;
+}
+
 .small-padding-right {
   padding-right: 1.5rem;
 }

@@ -1,0 +1,22 @@
+.icon-section {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.icon-section__icon {
+  font-size: 2.3rem;
+  margin-right: auto;
+  color: #7f8c8d;
+}
+
+.section-margin {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.icon-section__number {
+  font-size: 1.3rem;
+  font-weight: lighter;
+  color: #7f8c8d;
+  padding-left: 1.3rem;
+}
