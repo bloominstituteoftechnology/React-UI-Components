@@ -11,7 +11,6 @@ const HeaderTitle = () => {
         <div className="Header-Title">
             <h1>Lambda School</h1>
             <p className="stamp">@LambdaSchool • {today}</p>
-            {/* <p class="stamp"></p> */}
         </div>
     )
 }
