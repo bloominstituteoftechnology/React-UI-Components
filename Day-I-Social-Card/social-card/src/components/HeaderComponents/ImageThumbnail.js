@@ -1,12 +1,15 @@
 import React from 'react';
 import './Header.css';
-import lambdaSchool from '../images/lambdaSchool.png';
+
 const ImageThumbnail = () => {
     return (
-       <div className = 'user-img'>
-         <img src ={lambdaSchool} />
+        <div className = 'thumb-nail'>
+        <img
+        className = 'thumb-img'
+        src='https://ibin.co/3whrpKSBbZ81.png' 
+        alt='Lambda Thumbnail image'
+        />
         </div>
-     
-    )
-}
-export default ImageThumbnail;
+    );
+};
+ export default ImageThumbnail;
