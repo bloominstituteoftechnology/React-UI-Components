@@ -12,6 +12,7 @@
 
 .header-Container {
 	display: flex;
+	width: 100%;
 }
 
 .header-content-title-container {
@@ -24,7 +25,7 @@
 }
 
 .header-content-container {
-	width: 90%;
+	width: 100%;
 }
 
 .header-content-span {
@@ -32,5 +33,5 @@
 }
 
 .imageThumbnail {
-	margin: 15px 1% 0 0;
+	margin: 15px 2% 0 2%;
 }
