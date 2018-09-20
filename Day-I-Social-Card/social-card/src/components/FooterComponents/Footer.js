@@ -2,11 +2,6 @@ import React from 'react';
 import './Footer.css';
 import Icon from './Icon';
 
-const addToUpvote = () => {
-  console.log('it works on click');
-}
-
-
 const Footer = (props) => {
   return (
     <section className='footer'>

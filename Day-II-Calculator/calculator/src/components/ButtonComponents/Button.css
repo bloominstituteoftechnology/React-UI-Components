@@ -1,0 +1,24 @@
+.full-length {
+  width: 150px;
+}
+.third-length {
+  width: 50px;
+}
+.numbers {
+  border: 1px solid gray;
+  height: 50px;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 0;
+}
+/* Convert clear back to regular font weight */
+.numbers:nth-child(1) {
+  font-weight: normal;
+}
+
+.math-signs {
+  background-color: #a0001e;
+  border: 1px solid gray;
+  height: 50px;
+  width: 50px;
+}
