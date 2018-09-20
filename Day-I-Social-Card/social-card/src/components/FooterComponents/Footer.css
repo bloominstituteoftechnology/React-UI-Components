@@ -10,16 +10,24 @@
     font-size: 15px;
     color: rgb(112, 110, 110);
     cursor: pointer;
+   
 }
 .sync {
     display:flex;
     margin-right: 15px;
-    letter-spacing: -10px;
+
+}
+.sync p {
+    margin-left:-15px;
+    align-self:center;
 }
 .heart {
     display:flex;
     margin-right: 15px;
-    letter-spacing: -10px;
+}
+.heart p  {
+    margin-left:-15px;
+    align-self:center;
 }
 .chat-bubble p {
     font-size: 13px;
