@@ -1,1 +1,29 @@
 /* All styles for your Card Components live here */
+
+.ReactHeader {
+    /* font-size: 24px ; */
+    font-weight: bold ;
+}
+
+.imgDiv{
+    display: flex ;
+    justify-content: center ;
+}
+.bannerImg {
+    width: 500px ;
+    height: 245px ;
+    margin: 0 auto ;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px ;
+}
+
+.lowerContent {
+    border: 3px solid green ;
+    width: 80% ;
+    margin: 0 auto ;
+}
+
+.lowerPara {
+    font-size: 14px ;
+    line-height: 18px ;
+}

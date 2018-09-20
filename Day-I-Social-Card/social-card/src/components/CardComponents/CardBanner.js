@@ -4,7 +4,10 @@ import './Card.css';
 
 const Banner = () =>{
     return(
-        <img src="https://ibin.co/3wnC6SgIOJud.png" alt=""/>
+        <div className="imgDiv">
+            <img className="bannerImg" src="https://ibin.co/3wnC6SgIOJud.png" alt=""/>
+        </div>
+        
 
     )
 }
