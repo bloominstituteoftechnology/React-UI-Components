@@ -5,8 +5,12 @@ import './Button.css';
 const fontWeight = val => {
   return !isNaN(val) || val === 'clear'
 }
+
+const notClear = val => {
+  return !isNaN(val)
+}
 export const ActionButton = props => (
   <div className={`clear-button ${
     fontWeight(props.children) ? null: 'no-bold'
-  }`}>{props.children}</div>
+  }`} onClick={props.handleClear}>{props.children}</div>
 )
