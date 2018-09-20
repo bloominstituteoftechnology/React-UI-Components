@@ -1,21 +1,30 @@
 import React from 'react';
 import './App.css';
+import { NumberButton } from './components/ButtonComponents/NumberButton.js';
 
 const App = () => {
   return (
-    <div>
-      <h3>Welcome to React Calculator</h3>
-      <p>
-        We have given you a starter project. You'll want to build out your
-        components in their respective files, remove this code and replace it
-        with the proper components.
-      </p>
-      <p>
-        <strong>
-          Don't forget to `default export` your components and import them here
-          inside of this file in order to make them work.
-        </strong>
-      </p>
+    <div className="app-container">
+      <div className="calculator-container">
+        <div className="row">
+          <NumberButton>7</NumberButton>
+          <NumberButton>8</NumberButton>
+          <NumberButton>9</NumberButton>
+          <NumberButton>&times;</NumberButton>
+        </div>
+        <div className="row">
+          <NumberButton>4</NumberButton>
+          <NumberButton>5</NumberButton>
+          <NumberButton>6</NumberButton>
+          <NumberButton>-</NumberButton>
+        </div>
+        <div className="row">
+          <NumberButton>1</NumberButton>
+          <NumberButton>2</NumberButton>
+          <NumberButton>3</NumberButton>
+          <NumberButton>+</NumberButton>
+        </div>
+      </div>
     </div>
   );
 };

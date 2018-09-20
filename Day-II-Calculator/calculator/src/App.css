@@ -1,0 +1,19 @@
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.calculator-container {
+  min-width: 37%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.row {
+  height: 20vh;
+  display: flex;
+  outline: black;
+}

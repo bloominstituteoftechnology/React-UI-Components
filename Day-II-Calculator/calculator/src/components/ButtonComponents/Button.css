@@ -1,0 +1,13 @@
+.button {
+background-color: #A0001E;
+ color: white;
+ padding: 20px 25px;
+ outline: solid #979797;
+/*   flex-basis: 25%; */
+ flex: 1 0 0;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ font-size: 40px;
+ font-weight: bold;
+}
