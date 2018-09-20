@@ -1,7 +1,7 @@
 .footer{
     display: flex;
     max-width: 504px;
-    margin: 20px 0px 0px 11.86%;
+    margin: 20px 0px 15px 11.86%;
     font-size: 1.8rem;
     color: #b0bac3;
 }
@@ -16,4 +16,8 @@
 
 .fa-refresh span, .fa-heart-o span{
     margin-left: 10px;
+}
+
+.fa-comment-o, .fa-refresh, .fa-heart-o, .fa-envelope-o{
+    cursor: pointer;
 }

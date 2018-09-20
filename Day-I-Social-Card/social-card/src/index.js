@@ -10,3 +10,4 @@ const cardContainer = document.querySelector('.card-container');
 cardContainer.addEventListener('click', function(){
     window.location.href = 'http://www.reactjs.org/';
 })
+
