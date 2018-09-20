@@ -1,4 +1,34 @@
 /* All styles for your header Components live here */
 .header-container{
+    margin-top: 1px;
+    margin-left: 1px;
     display: flex;
+    align-items: center;
+}
+img{
+    transform: scale(0.21, 0.21);
+}
+.header-title{
+    display: flex;
+    margin-top: -12px;
+    margin-bottom: 7px;
+}
+.strong{
+    margin-left: -33px;
+    /* margin-top: -9px; */
+    font-size: 15px;
+}
+.gray-text{
+    color: grey;
+    font-size: 12px;
+    margin-top: 1px;
+    margin-left: 5px;
+}
+.header-content{
+    font-size: 14px;
+    margin-top: -1px;
+    margin-bottom: -40px;
+    margin-left: -33px;
+    line-height: 18px;
+    letter-spacing: .13px;
 }
