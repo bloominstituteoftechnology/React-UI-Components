@@ -1,39 +1,73 @@
 /* All styles for your header Components live here */
-.HeaderContainer {
-border: 2px solid blue;
-display: flex;
-flex-direction: column;
-max-width: 100%;
-width: 100%;
 
+.HeaderContainer {
+    border: 2px solid blue;
+    display: flex;
+    flex-direction: row;
+    max-width: 590px;
+    width: 100%;
+    top: 0px;
+    Left: 0px;
 }
 
 .HeaderTitle {
-font-size: 18px; 
-color: green;
-max-width: 100%;
-width:100%;
-border: 2px solid red;
-
+    display: flex;
+    flex-direction: row;
+    justify-items: flex-start;
+    align-items: flex-start;
+    font-size: 16px;
+    color: green;
+    max-width: 440px;
+    width: 440px;
+    height: 40px;
+    border: 2px solid red;
 }
 
 .ImageThumbnail {
-   /*  backgroundImage: 'url(' + https://ibin.co/3whrpKSBbZ81.png + ')'; */
-    background-image: url('https://ibin.co/3whrpKSBbZ81.png' );
-    width: 30px;
-    height: 30px;
+    display: block;
+    /*     position: absolute; */
+    background-image: url('https://ibin.co/3whrpKSBbZ81.png');
+    max-width: 150px;
+    width: 150px;
+    height: 150px;
     left: 0px;
     top: 0px;
-    
-
+    border: 2px solid orange;
 }
 
 .School {
-    font-size: 40px;
+    font-size: 18px;
+    display: flex;
+    height: 20px;
+    border: 3px solid black;
+    align-self: flex-start;
+}
+
+p {
+    display: flex;
+    height: 20px;
 }
 
 .HeaderContent {
-color: blue;
+    color: blue;
+    border: 2px solid yellow;
+    height: 260px;
+    width: 440px;
+}
 
+.SubHeader {
+    border: 2px solid darkgray;
+    display: flex;
+    flex-direction: row;
+    height: 150px;
+    max-width: 150px;
+    width: 150px;
+}
 
+.HeaderRight {
+    border: 2px solid purple;
+    display: flex;
+    flex-direction: column;
+    width: 440px;
+    height: 150px;
 }
