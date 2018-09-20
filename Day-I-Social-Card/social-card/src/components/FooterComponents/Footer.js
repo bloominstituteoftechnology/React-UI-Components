@@ -1,12 +1,12 @@
-import React from 'react';
-import "./Footer.css";
+import React from 'react'
+import "./Footer.css"
 
 
 
 
 class Footer extends React.Component {
     constructor (props) {
-        super(props);
+        super(props)
 
         // Can use two counter to countSync independently of each-other
         this.state = {
@@ -25,7 +25,7 @@ class Footer extends React.Component {
      countUp = () => {
         this.setState({
             countSync: this.state.countSync + 1
-        });
+        })
     }
    
     
@@ -44,7 +44,7 @@ class Footer extends React.Component {
                     {" "}
                     <i class="far fa-envelope"/>
               </div>
-            );
+            )
     } 
 }
 
@@ -70,4 +70,4 @@ class Footer extends React.Component {
 // );
 // };
 
-export default Footer;
+export default Footer

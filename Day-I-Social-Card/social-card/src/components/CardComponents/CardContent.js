@@ -1,5 +1,5 @@
-import React from 'react';
-import './Card.css';
+import React from 'react'
+import './Card.css'
 
 
 const CardContent  =() => {
@@ -14,7 +14,7 @@ const CardContent  =() => {
         <h4><a href ='https:\\reactjs.org'>reactjs.org</a></h4>
     </div>
 
-       );
-};
+       )
+}
 
-export default CardContent;
+export default CardContent
