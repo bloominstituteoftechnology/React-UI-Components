@@ -1,1 +1,26 @@
 /* All styles for your header Components live here */
+.Header-Container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.Header-Title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.gray-color {
+    margin-left: 10px;
+    color: gray;
+}
+
+.name-of-school {
+    font-weight: bold;
+}
+
+.thumbnail {
+height: 100px;
+padding: 20px 10px;
+}
