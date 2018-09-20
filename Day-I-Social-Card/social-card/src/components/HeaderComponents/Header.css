@@ -1,1 +1,35 @@
 /* All styles for your header Components live here */
+.header{
+    display: flex;
+    justify-content: space-between ;
+    align-items: flex-start ;
+}
+
+img{
+    width: 100%;
+    padding: 5px;
+}
+
+.headerTitle{
+    display: flex;
+    justify-content: flex-start ;
+    align-items: center; 
+}
+
+h1{
+    font-weight: bold;
+    padding: 2px;
+}
+
+p{
+    color: lightgray;
+    padding: 2px;
+}
+
+.headerContent{
+    margin: 10px 5px;
+}
+
+.headerText{
+    color: black;
+}
