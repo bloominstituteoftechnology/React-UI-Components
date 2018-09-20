@@ -39,6 +39,7 @@ img {
     font-size: 1.1rem;
     position: relative;
     top: -4px;
+    margin-left: 2px;
 }
 
 .header__content {
