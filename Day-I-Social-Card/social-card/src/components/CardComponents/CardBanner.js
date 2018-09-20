@@ -7,4 +7,4 @@ const CardBanner = () => (
     </div>
   );
   
-  export default CardBanner;
+  export default CardBanner; 
