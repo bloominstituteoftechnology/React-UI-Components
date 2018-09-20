@@ -1,1 +1,8 @@
 /* All styles for your header Components live here */
+.headerTitlethumbnail {
+    display: flex;
+  }
+  .headertitle {
+    display: flex;
+  }
+  
