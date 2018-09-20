@@ -1,6 +1,6 @@
 import React from 'react';
 import './Display.css';
 
-const CalculatorDisplay = props => (
-  <div className="input-button"></div>
+export const CalculatorDisplay = (props) => (
+  <div className="input-button">{props.input}</div>
 )

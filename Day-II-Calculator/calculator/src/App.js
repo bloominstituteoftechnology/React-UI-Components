@@ -1,11 +1,15 @@
 import React from 'react';
 import './App.css';
 import { NumberButton } from './components/ButtonComponents/NumberButton.js';
+import { CalculatorDisplay } from './components/DisplayComponents/CalculatorDisplay.js';
 
 const App = () => {
   return (
     <div className="app-container">
       <div className="calculator-container">
+        <div className="row">
+          <CalculatorDisplay />
+        </div>
         <div className="row">
           <NumberButton>7</NumberButton>
           <NumberButton>8</NumberButton>
