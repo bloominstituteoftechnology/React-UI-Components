@@ -1,5 +1,19 @@
 /* All styles for your header Components live here */
 
+.header-container {
+    display: flex;
+}
+
+.lambdathumb {
+    height: 50px;
+    width: 50px;
+}
+
+.header-title {
+    display: flex;
+    align-items: center;
+}
+
 .dot {
     height: 4px;
     width: 4px;
