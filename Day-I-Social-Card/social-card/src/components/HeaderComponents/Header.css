@@ -1,1 +1,63 @@
 /* All styles for your header Components live here */
+.HeaderContainer {
+    /* border: solid 2px palevioletred; */
+    height: 70px;
+    padding: 10px;
+    display: flex;
+}
+
+.lambda-header-wrap {
+    height: 50px;
+    padding: 0.3em;
+    /* border: dashed 5px black */
+}
+
+.lambda-title {
+    height: 100%;
+    /* border: dashed 2px blue; */
+}
+
+.Lambda-Logo {
+    width: 50px;
+    height: 50px;
+    margin-left: 339px;
+    /* border: 2px solid black; */
+}
+
+.time-stamp {
+    font-weight: 300px;
+    padding: 5px;
+    /* border: dashed 2px red; */
+}
+
+.handle {
+    color: gray;
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+.lambda-header-wrap {
+    flex-direction: column;
+    /* margin-top: 0.6em; */
+    /* border: solid 2px orange; */
+    margin-left: 10px;
+    margin-top: -10px;
+    width: 45%;
+}
+
+.lambda-title {
+    font-size: 16px;
+    font-weight: 600px;
+    /* border: solid 2px purple; */
+    width: 100%;
+}
+
+.header-content {
+    font-size: 14px;
+    font-weight: 400px;
+    width: 100%;
+    line-height: 20px;
+    /* padding: 15px; */
+    /* border: 2px solid gold; */
+    margin-top: 20px;
+}
