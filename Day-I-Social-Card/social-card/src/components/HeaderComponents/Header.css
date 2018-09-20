@@ -1,1 +1,30 @@
 /* All styles for your header Components live here */
+.header-container {
+    display: flex;
+}
+
+.header-container .img-thumb img {
+    width: 100%;
+}
+
+.header-container .header-title-content {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.header-container .header-title-content .header-title {
+    display: flex;
+}
+
+.header-container .header-title-content .header-title  h1 {
+    padding-right: 10px;
+}
+
+.header-container .header-title-content .header-title  h2 {
+    padding-right: 10px;
+}
+
+.header-container .header-title-content .header-title  p {
+    font-size: 0.7rem;
+    margin-top: 10px;
+}

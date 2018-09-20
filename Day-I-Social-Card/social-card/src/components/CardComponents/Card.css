@@ -1,1 +1,17 @@
 /* All styles for your Card Components live here */
+.card-container {
+    width: 92%;
+    padding-left: 47px;
+}
+
+.card-container a {
+    display: flex;
+    flex-flow: column nowrap;
+    text-decoration: none;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.card-container a .card-banner img {
+    width: 100%;
+}
