@@ -1,11 +1,9 @@
 /* All styles for your header Components live here */
 .header-container {
-    border: 1px solid blue;
     display: flex;
 }
 
 .image-container {
-    border: 1px solid red;
     width: auto;
 }
 
@@ -19,7 +17,6 @@
 .text-content {
     display: flex;
     flex-direction: column;
-    border: 2px solid green;
 }
 
 .text-content h1, p {

@@ -11,7 +11,7 @@
     transform: translate(-50%, -50%);
 
     width: 447px;
-
+    border: 2px solid #000;
 
 }
 
@@ -20,4 +20,14 @@
 }
 .App p {
   font-size: 11px;
+}
+
+.App span {
+  font-size: 8px;
+  color: #8f8f8f;
+}
+
+.App a{
+  color: #8f8f8f;
+  text-decoration: none;
 }
