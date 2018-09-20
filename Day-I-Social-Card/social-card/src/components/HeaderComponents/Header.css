@@ -13,3 +13,23 @@
     height: 30px;
     width: 30px;
 }
+
+.author {
+    display: flex;
+    align-items: baseline;
+}
+
+.name {
+    font-weight: bold;
+    color: black;
+    padding: 2px;
+    font-size: 1.7rem;
+}
+.handle, .date {
+    color: darkslategray;
+    padding: 2px;
+    font-size: 1.5rem;
+}
+.headerText {
+    font-size: 1.6rem;
+}
