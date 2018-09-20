@@ -1,1 +1,33 @@
 /* All styles for your header Components live here */
+.headerContainer {
+    margin-top: .8%;
+    margin-left: .15%;
+    display: flex;
+    width: 100%;
+    max-width: 562px;
+}
+.headerImg {
+    margin-right: 1.8%;
+}
+.headerText {
+    display: flex;
+    flex-direction: column;
+}
+.headerText p {
+    margin-top: 0;
+    padding-top: 0;
+    font-size: 85%;
+}
+.headerTitle {
+    display: flex;
+    flex-direction: row;
+}
+.headerTitle h1 {
+    font-size: 90%;
+    margin-top: .5%;
+}
+.headerTitle p {
+    font-size: 90%;
+    margin-top: .5%;
+}
+
