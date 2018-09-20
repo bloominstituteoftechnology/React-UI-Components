@@ -1,4 +1,8 @@
 /* All styles for your Card Components live here */
+.anchor-wrapper {
+  text-decoration: none;
+  color:inherit;
+}
 .card-container {
   padding-left: 6rem;
 }
