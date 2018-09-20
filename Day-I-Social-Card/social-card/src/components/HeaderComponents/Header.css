@@ -1,1 +1,23 @@
 /* All styles for your header Components live here */
+.HeaderContainer {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.lambda-logo {
+	width:  50px;
+	height: 50px;
+}
+
+.header-title {
+	display: flex;
+	width: 50%;
+	justify-content: space-between;
+	padding-left: 25px;
+}
+
+.heading-content {
+	padding-left: 75px;
+	transform: translate(0px, -10px);
+}
