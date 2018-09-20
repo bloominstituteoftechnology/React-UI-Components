@@ -1,1 +1,13 @@
 /* All styles for your Card Components live here */
+.card-container {
+  padding-left: 6rem;
+}
+.card-container__card-banner {
+  width: 97%;
+}
+.card-container__card-content {
+  border: 1px solid lightgrey;
+  width: 97%;
+  margin-top: -.4rem;
+  padding: 2rem;
+}

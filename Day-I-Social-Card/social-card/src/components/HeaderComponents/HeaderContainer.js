@@ -6,10 +6,11 @@ import ImageThumbnail from './ImageThumbnail.js';
 
 const HeaderContainer = props => (
   <header className="header-container">
-      header container
       <ImageThumbnail />
+    <div className="header-container__content">
       <HeaderTitle />
       <HeaderContent />
+   </div>
   </header>
 )
 
