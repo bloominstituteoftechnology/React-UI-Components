@@ -58,18 +58,32 @@ h1{
   color: dimgray;
 }
 
-.headerInfo{
+.headerInfo, .cardText{
   font-size: 1rem;
 }
 
 .card-container{
-  background-color: lightcoral;
-  border: 1px solid cadetblue;
-  padding-left: 10rem;
+  border: 5px solid cadetblue;
+  padding-left: 5rem;
+  // width: 90%;
 }
 
 .bannerIMG{
+  border: 1px solid chocolate;
   max-width: 88rem;
-  width: 30rem;
+  width: 35rem;
 
+}
+
+.cardInfo{
+  border: 1px solid darkblue;
+  padding-bottom: 1rem;
+  width: 95%
+}
+
+.reactLink{
+  border: 1px solid blue;
+  font-size: .8rem;
+  color: dodgerblue;
+  text-decoration: none;
 }
