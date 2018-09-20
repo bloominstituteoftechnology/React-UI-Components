@@ -3,6 +3,7 @@ import './App.css';
 import './components/HeaderComponents/Header.css';
 import HeaderContainer from './components/HeaderComponents/HeaderContainer';
 import CardContainer from './components/CardComponents/CardContainer';
+import Footer from './components/FooterComponents/Footer';
 
 // const App = () => {
 //   return (
@@ -28,7 +29,8 @@ const App = () => {
 	return (
     <div className="bodyCont">
     <HeaderContainer />,
-    <CardContainer />
+    <CardContainer />,
+    <Footer />
     </div>
 	);
 };

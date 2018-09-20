@@ -7,10 +7,9 @@
 }
 
 .logo img{
-    width: 8%;
+    width: 12vh;
     position: absolute;
-    top: 1.5%;
-    left: 1.5%;
+    margin: 0.5% 0% 0% 0.5%;
 }
 
 .title{
