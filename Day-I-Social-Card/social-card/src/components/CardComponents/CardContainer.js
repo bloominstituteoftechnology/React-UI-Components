@@ -1,16 +1,18 @@
 import React from 'react';
 import './Card.css';
 import CardBanner from './CardBanner';
+import CardContent from './CardContent';
 
 
-const cardContainer = () => {
+const CardContainer = () => {
   return (
     <article className="cardWrap">
-      <CardBanner/>
+      <CardBanner />
+      <CardContent/>
       </article>
   );
 }
 
 
 
-export default cardContainer;
+export default CardContainer;

@@ -1,15 +1,34 @@
 /* All styles for your Card Components live here */
 .cardWrap {
-    display: flex;
-    justify-content: right;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
 }
 
 .cardImg {
-  padding: 20px;
-  display: flex;
-  background-color: white;
-  width: 800px;
-  height: 400px;
-  
+  margin-top: 15px;
+  padding-left: 80px;
+  width: 760px;
+  height: 420px;
 }
 
+.cardText {
+  display: flex;
+  flex-direction: column;
+  margin-left: 80px;
+  width: 760px;
+  height: 125px;
+  border: solid 1px lightgray;
+
+}
+.cardText h1 {
+  margin: 10px 20px;
+}
+.cardText p {
+  margin: 5px 20px;
+}
+p:nth-child(3) {
+  color: gray;
+}
