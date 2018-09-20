@@ -11,16 +11,18 @@
     align-items: center;
 }
 
-.gray-color {
+.gray-margin {
     margin-left: 10px;
     color: gray;
 }
 
-.name-of-school {
+.bold {
     font-weight: bold;
 }
 
 .thumbnail {
-height: 100px;
-padding: 20px 10px;
+height: auto;
+width: 10%;
+padding: 20px 0;
+padding-right: 10px; 
 }
