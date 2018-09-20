@@ -17,6 +17,7 @@ h1.headerItem {
 
 p.headerItem {
   color: #AAAAAA;
+
 }
 
 .headUpper {
@@ -31,4 +32,14 @@ p.headerItem {
 
 .headContP  {
   width: 25%;
+  margin-top: -2.5em;
+}
+
+.header-aside {
+  display: flex;
+
+}
+
+.indent {
+  margin-left: 57px;
 }
