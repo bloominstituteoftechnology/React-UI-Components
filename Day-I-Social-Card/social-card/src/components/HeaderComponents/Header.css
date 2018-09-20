@@ -1,5 +1,5 @@
 /* All styles for your header Components live here */
-.headercontainer {
+.header-container {
     border: 3px solid goldenrod;
     display: flex;
     /* flex-wrap: wrap-reverse; */
