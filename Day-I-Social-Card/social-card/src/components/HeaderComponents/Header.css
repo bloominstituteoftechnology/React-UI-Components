@@ -7,18 +7,32 @@
 .header-titlebar {
     display: flex;
     flex-direction: column;
+    margin-bottom: 12px;
 }
 
 .header-title {
     display: flex;
+    justify-content: flex-start;
+    margin-bottom: -5px;
 }
 
+.header-title p {
+    font-weight: bold;
+    width: 25%;
+}
+
+
+
 ul {
+    width:35%;
     display: flex;
     justify-content: space-between;
+    color: grey;
 }
 
 
 .header img {
-    width: 8%;
+    width: 9%;
+    padding-top: 10px;
+    margin-right: 10px;
 }

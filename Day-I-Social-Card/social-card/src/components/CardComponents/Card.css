@@ -2,14 +2,35 @@
 
 .card-container {
     display: flex;
+    margin-left: 11%;
     flex-direction: column;
     align-items: flex-end;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    color: black;
+}
+
+a {
+    text-decoration: none;
 }
 
 img {
-    width:92%;
+    width:100%;
+    border-radius: 5px 5px 0 0;
 }
 
 .card-content {
-    width: 92%;
+    padding: 10px;
+}
+
+.card-content p {
+    margin: 5px; 
+}
+
+.content-title {
+    font-weight: bold;
+}
+
+.card-content-caption {
+    color: grey;
 }
