@@ -1,1 +1,9 @@
 /* All styles for your header Components live here */
+
+.dot {
+    height: 4px;
+    width: 4px;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+}
