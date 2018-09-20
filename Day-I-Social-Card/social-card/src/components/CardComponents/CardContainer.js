@@ -1,12 +1,12 @@
 import React from 'react';
 import './Card.css';
+import Banner from './CardBanner';
 
-import TheBanner from './CardContent';
-
-const card = () => {
+const Card = () => {
     return(
-        <TheBanner/>
+        <Banner/>
     )
 }
 
-export default card ;
+
+export default Card ;

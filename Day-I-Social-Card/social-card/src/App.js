@@ -3,6 +3,8 @@ import './App.css';
 import HeaderContainer from './components/HeaderComponents/HeaderContainer' ;
 import CardContainer from './components/CardComponents/CardContainer';
 import ImageThumbnail from './components/HeaderComponents/ImageThumbnail';
+import CardContent from './components/CardComponents/CardContent';
+
 
 
 const App = () => {
@@ -15,8 +17,16 @@ const App = () => {
   
       
       
-       
-    <CardContainer/>
+       <div>
+         <div>
+<CardContainer/>
+         </div>
+         <div>
+
+           <CardContent/>
+         </div>
+       </div>
+    
     
     </div>
    
