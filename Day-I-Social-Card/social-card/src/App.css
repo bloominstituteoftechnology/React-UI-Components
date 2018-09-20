@@ -19,3 +19,7 @@
 .tag {
   color: #bdc3c7;
 }
+
+a {
+  text-decoration: none;
+}
