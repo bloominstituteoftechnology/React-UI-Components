@@ -1,0 +1,14 @@
+.number-button, .action-button {
+    height: 100px;
+    font-size: 4rem;
+    border: thin solid #979797;
+    box-sizing: border-box;
+    padding: 20px;
+    width: 125px;
+    height: 100px;
+}
+
+.action-button {
+    background: #A0001E;
+    color: white;
+}
