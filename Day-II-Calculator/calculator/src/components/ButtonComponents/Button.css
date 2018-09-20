@@ -4,7 +4,7 @@
 }
 
 .clearBtn {
-    width: 74% ;
+    width: 80% ;
     height: 94px ;
     font-size: 3rem ;
     text-align: center ;
@@ -47,6 +47,9 @@
     text-align: center ;
     font-size: 4rem ;
     font-weight: bolder ;
+    height: 57px ;
+    border-left: none ;
+
 }
 
 table {
@@ -86,9 +89,81 @@ table {
     text-align: center ;
     font-size: 4rem ;
     font-weight: bolder ;
+    height: 57px ;
+
 }
 
 .rowThree td:last-of-type {
     color: white ;
     background: #A0001E ;
 }
+
+.r4Outer {
+    width: 100% ;
+}
+
+.rowFourDiv {
+    width: 100% ;
+
+
+}
+
+.rowFour {
+    width: 100% ;
+    display: flex ;
+    justify-content: space-between ;
+    margin-top: -5px ;
+}
+
+.rowFour td {
+    border: 2px solid gray !important;
+    width: 17% ;
+    padding: 20px 20px 20px 20px ;
+    color: black ;
+    text-align: center ;
+    font-size: 4rem ;
+    font-weight: bolder ;
+    height: 63px ;
+
+}
+
+.rowFour td:last-of-type {
+    color: white ;
+    background: #A0001E ;
+}
+
+.rowFive {
+    border: 2px solid gray ;
+    display: flex ;
+    flex-direction: row ;
+    background: white ;
+    margin-top: -5px ;
+}
+.rowFiveCont {
+    border: 1px solid black ;
+    width: 80% ;
+    height: 100px ;
+    /* margin: 0 auto ; */
+    
+    color: white ;
+    font-size: 5rem ;
+    text-align: center ;
+    color: black ;
+    border: 2px solid gray ;
+    font-weight: bold ;
+
+    
+}
+
+.equals {
+    color: white ;
+    background: #A0001E ;
+    width: 26% ;
+    font-size: 6rem ;
+    border: 2px solid gray ;
+    height: 100px ;
+    text-align: center ;
+
+
+}
+

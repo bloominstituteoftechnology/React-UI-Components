@@ -43,9 +43,9 @@ return(
 
 </td>
 
-{/* <td>
-
-    <tr>
+<td className='r4Outer'>
+<div className='rowFourDiv'>
+<tr className='rowFour'>
             
             
             <td>1</td>
@@ -55,11 +55,16 @@ return(
             <td>3</td>
             
             <td>+</td>                            
-    </tr>
+    </tr></div>
+   
 
-    </td> */}
+    </td> 
 
 </table>
+<div className="rowFive"> <div className="rowFiveCont">0</div>
+
+<div className='equals'>=</div>
+</div>
 </div>
 )
 }
