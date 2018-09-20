@@ -1,8 +1,9 @@
 import React from 'react';
+import './Footer.css'
 
 const Footer = () => {
     return (
-        <div>
+        <div className = "footer-content">
             <img src="" alt =""/>
             <img src="" alt ="" />
             <p>6</p>

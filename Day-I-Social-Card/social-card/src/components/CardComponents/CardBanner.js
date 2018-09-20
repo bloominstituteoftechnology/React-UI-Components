@@ -1,15 +1,11 @@
 import React from 'react';
 import './Card.css';
 
-class Lambda extends React.Component {
-    render() {
-        const name = "Lambda School";
-        return (
-            <h1>{name}</h1>
-        );
-    }
+const CardBanner = () => {
+    return (
+        <div className="card-banner">
+            <img id="banner" src="https://ibin.co/3wnC6SgIOJud.png" alt="card banner"/>
+        </div>
+    )
 }
-
-const app = document.getElementById('app');
-
-ReactDOM.render(<Lambda />, app);
+ export default CardBanner; 

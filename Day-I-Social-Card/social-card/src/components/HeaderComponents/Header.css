@@ -2,5 +2,10 @@
 .Title {
     display: flex;
     flex-direction: row;
-    
+}
+
+.header-container {
+    width: 550px;
+    margin: 0 auto;
+    border: 1px solid black;
 }

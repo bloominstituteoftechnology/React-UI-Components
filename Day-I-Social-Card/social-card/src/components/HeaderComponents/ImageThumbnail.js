@@ -4,7 +4,7 @@ import './Header.css';
 const ImageThumbnail = () => {
     return (
         <div className="headerImage">
-            <img src=""/>       
+            <img src="https://ibin.co/3whrpKSBbZ81.png" alt="card logo"/>       
         </div>
     )
 }
