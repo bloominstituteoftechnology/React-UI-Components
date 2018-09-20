@@ -3,7 +3,7 @@ import './Card.css';
 
 const CardContent = (props) => {
     return (
-        <div>
+        <div class='card-content'>
             <h2>
                 Get started with React
             </h2>
