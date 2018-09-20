@@ -19,10 +19,10 @@ const ImageThumbnail = () => {
 };
 
 const HeaderTitle = () => {
-  return (<div>
-    <h1 className="ht-h1"> Lambda School</h1>
-    <p>@LambdaSchool</p>
-    <p>&#183; 26 Jan</p>
+  return (<div className="ht-main">
+    <h4 className="ht-main-name">Lambda School</h4>
+    <p className="ht-username">@LambdaSchool</p>
+    <p>&#183; 26 jan</p>
     </div>
     );
 };

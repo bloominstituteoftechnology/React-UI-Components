@@ -1,12 +1,41 @@
 /* All styles for your header Components live here */
 #root {
-    background-color: red;
+    background-color: grey;
     max-width: 590px;
     margin: 0 auto;
 }
 
 .hc-main {
     display: flex;
+}
+
+.hc-main img {
+    background: white;
+    border-radius: 100%;
+    height: 48px;
+    width: 48px;
+    margin-top: 9px;
+    margin-left: 10px;
+    margin-right: 9px;
+}
+
+.hc-main .ht-main {
+    display: flex;
+}
+
+.ht-main .ht-main-name {
+    margin-top: 10px;
+    margin-left: 2px;
+    font-size: 0.87rem;
+}
+
+.ht-main .ht-username {
+    margin-left: 5px;
+    margin-right: 6px;
+}
+.ht-main p {
+    font-size: 0.78rem;
+    margin-top: 11px;
 }
 
 .cc-main {
