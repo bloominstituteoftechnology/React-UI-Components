@@ -5,6 +5,7 @@
     flex-direction: column;
     max-width: 504px;
     margin: 0px 0px 0px 11.86%;
+    cursor: pointer;
 }
 
 .card-banner{
