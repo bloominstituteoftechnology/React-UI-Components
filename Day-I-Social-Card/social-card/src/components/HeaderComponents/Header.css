@@ -1,1 +1,28 @@
 /* All styles for your header Components live here */
+.header-container {
+  width: 100%;
+  display: flex;
+}
+
+.icon{
+  width: 20%;
+}
+
+.icon img {
+  width: 80%;
+  margin-top: 20px;
+  margin-left: 10px;
+  border-radius: 50%
+
+}
+
+
+.header-title {
+  display: flex;
+  align-items: baseline;
+}
+
+.header-title p {
+  color: gray;
+  padding-left:5px;
+}
