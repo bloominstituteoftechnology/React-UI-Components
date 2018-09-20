@@ -1,1 +1,24 @@
-/* All styles for your header Components live here */
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.header-titlebar {
+    display: flex;
+    flex-direction: column;
+}
+
+.header-title {
+    display: flex;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.header img {
+    width: 8%;
+}

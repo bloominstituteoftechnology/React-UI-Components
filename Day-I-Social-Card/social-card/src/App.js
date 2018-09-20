@@ -5,7 +5,7 @@ import './App.css';
 
 const App = (props) => {
   return (
-    <div>
+    <div className = "app-container">
       <HeaderContainer/>
       <CardContainer/>
     </div>

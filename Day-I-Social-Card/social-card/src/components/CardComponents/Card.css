@@ -1,1 +1,15 @@
 /* All styles for your Card Components live here */
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+img {
+    width:92%;
+}
+
+.card-content {
+    width: 92%;
+}
