@@ -1,1 +1,64 @@
 /* All styles for your header Components live here */
+.Header{
+  display: flex;
+  flex-direction: column;
+
+
+}
+
+.Header div{
+  display: flex;
+  align-items: flex-start;
+
+
+}
+
+
+.ContentText{
+  display: flex;
+  flex-direction: row;
+
+
+}
+
+.ContentText h3{
+
+  font-size: 14px;
+  font-weight: 400;
+    width: 60%;
+    padding-left: 60px;
+
+    float: right;
+        margin-top: 0;
+
+}
+.ContentTitle{
+  width: 85%;
+
+}
+
+.ContentTitle h1{
+  display: inline;
+    font-size: 20px;
+    padding-left: 10px;
+      padding-top: 15px;
+        margin-bottom: 0;
+
+}
+
+.ContentTitle h2{
+  display: inline;
+  font-weight: lighter;
+  font-size: 20px;
+  color: silver;
+  padding-left: 20px;
+  padding-top: 10px;
+      margin-bottom: 0;
+
+}
+
+.Image img{
+  width:50px; /* you can use % */
+      height: auto;
+      padding-top: 30px;
+}

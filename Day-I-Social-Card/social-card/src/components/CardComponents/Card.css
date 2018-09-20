@@ -1,1 +1,62 @@
 /* All styles for your Card Components live here */
+
+
+.CardImg img{
+  width: 70%;
+  margin-bottom: 10px;
+  margin-left: 60px
+}
+.CardTitle{
+  display: flex;
+  flex-direction: row;
+
+
+}
+.CardTitle h1{
+  display: inline;
+    font-size: 20px;
+    padding-left: 60px;
+
+      margin: 0 0 0 0;
+
+
+}
+
+.CardCont{
+
+}
+
+.CardText h3 {
+  display: inline;
+  font-weight: lighter;
+  font-size: 14px;
+    margin-left: 60px;
+    margin-top: 5;
+    float: right;
+
+
+
+
+}
+
+.CardText h4 {
+  display: inline;
+  font-weight: lighter;
+  font-size: 14px;
+    margin-left: 60px;
+    margin-top: 0;
+    padding-top: 0;
+
+    color: silver;
+
+
+
+
+}
+.CardText {
+
+      width: 700px;
+      margin: 0;
+
+
+}
