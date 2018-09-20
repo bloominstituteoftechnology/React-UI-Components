@@ -1,25 +1,32 @@
 /* All styles for your Card Components live here */
 .cardcontainer {
     width: 80%;
+    border: 1px solid gray;
+    margin-left: 100px;
+    border-radius: 3px;
 }
 
 .heading {
-    color: red;
+    color: black;
+    padding-left: 10px;
 }
 
 .heading h1 {
     font-size: 14px;
 }
 
+.heading h4 {
+    font-size: 12px;
+    color: gray;
+}
+
 .heading p {
     font-size: 12px;
 }
 
-
-
 .cardcontainer .banner {
-    border: 5px solid purple;
-    width: 80%;
+    /* border: 5px solid purple; */
+    width: 100%;
 }
 
 /* .outerbox {
