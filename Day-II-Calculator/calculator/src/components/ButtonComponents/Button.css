@@ -1,0 +1,25 @@
+.rowZero {
+    display: flex ;
+    flex-direction: row ;
+}
+
+.clearBtn {
+    width: 74% ;
+    height: 94px ;
+    font-size: 3rem ;
+    text-align: center ;
+    /* text-align: end; */
+    border-left: 2px solid gray ;
+    border-bottom: 2px solid gray ;
+}
+
+.divSignFlex {
+    width: 26% ;
+    background: #A0001E ;
+    max-height: 95px ;
+    font-size: 6rem ;
+    color: white; 
+    text-align: center;
+    border: 2px solid gray ;
+    border-top: none ;
+}
