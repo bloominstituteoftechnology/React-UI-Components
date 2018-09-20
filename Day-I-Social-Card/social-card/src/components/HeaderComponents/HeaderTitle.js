@@ -7,6 +7,7 @@ const HeaderTitle = () => {
         <section className="headerText">
                 <span>Lambda School</span>
             <span className="atName">@LambdaSchool</span>
+            <span className="dot"> • </span>
             <span>19 Jan</span> 
         </section>
         

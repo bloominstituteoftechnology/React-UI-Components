@@ -12,22 +12,30 @@
 .bannerImg {
     width: 500px ;
     height: 245px ;
-    margin: auto 10px 0 auto  ;
+    margin: 0 auto ;
     border-top-left-radius: 7px;
     border-top-right-radius: 7px ;
 }
 
 .lowerContent {
     /* border: 3px solid green ; */
-    border: 1px solid black ;
+    border: 1.2px solid rgba(110, 110, 110, 0.322) ;
     border-bottom-left-radius: 5px ;
     border-bottom-right-radius: 5px ;
     border-top: none ;
-    width: 84.5% ;
-    margin: auto 10px 0 auto  ;
+    width: 85% ;
+    
+    margin: 0 auto;
+    margin-top: -22px ;
 }
 
 .lowerPara {
     font-size: 14px ;
     line-height: 18px ;
+}
+
+.dot {
+    font-size: 12px ;
+    color: slategray ;
+
 }
