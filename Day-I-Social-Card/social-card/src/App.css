@@ -4,7 +4,8 @@
 */
 
 .appContainer {
-  border:1px solid black;
-  width:582px;
-  height:505px;
+  width:100%;
+  max-width:582px;
+  height:auto;
+  margin: 0 auto;
 }

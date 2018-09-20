@@ -1,23 +1,31 @@
 /* All styles for your Card Components live here */
+a {
+    text-decoration:none;
+    color:black;
+}
 .cardContainer {
     display: flex;
     flex-direction: column;
     width:505px;
-    height:356px;
+    height:auto;
     margin-left:66px;
+    border:1px solid lightgray;
 }
 .cardContentHeader {
     font-size:20px;
 }
 
+.cardContentContainer .cardTextContainer {
+    padding:15px;
+}
 .cardContentContainer p {
     margin-top:0px;
     margin-bottom:0px;
 }
 
-.cardWebSite {
+.cardContentContainer .cardWebSite {
     color:lightgray;
-    margin-top:25px;
+    margin-top:10px;
 }
 
 .cardBannerImg {
