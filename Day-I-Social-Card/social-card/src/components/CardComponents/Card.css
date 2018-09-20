@@ -5,6 +5,8 @@
     margin-left: 68px;
     display: flex;
     flex-direction: column;
+    border: 1px solid #eeeeee;
+    border-radius: 5px;
 }
 
 .card-banner {
@@ -12,4 +14,26 @@
     height: 253px;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
+}
+
+.card-content {
+    padding: 13px 15px;
+}
+
+.card-content h2 {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.card-content p {
+    margin: 7px 0 5px 0;
+    font-size: 1.4rem;
+    line-height: 1.9rem;
+
+}
+
+.card-content a {
+    font-size: 1.4rem;
+    text-decoration: none;
+    color: #888888;
 }
