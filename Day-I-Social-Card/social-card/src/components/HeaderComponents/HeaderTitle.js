@@ -7,7 +7,7 @@ const HeaderTitle =() => {
           <div className = 'headerTitle'>
             <h1>Lambda School</h1>
             <p className = 'lambdaLink'>@LambdaSchool</p>
-            <p className = 'dateInfo'>- 26 Jan</p>
+            <p className = 'dateInfo'>&#183; 26 Jan</p>
           </div>
 
   )
