@@ -3,9 +3,9 @@ import './Card.css';
 
 const cardContainer = () => {
   return (
-    <body>
+    <div>
       
-      </body>
+      </div>
   );
 }
 
