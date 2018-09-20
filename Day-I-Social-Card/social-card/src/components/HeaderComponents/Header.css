@@ -1,11 +1,40 @@
 /* All styles for your header Components live here */
-
+.headerContainer {
+    display: flex;
+}
 .headerTitleContainer {
     display:flex;
     align-items: center;
 }
 
+.headerMainTitle {
+    font-size:20px;
+    margin-right:10px;
+}
+
+.socialName {
+    color:lightgray;
+    margin-right:8px;
+    margin-bottom:0px;
+    font-size:16px;
+}
+
+.date {
+    color:lightgray;
+    font-size:16px;
+    margin-bottom:0px;
+}
+
 .imgContainer .logo {
+    margin-top:15px;
     width:60px;
     height:63px;
+}
+
+.imgContainer {
+    margin-right:10px;
+}
+
+.headerContent p {
+    margin-top:0px;
 }
