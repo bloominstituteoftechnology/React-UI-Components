@@ -6,7 +6,7 @@ import './Card.css';
      <div class ='card-content'>
        <h3> Get Started with React</h3>
        <p>React makes it painless to create interactive UIs. Design simple views for each state of your application.</p>
-       <p>reactjs.org</p>
+       <p class='link'>reactjs.org</p>
       </div>
    )
  };

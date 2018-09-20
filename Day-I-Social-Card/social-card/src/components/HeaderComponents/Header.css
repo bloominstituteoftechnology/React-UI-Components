@@ -1,18 +1,24 @@
 /* All styles for your header Components live here */
 .header-container {
-  width: 100%;
+  max-width: 100%;
+  width: 80%;
   display: flex;
+
+
+
+
 }
 
 .icon{
-  width: 20%;
+  width: 50%;
 }
 
 .icon img {
-  width: 80%;
+  width: 40%;
   margin-top: 20px;
   margin-left: 10px;
-  border-radius: 50%
+  border-radius: 50%;
+
 
 }
 
