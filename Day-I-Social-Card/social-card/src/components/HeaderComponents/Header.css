@@ -1,1 +1,15 @@
 /* All styles for your header Components live here */
+.headercontainer {
+    border: 2px solid goldenrod;
+    display: flex;
+    flex-wrap: wrap-reverse;
+
+}
+
+.headertitle {
+    border: 1px solid orange;
+}
+
+.headercontent {
+    border: 1px solid pink;
+}
