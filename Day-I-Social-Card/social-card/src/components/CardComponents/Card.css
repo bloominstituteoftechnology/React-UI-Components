@@ -1,1 +1,39 @@
 /* All styles for your Card Components live here */
+.reactLogo {
+	width: 100%;
+}
+
+#cardContainer {
+	padding-right: 12px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+}
+
+#smallerContainer {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	border: 1px solid lightgray;
+	width: 89%;
+}
+
+#cardContent {
+	margin-top: 0px;
+}
+#cardContent h3 {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 0;
+}
+
+#cardContent p {
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+	color: gray;
+	font-size: 14px;
+}

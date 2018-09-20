@@ -1,1 +1,39 @@
 /* All styles for your header Components live here */
+* {
+	padding: 0;
+
+	box-sizing: border-box;
+}
+
+.container {
+	display: flex;
+	width: 100%;
+}
+
+.logo {
+	height: 65px;
+	width: 65px;
+	margin-right: 5px;
+}
+
+.title {
+	display: flex;
+	margin-bottom: 0;
+}
+
+h2 {
+	font-size: 16px;
+
+	margin-right: 10px;
+}
+
+p {
+	font-size: 16px;
+	line-height: 1.3;
+}
+
+#headerContent {
+	margin-top: 0;
+	margin-bottom: 5px;
+	width: 97%;
+}
