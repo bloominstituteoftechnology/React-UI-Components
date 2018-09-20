@@ -1,9 +1,14 @@
 .app-container {
-  border: 1px solid #7e8e9d;
+  background-color: #FFFFFF;
+  border-radius: 4px;
   display: flex;
   flex-flow: column wrap;
   margin: 0 auto;
   padding: 12px 2px;
   max-width: 590px;
   width: 100%;
+}
+
+.app-container:hover {
+  background-color: #f5f8fa;
 }
