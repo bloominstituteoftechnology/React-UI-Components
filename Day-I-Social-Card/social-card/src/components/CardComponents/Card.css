@@ -18,12 +18,13 @@
   display: flex;
   flex-direction: column;
   margin-left: 80px;
-  width: 760px;
-  height: 125px;
+  width: 680px;
+  height: 150px;
   border: solid 1px lightgray;
 
 }
 .cardText h1 {
+  font-size: 20px;
   margin: 10px 20px;
 }
 .cardText p {
