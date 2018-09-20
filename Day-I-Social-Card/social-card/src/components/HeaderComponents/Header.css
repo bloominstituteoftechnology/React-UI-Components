@@ -4,8 +4,8 @@
     flex-wrap: wrap;
     justify-content: flex-start;
     align-items: flex-start;
-    margin-top: 50px;
-    width: 600px;
+    margin-top: 20px;
+    width: 100%;
  
 }
 
@@ -47,5 +47,5 @@ img {
     font-size: 15px;
     line-height: 20px;
    margin-left: 80px;
-   width: 75%;
+   width: 85%;
 }

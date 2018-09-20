@@ -5,7 +5,7 @@ const CardBanner  =  () => {
 
     return (
         <div className = 'card-banner'>
-        <img src={react} />
+        <img src={react} alt='react-tutorial-img'/>
         </div>
     );
 };

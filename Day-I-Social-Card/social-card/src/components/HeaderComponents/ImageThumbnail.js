@@ -4,7 +4,7 @@ import lambdaSchool from '../images/lambdaSchool.png';
 const ImageThumbnail = () => {
     return (
        <div className = 'user-img'>
-         <img src ={lambdaSchool} />
+         <img src ={lambdaSchool} alt='user-lamda-img' />
             
         </div>
      
