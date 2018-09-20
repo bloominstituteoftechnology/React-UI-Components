@@ -2,3 +2,74 @@
   Write your styles/CSS for App.js here and import into the component that you need 
   IF you'd like to attempt to use less you'll have to research how to do this with Create React App
 */
+
+* {
+  box-sizing: border-box;
+}
+
+
+.apps-container{
+  display: flex;
+  flex-direction: column;
+  border: 5px solid pink;
+  font-size: 62.5%;
+  margin: 0 auto;
+  max-width: 88rem;
+  width: 43rem;
+}
+
+.header-container{
+  border: 1px solid purple;
+  display: flex;
+}
+
+.headerTitle{
+  border: 1px solid green;
+  display: flex;
+  align-items: baseline;
+  width: 50%;
+  justify-content: space-evenly;
+}
+
+h1{
+  border: 1px solid orange;
+  font-size: 1rem;
+
+}
+
+.dateInfo{
+  border: 1px solid dodgerblue;
+  font-size: .8rem;
+  color: dimgray;
+}
+.lambdaIMG{
+  width: 12%;
+  height: 12%;
+}
+
+.headerText{
+  border: 1px solid mediumvioletred;
+  height: 85%;
+}
+
+.lambdaLink{
+  border: 1px solid darkorchid;
+  font-size: .8rem;
+  color: dimgray;
+}
+
+.headerInfo{
+  font-size: 1rem;
+}
+
+.card-container{
+  background-color: lightcoral;
+  border: 1px solid cadetblue;
+  padding-left: 10rem;
+}
+
+.bannerIMG{
+  max-width: 88rem;
+  width: 30rem;
+
+}
