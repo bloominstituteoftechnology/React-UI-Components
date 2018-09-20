@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import ImageThumbnail from './components/HeaderComponents/ImageThumbnail';
 import HeaderContainer from './components/HeaderComponents/HeaderContainer';
+import CardContainer from './components/CardComponents/CardContainer';
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
       </div>
       <div className="col-main">
         <HeaderContainer />
+        <CardContainer />
       </div>
     </div>
   );

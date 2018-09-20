@@ -1,1 +1,6 @@
 /* All styles for your Card Components live here */
+.cardbanner-img {
+    width: 500px;
+    height: auto;
+    padding: 10px 0px;
+}
