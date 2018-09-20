@@ -7,7 +7,7 @@ const HeaderContainer = (props) => {
     return (
         <div>
             <ImageThumbnail />
-            <HeaderTitle />
+            <HeaderTitle name="Lambda School" handle="LambdaSchool" date="26 jan"/>
         </div>
     );
 }
