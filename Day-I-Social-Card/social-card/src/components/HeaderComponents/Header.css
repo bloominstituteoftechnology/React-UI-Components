@@ -57,8 +57,11 @@ table {
 	display: flex ;
 	flex-direction: row;
 	justify-content: space-around ;
-	width: 57% ;
-	margin-left: 17px ;
+	width: 51% ;
+	margin-left: 10px ;
+}
+.headerText span {
+	font-size: 12px ;
 }
 
 .headerText .atName {
@@ -72,7 +75,7 @@ div .headerPara {
 	/* background: red ; */
 	line-height: 22px ;
 	width: 87.5% ;
-	margin: 5px 0px 0px 27px ;
+	margin: 5px 0px 0px 17px ;
 	
 }
 
