@@ -9,6 +9,8 @@
 }
 html {
   font-size: 62.5%;
+  background-color: darkred;
+  opacity: .9;
 }
 
 body {
