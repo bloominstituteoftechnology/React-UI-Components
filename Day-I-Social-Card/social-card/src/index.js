@@ -2,8 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import HeaderContainer from '/Users/jeffj/React-UI-Components/Day-I-Social-Card/social-card/src/components/HeaderComponents/HeaderContainer';
-
+import HeaderContainer from './components/HeaderComponents/HeaderContainer.js';
+import ImageThumbnail from './components/HeaderComponents/ImageThumbnail';
 
 
 ReactDOM.render(<App />, document.getElementById('root'));

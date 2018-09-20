@@ -1,10 +1,10 @@
 import React from 'react';
 import './Header.css';
-const ImageThubnail =()=>{
+const ImageThumbnail =()=>{
     return (
     
-       <img src='https://ibin.co/3whrpKSBbZ81.png'/>
+       <img className='image'src='https://ibin.co/3whrpKSBbZ81.png'/>
     
     );
 }
-export default ImageThubnail;
+export default ImageThumbnail;

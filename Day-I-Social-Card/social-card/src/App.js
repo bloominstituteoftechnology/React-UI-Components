@@ -1,8 +1,10 @@
 import React from 'react';
+import ReactDOM from'react-dom';
 import './App.css';
-import ImageThumbnail from './ImageThumbnail';
-import HeaderTitle from './HeaderTitle';
-import Headercontent from './HeaderContent';
+import HeaderContainer from './components/HeaderComponents/HeaderContainer';
+import ImageThumbnail from './components/HeaderComponents/ImageThumbnail';
+import HeaderTitle from './components/HeaderComponents/HeaderTitle';
+import HeaderContent from './components/HeaderComponents/HeaderContent';
 const App = () => {
   return (
     <div>
@@ -19,8 +21,11 @@ const App = () => {
           inside of this file in order to make them work.
         </strong>
       </p>
+        
     </div>
+     
   );
 };
-
+ReactDOM.render(<ImageThumbnail/>, document.getElementById('root'));
 export default App;
+
