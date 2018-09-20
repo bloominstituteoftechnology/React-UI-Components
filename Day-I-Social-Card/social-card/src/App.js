@@ -1,5 +1,13 @@
 import React from 'react';
 import './App.css';
+import './components/CardComponents/CardBanner.js';
+import './components/CardComponents/CardContainer.js';
+import './components/CardComponents/CardContent.js';
+import './components/CardComponents/Card.css';
+import './components/FooterComponents/Footer.js'
+import './components/FooterComponents/Footer.css'
+
+
 
 const App = () => {
   return (
