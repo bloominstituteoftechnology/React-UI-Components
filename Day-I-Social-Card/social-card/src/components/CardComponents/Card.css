@@ -4,3 +4,16 @@
     flex-direction: column;
     align-items: center;
 }
+
+
+.banner {
+    display: block;
+    margin: 0 auto;
+    width: 70%;
+    border-radius: 5%;
+}
+
+.card-content-container {
+    width: 70%;
+}
+
