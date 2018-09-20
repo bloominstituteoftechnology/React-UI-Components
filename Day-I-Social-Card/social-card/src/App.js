@@ -1,9 +1,30 @@
 import React from 'react';
 import './App.css';
-
+import './components/HeaderComponents/HeaderContainer';
+import './components/CardComponents/CardContainer';
+import "./components/HeaderComponents/ImageThumbnail";
+import cardContainer from './components/CardComponents/CardContainer';
+import './components/CardComponents/CardBanner';
+import CardBanner from './components/CardComponents/CardBanner';
+import HeaderContainer from './components/HeaderComponents/HeaderContainer';
+import ImageThumbnail from './components/HeaderComponents/ImageThumbnail';
 const App = () => {
   return (
-    <div>
+    <div className="container" > 
+      
+      <div>
+         < div className="header" >
+          <HeaderContainer/>
+          <div>
+           <ImageThumbnail/>
+          </div>
+        <div>
+          <CardBanner/>
+        </div>
+        </ div>
+          
+       </div>
+      
       <h3>Welcome to React Social Card!</h3>
       <p>
         Begin by exploring the `components` directory. You'll notice we have a
@@ -16,8 +37,9 @@ const App = () => {
           Don't forget to `default export` your components and import them here
           inside of this file in order to make them work.
         </strong>
-      </p>
-    </div>
+        </p>
+      </div>
+  
   );
 };
 

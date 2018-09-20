@@ -1,1 +1,32 @@
 /* All styles for your Card Components live here */
+
+
+.container {
+  max-width: 880px;
+  height: 750px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  border: solid orange;
+  background-color: red;
+}
+.header {
+  max-width: 880px;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+}
+
+.cardBanner {
+  display: flex;
+  justify-content: left;
+  background-color: white;
+  width: 600px;
+  height: 100px;
+  border: solid 2px white;
+}
+
+.lambThumb {
+  border: solid 2px black;
+}
