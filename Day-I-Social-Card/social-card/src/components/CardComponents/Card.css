@@ -1,1 +1,6 @@
 /* All styles for your Card Components live here */
+img {
+  width: 25%;
+  height: auto;
+  border-radius: 5px;
+}
