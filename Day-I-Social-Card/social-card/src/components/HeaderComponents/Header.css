@@ -1,5 +1,4 @@
 .header {
-    
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
@@ -11,10 +10,10 @@
 
 .lambdaHeader {
     display: flex;
+  
 }
 
 h1 {
-
     font-size: 15px;
     font-weight: 600;
     margin-top:20px;
@@ -26,11 +25,13 @@ h3 {
     margin-left: 10px;
     color: rgb(156, 156, 156)
 }
+/*Lambda Logo */
 .user-img {
     width: 35px;
     height:35px;
     margin-right:10px;
-    margin-left: 10px;
+    margin-left:-40px;
+    
     padding:8px;
     background: whitesmoke;
     border-radius: 30px;
@@ -44,8 +45,9 @@ img {
 }
 
 .header-content p{
-    font-size: 15px;
-    line-height: 20px;
-   margin-left: 80px;
-   width: 85%;
+font-size: 15px;
+line-height: 20px;
+margin-left: 20px;
+margin-bottom:10px;
+width: 95%;
 }

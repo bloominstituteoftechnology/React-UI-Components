@@ -8,31 +8,38 @@ class Footer extends React.Component {
     constructor (props) {
         super(props);
         this.state = {
-            count:0
+            count:0,
+            count2:0
         }
+
     }
-    onClick(e) {
+     increment = () => {
+      this.setState({
+          count2: this.state.count2 + 1
+      })
+    }
+     countUp = () => {
         this.setState({
             count: this.state.count + 1
         });
     }
-    increment(e) {
-        this.setState({
-            count: this.state.count + 1
-        });
-    }
+    // increment(e) {
+    //     this.setState({
+    //         count: this.state.count + 1
+    //     });
+    
     render () {
         return (
               <div className="chat-bubble">
                 {" "}
                 <i className="far fa-comment"/>
                     {" "}
-                    <div className= "sync" onClick={this.onClick.bind(this)}>
+                    <div className= "sync" onClick={this.countUp}>
                         <i class="fas fa-sync" /><p>{this.state.count}</p></div>
             
                     {" "}
-                    <div className="heart" onClick={this.increment.bind(this)}>
-                        <i class="fas fa-heart" /><p>{this.state.count}</p></div>
+                    <div className="heart" onClick={this.increment}>
+                        <i class="fas fa-heart" /><p>{this.state.count2}</p></div>
                     {" "}
                     <i class="far fa-envelope"/>
               </div>

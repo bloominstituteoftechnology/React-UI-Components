@@ -4,6 +4,8 @@
 */
 
 .app {
+  display:flex;
+  flex-direction: column;
   border: 1px solid #eee;
   padding: 0px 50px;
   width:100%;
