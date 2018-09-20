@@ -30,6 +30,7 @@
 }
 
 .card-content p{
+    width: 95%;
     font-size: 1.4rem;
     line-height: 20px;
     margin: 0px 0px 0px 14px;
