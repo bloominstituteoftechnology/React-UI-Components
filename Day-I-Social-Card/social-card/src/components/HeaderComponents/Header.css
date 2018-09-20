@@ -1,1 +1,6 @@
 /* All styles for your header Components live here */
+.circle {
+    border: 1px solid red;
+    backgrond: red;
+    border-radius: 25%;
+}
