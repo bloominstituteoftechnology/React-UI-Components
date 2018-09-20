@@ -3,7 +3,7 @@ import './Header.css';
 import * as moment from 'moment';
 
 
-let now = moment().format('LLLL');
+let now = moment().format("MMM Do YYYY");
 
 
 const HeaderTitle = () => {
