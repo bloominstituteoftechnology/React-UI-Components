@@ -1,18 +1,9 @@
 import React from 'react';
 import './Header.css';
-import HeaderContent from './HeaderContent';
-import moment from 'moment';
- const time = moment();
- const HeaderTitle = () => {
+
+const HeaderContent = (props) =>{
     return(
-    <div className='header-title-wrapper'>
-        <div className='header-title'>
-        Lambda School
-        <span className = 'handler'>@LambdaSchool</span>
-        <span className=' time-stamp'>{time.format('MMM Do')}</span>
-        <HeaderContent />
-        </div>
-    </div>
-     );
+        <p className="header-content">Let's learn React by building simple interfaces with components. Don't try to overthink it, just keep it simple and have fun. Once you feel comfortable using components you are well on your way to mastering React!</p>
+    )
 };
- export default HeaderTitle; 
+ export default HeaderContent; 
