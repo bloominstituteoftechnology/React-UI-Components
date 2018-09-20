@@ -1,8 +1,9 @@
 .app-container {
-  border: 1px solid #a0001e;
+  border: 1px solid #7e8e9d;
   display: flex;
   flex-flow: column wrap;
   margin: 0 auto;
   padding: 12px 2px;
-  width: 590px;
+  max-width: 590px;
+  width: 100%;
 }
