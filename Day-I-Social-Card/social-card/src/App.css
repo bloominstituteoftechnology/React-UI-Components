@@ -8,7 +8,6 @@
 .app {
   width: 590px;
   height: 514px;
-  border: 1px solid green;
   display: flex;
   flex-direction: column;
   align-items: center;
