@@ -3,6 +3,11 @@
 .ReactHeader {
     /* font-size: 24px ; */
     font-weight: bold ;
+    /* margin-left: 10px ; */
+    /* margin-top: 25px ; */
+
+    
+
 }
 
 .imgDiv{
@@ -26,17 +31,40 @@
     width: 85% ;
     
     margin: 0 auto;
-    margin-top: -22px ;
+    /* margin-top: -22px ; */
 }
 
 .lowerPara {
     font-size: 14px ;
     line-height: 18px ;
     background-color: linear-gradient(gray);
+    width: 90% ;
+    /* margin-left: 10px ; */
+    /* margin-bottom: 30px ; */
 }
 
 .dot {
     font-size: 12px ;
     color: slategray ;
+
+}
+
+.reactLink {
+	background: rgba(128, 128, 128, 0.034) ;
+}
+
+.reactLinkStyle {
+    text-decoration: none ;
+    color: black ;
+    display: flex ;
+    justify-content: space-around ;
+    flex-direction: column ;
+    align-content: space-around ;
+
+}
+.reactLinkStyle :visited{
+
+    text-decoration: none ;
+    color: black ;
 
 }
