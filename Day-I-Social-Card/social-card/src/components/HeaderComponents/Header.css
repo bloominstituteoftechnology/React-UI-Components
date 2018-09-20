@@ -1,1 +1,53 @@
 /* All styles for your header Components live here */
+
+.headerContainer{
+   
+   
+}
+
+.headerContent{
+    display: flex;
+    align-items: center;   
+}
+
+.ImageThumbnails-box{
+    margin-top: 10px;
+    align-self: flex-start;
+    flex: 0 0 60px;
+    display: flex;
+    padding: 5px;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    background: #999;
+    
+    border-radius: 100px;
+    margin-right: 10px;  
+}
+
+.ImageThumbnails-img{
+    margin-top: 5px;
+    width: 45px;
+    height: auto;
+    align-self: center;
+}
+
+.headertitle{
+margin-left: 20px;
+flex: 0 0 700px;
+
+}
+.headertitle--title{
+    font-size: 2rem;
+    
+
+}
+
+.headertitle--subtitle{
+    font-size: 1.6rem;
+    color: #888;
+}
+
+.headertitle--contentText{
+    font-size: 1.2rem;
+}
