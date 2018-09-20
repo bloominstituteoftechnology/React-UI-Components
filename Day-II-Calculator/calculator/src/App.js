@@ -2,12 +2,14 @@ import React from 'react';
 import './App.css';
 import Display from './components/DisplayComponents/CalculatorDisplay';
 import Clear from './components/ButtonComponents/ActionButton';
+import Nums from './components/ButtonComponents/NumberButton';
 
 const App = () => {
   return (
     <div className="container">
    <Display/>
    <Clear />
+   <Nums/>
     </div>
   );
 };

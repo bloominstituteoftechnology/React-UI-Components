@@ -23,3 +23,38 @@
     border: 2px solid gray ;
     border-top: none ;
 }
+
+.r2Outer {
+    width: 100% ; 
+   
+}
+.rowTwoDiv {
+    width: 100% ; 
+    
+   
+}
+.rowTwo {
+    width: 100% ;
+    display: flex ;
+    justify-content: space-between ;
+}
+.rowTwo td {
+    border: 2px solid gray !important;
+    width: 17% ;
+    padding: 20px 20px 20px 20px ;
+    color: black ;
+    text-align: center ;
+    font-size: 4rem ;
+    font-weight: bolder ;
+}
+
+table {
+    border: 3px solid green ;
+    width: 100% ;
+}
+
+.rowTwo td:last-of-type {
+    color: white ;
+    background: #A0001E ;
+
+}
