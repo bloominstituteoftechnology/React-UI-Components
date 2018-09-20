@@ -1,1 +1,17 @@
 /* All styles for your header Components live here */
+
+.header-title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.header-title h1 {
+    margin-right: 20px;
+}
+
+.header-title p {
+    margin-right: 10px;
+}
