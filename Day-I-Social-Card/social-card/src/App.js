@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-
+import ImageThumbnail from './ImageThumbnail.js';
 const App = () => {
   return (
     <div>
