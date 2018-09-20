@@ -10,7 +10,8 @@ import { faSyncAlt } from '@fortawesome/free-solid-svg-icons';
 import { faHeart } from '@fortawesome/free-solid-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
-
+const lambdaSchool = require('./DB/lambdaSchool');
+const pokemon = require('./DB/pokemon');
 
 library.add(faComment);
 library.add(faSyncAlt);
@@ -19,10 +20,17 @@ library.add(faEnvelope);
 
 const App = () => {
   return (
-    <section className='app-container'>
-      <HeaderContainer />
-      <CardContainer />
-      <Footer />
+    <section className='app-well'>
+      <section className='app-container'>
+        <HeaderContainer {...lambdaSchool} />
+        <CardContainer {...lambdaSchool}/>
+        <Footer />
+      </section>
+      <section className='app-container'>
+        <HeaderContainer {...pokemon} />
+        <CardContainer {...pokemon}/>
+        <Footer />
+      </section>
     </section>
   );
 };

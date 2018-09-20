@@ -8,7 +8,7 @@ const lambdaSchool = require('../../DB/lambdaSchool');
 const HeaderContent = (props) => {
     return (
         <section className="header-container">
-            <HeaderTitle {...lambdaSchool}/>
+            <HeaderTitle {...props}/>
             <section className='paragraph'>
                 <p>{props.postHeaderText}</p>
             </section>
