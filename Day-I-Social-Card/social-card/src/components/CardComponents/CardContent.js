@@ -1,14 +1,13 @@
 import React from 'react';
 import './Card.css';
-import CardBanner from './CardBanner';
+
 
 const CardContent = () => {
 	return (
-		<div>
-            <CardBanner />
+		<div className="card-content">
 			<h1>Get started with React</h1>
 			<p>React makes it paniless to create interactive UIs. Design simple views for each state in your application.</p>
-            <p>reactjs.org</p>
+            <a href="react.org">react.org</a>
 		</div>
 	)
 };

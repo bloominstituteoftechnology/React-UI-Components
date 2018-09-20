@@ -5,7 +5,7 @@ import CardContainer from './components/CardComponents/CardContainer';
 
 const App = () => {
   return (
-    <div>
+    <div className="app">
       <HeaderContainer />
       <CardContainer />
       {/* <h3>Welcome to React Social Card!</h3>
