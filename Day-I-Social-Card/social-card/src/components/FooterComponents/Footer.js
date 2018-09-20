@@ -1,31 +1,35 @@
-import React from 'react'
-import "./Footer.css"
+import React from 'react';
+import "./Footer.css";
 
 
 
 
 class Footer extends React.Component {
     constructor (props) {
-        super(props)
+        super(props);
 
-        // Can use two counter to countSync independently of each-other
+        // Can use two counter to count independently of eachother
         this.state = {
-            countSync:0,
-            countHeart:0
+            count:0,
+            count2:0,
+            email: 'lambda@lambdaschool.org'
         }
 
     }
-    // We are incrementing each time someone clicks a the re-sync icon
+    // We are incrementing each time somone clicks a the re-sync icon
      increment = () => {
       this.setState({
-          countHeart: this.state.countHeart + 1
+          count2: this.state.count2 + 1
       })
     }
-    // We are incrementing each time someone clicks a heart icon
+    // We are incrementing each time somone clicks a heart icon
      countUp = () => {
         this.setState({
-            countSync: this.state.countSync + 1
-        })
+            count: this.state.count + 1
+        });
+    }
+    emailTo = () => {
+        window.location.href = `mailto:${this.state.email}`;
     }
    
     
@@ -36,15 +40,16 @@ class Footer extends React.Component {
                 <i className="far fa-comment"/>
                     {" "}
                     <div className= "sync" onClick={this.countUp}>
-                        <i class="fas fa-sync" /><p>{this.state.countSync}</p></div>
+                        <i class="fas fa-sync" /><p>{this.state.count}</p></div>
             
                     {" "}
                     <div className="heart" onClick={this.increment}>
-                        <i class="fas fa-heart" /><p>{this.state.countHeart}</p></div>
+                        <i class="fas fa-heart" /><p>{this.state.count2}</p></div>
                     {" "}
-                    <i class="far fa-envelope"/>
+                    <a href={`mailto:${this.state.email}`}> 
+                    <i class="far fa-envelope" /></a>
               </div>
-            )
+            );
     } 
 }
 
@@ -70,4 +75,4 @@ class Footer extends React.Component {
 // );
 // };
 
-export default Footer
+export default Footer;
