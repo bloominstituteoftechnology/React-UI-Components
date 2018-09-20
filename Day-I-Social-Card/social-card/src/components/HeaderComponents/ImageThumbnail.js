@@ -3,7 +3,7 @@ import './Header.css';
 
 const ImageThumbnail = () => {
     return (
-        <img src="https://ibin.co/3whrpKSBbZ81.png" />
+        <img className="card-header-thumbnail" src="https://ibin.co/3whrpKSBbZ81.png" />
     );
 };
 

@@ -59,6 +59,12 @@ html, body {
 }
 
 body {
-  margin: 20 0;
+  margin: 20px 0;
   background: #dddddd;
+}
+
+#root {
+	display: flex;
+    flex-direction: column;
+    align-items: center;
 }
