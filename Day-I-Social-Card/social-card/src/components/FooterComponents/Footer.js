@@ -1,8 +1,12 @@
 import React from 'react';
 import "./Footer.css";
 
-function strobe(){
+function strobeColor(){
     return 'rgb(' + (Math.floor(Math.random() * 256)) + ',' + (Math.floor(Math.random() * 256)) + ',' + (Math.floor(Math.random() * 256)) + ')';
+}
+
+function strobeOpacity(){
+    return (Math.random());
 }
 
 const Footer = () => {
@@ -14,9 +18,12 @@ const Footer = () => {
             }} />
             <img src="https://cdn4.iconfinder.com/data/icons/pyconic-icons-1-2/512/heart-outline-512.png" className="heart" alt="heart" onClick={ ()=>{
                 let element = document.querySelector(".footer .heart");
-                element.style.backgroundColor = strobe();
+                element.style.backgroundColor = strobeColor();
             }}/>
-            <img src="https://cdn4.iconfinder.com/data/icons/business-and-finance-vol-2/48/57-512.png" alt="message" />
+            <img src="https://cdn4.iconfinder.com/data/icons/business-and-finance-vol-2/48/57-512.png" className="message" alt="message" onClick={ ()=>{
+                let element = document.querySelector(".footer .message");
+                element.style.opacity = strobeOpacity();
+            }}/>
         </div>
     )
 };
