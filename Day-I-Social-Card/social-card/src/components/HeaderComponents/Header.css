@@ -5,7 +5,7 @@
     display: flex;
     align-items: center;
 }
-img{
+.header-container img{
     transform: scale(0.21, 0.21);
 }
 .header-title{
