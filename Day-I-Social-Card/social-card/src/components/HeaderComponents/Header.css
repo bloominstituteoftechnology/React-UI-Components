@@ -1,26 +1,28 @@
 /* All styles for your header Components live here */
 
-.HeaderContainer{
+ .Header-Container {
+    display: flex; 
+    margin: 10px; 
     width: 100%; 
-    display: flex; 
-    flex-wrap: wrap; 
 }
-
-.lambda-logo{
-    width: 50px; 
-    height: 50px;
+ .Text-Content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 20px; 
 }
-
-
-.header-title{
-    display: flex; 
-    width: 50%; 
-    justify-content: space-between; 
-    padding-left: 25px; 
+ .lambda-logo{
+   height: 35px; 
+   width: 35px; 
+   margin-top: 22px; 
 }
-
-.heading-content{
-    padding-left: 75px; 
-    transform: translate(0px, -10px); 
+ .Header-Title {
+   display: flex; 
+   flex-wrap: wrap; 
+   width: 70%; 
+    
 }
-
+ .Main-Text {
+   font-size: 14px;
+   width: 100%;
+} 

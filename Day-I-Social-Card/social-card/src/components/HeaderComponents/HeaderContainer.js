@@ -7,11 +7,13 @@ import HeaderContent from './HeaderContent.js';
 
  const HeaderContainer = (props) => {
     return (
-        <div class="HeaderContainer">
-            <ImageThumbnail/>
-            <HeaderTitle/>
-            <HeaderContent/>
+      <div class="Header-Container">
+        <ImageThumbnail />
+        <div class="Text-Content">
+          <HeaderTitle />
+          <HeaderContent />
         </div>
+      </div>
     );
-}
+ }
  export default HeaderContainer;
