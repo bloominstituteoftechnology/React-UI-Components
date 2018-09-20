@@ -10,7 +10,9 @@ function goToLink(url) {
 
 const CardContainer = (props) => {
     return (
-        <section className='card-container' onClick={goToLink}>
+        <section className='card-container' onClick={() => {
+            window.location.href = props.url
+        }}>
             <CardBanner {...props} />
             <CardContent {...props} />
         </section>
