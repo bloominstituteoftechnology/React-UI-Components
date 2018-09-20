@@ -1,14 +1,16 @@
 import React from 'react';
 import './Card.css';
-import { CardBanner } from './CardBanner';
-import { CardContent } from './CardContent';
+import CardBanner from './CardBanner';
+import CardContent from './CardContent';
 
-export const CardContainer = (props) => {
+const CardContainer = (props) => {
     return (
-      <div className="card-container">
-          <CardBanner />
-          <CardContent />
-      </div>
+        <div className="card-container">
+            <a href="https://reactjs.org">
+                <CardBanner />
+                <CardContent />
+            </a>
+        </div>
     )
   }
 

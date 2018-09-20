@@ -1,16 +1,17 @@
 import React from 'react';
 import './Header.css';
+import moment from 'moment';
 
-export const HeaderTitle = (props) => {
+const HeaderTitle = (props) => {
     let name = "Lambda School";
     let handle = "LambdaSchool";
-    let date = "· 19 Sep";
+    let date = moment().format("D MMM YY");;
     
     return (
       <div className="title-container">
-        <h3>{name}</h3>
-        <p className="user-handle"><span>@</span>{handle}</p>
-        <p>{date}</p>
+        <h4>{name}</h4>
+        <a href="https://twitter.com/lambdaschool?lang=en"><p className="user-handle"><span>@</span>{handle}</p></a>
+        <p>⋅ {date}</p>
       </div>
     )
   }
