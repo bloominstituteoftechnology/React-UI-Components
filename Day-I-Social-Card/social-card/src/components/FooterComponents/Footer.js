@@ -8,23 +8,23 @@ class Footer extends React.Component {
     constructor (props) {
         super(props);
 
-        // Can use two counter to count independently of eachother
+        // Can use two counter to countSync independently of each-other
         this.state = {
-            count:0,
-            count2:0
+            countSync:0,
+            countHeart:0
         }
 
     }
-    // We are incrementing each time somone clicks a the re-sync icon
+    // We are incrementing each time someone clicks a the re-sync icon
      increment = () => {
       this.setState({
-          count2: this.state.count2 + 1
+          countHeart: this.state.countHeart + 1
       })
     }
-    // We are incrementing each time somone clicks a heart icon
+    // We are incrementing each time someone clicks a heart icon
      countUp = () => {
         this.setState({
-            count: this.state.count + 1
+            countSync: this.state.countSync + 1
         });
     }
    
@@ -36,11 +36,11 @@ class Footer extends React.Component {
                 <i className="far fa-comment"/>
                     {" "}
                     <div className= "sync" onClick={this.countUp}>
-                        <i class="fas fa-sync" /><p>{this.state.count}</p></div>
+                        <i class="fas fa-sync" /><p>{this.state.countSync}</p></div>
             
                     {" "}
                     <div className="heart" onClick={this.increment}>
-                        <i class="fas fa-heart" /><p>{this.state.count2}</p></div>
+                        <i class="fas fa-heart" /><p>{this.state.countHeart}</p></div>
                     {" "}
                     <i class="far fa-envelope"/>
               </div>
