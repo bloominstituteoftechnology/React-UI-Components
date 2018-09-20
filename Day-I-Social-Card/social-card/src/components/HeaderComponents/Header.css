@@ -1,1 +1,50 @@
 /* All styles for your header Components live here */
+
+/* ImageThumbnail CSS */
+.logo-img-border{
+    border: 1px solid yellowgreen;
+    height: 60px;
+}
+.logo-img-border .logo-img{
+    border-radius: 50%;
+    height: 60px;
+}
+
+/* HeaderTitle CSS */
+.header-title-info{
+    border: 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 25px;
+    width: 350px;
+}
+.header-title-info h1{
+    font-size: 20px;
+}
+.header-title-info span{
+    color: grey;
+}
+
+/*HeaderContent CSS */
+.text{
+    border: 1px solid;
+    height: 60px;
+    line-height: 20px;
+}
+
+/* HeaderContainer CSS */
+.header-container{
+    margin: auto;
+    display: flex;
+    border: 1px solid red;
+    /* width: 80%; */
+}
+.header-container .header-text-content{
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid blue;
+}
+
