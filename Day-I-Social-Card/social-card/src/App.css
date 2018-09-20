@@ -1,4 +1,23 @@
-/* 
-  Write your styles/CSS for App.js here and import into the component that you need 
+/*
+  Write your styles/CSS for App.js here and import into the component that you need
   IF you'd like to attempt to use less you'll have to research how to do this with Create React App
 */
+
+.App {
+    /* center the social-card */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 447px;
+
+
+}
+
+.App h1 {
+  font-size: 14px;
+}
+.App p {
+  font-size: 11px;
+}

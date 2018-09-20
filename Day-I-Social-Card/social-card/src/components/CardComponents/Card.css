@@ -1,1 +1,9 @@
 /* All styles for your Card Components live here */
+.card-container {
+    padding-left: 53px;
+}
+
+.banner-container img {
+    width: 100%;
+    height: 200px;
+}
