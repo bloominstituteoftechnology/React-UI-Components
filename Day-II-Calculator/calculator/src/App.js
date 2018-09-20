@@ -28,13 +28,13 @@ class App extends Component {
           </div>
           <div className="row">
               <ActionButton handleClear={() => this.setState({input: ''})}>Clear</ActionButton>
-              <NumberButton>&#247;</NumberButton>
+              <NumberButton handleClick={this.addToInput}>/</NumberButton>
           </div>
           <div className="row">
             <NumberButton handleClick={this.addToInput}>7</NumberButton>
             <NumberButton handleClick={this.addToInput}>8</NumberButton>
             <NumberButton handleClick={this.addToInput}>9</NumberButton>
-            <NumberButton handleClick={this.addToInput}>&times;</NumberButton>
+            <NumberButton handleClick={this.addToInput}>*</NumberButton>
           </div>
           <div className="row">
             <NumberButton handleClick={this.addToInput}>4</NumberButton>
@@ -54,6 +54,7 @@ class App extends Component {
           </div>
         </div>
       </div>
+      // handleClear={() => this.setState({input: this.state.input + 0})}
     );
   }
 };
