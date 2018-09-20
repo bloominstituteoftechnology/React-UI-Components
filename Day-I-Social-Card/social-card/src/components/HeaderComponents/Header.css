@@ -3,7 +3,7 @@
     border: 3px solid goldenrod;
     display: flex;
     /* flex-wrap: wrap-reverse; */
-    height: 150px;
+    height: 110px;
 }
 
 
@@ -22,7 +22,7 @@
     justify-content: space-around;
     order: 1; 
     width: 100%;
-    height: 120px;
+    height: 100px;
     margin-right: 20px;
     /* flex-grow: 0; */
 }
