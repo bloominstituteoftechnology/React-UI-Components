@@ -1,1 +1,29 @@
 /* All styles for your Card Components live here */
+
+/* CardContainer CSS */
+.card-container{
+    border: 1px solid purple;
+    padding-left: 62px;
+}
+
+/* CardBanner(img) CSS */
+.banner-img-border .banner-img{
+    width: 97%;
+}
+
+/* CardContent CSS */
+.card-text{
+    line-height: 15px;
+    margin-bottom: 10px;
+}
+.card-text h3{
+    font-size: 16px;
+}
+.card-text span{
+    color: grey;
+}
+.card-text p{
+    line-height: 20px;
+    width: 95%;
+}
+

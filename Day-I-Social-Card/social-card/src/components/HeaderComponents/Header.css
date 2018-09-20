@@ -3,16 +3,16 @@
 /* ImageThumbnail CSS */
 .logo-img-border{
     border: 1px solid yellowgreen;
-    height: 60px;
+    height: 70px;
 }
 .logo-img-border .logo-img{
     border-radius: 50%;
     height: 60px;
+    margin-top: 5px;
 }
 
 /* HeaderTitle CSS */
 .header-title-info{
-    border: 1px solid;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -27,10 +27,9 @@
 }
 
 /*HeaderContent CSS */
-.text{
-    border: 1px solid;
-    height: 60px;
+.header-text{
     line-height: 20px;
+    width: 95%;
 }
 
 /* HeaderContainer CSS */
@@ -38,7 +37,6 @@
     margin: auto;
     display: flex;
     border: 1px solid red;
-    /* width: 80%; */
 }
 .header-container .header-text-content{
     border: 1px solid;
