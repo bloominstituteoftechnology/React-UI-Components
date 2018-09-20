@@ -1,1 +1,30 @@
 /* All styles for your header Components live here */
+
+.header-container {
+    width: 100%;
+    display: flex;
+}
+
+.social-icon {
+    width: 20%;
+}
+
+.social-icon img {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.header-content {
+    width: 100%;
+    padding: 1%;
+}
+
+.header-title {
+    display: flex;
+    margin-bottom: -20px;
+}
+
+.handle-date {
+    margin: 4px 0 0 2%;
+    color: gray;
+}

@@ -1,0 +1,58 @@
+.footer-container {
+    width: 100%;
+    display: flex;
+}
+
+.footer-comment {
+    width: 20%;
+    margin-left: 16%;
+    cursor: pointer;
+}
+
+.footer-retweet {
+    width: 20%;
+    cursor: pointer;
+    display: flex;
+}
+
+.footer-like {
+    width: 20%;
+    cursor: pointer;
+    display: flex;
+}
+
+.footer-like p {
+    margin-top: 25px;
+}
+
+.footer-retweet p {
+    margin-top: 25px;
+}
+
+.footer-share {
+    width: 20%;
+    margin-right: 20%;
+    cursor: pointer;
+}
+
+.footer-comment img {
+    margin-top: 13px;
+    width: 35%;
+}
+
+.footer-retweet img {
+    width: 50%;
+}
+
+.footer-like img {
+    width: 50%;
+}
+
+.footer-share img {
+    width: 50%;
+}
+
+.comment-input-section {
+    width: 100%;
+    border: 1px solid black;
+}

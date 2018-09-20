@@ -1,5 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+}
+
+/* Remove inner border on Chrome and 
+   Firefox
+*/
+input[type="button"]{
+  outline:none;
+}
+input[type="button"]::-moz-focus-inner {
+  border: 0;
+}
+
+#root {
+  max-width: 455px;
+  margin: 0 auto;
+}
+
+.calculator-container {
+  width: 100%;
+}
+
+.button-container {
+  width: 100%;
+  display: flex;
+  /* flex-wrap: wrap; */
+}
+
+.column-left {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.column-right {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+
+.inner-full-row {
+  width: 100%;
 }
