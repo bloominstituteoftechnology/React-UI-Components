@@ -7,26 +7,27 @@ import "./Footer.css";
 class Footer extends React.Component {
     constructor (props) {
         super(props);
+
+        // Can use two counter to count independently of eachother
         this.state = {
             count:0,
             count2:0
         }
 
     }
+    // We are incrementing each time somone clicks a the re-sync icon
      increment = () => {
       this.setState({
           count2: this.state.count2 + 1
       })
     }
+    // We are incrementing each time somone clicks a heart icon
      countUp = () => {
         this.setState({
             count: this.state.count + 1
         });
     }
-    // increment(e) {
-    //     this.setState({
-    //         count: this.state.count + 1
-    //     });
+   
     
     render () {
         return (
@@ -49,7 +50,7 @@ class Footer extends React.Component {
 
 
 
-
+// Testing the look of the items here
 // const Footer = () => {
 
 // return (
