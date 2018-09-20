@@ -1,1 +1,33 @@
 /* All styles for your Card Components live here */
+
+.cardContainer {
+    width: 80%;
+    margin-left: 15%;
+    margin-right: 5%;
+}
+
+.cardBanner {
+    display: block;
+    width: 100%;
+}
+
+.cardContent {
+    padding-left: 2%;
+    border: 1px solid grey;
+}
+
+.cardContent h1 {
+    font-size: 1.0rem;
+    margin: 1% 0;
+}
+
+.cardContent p {
+    font-size: 1.0rem;
+    margin: 1% 0;
+}
+
+.cardContent div {
+    font-size: 1.0rem;
+    color: grey;
+    margin: 1% 0;
+}

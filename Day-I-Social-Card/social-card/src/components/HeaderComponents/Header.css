@@ -1,1 +1,46 @@
 /* All styles for your header Components live here */
+
+.headerContainer {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    /* border: 1px solid black; */
+    margin-top: 2px;
+}
+
+
+.titleContentContainer {
+    width: 100%;
+    padding: 5px;
+}
+
+.headerTitle {
+    display: flex;
+    width: 100%;
+    /* border: 3px solid green; */
+    /* align-items: center; */
+}
+
+.headerTitle h1 {
+    font-size: 1rem;
+    padding: 2px;
+}
+
+.headerTitle p {
+    font-size: 0.8rem;
+    color: grey;
+    padding: 2px;
+}
+
+.imageContainer {
+    width: 17%;
+    margin-top: 15px;
+    /* border: 5px solid brown; */
+    
+}
+
+.thumbnail {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+}
