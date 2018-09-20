@@ -1,1 +1,39 @@
 /* All styles for your header Components live here */
+.HeaderContainer {
+border: 2px solid blue;
+display: flex;
+flex-direction: column;
+max-width: 100%;
+width: 100%;
+
+}
+
+.HeaderTitle {
+font-size: 18px; 
+color: green;
+max-width: 100%;
+width:100%;
+border: 2px solid red;
+
+}
+
+.ImageThumbnail {
+   /*  backgroundImage: 'url(' + https://ibin.co/3whrpKSBbZ81.png + ')'; */
+    background-image: url('https://ibin.co/3whrpKSBbZ81.png' );
+    width: 30px;
+    height: 30px;
+    left: 0px;
+    top: 0px;
+    
+
+}
+
+.School {
+    font-size: 40px;
+}
+
+.HeaderContent {
+color: blue;
+
+
+}
