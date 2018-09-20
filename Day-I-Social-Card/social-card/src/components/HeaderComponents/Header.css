@@ -1,5 +1,46 @@
 /* All styles for your header Components live here */
+
+.headWrap {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.title {
+  width: 100%;
+  height: 110px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.headText {
+  display: inline-flex;
+  justify-content: left;
+  margin: 5px 0;
+}
+
+.headText h1 {
+  font-size: 18px ;
+  margin:  0 10px 0 0;
+}
+
+.lambdaHeader {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: gray;
+}
+
+.lambdaHeader  li {
+  margin: 0 20px;
+}
+p {
+  padding-right: 50px;
+  margin: 0;
+}
+
 .lambThumb {
-  border: solid 2px black;
-  height:  100px;
+  height:  70px;
+  width: 70px;
+  margin: 5px;
 }

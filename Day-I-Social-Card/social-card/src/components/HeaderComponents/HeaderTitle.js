@@ -4,8 +4,12 @@ import HeaderContent from './HeaderContent';
 
 const HeaderTitle = () => {
   return (
-    <div>
-      <h1>Lambda School</h1><span>@LambdaSchool <li>26 jan</li></span>
+    <div className="title">
+      <div className="headText">
+        <h1>Lambda School</h1>
+        <span className="lambdaHeader">@LambdaSchool
+          <li>26 jan</li>
+        </span></div>
       <HeaderContent/>
   </div>
 

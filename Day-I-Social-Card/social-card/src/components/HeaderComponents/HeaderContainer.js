@@ -6,11 +6,10 @@ import HeaderTitle from "./HeaderTitle";
 const HeaderContainer = () => {
   return (
     
-    <header>
+    <header className="headWrap">
       <HeaderTitle/>
       <ImageThumbnail/>  
       </header>
-
   );
 }
 

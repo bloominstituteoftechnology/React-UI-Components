@@ -1,11 +1,13 @@
 import React from 'react';
 import './Card.css';
+import CardBanner from './CardBanner';
+
 
 const cardContainer = () => {
   return (
-    <div>
-      
-      </div>
+    <article className="cardWrap">
+      <CardBanner/>
+      </article>
   );
 }
 
