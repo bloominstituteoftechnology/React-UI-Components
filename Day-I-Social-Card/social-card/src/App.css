@@ -86,4 +86,12 @@ h1{
   font-size: .8rem;
   color: dodgerblue;
   text-decoration: none;
+
+}
+.reactLink:hover{
+   color: darkslateblue;
+ }
+
+.footer-container{
+  border: 1px solid deeppink;
 }
