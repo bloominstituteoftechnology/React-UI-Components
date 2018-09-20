@@ -2,10 +2,20 @@
   Write your styles/CSS for App.js here and import into the component that you need 
   IF you'd like to attempt to use less you'll have to research how to do this with Create React App
 */
+.app-container {
+  width: 50%;
+  margin: 0 auto;
+  border: 2px solid #bdc3c7;
+}
+
 .title {
   font-weight: bold;
 }
 
+.paragraph {
+  width: 80%;
+}
+
 .tag {
-  font-color: grey;
+  color: #bdc3c7;
 }

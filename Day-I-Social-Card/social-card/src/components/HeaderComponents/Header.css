@@ -3,20 +3,26 @@
     display: flex;
 }
 
+.header-container {
+    display: flex;
+    flex-direction: column;
+}
+
 .thumbnail-container {
     display: flex;
     justify-content: center;
+    width: 30%;
 }
 
 .thumbnail {
     margin-top: 10px;
     height: 60%;
-    width: 60%;
+    width: 70%;
 }
 
 .title-container {
     display: flex;
     justify-content: space-between;
-    width: 25%;
+    width: 50%;
 }
 
