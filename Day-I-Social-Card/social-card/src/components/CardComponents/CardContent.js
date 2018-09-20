@@ -1,6 +1,7 @@
 import React from 'react';
 import './Card.css';
 import CardBanner from './CardBanner';
+import Footer from '../FooterComponents/Footer';
 
 const CardContent = () =>{
   return(
@@ -13,8 +14,9 @@ const CardContent = () =>{
         </p>
         <h4>reactjs.org</h4>
       </div>
+      <Footer/>
     </div>
-  )
+  );
 }
 
 export default CardContent;
