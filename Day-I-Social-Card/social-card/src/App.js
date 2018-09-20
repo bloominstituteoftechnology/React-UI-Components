@@ -1,15 +1,31 @@
 import React from 'react';
 import './App.css';
 import HeaderContainer from './components/HeaderComponents/HeaderContainer' ;
+import CardContainer from './components/CardComponents/CardContainer';
+import ImageThumbnail from './components/HeaderComponents/ImageThumbnail';
 
 
 const App = () => {
   return (
-    <HeaderContainer/>
+    <div>
+    <div>
+        <span><ImageThumbnail/></span>
+    <span><HeaderContainer/></span>
+    </div>
+  
+      
+      
+       
+    <CardContainer/>
+    
+    </div>
+   
     
   );
 };
-{/* <div>
+
+
+/* <div>
       <h3>Welcome to React Social Card!</h3>
       <p>
         Begin by exploring the `components` directory. You'll notice we have a
@@ -23,5 +39,5 @@ const App = () => {
           inside of this file in order to make them work. 
         </strong>
       </p>
-    </div> */}
+    </div> */
 export default App;
