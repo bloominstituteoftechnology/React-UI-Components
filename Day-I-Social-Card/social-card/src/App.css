@@ -10,11 +10,13 @@
 .HeaderTextStuff {
   display: flex;
   flex-direction: row;
+  padding: 10px;
 }
 
 .HeaderTextStuff h1 { 
   font-weight: bold;
   size: 24px;
+  margin-right: 10px;
 }
 
 .HeaderTextStuff p { 
@@ -27,11 +29,11 @@
 
 img {
   height: 300px;
-  width: 500px;
+  width: 550px;
 }
 
 .tweetText { 
-  max-width: 500px;
+  max-width: 550px;
 }
 
 .tweetLinkLink { 
@@ -39,11 +41,19 @@ color: grey;
 }
 
 .ImageThumbnail img { 
-  border: 1px solid yellow;
+
   width: 100px;
   height: 100px;
+
 }
 
-.HeaderContainer img {
-  border: 1px solid red;
+.HeaderContainer {
+
+  width: 600px;
+}
+
+
+.stupidFlexyFlanders {
+  display: flex;
+  flex-direction: row;
 }
