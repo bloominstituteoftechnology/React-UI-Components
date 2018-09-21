@@ -1,0 +1,22 @@
+.app{
+    max-width: 400px;
+    width: 100%;
+    margin: 20px auto;
+    background:white ;
+    color: #252525;
+    display: flex;
+    flex-direction: column;
+    
+    
+    
+}
+
+.actionbtnBox{
+    display: flex;
+    flex-direction: column;
+}
+
+.number-action-btnBox{
+    display: flex;
+    
+}

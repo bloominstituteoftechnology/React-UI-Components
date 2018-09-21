@@ -1,0 +1,18 @@
+.actionbtn, .numberbtn,.numberbtn__clear,.numberbtn__0{
+    width: 100px;
+    height: 100px;
+    font-size: 3rem;
+    color: #222;
+    font-weight: 100;
+    background: #fff;
+    border:none;
+    box-shadow: 0 2px 8px 0 rgba(0,0,0,0.60);
+}
+
+.actionbtn{
+    background: #a0001e;
+}
+
+.numberbtn__clear,.numberbtn__0{
+    width: 300px;
+}
