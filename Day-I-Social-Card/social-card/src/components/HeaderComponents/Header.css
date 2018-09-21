@@ -1,4 +1,38 @@
 /* All styles for your header Components live here */
 .header-container {
-  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  /* border: 1px solid black; */
+}
+
+.header-container > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.header-title {
+  margin: 0;
+  font-weight: bold;
+  font-size: 1.2rem;
+  /* border: 1px solid black; */
+}
+
+.header-title > span {
+  font-size: 0.9rem;
+  color: gray;
+  font-weight: normal;
+}
+
+.header-image-thumbnail {
+  width: 35px;
+  height: 37.59px;
+  /* border: 1px solid black; */
+  margin: 0 8px 0 8px;
+}
+
+.header-content {
+  font-size: 1rem;
+  margin: 4px 0 0 0;
+  line-height: 20px;
 }
