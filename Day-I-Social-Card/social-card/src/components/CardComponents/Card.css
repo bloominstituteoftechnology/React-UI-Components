@@ -19,3 +19,9 @@
     padding-left: 10px;
     
 }
+
+a {
+    align-self: flex-end;
+    text-decoration: none;
+    color: black;
+}
