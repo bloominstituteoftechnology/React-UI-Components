@@ -7,7 +7,7 @@ import './Card.css';
 const CardContent = () => {
     return (
        <div className="CardContent">
-       <p> Test this</p>
+       reactjs.org
        </div>
    )
 };

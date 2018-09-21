@@ -3,7 +3,7 @@ import './Card.css';
 
 const CardText = () => {
     return (
-        <div className="CardText"><CardText/></div>
+        <div className="CardText">React makes it possible to... Test this, this is where all the text content goes</div>
     )
 };
 

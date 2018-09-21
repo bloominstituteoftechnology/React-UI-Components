@@ -1,7 +1,7 @@
 /* All styles for your header Components live here */
 
 .HeaderContainer {
-    border: 2px solid blue;
+   
     display: flex;
     flex-direction: row;
     max-width: 590px;
@@ -16,58 +16,77 @@
     justify-items: flex-start;
     align-items: flex-start;
     font-size: 16px;
-    color: green;
+    
     max-width: 440px;
     width: 440px;
-    height: 40px;
-    border: 2px solid red;
+    height: 30px;
+   
 }
 
 .ImageThumbnail {
     display: block;
     /*     position: absolute; */
-    background-image: url('https://ibin.co/3whrpKSBbZ81.png');
-    max-width: 150px;
-    width: 150px;
-    height: 150px;
+    background-image: url("1.png");
+    max-width: 68px;
+    width: 68px;
+    height: 73px;
     left: 0px;
     top: 0px;
-    border: 2px solid orange;
+   
 }
 
 .School {
     font-size: 18px;
-    display: flex;
-    height: 20px;
-    border: 3px solid black;
-    align-self: flex-start;
+   /*  display: flex; */
+    height: 30px;
+    padding-right: 16px;
+    
+    /* align-self: baseline; */
 }
 
-p {
+.Para {
     display: flex;
-    height: 20px;
+    height: 20px; 
+   
 }
 
 .HeaderContent {
-    color: blue;
-    border: 2px solid yellow;
-    height: 260px;
+   /*  color: blue; */
+   
+    height: 50px;
     width: 440px;
 }
 
-.SubHeader {
-    border: 2px solid darkgray;
-    display: flex;
-    flex-direction: row;
-    height: 150px;
-    max-width: 150px;
-    width: 150px;
-}
 
 .HeaderRight {
-    border: 2px solid purple;
+    
+    display: flex;
+    flex-direction: row;
+    width: 440px;
+    height: 100px;
+}
+
+.HContainer {
+display: flex;
+flex-direction: row;
+
+
+
+}
+
+.HRight {
+    
     display: flex;
     flex-direction: column;
     width: 440px;
-    height: 150px;
+    height: 100px;
+}
+
+.HTitle {
+   
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    width: 100%;
+    height: 40px;
 }

@@ -26,7 +26,7 @@ import Footer from './components/FooterComponents/Footer';
 const App = () => {
 	return (
     <div>
-		<HeaderContainer />{/* <CardContainer /> */} <Footer /></div>
+		<HeaderContainer /><CardContainer /><Footer /></div>
 	);
 };
 

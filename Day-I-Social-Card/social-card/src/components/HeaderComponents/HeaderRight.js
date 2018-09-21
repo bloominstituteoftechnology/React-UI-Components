@@ -5,7 +5,7 @@ import HeaderTitle from './HeaderTitle';
 
 const HeaderRight = () => {
     return (
-        <div>{<HeaderContent/>}<HeaderTitle/></div>
+        <div className="HRight"><HeaderTitle/><HeaderContent/></div>
         
     )
 };

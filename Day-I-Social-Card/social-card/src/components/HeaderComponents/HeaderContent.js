@@ -5,7 +5,7 @@ import './Header.css';
 const HeaderContent = () => {
     return (
        <div className="HeaderContent">
-       Test this
+       Test this. This is where all the header text content goes.
        </div>
    )
 };

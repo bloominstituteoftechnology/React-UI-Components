@@ -8,7 +8,7 @@ import HeaderRight from './HeaderRight';
 
 const HeaderContainer = () => {
 	return (
-		<div>
+		<div className="HContainer">
 			<SubHeader/> <HeaderRight/>
 				</div>
 		
