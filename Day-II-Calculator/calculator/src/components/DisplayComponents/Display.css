@@ -1,0 +1,17 @@
+*{
+  box-sizing: border-box;
+}
+
+.blackDisplay{
+height:100px;
+width: 380px;
+border: 1px solid gray;
+font-size: 54px;
+display:flex;
+align-items: center;
+justify-content: flex-end;
+padding-right:15px;
+background-color:black;
+color:white;
+font-weight: 200;
+}

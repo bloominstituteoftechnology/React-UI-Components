@@ -7,8 +7,9 @@ const NumberButton = props => {
   )};
 
 const DisplayNumberButton = (props) => {
-	return (
-		<div>
+	return <div>
+			<NumberButton buttonStyle="clear" text="clear" />
+			<div />
 			<div>
 				<NumberButton buttonStyle="numberButton" text="7" />
 				<NumberButton buttonStyle="numberButton" text="8" />
@@ -24,8 +25,8 @@ const DisplayNumberButton = (props) => {
 				<NumberButton buttonStyle="numberButton" text="2" />
 				<NumberButton buttonStyle="numberButton" text="1" />
 			</div>
-		</div>
-	)
+    <div><NumberButton buttonStyle="zero" text="0" /></div>
+		</div>;
 };
 
 export default DisplayNumberButton;
