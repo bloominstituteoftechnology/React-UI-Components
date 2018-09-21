@@ -1,7 +1,6 @@
 /* All styles for your Card Components live here */
 
 .card-container {
-    border: 1px solid blue;
     display: flex;
     flex-wrap: wrap;
     margin-left: 80px;
