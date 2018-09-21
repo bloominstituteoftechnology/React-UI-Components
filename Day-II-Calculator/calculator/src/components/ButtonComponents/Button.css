@@ -6,23 +6,7 @@
     background-color: white;
 }
 
-.clear-text {
-    font-family: sans-serif;
-    font-size: 3rem;
-    font-weight: 300;
-}
-
-.number-text {
-    font-size: 3rem;
-    font-weight: 700;
-}
-
 .action-button {
-    width: 336px;
-    height: 92px;
-}
-
-.red-button {
     height: 92px;
     width: 112px;
     font-size: 4rem;
@@ -32,10 +16,21 @@
     padding-bottom: 2%;
 }
 
+.three-quarter {
+    width: 336px;
+    height: 92px;
+}
+
 .number-button:hover {
     cursor: pointer;
 }
 
-.red-button:hover {
+.action-button:hover {
     cursor: pointer;
+}
+
+.clear-text {
+    font-family: sans-serif;
+    font-size: 3rem;
+    font-weight: 300;
 }
