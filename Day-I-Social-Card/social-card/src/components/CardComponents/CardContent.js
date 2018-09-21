@@ -3,7 +3,7 @@ import './Card.css';
 
 const CardContent = () =>{
     return (
-        <div>
+        <div className="card-content">
             <h1>Getting started with React</h1>
             <p>React makes it painless to creat interactive UIs. Design  simple views for each state in your application.</p>
             <a href="http://reactjs.org"> reactJS.org</a>

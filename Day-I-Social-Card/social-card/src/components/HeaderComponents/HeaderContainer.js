@@ -7,11 +7,10 @@ import HeaderTitle from './HeaderTitle';
 
 const HeaderContainer = ()=>{
     return(
-        <div className='headImg'>
+        <div className='header-container'>
             <HeadImg />
-            <div className="headContent">
+            <div className="head-content">
                 <HeaderTitle />
-                <HeaderContent />
             </div>
         </div>
 
