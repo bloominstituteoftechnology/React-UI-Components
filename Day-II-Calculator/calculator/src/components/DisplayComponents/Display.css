@@ -1,4 +1,11 @@
 .display {
+  /* fibonaci code */
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto; height: 20%;
+  
+  /* my code */
   box-sizing: border-box;
   height: "80%";
   width: "60%";

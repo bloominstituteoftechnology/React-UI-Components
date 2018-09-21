@@ -16,7 +16,7 @@ const NumberButton = () => {
       <div>7</div>
       <div>8</div>
       <div>9</div>
-      <div classname="btn-zero">0</div>
+      <div classname="btn-0">0</div>
     </div>
   </div>
   )
