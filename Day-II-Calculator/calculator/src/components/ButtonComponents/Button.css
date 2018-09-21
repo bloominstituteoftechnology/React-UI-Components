@@ -1,0 +1,53 @@
+.mainContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.numbersSection{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.numButton{
+    width:113px;
+    border-top:1px solid #979797;
+    border-left:1px solid #979797;
+    padding: 16px 0px;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.bigButton{
+    width: 341px;
+    border-top: 1px solid #979797;
+    border-left: 1px solid #979797;
+    font-size: 60px;
+}
+
+.mathButton{
+    width: 113px;
+    border-top: 1px solid #979797;
+    border-left: 1px solid #979797;
+    border-right: 1px solid #979797;
+    padding: 16px 0px;
+    font-size: 60px;
+    font-weight: bold;
+    background-color: #A0001E;
+    color: white;
+}
+
+.mathButton:last-child{
+    border-bottom: 1px solid #979797;
+}
+
+.zero{
+    border-bottom: 1px solid #979797;
+    padding: 16px 0px;
+    font-weight: bold;
+}
+
+.clear{
+    padding: 25px 0px;
+    font-size: 40px;
+}

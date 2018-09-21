@@ -14,27 +14,27 @@ const App = () => {
       <div className='mainContent'>
         <div className='leftContent'>
           <div className='bigButton'>
-            <ActionButton action={'Clear'} buttonStyle={'clear'}/>
+            <ActionButton action={'clear'} buttonStyle={'clear'}/>
           </div>
           <div className='numbersSection'>
-            <NumberButton displaySymbol ={1} buttonStyle={'numButton'} />
-            <NumberButton displaySymbol ={2} buttonStyle={'numButton'}/>
-            <NumberButton displaySymbol ={3} buttonStyle={'numButton'}/>
+            <NumberButton displaySymbol ={7} buttonStyle={'numButton'} />
+            <NumberButton displaySymbol ={8} buttonStyle={'numButton'}/>
+            <NumberButton displaySymbol ={9} buttonStyle={'numButton'}/>
             <NumberButton displaySymbol ={4} buttonStyle={'numButton'}/>
             <NumberButton displaySymbol ={5} buttonStyle={'numButton'}/>
             <NumberButton displaySymbol ={6} buttonStyle={'numButton'}/>
-            <NumberButton displaySymbol ={7} buttonStyle={'numButton'}/>
-            <NumberButton displaySymbol ={8} buttonStyle={'numButton'}/>
-            <NumberButton displaySymbol ={9} buttonStyle={'numButton'}/>
+            <NumberButton displaySymbol ={1} buttonStyle={'numButton'}/>
+            <NumberButton displaySymbol ={2} buttonStyle={'numButton'}/>
+            <NumberButton displaySymbol ={3} buttonStyle={'numButton'}/>
           </div>
           <div className='bigButton'>
-          <ActionButton action={0} buttonStyle={'numButton'}/>
+          <ActionButton action={0} buttonStyle={'zero'}/>
           </div>
         </div>
 
         <div className='rightContent'>
-        <NumberButton displaySymbol ={'division symbol'} buttonStyle={'mathButton'}/>
-        <NumberButton displaySymbol ={'X'} buttonStyle={'mathButton'}/>
+        <NumberButton displaySymbol ={'÷'} buttonStyle={'mathButton'}/>
+        <NumberButton displaySymbol ={'x'} buttonStyle={'mathButton'}/>
         <NumberButton displaySymbol ={'-'} buttonStyle={'mathButton'}/>
         <NumberButton displaySymbol ={'+'} buttonStyle={'mathButton'}/>
         <NumberButton displaySymbol ={'='} buttonStyle={'mathButton'}/>
