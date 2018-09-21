@@ -8,8 +8,6 @@ const Display = (props) => {
     return (
     
       <div className="display"><p>0</p></div>
-
-
  
     )
 }
