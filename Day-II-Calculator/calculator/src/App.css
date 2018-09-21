@@ -1,0 +1,6 @@
+.calculator {
+    border: 1px solid black;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+}

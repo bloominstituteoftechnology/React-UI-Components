@@ -1,0 +1,31 @@
+.number-buttons {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.number {
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    height: 102px;
+    margin: 0;
+}
+
+.action-buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+.action {
+    border: 1px solid black;
+    color: white;
+    background-color: firebrick;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    height: 102px;
+    margin: 0;
+}
