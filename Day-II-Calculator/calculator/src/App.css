@@ -1,0 +1,11 @@
+.calculator-wrapper {
+    min-height: 600px;
+    width: 400px;
+    margin: 0 auto;
+    border: 10px solid grey;
+    font-family: sans-serif;
+}
+
+.button-container {
+    display: flex;
+}

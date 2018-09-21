@@ -1,0 +1,41 @@
+.number-button {
+    height: 92px;
+    width: 112px;
+    font-size: 3rem;
+    font-weight: 700;
+    background-color: white;
+}
+
+.clear-text {
+    font-family: sans-serif;
+    font-size: 3rem;
+    font-weight: 300;
+}
+
+.number-text {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.action-button {
+    width: 336px;
+    height: 92px;
+}
+
+.red-button {
+    height: 92px;
+    width: 112px;
+    font-size: 4rem;
+    font-weight: 300;
+    color: white;
+    background: darkred;
+    padding-bottom: 2%;
+}
+
+.number-button:hover {
+    cursor: pointer;
+}
+
+.red-button:hover {
+    cursor: pointer;
+}
