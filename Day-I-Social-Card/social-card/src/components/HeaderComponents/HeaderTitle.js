@@ -6,7 +6,7 @@ const HeaderTitle = () => {
         <div className="headertitle">
             <div className="headerparagraph1">
                 <h1> Lambda School </h1>
-                <p>@LambdaSchool - 26 jan</p>
+                <p>@LambdaSchool • 26 jan</p>
             </div>
             <div className="headerparagraph2">
                 <p>Let's learn React by building simple interfaces with components.
