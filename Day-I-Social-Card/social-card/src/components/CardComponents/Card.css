@@ -1,1 +1,20 @@
 /* All styles for your Card Components live here */
+.card-container {
+    width: 100%;
+}
+ .card-banner {
+    width: 90%;
+    margin-left: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ .card-banner #banner {
+    width: 100%;
+}
+.card-content {
+    width: 90%;
+    margin-left: 10%;
+}
+ .card-p {
+    margin-bottom: 5px;
