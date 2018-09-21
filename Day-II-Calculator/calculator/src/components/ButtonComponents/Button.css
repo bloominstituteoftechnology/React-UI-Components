@@ -17,3 +17,14 @@
     font-size: 30px;
     font-weight: bold;
 }
+
+.act-digit, .act-clear {
+    width: 300px;
+    height: 100px;
+    background-color: white;
+    color: black;
+    font-size: 25px;
+}
+.act-digit {
+    font-weight: bold;
+}
