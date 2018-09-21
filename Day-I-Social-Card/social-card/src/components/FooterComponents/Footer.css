@@ -1,0 +1,12 @@
+.ft-main {
+    display: flex;
+    margin-left: 71px;
+    margin-top: 20px;
+}
+
+.ft-main a {
+    color: #6a7981;
+    margin-right: 62px;
+    height: 18px;
+    width: 18px;
+}

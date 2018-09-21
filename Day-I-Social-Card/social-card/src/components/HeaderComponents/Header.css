@@ -1,10 +1,4 @@
 /* All styles for your header Components live here */
-#root {
-    background-color: white;
-    max-width: 590px;
-    margin: 0 auto;
-}
-
 .hc-main {
     display: flex;
     height: auto;
@@ -50,57 +44,4 @@
     line-height: 1.13rem;
     margin-right: 1px;
     margin-bottom: 13px;
-}
-
-.cc-main {
-    display: flex;
-    flex-direction: column;
-    margin-left: 68px;
-    margin-right: 16px;
-    border: 1px solid #e6edf0;
-    border-radius: 5px 5px 5px 5px ;
-}
-
-.cc-main img {
-    width: 100%;
-    height: 252px;
-    border-radius: 5px 5px 0px 0px;
-}
-
-.cc-main a {
-    text-decoration: none;
-}
-
-.cc-main-card-content h4 {
-    margin-top: 9px;
-    margin-bottom: 0px;
-    margin-left: 14px;
-    font-size: 0.87rem;
-    color: black;
-}
-
-.cc-main-card-content p {
-    margin-top: 6px;
-    margin-bottom: 0px;
-    margin-left: 14px;
-    font-size: 0.88rem;
-    color: black;
-    line-height: 1.1rem;
-}
-
-.cc-main-card-content .cc-main-link {
-    margin-bottom: 11px;
-}
-
-.ft-main {
-    display: flex;
-    margin-left: 71px;
-    margin-top: 20px;
-}
-
-.ft-main a {
-    color: #6a7981;
-    margin-right: 62px;
-    height: 18px;
-    width: 18px;
 }

@@ -3,83 +3,9 @@ import './App.css';
 import './components/HeaderComponents/Header.css';
 import './components/CardComponents/Card.css';
 import './components/FooterComponents/Footer.css';
-
-const HeaderContainer = () => {
-  return (<div className="hc-main">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous"></link>
-    <ImageThumbnail />
-    <HeaderContainerLeft />
-  </div>);
-};
-
-const ImageThumbnail = () => {
-  return(<div>
-    <img className="hc-image" src="https://ibin.co/3whrpKSBbZ81.png" alt="Lambda School Logo"></img>
-  </div>);
-};
-
-const HeaderTitle = () => {
-  return (<div className="ht-main">
-    <h4 className="ht-main-name">Lambda School</h4>
-    <p className="ht-username">@LambdaSchool</p>
-    <p>&#183; 26 jan</p>
-    </div>
-    );
-};
-
-const HeaderContent = () => {
-  return (<div className="hc-main-content">
-    <p>Let's learn React by building simple interfaces with components. Don't try to overthink it, just keep it simple and have fun. Once you feel comfortable using components you are well on your way to mastering React!</p>
-  </div>);
-};
-
-const HeaderContainerLeft = () => {
-  return (<div>
-    <HeaderTitle />
-    <HeaderContent />
-  </div>);
-};
-
-const CardContainer = () => {
-  return (<div className="cc-main">
-    <a href="https://www.reactjs.org">
-      <CardBanner />
-      <CardContent />
-    </a>
-  </div>);
-};
-
-const CardBanner = () => {
-  return (<div>
-    <img src="https://ibin.co/3wnC6SgIOJud.png" alt ="React Logo"></img>
-  </div>);
-};
-
-const CardContent = () => {
-  return (<div className="cc-main-card-content">
-    <h4>Get started with React</h4>
-    <p>React makes it painless to create interactive UIs. Design simple views for each state in your application.</p>
-    <p className="cc-main-link">reactjs.org</p>
-  </div>
-  );
-};
-
-const Footer = () => {
-  return (<div className="ft-main">
-    <a href="#">
-      <i class="far fa-comment"></i>
-    </a>
-    <a href="#">
-      <i class="fas fa-sync"></i>
-    </a>
-    <a href="#">
-      <i class="far fa-heart"></i>
-    </a>
-    <a href="#">
-      <i class="far fa-envelope"></i>
-    </a>
-  </div>);
-};
+import HeaderContainer from './components/HeaderComponents/HeaderContainer.js';
+import CardContainer from './components/CardComponents/CardContainer.js';
+import Footer from './components/FooterComponents/Footer.js';
 
 const App = () => {
   return (
