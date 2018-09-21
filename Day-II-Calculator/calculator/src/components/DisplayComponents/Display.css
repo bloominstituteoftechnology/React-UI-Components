@@ -1,0 +1,13 @@
+.diplay{
+    box-sizing: border-box;
+    height: 120px;
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 5rem;
+    color: whitesmoke;
+    background: #222;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.50);
+}
