@@ -4,6 +4,7 @@ a {
 }
 .cardContainer{
     border: 1px solid lightgray;
+    overflow: hidden;
     border-radius: 5px;
     width: 500px;
     margin: 10px 0px;
