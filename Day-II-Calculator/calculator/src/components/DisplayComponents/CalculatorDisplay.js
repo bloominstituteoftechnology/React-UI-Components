@@ -27,10 +27,6 @@ class CalculatorDisplay extends Component {
     let total = this.state.total;
     // set the numberOne to hold number before math sign click
     let numberOne = this.state.numberOne;
-    // set up numberTwo
-    let numberTwo = this.state.numberTwo;
-    // set equal sign to state.eqaulSign
-    let equalSign = this.state.equalSign;
     // set signPressed to state.signPressed
     let signPressed = this.state.signPressed;
     // set mathsign to hold a boolean
@@ -41,7 +37,7 @@ class CalculatorDisplay extends Component {
     // if clear revert to original state
     if (elementClasses.contains("clear")) {
       // return the clear window function
-      return this.clearWindow(total, numberOne, numberTwo, mathSign, equalSign, signPressed);
+      return this.clearWindow();
     }
     // if number add number to CalculationWindow
     else if (elementClasses.contains("number")) {
@@ -62,18 +58,22 @@ class CalculatorDisplay extends Component {
     total.length >= 9 ? alert('Max of Nine Digits') : this.setState({total, numberOne, mathSign})
   }
   // create a function that sets the state to zero on clear click
-  clearWindow = (total, numberOne, numberTwo, mathSign, equalSign, signPressed) => {
-    total = 0;
-    numberOne = 0;
-    numberTwo = 0;
-    mathSign = false;
-    equalSign = false;
-    signPressed = '';
+  clearWindow = () => {
+    let total = 0;
+    let numberOne = 0;
+    let numberTwo = 0;
+    let mathSign = false;
+    let equalSign = false;
+    let signPressed = '';
     this.setState({
       total, numberOne, numberTwo, mathSign, equalSign, signPressed
     })
   }
   checkMathSign = (element, keyPressed, mathSign, numberOne, total, signPressed) => {
+    if (mathSign === true && keyPressed !== '=') {
+      alert('Only one math function can be done at a time, Please start over');
+      return this.clearWindow();
+    }
     // change state.mathSign to 'true'
     mathSign = true;
     // check if keyPressed is '='
@@ -112,7 +112,7 @@ class CalculatorDisplay extends Component {
     this.setState({numberTwo})
   }
 
-  doMath = (numberOne, numberTwo, signPressed, total) => {    
+  doMath = (numberOne, numberTwo, signPressed, total) => {
     console.log(numberOne, numberTwo, signPressed, total);
   }
   render() {
