@@ -2,10 +2,10 @@ import React from 'react';
 import './Header.css';
 
 const HeaderTitle = props => (
-    <div className="header-title-div">
-        <strong className="header-title">{props.title}</strong>
-        <span className="header-handle">@{props.handle}</span>
-        <span className="header-timestamp">{props.timestamp}</span>"
+    <div className="header-title">
+        <strong className="header-title-username">{props.user}</strong>
+        <span className="header-title-handle">@{props.handle}</span>
+        <span className="header-title-timestamp">{props.timestamp}</span>"
     </div>
 );
 

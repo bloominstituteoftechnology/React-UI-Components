@@ -3,9 +3,9 @@ import './Card.css';
 
 const CardContent = props => (
     <div className="card-content">
-        <h6 className="card-title">{props.title}</h6>
-        <p className="card-body">{props.body}</p>
-        <p className="card-site">{props.site}</p>
+        <h6 className="card-content-title">{props.title}</h6>
+        <p className="card-content-body">{props.body}</p>
+        <p className="card-content-link">{props.site}</p>
     </div>
 );
 
