@@ -5,7 +5,7 @@ import App from './App';
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
-let displayText = '';
+let displayText = '0';
 let displayMath = '';
 let display = document.querySelector('.display-screen');
 display.innerText = displayText;
@@ -15,9 +15,15 @@ class NumberButton {
     this.element = element;
     this.text = this.element.innerText;
     this.click = this.element.addEventListener('click', () => {
-      displayText += this.text;
-      displayMath += this.text;
-      display.innerText = displayText;
+      if (displayText === '0') {
+        displayText = this.text;
+        displayMath = this.text;
+        display.innerText = displayText;
+      } else {
+        displayText += this.text;
+        displayMath += this.text;
+        display.innerText = displayText;
+      }
       console.log(displayText);
     });
   }
@@ -31,7 +37,7 @@ class SymbolButton {
     this.click = this.element.addEventListener('click', () => {
       if (this.text === '=') {
         const doMath = () => {
-          return eval(displayMath);
+          return eval(displayMath).toFixed(3);
         };
         display.innerText = doMath();
         displayText = display.innerText;
@@ -49,6 +55,11 @@ class SymbolButton {
 class ClearButton {
   constructor(element) {
     this.element = element;
+    this.click = this.element.addEventListener('click', () => {
+      displayText = '0';
+      displayMath = '';
+      display.innerText = displayText;
+    });
   }
 }
 
