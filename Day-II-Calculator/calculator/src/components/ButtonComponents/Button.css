@@ -17,6 +17,8 @@
 
 .function {
     background-color: rgb(173, 0, 1);
+    border: 1px solid rgb(137, 137, 137);
+    border-left: none;
     color: white;
     height: 20%;
     width: 100%;
@@ -25,6 +27,10 @@
     align-items: center;
     font-size: 56px;
     font-weight: lighter;
+}
+
+.function:hover {
+    background-color: rgb(211, 31, 31);
 }
 
 
@@ -42,12 +48,18 @@
     justify-content: center;
     align-items: center;
     font-size: 30px;
+    border: 1px solid rgb(137, 137, 137);
+    background-color: white;
+}
+
+.action:hover {
+    background-color: whitesmoke;
 }
 
 .number-box {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row-reverse;
+    flex-direction: row;
     height: 60%;
     width: 100%;
 }
@@ -58,9 +70,36 @@
     font-weight: bold;
     justify-content: center;
     align-items: center;
+    background-color: white;
+}
+
+.left {
+    border-right: 1px solid rgb(137, 137, 137)
+}
+
+.center {
+    border-right: 1px solid rgb(137, 137, 137)
+}
+
+.right {
+    border-right: 1px solid rgb(137, 137, 137);
+}
+
+.number:hover {
+    background-color: whitesmoke;
 }
 
 .clear {
     font-weight: lighter;
     letter-spacing: 2px;
+    border-left: none;
+}
+
+.zero {
+    border-left: none;
+    border-bottom: none;
+}
+
+button:focus {
+    outline: 0;
 }

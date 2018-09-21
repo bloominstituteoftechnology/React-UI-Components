@@ -1,6 +1,7 @@
 
 .display {
     background-color: rgb(34, 34, 34);
+    border-bottom: none;
     color: white;
     width: 100%;
     height: 100px;
