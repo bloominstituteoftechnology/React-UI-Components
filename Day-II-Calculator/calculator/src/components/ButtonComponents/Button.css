@@ -1,0 +1,37 @@
+.white{
+    color: #222222;
+    background-color: white;
+}
+
+.red{
+    color: white;
+    background-color: #a0001e;
+}
+
+.big{
+    width: 75%;
+}
+
+.small{
+    width: 25%;
+}
+
+.button, .signs{
+    height: 94px;
+    cursor: pointer;
+    outline: none;
+    text-decoration: none;
+    border: 1px solid #979797;
+}
+
+.button{
+    font-size: 4.8rem;
+    
+}
+
+.signs{
+    margin: 0 auto;
+    font-size: 9.6rem;
+    font-weight: 100;
+    line-height: 88px;
+}
