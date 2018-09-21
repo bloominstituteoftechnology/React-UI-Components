@@ -6,3 +6,5 @@ const CalculatorDisplay = (props) => {
         <div className={props.displayStyle}>{props.text}</div>
     )
 }
+
+export default CalculatorDisplay;
