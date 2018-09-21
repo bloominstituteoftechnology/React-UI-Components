@@ -3,7 +3,7 @@ import './Button.css';
 
 const ActionButton = () => {
   // prop.displayNumber === 1
-  return <div> I am an action button.</div>
+  return <div className="btn-actions"> I am an action button.</div>
 }
 
 export default ActionButton;

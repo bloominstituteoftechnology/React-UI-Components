@@ -3,6 +3,6 @@ import './Button.css';
 
 const NumberButton = () => {
   // prop.displayNumber === 1
-  return <div> I am a number button.</div>
+  return <div classname="btn-numbers"> I am a number button.</div>
 }
 export default NumberButton;
