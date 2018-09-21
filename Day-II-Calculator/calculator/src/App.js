@@ -26,7 +26,7 @@ const App = () => {
         </div>
 
         <div className="row">
-          <ActionButton action="clear" />
+          <ActionButton action="clear" buttonStyle="action-button" />
           <NumberButton number="÷" buttonStyle="symbol" />
         </div>
 
@@ -52,7 +52,7 @@ const App = () => {
         </div>
 
         <div className="row">
-          <ActionButton action="0" />
+          <ActionButton action="0" buttonStyle="action-button-number number" />
           <NumberButton number="=" buttonStyle="symbol" />
         </div>
       </div>

@@ -7,6 +7,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
 
 .symbol {
@@ -21,14 +22,29 @@
   justify-content: center;
   align-items: center;
   background-color: rgb(161, 0, 30);
+  cursor: pointer;
 }
 
 .action-button {
   border: 1px solid rgb(151, 151, 151);
   font-size: 40px;
+  font-weight: 100;
   padding: 0 5px;
   min-width: 330px;
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
+}
+
+.action-button-number {
+  border: 1px solid rgb(151, 151, 151);
+  font-size: 40px;
+  font-weight: 400;
+  padding: 0 5px;
+  min-width: 330px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
 }
