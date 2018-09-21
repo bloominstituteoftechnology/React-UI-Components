@@ -1,24 +1,36 @@
 import React from 'react';
 import './App.css';
-import NumberButton from './components/ButtonComponents/NumberButton'
+import NumberButton from './components/ButtonComponents/NumberButton';
+import ActionButton from './components/ButtonComponents/ActionButton';
 
 const App = () => {
   return (
     <div>
       <div>
-        <NumberButton displayStyle="Button" text="7" />
-        <NumberButton displayStyle="Button" text="8" />
-        <NumberButton displayStyle="Button" text="9" />
+        <ActionButton text="clear" />
+        <NumberButton text = "÷" />
       </div>
       <div>
-        <NumberButton displayStyle="Button" text="4" />
-        <NumberButton displayStyle="Button" text="5" />
-        <NumberButton displayStyle="Button" text="6" />
+        <NumberButton text="7" />
+        <NumberButton text="8" />
+        <NumberButton text="9" />
+        <NumberButton text="x" />
       </div>
       <div>
-        <NumberButton displayStyle="Button" text="1" />
-        <NumberButton displayStyle="Button" text="2" />
-        <NumberButton displayStyle="Button" text="3" />
+        <NumberButton text="4" />
+        <NumberButton text="5" />
+        <NumberButton text="6" />
+        <NumberButton text="-" />
+      </div>
+      <div>
+        <NumberButton text="1" />
+        <NumberButton text="2" />
+        <NumberButton text="3" />
+        <NumberButton text="+" />
+      </div>
+      <div>
+        <ActionButton text="0" />
+        <NumberButton text="=" />
       </div>
     </div>
   );
