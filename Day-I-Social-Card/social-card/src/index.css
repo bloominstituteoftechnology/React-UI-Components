@@ -12,6 +12,6 @@ body {
 #root {
 	 max-width: 650px;
 	 width: 100%;
-	 background: lightgray;
+	 background: #red;
 	 margin: 50px auto;
 }
