@@ -7,7 +7,5 @@
     width: 600px;
     height: 450px;
     border: 1px solid black;
-    /* margins just to make card sit in the middle of page */
-    margin-left: 35%;
-    margin-top: 200px;
+    margin: 0 auto;
 }
