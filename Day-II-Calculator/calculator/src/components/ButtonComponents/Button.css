@@ -17,14 +17,14 @@
 
 .function {
     background-color: rgb(173, 0, 1);
-    /* border: 1px solid rgb(144, 144, 144); */
     color: white;
     height: 20%;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 50px;
+    font-size: 56px;
+    font-weight: lighter;
 }
 
 
@@ -33,8 +33,6 @@
     display: flex;
     flex-direction: column;
     width: 75%;
-    background-color: white;
-    /* border: 1px solid rgb(144, 144, 144); */
 }
 
 .action {
@@ -54,11 +52,15 @@
     width: 100%;
 }
 .number {
-    width: 33%;
+    width: 33.33%;
     display: flex;
-    /* border-bottom: 1px solid rgb(144, 144, 144); */
     font-size: 30px;
     font-weight: bold;
     justify-content: center;
     align-items: center;
+}
+
+.clear {
+    font-weight: lighter;
+    letter-spacing: 2px;
 }
