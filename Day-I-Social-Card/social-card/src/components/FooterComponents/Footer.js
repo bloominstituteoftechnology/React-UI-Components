@@ -2,7 +2,7 @@ import React from 'react';
 import './Footer.css';
 
 
-export const Footer = (props) => {
+const Footer = (props) => {
 
     let replyClickHandler = () => alert("Reply!");
     let retweetClickHandler = () => alert("Retweet!");

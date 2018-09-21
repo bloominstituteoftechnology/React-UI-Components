@@ -21,4 +21,5 @@
 .footer-container img {
     width: 25px;
     margin-right: 5px;
+    cursor: pointer;
 }
