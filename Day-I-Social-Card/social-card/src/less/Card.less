@@ -1,0 +1,34 @@
+.cardContainer {
+    display: flex;
+    flex-direction: column;
+    // border: 1px solid purple;
+    padding-left: 12%;
+    padding-right: 2%;
+    .cardBox {
+        border: 0.5px solid silver;
+        border-radius: 5px;
+        .imageContainer {
+            height: fit-content;
+            .bannerImg {
+                width: 100%;
+                border-radius: 5px;
+            }
+        }
+        .cardContent {
+            display: flex;
+            flex-direction: column;
+            padding: 10px;
+            h2 {
+                line-height: 0.8;
+                margin: 0;
+            }
+            p {
+                margin: 5px 0; // line-height: 1;
+            }
+            .link {
+                font-size: 1.4rem;
+                color: gray;
+            }
+        }
+    }
+}
