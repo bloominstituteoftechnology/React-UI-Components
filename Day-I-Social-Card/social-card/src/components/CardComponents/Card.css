@@ -12,6 +12,10 @@
 }
 
 /* CardContent CSS */
+.click-to-reactjs{
+    text-decoration: none;
+    color: black;
+}
 .card-text{
     line-height: 15px;
     margin-bottom: 10px;
