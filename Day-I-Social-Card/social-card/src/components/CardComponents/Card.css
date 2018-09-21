@@ -1,1 +1,12 @@
 /* All styles for your Card Components live here */
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end; 
+  width: 100%;
+}
+
+.card-banner {
+  width: 87%;
+  height: auto;
+}
