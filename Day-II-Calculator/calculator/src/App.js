@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import NumberButton from './components/ButtonComponents/NumberButton';
 import ActionButton from './components/ButtonComponents/ActionButton';
+import CalculatorDisplay from './components/DisplayComponents/CalculatorDisplay';
 
 const App = () => {
   return (
@@ -18,27 +19,42 @@ const App = () => {
           inside of this file in order to make them work.
         </strong>
       </p>
-      <div className="row">
-        <NumberButton number="1" />
-        <NumberButton number="2" />
-        <NumberButton number="3" />
-        <ActionButton number="-" />
-      </div>
 
-      <div className="row">
-        <NumberButton number="4" />
-        <NumberButton number="5" />
-        <NumberButton number="6" />
-      </div>
+      <div id="calc">
+        <div className="row">
+          <CalculatorDisplay />
+        </div>
 
-      <div className="row">
-        <NumberButton number="7" />
-        <NumberButton number="8" />
-        <NumberButton number="9" />
-      </div>
+        <div className="row">
+          <ActionButton action="Clear" />
+          <NumberButton number="÷" buttonStyle="symbol" />
+        </div>
 
-      <div className="row">
-        <NumberButton number="0" />
+        <div className="row">
+          <NumberButton number="1" buttonStyle="number" />
+          <NumberButton number="2" buttonStyle="number" />
+          <NumberButton number="3" buttonStyle="number" />
+          <NumberButton number="" buttonStyle="symbol" />
+        </div>
+
+        <div className="row">
+          <NumberButton number="4" buttonStyle="number" />
+          <NumberButton number="5" buttonStyle="number" />
+          <NumberButton number="6" buttonStyle="number" />
+          <NumberButton number="–" buttonStyle="symbol" />
+        </div>
+
+        <div className="row">
+          <NumberButton number="7" buttonStyle="number" />
+          <NumberButton number="8" buttonStyle="number" />
+          <NumberButton number="9" buttonStyle="number" />
+          <NumberButton number="+" buttonStyle="symbol" />
+        </div>
+
+        <div className="row">
+          <ActionButton action="0" />
+          <NumberButton number="" buttonStyle="symbol" />
+        </div>
       </div>
     </div>
   );
