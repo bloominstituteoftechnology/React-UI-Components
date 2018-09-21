@@ -1,1 +1,26 @@
 /* All styles for your Card Components live here */
+.cardContainer{
+    max-width: 400px;
+    margin-left: 92px;
+}
+
+.cardImg{
+    margin:0px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.cardContent{
+    border: 1px solid lightgray;
+    padding: 10px;
+    margin-top: -3px;
+}
+
+.cardtext{
+    color: black;
+    font-size: 14px;
+    line-height: 16px;
+}

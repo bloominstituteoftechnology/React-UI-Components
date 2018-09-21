@@ -3,8 +3,8 @@ import './Card.css';
 
 const CardBanner = () =>{
     return(
-        <div className='cardImg'>
-        This will be an image;    
+        <div>
+            <img  className='cardImg' src='https://ibin.co/3wnC6SgIOJud.png' alt='Blue molecule drawing on black background' />   
         </div>
     )
 };
