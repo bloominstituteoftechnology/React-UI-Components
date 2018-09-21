@@ -1,5 +1,5 @@
 .number {
-  border: 1px solid rgb(148, 148, 148);
+  border: 1px solid rgb(151, 151, 151);
   font-size: 40px;
   padding: 0 5px;
   width: 110px;
@@ -10,7 +10,7 @@
 }
 
 .symbol {
-  border: 1px solid rgb(148, 148, 148);
+  border: 1px solid rgb(151, 151, 151);
   font-size: 56px;
   font-weight: 100;
   color: snow;
@@ -24,7 +24,7 @@
 }
 
 .action-button {
-  border: 1px solid rgb(148, 148, 148);
+  border: 1px solid rgb(151, 151, 151);
   font-size: 40px;
   padding: 0 5px;
   width: 330px;
