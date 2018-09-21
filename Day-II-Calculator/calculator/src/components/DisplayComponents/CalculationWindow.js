@@ -1,10 +1,10 @@
 import React from 'react';
 import './Display.css';
 
-const CalculationWindow = () =>  {
+const CalculationWindow = (props) =>  {
   return (
     <section className='calculation-window'>
-        0
+        {props.text}
     </section>
   );
 }
