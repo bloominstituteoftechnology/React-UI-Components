@@ -11,7 +11,9 @@
 
 .symbol {
   border: 1px solid rgb(148, 148, 148);
-  font-size: 40px;
+  font-size: 56px;
+  font-weight: 100;
+  color: snow;
   padding: 0 5px;
   width: 120px;
   height: 95px;

@@ -2,7 +2,7 @@ import React from 'react';
 import './Display.css';
 
 const CalculatorDisplay = props => {
-  return <div className="display-screen">{props.action}</div>;
+  return <div className="display-screen">0</div>;
 };
 
 export default CalculatorDisplay;

@@ -26,15 +26,15 @@ const App = () => {
         </div>
 
         <div className="row">
-          <ActionButton action="Clear" />
+          <ActionButton action="clear" />
           <NumberButton number="÷" buttonStyle="symbol" />
         </div>
 
         <div className="row">
-          <NumberButton number="1" buttonStyle="number" />
-          <NumberButton number="2" buttonStyle="number" />
-          <NumberButton number="3" buttonStyle="number" />
-          <NumberButton number="" buttonStyle="symbol" />
+          <NumberButton number="7" buttonStyle="number" />
+          <NumberButton number="8" buttonStyle="number" />
+          <NumberButton number="9" buttonStyle="number" />
+          <NumberButton number="x" buttonStyle="symbol" />
         </div>
 
         <div className="row">
@@ -45,15 +45,15 @@ const App = () => {
         </div>
 
         <div className="row">
-          <NumberButton number="7" buttonStyle="number" />
-          <NumberButton number="8" buttonStyle="number" />
-          <NumberButton number="9" buttonStyle="number" />
+          <NumberButton number="1" buttonStyle="number" />
+          <NumberButton number="2" buttonStyle="number" />
+          <NumberButton number="3" buttonStyle="number" />
           <NumberButton number="+" buttonStyle="symbol" />
         </div>
 
         <div className="row">
           <ActionButton action="0" />
-          <NumberButton number="" buttonStyle="symbol" />
+          <NumberButton number="=" buttonStyle="symbol" />
         </div>
       </div>
     </div>
