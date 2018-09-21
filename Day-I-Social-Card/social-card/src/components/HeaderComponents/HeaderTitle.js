@@ -8,7 +8,7 @@ const HeaderTitle =()=>{
             <div className="header-title">
                  <h1> Lambda School &nbsp;</h1>
                 <h4>@lambdaSchool &nbsp;</h4>
-                <h4> -26 Jan</h4>
+                <h4> 26 Jan</h4>
             </div>
             <div className="header-content">
                 <HeaderContent />

@@ -2,6 +2,10 @@
 .banner{
     width:100%
 }
+.card-container{
+    text-decoration:none;
+    color:black;
+}
 .bannerLogo{
     width: 88%;
     margin-left: 12%;
@@ -17,6 +21,14 @@
     
 }
 .card-content h1{
-    font-size:1.4rem;
+    font-size:1.6rem;
     padding-top: 10px;
+}
+.card-content p{
+    font-size: 1.4rem;
+}
+.card-content a{
+    text-decoration: none;
+    color: rgb(150, 150, 150);
+    font-size: 1.2rem;
 }

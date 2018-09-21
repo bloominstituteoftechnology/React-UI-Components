@@ -5,10 +5,10 @@ import CardBanner from './CardBanner'
 
 const CardContainer = () =>{
     return(
-        <div className ="card-container">
+        <a href="https://reactjs.org" className ="card-container">
         <CardBanner />
         <CardContent />
-        </div>
+        </a>
     )
 }
 export default CardContainer;
