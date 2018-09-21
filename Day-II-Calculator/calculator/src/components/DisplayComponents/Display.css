@@ -1,11 +1,11 @@
 .input-button {
- background-color: #222222;
- color: #FFFFFF;
- flex: 1;
- padding: 20px 25px;
- display: flex;
- justify-content: flex-end;
- align-items: center;
- font-size: 50px;
- outline: solid #979797;
+  background-color: #222222;
+  color: #FFFFFF;
+  flex: 1;
+  padding: 20px 25px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 50px;
+  outline: solid #979797;
 }

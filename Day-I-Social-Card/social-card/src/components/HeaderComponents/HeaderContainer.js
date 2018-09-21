@@ -4,14 +4,12 @@ import HeaderTitle from './HeaderTitle.js';
 import HeaderContent from './HeaderContent.js';
 import ImageThumbnail from './ImageThumbnail.js';
 
-const HeaderContainer = props => (
-  <header className="header-container header-margin">
-      <ImageThumbnail />
-    <div className="header-container__content">
-      <HeaderTitle />
-      <HeaderContent />
-   </div>
-  </header>
-)
+const HeaderContainer = props => (<header className="header-container header-margin">
+  <ImageThumbnail/>
+  <div className="header-container__content">
+    <HeaderTitle/>
+    <HeaderContent/>
+  </div>
+</header>)
 
 export default HeaderContainer

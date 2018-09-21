@@ -1,8 +1,9 @@
 /* All styles for your header Components live here */
 .header-container {
   display: flex;
-  max-width: 60rem;
+  max-width: 100%;
 }
+
 .header-container__logo {
   height: 5rem;
 }
@@ -14,17 +15,23 @@
 .small-padding-right {
   padding-right: 1.5rem;
 }
+
 .header-container__title {
-  font-weight:lighter;
+  font-weight: lighter;
   color: #95a5a6;
 }
+
 .header-container__span {}
+
 .header-container__h2 {
   color: #000;
   font-weight: bold;
 }
+
 .header-container__text-content {
   font-size: 1.5rem;
+  line-height: 2rem;
+  width: 90%;
 }
 
 .p-margin-small {
