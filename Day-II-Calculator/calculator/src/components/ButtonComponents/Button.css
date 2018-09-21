@@ -1,0 +1,19 @@
+/* Number buttons: */
+.digit {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: 1px solid gray;
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.symbol {
+    width: 100px;
+    height: 100px;
+    background-color: darkred;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
