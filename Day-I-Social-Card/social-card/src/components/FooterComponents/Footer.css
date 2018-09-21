@@ -1,0 +1,31 @@
+.footer {
+    display: flex;
+    justify-content: space-around;
+    width: 55%;
+    height: 5vh;
+    margin-left: 16%;
+    margin-top: 10px;
+
+}
+
+.bubble {
+    transform: scaleX(-1);
+}
+
+.icon {
+    color: rgb(111, 130, 146);
+    width: 20px;
+    height: auto;
+}
+
+.footer-numbers p {
+    font-size: 15px;
+    color: rgb(111, 130, 146);
+}
+
+.footer-numbers {
+    display: flex;
+    width: 12%;
+    align-items: center;
+    justify-content: space-between;
+}

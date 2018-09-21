@@ -1,0 +1,16 @@
+.watermelon{
+    width: 100%;
+    background: black;
+    color: white;
+    font-size: 72px;
+    height: 120px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border-bottom: 3px solid gray;
+
+}
+
+.watermelon p{
+    margin-right: 10px;
+}
