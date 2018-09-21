@@ -2,10 +2,14 @@ import React from 'react';
 import './App.css';
 import NumberButton from './components/ButtonComponents/NumberButton';
 import ActionButton from './components/ButtonComponents/ActionButton';
+import CalculatorDisplay from './components/DisplayComponents/CalculatorDisplay'
 
 const App = () => {
   return (
     <div className="container">
+      <div className="row row0">
+        <CalculatorDisplay text="0" />
+      </div>
       <div className="row row1">
         <ActionButton buttonStyle="button clear" text="clear" />
         <NumberButton buttonStyle="button operator divison" text = "÷" />
