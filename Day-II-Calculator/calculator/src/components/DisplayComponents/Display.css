@@ -1,0 +1,13 @@
+.row0 {
+    height: 126px;
+    border: 1px solid #969696;
+    background: #272727;
+    color: white;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.row0 p {
+    font-size: 4rem;
+    padding-right: 13px;
+}

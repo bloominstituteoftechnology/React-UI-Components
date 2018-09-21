@@ -6,3 +6,7 @@
     margin: 0 auto;
     border: 1px solid #969696;
 }
+
+.row {
+    display: flex;
+}
