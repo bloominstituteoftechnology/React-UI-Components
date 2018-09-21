@@ -6,12 +6,13 @@ import ImageThumbnail from './ImageThumbnail';
 
 const Head = () => {
     return (
-      <div>
+      <div className="top">
+           <ImageThumbnail />
           <HeadTitle />
           <HeaderContent />
-          <ImageThumbnail />
       </div>
     );
   };
 
   export default Head;
+  

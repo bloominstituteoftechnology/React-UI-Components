@@ -1,1 +1,7 @@
 /* All styles for your header Components live here */
+
+.top {
+    display: flex;
+    flex-direction: row;
+    width: 1000px;
+}
