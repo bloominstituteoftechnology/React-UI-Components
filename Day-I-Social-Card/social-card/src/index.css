@@ -2,4 +2,16 @@ body {
   margin: 0;
   padding: 0.4rem;
   font-family: sans-serif;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#root {
+	 max-width: 650px;
+	 width: 100%;
+	 background: lightgray;
+	 margin: 50px auto;
 }

@@ -1,1 +1,33 @@
 /* All styles for your header Components live here */
+
+.header-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.header-title {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.logo-image {
+	width: 250px;
+    height: 80px;
+    margin-top: -80px;
+    margin-right: 20px;
+    margin-left: 15px;
+    background: #000;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.logo {
+	width:45px;
+	height:50px;
+    margin-top: 3px;	    
+}
