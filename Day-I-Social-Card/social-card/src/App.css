@@ -1,9 +1,45 @@
 .headerContainer {
+  widows: 100%;
   border: 1px solid red;
   display: flex;
   flex-direction: row;
 }
 .headerContainer .logo {
-  width: 20px;
-  height: 20px;
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+}
+.headerContainer .textContainer {
+  display: flex;
+  flex-direction: column;
+}
+.headerContainer .textContainer .headerTitle {
+  display: flex;
+  align-items: center;
+}
+.headerContainer .textContainer .headerTitle h2 {
+  padding-right: 10px;
+  line-height: 0.8;
+}
+.headerContainer .textContainer .headerTitle .handle {
+  font-size: 1.3rem;
+  color: gray;
+}
+.headerContainer .textContainer .headerContent {
+  margin: 0;
+}
+.headerContainer .textContainer .headerContent p {
+  display: inline;
+}
+.appBody {
+  width: 500px;
+  height: 500px;
+  border: 1px solid navy;
+}
+.appBody h2 {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+.appBody p {
+  font-size: 1.4rem;
 }

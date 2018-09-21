@@ -1,5 +1,4 @@
 import React from 'react';
-import './Header.css';
 
 const ImageThumbnail = () => (
     <div className="logo-container">
