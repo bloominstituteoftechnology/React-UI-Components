@@ -24,3 +24,5 @@ const ActionButton = () => {
 };
 
 export default ActionButton;
+
+// prompt.function set to % + = etc.

@@ -36,3 +36,5 @@ const NumberButton = () => {
 };
 
 export default NumberButton;
+
+//prop.displayNumber and set to 1, 2, 3

@@ -5,7 +5,7 @@ import ButtonBox from './components/ButtonComponents/ButtonBox';
 
 const App = () => {
   return (
-    <div>
+    <div className="calculator">
       <CalculatorDisplay/>
       <ButtonBox/>
     </div>

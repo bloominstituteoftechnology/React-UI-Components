@@ -1,0 +1,17 @@
+
+.display {
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 14vh;
+    border: 1px solid lightgray;
+    margin-right: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+p {
+    font-size: 70px;
+    margin-right: 10px;
+}
