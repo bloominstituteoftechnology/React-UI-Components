@@ -3,7 +3,15 @@ import './Button.css';
 
 const ActionButton = () => {
   // prop.displayNumber === 1
-  return <div className="btn-actions"> I am an action button.</div>
+  return (
+    <div id="actionKeys">
+      <div className="btn-actions">÷</div>
+      <div className="btn-actions">X</div>
+      <div className="btn-actions">-</div>
+      <div className="btn-actions">+</div>
+      <div className="btn-actions">=</div>
+  </div>
+  )
 }
 
 export default ActionButton;

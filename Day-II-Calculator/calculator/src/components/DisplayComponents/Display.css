@@ -1,6 +1,19 @@
 .display {
-height: "10px";
-width: "40px";
-color: white;
-background: black;
+  box-sizing: border-box;
+  height: "80%";
+  width: "60%";
+  float: left;
+  color: white;
+  background: black;
+  font-size: 24pt;
 }
+
+/* box-sizing: border-box;
+height: "20%";
+width: "60%";
+float: left;
+color: grey;
+background: whitesmoke;
+border: solid;
+border-color: black;
+border-width: 2px; */
