@@ -1,10 +1,11 @@
 /* All styles for your Card Components live here */
 .cardContainer{
-    max-width: 400px;
-    margin-left: 92px;
+    max-width: 700px;
+    margin-left: 76px;
 }
 
 .cardImg{
+    width: 100%;
     margin:0px;
 }
 
