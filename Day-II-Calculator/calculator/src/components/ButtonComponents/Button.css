@@ -1,0 +1,30 @@
+.number {
+
+    width: 113px;
+    height: 100px;
+    font-size: 50px;
+    margin-left:0px;
+    background-color: white;
+    border: 1px solid lightgray;
+    cursor: pointer;
+}
+
+.action {
+    width: 339px;
+    height: 100px;
+    font-size: 50px;
+    letter-spacing: 8px;
+    background-color: white;
+    border: 1px solid lightgray;
+    cursor: pointer;
+}
+
+.math {
+    border-top: 1px solid darkred;
+    width: 121px;
+    height: 100px;
+    font-size: 51px;
+    background-color: darkred;
+    cursor: pointer;
+    color: white;
+}
