@@ -1,0 +1,40 @@
+.display {
+    height:100px;
+    width:480px;
+    border:1px solid #999999;
+    background-color:#222222;
+    color:#ffffff;
+    font-size:72px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.display span {
+    margin-right:15px;
+}
+
+.num {
+    height:100px;
+    width:120px;
+    background-color:#ffffff;
+    border:1px solid #999999;
+    font-size:50px;
+    font-weight:bold;
+}
+
+.symbol {
+    height:100px;
+    width:120px;
+    background-color:#a0001e;
+    color:#ffffff;
+    font-size:50px;
+}
+
+.action {
+    width:360px;
+    height:100px;
+    background-color:white;
+    border: 1px solid #999999;
+    font-size:50px;
+}

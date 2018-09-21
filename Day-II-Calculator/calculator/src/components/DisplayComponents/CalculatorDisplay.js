@@ -4,8 +4,8 @@ import './Display.css';
 
 const CalculatorDisplay = (props) => {
     return (
-        <div>
-            I am the Calculator display.
+        <div className={props.displayStyle}>
+           <span>{props.text}</span>
         </div>
     );
 };
