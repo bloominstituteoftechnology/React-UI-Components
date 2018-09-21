@@ -1,15 +1,26 @@
 import React from 'react';
 import './Button.css';
-import ActionButton from './ActionButton';
 import Keypad from './Keypad';
+import FunctionButton from './FunctionButton';
 
 const ButtonBox = () => {
     return (
         <div className="button-box">
         <Keypad/>
-        <ActionButton/>
+            <div className="function-box">
+            <FunctionButton buttonStyle="function" text="÷" />
+            <FunctionButton buttonStyle="function" text="×" />
+            <FunctionButton buttonStyle="function" text="−" />
+            <FunctionButton buttonStyle="function" text="+" />
+            <FunctionButton buttonStyle="function" text="=" />
+            </div>
         </div>
     )
 };
 
 export default ButtonBox;
+
+
+
+
+
