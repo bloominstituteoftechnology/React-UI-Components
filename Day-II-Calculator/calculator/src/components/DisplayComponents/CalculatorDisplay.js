@@ -19,10 +19,10 @@ class CalculatorDisplay extends Component {
     const keyPressed = element.target.innerHTML;
     // get all classes of current element
     const elementClasses = element.target.classList;
-    return this.compareKeys(keyPressed, elementClasses);
+    return this.compareKeys(element, keyPressed, elementClasses);
   }
 
-  compareKeys = (keyPressed, elementClasses) => {
+  compareKeys = (element, keyPressed, elementClasses) => {
     // set initial total value
     let total = this.state.total;
     // set the numberOne to hold number before math sign click
@@ -56,7 +56,7 @@ class CalculatorDisplay extends Component {
     }
     // all that is left is the class 'math-signs'
     else if (elementClasses.contains("math-signs")) {
-      return this.checkMathSign(keyPressed, mathSign, numberOne, total);
+      return this.checkMathSign(element, keyPressed, mathSign, numberOne, total, signPressed);
     }
     // check if total equals 10 digits
     total.length >= 9 ? alert('Max of Nine Digits') : this.setState({total, numberOne, mathSign})
@@ -73,34 +73,47 @@ class CalculatorDisplay extends Component {
       total, numberOne, numberTwo, mathSign, equalSign, signPressed
     })
   }
-  checkMathSign = (keyPressed, mathSign, numberOne, total) => {
+  checkMathSign = (element, keyPressed, mathSign, numberOne, total, signPressed) => {
     // change state.mathSign to 'true'
     mathSign = true;
     // check if keyPressed is '='
-    this.isKeyPressedEquals(total,keyPressed,numberOne,mathSign);
+    this.isKeyPressedEquals(total,keyPressed,numberOne,mathSign, signPressed);
     // check if state.numberOne is more than 0
     if (this.state.numberOne === 0 ) {
       // add the current total to numberOne
       numberOne = total;
-      total = 0;
     }
+
+    // set total to 0
+    total = 0;
+    // set the signPressed to keyPressed.id
+    signPressed = element.target.id;
+
     this.setState({
-      total, numberOne, mathSign
+      total, numberOne, mathSign, signPressed
     })
   }
 
-  isKeyPressedEquals = (total,keyPressed,numberOne,mathSign) => {
+  isKeyPressedEquals = (total,keyPressed,numberOne,mathSign, signPressed) => {
+    // set numberTwo
+    let numberTwo = this.state.numberTwo;
+
     // check if keyPressed is '='
     if (keyPressed === '=') {
       // check if numberOne has content and a math-sign has been clicked
       if (numberOne > 0 && mathSign === true) {
-        console.log(total, numberOne, mathSign);
-        return true;
+        numberTwo = total;
+        return this.doMath(numberOne, numberTwo, signPressed, total);
       }
       else {
         // return nothing if false;
         return }
     }
+    this.setState({numberTwo})
+  }
+
+  doMath = (numberOne, numberTwo, signPressed, total) => {    
+    console.log(numberOne, numberTwo, signPressed, total);
   }
   render() {
     return (
