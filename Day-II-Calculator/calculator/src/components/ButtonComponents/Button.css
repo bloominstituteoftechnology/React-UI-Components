@@ -1,0 +1,11 @@
+.number-button {
+  border: 1px solid black;
+  font-size: 56px;
+  padding: 0 5px;
+}
+
+.action-button {
+  border: 1px solid black;
+  font-size: 56px;
+  padding: 0 5px;
+}
