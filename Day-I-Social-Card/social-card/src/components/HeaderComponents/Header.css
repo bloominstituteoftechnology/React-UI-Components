@@ -7,7 +7,7 @@
 
 img{
     width: 100%;
-    padding: 5px;
+    padding: 20px;
 }
 
 .headerTitle{
@@ -19,17 +19,22 @@ img{
 h1{
     font-weight: bold;
     padding: 2px;
+    font-size: 16px;
 }
 
 p{
     color: lightgray;
     padding: 2px;
+    font-size: 12px;
 }
 
 .headerContent{
-    margin: 10px 5px;
+    margin: 20px 40px;
 }
 
 .headerText{
     color: black;
+    font-size: 14px;
+    margin-top: 10px;
+    line-height: 16px;
 }
