@@ -14,7 +14,7 @@
 }
 
 .divSignFlex {
-    width: 26% ;
+    width: 28% ;
     background: #A0001E ;
     max-height: 95px ;
     font-size: 6rem ;
@@ -62,6 +62,8 @@ table {
 .rowTwo td:last-of-type {
     color: white ;
     background: #A0001E ;
+    width: 19% ;
+
 
 }
 
@@ -96,6 +98,8 @@ table {
 .rowThree td:last-of-type {
     color: white ;
     background: #A0001E ;
+    width: 19% ;
+
 }
 
 .r4Outer {
@@ -123,13 +127,15 @@ table {
     text-align: center ;
     font-size: 4rem ;
     font-weight: bolder ;
-    height: 63px ;
+    height: 53px ;
 
 }
 
 .rowFour td:last-of-type {
     color: white ;
     background: #A0001E ;
+    width: 19% ;
+
 }
 
 .rowFive {
@@ -142,7 +148,7 @@ table {
 .rowFiveCont {
     border: 1px solid black ;
     width: 80% ;
-    height: 100px ;
+    height: 92px ;
     /* margin: 0 auto ; */
     
     color: white ;
@@ -158,10 +164,10 @@ table {
 .equals {
     color: white ;
     background: #A0001E ;
-    width: 26% ;
+    width: 27% ;
     font-size: 6rem ;
     border: 2px solid gray ;
-    height: 100px ;
+    height: 92px ;
     text-align: center ;
 
 
