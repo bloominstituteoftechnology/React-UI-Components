@@ -9,4 +9,6 @@ const CalDisplay = (props) => {
             {props.text}
         </div>
     )
-}
+};
+
+export default CalDisplay;

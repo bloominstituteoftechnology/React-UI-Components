@@ -24,7 +24,7 @@ const data = {
 }
 const App = () => {
   return (
-    <SquareButton />
+    <SquareButton data={data} buttonStyle="square"/>
   );
 };
 
