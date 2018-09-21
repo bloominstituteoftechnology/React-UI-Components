@@ -2,7 +2,7 @@ import React from 'react';
 import './Card.css';
 
 const CardBanner = props => {
-  return <img src={props.source} class="card-banner" />;
+  return <img src="https://ibin.co/3wnC6SgIOJud.png" class="card-banner" />;
 };
 
 export default CardBanner;

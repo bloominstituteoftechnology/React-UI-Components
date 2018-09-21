@@ -3,7 +3,6 @@
   box-sizing: border-box;
   width: 700px;
   margin: 0 auto;
-  // border: 1px solid black;
   display: flex;
   flex-direction: row-reverse;
 }
