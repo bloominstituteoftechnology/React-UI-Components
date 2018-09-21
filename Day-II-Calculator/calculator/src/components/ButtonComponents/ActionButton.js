@@ -7,7 +7,7 @@ const ActionButton = (props) => {
     // - type: change style based on type
     // -      act-digit (default) or act-clear
     return(
-        <div className="action">{props.label}</div>
+        <div className={props.type}>{props.label}</div>
     );
 };
 ActionButton.defaultProps = { type: "act-digit" };

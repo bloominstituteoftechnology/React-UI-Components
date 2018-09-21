@@ -1,0 +1,16 @@
+.calculator {
+    max-width: 400px;
+    height: 650px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+table, th, td {
+    border: 1px solid gray;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 0px;
+}
+
+.row {
+}
