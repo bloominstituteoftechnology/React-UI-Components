@@ -5,32 +5,32 @@ import ActionButton from './components/ButtonComponents/ActionButton';
 
 const App = () => {
   return (
-    <div>
-      <div>
-        <ActionButton text="clear" />
-        <NumberButton text = "÷" />
+    <div className="container">
+      <div className="row row1">
+        <ActionButton buttonStyle="button clear" text="clear" />
+        <NumberButton buttonStyle="button operator divison" text = "÷" />
       </div>
-      <div>
+      <div className="row row2">
         <NumberButton text="7" />
         <NumberButton text="8" />
         <NumberButton text="9" />
-        <NumberButton text="x" />
+        <NumberButton buttonStyle="button operator multiplication" text="×" />
       </div>
-      <div>
+      <div className="row row3">
         <NumberButton text="4" />
         <NumberButton text="5" />
         <NumberButton text="6" />
-        <NumberButton text="-" />
+        <NumberButton buttonStyle="button operator minus" text="—" />
       </div>
-      <div>
+      <div className="row row4">
         <NumberButton text="1" />
         <NumberButton text="2" />
         <NumberButton text="3" />
-        <NumberButton text="+" />
+        <NumberButton buttonStyle="button operator plus" text="+" />
       </div>
-      <div>
-        <ActionButton text="0" />
-        <NumberButton text="=" />
+      <div className="row row5">
+        <ActionButton buttonStyle="button zero" text="0" />
+        <NumberButton buttonStyle="button operator equals" text="=" />
       </div>
     </div>
   );

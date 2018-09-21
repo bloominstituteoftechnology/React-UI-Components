@@ -1,0 +1,32 @@
+.row {
+    display: flex;
+}
+
+.button {
+    height: 96px;
+    width: 25%;
+    background: white;
+    border: 1px solid #969696;
+    font-size: 2.6rem;
+    font-weight: bold;
+}
+
+.clear {
+    width: 75%;
+    font-weight: 300;
+}
+
+.operator {
+    font-size: 4.7rem;
+    background: #A4141D;
+    color: white;
+    font-weight: lighter;
+}
+
+.minus {
+    font-size: 2.7rem;
+}
+
+.zero {
+    width: 75%;
+}
