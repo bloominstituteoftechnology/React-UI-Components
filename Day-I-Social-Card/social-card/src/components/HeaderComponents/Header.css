@@ -5,6 +5,7 @@
 
 .image-container {
     width: auto;
+    padding: 0 2px;
 }
 
 .lambda-thumbnail {
