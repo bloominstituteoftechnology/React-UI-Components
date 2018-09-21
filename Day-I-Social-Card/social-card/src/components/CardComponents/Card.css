@@ -13,9 +13,10 @@
   background-image: url('https://ibin.co/3wnC6SgIOJud.png');
   background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
   border-top: 1px solid transparent;
   border-radius: 8px 8px 0 0;
-  height: 370px;
+  height: 200px;
   width: 85%;
 }
 
@@ -23,9 +24,16 @@
   padding: 0 50px;
   width: 75%;
 }
+.card-content h1 {
+  font-size: 16px;
+}
+.card-content p {
+  font-size: 14px;
+  line-height: 16px;
+}
 
 .react-link {
   color: rgb(50, 84, 140);
+  font-size: 14px;
   text-decoration: none;
-  line-height: 24px;
 }

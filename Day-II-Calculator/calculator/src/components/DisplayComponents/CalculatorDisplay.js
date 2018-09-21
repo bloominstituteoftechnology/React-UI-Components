@@ -4,13 +4,17 @@ import Numbers from './Numbers';
 import CalculationWindow from './CalculationWindow';
 import MathButtons from './MathButtons';
 
-const CalculatorDisplay = () => {
+const click = (element) => {
+  console.log(element.target.innerHTML);
+}
+
+const CalculatorDisplay = (props) => {
   return (
     <section className='calculator-display'>
       <CalculationWindow />
       <section className='buttons-area'>
-        <Numbers />
-        <MathButtons />
+        <Numbers onClick={click} />
+        <MathButtons onClick={click} />
       </section>
     </section>
   );

@@ -4,3 +4,8 @@
   justify-content: center;
   height: 600px;
 }
+
+button::-moz-focus-inner {
+  border: 0;
+
+}

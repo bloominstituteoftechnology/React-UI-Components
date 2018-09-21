@@ -3,20 +3,20 @@ import './Display.css';
 import NumbersButton from '../ButtonComponents/NumberButton';
 import ActionButton from '../ButtonComponents/ActionButton';
 
-const Numbers = () => {
+const Numbers = (props) => {
   return (
     <div className='numbers-section'>
-      <ActionButton buttonStyle='full-length numbers' text='clear' />
-      <NumbersButton buttonStyle='third-length numbers' text='7' />
-      <NumbersButton buttonStyle='third-length numbers' text='8' />
-      <NumbersButton buttonStyle='third-length numbers' text='9' />
-      <NumbersButton buttonStyle='third-length numbers' text='4' />
-      <NumbersButton buttonStyle='third-length numbers' text='5' />
-      <NumbersButton buttonStyle='third-length numbers' text='6' />
-      <NumbersButton buttonStyle='third-length numbers' text='1' />
-      <NumbersButton buttonStyle='third-length numbers' text='2' />
-      <NumbersButton buttonStyle='third-length numbers' text='3' />
-      <ActionButton buttonStyle='full-length numbers' text='0' />
+      <ActionButton buttonStyle='full-length numbers' text='clear' onClick={props.onClick} />
+      <NumbersButton buttonStyle='third-length numbers' text='7' onClick={props.onClick} />
+      <NumbersButton buttonStyle='third-length numbers' text='8' onClick={props.onClick} />
+      <NumbersButton buttonStyle='third-length numbers' text='9' onClick={props.onClick} />
+      <NumbersButton buttonStyle='third-length numbers' text='4' onClick={props.onClick} />
+      <NumbersButton buttonStyle='third-length numbers' text='5' onClick={props.onClick} />
+      <NumbersButton buttonStyle='third-length numbers' text='6' onClick={props.onClick} />
+      <NumbersButton buttonStyle='third-length numbers' text='1' onClick={props.onClick} />
+      <NumbersButton buttonStyle='third-length numbers' text='2' onClick={props.onClick} />
+      <NumbersButton buttonStyle='third-length numbers' text='3' onClick={props.onClick} />
+      <ActionButton buttonStyle='full-length numbers' text='0' onClick={props.onClick} />
     </div>
   );
 }
