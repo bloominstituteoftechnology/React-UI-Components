@@ -9,6 +9,11 @@
     margin-right: 15px;
 }
 
+.card-container a {
+    text-decoration: none;
+    color: black;
+}
+
 .middle-img {
     width: 100%;
     border: 1px solid black;
