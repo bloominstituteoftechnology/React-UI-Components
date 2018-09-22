@@ -3,3 +3,10 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+#root {
+	max-width: 560px;
+	width:100%;
+	background: gray;
+	margin: 40px auto;
+}
