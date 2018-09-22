@@ -1,10 +1,16 @@
 import React from 'react';
 import './App.css';
 import NumberButton from './components/ButtonComponents/NumberButton.js';
+import ActionButton from './components/ButtonComponents/NumberButton.js';
+
 
 const App = () => {
   return (
         <div className="container">
+
+          <div>
+            <ActionButton buttonStyle={'action'} text={'Clear'} />
+          </div>
 
           <div>
             <NumberButton buttonStyle={'number'} text={'7'} />
@@ -24,6 +30,10 @@ const App = () => {
             <NumberButton buttonStyle={'number'} text={'3'} />
             <NumberButton buttonStyle={'redNumber'} text={'+'} />
           </div>
+          <div>
+            <ActionButton buttonStyle={'action'} text={'0'} />
+          </div>
+
         </div>
       );
     };
