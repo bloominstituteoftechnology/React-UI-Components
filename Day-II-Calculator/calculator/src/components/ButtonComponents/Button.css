@@ -9,12 +9,17 @@
     font-size: 3rem;
 }
 
+.button:hover {
+    border: 1px outset oldlace;
+    box-shadow: 1px 1px 1px black;
+}
 .clear-btn {
     width: 76%;
+
 }
 
 .maroon {
     width: 30%;
-    background-color: maroon;
+    background-color: rgb(160, 0, 30);
     color: whitesmoke
 }
