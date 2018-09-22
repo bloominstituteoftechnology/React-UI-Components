@@ -1,3 +1,14 @@
 .row {
     display: flex;
 }
+
+.all {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #979797;
+    height: 95px;
+    font-family: sans-serif;
+    font-size: 3.6rem;
+}

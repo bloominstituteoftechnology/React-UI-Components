@@ -1,17 +1,14 @@
 .number {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid #979797;
     width: 112px;
-    height: 95px;
-    text-decoration: none;  
     color: black;
-    font-family: sans-serif;
-    font-size: 3.6rem;
     cursor: pointer;
-    text-align: center;
-    vertical-align: middle;
+}
+
+.operator {
+    width: 112px;
+    color: white;
+    background-color: #931C24;
+    cursor: pointer;
 }
   
+
