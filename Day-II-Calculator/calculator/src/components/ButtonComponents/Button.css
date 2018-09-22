@@ -1,0 +1,36 @@
+.number-button {
+    height: 92px;
+    width: 112px;
+    font-size: 3rem;
+    font-weight: 700;
+    background-color: white;
+}
+
+.action-button {
+    height: 92px;
+    width: 112px;
+    font-size: 4rem;
+    font-weight: 300;
+    color: white;
+    background: darkred;
+    padding-bottom: 2%;
+}
+
+.three-quarter {
+    width: 336px;
+    height: 92px;
+}
+
+.number-button:hover {
+    cursor: pointer;
+}
+
+.action-button:hover {
+    cursor: pointer;
+}
+
+.clear-text {
+    font-family: sans-serif;
+    font-size: 3rem;
+    font-weight: 300;
+}
