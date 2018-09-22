@@ -1,1 +1,29 @@
 /* All styles for your header Components live here */
+
+.HeaderTitle{
+    display:flex;
+    justify-content:flex-start;
+    color:gray;
+    align-items:flex-start;
+
+
+}
+
+.container{
+    width:35%;
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.HeaderTitle h1{
+    font-size: 15px;
+    font-weight:bold;
+    color: black;
+    margin-left:.5rem;
+}
+
+p{
+    margin-left:.5rem;
+    font-size:12px;
+}
+
