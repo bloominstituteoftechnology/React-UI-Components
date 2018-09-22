@@ -1,0 +1,8 @@
+.row {
+  display: flex;
+}
+
+#calc {
+  margin: 50px 100px;
+  /* border: 2px solid red; */
+}

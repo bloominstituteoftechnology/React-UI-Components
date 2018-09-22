@@ -1,1 +1,30 @@
 /* All styles for your header Components live here */
+#header-container {
+  box-sizing: border-box;
+  display: flex;
+  padding: 20px;
+  width: 700px;
+  margin: 0 auto;
+}
+
+#header-container img {
+  height: 50px;
+  padding-right: 15px;
+}
+
+#header-container h1 {
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+#header-container span {
+  font-size: 16px;
+  font-weight: 100;
+  color: gray;
+}
+
+#header-container p {
+  font-size: 17px;
+  line-height: 20px;
+}
