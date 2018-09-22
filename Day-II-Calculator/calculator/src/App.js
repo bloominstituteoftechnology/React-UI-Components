@@ -1,10 +1,22 @@
 import React from 'react';
 import './App.css';
 import './components/ButtonComponents/NumberButton.js'
+import './components/DisplayComponents/CalculatorDisplay.js'
+import './components/ButtonComponents/ActionButton.js'
 
 const App = () => {
   return (
-    <NumberButton />
+    <CalculatorDisplay />
+    <div className = "white-keys">
+      <ActionButton buttonStyle = {'action'} text = {'clear'} />
+      <div className = "numbered-main">
+        <NumberButton />
+      </div>  
+      <ActionButton buttonStyle = {'action'} text = {'0'} />
+    </div>  
+    <div className = "red-keys">
+      <Operators />
+    </div>
     // <div>
     //   <h3>Welcome to React Calculator</h3>
     //   <p>

@@ -27,14 +27,7 @@ const ActionButton = (props) =>{
     );
 };
 
-const Actions = () =>{
-    return(
-        <ActionButton buttonStyle = {'action'} text = {'0'} />
-        <ActionButton buttonStyle = {'action'} text = {'clear'} />
-        
-        
-    )
-}
+
 
 export default OperatorButton;
 export default ActionButton;
