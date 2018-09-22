@@ -1,40 +1,28 @@
 import React from 'react';
 import './Footer.css'
 
-
-const e = React.createElement;
-
 const countUp = (function () {
   let count = 0;
   let counterObj = {
     innerCount: count,
     increment: function() {
-      return ++this.innerCount;      // using implicit binding
+      return ++this.innerCount;
     }
   };
   return counterObj;
-
 })();
 
-countUp.increment();
-
-
-
-
-
-
-class CountLikes extends React.Component{
-  constructor(props){
-    super(props);
-    let likeCounter = root.querySelector('.heartCount');
-    likeCounter.innerHTML = countUp.increment();
-  }
+/* event handler
+class CountDat extends React.Component() {
+    handleEvent = () => {
+      let likeCounter = root.querySelector('.heartCount');
+      likeCounter.textContent = countUp.increment();
+    };
 
 }
+*/
 
-
-
-
+// <p className = 'heartCount'  onclick = {CountDat} > 0 </p>
 
 const Footer = () => {
   return(
@@ -50,7 +38,7 @@ const Footer = () => {
 
       <div className = 'heart-container'>
         <img className = 'heartIMG' src = 'https://upload.wikimedia.org/wikipedia/commons/4/4f/Ei-heart.svg'/>
-        <p className = 'heartCount'> 0 </p>
+        // <p className = 'heartCount'  > 0 </p>
       </div>
 
       <div className = 'envelope-container'>
@@ -64,3 +52,5 @@ const Footer = () => {
 };
 
 export default Footer;
+// const rootElement = document.getElementById('root');
+// ReactDOM.render(<CountDat/>, rootElement);
