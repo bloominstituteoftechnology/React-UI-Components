@@ -4,96 +4,40 @@ import "./Button.css";
 const NumberButton = () => {
   // prop.displayNumber === 1
   return (
-    <div id="container" class="flexChild columnParent">
-      {/* <div id="columnChild_DISPLAY" class="flexChild">
-        Display
-      </div> */}
-
-      <div id="columnChild71279" class="flexChild rowParent">
-        <div id="btn-clear" class="flexChild">
-          clear
-        </div>
-
-        <div id="btn-signDivision" class="flexChild">
-          ÷
-        </div>
+    <div className="columnParent">
+      <div id="header1">
+        <h3>React Calculator</h3>
       </div>
-
-      <div id="columnChild84487" class="flexChild rowParent">
-        <div id="rowChild59152" class="flexChild rowParent">
-          <div id="btn-7" class="flexChild">
-            7
-          </div>
-
-          <div id="btn-8" class="flexChild">
-            8
-          </div>
-        </div>
-
-        <div id="rowChild6982" class="flexChild rowParent">
-          <div id="btn-9" class="flexChild">
-            9
-          </div>
-
-          <div id="btn-signMultiplication" class="flexChild">
-            x
-          </div>
-        </div>
+      <div id="displayWindow">0</div>
+      <div className="flex-container">
+        <div className="flex-item-clear">clear</div>
+        <div className="flex-item-divide">÷</div>
       </div>
-
-      <div id="columnChild41626" class="flexChild rowParent">
-        <div id="rowChild30066" class="flexChild rowParent">
-          <div id="btn-4" class="flexChild">
-            4
-          </div>
-
-          <div id="btn-5" class="flexChild">
-            5
-          </div>
-        </div>
-
-        <div id="rowChild75049" class="flexChild rowParent">
-          <div id="btn-6" class="flexChild">
-            6
-          </div>
-
-          <div id="btn-signSubtraction" class="flexChild">
-            -
-          </div>
-        </div>
+      <br />
+      <div className="flex-container">
+        <div className="flex-item-7">7</div>
+        <div className="flex-item-8">8</div>
+        <div className="flex-item-9">9</div>
+        <div className="flex-item-multiply">x</div>
       </div>
-
-      <div id="columnChild14109" class="flexChild rowParent">
-        <div id="rowChild99257" class="flexChild rowParent">
-          <div id="btn-1" class="flexChild">
-            1
-          </div>
-
-          <div id="btn-2" class="flexChild">
-            2
-          </div>
-        </div>
-
-        <div id="rowChild22147" class="flexChild rowParent">
-          <div id="btn-3" class="flexChild">
-            3
-          </div>
-
-          <div id="btn-signAddition" class="flexChild">
-            +
-          </div>
-        </div>
+      <br />
+      <div className="flex-container">
+        <div className="flex-item-4">4</div>
+        <div className="flex-item-5">5</div>
+        <div className="flex-item-6">6</div>
+        <div className="flex-item-minus">-</div>
       </div>
-
-      <div id="columnChild50680" class="flexChild rowParent">
-        <div id="btn-0" class="flexChild selected">
-          0
-        </div>
-
-        <div id="btn-signEquals" class="flexChild">
-          {" "}
-          ={" "}
-        </div>
+      <br />
+      <div className="flex-container">
+        <div className="flex-item-1">1</div>
+        <div className="flex-item-2">2</div>
+        <div className="flex-item-3">3</div>
+        <div className="flex-item-plus">+</div>
+      </div>
+      <br />
+      <div className="flex-container">
+        <div className="flex-item-0">0</div>
+        <div className="flex-item-equal"> = </div>
       </div>
     </div>
   );

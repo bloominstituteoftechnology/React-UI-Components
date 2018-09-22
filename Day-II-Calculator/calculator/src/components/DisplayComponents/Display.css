@@ -9,6 +9,7 @@
   box-sizing: border-box;
   height: "80%";
   width: "60%";
+  text-align: right;
   float: left;
   color: white;
   background: black;

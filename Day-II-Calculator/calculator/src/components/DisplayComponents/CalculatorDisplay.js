@@ -3,7 +3,7 @@ import './Display.css';
 
 const CalculatorDisplay = () => {
   // Make Calculator display
-  return <div id="columnChild18966_DISPLAY" class="flexChild">DISPLAY WINDOW</div> 
+  return <div id="columnChild18966_DISPLAY" class="flexChild">display</div> 
   // <div className="display"> Yaaaay! I'm Calculator Display.</div>
 }
 export default CalculatorDisplay;
