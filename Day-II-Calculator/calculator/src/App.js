@@ -9,6 +9,7 @@ const App = () => {
 
   return (
     <div className="calculator">
+    <div className="display"></div>
     <div className="buttons">
       <div className="numbers">
         {numbers.map(number => (<NumberButton type={number} />))}
