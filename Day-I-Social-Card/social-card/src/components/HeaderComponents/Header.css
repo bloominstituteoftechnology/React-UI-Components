@@ -1,5 +1,39 @@
 /* All styles for your header Components live here */
+.header{
+    display: flex;
+    height: 200px;
+    flex-wrap: wrap;
+    width: 100%;
+    
+    
+}
 .image{
-    height: 50px;
-    width: 400px;
+    height: 75px;
+    width: 75px;
+    padding: 20px;
+}
+h2{
+    font-size:18px;
+    margin-left: 7px;
+}
+p{
+    font-size:15px;
+    color:lightgrey;
+    margin-left: 8px;
+}
+.title{
+    max-width: 550px;
+    width: 100%;
+    display: flex;
+    
+    justify-content: space-evenly;
+}
+.content{
+    display: flex;
+    font-size: 20px;
+    max-width: 650px;
+    width: 100%;
+    margin-top: -100px;
+    margin-left: 19%;
+    
 }

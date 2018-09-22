@@ -2,10 +2,10 @@ import React from 'react';
 import './Header.css';
 const HeaderTitle=()=>{
     return(
-        <div>
-            <h1>Lambda School</h1>
+        <div className="title">
+            <h2>Lambda School</h2>
             <p>@LambdaSchool</p>
-            <p>Date.now</p>
+            <p>{Date.now()}</p>
         </div>
     )
 }
