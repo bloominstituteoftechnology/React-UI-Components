@@ -1,0 +1,62 @@
+.buttons-container {
+    display: flex;
+    width: 100%;
+}
+
+.numeric-buttons-container {
+    display: flex;
+    flex-direction: column;
+    width: 77%;
+}
+
+.numeric-buttons-well {
+    display: flex;
+    flex-direction: column;
+}
+
+.expression-buttons-container {
+    width: 23%;
+}
+
+.number-row {
+    display: flex;
+    width: 100%;
+}
+
+.btn-container {
+    flex-grow: 1;
+} 
+
+.btn {
+    width: 100%;
+    background-color: white;
+    border: 2px solid grey;
+    text-align: center;
+    padding: 30px 0;
+    text-decoration: none;
+    font-size: 25px;
+    margin: 0;
+}
+
+.btn-red {
+    display: block;
+    width: 100%;
+    background-color: red;
+    color: white;
+    border: 2px solid grey;
+    padding: 30px 0;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.btn-action {
+    display: block;
+    width: 100%;
+    background-color: white;
+    border: 2px solid grey;
+    padding: 30px 0;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+}

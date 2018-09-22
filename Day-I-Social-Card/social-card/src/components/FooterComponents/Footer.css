@@ -1,0 +1,6 @@
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    border-top: 2px solid #bdc3c7;
+    padding: 20px 0;
+}
