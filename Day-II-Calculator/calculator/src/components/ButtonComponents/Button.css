@@ -1,0 +1,27 @@
+.white-square, .red-square, .long-white-square{
+    height: 95px;
+}
+.white-square {
+    color: black;
+    background-color: white;
+    font-weight: bold;
+    max-width: 118px;
+    width: 25%;
+}
+.red-square {
+    color: white;
+    background-color: #A0001E;
+    max-width: 118px;
+    width: 25%;
+}
+ .long-white-square {
+    max-width: 354px;
+    width: 75%;
+}
+ .bold{
+    font-weight: bold;
+}
+ .button-container{
+    max-width: 472px;
+    width: 100%;
+}

@@ -1,0 +1,13 @@
+.Footer {
+    max-width: 503.56px;
+    width: 100%;
+    align-self: flex-end;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 43%;
+    height: 28px;
+}
+
+i {
+    color: lightgrey;
+}
