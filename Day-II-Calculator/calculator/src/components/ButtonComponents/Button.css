@@ -1,0 +1,45 @@
+.action-button{
+    width: 335px;
+    height: 93px;
+    border: 1px solid rgb(151,151,151);
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.number-button{
+    width: 110px;
+    height: 95px;
+    border: 1px solid rgb(151,151,151);
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.operation-button{
+    width: 120px;
+    height: 95px;
+    border: 1px solid rgb(151,151,151);
+    background-color: rgb(160, 0, 30);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.action-button-text{
+    font-size: 2.58rem;
+    font-family: verdana;
+}
+
+.number-button-text{
+    font-size: 2.5rem;
+    font-family: verdana;
+}
+
+.operation-button-text{
+    font-size: 2.5rem;
+    color: white;
+    font-family: verdana;
+}

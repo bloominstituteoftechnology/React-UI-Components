@@ -1,0 +1,27 @@
+.calculator{
+    width: 464px;
+    height: 610px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: space-evenly;
+    background-color: rgb(151,151,151);
+}
+
+.white-buttons-container{
+    width: 336px;
+    height: 481px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: space-evenly;
+}
+
+.red-buttons-container{
+    width: 122px;
+    height: 481px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: space-evenly;
+}
