@@ -2,95 +2,123 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    align-content: space-between;
     max-width: 334px;
     width: 334px;
     height: 283px;
-    border: 2px solid purple;
+    /* border: 2px solid purple; */
     top: 220px;
     left: 0px;
-
 }
 
 .LeftContainer {
-display: flex;
-flex-direction: column;
-max-width: 336px;
-width: 336px;
-height: 470px;
-border: 2px solid green;
-top: 130px;
-left: 0px;
+    display: flex;
+    flex-direction: column;
+    /* max-width: 338px; */
+    width: 332px;
+    height: 470px;
+    /* border: 2px solid green; */
+    top: 130px;
+    left: 0px;
 }
 
 .NumberButton {
-/* display: flex; */
-width: 98px;
-height: 110px;
-
-
+    /* display: flex; */
+    width: 98px;
+    height: 110px;
 }
-.ActionButtonsContainer {
+
+.ActionButtonContainer {
     display: flex;
     flex-direction: column;
     max-width: 121px;
     width: 120px;
     height: 469px;
-    background-color: rgb(160, 0, 30);   
-    color: white;
-    border: 2px solid orangered;
+    background-color: rgb(160, 0, 30);
+    color: black;
+    /* border: 2px solid orangered; */
     left: 335px;
     top: 127px;
+    font-size: 40px;
 }
 
 .ClearKey {
-display: flex;
-height: 90px;
-width: 333px;
-max-width: 335px;
-top: 127px;
-left: 0px;
-border: 2px solid red;
-}
-
-.ZeroKey {
     display: flex;
     height: 90px;
     width: 333px;
+    max-width: 335px;
+    top: 127px;
+    left: 0px;
+}
+
+.ZeroKey {
+    width: 330px;
     max-width: 333px;
     color: black;
     background-color: white;
-    font-size: 18px;
-    border: 2px solid orange;
-left: 0px;
-top: 503px;
+    font-size: 53px;
+    left: 0px;
+    padding-top: 18px;
+    top: 10px;
+    height: 92px;
 }
 
 .LowerContainer {
-width: 456px;
-height: 473px;
-display: flex;
-flex-direction: row;
-top: 130px;
-left: 0px;
-
-border: 2px solid blue;
+    width: 456px;
+    height: 473px;
+    display: flex;
+    flex-direction: row;
+    top: 130px;
+    left: 0px;
 }
 
 .ActionButton {
-background-color: red;
-border: 1px solid lightgray;
-width: 95px;
-height: 95px;
-color: black;
-
-
+    width: 95px;
+    height: 95px;
+    color: black;
+    font-size: 45px;
 }
 
 .CalculatorContainer {
-display: flex;
-flex-direction: column;
-width: 456px;
-height: 598px;
+    display: flex;
+    flex-direction: column;
+    width: 456px;
+    height: 598px;
+}
 
+.Plus {
+    height: 120px;
+    font-size: 40px;
+    background-color: rgb(160, 0, 30);
+}
 
+.number {
+    height: 95px;
+    width: 110px;
+    background-color: rgb(255, 255, 255);
+    font-size: 50px;
+}
+
+.ClearKeyContainer {
+    display: flex;
+    height: 90px;
+    width: 333px;
+    max-width: 335px;
+    top: 127px;
+    left: 0px;
+}
+
+.Clear {
+    width: 330px;
+    font-size: 40px;
+    background-color: white;
+}
+
+.ZeroKeyContainer {
+    display: flex;
+    height: 90px;
+    width: 330px;
+    max-width: 330px;
+    top: 140px;
+    left: 0px;
 }

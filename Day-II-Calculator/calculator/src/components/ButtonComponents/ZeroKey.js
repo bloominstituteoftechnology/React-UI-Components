@@ -2,11 +2,11 @@ import React from 'react';
 import './Button.css';
 
 
-const ZeroKey = () => {
+const ZeroKey = (props) => {
     return (
-        <div className='ZeroKey'>000 Zero Key
-        
-        </div>
+        <button className="ZeroKey"> 
+        {props.text}
+        </button>
     )
 
 

@@ -4,9 +4,10 @@ import './Button.css';
 
 const ActionButton = (props) => {
     return (
-        <button className="Plus"> +
+        <button className="Plus"> 
        {props.text}
        </button>
+      
    )
 };
 export default ActionButton;

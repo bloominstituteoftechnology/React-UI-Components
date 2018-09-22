@@ -5,7 +5,7 @@ import './Display.css';
 
 const CalculatorDisplay = () => {
     return ( 
-        <div className="CalculatorDisplay">This is test...</div>
+        <div className="CalculatorDisplay"><p>0</p></div>
        
    )
 };
