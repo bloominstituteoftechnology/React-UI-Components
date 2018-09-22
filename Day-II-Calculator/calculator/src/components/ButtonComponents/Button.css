@@ -1,0 +1,44 @@
+.big-buttons,
+.num,
+.action-button {
+    border: 1px solid silver;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.num {
+    width: 33%;
+    font-weight: bold;
+}
+
+.big-buttons:last-child {
+    font-weight: bold;
+}
+
+.nums-row,
+.action {
+    display: flex;
+}
+
+.big-buttons:first-child,
+.action-button {
+    font-weight: lighter;
+}
+
+.action {
+    flex-direction: column;
+    width: 25%;
+}
+
+.action-button {
+    background-color: #A0001E;
+    color: white;
+}
+
+.nums {
+    width: 75%;
+}
