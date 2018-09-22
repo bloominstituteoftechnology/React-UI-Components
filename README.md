@@ -43,7 +43,7 @@
 
 #### Day 1 MVP requirements
 
-[] - Create a `<HeaderContainer />` container component that will hold your header components.
+[x] - Create a `<HeaderContainer />` container component that will hold your header components.
 
 [] - Create an `<ImageThumbnail />` component using this image url https://ibin.co/3whrpKSBbZ81.png as it's img src.
 
