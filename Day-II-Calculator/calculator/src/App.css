@@ -1,5 +1,18 @@
-.number-action-container {
-    width: 500px;
+
+.calc-container {
+    max-width: 456px;
+    width: 100%;
+    margin: 0 auto;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    border: 2px outset grey;
+}
+
+.number-action-container {
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    flex-direction: row
 }

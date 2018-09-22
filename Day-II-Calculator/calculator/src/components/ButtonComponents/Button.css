@@ -2,8 +2,18 @@
     display: flex;
     font-weight: bold;
     align-items: center;
-    width: 100px;
+    justify-content: center;
+    width: 25%; 
     height: 100px;
-    border: 1px solid grey;
-    text-align: center;
+    border: 1px outset grey;
+    font-size: 3rem;
+}
+
+.clear-btn {
+    width: 76%;
+}
+
+.maroon {
+    background-color: maroon;
+    color: whitesmoke
 }
