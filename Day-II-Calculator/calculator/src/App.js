@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import ButtonRowTwo from './components/ButtonComponents/ButtonRowTwo.js';
+import ButtonRowFour from './components/ButtonComponents/ButtonRowFour.js';
 
 const CalculatorDisplay = () => {
   return(<div className="cd-main">
@@ -13,6 +14,9 @@ const App = () => {
     <div id="root">
       <CalculatorDisplay />
       <ButtonRowTwo name="hey there" />
+      <ButtonRowFour />
+      <ButtonRowFour />
+      <ButtonRowFour />
     </div>
   );
 };
