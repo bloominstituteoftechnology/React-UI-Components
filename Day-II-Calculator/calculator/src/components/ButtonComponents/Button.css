@@ -1,0 +1,11 @@
+.number {
+
+    flex-grow:1;
+    height: 90px;
+}
+
+.long{
+    height: 100%;
+    width: 100%;
+}
+

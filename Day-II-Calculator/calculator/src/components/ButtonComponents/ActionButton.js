@@ -2,13 +2,20 @@ import React from 'react';
 import './Button.css';
 
 
-
-const ActionButton = (props) => {
+class ActionButton extends React.Component {
+    render(){    
     return(
         <div>
-        <button className={props.buttonStyle}>{props.text}</button>
-        </div>
+        <button className={this.props.buttonStyle}>{this.props.text}</button>
+       </div>
     )
+
 }
+}
+
+
+//const ActionButton = (props) => {
+
+//}
 
 export default ActionButton;
