@@ -1,21 +1,39 @@
 import React from 'react';
 import './App.css';
+import CalculatorDisplay from './components/DisplayComponents/CalculatorDisplay';
+import ActionButton from './components/ButtonComponents/ActionButton';
+import NumberButton from './components/ButtonComponents/NumberButton';
 
 const App = () => {
   return (
-    <div>
-      <h3>Welcome to React Calculator</h3>
-      <p>
-        We have given you a starter project. You'll want to build out your
-        components in their respective files, remove this code and replace it
-        with the proper components.
-      </p>
-      <p>
-        <strong>
-          Don't forget to `default export` your components and import them here
-          inside of this file in order to make them work.
-        </strong>
-      </p>
+    <div className='container'>
+      <div className='top'>
+      <CalculatorDisplay/>
+      <ActionButton bgColor='white' text='clear'/>
+      <NumberButton bgColor='red' text='/'/>
+      </div>
+      <div className='top-nums'>
+      <NumberButton bgColor='white' text='7'/>
+      <NumberButton bgColor='white' text='8'/>
+      <NumberButton bgColor='white' text='9'/>
+      <NumberButton bgColor='red' text='x'/>
+      </div>
+      <div className='mid-nums'>
+      <NumberButton bgColor='white' text='4'/>
+      <NumberButton bgColor='white' text='5'/>
+      <NumberButton bgColor='white' text='6'/>
+      <NumberButton bgColor='red' text='-'/>
+      </div>
+      <div className='bot-nums'>
+      <NumberButton bgColor='white' text='1'/>
+      <NumberButton bgColor='white' text='2'/>
+      <NumberButton bgColor='white' text='3'/>
+      <NumberButton bgColor='red' text='+'/>
+      </div>
+      <div className='bottom'>
+      <ActionButton bgColor='white' text='0'/>
+      <NumberButton bgColor='red' text='='/>
+      </div>
     </div>
   );
 };
