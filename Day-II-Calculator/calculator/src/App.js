@@ -8,23 +8,23 @@ const App = () => {
   return (
     <div className='calc-container'>
       <div className='calc-container'>
-        <CalcDisplay sum='0' />
+        <CalcDisplay sum='55378008' />
       </div>
       <div className='button-container'>
         <ActionBtn actionClass='clear button' text='clear' />
         <ActionBtn actionClass='math-function button' text='÷' />
       </div>
       <div className='button-container'>
-        <NumberBtn class='button number-btn' text='1' />
-        <NumberBtn class='button number-btn' text='2' />
-        <NumberBtn class='button number-btn' text='3' />
-        <ActionBtn actionClass='math-function button' text='×' />
+        <NumberBtn class='button number-btn' text='1'  />
+        <NumberBtn class='button number-btn' text='2'  />
+        <NumberBtn class='button number-btn' text='3'  />
+        <ActionBtn actionClass='math-function button' text='×'  />
       </div>
       <div className='button-container'>
         <NumberBtn class='button number-btn' text='4' />
         <NumberBtn class='button number-btn' text='5' />
         <NumberBtn class='button number-btn' text='6' />
-        <ActionBtn actionClass='math-function button'text='−' />
+        <ActionBtn actionClass='math-function button' text='−' />
       </div>
       <div className='button-container'>
         <NumberBtn class='button number-btn' text='7' />
