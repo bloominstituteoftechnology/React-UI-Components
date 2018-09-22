@@ -2,10 +2,6 @@ import React from 'react';
 import './Button.css';
 
 const NumberButton = (props) => {
-    const numbers = {
-        numArray: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
-      };
-
     return (
         <div className={props.displayStyle}>
             <div className="numbers">{props.text.numArray[1]}</div>

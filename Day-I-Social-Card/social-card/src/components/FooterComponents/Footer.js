@@ -2,31 +2,29 @@ import React from 'react';
 import './Footer.css';
 
 
-let heart = 0;
+class Footer extends React.Component {
+    constructor() {
+        super();
+        this.state = {
+            reload: 0
+        }
+    }
 
-// function clickTest () {
-//     reload += 1;
-//     console.log('yup');
-//     return reload;
-// }
+    onClick = () => {
+        this.setState({
+            reload: this.state.reload + 1
+        });
+    }
 
-
-const Footer = (props) => {
-    let reload = 0;
-    function clickTest () {
-        reload += 1;
-        console.log('yup');
-        return reload;
-    };
-    
-    return (
-        <div className="icons">
-            <i class="far fa-comment"></i>
-            <i class="fas fa-sync-alt" onClick={clickTest}> {reload}</i>
-            <i class="far fa-heart"> {heart}</i>
-            <i class="far fa-envelope"></i>
+    render(){
+        return (
+            <div className="icons">
+            <i className="far fa-comment"></i>
+            <i className="fas fa-sync-alt" onClick={this.onClick}>{this.state.reload}</i>
+            <i className="far fa-heart">4</i>
+            <i className="far fa-envelope"></i>
         </div>
-    );
-};
-
+        )
+    }
+}
 export default Footer;
