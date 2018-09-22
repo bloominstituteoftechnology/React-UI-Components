@@ -1,7 +1,7 @@
 import React from 'react';
 import './Card.css';
 
-const CardContent = (props) => {
+const CardContent = () => {
     return (
         <div className="card-content">
             <h1>Get started with React </h1>
