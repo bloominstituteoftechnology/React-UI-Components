@@ -1,0 +1,23 @@
+.footer{
+    margin-top: 20px;
+    margin-left: 105px;
+    display: flex;
+    justify-content: space-between;
+    width: 41%;
+    font-size: 12px;
+}
+i{
+    font-size: 16px;
+}
+.retweet{
+    display: flex;
+    justify-content: space-between;
+    width: 40px;
+    margin-left: 13px;
+}
+.favorite{
+    display: flex;
+    justify-content: space-between;
+    width: 30px;
+    /* padding-left: 7px; */
+}
