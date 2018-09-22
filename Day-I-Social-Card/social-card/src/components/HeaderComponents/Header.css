@@ -1,1 +1,56 @@
 /* All styles for your header Components live here */
+.headerContainer {
+    width: 510px;
+    height: 100px;
+    position: relative;
+    bottom: 540px;
+    left: 60px
+
+}
+
+/* ----------------- HEADER ITEMS ----------------- */
+.imgIcon {
+    width: 50px;
+    height: 55px;
+    position: relative;
+    right: 55px;
+    bottom: 146.5px;
+    cursor: pointer;
+}
+
+
+
+.headerContent{
+    width: 490px;
+    height: 68px;
+    position: relative;
+    top: 25px;
+    left: 8px;
+
+}
+
+.headerContentText{
+    position: relative;
+    top: 5px;
+    left: 2.5px;
+    
+}
+
+.headerTitle{
+    font-size: 16px;
+    font-weight: bold;
+    position: relative;
+    bottom: 83px;
+    left: 10px;
+    width: 125px;
+    cursor: pointer;
+    
+}
+
+.headerTitleInfo{
+    position: relative;
+    bottom: 120px;
+    left: 150px;
+    font-size: 15px;
+    color: grey;
+}

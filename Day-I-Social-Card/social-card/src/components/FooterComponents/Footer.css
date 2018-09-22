@@ -1,0 +1,43 @@
+
+.footerContainer{
+    display: flex;
+    justify-content: space-around;
+    width: 300px;
+    height: 35px;
+    position: relative;
+    bottom: 140px;
+    left: 45px;
+}
+
+.messageIcon{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    background-image: url(./img/messageIcon.PNG);
+    background-size: contain;
+    cursor: pointer;
+}
+.retweetIcon{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    background-image: url(./img/retweetIcon.PNG);
+    background-size: contain;
+    cursor: pointer;
+}
+.likeIcon{
+    position: relative;
+    width: 35px;
+    height: 30px;
+    background-image: url(./img/likeIcon.PNG);
+    background-size: contain;
+    cursor: pointer;
+}
+.directmessageIcon{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    background-image: url(./img/directmessageIcon.PNG);
+    background-size: contain;
+    cursor: pointer;
+}

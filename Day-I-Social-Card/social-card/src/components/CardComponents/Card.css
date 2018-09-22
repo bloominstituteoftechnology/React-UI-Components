@@ -1,1 +1,59 @@
 /* All styles for your Card Components live here */
+
+.containerDiv {
+    border: 1px grey solid;
+    width: 580px;
+    height: 550px;
+    
+}
+
+.bannerIMGContainer{
+    background-image: url('./img/reactBanner.png');
+    background-size: cover;
+    width: 500px;
+    height: 275px;
+    max-width: 500px;
+    max-height: 275px;
+    border: 1px solid transparent;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    position: relative;
+    top: 120px;
+    left: 70px;
+    cursor: pointer;
+}
+
+.contentContainer{
+    position: relative;
+    top: 105px;
+    left: 85px;
+    width: 475px;
+
+}
+
+.contentHeader{
+    position: relative;
+    width: 172px;
+    color: black;
+    top: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    
+}
+
+.contentText{
+    position: relative;
+    top: 5px;
+    color: black;
+    font-size: 16px;
+    font-weight: 200;
+}
+
+.contentLink{
+    position: relative;
+    color: grey;
+    bottom: 2.5px;
+    width: 70px;
+    cursor: pointer;
+}
