@@ -1,12 +1,13 @@
 import React from 'react';
 import './Display.css';
-
+    
 const CalculatorDisplay = (props) => {
-	return (
-		<button className={props.buttonStyle}>
-			{props.text}
-		</button>
-	)
-}
+    return (
+    <div className='calculator-display'>
+        <p>0</p>
+    </div>
+        );
+    }
+
 
 export default CalculatorDisplay;

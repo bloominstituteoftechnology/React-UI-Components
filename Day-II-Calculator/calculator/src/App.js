@@ -10,7 +10,7 @@ const App = () => {
 	return (
     <div>
       <div>
-        <CalculatorDisplay buttonStyle={'number'} text={'0'}/>
+        <CalculatorDisplay />
       </div>
       <div>
         <ClearButton buttonStyle={'clear'} text={'Clear'}/>
