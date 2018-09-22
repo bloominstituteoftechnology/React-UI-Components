@@ -11,15 +11,15 @@ const App = () => {
       <CalculatorDisplay />
       <LongButton buttonStyle="long" text="clear" />
       <ActionButton buttonStyle="action" text="&divide;" />
-      <NumberButton buttonStyle="number" text="7" />
+      <NumberButton buttonStyle="number-left" text="7" />
       <NumberButton buttonStyle="number" text="8" />
       <NumberButton buttonStyle="number" text="9" />
       <ActionButton buttonStyle="action" text="&times;" />
-      <NumberButton buttonStyle="number" text="4" />
+      <NumberButton buttonStyle="number-left" text="4" />
       <NumberButton buttonStyle="number" text="5" />
       <NumberButton buttonStyle="number" text="6" />
       <ActionButton buttonStyle="action" text="&minus;" />
-      <NumberButton buttonStyle="number" text="1" />
+      <NumberButton buttonStyle="number-left" text="1" />
       <NumberButton buttonStyle="number" text="2" />
       <NumberButton buttonStyle="number" text="3" />
       <ActionButton buttonStyle="action" text="&#43;" />
