@@ -6,20 +6,22 @@ import {Display} from "../DisplayComponents/CalculatorDisplay";
 
 class NumberDisplay extends React.Component {
     
-    contstructor(props){
+    constructor(props){
     
-  
+        super(props)
+       // Initilizing the state 
         this.setState = {
             input:0
-        };
+        }
     }
    render (){
     return (
       <div>
+          {/* Initilizing State to 0 on display */}
         <Display input = {this.setState.input} />
         
             <div>
-                <ActionButton buttonStyle={`action`} text={"clear"} />
+                <ActionButton buttonStyle={`action`} text={"clear"}  />
                 <NumberButton buttonStyle={"math"} text={<i class="fas fa-divide" />} />
             </div>
 
