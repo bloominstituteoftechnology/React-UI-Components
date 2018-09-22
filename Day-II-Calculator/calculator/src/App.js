@@ -6,20 +6,19 @@ import NumberButton from './components/ButtonComponents/NumberButton.js'
 
 const App = () => {
   return (
-    <div>
-      <div class = 'container'>
-      <h3>Welcome to React Calculator</h3>	    <div class = 'calculator'>
-      <p>	    <div class = 'screen'>
-        We have given you a starter project. You'll want to build out your	    <CalculatorDisplay text = '0' type = 'screen'/>
-        components in their respective files, remove this code and replace it	    </div>
-        with the proper components.	    <div class = 'row'>
-      </p>	    <ActionButton text = 'CLEAR' type = 'clear'/>
-      <p>	    <ActionButton text = '/' type = 'divide'/>
-        <strong>	    </div>
-          Don't forget to `default export` your components and import them here	    <div class = 'row'>
-          inside of this file in order to make them work.	    <NumberButton text = '7'/>
-        </strong>	    <NumberButton text = '8'/>
-      </p>	    <NumberButton text = '9'/>
+    <div class = 'container'>
+    <div class = 'calculator'>
+    <div class = 'screen'>
+    <CalculatorDisplay text = '0' type = 'screen'/>
+    </div>
+    <div class = 'row'>
+    <ActionButton text = 'CLEAR' type = 'clear'/>
+    <ActionButton text = '/' type = 'divide'/>
+    </div>
+    <div class = 'row'>
+    <NumberButton text = '7'/>
+    <NumberButton text = '8'/>
+    <NumberButton text = '9'/>
     <ActionButton text = 'X' type = 'multiply'/>
     </div>
     <div class = 'row'>
