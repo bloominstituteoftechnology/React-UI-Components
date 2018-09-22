@@ -1,0 +1,64 @@
+.row-2,
+.row-3,
+.row-4,
+.row-5,
+.row-6 {
+	display: flex;
+	justify-content: center;
+	border: 1px solid #A4A4A4;
+	width: 100%;
+}
+
+.number {
+	width: 25%;
+	font-size: 4rem;
+	text-align: center;
+	height: 80px;
+	border: 1px solid #A4A4A4;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+
+.number:hover {
+	font-size: 4.5rem;
+	font-weight: bold;
+	background-color: dodgerblue;
+}
+
+.actionButton {
+	font-size: 4rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 75%;
+	height: 80px;
+	cursor: pointer;
+}
+
+.actionButton:hover {
+	font-size: 4.5rem;
+	font-weight: bold;
+	background-color: dodgerblue;
+}
+
+.operator {
+	background-color: #700000;
+	width: 25%;
+	font-size: 6rem;
+	text-align: center;
+	height: 80px;
+	border: 1px solid #A4A4A4;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	color: white;
+}
+
+.operator:hover {
+	font-size: 7rem;
+	font-weight: bold;
+	background-color: dodgerblue;
+}

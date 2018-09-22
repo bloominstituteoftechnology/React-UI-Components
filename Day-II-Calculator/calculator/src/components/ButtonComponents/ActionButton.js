@@ -4,7 +4,7 @@ import './Button.css';
 
 const ActionButton = (props) => {
 	return (
-		<button className={props.displayStyle}>{props.text}</button>
+		<div className={props.displayStyle}>{props.text}</div>
 	)
 };
 

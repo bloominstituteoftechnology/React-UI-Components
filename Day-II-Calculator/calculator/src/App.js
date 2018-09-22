@@ -10,7 +10,7 @@ const App = () => {
         	<Display />
       	</div>
       <div className = "row-2">
-        <ActionButton displayStyle="action" text="clear" />
+        <ActionButton displayStyle="actionButton" text="clear" />
         <NumberButton displayStyle="operator"  text="&#247;"/>
       </div>
       <div className = "row-3">
@@ -32,7 +32,7 @@ const App = () => {
         <NumberButton displayStyle="operator" text="+" />
       </div>
       <div className = "row-6">
-        <ActionButton displayStyle="action" text="0" />
+        <ActionButton displayStyle="actionButton" text="0" />
         <NumberButton displayStyle="operator" text="=" />
       </div>
     </div>
