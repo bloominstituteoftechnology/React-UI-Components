@@ -2,7 +2,7 @@ import React from 'react';
 import './Button.css';
 import NumberButton from "./NumberButton";
 
-//clear and zero buttons
+//clear and zero buttons <--modified to just clear
 //takes in squarebutton
 //parent element to squarebutton child to display
 const ActionButton = (props) =>{
@@ -32,8 +32,7 @@ const ActionButton = (props) =>{
                 <NumberButton data={props.data.add} displayStyle="red-square" />
             </div>
             <div>
-                <button className={props.displayStyle}>         {props.data.zero}
-                </button>
+                <NumberButton data={props.data.zero} displayStyle="long-white-square bold" />
                 <NumberButton data={props.data.equals} displayStyle="red-square" />
             </div>
         </div>
