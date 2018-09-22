@@ -7,6 +7,7 @@ span {
   color: gray;
   font-size: 15px;
 }
+
 p {
   font-size: 15px;
   text-align: start;
@@ -14,14 +15,19 @@ p {
   line-height: 20px;
   color: black;
 }
+
 h1 {
   font-size: 15px;
   color: black;
 }
+
 #root {
   width: 60%;
   max-width: 580px;
   margin: 0 auto;
 }
+
 a {
   text-decoration: none;
+
+}
