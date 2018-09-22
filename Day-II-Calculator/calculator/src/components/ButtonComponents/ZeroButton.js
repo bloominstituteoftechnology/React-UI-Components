@@ -1,12 +1,13 @@
 import React from 'react';
 import './Button.css';
 
-const NumberButton = (props) => {
+const ZeroButton = (props) => {
     return (
         <div>
-            number
+            0000
         </div>
     );
 };
 
-export default NumberButton;
+export default ZeroButton;
+

@@ -1,12 +1,12 @@
 import React from 'react';
 import './Button.css';
 
-const NumberButton = (props) => {
+const ClearButton = (props) => {
     return (
         <div>
-            number
+        Clear
         </div>
     );
 };
 
-export default NumberButton;
+export default ClearButton;
