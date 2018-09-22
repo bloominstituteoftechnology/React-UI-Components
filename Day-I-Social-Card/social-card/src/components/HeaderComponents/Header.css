@@ -1,1 +1,28 @@
 /* All styles for your header Components live here */
+.headerContainer {
+}
+
+.imgThumb {
+  width: 40px;
+  height: 40px;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+}
+
+.headerTitle {
+  display: flex;
+  align-items: center;
+
+  padding-left: 60px;
+  margin-top: -64px;
+}
+
+.header-text {
+  padding-right: 15px;
+}
+
+.headerContent {
+  padding-left: 60px;
+}
