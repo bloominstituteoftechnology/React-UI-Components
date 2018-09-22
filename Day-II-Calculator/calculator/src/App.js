@@ -11,7 +11,7 @@ const App = () => {
       <CalculatorDisplay />
 
       <div className='button-container'>
-        <ActionButton type='clear' text='Clear' />
+        <ActionButton type='clear' text='clear' />
         <ActionButton type='function' text='÷' />
       </div>
 

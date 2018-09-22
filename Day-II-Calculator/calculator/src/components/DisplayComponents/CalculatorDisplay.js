@@ -4,7 +4,9 @@ import './Display.css';
 
 function CalculatorDisplay() {
     return (
-        <div className='total'>0</div>
+        <div className='display'>
+            <p>0</p>
+        </div>
     );
 };
 
