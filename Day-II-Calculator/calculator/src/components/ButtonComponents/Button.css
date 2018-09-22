@@ -1,0 +1,22 @@
+.button{
+    box-sizing: border-box;
+    width: 25%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid grey;
+}
+.button:hover{
+    background: lightgrey;
+    cursor: pointer;
+}
+
+.actionButton{
+    background: FireBrick;
+}
+
+.wide{
+    width: 75%;
+    background: white;
+}

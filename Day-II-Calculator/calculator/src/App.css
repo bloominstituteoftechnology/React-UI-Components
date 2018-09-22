@@ -1,0 +1,8 @@
+#root{
+    width: 400px;
+    margin: 0 auto;
+}
+.App{
+    display: flex;
+    flex-wrap: wrap;
+}
