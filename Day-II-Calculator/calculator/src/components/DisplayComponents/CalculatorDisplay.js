@@ -9,22 +9,22 @@ const CalculatorDisplay = () => {
             <section className='display'></section>
             <section className='buttons-container'>
                 <section className='numeric-buttons-container'>
-                    <ActionButton data={'clear'} />
-                    <NumberButton data={7} />
-                    <NumberButton data={6} />
-                    <NumberButton data={5} />
-                    <NumberButton data={4} />
-                    <NumberButton data={3} />
-                    <NumberButton data={2} />
-                    <NumberButton data={1} />
-                    <ActionButton data={0} />
+                    <ActionButton data={'clear'} displayStyle={'btn-action'}/>
+                    <NumberButton data={7} displayStyle={'btn'} />
+                    <NumberButton data={6} displayStyle={'btn'}/>
+                    <NumberButton data={5} displayStyle={'btn'}/>
+                    <NumberButton data={4} displayStyle={'btn'}/>
+                    <NumberButton data={3} displayStyle={'btn'}/>
+                    <NumberButton data={2} displayStyle={'btn'}/>
+                    <NumberButton data={1} displayStyle={'btn'}/>
+                    <ActionButton data={0} displayStyle={'btn-action'}/>
                 </section>
                 <section className='expression-buttons-container'>
-                    <NumberButton data={'/'} />
-                    <NumberButton data={'X'} />
-                    <NumberButton data={'-'} />
-                    <NumberButton data={'+'} />
-                    <NumberButton data={'='} />
+                    <NumberButton data={'/'}  displayStyle={'btn-red'}/>
+                    <NumberButton data={'X'} displayStyle={'btn-red'}/>
+                    <NumberButton data={'-'} displayStyle={'btn-red'}/>
+                    <NumberButton data={'+'} displayStyle={'btn-red'}/>
+                    <NumberButton data={'='} displayStyle={'btn-red'}/>
                 </section>
             </section>
         </section>

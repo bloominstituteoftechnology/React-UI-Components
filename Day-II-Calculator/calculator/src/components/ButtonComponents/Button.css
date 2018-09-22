@@ -1,0 +1,30 @@
+.btn {
+    background-color: white;
+    border: 2px solid grey;
+    padding: 25px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.btn-red {
+    background-color: red;
+    color: white;
+    border: 2px solid grey;
+    padding: 25px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.btn-action {
+    background-color: white;
+    border: 2px solid grey;
+    padding: 25px 45px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
