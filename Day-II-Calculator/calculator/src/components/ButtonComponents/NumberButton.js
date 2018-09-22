@@ -2,9 +2,8 @@ import React from 'react';
 import './Button.css';
 
 const NumberButton = (props) =>  {
-    console.log(props.className)
     return(
-        <div className={props.buttonStyle}>
+        <div className={props.buttonStyle} onClick={()  =>  props.onButtonClick(props.text)}>
             {props.text}
         </div>
     )
