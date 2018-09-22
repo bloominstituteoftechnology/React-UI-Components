@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import CalDisplay from './components/DisplayComponents/CalculatorDisplay';
 
-const data = {
+const text = {
   clear: "clear",
   zero: 0,
   one: 1,
@@ -24,7 +24,7 @@ const data = {
 const App = () => {
   return (
     <div>
-      <CalDisplay data={data} displayStyle="black-box" />
+      <CalDisplay text={text} displayStyle="black-box" />
     </div>
   );
 };

@@ -7,31 +7,31 @@ const ActionButton = (props) =>{
         <div>
             <div className="button-container">
                 <button className={props.displayStyle}>              
-                    {props.data.clear}
+                    {props.text.clear}
                 </button>
                 <NumberButton data={props.data.divide} displayStyle="red-square" />
             </div>
             <div className="button-container">
-                <NumberButton data={props.data.seven} />
-                <NumberButton data={props.data.eight} />
-                <NumberButton data={props.data.nine} />
-                <NumberButton data={props.data.multiply} displayStyle="red-square" />
+                <NumberButton text={props.text.seven} />
+                <NumberButton text={props.text.eight} />
+                <NumberButton text={props.text.nine} />
+                <NumberButton text={props.text.multiply} displayStyle="red-square" />
             </div>
             <div className="button-container">
-                <NumberButton data={props.data.four} />
-                <NumberButton data={props.data.five} />
-                <NumberButton data={props.data.six} />
-                <NumberButton data={props.data.subtract} displayStyle="red-square" />
+                <NumberButton text={props.text.four} />
+                <NumberButton text={props.text.five} />
+                <NumberButton text={props.text.six} />
+                <NumberButton text={props.text.subtract} displayStyle="red-square" />
             </div>
             <div className="button-container">
-                <NumberButton data={props.data.one} />
-                <NumberButton data={props.data.two} />
-                <NumberButton data={props.data.three} />
-                <NumberButton data={props.data.add} displayStyle="red-square" />
+                <NumberButton text={props.text.one} />
+                <NumberButton text={props.text.two} />
+                <NumberButton text={props.text.three} />
+                <NumberButton text={props.text.add} displayStyle="red-square" />
             </div>
             <div className="button-container">
-                <NumberButton data={props.data.zero} displayStyle="long-white-square bold" />
-                <NumberButton data={props.data.equals} displayStyle="red-square" />
+                <NumberButton text={props.text.zero} displayStyle="long-white-square bold" />
+                <NumberButton text={props.text.equals} displayStyle="red-square" />
             </div>
         </div>
     )

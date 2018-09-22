@@ -6,9 +6,9 @@ import ActionButton from "../ButtonComponents/ActionButton";
     return(
         <div>
             <div className={props.displayStyle}>
-                {props.data.zero}
+                {props.text.zero}
             </div>
-            <ActionButton data={props.data} displayStyle="long-white-square"/>
+            <ActionButton text={props.text} displayStyle="long-white-square"/>
         </div>
     )
 };
