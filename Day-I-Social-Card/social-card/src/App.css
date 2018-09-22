@@ -4,11 +4,11 @@
 */
 
 .app {
-  display:flex;
+  display: flex;
   flex-direction: column;
   border: 1px solid #eee;
   padding: 0px 50px;
-  width:100%;
-  margin-bottom:30px;
+  width: 100%;
+  margin-bottom: 30px;
   box-shadow: 0 0 20px 1px #eee;
 }

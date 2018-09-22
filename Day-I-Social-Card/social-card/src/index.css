@@ -141,8 +141,9 @@ table {
 body {
     margin: 0 auto;
     max-width: 550px;
-    max-height: 100px;
     padding: 0.4rem;
+
+    box-sizing: border-box;
     font-family: sans-serif;
     background-color: white;
 }

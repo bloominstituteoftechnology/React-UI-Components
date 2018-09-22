@@ -2,7 +2,7 @@
 
 .card-container {
     width: 100%;
-    
+
     background: white;
     display: flex;
     flex-direction: column;
@@ -11,9 +11,9 @@
 }
 
 .card-banner img {
-  width: 100%;
-  height: 100%;
-  align-self: center;
+    width: 95%;
+    height: 250px;
+    align-self: center;
 }
 
 .card-content {
@@ -25,20 +25,22 @@
     margin-bottom: 20px;
 }
 
-.card-content h1{
+.card-content h1 {
     font-weight: 600;
-    margin-bottom:10px;
-    font-size:15px;
+    margin-bottom: 10px;
+    font-size: 15px;
 
 }
+
 .card-content p {
     font-size: 14px;
-    line-height:23px;
+    line-height: 23px;
     margin-bottom: 5px;
 }
-.card-content h4 a{
- text-decoration: none;
- color: rgb(151, 151, 151);
- font-size: 13px;
+
+.card-content h4 a {
+    text-decoration: none;
+    color: rgb(151, 151, 151);
+    font-size: 13px;
 
 }

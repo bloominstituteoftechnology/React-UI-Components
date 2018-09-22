@@ -3,9 +3,8 @@ import "./Footer.css";
 
 
 class Footer extends React.Component {
-    constructor (props) {
-        super(props);
-
+    constructor () {
+         super()
         // Can use two counter to count independently of eachother
         this.state = {
             count:0,
@@ -38,14 +37,14 @@ class Footer extends React.Component {
                 <i className="far fa-comment"/>
                     {" "}
                     <div className= "sync" onClick={this.countUp}>
-                        <i class="fas fa-sync" /><p>{this.state.count}</p></div>
+                        <i className="fas fa-sync" /><p>{this.state.count}</p></div>
             
                     {" "}
                     <div className="heart" onClick={this.increment}>
-                        <i class="fas fa-heart" /><p>{this.state.count2}</p></div>
+                        <i className="fas fa-heart" /><p>{this.state.count2}</p></div>
                     {" "}
                     <a href={`mailto:${this.state.email}`}> 
-                    <i class="far fa-envelope" /></a>
+                    <i className="far fa-envelope" /></a>
               </div>
             );
     } 
