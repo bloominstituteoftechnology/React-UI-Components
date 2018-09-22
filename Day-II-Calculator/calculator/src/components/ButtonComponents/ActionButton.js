@@ -9,7 +9,7 @@ const ActionButton = (props) =>{
                 <button className={props.displayStyle}>              
                     {props.text.clear}
                 </button>
-                <NumberButton data={props.data.divide} displayStyle="red-square" />
+                <NumberButton text={props.text.divide} displayStyle="red-square" />
             </div>
             <div className="button-container">
                 <NumberButton text={props.text.seven} />
