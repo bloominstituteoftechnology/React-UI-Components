@@ -1,1 +1,28 @@
 /* All styles for your header Components live here */
+.Header-Container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.Header-Title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.gray-margin {
+    margin-left: 10px;
+    color: gray;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.thumbnail {
+height: auto;
+width: 10%;
+padding: 20px 0;
+padding-right: 10px; 
+}

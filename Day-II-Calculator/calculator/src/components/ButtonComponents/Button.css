@@ -1,0 +1,56 @@
+.wide {
+    height: 100px;
+    width: 300px;
+    font-size: 5rem;
+    border: 1px solid black;
+    text-align: center;
+    padding-top: 25px; 
+}
+
+.wide:hover {
+    cursor: pointer;
+    background-color: lightslategrey;
+}
+
+.square {
+    height: 100px;
+    width: 100px;
+    font-size: 5rem;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.square:hover {
+    cursor: pointer;
+    background-color: lightslategrey;
+    border-top: 0px;
+}
+
+.action {
+    background-color: maroon;
+    color: white;
+    border-top: 1px solid white;
+}
+
+.boldBorder {
+    font-weight: bold;
+    border: 1px solid black;
+}
+
+.actionBar {
+    display: flex;
+    flex-direction: column;
+}
+
+.numberContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.numbers {
+    display: flex;
+}
+
+.containerButtons {
+    display: flex;
+}
