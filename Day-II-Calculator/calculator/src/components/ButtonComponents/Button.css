@@ -1,0 +1,32 @@
+/* Button styles */
+
+button {
+	height: 94px;
+	width: 100%;
+	border: 1px solid grey;
+	font-size: 4.4rem;
+	background-color: white;
+	color: black;
+}
+
+button:hover {
+	cursor: pointer;
+}
+
+.digit {
+	font-weight: bold;
+	width: 33.3%;
+}
+
+.zero {
+	font-weight: bold;
+}
+
+.clear {
+	font-size: 4.8rem;
+}
+
+.oper {
+	background-color: maroon;
+	color: white;
+}
