@@ -7,7 +7,7 @@ import './Button.css';
 //     }
 const NumberButton=(props)=>{
     return(
-        <button className={props.class} onclick={props.click}>{props.text}</button>
+        <button className={props.class} onClick={props.click} input={props.value}>{props.text}</button>
     )
 
 }
