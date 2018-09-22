@@ -1,1 +1,32 @@
 /* All styles for your header Components live here */
+ .headerContainer {
+     height: 80px;
+     display: flex;
+     justify-content: space-between;
+     align-items: flex-start;
+     padding-top: 5px;
+ }
+
+ .headerContent {
+    margin: 0 5px;
+ }
+
+ .thumbnail img{
+    height: 50px;
+    width: 50px;
+ }
+
+ .title {
+    width: 305px;
+    display: flex;
+    justify-content: space-between;
+
+ }
+
+ .bold {
+     font-weight: bold;
+ }
+
+ .lightGrey {
+     color: gray;
+ }

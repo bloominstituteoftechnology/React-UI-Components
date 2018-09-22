@@ -1,0 +1,13 @@
+.icons {
+    display: flex;
+    width: 300px;
+    align-self: flex-start;
+    justify-content: space-evenly;
+    color: grey;
+    margin-bottom: 5px;
+    font-family: sans-serif;
+}
+
+.icons i {
+    cursor: pointer;
+}

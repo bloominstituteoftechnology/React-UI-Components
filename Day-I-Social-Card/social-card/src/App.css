@@ -2,3 +2,16 @@
   Write your styles/CSS for App.js here and import into the component that you need 
   IF you'd like to attempt to use less you'll have to research how to do this with Create React App
 */
+
+@import 'components/HeaderComponents/Header.css';
+
+.app {
+  border: 1px solid black;
+  width: 590px;
+  height: 514px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+}

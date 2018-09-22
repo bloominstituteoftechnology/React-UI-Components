@@ -1,1 +1,27 @@
 /* All styles for your Card Components live here */
+.cardContainer {
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    margin-right: 10px;
+    width: 530px;
+}
+.img {
+    height: 240px;
+    width: 530px;
+}
+
+.cardContent {
+    width: 530px;
+    padding-left: 10px;
+    
+}
+
+a {
+    align-self: flex-end;
+    text-decoration: none;
+    color: black;
+}
