@@ -1,31 +1,62 @@
-.number-buttons {
+.main-numbers {
     display: flex;
     flex-wrap: wrap;
+    margin: 0;
+    width: 75%;
 }
 
 .number {
-    border: 1px solid black;
+    border: 1px solid grey;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 25%;
-    height: 102px;
+    width: 32.5%;
+    height: 85px;
     margin: 0;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.clear-numbers {
+    border: 1px solid grey;
+    width: 74%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85px;
+    font-size: 40px;
+}
+
+.zero {
+    border: 1px solid grey;
+    width: 74%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85px;
+    font-weight: bold;
+    font-size: 40px;
 }
 
 .action-buttons {
     display: flex;
     flex-direction: column;
+    align-items: flex-end;
+    width: 25%;
+    margin: 0;
+    float: right;
 }
 
 .action {
-    border: 1px solid black;
     color: white;
     background-color: firebrick;
+    border: 1px solid grey;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 25%;
-    height: 102px;
+    width: 100%;
+    height: 85px;
     margin: 0;
+    font-weight: bold;
+    font-size: 40px;
 }
