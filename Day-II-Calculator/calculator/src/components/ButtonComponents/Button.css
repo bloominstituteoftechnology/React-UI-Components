@@ -31,5 +31,6 @@
 .button-operator {
     width: 100%;
     background: #A0001E;
+    color: white;
     font-size: 60px;
 }
