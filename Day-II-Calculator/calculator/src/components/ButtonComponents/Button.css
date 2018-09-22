@@ -9,6 +9,10 @@
     cursor: pointer;
 }
 
+.number-button:hover, .action-button:hover {
+    background: lightgrey;
+}
+
 .action-button {
     background: #A0001E;
     color: white;

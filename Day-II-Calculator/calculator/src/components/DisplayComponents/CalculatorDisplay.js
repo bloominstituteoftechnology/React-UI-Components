@@ -8,11 +8,11 @@ class Display extends Component {
     }
 
     render() {
-        const {number} = this.props;
+        const {expression} = this.props;
 
         return (
             <FlexRow justifyEnd alignCenter className="display">
-                <span className="number">{number}</span>
+                <span className="number">{expression}</span>
             </FlexRow>
         )
     }

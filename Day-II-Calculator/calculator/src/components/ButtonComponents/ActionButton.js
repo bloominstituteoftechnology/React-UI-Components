@@ -14,10 +14,18 @@ class ActionButton extends Component {
         super(props);
     }
 
+    setExpression = children => {
+        if (children === '=') return this.props.calculate();
+        if (children === '÷') return this.props.setExpression("/");
+        if (children === 'x') return this.props.setExpression("*");
+        this.props.setExpression(children);
+    };
+
     render() {
         const {bold, children} = this.props;
         return (
-            <FlexRow justifyCenter alignCenter className="action-button">
+            <FlexRow justifyCenter alignCenter className="action-button"
+                     onClick={() => this.setExpression(children)}>
                 <Number weight={bold}>{children}</Number>
             </FlexRow>
         )
