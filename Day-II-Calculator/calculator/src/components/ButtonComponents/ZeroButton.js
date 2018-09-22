@@ -3,8 +3,8 @@ import './Button.css';
 
 const ZeroButton = (props) => {
     return (
-        <div className="bigButton">
-            0000
+        <div className={props.displayStyle}>
+            {props.text.numArray[0]}
         </div>
     );
 };

@@ -4,12 +4,12 @@ import ClearButton from './ClearButton';
 import NumberButton from './NumberButton';
 import ZeroButton from './ZeroButton';
 
-const NumberPad = () => {
+const NumberPad = (props) => {
     return(
-        <div className="numberPad">
+        <div className={props.displayStyle}>
             <ClearButton />
-            <NumberButton />
-            <ZeroButton />
+            <NumberButton text={props.text} displayStyle="numberButtons"/>
+            <ZeroButton text={props.text} displayStyle="bigButton zero" />
         </div>
     );
 };
