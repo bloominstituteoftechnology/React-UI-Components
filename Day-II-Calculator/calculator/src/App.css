@@ -1,11 +1,17 @@
+/* calculator container styling */
+
 .container {
     border: 1px solid #979797;
     display: inline-block;
 }
 
+/* styling for each row of calculator */
+
 .row {
     display: flex;
 }
+
+/* styling all components with consistent border, height, font, alignment */
 
 .all {
     display: flex;
