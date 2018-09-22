@@ -14,7 +14,7 @@ const CardContent = () =>{
         </p>
         <h4>reactjs.org</h4>
       </div>
-      <Footer/>
+      <Footer/> 
     </div>
   );
 }

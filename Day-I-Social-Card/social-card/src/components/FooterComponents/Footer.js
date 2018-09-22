@@ -1,14 +1,14 @@
 import React from 'react';
 import './Footer.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+//import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Footer = () =>{
   return(
     <div className="footer-content">
-      <FontAwesomeIcon icon="comment"/>
+      {/* <FontAwesomeIcon icon="comment"/>
       <span><FontAwesomeIcon icon="retweet" /> 6</span>
       <span><FontAwesomeIcon icon="heart" /> 4 </span>
-      <FontAwesomeIcon icon="envelope" />
+      <FontAwesomeIcon icon="envelope" /> */}
     </div>
   );
 }
