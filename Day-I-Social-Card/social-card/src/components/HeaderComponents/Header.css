@@ -1,1 +1,29 @@
 /* All styles for your header Components live here */
+
+ .Header-Container {
+    display: flex; 
+    margin: 10px; 
+    width: 100%; 
+}
+ .Text-Content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 20px; 
+}
+ .lambda-logo{
+   height: 35px; 
+   width: 35px; 
+   margin-top: 22px; 
+}
+ .Header-Title {
+   display: flex; 
+   flex-wrap: wrap; 
+   width: 70%; 
+   transform: translate(0px, 12px); 
+    
+}
+ .Main-Text {
+   font-size: 14px;
+   width: 99%;
+} 
