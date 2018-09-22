@@ -2,12 +2,10 @@ import React from 'react';
 import './Card.css';
 
 
-const CardTitle = () => {
+const CardHeader = () => {
     return (
-    <div>
         <h2>Lambda School</h2>
-    </div>
     );
   };
   
-export default CardTitle;
+export default CardHeader;

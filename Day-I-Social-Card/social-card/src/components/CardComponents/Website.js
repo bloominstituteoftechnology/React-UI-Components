@@ -3,7 +3,7 @@ import './Card.css';
 
 const Website = () => {
     return (
-        <p>
+        <p className='website'>
         reactjs.org
      </p>
     );

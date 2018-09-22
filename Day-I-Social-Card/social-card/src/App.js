@@ -5,8 +5,8 @@ import HeaderContainer from './components/HeaderComponents/HeaderContainer';
 import CardContainer from './components/CardComponents/CardContainer';
 const App = () => {
   return (
-    <div>
-      <HeaderContainer />
+    <div class='all'>
+      <HeaderContainer className="top" />
       <CardContainer />
     </div>
   );
