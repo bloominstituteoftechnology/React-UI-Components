@@ -3,7 +3,7 @@ import './Button.css';
 
 const ClearButton = (props) => {
     return (
-        <div>
+        <div className="bigButton">
         Clear
         </div>
     );

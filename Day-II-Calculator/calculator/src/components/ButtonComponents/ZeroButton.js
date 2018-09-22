@@ -3,7 +3,7 @@ import './Button.css';
 
 const ZeroButton = (props) => {
     return (
-        <div>
+        <div className="bigButton">
             0000
         </div>
     );

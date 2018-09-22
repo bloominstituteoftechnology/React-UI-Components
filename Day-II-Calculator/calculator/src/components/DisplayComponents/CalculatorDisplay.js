@@ -3,7 +3,7 @@ import './Display.css';
 
 const Display = (props) => {
     return (
-        <div>
+        <div className="display">
             Display
         </div>
     );

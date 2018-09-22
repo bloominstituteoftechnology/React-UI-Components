@@ -1,0 +1,8 @@
+.calculatorContainer {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    width: 456px;
+    height: 598px;
+    margin: auto;
+}
