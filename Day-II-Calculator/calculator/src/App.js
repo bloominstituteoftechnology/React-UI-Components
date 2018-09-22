@@ -8,22 +8,22 @@ const App = () => {
   return (
     <div className="App">
         <CalculatorDisplay value="0" />
-        <ActionButton classname="button actionButton wide" value="Clear"/>
-        <ActionButton classname="button actionButton" value="÷" />
-        <NumberButton classname="button" value="7" />
-        <NumberButton classname="button" value="8" />
-        <NumberButton classname="button" value="9" />
-        <ActionButton classname="button actionButton" value="X" />
-        <NumberButton classname="button" value="4" />
-        <NumberButton classname="button" value="5" />
-        <NumberButton classname="button" value="6" />
-        <ActionButton classname="button actionButton" value="-" />
-        <NumberButton classname="button" value="1" />
-        <NumberButton classname="button" value="2" />
-        <NumberButton classname="button" value="3" />
-        <ActionButton classname="button actionButton" value="+" />
-        <NumberButton classname="button wide" value="0" />
-        <ActionButton classname="button actionButton" value="=" />
+        <ActionButton buttonStyle="button actionButton wide" text="Clear"/>
+        <ActionButton buttonStyle="button actionButton" text="÷" />
+        <NumberButton buttonStyle="button" text="7" />
+        <NumberButton buttonStyle="button" text="8" />
+        <NumberButton buttonStyle="button" text="9" />
+        <ActionButton buttonStyle="button actionButton" text="X" />
+        <NumberButton buttonStyle="button" text="4" />
+        <NumberButton buttonStyle="button" text="5" />
+        <NumberButton buttonStyle="button" text="6" />
+        <ActionButton buttonStyle="button actionButton" text="-" />
+        <NumberButton buttonStyle="button" text="1" />
+        <NumberButton buttonStyle="button" text="2" />
+        <NumberButton buttonStyle="button" text="3" />
+        <ActionButton buttonStyle="button actionButton" text="+" />
+        <NumberButton buttonStyle="button wide" text="0" />
+        <ActionButton buttonStyle="button actionButton" text="=" />
     </div>
   );
 };
