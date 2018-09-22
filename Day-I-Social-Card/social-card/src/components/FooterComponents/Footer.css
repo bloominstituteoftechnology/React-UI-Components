@@ -1,3 +1,29 @@
 .footer {
-  text-align: center;
+  display: flex;
+  width: 60%;
+  padding-left: 9%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer a {
+  text-decoration: none;
+  letter-spacing: 10px;
+  color: #222222;
+  font-size: 1.25rem;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  transition: 0.15s;
+  /* border: 1px solid blue; */
+  width: 15%;
+}
+
+.footer i {
+  font-size: 1.3rem;
+}
+
+.footer i:hover {
+  color: white;
+  text-shadow: 1px 1px 8px rgb(160, 1, 30), -1px -1px 8px rgb(160, 1, 30),
+    1px -1px 8px rgb(160, 1, 30), -1px 1px 8px rgb(160, 1, 30);
 }
