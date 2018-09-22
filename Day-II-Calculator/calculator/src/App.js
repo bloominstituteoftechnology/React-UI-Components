@@ -24,9 +24,9 @@ const App = () => {
             <ActionButton buttonStyle="action-clear" text="0"/>
           </div>
           <div className ="mid-action">
-              <ActionButton buttonStyle="action-red" text="÷"/>
-              <ActionButton buttonStyle="action-red" text="x"/>
-              <ActionButton buttonStyle="action-red" text="-"/>
+              <ActionButton buttonStyle="action-red" text="&divide;"/>
+              <ActionButton buttonStyle="action-red" text="&times;"/>
+              <ActionButton buttonStyle="action-red" text="&mdash;"/>
               <ActionButton buttonStyle="action-red" text="+"/>
               <ActionButton buttonStyle="action-red" text="="/> 
           </div>
