@@ -14,7 +14,7 @@ const App = () => {
           </div>
 
           <div>
-            <ActionButton buttonStyle={'action'} text={'clear'} />
+            <ActionButton buttonStyle={'action'} text={'Clear'} />
             <NumberButton buttonStyle={'redNumber'} text={'/'} />
           </div>
 
@@ -37,7 +37,7 @@ const App = () => {
             <NumberButton buttonStyle={'redNumber'} text={'+'} />
           </div>
           <div>
-            <ActionButton id="bold-digit" buttonStyle={'action'} text={'0'} />
+            <ActionButton buttonStyle={'action'} text={'0'} />
             <NumberButton buttonStyle={'redNumber'} text={'='} />
           </div>
 

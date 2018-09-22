@@ -1,6 +1,5 @@
 .container{
-    margin-top: 10%; 
-    margin-bottom: 10%; 
+    margin: 50px 0px; 
     border: 1px solid grey; 
 }
 
@@ -20,6 +19,7 @@
     width: 115px; 
     height: 100px; 
     font-size: 45px; 
+    border: 1px solid grey; 
   }
 
   #bold-digit{
