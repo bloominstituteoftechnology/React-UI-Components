@@ -1,0 +1,21 @@
+.wide {
+    height: 100px;
+    width: 300px;
+    font-size: 4rem;
+}
+
+.square {
+    height: 100px;
+    width: 100px;
+    font-size: 4rem;
+    border-top: 1px solid white;
+}
+
+.action {
+    background-color: red;
+    color: white;
+}
+
+.bold {
+    font-weight: bold;
+}
