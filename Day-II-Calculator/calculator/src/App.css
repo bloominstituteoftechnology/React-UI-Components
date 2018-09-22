@@ -1,0 +1,63 @@
+.calculator {
+  border: 2px solid gray;
+  margin: 100px auto;
+  max-width: 360px;
+  display: grid;
+  grid-gap: 2px;
+  background-color: gray;
+  grid-template-areas:
+    "display display display display"
+    "btn-clear btn-clear btn-clear btn-divide"
+    "btn-7 btn-8 btn-9 btn-multiply"
+    "btn-4 btn-5 btn-6 btn-subtract"
+    "btn-1 btn-2 btn-3 btn-add"
+    "btn-0 btn-0 btn-0 btn-equal";
+}
+
+.btn-clear {
+  grid-area: btn-clear;
+  font-weight: normal;
+  font-size: 2.4rem;
+  background-color: white;
+  color: black;
+}
+
+.btn-0 { grid-area: btn-0; }
+
+.btn-1 { grid-area: btn-1; }
+
+.btn-2 { grid-area: btn-2; }
+
+.btn-3 { grid-area: btn-3; }
+
+.btn-4 { grid-area: btn-4; }
+
+.btn-5 { grid-area: btn-5; }
+
+.btn-6 { grid-area: btn-6; }
+
+.btn-7 { grid-area: btn-7; }
+
+.btn-8 { grid-area: btn-8; }
+
+.btn-9 { grid-area: btn-9; }
+
+.btn-divide {
+  grid-area: btn-divide;
+}
+
+.btn-multiply {
+  grid-area: btn-multiply;
+}
+
+.btn-subtract {
+  grid-area: btn-subtract;
+}
+
+.btn-add {
+  grid-area: btn-add;
+}
+
+.btn-equal {
+  grid-area: btn-equal;
+}
