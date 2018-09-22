@@ -14,8 +14,12 @@
   font-weight: bold;
 }
 
-.button:not(:last-child) {
+.button:not(.border-radius) {
   border-bottom-right-radius: 0;
+}
+
+.border-radius {
+  border-bottom-right-radius: 5px;
 }
 
 .clear-button {

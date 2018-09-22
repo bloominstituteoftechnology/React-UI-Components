@@ -6,7 +6,7 @@ const isOperator = val => {
 };
 export const NumberButton = props => (
   <div
-    className={`button ${isOperator(props.children) ? null : "color-red"}`}
+    className={`button ${isOperator(props.children) ? null : "color-red"} ${props.displayStyle}`}
     onClick={() => props.handleClick(props.children)}
   >
     {props.children}

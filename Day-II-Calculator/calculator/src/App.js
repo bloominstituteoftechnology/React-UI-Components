@@ -65,7 +65,7 @@ class App extends Component {
             >
               0
             </ActionButton>
-            <NumberButton handleClick={() => this.equalSign()}>=</NumberButton>
+            <NumberButton displayStyle="border-radius" handleClick={() => this.equalSign()}>=</NumberButton>
           </div>
         </div>
       </div>
