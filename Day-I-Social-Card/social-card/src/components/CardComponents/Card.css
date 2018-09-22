@@ -12,14 +12,22 @@
     font-weight: bold;
     color: black;
     margin-left: 75px;;
+    text-decoration:none;
 }
 
 .CardContentParagraph{
     margin-left:75px;
-    width:40%
+    width:35%;
+    text-decoration:none;
+    color:black;
 }
 
 .source{
     margin-left:75px;
     color:gray;
+    text-decoration:none;
+}
+
+.nounder{
+    text-decoration:none;
 }
