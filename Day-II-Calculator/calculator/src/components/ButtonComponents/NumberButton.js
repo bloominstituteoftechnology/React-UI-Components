@@ -4,10 +4,15 @@ import './Button.css';
 const NumberButton = (props) => {
     // prop.displayNumber === 1;
     return (
-        <div>
-            I am a number button.
-        </div>
+        <button className = {props.buttonStyle}>
+            {props.text}
+        </button>
     );
+}
+
+NumberButton.defaultProps = {
+    text: "Enter Number Text",
+    buttonStyle: "number",
 }
 
 export default NumberButton;
