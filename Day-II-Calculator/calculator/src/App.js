@@ -15,7 +15,7 @@ class App extends React.Component {
   }
 
   update(button) {
-    this.setState({currentDisplay: 5});
+    this.setState({currentDisplay: button});
     console.log(this.state)
   }
 
