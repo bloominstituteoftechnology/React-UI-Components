@@ -1,18 +1,77 @@
 .app {
   width: 450px;
   height: 600px;
-  background-color: pink;
   margin: auto;
   display: flex;
   flex-direction: column;
+  border: 1px solid gray;
 }
-.app .display {
+.app .displayNumber {
+  border: 1px solid gray;
+  background-color: black;
   font-size: 6rem;
   color: white;
-  background-color: black;
-  height: 100px;
+  padding: 20px;
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  padding-right: 20px;
+}
+.app .buttonContainer {
+  display: flex;
+}
+.app .buttonContainer .whiteContainer {
+  width: 75%;
+}
+.app .buttonContainer .actionButtonContainer {
+  width: 25%;
+  background-color: maroon;
+  display: flex;
+  flex-direction: column;
+}
+.app .buttonContainer .actionButtonContainer .actionButton {
+  width: 99%;
+  height: 99px;
+  font-size: 6rem;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid gray;
+}
+.app .buttonContainer .actionButtonContainer .equal {
+  border-bottom: none;
+}
+.app .buttonContainer .whiteContainer {
+  display: flex;
+  flex-direction: column;
+  font-size: 5rem;
+}
+.app .buttonContainer .whiteContainer .clear {
+  height: 98px;
+  border: 1px solid gray;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.app .buttonContainer .whiteContainer .oneToNine {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.app .buttonContainer .whiteContainer .oneToNine .interger {
+  width: 110.5px;
+  height: 96px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid gray;
+}
+.app .buttonContainer .whiteContainer .zero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 96px;
+  border: 1px solid gray;
 }
