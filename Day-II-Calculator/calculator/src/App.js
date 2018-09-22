@@ -7,14 +7,13 @@ import ActionButtonsContainer from './components/ButtonComponents/ActionButtonCo
 const App = () => {
   return (
     <div className="cta">
-      <Display className="displayContainer" />
+      <Display />
       <div className="NumberAndActionContainer">
-        <NumberButtonsContainer className="appNumberContainer" />
-        <ActionButtonsContainer className="appActionContainer" />
+        <NumberButtonsContainer />
+        <ActionButtonsContainer />
       </div>
-
     </div>
-  );
-};
+  )
+}
 
 export default App;

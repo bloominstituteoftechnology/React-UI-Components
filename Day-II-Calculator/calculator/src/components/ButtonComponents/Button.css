@@ -134,46 +134,48 @@ table {
   border-spacing: 0;
 }
 /* Your Code Goes Here */
-.numberContainer{
-    width:75%;
-    display:flex;
-    flex-wrap:wrap;
+.numberContainer {
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.clearZero{
-    width:100%;
-    border:1px solid gray;
-    text-align:center;
-    padding:20px;
+.clearZero {
+    width: 100%;
+    border: 1px solid gray;
+    text-align: center;
+    padding: 30px 20px 0px 20px;
     cursor: pointer;
-    font-size:40px;
+    font-size: 40px;
+    
 }
 
-.numbers{
-    width:21%;
-    border:1px solid gray;
-    text-align:center;
-    padding:20px;
+.numbers {
+    width: 21%;
+    border: 1px solid gray;
+    text-align: center;
+    padding: 30px 20px 0px 20px;
     cursor: pointer;
-    font-size:40px;
+    font-size: 40px;
     font-weight: bold;
+    
+    
 }
-.zero{
-  font-weight:bold;
+.zero {
+  font-weight: bold;
 }
-.actionContainer{
-    width:25%;
-    display:flex;
+.actionContainer {
+    width: 25%;
+    display: flex;
     flex-direction: column;
-    border: 1px solid green;
 }
 
-.action{
-    width:65%;
+.action {
+    width: 65%;
     background-color: #A0001E;
     color:white;
-    font-size:60px;
+    font-size: 60px;
     text-align: center;
-    padding:20px;
+    padding: 20px;
     border: 1px solid gray;
 }

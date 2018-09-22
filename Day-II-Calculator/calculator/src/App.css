@@ -134,20 +134,11 @@ table {
   border-spacing: 0;
 }
 /* Your Code Goes Here */
-.cta{
-    max-width:456px;
-    border:2px solid gray;
+.cta {
+    max-width: 456px;
+    border: 2px solid gray;
 }
-.displayContainer{
-    width:100%;
-}
-.NumberAndActionContainer{
-    display: flex;
-}
-.appNumberContainer{
-    /* width:74%; */
 
-}
-.appActionContainer{
-    /* width:24%; */
+.NumberAndActionContainer {
+    display: flex;
 }

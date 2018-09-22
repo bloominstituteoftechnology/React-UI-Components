@@ -135,12 +135,11 @@ table {
 }
 /* Your Code Goes Here */
 
-.display{
-    width:97.7%;
-    text-align: end;
-    color:white;
-    background-color: black;
-    font-size:90px;
-    padding:20px 10px 20px 0px;
-
+.display {
+    width: 97.7%;
+    text-align : end;
+    color :white;
+    background-color : black;
+    font-size: 90px;
+    padding: 20px 10px 20px 0px;
 }
