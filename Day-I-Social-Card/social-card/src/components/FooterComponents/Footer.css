@@ -1,0 +1,26 @@
+.footerContainer {
+    width:100%;
+    display:flex;
+    justify-content: space-evenly;
+    margin-top:20px;
+}
+
+.comment {
+    transform: scaleX(-1)
+}
+
+.comment {
+    color:lightgray;   
+}
+
+.sync{
+    color:lightgray;
+}
+
+.heart {
+    color:lightgrey;
+}
+
+.envelope {
+    color:lightgray;
+}
