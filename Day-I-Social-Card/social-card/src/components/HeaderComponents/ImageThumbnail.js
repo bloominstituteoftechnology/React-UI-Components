@@ -3,7 +3,7 @@ import './Header.css';
 
 const ImageThumbnail=()=>{
     return (
-        <img src="https://ibin.co/3whrpKSBbZ81.png" alt="logo"></img>
+        <img src={'http://placehold.it/400x20&text=slide1'} alt="logo"/>
         )
 }
 
