@@ -1,1 +1,35 @@
-/* All styles for your Card Components live here */
+.card-container {
+    width: 430px;
+    border: thin solid lightgray;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+.banner {
+    width: 100%;
+    height: 300px;
+    background-image: url('../../img/react.png');
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.title, .description, .url{
+    margin: 5px 0;
+    font-size: 1.4rem;
+}
+
+.title {
+    font-weight: bold;
+}
+
+.url {
+    color: #b1b0b0;
+}

@@ -1,0 +1,13 @@
+.display {
+    background: #222222;
+    padding: 20px;
+    width: 100%;
+    height: 130px;
+    border: thin solid #979797;
+    box-sizing: border-box;
+}
+
+.number {
+    font-size: 5rem;
+    color: white;
+}
