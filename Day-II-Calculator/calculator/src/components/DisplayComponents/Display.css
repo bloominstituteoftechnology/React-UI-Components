@@ -7,5 +7,8 @@
   justify-content: flex-end;
   align-items: center;
   font-size: 50px;
-  outline: solid #222;
+  /* outline: solid #222; */
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border: 1px solid #222;
 }

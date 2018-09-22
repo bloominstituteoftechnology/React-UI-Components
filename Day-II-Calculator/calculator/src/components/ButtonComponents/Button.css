@@ -1,8 +1,10 @@
 .button {
-  background-color: #ecf0f1;
+  background-color: rgba(236, 240, 241, 0.80);
   color: black;
   padding: 20px 25px;
-  outline: solid #222;
+  /* outline: solid #222; */
+  border-bottom-right-radius: 5px;
+  border: 1px solid #222;
   /*   flex-basis: 25%; */
   flex: 1 0 0;
   display: flex;
@@ -16,20 +18,25 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #ecf0f1;
+  background-color: rgba(236, 240, 241, 0.80);
   color: black;
   padding: 20px 25px;
   flex-basis: 50%;
   font-size: 40px;
-  outline: solid #222;
+  /* outline: solid #222; */
+  border: 1px solid #222;
   font-weight: bold;
+  border-bottom-left-radius: 5px;
 }
 
 .no-bold {
   font-weight: lighter;
+  border-bottom-left-radius: 0;
 }
 
 .color-red {
-  background-color: #b33939;
+  background-color: rgba(179, 57, 57, .6);
   color: white;
+  border-bottom-right-radius: 5px;
+  border: 1px solid #222;
 }
