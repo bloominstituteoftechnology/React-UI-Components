@@ -2,8 +2,6 @@ import React from 'react';
 import "./Footer.css";
 
 
-
-
 class Footer extends React.Component {
     constructor (props) {
         super(props);
@@ -52,27 +50,5 @@ class Footer extends React.Component {
             );
     } 
 }
-
-
-
-// Testing the look of the items here
-// const Footer = () => {
-
-// return (
-//   <div className="chat-bubble">
-//     {" "}
-//     <i className="far fa-comment"/>
-//         {" "}
-//         <div className= "sync" onClick={()=>{alert('clicked')}}>
-//             <i class="fas fa-sync" /><p>6</p></div>
-
-//         {" "}
-//         <div className="heart">
-//             <i class="fas fa-heart" /><p>4</p></div>
-//         {" "}
-//         <i class="far fa-envelope"/>
-//   </div>
-// );
-// };
 
 export default Footer;

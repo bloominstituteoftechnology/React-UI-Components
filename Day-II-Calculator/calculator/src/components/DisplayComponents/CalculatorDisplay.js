@@ -3,13 +3,12 @@ import './Display.css';
 
 
 
-const Display = (props) => {
+export const Display = (props) => {
 
     return (
     
-      <div className="display"><p>0</p></div>
+      <div className="display"><p>{props.input}</p></div>
  
     )
 }
 
-export default Display

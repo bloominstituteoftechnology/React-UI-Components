@@ -7,11 +7,13 @@ const HeaderTitle = () => {
 return (
   <div>
     <div className='lambdaHeader'>
-      <h1> Lambda School</h1> <h3>@LambdaSchool</h3> <h3>&bull;</h3> <h3>{now}</h3>
+      <h1> Lambda School</h1> <h3>@LambdaSchool</h3>
+      <h3>&bull;</h3> 
+      <h3>{now}</h3>
     </div>
   </div>
 );
 };
 
 
-export default HeaderTitle;
+export default HeaderTitle

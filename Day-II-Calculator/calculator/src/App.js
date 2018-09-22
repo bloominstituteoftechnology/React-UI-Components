@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Display from './components/DisplayComponents/CalculatorDisplay';
+import {Display} from './components/DisplayComponents/CalculatorDisplay';
 import NumberDisplay from './components/ButtonComponents/NumberDisplay';
 
 const App = () => {
