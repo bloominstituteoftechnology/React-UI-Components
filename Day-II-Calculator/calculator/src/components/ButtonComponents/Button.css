@@ -1,0 +1,85 @@
+.NumbersContainer {
+    display: flex;
+    max-width: 235px;
+    width: 235px;
+    height: 285px;
+    border: 2px solid purple;
+
+}
+
+.LeftContainer {
+display: flex;
+flex-direction: column;
+max-width: 338px;
+width: 338px;
+height: 471px;
+border: 2px solid green;
+top: 126px;
+left: 0px;
+}
+
+.NumbersKey {
+
+
+}
+.ActionButtonsContainer {
+    display: flex;
+    flex-direction: column;
+    max-width: 121px;
+    width: 121px;
+    height: 475px;
+    background-color: rgb(160, 0, 30);   
+    color: white;
+    border: 2px solid blue;
+
+}
+
+.ClearKey {
+display: flex;
+height: 90px;
+width: 335px;
+max-width: 335px;
+border: 2px solid red;
+}
+
+.ZeroKey {
+    display: flex;
+    height: 90px;
+    width: 335px;
+    max-width: 335px;
+    color: black;
+    background-color: white;
+    font-size: 1.8px;
+    border: 2px solid orange;
+
+}
+
+.LowerContainer {
+width: 456px;
+height: 475px;
+display: flex;
+flex-direction: column;
+top: 126px;
+left: 0px;
+
+
+}
+
+.ActionButton {
+background-color: red;
+border: 1px solid lightgray;
+width: 95px;
+height: 120px;
+color: white;
+
+
+}
+
+.CalculatorContainer {
+display: flex;
+flex-direction: column;
+width: 456px;
+height: 598px;
+
+
+}
