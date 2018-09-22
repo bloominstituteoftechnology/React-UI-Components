@@ -1,0 +1,56 @@
+.btn-number{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  width:100%;
+  height: 70px;
+  max-width:96px;
+  border:1px solid #838282;
+  cursor: pointer;
+}
+
+.btn-number p{
+  font-size: 4rem;
+  font-family: Helvetica,Arial,sans-serif;
+
+}
+
+.action-clear{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  width:100%;
+  height: 69px;
+  max-width:292px;
+  border:1px solid #838282;
+  cursor: pointer;
+}
+
+.action-clear p{
+  font-size: 4rem;
+  font-family: Helvetica,Arial,sans-serif;
+  font-weight: lighter;
+}
+
+.action-red{
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: center;
+  width:100%;
+  height:70px;
+  max-width:82px;
+  border:1px solid lightgray;
+  background-color:darkred;
+  position: relative;
+  right: 5px;
+  top: -1px;
+  cursor: pointer;
+}
+
+.action-red p{
+  font-size: 4rem;
+  font-family: Helvetica,Arial,sans-serif;
+  color: white;
+  
+}

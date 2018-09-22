@@ -1,0 +1,22 @@
+.display-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  border:1px solid lightgray;
+	width: 100%;
+  background-color: black;
+  height: 80px;
+  max-width: 376px;
+  position: relative;
+  right: 2px;
+}
+
+.display-container p{
+  font-size: 4rem;
+  font-family: Helvetica,Arial,sans-serif;
+  color: white;
+  align-self: center;
+  margin-right: 8px;
+
+}
+
