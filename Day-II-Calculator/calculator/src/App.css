@@ -5,6 +5,7 @@
     width: 456px;
     margin: 0 auto;
     border: 2px solid green;
+    flex-direction: column;
 }
 
 /* TODO - Move these into their own fieldset */

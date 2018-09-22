@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import ButtonRowTwo from './components/ButtonComponents/ButtonRowTwo.js';
 
 const CalculatorDisplay = () => {
   return(<div className="cd-main">
@@ -9,7 +10,10 @@ const CalculatorDisplay = () => {
 
 const App = () => {
   return (
-    <CalculatorDisplay />
+    <div id="root">
+      <CalculatorDisplay />
+      <ButtonRowTwo name="hey there" />
+    </div>
   );
 };
 
