@@ -1,1 +1,29 @@
 /* All styles for your Card Components live here */
+.card-container {
+    padding-left: 53px;
+    cursor: pointer;
+}
+
+.banner-container{
+    margin-right: 10px;
+}
+
+.banner-container img {
+    width: 100%;
+    height: 200px;
+}
+
+.card-content {
+    padding: 0 20PX 0 10PX;
+    margin-bottom: 10px;
+
+}
+
+.card-content h1 {
+    margin: 5px 0;
+}
+
+a:hover, a:visited, a:link, a:active {
+    text-decoration: none;
+    cursor: pointer;
+}

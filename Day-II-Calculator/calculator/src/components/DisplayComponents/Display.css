@@ -1,0 +1,15 @@
+/* background font: #222222 */
+/* color: #FFFFFF */
+
+.display {
+    border: none;
+    background-color: #222222;
+    color: #FFFFFF;
+    height: 91px;
+    width: 100%;
+    padding-right: 10px;
+    margin: 0;
+    text-align: right;
+    font-size: 55px;
+
+}
