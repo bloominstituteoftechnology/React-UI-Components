@@ -12,29 +12,23 @@ const App = () => {
       <div>
         <CalculatorDisplay />
       </div>
-      <div>
+      <div className="buttons">
         <ClearButton buttonStyle={'clear'} text={'Clear'}/>
-      </div>
-      <div>
         <ActionButton buttonStyle={'action'} text={'%'}/>
-        <ActionButton buttonStyle={'action'} text={'x'}/>
-        <ActionButton buttonStyle={'action'} text={'-'}/>
-        <ActionButton buttonStyle={'action'} text={'+'}/>
-        <ActionButton buttonStyle={'action'} text={'='}/>
-      </div> 
-      <div>
-		    <NumberButton buttonStyle={'number'} text={'7'}/>
+        <NumberButton buttonStyle={'number'} text={'7'}/>
 		    <NumberButton buttonStyle={'number'} text={'8'}/>
 		    <NumberButton buttonStyle={'number'} text={'9'}/>
-		    <NumberButton buttonStyle={'number'} text={'4'}/>
+        <ActionButton buttonStyle={'action'} text={'x'}/>
+        <NumberButton buttonStyle={'number'} text={'4'}/>
 		    <NumberButton buttonStyle={'number'} text={'5'}/>
 		    <NumberButton buttonStyle={'number'} text={'6'}/>
-		    <NumberButton buttonStyle={'number'} text={'1'}/>
+        <ActionButton buttonStyle={'action'} text={'-'}/>
+        <NumberButton buttonStyle={'number'} text={'1'}/>
 		    <NumberButton buttonStyle={'number'} text={'2'}/>
 		    <NumberButton buttonStyle={'number'} text={'3'}/>
-      </div>  
-      <div>
+        <ActionButton buttonStyle={'action'} text={'+'}/>
         <ZeroButton buttonStyle={'clear'} text={'0'}/>
+        <ActionButton buttonStyle={'action'} text={'='}/>
       </div>
     </div>  
 	);
