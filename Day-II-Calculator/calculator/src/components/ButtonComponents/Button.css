@@ -1,24 +1,31 @@
 .NumbersContainer {
     display: flex;
-    max-width: 235px;
-    width: 235px;
-    height: 285px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 334px;
+    width: 334px;
+    height: 283px;
     border: 2px solid purple;
+    top: 220px;
+    left: 0px;
 
 }
 
 .LeftContainer {
 display: flex;
 flex-direction: column;
-max-width: 338px;
-width: 338px;
-height: 471px;
+max-width: 336px;
+width: 336px;
+height: 470px;
 border: 2px solid green;
-top: 126px;
+top: 130px;
 left: 0px;
 }
 
-.NumbersKey {
+.NumberButton {
+/* display: flex; */
+width: 98px;
+height: 110px;
 
 
 }
@@ -26,51 +33,55 @@ left: 0px;
     display: flex;
     flex-direction: column;
     max-width: 121px;
-    width: 121px;
-    height: 475px;
+    width: 120px;
+    height: 469px;
     background-color: rgb(160, 0, 30);   
     color: white;
-    border: 2px solid blue;
-
+    border: 2px solid orangered;
+    left: 335px;
+    top: 127px;
 }
 
 .ClearKey {
 display: flex;
 height: 90px;
-width: 335px;
+width: 333px;
 max-width: 335px;
+top: 127px;
+left: 0px;
 border: 2px solid red;
 }
 
 .ZeroKey {
     display: flex;
     height: 90px;
-    width: 335px;
-    max-width: 335px;
+    width: 333px;
+    max-width: 333px;
     color: black;
     background-color: white;
-    font-size: 1.8px;
+    font-size: 18px;
     border: 2px solid orange;
-
+left: 0px;
+top: 503px;
 }
 
 .LowerContainer {
 width: 456px;
-height: 475px;
+height: 473px;
 display: flex;
-flex-direction: column;
-top: 126px;
+flex-direction: row;
+top: 130px;
 left: 0px;
 
-
+border: 2px solid blue;
 }
 
 .ActionButton {
 background-color: red;
 border: 1px solid lightgray;
 width: 95px;
-height: 120px;
-color: white;
+height: 95px;
+color: black;
 
 
 }

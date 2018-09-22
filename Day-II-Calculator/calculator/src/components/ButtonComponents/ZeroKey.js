@@ -4,7 +4,7 @@ import './Button.css';
 
 const ZeroKey = () => {
     return (
-        <div className='ZeroKey'>000
+        <div className='ZeroKey'>000 Zero Key
         
         </div>
     )
