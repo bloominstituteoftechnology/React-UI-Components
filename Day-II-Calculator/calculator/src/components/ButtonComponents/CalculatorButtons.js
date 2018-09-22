@@ -8,24 +8,24 @@ const CalculatorButtons = () => {
     return (
         <div className="buttons">
             <div className="number-pad">
-                <ActionButton text="0" displayStyle="action-button" />
-                <NumberButton text="1" displayStyle="number-button" />
-                <NumberButton text="2" displayStyle="number-button" />
-                <NumberButton text="3" displayStyle="number-button" />
-                <NumberButton text="4" displayStyle="number-button" />
-                <NumberButton text="5" displayStyle="number-button" />
-                <NumberButton text="6" displayStyle="number-button" />
-                <NumberButton text="7" displayStyle="number-button" />
-                <NumberButton text="8" displayStyle="number-button" />
-                <ActionButton text="9" displayStyle="number-button" />
-                <ActionButton text="clear" displayStyle="action-button" />
+                <ActionButton text="0" buttonStyle="button-action" />
+                <NumberButton text="1" buttonStyle="button-number" />
+                <NumberButton text="2" buttonStyle="button-number" />
+                <NumberButton text="3" buttonStyle="button-number" />
+                <NumberButton text="4" buttonStyle="button-number" />
+                <NumberButton text="5" buttonStyle="button-number" />
+                <NumberButton text="6" buttonStyle="button-number" />
+                <NumberButton text="7" buttonStyle="button-number" />
+                <NumberButton text="8" buttonStyle="button-number" />
+                <ActionButton text="9" buttonStyle="button-number" />
+                <ActionButton text="clear" buttonStyle="button-action" />
             </div>
             <div class="operators">
-                <NumberButton text="&divide;" displayStyle="operator-button" />
-                <NumberButton text="&times;" displayStyle="operator-button" />
-                <NumberButton text="&minus;" displayStyle="operator-button" />
-                <NumberButton text="&#43;" displayStyle="operator-button" />
-                <NumberButton text="&#61;" displayStyle="operator-button" />
+                <NumberButton text="&divide;" buttonStyle="button-operator" />
+                <NumberButton text="&times;" buttonStyle="button-operator" />
+                <NumberButton text="&minus;" buttonStyle="button-operator" />
+                <NumberButton text="&#43;" buttonStyle="button-operator" />
+                <NumberButton text="&#61;" buttonStyle="button-operator" />
             </div>
         </div>
     );
