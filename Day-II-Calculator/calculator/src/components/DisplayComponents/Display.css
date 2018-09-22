@@ -1,0 +1,9 @@
+.display {
+    height: 100px;
+    width: 480px;
+    border: 1px solid gray;
+    font-size: 50px;
+    background-color: black;
+    color: white;
+    text-align: right;
+}

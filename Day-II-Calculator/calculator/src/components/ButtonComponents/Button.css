@@ -4,3 +4,19 @@
     border: solid 1px gray;
     font-size: 50px;
 }
+
+.action {
+    height: 100px;
+    width: 360px;
+    border: 1px solid red;
+    font-size: 50px;
+}
+
+.calc {
+    height: 100px;
+    width: 120px;
+    border: solid 1px gray;
+    font-size: 50px;
+    background-color: darkred;
+    color: white;
+  }
