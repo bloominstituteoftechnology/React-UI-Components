@@ -1,2 +1,25 @@
 /* All styles for your Card Components live here */
-/*finished rewatching video*/
+#CardBanner{
+    background-image: url("https://ibin.co/3wnC6SgIOJud.png");
+    height: 230px;
+    width: 400px;
+    border:2px solid black;
+    margin-left:75px;
+}
+
+.CardContentHeader{
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    margin-left: 75px;;
+}
+
+.CardContentParagraph{
+    margin-left:75px;
+    width:40%
+}
+
+.source{
+    margin-left:75px;
+    color:gray;
+}

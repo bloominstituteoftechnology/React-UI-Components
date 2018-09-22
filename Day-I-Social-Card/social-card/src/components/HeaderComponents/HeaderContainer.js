@@ -7,12 +7,14 @@ import HeaderContent from './HeaderContent.js';
 import ImageThumbnail from './ImageThumbnail.js';
 
 const HeaderContainer = () => {
-	return (           
+	return (
+        <div className="bigger-container">
+        <ImageThumbnail/>
         <div className="container">
-         <ImageThumbnail/>
+         
 		<HeaderTitle />
-        
         <HeaderContent />
+        </div>
         </div>
 	)
 };

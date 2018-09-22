@@ -27,3 +27,19 @@ p{
     font-size:12px;
 }
 
+.bigger-container{
+    display:flex;
+
+}
+
+img{
+    height:50px;
+    width:50px;
+    margin:8px;
+    margin-top:11px;
+}
+
+.h-content{
+    font-size:12px;
+    margin-left:9px;
+}
