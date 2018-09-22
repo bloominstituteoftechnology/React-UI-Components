@@ -1,0 +1,27 @@
+#root {
+    background: grey;
+    display: flex;
+    height: 598px;
+    width: 456px;
+    margin: 0 auto;
+    border: 2px solid green;
+}
+
+/* TODO - Move these into their own fieldset */
+.cd-main {
+    display: flex;
+    flex-direction: column;
+    background: #222222;
+    width: 100%;
+    height: 126px;
+}
+
+.cd-main p {
+    height: 70%;
+    text-align: right;
+    width: 96.8%;
+    font-size: 4.6rem;
+    font-weight: lighter;
+    margin-top: 26px;
+    color: white;
+}
