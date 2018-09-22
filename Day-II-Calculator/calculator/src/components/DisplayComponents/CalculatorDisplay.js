@@ -6,7 +6,7 @@ import NumberButton from '../ButtonComponents/NumberButton';
 const CalculatorDisplay = () => {
     return (
         <section className='calculator'>
-            <section className='display'></section>
+            <section className='display'><p>0</p></section>
             <section className='buttons-container'>
                 <section className='numeric-buttons-container'>
                     <ActionButton data={'clear'} displayStyle={'btn-action'}/>
