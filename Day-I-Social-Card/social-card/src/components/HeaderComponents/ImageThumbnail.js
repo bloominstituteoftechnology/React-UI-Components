@@ -4,10 +4,8 @@ class ImageThumbnail extends React.Component {
   render() {
     return (
       <div>
-
-      <h1>ImageThumbnail stuff</h1>
       <div className="imageThumbnail">
-        <img className="banner-img" src="https://ibin.co/3whrpKSBbZ81.png"  alt="Image thumbnail" height="20" width="20" />
+        <img className="banner-img" src="https://ibin.co/3whrpKSBbZ81.png"  alt="Image thumbnail"  />
       </div>
       </div>
       )

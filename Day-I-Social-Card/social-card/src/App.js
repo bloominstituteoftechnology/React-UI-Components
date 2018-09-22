@@ -2,8 +2,8 @@ import React from 'react';
 import './App.css';
 import HeaderContainer from './components/HeaderComponents/HeaderContainer.js';
 import CardContainer from './components/CardComponents/CardContainer.js';
-// import './components/CardComponents/CardBanner.js';
-// import './components/CardComponents/CardContent.js';
+import './components/CardComponents/CardBanner.js';
+import './components/CardComponents/CardContent.js';
 import Footer from './components/FooterComponents/Footer.js'
 
 // import BasicButton from './zWORK/BasicButton';

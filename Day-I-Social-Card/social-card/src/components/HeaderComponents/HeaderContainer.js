@@ -14,17 +14,3 @@ const HeaderContainer = () => {
   }
 
 export default HeaderContainer
-
-/*
-class HeaderContainer extends React.Component {
-  render() {
-    return (
-      <div>
-        <ImageThumbnail />
-        <HeaderTitle />
-        <HeaderContent />
-      </div>
-    )
-  }
-}
-*/
