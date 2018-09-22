@@ -6,6 +6,7 @@
     padding: 20px;
     width: 125px;
     height: 100px;
+    cursor: pointer;
 }
 
 .action-button {

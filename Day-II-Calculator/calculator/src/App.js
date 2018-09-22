@@ -1,47 +1,60 @@
-import React from 'react';
+import React, {Component} from 'react';
 import './App.css';
 import {FlexColumn, FlexRow} from "./components/Elements/Flex";
 import CalculatorDisplay from './components/DisplayComponents/CalculatorDisplay'
 import NumberButton from "./components/ButtonComponents/NumberButton";
 import ActionButton from "./components/ButtonComponents/ActionButton";
 
-const App = () => {
-  return (
-      <FlexColumn alignEnd width="500px" padding={50}>
-          <CalculatorDisplay/>
+class App extends Component {
+    constructor(props) {
+        super(props);
 
-          <FlexRow width="full">
-              <NumberButton grow>clear</NumberButton>
-              <ActionButton>÷</ActionButton>
-          </FlexRow>
+        this.state = {
+            number: 0
+        }
+    }
 
-          <FlexRow width="full">
-              <NumberButton bold>7</NumberButton>
-              <NumberButton bold>8</NumberButton>
-              <NumberButton bold>9</NumberButton>
-              <ActionButton>x</ActionButton>
-          </FlexRow>
+    render() {
+        const {number} = this.state;
 
-          <FlexRow width="full">
-              <NumberButton bold>4</NumberButton>
-              <NumberButton bold>5</NumberButton>
-              <NumberButton bold>6</NumberButton>
-              <ActionButton>-</ActionButton>
-          </FlexRow>
+        return (
+            <FlexColumn alignEnd width="500px" padding={50}>
+                <CalculatorDisplay number={number}/>
 
-          <FlexRow width="full">
-              <NumberButton bold>1</NumberButton>
-              <NumberButton bold>2</NumberButton>
-              <NumberButton bold>3</NumberButton>
-              <ActionButton>+</ActionButton>
-          </FlexRow>
+                <FlexRow width="full">
+                    <NumberButton grow>clear</NumberButton>
+                    <ActionButton>÷</ActionButton>
+                </FlexRow>
 
-          <FlexRow width="full">
-              <NumberButton grow bold>0</NumberButton>
-              <ActionButton>=</ActionButton>
-          </FlexRow>
-      </FlexColumn>
-  );
+                <FlexRow width="full">
+                    <NumberButton bold onClick={() => this.setState({number: 7})}>7</NumberButton>
+                    <NumberButton bold onClick={() => this.setState({number: 8})}>8</NumberButton>
+                    <NumberButton bold onClick={() => this.setState({number: 9})}>9</NumberButton>
+                    <ActionButton>x</ActionButton>
+                </FlexRow>
+
+                <FlexRow width="full">
+                    <NumberButton bold onClick={() => this.setState({number: 4})}>4</NumberButton>
+                    <NumberButton bold onClick={() => this.setState({number: 5})}>5</NumberButton>
+                    <NumberButton bold onClick={() => this.setState({number: 6})}>6</NumberButton>
+                    <ActionButton>-</ActionButton>
+                </FlexRow>
+
+                <FlexRow width="full">
+                    <NumberButton bold onClick={() => this.setState({number: 1})}>1</NumberButton>
+                    <NumberButton bold onClick={() => this.setState({number: 2})}>2</NumberButton>
+                    <NumberButton bold onClick={() => this.setState({number: 3})}>3</NumberButton>
+                    <ActionButton>+</ActionButton>
+                </FlexRow>
+
+                <FlexRow width="full">
+                    <NumberButton grow bold onClick={() => this.setState({number: 0})}>0</NumberButton>
+                    <ActionButton>=</ActionButton>
+                </FlexRow>
+            </FlexColumn>
+        );
+    }
+
 };
 
 export default App;
