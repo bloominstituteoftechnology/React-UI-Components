@@ -3,13 +3,20 @@ import './App.css';
 import CalculatorDisplay from './components/DisplayComponents/CalculatorDisplay';
 import ButtonBox from './components/ButtonComponents/ButtonBox';
 
-const App = () => {
-  return (
-    <div className="calculator">
-      <CalculatorDisplay/>
-      <ButtonBox/>
-    </div>
-  );
+class App extends React.Component {
+  constructor () {
+    super()
+    this.state = { message: 'Hello' };
+    // this.state = { operations: [] }
+  }
+  render () {
+    return (
+      <div className="calculator">
+        <CalculatorDisplay/>
+        <ButtonBox/>
+      </div>
+    );
+  }
 };
 
 export default App;
