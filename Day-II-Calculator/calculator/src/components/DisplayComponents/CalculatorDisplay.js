@@ -8,3 +8,4 @@ const CalculatorDisplay = () =>{
         </button>    
     )
 }
+export default CalculatorDisplay;

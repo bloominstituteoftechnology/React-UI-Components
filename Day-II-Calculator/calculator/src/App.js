@@ -1,36 +1,46 @@
 import React from 'react';
 import './App.css';
-import './components/ButtonComponents/NumberButton.js'
-import './components/DisplayComponents/CalculatorDisplay.js'
-import './components/ButtonComponents/ActionButton.js'
+import NumberButton from './components/ButtonComponents/NumberButton'
+import CalculatorDisplay from './components/DisplayComponents/CalculatorDisplay'
+import ActionButton from './components/ButtonComponents/ActionButton'
 
 const App = () => {
   return (
-    <CalculatorDisplay />
-    <div className = "white-keys">
-      <ActionButton buttonStyle = {'action'} text = {'clear'} />
-      <div className = "numbered-main">
-        <NumberButton />
+    <div className = "calculator-container">
+      <div>
+        <CalculatorDisplay />
       </div>  
-      <ActionButton buttonStyle = {'action'} text = {'0'} />
+      <div className = "calculator-buttons">
+        <div className = "white-buttons">
+          <ActionButton buttonstyle = {"operator"} text = {'clear'} />
+          <div className = "row-1-numbers">
+            <NumberButton buttonStyle = {'number'} text ={'7'} />
+            <NumberButton buttonStyle = {'number'} text ={'8'} />
+            <NumberButton buttonStyle = {'number'} text ={'9'} />
+          </div>
+          <div className = "row-2-numbers">
+            <NumberButton buttonStyle = {'number'} text ={'4'} />
+            <NumberButton buttonStyle = {'number'} text ={'5'} />
+            <NumberButton buttonStyle = {'number'} text ={'6'} />
+          </div>
+          <div className = "row-3-numbers">
+            <NumberButton buttonStyle = {'number'} text ={'1'} />
+            <NumberButton buttonStyle = {'number'} text ={'2'} />
+            <NumberButton buttonStyle = {'number'} text ={'3'} />
+          </div>
+            <NumberButton buttonStyle = {'number'} text ={'0'} />
+        </div>
+        <div className ="red-buttons">
+            <ActionButton buttonStyle = {'action'} text ={'/'} /> 
+            <ActionButton buttonStyle = {'action'} text ={'*'} />
+            <ActionButton buttonStyle = {'action'} text ={'-'} />
+            <ActionButton buttonStyle = {'action'} text ={'+'} />
+            <ActionButton buttonStyle = {'action'} text ={'='} />
+        </div>
+      </div>
+
+      
     </div>  
-    <div className = "red-keys">
-      <Operators />
-    </div>
-    // <div>
-    //   <h3>Welcome to React Calculator</h3>
-    //   <p>
-    //     We have given you a starter project. You'll want to build out your
-    //     components in their respective files, remove this code and replace it
-    //     with the proper components.
-    //   </p>
-    //   <p>
-    //     <strong>
-    //       Don't forget to `default export` your components and import them here
-    //       inside of this file in order to make them work.
-    //     </strong>
-    //   </p>
-    // </div>
   );
 };
 
