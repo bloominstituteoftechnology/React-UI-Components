@@ -3,7 +3,7 @@ body {
   padding: 0;
   font-family: sans-serif;
   width: 100%;
-  max-width: 297px;
+  max-width: 278px;
   border: 2px solid grey;
   display: flex;
   flex-wrap: wrap;
