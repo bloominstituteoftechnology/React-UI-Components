@@ -4,9 +4,10 @@ import NumberButton from './components/ButtonComponents/NumberButton'
 import ActionButton from './components/ButtonComponents/ActionButton'
 import CalculatorDisplay from './components/DisplayComponents/CalculatorDisplay'
 
-const App = () => {
-  return (
-    <div className='content'>
+class App extends React.Component {
+  render(){
+    return(
+      <div className='content'>
       <div className = 'topContent'>
         <CalculatorDisplay />
       </div>
@@ -42,6 +43,8 @@ const App = () => {
       </div>
     </div>
   );
-};
+  }
+}
+
 
 export default App;
