@@ -3,6 +3,7 @@
   flex-flow: row wrap;
   width: 100%;
 }
+
 .header-img {
   align-items: center;
   display: flex;
@@ -12,14 +13,28 @@
   width: 50px;
 }
 
+.header-img a, a:link, a:visited, a:hover, a:active {
+  text-decoration: none;
+}
+
 .header-img img {
   height: auto;
-  max-width: 30px;
+  max-width: 27px;
 }
 
 .header-title {
   align-items: flex-end;
   display: flex;
+}
+
+.header-title a, a:link, a:visited, a:hover, a:active {
+  color: inherit;
+  text-decoration: none;
+}
+
+a.header-title-fullname:hover {
+  color: red;
+  text-decoration: underline;
 }
 
 .header-title h1 {
