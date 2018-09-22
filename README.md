@@ -45,7 +45,7 @@
 
 [x] - Create a `<HeaderContainer />` container component that will hold your header components.
 
-[] - Create an `<ImageThumbnail />` component using this image url https://ibin.co/3whrpKSBbZ81.png as it's img src.
+[x] - Create an `<ImageThumbnail />` component using this image url https://ibin.co/3whrpKSBbZ81.png as it's img src.
 
 [] - Create a `<HeaderTitle />` component that displays the Lambda School header text, @LambdaSchool handle and timestamp.
 [] - Create a `<HeaderContent />` component that displays the copy provided in the headers content.

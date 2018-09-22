@@ -3,7 +3,7 @@ const BasicButton = () => {
 };
 
 const BasicInput = () => {
-  return <input type="text" laceholder="David say one thing good about you:" />;
+  return <input type="text"placeholder="David say one thing good about you:" />;
 };
 
 const Header = () => {
