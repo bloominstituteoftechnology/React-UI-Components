@@ -12,6 +12,7 @@ body {
 #root {
 	 max-width: 650px;
 	 width: 100%;
-	 background: #red;
+	 background: #F5F5F5;
 	 margin: 50px auto;
+	 padding:0px 7px;
 }
