@@ -1,7 +1,7 @@
 /* All styles for your header Components live here */
 
-.top {
-    display: flex;
-    flex-direction: row;
-    width: 1000px;
+.paragraph {
+display: flex;
+flex-direction: column;
+justify-content: space-between;  
 }
