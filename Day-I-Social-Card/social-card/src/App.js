@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import './components/HeaderComponents/HeaderContainer.js';
 import './components/CardComponents/CardBanner.js';
 import './components/CardComponents/CardContainer.js';
 import './components/CardComponents/CardContent.js';

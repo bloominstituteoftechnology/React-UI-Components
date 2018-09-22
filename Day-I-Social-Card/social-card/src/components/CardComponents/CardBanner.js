@@ -3,9 +3,9 @@ import './Card.css';
 class CardBanner extends React.Component {
   render() {
     return (
-    <div>
+    <div className="container-banner">
       <h1>CardBanner stuff</h1>
-      <img src="https://ibin.co/3wnC6SgIOJud.png"  alt="LambdaShield" height="20" width="20" />
+      <img className="banner-img" src="https://ibin.co/3wnC6SgIOJud.png"  alt="LambdaShield" height="20" width="20" />
     </div>
     )
   }
