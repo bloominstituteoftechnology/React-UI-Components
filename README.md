@@ -26,3 +26,5 @@
 * Now that you've been building out your `Social Card` use the `Project-2.png` file and [this codepen](https://codepen.io/lambdaschool/pen/xWWMzg) to build out all the components you need to build out a calculator that looks much like the one in the png.
 
 * **Stretch Problem 1** After you build out the calculator, make all of the buttons work. You have a lot of knowledge already to be able to achieve this. However feel free to research into it as much as you need.
+
+# Initial Commit
