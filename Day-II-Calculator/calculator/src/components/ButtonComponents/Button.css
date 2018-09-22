@@ -17,6 +17,10 @@
     font-size: 40px;
 }
 
+.number:hover {
+    cursor: pointer;
+}
+
 .clear-numbers {
     border: 1px solid grey;
     width: 74%;
@@ -25,6 +29,10 @@
     align-items: center;
     height: 85px;
     font-size: 40px;
+}
+
+.clear-numbers:hover {
+    cursor: pointer;
 }
 
 .zero {
@@ -36,6 +44,10 @@
     height: 85px;
     font-weight: bold;
     font-size: 40px;
+}
+
+.zero:hover {
+    cursor: pointer;
 }
 
 .action-buttons {
@@ -59,4 +71,8 @@
     margin: 0;
     font-weight: bold;
     font-size: 40px;
+}
+
+.action:hover {
+    cursor: pointer;
 }
