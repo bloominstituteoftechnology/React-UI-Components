@@ -34,6 +34,7 @@ class App extends Component {
             <ActionButton handleClear={() => this.setState({ input: "" })}>
               clear
             </ActionButton>
+            <NumberButton handleClick={this.addToInput}>.</NumberButton>
             <NumberButton handleClick={this.addToInput}>/</NumberButton>
           </div>
           <div className="row">
