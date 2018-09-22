@@ -1,15 +1,15 @@
 import React from 'react';
 import './App.css';
-import ActionButton from './components/ButtonComponents/ActionButton';
-import NumberButton from './components/ButtonComponents/NumberButton';
+import ActionContainer from './components/ButtonComponents/ActionContainer';
+import NumberContainer from './components/ButtonComponents/NumberContainer';
 import Display from './components/DisplayComponents/CalculatorDisplay';
 
 const App = () => {
   return (
     <div class='calculator'>
       <Display />
-      <ActionButton />
-      <NumberButton />
+      <ActionContainer />
+      <NumberContainer />
     </div>
   );
 };
