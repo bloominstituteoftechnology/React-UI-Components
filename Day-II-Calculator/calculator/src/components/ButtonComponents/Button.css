@@ -1,0 +1,35 @@
+.buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.number-pad {
+    width: 74%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.operators {
+    width: 26%;
+}
+
+.button {
+    height: 94px;
+    border: 1px solid #999999;
+    font-size: 46px;
+}
+
+.button-action {
+    width: 100%;
+}
+
+.button-number {
+    width: 33.3%;
+}
+
+.button-operator {
+    width: 100%;
+    background: red;
+    font-size: 60px;
+}
