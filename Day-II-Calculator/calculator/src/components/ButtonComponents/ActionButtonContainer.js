@@ -6,7 +6,7 @@ const ActionButtonsContainer= (props) => {
         <div className="actionContainer">
             <ActionButtons text="÷" displayStyle='action'/>
             <ActionButtons text="×" displayStyle='action' />
-            <ActionButtons text="-" displayStyle='action' />
+            <ActionButtons text="−" displayStyle='action' />
             <ActionButtons text="+" displayStyle='action' />
             <ActionButtons text="=" displayStyle='action' />
         </div>

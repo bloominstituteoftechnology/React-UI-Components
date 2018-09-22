@@ -136,7 +136,7 @@ table {
 /* Your Code Goes Here */
 .cta{
     max-width:456px;
-    border:1px solid red;
+    border:2px solid gray;
 }
 .displayContainer{
     width:100%;
