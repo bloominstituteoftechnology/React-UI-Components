@@ -24,8 +24,8 @@ render() {
     return (
         <div class="footer">
         <div className="icon" className="comment"></div>
-        <div className="icon" className="retweet" onClick={this.incrementRT.bind(this)}>{this.state.retweets}<img src="download.png"></img></div>
-        <div className="icon" className="likes" onClick={this.incrementLikes.bind(this)}>{this.state.likes}<img src="download-1.png"></img></div>
+        <div className="icon" className="retweet" onClick={this.incrementRT.bind(this)}>{this.state.retweets}<img src="./download.png"></img></div>
+        <div className="icon" className="likes" onClick={this.incrementLikes.bind(this)}>{this.state.likes}<img src="./download-1.png"></img></div>
         <div className="icon" className="letter"></div>
 
         </div>

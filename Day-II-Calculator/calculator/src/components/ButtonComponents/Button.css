@@ -1,0 +1,25 @@
+button { 
+    font-size: 36px;
+    font-weight: bold;
+    border: 2px solid grey;
+    cursor: pointer;
+}
+
+button:hover { 
+    border: 2px solid orange;
+}
+
+.numbers button { 
+    width: 30%;
+    height: 20%;
+}
+
+.symbols button { 
+    height: 20%;
+    background-color: darkred;
+    color: white;
+}
+
+.numbers button:first-child, .numbers button:last-child { 
+    width: 100%;
+}
