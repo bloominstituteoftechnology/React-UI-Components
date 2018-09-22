@@ -1,0 +1,23 @@
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    height: 95px;
+    font-size: 50px
+}
+
+.gray {
+    background: linear-gradient(lightgrey, darkgrey);
+}
+
+.red {
+    background: linear-gradient(firebrick, darkred);
+    color: white;
+}
+
+.long {
+    background: linear-gradient(lightgrey, darkgrey);
+    width: 75%;
+}
