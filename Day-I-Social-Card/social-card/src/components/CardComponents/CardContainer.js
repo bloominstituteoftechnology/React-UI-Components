@@ -7,9 +7,9 @@ import Website from './Website';
 
 
 
-const Card = () => {
+const CardContainer = () => {
     return (
-       <div>
+       <div className="bottom">
         <Banner />
         <CardTitle />
         <CardContent />
@@ -18,4 +18,4 @@ const Card = () => {
     );
   };
 
-  export default Card;
+  export default CardContainer;
