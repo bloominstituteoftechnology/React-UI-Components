@@ -1,3 +1,8 @@
+.container {
+    border: 1px solid #979797;
+    display: inline-block;
+}
+
 .row {
     display: flex;
 }

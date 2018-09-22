@@ -6,10 +6,10 @@ import CalculatorDisplay from './components/DisplayComponents/CalculatorDisplay.
 
 const App = () => {
   return (
-    <div>
-      <CalculatorDisplay buttonStyle={'all'} text={'0'} />
+    <div className='container'>
+      <CalculatorDisplay buttonStyle={'all display'} text={'0'} />
       <div className='row'>
-        <ActionButton buttonStyle={'all'} text={'clear'} />
+        <ActionButton buttonStyle={'all action'} text={'clear'} />
         <NumberButton buttonStyle={'all operator'} text={'/'} />
       </div>
       <div className='row'>
@@ -31,7 +31,7 @@ const App = () => {
         <NumberButton buttonStyle={'all operator'} text={'+'} />
       </div>
       <div className='row'>
-        <ActionButton buttonStyle={'all'} text={'0'} />
+        <ActionButton buttonStyle={'all action'} text={'0'} />
         <NumberButton buttonStyle={'all operator'} text={'='} />
       </div>
     </div>

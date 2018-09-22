@@ -10,5 +10,10 @@
     background-color: #931C24;
     cursor: pointer;
 }
+
+.action {
+    width: 340px;
+    cursor: pointer;
+}
   
 
