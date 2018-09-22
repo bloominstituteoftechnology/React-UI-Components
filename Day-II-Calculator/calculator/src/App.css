@@ -1,0 +1,7 @@
+.operations {
+  display: flex;
+  flex-direction: column;
+}
+.keypad {
+  display: flex;
+}

@@ -1,0 +1,9 @@
+.calculatorDisplay {
+  width: 455px;
+  height: 122px;
+  font-size: 60px;
+  color: #ffffff;
+  text-align: right;
+  background-color: #000000;
+  border: 0.5px solid #8795a2;
+}
