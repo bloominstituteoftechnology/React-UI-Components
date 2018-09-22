@@ -3,11 +3,12 @@ import './Header.css';
 
 const HeaderTitle = (props) => {
     return (
-        <div class="header-title">
+        <div className="header-title">
             <h1>Lambda School</h1>
             <span>@LambdaSchool</span>
-            <span>&bull; 26 Jan</span>
+            <span>&bull; 26 jan</span>
         </div>
     );
 }
+
 export default HeaderTitle;
