@@ -5,8 +5,9 @@
     color: white;
     background-color: black;
     max-width: 472px;
+    width: 100%;
     padding-right: 2%;
-    font-size: 62px;
+    font-size: 72px;
     border: 2px solid grey;
     height: 125px;
 }

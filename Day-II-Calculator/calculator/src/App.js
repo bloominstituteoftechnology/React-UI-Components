@@ -25,9 +25,7 @@ const data = {
 }
 const App = () => {
   return (
-    <div>
-      <CalDisplay data={data} displayStyle="black-box" />
-    </div>
+    <CalDisplay data={data} displayStyle="black-box" />
   );
 };
 

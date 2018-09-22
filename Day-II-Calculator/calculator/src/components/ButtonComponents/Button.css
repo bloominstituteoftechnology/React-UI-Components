@@ -1,22 +1,28 @@
 .white-square, .red-square, .long-white-square{
-    height: 100px;
+    height: 95px;
 }
 .white-square {
     font-weight: bold;
     max-width: 118px;
+    width: 25%;
 }
 .red-square {
     color: white;
     background-color: maroon;
     max-width: 118px;
+    width: 25%;
 }
 
 .long-white-square {
     max-width: 354px;
+    width: 75%;
 }
 
-/*import statement doesn't work for calculator display
-otherwise this would be place as the style for the 0*/
 .bold{
     font-weight: bold;
+}
+
+.button-container{
+    max-width: 472px;
+    width: 100%;
 }
