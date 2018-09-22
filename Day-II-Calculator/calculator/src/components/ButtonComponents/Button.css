@@ -1,0 +1,21 @@
+.function {
+    width: 125px;
+    font-size: 60px;
+    background: rgb(158, 6, 35);
+    color: white;
+}
+
+.number {
+    width: 125px;
+    font-size: 60px;
+}
+
+.zero {
+    width: 375px;
+    font-size: 60px;
+}
+
+.clear {
+    width: 375px;
+    font-size: 60px;
+}
