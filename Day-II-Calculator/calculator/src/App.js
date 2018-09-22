@@ -5,6 +5,10 @@ import ActionButton from './components/ButtonComponents/ActionButton'
 import CalculatorDisplay from './components/DisplayComponents/CalculatorDisplay'
 
 class App extends React.Component {
+  constructor(props){
+    super(props);
+    this.state = 0
+  }
   render(){
     return(
       <div className='content'>

@@ -1,14 +1,12 @@
 import React from 'react';
 import './Display.css';
 
-class CalculatorDisplay extends React.Component {
-    render() {
-        return(
-            <div>
-                0
-            </div>
-        )
-    }
+const CalculatorDisplay = () =>{
+    return(
+        <div>
+            {this.state}
+        </div>
+    )
 }
 
 export default CalculatorDisplay;
