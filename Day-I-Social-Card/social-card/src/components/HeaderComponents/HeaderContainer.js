@@ -5,8 +5,7 @@ import ImageThumbnail from './ImageThumbnail.js'
 import HeaderContent from './HeaderContent.js'
 
 const HeaderContainer = () => {
-	  
-         return (<div className='header-container'>
+	    return (<div className='header-container'>
            <ImageThumbnail />
            <div className='header-text'>
               <HeaderTitle />
