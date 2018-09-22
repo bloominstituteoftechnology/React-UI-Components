@@ -16,23 +16,21 @@
 
 .expression-buttons-container {
     width: 23%;
-    border: 2px solid purple;
 }
 
 .number-row {
     display: flex;
-    border: 2px solid aqua;
 }
 
 .btn {
     display: block;
-    flex-grow: 1;
     background-color: white;
     border: 2px solid grey;
-    padding: 55px 0;
+    padding: 30px 42.5px;
     text-align: center;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 25px;
+    margin: 0;
 }
 
 .btn-red {
@@ -41,10 +39,10 @@
     background-color: red;
     color: white;
     border: 2px solid grey;
-    padding: 25px 0;
+    padding: 30px 0;
     text-align: center;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 25px;
 }
 
 .btn-action {
@@ -52,8 +50,8 @@
     width: 100%;
     background-color: white;
     border: 2px solid grey;
-    padding: 20px 0;
+    padding: 30px 0;
     text-align: center;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 25px;
 }
