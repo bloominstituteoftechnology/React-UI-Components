@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
-import SquareButton from "./components/ButtonComponents/NumberButton";
+import LongButton from "./components/ButtonComponents/ActionButton";
+import CalDisplay from './components/DisplayComponents/CalculatorDisplay';
 
 //display calculator app
 //data object holds values for all buttons
@@ -16,15 +17,16 @@ const data = {
   seven: 7,
   eight: 8,
   nine: 9,
-  divide: "/",
-  multiply: "*",
-  substract: "-",
+  divide: "\xF7",
+  multiply: "\xD7",
+  subtract: "\u2013",
   add: "+",
   equals: "=", 
 }
 const App = () => {
   return (
-    <SquareButton data={data} buttonStyle="square"/>
+    <LongButton data={data}/>
+    //<display data={data} displayStyle="black-box">
   );
 };
 
