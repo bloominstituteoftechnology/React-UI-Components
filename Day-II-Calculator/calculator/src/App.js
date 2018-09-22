@@ -4,7 +4,7 @@ import NumberButton from './components/ButtonComponents/NumberButton.js';
 
 const App = () => {
   return (
-        <div>
+        <div className="container">
           <div>
             <NumberButton buttonStyle={'number'} text={'7'} />
             <NumberButton buttonStyle={'number'} text={'8'} />
