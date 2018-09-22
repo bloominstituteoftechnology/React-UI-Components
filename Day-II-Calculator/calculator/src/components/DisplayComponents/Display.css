@@ -1,0 +1,18 @@
+.display-container{
+    width: 457px;
+    height: 124px;
+    background-color: rgb(34,34,34);
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.display-text{
+    font-size: 5.0rem;
+    color: white;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: flex-end;
+    font-family: verdana;
+}

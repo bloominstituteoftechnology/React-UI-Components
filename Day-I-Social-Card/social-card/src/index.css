@@ -3,3 +3,25 @@ body {
   padding: 0.4rem;
   font-family: sans-serif;
 }
+
+/*FONTS*/
+
+.title-font{
+  font-size: 1.0rem;
+  font-weight: bold;
+  font-family: ariel;
+  color: black;
+  text-decoration: none;
+}
+
+.body-font{
+  font-size: 1.0rem;
+  color: black;
+  text-decoration: none;
+}
+
+.link-font{
+  font-size: 1.0rem;
+  color: gray;
+  text-decoration: none;
+}
