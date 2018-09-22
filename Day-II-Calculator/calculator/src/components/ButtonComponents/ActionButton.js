@@ -25,7 +25,6 @@ class ActionButton extends React.Component {
 export default ActionButton;
 
 
-
 // const ActionButton = (props) => {
 //     return (
 //         <button className={props.buttonStyle}>{props.text}</button>

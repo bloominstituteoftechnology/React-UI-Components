@@ -1,21 +1,32 @@
 import React from 'react';
 import './Display.css';
-import App from '../../App';
 
 class CalculatorDisplay extends React.Component {
-    constructor () {
-        super()
+    constructor (props) {
+        super(props)
         this.state={}
     }
     render () {
-        // const string = this.props.data.join('')
+        const string = this.props.data.join('');
         return ( <div className="display">
-                    {/* {string} */}
-                   <p> 'I do maths'</p>
+                   <p>{string}</p>
                  </div>
         );
     }
 }
+
+// class CalculatorDisplay extends React.Component {
+//     constructor (props) {
+//         super(props)
+//     }
+//     render () {
+//         const string = this.props.data.join('');
+//         return ( <div className="display">
+//                    <p>{string}</p>
+//                  </div>
+//         );
+//     }
+// }
 
 export default CalculatorDisplay;
 

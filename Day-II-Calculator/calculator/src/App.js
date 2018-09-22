@@ -6,13 +6,12 @@ import ButtonBox from './components/ButtonComponents/ButtonBox';
 class App extends React.Component {
   constructor () {
     super()
-    this.state = { message: 'Hello' };
-    // this.state = { operations: [] }
+    this.state = { operations: [1, 2] }
   }
   render () {
     return (
       <div className="calculator">
-        <CalculatorDisplay/>
+        <CalculatorDisplay data={this.state.operations} />
         <ButtonBox/>
       </div>
     );

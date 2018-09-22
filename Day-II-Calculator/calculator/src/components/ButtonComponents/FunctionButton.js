@@ -23,6 +23,11 @@ class FunctionButton extends React.Component {
 
 export default FunctionButton;
 
+/* <Button text={'X'} onClick={this.handleClick} value='*' />
+
+text is the symbol that shows
+value is what it will do (operator or clear) */
+
 
 // const FunctionButton = (props) => {
 //     return (
