@@ -3,7 +3,7 @@ import './Button.css';
 
 const ActionButton = (props) => {
     return (
-        <button className = {props.style}>
+        <button className = {props.buttonStyle}>
             {props.text}
         </button>
     );
@@ -11,7 +11,7 @@ const ActionButton = (props) => {
 
 ActionButton.defaultProps = {
     text: "Enter Number Text",
-    style: "display",
+    buttonStyle: "action",
 }
 
 export default ActionButton;
