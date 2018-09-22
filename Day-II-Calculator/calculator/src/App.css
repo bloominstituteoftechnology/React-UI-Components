@@ -1,0 +1,21 @@
+.numberButtonContainer{
+    position: relative;
+    bottom: 221px;
+    left: 1px;
+}
+
+.numberRows{
+    display: flex;
+}
+
+.actionButtonContainer{
+    display: flex;
+    flex-direction: column;
+    max-width: 60px;
+    position: relative;
+    bottom: 441px;
+    left: 181px;
+    font-size: 26px;
+    justify-content: center;
+    align-content: center;
+}
