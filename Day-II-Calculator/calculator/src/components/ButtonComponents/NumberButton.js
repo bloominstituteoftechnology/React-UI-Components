@@ -9,6 +9,9 @@ const NumberButton = (props) => {
         case 'divide':
             button = <button className={props.buttonStyle}>&divide;</button>;
             break;
+        case 'subtract':
+            button = <button className={props.buttonStyle}>&minus;</button>;
+            break;
         default:
             button = <button className={props.buttonStyle}>{props.text}</button>;
     }
