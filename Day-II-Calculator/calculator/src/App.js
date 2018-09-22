@@ -1,21 +1,41 @@
 import React from 'react';
 import './App.css';
+import CalcDisplay from'./components/DisplayComponents/CalculatorDisplay';
+import ActionBtn from './components/ButtonComponents/ActionButton';
+import NumberBtn from './components/ButtonComponents/NumberButton';
 
 const App = () => {
   return (
-    <div>
-      <h3>Welcome to React Calculator</h3>
-      <p>
-        We have given you a starter project. You'll want to build out your
-        components in their respective files, remove this code and replace it
-        with the proper components.
-      </p>
-      <p>
-        <strong>
-          Don't forget to `default export` your components and import them here
-          inside of this file in order to make them work.
-        </strong>
-      </p>
+    <div className='calc-container'>
+      <div className='calc-container'>
+        <CalcDisplay sum='0' />
+      </div>
+      <div className='button-container'>
+        <ActionBtn actionClass='clear button' text='clear' />
+        <ActionBtn actionClass='math-function button' text='÷' />
+      </div>
+      <div className='button-container'>
+        <NumberBtn class='button number-btn' text='1' />
+        <NumberBtn class='button number-btn' text='2' />
+        <NumberBtn class='button number-btn' text='3' />
+        <ActionBtn actionClass='math-function button' text='×' />
+      </div>
+      <div className='button-container'>
+        <NumberBtn class='button number-btn' text='4' />
+        <NumberBtn class='button number-btn' text='5' />
+        <NumberBtn class='button number-btn' text='6' />
+        <ActionBtn actionClass='math-function button'text='−' />
+      </div>
+      <div className='button-container'>
+        <NumberBtn class='button number-btn' text='7' />
+        <NumberBtn class='button number-btn' text='8' />
+        <NumberBtn class='button number-btn' text='9' />
+        <ActionBtn actionClass='math-function button' text='+' />
+      </div>
+      <div className='button-container'>
+        <ActionBtn actionClass='zero button' text='0' />
+        <ActionBtn actionClass='math-function button' text='=' />
+      </div>
     </div>
   );
 };
