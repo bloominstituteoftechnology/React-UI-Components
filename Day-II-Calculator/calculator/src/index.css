@@ -8,4 +8,8 @@ body {
   padding: 100px;
   font-family: sans-serif;
   box-sizing: border-box;
+  background-image: linear-gradient(to right bottom, rgba(231, 44, 44, .85), rgba(0, 0, 0, .85)), url(https://szftlgs.com/wp-content/uploads/data/2018/1/4/Deadpool-Wallpaper-High-Quality-HD-PIC-WGT1036221.jpg);
+  background: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
 }
