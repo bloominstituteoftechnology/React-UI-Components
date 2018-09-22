@@ -1,7 +1,7 @@
 import React from 'react';
 import './Button.css';
 
-const NumberButton = (props) => {
+const LongButton = (props) => {
     return (
         <button className = {props.buttonStyle}>
             {props.text}
@@ -9,9 +9,9 @@ const NumberButton = (props) => {
     );
 }
 
-NumberButton.defaultProps = {
+LongButton.defaultProps = {
     text: "Enter Number Text",
     buttonStyle: "number",
 }
 
-export default NumberButton;
+export default LongButton;
