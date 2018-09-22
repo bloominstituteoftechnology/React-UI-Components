@@ -16,7 +16,6 @@ const NumberButton = (props) => {
             button = <button className={props.buttonStyle}>{props.text}</button>;
     }
     return (
-        // <button className={props.buttonStyle}>{props.text}</button>
         button
     )
 }

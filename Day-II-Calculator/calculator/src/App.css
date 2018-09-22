@@ -14,7 +14,6 @@
 
 .top-content, .middle-content, .bottom-content {
     display: flex;
-    /* flex-wrap: wrap; */
 }
 .middle-content{
     flex-wrap:wrap;
