@@ -47,19 +47,9 @@ table {
 	border-spacing: 0;
 }
 
-button {
-  display: inline-block;
-  border: 1px solid #979797;
-  width: 112px;
-  height: 95px;
-  text-decoration: none;  
-  color: black;
-  font-family: sans-serif;
-  font-size: 1rem;
-  cursor: pointer;
-  text-align: center;
-  -webkit-appearance: none;
-  -moz-appearance: none;
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
 }
 
 body {
@@ -67,3 +57,5 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+
