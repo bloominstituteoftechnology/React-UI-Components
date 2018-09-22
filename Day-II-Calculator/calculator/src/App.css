@@ -1,0 +1,21 @@
+    /* center the calculator */
+.calc-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 350px;
+    height: 455px;
+    margin: 0;
+    padding: 0;
+
+}
+
+.top-content, .middle-content, .bottom-content {
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+.middle-content{
+    flex-wrap:wrap;
+}

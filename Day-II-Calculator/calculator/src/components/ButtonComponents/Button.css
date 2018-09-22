@@ -1,0 +1,32 @@
+/* BACKGROUND #FFFFFF
+COLOR: #222222 */
+
+/* FOR operation BUTTONS:  BACKGROUND #A0001E */
+.clear, .zero, .number, .operation {
+    border: .5px solid #979797;
+    background-color: #FFFFFF;
+    color: #222222;
+    height: 72.8px;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.clear, .zero {
+    width: 75%;
+}
+
+.clear {
+    font-weight: normal;
+}
+
+.operation {
+    background-color: #A0001E;
+    color: #FFFFFF;
+    font-size: 40px;
+}
