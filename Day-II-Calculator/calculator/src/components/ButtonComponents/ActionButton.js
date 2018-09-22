@@ -6,7 +6,6 @@ import NumberButton from "./NumberButton";
 //takes in squarebutton
 //parent element to squarebutton child to display
 const ActionButton = (props) =>{
-    console.log(props.data.seven)
     return (
         <div>
             <div>
@@ -21,15 +20,15 @@ const ActionButton = (props) =>{
                 <NumberButton data={props.data.multiply} displayStyle="red-square" />
             </div>
             <div>
-                <NumberButton data={props.data.six} />
-                <NumberButton data={props.data.five} />
                 <NumberButton data={props.data.four} />
+                <NumberButton data={props.data.five} />
+                <NumberButton data={props.data.six} />
                 <NumberButton data={props.data.subtract} displayStyle="red-square" />
             </div>
             <div>
-                <NumberButton data={props.data.three} />
-                <NumberButton data={props.data.two} />
                 <NumberButton data={props.data.one} />
+                <NumberButton data={props.data.two} />
+                <NumberButton data={props.data.three} />
                 <NumberButton data={props.data.add} displayStyle="red-square" />
             </div>
             <div>

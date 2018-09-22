@@ -1,26 +1,22 @@
+.white-square, .red-square, .long-white-square{
+    height: 100px;
+}
 .white-square {
-    font-size: 50px;
     font-weight: bold;
-    color: black;
-    background-color: white;
     max-width: 118px;
-    width: 100%;
-    height: 75px;
 }
 .red-square {
-    font-size: 50px;
     color: white;
     background-color: maroon;
     max-width: 118px;
-    width: 100%;
-    height: 75px;
 }
 
 .long-white-square {
-    font-size: 50px;
-    color: black;
-    background-color: white;
     max-width: 354px;
-    width: 100%;
-    height: 75px;
+}
+
+/*import statement doesn't work for calculator display
+otherwise this would be place as the style for the 0*/
+.bold{
+    font-weight: bold;
 }

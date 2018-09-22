@@ -1,3 +1,12 @@
-.black-box{
-    
+.black-box {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: white;
+    background-color: black;
+    max-width: 472px;
+    padding-right: 2%;
+    font-size: 62px;
+    border: 2px solid grey;
+    height: 125px;
 }

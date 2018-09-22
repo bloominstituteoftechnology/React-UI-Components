@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
-import LongButton from "./components/ButtonComponents/ActionButton";
+import NumberButton from "./components/ButtonComponents/NumberButton";
+import ActionButton from "./components/ButtonComponents/ActionButton";
 import CalDisplay from './components/DisplayComponents/CalculatorDisplay';
 
 //display calculator app
@@ -25,8 +26,10 @@ const data = {
 }
 const App = () => {
   return (
-    <LongButton data={data}/>
-    //<display data={data} displayStyle="black-box">
+    <div>
+      <CalDisplay data={data} displayStyle="black-box" />
+      <ActionButton data={data} />
+    </div>
   );
 };
 

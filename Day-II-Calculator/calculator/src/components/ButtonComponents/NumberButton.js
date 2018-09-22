@@ -3,7 +3,7 @@ import './Button.css';
 
 //square button for num 1-9 and +,-,*,/
 //returns single button that take a style and some data
-//child element for calculator
+//child element for action button
 const NumberButton = (props) => {
     return(
         <button className={props.displayStyle}>
