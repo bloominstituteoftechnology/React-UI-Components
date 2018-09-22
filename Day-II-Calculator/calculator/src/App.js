@@ -2,14 +2,20 @@ import React from 'react';
 import './App.css';
 import NumberButton from './components/ButtonComponents/NumberButton.js';
 import ActionButton from './components/ButtonComponents/NumberButton.js';
+import CalculatorDisplay from './components/DisplayComponents/CalculatorDisplay.js'
 
 
 const App = () => {
   return (
-        <div className="container">
+        <div className="container" >
+
+          <div> 
+            <CalculatorDisplay displayStyle={'display'} text={'0'} />
+          </div>
 
           <div>
-            <ActionButton buttonStyle={'action'} text={'Clear'} />
+            <ActionButton buttonStyle={'action'} text={'clear'} />
+            <NumberButton buttonStyle={'redNumber'} text={'/'} />
           </div>
 
           <div>
@@ -31,7 +37,8 @@ const App = () => {
             <NumberButton buttonStyle={'redNumber'} text={'+'} />
           </div>
           <div>
-            <ActionButton buttonStyle={'action'} text={'0'} />
+            <ActionButton id="bold-digit" buttonStyle={'action'} text={'0'} />
+            <NumberButton buttonStyle={'redNumber'} text={'='} />
           </div>
 
         </div>

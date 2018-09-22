@@ -1,18 +1,28 @@
 .container{
-    margin-top: 40%; 
+    margin-top: 10%; 
+    margin-bottom: 10%; 
+    border: 1px solid grey; 
 }
 
 .number{
- width: 105px;  
+ width: 115px;  
  height: 100px; 
  background-color: white; 
  color: black; 
+ font-size: 45px; 
+ font-weight: bold; 
+ border: 1px solid grey; 
 }
 
 .redNumber{
-    border: 1px solid grey; 
     background-color: maroon; 
     color: white; 
-    width: 105px; 
+    width: 115px; 
     height: 100px; 
+    font-size: 45px; 
   }
+
+  #bold-digit{
+      font-weight: bold; 
+  }
+ 

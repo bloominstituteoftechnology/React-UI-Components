@@ -1,7 +1,9 @@
 .action{
-    width: 420px; 
+    width: 345px; 
     height: 100px; 
     background-color: white; 
-    color: black; 
+    color: black;  
+    font-size: 45px;  
     border: 1px solid grey; 
+    font-weight: bold; 
 }
