@@ -6,7 +6,8 @@
     display:flex;
     justify-content: flex-end;
     align-content: center;
-    border: 1px solid black;
+    border: 1px solid #9C9C9C;
+    border-bottom: 1px solid black;
 }
 .calc-display .calc-text{
     color:white;
