@@ -12,7 +12,7 @@ const App = () => {
       </div>  
       <div className = "calculator-buttons">
         <div className = "buttons">
-          <ActionButton buttonstyle = {"clear-button"} text = {'clear'} />
+          <ActionButton buttonstyle = {"clear"} text = {'clear'} />
           <ActionButton buttonStyle = {'action'} text ={'/'} /> 
         </div>  
         <div className = "buttons">
