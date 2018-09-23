@@ -15,7 +15,7 @@ class ButtonContainer extends React.Component {
       <div className = 'button-container'>
       <Keypad/>
         <div className = 'function-container'>
-          <FunctionAction buttonStyle = 'function' text="÷"/>
+          <FunctionAction buttonStyle = 'function' text = "÷"/>
           <FunctionAction buttonStyle = 'function' text = 'x'/>
           <FunctionAction buttonStyle = 'function' text = '-'/>
           <FunctionAction buttonStyle = 'function' text = '+'/>
