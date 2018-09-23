@@ -32,8 +32,8 @@ let {mathArray, result, number} = this.state;
 number= number.join('').toString();
 mathArray.push(number);
 let string = mathArray.join('').toString();
-console.log(string);
 if(string){
+  //Eval for testing purpose only
   result = eval(string);
 } else{result = "0";};
     number = []
