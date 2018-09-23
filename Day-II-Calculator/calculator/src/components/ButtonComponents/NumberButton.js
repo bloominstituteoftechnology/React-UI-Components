@@ -3,8 +3,8 @@ import './Button.css';
 
 const NumberButton = (props) => {
     return (
-        <button className={props.type}>{props.type}</button>
-        )
-}
+        <button className={props.type}>{props.text}</button>
+    );
+};
 
 export default NumberButton;

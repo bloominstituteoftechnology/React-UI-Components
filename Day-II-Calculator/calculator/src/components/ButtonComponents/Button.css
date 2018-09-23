@@ -1,25 +1,28 @@
-button { 
-    font-size: 36px;
-    font-weight: bold;
-    border: 2px solid grey;
+.function { 
+
+    background: maroon;
+    color: white;
+    border: 1px solid lightgrey;
+    width: 40px;
+    height: 19px;
+
+}
+
+.function:hover { 
+    border: 1px solid black;
+}
+
+.number { 
+    width: 44px;
     cursor: pointer;
 }
 
-button:hover { 
-    border: 2px solid orange;
+.number:hover { 
+    border: 1px solid black;
+
 }
 
-.numbers button { 
-    width: 33.3%;
-    height: 20%;
+.clear { 
+    width: 132px;
 }
 
-.symbols button { 
-    height: 20%;
-    background-color: darkred;
-    color: white;
-}
-
-.numbers button:first-child, .numbers button:last-child { 
-    width: 100%;
-}
