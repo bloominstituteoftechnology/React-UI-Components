@@ -1,0 +1,20 @@
+.container {
+  height: 600px;
+  width: 400px;
+
+  /* DEV SETTINGS */
+  border: solid;
+  border-color: blue;
+}
+
+.row {
+/* ☞ 1ea47807-049f-461f-81b5-743a3a2d2a05 */
+  display: flex; 
+  height: 15%;
+  width: 99%;
+border-color: black;
+  /* DEV SETTINGS */
+  /* border: solid;
+  /* border-width: 2px; */
+  /*border-color: green; */
+}

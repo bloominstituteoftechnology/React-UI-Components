@@ -1,0 +1,34 @@
+.NumberButton {
+  height: 100%;
+}
+.btn-regular{
+  width: 25%;
+
+  /* DEV SETTINGS */
+  background-color: darkred;
+  /* border: solid;
+  border-color: darkred; */
+}
+.btn-wide{
+  width: 75%;
+
+
+  /* DEV SETTINGS */
+  background-color: darkorange;
+  /* border: solid;
+  border-color: orange; */
+}
+
+.ActionButton {
+  height: 100%;
+  width: 25%;
+  background-color: darkred;
+  color: white;
+}
+
+.btn-borders{
+  box-sizing: border-box;
+  border: solid;
+  border-width: .5px;
+  border-color: grey;
+}
