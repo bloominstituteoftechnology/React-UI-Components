@@ -4,23 +4,18 @@ import './Button.css';
 
 
 
-class NumberButton extends React.Component{ 
-    constructor(props){
-    super(props);
-    
-}
 
-clickHandler = () => {
-        console.log('hello');
-}
+//class NumberButton extends React.Component{ 
 
-    render(){
+
+
+   const NumberButton = (props) =>{
     return(
         <div>
-        <button className={this.props.buttonStyle} onClick={this.clickHandler}>{this.props.text}</button>
+        <button className={props.buttonStyle} onClick={props.click} data-value={props.text}>{props.text}</button>
         </div>
-    )
+    );
 }
-}
+
 
 export default NumberButton;
