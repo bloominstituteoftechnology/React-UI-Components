@@ -17,22 +17,25 @@ class App extends React.Component{
 addNumber = (e) =>{
   let {number, result} = this.state;
   number.push(e.target.value);
-  result = number.join('');
+  result = number
   this.setState({number, result})
 };
 doOperation = (e) =>{
   let {number, mathArray} = this.state;
+  number = number.join('').toString();
   mathArray.push(number);
   mathArray.push(e.target.value);
   this.setState({mathArray, number: []})
 }
 evaluate = (e) =>{
 let {mathArray, result, number} = this.state;
+number= number.join('').toString();
 mathArray.push(number);
 let string = mathArray.join('').toString();
+console.log(string);
 if(string){
   result = eval(string);
-} else{result = "try again";};
+} else{result = "0";};
     number = []
     mathArray = [];
      this.setState({result, mathArray, number});
