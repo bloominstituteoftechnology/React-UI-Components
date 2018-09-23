@@ -1,0 +1,28 @@
+.function { 
+
+    background: maroon;
+    color: white;
+    border: 1px solid lightgrey;
+    width: 40px;
+    height: 19px;
+
+}
+
+.function:hover { 
+    border: 1px solid black;
+}
+
+.number { 
+    width: 44px;
+    cursor: pointer;
+}
+
+.number:hover { 
+    border: 1px solid black;
+
+}
+
+.clear { 
+    width: 132px;
+}
+
