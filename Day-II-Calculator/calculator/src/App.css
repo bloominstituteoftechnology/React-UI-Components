@@ -1,39 +1,8 @@
 .app{
     margin:auto;
-    width:500px;
-    height:600px;
-    border: 2px solid black;
+    width: 420px;
+    height: 386px;
     display:flex;
     flex-wrap:wrap;
-}
-
-.clearAndNumbers{
-    border:2px solid purple;
-    height:90%;
-    width: 80%;
-}
-
-.answerPlaceholder{
-    width:100%;
-    border:2px solid orange;
-    height:9%;
-}
-
-
-
-.actionButtonClear{
-width:99%;
-border:2px solid red;
-height:19.6%
-}
-
-.numberButtons{
-width:99%;
-border:2px solid green;
-height:59%;
-}
-.actionButtonZero{
-    width: 99%;
-    border:2px solid red;
-    height:19.6%
+    align-items:stretch;
 }
