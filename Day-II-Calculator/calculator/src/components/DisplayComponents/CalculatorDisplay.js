@@ -1,12 +1,19 @@
 import React from 'react';
 import './Display.css';
 
-const CalculatorDisplay = (props) =>{
-    return (
-        <div className="display">
-            <p>{props.text}</p>
-        </div>
-    )
+class CalculatorDisplay extends React.Component{
+    constructor(props){
+        super(props);
+        this.state = props.state;
+    }
+
+    render(){
+        return(
+            <div className="display">
+                <p>{this.state.display}</p>
+            </div>
+        )
+    }
 }
 
 export default CalculatorDisplay;

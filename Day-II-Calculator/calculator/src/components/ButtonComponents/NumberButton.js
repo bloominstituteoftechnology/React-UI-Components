@@ -1,10 +1,39 @@
 import React from 'react';
 import './Button.css';
+import logic from '../../CalculatorLogic.js'
 
-const NumberButton = (props) =>{
-    return (
-        <button className={props.buttonStyle}><div>{props.text}</div></button>
-    )
+class NumberButton extends React.Component{
+    constructor(props){
+        super(props)
+        this.buttonStyle = props.buttonStyle;
+        this.text = props.text;
+        this.displayCharacter = props.displayType
+        this.handleClick = this.handleClick.bind(this);
+    }
+
+    handleClick(){
+        let last = logic.display.length - 1;
+
+        if(logic.display === '0'){
+            logic.display = this.displayCharacter;
+        }
+
+        else if(logic.display[last] === '+' || logic.display[last] === '-' || logic.display[last] === '*' || logic.display[last] === '/' ||
+                this.displayCharacter === '+' || this.displayCharacter === '-' || this.displayCharacter === '*' || this.displayCharacter === '/'){
+            logic.display += ' ' + this.displayCharacter;
+        }
+
+        else{
+            logic.display += this.displayCharacter;
+        }
+        this.props.clickedButton(logic.display);
+    }
+
+    render(){
+        return (
+            <button className={this.buttonStyle} onClick={this.handleClick}><div>{this.text}</div></button>
+        )
+    }
 }
 
 export default NumberButton;
