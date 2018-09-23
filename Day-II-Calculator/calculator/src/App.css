@@ -1,0 +1,15 @@
+.calc-container{
+    max-width: 500px;
+    width:100%;
+    margin:0 auto;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+
+
+}
+.button-container{
+    max-width: 500px;
+    display: flex;
+    justify-content: center;
+}

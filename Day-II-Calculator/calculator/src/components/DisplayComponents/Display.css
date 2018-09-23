@@ -1,0 +1,20 @@
+.calc-display{
+    width:90%;
+    height:125px;
+    background:black;
+    margin:0 auto;
+    display:flex;
+    justify-content: flex-end;
+    align-content: center;
+    border: 1px solid #9C9C9C;
+    border-bottom: 1px solid black;
+}
+.calc-display .calc-text{
+    color:rgb(79, 228, 98);
+    align-self: center;
+    font-size: 8rem;
+    font-weight: 100;
+    font-family: 'Shadows Into Light Two', cursive;
+    padding-right: 15px;
+
+}
