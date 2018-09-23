@@ -10,7 +10,7 @@ const App = () => {
       <CalculatorDisplay />
       <ButtonRowTwo name="clear" action="&divide;"/>
       <ButtonRowFour one="7" two="8" three="9" action="&#215;"/>
-      <ButtonRowFour one="4" two="5" three="5" action="&#8722;"/>
+      <ButtonRowFour one="4" two="5" three="6" action="&#8722;"/>
       <ButtonRowFour one="1" two="2" three="3" action="+"/>
       <ButtonRowTwo name="0" action="=" extra="btn-bold"/>
     </div>
