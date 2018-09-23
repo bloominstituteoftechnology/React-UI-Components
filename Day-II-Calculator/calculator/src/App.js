@@ -6,7 +6,7 @@ import ButtonContainer from './components/ButtonComponents/ButtonContainer';
 class App extends React.Component{
   constructor () {
     super();
-    this.state = {doMath: [1, 2]};
+    this.state = {doMath: [1, 3]};
   }
 
   render () {

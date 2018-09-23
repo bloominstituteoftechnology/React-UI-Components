@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+}
+
+
+
+
+.calcBox{
+  border: 5px solid green;
+  display: flex;
+  font-size: 2rem;
+  flex-direction: column;
+  width: 50%;
+ // height: 40rem;
+  margin: 0 auto;
+  text-align: right;
+  background-color: black;
+  color: white;
+}

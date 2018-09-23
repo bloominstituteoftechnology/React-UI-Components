@@ -1,0 +1,90 @@
+.button-container{
+  border: 5px solid pink;
+  display: flex;
+  justify-content: center;
+  align-content: space-between;
+  width: 100%;
+//  height: 20%;
+}
+
+.function-container{
+  display: flex;
+  flex-direction: column;
+  align-content: stretch;
+  align-items: stretch;
+  width: 40%;
+  // height: 35rem;
+}
+
+.number-container{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+}
+
+.number, .zero{
+  display: flex;
+  font-size: 4rem;
+  width: 33%;
+  height: 8rem;
+  justify-content: center;
+  background-color: white;
+}
+
+.function{
+  border: 3px solid gray;
+  background: firebrick;
+  color: white;
+  display: flex;
+  justify-content: center;
+ // align-content: flex-start;
+  align-items: flex-start;
+  font-size: 4rem;
+  width: 100%;
+  height: 100%;
+
+
+}
+
+.keypad{
+  border: 5px solid purple;
+  width: 85%;
+  height: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.clear{
+  border: 5px solid blue;
+  width: 100%;
+  // height: 3rem;
+  display: flex;
+  vertical-align: center;
+  justify-content: center;
+  align-content: center;
+  font-size: 5rem;
+  background-color: white;
+  padding: auto 0;
+  align-items: center;
+
+}
+
+.zeroBox{
+  display: flex;
+  width: 100%;
+  height: 7rem;
+  justify-content: center;
+  align-items: center;
+  font-size: 4rem;
+  background-color: white;
+
+
+}
+
+.top{
+
+  border: 1px solid
+}
