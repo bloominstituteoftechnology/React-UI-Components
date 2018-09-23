@@ -3,18 +3,30 @@
 }
 .btn-regular{
   width: 25%;
+  font-family: sans-serif;
+  font-size: 36pt;
+  font-weight: bold;
+
+  text-align: center;
+  color: black;
+  background-color: white;
 
   /* DEV SETTINGS */
-  background-color: darkred;
+  /* background-color: orange; */
   /* border: solid;
   border-color: darkred; */
 }
 .btn-wide{
   width: 75%;
-
+  font-family: sans-serif;
+  font-size: 36pt;
+  font-weight: bold;
+  text-align: center;
+  color: black;
+  background-color: white;
 
   /* DEV SETTINGS */
-  background-color: darkorange;
+  /* background-color: darkorange; */
   /* border: solid;
   border-color: orange; */
 }
@@ -22,8 +34,12 @@
 .ActionButton {
   height: 100%;
   width: 25%;
-  background-color: darkred;
+  font-family: sans-serif;
+  font-size: 36pt;
+  font-weight: 100;
+  text-align: center;
   color: white;
+  background-color:darkred;
 }
 
 .btn-borders{
@@ -32,3 +48,9 @@
   border-width: .5px;
   border-color: grey;
 }
+
+#btn-clear{
+  color: lightgrey;
+}
+  /* codePen settings */
+  

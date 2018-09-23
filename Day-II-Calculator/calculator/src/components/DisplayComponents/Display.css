@@ -1,8 +1,15 @@
 .CalculatorDisplay {
   height: 20%;
-  width: 100%;
+  width:100%;
   background-color: black;
   color: white;
+  font-size: 24pt;
+
+  /* my code */
+  box-sizing: border-box;
+  /* height: "80%";
+  width: "60%"; */
+  float: left;
 
   /* DEV SETTINGS */
     /* border: solid;
