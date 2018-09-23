@@ -10,15 +10,14 @@ import NumberBtn from './components/ButtonComponents/NumberButton';
 class App extends React.Component{
  state = {
       number: [],
-      result: 0,
+      result: 23,
       mathArray:[]
     };
 
 addNumber = (e) =>{
   let {number, result} = this.state;
-  console.log(e.target.value, result);
   number.push(e.target.value);
-  result = number;
+  result = number.join('');
   this.setState({number, result})
 };
 doOperation = (e) =>{
@@ -29,13 +28,18 @@ doOperation = (e) =>{
 }
 evaluate = (e) =>{
 let {mathArray, result, number} = this.state;
-let string = mathArray.join('');
-console.log(string)
-//  result = eval(string);
-//  number = []
-//  mathArray = [];
-  this.setState({result, mathArray, number});
-
+mathArray.push(number);
+let string = mathArray.toString();
+string = string.join('');
+console.log(string);
+if(!(mathArray)){
+  result = "0";
+} else{
+    result = eval(string);
+    number = []
+    mathArray = [];
+     this.setState({result, mathArray, number});
+  }
 }
 clear = (e) =>{
   let {mathArray, number, result} = this.state;

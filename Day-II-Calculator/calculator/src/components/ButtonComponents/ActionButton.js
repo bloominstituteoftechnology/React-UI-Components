@@ -9,7 +9,7 @@ import './Button.css';
     const ActionButton =(props)=>{
     // render(){
         return(
-            <button className={props.actionClass} onClick={props.click} input={props.value}>{props.text}</button>
+            <button className={props.actionClass} onClick={props.click} value={props.value}>{props.text}</button>
         );
     }
 // }
