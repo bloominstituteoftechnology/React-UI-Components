@@ -1,8 +1,8 @@
 .cd-main {
-    background: lawngreen;
+    background: #222222;
     width: 100%;
     height: 126px;
-    border: 1px solid black;
+    border: 1px solid #979797;
 }
 
 .cd-main p {
@@ -11,7 +11,7 @@
     font-size: 4.6rem;
     font-weight: lighter;
     margin-top: 0px;
-    color: black;
+    color: white;
     padding-right: 10px;
     padding-top: 24px;
 }

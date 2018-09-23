@@ -2,12 +2,15 @@
     width: 120px;
     background: white;
     height: 94px;
-    border: 1px solid black;
+    border: 1px solid #979797;
 }
 
 .btn-std p {
-    background: red;
+    background: white;
     text-align: center;
     height: 100%;
     margin-top: 0px;
+    font-size: 2.6rem;
+    padding-top: 21px;
+    font-weight: bold;
 }

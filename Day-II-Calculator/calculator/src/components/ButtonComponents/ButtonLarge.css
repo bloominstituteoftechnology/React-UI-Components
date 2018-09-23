@@ -1,7 +1,7 @@
 .btn-large {
     width: 360px;
-    background: red;
-    border: 1px solid black;
+    background: white;
+    border: 1px solid #979797;
 }
 
 .btn-large p {
@@ -10,4 +10,11 @@
     margin-bottom: 0px;
     margin-top: 22px;
     font-weight: lighter;
+}
+
+.btn-row .btn-bold p {
+    margin-top: 0px;
+    font-size: 2.6rem;
+    padding-top: 21px;
+    font-weight: bolder;
 }

@@ -1,14 +1,14 @@
 .btn-act {
     width: 130px;
-    background: purple;
     height: 94px;
-    border: 1px solid black;
+    border: 1px solid #979797;
 }
 
 .btn-act p {
-    background: purple;
+    background: #a3001e;
     text-align: center;
     height: 100%;
     margin-top: 0px;
-    font-size: 4.4rem;
+    font-size: 4.0rem;
+    color: white;
 }

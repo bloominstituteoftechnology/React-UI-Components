@@ -2,7 +2,8 @@ import React from 'react';
 import './ButtonLarge.css'
 
 const ButtonLarge = (props) => {
-    return (<div className="btn-large">
+    const class2 = props.extra
+    return (<div className={`btn-large ${class2}`}>
         <p>{props.name}</p>
     </div>
     );
