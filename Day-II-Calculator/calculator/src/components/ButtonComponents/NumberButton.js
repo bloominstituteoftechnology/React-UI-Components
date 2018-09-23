@@ -7,6 +7,7 @@ import './Button.css';
 export const NumberButton = (props) => {
 
     return <button className= {props.buttonStyle}
+    //When clicked use the props value not the text
     onClick = {() => props.handleClick(props.value)}
     >{props.text}</button>
 
