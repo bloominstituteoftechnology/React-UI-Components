@@ -12,6 +12,9 @@
 	display: flex;
 	align-items: center;
 	justify-content: flex-end;
+	border-right: 1px solid gray;
+	border-left: 1px solid gray;
+	box-sizing: border-box;
 		
 }
 .padding-right {

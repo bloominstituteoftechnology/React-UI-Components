@@ -9,13 +9,14 @@
 	font-weight: normal;
 	border-bottom: 1px solid gray;
 	cursor: pointer;
+	box-sizing: border-box;
 }
 
 .smallButton {
 	height: 90px;
 	width:25%;
 	color:#FFF;
-	background: red;
+	background: #800020;
 
 	display: flex;
 	justify-content: center;
@@ -26,14 +27,22 @@
 	border-bottom: 1px solid gray;
 	border-right: 1px solid gray;
 	cursor: pointer;
-
+	box-sizing: border-box;
 }
 
 .white {
 	color:rgba(0,0,0,.9);
 	background: #FFF;
+	font-weight: bold;
+}
+.zero {
+	font-weight: bold;
 }
 
 .clear {
-	border-top:1px solid gray;
+	border-top:2px solid gray;
+}
+
+.divide {
+	border-top: 1px solid gray;
 }
