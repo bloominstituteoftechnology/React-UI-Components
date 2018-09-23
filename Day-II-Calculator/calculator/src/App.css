@@ -1,0 +1,10 @@
+
+.button-container{
+	width:100%;
+	background: transparent;
+
+	display: flex;
+	justify-content:flex-start;
+	align-items: center;
+	/*border: 1px solid gray;*/
+}
