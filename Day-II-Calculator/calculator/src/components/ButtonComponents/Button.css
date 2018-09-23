@@ -1,45 +1,44 @@
 .button-container{
-  border: 5px solid pink;
   display: flex;
   justify-content: center;
   align-content: space-between;
   width: 100%;
-//  height: 20%;
 }
 
 .function-container{
   display: flex;
   flex-direction: column;
-  align-content: stretch;
-  align-items: stretch;
+  align-content: center;
+  align-items: center;
   width: 40%;
-  // height: 35rem;
 }
 
 .number-container{
+ // border: 1px solid gray;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   flex-wrap: wrap;
   width: 100%;
-  height: 100%;
+//  height: 100%;
 }
 
 .number, .zero{
+  border: 1px solid gray;
   display: flex;
-  font-size: 4rem;
-  width: 33%;
+  font-size: 5rem;
+  width: 33.3%;
   height: 8rem;
   justify-content: center;
+  align-content: center;
   background-color: white;
 }
 
 .function{
-  border: 3px solid gray;
+  border: 1px solid gray;
   background: firebrick;
   color: white;
   display: flex;
   justify-content: center;
- // align-content: flex-start;
   align-items: flex-start;
   font-size: 4rem;
   width: 100%;
@@ -49,7 +48,6 @@
 }
 
 .keypad{
-  border: 5px solid purple;
   width: 85%;
   height: 100%;
   background-color: white;
@@ -58,33 +56,28 @@
 }
 
 .clear{
-  border: 5px solid blue;
+  border: 1px solid gray;
   width: 100%;
-  // height: 3rem;
   display: flex;
   vertical-align: center;
   justify-content: center;
   align-content: center;
-  font-size: 5rem;
+  font-size: 3rem;
   background-color: white;
-  padding: auto 0;
+  padding: 2.15rem 0;
   align-items: center;
 
 }
 
 .zeroBox{
+  border: 1px solid gray;
   display: flex;
   width: 100%;
-  height: 7rem;
+  height: 8rem;
   justify-content: center;
   align-items: center;
-  font-size: 4rem;
+  font-size: 5rem;
   background-color: white;
 
 
-}
-
-.top{
-
-  border: 1px solid
 }
