@@ -1,0 +1,17 @@
+/* CSS styles for Icon components */
+
+.icon-container {
+    padding: 3px 0;
+}
+
+.thumbnail {
+    border-radius: 50%;
+    background-color: darkgrey;
+    display: flex;
+    align-items: center;
+}
+
+.thumbnail img {
+    width: 70%;
+    margin: 20% 15% 10% 15%;
+}

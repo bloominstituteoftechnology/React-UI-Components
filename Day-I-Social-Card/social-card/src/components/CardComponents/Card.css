@@ -1,2 +1,42 @@
-/* All styles for your Card Components live here */
+/* CSS styles for Card components */
 
+.card-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.card-container {
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+    padding-bottom: 10px;
+    margin: 5px;
+}
+
+.card-banner {
+    
+}
+
+.card-banner img {
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+}
+
+.card-content {
+    padding: 10px 10px 0px 10px;
+}
+
+.card-content h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 5px;
+}
+
+.card-content p {
+    font-size: 1.4rem;
+    line-height: 1.3;
+    margin: 8px 5px;
+}
+
+.react-url {
+    color: darkgrey;
+}

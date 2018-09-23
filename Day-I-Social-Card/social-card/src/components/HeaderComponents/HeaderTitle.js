@@ -9,7 +9,7 @@ const HeaderTitle = () => {
             <p>•</p>
             <p>26 Jan</p>
         </div>
-    )
+    );
 };
 
 export default HeaderTitle;

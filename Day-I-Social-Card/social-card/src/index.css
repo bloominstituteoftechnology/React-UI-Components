@@ -1,3 +1,4 @@
+/* CSS styles for index.js / global styles */
 
 * {
     box-sizing: border-box;
@@ -11,8 +12,6 @@ html, body {
     font-family: 'Arial', sans-serif;
 }
 
-
 body {
     margin: 0;
-    padding: 0.4rem;
 }
