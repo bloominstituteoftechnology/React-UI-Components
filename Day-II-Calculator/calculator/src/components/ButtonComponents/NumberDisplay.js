@@ -36,7 +36,7 @@ class NumberDisplay extends React.Component {
 
                 <div>
                     <ActionButton buttonStyle={ `action` } handleClick={ () => this.handleClear() } text={ "clear" } />
-                    <NumberButton buttonStyle={ "math" } text={ "/" } />
+                    <NumberButton handleClick={ this.addToInput } buttonStyle={ "math" } text={ "/" } />
                 </div>
 
                 <div>
