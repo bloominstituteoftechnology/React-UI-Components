@@ -1,5 +1,13 @@
 .btn-large {
-    width: 332px;
+    width: 360px;
     background: red;
     border: 1px solid black;
+}
+
+.btn-large p {
+    text-align: center;
+    font-size: 2.6rem;
+    margin-bottom: 0px;
+    margin-top: 22px;
+    font-weight: lighter;
 }

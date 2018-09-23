@@ -1,12 +1,14 @@
 import React from 'react';
 import './ButtonRow.css';
 import ActionButton from './ActionButton.js'
-import ActionButtonLarge from './ButtonLarge';
+import ButtonLarge from './ButtonLarge.js';
 
-const ButtonRowTwo = () => {
+const ButtonRowTwo = (props) => {
+    const buttonLargeName = props.name;
+    const buttonAction = props.action;
     return(<div className="btn-row">
-        <ActionButtonLarge name="clear"/>
-        <ActionButton name="divide"/>
+        <ButtonLarge name={buttonLargeName} />
+        <ActionButton name={buttonAction}/>
     </div>
     );
 };

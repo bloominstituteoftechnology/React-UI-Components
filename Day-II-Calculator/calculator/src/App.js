@@ -8,7 +8,7 @@ const App = () => {
   return (
     <div>
       <CalculatorDisplay />
-      <ButtonRowTwo name="hey there" />
+      <ButtonRowTwo name="clear" action="&divide;"/>
       <ButtonRowFour />
       <ButtonRowFour />
       <ButtonRowFour />
