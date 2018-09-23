@@ -4,10 +4,15 @@ import './Button.css';
 
 const NumberButton = (props) => {
 	return (
-        <button className={props.buttonStyle}>
-			{props.text}
-		</button>
-	)
+		<input
+		type="button"
+		className={props.type === 'action' ? 'button action-button' : 'button input-button'}
+		onClick={props.handleClick}
+		value={props.label}
+  />
+
+	);
 }
 
+ 
 export default NumberButton;

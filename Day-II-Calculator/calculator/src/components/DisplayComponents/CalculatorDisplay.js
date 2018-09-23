@@ -1,11 +1,13 @@
 import React from 'react';
 import './Display.css';
+import ScreenRow from './ScreenRow';
 
 
-
-const CalculatorDisplay = () => {
+const CalculatorDisplay = (props) => {
     return ( 
-        <div className="CalculatorDisplay"><p>0</p></div>
+        <div className="screen"> 
+      <ScreenRow />
+       </div>
        
    )
 };
