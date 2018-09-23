@@ -12,4 +12,5 @@ body {
 	/*border:1px solid gray;*/
 	padding:1px;
 	box-sizing: border-box;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0,0.19);
 }
