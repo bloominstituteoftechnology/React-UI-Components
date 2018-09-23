@@ -1,0 +1,23 @@
+.buttons{
+    width:100%;
+}
+.number{
+    height:80px;
+    width:25%;
+    border:1px solid gray;
+}
+.action{
+    height:80px;
+    width:25%;
+    border:1px solid gray;
+}
+.zero-button{
+    width:75%;
+    height:80px;
+    border:1px solid gray;
+}
+.clear-button{
+    width:75%;
+    height:80px;
+    border:1px solid gray;
+}
