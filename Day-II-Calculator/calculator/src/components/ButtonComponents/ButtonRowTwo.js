@@ -1,10 +1,10 @@
 import React from 'react';
-import './Button.css';
+import './ButtonRow.css';
 import ActionButton from './ActionButton.js'
-import ActionButtonLarge from './ActionButtonLarge.js';
+import ActionButtonLarge from './ButtonLarge';
 
 const ButtonRowTwo = () => {
-    return(<div className="btn-row-main">
+    return(<div className="btn-row">
         <ActionButtonLarge name="clear"/>
         <ActionButton name="divide"/>
     </div>

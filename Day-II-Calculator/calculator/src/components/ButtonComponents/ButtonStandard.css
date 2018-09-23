@@ -1,0 +1,13 @@
+.btn-std {
+    width: 120px;
+    background: white;
+    height: 94px;
+    border: 1px solid black;
+}
+
+.btn-std p {
+    background: red;
+    text-align: center;
+    height: 100%;
+    margin-top: 0px;
+}

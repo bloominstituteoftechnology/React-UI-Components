@@ -1,12 +1,13 @@
 import React from 'react';
-import './Button.css';
+import './ButtonRow.css';
 import ActionButton from './ActionButton.js'
+import ButtonStandard from './ButtonStandard.js';
 
 const ButtonRowFour = () => {
-    return(<div className="btn-row-main">
-        <ActionButton name="divide"/>
-        <ActionButton name="divide"/>
-        <ActionButton name="divide"/>
+    return(<div className="btn-row">
+        <ButtonStandard name="divide"/>
+        <ButtonStandard name="divide"/>
+        <ButtonStandard name="divide"/>
         <ActionButton name="divide"/>
     </div>
     );

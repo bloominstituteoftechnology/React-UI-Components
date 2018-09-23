@@ -1,8 +1,8 @@
 import React from 'react';
-import './Button.css';
+import './ActionButton.css'
 
 const ActionButton = (props) => {
-    return(<div className="ab-main">
+    return(<div className="btn-act">
         <p>{props.name}</p>
     </div>);
 };

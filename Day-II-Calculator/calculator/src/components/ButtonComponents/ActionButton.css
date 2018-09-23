@@ -1,0 +1,13 @@
+.btn-act {
+    width: 130px;
+    background: purple;
+    height: 94px;
+    border: 1px solid black;
+}
+
+.btn-act p {
+    background: purple;
+    text-align: center;
+    height: 100%;
+    margin-top: 0px;
+}

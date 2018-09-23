@@ -1,11 +1,11 @@
 import React from 'react';
-import './Button.css'
+import './ButtonLarge.css'
 
-const ActionButtonLarge = (props) => {
+const ButtonLarge = (props) => {
     return (<div className="btn-large">
         <p>{props.name}</p>
     </div>
     );
 };
 
-export default ActionButtonLarge;
+export default ButtonLarge;
