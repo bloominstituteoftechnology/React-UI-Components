@@ -5,8 +5,11 @@ body {
 }
 
 #root {
-	max-width: 560px;
+	max-width: 460px;
 	width:100%;
 	background: gray;
 	margin: 40px auto;
+	/*border:1px solid gray;*/
+	padding:1px;
+	box-sizing: border-box;
 }

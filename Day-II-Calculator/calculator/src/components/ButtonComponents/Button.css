@@ -1,0 +1,39 @@
+.largeButton {
+	height:90px;
+	width:75%;
+	background: lightgray;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 3.0rem;
+	font-weight: normal;
+	border-bottom: 1px solid gray;
+	cursor: pointer;
+}
+
+.smallButton {
+	height: 90px;
+	width:25%;
+	color:#FFF;
+	background: red;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 3.0rem;
+	font-weight: normal;
+
+	border-bottom: 1px solid gray;
+	border-right: 1px solid gray;
+	cursor: pointer;
+
+}
+
+.white {
+	color:rgba(0,0,0,.9);
+	background: #FFF;
+}
+
+.clear {
+	border-top:1px solid gray;
+}
