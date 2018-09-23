@@ -6,9 +6,7 @@ import CalculatorDisplay from './components/DisplayComponents/CalculatorDisplay'
 const App = () => {
     return (
         <div className="container">
-            <div className="line display">
-                <CalculatorDisplay />
-            </div>
+            <CalculatorDisplay />
             <Buttons />
         </div>
   );
