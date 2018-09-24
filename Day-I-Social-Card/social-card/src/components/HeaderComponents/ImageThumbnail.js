@@ -5,7 +5,7 @@ class ImageThumbnail extends React.Component {
     return (
       <div>
       <div className="imageThumbnail">
-        <img className="banner-img" src="https://ibin.co/3whrpKSBbZ81.png"  alt="Image thumbnail"  />
+        <img className="banner-img" src="https://ibin.co/3whrpKSBbZ81.png"  alt="LambdaShield"  />
       </div>
       </div>
       )

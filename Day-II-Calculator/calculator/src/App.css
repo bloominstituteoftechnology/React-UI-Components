@@ -12,7 +12,7 @@
 
 .row {
 /* ☞ 1ea47807-049f-461f-81b5-743a3a2d2a05 */
-  display: flex; 
+  display: inline-block; 
   height: 16%;
   width: 100%;
 border-color: black;

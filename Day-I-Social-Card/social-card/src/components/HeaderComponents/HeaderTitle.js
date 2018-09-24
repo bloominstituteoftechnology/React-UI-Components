@@ -7,12 +7,12 @@ const HeaderTitle = () => {
     return (
       <div className="header-title-wrapper">
         <div className="header-title">
-          <h4 className="bolded-title title-element">Lambda School</h4>
-          <p className="email-handle title-element">info@LambdaSchool</p>
-          <p className="bullet-point title-element">•</p>
-          <p className="time-stamp title-element">{moment().format("D MM YYYY")}</p>
+          <h4 className="appTitle">Lambda School</h4>
+          <p className="emailAddress">info@LambdaSchool</p>
+          <p className="separator">•</p>
+          <p className="timeStamp">{moment().format("D MM YYYY")}</p>
+          <br></br>
         </div>
-        <HeaderContent />
     </div>
     )
   }
