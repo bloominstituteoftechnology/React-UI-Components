@@ -1,0 +1,62 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+}
+
+.App {
+	margin: 50px auto;
+	width: 500px;
+}
+
+.Screen {
+	height: 100px;
+	background-color: #000;
+	color: #fff;
+	font-size: 30px;
+	text-align: right;
+}
+
+.Screen p {
+	padding: 60px 20px 0 20px;
+}
+
+.NumPad {
+	display: flex;
+}
+
+button {
+	display: block;
+	font-size: 30px;
+	width: 33.33%;
+	height: 100px;
+}
+
+.Numerals {
+	display: flex;
+	flex-flow: row wrap;
+	text-align: center;
+	width: 70%;
+}
+
+.Clear, .Zero {
+	width: 100%;
+}
+
+.Operations {
+	display: flex;
+	flex-flow: row wrap;
+	text-align: center;
+	width: 30%;
+}
+
+.Operations button {
+	background-color: #B22222;
+	color: #fff;
+	width: 100%;
+}
+
+h1 {
+	font-size: 36px;
+	text-align: center;
+	text-transform: uppercase;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.14.6/react.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.14.6/react-dom.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.23/browser.js"></script>
+    <link rel="stylesheet" href="css/App.css">
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="text/babel">
+      const App = () => {
+        return (
+            <div className = "App">
+              <h1>ReactJS Calculator</h1>
+              <Screen />
+              <NumPad />
+            </div>
+          );
+      }
+
+      const Screen = () => {
+        return (
+            <div className="Screen">
+              <p>0</p>
+            </div>
+        );
+      }
+
+      const Numerals = () => {
+        return (
+            <div className="Numerals">
+              <button className="Clear">Clear</button>
+              <button><strong>7</strong></button>
+              <button><strong>8</strong></button>
+              <button><strong>9</strong></button>
+              <button><strong>4</strong></button>
+              <button><strong>5</strong></button>
+              <button><strong>6</strong></button>
+              <button><strong>1</strong></button>
+              <button><strong>2</strong></button>
+              <button><strong>3</strong></button>
+              <button className="Zero">0</button>
+            </div>
+        );
+      }
+
+      const Operations = () => {
+        return (
+            <div className="Operations">
+              <button>/</button>
+              <button>*</button>
+              <button>-</button>
+              <button>+</button>
+              <button>=</button>
+            </div>
+        );
+      }
+
+      const NumPad = () => {
+        return (
+          <div className="NumPad">
+              <Numerals />
+              <Operations />
+          </div>
+        );
+      }
+
+      ReactDOM.render(<App />, document.getElementById('app'));
+    </script>
+    <!-- <script src="js/App.js"></script> -->
+  </body>
+</html>

@@ -10,6 +10,7 @@
     -->
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
     <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
+    <link rel="stylesheet" href="App.css">
     <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
@@ -26,15 +27,72 @@
       You need to enable JavaScript to run this app.
     </noscript>
     <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
+    <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <script type="text/babel">
+    // refers to the display, where numbers are shown
+    const Display = () => {
+      return (
+        <div className="Display">
+          <p>0</p>
+        </div>
+      );
+    }
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
+    // refers to the number buttons
+    const Numbers = () => {
+      return (
+        <div className="Numbers">
+          <button className="Clear">Clear</button>
+          <button><strong>7</strong></button>
+          <button><strong>8</strong></button>
+          <button><strong>9</strong></button>
+          <button><strong>4</strong></button>
+          <button><strong>5</strong></button>
+          <button><strong>6</strong></button>
+          <button><strong>1</strong></button>
+          <button><strong>2</strong></button>
+          <button><strong>3</strong></button>
+          <button className="Zero">0</button>
+        </div>
+      );
+    }
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
+    // refers to math operator buttons
+    const Operators = () => {
+      return (
+        <div className="Operators">
+          <button>/</button>
+          <button>X</button>
+          <button>-</button>
+          <button>+</button>
+          <button>=</button>
+        </div>
+      );
+    }
+
+    // refers to all buttons
+    const Grid = () => {
+      return (
+        <div className="Grid">
+          <Numbers />
+          <Operators />
+        </div>
+      );
+    }
+
+    // refers to the entire calculator application
+    const App = () => {
+      return (
+        <div className="App">
+          <Display />
+          <Grid />
+        </div>
+      );
+    }
+
+    ReactDOM.render(<App />, document.getElementById('root'));
+    </script>
   </body>
 </html>
