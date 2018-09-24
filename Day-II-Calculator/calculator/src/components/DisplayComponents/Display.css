@@ -1,0 +1,22 @@
+/*******DISPLAY CSS********/
+
+.displayWrap {
+    display: flex;
+    margin: 0 auto;
+    border: solid 2px #979797;
+    width: 572px;
+    height: 200px;
+    color: #ffffff;
+    background-color: #222222;
+}
+
+.numDisplay {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    font-size: 92px;
+
+
+}

@@ -1,0 +1,108 @@
+.keyPad {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    max-width: 576px;
+    height: 460px;
+    margin: 0 auto;
+}
+
+.numWrap {
+    height: 468px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.clearBtn {
+    display: flex;
+    justify-content: center;
+    width: 428px;
+    height: 100px;
+    border: solid 2px #979797;
+    
+}
+
+.clear {
+    display: flex;
+    align-items: center;
+    font-size: 62px;
+    font-weight: 100;
+}
+
+.numBtn {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    height: 100px;
+    width: 140px;
+    border: solid 2px #979797;
+}
+
+.numKey {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 62px;
+    font-weight: bold;
+    background-color: white;
+}
+
+.operator {
+    color: whitesmoke;
+    background-color: #a0001e;
+}
+
+
+
+.zeroBtn {
+    display: flex;
+    justify-content: center;
+    width: 428px;
+    height: 100px;
+    border: solid 2px #979797;
+    
+    
+}
+
+.zero {
+    align-items: center;
+    font-family: 'Roboto', 'sans-serif' ;
+    font-size: 62px;
+    font-weight: 200;
+}
+
+
+/**********ACTION BUTTON CSS***********/
+
+.actionWrap {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.actionBtn {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #a0001e;
+    border: solid 2px #979797;
+}
+
+.actionKey {
+    margin: auto;
+    display: flex;
+    color: whitesmoke;
+    font-size: 62px;
+    font-weight: bold;
+}
+
+.division {
+    font-size: 62px;
+    font-weight: 100;
+}
+
+
