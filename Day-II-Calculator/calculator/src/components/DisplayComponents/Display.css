@@ -1,6 +1,6 @@
 .calculator-display {
     border: 1px solid blue;
-    height: 80px;
+    height: 100px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
