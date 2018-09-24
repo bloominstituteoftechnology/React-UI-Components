@@ -13,8 +13,13 @@ class NumberButton extends React.Component{
 
     handleClick(){
         let last = logic.display.length - 1;
+        
+        if(logic.isReset){
+            logic.isReset = false;
+            logic.display = '0';
+        }
 
-        if(logic.display === '0'){
+        if(logic.display === '0' && this.displayCharacter !== '+' && this.displayCharacter !== '-' && this.displayCharacter !== '*' && this.displayCharacter !== '/'){
             logic.display = this.displayCharacter;
         }
 
@@ -22,10 +27,15 @@ class NumberButton extends React.Component{
                 this.displayCharacter === '+' || this.displayCharacter === '-' || this.displayCharacter === '*' || this.displayCharacter === '/'){
             logic.display += ' ' + this.displayCharacter;
         }
+        
+        else if(logic.display[last] === '='){
+            this.props.clickedButton();
+        }
 
-        else{
+        else if(this.displayCharacter !== '+' && this.displayCharacter !== '-' && this.displayCharacter !== '*' && this.displayCharacter !== '/'){
             logic.display += this.displayCharacter;
         }
+        
         this.props.clickedButton(logic.display);
     }
 

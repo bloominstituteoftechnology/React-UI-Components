@@ -4,7 +4,13 @@ import './Display.css';
 class CalculatorDisplay extends React.Component{
     constructor(props){
         super(props);
-        this.state = props.state;
+        this.state = {
+            display: props.display
+        }
+    }
+
+    componentWillReceiveProps = (props)=>{
+        this.setState({display: props.display});
     }
 
     render(){
