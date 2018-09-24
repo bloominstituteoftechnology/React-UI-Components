@@ -1,13 +1,40 @@
 import React from 'react';
-import './Button.css';
+
+
+const ClearBtn = {
+    width: '80%',
+    height: '94px',
+    fontSize: '3rem',
+    textAlign: 'center',
+    borderLeft: '2px solid gray',    
+    borderBottom: '2px solid gray',
+}
+
+const RowZero = {
+    display: 'flex',
+    flexDirection: 'row',
+}
+
+const DivSignStyle = {
+    width: '28%' ,
+    background: '#A0001E' ,
+    maxHeight: '95px' ,
+    fontSize: '6rem' ,
+    color: 'white',
+    textAlign: 'center',
+    border: '2px solid gray' ,
+    borderTop: 'none' ,
+}
+
+
 
 const Clear = () => {
     return(
-        <div className='rowZero'>
-            <div className='clearBtn'>
+        <div style={RowZero}>
+            <div style={ClearBtn}>
             Clear
              </div> 
-             <div className='divSignFlex' >÷</div>
+             <div style={DivSignStyle} >÷</div>
             
        
         

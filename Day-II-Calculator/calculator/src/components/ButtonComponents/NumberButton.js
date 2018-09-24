@@ -1,5 +1,4 @@
 import React from 'react';
-import './Button.css';
 
   const OuterRow = {
         width: '100%',
@@ -31,13 +30,52 @@ import './Button.css';
     fontSize: '5rem',
     }
 
+    const TableFlex = {
+        width: '100%',
+        display: 'flex',
+        flexDirection: 'column',
+    }
 
-const Nums = () => {
+    const Equals = {
+        color: 'white' ,
+        background: '#A0001E',
+        width: '27%',
+        fontSize: '6rem' ,
+        border: '2px solid gray' ,
+        height: '92px' ,
+        textAlign: 'center' ,
+    
+    
+    }
 
-  
-return(
-<div>
-<table>
+    const RowFive = {
+        border: '2px solid gray' ,
+        display: 'flex' ,
+        flexDirection: 'row' ,
+        background: 'white' ,
+        marginTop: '-5px' ,
+    }
+
+    const RowFiveCont = {
+        border: '1px solid black' ,
+        width: '80%' ,
+        height: '92px' ,
+        
+        color: 'white' ,
+        fontSize: '5rem' ,
+        textAlign: 'center' ,
+        color: 'black' ,
+        border: '2px solid gray' ,
+        fontWeight: 'bold' ,
+    
+    }
+    
+    const Nums = () => {
+        
+        
+        return(
+            <div>
+<table style={TableFlex}>
 <td style={OuterRow}>
 
 
@@ -95,9 +133,9 @@ return(
     </td> 
 
 </table>
-<div className="rowFive"> <div className="rowFiveCont">0</div>
+<div style={RowFive}> <div style={RowFiveCont}>0</div>
 
-<div className='equals'>=</div>
+<div style={Equals}>=</div>
 </div>
 </div>
 )
