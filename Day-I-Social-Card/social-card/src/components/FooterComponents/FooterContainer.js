@@ -17,14 +17,15 @@ const countUp = (function () {
 
 class FooterContainer extends React.Component{
   constructor (props){
-    super(props)
+    super(props);
 
     this.handleClick = this.handleClick.bind(this)
   }
 
   handleClick() {
     let likeCounter = root.querySelector('.heartCount');
-    likeCounter.textContent = countUp.increment();
+  //  likeCounter.textContent = countUp.increment();
+    likeCounter.textContent = parseInt(likeCounter.textContent )  + 1;
   }
 
   render() {
@@ -40,7 +41,7 @@ class FooterContainer extends React.Component{
 
         <div className = 'heart-container'>
           <img className = 'heartIMG' onClick = {this.handleClick} src = 'https://upload.wikimedia.org/wikipedia/commons/4/4f/Ei-heart.svg' alt = 'heart'/>
-           <p className = 'heartCount'  > 0 </p>
+           <p className = 'heartCount'  > 10 </p>
         </div>
 
         <div className = 'envelope-container'>
