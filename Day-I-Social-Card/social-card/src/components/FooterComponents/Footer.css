@@ -33,6 +33,9 @@
   display: flex;
   width: 5rem;
 }
+.heart-container:active{
+  color: red;
+}
 
 
 .recycle-container{

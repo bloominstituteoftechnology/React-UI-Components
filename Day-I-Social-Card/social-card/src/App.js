@@ -2,8 +2,8 @@ import React from 'react';
 import './App.css';
 import HeaderContainer from './components/HeaderComponents/HeaderContainer';
 import CardContainer from './components/CardComponents/CardContainer';
-import Footer from './components/FooterComponents/Footer';
-
+// import Footer from './components/FooterComponents/Footer';
+import FooterContainer from './components/FooterComponents/FooterContainer';
 
 
 
@@ -13,12 +13,9 @@ const App = () => {
     <div className = 'apps-container'>
       <HeaderContainer/>
       <CardContainer/>
-      <Footer/>
+
+      <FooterContainer/>
     </div>
-
-
-
-
 
    /* <div>
       <h3>Welcome to React Social Card!</h3>

@@ -8,14 +8,8 @@ const CardContainer = () =>{
     <div className = 'card-container'>
       <CardBanner/>
       <CardContent/>
-
     </div>
-
-
   )
-
-
-
 
 };
 
