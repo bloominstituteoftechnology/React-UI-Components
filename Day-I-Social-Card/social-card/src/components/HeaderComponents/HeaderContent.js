@@ -1,12 +1,15 @@
 import React from 'react';
 import './Header.css';
+import HeaderTitle from "./HeaderTitle"
 
 const HeaderContent = () => {
     return (
-        <div>
-            <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        <div class="header-content">
+            <HeaderTitle />
+            <p class="content-text">
+            Let's learn React by building simple interfaces with components. Don't try
+            to overthink it, just keep it simple and have fun. 
+            Once you feel comfortable using components you are well on your way to mastering React!            
             </p>
         </div>
     );
