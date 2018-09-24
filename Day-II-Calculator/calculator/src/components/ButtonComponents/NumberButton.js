@@ -1,16 +1,41 @@
 import React from 'react';
 import './Button.css';
 
+  const OuterRow = {
+        width: '100%',
+    }
 
-const Nums = () => {
+    const ButtonStyle =  {
+        width: '100%',
+        display: 'flex' ,
+        justifyContent: 'space-between',
+        marginTop: '-5px',
+    }
+
+    const ButtonSyleTwo = {
+        border: '2px solid gray', 
+        width: '17%',
+        padding: '20px 20px 20px 20px',
+        color: 'black',
+        textAlign: 'center', 
+        fontSize: '4rem',
+        fontWeight: 'bolder',
+        height: '53px',
+    }
+
+const Nums = (props) => {
+
+  
 return(
 <div>
 <table>
-<td className='r2Outer'>
+{/* <td className='r2Outer'> */}
+<td style={OuterRow}>
+
 
     <div className='rowTwoDiv'> 
 
-            <tr className='rowTwo'>
+            <tr style={ButtonStyle}{...ButtonSyleTwo}>
         
             <td>7</td>
            
@@ -26,9 +51,10 @@ return(
     
 </td>
 
-<td className='r3Outer'>
+{/* <td className='r3Outer'> */}
+<td style={OuterRow}>
 <div className='rowThreeDiv'>
-<tr className='rowThree'>
+<tr style={ButtonStyle}>
         
         
             <td>4</td>
@@ -43,9 +69,11 @@ return(
 
 </td>
 
-<td className='r4Outer'>
+{/* <td className='r4Outer'> */}
+<td style={OuterRow}>
+
 <div className='rowFourDiv'>
-<tr className='rowFour'>
+<tr style={ButtonStyle}>
             
             
             <td>1</td>
