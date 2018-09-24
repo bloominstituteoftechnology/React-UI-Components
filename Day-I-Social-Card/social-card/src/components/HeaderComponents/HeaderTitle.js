@@ -10,11 +10,13 @@ const HeaderTitle = () => {
           <h4 className="appTitle">Lambda School</h4>
           <p className="emailAddress">info@LambdaSchool</p>
           <p className="separator">•</p>
-          <p className="timeStamp">{moment().format("D MM YYYY")}</p>
-          <br></br>
+          <p className="dateStamp">{moment().format("D MMM YYYY")}</p>
         </div>
+          <br></br>
     </div>
     )
   }
 
 export default HeaderTitle;
+// export default (props) => <div className={`btn-borders NumberButton ${props.btnWidth}`}>{props.children}</div> 
+// stateless functional component ( no this.state object)

@@ -54,7 +54,7 @@ border-color: black;
 }
 .row {
 /* ☞ 1ea47807-049f-461f-81b5-743a3a2d2a05 */
-  display: flex; 
+  display: inline-block; 
   flex-direction: row;
   height: 40%;
   width: 100%;

@@ -13,6 +13,7 @@ class ImageThumbnail extends React.Component {
 }
 
 export default ImageThumbnail;
+//export default (props) => <div className={`btn-borders NumberButton ${props.btnWidth}`}>{props.children}</div> // stateless functional component ( no this.state object)
 
 /*
 class CardBanner extends React.Component {

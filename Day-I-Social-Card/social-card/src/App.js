@@ -15,9 +15,11 @@ const App = () => {
       <HeaderContainer className="headerContainer">
         Header Container
         <HeaderContent>HeaderContent</HeaderContent>
+        <br></br>
         <HeaderTitle>HeaderTitle</HeaderTitle>
       </HeaderContainer>
       </div>
+      
       <div className="row">
         <CardContainer className="cardContainer">CardContainer</CardContainer>
         <CardBanner className="cardBanner">CardBanner</CardBanner>
