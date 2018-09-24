@@ -1,0 +1,12 @@
+.app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10px;
+    height: 10px;
+  }
+  
+.calc-wrapper {
+    width: 10px;
+    height: 10px;
+  }

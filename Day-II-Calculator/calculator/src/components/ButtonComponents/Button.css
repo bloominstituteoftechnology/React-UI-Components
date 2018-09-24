@@ -1,0 +1,72 @@
+.row{
+    height: 4em;
+    width: 15em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4em;
+    background-color: white;
+    color: black;
+    outline: 1px solid black;
+}
+
+.button{
+    height: 4em;
+    width: 4em;
+    font-size: 1.4em;
+    background-color: white;
+    color: black;
+    outline: 1px solid black;
+}
+
+
+.zero-button{
+    height: 4em;
+    width: 12em;
+    font-size: 1.4em;
+    background-color: white;
+    color: black;
+    outline: 1px solid black;
+}
+
+
+
+
+
+
+
+.action{
+    height: 4em;
+    width: 4em;
+
+    display: flex;
+    flex-direction: column-reverse;
+   
+    font-size: 1.4em;
+    background-color: red;
+    color: white;
+    outline: 1px solid black;
+
+}
+
+.row-left{
+    height: 4em;
+    width: 15em;
+    display: flex;
+    float: right;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.action-clear{
+    height: 4em;
+    width: 12em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4em;
+    background-color: white;
+    color: black;
+    outline: 1px solid black;
+}
