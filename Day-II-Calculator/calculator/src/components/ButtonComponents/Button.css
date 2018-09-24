@@ -24,32 +24,11 @@
     border-top: none ;
 }
 
-/* .r2Outer {
-    width: 100% ; 
-   
-} */
+
 .rowTwoDiv {
     width: 100% ; 
     
    
-}
-/* .rowTwo {
-    width: 100% ;
-    display: flex ;
-    justify-content: space-between ;
-    margin-top: -5px ;
-} */
-.rowTwo td {
-    border: 2px solid gray !important;
-    width: 17% ;
-    padding: 20px 20px 20px 20px ;
-    color: black ;
-    text-align: center ;
-    font-size: 4rem ;
-    font-weight: bolder ;
-    height: 57px ;
-    border-left: none ;
-
 }
 
 table {
@@ -76,24 +55,7 @@ table {
 
 }
 
-/* .rowThree {
-    width: 100% ;
-    display: flex ;
-    justify-content: space-between ;
-    margin-top: -5px ;
-} */
 
-.rowThree td {
-    border: 2px solid gray !important;
-    width: 17% ;
-    padding: 20px 20px 20px 20px ;
-    color: black ;
-    text-align: center ;
-    font-size: 4rem ;
-    font-weight: bolder ;
-    height: 57px ;
-
-}
 
 .rowThree td:last-of-type {
     color: white ;
@@ -101,10 +63,7 @@ table {
     width: 19% ;
 
 }
-/* 
-.r4Outer {
-    width: 100% ;
-} */
+
 
 .rowFourDiv {
     width: 100% ;
@@ -112,31 +71,7 @@ table {
 
 }
 
-/* .rowFour {
-    width: 100% ;
-    display: flex ;
-    justify-content: space-between ;
-    margin-top: -5px ;
-} */
 
-.rowFour td {
-    border: 2px solid gray !important;
-    width: 17% ;
-    padding: 20px 20px 20px 20px ;
-    color: black ;
-    text-align: center ;
-    font-size: 4rem ;
-    font-weight: bolder ;
-    height: 53px ;
-
-}
-
-.rowFour td:last-of-type {
-    color: white ;
-    background: #A0001E ;
-    width: 19% ;
-
-}
 
 .rowFive {
     border: 2px solid gray ;

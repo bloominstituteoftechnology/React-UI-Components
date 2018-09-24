@@ -13,8 +13,8 @@ import './Button.css';
     }
 
     const ButtonSyleTwo = {
-        border: '2px solid gray', 
-        width: '17%',
+        border: '1.5px solid gray', 
+        width: '16%',
         padding: '20px 20px 20px 20px',
         color: 'black',
         textAlign: 'center', 
@@ -23,27 +23,35 @@ import './Button.css';
         height: '53px',
     }
 
-const Nums = (props) => {
+    const ButtonStyleThree = {
+        color: 'white',
+    background: '#A0001E',
+    width: '27%',
+    border: '2px solid gray',
+    fontSize: '5rem',
+    }
+
+
+const Nums = () => {
 
   
 return(
 <div>
 <table>
-{/* <td className='r2Outer'> */}
 <td style={OuterRow}>
 
 
     <div className='rowTwoDiv'> 
 
-            <tr style={ButtonStyle}{...ButtonSyleTwo}>
+            <tr style={ButtonStyle}>
         
-            <td>7</td>
+            <td style={ButtonSyleTwo}>7</td>
            
-            <td>8</td>
+            <td style={ButtonSyleTwo}>8</td>
         
-            <td>9</td>
+            <td style={ButtonSyleTwo}>9</td>
         
-            <td>x</td>
+            <td style={ButtonStyleThree}>x</td>
             
    </tr>
     
@@ -51,38 +59,36 @@ return(
     
 </td>
 
-{/* <td className='r3Outer'> */}
 <td style={OuterRow}>
 <div className='rowThreeDiv'>
 <tr style={ButtonStyle}>
         
         
-            <td>4</td>
+            <td style={ButtonSyleTwo}>4</td>
         
-            <td>5</td>
+            <td style={ButtonSyleTwo} >5</td>
         
-            <td>6</td>
+            <td style={ButtonSyleTwo}>6</td>
         
-            <td>__</td>
+            <td style={ButtonStyleThree}>__</td>
     </tr></div>
     
 
 </td>
 
-{/* <td className='r4Outer'> */}
 <td style={OuterRow}>
 
 <div className='rowFourDiv'>
 <tr style={ButtonStyle}>
             
             
-            <td>1</td>
+            <td style={ButtonSyleTwo}>1</td>
             
-            <td>2</td>
+            <td style={ButtonSyleTwo}>2</td>
             
-            <td>3</td>
+            <td style={ButtonSyleTwo}>3</td>
             
-            <td>+</td>                            
+            <td style={ButtonStyleThree}>+</td>                            
     </tr></div>
    
 
