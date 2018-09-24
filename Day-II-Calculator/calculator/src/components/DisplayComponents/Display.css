@@ -1,5 +1,4 @@
 .calculator-display {
-    border: 1px solid blue;
     height: 100px;
     display: flex;
     justify-content: flex-end;
