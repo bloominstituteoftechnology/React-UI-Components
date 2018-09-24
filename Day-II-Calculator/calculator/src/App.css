@@ -1,0 +1,6 @@
+.app-container {
+    border: 1px solid lightgrey;
+    height: 600px;
+    width: 450px;
+    margin-top: 30px;
+}
