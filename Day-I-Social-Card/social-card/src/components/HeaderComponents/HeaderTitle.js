@@ -5,8 +5,8 @@ const HeaderTitle = () => {
   return (
     <div className="header-tittle-container">
       <div className="top-tittle">
-        <h1>Lambda School</h1>
-        <h2>@LambdaSchool &middot; 26 jan</h2>
+        <h1>Lambda School </h1>
+        <h2> @LambdaSchool &middot; 26 jan</h2>
       </div>
       <div className="bottom-tittle">
         <p>
