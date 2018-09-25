@@ -19,11 +19,27 @@ const CalcBorder = {
     border: "2px solid gray" 
 }
 
-const Display = () => {
-    return (
-        <div style={CalcBorder}> <div style={CalcDisplay}>0</div></div>
-       
-    )
+class Display extends React.Component{
+    constructor(){
+        super();
+
+        this.setState({
+                
+        })
+    }
+
+    render(){
+        return (
+            <div style={CalcBorder}> <div style={CalcDisplay}>0</div></div>
+           
+        )
+    }
 }
+// const Display = () => {
+//     return (
+//         <div style={CalcBorder}> <div style={CalcDisplay}>0</div></div>
+       
+//     )
+// }
 
 export default Display ;

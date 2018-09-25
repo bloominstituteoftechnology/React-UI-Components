@@ -79,11 +79,14 @@ import './Button.css' ;
         constructor(){
             super();
 
-            this.state = {
+            this.setState({
+                
+            })
+           /* this.state = {
                 ButtonStyle: ButtonStyle,
                 ButtonSyleTwo: ButtonSyleTwo 
                 // style objects passed to state
-            }
+            } */
         }
         
         render(){
