@@ -13,13 +13,13 @@ class ActionButton extends Component {
     <div displayStyle="row-left" >
   
 
-  <Button text="&divide;" displayStyle="action" />
+  <Button text="&divide;" displayStyle="action-row" />
 
-  <Button text="&times;" displayStyle="action" />
+  <Button text="&times;" displayStyle="action-row" />
 
-  <Button text="-" displayStyle="action" />
-  <Button text="+" displayStyle="action" />
-  <Button text="=" displayStyle="action" />
+  <Button text="-" displayStyle="action-row" />
+  <Button text="+" displayStyle="action-row" />
+  <Button text="=" displayStyle="action-row" />
       
       
           </div>);

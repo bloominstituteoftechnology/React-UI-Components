@@ -17,6 +17,7 @@
     background-color: white;
     color: black;
     outline: 1px solid black;
+
 }
 
 
@@ -41,21 +42,34 @@
 
     display: flex;
     flex-direction: column-reverse;
-   
     font-size: 1.4em;
-    background-color: red;
+
+    color: white;
+    outline: 1px solid black;
+
+}
+
+.action-row{
+    height: 4em;
+    width: 4em;
+position: relative;
+
+    display: flex;
+ margin-left:270px;
+ padding-left:37px;
+
+    top: -448px;
+    left: 50;
+    font-size: 1.4em;
+  background-color: #8b0000;
     color: white;
     outline: 1px solid black;
 
 }
 
 .row-left{
-    height: 4em;
-    width: 15em;
-    display: flex;
-    float: right;
-    justify-content: center;
-    align-items: center;
+   position: relative;
+
 
 }
 

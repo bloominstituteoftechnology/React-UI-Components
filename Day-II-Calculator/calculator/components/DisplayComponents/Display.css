@@ -1,14 +1,14 @@
 .input {
-    height: 4em;
-    width: 16em;
+    height:100px;
+    width: 361px;
     display: flex;
+    font-family: Helvetica;
     justify-content: flex-end;
     align-items: center;
     font-weight: bold;
-    font-size: 1.4em;
+    font-size: 2.4em;
     background-color: #000000;
     color: #ffffff;
     padding: 0.5em;
-    outline: 1px solid #888888;
    justify-content: center;
   }
