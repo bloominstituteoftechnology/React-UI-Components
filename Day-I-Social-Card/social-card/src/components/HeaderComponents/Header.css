@@ -1,0 +1,27 @@
+/* All styles for your header Components live here */
+
+
+.lambda-logo {
+    width: 80px;
+    height: 80px;
+    margin-right: 15px;
+}
+
+.title {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.LambdaSchool, .tag, .date {
+    margin-right: 15px;
+}
+
+.tag, .date {
+    margin-top: 30px;
+    font-weight: lighter;
+}
+
+.header-content {
+    margin-left: 93px;
+    margin-top: 0px;
+}
