@@ -9,6 +9,6 @@ const CardContent = () => {
             <a href='reactjs.org'>reactjs.org</a>
         </div>
     )
-}
+}  
 
 export default CardContent;
