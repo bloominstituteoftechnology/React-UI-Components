@@ -1,1 +1,11 @@
 /* All styles for your Card Components live here */
+
+.img {
+    width: 100%;
+}
+
+.image img {
+    width: 90%;
+    height: auto;
+}
+
