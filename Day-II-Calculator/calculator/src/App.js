@@ -6,7 +6,7 @@ import CalculatorDisplay from './components/DisplayComponents/CalculatorDisplay.
 
 const App = () => {
   return (
-    <div class='calculator-container'>
+    <div className='calculator-container'>
 
       <CalculatorDisplay />
 
@@ -29,7 +29,7 @@ const App = () => {
         <ActionButton type='function' text='-' />
       </div>
 
-      <div class='button-container'>
+      <div className='button-container'>
         <NumberButton type='number' text='1' />
         <NumberButton type='number' text='2' />
         <NumberButton type='number' text='3' />
