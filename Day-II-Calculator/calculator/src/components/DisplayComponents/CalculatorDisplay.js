@@ -1,5 +1,5 @@
 import React from 'react';
-
+import './Display.css'
 const calcBorder = {
     border:' 2px solid gray' ,
 }

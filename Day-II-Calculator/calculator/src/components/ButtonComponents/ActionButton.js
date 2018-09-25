@@ -1,4 +1,5 @@
 import React from 'react';
+import './Button.css';
 
 
 const ClearBtn = {
@@ -27,9 +28,17 @@ const DivSignStyle = {
 }
 
 
+class Clear extends React.Component {
+    constructor(){
+        super();
 
-const Clear = () => {
-    return(
+        this.state = {
+
+        }
+    }
+
+    render(){
+        return(
         <div style={RowZero}>
             <div style={ClearBtn}>
             Clear
@@ -39,8 +48,25 @@ const Clear = () => {
        
         
         </div>
-       
-    )
+        );
+    }
 }
+// const Clear = () => {
+//     // replace parameters with props arg
+//     // render isn't needed 
+//     return(
+//         // semantic button tags add functionality more simply.
+//         // props removes the need for hard coded vanilla html
+
+       
+//     )
+// }
 
 export default Clear ;
+/*
+Comparing my ActionButton.js with the solution file, the difference seems to be the use of props as an arg instead of an empty parameter.
+The semantic button tag also adds functionality, as a work around for the trickiness of onClick/React event listeners. The render method isn't called because rendering the method here wouldn't allow for the props arg(s) to be passed, as that's done higher up in the file structure, when the components are called in App.js, and App.js is rendered in index.js.
+
+
+
+*/

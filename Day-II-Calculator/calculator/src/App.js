@@ -4,14 +4,24 @@ import Display from './components/DisplayComponents/CalculatorDisplay';
 import Clear from './components/ButtonComponents/ActionButton';
 import Nums from './components/ButtonComponents/NumberButton';
 
-const App = () => {
-  return (
+class App extends React.Component{
+  constructor(){
+    super();
+
+    this.state = {
+
+    }
+  }
+  render(){
+     return (
     <div className="container">
    <Display/>
    <Clear />
    <Nums/>
     </div>
   );
+  }
+ 
 };
   //  <h3>Welcome to React Calculator</h3>
   //     <p>

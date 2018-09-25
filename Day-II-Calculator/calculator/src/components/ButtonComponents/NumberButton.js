@@ -1,5 +1,6 @@
 import React from 'react';
 
+import './Button.css' ;
   const OuterRow = {
         width: '100%',
     }
@@ -57,6 +58,7 @@ import React from 'react';
     }
 
     const RowFiveCont = {
+        // style object
         border: '1px solid black' ,
         width: '80%' ,
         height: '92px' ,
@@ -69,11 +71,23 @@ import React from 'react';
         fontWeight: 'bold' ,
     
     }
+
     
-    const Nums = () => {
+     
+    class Nums extends React.Component {
+
+        constructor(){
+            super();
+
+            this.state = {
+                ButtonStyle: ButtonStyle,
+                ButtonSyleTwo: ButtonSyleTwo 
+                // style objects passed to state
+            }
+        }
         
-        
-        return(
+        render(){
+            return(
             <div>
 <table style={TableFlex}>
 <td style={OuterRow}>
@@ -81,11 +95,12 @@ import React from 'react';
 
     <div className='rowTwoDiv'> 
 
-            <tr style={ButtonStyle}>
+            <tr style={this.state.ButtonStyle}>
         
-            <td style={ButtonSyleTwo}>7</td>
-           
-            <td style={ButtonSyleTwo}>8</td>
+            <td style={this.state.ButtonSyleTwo}>7</td>
+            
+
+            <td  style={ButtonSyleTwo}>8</td>
         
             <td style={ButtonSyleTwo}>9</td>
         
@@ -139,6 +154,8 @@ import React from 'react';
 </div>
 </div>
 )
+        }
+        
 }
 
 export default Nums ;
