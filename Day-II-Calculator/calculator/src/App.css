@@ -55,8 +55,9 @@ table {
     flex-direction: column;
     justify-content: space-between;
     border: 1px solid gray;
-    width: 300px;
-    height: 450px;
+    width: 370px;
+    height: 560px;
+    margin: 0 auto;
 }
 
 
@@ -76,6 +77,11 @@ table {
 .column {
     display: flex;
     width: 100%;
-    height: 50px;
+    height: 90px;
     border: 1px solid black;
+}
+
+
+.startend{
+    width: 90px;
 }

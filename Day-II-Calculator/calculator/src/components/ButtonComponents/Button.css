@@ -1,7 +1,29 @@
+button {
+    display: flex;
+    border: none;
+    padding: 1rem 2rem;
+    margin: 0;
+    text-decoration: none;
+    background-color:#FFFFFF;
+    color: black;
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    justify-content: center;
+    cursor: pointer;
+    text-align: center;
+    transition: background 250ms ease-in-out, 
+                transform 150ms ease;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+
 .number {
 
-    flex-grow:1;
+    width: 90px;
     height: 90px;
+
 }
 
 .long{
@@ -9,3 +31,12 @@
     width: 100%;
 }
 
+.operator{
+    background-color: #A0001E;
+    font-size: 60px;
+    color: white;
+}
+
+.clearzero{
+    width: 276px;
+}

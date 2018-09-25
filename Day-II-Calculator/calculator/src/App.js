@@ -10,18 +10,20 @@ class App extends React.Component {
 
     state = {numArr: [],
     result: 0,
-  operationArr: []};
+  operationArr: [],
+displayArr: []};
     
  
   
 
   clickHandler = (e) =>{
-    let {numArr, result, operationArr} = this.state;
+    let {numArr, result, operationArr, displayArr} = this.state;
     let value=e.target.getAttribute('data-value');
     console.log(value, result);
     numArr.push(value);
-    result = numArr;
-    this.setState({numArr, result, operationArr});
+    displayArr.push(value);
+    result = displayArr;
+    this.setState({numArr, result, operationArr, displayArr});
     console.log(numArr);
 
 
@@ -29,13 +31,14 @@ class App extends React.Component {
 }
 
 doMath = (e) =>{
-  let{numArr, operationArr, result} = this.state;
+  let{numArr, operationArr, result, displayArr} = this.state;
   let value=e.target.getAttribute('data-value');
   operationArr.push(numArr);
   operationArr.push(value);
-  result = operationArr.join('');
+  displayArr.push(value);
+  result = displayArr.join('');
   console.log(operationArr);
-  this.setState({numArr: [], operationArr, result});
+  this.setState({numArr: [], operationArr, result, displayArr});
 
 }
 
@@ -48,11 +51,12 @@ mathResult = (e) => {
 }
 
 clear = (e) => {
-let {numArr, result, operationArr} = this.state;
+let {numArr, result, operationArr, displayArr} = this.state;
 numArr = [];
 operationArr = [];
+displayArr = [];
 result = 0;
-this.setState({numArr, result, operationArr});
+this.setState({numArr, result, operationArr, displayArr});
 console.log(this.state.numArr);
 }
 
@@ -62,11 +66,11 @@ console.log(this.state.numArr);
     <div className='calculator'>
       <div><CalculatorDisplay initialValue={this.state.result}/></div>
       <div className = 'calculatorgrid'>
-        <div className = 'actionrow'><div  className='column' ><ActionButton buttonStyle={'long'} text={'Clear'} click={this.clear} /></div><div  className='column' ><NumberButton buttonStyle={'number'} text={'/'} click={this.doMath}  /></div></div>
-        <div className = 'row'><div  className='column' ><NumberButton buttonStyle={'number'} text={'7'} click={this.clickHandler} /></div><div  className='column' ><NumberButton buttonStyle={'number'} text={'8'} click={this.clickHandler} /></div><div  className='column' ><NumberButton buttonStyle={'number'} text={'9'} click={this.clickHandler} /></div><div  className='column' ><NumberButton buttonStyle={'number'} text={'*'} click={this.doMath}  /></div></div>
-        <div className = 'row'><div  className='column' ><NumberButton buttonStyle={'number'} text={'4'} click={this.clickHandler} /></div><div  className='column' ><NumberButton buttonStyle={'number'} text={'5'} click={this.clickHandler} /></div><div  className='column' ><NumberButton buttonStyle={'number'} text={'6'} click={this.clickHandler} /></div><div  className='column' ><NumberButton buttonStyle={'number'} text={'-'} click={this.doMath}  /></div></div>
-        <div className = 'row'><div  className='column' ><NumberButton buttonStyle={'number'} text={'1'} click={this.clickHandler} /></div><div  className='column' ><NumberButton buttonStyle={'number'} text={'2'} click={this.clickHandler} /></div><div  className='column' ><NumberButton buttonStyle={'number'} text={'3'} click={this.clickHandler} /></div><div  className='column' ><NumberButton buttonStyle={'number'} text={'+'} click={this.doMath}  /></div></div>
-        <div className = 'actionrow'><div  className='column' ><NumberButton buttonStyle={'long'} text={'0'} click={this.clickHandler} /></div><div  className='column' ><NumberButton buttonStyle={'number'} text={'='} click={this.mathResult}  /></div></div>
+        <div className = 'actionrow'><div  className='column' ><ActionButton buttonStyle={'long clearzero'} text={'Clear'} click={this.clear} /></div><div  className='column startend' ><NumberButton buttonStyle={'number operator'} text={'/'} click={this.doMath}  /></div></div>
+        <div className = 'row'><div  className='column' ><NumberButton buttonStyle={'number'} text={'7'} click={this.clickHandler} /></div><div  className='column' ><NumberButton buttonStyle={'number'} text={'8'} click={this.clickHandler} /></div><div  className='column' ><NumberButton buttonStyle={'number'} text={'9'} click={this.clickHandler} /></div><div  className='column' ><NumberButton buttonStyle={'number operator'} text={'*'} click={this.doMath}  /></div></div>
+        <div className = 'row'><div  className='column' ><NumberButton buttonStyle={'number'} text={'4'} click={this.clickHandler} /></div><div  className='column' ><NumberButton buttonStyle={'number'} text={'5'} click={this.clickHandler} /></div><div  className='column' ><NumberButton buttonStyle={'number'} text={'6'} click={this.clickHandler} /></div><div  className='column' ><NumberButton buttonStyle={'number operator'} text={'-'} click={this.doMath}  /></div></div>
+        <div className = 'row'><div  className='column' ><NumberButton buttonStyle={'number'} text={'1'} click={this.clickHandler} /></div><div  className='column' ><NumberButton buttonStyle={'number'} text={'2'} click={this.clickHandler} /></div><div  className='column' ><NumberButton buttonStyle={'number'} text={'3'} click={this.clickHandler} /></div><div  className='column' ><NumberButton buttonStyle={'number operator'} text={'+'} click={this.doMath}  /></div></div>
+        <div className = 'actionrow'><div  className='column' ><NumberButton buttonStyle={'long clearzero'} text={'0'} click={this.clickHandler} /></div><div  className='column startend' ><NumberButton buttonStyle={'number operator'} text={'='} click={this.mathResult}  /></div></div>
         
         
         </div>

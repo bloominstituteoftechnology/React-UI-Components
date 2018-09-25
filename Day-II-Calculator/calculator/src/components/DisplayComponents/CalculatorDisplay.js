@@ -8,7 +8,7 @@ import './Display.css';
     
     const CalculatorDisplay =(props)=>{
     return(
-        <div>{props.initialValue}</div>
+        <div className={'calcdisplay'}>{props.initialValue}</div>
     );
 }
 
