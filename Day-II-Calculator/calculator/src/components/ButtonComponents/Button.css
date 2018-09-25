@@ -1,11 +1,35 @@
 
-h1 {
+.number {
     border: 2px solid gray;
-    width: 50px;
-    height: 40px;
+    width: 25%;
+    text-align: center;
+    padding:10px;
+}
+
+.long {
+    width:75%;
+    border: 2px solid gray;
     text-align: center;
 }
 
-.zero {
-    width:100px;
+.rowOne {
+    display:flex;
+    flex-direction: row;
+}
+
+.rowTwo {
+    display:flex;
+    flex-direction: row;
+}
+
+.rowThree {
+    display:flex;
+    flex-direction: row;
+}
+
+.operate {
+    border: 2px solid gray;
+    width: 25%;
+    background-color: aqua;
+    text-align: center;
 }
