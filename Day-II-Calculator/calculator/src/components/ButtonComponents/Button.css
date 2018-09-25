@@ -10,11 +10,14 @@
     width:75%;
     border: 2px solid gray;
     text-align: center;
+    padding:10px;
+
 }
 
 .rowOne {
     display:flex;
     flex-direction: row;
+    width:100%;
 }
 
 .rowTwo {
@@ -32,4 +35,5 @@
     width: 25%;
     background-color: aqua;
     text-align: center;
+    padding:10px;
 }
