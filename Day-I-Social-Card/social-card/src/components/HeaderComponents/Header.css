@@ -1,1 +1,8 @@
 /* All styles for your header Components live here */
+.header-container {
+    border:2px solid orange;
+}
+
+.header-content {
+    border:2px solid red;
+}
