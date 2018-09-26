@@ -4,8 +4,30 @@
 */
 
 .container {
-  border: 1px solid black;
   height: 580px;
   max-width: 700px;
-  width: 100%;
+  width: 60%;
+  margin: 0 auto;
+}
+
+span {
+  color: gray;
+  font-size: 15px;
+}
+
+p {
+  font-size: 15px;
+  text-align: start;
+  margin-top: 0;
+  line-height: 20px;
+  color: black;
+}
+
+h1 {
+  font-size: 13px;
+  color: black;
+}
+
+a {
+  text-decoration: none;
 }

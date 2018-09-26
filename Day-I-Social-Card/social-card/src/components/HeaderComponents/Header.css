@@ -18,16 +18,23 @@ img {
 }
 
 h1 {
-    font-size: 1.8rem;
+    font-size: 15px;
     font-weight: bold;
+    margin-right: 10px;
 }
 
 .lambdaTag {
+    position: relative;
+    display: flex;
+    align-items: center;
     color: grey;
-    font-size: 1.1rem;
+    font-size: 1rem;
+    top: 10px;
 }
 
 .header-title h1, .header-title p, .header-title .header-content {
+    position: relative;
+    left: 10px;
     display: flex;
     align-items: center;
     margin-right: 15px;
