@@ -1,0 +1,12 @@
+.main-container {
+  border: 3px solid gray;
+  height: auto;
+  width: 455px;
+  margin: 60px;
+}
+
+.button-row {
+  display: flex;
+  border: solid 1px gray;
+  height: 92px;
+}
