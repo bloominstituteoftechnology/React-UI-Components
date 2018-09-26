@@ -3,8 +3,8 @@ import './Header.css';
 
 const ImageThumbnail = props => {
     return (
-        <img className ="header-img" src = {'https://ibin.co/3whrpKSBbZ81.png'} alt = "Lambda Logo"/>
-    );
+        <img className ="header-img" src = {"https://ibin.co/3whrpKSBbZ81.png"} alt = "Lambda Logo"/>
+    ); 
 };
 
 export default ImageThumbnail;
