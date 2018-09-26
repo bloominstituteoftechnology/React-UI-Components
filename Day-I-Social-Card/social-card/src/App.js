@@ -14,7 +14,8 @@ const App = () => {
       <p>
         <strong>
           Don't forget to `default export` your components and import them here
-          inside of this file in order to make them work.
+          inside of this file in order to make them work.<br></br>
+          <p>Added a new line to test code and for a pull request.</p>
         </strong>
       </p>
     </div>
