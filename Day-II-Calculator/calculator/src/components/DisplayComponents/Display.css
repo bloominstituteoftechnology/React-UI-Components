@@ -1,0 +1,24 @@
+.calculator {
+    display:flex;
+    flex-direction:column;
+    width:450px;
+    height:600px;
+    margin:100px auto;
+    border:1px solid black;
+}
+
+.calculator_screen {
+    width:100%;
+    height:125px;
+    background:black;
+}
+
+.calculator-screen-input {
+    width:100%;
+    height:80%;
+    margin:auto 0 auto 0;
+}
+
+.calculator_buttons {
+
+}
