@@ -11,7 +11,7 @@ const HeaderContainer = props => {
             <div className = "content-wrapper">
                 <HeaderTitle />
                 <HeaderContent />
-            </div>
+             </div>
         </div>
     );
 };
