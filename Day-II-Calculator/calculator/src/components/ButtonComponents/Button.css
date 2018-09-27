@@ -1,0 +1,38 @@
+.action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 360px;
+    height: 100px;
+    border: 1px solid gray;
+    background-color: white;
+    padding: 0;
+    font-size: 38px;
+}
+
+.number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 100px;
+    color: black;
+    border: 1px solid gray;
+    padding: 0;
+    font-size: 38px;
+}
+
+.symbol {
+    background-color: #ad142b;
+    color: white;
+    font-size: 52px;
+}
+
+.app .bold {
+    font-weight: bold;
+    background-color: white;
+}
+
+.operator {
+    font-size: 60px;
+}
