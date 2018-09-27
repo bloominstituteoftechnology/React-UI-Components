@@ -1,14 +1,19 @@
 /* All styles for your Card Components live here */
 .card-container {
-	width: 520px;
+	width: 500px;
 	margin-left: 65px;
-	height: 500px;
+	height: 365px;
+	border: 1px solid lightgray;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
 }
 
 .react {
 	width: 500px;
 	margin: 0 auto;
 	height: 250px;
+	border-top-right-radius: 6px;
+	border-top-left-radius: 6px;
 }
 
 .card-content {
@@ -28,4 +33,9 @@
 	font-size: 14px;
 	margin-top: 0px;
 	color: gray;
+}
+
+a {
+	text-decoration: none;
+	color: black;
 }
