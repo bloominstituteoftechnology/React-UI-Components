@@ -16,16 +16,18 @@
     flex-direction: column;
     /* max-width: 338px; */
     width: 332px;
-    height: 470px;
-    /* border: 2px solid green; */
+    height: 478px;
+     /* border: 2px solid green */; 
     top: 130px;
     left: 0px;
 }
 
 .NumberButton {
     /* display: flex; */
-    width: 98px;
-    height: 110px;
+    width: 110px;
+    height: 94px;
+    font-size: 40px;
+    border: 1px solid lightslategray;
 }
 
 .ActionButtonContainer {
@@ -37,30 +39,38 @@
     background-color: rgb(160, 0, 30);
     color: black;
     /* border: 2px solid orangered; */
-    left: 335px;
+    left: 340px;
     top: 127px;
     font-size: 40px;
 }
 
 .ClearKey {
-    display: flex;
+    display: block;
     height: 90px;
     width: 333px;
     max-width: 335px;
+    font-size: 50px;
+   text-align: center;
+
+    color: black;
     top: 127px;
     left: 0px;
+    /* border: 2px solid orange; */
+    background-color: lightgrey;
 }
 
 .ZeroKey {
+   display: block;
     width: 330px;
     max-width: 333px;
     color: black;
-    background-color: white;
+    background-color: lightgrey;
     font-size: 53px;
-    left: 0px;
-    padding-top: 18px;
-    top: 10px;
-    height: 92px;
+    left: 10px;
+    padding-top: 0px;
+    top: 0px;
+    height: 90px;
+    border: 1px solid gray;
 }
 
 .LowerContainer {
@@ -70,26 +80,29 @@
     flex-direction: row;
     top: 130px;
     left: 0px;
+    border: 1px solid gray;
 }
 
 .ActionButton {
-    width: 95px;
-    height: 95px;
-    color: black;
+    width: 120px;
+    height: 93px;
+    color: white;
     font-size: 45px;
+    background-color: rgb(160, 0, 30);
 }
 
 .CalculatorContainer {
     display: flex;
     flex-direction: column;
     width: 456px;
-    height: 598px;
+    height: 600px;
+    /* border: 2px solid blue; */
 }
 
 .Plus {
-    height: 120px;
+   /*  height: 120px;
     font-size: 40px;
-    background-color: rgb(160, 0, 30);
+    background-color: rgb(160, 0, 30); */
 }
 
 .number {
@@ -101,6 +114,10 @@
 
 .ClearKeyContainer {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
     height: 90px;
     width: 333px;
     max-width: 335px;
@@ -116,9 +133,13 @@
 
 .ZeroKeyContainer {
     display: flex;
-    height: 90px;
+    height: 70px;
     width: 330px;
     max-width: 330px;
-    top: 140px;
+    top: 0px;
     left: 0px;
+    background-color: gray;
+    color: black;
+    /* font-size: 30px; */
+
 }

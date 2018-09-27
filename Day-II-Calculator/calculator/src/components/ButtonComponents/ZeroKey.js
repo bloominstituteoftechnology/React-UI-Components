@@ -4,13 +4,18 @@ import './Button.css';
 
 const ZeroKey = (props) => {
     return (
-        <button className="ZeroKey"> 
-        {props.text}
-        </button>
+     <input
+     type="button"
+     className={props.type === 'action' ? 'button action-button' : 'button input-button'}
+     onClick={props.handleClick}
+     value={props.label}
+     className="ZeroKey"
+   />
     )
+ };
 
 
-}
+
 
 
 

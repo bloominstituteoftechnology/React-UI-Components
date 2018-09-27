@@ -4,10 +4,13 @@ import './Button.css';
 
 const ClearKey = (props) => {
        return (
-            <button className="Clear"> 
-           {props.text}
-           </button>
-          
+        <input
+        type="button"
+        className={props.type === 'action' ? 'button action-button' : 'button input-button'}
+        onClick={props.handleClick}
+        value={props.label}
+        className="ClearKey"
+      />
        )
     };
 

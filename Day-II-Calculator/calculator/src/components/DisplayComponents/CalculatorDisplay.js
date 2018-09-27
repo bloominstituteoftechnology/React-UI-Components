@@ -7,6 +7,7 @@ const CalculatorDisplay = (props) => {
     return ( 
         <div className="screen"> 
       <ScreenRow />
+     {/*  <ScreenRow value={props.answer}/> */}
        </div>
        
    )
