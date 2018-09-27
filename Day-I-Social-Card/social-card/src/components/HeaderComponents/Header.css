@@ -1,1 +1,38 @@
 /* All styles for your header Components live here */
+.header-wrapper {
+    max-width: 690px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.content-wrapper {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.header-img {
+    margin-top: 5px;
+    width: 75px;
+    height: 75px;
+
+}
+
+.header-title-wrapper {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.header-handle-date {
+    margin-left: 5px;
+    color:#C0C0C0
+}
+
+.header-name {
+    font-weight: bold;
+}
+
+.header-content {
+    margin-top: 30px;
+}
