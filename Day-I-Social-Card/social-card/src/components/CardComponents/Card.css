@@ -1,1 +1,31 @@
 /* All styles for your Card Components live here */
+.card-container {
+	width: 520px;
+	margin-left: 65px;
+	height: 500px;
+}
+
+.react {
+	width: 500px;
+	margin: 0 auto;
+	height: 250px;
+}
+
+.card-content {
+	margin-left: 15px;
+}
+
+.card-title {
+	font-size: 14px;
+}
+
+.card-paragraph {
+	font-size: 14px;
+	margin-bottom: 5px;
+}
+
+.website {
+	font-size: 14px;
+	margin-top: 0px;
+	color: gray;
+}
