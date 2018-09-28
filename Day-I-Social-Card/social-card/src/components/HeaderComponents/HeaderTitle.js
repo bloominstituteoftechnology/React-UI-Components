@@ -4,19 +4,32 @@ import './Header.css';
 
 const HeaderTitle = props  =>
 (
+<div className="Lambda">Lambda School</div>
 
 
-<div>
 
-<div>Lambda School</div>
-
-<div>@Lambdaschool</div>
+<div className="title-wrapper">
 
 
-<div>&bull;</div>
-<div>26 March</div>
+<div className="tagSign-dot">
+
+<div className="tagSign">@Lambdaschool </div>
+<div className="dot">&bull;</div>
 
 </div>
+
+<div className="date">26 March</div>
+
+</div>
+
+
+
+
+
+
+</div>
+
+
 
 )
 

@@ -10,13 +10,13 @@ const HeaderContainer = props =>
      (
       <header>
 
-        <div>
+        <div className= "container">
           
                   
 <ImageThumbnail/>
 
-<div>
-  
+<div className="title-content">
+
 <HeaderTitle/>
 
         <HeaderContent/>

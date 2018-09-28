@@ -1,1 +1,69 @@
 /* All styles for your header Components live here */
+.container{
+    display: flex;
+    flex-direction:row;
+    padding-top: 10px ;
+    padding-right:1px;
+    padding-bottom: 20px;
+    padding-left:10px;
+}
+/* images */
+img{
+max-width: 100%;
+max-height:100%;
+margin-top:5px;
+
+
+}
+/* adjust sizing */
+.headpic{
+    width:90px;
+}
+
+/* words */
+.title-content{
+    display:flex;
+    flex-direction:column;
+    width: 100%;
+    padding:0 10px;
+}
+
+.header-text{
+    display:flex;
+    padding-left: 5px;
+    width: 600px;
+}
+
+.title-wrapper{
+    display: flex;
+    flex-direction:row;
+    padding: 10px 0;
+    justify-content: space-around;
+}
+
+.Lambda{
+    font-size:20px;
+    font-weight:200;
+    margin-left:-15%;
+}
+
+.tagSign{
+    display:flex;
+    font-size:13px;
+    font-weight:100;
+    color:gray;
+    padding-right:5px;
+    margin-left:-8%;
+}
+
+.dot{
+display: flex;
+    margin-left:5%;
+}
+
+.date{
+    display: flex;
+    font-weight:200;
+    color:gray;
+    padding-left:5px;
+}
