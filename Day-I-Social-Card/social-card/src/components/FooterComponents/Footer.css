@@ -2,14 +2,14 @@
     padding-top: 20px;
     width: 100%;
     margin-left: 10%;
-    padding-right: 50px;
+    padding-left: -80px;
 }
 
 i {
     color: silver;
     font-size: 1rem;
-    padding-top: 10px;
-    padding-right: 50px;
+    padding-bottom: 30px;
+    padding-left: 20px;
 }
 
 i:hover {
@@ -21,9 +21,11 @@ i:hover {
     color: silver;
     font-size: 7rem;
     padding-left: 5px;
+    padding-right: 20px;
 }
 
 .fa-heart, .fa-envelope {
+    padding-right: 80px;
     padding-left: 50px;
 }
 
@@ -32,6 +34,6 @@ i:hover {
 }
 
 .fa-comment {
-    padding-left: 30px;    
+    padding-right: 30px;    
     transform: scaleX(-1);
 }
