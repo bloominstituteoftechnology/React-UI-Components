@@ -9,30 +9,30 @@ const App = () => {
     <div className = "calc-wrapper">
       <CalculatorDisplay />
       <div className = "btn-wrapper">
-        <ActionButton />
-        <NumberButton />
+        <ActionButton text="clear" />
+        <NumberButton text="÷" />
       </div>
       <div className = "btn-wrapper">
-        <NumberButton />
-        <NumberButton />
-        <NumberButton />
-        <NumberButton />
+        <NumberButton text="7" />
+        <NumberButton text="8"/>
+        <NumberButton text="9"/>
+        <NumberButton text="X"/>
       </div>
       <div className = "btn-wrapper">
-        <NumberButton />
-        <NumberButton />
-        <NumberButton />
-        <NumberButton />
+        <NumberButton text="4"/>
+        <NumberButton text="5"/>
+        <NumberButton text="6" />
+        <NumberButton text="-"/>
       </div>
       <div className = "btn-wrapper">
-        <NumberButton />
-        <NumberButton />
-        <NumberButton />
-        <NumberButton />
+        <NumberButton text="1" />
+        <NumberButton text="2"/>
+        <NumberButton text="3"/>
+        <NumberButton text="+"/>
       </div>
       <div className = "btn-wrapper">
-        <ActionButton />
-        <NumberButton />
+        <ActionButton text="0"/>
+        <NumberButton text="="/>
       </div>
     </div>
   );
