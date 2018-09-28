@@ -1,6 +1,7 @@
 import React from 'react';
 import './Header.css';
 
+
 const HeaderContent = props => (
     <div className = 'headerText'>
     Let's learn React by building simple interfaces with components. Don't try to
