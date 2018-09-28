@@ -6,10 +6,12 @@ import HeaderTitle from './HeaderTitle';
 import HeaderContent from './HeaderContent';
 
 const HeaderContainer = props => (
-    <div className = 'HeaderStuff'>
+    <div className = 'headerBox'>
     <ImageThumbnail />
+    <div className = 'headerTitleAndText'>
     <HeaderTitle />
-   {/*  <HeaderContent /> */}
+    <HeaderContent />
+    </div>
     </div>
 )
 export default HeaderContainer
