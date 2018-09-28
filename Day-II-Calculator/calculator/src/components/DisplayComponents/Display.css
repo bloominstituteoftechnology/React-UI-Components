@@ -1,0 +1,9 @@
+.calcDisplay {
+    width: 180px;
+    height: 50px;
+    background: black;
+    color: white;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}

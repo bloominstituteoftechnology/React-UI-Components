@@ -1,0 +1,26 @@
+.number {
+    width: 25%;
+    border: 1px solid whitesmoke;
+    background: white;
+    font-weight: bold;
+    font-size: 16px;
+    
+}
+
+.operator {
+    width: 25%;
+    border: 1px solid whitesmoke;
+    background: rgb(190, 29, 29);
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+}
+
+.topBottom {
+    width: 75%;
+    border: 1px solid whitesmoke;
+    background: white;
+    font-weight: bold;
+    font-size: 16px;
+    
+}
