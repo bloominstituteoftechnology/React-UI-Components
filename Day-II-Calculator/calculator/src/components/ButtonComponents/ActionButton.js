@@ -1,9 +1,9 @@
 import React from 'react';
 import './Button.css';
 
-const ActionButton = () => {
+const ActionButton = (props) => {
     return (
-        <h1 className="waffle">Hello World</h1>
+        <div className={props.style}><h2>{props.text}</h2></div>
     );
 };
     

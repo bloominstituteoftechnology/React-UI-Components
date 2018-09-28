@@ -6,9 +6,9 @@ const multiply = (a, b) => a*b;
 const subtract = (a, b) => a-b;
 const add = (a, b) => a+b;
 
-const NumberButton = () => {
+const NumberButton = (props) => {
 return (
-        <h1>Hello Life</h1>
+        <div className={props.style}><h2>{props.text}</h2></div>
     );
 };
 
