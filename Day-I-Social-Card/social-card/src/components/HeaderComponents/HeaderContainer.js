@@ -8,8 +8,8 @@ import HeaderContent from './HeaderContent';
 const HeaderContainer = props => (
     <div className = 'HeaderStuff'>
     <ImageThumbnail />
-    {/* <HeaderTitle />
-    <HeaderContent /> */}
+    <HeaderTitle />
+   {/*  <HeaderContent /> */}
     </div>
 )
 export default HeaderContainer
