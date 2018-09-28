@@ -2,10 +2,11 @@ import React from 'react';
 import './Header.css';
 
 
-const HeaderTitle = props () =>(
+const HeaderTitle = props  =>
+(
 
 
-
+<div>
 
 <div>Lambda School</div>
 
@@ -14,9 +15,6 @@ const HeaderTitle = props () =>(
 
 <div>&bull;</div>
 <div>26 March</div>
-
-
-</div>
 
 </div>
 
