@@ -12,13 +12,14 @@ titleDate */
 .headerBox{
     display: flex;
 
-    border: 1px solid red;
+ 
 }
 .headerTitleAndText{
     display: flex;
     flex-direction: column;
     width: 100%;
-    border: 1px solid blue;
+    padding-left: 10px;
+   
 }
 .titleHandle{
     padding-right: 5px;
@@ -32,7 +33,7 @@ titleDate */
     flex-direction: row;
     padding: 5px;
     padding-bottom: 15px;
-    border: 1px solid rgb(38, 105, 21);
+   
 }
 .headerText{
     width: 600px;
