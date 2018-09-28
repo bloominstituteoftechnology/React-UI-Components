@@ -3,7 +3,7 @@ import './Card.css';
 
 const CardBanner = props => (
     <div>
-        <img className = 'CardBannerImage' src='https://ibin.co/3wnC6SgIOJud.png' />
+        <img className = 'cardBannerImage' src='https://ibin.co/3wnC6SgIOJud.png' />
     </div>
 );
 export default CardBanner;
