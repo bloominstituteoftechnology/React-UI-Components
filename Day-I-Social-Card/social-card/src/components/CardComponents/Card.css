@@ -13,6 +13,8 @@
 }
 
 .card-banner #banner {
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
     width: 100%;
 }
 

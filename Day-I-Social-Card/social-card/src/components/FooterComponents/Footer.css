@@ -1,0 +1,37 @@
+.footer-buttons {
+    padding-top: 20px;
+    width: 100%;
+    margin-left: 10%;
+    padding-right: 50px;
+}
+
+i {
+    color: silver;
+    font-size: 1rem;
+    padding-top: 10px;
+    padding-right: 50px;
+}
+
+i:hover {
+    cursor: pointer;
+}
+
+.footer-buttons p {
+    display: none;
+    color: silver;
+    font-size: 7rem;
+    padding-left: 5px;
+}
+
+.fa-heart, .fa-envelope {
+    padding-left: 50px;
+}
+
+.fa-heart, .fa-retweet {
+    padding-right: 0px;
+}
+
+.fa-comment {
+    padding-left: 30px;    
+    transform: scaleX(-1);
+}
