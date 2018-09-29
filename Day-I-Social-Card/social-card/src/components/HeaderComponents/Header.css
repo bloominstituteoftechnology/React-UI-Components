@@ -24,7 +24,7 @@
     margin-top: 5px;
 }
 
-.header-img {
+.header-image {
     width: 50px;
 }
 
@@ -34,7 +34,7 @@
 }
 
 .header-usertag {
-    font-weight: 200;
+    font-weight: 400;
     color: #888;
     padding-right: 5px;
 }
