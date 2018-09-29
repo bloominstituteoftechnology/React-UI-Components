@@ -7,9 +7,7 @@ import NumberButton from "./components/ButtonComponents/NumberButton";
 const App = () => {
   return (
     <div className="calc-wrapper">
-      <div className="display-wrapper">
-        <CalculatorDisplay />
-      </div>
+      <CalculatorDisplay />
       <div className="btn-wrapper">
         <ActionButton btnStyle="action-btn" text="clear" />
         <NumberButton btnStyle="red-btn" text="÷" />
