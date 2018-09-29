@@ -1,6 +1,15 @@
 .calc-wrapper {
-    width: 227px;
-    height: 293px;
-    border: 1px solid silver;
+    max-width: 455px;
+    width: 100%;
+    height: 590px;
+    border: 2px solid whitesmoke;
 }
+
+.display-wrapper {
+    border: 2px whitesmoke;
+    height: 120px;
+    background: black;
+    color: white;
+    
+  }
 
