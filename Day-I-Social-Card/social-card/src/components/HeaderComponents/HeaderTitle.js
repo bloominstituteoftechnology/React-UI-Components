@@ -6,12 +6,12 @@ const HeaderTitle = props  => {
 
 return (
 
-    <div className="container">
+    <div className="title-wrapper">
 
 <div className= "Lambda"> Lambda School</div>
 <div className="tagSign"> @LambdaSchool</div>
 <div className="dot"> &bull;</div>
-<div> 26 Mar</div>
+<div className="date"> 26 Mar</div>
 
 
 

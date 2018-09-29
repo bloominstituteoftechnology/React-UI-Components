@@ -44,19 +44,26 @@ margin-top:5px;
 .Lambda{
     font-size:20px;
     font-weight:200;
-    margin-left:-15%;
+    padding-right:1%;
+    
 }
 
 .tagSign{
     display:flex;
     font-size:13px;
-    font-weight:700;
+    font-weight:200;
     color:gray;
-    padding-right: 0 5px;
+    padding-right: 5px;
 
 }
 
 .dot{
-display: flex;
-    margin-left:5%;
+color:gray;
 }
+
+.date{
+    font-weight: 200;
+    color: gray;
+    padding-left:5px;
+}
+
