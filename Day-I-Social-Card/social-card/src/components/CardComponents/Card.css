@@ -2,7 +2,8 @@
 
  .card-container{
 display: flex;
-width: 700px;
+width: 670px;
+magin: auto 0;
 flex-direction:column;
 justify-content: flex-end;
 } 
