@@ -15,7 +15,7 @@ margin-top:5px;
 
 
 }
-/* adjust sizing */
+/* adjust sizing of Lambda ^ */
 .headpic{
     width:90px;
 }
@@ -38,7 +38,7 @@ margin-top:5px;
     display: flex;
     flex-direction:row;
     padding: 10px 0;
-    justify-content: space-around;
+    
 }
 
 .Lambda{
@@ -50,20 +50,13 @@ margin-top:5px;
 .tagSign{
     display:flex;
     font-size:13px;
-    font-weight:100;
+    font-weight:700;
     color:gray;
-    padding-right:5px;
-    margin-left:-8%;
+    padding-right: 0 5px;
+
 }
 
 .dot{
 display: flex;
     margin-left:5%;
-}
-
-.date{
-    display: flex;
-    font-weight:200;
-    color:gray;
-    padding-left:5px;
 }

@@ -4,7 +4,7 @@ import './Header.css';
 const ImageThumbnail = props => {
  
     return (
-        <div className= "headpic">        <img className="someclass" src="https://ibin.co/3whrpKSBbZ81.png"  alt="some-image"  />
+        <div className= "headpic">        <img className="someclass" src="https://ibin.co/3whrpKSBbZ81.png"  alt="logo"  />
         </div>
 
     )

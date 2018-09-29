@@ -2,36 +2,42 @@ import React from 'react';
 import './Header.css';
 
 
-const HeaderTitle = props  =>
-(
-<div className="Lambda">Lambda School</div>
+const HeaderTitle = props  => {
 
+return (
 
+    <div className="container">
 
-<div className="title-wrapper">
-
-
-<div className="tagSign-dot">
-
-<div className="tagSign">@Lambdaschool </div>
-<div className="dot">&bull;</div>
-
-</div>
-
-<div className="date">26 March</div>
-
-</div>
-
+<div className= "Lambda"> Lambda School</div>
+<div className="tagSign"> @LambdaSchool</div>
+<div className="dot"> &bull;</div>
+<div> 26 Mar</div>
 
 
 
 
 
 </div>
+
+
 
 
 
 )
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
 
 
 //date and time with title Go Lambda!!!!! 
