@@ -1,15 +1,15 @@
 import React from 'react';
 import './Header.css';
 
-cosnt HeaderTitle = props => {
+const HeaderTitle = props {
     return (
         <div>
             <div>Lambda School</div>
-            <div>@LambdaSchool</div>
+            <div>@Lambda School</div>
             <div>&bull;</div>
-            <div>2 sept</div>
+            <div>29 Sept</div>
         </div>
     );
 };
 
-expoert defualt HeaderTitle;
+export default HeaderTitle;
