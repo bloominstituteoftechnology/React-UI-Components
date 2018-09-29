@@ -3,16 +3,19 @@
 .action-btn {
     width: 73.7%;
     height: 94px;
+    font-size: 48px;
 }
 
 .num-btn {
     width: 24.5%;
     height: 94px;
+    font-size: 48px;
 }
 
 .red-btn {
     background: red;
     width: 26.3%;
     height: 95px;
+    font-size: 48px;
 }
 
