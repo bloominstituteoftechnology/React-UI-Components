@@ -7,4 +7,22 @@
 	width: 454px;
 	height: 125px;
 	border: 1px solid lightgray;
+	background: black;
+	color: white;
+	display: flex;
+	justify-content: flex-end;
+}
+
+h1 {
+	font-size: 75px;
+	font-weight: normal;
+	margin: 0;
+	padding-top: 25px;
+	padding-right: 12px;
+}
+
+.btn-container {
+	width: 454px;
+	height: 92px;
+	border: 1px solid lightgray;;
 }
