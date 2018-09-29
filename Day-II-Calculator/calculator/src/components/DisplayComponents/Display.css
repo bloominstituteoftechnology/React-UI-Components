@@ -1,0 +1,10 @@
+.calculator-container {
+	width: 455px;
+	height: 600px;
+}
+
+.output-display {
+	width: 454px;
+	height: 125px;
+	border: 1px solid lightgray;
+}
