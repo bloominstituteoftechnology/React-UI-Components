@@ -6,6 +6,8 @@ import './Card.css';
 const CardContent = props =>{
 
 return(
+
+  <div className="whole-container">
 <div className="card-content-wrapper">
     <div className="card-content-title">Get Started with React </div>
 
@@ -21,7 +23,7 @@ reactjs.org
   
   </div>
 
-
+</div>
 );
 
 };

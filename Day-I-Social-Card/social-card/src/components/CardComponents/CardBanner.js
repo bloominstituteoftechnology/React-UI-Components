@@ -7,7 +7,7 @@ const CardBanner = props => {
 return (
 
 <div> 
-<img  className="banner-img" src="https://ibin.co/3wnC6SgIOJud.png" />
+<img  className="banner-img" src="https://ibin.co/3wnC6SgIOJud.png" alt='whoa' />
 </div>
 
 
