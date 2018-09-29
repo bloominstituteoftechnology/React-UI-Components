@@ -3,4 +3,12 @@
     height: 120px;
     background: black;
     color: white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+h1 {
+    font-size: 70px;
+    margin-right: 3.3%;
 }
