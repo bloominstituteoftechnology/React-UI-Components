@@ -7,12 +7,16 @@ const NumberButton = (props) => {
             </div>)
 }
 
-const Number0 = () => {
+const FullDisplayButton= (props) => {
     return (
         <div className="Full-Display-Button">
-            <h1>0</h1>
+            <h1>{props.text}</h1>
         </div>
     )
 }
 
+
+
+
 export default NumberButton
+

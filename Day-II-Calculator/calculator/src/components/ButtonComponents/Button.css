@@ -1,14 +1,39 @@
 .Number-Button {
-    width:33.3%;
-    background-color:black;
-    color:white;
+    width:32.72%;
+    background-color:white;
+    color:black;
+    border:1px solid grey;
+    display:flex;
+    justify-content: center;
+    padding:30px 0px;
+    align-items: center;
 }
 .Number-Button h1 {
-    font-size:40px;
+    font-size:60px;
 }
 
 .Full-Display-Button {
     width:100%;
-    background-color:black;
+    background-color:white;
+    color:black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding:30px 0px;
+    border-bottom:1px solid grey;
+}
+.Full-Display-Button p {
+    font-size:60px;
+    font-weight: normal;
+}
+
+.Action-Button {
+    background-color:#9f0023;
     color:white;
+    font-size:60px;
+    border-bottom:1px solid grey;
+    width:100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
 }
