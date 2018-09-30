@@ -1,7 +1,7 @@
 # React-UI-Components
 
 - This repository is designed to be your first exposure into the world of ReactJS. You will be given 2 days to complete the 2 assignments in this repository. Day 1 is all about implementing a Social Card in ReactJS. On Day 2 you'll be implementing a Calculator. We've given you the file structure and have gone ahead and added all the files you'll need to be set up for success for each project.
-  
+
 ## Initializing the application.
 
 - This project was put together using `create-react-app` (CRA). **You will not need to install CRA in order to make this project work**
@@ -18,9 +18,7 @@
 - Use the design files to build out your User Interfaces.
 - All components can be built out using the provided html files found in their respective directories.
 - Each file has been set up to work within a `react.js` environment. Pay attention to the notes found within each project.
-- Feel free to include a `cdn` for bootstrap v.4 if you'd like in your `index.html`.
-  - This should include bootstraps style sheet globally for all of your components.
-  - Don't forget about `className` vs `class` on your `JSX elements`!!
+- Don't forget about `className` vs `class` on your `JSX elements`!!
 
 ## _Day I - Social Card_
 
