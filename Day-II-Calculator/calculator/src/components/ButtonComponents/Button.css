@@ -1,0 +1,29 @@
+button {
+    font-size: 40px;
+    font-weight: bold;
+    border: 1px solid grey;
+    cursor: pointer;
+    background-color: white;
+}
+
+button:hover {
+    border:2px solid goldenrod;
+}
+.numbers button {
+    width: 33.33%;
+    height: 20%;
+}
+
+.numbers button:first-child {
+    font-weight: lighter;
+}
+
+.numbers button:first-child, .numbers button:last-child {
+    width: 100%;
+}
+
+.symbols button {
+    height: 20%;
+    background-color: #A0001E;
+    color: white;
+}

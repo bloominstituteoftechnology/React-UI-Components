@@ -1,0 +1,9 @@
+.calculator-display {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    height: 20%;
+    font-size: 70px;
+    padding-right: 20px;
+}
