@@ -1,1 +1,41 @@
 /* All styles for your Card Components live here */
+
+.Card-Container {
+    width: 84%;
+    align-self: flex-end;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Card-Banner {
+    width: 100%;
+    height: auto;
+}
+
+.Card-Text {
+    width: 100%;
+    margin-left: 2%;
+    border: 1px solid lightgray;
+    border-top: none;
+}
+
+.Card-Text h1 {
+    font-weight: bold;
+    font-size: 14px;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.Card-Text .text {
+    font-size: 14px;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.gray {
+    color: rgb(122 141 158);
+    font-weight: normal;
+    font-size: 14px;
+    margin-left: 2%;
+  }

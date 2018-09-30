@@ -1,7 +1,7 @@
 import React from 'react';
 import './Button.css';
 
-class ActionButton extends React.Component {
+class FunctionButton extends React.Component {
     constructor () {
         super()
         this.state={}
@@ -21,11 +21,15 @@ class ActionButton extends React.Component {
     }
 }
 
+export default FunctionButton;
 
-export default ActionButton;
+/* <Button text={'X'} onClick={this.handleClick} value='*' />
+
+text is the symbol that shows
+value is what it will do (operator or clear) */
 
 
-// const ActionButton = (props) => {
+// const FunctionButton = (props) => {
 //     return (
 //         <button className={props.buttonStyle}>{props.text}</button>
 //     )
