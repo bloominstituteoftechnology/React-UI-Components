@@ -1,1 +1,41 @@
 /* All styles for your header Components live here */
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+.img-container {
+    width: 135px;
+    margin-right: 7px;
+    margin-bottom: 10px;
+  }
+
+.img-container img {
+    width: 100%;
+  }
+
+.title-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 10px;
+  }
+
+.content-container {
+    margin-top: 9px;
+  }
+
+.title-container-handler {
+ margin-left: 5px;
+ margin-top: 5px;
+}
+
+.title-container-handler-space {
+ margin: 0 6px 0 4px;
+}
+
+.title-container-handler-date {
+ font-size: 1.2rem;
+ margin-top: 5px;
+}
