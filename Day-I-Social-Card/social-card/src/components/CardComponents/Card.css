@@ -1,1 +1,41 @@
 /* All styles for your Card Components live here */
+a {
+    text-decoration: none;
+}
+.cardContainer{
+    border: 1px solid lightgray;
+    overflow: hidden;
+    border-radius: 5px;
+    width: 500px;
+    margin: 10px 0px;
+}
+.cardbanner-img {
+    width: 500px;
+    height: auto;
+}
+
+.cardContent {
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+}
+
+.articleTitle {
+    font-weight: bold;
+    text-decoration:none;
+    color: black;
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+
+.articleText {
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+    padding-bottom: 10px;
+}
+
+.articleLink {
+    color: gray;
+    font-size: 12px;
+}

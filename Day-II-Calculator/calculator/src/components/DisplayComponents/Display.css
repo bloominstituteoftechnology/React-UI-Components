@@ -1,0 +1,9 @@
+/* Display CSS styling */
+.display {
+    width: 402px;
+    height: 120px;
+    background-color: rgb(49, 48, 48);
+    color: white;
+    border: 1px solid gray;
+    font-size:  40px;
+}

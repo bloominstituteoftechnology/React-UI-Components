@@ -1,1 +1,40 @@
 /* All styles for your header Components live here */
+.circle {
+    height: 50px;
+    width: 50px;
+    border: 1px solid red;
+    backgrond: red;
+    border-radius: 50%;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+        align-items: center;
+    -ms-flex-pack: center;
+        justify-content: center;
+}
+.logo {
+    height: 30px;
+    width: 30px;
+}
+
+.author {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: baseline;
+        align-items: baseline;
+}
+
+.name {
+    font-weight: bold;
+    color: black;
+    padding: 2px;
+    font-size: 13.5px;
+}
+.handle, .date {
+    color: darkslategray;
+    padding: 2px;
+    font-size: 12px;
+}
+.headerText {
+    font-size: 14px;
+}

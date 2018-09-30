@@ -1,0 +1,39 @@
+/* Number buttons: */
+.digit {
+    width: 100px;
+    height: 90px;
+    background-color: white;
+    color: black;
+    font-size: 35px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.symbol {
+    width: 100px;
+    height: 90px;
+    background-color: darkred;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.act-digit, .act-clear {
+    width: 300px;
+    height: 90px;
+    background-color: white;
+    color: gray;
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.act-digit {
+    color: black;
+    font-weight: bold;
+}
