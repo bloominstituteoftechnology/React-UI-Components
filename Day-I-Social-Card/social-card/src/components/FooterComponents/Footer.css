@@ -1,0 +1,42 @@
+.Footer {
+display: flex;
+flex-direction: row;
+align-items: flex-end;
+width: 590px;
+height: 50px;
+padding-left: 70px;
+
+
+}
+
+.icon1 {
+    background-image: url("icon1.png");
+    background-repeat: no-repeat;
+    width:48px;
+    height: 28px;
+    margin-right: 0px;
+    margin-left: auto;
+
+}
+
+.icon2 {
+    background-image: url("icon2.png");
+    background-repeat: no-repeat;
+    width: 58px;
+    height: 28px;
+}
+
+.icon3 {
+    background-image: url("icon3.png");
+    background-repeat: no-repeat;
+    width: 58px;
+    height: 28px;
+
+}
+
+.icon4 {
+    background-image: url("icon4.png");
+    background-repeat: no-repeat;
+    width: 58px;
+    height: 28px;
+}

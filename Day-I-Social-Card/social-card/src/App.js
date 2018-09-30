@@ -1,7 +1,9 @@
 import React from 'react';
 import './App.css';
-
-const App = () => {
+import HeaderContainer from './components/HeaderComponents/HeaderContainer';
+import CardContainer from './components/CardComponents/CardContainer';
+import Footer from './components/FooterComponents/Footer'; 
+/* const App = () => {
   return (
     <div>
       <h3>Welcome to React Social Card!</h3>
@@ -19,6 +21,13 @@ const App = () => {
       </p>
     </div>
   );
+};
+ */
+const App = () => {
+	return (
+    <div>
+		<HeaderContainer /><CardContainer /><Footer /></div>
+	);
 };
 
 export default App;

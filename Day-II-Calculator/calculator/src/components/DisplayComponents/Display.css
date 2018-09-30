@@ -1,0 +1,64 @@
+.CalculatorDisplay {
+    display: flex;
+    max-width: 454px;
+    width: 454px;
+    height: 106px;
+    background-color: rgb(34, 34, 34);
+    /* color: red; */
+    /* border: 2px solid fuchsia; */
+    top: 0px;
+    color: white;
+    left: 0px;
+    font-size: 50px;
+    align-items: center;
+    /* justify-items: right; */
+    justify-content: flex-end;
+    padding-right: 20px;
+}
+
+.screen {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid blue;
+    width: 454px;
+    height: 129px;
+    background-color: aqua;
+    color: black;
+    font-size: 20px;
+    top: 10px;
+    left: 0px;
+}
+
+.screen-row {
+    display: flex;
+    border: 2px solid red;
+    width: 454px;
+    /* height: 50px; */
+    background-color: pink;
+    color: black;
+    top: 0px;
+    left: 1000px;
+    font-size: 20px;
+}
+
+.calculatorDisplay {
+    /* background-color: black;
+    color: white; */
+}
+
+.CalculatorDisplay2 {
+    display: flex;
+    max-width: 454px;
+    width: 454px;
+    height: 26px;
+    background-color: rgb(34, 34, 34);
+    /* color: red; */
+    /* border: 2px solid fuchsia; */
+    top: 0px;
+    left: 0px;
+    font-size: 60px;
+    align-items: center;
+    /* justify-items: right; */
+    justify-content: flex-end;
+    padding-right: 20px;
+}

@@ -2,19 +2,23 @@ import React from 'react';
 import './Button.css';
 
 
-const ActionButton = (props) => {
-    return (
-      <input
+const ClearKey = (props) => {
+       return (
+        <input
         type="button"
         className={props.type === 'action' ? 'button action-button' : 'button input-button'}
         onClick={props.handleClick}
         value={props.label}
-         className="ActionButton" 
+        className="ClearKey"
       />
-    );
-  }
-export default ActionButton;
+       )
+    };
 
 
 
 
+
+
+
+
+export default ClearKey;

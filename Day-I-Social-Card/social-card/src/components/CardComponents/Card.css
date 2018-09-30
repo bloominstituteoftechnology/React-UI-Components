@@ -1,1 +1,57 @@
 /* All styles for your Card Components live here */
+
+.CardBanner {
+    display: flex;
+    left:70px;
+    width: 503px;
+    height: 252px;
+}
+
+.CardContent {
+    width: 503px;
+    height: 53px;
+    padding-left: 70px;
+    padding-right: 18px;
+    border-left: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+}
+
+.CardContainer {
+    width: 590px;
+    height: 257px;   
+}
+
+.CardImg {
+    background-image: url("atom.png");
+    Height: 252px;
+    width: 503px;
+    padding-left: 70px;
+    border: 2px solid gray;
+}
+
+.CardText {   
+    width: 503px;
+    height: 30px;
+    border-left: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+}
+
+.CardTitle { 
+    height: 34px;
+    width: 503px;
+    border-left: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+}
+
+.Container {
+    padding-left: 70px;
+    width: 590px;
+    display: flex;
+    flex-direction: column;
+}
+
+.CardPara {
+    font-weight: bold;
+    font-size: 18px;
+}
