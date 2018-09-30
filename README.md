@@ -18,9 +18,7 @@
 - Use the design files to build out your User Interfaces.
 - All components can be built out using the provided html files found in their respective directories.
 - Each file has been set up to work within a `react.js` environment. Pay attention to the notes found within each project.
-- Feel free to include a `cdn` for bootstrap v.4 if you'd like in your `index.html`.
-  - This should include bootstraps style sheet globally for all of your components.
-  - Don't forget about `className` vs `class` on your `JSX elements`!!
+- Don't forget about `className` vs `class` on your `JSX elements`!!
 
 ## _Day I - Social Card_
 
