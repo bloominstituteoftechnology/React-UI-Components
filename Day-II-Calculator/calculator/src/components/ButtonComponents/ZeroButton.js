@@ -1,7 +1,7 @@
 import React from 'react';
 import './Button.css';
 
-const ActionButton = (props) => {
+const ZeroButton = (props) => {
 	return (
 		<button className={props.buttonStyle}>
 			{props.text}
@@ -9,4 +9,4 @@ const ActionButton = (props) => {
 	)
 }
 
-export default ActionButton;
+export default ZeroButton;
