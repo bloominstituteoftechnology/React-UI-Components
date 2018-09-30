@@ -1,0 +1,16 @@
+.footer {
+	margin-left: 10%;
+	margin-top: 10px;
+	display: flex;
+	color:grey;
+	user-select: none;
+}
+
+.footer i {
+	margin-right: 10px;
+	cursor: pointer;
+}
+
+.footer .icon {
+	width: 15%;
+}

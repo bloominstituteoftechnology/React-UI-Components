@@ -1,0 +1,18 @@
+.result {
+    width: 100%;
+    background-color: black;
+    color: white;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.result p {
+    width: 100%;
+    margin: 0;
+    margin-right: 10px;
+    font-size: 48px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}

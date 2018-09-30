@@ -1,0 +1,25 @@
+.information h2 {
+    font-size: 24px;
+}
+
+.information ul {
+    list-style-type: circle;
+}
+
+.information li {
+    margin: 5px 0;
+}
+
+.information {
+    margin-top: 10px;
+}
+
+.information a {
+    color: lightskyblue;
+    text-decoration: none;
+}
+
+.information a:visited {
+    color: lightskyblue;
+    text-decoration: none;
+}

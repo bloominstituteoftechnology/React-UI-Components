@@ -1,1 +1,24 @@
 /* All styles for your Card Components live here */
+.card {
+	border: 1px solid lightgrey;
+	border-radius: 8px;
+	margin-left: 10%;
+}
+
+.card img {
+	width: 100%;
+	border-radius: 8px 8px 0px 0px;
+}
+
+.card p {
+	margin-left: 10px;
+}
+
+.card a {
+	color: black;
+	text-decoration: none;
+}
+
+.card small {
+	color: grey;
+}

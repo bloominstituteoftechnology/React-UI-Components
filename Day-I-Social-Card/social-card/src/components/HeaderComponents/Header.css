@@ -1,1 +1,36 @@
 /* All styles for your header Components live here */
+* {
+	box-sizing: border-box;
+}
+
+.logo {
+	width: 10%;
+	max-width: 50px;
+	height: 50px;
+	margin-right: 10px;
+}
+
+.logo img {
+	width: 100%;
+}
+
+.header {
+	display: flex;
+	align-items: flex-start;
+}
+
+.header p {
+	margin-top: 0;
+}
+
+.header .content {
+	width: 90%;
+}
+
+.headerContent {
+	width: 100%
+}
+
+.headerTitle .date {
+	color: grey;
+}
