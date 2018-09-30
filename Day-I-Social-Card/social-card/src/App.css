@@ -1,4 +1,77 @@
-/* 
-  Write your styles/CSS for App.js here and import into the component that you need 
-  IF you'd like to attempt to use less you'll have to research how to do this with Create React App
-*/
+.headerContainer {
+  widows: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.headerContainer .logo {
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+}
+.headerContainer .textContainer {
+  display: flex;
+  flex-direction: column;
+}
+.headerContainer .textContainer .headerTitle {
+  display: flex;
+  align-items: center;
+}
+.headerContainer .textContainer .headerTitle h2 {
+  padding-right: 10px;
+  line-height: 0.8;
+}
+.headerContainer .textContainer .headerTitle .handle {
+  font-size: 1.3rem;
+  color: gray;
+}
+.headerContainer .textContainer .headerContent {
+  margin-bottom: 10px;
+}
+.headerContainer .textContainer .headerContent p {
+  display: inline;
+}
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+  padding-left: 12%;
+  padding-right: 2%;
+}
+.cardContainer .cardBox {
+  border: 0.5px solid silver;
+  border-radius: 5px;
+}
+.cardContainer .cardBox .imageContainer {
+  height: fit-content;
+}
+.cardContainer .cardBox .imageContainer .bannerImg {
+  width: 100%;
+  border-radius: 5px;
+}
+.cardContainer .cardBox .cardContent {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.cardContainer .cardBox .cardContent h2 {
+  line-height: 0.8;
+  margin: 0;
+}
+.cardContainer .cardBox .cardContent p {
+  margin: 5px 0;
+}
+.cardContainer .cardBox .cardContent .link {
+  font-size: 1.4rem;
+  color: gray;
+}
+.appBody {
+  max-width: 500px;
+  height: 500px;
+  border: 1px solid navy;
+}
+.appBody h2 {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+.appBody p {
+  font-size: 1.4rem;
+}
