@@ -1,0 +1,18 @@
+.number-button {
+  font-size: 3rem;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  background-color: white;
+  padding: 15px 30px;
+}
+
+.action-button {
+  font-size: 3rem;
+  font-weight: lighter;
+  border: none;
+  outline: none;
+  background-color: #A0001E;
+  color: white;
+  padding: 15px 30px;
+}

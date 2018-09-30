@@ -1,0 +1,8 @@
+.calculator-display {
+  grid-area: display;
+  font-size: 3.4rem;
+  text-align: right;
+  background-color: #222222;
+  color: white;
+  padding: 15px 30px;
+}
