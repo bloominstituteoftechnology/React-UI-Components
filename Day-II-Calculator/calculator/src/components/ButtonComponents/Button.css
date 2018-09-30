@@ -1,0 +1,14 @@
+.Number-Button {
+    width:33.3%;
+    background-color:black;
+    color:white;
+}
+.Number-Button h1 {
+    font-size:40px;
+}
+
+.Full-Display-Button {
+    width:100%;
+    background-color:black;
+    color:white;
+}

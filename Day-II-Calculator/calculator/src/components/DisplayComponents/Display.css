@@ -1,0 +1,8 @@
+.Calculator-Display {
+    width:100%;
+    background-color: black;
+    color: #ffffff;
+}
+.Calculator-Display h1 {
+    font-size:50px;
+}
