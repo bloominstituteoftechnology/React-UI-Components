@@ -4,7 +4,8 @@
   }
   
   .headerContainer p{
-      font-size: 1.4rem
+      font-size: 1.4rem;
+      margin-top: 0;
   }
   
   .headerContainer img{
@@ -16,6 +17,7 @@
   .headerContainer header{
     display: flex;
     align-items: center;
+    margin-bottom: 10px;
   }
   
   .headerContent{
@@ -24,10 +26,12 @@
 
   header h2{
       font-size: 1.6rem;
+      margin-bottom: 0;
   }
 
   header h4{
       margin-left: 10px;
       color: #BAC3CB;
       font-size: 1.3rem;
+      margin-bottom: 0;
   }
