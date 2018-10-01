@@ -1,1 +1,9 @@
 /* All styles for your Card Components live here */
+.banner-img {
+    display: flex;
+   justify-content: flex-end;
+    width: 80%;
+    height: auto;
+    margin: 0px;
+    margin-left: 22%;
+}

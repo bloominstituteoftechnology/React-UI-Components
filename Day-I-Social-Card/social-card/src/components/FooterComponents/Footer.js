@@ -4,7 +4,7 @@ import './Footer.css';
 const Footer = props => {
     return (
         <div>
-            <Icons />
+            FOOTER
         </div>
     )
 }

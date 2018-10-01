@@ -3,16 +3,10 @@ import './Header.css';
 
 const HeaderTitle = props => {
     return(
-        <header>
-            <h1>
-                Lambda School
-            </h1>
-            <h2>
-                @LambdaSchool
-            </h2>
-            <h3>
-                · 01 oct
-            </h3>
+        <header className="header-title">
+            <h1 className="title">Lambda School</h1>
+            <h2 className="gray-elements">@LambdaSchool</h2>
+            <h2 className="gray-elements">· 01 oct</h2>
         </header>
     )
 }
