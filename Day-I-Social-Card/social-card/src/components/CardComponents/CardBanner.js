@@ -4,7 +4,6 @@ import './Card.css';
 const CardBanner = props => {
   return (
     <div className="class-banner">
-
     </div>
   )
 }
