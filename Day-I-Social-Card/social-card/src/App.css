@@ -8,6 +8,10 @@ html, body {
   padding: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
 .social-card-container {
   width: 575px;
   margin: 5px;
