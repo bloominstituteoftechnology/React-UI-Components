@@ -1,0 +1,12 @@
+/* calculator display styling */
+
+.display {
+    box-sizing: border-box;
+    width: 456px;
+    height: 128px;
+    background-color: black;
+    color: white;
+    justify-content: flex-end;
+    padding-right: 20px;
+    font-size: 6.8rem;
+}

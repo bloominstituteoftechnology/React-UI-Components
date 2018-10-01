@@ -1,0 +1,26 @@
+
+.footer {
+    width: 86%;
+    margin: 15px 0 0 60px;
+    display: flex;
+    align-items: center;
+}
+
+i {
+    color: #7E8B99;
+}
+
+.fa-comment {
+    margin-right: 70px;
+}
+
+.fa-sync-alt, .fa-heart {
+    margin-right: 10px;
+}
+
+.counter {
+    margin-right: 60px;
+    font-size: 1.4rem;
+    color: #7E8B99;
+}
+

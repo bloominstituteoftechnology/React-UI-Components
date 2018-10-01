@@ -1,0 +1,25 @@
+/* number button styling */
+
+.number {
+    width: 112px;
+    color: black;
+    cursor: pointer;
+}
+
+/* mathematical operator button styling */
+
+.operator {
+    width: 112px;
+    color: white;
+    background-color: #931C24;
+    cursor: pointer;
+}
+
+/* action button styling */
+
+.action {
+    width: 340px;
+    cursor: pointer;
+}
+  
+
