@@ -1,1 +1,6 @@
 /* All styles for your header Components live here */
+#profilePicture {
+    width: 90px;
+    height: auto;
+    border-radius: 50%;
+}
