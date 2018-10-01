@@ -1,1 +1,8 @@
 /* All styles for your header Components live here */
+
+.header-title {
+  display: flex;
+  border: 1px solid green;
+}
+
+
