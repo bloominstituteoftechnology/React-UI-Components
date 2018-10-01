@@ -1,0 +1,8 @@
+.app{
+    margin:auto;
+    width: 420px;
+    height: 386px;
+    display:flex;
+    flex-wrap:wrap;
+    align-items:stretch;
+}
