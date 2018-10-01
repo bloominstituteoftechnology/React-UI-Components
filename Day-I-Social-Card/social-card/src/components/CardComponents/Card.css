@@ -1,1 +1,21 @@
 /* All styles for your Card Components live here */
+.cardImg {
+    width: 84%;
+    height: 250px;
+    margin-left: 64px;
+}
+.cardSpan {
+    color: slategray;
+    margin-left: 76px;
+}
+
+.cardHeader {
+    font-size: 14px;
+    margin-left: 76px;
+}
+
+.cardContent {
+    margin-left: 76px;
+    font-size: 14px;
+}
+

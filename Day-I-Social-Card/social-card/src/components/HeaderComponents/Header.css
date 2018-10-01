@@ -1,1 +1,34 @@
 /* All styles for your header Components live here */
+
+.headerImg {
+    width: 9.2%;
+    height: 50px;
+    margin-right: 7px;
+}
+.headertitle {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.username {
+    font-weight: bold;
+    font-size: 14px;
+    margin-right: 8px;
+}
+
+.handle {
+    color: slategrey;
+    font-size: 13px;
+    margin-right: 5px;
+}
+
+.date {
+    font-size: 12px;
+    color: slategrey;
+}
+
+p {
+    margin-left: 60px;
+}
+
