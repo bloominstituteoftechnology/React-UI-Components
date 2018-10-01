@@ -1,1 +1,44 @@
 /* All styles for your header Components live here */
+
+.header {
+    margin: 0 auto;
+    display:flex;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.logo {
+    width: 90%;
+    border-radius: 50%;
+    padding: 2%;
+}
+
+.title {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 15px;
+}
+
+.title h1 {
+    font-size: 1rem;
+}
+
+.title .handle {
+    color: gray;
+    font-weight: 1;
+}
+
+.title .date {
+    font-size: .9rem;
+    color: gray;
+}
+
+.header-paragraph {
+    height: 70px;
+}
+
