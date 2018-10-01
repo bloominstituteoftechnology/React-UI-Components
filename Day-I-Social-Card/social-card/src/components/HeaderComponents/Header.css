@@ -1,1 +1,31 @@
 /* All styles for your header Components live here */
+
+.HeaderContainer {
+  display: flex;
+  margin-top: 14px; /*1.4rem;*/
+  margin-left: 10px; /*1rem;*/
+}
+
+.HeaderTitle {
+  display: flex;
+  margin-top: 0.2rem;
+  margin-bottom: 0.4rem;
+}
+.HeaderContent {
+  margin-left: 9px;
+}
+
+.HeaderTitle h3, .HeaderTitle .username, .HeaderTitle .timestamp {
+  margin-right: 0.5rem;
+}
+
+.username, .timestamp {
+  color: grey;
+  font-size: 
+}
+
+.ImageThumbnail img{
+  width: 48px;
+  border-radius: 50%;
+}
+
