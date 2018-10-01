@@ -11,4 +11,4 @@ const HeaderTitle = props => {
     );
 }
 
-export default HeaderTitle.js;
+export default HeaderTitle;
