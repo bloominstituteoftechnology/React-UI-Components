@@ -6,7 +6,7 @@ import CardContent from './CardContent';
 const CardContainer = props => {
     const goToLink = () => {
         window.location.href = 'https://www.reactjs.org'
-    }
+    };
     return (
         <div className='container'>
             <div className='card-container' onClick={goToLink}>
