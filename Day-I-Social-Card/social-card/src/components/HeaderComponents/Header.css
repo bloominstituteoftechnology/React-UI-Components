@@ -1,1 +1,33 @@
 /* All styles for your header Components live here */
+.headerTitle{
+    display: flex;
+}
+.header-container{
+    display:flex;
+
+}
+.header-text-container{
+    padding-left:15px;        
+}
+
+.header-logo{
+    width:114%;
+    height:auto;
+}
+
+
+.header-title{
+    color:#ccc;
+    margin-top:0px;
+    margin-bottom:0px;
+    font-size:1rem;
+}
+.header-post-title{
+    margin-top:8px;
+}
+
+.header-content-text{
+    margin-top: 7px;
+    margin-bottom:0px;
+    font-size:1rem;
+}

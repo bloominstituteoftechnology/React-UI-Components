@@ -1,1 +1,26 @@
 /* All styles for your Card Components live here */
+.card-container{
+    padding-left:60px;
+}
+.card-banner-img{
+    background-image: url('https://ibin.co/3wnC6SgIOJud.png');
+    background-size: cover;
+    background-position: center;
+    min-height: 250px;
+}
+.card-content-title{
+    margin-bottom:10px;
+    margin-top: 10px;
+    font-size: 1rem;
+    padding-left: 10px;
+
+}
+.card-content-body{
+    padding-left:10px;
+    margin-top:10px;
+    margin-bottom:7px;
+}
+.card-content-footer{
+    margin-top:6px;
+    padding-left:10px;
+}

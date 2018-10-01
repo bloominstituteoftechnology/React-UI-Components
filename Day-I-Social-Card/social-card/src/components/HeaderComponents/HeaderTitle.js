@@ -5,8 +5,10 @@ const HeaderTitle = props =>{
 
     return(
         <div className='headerTitle'>
-            <p>Lambda School</p>
-            <p>@lambdaSchool - 26 jan</p>
+            <p className='header-title header-post-title'>Lambda School</p>
+            <p className='header-title header-post-title'>@lambdaSchool - 26 jan</p>
         </div>
     )
 }
+
+export default HeaderTitle;
