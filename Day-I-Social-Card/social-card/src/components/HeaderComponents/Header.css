@@ -1,16 +1,17 @@
 /* All styles for your header Components live here */
 .header {
     display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: flex-start;
-    margin: 10px 0;
+    align-items: center;
+    margin: 10px;
+    width: 85%;
 }
 .thumbnail {
     width: auto;
     height: 40px;
     border-radius: 30px;
-    margin: 10px 10px 10px 0;
+    margin-top: 10px;
+    margin-right: 5px;
+    align-self: flex-start;
 }
 
 .headerContent {
@@ -19,11 +20,12 @@
 
 .header h1 {
     font-size: 1.4rem;
-    margin-top: 10px;
+    margin: 10px 0;
+    font-weight: bold;
 }
 
 .at-date {
-    margin-left: 2px;
+    margin: 5px;
     font-size: 1.2rem;
     color: gray;
     font-weight: 300;
