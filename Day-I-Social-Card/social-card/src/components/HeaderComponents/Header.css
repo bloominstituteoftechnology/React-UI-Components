@@ -3,7 +3,7 @@
 .header-container {
     display: flex;
     flex-direction: row;
-    width: 600px;
+    width: 700px;
     padding: 20px;
 }
 
@@ -14,7 +14,8 @@
 .header-text {
     display: flex;
     flex-direction: column;
-    padding: 0 20px;
+    padding: 0 10px;
+    line-height: 20px;
 }
 
 .title-container {
@@ -25,20 +26,19 @@
 }
 
 .acct-name {
+    font-size: 1.8rem;
+    font-weight: 700;
+    padding-right: 5px;
+}
+
+
+.info {
     font-size: 1.6rem;
-    padding: 0 5px;
-}
-
-.acct-handle {
     color: grey;
-    padding: 5px 5px;
+    padding: 1px 5px;
 }
 
-.timestamp {
-    color: grey;
-    padding: 5px 5px;
+.header-content {
+    font-size: 1.6rem;
+    padding: 0 10px;
 }
-
-/* .header-content {
-    
-} */
