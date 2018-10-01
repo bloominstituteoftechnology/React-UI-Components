@@ -5,6 +5,8 @@
 body {
   width: 600px;
   font-size: 15px;
+  padding: 0 15px;
+  border: 1px solid #ddd;
 }
 
 .social-card {

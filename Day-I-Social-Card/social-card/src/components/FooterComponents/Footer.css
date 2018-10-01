@@ -1,7 +1,7 @@
 footer {
   /* border: 1px solid red; */
   width: 90%;
-  margin-top: 20px;
+  margin: 20px 0;
 }
 
 .far,
@@ -15,4 +15,11 @@ footer {
 .far:hover,
 .fas:hover {
   color: #222;
+}
+
+.counter {
+  font-size: 14px;
+  margin-left: 15px;
+  font-family: sans-serif;
+  font-weight: normal;
 }
