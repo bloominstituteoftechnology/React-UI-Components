@@ -1,5 +1,8 @@
 body {
-  margin: 0;
+  width: 100%;
+  max-width: 455px;
+  margin: 0 auto;
+  box-sizing: border-box;
   padding: 0;
   font-family: sans-serif;
 }
