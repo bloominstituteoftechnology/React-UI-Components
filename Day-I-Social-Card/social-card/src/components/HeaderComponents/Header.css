@@ -1,26 +1,19 @@
 /* All styles for your header Components live here */
 
-* {
-    box-sizing: border-box;
-}
-
 .header-container {
-    border: solid 1px red;
-    width: 590px;
+    /* border: solid 1px red; */
     display: flex;
     align-items: flex-start;
-    padding: 10px 15px;
+    position: relative;
 }
 
 .thumbnail {
+    position: absolute;
     width: 40px;
     height: auto;
-    margin-top: 10px;
-    /* border-radius: 50%; */
-}
-
-.header-info {
-    padding-left: 10px;
+    top: 24px;
+    left: 15px;
+    border-radius: 50%;
 }
 
 .header-title {

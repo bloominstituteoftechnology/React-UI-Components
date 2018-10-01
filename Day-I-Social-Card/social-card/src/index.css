@@ -3,3 +3,12 @@ body {
   padding: 0.4rem;
   font-family: sans-serif;
 }
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  padding: 10px 15px 10px 70px;
+}

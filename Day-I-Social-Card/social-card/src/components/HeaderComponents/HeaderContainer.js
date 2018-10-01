@@ -7,8 +7,8 @@ import ImageThumbnail from './ImageThumbnail';
 const HeaderContainer = props => {
 
     return (
-        <div className='header-container'>
-            <ImageThumbnail src={'https://ibin.co/3whrpKSBbZ81.png'} />
+        <div className='header-container container'>
+            <ImageThumbnail src={'https://pbs.twimg.com/profile_images/973277209644249089/0Te2jtBH_400x400.jpg'} />
             <div className='header-info' >
                 <HeaderTitle 
                     name={'Lambda School'}
