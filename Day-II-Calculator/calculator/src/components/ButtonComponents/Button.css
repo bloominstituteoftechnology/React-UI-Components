@@ -1,0 +1,27 @@
+.numberButton{
+    width: 100px;
+    height: 100px;
+    background-color: whitesmoke;
+    font-weight: bold;
+    font-size: 45px;
+}
+
+.numberButtonBig{
+    background-color: whitesmoke;
+    font-size: 45px;
+    width: 300px;
+    height: 100px;
+}
+
+.actionButton{
+    width: 100px;
+    height: 100px;
+    background-color: darkred;
+    color: whitesmoke;
+    font-size: 45px;
+}
+
+.row3-5{
+    display: inline-flex;
+    border: 1px solid;
+}

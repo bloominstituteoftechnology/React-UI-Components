@@ -1,0 +1,10 @@
+.display-box{
+    background-color: black;
+    color: whitesmoke;
+    font-size: 65px;
+    width: 400px;
+    height: 125px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
