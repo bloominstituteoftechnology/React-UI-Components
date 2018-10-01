@@ -1,13 +1,11 @@
 /* All styles for your header Components live here */
 .header {
-    /* border: 1px solid black; */
     display: flex;
 }
 
 .header .logo img{
     max-width: 50px;
     margin-top: 12px;
-    /* margin-left: 7px; */
     padding-right: 7px;
 }
 
@@ -17,7 +15,6 @@
 }
 
 .headerInfo .headerTitle {
-    /* border: 1px solid green; */
     display: flex;
     align-items: flex-end;
     margin: 12px 0;

@@ -1,6 +1,5 @@
 /* All styles for your Card Components live here */
 .bannerImg {
-    /* border: 1px solid blue; */
     width: 90%;
     
 }
@@ -11,7 +10,6 @@
 }
 
 .card {
-    /* border: 1px solid blue; */
     display: flex;
     flex-direction: column;
     align-items: flex-end;
