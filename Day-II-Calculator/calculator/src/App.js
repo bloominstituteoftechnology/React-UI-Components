@@ -1,23 +1,76 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+import { Component } from "react";
+import "./App.css";
+import { NumberButton } from "./components/ButtonComponents/NumberButton.js";
+import { CalculatorDisplay } from "./components/DisplayComponents/CalculatorDisplay.js";
+import { ActionButton } from "./components/ButtonComponents/ActionButton.js";
+import * as math from "mathjs";
 
-const App = () => {
-  return (
-    <div>
-      <h3>Welcome to React Calculator</h3>
-      <p>
-        We have given you a starter project. You'll want to build out your
-        components in their respective files, remove this code and replace it
-        with the proper components.
-      </p>
-      <p>
-        <strong>
-          Don't forget to `default export` your components and import them here
-          inside of this file in order to make them work.
-        </strong>
-      </p>
-    </div>
-  );
-};
+class App extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      input: ""
+    };
+  }
+  addToInput = val => {
+    this.setState({
+      input: this.state.input + val
+    });
+  };
+  equalSign = () => {
+    this.setState({
+      input: math.eval(this.state.input)
+    });
+  };
+  render() {
+    return (
+      <div className="app-container">
+        <div className="calculator-container">
+          <div className="row">
+            <CalculatorDisplay input={this.state.input} />
+          </div>
+          <div className="row">
+            <ActionButton handleClear={() => this.setState({ input: "" })}>
+              clear
+            </ActionButton>
+            <NumberButton handleClick={this.addToInput}>.</NumberButton>
+            <NumberButton handleClick={this.addToInput}>/</NumberButton>
+          </div>
+          <div className="row">
+            <NumberButton handleClick={this.addToInput}>7</NumberButton>
+            <NumberButton handleClick={this.addToInput}>8</NumberButton>
+            <NumberButton handleClick={this.addToInput}>9</NumberButton>
+            <NumberButton handleClick={this.addToInput}>*</NumberButton>
+          </div>
+          <div className="row">
+            <NumberButton handleClick={this.addToInput}>4</NumberButton>
+            <NumberButton handleClick={this.addToInput}>5</NumberButton>
+            <NumberButton handleClick={this.addToInput}>6</NumberButton>
+            <NumberButton handleClick={this.addToInput}>-</NumberButton>
+          </div>
+          <div className="row">
+            <NumberButton handleClick={this.addToInput}>1</NumberButton>
+            <NumberButton handleClick={this.addToInput}>2</NumberButton>
+            <NumberButton handleClick={this.addToInput}>3</NumberButton>
+            <NumberButton handleClick={this.addToInput}>+</NumberButton>
+          </div>
+          <div className="row">
+            <ActionButton
+              handleClear={() =>
+                this.setState({
+                  input: this.state.input + 0
+                })
+              }
+            >
+              0
+            </ActionButton>
+            <NumberButton displayStyle="border-radius" handleClick={() => this.equalSign()}>=</NumberButton>
+          </div>
+        </div>
+      </div>
+    );
+  }
+}
 
 export default App;
