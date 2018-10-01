@@ -1,1 +1,31 @@
 /* All styles for your header Components live here */
+.header {
+    display: flex;
+}
+
+.header .right-side {
+    margin-left: 10px;
+}
+
+.header .header-title {
+    display: flex;
+}
+
+.header .header-title .name {
+    font-size: 1rem;
+}
+
+.header .header-title .username-date {
+    font-size: .8rem;
+    color: grey;
+    margin-left: 10px;
+}
+
+.header-image {
+    width: 100%;
+}
+
+.header-content {
+    margin: 0;
+    width: 70%;
+}
