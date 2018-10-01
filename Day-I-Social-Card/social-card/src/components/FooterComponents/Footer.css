@@ -1,0 +1,17 @@
+.footer-images-cont{
+    display: flex;
+    width: 800px;
+    margin: 0 auto;
+    
+
+}
+
+.all-img{
+
+    margin-left: 70px;
+}
+
+.img-size{
+
+    margin-right: 40px;
+}

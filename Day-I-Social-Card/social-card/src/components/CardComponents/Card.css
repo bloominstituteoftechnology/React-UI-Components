@@ -1,1 +1,29 @@
 /* All styles for your Card Components live here */
+.card-container{
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    margin: 0 auto;
+
+}
+
+.banner-container{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.card-banner{
+width: 730px;
+height: 450px;
+
+}
+
+.card-content{
+padding-left: 90px;
+
+}
+
+.grey-text{
+    color: rgb(176, 175, 175);
+
+}
