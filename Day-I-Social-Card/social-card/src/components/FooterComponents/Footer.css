@@ -1,0 +1,7 @@
+.icons{
+    /* border: 3px solid red; */
+    display: flex;
+    justify-content: space-between;
+    max-width: 50%;
+    margin-left: 70px;
+}
