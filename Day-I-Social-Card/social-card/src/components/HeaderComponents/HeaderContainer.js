@@ -1,8 +1,20 @@
 import React from 'react';
 import './Header.css';
-const Bananas  = props => {
-   return  <h1>Hi! Everyone! </h1>;
+import ImageThumbnail from './ImageThumbnail.js';
+import HeaderTitle from './HeaderTitle.js';
+import HeaderContent from './HeaderContent.js';
+
+const HeaderContainer  = props => {
+   return (
+    <header className = "headerStyle">
+        <ImageThumbnail/>
+        <HeaderTitle></HeaderTitle>
+        <HeaderContent></HeaderContent>
+    </header>
+);
 };
 
-export default Bananas;
+
+export default HeaderContainer;
+
 
