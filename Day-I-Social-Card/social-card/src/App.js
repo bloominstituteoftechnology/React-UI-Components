@@ -6,7 +6,7 @@ import Card from './components/CardComponents/CardContainer';
 
 const App = () => {
   return (
-    <div class="app-container">
+    <div className="app-container">
       <Header />
       <Card />
       <Footer />
