@@ -12,6 +12,7 @@
   padding: 0 15px;
 }
 
+
 .img-thumbnail {
   width: 75px;
   height: 75px;
@@ -31,4 +32,11 @@
   padding: 3px 15px;
   color: gray;
   font-size: 14px;
+}
+
+.time-stamp {
+  font-size: 14px;
+  color: gray;
+  padding: 3px 0px; 
+
 }
