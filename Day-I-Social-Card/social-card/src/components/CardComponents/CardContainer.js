@@ -6,11 +6,17 @@ import CardContent from '../CardComponents/CardContent';
 
 const CardContainer = props => {
     return(
-        <div className='card-container'>
+        <div onClick={openPost} className='card-container'>
             <CardBanner />
             <CardContent />
         </div>
     )
 }
+
+function openPost(){
+    var win = window.open('https://www.reactjs.org', '_blank');
+    win.focus();
+  }
+ 
 
 export default CardContainer;

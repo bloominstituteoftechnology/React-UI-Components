@@ -5,7 +5,7 @@ const HeaderTitle = props =>{
 
     return(
         <div className='headerTitle'>
-            <p className='header-title header-post-title'>Lambda School</p>
+            <p className='header-title'>Lambda School</p>
             <p className='header-title header-post-title'>@lambdaSchool - 26 jan</p>
         </div>
     )

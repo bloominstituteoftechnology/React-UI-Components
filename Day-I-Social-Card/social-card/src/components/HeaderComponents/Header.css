@@ -7,27 +7,33 @@
 
 }
 .header-text-container{
-    padding-left:15px;        
+    padding-left:3px;        
+    margin-top:10px;
+    width: 514px;
 }
-
+.header-logo-div{
+    width:64px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
 .header-logo{
-    width:114%;
+    width:100%;
     height:auto;
 }
 
 
 .header-title{
-    color:#ccc;
-    margin-top:0px;
+    margin-top:8px;
     margin-bottom:0px;
-    font-size:1rem;
+    font-size:1.6rem;
 }
 .header-post-title{
-    margin-top:8px;
+    color:#ccc;    
 }
 
 .header-content-text{
     margin-top: 7px;
     margin-bottom:0px;
-    font-size:1rem;
+    font-size:1.6rem;
 }
