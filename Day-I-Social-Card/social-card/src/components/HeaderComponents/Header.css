@@ -1,1 +1,35 @@
 /* All styles for your header Components live here */
+.header-container {
+  max-width: 800px;
+  margin: auto;
+  display: flex;
+  padding-top: 15px;
+  /* flex-direction: column; */
+}
+
+.header-container img {
+  width: 70px;
+  margin-left: 5px;
+  border-radius: 50%;
+}
+
+.header-content {
+  max-width: 700px;
+  margin: auto;
+}
+
+.header-content a {
+  color: black;
+}
+.header-content a:first-of-type {
+  font-weight: 700;
+  font-size: 1.1rem;
+  margin-right: 10px;
+}
+
+.header-content a:last-of-type,
+.header-content span {
+  opacity: 0.6;
+  font-size: 0.9rem;
+  margin-right: 10px;
+}

@@ -1,1 +1,33 @@
 /* All styles for your Card Components live here */
+.card-banner img {
+  width: 100%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  max-width: 700px;
+  display: block;
+  margin: auto;
+}
+
+.card-body {
+  max-width: 700px;
+  margin: auto;
+  border: 1px solid lightgray;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding: 20px 0;
+}
+.card-body h1,
+.card-body p,
+.card-body a {
+  max-width: 650px;
+  display: block;
+  margin: auto;
+  padding: 5px 0;
+}
+.card-body a {
+  color: black;
+  opacity: 0.6;
+}
+.card-body a:hover {
+  opacity: 1;
+}
