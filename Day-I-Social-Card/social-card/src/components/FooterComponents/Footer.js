@@ -29,25 +29,37 @@ class Footer extends Component {
   }
 
   loveNumber = () => {
-    this.setState({ loves: this.state.loves + 1});
-    
+    this.setState({ loves: this.state.loves + 1})
+
   }
 
   retweetNumber = () => {
     this.setState( { retweets: this.state.retweets + 1})
   }
 
+  commentNumber = () => {
+    this.setState( { comments: this.state.comments + 1})
+  }
+
+  shareNumber = () => {
+    this.setState( { shares: this.state.shares + 1})
+  }
+
   render() {
     return (
       <div className='footer-container'>
-        <i className='far fa-comment'></i>
+        <div className='comments' onClick={this.commentNumber}>
+          <i className='far fa-comment'></i> {this.state.comments}
+        </div>
         <div className='retweets' onClick={this.retweetNumber}>
           <i className="fas fa-sync-alt"></i> {this.state.retweets}
         </div>
         <div className='loves' onClick={this.loveNumber}>
           <i className="far fa-heart"></i> {this.state.loves}
           </div>
-        <i className="far fa-envelope"></i>
+          <div className='shares' onClick={this.shareNumber}>
+            <i className="far fa-envelope"></i> {this.state.shares}
+          </div>
       </div>
     );
   }

@@ -3,12 +3,17 @@
 .card-container{
   display: flex;
   flex-direction: column;
-  margin: -5px 20px 0 100px;
+
+
+
 }
 
 a {
   text-decoration: none;
   color: black;
+  width: 80%;
+  margin: -5px 20px 0 100px;
+
 }
 
 .card-banner {
@@ -31,5 +36,5 @@ a {
 .link {
   color: gray;
   font-size: 14px;
-  margin-top: 0; 
+  margin-top: 0;
 }

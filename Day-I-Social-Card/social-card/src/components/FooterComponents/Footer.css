@@ -10,8 +10,34 @@
 
 .fa-comment {
   transform: rotateY(180deg);
+  cursor: pointer;
 }
 
-/* div {
-  font-size: 14px;
-} */
+.fa-comment:active{
+  color: lightblue;
+}
+
+.fa-sync-alt {
+  cursor: pointer;
+}
+
+.fa-sync-alt:active {
+  cursor: pointer;
+  color: green;
+}
+
+.fa-heart {
+  cursor: pointer;
+}
+
+.fa-heart:active {
+  color: pink;
+}
+
+.fa-envelope {
+  cursor: pointer;
+}
+
+.fa-envelope:active {
+  color: blue;
+}
