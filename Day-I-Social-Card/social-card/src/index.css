@@ -3,3 +3,10 @@ body {
   padding: 0.4rem;
   font-family: sans-serif;
 }
+#root{
+  display:flex;
+  justify-content: center;
+}
+.Post{
+  width:750px;
+}

@@ -3,7 +3,7 @@ import './Header.css';
 
 const HeaderTitle = props =>{
     return(
-        <div>
+        <div className="postHeaderTitle">
             <h2>Lambda School</h2>
             <p>@LambdaSchool • 26 Jan</p>
         </div>

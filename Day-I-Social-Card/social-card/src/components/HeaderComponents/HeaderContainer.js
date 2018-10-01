@@ -6,10 +6,12 @@ import ImageThumbnail from './ImageThumbnail';
 
 const HeaderContainer = props =>{
     return(
-    <div className="header">
+    <div className="postHeader">
         <ImageThumbnail />
-        <HeaderTitle />
-        <HeaderContent />
+        <div className="postText">
+            <HeaderTitle />
+            <HeaderContent />
+        </div>
     </div>);
 }
 export default HeaderContainer;
