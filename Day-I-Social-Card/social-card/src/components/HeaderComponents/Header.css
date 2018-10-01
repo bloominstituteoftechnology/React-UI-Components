@@ -1,4 +1,21 @@
 /* All styles for your header Components live here */
 
 header {
+  display: flex;
+  width: 92%;
+}
+
+header .part {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+header img {
+  height: 50px;
+  margin-right: 10px;
+}
+
+header .header-text {
+  display: flex;
 }
