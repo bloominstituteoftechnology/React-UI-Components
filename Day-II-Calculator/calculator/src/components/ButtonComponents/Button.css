@@ -1,0 +1,29 @@
+.btn1 {
+	width: 113.25px;
+	height: 92px;
+	border-width: 1px;
+}
+
+.btn2 {
+	width: 339.75px;
+	height: 92px;
+	border-width: 1px;
+}
+
+.white-btn {
+	background: white;
+}
+
+.red-btn {
+	background: #A0001E;
+}
+
+.operator {
+	font-size: 35px;
+	font-weight: normal;
+}
+
+.number {
+	font-size: 35px;
+	font-weight: bold;
+}

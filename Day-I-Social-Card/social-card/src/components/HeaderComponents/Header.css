@@ -1,1 +1,47 @@
 /* All styles for your header Components live here */
+
+
+.header-wrapper {
+	width: 585px;
+	height: 100px;
+}
+
+.thumbnail {
+	height: 65px;
+	width: 65px;
+}
+
+.logo {
+	width: 60px;
+	height: 60px;
+}
+
+.header-title {
+	width: 520px;
+	margin-left: 65px;
+	margin-top: -65px;
+}
+
+.school {
+	font-size: 16px;
+	margin-top: 10px;
+	width: 130px;
+}
+
+.handle {
+	font-size: 12px;
+	margin-left: 140px;
+	width: 200px;
+	color: gray;
+	margin-top: -27px;
+}
+
+.header-content {
+	width: 520px;
+	margin-left: 65px;
+}
+
+.paragraph {
+	font-size: 14px;
+	margin: 0px;
+}
