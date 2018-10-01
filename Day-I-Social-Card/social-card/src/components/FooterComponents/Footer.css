@@ -1,8 +1,8 @@
 .footer-container {
   display: flex;
-  width: 50%;
+  width: 43%;
   justify-content: space-between;
-  margin: 10px 15px 0 85px;
+  margin: 15px 15px 0 100px;
   font-size: 16px;
   color: gray;
 
@@ -11,3 +11,7 @@
 .fa-comment {
   transform: rotateY(180deg);
 }
+
+/* div {
+  font-size: 14px;
+} */

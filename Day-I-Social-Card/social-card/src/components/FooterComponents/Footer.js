@@ -21,13 +21,16 @@ class Footer extends Component {
   constructor() {
     super()
     this.state = {
+      comments: 0,
       loves: 0,
-      retweets: 0
+      retweets: 0,
+      shares: 0,
     }
   }
 
   loveNumber = () => {
-    this.setState({ loves: this.state.loves + 1})
+    this.setState({ loves: this.state.loves + 1});
+    
   }
 
   retweetNumber = () => {

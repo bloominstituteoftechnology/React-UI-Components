@@ -3,7 +3,7 @@
 .card-container{
   display: flex;
   flex-direction: column;
-  margin: 0 15px 0 85px;
+  margin: -5px 20px 0 100px;
 }
 
 a {
@@ -12,14 +12,17 @@ a {
 }
 
 .card-banner {
-  width: 100%;
-  height: auto;
+  background: url('https://ibin.co/3wnC6SgIOJud.png');
+  width: 500px;
+  border-radius: 5px 5px 0 0;
+  height: 250px;
+  background-size: cover;
 }
 
 .card-content {
   padding: 0 15px;
-  font-size: 15px;
-  line-height: 1.2;
+  font-size: 14px;
+  line-height: 1;
 }
 .card-title {
   font-weight: bold;
@@ -28,4 +31,5 @@ a {
 .link {
   color: gray;
   font-size: 14px;
+  margin-top: 0; 
 }
