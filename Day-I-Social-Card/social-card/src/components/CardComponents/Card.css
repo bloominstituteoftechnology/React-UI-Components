@@ -1,1 +1,10 @@
 /* All styles for your Card Components live here */
+/* CardBanner */
+.bannerWrapper {
+    padding-left: 5rem;
+    padding-right: 2rem;
+}
+.banner {
+    width: 100%;
+    height: auto;
+}
