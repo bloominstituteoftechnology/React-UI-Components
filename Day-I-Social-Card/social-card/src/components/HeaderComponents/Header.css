@@ -1,1 +1,40 @@
 /* All styles for your header Components live here */
+
+.header-container {
+    display: flex;
+}
+
+img {
+    width: 80px;
+    margin-top: 10px;
+}
+
+.header-title {
+    display: inline-flex;
+    width: 88%;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+h1 {
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.lambdaTag {
+    display: flex;
+    align-items: center;
+    color: grey;
+    font-size: 1rem;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+.header-title h1, .header-title p, .header-title .header-content {
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+}
