@@ -28,6 +28,7 @@ header {
     }
     .header-title h1{
        font-size: 15px; 
+       margin-right: 5px;
     }
     .header-title p {
         font-size: 12px;
