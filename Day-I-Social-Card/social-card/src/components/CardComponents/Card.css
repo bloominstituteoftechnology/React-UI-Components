@@ -1,5 +1,55 @@
 /* All styles for your Card Components live here */
 
+.card-container {
+  display: flex;
+  flex-direction: column;
+
+  margin: 0 57px;
+  border: 1px solid gray;
+}
 .class-banner {
+  display: flex;
+
   background-image: url('https://ibin.co/3wnC6SgIOJud.png');
+  background-size: contain;
+
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+
+
+  padding: 10px;
+
+}
+
+.card-title-1 {
+
+
+}
+
+.card-title-1 h3{
+  margin: 0;
+  font-size: 14px;
+}
+
+.card-text {
+
+}
+
+.card-text p{
+  margin: 0;
+  font-size: 12px;
+}
+
+.card-title-2 {
+
+}
+
+.card-title-2 h4{
+  margin: 0;
+  font-size: 12px;
+  font-weight: 400;
+  color: gray;
 }
