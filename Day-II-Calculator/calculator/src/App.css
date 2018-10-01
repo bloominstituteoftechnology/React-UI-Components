@@ -1,0 +1,16 @@
+.calculator{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 456px;
+    width: 100%;
+    margin: 20px auto;
+    border: 1px solid #979797;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}

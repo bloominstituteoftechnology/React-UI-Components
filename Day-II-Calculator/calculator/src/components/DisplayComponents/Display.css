@@ -1,0 +1,13 @@
+.display{
+    width: 100%;
+    height: 128px;
+    color: white;
+    background-color: #222222;
+    text-align: end;
+    font-size: 7.2rem;
+    border: 1px solid #979797;
+}
+
+.display p{
+    margin: 30px 10px 0px 0px;
+}
