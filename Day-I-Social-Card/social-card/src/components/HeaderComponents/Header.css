@@ -1,1 +1,24 @@
 /* All styles for your header Components live here */
+
+.header-container {
+  border: 1px solid blue;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.header-container .user-logo {
+  border-radius: 50%;
+  width: 10%;
+}
+
+.header-container .header-text {
+  margin-left: 2%;
+}
+
+.header-container header {
+  border: 1px solid green;
+  width: 58%;
+  display: flex;
+  justify-content: space-between;
+}
