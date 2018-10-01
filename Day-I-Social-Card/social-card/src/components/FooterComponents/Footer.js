@@ -2,8 +2,8 @@ import React from 'react';
 import './Footer.css';
 
 const Footer = () => {
-  let retweets = 6;
-  let likes = 4;
+  let retweets = 7;
+  let likes = 5;
   const plusretweet = e => e.target.textContent = ` ${retweets++}`;
   const pluslike = e => e.target.textContent = ` ${likes++}`;
   return (
