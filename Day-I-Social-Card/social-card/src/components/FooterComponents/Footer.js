@@ -9,7 +9,7 @@ const Footer = () => {
    return(
    <div className="footer">
         <FontAwesomeIcon icon="comment" />
-        <FontAwesomeIcon icon="recycle" />
+        <FontAwesomeIcon icon="adjust" />
         <FontAwesomeIcon icon="heart" />
         <FontAwesomeIcon icon="envelope" />
     </div>
