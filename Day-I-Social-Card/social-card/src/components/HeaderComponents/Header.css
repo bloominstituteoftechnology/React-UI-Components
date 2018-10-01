@@ -1,19 +1,15 @@
-.app {
-  width: 600px;
-}
 .headerContainer {
   border: 2px solid grey;
   display: flex;
+  padding: 5px;
   
 }
 
 .avatarBox {
   margin-right: 2rem;
-
 }
 
 .imageThumbnail {
-  /* border: 10px solid black; */
   height: 60px;
   width: 60px;
   border-radius: 100px;
@@ -25,6 +21,12 @@
 }
 
 .username {
+  color: grey;
+  font-size: .8rem;
+  margin-right: .5rem;
+}
+
+.date {
   color: grey;
   font-size: .8rem;
 }
