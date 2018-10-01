@@ -22,8 +22,8 @@ class Footer extends Component {
     super()
     this.state = {
       comments: 0,
-      loves: 0,
-      retweets: 0,
+      loves: 4,
+      retweets: 6,
       shares: 0,
     }
   }
@@ -42,7 +42,8 @@ class Footer extends Component {
   }
 
   shareNumber = () => {
-    this.setState( { shares: this.state.shares + 1})
+    this.setState( { shares: this.state.shares + 1});
+    alert('https://reactjs.org');
   }
 
   render() {
