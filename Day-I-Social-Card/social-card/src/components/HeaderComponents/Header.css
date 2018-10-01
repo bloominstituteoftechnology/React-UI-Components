@@ -1,1 +1,44 @@
 /* All styles for your header Components live here */
+headerImage
+headerTitleAndText
+headerText
+headerLogo
+titleBox
+titleUserName
+titleHandle
+titleDate */
+ .headerBox{
+    display: flex;
+  
+}
+.headerTitleAndText{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-left: 10px;
+   
+}
+.titleHandle{
+    padding-right: 5px;
+    color: grey;
+}
+.titleDate{
+    color: grey;
+}
+.titleBox{
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    padding-bottom: 15px;
+   
+}
+.headerText{
+    width: 600px;
+}
+img{
+    max-width: 100%;
+    max-height: 100%;
+ }
+.titleUserName{
+    padding-right: 5px;
+}
