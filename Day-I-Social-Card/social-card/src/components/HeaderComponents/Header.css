@@ -1,1 +1,53 @@
 /* All styles for your header Components live here */
+
+.container {
+  display: flex;
+  justify-content: space-between;
+
+
+}
+
+.thumbnail {
+  border: dotted yellow 3px;
+  height: 75px;
+  width: 75px;
+  border-radius: 50px;
+  margin-right: 3%;
+  background: red;
+
+
+
+
+}
+
+.contentTitleContainer {
+  width: 92%;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  width: 100%;
+  height: 70px;
+  margin: 0;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 30px;
+}
+
+.title h5 {
+  margin: 0 1.5% 0 0;
+}
+.title h6 {
+  margin: 0 1.5%;
+  color: #9e9e9e;
+
+}
+
+.content p {
+}
+

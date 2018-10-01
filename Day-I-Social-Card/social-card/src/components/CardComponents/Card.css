@@ -1,1 +1,6 @@
 /* All styles for your Card Components live here */
+
+.cardContent {
+  border: solid yellow 3px;
+  display: none;
+}
