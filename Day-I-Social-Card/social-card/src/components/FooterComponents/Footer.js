@@ -1,0 +1,3 @@
+const footer = () => {
+  return <div />;
+};
