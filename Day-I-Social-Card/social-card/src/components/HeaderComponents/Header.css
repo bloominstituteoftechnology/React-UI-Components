@@ -1,1 +1,40 @@
 /* All styles for your header Components live here */
+
+.header-container {
+  
+}
+
+.header-title {
+    display: flex;
+    width: 500px;
+    margin-left: 110px;
+    margin-top: 10px;
+    align-items: baseline;
+    
+}
+
+.title {
+    font-size: 20px;
+}
+
+.lambda-logo {
+    width: 100px;
+    margin-top: -45px;
+    border-radius: 50%;
+}
+
+.header-title a {
+    margin-left: 20px;
+}
+
+.header-para {
+
+    display: flex;
+    flex-wrap: wrap;
+    width: 585px;
+    line-height: 1.5;
+    margin-left: 110px;
+    margin-top: -70px;
+
+}
+
