@@ -1,1 +1,38 @@
 /* All styles for your Card Components live here */
+.card-container{
+    
+    width: 620px;
+    border: 1px solid lightgray;
+    margin-left: 110px;
+    border-radius: 6px;
+    
+}
+.card-container:hover {
+    cursor: pointer;
+}
+
+.banner-img {
+    width: 620px;
+    height: auto;
+    border-radius: 6px 6px 0px 0px;
+}
+.card-content {
+    color: black;
+    text-decoration-line: none;
+    padding: 0px 20px;
+}
+.card-header {
+    font-size: 22px;
+    margin: 0px;
+    padding: 10px 20px;
+}
+.card-text {
+    margin: 0px;
+    padding : 0px 20px;
+    font-size: 18px;
+}
+.link-text {
+    margin: 0px;
+    padding: 10px 20px;
+    color: gray;
+}
