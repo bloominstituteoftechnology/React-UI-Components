@@ -9,6 +9,7 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    text-decoration: none;
 }
 
 .card img {
@@ -32,6 +33,7 @@
 .card .content h3 {
     font-size: 14px;
     margin: 0px;
+    color: black;
 }
 
 .card .content p {
