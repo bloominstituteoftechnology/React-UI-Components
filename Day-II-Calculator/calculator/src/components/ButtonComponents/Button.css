@@ -1,0 +1,31 @@
+.buttons{
+    width:100%;
+    
+}
+.number{
+    height:80px;
+    width:25%;
+    border:1px solid gray;
+    font-size:40px;
+   
+}
+.action{
+    height:80px;
+    width:25%;
+    border:1px solid gray;
+    font-size:40px;
+    background-color:darkred;
+    color:white;
+}
+.zero-button{
+    width:75%;
+    height:80px;
+    border:1px solid gray;
+    font-size:40px;
+}
+.clear{
+    width:75%;
+    height:80px;
+    border:1px solid gray;
+    font-size:40px;
+}
