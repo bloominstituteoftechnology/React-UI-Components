@@ -1,1 +1,8 @@
 /* All styles for your header Components live here */
+.header-wrapper {
+    display: flex;
+    align-items: center;
+}
+.gray { 
+  color: gray;
+}

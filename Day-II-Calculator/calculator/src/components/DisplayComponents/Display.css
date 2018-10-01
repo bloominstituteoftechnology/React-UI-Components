@@ -1,0 +1,11 @@
+.display {
+    height: 100px;
+    width: 100%;
+    background: black;
+    color: whitesmoke;
+    border: 1px solid gray;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 45px;
+}
