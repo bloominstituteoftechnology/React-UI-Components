@@ -5,12 +5,10 @@ const HeaderTitle = props => {
     return (
       <div className="header-title">
         <h2>Lambda School</h2>
-        <h3>@LambdaSchool</h3>
-        <ul>
-          <li>26 jan</li>
-        </ul>
+        <h3>@LambdaSchool • 26 jan</h3>
+
       </div>
     );
   };
 
-  export default HeaderTitle
+  export default HeaderTitle;
