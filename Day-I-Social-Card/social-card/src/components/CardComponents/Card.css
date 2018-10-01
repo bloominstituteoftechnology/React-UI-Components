@@ -1,3 +1,19 @@
 .cardBanner {
   width: 600px;
 }
+
+.cardContentTextBox {
+  padding-left: 20px;
+}
+
+.cardContentHeadline {
+
+}
+
+.cardContentDescription {
+
+}
+
+.cardContentLink {
+  color: grey;
+}
