@@ -1,0 +1,20 @@
+.button-style {
+    height:100px;
+    border:1px solid gray;
+    font-size: 3.125rem;
+    background: whitesmoke;
+    width: 25%;
+}
+
+.wide-button {
+    width: 75%;   
+}
+
+.number-button {
+    font-weight:bold;
+}
+
+.math-button {
+    background:rgb(121, 1, 1);
+    color:white;
+}
