@@ -1,1 +1,37 @@
 /* All styles for your header Components live here */
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 10px 0;
+}
+.thumbnail {
+    width: auto;
+    height: 40px;
+    border-radius: 30px;
+    margin: 10px 10px 10px 0;
+}
+
+.headerContent {
+    margin-left: 10px;
+}
+
+.header h1 {
+    font-size: 1.4rem;
+    margin-top: 10px;
+}
+
+.at-date {
+    margin-left: 2px;
+    font-size: 1.2rem;
+    color: gray;
+    font-weight: 300;
+}
+
+.header p {
+    display: inline-block;
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+    margin: 2.5px;
+}
