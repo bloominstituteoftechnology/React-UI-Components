@@ -7,9 +7,13 @@ import HeaderTitle from './HeaderTitle';
 const HeaderContainer = props => {
   return (
     <div className='headerContainer'>
-      <ImageThumbnail />
-      <HeaderTitle />
-      <HeaderContent />
+      <div className = 'avatarBox'>
+        <ImageThumbnail />
+      </div>
+      <div className = 'textBox'>
+        <HeaderTitle />
+        <HeaderContent />
+      </div>
     </div>  
   );
 }

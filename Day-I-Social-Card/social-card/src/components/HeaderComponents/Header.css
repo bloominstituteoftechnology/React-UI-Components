@@ -1,8 +1,15 @@
-/* All styles for your header Components live here */
+.app {
+  width: 600px;
+}
 .headerContainer {
   border: 2px solid grey;
   display: flex;
-  align-items: center;
+  
+}
+
+.avatarBox {
+  margin-right: 2rem;
+
 }
 
 .imageThumbnail {
