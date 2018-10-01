@@ -3,13 +3,11 @@ import './Card.css';
 import CardBanner from './CardBanner';
 import CardContent from './CardContent';
 
-const CardContainer = () => {
-    return (
-        <a class='card-container' href='https://www.reactjs.org'>
-            <CardBanner />
-            <CardContent />
-        </a>
-    );
-}
+const CardContainer = () => (
+    <a className='card-container' href='https://www.reactjs.org'>
+        <CardBanner />
+        <CardContent />
+    </a>
+);
 
 export default CardContainer;
