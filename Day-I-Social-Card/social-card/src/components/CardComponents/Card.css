@@ -1,1 +1,12 @@
 /* All styles for your Card Components live here */
+.card-container {
+  padding-left: 50px;
+}
+
+.card-container img {
+  width: 100%;
+}
+
+.card-container a {
+  text-decoration: none;
+}
