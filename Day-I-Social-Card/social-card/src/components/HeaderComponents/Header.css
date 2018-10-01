@@ -7,7 +7,11 @@ p {
 
 .header {
   display: flex;
-  border: 1px solid red;
+  /* border: 1px solid red; */
+}
+
+.header-text {
+  width: 90%;
 }
 
 .bold {
@@ -20,7 +24,7 @@ p {
 }
 
 .thumbnail {
-  width: 45px;
-  height: 50px;
+  width: 40px;
+  height: 45px;
   margin: 10px;
 }
