@@ -1,0 +1,24 @@
+.calculatorDisplay{
+    width: 242px;
+    height: 346px;
+    border: 1px solid black;
+
+}
+
+.outputDisplay {
+    width: 240px;
+    height: 80px;
+    background-color: #222222;
+    position: relative;
+    bottom: 10px;
+}
+
+
+.outputText{
+    font-size: 58px;
+    font-weight: bold;
+    color: white;
+    position: relative;
+    bottom: 735px;
+    left: 198px;
+}

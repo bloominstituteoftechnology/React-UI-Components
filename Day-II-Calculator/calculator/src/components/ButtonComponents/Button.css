@@ -1,0 +1,127 @@
+
+
+.numberButton {
+    display: block;
+    padding-left: 22px;
+    padding-top: 8px;
+    font-size: 24px;
+    width: 60px;
+    height: 55px;
+    background-color: white;
+    color: black;
+ 
+    cursor: pointer;
+}
+.numberButton:hover{
+    background-color: grey;
+    color: white;
+    border: 1px grey solid;
+}
+
+.redActionButton {
+    display: block;
+    padding-left: 22px;
+    padding-top: 8px;
+    font-size: 24px;
+    background-color: darkred;
+    color: white;
+    width: 60px;
+    height: 55px;
+    justify-content: center;
+    align-content: center;
+
+    cursor: pointer;
+}
+.redActionButton:hover{
+    background-color: salmon;
+    color: black;
+    border: 1px grey solid;
+}
+.redEqualsActionButton {
+    display: block;
+    padding-left: 22px;
+    padding-top: 8px;
+    font-size: 24px;    
+    background-color: darkred;
+    color: white;
+    width: 60px;
+    height: 55px;
+    justify-content: center;
+    align-content: center;
+  
+    position: relative;
+    bottom: 551px;
+    left: 181px;
+    cursor: pointer;
+}
+.redEqualsActionButton:hover{
+    background-color: salmon;
+    color: black;
+    border: 1px grey solid;
+}
+.redDividActionButton {
+    display: block;
+    padding-left: 22px;
+    padding-top: 8px;
+    font-size: 24px;
+    background-color: darkred;
+    color: white;
+    width: 60px;
+    height: 55px;
+    justify-content: center;
+    align-content: center;
+
+    position: relative;
+    bottom: 386px;
+    left: 181px;  
+    cursor: pointer;  
+}
+.redDividActionButton:hover{
+    background-color: salmon;
+    color: black;
+    border: 1px grey solid;
+}
+
+.clear{
+    display: block;
+    padding-left: 58px;
+    padding-top: 8px;
+    font-size: 24px;
+    width: 180px;
+    height: 55px;
+    position: relative;
+    bottom: 441px;
+    left: 1px;
+    font-size: 24px;
+    background-color: white;
+    color: black;
+
+    cursor: pointer;
+}
+.clear:hover {
+    background-color: grey;
+    color: white;
+    border: 1px grey solid;
+}
+
+.zeroButton{
+    display: block;
+    padding-left:75px;
+    font-size: 24px;
+    width: 180px;
+    font-size: 40px;
+    height: 55px;
+    position: relative;
+    bottom: 276px;
+    left: 1px;
+    background-color: white;
+    color: black;
+    
+    cursor: pointer;
+}
+
+.zeroButton:hover{
+    background-color: grey;
+    color: white;
+    border: 1px grey solid;
+}
