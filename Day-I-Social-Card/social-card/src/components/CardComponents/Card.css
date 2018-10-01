@@ -1,1 +1,27 @@
 /* All styles for your Card Components live here */
+
+.bottom {
+    display:flex;
+    width:85%;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.bottom img {
+    display:flex;
+    width:100%;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.cardContent h2 {
+    font-size: 2rem;
+}
+
+.cardContent p {
+    font-size: 2rem;
+}
+
+.cardContent .website {
+    font-size: 1.25rem;
+    color:gray;
+}
