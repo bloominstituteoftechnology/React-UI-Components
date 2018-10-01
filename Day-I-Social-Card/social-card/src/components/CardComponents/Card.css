@@ -1,1 +1,46 @@
 /* All styles for your Card Components live here */
+
+* {
+    box-sizing: border-box;
+}
+
+.card {
+    width: 578px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.card img {
+    width: 503px;
+    height: 254px;
+    align-self: flex-end;
+    margin: 3px 11px 0 0;
+    border-radius: 5px 5px 0 0;
+}
+
+.card .content {
+    width: 503px;
+    align-self: flex-end;
+    margin: 0 11px 0 0;
+    border-radius: 0 0 5px 5px;
+    border: 1px solid lightgrey;
+    display: inline-block;
+    padding:8px 0 0 13px;
+}
+
+.card .content h3 {
+    font-size: 14px;
+    margin: 0px;
+}
+
+.card .content p {
+    font-size: 14px;
+    margin-top: 5px;
+    color: gray;
+}
+
+.card .content .cardText {
+    width: 459px;
+    color: black;
+}
