@@ -1,0 +1,25 @@
+.footer-container {
+    display: flex;
+    justify-content: flex-start;
+    height: 25px;
+    padding-left: 12.5%;
+    padding-top: 15px;
+}
+
+.footer-container div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 60px;
+}
+
+.footer-container div p {
+    font-size: 12px;
+    color: rgb(149, 160, 170);
+}
+
+.footer-container img {
+    width: 25px;
+    margin-right: 5px;
+    cursor: pointer;
+}
