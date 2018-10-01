@@ -9,4 +9,5 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-end;
+  font-size: 62.5%;
 }
