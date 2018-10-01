@@ -8,6 +8,9 @@
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
 }
+a{
+    text-decoration: none;
+}
 .card-banner img{
     width: 500px;
     border-top-left-radius: 5px;
@@ -18,12 +21,13 @@
 }
 .card-content h1{
     font-size:1rem;
+    color:black;
 }
 .card-content p{
     font-size:0.9rem;
+    color:black;
 }
 .card-content a{
-    text-decoration: none;
     color:#95A2AD;
     font-size:0.9rem;
 }
