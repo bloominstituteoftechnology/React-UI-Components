@@ -1,1 +1,28 @@
 /* All styles for your header Components live here */
+
+.headerContainer {
+  max-width: 1000px;
+  display: flex;
+  border: 2px solid red;
+}
+
+.headerTitle {
+  display: flex;
+  align-items: baseline;
+  flex-flow: wrap;
+}
+
+h1 {
+  font-size: 23px;
+  margin-right: 20px;
+}
+
+h2 {
+  font-size: 15px;
+  font-weight: 100;
+  margin-right: 20px;
+}
+
+p {
+  padding-right: 5%;
+}
