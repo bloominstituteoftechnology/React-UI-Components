@@ -1,6 +1,41 @@
 /* All styles for your header Components live here */
+/* HeaderContainer */
+.profileInfo {
+    display: flex;
+    align-items: flex-start;
+    padding-top: 1.6rem;
+}
+
+/* ImageThumbnail */
+.imgWrapper {
+    padding: 0 1.5rem 1.5rem 1.5rem;
+}
+
 #profilePicture {
-    width: 90px;
+    max-width: 7rem;
     height: auto;
     border-radius: 50%;
 }
+
+/* HeaderContent */
+.profileContent {
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+}
+
+/* HeaderTitle */
+.profileHeader {
+    display: flex;
+    padding-bottom: 10px;
+}
+.profileHeader p {
+    padding-right: 10px;
+}
+.name {
+    font-weight: bold;
+}
+.light {
+    color: gray;
+}
+

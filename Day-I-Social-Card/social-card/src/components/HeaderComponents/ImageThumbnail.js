@@ -4,7 +4,9 @@ import logo from '../../img/redLambda.jpg';
 
 const ImageThumbnail = () => {
     return (
-        <img id='profilePicture' src={logo} alt='profile image' />
+        <div class='imgWrapper'>
+            <img id='profilePicture' src={logo} alt='profile' />
+        </div>
     )
 }
 
