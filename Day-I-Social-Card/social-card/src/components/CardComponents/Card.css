@@ -1,3 +1,15 @@
+.card-banner-container {
+  max-width: 504px;
+  max-height: 252px;
+  overflow: hidden;
+  margin-top: 12px;
+  margin-left: 63px;
+  border-radius: 5px;
+}
+
 .card-banner {
-  max-width: 100%;
+  transform: scale(0.67);
+  position: relative;
+  top: -182px;
+  left: -357px;
 }

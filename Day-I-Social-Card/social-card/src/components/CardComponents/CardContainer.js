@@ -1,7 +1,7 @@
-import React from 'react';
+import React from 'react'
 
 // import styling
-import './Card.css';
+import './Card.css'
 
 // import components
 import CardBanner from './CardBanner'
