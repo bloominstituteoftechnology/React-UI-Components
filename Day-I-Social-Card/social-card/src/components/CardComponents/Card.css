@@ -1,1 +1,31 @@
 /* All styles for your Card Components live here */
+.cardLink a{
+    text-decoration: none;
+    color: black;
+}
+.cardContainer {
+    margin-left: 8.25%;
+}
+.cardBanner {
+    height: 265px;
+    width: 500px;
+    background-image: url("https://ibin.co/3wnC6SgIOJud.png");
+    background-position: top;
+    background-repeat:no-repeat;
+    background-size: 100%;
+    border-top-left-radius: 1%;
+    border-top-right-radius: 1%;
+}
+.cardContent {
+    margin-left: 2%;
+    width: 80%;
+}
+.cardContent h1 {
+    font-size: 90%;
+    margin-top: 0;
+}
+.cardContent p {
+    font-size: 90%;
+    margin-top: 0;
+    margin-bottom: 1.5%;
+}
