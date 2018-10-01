@@ -1,1 +1,9 @@
 /* All styles for your Card Components live here */
+.cardContainer {
+    /* empty  */
+}
+
+.cardContent {
+    border:1px solid blue;
+}
+
