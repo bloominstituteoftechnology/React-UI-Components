@@ -1,1 +1,20 @@
 /* All styles for your Card Components live here */
+.card-container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 47px;
+    margin-right: 50px;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+.banner img{
+    display: inline-flex;
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-top: 0px;
+}
+ .card-content{
+    margin: 15px;
+    width: 95%;
+} 
