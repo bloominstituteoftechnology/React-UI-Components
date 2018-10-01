@@ -4,7 +4,7 @@ import reactBanner from '../../img/react-logo-og.png';
 
 const CardBanner = () => {
     return (
-        <div class='bannerWrapper'>
+        <div>
             <img class='banner' src={reactBanner} alt='react logo' />
         </div>
     )

@@ -1,10 +1,34 @@
 /* All styles for your Card Components live here */
-/* CardBanner */
-.bannerWrapper {
-    padding-left: 5rem;
-    padding-right: 2rem;
+.cardContainer {
+    padding: 1.5rem 2rem 1.5rem 8rem;
 }
+
+/* CardBanner */
 .banner {
     width: 100%;
     height: auto;
+    border-radius: 0.6rem;
+}
+
+/* CardContent */
+.cardContent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 1.5rem;
+    border: 1px solid lightgray;
+}
+
+.cardContent h1 {
+    font-weight: bold;
+    padding: 1rem 0;
+}
+
+.cardContent p {
+    line-height: 2rem;
+}
+
+.cardContent .link {
+    color: gray;
+    padding-top: 1rem;
 }
