@@ -4,7 +4,9 @@ import './Card.css';
 
 const CardBanner = () => {
     return (
-        <img className='card-banner' src='https://ibin.co/3wnC6SgIOJud.png'/>        
+        <a href='https://reactjs.org/'>
+        <img className='card-banner' src='https://ibin.co/3wnC6SgIOJud.png'/> 
+        </a>       
     );
 }
 
