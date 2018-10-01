@@ -1,4 +1,14 @@
 /* 
-  Write your styles/CSS for App.js here and import into the component that you need 
-  IF you'd like to attempt to use less you'll have to research how to do this with Create React App
+  Write your styles/CSS for App.js here and import into the component that 
+  you need IF you'd like to attempt to use less you'll 
+  have to research how to do this with Create React App
 */
+.mini-txt {
+  font-size: 12px;
+  font-weight: 100;
+  color: #808080;
+  
+}
+
+
+
