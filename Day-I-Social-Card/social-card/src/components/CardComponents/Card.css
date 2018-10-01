@@ -6,6 +6,9 @@ a {
 
 .CardContainer {
   margin-left: 68px;
+  border: 1px solid #E6ECF0;
+  border-radius: 5px;
+  width: 506px;
 }
 
 
@@ -16,10 +19,8 @@ a {
 }
 
 .CardContent {
-  padding: 11px 0 10px 15px;
-  border-right: 1px solid beige;
-  border-bottom: 1px solid beige;
-  border-left: 1px solid beige;
+  padding: 11px 15px 10px 15px;
+  border-top: 1px solid #E6ECF0;
   border-radius: 5px;
   width: 488px;
   color: black;
