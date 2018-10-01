@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 
+
 const App = () => {
   return (
     <div>
@@ -20,5 +21,7 @@ const App = () => {
     </div>
   );
 };
+//delete text inside of return
+//and build something like from class
 
 export default App;
