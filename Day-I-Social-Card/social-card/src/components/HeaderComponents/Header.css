@@ -1,7 +1,7 @@
 /* All styles for your header Components live here */
 
 .header-container {
-  border: 1px solid blue;
+  margin-bottom: 20px;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
@@ -17,8 +17,7 @@
 }
 
 .header-container header {
-  border: 1px solid green;
-  width: 58%;
+  width: 55%;
   display: flex;
   justify-content: space-between;
 }
