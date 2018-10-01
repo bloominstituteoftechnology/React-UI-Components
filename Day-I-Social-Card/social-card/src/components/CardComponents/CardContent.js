@@ -8,3 +8,4 @@ const CardContent = () => {
         </p>
     </div>
 }
+export default CardContent;

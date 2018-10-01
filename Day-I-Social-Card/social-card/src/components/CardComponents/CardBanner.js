@@ -6,3 +6,5 @@ const CardBanner = () => {
         <img src="https://ibin.co/3wnC6SgIOJud.png" />
     </div>
 }
+
+export default CardBanner;
