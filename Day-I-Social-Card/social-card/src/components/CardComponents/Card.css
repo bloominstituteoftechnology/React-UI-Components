@@ -1,1 +1,25 @@
 /* All styles for your Card Components live here */
+.card-container {
+  width: 90%;
+  margin-left: 50px;
+}
+
+.card-container img {
+  width: 90%;
+  border-radius: 8px;
+}
+
+.card-container .card-content {
+  margin-left: 10px;
+  border: 1px lightgrey solid;
+  margin: 1%;
+}
+
+.card-container .card-content p {
+  width: 90%;
+}
+
+.card-container .card-content a {
+  text-decoration: none;
+  color: gray;
+}
