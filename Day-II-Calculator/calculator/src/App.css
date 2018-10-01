@@ -1,0 +1,18 @@
+.blackbox {
+    background-color: black;
+    color: white;
+    width: 460px;
+    height: 100px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 20px;
+    font-size: 44px
+}
+.app {
+    width: 480px;
+    margin: 0 auto;
+}
+.flex {
+    display: flex;
+}
