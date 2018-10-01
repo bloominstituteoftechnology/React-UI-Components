@@ -48,6 +48,7 @@
 
 .down-title {
   display: flex;
+  padding: 2px 0;
 }
 
 .header-text {
