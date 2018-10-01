@@ -131,7 +131,14 @@ table {
 }
 .main-container {
   max-width: 900px;
-  width: 900px;
+  width: 100%;
   margin: 200px auto;
-  border: 1px solid black;
+  border: 1px solid #000;
+  display: flex;
+  flex-flow: row wrap;
+}
+.header-container {
+  max-width: 900px;
+  width: 100%;
+  border: 3px solid red;
 }
