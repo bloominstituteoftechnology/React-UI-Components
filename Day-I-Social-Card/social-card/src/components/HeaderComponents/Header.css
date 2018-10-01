@@ -1,35 +1,33 @@
 /* All styles for your header Components live here */
 .logo{
-    
-    width:30%;
+    align-self: center;
+    justify-self: center;
+    border: blue solid 1px;
+    width: 30%;
     height: auto;
 }
 .header-container{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    border: blue 1px solid;
-    justify-content: flex-start;
-    align-items: baseline;
 }
 .thumbnail-container{
+    display: flex;
     width: 20%;
-    height:auto;
-    border: purple solid 1px;
-    border-radius: 50%;
-    
+    height: auto;
+    background-color: red;
+    border-radius: 50px;
 }
 .header-title{
     display:flex;
     width: 80%;
-    border: yellow solid 4px;
 }
 .header-title-container{
     width: 100%;
-    border: red solid 1px;
+
     display: flex;
 }
 .header-content{
-    width: 70%;
-    border: red solid 1px;
+    width: 80%;
+    margin-left: 20%;
 }

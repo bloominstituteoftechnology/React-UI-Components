@@ -9,5 +9,4 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-end;
-  border: red solid 1px;
 }

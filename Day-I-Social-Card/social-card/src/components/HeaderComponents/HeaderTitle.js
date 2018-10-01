@@ -5,7 +5,6 @@ const HeaderTitle =()=>{
         <div className="header-title">
         <div>Lambda School</div>
         <div> '@LambdaSchool • 26 jan'</div>
-
         </div>
     )
 }
