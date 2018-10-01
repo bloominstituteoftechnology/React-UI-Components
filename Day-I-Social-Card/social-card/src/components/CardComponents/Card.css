@@ -1,1 +1,36 @@
-/* All styles for your Card Components live here */
+.cardContainer {
+  display: flex;
+  margin: 0 auto;
+  width: 550px;
+  height: 100%;
+  padding: 5px;
+  padding-top: 0;
+  flex-direction: column;
+}
+
+.cardContainer .cardImage img {
+    width: 550px;
+    max-width: 500px;
+    margin-left: 8%;
+}
+
+.cardContainer .cardContent {
+  margin-left: 12%;
+  margin-bottom: 3%;
+  font-size: 16px;
+}
+
+.cardContainer .cardContent h3 {
+  margin-bottom: 1%;
+}
+
+.cardContainer .cardContent p {
+  margin: 2% 0 1% 0;
+  font-size: 14px;
+}
+
+.cardContainer .cardContent span {
+  margin: 0;
+  font-size: 14px;
+  color: slategray;
+}
