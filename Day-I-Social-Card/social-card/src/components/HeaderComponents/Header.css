@@ -1,1 +1,37 @@
 /* All styles for your header Components live here */
+
+.lambda-paragraph {
+	color: #A6AFB8;
+	font-size: 1.3rem;
+	margin-left: 2%;
+}
+
+.lambda-heading {
+	font-size: 1.3rem;
+}
+
+.header-Container {
+	display: flex;
+	width: 100%;
+}
+
+.header-content-title-container {
+}
+
+.lambda-heading-container {
+	display: flex;
+	align-items: center;
+	width: 60%;
+}
+
+.header-content-container {
+	width: 100%;
+}
+
+.header-content-span {
+	font-size: 1.4rem;
+}
+
+.imageThumbnail {
+	margin: 15px 2% 0 2%;
+}
