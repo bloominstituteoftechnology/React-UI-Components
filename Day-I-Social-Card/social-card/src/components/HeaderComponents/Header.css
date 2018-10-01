@@ -1,1 +1,7 @@
 /* All styles for your header Components live here */
+.headerContainer {
+    display: flex;
+    max-width: 800px;
+    width: 100%;
+   
+}
