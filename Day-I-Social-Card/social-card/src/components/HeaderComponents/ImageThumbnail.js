@@ -1,10 +1,14 @@
-import React from 'react';
-import './Header.css';
+import React from "react";
+import "./Header.css";
 
 const ImageThumbnail = () => {
-    return (
-        <img class="thumbnail" src="https://ibin.co/3whrpKSBbZ81.png" alt="lambda logo"></img>
-    );
+  return (
+    <img
+      className="thumbnail"
+      src="https://ibin.co/3whrpKSBbZ81.png"
+      alt="lambda logo"
+    />
+  );
 };
 
 export default ImageThumbnail;
