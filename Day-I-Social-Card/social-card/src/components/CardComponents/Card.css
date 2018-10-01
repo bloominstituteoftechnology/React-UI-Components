@@ -5,6 +5,7 @@
     margin-right: 2%;
     border: 1px solid lightgrey;
     border-radius: 5px;
+    padding-bottom: 10px;
 }
 
 .card-banner {
@@ -30,5 +31,5 @@
 .card-text-content .link {
     color: lightslategrey;
     font-weight: lighter;
-    text-decoration: none;
+    text-decoration: none;padding-bottom: 10px;
 }

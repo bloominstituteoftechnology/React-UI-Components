@@ -26,14 +26,14 @@
 }
 
 .username {
-    font-size: .8rem;
-    color: lightgray;
+    font-size: .9rem;
+    color: lightslategray;
     margin-right: 10px;  
 }
 
 .date {
-    font-size: .8rem;
-    color: lightgrey;    
+    font-size: .9rem;
+    color: lightslategrey;    
 }
 
 .interpunct {
