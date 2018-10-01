@@ -1,4 +1,36 @@
 /* All styles for your Card Components live here */
 .card-banner {
   background-image: url(https://ibin.co/3wnC6SgIOJud.png);
+  width: 95.5%;
+  height: 250px;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 5px 5px 0 0;
+  background-size: 800px 420px;
+}
+
+.card-container {
+  margin: 20px 0;
+  padding: 0 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  text-decoration: none;
+}
+
+.card-content {
+  width: 90%;
+  padding: 0 0 0 5%;
+  border: 1px solid lightgray;
+  border-top: none;
+}
+
+h1,
+p {
+  font-size: 14px;
+  color: black;
+}
+
+.card-content p {
+  color: rgb(151, 146, 146);
 }
