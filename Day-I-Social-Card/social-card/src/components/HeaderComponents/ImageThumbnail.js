@@ -3,9 +3,7 @@ import './Header.css';
 
 const ImageThumbnail = props => {
     return (
-        <div>
-            <span>image</span>
-        </div>
+        <img src={props.src} alt="thumbnail" className='thumbnail'/>
     );
 }
 

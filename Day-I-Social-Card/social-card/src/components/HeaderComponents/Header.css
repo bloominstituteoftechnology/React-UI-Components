@@ -1,1 +1,47 @@
 /* All styles for your header Components live here */
+
+* {
+    box-sizing: border-box;
+}
+
+.header-container {
+    border: solid 1px red;
+    width: 590px;
+    display: flex;
+    align-items: flex-start;
+    padding: 10px 15px;
+}
+
+.thumbnail {
+    width: 40px;
+    height: auto;
+    margin-top: 10px;
+    /* border-radius: 50%; */
+}
+
+.header-info {
+    padding-left: 10px;
+}
+
+.header-title {
+    display: flex;
+    height: 25px;
+}
+
+.header-title  h2{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.header-title h3{
+    font-size: 14px;
+    font-weight: 300;
+    color: grey;
+    padding-left: 10px;
+}
+
+.header-content {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+}

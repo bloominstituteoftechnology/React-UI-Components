@@ -3,8 +3,8 @@ import './Header.css';
 
 const HeaderContent = props => {
     return (
-        <div>
-            <span>Content</span>
+        <div className='header-content'>
+            <p>{props.content}</p>
         </div>
     );
 }
