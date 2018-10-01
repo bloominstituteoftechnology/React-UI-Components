@@ -1,0 +1,10 @@
+footer {
+  width: 100%;
+  border: 1px solid red;
+  display: flex;
+  padding-left: 11%;
+}
+i {
+  width: 13.5%;
+  height: 50px;
+}
