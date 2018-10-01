@@ -2,9 +2,6 @@
   display: flex;
   box-sizing: border-box;
 }
-.headerContainer .headerContentContainer {
-  flex-direction: column;
-}
 .headerContainer .headerContentContainer .headerContent p {
   font-size: 1rem;
   margin: 0;
