@@ -1,1 +1,33 @@
 /* All styles for your header Components live here */
+.headerContainer {
+    display: flex;
+    max-width: 880px;
+    width: 100%;
+}
+
+.imageThumbnail {
+    max-width: 880px;
+}
+
+.headerContent {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+}
+
+.headerContent p {
+    margin: 20px;
+}
+
+.headerTitle {
+    display: flex;
+    align-items: baseline;
+}
+
+.headerTitle h1 {
+    margin: 20px 1% 20px 2%;
+}
+
+.headerTitle p {
+    margin-left: 2%;
+}

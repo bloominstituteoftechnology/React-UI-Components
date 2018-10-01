@@ -4,7 +4,7 @@ import HeaderTitle from './HeaderTitle'
 
 const HeaderContent = () => {
     return (
-        <div>
+        <div className = 'headerContent'>
             <HeaderTitle />
             <p>
                 Let's learn React by building simple interfaces with compenents. Don't try to
