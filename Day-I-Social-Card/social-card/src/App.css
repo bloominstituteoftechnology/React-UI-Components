@@ -5,5 +5,8 @@
 
 .app {
   width: 590px;
-  height: 514px;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px auto 0;
 }

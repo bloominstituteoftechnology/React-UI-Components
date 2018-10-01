@@ -5,7 +5,7 @@ import CardContent from './CardContent';
 
 const CardContainer = props => {
     return (
-        <div className="card-container">
+        <div className="card-container" onClick={props.onClick}>
             <CardBanner image="https://ibin.co/3wnC6SgIOJud.png"/>
             <CardContent title="Get started with React" content="React makes it painless to create interactive UIs. Design simple view for each state in your application." link="reactjs.org" />
         </div>

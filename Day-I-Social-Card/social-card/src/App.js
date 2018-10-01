@@ -7,9 +7,13 @@ const App = () => {
   return (
     <div className="app">
       <HeaderContainer />
-      <CardContainer />
+      <CardContainer onClick={openLink} />
     </div>
   );
 };
 
 export default App;
+
+function openLink() {
+  window.open("https://www.reactjs.org", "_blank");
+}

@@ -1,1 +1,38 @@
 /* All styles for your header Components live here */
+
+.header-container {
+    display: flex;
+    align-items: flex-start;
+}
+
+.header-content {
+    width: 100%;
+}
+
+.header-content p {
+    margin: 15px 0 15px 10px;
+}
+
+.thumbnail {
+    height: auto;
+    width: 50px;
+    display: inline-block;
+}
+
+.header-title {
+    display: inline-block;
+}
+
+.header-title .header-name {
+    display: inline-block;
+    font-size: 16px;
+    margin: 0 0 0 10px;
+}
+
+.header-title .handle-date {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0 0 0 10px;
+    color: darkgrey;
+}

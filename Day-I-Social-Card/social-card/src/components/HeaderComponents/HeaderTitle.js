@@ -4,7 +4,7 @@ import './Header.css';
 const HeaderTitle = props => {
     return (
         <div className="header-title">
-            <h1 className="name">{props.name}</h1>
+            <h1 className="header-name">{props.name}</h1>
             <h2 className="handle-date">{`@${props.handle} · ${formatDate(props.date)}`}</h2>
         </div>
     )
