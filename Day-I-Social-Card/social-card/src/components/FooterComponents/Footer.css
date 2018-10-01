@@ -1,0 +1,17 @@
+footer {
+    display: flex;
+    width: 590px;
+    margin: 0 auto;
+    padding-left: 7%;
+    padding-top: 25px;
+}
+
+footer img {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.img {
+    margin-left: 10%;
+}
