@@ -1,1 +1,36 @@
 /* All styles for your Card Components live here */
+.cardContainer {
+    max-width: 880px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.wrap {
+    width: 88%;
+    display: flex;
+    flex-direction: column;
+}
+
+.cardContainer img {
+    width: 100%;
+    height: auto;
+}
+
+.cardContainer a {
+    text-decoration: none;
+    font-size:15px;
+    color: black;
+}
+
+.cardContainer h2 {
+    padding-left: 2%;
+}
+
+.cardContainer p {
+    padding-left: 2%;
+}
+
+.cardContainer .siteAddress {
+    color: gray;
+}
+
