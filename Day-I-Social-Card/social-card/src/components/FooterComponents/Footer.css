@@ -18,3 +18,7 @@
 .footer-container i:hover {
   opacity: 1;
 }
+
+.footer-container i span {
+  margin-left: 5px;
+}

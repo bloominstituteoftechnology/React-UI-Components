@@ -22,6 +22,9 @@
   color: black;
 }
 .header-content a:first-of-type {
+  text-decoration: none;
+}
+.header-content a:first-of-type {
   font-weight: 700;
   font-size: 1.1rem;
   margin-right: 10px;

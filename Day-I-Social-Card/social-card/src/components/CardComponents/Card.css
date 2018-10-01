@@ -31,3 +31,7 @@
 .card-body a:hover {
   opacity: 1;
 }
+
+.card-body h1 {
+  font-size: 1.4rem;
+}

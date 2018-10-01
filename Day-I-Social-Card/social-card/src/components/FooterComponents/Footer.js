@@ -6,10 +6,10 @@ const FooterContainer = () => {
     <div className="footer-container">
       <i className="fa fa-comment-o" aria-hidden="true" />
       <i className="fa fa-retweet" aria-hidden="true">
-        6
+        <span>6</span>
       </i>
       <i className="fa fa-heart-o" aria-hidden="true">
-        4
+        <span>4</span>
       </i>
       <i className="fa fa-envelope-o" aria-hidden="true" />
     </div>
