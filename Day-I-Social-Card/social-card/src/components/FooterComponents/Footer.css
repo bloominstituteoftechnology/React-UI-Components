@@ -11,4 +11,12 @@
 .footerContainer i{
   margin: 4% 0 1% 10%;
   font-size: 20px;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+.footerContainer i:hover{
+  margin: 0;
+  margin: 4% 0.3% 0% 9%;
+  font-size: 24px;
 }
