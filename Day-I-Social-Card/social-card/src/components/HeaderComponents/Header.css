@@ -1,1 +1,43 @@
 /* All styles for your header Components live here */
+.header-container {
+    display: flex;
+    flex-direction: row;
+    width: 670px;
+    margin-top: 10px;
+}
+ .header-img {
+    display: flex;
+    align-self: flex-start;
+    width: 50px;
+    height: 50px;
+}
+ .header-text {
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    margin-left: 15px;
+}
+ .header-title {
+    display: flex;
+    flex-direction: row;
+}
+ .text {
+    font-weight: bold;
+    margin-right: 7px;
+}
+ .handle {
+    color: gray;
+    margin-right: 7px;
+}
+ .bullet {
+    color: gray;
+    margin-right: 7px;
+}
+ .timestamp {
+    color: gray;
+}
+ .header-content {
+    margin-top: 15px;
+    line-height: 22px;
+ }
