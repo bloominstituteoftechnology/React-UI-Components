@@ -1,4 +1,20 @@
-/* 
-  Write your styles/CSS for App.js here and import into the component that you need 
-  IF you'd like to attempt to use less you'll have to research how to do this with Create React App
-*/
+body {
+  font-size: 10px;
+  box-sizing: border-box;
+}
+
+.app {
+  display: flex;
+  font-size: 1.4em;
+  max-width: 530px;
+  font-family: 'Roboto', sans-serif;
+}
+
+a, a:any-link {
+  text-decoration: none;
+}
+
+.gray-note, .gray-note a:any-link {
+  color: gray;
+  font-size: .7rem;
+}

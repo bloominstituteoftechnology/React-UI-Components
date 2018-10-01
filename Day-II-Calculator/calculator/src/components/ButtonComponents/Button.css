@@ -1,0 +1,38 @@
+.operatorButtonContainer, .numButtonContainer {
+    height: 95px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.operatorButton, .numButton {
+    width: 33.33%;
+    border: 1px solid gray;
+
+}
+
+.operatorButton, .numButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.numButton h1 {
+    font-size: 3.2rem;
+}
+
+.display .operatorButton h1 {
+    font-size: 5rem;
+    font-weight: 100;
+    color: white;
+}
+
+.operatorButton {
+    background-color: #A0001E;
+}
+
+#clear {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}

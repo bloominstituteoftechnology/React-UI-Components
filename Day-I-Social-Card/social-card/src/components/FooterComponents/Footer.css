@@ -1,0 +1,20 @@
+.footer-container {
+    padding-top: 10px;
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+}
+
+.footer-container a:any-link {
+    font-size: 1.2rem;
+}
+
+.likes, .reposts {
+    position: relative;
+}
+
+.likes label, .reposts label {
+    font-size: .8rem;
+    position: absolute;
+    left: 1.4rem;
+}
