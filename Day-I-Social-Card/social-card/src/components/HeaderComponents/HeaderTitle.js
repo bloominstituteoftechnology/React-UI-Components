@@ -5,7 +5,7 @@ const HeaderTitle = props => {
   return (
     <h1 className="HeaderTitle">
       Lambda School{' '}
-      <span className="HeaderTitle__span">@LambdaSchool * 01 Oct</span>
+      <span className="HeaderTitle__span">@LambdaSchool · 01 Oct</span>
     </h1>
   );
 };

@@ -2,6 +2,7 @@
 .Header {
   display: flex;
   align-items: flex-start;
+  margin-bottom: 1.5rem;
 }
 
 .HeaderTitle {
