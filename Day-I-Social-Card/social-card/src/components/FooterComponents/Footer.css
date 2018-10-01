@@ -2,16 +2,19 @@
     display: flex;
     width: 800px;
     margin: 0 auto;
-    
+    margin-top: 20px;
 
 }
 
-.all-img{
 
+
+.all-img{
+    
     margin-left: 70px;
 }
 
 .img-size{
-
+    height: 30px;
+    width: 30px;
     margin-right: 40px;
 }

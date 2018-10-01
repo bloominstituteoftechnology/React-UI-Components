@@ -1,6 +1,6 @@
 import React from 'react';
 import './Card.css';
-import bannerImg from './react_dribbble.jpg'
+import bannerImg from './3wnC6SgIOJud.png'
 
 const CardBanner = () => {
     return (
