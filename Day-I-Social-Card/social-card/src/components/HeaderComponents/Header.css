@@ -1,1 +1,11 @@
 /* All styles for your header Components live here */
+
+.header {
+  width: 100%;
+  border: 3px solid orange;
+}
+
+.image-thumbnail {
+  border-radius: 50%;
+  height: 20%;
+}
