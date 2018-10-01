@@ -32,10 +32,12 @@
 .header-text .title a {
   font-size: 0.8rem;
   text-decoration: none;
+  color: #8F9DA9;
 }
 
 .header-text .title .date {
   font-size: 0.8rem;
+  color: #8F9DA9;
 }
 
 .header-text .header-content {
