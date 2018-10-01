@@ -10,6 +10,8 @@
 - Inside of `../../social-card` you'll then need to run `yarn start` to open up a React Development Server that can take your `.js` files as components and bundle them up to work in your new environment.
 - **You'll repeat this last two steps for the calculator project, but you'll need to make sure that you're inside of `../../calculator` directory to make this work.**
 
+Yarn has been installed
+
 ## Instructions
 
 - Over the next two days you'll be working on two different projects in this repo.
@@ -37,16 +39,16 @@
 
 #### Day 1 MVP requirements
 
-- Create a `<HeaderContainer />` container component that will hold your header components.
+- X Create a `<HeaderContainer />` container component that will hold your header components.
 
-  - Create an `<ImageThumbnail />` component using this image url https://ibin.co/3whrpKSBbZ81.png as it's img src.
-  - Create a `<HeaderTitle />` component that displays the Lambda School header text, @LambdaSchool handle and timestamp.
-  - Create a `<HeaderContent />` component that displays the copy provided in the headers content.
+  - X Create an `<ImageThumbnail />` component using this image url https://ibin.co/3whrpKSBbZ81.png as it's img src.
+  - X Create a `<HeaderTitle />` component that displays the Lambda School header text, @LambdaSchool handle and timestamp.
+  - X Create a `<HeaderContent />` component that displays the copy provided in the headers content.
 
-- Create a `<CardContainer/ >` container component that will hold your card components.
-  - Create a `<CardBanner />` component that will display this image as it's background: https://ibin.co/3wnC6SgIOJud.png
-  - Create a `<CardContent />` component that displays the card copy provided.
-  - The entire `<CardContainer />` should take a user to `https://www.reactjs.org` when clicked.
+- X Create a `<CardContainer/ >` container component that will hold your card components.
+  - X Create a `<CardBanner />` component that will display this image as it's background: https://ibin.co/3wnC6SgIOJud.png
+  - X Create a `<CardContent />` component that displays the card copy provided.
+  - X  The entire `<CardContainer />` should take a user to `https://www.reactjs.org` when clicked.
 
 #### Day 1 Stretch Problems
 

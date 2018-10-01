@@ -1,0 +1,55 @@
+
+/* button{
+    display: none; 
+}*/
+.calcContainer {
+    width: 455px;
+    height: 600px;
+  }
+
+.outputDisplay{
+    width: 450px;
+    height: 125px;
+    border: 1px solid #979797;
+    background: #222222;
+    color: #fff;
+    display: flex;
+    justify-content: flex-end;
+}
+h1 {
+    font-size: 75px;
+    font-weight: normal;
+    margin: 0;
+    padding-top: 25px;
+    padding-right: 12px;
+}
+buttonContainer {
+    width: 454px;
+    height: 92px;
+    border: 1px solid#979797;
+    display: flex;
+    justify-content: flex-start;
+}
+.numButton{
+    width:113px;
+    height:95px;
+   background: #fff;
+   color: black;
+   font-size: 50px;
+   font-weight: bolder;
+}
+
+.operator{
+    width:113px;
+    height:95px;
+    color: #fff;
+    background: #A0001E;
+    font-size: 50px;
+}
+.largeWhite{
+    width:339px;
+    height:95px;
+    color: #000;
+    background: #fff;
+    font-size: 50px;
+}
