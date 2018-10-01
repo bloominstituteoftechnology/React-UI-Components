@@ -2,7 +2,8 @@
 .card-container{
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 90%;
+    align-self: flex-end;
 
 }
 
@@ -12,4 +13,15 @@
 }
 
 
+.card-container a{
+    text-decoration: inherit;
+    color: inherit;
+    cursor: pointer;
+}
+
+.card-container a:visited{
+    text-decoration: inherit;
+    color: inherit;
+    cursor: pointer;
+}
 

@@ -3,12 +3,21 @@
   you need IF you'd like to attempt to use less you'll 
   have to research how to do this with Create React App
 */
+.container {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  max-width: 581px;
+  margin: 0 auto;
+}
 .mini-txt {
   font-size: 12px;
   font-weight: 100;
   color: #808080;
   
 }
+
+
 
 
 
