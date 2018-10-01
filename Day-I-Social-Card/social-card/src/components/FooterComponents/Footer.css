@@ -1,0 +1,23 @@
+.footer {
+    border: 2px solid red;
+    height: 80px;
+    padding-left: 12%;
+    display: flex;
+}
+
+.fa {
+    
+    width: 5%;
+}
+
+.meh {
+    width: 5%;
+}
+
+.poo {
+    width: 5%;
+}
+
+.wheelchair {
+    width: 5%;
+}

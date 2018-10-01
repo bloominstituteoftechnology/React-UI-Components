@@ -1,1 +1,40 @@
 /* All styles for your header Components live here */
+.header {
+    margin-left: 5%;
+    display: flex;
+}
+
+.thumbnail {
+    padding: 2%;
+    width: 93%;
+    /* margin-top: 15px; */
+}
+
+.title {
+    height: 18px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.title h1 {
+    font-size: 18px;
+}
+
+.title p {
+    color: grey;
+    margin: 0 0.5% 0 1%;
+    
+}
+
+.header-paragraph {
+    height: 75px;
+}
+
+.content {
+    margin: 3px 0.5% 10px 0;
+    padding-right: 0.35%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}

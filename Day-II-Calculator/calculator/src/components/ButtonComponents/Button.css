@@ -1,0 +1,78 @@
+.main-numbers {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    width: 75%;
+}
+
+.number {
+    border: 1px solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 32.5%;
+    height: 85px;
+    margin: 0;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.number:hover {
+    cursor: pointer;
+}
+
+.clear-numbers {
+    border: 1px solid grey;
+    width: 74%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85px;
+    font-size: 40px;
+}
+
+.clear-numbers:hover {
+    cursor: pointer;
+}
+
+.zero {
+    border: 1px solid grey;
+    width: 74%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85px;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.zero:hover {
+    cursor: pointer;
+}
+
+.action-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 25%;
+    margin: 0;
+    float: right;
+}
+
+.action {
+    color: white;
+    background-color: firebrick;
+    border: 1px solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 85px;
+    margin: 0;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.action:hover {
+    cursor: pointer;
+}

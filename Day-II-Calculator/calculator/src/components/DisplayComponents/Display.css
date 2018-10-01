@@ -1,0 +1,10 @@
+.display {
+    background-color: rgb(48, 46, 46);
+    height: 102px;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 2%;
+    font-size: 60px;
+}
