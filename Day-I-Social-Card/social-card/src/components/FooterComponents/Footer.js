@@ -1,14 +1,23 @@
 import React from 'react';
 import './Footer.css';
 
-const FooterContainer = () => {
+
+
+
+
+const FooterContainer = (props) => {
+  const currentIcons = ["far fa-comment", "fas fa-sync-alt", "fas fa-heart", "fas fa-envelope"];
+
+  const iconList = currentIcons.map(items => {
+    return (
+      <i className={items}></i>
+    )
+  })
+
   return (
     <div className="footerContainer">
-      <i class="far fa-comment"></i>
-      <i class="fas fa-sync-alt"></i>
-      <i class="fas fa-heart"></i>
-      <i class="fas fa-envelope"></i>
-    </div>
+      {iconList}
+    </div >
   )
 }
 
