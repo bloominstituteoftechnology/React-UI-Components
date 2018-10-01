@@ -3,7 +3,7 @@
 .card-container{
   display: flex;
   flex-direction: column;
-  padding: 0 15px 0 85px;
+  margin: 0 15px 0 85px;
 }
 
 a {

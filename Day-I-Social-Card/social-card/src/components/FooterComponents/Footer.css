@@ -1,0 +1,13 @@
+.footer-container {
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+  margin: 10px 15px 0 85px;
+  font-size: 16px;
+  color: gray;
+
+}
+
+.fa-comment {
+  transform: rotateY(180deg);
+}
