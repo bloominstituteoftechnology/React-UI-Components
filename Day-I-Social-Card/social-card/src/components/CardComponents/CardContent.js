@@ -14,7 +14,7 @@ const CardInfo = props => {
 };
 
 const CardUrl = props => {
-  const lightGray = '#ACB5BF';
+  const lightGray = '#657887';
 
   return (
     <p style={{color: lightGray}}>reactjs.org</p>
