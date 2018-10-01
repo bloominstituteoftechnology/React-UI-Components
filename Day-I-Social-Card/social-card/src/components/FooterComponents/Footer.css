@@ -1,0 +1,19 @@
+.footer {
+    margin: 10px 0 0 70px;
+}
+
+.speech-bubble {
+    transform: scaleX(-1);
+}
+
+.arrow-circle, .heart, .mail {
+    margin-left: 60px;
+}
+
+.speech-bubble:hover, .arrow-circle:hover, .heart:hover, .mail:hover {
+    cursor: pointer;
+}
+
+span {
+    font-size: 12px;
+}

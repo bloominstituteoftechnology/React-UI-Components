@@ -7,16 +7,20 @@
 
 .header-content {
     width: 100%;
+    padding-right: 15px;
 }
 
 .header-content p {
-    margin: 15px 0 15px 10px;
+    margin: 10px 0 15px 10px;
+    font-size: 14px;
+    line-height: 16px;
 }
 
 .thumbnail {
     height: auto;
     width: 50px;
     display: inline-block;
+    margin-right: 10px;
 }
 
 .header-title {
@@ -25,13 +29,13 @@
 
 .header-title .header-name {
     display: inline-block;
-    font-size: 16px;
+    font-size: 14px;
     margin: 0 0 0 10px;
 }
 
 .header-title .handle-date {
     display: inline-block;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: normal;
     margin: 0 0 0 10px;
     color: darkgrey;
