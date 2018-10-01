@@ -1,1 +1,29 @@
 /* All styles for your header Components live here */
+
+.header-container {
+  display: flex;
+}
+a {
+  text-decoration: none;
+}
+
+.header-container .header-title {
+  margin: 6px auto;
+}
+
+.header-container .header-title span {
+  padding-left: 8px;
+  color: grey;
+}
+
+.header-container .header-content {
+  padding-bottom: 2%;
+}
+
+.header-container img {
+  object-fit: contain;
+  max-width: 50px;
+  border-radius: 25px;
+  margin-right: 20px;
+  margin-top: -40px;
+}
