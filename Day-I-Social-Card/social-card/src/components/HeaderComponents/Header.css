@@ -1,1 +1,32 @@
 /* All styles for your header Components live here */
+.header{
+    width:500px;
+}
+.header-title {
+    display: flex;
+    align-items: center;
+    width:500px;
+    margin:0 auto;
+    margin-bottom:-15px;
+    margin-left:70px;
+}
+.header-title h1:nth-child(1){
+    font-size:1rem;
+}
+.header-title h1:nth-child(2){
+    font-size:0.8rem;
+    font-weight: 500;
+    color:#95A2AD;
+    padding-left:10px;
+}
+.lambda-logo img{
+    width:50px;
+    margin-bottom:-65px;
+    
+}
+.header-content{
+    width:500px;
+    margin:0 auto;
+    font-size:0.9rem;
+    margin-left:70px;
+}
