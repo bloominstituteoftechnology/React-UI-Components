@@ -1,1 +1,20 @@
 /* All styles for your Card Components live here */
+
+.CardContainer {
+  margin-left: 68px;
+}
+
+
+.CardBanner img{
+  width: 504px;
+  height: 252px;
+  border-radius: 5px 5px 0 0;
+}
+
+.CardContent {
+  margin: 11px 0 0 15px;
+}
+
+.CardContent h3 {
+  letter-spacing: 0.02rem;
+}

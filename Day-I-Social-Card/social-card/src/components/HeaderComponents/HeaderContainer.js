@@ -16,7 +16,7 @@ const HeaderContainer = props => {
         displayName="Lambda School" 
         username="LambdaSchool" 
         timestamp="26 jan" 
-        body="This is test content LLLL"/>
+        body="Lets build React by building simple interfaces with components. Don't try to overthink it, just keep it simple and have fun. Once you feel comfortable using componetns you are well on your way to mastering React!"/>
     </div>
   )
 }

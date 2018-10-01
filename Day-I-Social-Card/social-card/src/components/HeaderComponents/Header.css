@@ -29,3 +29,8 @@
   border-radius: 50%;
 }
 
+.HeaderBody p {
+  max-width: 512px;
+  line-height: 1.2rem;
+  margin-bottom: 10px;
+}

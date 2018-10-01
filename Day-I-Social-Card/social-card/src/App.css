@@ -6,3 +6,7 @@
 * {
   font-family: Arial;
 }
+
+.App {
+  max-width: 590px;
+}
