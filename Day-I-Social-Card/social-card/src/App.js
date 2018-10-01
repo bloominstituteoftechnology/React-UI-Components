@@ -7,7 +7,7 @@ const App = () => {
   return (
     <div className="App">
       <HeaderContainer />
-      <CardContainer />
+      <CardContainer URL="http://www.reactjs.org" />
     </div>
   )
 };

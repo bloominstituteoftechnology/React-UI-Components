@@ -1,5 +1,9 @@
 /* All styles for your Card Components live here */
 
+a {
+  text-decoration: none;
+}
+
 .CardContainer {
   margin-left: 68px;
 }
@@ -12,9 +16,23 @@
 }
 
 .CardContent {
-  margin: 11px 0 0 15px;
+  padding: 11px 0 10px 15px;
+  border-right: 1px solid beige;
+  border-bottom: 1px solid beige;
+  border-left: 1px solid beige;
+  border-radius: 5px;
+  width: 488px;
+  color: black;
 }
 
 .CardContent h3 {
   letter-spacing: 0.02rem;
+}
+
+.CardContent .bannerContent {
+  margin-top: 8px;
+}
+
+.CardContent .displayURL {
+  margin-top: 8px;
 }
