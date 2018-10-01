@@ -1,7 +1,7 @@
 /* All styles for your header Components live here */
 .container-header {
     height: 50px;
-    padding: 15px;
+    padding: 15px 5px;
     display: flex;
 }
 
@@ -17,6 +17,8 @@
 .time-stamp {
     font-weight: 250;
     padding: 5px;
+    color: #d1d2d3;
+    font-size: 12px;
 }
 
 .header-wrapper {

@@ -34,12 +34,13 @@
 .banner-content-title {
     font-size: 14px;
     font-weight: 600;
-    padding: 0 0.3em;
+    padding: 0 0.5em;
+    margin-bottom: 0.2em;
 }
 
 .banner-content {
     margin: 0;
-    padding: 0.3em;
+    padding: 0.5em;
     font-size: 13px;
     font-weight: 350;
     width: 93%;

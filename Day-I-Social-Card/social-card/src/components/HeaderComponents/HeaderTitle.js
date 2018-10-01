@@ -7,7 +7,7 @@ const HeaderTitle = () => {
         <div className="header-wrapper">
             <div className="header-title">
                 Lambda School
-                <span className="time-stamp">Oct 1st</span>
+                <span className="time-stamp">@LambdaSchool 1 Oct</span>
                 <HeaderContent />
             </div>
         </div>
