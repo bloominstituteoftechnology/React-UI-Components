@@ -2,8 +2,8 @@ import React from 'react';
 import './Footer.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 const CardFooter = (props) => {
-    let likes = null;
-    let repost = null;
+    let likes = 0;
+    let repost = 0;
     return (
         <div className='cardFooter'>
             <FontAwesomeIcon icon="comment" className='icons'/>

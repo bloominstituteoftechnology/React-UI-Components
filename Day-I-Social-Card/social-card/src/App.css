@@ -75,7 +75,8 @@ html {
 }
 
 .container {
-  /* border: 1px solid black; */
+	border: 1px solid black;
+	border-radius: 5px;
   max-width: 590px;
 	margin: 0 auto;
 	padding: 0 10px;
