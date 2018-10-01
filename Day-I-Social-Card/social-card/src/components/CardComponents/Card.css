@@ -6,6 +6,10 @@
     border-radius: 8px;
 }
 
+.card-container:hover {
+    cursor: pointer;
+}
+
 .banner-img {
     width: 100%;
     border-top-left-radius: 8px;
