@@ -1,7 +1,35 @@
 /* All styles for your header Components live here */
 .logo{
-    border-radius: 50%;
-}
-.Header{
     
+    width:30%;
+    height: auto;
+}
+.header-container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    border: blue 1px solid;
+    justify-content: flex-start;
+    align-items: baseline;
+}
+.thumbnail-container{
+    width: 20%;
+    height:auto;
+    border: purple solid 1px;
+    border-radius: 50%;
+    
+}
+.header-title{
+    display:flex;
+    width: 80%;
+    border: yellow solid 4px;
+}
+.header-title-container{
+    width: 100%;
+    border: red solid 1px;
+    display: flex;
+}
+.header-content{
+    width: 70%;
+    border: red solid 1px;
 }

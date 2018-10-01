@@ -3,3 +3,11 @@ body {
   padding: 0.4rem;
   font-family: sans-serif;
 }
+.container{
+  max-width:590px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  border: red solid 1px;
+}
