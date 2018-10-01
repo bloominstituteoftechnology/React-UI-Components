@@ -7,8 +7,10 @@ import CardContent from '../CardComponents/CardContent';
 const CardContainer = props => {
     return(
         <div onClick={openPost} className='card-container'>
+            <div className='card-content-container'>
             <CardBanner />
             <CardContent />
+            </div>
         </div>
     )
 }

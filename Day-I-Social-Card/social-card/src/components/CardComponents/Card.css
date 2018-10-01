@@ -9,8 +9,16 @@
     background-size: cover;
     background-position: center;
     min-height: 250px;
-    max-width: 507px;
+    max-width: 100%;
 }
+
+.card-content-container{
+    border-bottom:1px solid black;
+    border-left:1px solid black;
+    border-right:1px solid black;
+    border-radius: 3px;
+}
+
 .card-content-title{
     margin-bottom:10px;
     margin-top: 14px;
@@ -28,4 +36,5 @@
     margin-top:6px;
     padding-left:24px;
     font-size:1.6rem;
+    padding-bottom:7px;
 }
