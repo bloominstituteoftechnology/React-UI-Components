@@ -1,6 +1,7 @@
 import React from 'react';
 import './Header.css';
 import HeaderTitle from './HeaderTitle';
+import moment from 'moment';
 
 const HeaderContent = props => {
     return (
