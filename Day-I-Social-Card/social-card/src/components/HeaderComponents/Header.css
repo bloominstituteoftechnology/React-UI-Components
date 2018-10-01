@@ -1,1 +1,33 @@
 /* All styles for your header Components live here */
+.headerContainer{
+    display: flex;
+  }
+  
+  .headerContainer p{
+      font-size: 1.4rem
+  }
+  
+  .headerContainer img{
+    width: 12%;
+    height: 0%;
+  
+  }
+  
+  .headerContainer header{
+    display: flex;
+    align-items: center;
+  }
+  
+  .headerContent{
+      margin-left: 10px;
+  }
+
+  header h2{
+      font-size: 1.6rem;
+  }
+
+  header h4{
+      margin-left: 10px;
+      color: #BAC3CB;
+      font-size: 1.3rem;
+  }

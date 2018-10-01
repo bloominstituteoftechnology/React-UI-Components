@@ -1,1 +1,17 @@
 /* All styles for your Card Components live here */
+.cardInfo{
+    border: 1px solid darkblue;
+    margin: 0px 3% 0 14%;
+}
+
+.cardInfo img{
+    width: 100%;
+}
+
+.cardInfo h3{
+    font-size: 1.6rem;
+}
+
+.cardInfo p{
+    font-size: 1.4rem;
+}

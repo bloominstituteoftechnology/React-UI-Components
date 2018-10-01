@@ -8,7 +8,7 @@ import CardContent from './CardContent';
 
 const CardContainer = props =>{
     return(
-        <div>
+        <div className= 'cardInfo'>
             <CardBanner />
             <CardContent />
         </div>
