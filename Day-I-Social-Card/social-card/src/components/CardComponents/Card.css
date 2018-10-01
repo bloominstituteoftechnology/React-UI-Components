@@ -1,1 +1,15 @@
 /* All styles for your Card Components live here */
+
+
+.cardContainer {
+    width : 400px;
+    margin-left : 50px;
+}
+
+.cardContainer img{
+    width : 100%;
+}
+
+.cardContainer .source{
+    color : gray;
+}
