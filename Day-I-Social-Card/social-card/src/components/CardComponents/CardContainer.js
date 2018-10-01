@@ -5,10 +5,10 @@ import CardContent from "./CardContent";
 
 const CardContainer = () => {
   return (
-    <div class="card-container">
+    <a href="https://www.reactjs.org" target="_blank" class="card-container">
       <CardBanner />
       <CardContent />
-    </div>
+    </a>
   );
 };
 

@@ -3,3 +3,12 @@ body {
   padding: 0.4rem;
   font-family: sans-serif;
 }
+
+h1 {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 12px;
+}
