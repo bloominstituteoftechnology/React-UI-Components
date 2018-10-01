@@ -2,10 +2,37 @@
 
 .header {
   width: 100%;
-  border: 3px solid orange;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
 }
 
 .image-thumbnail {
   border-radius: 50%;
-  height: 20%;
+  height: 50%;
+  margin: 10px 5px;
+}
+
+.header-title {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+
+.header-username {
+  margin-right: 5px;
+  font-weight: bold;
+}
+
+.header-userhandle {
+  color: #888;
+  margin-right: 5px;
+}
+
+.fa-calendar {
+  font-size:  10px;
+}
+
+.posted-date {
+  color: #888;
 }
