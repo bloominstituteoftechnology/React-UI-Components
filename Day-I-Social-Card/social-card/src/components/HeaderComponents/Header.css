@@ -1,1 +1,44 @@
 /* All styles for your header Components live here */
+
+.header-container {
+    display: flex;
+    flex-direction: row;
+    width: 600px;
+    padding: 20px;
+}
+
+.thumbnail {
+    height: 80px;
+}
+
+.header-text {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+}
+
+.title-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 8px;
+}
+
+.acct-name {
+    font-size: 1.6rem;
+    padding: 0 5px;
+}
+
+.acct-handle {
+    color: grey;
+    padding: 5px 5px;
+}
+
+.timestamp {
+    color: grey;
+    padding: 5px 5px;
+}
+
+/* .header-content {
+    
+} */
