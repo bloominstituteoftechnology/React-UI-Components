@@ -6,4 +6,10 @@
 .app-container {
   width: 700px;
   height: auto;
+  margin: 50px auto;
+}
+
+.card-container {
+  text-decoration: none;
+  color: black;
 }

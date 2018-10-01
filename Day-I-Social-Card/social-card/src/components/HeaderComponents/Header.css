@@ -5,6 +5,11 @@
     width: 100%;
 }
 
+.header-img {
+    height: 80px;
+    width: auto;
+    margin-top: 15px;
+}
 
 .header-content {
     padding-left: 15px;
@@ -27,7 +32,8 @@
 
 .header-p {
     margin: 0px;
-    margin-left: 5px;
+    margin-left: 15px;
+    margin-bottom: 15px;
 }
 
 .gray-elements {
