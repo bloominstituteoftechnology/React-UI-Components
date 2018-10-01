@@ -4,9 +4,9 @@ import Card from './Card';
 
 const CardContainer = props => {
   return (
-    <div className="CardContainer">
+    <a href="https://www.reactjs.org" target="_blank" className="CardContainer">
       <Card />
-    </div>
+    </a>
   );
 };
 

@@ -1,6 +1,9 @@
 /* All styles for your Card Components live here */
 .CardContainer {
   margin-left: 5.5rem;
+  display: block;
+  color: #000;
+  text-decoration: none;
 }
 
 .Card {
