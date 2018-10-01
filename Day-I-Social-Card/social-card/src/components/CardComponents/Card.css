@@ -1,5 +1,8 @@
 /* All styles for your Card Components live here */
 
+.card-container {
+    cursor: pointer;
+}
 
 .banner {
     width: 600px;
@@ -9,7 +12,7 @@
 
 .card-content {
     width: 585px;
-    margin-left: 110px;
+    margin-left: 130px;
     display:flex;
     flex-wrap: wrap;
 
