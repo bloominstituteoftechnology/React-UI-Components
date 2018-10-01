@@ -3,6 +3,7 @@ import './App.css';
 import './components/HeaderComponents/Header.css';
 import HeaderContainer from './components/HeaderComponents/HeaderContainer';
 import CardContainer from './components/CardComponents/CardContainer'
+import Footer from './components/FooterComponents/Footer';
 
 
 // const App = () => {
@@ -29,6 +30,7 @@ const App = () => {
     <div className='bodyCont'>
     <HeaderContainer />
     <CardContainer/>
+    <Footer/>
     
     
     </div>
