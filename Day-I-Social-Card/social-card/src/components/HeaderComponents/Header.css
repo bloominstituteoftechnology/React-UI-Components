@@ -1,1 +1,37 @@
 /* All styles for your header Components live here */
+.header {
+    /* border: 1px solid black; */
+    display: flex;
+}
+
+.header .logo img{
+    max-width: 50px;
+    margin-top: 12px;
+    /* margin-left: 7px; */
+    padding-right: 7px;
+}
+
+.headerInfo h1 {
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.headerInfo .headerTitle {
+    /* border: 1px solid green; */
+    display: flex;
+    align-items: flex-end;
+    margin: 12px 0;
+}
+
+.headerInfo .headerTitle p {
+    font-size: 1.2rem;
+    margin-left: 10px;
+    margin-bottom: 0px;
+    color: gray;
+}
+
+.headerInfo p {
+    font-size: 1.4rem;
+    margin-bottom: 12px;
+    line-height: 16px;
+}

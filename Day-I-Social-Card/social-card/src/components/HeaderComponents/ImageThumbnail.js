@@ -3,7 +3,9 @@ import './Header.css';
 
 const ImageLogo = (props) => {
     return (
-        <img src={'https://ibin.co/3whrpKSBbZ81.png'} alt='logo'/>
+        <div className='logo'>
+            <img src={'https://ibin.co/3whrpKSBbZ81.png'} alt='logo'/>
+        </div>
     );
 }
 
