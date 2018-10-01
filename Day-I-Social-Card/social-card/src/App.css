@@ -2,3 +2,19 @@
   Write your styles/CSS for App.js here and import into the component that you need 
   IF you'd like to attempt to use less you'll have to research how to do this with Create React App
 */
+
+* {
+  box-sizing: border-box;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.social-card-container {
+  width: 100%;
+  margin: 2%;
+  border: 1px solid black;
+}
+
+a {
+  text-decoration: none;
+}
