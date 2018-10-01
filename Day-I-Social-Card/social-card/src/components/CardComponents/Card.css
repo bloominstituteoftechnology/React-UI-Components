@@ -1,1 +1,14 @@
 /* All styles for your Card Components live here */
+.card-container {
+  width: 504px;
+  margin-top: 10px;
+  margin-left: 63px;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.card-container img {
+  width: 170%;
+  height: 100%;
+  border-radius: 5px 5px 0 0;
+}
