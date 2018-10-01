@@ -1,1 +1,8 @@
 /* All styles for your Card Components live here */
+.cardContainer{
+    width: 100%;
+    max-width: 560px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 0 50px 0 140px;
+}
