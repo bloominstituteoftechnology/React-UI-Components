@@ -4,7 +4,7 @@ const HeaderTitle = () => {
   return (
     <div className="header-title">
       <p>
-        <strong>Lambda School </strong>
+        <strong className="bold-title">Lambda School </strong>
         @LambdaSchool 26 jan
       </p>
     </div>

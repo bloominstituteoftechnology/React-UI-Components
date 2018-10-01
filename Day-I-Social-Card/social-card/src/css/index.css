@@ -10,7 +10,7 @@
   margin-top: 10px;
   margin-bottom: 10px;
 }
-strong {
+.bold-title {
   font-weight: bold;
 }
 .banner-image {
@@ -18,21 +18,25 @@ strong {
   height: auto;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
+  margin-top: 10px;
 }
 .card-container {
   display: flex;
   flex-direction: column;
 }
-h1 {
+.h1 {
   font-size: 1.2 rem;
   font-weight: bold;
-  margin-top: -10px;
 }
 .card-content-container {
-  padding-left: 20px;
+  padding-left: 15px;
   border: 1px solid gray;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
+}
+.gray-text {
+  color: gray;
+  margin-top: 10px;
 }
 * {
   box-sizing: border-box;
@@ -46,6 +50,7 @@ html {
   margin: 0 auto;
   max-width: 590px;
   margin-top: 13px;
+  padding-right: 10px;
 }
 .main-body {
   display: flex;
