@@ -1,1 +1,31 @@
 /* All styles for your header Components live here */
+.header-container {
+    width: 590px;
+}
+
+.twitter-tb {
+    width: 5%;
+    height: auto;
+}
+
+.header-title {
+    display: flex;
+    margin-left: 10%;
+    margin-top: -50px;
+}
+
+.twitter-name {
+    font-weight: bold;
+    margin-right: 1%;
+}
+
+.twitter-handle {
+    color: grey;
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+.header-content {
+    margin-left: 10%;
+    margin-top: -5px;
+}
