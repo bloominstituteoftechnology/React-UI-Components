@@ -1,1 +1,24 @@
 /* All styles for your header Components live here */
+.headerContainer {
+  border: 2px solid grey;
+  display: flex;
+  align-items: center;
+}
+
+.imageThumbnail {
+  /* border: 10px solid black; */
+  height: 60px;
+  width: 60px;
+  border-radius: 100px;
+}
+
+.displayName {
+  font-weight: bold;
+  margin-right: 1rem;
+}
+
+.username {
+  color: grey;
+  font-size: .8rem;
+}
+

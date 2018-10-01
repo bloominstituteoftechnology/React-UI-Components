@@ -2,13 +2,11 @@ import React from 'react';
 import './Header.css';
 
 const HeaderTitle = props => {
-    return (
-        <div>
-            <h1>Lambda School</h1>
-            <h2>@lambdaschool</h2>
-            <h2>Oct 1</h2>
-        </div>
-    );
+  return (
+      <div>
+        <span className='displayName'>Lambda School</span><span className='username'>@LambdaSchool</span>
+      </div>
+  );
 }
 
 export default HeaderTitle;
