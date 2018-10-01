@@ -5,7 +5,7 @@ import ImageThumbnail from './ImageThumbnail';
 const HeaderContent = props => {
     return (
       <div>
-        <ImageThumbnail />
+        <p>Ok bruh this is a retweet please sign the guestbook thank you</p>
       </div>
     );
 }
