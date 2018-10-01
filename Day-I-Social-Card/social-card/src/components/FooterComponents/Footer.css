@@ -1,0 +1,8 @@
+.footer {
+  height: 50px;
+  border: 1px solid orange;
+}
+
+.far, .fas {
+  font-size: 2rem;
+}
