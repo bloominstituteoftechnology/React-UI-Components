@@ -45,10 +45,12 @@ const numbers = [
 
 const actions = [
   {
-    text: 'Clear'
+    text: 'Clear',
+    buttonStyle: 'action'
   },
   {
-    text: '0'
+    text: '0',
+    buttonStyle: 'action',
   },
 ]
 
