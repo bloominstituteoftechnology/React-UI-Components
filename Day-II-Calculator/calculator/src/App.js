@@ -3,111 +3,95 @@ import './App.css';
 import NumberButton from './components/ButtonComponents/NumberButton';
 import ActionButton from './components/ButtonComponents/ActionButton';
 import CalculatorDisplay from './components/DisplayComponents/CalculatorDisplay';
-
-const calculator = [
-  {
-    value: 'clear',
-    style: 'ActionButton text',
-    type: 'action'
-  },
-  {
-    value: '÷',
-    style: 'NumberButton red',
-    type: 'number'
-  },
-  {
-    value: 7,
-    style: 'NumberButton',
-    type: 'number'
-  },
-  {
-    value: 8,
-    style: 'NumberButton',
-    type: 'number'
-  },
-  {
-    value: 9,
-    style: 'NumberButton',
-    type: 'number'
-  },
-  {
-    value: 'X',
-    style: 'NumberButton red',
-    type: 'number'
-  },
-  {
-    value: 4,
-    style: 'NumberButton',
-    type: 'number'
-  },
-  {
-    value: 5,
-    style: 'NumberButton',
-    type: 'number'
-  },
-  {
-    value: 6,
-    style: 'NumberButton',
-    type: 'number'
-  },
-  {
-    value: '–',
-    style: 'NumberButton red',
-    type: 'number'
-  },
-  {
-    value: 1,
-    style: 'NumberButton',
-    type: 'number'
-  },
-  {
-    value: 2,
-    style: 'NumberButton',
-    type: 'number'
-  },
-  {
-    value: 3,
-    style: 'NumberButton',
-    type: 'number'
-  },
-  {
-    value: '+',
-    style: 'NumberButton red',
-    type: 'number'
-  },
-  {
-    value: 0,
-    style: 'ActionButton text',
-    type: 'action'
-  },
-  {
-    value: '=',
-    style: 'NumberButton red',
-    type: 'number'
-  }
-];
+import calculator from './calculatorData';
 
 class App extends React.Component {
   constructor() {
     super();
     this.state = {
-      total: 0
+      total: 0,
+      displayValue: '0',
+      operatorSelected: false
     };
   }
+
+  add(num) {
+    this.setState(prevState => {
+      return {
+        total: prevState.total + num,
+        displayValue: this.state.total
+      };
+    });
+  }
+
+  handleNumberClick = e => {
+    if (!e.target.classList.contains('red')) {
+      let currentNumber = e.target.textContent;
+      if (this.state.operatorSelected) {
+        this.setState({
+          displayValue: currentNumber,
+          operatorSelected: false
+        });
+      } else {
+        this.setState(prevState => {
+          return {
+            displayValue:
+              prevState.displayValue === '0'
+                ? currentNumber
+                : prevState.displayValue + currentNumber
+          };
+        });
+        console.log(this.state.displayValue);
+      }
+    } else if (e.target.textContent === '=') {
+      this.add(parseInt(this.state.displayValue));
+    } else if (e.target.textContent === '+') {
+      this.setState(prevState => {
+        return {
+          total: (prevState.total += parseInt(this.state.displayValue)),
+          displayValue: this.state.total,
+          operatorSelected: true
+        };
+      });
+      console.log(this.state.total);
+    }
+  };
+
+  handleActionClick = e => {
+    if (e.target.classList.contains('text')) {
+      this.setState({ displayValue: '0' });
+    }
+  };
+
   render() {
     return (
       <div className="App">
-        <CalculatorDisplay style="CalculatorDisplay" value={this.state.total} />
+        <CalculatorDisplay
+          displayStyle="CalculatorDisplay"
+          value={this.state.displayValue}
+        />
 
         {calculator.map(button => {
           if (button.type === 'action') {
             return (
-              <ActionButton buttonStyle={button.style} value={button.value} />
+              <ActionButton
+                handleActionClick={this.handleActionClick}
+                buttonStyle={button.style}
+                value={button.value}
+                key={button.value}
+              />
             );
           } else if (button.type === 'number') {
             return (
-              <NumberButton buttonStyle={button.style} value={button.value} />
+              <NumberButton
+                handleNumberClick={this.handleNumberClick}
+                buttonStyle={button.style}
+                value={button.value}
+                key={button.value}
+              />
             );
+          } else {
+            return null;
           }
         })}
       </div>
