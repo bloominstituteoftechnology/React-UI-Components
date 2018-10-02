@@ -1,0 +1,41 @@
+.NumberButton,
+.ActionButton {
+  height: 95px;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 4.2rem;
+  cursor: pointer;
+  transition: all 300ms;
+}
+
+/* .NumberButton:hover,
+.ActionButton:hover {
+  transform: scale(1.1);
+  border: transparent;
+} */
+
+.NumberButton {
+  width: 25%;
+}
+
+.ActionButton {
+  width: 75%;
+}
+
+.red {
+  background: rgb(160, 0, 30);
+  color: white;
+  font-weight: normal;
+}
+
+/* .red:hover {
+  background: rgba(160, 0, 30, 0.8);
+} */
+
+.text {
+  font-weight: 300;
+}

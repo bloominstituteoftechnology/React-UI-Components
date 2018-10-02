@@ -1,0 +1,12 @@
+.CalculatorDisplay {
+  background: #222;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 130px;
+  width: 100%;
+  font-size: 7.2rem;
+  font-weight: normal;
+  padding: 0 1.5rem;
+}
