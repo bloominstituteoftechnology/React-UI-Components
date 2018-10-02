@@ -1,14 +1,28 @@
 /* All styles for your header Components live here */
 .header {
-    
-}
-.header .logo {
-    width: 10%;
+    display: flex;
 }
 
+
 .header .title {
-    border: 1px solid pink;
     display: flex;
     flex-wrap: wrap;
-    width:60%;
+    width:80%;
+    margin-left: 50px;
+    align-items: baseline;
+}
+.header .title h2 {
+    margin-right: 20px;
+    font-size: 1.4rem;
+}
+
+.header .title h3 {
+    color: darkgray;
+    font-size: 1rem;
+}
+
+.header .logo {
+    margin: 20px;
+    width: 150px;
+    height: auto;
 }
