@@ -1,0 +1,28 @@
+.num-square {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 112.5px;
+    height: 94.4px;
+    border: 1px solid black;
+    font-size: 45px;
+}
+
+.action-square{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc(456px - 114px);
+    height: 94.4px;
+    border: 1px solid black;
+    font-size: 45px;
+}
+
+h2 {
+    margin: 0px;
+}
+
+.symbol-color{
+    background-color: #880022;
+    color: white;
+}
