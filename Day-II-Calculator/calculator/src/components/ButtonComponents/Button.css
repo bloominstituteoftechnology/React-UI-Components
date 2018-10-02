@@ -9,6 +9,10 @@
   padding: 7%;
 }
 
+.action-button:hover {
+  background: #aaa;
+}
+
 .number-button {
   background: #fff;
   color: #000;
@@ -18,7 +22,19 @@
   align-items: center;
 }
 
+.number-button:hover {
+  background: #aaa;
+}
+
 .number-button--operator {
   background: darkred;
   color: #fff;
+  font-size: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.number-button--operator:hover {
+  background: red;
 }
