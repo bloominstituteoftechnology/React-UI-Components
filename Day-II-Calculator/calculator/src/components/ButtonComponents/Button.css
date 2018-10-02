@@ -1,0 +1,44 @@
+
+.number-keys {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 75%;
+    height: 472px;
+}
+.number {
+    border-top: 2px solid gray;
+    border-right: 2px solid gray;
+    height: 95px;
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+}
+
+.number:nth-child(11) {
+    width: 100%;
+}
+
+.number:nth-child(1) {
+    width: 100%;
+}
+
+.action-keypad {
+    width: 25%;
+    height: 100%;
+}
+
+.action {
+    width: 100%;
+    height: 95px;
+    background-color: maroon;
+    border: 1px solid gray;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+}

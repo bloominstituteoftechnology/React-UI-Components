@@ -1,1 +1,38 @@
 /* All styles for your header Components live here */
+
+.header-container {
+    display: flex;
+    max-width: 880px;
+} 
+.img {
+    height: 50px;
+    width: 10%;
+}
+
+.header-title {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    font-size: 1rem;
+    padding: 2% 0;
+}
+
+.head-text {
+    color: grey;
+    opacity: .9;
+    margin-left: 1%;
+    font-size: .9rem;
+    width: 25%;
+}
+
+
+.header-content {
+    width: 90%;
+    height: 100px;
+    font-size: 1rem;
+    padding-left: 1%;
+}
+
+.content-text {
+    font-size: .8rem;
+}
