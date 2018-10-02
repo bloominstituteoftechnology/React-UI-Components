@@ -1,1 +1,33 @@
 /* All styles for your header Components live here */
+.headerDiv {
+    display: flex;
+    width: 590px;
+    height: 110px;
+}
+
+.headerTitle {
+    display: flex;
+    position: absolute;
+    margin-left: 50px;
+}
+
+.headerTitle h2 {
+    font-size: 16px;
+}
+
+.headerTitle h3 {
+    font-size: 16px;
+    margin-left: 5px;
+    color: gray;
+}
+
+.profilePicture {
+    width: 50px;
+    height: 50px;
+    margin: 10px 0 0 0;
+}
+
+.headerContent p {
+    font-size: 15px;
+    margin: 50px 0;
+}
