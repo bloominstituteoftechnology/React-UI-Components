@@ -1,1 +1,43 @@
 /* All styles for your Card Components live here */
+* {
+    box-sizing: border-box;
+}
+
+.card {
+    width: 510px;
+    display: flex;
+}
+
+.card .left-side p {
+    width: 70px;
+}
+
+.card-image {
+    width: 100%;
+    border-radius: 6px;
+}
+
+.card-content {
+    width: 500px;
+    color: black;
+    border: 1px solid lightgray;
+    border-radius: 6px;
+    padding: 0 40px 0 20px;
+}
+
+.card-content .card-title {
+    font-size: 1rem;
+}
+
+.card-content .card-info {
+    font-size: .8rem;
+}
+
+.card-content .card-link {
+    font-size: .8rem;
+    color: gray;
+}
+
+.link {
+    text-decoration: none;
+}

@@ -5,10 +5,15 @@ import CardContent from './CardContent';
 
 const CardContainer = props => {
     return (
-        <a href="https://www.reactjs.org">
-            <CardBanner />
-            <CardContent />
-        </a>
+        <div className="card">
+            <div className="left-side"> <p></p> </div>
+            <div className="right-side">
+                <a className="link" href="https://www.reactjs.org">
+                    <CardBanner/>
+                    <CardContent className="hey"/>
+                </a>
+            </div>
+        </div>
     )
 }
 

@@ -1,6 +1,11 @@
 /* All styles for your header Components live here */
+* {
+    box-sizing: border-box;
+}
+
 .header {
     display: flex;
+    width: 580px;
 }
 
 .header .right-side {
@@ -22,10 +27,11 @@
 }
 
 .header-image {
-    width: 100%;
+    width: 60px;
 }
 
 .header-content {
     margin: 0;
-    width: 70%;
+    width: 100%;
+    font-size: .9rem;
 }
