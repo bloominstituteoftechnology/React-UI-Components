@@ -1,0 +1,31 @@
+.actionBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 75%;
+  height: 95px;
+  border: 0.25px solid #A4A4A4;
+  font-size: 2.5rem;
+}
+
+.numberBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  height: 95px;
+  border: 0.25px solid #A4A4A4;
+  font-size: 2.5rem;
+}
+
+.sign {
+  color: white;
+  background: #A12820;
+  font-size: 4rem;
+  font-weight: 100;
+}
+
+.num {
+  color: black;
+  background: #FFFFFF;
+}
