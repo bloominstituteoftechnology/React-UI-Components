@@ -1,9 +1,23 @@
 import React from 'react';
 import './App.css';
+import HeaderContainer from './components/HeaderComponents/HeaderContainer';
+import CardContainer from './components/CardComponents/CardContainer';
+// import Footer from './components/FooterComponents/Footer';
+import FooterContainer from './components/FooterComponents/FooterContainer';
+
+
+
 
 const App = () => {
   return (
-    <div>
+    <div className = 'apps-container'>
+      <HeaderContainer/>
+      <CardContainer/>
+
+      <FooterContainer/>
+    </div>
+
+   /* <div>
       <h3>Welcome to React Social Card!</h3>
       <p>
         Begin by exploring the `components` directory. You'll notice we have a
@@ -18,6 +32,10 @@ const App = () => {
         </strong>
       </p>
     </div>
+    */
+
+
+
   );
 };
 

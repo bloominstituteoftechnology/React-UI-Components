@@ -1,0 +1,9 @@
+.showDat{
+  border: 1px solid gray;
+  font-size: 6rem;
+  display: flex;
+  justify-content: flex-end;
+  line-height: 0;
+  padding-right: 1rem;
+  font-weight: lighter;
+}

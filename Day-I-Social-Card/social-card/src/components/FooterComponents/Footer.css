@@ -1,0 +1,53 @@
+
+.footer-container{
+  display: flex;
+  border: 1px solid purple;
+  width: 50%;
+  justify-content: space-evenly;
+  margin-left: 5rem;
+}
+
+.envelope-container{
+  display: flex;
+  border: 1px solid blue;
+
+}
+
+.commentIMG, .recycleIMG, .heartIMG, .envelopeIMG{
+  display: flex;
+  width: 2rem;
+  height: 2rem;
+  fill: red;
+  stroke: pink;
+  color: dodgerblue;
+}
+
+.envelopeIMG{
+  fill: blue;
+  stroke: red;
+}
+
+
+.heart-container{
+  border: 1px solid pink;
+  display: flex;
+  width: 5rem;
+}
+.heart-container:active{
+  color: red;
+}
+
+
+.recycle-container{
+  border: 1px solid green;
+  display: flex;
+  width: 5rem;
+}
+
+.recycleCount, .heartCount{
+  border: 1px solid blue;
+  text-align: center;
+  width: 3rem;
+}
+
+

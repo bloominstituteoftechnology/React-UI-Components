@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+}
+
+.calcBox{
+  border: 1px solid gray;
+  display: flex;
+  font-size: 2rem;
+  flex-direction: column;
+  width: 50%;
+  margin: 0 auto;
+  text-align: right;
+  background-color: black;
+  color: white;
+}
