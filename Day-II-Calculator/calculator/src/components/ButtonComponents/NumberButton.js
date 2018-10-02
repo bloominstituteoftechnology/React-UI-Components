@@ -3,29 +3,21 @@ import Button from './Button';
 import './Button.css';
 
 const NumberButton = props => {
-    return <div class="numberButtons">
-        <div class="row">
-            <Button text="clear" />
+    return (
+        <div class="numberButtons">
+            <Button text="clear" cName="numButton fullLength" />
+            <Button text="7" cName="numButton" />
+            <Button text="8" cName="numButton" />
+            <Button text="9" cName="numButton" />
+            <Button text="4" cName="numButton" />
+            <Button text="5" cName="numButton" />
+            <Button text="6" cName='numButton'/>
+            <Button text="1" cName='numButton'/>
+            <Button text="2" cName='numButton'/>
+            <Button text="3" cName='numButton'/>
+            <Button text="0" cName='numButton fullLength'/>
         </div>
-        <div class="row">
-            <Button text="7" />
-            <Button text="8" />
-            <Button text="9" />
-        </div>
-        <div class="row">
-            <Button text="4" />
-            <Button text="5" />
-            <Button text="6" />
-        </div>
-        <div class="row">
-            <Button text="1" />
-            <Button text="2" />
-            <Button text="3" />
-        </div>
-        <div class="row">
-            <Button text="0" />
-        </div>
-      </div>; 
+    );
 }
 
 

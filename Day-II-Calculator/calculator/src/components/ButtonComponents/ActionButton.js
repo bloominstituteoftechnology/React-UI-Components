@@ -1,13 +1,15 @@
 import React from 'react';
+import Button from './Button';
 import './Button.css';
 
 const ActionButton = props => {
     return (
-        <div>
-            <p>we are ACTION buttons</p>
-            <p>we are ACTION buttons</p>
-            <p>we are ACTION buttons</p>
-            <p>we are ACTION buttons</p>
+        <div class='actionButtons'>
+            <Button text="&#247;" cName='actButton' />
+            <Button text="&#215;" cName='actButton' />
+            <Button text="&#8722;" cName='actButton' />
+            <Button text="&#43;" cName='actButton' />
+            <Button text="&#61;" cName='actButton' />
         </div>
     ) 
 }

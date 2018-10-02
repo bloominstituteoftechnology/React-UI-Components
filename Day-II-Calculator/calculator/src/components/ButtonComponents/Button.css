@@ -1,22 +1,11 @@
-.controlContainer {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: space-between;
+.numButton {
+    background-color: white;
 }
 
-.numberButtons {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
+.actButton {
+    background-color: #A0001E;
 }
 
-.row {
-    width: 100%;
-    display: flex;
-
-}
-
-button {
+.fullLength {
     width: 100%;
 }
