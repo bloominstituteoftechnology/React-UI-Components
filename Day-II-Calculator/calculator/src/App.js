@@ -5,36 +5,42 @@ import NumberButton from './components/ButtonComponents/NumberButton';
 import ActionButton from './components/ButtonComponents/ActionButton';
 
 const App = () => {
+
+  const wideButton = {
+    width: '339px', 
+    color: 'black', 
+    background: 'white'
+  };
+
   return (
     <div className='calculator-container'>
       <CalculatorDisplay />
       <div className='calc-row'>
-        <ActionButton type={'clear'}/>
-        <ActionButton type={'÷'}/>
+        <ActionButton text={'clear'} style={wideButton}/>
+        <ActionButton text={'÷'}/>
       </div>
       <div className='calc-row'>
-        <NumberButton value={7}/>
-        <NumberButton value={8}/>
-        <NumberButton value={9}/>
-        <ActionButton type={'X'}/>
+        <NumberButton text={7}/>
+        <NumberButton text={8}/>
+        <NumberButton text={9}/>
+        <ActionButton text={'X'}/>
       </div>
       <div className='calc-row'>
-        <NumberButton value={4}/>
-        <NumberButton value={5}/>
-        <NumberButton value={6}/>
-        <ActionButton type={'-'}/>
+        <NumberButton text={4}/>
+        <NumberButton text={5}/>
+        <NumberButton text={6}/>
+        <ActionButton text={'-'}/>
       </div>
       <div className='calc-row'>
-        <NumberButton value={1}/>
-        <NumberButton value={2}/>
-        <NumberButton value={3}/>
-        <ActionButton type={'+'}/>
+        <NumberButton text={1}/>
+        <NumberButton text={2}/>
+        <NumberButton text={3}/>
+        <ActionButton text={'+'}/>
       </div>
       <div className='calc-row'>
-        <NumberButton value={0}/>
-        <ActionButton type={'='}/>
+        <ActionButton text={0} style={wideButton}/>
+        <ActionButton text={'='}/>
       </div>
-
     </div>
   );
 };
