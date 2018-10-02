@@ -11,8 +11,11 @@ const HeaderContainer = () =>{
                 <ImageThumbNail src={"https://ibin.co/3whrpKSBbZ81.png"}/>
             </div>
             <div className="header-content-column">
-                <HeaderTitle />
-                <HeaderContent />
+                <HeaderTitle headerTitle="Lambda School" titleDate="@LambdaSchool · 1 Oct"/>
+                <HeaderContent headerDescription="
+                Let's Learn React by building simple interfaces with components. Don't try to overthink it, just keep it simple and have fun. Once you feel comfortable using components you are well on your way to mastering React!.
+                
+                " />
             </div>
         </div>
     );

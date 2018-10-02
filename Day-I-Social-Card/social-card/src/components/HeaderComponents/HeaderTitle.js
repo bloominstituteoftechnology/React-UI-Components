@@ -1,13 +1,13 @@
 import React from 'react';
 
-const HeaderTitle = () => {
+const HeaderTitle = props => {
     return(
         <div className="header-title-container">
             <h2 className="header-title">
-            Lambda School
+            {props.headerTitle}
             </h2>
             <p className="date-stamp">
-                @LambdaSchool · 1 Oct
+               {props.titleDate}
             </p>
         </div>
     );

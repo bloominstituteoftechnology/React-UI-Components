@@ -137,7 +137,7 @@ table {
   border-spacing: 0;
 }
 .main-container {
-  max-width: 900px;
+  max-width: 700px;
   width: 100%;
   margin: 200px auto;
   border: 1px solid #000;
@@ -145,7 +145,7 @@ table {
   flex-flow: row wrap;
 }
 .header-container {
-  max-width: 900px;
+  max-width: 700px;
   width: 100%;
   display: flex;
   flex-flow: columns nowrap;
