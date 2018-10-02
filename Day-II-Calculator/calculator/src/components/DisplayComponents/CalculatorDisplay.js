@@ -1,27 +1,8 @@
-import React from 'react';
-import './Display.css';
-
-
+import React from "react";
+import "./Display.css";
 
 const CalculatorDisplay = props => {
-
-return(
-
-    <div className='display'>
-
-
-
-    </div>
-
-
-
-);
-
-
-
-
-
+  return <div className="display">{props.number}</div>;
 };
-
 
 export default CalculatorDisplay;

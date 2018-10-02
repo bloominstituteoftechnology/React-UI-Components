@@ -1,3 +1,24 @@
-.buttonStyle{
-    border:2px solid black;
+.buttonStyle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #000;
+  font-size: 2rem;
+  font-weight: 700;
+  width: 64px;
+  height: 64px;
+}
+
+.whiteButton {
+  background: #fff;
+}
+
+.wide {
+  width: 196px;
+}
+
+.redButton {
+  background: #dd2222;
+  color: #fff;
+  border: 1px solid #fff;
 }
