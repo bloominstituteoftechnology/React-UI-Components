@@ -1,0 +1,21 @@
+.cardFooter {
+    padding: 10px 20px 10px 35px;
+    /* border: 1px solid blue; */
+}
+
+.cardFooter .icons {
+    margin: 0 30px;
+    cursor: pointer;
+    font-size: 2rem;
+}
+
+.cardFooter .icons:hover {
+    transform: scale(1.1);
+}
+
+.cardFooter .counter {
+    display: inline-block;
+    margin-left: -20px;
+    font-size: 1.2rem;
+    /* border: 1px solid red; */
+}
