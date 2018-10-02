@@ -1,0 +1,23 @@
+.footer-bar{
+    margin-top:21px;
+    border-bottom:1px solid black;
+}
+
+.footer-bar-icon{
+    font-size:1.7rem;
+}
+.footer-bar-icons{
+    margin-left:70px;
+}
+.footer-bar-icon-spacer{
+    margin-left:63px;
+}
+.footer-bar-icon-spacer-small{
+    margin-left:46px;
+}
+
+.footer-icon-counter{
+    margin-left:10px;
+    font-weight: bold;
+    font-size:1.5rem;
+}

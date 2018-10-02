@@ -1,1 +1,39 @@
 /* All styles for your header Components live here */
+.headerTitle{
+    display: flex;
+}
+.header-container{
+    display:flex;
+
+}
+.header-text-container{
+    padding-left:3px;        
+    margin-top:10px;
+    width: 514px;
+}
+.header-logo-div{
+    width:64px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-logo{
+    width:100%;
+    height:auto;
+}
+
+
+.header-title{
+    margin-top:8px;
+    margin-bottom:0px;
+    font-size:1.6rem;
+}
+.header-post-title{
+    color:#ccc;    
+}
+
+.header-content-text{
+    margin-top: 7px;
+    margin-bottom:0px;
+    font-size:1.6rem;
+}
