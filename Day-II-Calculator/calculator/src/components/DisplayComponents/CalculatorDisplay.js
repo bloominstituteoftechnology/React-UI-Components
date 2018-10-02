@@ -4,7 +4,7 @@ import './Display.css';
 const Display = props => {
   return (
       <div className='display'>
-      the display
+        0
       </div>
       );
 };

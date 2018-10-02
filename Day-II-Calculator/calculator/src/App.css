@@ -1,47 +1,10 @@
+* {
+    box-sizing: border-box;
+  }
 
 .container {
-  max-width: 400px;
-  border: dotted green 8px;
-  padding: 10px;
+  max-width: 250px;
   display: flex;
   flex-wrap: wrap;
-}
-
-
-.bigAndSmall {
-  width: 100%;
-  display: flex;
-  border: dotted green 1px;
-  height: 60px;
-}
-
-.smallButtons {
-  display: flex;
-  width: 66%;
-  border: dotted blue 1px;
-  flex-wrap: wrap;
-}
-
-.operatorButtons {
-  width: 33%;
-
-}
-
-.bigButton {
-  width: 66%;
-}
-
-.numberAndOperator{
-  width: 100%;
-
-}
-
-
-.testDiv {
-  height: 60px;
-  width: 31%;
-  background: gray;
-  border: solid black 1px;
-  margin: 1px;
 }
 

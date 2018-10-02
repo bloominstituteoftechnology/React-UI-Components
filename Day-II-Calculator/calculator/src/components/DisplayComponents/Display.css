@@ -1,7 +1,12 @@
 
 .display {
+  display: flex;
+  justify-content: flex-end;
   height: 60px;
   width: 100%;
   margin: 1px;
   border: dotted green 1px;
+  background: black;
+  color: white;
+  font-size: 48px;
 }

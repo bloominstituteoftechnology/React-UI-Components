@@ -6,33 +6,8 @@ import ButtonContainer from './components/ButtonComponents/ButtonContainer.js'
 const App = () => {
   return (
     <div className='container'>
-    <Display />
-    <ButtonContainer/>
-      <div className='bigAndSmall'>
-        <div className='bigButton'>Clear</div>
-        <div className='testDiv'>%</div>
-      </div>
-      <div className='numberAndOperator'>
-        <div className='smallButtons'>
-          <div className='testDiv'>%</div>
-          <div className='testDiv'>%</div>
-          <div className='testDiv'>%</div>
-          <div className='testDiv'>%</div>
-          <div className='testDiv'>%</div>
-          <div className='testDiv'>%</div>
-          <div className='testDiv'>%</div>
-          <div className='testDiv'>%</div>
-          <div className='testDiv'>%</div>
-        </div>
-        <div className='operatorButtons'>
-          <div className='testDiv'>%</div>
-          <div className='testDiv'>%</div>
-          <div className='testDiv'>%</div>
-          <div className='testDiv'>%</div>
-        </div>
-      </div>
-      <div className='bigAndSmall'></div>
-     
+      <Display />
+      <ButtonContainer/>
     </div>
   );
 };

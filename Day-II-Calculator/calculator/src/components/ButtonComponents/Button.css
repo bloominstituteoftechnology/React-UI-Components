@@ -1,0 +1,45 @@
+.buttonContainer {
+  width: 100%;
+}
+
+.rowOne {
+  display: flex;
+  width: 100%;
+}
+
+.rowTwo {
+  display: flex;
+  height: 150px;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.basicButtonStyle {
+  border: 1px gray solid;
+}
+
+.numberButton {
+  height: 50px;
+  width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.operatorButton {
+  height: 50px;
+  width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: red;
+  color: white;
+}
+
+.bigButton {
+  width: 75%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
