@@ -1,1 +1,36 @@
-/* All styles for your header Components live here */
+.header-container {
+  display: flex;
+  align-items: flex-start;
+}
+
+.header-thumbnail {
+  object-fit: contain;
+  margin: 8px 9px 3px 3px;
+  max-width: 50px;
+  border-radius: 25px;
+}
+
+.header-title {
+  display: flex;
+  align-items: center;
+}
+
+.header-title p {
+  margin-bottom: 8px;
+}
+
+.header-title-main {
+  font-size: 14px;
+  margin-right: 5px;
+}
+
+.header-title-secondary {
+  font-size: 13px;
+  color: grey;
+}
+
+.header-content {
+  font-size: 14px;
+  word-spacing: 1px;
+  line-height: 18px;
+}

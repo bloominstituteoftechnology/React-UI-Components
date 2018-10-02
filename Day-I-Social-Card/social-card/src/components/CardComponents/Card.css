@@ -1,1 +1,36 @@
-/* All styles for your Card Components live here */
+.card-container {
+  margin-top: 12px;
+  margin-left: 63px;
+  margin-right: 6px;
+  border-radius: 5px;
+  border: 1px solid grey;
+}
+
+.card-banner-container {
+  max-width: 504px;
+  max-height: 252px;
+  overflow: hidden;
+}
+
+.card-banner {
+  transform: scale(0.65);
+  position: relative;
+  top: -184px;
+  left: -357px;
+}
+
+.card-content {
+  padding: 0 14px;
+  color: black;
+}
+
+.card-content h4 {
+  margin: 14px 0 0 0;
+  font-size: 14px;
+}
+
+.card-content p {
+  margin: 7px 0;
+  font-size: 14px;
+  line-height: 17px;
+}

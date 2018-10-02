@@ -1,0 +1,8 @@
+.calulator-display {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 7.2rem;
+  padding-right: 14px;
+  padding-top: 25px;
+}

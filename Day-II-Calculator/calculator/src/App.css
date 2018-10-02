@@ -1,0 +1,54 @@
+.calculator-container {
+  width: 456px;
+  border: 1px solid grey;
+}
+
+.row {
+  display: flex;
+  height: 94px;
+}
+
+.display-row {
+  height: 126px;
+}
+
+.row > * {
+  box-shadow: inset 0 0 0 1px grey;
+  font-size: 4.2rem;
+}
+
+.width-1 {
+  flex: 1;
+}
+
+.width-2 {
+  flex: 2;
+}
+
+.width-3 {
+  flex: 3;
+}
+
+.width-4 {
+  flex: 4;
+}
+
+.color-white {
+  background: white;
+}
+
+.color-red {
+  background: #A80016;
+}
+
+.color-grey {
+  background: #272727;
+}
+
+.font-color-grey {
+  color: #272727;
+}
+
+.font-color-white {
+  color: white;
+}
