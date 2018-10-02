@@ -1,21 +1,31 @@
 /* All styles for your Card Components live here */
 
 .card-container {
-  width: 92%;
-  margin-left: 50px;
+  /* width: 92%; */
+  margin-left: 50px; 
 }
 
 .card-container img {
-  width: 92%;
-  border-radius: 10px;
+  width: 95%;
+  height: 250px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 
 .card-container .card-content {
-  margin-left: 10px;
+  margin-left: 18px;
+  font-size:1.4rem;
+}
+
+.card-container .card-content h2 {
+  font-size: 1.4rem;
+  margin-top: 0;
+  padding-top: 10px;
 }
 
 .card-container .card-content p {
   width: 90%;
+  margin: 7px 0;
 }
 
 .card-container .card-content a {

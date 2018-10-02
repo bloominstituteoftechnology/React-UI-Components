@@ -5,7 +5,7 @@ const HeaderTitle = props => {
   const date = new Date();
   return (
     <div className="header-text">
-      <h2>Lambda School <span>@LambdaSchool • 1 oct</span></h2>
+      <h2>Lambda School</h2><p> @LambdaSchool • 1 oct</p>
     </div>
   );
 };

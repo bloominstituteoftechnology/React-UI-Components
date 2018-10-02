@@ -3,18 +3,19 @@
   IF you'd like to attempt to use less you'll have to research how to do this with Create React App
 */
 
+* {
+  box-sizing: border-box;
+}
+
 html {
   font-size: 62.5%;
 }
 
 body {
-  font-size: 1.6rem;
+  font-size: 1.2rem;
 }
 
-h2 {
-  font-size: 1.6rem;
-}
 #root {
   margin: 20px auto;
-  width: 50%;
+  width: 590px;
 }

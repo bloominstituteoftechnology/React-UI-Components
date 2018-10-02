@@ -5,6 +5,10 @@ header {
   width: 92%;
 }
 
+header h2 {
+  font-size: 1.4rem;
+}
+
 header .part {
   display: flex;
   flex-direction: column;
@@ -20,7 +24,13 @@ header .header-text {
   display: flex;
 }
 
-header .header-text span {
+header .header-text p {
+  padding-left: 10px;
   color: gray;
-  font-weight: normal;
+  font-size: 1.2rem;
+}
+
+header .header-content {
+  font-size: 1.4rem;
+  margin-top: 5px;
 }
