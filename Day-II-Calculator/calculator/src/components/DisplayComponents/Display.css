@@ -1,0 +1,8 @@
+.displayBox {
+  padding: 2%;
+  border: 1px pink solid;
+}
+
+.displayBox h2 {
+  font-size: 5px;
+}

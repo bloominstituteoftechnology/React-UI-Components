@@ -1,0 +1,15 @@
+.appContainer {
+  border: 1px solid black;
+}
+
+.displayContainer {
+  border: 1px red;
+}
+
+.numButtonContainer {
+  border: 1px solid blue;
+}
+
+.actButtonContainer {
+  border: 1px solid green;
+}
