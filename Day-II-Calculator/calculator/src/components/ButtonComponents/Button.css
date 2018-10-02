@@ -1,0 +1,29 @@
+button {
+    border: 1px solid #979797;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 36px;
+}
+
+.number {
+    width: 25%;
+    height: auto;
+    font-weight: bold;
+    background-color: #ffffff;
+    color: #222222;
+}
+
+.action {
+    width: 75%;
+    height: auto;
+    background-color: #ffffff;
+    color: #222222;
+}
+
+.operator {
+    width: 25%;
+    height: auto;
+    background-color: #A0001E;
+    color: #ffffff;
+    font-size: 48px;
+}

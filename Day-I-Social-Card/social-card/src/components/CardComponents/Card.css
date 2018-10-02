@@ -1,1 +1,42 @@
 /* All styles for your Card Components live here */
+a {
+    text-decoration: none;
+}
+
+.card-container {
+    width: 590px;
+}
+
+.card-banner {
+    width: 525px;
+    height: 250px;
+    margin-left: 10%;
+    background-size: 525px 250px;
+    background-repeat: no-repeat;
+    border-radius: 5px 5px 0 0;
+}
+
+.card-content {
+    width: 523px;
+    margin-left: 10%;
+    color: black;
+    border: 1px solid lightgrey;
+}
+
+h4 {
+    margin-left: 3%;
+    margin-bottom: 5px;
+}
+
+.card-para {
+    font-size: 14px;
+    margin: 5px 0;
+    margin-left: 3%;
+}
+
+.card-url {
+    margin: 5px 0;
+    margin-left: 3%;
+    color: lightgray;
+    font-size: 12px;
+}
