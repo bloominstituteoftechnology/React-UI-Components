@@ -1,5 +1,35 @@
 
 button {
-  width: 50px;
-  height: 50px;
+  width: 112px;
+  height: 93px;
+  font-size: 2.4rem;
+  font-family: sans-serif;
+	font-weight: 800;
+}
+
+.NumberButton {
+  background-color: #ffffff;
+
+}
+
+.key-Clear  {
+  background-color: #A0001E;
+  color: white;
+  width: 336px !important;
+  height: 93px;
+  /* font-size: 2.4rem; */
+}
+
+.key-0 {
+  width: 336px;
+  height: 93px;
+}
+
+.ActionButton {
+  color: white;
+  background-color: #A0001E;
+}
+
+.ActionButton {
+  width: 120px;
 }
