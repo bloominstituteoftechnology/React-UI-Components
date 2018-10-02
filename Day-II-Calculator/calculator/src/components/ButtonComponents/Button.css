@@ -1,0 +1,47 @@
+.buttonContainer {
+    width : 100%;
+    display : flex;
+    text-align: center;
+}
+
+.buttonContainer button{
+    margin : 0;
+    padding : 25px 0;
+    font-size : 20px;
+    font-weight : bold;
+}
+.buttonContainer p{
+    margin : 0;
+    padding : 25px 0;
+    font-size : 20px;
+    font-weight : bold;
+}
+
+
+.numButtons {
+    width : 75%;
+    display : flex;
+    flex-wrap: wrap;
+}
+
+.actionButton{
+    width : 100%;
+    border : 1px solid gray;
+
+}
+
+.numberButton{
+    width : 33.3%;
+    border : 1px solid gray;
+}
+
+.opButtons{
+    width : 25%;
+}
+.operatorButton{
+    width : 100%;
+    text-align: center;
+    border : 1px solid gray;
+    background : #A0001E;
+    color : white;
+}

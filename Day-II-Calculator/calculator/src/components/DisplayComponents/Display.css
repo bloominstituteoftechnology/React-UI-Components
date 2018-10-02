@@ -1,0 +1,17 @@
+.display {
+    width : 100%;
+    background : black;
+    /* height : 40px; */
+    color : white;
+    text-align: right;
+    /* padding : 10px; */
+    font-size : 20px;
+    margin : 0;
+}
+
+.display p{
+    /* margin : 0 10px ; */
+    font-size: 35px;
+       margin : 0;
+       padding : 10px;
+}
