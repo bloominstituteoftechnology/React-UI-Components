@@ -50,6 +50,7 @@
   background-size: cover;
   margin-top: 12px;
   border-radius: 5px;
+  background-size: 100%
 }
 .cardContainer .cardContent {
   margin-left: 2%;
