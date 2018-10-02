@@ -1,13 +1,17 @@
 /* All styles for your Card Components live here */
 .cardContainer {
-    padding: 1.5rem 2rem 1.5rem 8rem;
+    margin: 1.5rem 2rem 1.5rem 8rem;
+    border: 1px solid lightgray;
+    border-top-left-radius: 0.6rem;
+    border-top-right-radius: 0.6rem;
 }
 
 /* CardBanner */
 .banner {
     width: 100%;
     height: auto;
-    border-radius: 0.6rem;
+    border-top-left-radius: 0.6rem;
+    border-top-right-radius: 0.6rem;
 }
 
 /* CardContent */
@@ -16,7 +20,6 @@
     flex-direction: column;
     align-items: flex-start;
     padding-left: 1.5rem;
-    border: 1px solid lightgray;
 }
 
 .cardContent h1 {
@@ -30,5 +33,5 @@
 
 .cardContent .link {
     color: gray;
-    padding-top: 1rem;
+    padding: 1rem 0;
 }

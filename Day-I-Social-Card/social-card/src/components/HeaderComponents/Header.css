@@ -25,6 +25,10 @@
     align-items: space-between;
 }
 
+.profileContent p {
+    line-height: 2rem;
+}
+
 /* HeaderTitle */
 .profileHeader {
     display: flex;
