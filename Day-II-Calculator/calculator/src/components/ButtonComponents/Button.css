@@ -1,0 +1,39 @@
+.btn-wrapper {
+  height: 100px;
+  display: flex;
+}
+
+.num-btn {
+  width: 100px;
+  font-weight: 700;
+  border: 1px solid #333;
+  background-color: #fff;
+  line-height: 100px;
+  font-size: 50px;
+}
+
+.action-btn {
+  background-color: #fff;
+  line-height: 100px;
+  font-size: 50px;
+  width: 100px;
+}
+
+.wide-btn {
+  width: 300px;
+  border: 1px solid #333;
+}
+
+.zero {
+  width: 200px;
+}
+
+.danger-btn {
+  color: #fff;
+  background-color: #9e0523;
+  border: 1px solid #eee;
+}
+
+.thin-txt {
+  font-weight: 200;
+}
