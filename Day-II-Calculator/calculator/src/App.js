@@ -69,14 +69,6 @@ class App extends Component {
       operation: '',
       value: 0,
     };
-
-  // this.handleNumber = this.handlNumber.bind(this);
-  // this.handleClear = this.handleClear.bind(this);
-  // this.handleAdd = this.handleAdd.bind(this);
-  // this.handleSubract = this.handleSubract.bind(this);
-  // this.handleMultiply = this.handleMultiply.bind(this);
-  // this.handleDivide = this.handleDivide.bind(this);
-  // this.handleCalculate = this.handleCalculate.bind(this);
   this.handleInput = this.handleInput.bind(this);
   this.handleClear = this.handleClear.bind(this);
   this.handleCalculate = this.handleCalculate.bind(this);
