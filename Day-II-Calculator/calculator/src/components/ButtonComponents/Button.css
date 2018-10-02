@@ -1,0 +1,14 @@
+.defaultNumButton {
+  background-color: green;
+  width: 25%;
+}
+
+.actionButton {
+  background-color: white;
+  width: 75%;
+
+}
+
+.red {
+  background-color: red;
+}
