@@ -1,0 +1,29 @@
+.action {
+    width:300px;
+    height: 80px;
+    color: black;
+    background-color: white;
+    border-color: lightgray;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.number {
+    width:100px;
+    height: 80px;
+    color: black;
+    background-color: white;
+    border-color: lightgray;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.numberRed {
+    width:100px;
+    height: 80px;
+    color: white;
+    background-color: red;
+    border-color: lightgray;
+    font-size: 40px;
+    font-weight: 500;
+}

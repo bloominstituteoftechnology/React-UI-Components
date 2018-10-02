@@ -1,0 +1,13 @@
+.display {
+    border: 1px solid lightgray;
+    text-align: right;
+    width: 400px;
+    height: 120px;
+    font-size: 70px;
+    color: white;
+    background-color: #2D2D2D;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
