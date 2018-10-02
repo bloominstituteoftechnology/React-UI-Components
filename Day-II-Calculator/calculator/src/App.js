@@ -11,7 +11,7 @@ class App extends React.Component {
       <div className="calc-wrapper">
         <CalculatorDisplay />
         <ButtonContainer className="clear-button">
-          <ActionButton className="three-text" />
+          <ActionButton className="three-text" text="clear"/>
           <NumberButton bcolor="red-button" text="/"/>
         </ButtonContainer>
         <ButtonContainer>
@@ -33,7 +33,7 @@ class App extends React.Component {
           <NumberButton bcolor="red-button" text="+"/>
         </ButtonContainer>
         <ButtonContainer>
-          <ActionButton className="three-text" />
+          <ActionButton className="three-text" text="0"/>
           <NumberButton bcolor="red-button" text="="/>
         </ButtonContainer>
       </div>

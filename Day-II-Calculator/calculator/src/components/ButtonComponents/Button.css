@@ -1,0 +1,30 @@
+.button-container {
+    height: 100px;
+    display: flex;
+}
+
+.number-button {
+    width: 100%;
+    border: 1px solid #979797;
+    font-size: 50px;
+}
+
+.three-number-button {
+    width: 1290px;
+    border: 1px solid #979797;
+    background: #FFFFFF;
+    font-size: 50px;
+}
+
+.red-button {
+    background: #A0001E;
+    color: white;
+}
+
+.numpad-button {
+    background: #FFFFFF;
+}
+
+.clear-button {
+    font-weight: 100;
+}
