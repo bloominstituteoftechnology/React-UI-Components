@@ -5,9 +5,10 @@
     border: 1px solid #979797;
     display: flex;
     flex-wrap: wrap;
-    font-size: 62.5%;
+    font-size: 62.5%;    
+    transition: box-shadow 1s;
 }
 
 .container:hover {
-    box-shadow: 20px 20px #979797;
+    box-shadow: 5px 5px #979797;
 }
