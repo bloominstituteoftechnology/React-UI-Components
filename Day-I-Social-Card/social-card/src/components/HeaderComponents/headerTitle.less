@@ -1,9 +1,20 @@
 .header-title-container{
-    border: 2px solid purple;
+    width: @Width;
+    padding: 10px 0;
     display: flex;
     flex-flow: columns nowrap;
+    align-items: flex-end;
 
     .header-title{
-        color: red;
+        font-size: 1rem;
+        font-weight: bold;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .date-stamp{
+        margin-left: 10px;
+        font-size: .8rem;
+        font-family: 'Roboto', sans-serif;
+        color: @timestampColor;
     }
 }
