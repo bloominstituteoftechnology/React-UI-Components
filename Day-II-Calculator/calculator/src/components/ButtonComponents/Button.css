@@ -1,0 +1,22 @@
+.controlContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.numberButtons {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+
+}
+
+button {
+    width: 100%;
+}

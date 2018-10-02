@@ -5,7 +5,7 @@ import './Container.css';
 
 const Container = props => {
     return (
-        <div>
+        <div class='appContainer'>
             <Display />
             <ButtonContainer />
         </div>
