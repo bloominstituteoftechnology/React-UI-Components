@@ -23,3 +23,7 @@ footer {
   font-family: sans-serif;
   font-weight: normal;
 }
+
+.fas.fa-heart {
+  color: rgb(206, 24, 24);
+}
