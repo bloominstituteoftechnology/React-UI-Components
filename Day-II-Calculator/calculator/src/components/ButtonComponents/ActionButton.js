@@ -1,17 +1,9 @@
-import React from 'react';
-import './Button.css';
+import React from "react";
+import "./Button.css";
 
-const NumberButton = props => 
-(
-   
-   
-   
-    <div className={props.buttonStyle}>{props.text}
-   
-    
-     </div>
-)
-
+const NumberButton = props => (
+  <div className={`buttonStyle ${props.buttonStyle}`}>{props.text}</div>
+);
 
 export default NumberButton;
 

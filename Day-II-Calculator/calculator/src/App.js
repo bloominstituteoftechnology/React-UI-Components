@@ -10,12 +10,11 @@ const App = () => {
 
 return (
 
-    <div className="wrapper">  //wrapper 
+    <div className="wrapper">  //
     <div>
       <div>
         <CalculatorDisplay number="0" />
-      </div> 
-      
+      </div>
     </div>
     <div className="row">
       <ActionButton text="clear" buttonStyle="wide" />

@@ -1,4 +1,5 @@
 .row {
+<<<<<<< HEAD
     display: flex;
   }
   
@@ -10,3 +11,15 @@
     border: 1px solid #333;
   }
   
+=======
+  display: flex;
+}
+
+.wrapper {
+  width: 265px;
+  margin: 20px auto;
+  padding: 4px;
+  padding-left: 6px;
+  border: 1px solid #333;
+}
+>>>>>>> 730121e17d1c4a5bd6f03655e418afbeeaedb8f1
