@@ -1,6 +1,20 @@
 .calculator {
     border: 1px solid black;
-    height: 600px;
+    height: 570px;
     margin-left: 60px;
-    width: 400px;
+    width: 408px;
+}
+
+.input {
+    display: flex;
+}
+
+.numPad {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.numsAndClear .actionButton {
+    width: 100%;
+    background: white;
 }

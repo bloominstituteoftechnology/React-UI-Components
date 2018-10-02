@@ -4,9 +4,40 @@ import ActionButton from './components/ButtonComponents/ActionButton';
 import NumberButton from './components/ButtonComponents/NumberButton';
 import CalculatorDisplay from './components/DisplayComponents/CalculatorDisplay';
 
-const testButtonInfo = {
+
+const buttonPlus = {
   buttonStyle: 'actionButton',
-  text: 'Works'
+  text: '+'
+}
+
+const buttonMinus = {
+  buttonStyle: 'actionButton',
+  text: '-'
+}
+
+const buttonDivide = {
+  buttonStyle: 'actionButton',
+  text: '/'
+}
+
+const buttonMultiply = {
+  buttonStyle: 'actionButton',
+  text: '*'
+}
+
+const buttonEqual = {
+  buttonStyle: 'actionButton',
+  text: '='
+}
+
+const buttonClear = {
+  buttonStyle: 'actionButton',
+  text: 'clear'
+}
+
+const buttonZero = {
+  buttonStyle: 'actionButton',
+  text: '0'
 }
 
 const App = () => {
@@ -16,7 +47,7 @@ const App = () => {
    
       <div className="input">
         <div className="numsAndClear">
-            <ActionButton buttonInfo={testButtonInfo}/>
+            <ActionButton buttonInfo={buttonClear}/>
             <div className="numPad">
               <NumberButton/>
               <NumberButton/>
@@ -28,14 +59,14 @@ const App = () => {
               <NumberButton/>
               <NumberButton/>
             </div>
-            <ActionButton/>
+            <ActionButton buttonInfo={buttonZero}/>
         </div>
         <div className="operators">
-          <ActionButton/>
-          <ActionButton/>
-          <ActionButton/>
-          <ActionButton/>
-          <ActionButton/>
+          <ActionButton buttonInfo={buttonPlus}/>
+          <ActionButton buttonInfo={buttonMinus}/>
+          <ActionButton buttonInfo={buttonDivide}/>
+          <ActionButton buttonInfo={buttonMultiply}/>
+          <ActionButton buttonInfo={buttonEqual}/>
         </div>
       </div>
     </div>
