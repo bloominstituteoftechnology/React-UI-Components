@@ -1,1 +1,36 @@
 /* All styles for your header Components live here */
+
+header {
+  display: flex;
+  width: 92%;
+}
+
+header h2 {
+  font-size: 1.4rem;
+}
+
+header .part {
+  display: flex;
+  flex-direction: column;
+}
+
+header img {
+  height: 50px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+header .header-text {
+  display: flex;
+}
+
+header .header-text p {
+  padding-left: 10px;
+  color: gray;
+  font-size: 1.2rem;
+}
+
+header .header-content {
+  font-size: 1.4rem;
+  margin-top: 5px;
+}
