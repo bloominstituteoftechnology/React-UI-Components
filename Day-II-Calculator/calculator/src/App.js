@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import CalcDisplay from './components/DisplayComponents/CalculatorDisplay';
 import NumButton from './components/ButtonComponents/NumberButton';
+import FunctionButton from './components/ButtonComponents/FunctionButton';
 import ActionButton from './components/ButtonComponents/ActionButton';
 
 
@@ -11,6 +12,7 @@ const App = () => {
       <CalcDisplay />
       <ActionButton />
       <NumButton />
+      <FunctionButton />
     </div>
   );
 };

@@ -1,6 +1,14 @@
 import React from 'react';
 import './Button.css';
 
+const FunctionButtons = props => {
+    return (
+        <div>
+            
+        </div>
+    );
+};
+
 const NumButton = props => {
     return (
         <div>
