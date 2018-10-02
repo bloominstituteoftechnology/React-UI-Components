@@ -1,1 +1,41 @@
 /* All styles for your header Components live here */
+
+.header {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 9fr;
+}
+
+.image-thumbnail {
+  max-width: 70%;
+  margin: 10px auto;
+}
+
+.header-container {
+  grid-column-start: 2;
+  margin: 10px 0;
+}
+
+.header-title {
+  display: grid;
+  grid-template-columns: auto auto 1fr;
+}
+
+.header-username {
+  margin-right: 5px;
+  font-weight: bold;
+}
+
+.header-userhandle {
+  color: #888;
+  margin-right: 5px;
+}
+
+.svg-inline--fa .fa-calendar {
+  height: 14px;
+  padding-bottom: 2px;
+}
+
+.posted-date {
+  color: #888;
+}

@@ -1,0 +1,10 @@
+.display-button {
+  background: #222;
+  color: #fff;
+  grid-column-end: span 4;
+  font-size: 4rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 20px;
+}

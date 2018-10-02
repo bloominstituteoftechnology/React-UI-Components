@@ -1,0 +1,40 @@
+.action-button {
+  background: #fff;
+  color: #000;
+  grid-column-end: span 3;
+  font-size: 2.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 7%;
+}
+
+.action-button:hover {
+  background: #aaa;
+}
+
+.number-button {
+  background: #fff;
+  color: #000;
+  font-size: 2.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.number-button:hover {
+  background: #aaa;
+}
+
+.number-button--operator {
+  background: darkred;
+  color: #fff;
+  font-size: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.number-button--operator:hover {
+  background: red;
+}

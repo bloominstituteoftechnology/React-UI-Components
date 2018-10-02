@@ -1,0 +1,25 @@
+.card-footer {
+  height: 50px;
+  display: grid;
+  grid-template-columns: 1fr 9fr;
+}
+
+.buttons-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-column-start: 2;
+}
+
+.button {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.card-footer .svg-inline--fa {
+  height: 44px;
+  color: #888;
+  margin-right: 5px;
+}
+
+
