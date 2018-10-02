@@ -1,4 +1,5 @@
 import React from 'react';
+import './index.css';
 import './App.css';
 import CalculatorDisplay from "./components/DisplayComponents/CalculatorDisplay";
 import ActionButton from "./components/ButtonComponents/ActionButton";
@@ -13,23 +14,23 @@ let calculationDisplay = {
 //clear button object
 const clearButton = {
   value: "clear",
-  buttonStyle: "largeWhite"
+  buttonStyle: "largeWhite clearButton"
 };
 
 //array of number button objects
 const numberButtons = [
   {
-    value: 1,
+    value: 7,
     buttonStyle: "smallWhite"
   },
 
   {
-    value: 2,
+    value: 8,
     buttonStyle: "smallWhite"
   },
 
   {
-    value: 3,
+    value: 9,
     buttonStyle: "smallWhite"
   },
 
@@ -49,17 +50,17 @@ const numberButtons = [
   },
 
   {
-    value: 7,
+    value: 1,
     buttonStyle: "smallWhite"
   },
 
   {
-    value: 8,
+    value: 2,
     buttonStyle: "smallWhite"
   },
 
   {
-    value: 9,
+    value: 3,
     buttonStyle: "smallWhite"
   },
 
@@ -71,27 +72,27 @@ const numberButtons = [
 
 const actionButtons = [
   {
-    value: "/",
+    value: "÷",
     buttonStyle: "smallRed"
   },
 
   {
-    value: "*",
+    value: "✕",
     buttonStyle: "smallRed"
   },
 
   {
-    value: "-",
+    value: "－",
     buttonStyle: "smallRed"
   },
 
   {
-    value: "+",
+    value: "＋",
     buttonStyle: "smallRed"
   },
 
   {
-    value: "=",
+    value: "＝",
     buttonStyle: "smallRed"
   },
 
