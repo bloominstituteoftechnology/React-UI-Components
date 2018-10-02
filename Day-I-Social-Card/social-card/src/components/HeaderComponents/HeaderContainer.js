@@ -6,7 +6,7 @@ import ImageThumbnail from './ImageThumbnail';
 
 
 
-const HeaderContainer = () =>{
+const HeaderContainer = () => {
     return (
         <div className = "headCont">
             <ImageThumbnail/>
