@@ -1,0 +1,9 @@
+.numButtons {
+  border: lightgrey 1px solid;
+}
+
+.actButtons {
+  border: lightgrey 1px solid;
+  background: red;
+  color: white;
+}
