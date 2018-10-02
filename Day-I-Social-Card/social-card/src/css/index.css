@@ -150,7 +150,6 @@ table {
   display: flex;
   flex-flow: columns nowrap;
   justify-content: flex-start;
-  border: 1px solid purple;
 }
 .image-column {
   width: 150px;
@@ -166,6 +165,7 @@ table {
   lign-items: flex-end;
 }
 .header-content .header-content-txt {
+  padding-right: 10px;
   line-height: 1.2;
 }
 .header-title-container {
@@ -187,8 +187,17 @@ table {
   color: #bbb;
 }
 .card-container {
-  max-width: 550px;
+  max-width: 700px;
   width: 100%;
-  border: 1px solid #333;
-  border-radius: 10px;
+  margin-top: 20px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+}
+.card-container .card-banner {
+  max-width: 620px;
+  width: 100%;
+  margin-right: 20px;
+  border: 10px 0;
+  border-radius: 10px 10px 0 0;
 }
