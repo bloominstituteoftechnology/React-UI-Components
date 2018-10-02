@@ -1,6 +1,12 @@
 import React from "react";
 import "./Button.css";
-import ActionButton from "./ActionButton";
+
+const numbers = [];
+
+for (let i = 0; i <= 9; i++) {
+  numbers.push(i);
+}
+console.log(numbers);
 
 const NumberButtons = props => {
   return (

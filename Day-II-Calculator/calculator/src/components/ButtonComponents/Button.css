@@ -14,6 +14,13 @@
   padding: 20px;
   text-align: center;
   cursor: pointer;
+  opacity: 0.6;
+}
+.numbers-container div span:hover {
+  opacity: 1;
+}
+.numbers-container div span:active {
+  transform: translateY(3px);
 }
 
 .numbers-container .full-width span {
