@@ -4,5 +4,6 @@
 */
 
 .container {
-  border: 1px solid red;
+  margin: 0 auto;
+  max-width: 75%;
 }
