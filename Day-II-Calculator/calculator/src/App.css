@@ -1,0 +1,11 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.calculator {
+  display: flex;
+  flex-direction: column;
+  width: 456px;
+  /* height: 598px; */
+}
