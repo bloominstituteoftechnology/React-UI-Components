@@ -10,7 +10,6 @@
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  grid-column-start: 2;
 }
 
 .card-banner {
@@ -31,3 +30,8 @@
   margin: 5px;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+  grid-column-start: 2;
+}

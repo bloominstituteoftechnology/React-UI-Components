@@ -13,7 +13,6 @@ const DynamicButton = props => {
   } else if (props.type === 'mail') {
     return (<div><FontAwesomeIcon icon="envelope" /></div>);
   };
-
 }
 
 export default DynamicButton;
