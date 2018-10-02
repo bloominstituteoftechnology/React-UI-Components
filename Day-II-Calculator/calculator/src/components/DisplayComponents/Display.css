@@ -1,0 +1,9 @@
+.display-screen{
+    width:100%;
+    color:white;
+    background: black;
+    text-align: right;
+    padding: 3px;
+    height: auto;
+    font-size: 6rem;
+}
