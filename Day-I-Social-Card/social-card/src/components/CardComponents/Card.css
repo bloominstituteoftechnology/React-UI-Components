@@ -1,1 +1,19 @@
 /* All styles for your Card Components live here */
+
+.bannerImg {
+    height: 300px;
+    margin: 0 auto;
+    width: auto;
+}
+
+.contentWrapper {
+    margin: 25px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 75%;
+}
+
+.contentWrapper img {
+    margin-bottom: 25px;
+}
