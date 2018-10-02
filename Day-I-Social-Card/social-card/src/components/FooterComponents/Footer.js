@@ -5,10 +5,12 @@ import './Footer.css';
 const FooterStuff = () => {
     return (
         <div className='footer-container'>
-            <i className="fas fa-comment"></i>
-            <i className="fa fa-retweet">22</i>
-            <i className="far fa-heart">41</i>
-            <i className="far fa-envelope"></i>
+           <a href="https://twitter.com/"> 
+            <i className="far fa-comment"></i>
+            <i className="far fa-retweet">22</i>
+            <i className="fas fa-heart">41</i>
+            <i className="fas fa-envelope"></i>
+          </a>
         </div>
     );
 }
