@@ -1,0 +1,11 @@
+.display{
+    background:rgb(29, 29, 29);
+    height:125px;
+    width:100%;
+    display:flex;
+    justify-content: flex-end;
+    align-items:center;
+    color:white;
+    font-size:40px;
+    font-weight:100;
+}

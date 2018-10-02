@@ -1,1 +1,23 @@
 /* All styles for your Card Components live here */
+.Card{
+    box-sizing:border-box;
+    width:100%;
+    padding-left:12%;
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+}
+.cardImage{
+    width:100%;
+    border-top-right-radius:5px;
+    border-top-left-radius: 5px;
+}
+.cardContent{
+    border:1px solid grey;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+}
+.cardContent .source{
+    color:grey;
+}

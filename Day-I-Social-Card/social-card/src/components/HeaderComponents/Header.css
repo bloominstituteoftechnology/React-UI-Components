@@ -1,1 +1,18 @@
 /* All styles for your header Components live here */
+.postHeader{
+    display:flex;
+    width:100%;
+}
+.thumbnail{
+    height:100px;
+}
+.postHeaderTitle{
+    display:flex;
+    align-items:center;
+}
+.postHeaderTitle h2{
+    margin-right:10px;
+}
+.postHeaderTitle p{
+    color:grey;
+}
