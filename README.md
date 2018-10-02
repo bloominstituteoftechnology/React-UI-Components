@@ -1,4 +1,4 @@
-# React-UI-Components
+# React-UI-Components - Joseph Thompson
 
 - This repository is designed to be your first exposure into the world of ReactJS. You will be given 2 days to complete the 2 assignments in this repository. Day 1 is all about implementing a Social Card in ReactJS. On Day 2 you'll be implementing a Calculator. We've given you the file structure and have gone ahead and added all the files you'll need to be set up for success for each project.
 
@@ -69,6 +69,7 @@
 - This is the time to stop and break down this image in terms of components. Each container on the screen should give you an idea of what your components should be. You're now about to begin your journey into learning how to think in React.
 
 #### Day 2 MVP requirements
+
 
 - Create a `<NumberButton />` component that can accept `props` and display any number/symbol passed down as `text`.
   - Example your component should be able to render a dynamic prop called text:

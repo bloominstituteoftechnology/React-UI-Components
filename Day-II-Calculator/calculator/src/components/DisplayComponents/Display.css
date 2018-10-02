@@ -1,0 +1,25 @@
+.calculator-display {
+  background-color: gray;
+  border: 1px solid gray;
+  font-size: 32px;
+  height: 310px;
+  width: 200px;
+}
+
+.buttons-area {
+  display: flex;
+}
+
+.numbers-section {
+  width: 150px;
+}
+
+.calculation-window {
+  align-items: center;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+  height: 60px;
+  padding-right: 5px;
+}

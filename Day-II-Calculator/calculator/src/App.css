@@ -1,0 +1,11 @@
+.App-container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 600px;
+}
+
+button::-moz-focus-inner {
+  border: 0;
+
+}

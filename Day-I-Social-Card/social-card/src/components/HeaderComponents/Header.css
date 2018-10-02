@@ -1,1 +1,37 @@
 /* All styles for your header Components live here */
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.header-aside {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 15%;
+}
+.header-image {
+  height: 60px;
+}
+.header-text {
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+}
+.header-title {
+  align-items: center;
+  display: flex;
+}
+.header-title h1 {
+  font-size: 16px;
+}
+.handle {
+  font-size: 14px;
+  color: gray;
+  padding: 10px;
+}
+.header-content {
+  font-size: 14px;
+  line-height: 16px;
+  margin: 0;
+}
