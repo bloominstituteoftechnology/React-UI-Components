@@ -3,5 +3,39 @@
   box-sizing: border-box;
   margin: 0 auto;
   height: 600px;
-  max-width: 40%;
+  max-width: 450px;
 }
+
+.row {
+  display:flex;
+  justify-content:flex-start;
+
+}
+
+
+button {
+  background: white;
+  color:black;
+  width:111px;
+  height:93px;
+  font-size: 1.75rem;
+  border: 1px solid gray;
+}
+
+.red {
+  color: white;
+  background: #9F122C;
+  margin-left:0px;
+  font-size: 3rem;
+}
+
+.white-long {
+  width:333px;
+}
+
+/* .button-display {
+  border: solid green;
+} */
+
+
+
