@@ -1,2 +1,14 @@
 import React from 'react';
-import './css/index.css';
+
+
+const CardContainer = () => {
+
+    return(
+        <div className="card-container">
+          
+        </div>
+    );
+}
+
+
+export default CardContainer;
