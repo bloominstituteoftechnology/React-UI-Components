@@ -1,14 +1,12 @@
 import React from 'react';
 import './App.css';
-import ButtonFactory from './components/ButtonComponents/ButtonFactory';
+import CalculatorDisplay from './components/DisplayComponents/CalculatorDisplay';
+
 
 const App = () => {
   return (
     <div className='container'>
-      <ButtonFactory />
-      <ButtonFactory />
-      <ButtonFactory />
-      <ButtonFactory />
+      <CalculatorDisplay />
     </div>
 
   );
