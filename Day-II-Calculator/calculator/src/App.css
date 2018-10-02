@@ -1,3 +1,25 @@
 .container {
+    margin: 0 auto;
+    margin-top: 36px;
     width: 448px;
+}
+
+.buttons {
+    display: flex;
+}
+
+.buttonPadLeft {
+    width: 75%;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+
+    position: relative;
+    width: 179%;
+}
+
+.buttonPadRight {
+    margin-bottom: -197px;
+    position: relative;
+    top: -95px;
 }

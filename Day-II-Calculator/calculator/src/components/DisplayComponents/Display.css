@@ -1,9 +1,10 @@
 .calcDisplay {
-    width: 100%;
+    width: 99.3%;
     height: 126px;
     background-color: black;
     display: flex;
     justify-content: flex-end;
+    margin-left: 3px;
 }
 
 .total {
