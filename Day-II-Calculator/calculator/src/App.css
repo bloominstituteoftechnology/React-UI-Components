@@ -1,0 +1,9 @@
+.app {
+	display: grid;
+	grid-template-areas: 
+		"display display"
+		"number number";
+	grid-template-columns: 342px 114px;
+	grid-template-rows: 123px 475px;
+	justify-content: center;
+}

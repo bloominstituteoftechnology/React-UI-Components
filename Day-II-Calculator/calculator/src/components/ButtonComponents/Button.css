@@ -1,0 +1,28 @@
+.number-buttons {
+	display: grid;
+	align-items: center;
+	grid-area: number;
+	grid-template-areas: 
+		"clear clear clear";
+	grid-template-columns: 114px 114px 114px 114px;
+	grid-template-rows: 95px 95px 95px 95px 95px;
+	justify-items: center;
+	font-size: 5rem;
+	font-weight: bold;
+}
+
+.clear {
+	grid-area: clear;
+	font-weight: 300;
+}
+
+.divide,
+.multiply,
+.subtract,
+.add,
+.equal {
+	background-color: #a0001e;
+	color: white;
+	font-size: 6.5rem;
+	font-weight: 300;
+}
