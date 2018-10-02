@@ -4,7 +4,9 @@ import './Button.css';
 const ActionButton = (props) => {
     return (
         <button className={props.buttonStyle}
-                onClick={props.onClick}
+                onClick={props.text === 'clear' ? props.onClick : 
+                                                ()=> props.onClick(props.text)
+                        }
         >
         {props.text}
         </button>

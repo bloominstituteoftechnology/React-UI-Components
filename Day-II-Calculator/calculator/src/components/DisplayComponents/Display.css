@@ -1,14 +1,32 @@
 .display {
     display: flex;
-    justify-content: flex-end;
+    flex-direction: column;
     width: 100%;
-    padding: 23px 0px;
+    padding-top: 23px;
     font-size: 70px;
     background: #222222;
     border: 1px solid gray;
     color: white;
+    align-items: flex-end;
 }
 
 .displayNum {
     margin-right: 15px;
+}
+
+.op-row {
+    display: flex;
+    width: 25%;
+    height: 23px;
+    justify-content: flex-end;
+    margin-bottom: 8px;
+
+}
+
+.op-row .op {
+    color: lightgray;
+    opacity: .4;
+    font-size: 20px;
+    margin-right: 9px; 
+
 }

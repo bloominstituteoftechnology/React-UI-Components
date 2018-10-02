@@ -8,7 +8,10 @@ class App extends React.Component {
   constructor(props){
     super(props);
     this.state = { total: 0,
-                   displayNum: '0'
+                   displayNum: '0',
+                   currentOperator: '',
+                   opBtnStyle: 'red',
+                   activeButton: 'active'
     };
     this.aTDoC = this.aTDoC.bind(this);
     this.clearDisplay = this.clearDisplay.bind(this);
@@ -25,11 +28,15 @@ class App extends React.Component {
     else{
       numberArr += number;
       this.setState({displayNum: numberArr})
-    }
+    } 
   }
 
   clearDisplay(){
-    this.setState({displayNum: [0]});
+    this.setState({displayNum: '0'});
+  }
+
+  activeOperator(){
+
   }
 
   render(){
@@ -38,7 +45,7 @@ class App extends React.Component {
     <CalculatorDisplay text={this.state.displayNum}/>
     <div className="row">
     <ActionButton buttonStyle="action clear" text='clear' onClick={this.clearDisplay} />
-    <NumberButton text="÷"/>
+    <NumberButton text="÷" buttonStyle={this.state.opBtnStyle}/>
     </div>
     
     <div className="row">
@@ -51,7 +58,7 @@ class App extends React.Component {
     <NumberButton text="4" onClick={this.aTDoC} />
     <NumberButton text="5" onClick={this.aTDoC} />
     <NumberButton text="6" onClick={this.aTDoC} />
-    <NumberButton text="−" buttonStyle="red"/>
+    <NumberButton text="−" buttonStyle={this.state.opBtnStyle}/>
     </div>
     <div className="row">
     <NumberButton text="1" onClick={this.aTDoC}  />
@@ -60,8 +67,8 @@ class App extends React.Component {
     <NumberButton text="+" buttonStyle="red"/>
     </div>
     <div className="row">
-    <ActionButton buttonStyle="action" text='0' />
-    <NumberButton text="="/>
+    <ActionButton buttonStyle="action" text='0' onClick={this.aTDoC} />
+    <NumberButton text="=" buttonStyle={this.state.opBtnStyle}/>
     </div>
 
     
