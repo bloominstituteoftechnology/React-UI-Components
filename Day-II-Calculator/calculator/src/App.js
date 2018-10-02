@@ -10,11 +10,18 @@ class App extends React.Component {
     this.state = {
       total: '0'
     };
+    this.numberSeven = '7';
   }
 
   clickNumberSeven = () => {
-    let numberSeven = '7';
-    this.setState({total: numberSeven});
+    if (this.state.total === '0') {
+      this.numberSeven = '7';
+      this.setState({total: this.numberSeven});
+      this.numberSeven += '7';
+    } else {
+      this.setState({total: this.numberSeven});
+      this.numberSeven += '7';
+    }
   };
 
   clear = () => {
