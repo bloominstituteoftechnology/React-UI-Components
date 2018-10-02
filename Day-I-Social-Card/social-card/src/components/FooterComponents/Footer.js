@@ -6,10 +6,10 @@ const Footer = props => {
   return (
     <div className='card-footer'>
       <div className='buttons-container'>
-        <DynamicButton type='comment' />
-        <DynamicButton type='repeat' />
-        <DynamicButton type='like' />
-        <DynamicButton type='mail' />
+        <div className='button'><DynamicButton type='comment' /></div>
+        <div className='button'><DynamicButton type='repeat' />8</div>
+        <div className='button'><DynamicButton type='like' />4</div>
+        <div className='button'><DynamicButton type='mail' /></div>
       </div>
     </div>
   )

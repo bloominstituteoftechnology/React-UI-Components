@@ -10,10 +10,16 @@
   grid-column-start: 2;
 }
 
+.button {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
 .card-footer .svg-inline--fa {
   height: 44px;
-  margin-top: 15px;
   color: #888;
+  margin-right: 5px;
 }
 
 
