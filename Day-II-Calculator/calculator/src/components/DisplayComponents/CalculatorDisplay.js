@@ -3,8 +3,8 @@ import './Display.css';
 
 const Display = props => {
   return (
-    <div className='display'><p className='output'>{props.text}</p></div>
+    <div className='display'><p className='output'>{props.value}</p></div>
   )
 }
 
-export default Display; 
+export default Display;
