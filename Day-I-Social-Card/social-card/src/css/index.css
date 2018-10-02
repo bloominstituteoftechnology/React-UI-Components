@@ -141,4 +141,9 @@ table {
   max-width: 900px;
   width: 100%;
   border: 3px solid red;
+  display: flex;
+  flex-flow: columns nowrap;
+}
+.header-container .image-column {
+  border: 1px solid green;
 }
