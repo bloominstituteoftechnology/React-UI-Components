@@ -1,1 +1,33 @@
 /* All styles for your header Components live here */
+.headerContainer {
+    width:514px; 
+    display:flex;
+    height: 91px;
+     
+}
+
+.headerContainer img {
+    max-width: 52px;
+    height: 54px; 
+    margin-top:8px;
+    margin-right:10px;
+}
+.headerTitle {
+    display: flex;
+    flex-direction: column;
+    width: 504px;
+    
+}
+.headerTitle h4 {
+    margin-bottom:14px;
+    margin-top: 12px;
+}
+.headerTitle p{
+    width: 504px;
+    font-size:14px; 
+    margin-top: 0;
+    margin-bottom:11px; 
+}
+.headerTitle span {
+    color:#CDD3D9;
+}

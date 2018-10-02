@@ -1,0 +1,100 @@
+.numberInputs{
+    width: 338px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+}
+
+.nonzero, .zero {
+    font-size: 48px; 
+    color: #222222;
+    font-weight: bold;
+    
+    text-align: center;
+    height: 94px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.nonzero {
+    width: 112px; 
+    border-top: 2px solid #979797;
+    border-right: 2px solid #979797;
+    
+}
+.sm {
+    width: 110px; 
+}
+
+.clear {
+    width: 334px;
+    height: 94px;
+    text-align: center;
+    border-top: 2px solid #979797;
+    border-right: 2px solid #979797;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 48px;
+}
+.zero {
+    border-bottom: 2px solid #979797;
+    height: 96px;
+}
+
+/* Display section  */
+
+.display {
+    width: 452px; 
+    height: 124px; 
+    background: #222222;
+    color: #FFFFFF; 
+    font-size: 70px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center; 
+    
+}
+
+.output {
+    margin-right: 16px;
+}
+
+/* Operators section */
+.operators {
+    color: #FFFFFF; 
+    display: flex;
+    flex-direction: column;
+    font-size: 48px;
+}
+.operation {
+    height: 94px;
+    background: #A0001E;
+    width: 118px;
+    border-top: 2px solid #979797;
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+}
+
+.pressingItems {
+    display:flex;
+
+}
+
+.fas {
+    color: #FFFFFF;
+    font-size: 40px; 
+}
+
+/* Functionality styling on hover etc */
+
+.nonzero:hover, .clear:hover{
+    cursor:pointer; 
+}
+
+.operation:hover {
+    cursor:pointer;
+}

@@ -1,0 +1,22 @@
+.footer {
+    margin-left: 62px; 
+    margin-top: 14px; 
+}
+.footer i {
+    margin-right:64px;
+    color:#CDD3D9; 
+}
+
+.fas:hover, .far:hover{
+    cursor:pointer;
+}
+
+.fa-comment {
+    transform: rotateY(180deg);
+}
+
+#commentMargin {
+    margin-right: 4px; 
+}
+
+

@@ -1,0 +1,7 @@
+.main-div{
+    height: 598px;
+    width: 456px; 
+    border: 2px solid #979797;
+    margin: 0 auto;
+    z-index: 1; 
+}
