@@ -9,7 +9,7 @@ import { faStroopwafel } from '@fortawesome/free-solid-svg-icons';
 
 library.add(faStroopwafel)
 
-const App = () => {
+const App = (props) => {
   let heartCount = 0;
   const incHeartCount = () => {
     heartCount += 1;
@@ -20,7 +20,7 @@ const App = () => {
     <div className="container">
     <HeaderContainer/>
     <CardContainer />
-    <Footer heartCount={heartCount} onClick={incHeartCount()}/>
+    <Footer heartCount={heartCount} onClick={this.incHeartCount}/>
     
     </div>
   )

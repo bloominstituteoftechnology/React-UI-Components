@@ -8,15 +8,18 @@ library.add(faHeart);
 
 
 
-const Footer = (props) => {
+const Footer = () => {
 
-    
+    let heartCount = 0;
+  const incHeartCount = () => {
+    heartCount += 1;
+  }
     return (
         <footer>
             <div className="heart-div" >
-            
-        <i className="fas fa-heart heart" onClick={props.onClick}></i>
-        <p className="heart-count">{props.heartCount}</p>
+        
+        <i className="fas fa-heart heart" onClick={(e)=> incHeartCount}></i>
+        <p className="heart-count">{heartCount}</p>
         </div>
         </footer>
     );

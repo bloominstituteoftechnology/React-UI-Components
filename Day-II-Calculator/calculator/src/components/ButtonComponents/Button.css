@@ -1,0 +1,17 @@
+.defaultStyles {
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+    
+}
+
+button {
+    width: 25%;
+    padding: 25px;
+    border: 1px solid gray;
+}
+
+.red {
+    background: red;
+    color: white; 
+}
