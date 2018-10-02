@@ -2,7 +2,7 @@ import React from 'react';
 import './Display.css';
 
 const CalculatorDisplay = props => (
-    <div className='display'>0</div>
+    <div className='display'>{props.text}</div>
 );
 
 export default CalculatorDisplay;
