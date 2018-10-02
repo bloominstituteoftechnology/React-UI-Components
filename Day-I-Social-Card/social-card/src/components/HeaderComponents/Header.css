@@ -1,1 +1,9 @@
 /* All styles for your header Components live here */
+.header-container {
+    display: flex;
+}
+
+.image-thumbnail {
+    height: 40px;
+    margin: 20px;
+}

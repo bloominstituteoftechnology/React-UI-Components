@@ -1,21 +1,74 @@
 import React from 'react';
 import './App.css';
+import ActionButton from './components/ButtonComponents/ActionButton';
+import NumberButton from './components/ButtonComponents/NumberButton';
+import CalculatorDisplay from './components/DisplayComponents/CalculatorDisplay';
+
+
+const buttonPlus = {
+  buttonStyle: 'actionButton',
+  text: '+'
+}
+
+const buttonMinus = {
+  buttonStyle: 'actionButton',
+  text: '-'
+}
+
+const buttonDivide = {
+  buttonStyle: 'actionButton',
+  text: '/'
+}
+
+const buttonMultiply = {
+  buttonStyle: 'actionButton',
+  text: '*'
+}
+
+const buttonEqual = {
+  buttonStyle: 'actionButton',
+  text: '='
+}
+
+const buttonClear = {
+  buttonStyle: 'actionButton',
+  text: 'clear'
+}
+
+const buttonZero = {
+  buttonStyle: 'actionButton',
+  text: '0'
+}
 
 const App = () => {
   return (
-    <div>
-      <h3>Welcome to React Calculator</h3>
-      <p>
-        We have given you a starter project. You'll want to build out your
-        components in their respective files, remove this code and replace it
-        with the proper components.
-      </p>
-      <p>
-        <strong>
-          Don't forget to `default export` your components and import them here
-          inside of this file in order to make them work.
-        </strong>
-      </p>
+    <div className="calculator">
+      <CalculatorDisplay />
+   
+      <div className="input">
+        <div className="numsAndClear">
+            <ActionButton buttonInfo={buttonClear}/>
+            <div className="numPad">
+              <NumberButton/>
+              <NumberButton/>
+              <NumberButton/>
+              <NumberButton/>
+              <NumberButton/>
+              <NumberButton/>
+              <NumberButton/>
+              <NumberButton/>
+              <NumberButton/>
+            </div>
+            <ActionButton buttonInfo={buttonZero}/>
+        </div>
+        <div className="operators">
+          <ActionButton buttonInfo={buttonPlus}/>
+          <ActionButton buttonInfo={buttonMinus}/>
+          <ActionButton buttonInfo={buttonDivide}/>
+          <ActionButton buttonInfo={buttonMultiply}/>
+          <ActionButton buttonInfo={buttonEqual}/>
+        </div>
+      </div>
     </div>
   );
 };
