@@ -87,20 +87,32 @@ const calculator = [
   }
 ];
 
-const App = () => {
-  return (
-    <div className="App">
-      <CalculatorDisplay style="CalculatorDisplay" value={0} />
+class App extends React.Component {
+  constructor() {
+    super();
+    this.state = {
+      total: 0
+    };
+  }
+  render() {
+    return (
+      <div className="App">
+        <CalculatorDisplay style="CalculatorDisplay" value={this.state.total} />
 
-      {calculator.map(button => {
-        if (button.type === 'action') {
-          return <ActionButton style={button.style} value={button.value} />;
-        } else if (button.type === 'number') {
-          return <NumberButton style={button.style} value={button.value} />;
-        }
-      })}
-    </div>
-  );
-};
+        {calculator.map(button => {
+          if (button.type === 'action') {
+            return (
+              <ActionButton buttonStyle={button.style} value={button.value} />
+            );
+          } else if (button.type === 'number') {
+            return (
+              <NumberButton buttonStyle={button.style} value={button.value} />
+            );
+          }
+        })}
+      </div>
+    );
+  }
+}
 
 export default App;
