@@ -2,8 +2,7 @@
 .container {
     border:1px solid red;
     display:flex;
-    width:800px;
-    margin:0 auto;
+    
 }
 
 .header-title {
