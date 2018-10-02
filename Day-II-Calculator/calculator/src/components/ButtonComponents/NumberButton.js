@@ -1,10 +1,22 @@
 import React from 'react';
 import './Button.css';
 
-const NumberButton = props => { 
-    return (
-            <button className=  {props.number.font + ' ' +props.number.type}>{props.number.number}</button>
-    );
+class NumberButton extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = {};
+    }
+
+    numClickEvent = event => {
+        console.log(event.target);
+    };
+
+    render() {
+        return (
+            
+                <button onClick= {this.numClickEvent} className= {this.props.number.font + ' ' + this.props.number.type}>{this.props.number.number}</button>
+        );
+    }
 }
 
 export default NumberButton;

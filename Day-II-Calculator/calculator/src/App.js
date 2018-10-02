@@ -3,13 +3,19 @@ import './App.css';
 import Display from './components/DisplayComponents/CalculatorDisplay';
 import Buttons from './components/ButtonComponents/Buttons';
 
-const App = () => {
-  return (
-    <div className = 'app'>
-      <Display/>
-      <Buttons/>
-    </div>
-  );
+class App extends React.Component {
+  constructor() {
+    super();
+    this.state = {};
+  }
+  render() {
+    return (
+      <div className = 'app'>
+        <Display/>
+        <Buttons/>
+      </div>
+    );
+  }
 };
 
 export default App;
