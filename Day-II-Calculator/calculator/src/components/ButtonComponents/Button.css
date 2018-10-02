@@ -12,7 +12,14 @@ button {
     font-size: 50px;
     font-weight: bold;
     background: white;
+    cursor: pointer;
+    transition: .5s;
     
+}
+
+button:hover {
+    color: #A0001E;
+    background: #222222;
 }
 
 .red {

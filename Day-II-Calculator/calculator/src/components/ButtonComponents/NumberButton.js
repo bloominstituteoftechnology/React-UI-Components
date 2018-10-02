@@ -4,13 +4,17 @@ import './Button.css';
 const NumberButton = (props) => {
 
     return (
-        <button className={props.buttonStyle}>{props.text}</button>
+        <button className={props.buttonStyle} 
+                onClick={()=> props.onClick(props.text)}
+                >
+        {props.text}
+        </button>
     );
 
 }
 
 export default NumberButton;
 
-NumberButton.defaultProps = {
+/* NumberButton.defaultProps = {
     buttonStyles: 'defaultStyles'
-}
+} */
