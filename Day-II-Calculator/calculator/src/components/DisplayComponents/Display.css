@@ -53,6 +53,7 @@ button{
     outline:none;
     font-size:50px;
 }
-:active{
-    background-color:lightcoral; 
+button:active{
+    background-color:lightgray;
 }
+
