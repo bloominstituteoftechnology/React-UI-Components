@@ -5,7 +5,11 @@
 
 .row {
   display: flex;
-  height: 96px;
+  height: 94px;
+}
+
+.display-row {
+  height: 126px;
 }
 
 .row > * {
