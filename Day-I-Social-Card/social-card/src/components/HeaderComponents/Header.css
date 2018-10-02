@@ -22,7 +22,7 @@
   display: flex;
   justify-content: space-between;
   align-items: baseline;
-  width: 254px;
+  max-width: 254px;
 }
 
 .header-text .title h1 {

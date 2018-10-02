@@ -1,7 +1,8 @@
 /* All styles for your Card Components live here */
 .card-container {
   object-fit: cover;
-  width: 504px;
+  width: 100%;
+  max-width: 504px;
   margin-top: 10px;
   margin-left: 63px;
   border: 1px solid #E6EDF0;

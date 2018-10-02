@@ -8,5 +8,6 @@
   font-family: sans-serif;
 }
 .container {
-  width: 590px;
+  width: 100%;
+  max-width: 590px;
 }
