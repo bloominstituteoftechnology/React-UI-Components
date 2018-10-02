@@ -1,0 +1,40 @@
+
+
+.action-button {
+    margin-top: 200px;
+}
+
+.arithmetic-btns {
+
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    font-size: 45px;
+    background-color:#A0001E;
+    color:white;
+    line-height: 10px;
+    width: 75px;
+    height: 75px;
+    /* border: 1px solid #979797; */
+
+}
+
+.number {
+    display:flex;
+    flex-wrap: wrap;
+    width: 225px;
+    height: 205px;
+    margin-left: 699px;
+    margin-top: -300px;
+}
+
+.num-button {
+    /* border: 1px solid #979797; */
+    font-size: 30px;
+    margin: 0 auto;
+    width: 75px;
+    height: 75px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
