@@ -1,12 +1,14 @@
 html{
-  box-sizing: border-box;}
+  box-sizing: border-box;
+  background: black;
+}
 
 body {
   margin: 30% auto;
   padding: 0;
   font-family: sans-serif;
   width: 100%;
-  max-width: 278px;
+  max-width: 190px;
   border: 2px solid grey;
   display: flex;
   flex-wrap: wrap;

@@ -1,6 +1,6 @@
 button{
-    width: 8vh;
-    height: 8vh;
+    width: 47px ;
+    height: 47px;
     border: 1px solid grey;
     box-shadow: 2px 0px #999;
 }
@@ -20,7 +20,7 @@ button:active {
 }
 
 .clear{
-    width: 24vh;
+    width: 141px;
 
 }
 
