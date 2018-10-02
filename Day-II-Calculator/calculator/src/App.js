@@ -1,10 +1,11 @@
 import React from 'react';
 import './App.css';
 import Button from './components/ButtonComponents/NumberButton'
+import ActionButton from './components/ButtonComponents/ActionButton';
+import Display from './components/DisplayComponents/CalculatorDisplay';
 
 const buttons = [
   {
-  zero: '0',  
   one: '1',
   two: '2', 
   three: '3',
@@ -25,6 +26,8 @@ const buttons = [
 const App = () => {
   return (
     <div className = 'calculator'>
+    <ActionButton />
+    <Display />
       {buttons.map(button => {
         return (
           <Button button={button}/>

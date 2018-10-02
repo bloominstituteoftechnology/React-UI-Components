@@ -1,0 +1,17 @@
+.display {
+    position: fixed;
+    top: 152px;
+    left: 410px;
+    border: 1px solid grey;
+    width: 198px;
+    height: 50px;
+    background: black;
+    color: white;
+    font-size: 30px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.innerDisplay{
+    padding-right: 7px;
+}
