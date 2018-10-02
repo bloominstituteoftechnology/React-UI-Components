@@ -1,1 +1,33 @@
 /* All styles for your header Components live here */
+a:any-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.header-container {
+    display: flex;
+    padding-top: 0.5rem;
+}
+.image-thumbnail {
+    height: 5.5rem;
+    width: auto;
+}
+.header-content {
+    margin: 0 1rem;
+}
+.header-title {
+}
+.profile-name {
+    font-weight: bold;
+}
+.profile-id {
+    color: grey;
+    font-size: 1.2rem;
+}
+.post-date {
+    color: grey;
+    font-size: 1.2rem;
+}
+p {
+
+}

@@ -1,1 +1,29 @@
 /* All styles for your Card Components live here */
+
+.card-container {
+    margin-left: 6rem;
+    display: flex;
+    flex-direction: column;
+    border: solid lightgray 1px;
+    border-radius: 0.5rem;
+}
+.card-banner {
+    background: #222222;
+}
+.card-banner img {
+    width: 100%;
+    height: auto;
+}
+.card-content {
+    padding: 1rem;
+}
+.card-title {
+    font-weight: bold;
+}
+.card-body {
+
+}
+a.card-referer {
+    color: grey;
+    font-size: 1.2rem;
+}

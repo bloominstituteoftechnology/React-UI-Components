@@ -1,2 +1,18 @@
 import React from 'react';
 import './Card.css';
+import CardBanner from './CardBanner';
+import CardContent from './CardContent';
+//href="https://www.reactjs.org"
+const CardContainer = props => (
+    <div class="card-container">
+        <CardBanner />
+        <CardContent
+            postTitle={props.postTitle}
+            postUrl={props.postUrl}
+        >
+            {props.children}
+        </CardContent>
+    </div>
+);
+
+export default CardContainer;
