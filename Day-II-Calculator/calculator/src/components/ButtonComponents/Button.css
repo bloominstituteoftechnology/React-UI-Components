@@ -1,0 +1,26 @@
+.numberButton {
+    width: 123px;
+    height: 88px;
+    border: 1px solid gray;
+    text-align: center;
+    line-height:88px;
+    font-size: 45px;
+
+}
+.bigNumber {
+    border: 1px solid gray;
+    text-align: center;
+    height: 88px;
+    font-size: 50px;
+    line-height:88px;
+}
+.actionButton {
+    width: 123px;
+    height: 88px;
+    border: 1px solid gray;
+    background-color: #A80029;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    line-height:88px;
+}

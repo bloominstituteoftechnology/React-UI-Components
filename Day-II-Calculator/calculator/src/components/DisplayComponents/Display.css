@@ -3,3 +3,32 @@
     height: 500px;
     border: 1px solid black;
 }
+
+.calcContainer .topDisplay {
+    width: 500px;
+    height: 50px;
+    background-color: #272727;
+    color: white;
+    font-size: 40px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.calcContainer .topDisplay .topNum {
+    padding: 5px 10px 0 0;
+}
+
+.calcContainer .number {
+    display: grid;
+    grid: auto-flow dense / repeat(3,1fr);
+}
+
+.bigNumber {
+    border: 2px solid orange;
+    text-align: center;
+    height: 88px;
+}
+
+.calcContainer .buttons {
+    display: flex;
+}
