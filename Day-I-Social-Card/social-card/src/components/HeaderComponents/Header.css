@@ -1,1 +1,28 @@
 /* All styles for your header Components live here */
+
+.headerContainer {
+    max-width: 590px;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-start;
+}
+
+.thumbnail {
+    width: 10%;
+    border-radius: 50%;
+}
+
+.headerContent {
+    width: 90%;
+    margin-left: 10px;
+}
+
+ p {
+    margin-top: 3px;
+    
+}
+
+span.details {
+    color: #8998A5;
+    font-size: 80%;
+}
