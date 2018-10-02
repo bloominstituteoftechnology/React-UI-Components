@@ -1,0 +1,74 @@
+.headerContainer {
+  display: flex;
+  box-sizing: border-box;
+}
+.headerContainer .headerContentContainer .headerContent p {
+  font-size: 1rem;
+  margin: 0;
+  margin-top: 9px;
+}
+.headerContainer .headerContentContainer .headerTitle {
+  display: flex;
+  align-items: center;
+  padding-top: 4px;
+  width: 100%;
+}
+.headerContainer .headerContentContainer .headerTitle h1 {
+  font-size: 1rem;
+  margin: 0;
+}
+.headerContainer .headerContentContainer .headerTitle p {
+  color: grey;
+  margin: 0;
+  padding: 0 1% 0 1%;
+  font-size: 0.75rem;
+}
+.headerContainer .imageThumbnail {
+  width: 30%;
+}
+.headerContainer .imageThumbnail img {
+  width: 100%;
+}
+.appContainer {
+  box-sizing: border-box;
+  max-width: 590px;
+  margin: 0 auto;
+  font-size: 62.5%;
+  display: flex;
+  flex-direction: column;
+}
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+  margin-left: 12%;
+}
+.cardContainer .cardBanner {
+  background-image: url(https://ibin.co/3wnC6SgIOJud.png);
+  height: 250px;
+  width: 97%;
+  background-position: center;
+  background-size: cover;
+  margin-top: 12px;
+  border-radius: 5px;
+  background-size: 100%
+}
+.cardContainer .cardContent {
+  margin-left: 2%;
+}
+.cardContainer .cardContent h1 {
+  font-size: 1rem;
+  margin: 0;
+  margin-top: 5px;
+}
+.cardContainer .cardContent p {
+  font-size: 1rem;
+  margin: 0;
+  margin-top: 3px;
+  width: 90%;
+}
+.cardContainer .cardContent a {
+  color: gray;
+  font-size: 1rem;
+  text-decoration: none;
+  margin-top: 10px;
+}
