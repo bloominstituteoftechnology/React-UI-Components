@@ -3,8 +3,9 @@ import './Button.css';
 
 function ActionButton(props) {
     return (
-        <h1>Hello Dacula!</h1>
+        <div className={props.buttonInfo.buttonStyle}>Here{props.buttonInfo.text}</div>
     );
 }
 
 export default ActionButton;
+
