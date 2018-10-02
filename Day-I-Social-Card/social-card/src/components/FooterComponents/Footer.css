@@ -1,0 +1,10 @@
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 252px;
+  margin-top: 20px;
+  margin-left: 63px;
+  color: #8F9DA9;
+  /* font-size: 0.9rem; */
+}
