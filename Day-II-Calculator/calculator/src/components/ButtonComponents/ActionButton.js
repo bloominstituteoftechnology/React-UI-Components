@@ -1,10 +1,10 @@
 import React from 'react';
 import './Button.css';
 
-const ActionButton = props => {
+const ActionButton = ({type}) => {
     return (
-        <div>
-            ActionButton
+        <div className={`button action-button ${type === 'clear' ? 'wide-button': ''}`}>
+            {type}
         </div>
     );
 }

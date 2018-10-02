@@ -1,6 +1,5 @@
-.calculator-button {
+.calculator-container {
     width: 456px;
-    height: 598px;
     display: flex;
     flex-direction: column;
 }

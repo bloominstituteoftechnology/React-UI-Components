@@ -1,0 +1,12 @@
+.result-display {
+    height: 126px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background: #1F1F1F;
+    color: white;
+    font-size: 71px;
+    font-weight: 200;
+    padding: 9px 15px 0px 0px;
+}
