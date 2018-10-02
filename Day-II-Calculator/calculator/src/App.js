@@ -11,15 +11,28 @@ class App extends Component {
   }
 
   handleInput = input => {
-    this.setState({ display: this.state.display + input })
+    const { display } = this.state
+    this.setState({ display: display === '0' ? input : display + input })
   }
 
   handleClear = () => {
-    this.setState({ display: 0 })
+    this.setState({ display: '0' })
+  }
+
+  handleEvaluate = () => {
+    let result
+
+    try {
+      result = eval(this.state.display)
+    } catch(error) {
+      result = 'error'
+    }
+
+    this.setState({ display: result })
   }
 
   render() {
-    const { handleInput, handleClear } = this
+    const { handleInput, handleClear, handleEvaluate } = this
     const { display } = this.state
 
     return (
@@ -28,10 +41,15 @@ class App extends Component {
           <CalculatorDisplay>{display}</CalculatorDisplay>
         </div>
         <div className="row">
-          <ActionButton width="3" color="white" fontColor="grey" action={handleClear}>
+          <ActionButton
+            width="3"
+            color="white"
+            fontColor="grey"
+            action={handleClear}
+          >
             clear
           </ActionButton>
-          <ActionButton>÷</ActionButton>
+          <ActionButton action={handleInput}>÷</ActionButton>
         </div>
         {[['7', '8', '9', 'x'], ['4', '5', '6', '-'], ['1', '2', '3', '+']].map(
           (row, i) => (
@@ -43,7 +61,9 @@ class App extends Component {
                       {item}
                     </NumberButton>
                   ) : (
-                    <ActionButton key={j}>{item}</ActionButton>
+                    <ActionButton key={j} action={handleInput}>
+                      {item}
+                    </ActionButton>
                   )
               )}
             </div>
@@ -53,7 +73,7 @@ class App extends Component {
           <NumberButton width="3" handleInput={handleInput}>
             0
           </NumberButton>
-          <ActionButton>=</ActionButton>
+          <ActionButton action={handleEvaluate}>=</ActionButton>
         </div>
       </div>
     )

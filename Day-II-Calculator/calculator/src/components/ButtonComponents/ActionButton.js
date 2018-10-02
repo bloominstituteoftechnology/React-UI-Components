@@ -10,7 +10,7 @@ const ActionButton = ({
 }) => (
   <div
     className={`action-button width-${width} color-${color} font-color-${fontColor}`}
-    onClick={() => action()}
+    onClick={() => action(children)}
   >
     {children}
   </div>
