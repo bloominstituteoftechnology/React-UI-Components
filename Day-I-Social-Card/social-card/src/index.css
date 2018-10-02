@@ -1,3 +1,13 @@
+.container {
+  max-width: 880px;
+  height: 750px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+ border: solid;
+}
+
+
 body {
   margin: 0;
   padding: 0.4rem;
