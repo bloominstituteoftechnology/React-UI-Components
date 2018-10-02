@@ -12,29 +12,29 @@ const App = () => (
     </div>
     <div className="row">
       <ActionButton width="3">clear</ActionButton>
-      <ActionButton color="red">÷</ActionButton>
+      <ActionButton color="red" fontColor="white">÷</ActionButton>
     </div>
     <div className="row">
       <NumberButton>7</NumberButton>
       <NumberButton>8</NumberButton>
       <NumberButton>9</NumberButton>
-      <ActionButton color="red">x</ActionButton>
+      <ActionButton color="red" fontColor="white">x</ActionButton>
     </div>
     <div className="row">
       <NumberButton>4</NumberButton>
       <NumberButton>5</NumberButton>
       <NumberButton>6</NumberButton>
-      <ActionButton color="red">-</ActionButton>
+      <ActionButton color="red" fontColor="white">-</ActionButton>
     </div>
     <div className="row">
       <NumberButton>1</NumberButton>
       <NumberButton>2</NumberButton>
       <NumberButton>3</NumberButton>
-      <ActionButton color="red">+</ActionButton>
+      <ActionButton color="red" fontColor="white">+</ActionButton>
     </div>
     <div className="row">
       <NumberButton width="3">0</NumberButton>
-      <ActionButton color="red">=</ActionButton>
+      <ActionButton color="red" fontColor="white">=</ActionButton>
     </div>
   </div>
 )

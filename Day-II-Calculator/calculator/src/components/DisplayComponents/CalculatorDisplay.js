@@ -1,8 +1,8 @@
 import React from 'react'
 import './Display.css'
 
-const CalculatorDisplay = ({ children, width, color }) => (
-  <div className={`calulator-display width-${width} color-${color}`}>
+const CalculatorDisplay = ({ children, width, color, fontColor = 'white' }) => (
+  <div className={`calulator-display width-${width} color-${color} font-color-${fontColor}`}>
     {children}
   </div>
 )

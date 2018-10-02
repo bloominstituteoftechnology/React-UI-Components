@@ -1,10 +1,16 @@
 .calculator-container {
-  width: 400px;
+  width: 456px;
+  border: 1px solid grey;
 }
 
 .row {
   display: flex;
-  height: 30px;
+  height: 96px;
+}
+
+.row > * {
+  box-shadow: inset 0 0 0 1px grey;
+  font-size: 4.2rem;
 }
 
 .width-1 {
@@ -28,9 +34,17 @@
 }
 
 .color-red {
-  background: red;
+  background: #A80016;
 }
 
 .color-grey {
-  background: grey;
+  background: #272727;
+}
+
+.font-color-grey {
+  color: #272727;
+}
+
+.font-color-white {
+  color: white;
 }
