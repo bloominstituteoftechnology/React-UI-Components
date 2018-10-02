@@ -9,9 +9,9 @@ const CardContent = props => {
         React makes it painless to create interactive UIs. Design simple views
         for each state in your application.
       </p>
-      <a className="CardContent__a" href="http://reactjs.org">
+      <div className="CardContent__a" href="http://reactjs.org">
         reactjs.org
-      </a>
+      </div>
     </div>
   );
 };

@@ -6,8 +6,16 @@ const Footer = props => {
   return (
     <footer className="Footer">
       <FooterIcon icon="far fa-comment" />
-      <FooterIcon icon="fas fa-retweet" number={4} />
-      <FooterIcon icon="far fa-heart" number={6} />
+      <FooterIcon
+        handleFooterClick={props.handleFooterClick}
+        icon="fas fa-retweet"
+        number={props.retweets}
+      />
+      <FooterIcon
+        handleFooterClick={props.handleFooterClick}
+        icon="far fa-heart"
+        number={props.favorites}
+      />
       <FooterIcon icon="far fa-envelope" />
     </footer>
   );

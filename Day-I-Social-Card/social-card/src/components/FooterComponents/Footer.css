@@ -9,9 +9,18 @@
   color: #95a3af;
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 
 .FooterIcon__span {
   margin-left: 1rem;
   font-size: 1.2rem;
+}
+
+.retweet {
+  color: green;
+}
+
+.favorite {
+  color: red;
 }
