@@ -1,1 +1,40 @@
-/* All styles for your Card Components live here */
+.card-container {
+    width: 100%;
+}
+
+.card-banner {
+    width: 95%;
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.card-content {
+    display: flex;
+    flex-flow: column nowrap;
+    margin-left: 40px;
+  
+}
+
+.cont-link {
+    text-decoration: none;
+    color: black;
+}
+
+.card-text1 {
+    font-weight: bold;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+.card-text2 {
+    font-size: 14px;
+
+}
+
+.card-link {
+    text-decoration: none;
+    color: gray;
+    font-size: 13px;
+}

@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    flex-flow: column wrap;
+
+}
+
+.numbers {
+    order: 1;
+    
+}
+
+.act-container {
+    display: flex;
+    
+}
+
+.action.zero {
+
+    position: relative;
+    border: 1px solid black;
+}
+
+.equals {
+ 
+    position: absolute;
+    left: 350px;
+    top: 530px;
+}
