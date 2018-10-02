@@ -1,0 +1,58 @@
+.clear {
+    width: 300px;
+    height: 98px;
+    border: 1px solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 48px;
+    background: white;
+}
+
+.equals {
+    background: red;
+    width: 98px;
+    border: 1px solid grey;
+    font-size: 48px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.zero {
+    width: 300px;
+    height: 98px;
+    border: 1px solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 48px;
+    background: white;
+}
+
+.number {
+    width: 100px;
+    height: 98px;
+    border: 1px solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 48px;
+    background: white;
+}
+
+.operator {
+    background: red;
+    color: white;
+    font-size: 48px;
+    width: 98px; 
+    height: 98px;
+    border: 1px solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
