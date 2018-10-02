@@ -1,1 +1,37 @@
 /* All styles for your Card Components live here */
+
+.card-container {
+    cursor: pointer;
+}
+
+.banner {
+    width: 600px;
+    margin-left: 110px;
+    border-radius: 1%;
+}
+
+.card-content {
+    width: 585px;
+    margin-left: 130px;
+    display:flex;
+    flex-wrap: wrap;
+
+}
+
+
+.card-content h1 {
+    font-size: 20px;
+}
+
+.card-content p {
+    line-height: 1.5;
+    margin-top: -5px;
+}
+
+.card-content a {
+    margin-top: -8px;
+}
+
+
+
+

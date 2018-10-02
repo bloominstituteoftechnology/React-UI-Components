@@ -1,0 +1,10 @@
+.display {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 298px;
+    height: 90px;
+    background: black;
+    color: white;
+    margin-left: 699px;
+    margin-top: -370px;
+}
