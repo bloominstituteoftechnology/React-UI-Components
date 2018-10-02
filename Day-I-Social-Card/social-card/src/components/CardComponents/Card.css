@@ -1,1 +1,21 @@
 /* All styles for your Card Components live here */
+
+.banner {
+    display:flex;
+    flex-direction: column;
+    margin-left:60px;
+    margin-right:10px;
+    border:1px solid lightgray;
+}
+
+.image-banner {
+    width:100%;
+    /* width:90%;
+    height:75%;
+    margin-left:10%; */
+}
+
+.card-content {
+    padding: 0 20px;
+}
+
