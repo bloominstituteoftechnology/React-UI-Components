@@ -1,1 +1,28 @@
 /* All styles for your header Components live here */
+.Header {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 1.5rem;
+}
+
+.HeaderTitle {
+  font-weight: bold;
+  font-size: 1.4rem;
+  margin: 1.5rem 0;
+}
+
+.HeaderTitle__span {
+  font-weight: 400;
+  color: #95a3af;
+}
+
+.HeaderContent__p {
+  font-weight: 1.4rem;
+}
+
+img {
+  display: block;
+  height: 55px;
+  width: 55px;
+  padding: 1rem;
+}
