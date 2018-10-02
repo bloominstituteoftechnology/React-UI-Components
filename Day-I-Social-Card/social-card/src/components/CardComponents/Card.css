@@ -1,1 +1,13 @@
 /* All styles for your Card Components live here */
+.cardContainer {
+    /* empty  */
+    width:500px;
+}
+
+.cardContainer img{
+    width: 100%;
+}
+
+.sourceURL {
+    color:gray;
+}
