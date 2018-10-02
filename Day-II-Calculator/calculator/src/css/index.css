@@ -135,71 +135,71 @@ table {
 }
 /* Your Code Goes Here */
 * {
+  margin: 0 auto;
   box-sizing: border-box;
 }
 html {
+  font-family: sans-serif;
   font-size: 62.5%;
 }
-.container {
+.calculator-container {
+  max-width: 456px;
+}
+.calculator-container .buttons-container {
   display: flex;
   flex-direction: row;
-  margin: 0 auto;
-  max-width: 590px;
-  margin-top: 13px;
-  padding-right: 10px;
 }
-.main-body {
-  display: flex;
-  flex-direction: column;
-}
-p {
-  font-size: 1.6rem;
-}
-.header-container {
-  display: flex;
-  flex-direction: column;
-}
-.lambda-logo {
-  width: 50px;
-  margin: 0 9px;
-}
-.header-paragraph {
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-.bold-title {
-  font-weight: bold;
-}
-.banner-image {
+.calculator-container .buttons-container .action {
   width: 100%;
-  height: auto;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
-  margin-top: 10px;
-}
-.card-content-container {
-  display: flex;
-  flex-direction: column;
-}
-.card-content-container .h1 {
-  font-size: 1.6 rem;
-  font-weight: bold;
-}
-.card-content-container {
-  padding-left: 15px;
+  text-align: center;
   border: 1px solid gray;
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
+  font-size: 4rem;
+  padding: 25px 0;
 }
-.gray-text {
-  color: gray;
-  margin-top: 10px;
+.calculator-container .buttons-container .number-buttons-container {
+  width: 75%;
 }
-.footer-container {
+.calculator-container .buttons-container .number-buttons-container .numbers-container {
   display: flex;
-  flex-direction: row;
-  margin-top: 30px;
+  flex-wrap: wrap;
 }
-.footer-container .size {
-  font-size: 3rem;
+.calculator-container .buttons-container .number-buttons-container .numbers-container .numbers {
+  border: 1px solid gray;
+  width: 33.3%;
+  text-align: center;
+  font-size: 4rem;
+  padding: 25px 0;
+}
+.calculator-container .buttons-container .symbols-container {
+  text-align: center;
+  width: 25%;
+}
+.calculator-container .buttons-container .symbols-container .symbols {
+  border: 1px solid gray;
+  width: 100%;
+  padding: 25px 0;
+  background: #a0001f;
+  color: #fff;
+  font-size: 4rem;
+}
+.calculator-display {
+  background: black;
+  padding: 30px 20px 30px 0;
+  display: flex;
+  color: #ffffff;
+  font-size: 7rem;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+}
+.calculator-display p {
+  display: flex;
+  color: #ffffff;
+  font-size: 7rem;
+  justify-content: flex-end;
+  font-weight: 100;
+}
+.red {
+  background: #a0001f;
+  color: #fff;
 }
