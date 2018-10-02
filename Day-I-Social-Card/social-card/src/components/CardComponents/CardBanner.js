@@ -2,7 +2,7 @@ import React from 'react';
 import './Card.css';
 import CardContent from './CardContent';
 
-const CardBanner = () => {
+const CardBanner = (props) => {
     return ( 
         <div className='banner'>
             <div className='inner-banner'>
