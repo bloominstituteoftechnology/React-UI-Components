@@ -3,7 +3,8 @@ import './Display.css';
 
 const Display = props => {
   return (
-    <div className='display'><p className='output'>{props.value}</p></div>
+    <div className='display'>
+      <div className='output'>{props.value}</div></div>
   )
 }
 

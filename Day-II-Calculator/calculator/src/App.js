@@ -1,42 +1,8 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 import './App.css';
-// import NumberButton from './components/ButtonComponents/NumberButton';
-// import ActionButton from './components/ButtonComponents/ActionButton';
 import Display from './components/DisplayComponents/CalculatorDisplay';
 import Keys from './components/ButtonComponents/Keys';
 
-// const buttons = [
-// {
-//     label: '&divide;', style: 'operation-button'
-//   }, {
-//     label: '7', style: 'number-button'
-//   }, {
-//     label: '8', style: 'number-button'
-//   }, {
-//     label: '9', style: 'number-button'
-//   }, {
-//     label: '&times;', style: 'operation-button'
-//   }, {
-//     label: '4', style: 'number-button'
-//   }, {
-//     label: '5', style: 'number-button'
-//   }, {
-//     label: '6', style: 'number-button'
-//   }, {
-//     label: `${&minus;}`, style: 'operation-button'
-//   }, {
-//     label: '1', style: 'number-button'
-//   }, {
-//     label: '2', style: 'number-button'
-//   }, {
-//     label: '3', style: 'number-button'
-//   }, {
-//     label: '+;', style: 'operation-button'
-//   }, {
-//     label: '0', style: 'number-button long'
-//   },
-// ];
-//
 // const App = () => {
 //   return (<div className='container'>
 //     <Display text='0'/>
@@ -61,21 +27,20 @@ import Keys from './components/ButtonComponents/Keys';
 //   </div>);
 // };
 
-
 class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
       operation: '',
-      value: 0,
+      value: 0
     };
-  this.handleInput = this.handleInput.bind(this);
-  this.handleClear = this.handleClear.bind(this);
-  this.handleCalculate = this.handleCalculate.bind(this);
+    this.handleInput = this.handleInput.bind(this);
+    this.handleClear = this.handleClear.bind(this);
+    this.handleCalculate = this.handleCalculate.bind(this);
   }
   handleInput = (e) => {
     if (this.state.value !== 0) {
-      this.setState((prevState=> ({
+      this.setState((prevState => ({
         value: prevState.value + '' + e,
         operation: prevState.operation += e
       })));
@@ -88,10 +53,7 @@ class App extends Component {
   };
 
   handleClear = () => {
-    this.setState({
-      value: 0,
-      operation: '',
-    })
+    this.setState({value: 0, operation: ''})
   };
 
   handleCalculate = () => {
@@ -101,17 +63,11 @@ class App extends Component {
   };
 
   render() {
-    return (
-      <div className='container'>
-        <Display value={this.state.value}/>
-        <Keys handleInput={this.handleInput} handleClear={this.handleClear} handleCalculate={this.handleCalculate}/>
-      </div>
-    )
+    return (<div className='container'>
+      <Display value={this.state.value}/>
+      <Keys handleInput={this.handleInput} handleClear={this.handleClear} handleCalculate={this.handleCalculate}/>
+    </div>)
   }
-
 };
-
-
-
 
 export default App;
