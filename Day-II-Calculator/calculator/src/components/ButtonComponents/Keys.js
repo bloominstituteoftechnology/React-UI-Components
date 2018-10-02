@@ -94,6 +94,12 @@ const Keys = (props) => {
         )
       })
     }
+    <ActionButton buttonStyle='operation-button' label='=' onClick={props.handleCalculate}/>
+  </div>)
+}
+
+export default Keys;
+
           {/* <NumberButton buttonStyle='operation-button' label='&divide;' value='/' onClick={handleInput}/>
           <NumberButton buttonStyle='number-button' label='7' value='7' onClick={handleInput}/>
           <NumberButton buttonStyle='number-button' label='8' value='8' onClick={handleInput}/>
@@ -109,8 +115,3 @@ const Keys = (props) => {
           <NumberButton buttonStyle='operation-button' label='+' value='+' onClick={handleInput}/>
           <NumberButton buttonStyle='number-button long' label='0' value='0' onClick={handleInput}/> */
     }
-    <ActionButton buttonStyle='operation-button' label='=' onClick={props.handleCalculate}/>
-  </div>)
-}
-
-export default Keys;
