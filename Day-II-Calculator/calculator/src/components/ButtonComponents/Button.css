@@ -39,3 +39,11 @@
   width: 33.33%;
   padding: 25px 0 0;
 }
+
+.clear-plus-number-buttons .zero {
+  width: 100%;
+}
+.clear-plus-number-buttons .clear {
+  font-size: 40px;
+  padding: 30px 0 0;
+}
