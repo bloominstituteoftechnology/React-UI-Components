@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.action {
+    width: 350px;
+    height: 100px;
+    background: white;
+    border: 1px solid black;
+    font-size: 48px;
+    text-align: center;
+    font-weight: bold;
+    order: 2;
+    margin: 0;
+    padding: 0;
+}
+.divide, 
+.multiply, 
+.add, 
+.subtract, 
+.equals {
+    height: 100px;
+    width: 150px;
+    border: 1px solid black;
+    color: white;
+    background: crimson;
+    font-size: 48px;
+}
+.number {
+    width: 116.5px;
+    height: 100px;
+    background: white;
+    color: black;
+    font-size: 48px;
+    border: 1px solid black;
+    font-weight: bold;
+}
+
+.clear {
+    font-weight: 200;
+    order: 0;
+}
+
+
+

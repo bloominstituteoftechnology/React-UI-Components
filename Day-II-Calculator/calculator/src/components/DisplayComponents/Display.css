@@ -1,0 +1,12 @@
+.display {
+    background: black;
+    color: white;
+    width: 500px;
+    height: 120px;
+    font-size: 80px;
+    text-align: right;
+    margin-top: 10px;
+    font-weight: lighter;
+    padding: 25px 20px 0 0;
+
+}
