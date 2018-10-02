@@ -1,0 +1,47 @@
+
+.action-btn-container{
+    display:flex;
+    width:120px;
+    flex-direction: row;
+}
+.action-btn{
+    font-size:50px;
+    background:#A0001E;
+    width:120px;
+    height:92px;
+    text-align: center;
+    border:1px solid grey;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+}
+.clear-btn{
+    border:1px solid grey;
+    height:92px;
+    width:330px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size:45px;
+}
+.left-side{
+    display:flex;
+    flex-direction:column;
+}
+.number-div{
+    display:flex;
+    flex-wrap: wrap;
+}
+.number-btn{
+    width:109px;
+    height:92px;
+    border:1px solid grey;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size:45px;
+}
+.zero{
+    width:300px;
+}
