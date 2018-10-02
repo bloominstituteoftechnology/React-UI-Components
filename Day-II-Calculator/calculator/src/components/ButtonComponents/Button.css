@@ -1,0 +1,56 @@
+
+.number-pad {
+    width: 75%;
+    max-height: 500px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-items: center;
+    align-items: center;
+}
+
+.number-button {
+    border: 1px solid lightgrey;
+    width: 32.75%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 3.6rem;
+    cursor: pointer;
+}
+
+.inverse {
+    background-color: black;
+    color: white;
+}
+
+
+
+#clear {
+    width: 100%;
+    font-weight: normal;
+}
+
+#zero {
+    width: 100%;
+}
+
+.action-buttons {
+    display: flex;
+    flex-flow: column wrap;
+    width: 25%;
+}
+
+.action-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: maroon;
+    color: white;
+    font-weight: bold;
+    border: 1px solid lightgray;
+    height: 100px;
+    font-size: 3.6rem;
+    cursor: pointer;
+}
