@@ -1,0 +1,22 @@
+.button {
+    display: flex;
+    font-weight: bold;
+    /* TODO:everything in the middle */
+    align-items: center;
+    justify-content: center;
+    width: 25%; 
+    height: 100px;
+    border: 1px solid grey;
+    /* font-size: 3rem; */
+    font-size: 48px;
+}
+
+.clear-btn {
+    width: 70%;
+}
+
+.maroon {
+    width: 30%;
+    background-color: rgb(160, 0, 30);
+    color: white;
+}
