@@ -1,0 +1,10 @@
+.app-content {
+    display:flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    border: 1px solid grey;
+    width: 100%;
+    background-color: gray;
+}
+
+

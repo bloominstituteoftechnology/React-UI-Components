@@ -1,0 +1,14 @@
+.display {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    background-color: black;
+    color: white;
+    height: 40px;
+}
+
+.display p {
+    margin-top: -1px;
+    margin-right: 5px;
+    font-size: 35px;
+}
