@@ -1,0 +1,18 @@
+.calc-container {
+  border: 1px solid black;
+  max-width: 500px;
+  margin: 20vh auto;
+}
+
+.calc-display-container {
+  display: flex;
+  justify-content: flex-end;
+  color: white;
+  margin: auto;
+  background: #333;
+}
+
+.calc-display-container span {
+  font-size: 5rem;
+  padding: 10px;
+}

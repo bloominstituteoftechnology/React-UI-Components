@@ -1,0 +1,29 @@
+.numbers-container {
+  border: 1px solid red;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+}
+
+.numbers-container div {
+  /* border: 1px solid red; */
+  width: 100%;
+}
+.numbers-container div span {
+  /* margin: 30px; */
+  font-size: 2rem;
+  display: inline-block;
+  width: 33.333%;
+  margin: auto;
+  border: 1px solid grey;
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.numbers-container .full-width span {
+  width: 100%;
+  border: 1px solid grey;
+  text-align: center;
+}
