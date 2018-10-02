@@ -1,1 +1,22 @@
 /* All styles for your header Components live here */
+
+.header-container {
+  display: flex;
+}
+
+.header-title-container {
+  display: flex;
+  align-items: center;
+}
+
+.header-title-container h1 {
+  margin-right: 15px;
+}
+
+.img-container {
+  width: 150px;
+}
+
+.img-container img {
+  width: 100%;
+}
