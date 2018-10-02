@@ -1,1 +1,26 @@
 /* All styles for your Card Components live here */
+.card {
+  width: 90%;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
+.banner {
+  width: 100%;
+}
+
+.card-content {
+  margin: 10px 14px;
+}
+
+.card-content h4 {
+  margin: 0 0 10px 0;
+}
+
+.card-content p {
+  margin: 10px 0;
+}
+
+.card-content a {
+  text-decoration: none;
+}

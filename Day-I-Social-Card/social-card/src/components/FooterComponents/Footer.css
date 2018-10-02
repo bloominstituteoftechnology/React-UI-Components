@@ -1,0 +1,29 @@
+footer {
+  /* border: 1px solid red; */
+  width: 90%;
+  margin: 20px 0;
+}
+
+.far,
+.fas {
+  margin-right: 60px;
+  font-size: 18px;
+  color: #999;
+  cursor: pointer;
+}
+
+.far:hover,
+.fas:hover {
+  color: #222;
+}
+
+.counter {
+  font-size: 14px;
+  margin-left: 15px;
+  font-family: sans-serif;
+  font-weight: normal;
+}
+
+.fas.fa-heart {
+  color: rgb(206, 24, 24);
+}

@@ -1,1 +1,30 @@
 /* All styles for your header Components live here */
+p {
+  margin-top: 12px;
+  margin-bottom: 12px;
+  line-height: 1.2;
+}
+
+.header {
+  display: flex;
+  /* border: 1px solid red; */
+}
+
+.header-text {
+  width: 90%;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.light-text {
+  color: #999;
+  font-size: 14px;
+}
+
+.thumbnail {
+  width: 40px;
+  height: 45px;
+  margin: 10px;
+}

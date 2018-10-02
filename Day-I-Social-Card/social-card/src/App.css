@@ -2,3 +2,15 @@
   Write your styles/CSS for App.js here and import into the component that you need 
   IF you'd like to attempt to use less you'll have to research how to do this with Create React App
 */
+body {
+  width: 600px;
+  font-size: 15px;
+  padding: 0 15px;
+  border: 1px solid #ddd;
+}
+
+.social-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
