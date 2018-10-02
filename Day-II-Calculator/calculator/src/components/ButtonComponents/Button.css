@@ -15,7 +15,7 @@ time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	font: inherit;
+
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
@@ -42,21 +42,38 @@ table {
 	border-spacing: 0;
 }
 
-.but{
-    height: 92px;
+.btn{
+    height: 94px;
     border: solid 1px #979797;
+    text-align: center;
+    font-size: 42px;
+    padding-top: 25px;
 }
 
 .num{
-    width: 108px;
+    width: 112px;
+    
 }
 
 .clear, .zero{
-    width: 332px;
+    width: 336px;
 }
 
 .func{
     background: #A0001E;
     color: white;
     width: 118px;
+    font-size: 58px;
+    padding-top: 15px;
 }
+
+.white-btns{
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+
+.red-btns{
+    display: flex;
+    flex-direction: column;
+}
+

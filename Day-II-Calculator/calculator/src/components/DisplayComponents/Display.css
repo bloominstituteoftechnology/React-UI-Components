@@ -14,8 +14,7 @@ time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 100%;
-	font: inherit;
+	font-size: 62.5%;
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
@@ -44,8 +43,13 @@ table {
 
 .display{
     border: solid 1px #979797;
-    width: 452px;
-    height: 124px;
+    width: 454px;
+    height: 126px;
     background: #222222;
     color: white;
+    font-weight: 100;
+    font-size:64px;
+    padding: 32px 14px;
+    text-align: right;
+    
 }

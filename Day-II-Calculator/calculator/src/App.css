@@ -15,7 +15,6 @@ time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 62.5%;
-	font: inherit;
     vertical-align: baseline;
     box-sizing: border-box;
 }
@@ -43,9 +42,14 @@ table {
 	border-spacing: 0;
 }
 
-.calContainer{
-    width: 454px;
+.cal-container{
+    margin: 10px 20px;
+    width: 456px;
     display: flex;
     flex-direction: column;
     border: solid 1px #979797;
+}
+
+.btn-container{
+    display: flex;
 }
