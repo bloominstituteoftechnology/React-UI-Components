@@ -16,8 +16,13 @@ class App extends Component {
   }
 
   numClicked(result) {
-    this.setState({result})
-    console.log(result);
+    let newCalc = '';
+    newCalc += (this.state.result === 0 ? '' : this.state.result);
+    newCalc += result;
+
+    if (result ==='clear') newCalc = 0;
+
+    this.setState({result: newCalc});
   }
 
   render() {
@@ -29,7 +34,7 @@ class App extends Component {
 
     const rows = [
       ['clear', '÷'],
-      ['7', '8', '9', 'X'],
+      ['7', '8', '9', 'x'],
       ['4', '5', '6', '-'],
       ['1', '2', '3', '+'],
       ['0', '=']
@@ -42,12 +47,12 @@ class App extends Component {
           rows.map((row, i) => {
             let length = row.length;
             return (
-              <div className='calc-row'>
+              <div className='calc-row' key={i}>
                 {
                   row.map((button, i )=> {
                   return (i+1 === length)
-                    ?<ActionButton text={button} click={this.numClicked}/>
-                      :<NumberButton text={button} click={this.numClicked} style={length < 3? wideButton : {}}/>
+                    ?<ActionButton key={i} text={button} click={this.numClicked}/>
+                      :<NumberButton key={i} text={button} click={this.numClicked} style={length < 3? wideButton : {}}/>
                   })
                 }
               </div>

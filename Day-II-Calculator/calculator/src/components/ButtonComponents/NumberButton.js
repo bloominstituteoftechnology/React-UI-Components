@@ -6,7 +6,7 @@ const NumberButton = ({text = 0, style, click}) => {
         <div 
             className='button number-button' 
             style={style}
-            onClick={click.bind(this, (text==='clear'?0:text))}
+            onClick={click.bind(this, text)}
         >
             {text}
         </div>
