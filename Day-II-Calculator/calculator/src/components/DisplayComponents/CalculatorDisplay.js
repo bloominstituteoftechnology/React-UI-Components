@@ -8,7 +8,7 @@ class CalculatorDisplay extends React.Component {
         numdisplay: 0
     }
 
-    render() {
+    render(props) {
         return (
             <div className="display">
                 <h1 class="num-display">{this.state.numdisplay}</h1>

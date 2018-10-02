@@ -8,17 +8,6 @@ import ZerboButton from './components/ButtonComponents/ZeroButton';
 
 const App = () => {
 
-  const numArr = [{
-    one: 1,
-    two: 2,
-    three: 3,
-    four: 4,
-    five: 5,
-    six: 6,
-    seven: 7,
-    eigth: 8,
-    nine: 9
-  }]
 
 
   const arithmeticBtn = [
@@ -38,11 +27,7 @@ const App = () => {
           <ActionButton arithmetic={math} />
         )
       })}
-      {numArr.map(number => {
-        return (
-          <NumberButton number={number} />
-        )
-      })}
+      <NumberButton />
       <CalculatorDisplay />
       <ClearButton />
       <ZerboButton />
