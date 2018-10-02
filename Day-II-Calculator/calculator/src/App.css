@@ -1,0 +1,7 @@
+.calc-wrapper {
+    min-height: 550px;
+    width: 400px;
+    margin: 0 auto;
+    border: 0.5px solid #979797;
+    font-family: sans-serif;
+}
