@@ -1,0 +1,175 @@
+
+.rowZero {
+    display: flex ;
+    flex-direction: row ;
+}
+
+.clearBtn {
+    width: 80% ;
+    height: 94px ;
+    font-size: 3rem ;
+    text-align: center ;
+    /* text-align: end; */
+    border-left: 2px solid gray ;
+    border-bottom: 2px solid gray ;
+}
+
+.divSignFlex {
+    width: 28% ;
+    background: #A0001E ;
+    max-height: 95px ;
+    font-size: 6rem ;
+    color: white; 
+    text-align: center;
+    border: 2px solid gray ;
+    border-top: none ;
+}
+
+.r2Outer {
+    width: 100% ; 
+   
+}
+.rowTwoDiv {
+    width: 100% ; 
+    
+   
+}
+.rowTwo {
+    width: 100% ;
+    display: flex ;
+    justify-content: space-between ;
+    margin-top: -5px ;
+}
+.rowTwo td {
+    border: 2px solid gray !important;
+    width: 17% ;
+    padding: 20px 20px 20px 20px ;
+    color: black ;
+    text-align: center ;
+    font-size: 4rem ;
+    font-weight: bolder ;
+    height: 57px ;
+    border-left: none ;
+
+}
+
+table {
+    /* border: 3px solid green ; */
+    width: 100% ;
+    display: flex ;
+    flex-direction: column ;
+}
+
+.rowTwo td:last-of-type {
+    color: white ;
+    background: #A0001E ;
+    width: 19% ;
+
+
+}
+
+.r3Outer {
+    width: 100% ; 
+
+}
+.rowThreeDiv {
+    width: 100% ; 
+
+}
+
+.rowThree {
+    width: 100% ;
+    display: flex ;
+    justify-content: space-between ;
+    margin-top: -5px ;
+}
+
+.rowThree td {
+    border: 2px solid gray !important;
+    width: 17% ;
+    padding: 20px 20px 20px 20px ;
+    color: black ;
+    text-align: center ;
+    font-size: 4rem ;
+    font-weight: bolder ;
+    height: 57px ;
+
+}
+
+.rowThree td:last-of-type {
+    color: white ;
+    background: #A0001E ;
+    width: 19% ;
+
+}
+
+.r4Outer {
+    width: 100% ;
+}
+
+.rowFourDiv {
+    width: 100% ;
+
+
+}
+
+.rowFour {
+    width: 100% ;
+    display: flex ;
+    justify-content: space-between ;
+    margin-top: -5px ;
+}
+
+.rowFour td {
+    border: 2px solid gray !important;
+    width: 17% ;
+    padding: 20px 20px 20px 20px ;
+    color: black ;
+    text-align: center ;
+    font-size: 4rem ;
+    font-weight: bolder ;
+    height: 53px ;
+
+}
+
+.rowFour td:last-of-type {
+    color: white ;
+    background: #A0001E ;
+    width: 19% ;
+
+}
+
+.rowFive {
+    border: 2px solid gray ;
+    display: flex ;
+    flex-direction: row ;
+    background: white ;
+    margin-top: -5px ;
+}
+.rowFiveCont {
+    border: 1px solid black ;
+    width: 80% ;
+    height: 92px ;
+    /* margin: 0 auto ; */
+    
+    color: white ;
+    font-size: 5rem ;
+    text-align: center ;
+    color: black ;
+    border: 2px solid gray ;
+    font-weight: bold ;
+
+    
+}
+
+.equals {
+    color: white ;
+    background: #A0001E ;
+    width: 27% ;
+    font-size: 6rem ;
+    border: 2px solid gray ;
+    height: 92px ;
+    text-align: center ;
+
+
+}

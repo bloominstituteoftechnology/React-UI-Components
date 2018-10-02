@@ -1,0 +1,15 @@
+.calcBorder {
+    border: 2px solid gray ;
+}
+.calcDisplay {
+    border: 1px solid black ;
+    width: 99.9% ;
+    height: 120px ;
+    margin: 0 auto ;
+    background: #222222 ;
+    color: white ;
+    font-size: 7rem ;
+    text-align: right ;
+    
+}
+
