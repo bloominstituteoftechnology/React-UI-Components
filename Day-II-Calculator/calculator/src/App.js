@@ -14,12 +14,22 @@ const functionButtons = [
 
 const App = () => {
   return (
-    <div>
+    <div class="main-container">
+
+    <div class="calc-display">
       <CalcDisplay />
+    </div>
+
+    <div class="main-content">
+      <div class="main-buttons">
       <MainButtons />
+      </div>
+      
       <div className="functions">
       {functionButtons.map(item => <FunctionButton function={item} />)}
     </div>
+    </div>
+
     </div>
   );
 };

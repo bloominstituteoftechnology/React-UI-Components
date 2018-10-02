@@ -1,0 +1,10 @@
+.display-num h1 {
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+    font-weight: 100;
+    font-size: 70px;
+}
