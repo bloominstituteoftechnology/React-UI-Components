@@ -1,0 +1,30 @@
+.calcContainer {
+    width: 500px;
+    height: 550px;
+    border: 1px solid black;
+}
+
+.calcContainer .topDisplay {
+    width: 500px;
+    height: 100px;
+    background-color: #272727;
+    color: white;
+    font-size: 80px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.calcContainer .topDisplay .topNum {
+    padding: 5px 10px 0 0;
+}
+
+.calcContainer .number {
+    display: grid;
+    grid: auto-flow dense / repeat(3,1fr);
+}
+
+
+
+.calcContainer .buttons {
+    display: flex;
+}

@@ -1,1 +1,9 @@
 /* All styles for your Card Components live here */
+
+.card-container {
+    width: 85%;
+    margin-left: 75px;
+}
+.card-container img {
+    width: 100%;
+}
