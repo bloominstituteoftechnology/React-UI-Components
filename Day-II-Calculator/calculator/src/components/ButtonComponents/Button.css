@@ -1,0 +1,30 @@
+.buttonStyle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: .5px solid grey;
+    font-size: 2rem;
+    font-weight: 700;
+    width: 65px;
+    height: 67px;
+    padding:0px;
+    margin: 0px;
+}
+.whiteButton {
+    background: #fff;
+}
+.wide {
+width: 197px;
+}
+.redButton {
+background: #dd2222;
+color: #fff;
+border: 1px solid grey;
+font-weight: normal;
+
+}
+
+.clear {
+    font-weight: 400;
+    width: 197px;
+}

@@ -1,23 +1,79 @@
 import React from 'react';
 import './App.css';
+import NumberButton from './components/ButtonComponents/NumberButton'
+import ActionButton from './components/ButtonComponents/ActionButton'
+import CalculatorDisplay from './components/DisplayComponents/CalculatorDisplay'
 
 const App = () => {
   return (
-    <div>
-      <h3>Welcome to React Calculator</h3>
-      <p>
-        We have given you a starter project. You'll want to build out your
-        components in their respective files, remove this code and replace it
-        with the proper components.
-      </p>
-      <p>
-        <strong>
-          Don't forget to `default export` your components and import them here
-          inside of this file in order to make them work.
-        </strong>
-      </p>
+    <div className ='wrapper'>
+      <div>
+        <div>
+         <CalculatorDisplay number='0' />
+         
+        </div>
+      </div>
+
+      <div className="row">
+        <ActionButton text="clear" buttonStyle="clear" />
+        <ActionButton text="/" buttonStyle="redButton" />
+      </div>
+
+      <div className="row">
+        <div>
+          <NumberButton text="1" buttonStyle="buttonStyle numberButton" />
+        </div>
+        <div>
+          <NumberButton text="2" />
+        </div>
+        <div>
+          <NumberButton text="3" />
+        </div>
+        <div>
+          <ActionButton text="x" buttonStyle="redButton" />
+        </div>
+      </div>
+
+      <div className="row">
+        <div>
+          <NumberButton text="4" />
+        </div>
+        <div>
+          <NumberButton text="5" />
+        </div>
+        <div>
+          <NumberButton text="6" />
+        </div>
+        <div>
+          <ActionButton text="-" buttonStyle="redButton" />
+        </div>
+      </div>
+
+      <div className="row">
+        <div>
+          <NumberButton text="7" />
+        </div>
+        <div>
+          <NumberButton text="8" />
+        </div>
+        <div>
+          <NumberButton text="9" />
+        </div>
+        <div>
+          <ActionButton text="+" buttonStyle="redButton" />
+        </div>
+      </div>
+      <div className="row">
+        <div>
+          <NumberButton text="0" buttonStyle="wide" />
+        </div>
+        <div>
+          <ActionButton text="=" buttonStyle="redButton" />
+        </div>
+      </div>
     </div>
   );
 };
+
 
 export default App;
