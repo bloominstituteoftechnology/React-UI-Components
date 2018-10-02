@@ -1,8 +1,20 @@
 .btn-default {
   width: 25%;
-  height: 77px;
+  height: auto;
   border: 1px solid #979797;
-  font-size: 4rem;
-  font-weight: bold;
+  padding: 20px 0;
+  font-size: 4.5rem;
   background-color: #fdfdfd;
+}
+
+.wide-button {
+  width: 75%;
+  font-weight: 200;
+  letter-spacing: 1px;
+}
+
+.op-button {
+  background-color: #a0001e;
+  color: white;
+  font-weight: 200;
 }
