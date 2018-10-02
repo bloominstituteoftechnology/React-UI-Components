@@ -1,7 +1,7 @@
 .action-btn {
   display: inline-block;
   height: 93px;
-  width: 75%;
+  width: 73.5%;
   border: 1px solid #969696;
   text-align: center;
   line-height: 90px;
@@ -15,7 +15,7 @@
   line-height: 90px;
   text-align: center;
   font-size: 50px;
-  width: 25%;
+  width: 24.5%;
   border: 1px solid #969696;
   background: white;
 }
@@ -27,7 +27,7 @@
   line-height: 90px;
   text-align: center;
   font-size: 50px;
-  width: 25%;
+  width: 26.5%;
   border: 1px solid #969696;
   color: white;
 }
