@@ -1,0 +1,22 @@
+.CalculatorDisplay {
+  border: 1.9px solid #979797;
+  height: 6em;
+  background: #222222;
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+  align-items: baseline;
+  align-items: center;
+}
+
+.display {
+  font-size: 3.6rem;
+  margin-right: 2%;
+  margin-top: 2%;
+}
+
+.container {
+  /* border: 2px solid #979797; */
+  width: 31.6%;
+  max-height: 28.7em;
+}

@@ -1,0 +1,35 @@
+.operations {
+  background: #a12820;
+  color: white;
+}
+.clear {
+  border-left: 1px solid #979797;
+  border-bottom: 1px solid #979797;
+  border-right: 1px solid #979797;
+  width: 73.1%;
+  height: 7em;
+}
+
+.clear-text {
+  font-size: 2.3rem;
+}
+
+.red-style {
+  width: 26.1%;
+  height: 6.9em;
+  border-top: 1px solid #979797;
+  border-bottom: 2px solid #979797;
+  border-right: 2px solid #979797;
+}
+
+.number-btn {
+  width: 24.4%;
+  height: 6.9em;
+  border-left: 1px solid #979797;
+  border-bottom: 1px solid #979797;
+  border-right: 1px solid #979797;
+}
+.number-text {
+  font-size: 2.2rem;
+  display: inline;
+}

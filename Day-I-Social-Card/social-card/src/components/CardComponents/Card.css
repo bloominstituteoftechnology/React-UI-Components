@@ -1,1 +1,8 @@
-/* All styles for your Card Components live here */
+a {
+  color: gray;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+  color: gray;
+}
