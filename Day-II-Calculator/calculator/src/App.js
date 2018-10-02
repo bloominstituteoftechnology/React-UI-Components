@@ -38,7 +38,6 @@ class App extends Component {
     return (
       <div className='calculator-container'>
         <CalculatorDisplay result={this.state.result}/>
-
         {
           rows.map((row, i) => {
             let length = row.length;
@@ -55,34 +54,6 @@ class App extends Component {
             );
           })
         }
-
-
-        {/* <div className='calc-row'>
-          <ActionButton text={'clear'} style={wideButton} click={this.numClicked}/>
-          <ActionButton text={'÷'} click={this.numClicked}/>
-        </div>
-        <div className='calc-row'>
-          <NumberButton text={7} click={this.numClicked}/>
-          <NumberButton text={8} click={this.numClicked}/>
-          <NumberButton text={9} click={this.numClicked}/>
-          <ActionButton text={'X'} click={this.numClicked}/>
-        </div>
-        <div className='calc-row'>
-          <NumberButton text={4} click={this.numClicked}/>
-          <NumberButton text={5} click={this.numClicked}/>
-          <NumberButton text={6} click={this.numClicked}/>
-          <ActionButton text={'-'} click={this.numClicked}/>
-        </div>
-        <div className='calc-row'>
-          <NumberButton text={1} click={this.numClicked}/>
-          <NumberButton text={2} click={this.numClicked}/>
-          <NumberButton text={3} click={this.numClicked}/>
-          <ActionButton text={'+'} click={this.numClicked}/>
-        </div>
-        <div className='calc-row'>
-          <ActionButton text={0} style={wideButton} click={this.numClicked}/>
-          <ActionButton text={'='} click={this.numClicked}/>
-        </div> */}
       </div>
     );
 
