@@ -10,7 +10,7 @@ import FooterContainer from './components/FooterComponents/FooterContainer';
 
 const App = () => {
   return (
-    <div>
+    <div className = "app-class">
     <HeaderContainer />
     <CardContainer />
     <FooterContainer />
@@ -19,3 +19,5 @@ const App = () => {
 };
 
 export default App;
+
+

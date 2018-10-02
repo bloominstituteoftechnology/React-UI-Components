@@ -9,7 +9,7 @@
 
 
 .all-img{
-    
+    display: flex;
     margin-left: 70px;
 }
 
@@ -17,4 +17,14 @@
     height: 30px;
     width: 30px;
     margin-right: 40px;
+}
+
+.retweet-index {
+    width: 10px;
+    height: 10px;
+}
+
+.like-index {
+    width: 10px;
+    height: 10px;
 }
