@@ -1,9 +1,12 @@
 .numButton {
+    width: 33.3333333%;
+    text-align: center;
     background-color: white;
 }
 
 .actButton {
     background-color: #A0001E;
+    width: 100%;
 }
 
 .fullLength {

@@ -1,6 +1,6 @@
 import React from 'react';
 import Button from './Button';
-import './Button.css';
+import './NumberButtons.css';
 
 const NumberButton = props => {
     return (
