@@ -1,0 +1,43 @@
+.number-button{
+    width:33.33333333%;
+    color: black;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 6rem;
+}
+.number-button-container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.operator-button{
+    color: black;
+    background-color: #A0001E;
+    padding: 20px;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 6rem;
+}
+.action-button{
+    width: 100%;
+    color: black;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 6rem;
+}
+.button-container{
+    display:flex;
+}
+.value-button-container{
+    width: 75%;
+}
+.action-button-container{
+    width: 100%;
+}
+.operator-button-container{
+    width: 25%;
+}

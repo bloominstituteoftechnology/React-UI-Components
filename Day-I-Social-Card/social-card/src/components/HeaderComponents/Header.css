@@ -1,1 +1,39 @@
 /* All styles for your header Components live here */
+.logo{
+    align-self: center;
+    justify-self: center;
+    width: 50%;
+    height: auto;
+}
+.header-container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.thumbnail-container{
+    display: flex;
+    width: 20%;
+    height: auto;
+    border-radius: 50px;
+    justify-content: center;
+}
+.header-title{
+    display:flex;
+    width: 80%;
+    align-items: baseline;
+    justify-content: space-between;
+}
+.header-title-container{
+    width: 100%;
+
+    display: flex;
+}
+.header-content{
+    width: 80%;
+    margin-left: 20%;
+    font-size: 1rem;
+}
+.bigger-title{
+    font-weight: bold;
+    font-size: 2rem;
+}

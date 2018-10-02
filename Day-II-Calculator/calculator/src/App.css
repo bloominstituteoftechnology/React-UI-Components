@@ -1,0 +1,8 @@
+*{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+.container{
+    margin: 0 auto;
+    width: 500px;
+}

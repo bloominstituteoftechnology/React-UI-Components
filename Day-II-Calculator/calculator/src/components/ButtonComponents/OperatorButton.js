@@ -1,10 +1,10 @@
 import React from 'react';
 import './Button.css';
-function NumberButton(prop){
+function OperatorButton(prop){
     return (
-        <div className="number-button">
+        <div className="operator-button">
             <h1>{prop.buttonOnProps.value}</h1>
         </div>
     )
 }
-export default NumberButton;
+export default OperatorButton;
