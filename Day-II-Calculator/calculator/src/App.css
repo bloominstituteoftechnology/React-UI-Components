@@ -2,10 +2,12 @@
     max-width: 455px;
     max-height: 650px;
     margin: 50px auto;
-    border: 1px solid pink;
+    border: 1px solid #979797;
     display: flex;
     flex-wrap: wrap;
     font-size: 62.5%;
-    /* box-sizing: border-box; */
-    /* box-shadow: 5px 5px 6px grey; */
+}
+
+.container:hover {
+    box-shadow: 20px 20px #979797;
 }

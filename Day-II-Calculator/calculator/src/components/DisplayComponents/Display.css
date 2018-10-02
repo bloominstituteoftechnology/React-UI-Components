@@ -8,5 +8,6 @@
     justify-content: flex-end;
     align-items: center;
     font-size: 4.8rem;
-    padding: 5px;
+    padding: 5px 15px;
+    font-weight: lighter;
 }
