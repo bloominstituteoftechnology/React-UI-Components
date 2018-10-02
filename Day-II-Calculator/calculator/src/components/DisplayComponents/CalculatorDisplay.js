@@ -4,9 +4,9 @@ import './Display.css';
 
 const CalculatorDisplay = (props) => {
 	return (
-		<button className={props.buttonStyle}>
-			{props.text}
-		</button>
+		<div className = 'calc-display'>
+        0
+        </div>
 	)
 }
 

@@ -1,0 +1,39 @@
+button{
+    width: 8vh;
+    height: 8vh;
+    border: 1px solid grey;
+    box-shadow: 2px 0px #999;
+}
+
+button:hover{
+    background-color: ghostwhite;
+}
+
+button:active {
+    background-color: rgb(218, 216, 216);
+    box-shadow: inset 1px 1px #666;
+    transform: translateY(1px);
+}
+.buttons{
+    max-width: 100%;
+    margin: 0px;
+}
+
+.clear{
+    width: 24vh;
+
+}
+
+.action{
+    background-color: #c10307;
+}
+
+.action:hover{
+    background-color: #ea696c;
+}
+
+.action:active{
+    background-color: #f56163;
+    box-shadow: inset 1px 1px #666;
+    transform: translateY(1px);
+}
