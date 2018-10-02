@@ -1,4 +1,5 @@
 /* All styles for your header Components live here */
+
 .headerContainer {
   display: flex;
 
@@ -9,6 +10,7 @@
   padding-left: 2px;
   width: 50px;
   height: 50px;
+  border-radius: 50%;
 }
 
 .headerContainer .titleAndContent {
