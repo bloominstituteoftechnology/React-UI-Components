@@ -1,21 +1,24 @@
 import React from 'react';
 import './App.css';
+import CalculatorDisplay from './components/DisplayComponents/CalculatorDisplay';
+import ActionButton from './components/ButtonComponents/ActionButton';
 
 const App = () => {
+  const buttonClick = (e) => {
+    if (e.className.includes('clear')) {
+      console.log(e);
+      e.DisplayProps.number = 0;
+    } if (e.className.includes('nine')) {
+      e.DisplayProps.number = 9;
+    } if (e.classname.includes('eight')) {
+
+    }
+  }
+
   return (
     <div>
-      <h3>Welcome to React Calculator</h3>
-      <p>
-        We have given you a starter project. You'll want to build out your
-        components in their respective files, remove this code and replace it
-        with the proper components.
-      </p>
-      <p>
-        <strong>
-          Don't forget to `default export` your components and import them here
-          inside of this file in order to make them work.
-        </strong>
-      </p>
+      <CalculatorDisplay DisplayProp={} />
+      <ActionButton onClick={buttonClick} />
     </div>
   );
 };
