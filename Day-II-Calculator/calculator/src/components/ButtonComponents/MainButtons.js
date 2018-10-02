@@ -23,23 +23,17 @@ const actionButtons = [
 const MainButtons = props => {
     return (
         <div className="main-buttons">
-        <div className="action">
-            {actionButtons.map(action => {
-            return <ActionButton action={action} />;
-            })}
-        </div>
+      <div className="action">
+        <ActionButton action={actionButtons[0]} />
+      </div>
 
-        <div className="numbers">
-            {numberButtons.map(number => {
-        return <NumberButton number={number} />;
-      })}
-        </div>
-
-        <div className="action">
-            {actionButtons.map(action => {
-            return <ActionButton action={action} />;
-            })}
-        </div>
+    <div className="numbers">
+      {numberButtons.map(item => <NumberButton number={item} />)}
+    </div>
+    
+      <div className="action">
+        <ActionButton action={actionButtons[1]} />
+      </div>
         </div>
     );
 };
