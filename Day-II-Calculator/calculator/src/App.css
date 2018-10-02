@@ -1,0 +1,11 @@
+.calculator-button {
+    width: 456px;
+    height: 598px;
+    display: flex;
+    flex-direction: column;
+}
+
+.calc-row {
+    display: flex;
+    width: 100%;
+}
