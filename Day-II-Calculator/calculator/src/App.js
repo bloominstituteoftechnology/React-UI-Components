@@ -17,13 +17,17 @@ class App extends React.Component {
     this.setState({total: numberSeven});
   };
 
+  clear = () => {
+    this.setState({total: '0'});
+  }
+
   render() {
     return (
       <div className='wrapper'>
         <CalculatorDisplay total={this.state.total}/>
 
         <div className="container">
-          <ActionButton customButton="wide-button" text="clear" />
+          <ActionButton customButton="wide-button" text="clear" onClick={this.clear} />
           <NumberButton customButton="op-button" text="&#247;" /> {/* ÷ */}
         </div>
 
