@@ -26,8 +26,8 @@ const ButtonContainer = () => {
         <ActionButton buttonStyle="number-button zero" text="0" />
       </div>
       <div className="operator-buttons">
-        <ActionButton buttonStyle="action-button" text="/" />
-        <ActionButton buttonStyle="action-button" text="x" />
+        <ActionButton buttonStyle="action-button" text="÷" />
+        <ActionButton buttonStyle="action-button" text="×" />
         <ActionButton buttonStyle="action-button" text="-" />
         <ActionButton buttonStyle="action-button" text="+" />
         <ActionButton buttonStyle="action-button" text="=" />
