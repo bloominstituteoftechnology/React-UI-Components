@@ -8,22 +8,28 @@ class App extends React.Component {
   constructor(props){
     super(props);
     this.state = { total: 0,
-                   displayNum: [0]
+                   displayNum: '0'
     };
     this.aTDoC = this.aTDoC.bind(this);
+    this.clearDisplay = this.clearDisplay.bind(this);
 
   }
   /* add to display on click */
   aTDoC(number){
-    let numberArr = []
-    if(this.state.displayNum[0] === 0){
-    numberArr.push(number) 
+    let numberArr = this.state.displayNum;
+    if(this.state.displayNum === '0'){
+    numberArr = '';  
+    numberArr += number; 
     this.setState({displayNum: numberArr})
     }
     else{
-      numberArr.push(number)
+      numberArr += number;
       this.setState({displayNum: numberArr})
     }
+  }
+
+  clearDisplay(){
+    this.setState({displayNum: [0]});
   }
 
   render(){
@@ -31,7 +37,7 @@ class App extends React.Component {
 <div className="container">
     <CalculatorDisplay text={this.state.displayNum}/>
     <div className="row">
-    <ActionButton buttonStyle="action clear" text='clear' />
+    <ActionButton buttonStyle="action clear" text='clear' onClick={this.clearDisplay} />
     <NumberButton text="÷"/>
     </div>
     
@@ -39,7 +45,7 @@ class App extends React.Component {
     <NumberButton text="7" onClick={this.aTDoC} />
     <NumberButton text="8" onClick={this.aTDoC}  />
     <NumberButton text="9" onClick={this.aTDoC} />
-    <NumberButton text="x" buttonStyle="red" onClick={this.aTDoC} />
+    <NumberButton text="x" buttonStyle="red"  />
     </div>
     <div className="row">
     <NumberButton text="4" onClick={this.aTDoC} />
@@ -54,7 +60,7 @@ class App extends React.Component {
     <NumberButton text="+" buttonStyle="red"/>
     </div>
     <div className="row">
-    <ActionButton buttonStyle="action" text='zero' />
+    <ActionButton buttonStyle="action" text='0' />
     <NumberButton text="="/>
     </div>
 
