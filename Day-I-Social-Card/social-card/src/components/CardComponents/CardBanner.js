@@ -10,5 +10,3 @@ const CardBanner = props => {
 }
 
 export default CardBanner
-
-//     <img src="https://ibin.co/3wnC6SgIOJud.png"></img>
