@@ -1,0 +1,12 @@
+.app-container {
+    border: 1px solid lightgrey;
+    height: auto;
+    width: 450px;
+    margin-top: 30px;
+}
+
+.button-container {
+    display: flex;
+    height: 80px;
+    border: 1px solid lightgray;
+}

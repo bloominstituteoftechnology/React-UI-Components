@@ -1,0 +1,30 @@
+.clear-zero-button {
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    cursor: pointer;
+}
+
+.symbol {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    color: #fff;
+    background: rgb(158, 6, 35);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.number {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid lightgray;
+    cursor: pointer;
+    font-size: 3rem;
+}
