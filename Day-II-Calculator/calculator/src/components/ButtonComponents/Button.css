@@ -1,0 +1,55 @@
+.buttons {
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+}
+
+
+
+/* button styling */
+.numberButton {
+    border: 1px solid grey;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 30px;
+    background: white;
+}
+.functionButton {
+    border: 1px solid grey;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: red;
+    color: white;
+    font-size: 30px;
+}
+.clear {
+    border: 1px solid grey;
+    height: 50px;
+    position: fixed;
+    left: 410px;
+    width: 148px;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.zeroButton {
+    border: 1px solid grey;
+    height: 48px;
+    position: fixed;
+    left: 410px;
+    top: 404px;
+    width: 148px;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}

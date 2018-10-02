@@ -1,1 +1,25 @@
 /* All styles for your header Components live here */
+.headContainer {
+    height: 200px;
+    display: flex;
+    width: 100%;
+}
+.logo {
+    width: 15%;
+    height: 50%;
+}
+.rightHeadContainer {
+    width: 85%;
+    font-size: 20px;
+    padding-left: 3%;
+}
+.title {
+    font-weight: bold;
+    padding-right: 15px;
+}
+.subTitle {
+    color: grey;
+}
+.headerDiv {
+    display: flex;
+}
