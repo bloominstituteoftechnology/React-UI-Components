@@ -1,0 +1,8 @@
+.displayButtonStyles {
+	background : black;
+	color: white;
+	font-size: 40px;
+	height : 90px;
+	width : 320px;
+	text-align: right;
+}

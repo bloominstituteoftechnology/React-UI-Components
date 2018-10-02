@@ -1,0 +1,27 @@
+.red {
+	background: #A91111;
+	color: white;
+}
+
+.white {
+	background: white;
+}
+
+.basicButtonStyles {
+	height : 80px;
+	width : 80px;
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+	border : 1px solid black;
+}
+
+.actionButtonStyles {
+	height : 80px;
+	width : 240px;
+	background: white;
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+	border : 1px solid black;
+}
