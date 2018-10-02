@@ -1,9 +1,19 @@
 .action-btn {
-  height: 96px;
-  width: 74%;
-  border: 2px solid #969696;
-  margin: -2px;
+  display: inline-block;
+  height: 93px;
+  width: 75%;
+  border: 1px solid #969696;
   text-align: center;
   line-height: 90px;
   font-size: 50px;
+}
+
+.num-btn {
+  display: inline-block;
+  height: 93px;
+  line-height: 90px;
+  text-align: center;
+  font-size: 50px;
+  width: 25%;
+  border: 1px solid #969696;
 }

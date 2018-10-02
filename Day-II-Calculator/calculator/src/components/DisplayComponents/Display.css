@@ -1,7 +1,7 @@
 .calc-display {
   background: #272727;
-  border: 2px solid #969696;
-  width: 456px;
+  border: 1px solid #969696;
+  width: 100%;
   height: 128px;
   color: white;
   font-size: 75px;

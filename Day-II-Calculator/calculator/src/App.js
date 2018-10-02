@@ -2,14 +2,28 @@ import React from "react";
 import "./App.css";
 import CalcDisplay from "./components/DisplayComponents/CalculatorDisplay";
 import ActionButton from "./components/ButtonComponents/ActionButton";
+import NumberButton from "./components/ButtonComponents/NumberButton";
 
 const App = () => {
   return (
     <div className="calc-container">
       <CalcDisplay />
       <ActionButton />
-
+      <NumberButton />
+      <NumberButton />
+      <NumberButton />
+      <NumberButton />
+      <NumberButton />
+      <NumberButton />
+      <NumberButton />
+      <NumberButton />
+      <NumberButton />
+      <NumberButton />
+      <NumberButton />
+      <NumberButton />
+      <NumberButton />
       <ActionButton />
+      <NumberButton />
     </div>
   );
 };
