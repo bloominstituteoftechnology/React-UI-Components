@@ -4,6 +4,7 @@ import NumberButton from './components/ButtonComponents/NumberButton';
 import ActionButton from './components/ButtonComponents/ActionButton';
 import CalculatorDisplay from './components/DisplayComponents/CalculatorDisplay';
 
+
 const App = () => {
   return (
     <div>
@@ -18,28 +19,28 @@ const App = () => {
       </div>
 
       <div>
-        <NumberButton buttonStyle={'number'} text={'7'} />
-        <NumberButton buttonStyle={'number'} text={'8'} />
-        <NumberButton buttonStyle={'number'} text={'9'} />
+        <NumberButton buttonStyle={'number'} onClick={() => this.inputDigit(7)} text={'7'} />
+        <NumberButton buttonStyle={'number'} onClick={() => this.inputDigit(8)} text={'8'} />
+        <NumberButton buttonStyle={'number'} onClick={() => this.inputDigit(9)} text={'9'} />
         <NumberButton buttonStyle={'operators'} text={'x'} />
       </div>
 
       <div>
-        <NumberButton buttonStyle={'number'} text={'4'} />
-        <NumberButton buttonStyle={'number'} text={'5'} />
-        <NumberButton buttonStyle={'number'} text={'6'} />
+        <NumberButton buttonStyle={'number'} onClick={() => this.inputDigit(4)} text={'4'} />
+        <NumberButton buttonStyle={'number'} onClick={() => this.inputDigit(5)} text={'5'} />
+        <NumberButton buttonStyle={'number'} onClick={() => this.inputDigit(6)} text={'6'} />
         <NumberButton buttonStyle={'operators'} text={'-'} />
       </div>
 
       <div>
-        <NumberButton buttonStyle={'number'} text={'1'} />
-        <NumberButton buttonStyle={'number'} text={'2'} />
-        <NumberButton buttonStyle={'number'} text={'3'} />
+        <NumberButton buttonStyle={'number'} onClick={() => this.inputDigit(1)} text={'1'} />
+        <NumberButton buttonStyle={'number'} onClick={() => this.inputDigit(2)} text={'2'} />
+        <NumberButton buttonStyle={'number'} onClick={() => this.inputDigit(3)} text={'3'} />
         <NumberButton buttonStyle={'operators'} text={'+'} />
       </div>
 
       <div>
-        <NumberButton buttonStyle={'number_zero'} text={'0'} />
+        <NumberButton buttonStyle={'number_zero'} onClick={() => this.inputDigit(0)} text={'0'} />
         <NumberButton buttonStyle={'operators'} text={'='} />
       </div>
 
