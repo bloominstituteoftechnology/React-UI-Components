@@ -7,9 +7,9 @@ const NumberButton = props => {
   )
 }
 
-NumberButton.defaultProps = {
-  buttonStyles: 'defaultNumButton',
-}
+// NumberButton.defaultProps = {
+//   buttonStyles: 'defaultNumButton',
+// }
 
 
 export default NumberButton;

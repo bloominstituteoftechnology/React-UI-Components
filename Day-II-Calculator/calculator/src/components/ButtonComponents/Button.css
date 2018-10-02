@@ -1,8 +1,9 @@
 .defaultNumButton {
   width: 25%;
-  height: 90px;
+  height: 95px;
   font-size: 45px;
   font-weight: bolder;
+  background-color: white;
 }
 
 .actionButton {
@@ -11,6 +12,6 @@
 }
 
 .red {
-  background-color: red;
+  background-color: #A0001E;
   color: white;
 }
