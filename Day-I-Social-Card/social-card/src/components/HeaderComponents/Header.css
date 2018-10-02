@@ -1,1 +1,42 @@
 /* All styles for your header Components live here */
+.header-container {
+  width: 100%;
+  display: flex;
+}
+
+.img-container {
+  width: 20%;
+}
+
+img {
+  border-radius: 50%;
+  height: auto;
+  width: 100%;
+  padding: 10px 5%;
+}
+
+.header-text-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0 2%;
+}
+
+.header-title {
+  width: 100%;
+  display: flex;
+}
+
+.header-title p {
+  padding: 0 2%;
+  white-space: nowrap;
+  color: rgb(151, 146, 146);
+  line-height: 7px;
+}
+.header-content {
+  width: 100%;
+}
+.header-content p {
+  font-size: 14px;
+  margin: 0;
+}

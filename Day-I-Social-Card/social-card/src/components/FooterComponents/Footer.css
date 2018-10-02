@@ -1,0 +1,24 @@
+footer {
+  width: 100%;
+  display: flex;
+  padding-left: 11%;
+  margin-top: -8px;
+}
+footer div {
+  display: flex;
+  width: 12.5%;
+  align-items: flex-start;
+}
+i {
+  width: 10.5%;
+  height: 50px;
+}
+
+.update {
+  width: 40%;
+}
+footer p {
+  width: 50%;
+  margin: 0;
+  padding: 0;
+}

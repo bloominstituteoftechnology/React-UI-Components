@@ -1,0 +1,54 @@
+.button-container {
+  display: flex;
+  width: 100%;
+}
+
+.clear-plus-number-buttons {
+  display: flex;
+  flex-direction: column;
+  width: 73.46%;
+  font-size: 45px;
+}
+
+.number-button-row {
+  display: flex;
+  width: 100%;
+}
+
+.operator-buttons {
+  display: flex;
+  flex-direction: column;
+  background: #9e0822;
+  color: #ffffff;
+  width: 26.54%;
+  font-size: 65px;
+}
+
+.action-button {
+  height: 95px;
+  border: 1.5px solid #969696;
+  text-align: center;
+  padding: 15px 0 0;
+}
+
+.number-button {
+  height: 95px;
+  border: 1.5px solid #969696;
+  font-weight: bold;
+  text-align: center;
+  width: 33.33%;
+  padding: 25px 0 0;
+}
+
+.clear-plus-number-buttons .zero {
+  width: 100%;
+}
+.clear-plus-number-buttons .clear {
+  font-size: 40px;
+  padding: 30px 0 0;
+}
+
+.operator-buttons .minus {
+  font-size: 48px;
+  padding: 18px 0 0;
+}
