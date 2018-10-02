@@ -1,0 +1,26 @@
+footer {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 0 15px 11.5%;
+  width: 42.875%;
+}
+
+.retweet {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #808080;
+  font-size: 1.2rem;
+  font-weight: bold;
+  width: 15%;
+}
+
+.like {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #808080;
+  font-size: 1.2rem;
+  font-weight: bold;
+  width: 15%;
+}

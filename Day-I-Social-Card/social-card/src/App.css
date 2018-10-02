@@ -6,4 +6,10 @@
 p {
 	font-size: 1.4rem;
 	line-height: 1.3;
+	letter-spacing: .1px;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
 }
