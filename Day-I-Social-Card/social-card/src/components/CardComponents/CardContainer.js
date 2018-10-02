@@ -3,7 +3,7 @@ import './Card.css';
 import Img from './CardBanner';
 import CardContent from './CardContent';
 const CardContainer = () =>{
-    return(<div>
+    return(<div className="Card">
         <Img />
         <CardContent />
     </div>);

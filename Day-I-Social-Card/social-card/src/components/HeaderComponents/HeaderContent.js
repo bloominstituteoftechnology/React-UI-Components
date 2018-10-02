@@ -6,7 +6,6 @@ const HeaderContent = () =>
     to mastering React!
 </p>);
 
-
 export default HeaderContent
 
 
