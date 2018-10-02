@@ -9,7 +9,7 @@ return(
 
     <div className='display'>
 
-
+{props.number}
 
     </div>
 

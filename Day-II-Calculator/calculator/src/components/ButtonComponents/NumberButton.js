@@ -7,7 +7,7 @@ return (
    
    
    
-    <div className={props.buttonStyle}>{props.text}
+    <div className={`buttonStyle ${props.buttonStyle}`}>{props.text}
     
     </div>  
     
