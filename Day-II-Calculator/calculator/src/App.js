@@ -39,7 +39,7 @@ const App = () => {
       </div>
 
       <div>
-        <NumberButton buttonStyle={'action'} text={'0'} />
+        <NumberButton buttonStyle={'number_zero'} text={'0'} />
         <NumberButton buttonStyle={'operators'} text={'='} />
       </div>
 
