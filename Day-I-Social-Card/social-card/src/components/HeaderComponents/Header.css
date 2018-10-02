@@ -1,1 +1,57 @@
 /* All styles for your header Components live here */
+
+.header-container {
+    display:flex;
+    padding: 20px 20px 0 20px;
+    width:100%;
+    max-width:855px;
+    
+    
+}
+
+img {
+    /* border:1px solid black; */
+    width: 75px;
+    height:85px;
+    padding-top:13px;
+    padding-right:6px;
+    
+    
+
+}
+
+.headerTitle {
+    /* border:1px solid black; */
+    display:flex;
+
+    
+    
+
+}
+
+
+.header-content {
+    /* border:1px solid black; */
+    height:auto;
+    padding-right:30px;
+    
+    
+
+}
+
+h4 {
+    margin-right:10px;
+}
+
+.lambdagray {
+    color:lightgray;
+}
+
+.datethis {
+    padding-top: 6px;
+    color:lightgray;
+}
+
+
+
+

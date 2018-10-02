@@ -1,0 +1,46 @@
+
+
+.main-container {
+    margin: 0 auto;
+    max-width: 449px;
+    width:100%;
+    border:1px solid gray;
+    
+    
+}
+
+.firstcontainer {
+    display:flex;
+    flex-wrap:nowrap;
+    height:100px;
+    width:100%;
+  }
+
+  .secondcontainer {
+      display:flex;
+      flex-wrap:nowrap;
+      height:94px;
+      width:100%;
+  }
+
+  .thirdcontainer {
+      display:flex;
+      flex-wrap:nowrap;
+      height:94px;
+      width:100%;
+  }
+
+  .fourcontainer {
+      display:flex;
+      flex-wrap:nowrap;
+      height:94px;
+      width:100%;
+  }
+
+  .fivecontainer {
+    display:flex;
+    flex-wrap:nowrap;
+    height:94px;
+    width:100%;
+}
+

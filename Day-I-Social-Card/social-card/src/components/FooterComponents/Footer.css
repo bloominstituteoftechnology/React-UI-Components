@@ -1,0 +1,47 @@
+.footer {
+    max-width: 855px;
+    display: -ms-flexbox;
+    display: flex;
+    padding-left: 96px;
+    padding-right: 20px;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.comments {
+    height:25px;
+    width:25px;
+    margin-right:20px;
+
+}
+
+.share {
+height:25px;
+    width:25px;
+    padding-right:0;
+    
+}
+
+.like {
+    height:25px;
+    width:25px;
+    padding-right:0;
+}
+
+.email {
+    height:25px;
+    width:25px;
+
+}
+
+.four {
+    font-size:12px;
+    margin-right:20px;
+    margin-right:20px;
+
+}
+
+.six {
+    font-size:12px;
+    margin-right:20px;
+}

@@ -1,0 +1,15 @@
+.display {
+    width:100%;
+    background:black;
+    display:flex;
+    height:120px;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+
+.num-display {
+    color:white;
+    font-size:75px;
+
+}
