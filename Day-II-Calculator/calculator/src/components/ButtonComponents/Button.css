@@ -1,0 +1,9 @@
+.action-btn {
+  height: 96px;
+  width: 74%;
+  border: 2px solid #969696;
+  margin: -2px;
+  text-align: center;
+  line-height: 90px;
+  font-size: 50px;
+}
