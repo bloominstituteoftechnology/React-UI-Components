@@ -1,1 +1,32 @@
 /* All styles for your header Components live here */
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    border: 1px solid black;
+    margin: 0 auto;
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+    /* max-width: 800px; */
+}
+
+.logo {
+    max-height: 50px;
+}
+
+.headers {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    /* flex-direction: row; */
+    /* padding: 2%; */
+    width: 100%;
+    margin-left: 3%;
+    /* background: red; */
+
+}
