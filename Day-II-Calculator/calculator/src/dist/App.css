@@ -135,6 +135,40 @@ body {
 html {
   font-size: 62.5%;
 }
+.column {
+  display: flex;
+}
+.column .numberButtonsContainer {
+  width: 75%;
+  font-size: 3rem;
+  text-align: center;
+}
+.column .numberButtonsContainer .action {
+  width: 100%;
+  padding: 25px 0;
+  border: 1px solid gray;
+}
+.column .numberButtonsContainer .numberContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+.column .numberButtonsContainer .numberContainer .number {
+  display: inline;
+  width: 33.3%;
+  border: 1px solid gray;
+  padding: 25px;
+}
+.column .logicButtonsContainer {
+  width: 25%;
+  text-align: center;
+}
+.column .logicButtonsContainer .red {
+  background: #a0001f;
+  color: #fff;
+  font-size: 3rem;
+  padding: 25px 0;
+  border: 1px solid gray;
+}
 .calculatorDisplay {
   background: #222222;
   width: 100%;
@@ -149,4 +183,6 @@ html {
 .calculatorContainer {
   max-width: 456px;
   border: 1px solid #979797;
+  display: flex;
+  flex-direction: column;
 }
