@@ -6,7 +6,7 @@ import CardBanner from "./CardBanner";
 const CardContainer = props => {
   return (
     <a href="https://www.reactjs.org" target="_blank">
-      <div>
+      <div className="card-content">
         <CardBanner />
         <CardContent />
       </div>
