@@ -1,0 +1,14 @@
+.app {
+  background: #888;
+  max-width: 456px;
+  width: 100%;
+  max-height: 598px;
+  height: 100%;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 3fr 2fr 2fr 2fr 2fr 2fr;
+  grid-gap: 3px;
+  padding: 3px;
+  margin: 10px auto;
+}
