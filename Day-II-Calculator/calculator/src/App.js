@@ -1,17 +1,15 @@
 import React from 'react';
 import './App.css';
 import CalcDisplay from './components/DisplayComponents/CalculatorDisplay';
-import NumButton from './components/ButtonComponents/NumberButton';
 import FunctionButton from './components/ButtonComponents/FunctionButton';
-import ActionButton from './components/ButtonComponents/ActionButton';
+import MainButtons from './components/ButtonComponents/MainButtons';
 
 
 const App = () => {
   return (
     <div>
       <CalcDisplay />
-      <ActionButton />
-      <NumButton />
+      <MainButtons />
       <FunctionButton />
     </div>
   );
