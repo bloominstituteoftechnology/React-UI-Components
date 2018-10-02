@@ -1,6 +1,6 @@
 .footer-images-cont{
     display: flex;
-    width: 800px;
+    width: 600px;
     margin: 0 auto;
     margin-top: 20px;
 
@@ -17,6 +17,13 @@
     height: 30px;
     width: 30px;
     margin-right: 40px;
+    
+}
+
+.img-size:hover{
+    height: 33px;
+    width: 33px;
+    transition: 0.35s;
 }
 
 .retweet-index {
