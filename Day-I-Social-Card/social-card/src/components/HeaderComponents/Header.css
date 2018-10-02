@@ -1,1 +1,57 @@
 /* All styles for your header Components live here */
+.container {
+  box-sizing: border-box;
+  max-width: 590px;
+  margin: 0 auto;
+}
+
+.header-container {
+  box-sizing: border-box;
+  max-width: 590px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.logo {
+  margin-top: 5px;
+  margin-left: 10%;
+  border-radius: 50%;
+  width: 50px;
+  height: auto;
+}
+
+.title-content-top {
+  margin-left: 10px;
+  width:50%;
+  margin-right:45%;
+  display:flex;
+  justify-content: space-between;
+  padding-bottom:0px;
+  margin-top:5px;
+}
+.title-content-bottom {
+  margin-left: 10px;
+  width:95%;
+  padding-bottom:0px;
+  padding-top:0px;
+  font-size: .9rem;
+  padding-left:5px;
+}
+
+.name {
+  margin-left: 5px;
+  font-size: .8rem;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-bottom:0px;
+}
+
+.twitterlink {
+  font-size: .8rem;
+  text-decoration: none;
+}
+
+.short-timestamp {
+  font-size: .8rem;
+}
+

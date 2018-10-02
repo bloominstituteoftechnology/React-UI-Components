@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Hello World React</title>
+</head>
+
+<body>
+  <div id="target"></div>
+
+</body>
+
+<script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+<script crossorigin src="https://unpkg.com/babel-standalone@6.26.0/babel.js"></script>
+
+<script type='text/babel'>
+    // app code goes here
+    // const headerElement = React.createElement('h1', {}, 'Hello my name is Jordan, I\'m 29, and I\'m from California')
+    // const myElement = React.createElement('div', {className: 'jordan-element'}, headerElement);
+
+    const MyJSXElement = (
+        <div className="jordan-element">
+            <h1>Hello my name is Jordan, I'm 29, and I'm from California</h1>
+        </div>
+    );
+
+    const MyHeaderComponent = props => {
+        return (
+            <header>
+                <h2>React is fun!</h2>
+            </header>
+        );
+    }
+
+    // const DynamicButton = props => { // props = { buttonText: 'First button', color: 'blue' }
+    //     return (
+    //         <button style={{ backgroundColor: props.color }}>{props.buttonText}</button>
+    //     );
+    // }
+
+    // const App = props => {
+    //     return (
+    //         <div>
+    //             <MyHeaderComponent />
+    //             <DynamicButton buttonText="First button" color="blue" />
+    //             <DynamicButton buttonText="Second button" color="green" />
+    //             <DynamicButton buttonText={'Third button'} color="red" />
+    //         </div>
+    //     );
+    // }
+
+    const DynamicButton = props => { // props = { type: "primary"}
+        let buttonColor;
+        if (props.type === 'primary') {
+            buttonColor = 'blue';
+        } else if (props.type === 'success') {
+            buttonColor = 'green';
+        } else if (props.type === 'warning') {
+            buttonColor = 'red';
+        }
+
+        return (
+            <button style={{ backgroundColor: buttonColor }}>{props.type}</button>
+        );
+    }
+    
+    const App = props => {
+        return (
+            <div>
+                <MyHeaderComponent />
+                <DynamicButton type="primary" />
+                <DynamicButton type="success" />
+                <DynamicButton type="warning" />
+            </div>
+        );
+    }
+
+    ReactDOM.render(<App />, document.getElementById('target'));
+
+</script>
+
+</html>
+
