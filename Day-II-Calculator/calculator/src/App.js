@@ -8,9 +8,14 @@ class App extends React.Component {
   constructor() {
     super();
     this.state = {
-      total: '999999999'
+      total: '0'
     };
   }
+
+  clickNumberSeven = () => {
+    let numberSeven = '7';
+    this.setState({total: numberSeven});
+  };
 
   render() {
     return (
@@ -23,7 +28,7 @@ class App extends React.Component {
         </div>
 
         <div className="container">
-          <NumberButton text="7"/>
+          <NumberButton text="7" onClick={this.clickNumberSeven}/>
           <NumberButton text="8"/>
           <NumberButton text="9"/>
           <NumberButton customButton="op-button" text="&#215;" /> {/* x */}
