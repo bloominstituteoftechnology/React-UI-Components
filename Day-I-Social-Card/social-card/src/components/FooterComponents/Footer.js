@@ -4,7 +4,7 @@ import './Footer.css';
 const Footer = props => {
   return (
     <div class="footerEmojis"> 
-      <h3>&ldquo; &rdquo;    &#9775;    &hearts;    &#9993;</h3>
+      <h3>&ldquo; &rdquo;    &#9775; <span>6</span>   &hearts; <span>4</span>   &#9993;</h3>
     </div>
   )
 }
