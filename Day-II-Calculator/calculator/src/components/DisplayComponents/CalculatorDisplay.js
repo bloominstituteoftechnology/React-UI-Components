@@ -2,6 +2,7 @@ import React from 'react';
 import './Display.css';
 import ActionButton from '../ButtonComponents/ActionButton';
 import NumberButton from '../ButtonComponents/NumberButton';
+import BigButton from '../ButtonComponents/BigButton';
 
 const numbers = [
     {
@@ -46,7 +47,7 @@ const CalculatorDisplay = props => {
             <div className="topDisplay"><div className="topNum">0</div></div>
             <div className="buttons">
                 <div className="numButtons">
-                    <div className="bigNumber">clear</div>
+                    <BigButton text='clear' />
                     <div className="number">
                         {numbers.map(number => {
                             return (
@@ -55,7 +56,7 @@ const CalculatorDisplay = props => {
                         })}
                     </div>
 
-                    <div className="bigNumber">0</div>
+                    <BigButton text='0' />
                 </div>
                 <div className='action'>
                     {actions.map(action => {

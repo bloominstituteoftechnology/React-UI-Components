@@ -1,15 +1,15 @@
 .calcContainer {
     width: 500px;
-    height: 500px;
+    height: 550px;
     border: 1px solid black;
 }
 
 .calcContainer .topDisplay {
     width: 500px;
-    height: 50px;
+    height: 100px;
     background-color: #272727;
     color: white;
-    font-size: 40px;
+    font-size: 80px;
     display: flex;
     justify-content: flex-end;
 }
@@ -23,11 +23,7 @@
     grid: auto-flow dense / repeat(3,1fr);
 }
 
-.bigNumber {
-    border: 2px solid orange;
-    text-align: center;
-    height: 88px;
-}
+
 
 .calcContainer .buttons {
     display: flex;
