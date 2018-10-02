@@ -3,7 +3,7 @@ import './Display.css';
 
 const CalculatorDisplay = props => {
     return (
-        <div className={props.style}
+        <div className={props.displaycalc}
         >
             {props.text}
         </div>

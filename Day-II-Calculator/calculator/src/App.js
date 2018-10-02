@@ -7,7 +7,7 @@ import NumberButton from './components/ButtonComponents/NumberButton';
 const App = () => {
   return (
     <div className="container">
-      <CalculatorDisplay style="display" text='0' />
+      <CalculatorDisplay displaycalc="displaycalc" text='0' />
       <div className="action act-container">
       <ActionButton buttonStyle="action zero" text="0" />
       <ActionButton buttonStyle="equals" text="=" />
