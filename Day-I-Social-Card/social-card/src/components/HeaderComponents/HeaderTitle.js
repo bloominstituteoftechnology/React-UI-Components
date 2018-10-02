@@ -1,5 +1,6 @@
 import React from 'react';
 import './Header.css';
+var moment = require('moment');
 
 
 const HeaderTitle = () => {
@@ -7,7 +8,7 @@ const HeaderTitle = () => {
         <div className="header-title">
             <span className="header-text1">Lambda School</span>
             <span className="header-text2">@LambdaSchool</span>
-            <span className="header-text3">· 26 Jan</span>
+            <span className="header-text3">· {moment().format("D MMM")}</span>
         </div>
     )
 }
