@@ -3,7 +3,7 @@ import './Button.css'
 import ActionButton from './ActionButton';
 import NumberButton from './NumberButton';
 
-const buttons = [
+const numberButtons = [
   {
     label: '÷',
     buttonStyle: 'operation-button',
@@ -88,7 +88,7 @@ const Keys = (props) => {
 
   return (<div className='keys'>
     <ActionButton buttonStyle='long' label='clear' onClick={props.handleClear}/>
-    {buttons.map(button => {
+    {numberButtons.map(button => {
       return(
         <NumberButton button={button} onClick={handleInput}/>
         )
