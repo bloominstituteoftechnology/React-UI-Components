@@ -28,7 +28,7 @@ const ButtonContainer = () => {
       <div className="operator-buttons">
         <ActionButton buttonStyle="action-button" text="÷" />
         <ActionButton buttonStyle="action-button" text="×" />
-        <ActionButton buttonStyle="action-button" text="-" />
+        <ActionButton buttonStyle="action-button minus" text="—" />
         <ActionButton buttonStyle="action-button" text="+" />
         <ActionButton buttonStyle="action-button" text="=" />
       </div>
