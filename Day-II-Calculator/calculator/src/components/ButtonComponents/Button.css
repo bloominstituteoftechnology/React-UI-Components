@@ -1,0 +1,87 @@
+.buttonPanelContainer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+}
+
+.buttonPanelNumber{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    background: white;
+}
+
+.buttonPanelAction{
+    display: flex;
+    flex-direction: column;
+    width:25%;
+}
+
+.buttonPanelClear{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    height: 20%;
+    background: white;
+}
+
+.buttonPanelRow {
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    height: 20%;
+    background: white;
+  
+}
+
+.singleButton {
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    background: white;
+}
+
+.singleButton.wide {
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    height: 100%;
+}
+
+.singleButton.red  {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width:100%;
+    height: 100%;
+}
+.singleButton.red button {
+    background: #A0001E;
+    color: white;
+    font-size: 60px;
+    padding-left:30%;
+
+}
+.singleButton button {
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    height: 100%;
+    background: white;
+    color: black;
+    font-size: 40px;
+    padding-left:35%;
+}
+
+.buttonPanelZero {
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    height: 20%;
+}
+
+.buttonPanelZero button {
+    padding-left:45%;
+}
+

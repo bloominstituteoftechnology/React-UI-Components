@@ -1,0 +1,16 @@
+.displayContainer {
+    width: 100%;
+    height: 20%;
+    background: #222222;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+  }
+  
+  .displayValue {
+    font-size: 80px;
+    color: white;
+    padding:10px;
+    padding-right: 20px;
+  }
