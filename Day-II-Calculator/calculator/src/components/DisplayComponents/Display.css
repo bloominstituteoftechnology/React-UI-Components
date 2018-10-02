@@ -1,0 +1,26 @@
+.container {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0 0 20px;
+}
+
+.top {
+    height: 100px;
+    background: #222222;
+    width: 100%;
+    border: 1px solid gray;
+}
+
+.top p {
+    color: white;
+    font-size: 60px;
+    text-align: right;
+    margin: 0;
+    padding-right: 20px;
+    height: 100px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border: 1px solid gray;
+}
