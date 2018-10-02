@@ -1,0 +1,20 @@
+
+.footerContainer{
+
+    width : 70%;
+    margin : 10px 0 10px 60px;;
+    display : flex;
+    justify-content: space-between;
+
+}
+
+.footerContainer .footerIcon  {
+    display : flex;
+    align-items: flex-start;
+    width : 24%;
+    
+}
+
+.footerContainer .footerIcon p {
+    margin : 0 10px;
+}
