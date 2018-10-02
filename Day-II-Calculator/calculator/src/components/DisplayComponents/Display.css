@@ -1,0 +1,14 @@
+/* styles for the display window */
+
+.calculator-display {
+	height: 128px;
+	width: 100%;
+	border: 1px solid grey;
+	padding: 10px;
+	font-size: 8rem;
+	background-color: black;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}

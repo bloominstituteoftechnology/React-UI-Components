@@ -1,4 +1,19 @@
-/* 
-  Write your styles/CSS for App.js here and import into the component that you need 
-  IF you'd like to attempt to use less you'll have to research how to do this with Create React App
-*/
+/* CSS styles for App.js */
+
+.container {
+    width: 100%;
+    max-width: 590px;
+    margin: 10px auto;    
+    display: flex;
+    flex-direction: row;
+}
+
+.icon-box {
+    width: 10%;
+    padding: 5px;
+}
+
+.content-box {
+    width: 90%;
+    padding: 5px;
+}

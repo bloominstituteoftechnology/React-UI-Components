@@ -1,1 +1,30 @@
-/* All styles for your header Components live here */
+/* CSS styles for Header Components */
+
+.header-title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.header-title h1 {
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin: 5px 10px 5px 5px;
+}
+
+.header-title p {
+    font-size: 1.2rem;
+    margin: 5px;
+    color: darkgrey;
+}
+
+.header-content {
+    padding-bottom: 3px;
+}
+
+.header-content p {
+    font-size: 1.4rem;
+    line-height: 1.3;
+    margin: 5px;
+}
