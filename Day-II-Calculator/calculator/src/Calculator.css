@@ -1,6 +1,7 @@
 .calculator {
     width: 456px;
     border: 1px solid grey;
+    background: grey;
 }
 .calc-input {
     display: grid;
@@ -12,10 +13,6 @@
 }
 .calc-numpad .clear {
     font-weight: normal;
-}
-.calc-operators .calc-button {
-    background: #A0001E;
-    color: white;
 }
 .calc-wide {
     grid-column: span 3;

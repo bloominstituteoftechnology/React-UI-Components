@@ -1,9 +1,29 @@
 .calc-button {
-  border: 1px solid grey;
+  border: 10px outset grey;
+  border-radius: 5px;
   height: 94px;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 45px;
   font-weight: bold;
+  cursor: pointer;
+  background: white;
+  transition:
+    background 0.1s ease,
+    border-color 0.1s ease,
+    color 0.1s ease;
+}
+.calc-operators .calc-button {
+    background: #A0001E;
+    color: white;
+    border: 10px outset #A0001E;
+}
+.calc-button:hover {
+    background: yellow;
+    border-color: yellow;
+    color: black;
+}
+.calc-button:active {
+    border-style: inset;
 }
