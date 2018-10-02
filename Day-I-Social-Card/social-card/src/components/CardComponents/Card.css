@@ -1,1 +1,32 @@
 /* All styles for your Card Components live here */
+.container {
+  height:  485px;
+  width: 500px;
+  border: 2px solid black;
+  border-radius: 8px;
+}
+
+.bannerimg{
+  background-image: url("https://ibin.co/3wnC6SgIOJud.png");
+  width: 400px;
+  justify-content: center;
+  display: flex;
+  margin-left: 30px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+.card{
+  width: 496px;
+  border: none;
+  padding: 2px 70px 2px 50px;
+  font-size: .7rem;
+}
+.react{
+  text-decoration: none!important;
+  color:black;
+}
+.reactlink{
+color: -webkit-link;
+cursor: pointer;
+text-decoration: underline;
+}

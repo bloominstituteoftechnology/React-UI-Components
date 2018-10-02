@@ -1,0 +1,11 @@
+#calc{
+  /* width: 456px;
+  height: 598px;
+  border: 1px solid grey; */
+  width: 400px;
+  min-height: 400px;
+  border: 1px solid grey;
+}
+#clear{
+  font-weight: 0;
+}

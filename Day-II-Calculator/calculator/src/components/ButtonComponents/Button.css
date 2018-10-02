@@ -1,0 +1,38 @@
+.button-container {
+  height: 100px;
+  display: flex;
+}
+
+.numberButton {
+  width: 100px;
+  border: 1px solid grey;
+}
+
+.action{
+  width: 300px;
+  border: 1px solid grey;
+}
+
+.operator {
+  background: red;
+  color: white;
+  text-align: center;
+
+    font-size: 3rem;
+  font-weight: 200;
+}
+.num {
+  text-align: center;
+
+  font-size: 50px;
+  font-weight: 200;
+}
+
+.action {
+  text-align: center;
+
+  font-size: 3rem;
+  font-weight: 200;
+  width: 300px;
+  border: 1px solid #e3e3e3;
+}
