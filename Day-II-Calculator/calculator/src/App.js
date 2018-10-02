@@ -1,10 +1,13 @@
 import React from 'react';
 import './App.css';
+import CalculatorDisplay from './components/DisplayComponents/CalculatorDisplay';
+import ActionButton from './components/ButtonComponents/ActionButton';
+
 
 const App = () => {
   return (
-    <div>
-        <h1> First Commit!</h1>
+    <div className='calc-container'>
+        <CalculatorDisplay />
     </div>
   );
 };
