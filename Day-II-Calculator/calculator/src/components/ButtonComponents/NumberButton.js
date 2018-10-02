@@ -7,14 +7,10 @@ class NumberButton extends React.Component {
         this.state = {};
     }
 
-    numClickEvent = event => {
-        console.log(event.target);
-    };
-
     render() {
         return (
             
-                <button onClick= {this.numClickEvent} className= {this.props.number.font + ' ' + this.props.number.type}>{this.props.number.number}</button>
+                <button className= {this.props.number.font + ' ' + this.props.number.type} value = {this.props.number.number}>{this.props.number.number}</button>
         );
     }
 }
