@@ -4,7 +4,7 @@ import './Display.css';
 const Display = props =>{
     return(
         <div className="display">
-            <h1 className="output">0{props.numberbtn}</h1>
+            <h1 className="output">{props.displayedNumber}</h1>
         </div>
     );
 }

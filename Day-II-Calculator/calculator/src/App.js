@@ -7,7 +7,7 @@ import ActionButton from './components/ButtonComponents/ActionButton2';
 const App = () => {
   return (
     <div className="calculator">
-      <Display />
+      <Display displayedNumber={NumberBtns.numberbtn}/>
       <div className="btn-section">
         <div className="left-side">
           <ActionButton name={"clear"} />

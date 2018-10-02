@@ -6,7 +6,7 @@ const ActionButtons = props =>{
         <div className="action-btn-container">
             <div className="symbols">
                 <div className="action-btn">%</div>
-                <div className="action-btn">X</div>
+                <div className="action-btn">x</div>
                 <div className="action-btn">-</div>
                 <div className="action-btn">+</div>
                 <div className="action-btn">=</div>
