@@ -1,0 +1,23 @@
+.calculator {
+    padding: 50px;
+}
+
+.buttons {
+    display: flex;
+    width: 480px;
+}
+
+.white-buttons {
+    display: grid;
+    grid-template-columns: [v1] 120px [v2] 120px [v3] 120px [v4];
+    grid-template-rows: [h1] 100px [h2] 100px [h3] 100px [h4] 100px [h5] 100px [h6] 100px [h7] 100px [h8];
+    border: 0.5px solid grey;
+    height: 500px;
+}
+
+.red-buttons {
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid grey;
+    border-bottom: 2px solid grey;
+}

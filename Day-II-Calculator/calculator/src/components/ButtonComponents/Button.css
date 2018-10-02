@@ -1,0 +1,26 @@
+.act-btn {
+    grid-column-end: span 3;
+    font-size: 4.8rem;
+    padding: 30px;
+    text-align: center;
+    border: 0.5px solid grey;
+    font-weight: 100;
+}
+
+.num-btn {
+    font-size: 4.8rem;
+    padding: 30px;
+    text-align: center;
+    border: 0.5px solid grey;
+    font-weight: 100;
+}
+
+.op-btn {
+    font-size: 4.8rem;
+    padding: 25px 45px;
+    text-align: center;
+    border-top: 0.5px solid grey;
+    font-weight: 100;
+    background-color: firebrick;
+    color: white;
+}
