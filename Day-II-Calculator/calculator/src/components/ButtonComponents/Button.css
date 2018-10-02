@@ -7,7 +7,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border-bottom: 2px solid #D3D3D3;
+  border-bottom: 2px solid #979797;
   height: 94px;
   font-size: 3rem;
 }
@@ -37,15 +37,15 @@
 
 .number {
   width: 111px;
-  border-left: 2px solid #D3D3D3;
+  border-left: 2px solid #979797;
 }
 
 .operator {
   width: 100%;
   background: #A0061D;
   color: white;
-  border-left: 2px solid #D3D3D3;
-  border-right: 2px solid #D3D3D3;
+  border-left: 2px solid #979797;
+  border-right: 2px solid #979797;
   font-size: 3.2rem;
   font-weight: lighter;
 }
