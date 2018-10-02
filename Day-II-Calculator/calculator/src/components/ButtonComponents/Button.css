@@ -5,6 +5,7 @@
   padding: 20px 0;
   font-size: 4.5rem;
   background-color: #fdfdfd;
+  font-weight: bold;
 }
 
 .wide-button {
@@ -17,4 +18,8 @@
   background-color: #a0001e;
   color: white;
   font-weight: 200;
+}
+
+.bold {
+  font-weight: bold;
 }

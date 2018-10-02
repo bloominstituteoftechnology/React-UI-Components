@@ -2,7 +2,11 @@ import React from 'react';
 import './Display.css';
 
 const CalculatorDisplay = props => {
-  return <div className="calc-display">0</div>;
+  return <div className="calc-display">{props.total}</div>;
+};
+
+CalculatorDisplay.defaultProps = {
+  total: '0'
 };
 
 export default CalculatorDisplay;
