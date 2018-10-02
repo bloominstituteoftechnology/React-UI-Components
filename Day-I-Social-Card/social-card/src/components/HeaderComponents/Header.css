@@ -1,1 +1,40 @@
 /* All styles for your header Components live here */
+.container-header {
+    height: 50px;
+    padding: 15px 5px;
+    display: flex;
+}
+
+.img-wrapper {
+    height: 50px;
+    padding: 0.3em;
+}
+
+.thumbnail-img {
+    height: 100%;
+}
+
+.time-stamp {
+    font-weight: 250;
+    padding: 5px;
+    color: #d1d2d3;
+    font-size: 12px;
+}
+
+.header-wrapper {
+    flex-direction: column;
+    margin-top: 0.6em;
+}
+
+.header-title {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 0 0.3em;
+}
+
+.header-content {
+    font-size: 13px;
+    font-weight: 350;
+    width: 93%;
+    line-height: 1.3;
+}
