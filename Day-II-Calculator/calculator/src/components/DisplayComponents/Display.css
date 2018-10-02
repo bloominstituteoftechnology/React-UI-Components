@@ -1,0 +1,25 @@
+.display {
+<<<<<<< HEAD
+    box-sizing: border-box;
+    width: 264px;
+    height: 70px;
+    font-size: 3rem;
+    line-height: 70px;
+    text-align: right;
+    padding-right: 15px;
+    background: #333;
+    color: #fff;
+  }
+  
+=======
+  box-sizing: border-box;
+  width: 264px;
+  height: 70px;
+  font-size: 3rem;
+  line-height: 70px;
+  text-align: right;
+  padding-right: 15px;
+  background: #333;
+  color: #fff;
+}
+>>>>>>> 730121e17d1c4a5bd6f03655e418afbeeaedb8f1

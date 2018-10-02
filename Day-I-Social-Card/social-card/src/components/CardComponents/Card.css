@@ -1,1 +1,77 @@
 /* All styles for your Card Components live here */
+
+ .card-container{
+display: flex;
+width: 670px;
+magin: auto 0;
+flex-direction:column;
+justify-content: flex-end;
+} 
+
+.card-content{
+display: flex;
+flex-direction: column;
+width: 590px;
+padding: 10px 1px;
+border: 1px solid lightslategray;
+border-radius:2px;
+
+
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+a:visited{
+    color:black;
+}
+
+.banner-img{
+width: 570px;
+height:300px;
+margin-top:-10px;
+border-top-left-radius:6px;
+border-top-right-radius:6px; 
+margin-left:15%;
+
+}
+
+.card-content-wrapper{
+margin-left:15%;
+padding-bottom:5%
+
+}
+
+.card-content-title{
+
+    font-weight: 700;
+    padding : 10px 0;
+    margin-left: 10px;
+
+}
+
+.card-content-text{
+
+    width:520px;
+    margin-left:10px;
+}
+
+
+.react-js-org{
+
+    color:gray;
+    padding-top: 10px;
+    padding-left:10px;
+
+}
+
+
+
+/* .whole-container{
+display:flex;
+width: 675px;
+flex-direction:column;
+
+} */
