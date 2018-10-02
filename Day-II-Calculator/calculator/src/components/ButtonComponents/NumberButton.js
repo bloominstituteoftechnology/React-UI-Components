@@ -1,18 +1,12 @@
 import React from 'react';
 import './Button.css';
 
-const FunctionButtons = props => {
-    return (
-        <div>
-            
-        </div>
-    );
-};
+
 
 const NumButton = props => {
     return (
         <div>
-            Number buttons here
+            <button className={props.buttonStyle}>{props.number.number}</button>
         </div>
     );
 };

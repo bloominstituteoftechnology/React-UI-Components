@@ -5,9 +5,9 @@ import './Button.css';
 const ActionButton = props => {
     return (
         <div>
-            Actions buttons for zero and clear
+            <button className={props.buttonStyle}>{props.actions.action}</button>
         </div>
     );
-}
+};
 
 export default ActionButton;

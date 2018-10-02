@@ -5,7 +5,7 @@ import './Button.css';
 const FunctionButton = props => {
     return (
         <div>
-            Mathematical function buttons here
+            <button className={props.buttonStyle}>Mathematical functions{props.text}</button>
         </div>
     );
 };
