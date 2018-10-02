@@ -4,7 +4,7 @@ import CardBanner from "./CardBanner"
 import CardContent from "./CardContent"
 const CardContainer = () => {
     return (
-        <div>
+        <div className= "contentWrapper">
             <CardBanner />
             <CardContent />
         </div>
