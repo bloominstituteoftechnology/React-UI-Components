@@ -1,0 +1,35 @@
+.calculator{
+    border:1px solid black;
+    max-width:500px;
+    width:100%;
+}
+.total{
+    border:1px solid black;
+    display: flex;
+    justify-content: flex-end;
+    padding-right:10px;
+}
+.total h1{
+    font-size:80px;
+    font-weight: 100;
+    margin:10px 0 10px 0;
+}
+.button-container{
+    border:1px solid pink;
+}
+.number-button{
+    padding:32.25px;
+    width:25%;
+}
+.operator{
+    padding:32.25px;
+    width:25%;
+}
+.clear-button{
+    padding:32.25px;
+    width:75%;
+}
+.zero-button{
+    padding:32.25px;
+    width:75%;
+}

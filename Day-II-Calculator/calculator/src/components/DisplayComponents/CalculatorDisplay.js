@@ -11,34 +11,34 @@ const CalculatorDisplay = () =>{
             </div>
 
             <div className="button-container">
-                <ActionButton button-style="clear-button" text="clear"/>
-                <ActionButton button-style="operator" text="÷" />
+                <ActionButton buttonStyle="clear-button" text="clear"/>
+                <ActionButton buttonStyle="operator" text="÷" />
             </div>
 
             <div className="button-container">
-                <NumberButton button-style="number-button" text="7" />
-                <NumberButton button-style="number-button" text="8" />
-                <NumberButton button-style="number-button" text="9" />
-                <ActionButton button-style="operator" text="x" />
+                <NumberButton buttonStyle="number-button" text="7" />
+                <NumberButton buttonStyle="number-button" text="8" />
+                <NumberButton buttonStyle="number-button" text="9" />
+                <ActionButton buttonStyle="operator" text="x" />
             </div>
 
             <div className="button-container">
-                <NumberButton button-style="number-button" text="4" />
-                <NumberButton button-style="number-button" text="5" />
-                <NumberButton button-style="number-button" text="6" />
-                <ActionButton button-style="operator" text="-" />
+                <NumberButton buttonStyle="number-button" text="4" />
+                <NumberButton buttonStyle="number-button" text="5" />
+                <NumberButton buttonStyle="number-button" text="6" />
+                <ActionButton buttonStyle="operator" text="-" />
             </div>
 
             <div className="button-container">
-                <NumberButton button-style="number-button" text="1" />
-                <NumberButton button-style="number-button" text="2" />
-                <NumberButton button-style="number-button" text="3" />
-                <ActionButton button-style="operator" text="+" />
+                <NumberButton buttonStyle="number-button" text="1" />
+                <NumberButton buttonStyle="number-button" text="2" />
+                <NumberButton buttonStyle="number-button" text="3" />
+                <ActionButton buttonStyle="operator" text="+" />
             </div>
 
             <div className="button-container">
-                <NumberButton button-style="zero-button" text="0" />
-                <ActionButton button-style="operator" text="=" />
+                <NumberButton buttonStyle="zero-button" text="0" />
+                <ActionButton buttonStyle="operator" text="=" />
             </div>
         </div>
     );
