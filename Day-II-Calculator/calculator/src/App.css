@@ -1,0 +1,7 @@
+.numberContainer {
+    border: 1px solid black;
+    display: flex;
+    width: 156px;
+    flex-wrap: wrap;
+
+}
