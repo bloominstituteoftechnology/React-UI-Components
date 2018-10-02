@@ -1,0 +1,22 @@
+.App {
+    margin: 50px auto 0;
+    width: 450px;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid #979797;
+}
+
+.App .whiteButtons {
+    display: flex;
+    flex-wrap: wrap;
+    height: 475px;
+    width: 336px;
+}
+
+.App .redButtons {
+    display: flex;
+    flex-wrap: wrap;
+    height: 475px;
+    width: 112px;
+}

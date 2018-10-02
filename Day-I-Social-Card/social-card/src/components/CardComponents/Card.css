@@ -1,1 +1,38 @@
 /* All styles for your Card Components live here */
+
+.card-container {
+    margin-left: 70px;
+    margin-right: 15px;
+    border: 1px solid lightgrey;
+    border-radius: 7px;
+}
+
+.card-container:hover {
+    cursor: pointer;
+}
+
+.banner-image {
+    width: 100%;
+    height: auto;
+    border-radius: 7px 7px 0 0;
+}
+
+.card-content {
+    padding: 10px 0 0 10px;
+}
+
+.card-content h1 {
+    font-size: 14px;
+    margin: 0;
+}
+
+.card-content p {
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+.card-content h2 {
+    color: darkgrey;
+    font-size: 14px;
+    font-weight: normal;
+}
