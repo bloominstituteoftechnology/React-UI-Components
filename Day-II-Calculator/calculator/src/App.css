@@ -48,6 +48,7 @@ table {
     display: flex;
     flex-direction: column;
     border: solid 1px #979797;
+    box-shadow: 1px 1px 10px #979797, -1px -1px 10px #979797;
 }
 
 .btn-container{

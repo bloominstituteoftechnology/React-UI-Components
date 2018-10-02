@@ -48,6 +48,10 @@ table {
     text-align: center;
     font-size: 42px;
     padding-top: 25px;
+    cursor: pointer;
+}
+.btn:hover{
+    box-shadow: inset -5px -5px 50px gold,inset 5px 5px 50px gold;
 }
 
 .num{
