@@ -1,0 +1,23 @@
+.calc-container {
+  border: 3px solid grey;
+  max-width: 500px;
+  margin: 20vh auto;
+}
+
+.calc-display-container {
+  display: flex;
+  justify-content: flex-end;
+  color: white;
+  margin: auto;
+  background: #333;
+}
+
+.calc-display-container span {
+  font-size: 5rem;
+  padding: 10px;
+}
+
+.buttons-container {
+  display: flex;
+  /* border: 1px solid red; */
+}
