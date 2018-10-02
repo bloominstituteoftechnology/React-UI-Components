@@ -1,1 +1,13 @@
 /* All styles for your header Components live here */
+.header{
+    width:100%;
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+}
+.title{
+    display:flex;
+}
+.title h1{
+
+}

@@ -1,0 +1,25 @@
+body{
+    width:220px;
+}
+.number{
+height: 55px;
+width:55px;
+background-color:white;
+border:1px solid gray;
+font-weight:bold;
+}
+.action{
+    width: 165px;
+    height:55px;
+    background-color:white;
+    border:1px solid gray;
+    font-weight:bold;
+}
+.signs{
+height: 55px;
+width:55px;
+background-color:#8C0018;
+color:white;
+border:1px solid gray;
+font-weight:bold;
+}
