@@ -21,6 +21,8 @@
 .sign {
   color: white;
   background: #A12820;
+  font-size: 4rem;
+  font-weight: 100;
 }
 
 .num {
