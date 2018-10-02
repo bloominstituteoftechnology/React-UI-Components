@@ -4,6 +4,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    user-select: none;
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+.button:active {
+    transition: all 100ms ease-in-out;
+    font-size: 35px;
 }
 
 .number-button {
