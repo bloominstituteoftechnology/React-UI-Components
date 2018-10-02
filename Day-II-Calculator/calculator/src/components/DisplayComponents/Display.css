@@ -5,9 +5,15 @@
     color: white;
     height: 6vh;
     line-height: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 0px 5px 2px 0px;
+    
+        box-sizing: border-box;
 }
 
-p{
+/* p{
     margin: 0px 5px 0px 0px;
-    font-size: 3.5rem;
-}
+    font-size: 6rem;
+} */

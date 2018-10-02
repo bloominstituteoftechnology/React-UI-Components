@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+
 import NumberButton from './components/ButtonComponents/NumberButton.js';
 import ActionButton from './components/ButtonComponents/ActionButton.js';
 import OperatorButton from './components/ButtonComponents/OperatorButton';
@@ -13,13 +14,13 @@ const App = () => {
       </div>
       <div>
         <ActionButton buttonStyle = {'clear'} text = {'Clear'}/>
-      <div>
       </div>
-     <OperatorButton buttonStyle ={'action'} text={'%'}/>         
-     <OperatorButton buttonStyle ={'action'} text={'x'}/> 
-     <OperatorButton buttonStyle ={'action'} text={'-'}/> 
-     <OperatorButton buttonStyle ={'action'} text={'+'}/> 
-     <OperatorButton buttonStyle ={'action'} text={'='}/> 
+      <div>
+     <OperatorButton buttonStyle ={'operator'} text={'%'}/>         
+     <OperatorButton buttonStyle ={'operator'} text={'x'}/> 
+     <OperatorButton buttonStyle ={'operator'} text={'-'}/> 
+     <OperatorButton buttonStyle ={'operator'} text={'+'}/> 
+     <OperatorButton buttonStyle ={'operator'} text={'='}/> 
 
       </div>
       <div>
