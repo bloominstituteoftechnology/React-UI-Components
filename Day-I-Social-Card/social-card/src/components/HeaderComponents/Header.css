@@ -3,12 +3,11 @@
     display: flex;
 }
 
-
 .header .title {
     display: flex;
     flex-wrap: wrap;
-    width:80%;
-    margin-left: 50px;
+    width:90%;
+    margin-left: 20px;
     align-items: baseline;
 }
 .header .title h2 {
@@ -21,8 +20,8 @@
     font-size: 1rem;
 }
 
-.header .logo {
-    margin: 20px;
-    width: 150px;
+.header .logo img {
+    margin: 20px 0 0 20px;
+    width: 40px;
     height: auto;
 }

@@ -7,7 +7,7 @@ const HeaderContainer = props => {
     return (
         <div className="header">
             <div className="logo"><ImageThumbnail /></div>
-            <div><HeaderTitle /></div>
+            <div className="header-title"><HeaderTitle /></div>
         </div>
 );
 };
