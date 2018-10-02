@@ -1,1 +1,19 @@
 /* All styles for your header Components live here */
+.header-wrapper {
+	display: flex;
+}
+
+.header-title {
+	display: inline-block;
+}
+
+.header-title-details {
+	color: gray;
+	display: inline-block;
+	padding-left: 10px;
+}
+
+.header-img {
+	max-width: 70px;
+	margin-right: 10px;
+}
