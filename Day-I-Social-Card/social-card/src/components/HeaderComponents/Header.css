@@ -1,1 +1,42 @@
 /* All styles for your header Components live here */
+.headerContainer {
+    display: flex;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+.headerContent {
+    margin-left: 1.6rem;
+}
+.headerTitle {
+    display: flex;
+    align-items: center;
+}
+
+.headerTitle h2 {
+    font-size: 1.1rem;
+    margin-right: .5rem;
+    font-weight: bold;
+    word-spacing: 0rem;
+}
+
+.headerTitle h3 {
+    font-size: 1rem;
+    color: slategray;
+}
+
+.headerContent p {
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+    margin-top: .7rem;
+    margin-bottom: 1.2rem;
+    word-spacing: .1rem;
+    
+}
+
+.logo {
+    width: 25px;
+    height: 25px;
+    margin-top: .6rem;
+}
+

@@ -1,0 +1,44 @@
+
+.numberButton{
+    width: 73%;
+}
+
+button {
+    height: 7.5rem;
+    border: 1px solid slategray;
+}
+
+.numberButton .third {
+    width: 33.3%;
+}
+
+.numberButton .full {
+    width: 100%;
+}
+
+.actionButton {
+    width: 27%;
+}
+
+.actionButton button {
+    width: 100%;
+    font-size: 4rem;
+    color: white;
+    background: #A0001E;
+    
+}
+
+.numberButton button {
+    font-size: 3.5rem;
+    font-weight: bold;
+    background: white;
+}
+
+.numberButton .font {
+    font-weight: normal;
+}
+
+.allButtons {
+    
+    display: flex;
+}
