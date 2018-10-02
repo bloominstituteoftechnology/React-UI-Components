@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+}
+
+.bottom {
+    height: 400px;
+    background: white;
+    display: flex;
+    border: 1px solid gray;
+}
+
+.clearButton {
+    height: 80px;
+    width: 300px;
+    border: 1px solid gray;
+    display: flex;
+    justify-content: center;
+    background: white;
+    align-items: center;
+    font-size: 40px;
+}
+
+.zeroButton {
+    font-weight: 700;
+    height: 80px;
+    width: 300px;
+    border: 1px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    font-size: 40px;
+}
+
+.bottom .left-side .small-numbers {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.basicButton {
+    height: 80px;
+    width: 100px;
+    border: 1px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.action {
+    height: 80px;
+    width: 100px;
+    border: 1px solid gray;
+    background: #A0001E;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+}
