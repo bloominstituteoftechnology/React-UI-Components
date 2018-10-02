@@ -1,0 +1,24 @@
+
+.white {
+  width: 111px;
+  
+}
+.largeButton {
+  width: 333px;
+  height: 93px;
+  border-radius: 0;
+  font-size: 45px;
+  background: white;
+}
+.button {
+  border: 1px solid #979797;
+  height: 93px;
+  font-size: 50px;
+
+}
+.red {
+  background: #a0001e;
+  width: 120px;
+  font-size: 65px;
+  
+}
