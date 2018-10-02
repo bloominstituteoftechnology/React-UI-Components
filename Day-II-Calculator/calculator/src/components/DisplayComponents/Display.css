@@ -3,5 +3,6 @@
     color: white;
     text-align: end;
     padding: 15px 10%;
-    font-size: 20px;
+    font-size: 7rem;
+    border: 1.5px solid lightgray;
 }
