@@ -1,13 +1,19 @@
 import React from "react";
 import "./App.css";
 import NumberButton from "./components/ButtonComponents/NumberButton";
+import ActionButton from "./components/ButtonComponents/ActionButton"
 
 const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 
 const App = () => {
   return (
+    <div className="container">
     <div className="numbers">
     {numbers.map(number => <NumberButton displaySymbol={number} />)}
+    </div>
+    <div className="zero">
+    <ActionButton action={0}/>
+    </div>
     </div>
     // <div>
     //   <h3>Welcome to React Calculator</h3>

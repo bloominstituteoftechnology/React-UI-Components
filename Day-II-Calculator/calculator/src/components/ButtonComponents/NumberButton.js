@@ -5,4 +5,4 @@ const NumberButton = props => (
   <div className="number-button"> {props.displaySymbol} </div>
 );
 
-export default NumberButton
+export default NumberButton;
