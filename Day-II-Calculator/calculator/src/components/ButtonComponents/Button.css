@@ -1,0 +1,33 @@
+.default-action-button-styles {
+    background: red;
+    color: whitesmoke;
+    width: 25%;
+    font-size: 44px;
+    font-weight: bold;
+  }
+
+  .button-styles {
+    font-size: 44px;
+    height: 94px;
+
+    line-height: 18px;
+  }
+
+  .clear-button {
+    width: 75%;
+    background: white;
+  }
+
+  .default-number-button-styles{
+    background: whitesmoke;
+    color: unset;
+    width: 25%;
+    font-size: 44px;
+    font-weight: bold;
+  }
+
+  .zero-button{
+    width: 75%;
+    background: white;
+    font-weight: bold;
+  }

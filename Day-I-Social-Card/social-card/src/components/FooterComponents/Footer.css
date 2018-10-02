@@ -1,0 +1,16 @@
+.footer-wrapper{
+    margin: 28px 0px 0 3%;
+    width: 55%;
+    display: flex;
+    height: 33px;
+}
+
+.footer-wrapper img{
+    margin-left: 7%;
+}
+
+.footer-wrapper p{
+    margin: 8px 0px 0 4%;
+    font-size: 13px;
+    color: gray;
+}

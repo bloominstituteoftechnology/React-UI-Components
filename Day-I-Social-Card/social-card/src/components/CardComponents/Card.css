@@ -1,1 +1,35 @@
 /* All styles for your Card Components live here */
+.card-wrapper{
+    width: 55%;
+    margin-top: 20px;
+    margin-left: 7%;
+}
+
+.react-banner{
+    height: 250px;
+    width: 500px;
+    border-radius: 5px;
+}
+
+.card-content{
+    margin-left: 2%;
+    text-decoration: none;
+}
+
+.card-content h2{
+    font-weight:bold;
+    font-size: 14px;
+    margin: 7px 0 0 0;
+
+}
+
+.card-content p{
+    font-size: 14px;
+    margin: 12px 0 0 0;
+}
+
+.card-content h3{
+    margin: 10px 0px 0px 6px;
+    font-size: 12px;
+    color: gray;
+}
