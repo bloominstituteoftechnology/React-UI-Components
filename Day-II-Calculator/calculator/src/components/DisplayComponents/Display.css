@@ -1,0 +1,10 @@
+.displayNumb {
+    background-color: black;
+    font-size: 6rem;
+    color: white;
+    padding: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+

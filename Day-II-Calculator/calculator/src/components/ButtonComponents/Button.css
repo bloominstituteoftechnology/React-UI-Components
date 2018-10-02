@@ -1,0 +1,90 @@
+/* inside box */
+.container .displayNumb {
+    font-size: 5rem;
+    font-weight: 100;
+    border: 1px solid gray;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.container .buttonContainer {
+    display: flex;
+}
+
+.container-white {
+    width: 75%;
+}
+
+
+.container .buttonContainer .container-white {
+    width: 76%;
+    height: 600px;
+}
+
+
+.container .buttonContainer .actionContainer {
+    background-color: #a0001e;
+    width: 25.3%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container .buttonContainer .actionContainer .actionButton {
+
+  width: 99%;
+  height: 130px;
+  align-items: center;
+  border: 1px solid gray;
+  font-size: 5rem;
+  color: white;
+  display: flex;
+  justify-content: center;
+
+}
+
+
+.container .buttonContainer .actionContainer .equal {
+    border-bottom: none;
+  }
+
+.container .buttonContainer .container-white {
+    display: flex;
+    flex-direction: column;
+    font-size: 5rem;
+}
+
+.container .buttonContainer .container-white .clear {
+    font-weight: 100;
+    height: 98px;
+    border: 1px solid gray;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .container .buttonContainer .container-white .count {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .container .buttonContainer .container-white .count .integer {
+    font-weight: 100;
+    width: 110.5px;
+    height: 96px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gray;
+  }
+  .container .buttonContainer .container-white .zero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 78px;
+    font-weight: 100;
+  }

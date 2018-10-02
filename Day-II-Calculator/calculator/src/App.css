@@ -1,0 +1,10 @@
+.container {
+  width: 450px;
+  height: 600px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid gray;
+  cursor: pointer;
+  }
+
