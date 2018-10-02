@@ -1,0 +1,6 @@
+.container {
+    width: 456px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
