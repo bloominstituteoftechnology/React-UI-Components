@@ -1,1 +1,47 @@
 /* All styles for your header Components live here */
+
+.header-container {
+    width: 100%;
+    display: flex;
+}
+
+.text-container {
+    width: 90%;
+    padding-left: 5px;
+    padding-right: 15px;
+}
+
+.title {
+    width: 90%;
+    height: 40px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline; 
+}
+
+.main-title {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-right: 10px;    
+}
+
+.username {
+    font-size: .9rem;
+    color: lightslategray;
+    margin-right: 10px;  
+}
+
+.date {
+    font-size: .9rem;
+    color: lightslategrey;    
+}
+
+.interpunct {
+    padding-right: 8px;
+}
+
+.lambda-logo {
+    max-width: 58px;
+    height: 58px;
+    padding-top: 10px;
+}
