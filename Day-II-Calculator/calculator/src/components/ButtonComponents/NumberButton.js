@@ -2,19 +2,19 @@ import React from 'react';
 import './Button.css';
 
 
-const NumberButton = props => 
-(
+const NumberButton = props => {
+return (
    
    
    
-    <div> <button className={props.buttonStyle}>{props.text}
+    <div className={props.buttonStyle}>{props.text}
     
-    </button>  
+    </div>  
     
-     </div>
-)
+     
+);
 
-
+};
 
 
 
@@ -22,3 +22,5 @@ const NumberButton = props =>
 
 
 export default NumberButton; 
+
+//g2g

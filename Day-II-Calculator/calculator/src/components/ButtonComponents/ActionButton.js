@@ -6,10 +6,13 @@ const NumberButton = props =>
    
    
    
-    <div> <button className={props.buttonStyle}>{props.text}
-    
-    </button>  
+    <div className={props.buttonStyle}>{props.text}
+   
     
      </div>
 )
 
+
+export default NumberButton;
+
+//g2g
