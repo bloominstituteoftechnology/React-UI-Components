@@ -1,12 +1,12 @@
 import React from 'react';
-import './App.css';
+// import './App.css';
 
 const App = () => {
   return (
     <div>
       <h3>Welcome to React Calculator</h3>
       <p>
-        We have given you a starter project. You'll want to build out your
+        We have given you a starter project. You want to build out your
         components in their respective files, remove this code and replace it
         with the proper components.
       </p>
