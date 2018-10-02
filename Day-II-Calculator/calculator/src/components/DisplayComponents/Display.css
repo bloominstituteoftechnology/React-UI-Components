@@ -1,0 +1,13 @@
+.display {
+  height: 130px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background: #222;
+}
+
+p {
+  color: white;
+  font-size: 70px;
+  margin-right: 15px;
+}

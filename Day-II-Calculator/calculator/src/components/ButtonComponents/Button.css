@@ -1,0 +1,30 @@
+.wide-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 75%;
+  font-size: 48px;
+  cursor: pointer;
+}
+
+.number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  font-size: 48px;
+  border-right: 1px solid gray;
+  cursor: pointer;
+}
+
+.operator {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  font-size: 48px;
+  color: white;
+  background: #af0014;
+  font-weight: bold;
+  cursor: pointer;
+}
