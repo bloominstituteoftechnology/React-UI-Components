@@ -1,7 +1,7 @@
 import React from 'react';
 import './Button.css';
 
-const ClearButton = (props) => {
+const OperatorButton = (props) => {
     return(
         <button classNAme = {props.buttonStyle}>
         {props.text}
@@ -10,4 +10,4 @@ const ClearButton = (props) => {
     
 };
 
-export default ClearButton;
+export default OperatorButton;

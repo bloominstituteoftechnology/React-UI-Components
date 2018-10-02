@@ -2,8 +2,7 @@ import React from 'react';
 import './App.css';
 import NumberButton from './components/ButtonComponents/NumberButton.js';
 import ActionButton from './components/ButtonComponents/ActionButton.js';
-import ClearButton from './components/ButtonComponents/ClearButton.js';
-import ZeroButton from './components/ButtonComponents/ZeroButton.js';
+import OperatorButton from './components/ButtonComponents/OperatorButton';
 import CalculatorDisplay from './components/DisplayComponents/CalculatorDisplay';
 
 const App = () => {
@@ -13,14 +12,14 @@ const App = () => {
         <CalculatorDisplay buttonStyle = {'number'} text ={'0'}/>
       </div>
       <div>
-        <ClearButton buttonStyle = {'clear'} text = {'Clear'}/>
+        <ActionButton buttonStyle = {'clear'} text = {'Clear'}/>
       <div>
       </div>
-     <ActionButton buttonStyle ={'action'} text={'%'}/>         
-     <ActionButton buttonStyle ={'action'} text={'x'}/> 
-     <ActionButton buttonStyle ={'action'} text={'-'}/> 
-     <ActionButton buttonStyle ={'action'} text={'+'}/> 
-     <ActionButton buttonStyle ={'action'} text={'='}/> 
+     <OperatorButton buttonStyle ={'action'} text={'%'}/>         
+     <OperatorButton buttonStyle ={'action'} text={'x'}/> 
+     <OperatorButton buttonStyle ={'action'} text={'-'}/> 
+     <OperatorButton buttonStyle ={'action'} text={'+'}/> 
+     <OperatorButton buttonStyle ={'action'} text={'='}/> 
 
       </div>
       <div>
@@ -35,7 +34,7 @@ const App = () => {
           <NumberButton buttonStyle={'number'} text={'3'}/>
       </div>
       <div>
-        <ZeroButton buttonStyle={'clear'} text={'0'}/>
+        <ActionButton buttonStyle={'clear'} text={'0'}/>
       </div>
     </div>
   );
