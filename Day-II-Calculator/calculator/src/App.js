@@ -21,10 +21,10 @@ const App = () => {
     </div>
 
     <div class="main-content">
-      <div class="main-buttons">
+      <div class="main-keys">
       <MainButtons />
       </div>
-      
+
       <div className="functions">
       {functionButtons.map(item => <FunctionButton function={item} />)}
     </div>

@@ -1,0 +1,33 @@
+.action {
+    width: 75%;
+}
+
+button {
+    font-size: 30px;
+}
+
+.numbers button {
+    box-sizing: border-box;
+    width: 99px;
+    height: 100px;
+    border: 1px solid gray;
+}
+
+.numbers {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.action button {
+    box-sizing: border-box;
+    width: 300px;
+    height: 100px;
+    border: 1px solid gray;
+}
+
+.math-functions button {
+    box-sizing: border-box;
+    width: 100px;
+    height: 100px;
+    border: 1px solid gray;
+}

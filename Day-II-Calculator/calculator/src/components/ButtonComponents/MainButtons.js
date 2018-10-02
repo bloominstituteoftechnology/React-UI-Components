@@ -16,8 +16,8 @@ const numberButtons = [
 ]
 
 const actionButtons = [
-    {action: 0},
-    {action: 'clear'}
+    {action: 'clear'},
+    {action: 0}
 ]
 
 const MainButtons = props => {

@@ -3,7 +3,7 @@
 }
 
 .main-container {
-    width: 30%;
+    width: 400px;
     height: 500px;
     margin: 0 auto;
     border: 1px solid gray;
@@ -25,6 +25,6 @@
     width: 25%;
 }
 
-.main-buttons {
+.main-keys {
     width: 75%;
 }
