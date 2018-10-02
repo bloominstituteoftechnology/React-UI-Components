@@ -6,7 +6,7 @@ const HeaderTitle = props => {
     return (
         <div className='title'>
             <h2>Lamdba School</h2>
-            <h3>@LamdbaSchool</h3>
+            <h3>@LamdbaSchool  - 2 Oct</h3>
             <div className="content"><HeaderContent /></div>
         </div>
     )
