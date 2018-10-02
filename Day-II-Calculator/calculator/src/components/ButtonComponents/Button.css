@@ -16,7 +16,7 @@
     align-items: center;
     color:white;
 }
-.clear-btn{
+.Action-Button{
     border:1px solid grey;
     height:92px;
     width:330px;
@@ -41,7 +41,4 @@
     justify-content: center;
     align-items: center;
     font-size:45px;
-}
-.zero{
-    width:300px;
 }

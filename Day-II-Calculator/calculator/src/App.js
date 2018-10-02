@@ -3,13 +3,14 @@ import './App.css';
 import Display from './components/DisplayComponents/CalculatorDisplay';
 import NumberBtns from './components/ButtonComponents/NumberButton';
 import ActionButtons from './components/ButtonComponents/ActionButton';
+import ActionButton from './components/ButtonComponents/ActionButton2';
 const App = () => {
   return (
     <div className="calculator">
       <Display />
       <div className="btn-section">
         <div className="left-side">
-          <div className="clear-btn">clear</div>
+          <ActionButton name={"clear"} />
           <div className="number-div">
             <NumberBtns numberbtn = {7} />
             <NumberBtns numberbtn = {8} />
@@ -20,7 +21,7 @@ const App = () => {
             <NumberBtns numberbtn = {1} />
             <NumberBtns numberbtn = {2} />
             <NumberBtns numberbtn = {3} />
-            <NumberBtns numberbtn = {0} />
+            <ActionButton name={0} />
           </div>
         </div>
         <ActionButtons />
