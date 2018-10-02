@@ -1,0 +1,21 @@
+.numberButton {
+    border: 2px solid grey;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+.functionButton {
+    border: 2px solid grey;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: red;
+    color: white;
+    font-size: 30px;
+}
