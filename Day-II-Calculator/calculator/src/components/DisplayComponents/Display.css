@@ -1,0 +1,16 @@
+.calculator-display {
+    max-width: 500px;
+    width: 100%;
+    height: 125px;
+    background-color: rgb(50, 50, 50);
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    border: 1px inset grey;
+}
+
+.calculator-text {
+    padding: 5%;
+    font-size: 4.5rem;
+}

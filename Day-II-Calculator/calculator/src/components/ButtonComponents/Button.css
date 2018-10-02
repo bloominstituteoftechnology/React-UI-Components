@@ -1,0 +1,84 @@
+.mainContent{
+    display: flex;
+}
+
+.leftContent {
+    width: 375px;
+    /* width: 75%; */
+    height: 620px;
+    margin: 0px;
+    padding: 0px;
+    /* display: flex; */
+    /* justify-content: flex-start; */
+}
+
+.bigButton{
+    width: 375px;
+    height: 20%;
+    border: 1px solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4.2rem;
+    cursor: pointer;
+
+}
+
+.bigButton:hover {
+    color: white;
+    background: black;
+    transition: .3s;
+}
+
+.numbersSection {
+    width: 375px;
+    /* height: 100%; */
+    /* border-right: 1px solid blue; */
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 0;
+}
+
+.numButton {
+    width: 123px;
+    height: 124px;
+    font-size: 4.2rem;
+    border: grey 1px solid;
+    /* padding: 10px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.numButton:hover {
+    color: white;
+    background: black;
+    transition: .3s;
+}
+
+.zero {
+    font-size: 4.2rem;
+}
+
+.mathButton {
+    width: 124px;
+    height: 124px;
+    font-size: 4.2rem;
+    border: grey 1px solid;
+    /* padding: 10px; */
+    text-align: center;
+    color: white;
+    background: darkred;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+.mathButton:hover {
+    color: darkred;
+    background: black;
+    transition: .3s;
+}
