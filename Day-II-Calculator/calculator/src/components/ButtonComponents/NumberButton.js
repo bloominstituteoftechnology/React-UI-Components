@@ -5,21 +5,29 @@ import './Button.css';
 function Button(props) {
     const {button} = props;
     return (
-        <div>
-            <p className = 'numberButton'>{button.one}</p>
-            <p className = 'numberButton'>{button.two}</p>
-            <p className = 'numberButton'>{button.three}</p>
-            <p className = 'numberButton'>{button.four}</p>
-            <p className = 'numberButton'>{button.five}</p>
-            <p className = 'numberButton'>{button.six}</p>
-            <p className = 'numberButton'>{button.seven}</p>
-            <p className = 'numberButton'>{button.eight}</p>
-            <p className = 'numberButton'>{button.nine}</p>
-            <p className = 'functionButton'>{button.divide}</p>
-            <p className = 'functionButton'>{button.multiply}</p>
-            <p className = 'functionButton'>{button.subtract}</p>
-            <p className = 'functionButton'>{button.add}</p>
-            <p className = 'functionButton'>{button.equal}</p>
+        <div className='buttons'>
+            <div className="numbers147">
+            <button className = 'numberButton'>{button.one}</button>
+            <button className = 'numberButton'>{button.four}</button>
+            <button className = 'numberButton'>{button.seven}</button>
+            </div>
+            <div className="numbers258">
+            <button className = 'numberButton'>{button.two}</button>
+            <button className = 'numberButton'>{button.five}</button>
+            <button className = 'numberButton'>{button.eight}</button>
+            </div>
+            <div className="numbers369">
+            <button className = 'numberButton'>{button.three}</button>
+            <button className = 'numberButton'>{button.six}</button>
+            <button className = 'numberButton'>{button.nine}</button>
+            </div>
+            <div className="operators">
+            <button className = 'functionButton'>{button.divide}</button>
+            <button className = 'functionButton'>{button.multiply}</button>
+            <button className = 'functionButton'>{button.subtract}</button>
+            <button className = 'functionButton'>{button.add}</button>
+            <button className = 'functionButton'>{button.equal}</button>
+            </div>
         </div>
     )
 }

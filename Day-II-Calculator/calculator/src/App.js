@@ -4,7 +4,7 @@ import Button from './components/ButtonComponents/NumberButton'
 
 const buttons = [
   {
-  two: '0',  
+  zero: '0',  
   one: '1',
   two: '2', 
   three: '3',
@@ -24,7 +24,7 @@ const buttons = [
 
 const App = () => {
   return (
-    <div>
+    <div className = 'calculator'>
       {buttons.map(button => {
         return (
           <Button button={button}/>

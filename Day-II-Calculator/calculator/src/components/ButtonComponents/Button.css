@@ -1,5 +1,22 @@
+.buttons {
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* button styling */
 .numberButton {
-    border: 2px solid grey;
+    border: 1px solid grey;
     height: 50px;
     width: 50px;
     display: flex;
@@ -7,9 +24,10 @@
     justify-content: center;
     font-weight: bold;
     font-size: 30px;
+    background: white;
 }
 .functionButton {
-    border: 2px solid grey;
+    border: 1px solid grey;
     height: 50px;
     width: 50px;
     display: flex;
