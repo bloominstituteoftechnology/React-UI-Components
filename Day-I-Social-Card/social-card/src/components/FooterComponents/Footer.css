@@ -1,8 +1,19 @@
-.footer {
+.card-footer {
   height: 50px;
-  border: 1px solid orange;
+  display: grid;
+  grid-template-columns: 1fr 9fr;
 }
 
-.far, .fas {
-  font-size: 2rem;
+.buttons-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-column-start: 2;
 }
+
+.card-footer .svg-inline--fa {
+  height: 44px;
+  margin-top: 15px;
+  color: #888;
+}
+
+

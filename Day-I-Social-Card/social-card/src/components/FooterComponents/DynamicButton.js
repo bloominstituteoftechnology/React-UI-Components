@@ -3,23 +3,17 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 
 const DynamicButton = props => {
-  let buttonIcon;
   if (props.type === 'comment') {
     // buttonIcon = '<i className="far fa-comment"></i>';
-    buttonIcon = <FontAwesomeIcon icon="comment" />;
+    return(<div><FontAwesomeIcon icon="comment" /></div>);
   } else if (props.type === 'repeat') {
-    buttonIcon = '<i className="fas fa-retweet"></i>';
+    return(<div><FontAwesomeIcon icon="retweet" /></div>);
   } else if (props.type === 'like') {
-    buttonIcon = '<i className="far fa-heart"></i>';
+    return(<div><FontAwesomeIcon icon="heart" /></div>);
   } else if (props.type === 'mail') {
-    buttonIcon = '<i className="far fa-envelope"></i>';
+    return (<div><FontAwesomeIcon icon="envelope" /></div>);
   };
 
-  return (
-    <div>
-      {buttonIcon}
-    </div>
-  );
 }
 
 export default DynamicButton;

@@ -2,21 +2,23 @@
 
 .header {
   width: 100%;
-  height: 100px;
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: 1fr 9fr;
 }
 
 .image-thumbnail {
-  border-radius: 50%;
-  height: 50%;
-  margin: 10px 5px;
+  max-width: 70%;
+  margin: 10px auto;
+}
+
+.header-container {
+  grid-column-start: 2;
+  margin: 10px 0;
 }
 
 .header-title {
-  display: flex;
-  flex-direction: row;
-  margin-top: 10px;
+  display: grid;
+  grid-template-columns: auto auto 1fr;
 }
 
 .header-username {
@@ -29,8 +31,9 @@
   margin-right: 5px;
 }
 
-.fa-calendar {
-  font-size:  10px;
+.svg-inline--fa .fa-calendar {
+  height: 14px;
+  padding-bottom: 2px;
 }
 
 .posted-date {
