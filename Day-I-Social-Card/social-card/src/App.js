@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import Header from './components/HeaderComponents/Header';
-import Card from './components/CardComponents/Card';
+import CardContainer from './components/CardComponents/CardContainer';
 import Footer from './components/FooterComponents/Footer';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -19,7 +19,7 @@ const App = () => {
   return (
     <div className='app'>
       <Header />
-      <Card />
+      <CardContainer />
       <Footer />
     </div>
   );
