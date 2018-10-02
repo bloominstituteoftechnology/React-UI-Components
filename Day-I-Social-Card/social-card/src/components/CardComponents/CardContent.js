@@ -8,7 +8,7 @@ const CardContent = props => {
         <div className="card-content-container">
             <h2 className="card-title">{props.cardTitle}</h2>
             <p className="card-txt">{props.cardContent}</p>
-            <a href="" className="card-link">{props.cardLink}</a>
+            <a href={props.cardLink} className="card-content-link">reactjs.org</a>
         </div>
     );
 }
