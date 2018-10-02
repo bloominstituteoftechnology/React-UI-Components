@@ -1,0 +1,36 @@
+.calculator-container {
+  width: 400px;
+}
+
+.row {
+  display: flex;
+  height: 30px;
+}
+
+.width-1 {
+  flex: 1;
+}
+
+.width-2 {
+  flex: 2;
+}
+
+.width-3 {
+  flex: 3;
+}
+
+.width-4 {
+  flex: 4;
+}
+
+.color-white {
+  background: white;
+}
+
+.color-red {
+  background: red;
+}
+
+.color-grey {
+  background: grey;
+}
