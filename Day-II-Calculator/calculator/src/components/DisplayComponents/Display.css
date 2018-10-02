@@ -1,0 +1,10 @@
+.display {
+    max-width: 455px;
+    width: 100%;
+    height: 125px;
+    background-color: #222222;
+    font-size: 80px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: flex-end;
+}

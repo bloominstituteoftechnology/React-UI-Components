@@ -1,1 +1,35 @@
 /* All styles for your header Components live here */
+header {
+    max-width: 880px;
+    display: flex;
+}
+
+.imageContainer {
+    width: 25%;
+    display: block;
+}
+
+.imageContainer img {
+    width: 100%;
+    height: auto;
+}
+
+.headerTitle {
+    display: flex;
+}
+
+.headerTitle h1 {
+    font-size: 15px;
+    margin-left: 5px;
+}
+
+.headerTitle p {
+    font-size: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: gray;
+}
+
+.headerContent p {
+    margin-left: 5px;
+}
