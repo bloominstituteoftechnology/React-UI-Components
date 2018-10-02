@@ -1,1 +1,22 @@
 /* All styles for your header Components live here */
+.header-wrapper {
+  font-size: 50px;
+}
+
+.header-content {
+  font-size: 35px;
+  color: paleturquoise;
+}
+
+.header-info {
+  font-size: 25px;
+}
+
+.logo {
+  height: 70px;
+  padding: 0.3em;
+}
+
+.logo-img {
+  height: 100%;
+}

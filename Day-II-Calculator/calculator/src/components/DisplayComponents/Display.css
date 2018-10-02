@@ -1,0 +1,9 @@
+.display-styles {
+  height: 100px;
+  width: 100%;
+  line-height: 18px;
+  color: white;
+  background-color: darkgray;
+  font-size: 50px;
+  text-align: end;
+}
