@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 3.6rem;
+}
+
+.white {
+    font-weight: bold;
+    width: 25%;
+    height: 114px;
+    border: 1px solid #979797;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.red {
+    background: #A0001E;
+    color: #FFFFFF;
+    font-weight: bold;
+    width: 25%;
+    height: 114px;
+    border: 1px solid #979797;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wide {
+    width: 75%;
+    height: 114px;
+    border: 1px solid #979797;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bold {
+    font-weight: bold;
+}
