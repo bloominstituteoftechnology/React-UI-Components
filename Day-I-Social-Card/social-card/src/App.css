@@ -5,7 +5,7 @@
 .app-container {
 	margin: 0 auto;
 	width: 35%;
-	border: 1px solid #EEF1F4;
-	height: 500px;
+	border: 1px solid rgb(0, 0, 0);
+	height: 600px;
 	margin-top: 50px;
 }

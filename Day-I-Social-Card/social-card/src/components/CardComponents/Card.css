@@ -14,6 +14,7 @@
 	max-height: 450px;
 	width: 85%;
 	margin: 0 0 0 11%;
+	border: lightgrey, 1px, solid;
 }
 
 .card-container a {
