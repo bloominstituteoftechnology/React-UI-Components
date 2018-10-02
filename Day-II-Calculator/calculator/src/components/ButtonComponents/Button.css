@@ -1,17 +1,29 @@
 .defaultStyles {
     color: black;
-    font-size: 24px;
+    font-size: 50px;
     font-weight: bold;
-    
+
 }
 
 button {
     width: 25%;
-    padding: 25px;
+    padding: 15px;
     border: 1px solid gray;
+    font-size: 50px;
+    font-weight: bold;
+    background: white;
+    
 }
 
 .red {
-    background: red;
+    background: #A0001E;
     color: white; 
+}
+
+.action {
+    width: 75%;
+}
+
+.action.clear {
+    font-weight: 100;
 }

@@ -1,0 +1,14 @@
+.display {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 23px 0px;
+    font-size: 70px;
+    background: #222222;
+    border: 1px solid gray;
+    color: white;
+}
+
+.displayNum {
+    margin-right: 15px;
+}
