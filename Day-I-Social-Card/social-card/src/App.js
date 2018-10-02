@@ -5,12 +5,13 @@ import CardContainer from "./components/CardComponents/CardContainer";
 import Footer from "./components/FooterComponents/Footer";
 const App = () => {
   return (
-    <div class="app-body">
+    <div className="app-body">
       <HeaderContainer />
       <CardContainer />
       <Footer />
     </div>
 
+    //default text
     // <div>
     //   <h3>Welcome to React Social Card!</h3>
     //   <p>
