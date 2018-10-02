@@ -3,10 +3,10 @@ import './Header.css';
 
 const Title = props => {
   let d = new Date();
-  const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+  const months = ["jan", "feb", "mar", "apr", "may", "june", "july", "aug", "sept", "oct", "nov", "dec"];
 
   return (
-      <h2>Lambda School <span>@LambdaSchool · {months[d.getMonth()] + d.getDate}</span></h2>
+      <h2>Lambda School <span>@LambdaSchool · {`${d.getDate()} ${months[d.getMonth()]}`}</span></h2>
   );
 }
 

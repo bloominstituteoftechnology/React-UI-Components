@@ -1,1 +1,29 @@
 /* All styles for your Card Components live here */
+
+.cardContainer {
+  margin-left: 63px;
+  border: 1px solid darkgrey;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+/* 506, 588 */
+.cardContainer img {
+  width: 100%;
+  height: auto;
+}
+
+.cardContainer h2 {
+  padding-left: 14px;
+  font-size: 14px;
+}
+
+.cardContainer p {
+  padding-left: 14px;
+  font-size: 14px;
+}
+
+.cardContainer a {
+  color: darkgray;
+  text-decoration: none;
+  padding-left: 14px;
+}

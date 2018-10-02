@@ -1,1 +1,28 @@
 /* All styles for your header Components live here */
+.headerContainer {
+  display: flex;
+
+}
+
+.headerContainer img {
+  padding-top: 5px;
+  padding-left: 2px;
+  width: 50px;
+  height: 50px;
+}
+
+.headerContainer .titleAndContent {
+  padding-left: 10px;
+}
+
+.headerContainer .titleAndContent h2 {
+  font-size: 12px;
+}
+
+.headerContainer .titleAndContent h2 span {
+  color: darkgrey;
+}
+
+.headerContainer .titleAndContent p {
+  font-size: 14px;
+}
