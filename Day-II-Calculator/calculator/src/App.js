@@ -34,9 +34,9 @@ class App extends Component {
       operation: '',
       value: 0
     };
-    this.handleInput = this.handleInput.bind(this);
-    this.handleClear = this.handleClear.bind(this);
-    this.handleCalculate = this.handleCalculate.bind(this);
+    // this.handleInput = this.handleInput.bind(this);
+    // this.handleClear = this.handleClear.bind(this);
+    // this.handleCalculate = this.handleCalculate.bind(this);
   }
   handleInput = (e) => {
     if (this.state.value !== 0) {
@@ -51,6 +51,7 @@ class App extends Component {
       })));
     };
   };
+
 
   handleClear = () => {
     this.setState({value: 0, operation: ''})

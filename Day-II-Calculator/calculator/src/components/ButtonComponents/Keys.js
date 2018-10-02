@@ -3,8 +3,6 @@ import './Button.css'
 import ActionButton from './ActionButton';
 import NumberButton from './NumberButton';
 
-
-
 const Keys = (props) => {
   const handleInput = (e) => {
     props.handleInput(e.target.value);
