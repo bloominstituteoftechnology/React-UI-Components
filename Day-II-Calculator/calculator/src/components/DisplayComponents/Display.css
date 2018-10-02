@@ -1,0 +1,15 @@
+
+.display-div{
+    height:120px;
+    width: 100%;
+    background: #222222;
+    color:white;
+    display: flex;
+    justify-content: flex-end;
+    align-items:flex-end;
+
+}
+.display-div p{
+    margin:0;
+    font-size: 4.5rem;
+}

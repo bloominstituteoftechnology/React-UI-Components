@@ -1,0 +1,16 @@
+
+body{
+    font-size: 62.5%;
+}
+*{
+    box-sizing: border-box;
+}
+.app-container{
+    display:flex;
+    flex-direction: column;
+    width: 455px;
+    height: 598px;
+    border:1px solid #ccc;
+    margin:0 auto;
+}
+

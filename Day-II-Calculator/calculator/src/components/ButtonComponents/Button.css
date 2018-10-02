@@ -1,0 +1,35 @@
+
+
+.red{
+    background:#A0041E;
+    color:white;
+}
+.white{
+    background: #FFFFFF;
+}
+.red, .white p{
+    font-size:2.7rem;
+}
+.bold{
+    font-weight: bold;
+}
+.cell25{
+    width:25%;
+    height:95px;
+    border:1px solid #ccc;
+}
+.cell75{
+    width:75%;
+    height:95px;
+    border:1px solid #ccc;
+}
+.cell100{
+    width:100%;
+    height:95px;
+    border:1px solid #ccc;
+}
+.centerText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
