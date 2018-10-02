@@ -1,0 +1,56 @@
+.buttons {
+  display: flex;
+  flex-direction: row;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 2px solid #979797;
+  height: 94px;
+  font-size: 3rem;
+}
+
+.numpad {
+  display: flex;
+  flex-direction: column;
+  width: 334px;
+}
+
+.functions {
+  width: 122px;
+}
+
+.numeric {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.action {
+  width: 100%;
+}
+
+/* #clear {
+  font-weight: lighter;
+} */
+
+.number {
+  width: 111px;
+  border-left: 2px solid #979797;
+}
+
+.operator {
+  width: 100%;
+  background: #A0061D;
+  color: white;
+  border-left: 2px solid #979797;
+  border-right: 2px solid #979797;
+  font-size: 3.2rem;
+  font-weight: lighter;
+}
+
+/*  display: grid;
+    grid: auto-flow dense / repeat (3, 1fr);*/
+
+/*  gride-column: span 3; */
