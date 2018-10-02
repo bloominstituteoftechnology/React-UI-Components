@@ -22,13 +22,38 @@ const numbers = [
         position:8
     },{
         position:9
+    },{
+        position:0
     },
-  ]
+  ];
+
+const actions = [
+    {
+        position: "clear"
+    },{
+        position: "÷"
+    },{
+        position: "x"
+    },{
+        position: "-"
+    },{
+        position: "+"
+    },{
+        position: "="
+    },
+]
 
 const CalculatorDisplay = props => {
     return (
+
     <div className="calcContainer">
-        <ActionButton />
+        <div className='action'>
+            {actions.map(action=> {
+                return (
+                    <ActionButton action={action} />
+                )
+            })}
+        </div>
         <div className="number">
         {numbers.map(number=> {
             return (

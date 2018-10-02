@@ -3,7 +3,7 @@ import './Button.css';
 
 const ActionButton = (props) => {
     return (
-        <div>Hello</div>
+        <div>{props.action.position}</div>
     );
 }
 export default ActionButton;
