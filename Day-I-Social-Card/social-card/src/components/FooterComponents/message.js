@@ -1,7 +1,8 @@
 import React from 'react';
 
-const MessageCircle = () => (
+const Message = () => (
   <svg
+    id="message"
     xmlns="http://www.w3.org/2000/svg"
     width="20"
     height="20"
@@ -16,4 +17,4 @@ const MessageCircle = () => (
   </svg>
 );
 
-export default MessageCircle;
+export default Message;

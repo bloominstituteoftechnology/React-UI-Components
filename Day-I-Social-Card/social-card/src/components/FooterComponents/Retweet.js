@@ -3,31 +3,47 @@ import React, { Component } from 'react';
 class Retweet extends Component {
   constructor() {
     super();
-    this.state = { count: 0 };
+    this.state = { count: 0, stroke: '#808080' };
+    this.handleClick = this.handleClick.bind(this);
+    this.handleMouseOver = this.handleMouseOver.bind(this);
+    this.handleMouseLeave = this.handleMouseLeave.bind(this);
+  }
+
+  handleClick() {
+    const { count } = this.state;
+    this.setState({ count: count + 1 });
+  }
+
+  handleMouseOver() {
+    this.setState({ stroke: '#58d670' });
+  }
+
+  handleMouseLeave() {
+    const { count } = this.state;
+    if (count === 0) {
+      this.setState({ stroke: '#808080' });
+    }
   }
 
   render() {
-    const { count } = this.state;
+    const { count, stroke } = this.state;
 
     return (
       <div
-        style={{
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'space-between',
-          color: '#808080',
-          fontSize: '1.2rem',
-          fontWeight: 'bold',
-          width: '15%'
-        }}
+        className="retweet"
+        style={{ color: `${stroke}` }}
+        onClick={this.handleClick}
+        onMouseOver={this.handleMouseOver}
+        onMouseLeave={this.handleMouseLeave}
       >
         <svg
+          id="retweet"
           xmlns="http://www.w3.org/2000/svg"
           width="20"
           height="20"
           viewBox="0 0 24 24"
           fill="none"
-          stroke="#808080"
+          stroke={stroke}
           strokeWidth="2"
           strokeLinecap="round"
           strokeLinejoin="round"
@@ -37,7 +53,7 @@ class Retweet extends Component {
           <polyline points="7 23 3 19 7 15" />
           <path d="M21 13v2a4 4 0 0 1-4 4H3" />
         </svg>
-        <div>{count}</div>
+        {count}
       </div>
     );
   }

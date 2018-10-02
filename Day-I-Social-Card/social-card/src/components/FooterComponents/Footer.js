@@ -1,15 +1,17 @@
 import React from 'react';
-import MessageCircle from './message';
+import Message from './message';
 import Retweet from './Retweet';
 import Like from './Like';
+import Mail from './mail';
 import './Footer.css';
 
 const Footer = () => (
-	<footer>
-		<MessageCircle />
-		<Retweet />
-		<Like />
-	</footer>
+  <footer>
+    <Message />
+    <Retweet />
+    <Like />
+    <Mail />
+  </footer>
 );
 
 export default Footer;
