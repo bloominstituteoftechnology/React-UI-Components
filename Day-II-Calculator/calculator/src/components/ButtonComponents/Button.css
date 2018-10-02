@@ -1,0 +1,9 @@
+.calc-button {
+  border: 1px solid grey;
+  height: 94px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 45px;
+  font-weight: bold;
+}

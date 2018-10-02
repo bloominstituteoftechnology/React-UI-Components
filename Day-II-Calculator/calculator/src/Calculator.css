@@ -1,0 +1,22 @@
+.calculator {
+    width: 456px;
+    border: 1px solid grey;
+}
+.calc-input {
+    display: grid;
+    grid: auto-flow dense / 3fr 1fr;
+}
+.calc-numpad {
+    display: grid;
+    grid: auto-flow dense / repeat(3, 1fr);
+}
+.calc-numpad .clear {
+    font-weight: normal;
+}
+.calc-operators .calc-button {
+    background: #A0001E;
+    color: white;
+}
+.calc-wide {
+    grid-column: span 3;
+}

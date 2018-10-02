@@ -10,7 +10,7 @@ const App = () => {
       <CalulatorDisplay></CalulatorDisplay>
       <div class="calc-input">
         <div class="calc-numpad">
-          <NumberButton>clear</NumberButton>
+          <NumberButton className="calc-wide clear">clear</NumberButton>
           <NumberButton>9</NumberButton>
           <NumberButton>8</NumberButton>
           <NumberButton>7</NumberButton>
@@ -20,7 +20,7 @@ const App = () => {
           <NumberButton>3</NumberButton>
           <NumberButton>2</NumberButton>
           <NumberButton>1</NumberButton>
-          <NumberButton>0</NumberButton>
+          <NumberButton className="calc-wide">0</NumberButton>
         </div>
         <div class="calc-operators">
           <ActionButton>÷</ActionButton>
