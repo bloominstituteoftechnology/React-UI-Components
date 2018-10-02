@@ -1,5 +1,20 @@
+html{
+  box-sizing: border-box;
+  background: black;
+}
+
 body {
-  margin: 0;
+  margin: 30% auto;
   padding: 0;
   font-family: sans-serif;
+  width: 100%;
+  max-width: 190px;
+  border: 2px solid grey;
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+#root{
+  width: 100%;
 }

@@ -1,1 +1,35 @@
 /* All styles for your header Components live here */
+.headCont {
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo img{
+   width: 8%;
+   max-width: 100px;
+
+    position: absolute;
+}
+
+.title{
+    display: flex;
+    flex-direction: row;
+}
+
+.title p{
+    margin-right: 10px;
+    color: grey;
+}
+
+.title h1{
+    font-size: 20px;
+    margin-left: 15%;
+    margin-right: 10px;
+}
+
+.headerP{
+    margin-left: 15%;
+    margin-right: 10%;
+}
