@@ -1,14 +1,13 @@
 /* All styles for your header Components live here */
 .container {
   box-sizing: border-box;
-  width: 590px;
+  max-width: 590px;
   margin: 0 auto;
-  border: 1px solid black;
 }
 
 .header-container {
   box-sizing: border-box;
-  width: 590px;
+  max-width: 590px;
   margin: 0 auto;
   display: flex;
 }
@@ -32,7 +31,7 @@
 }
 .title-content-bottom {
   margin-left: 10px;
-  width:97%;
+  width:95%;
   padding-bottom:0px;
   padding-top:0px;
   font-size: .9rem;

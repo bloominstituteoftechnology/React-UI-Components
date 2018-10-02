@@ -1,0 +1,7 @@
+.container-calculator {
+  border: solid black;
+  box-sizing: border-box;
+  margin: 0 auto;
+  height: 600px;
+  max-width: 40%;
+}
