@@ -1,0 +1,15 @@
+.calcDisplay {
+    width: 99.3%;
+    height: 126px;
+    background-color: black;
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 3px;
+}
+
+.total {
+    color: white;
+    align-self: center;
+    margin-right: 2%;
+    font-size: 78px;
+}

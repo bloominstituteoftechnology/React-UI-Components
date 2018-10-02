@@ -1,0 +1,31 @@
+.footerIcons {
+    max-width: 100%;
+    display: flex;
+    height: 57px;
+    border: 1px solid grey;
+}
+
+.icons {
+    margin-top: 18px;
+    display: flex;
+    margin-left: 10%;
+}
+
+.msg {
+    height: 24px;
+    margin-right: 60%;
+}
+
+.retweet {
+    height: 24px;
+    margin-right: 59%;
+}
+
+.heart {
+    height: 24px;
+    margin-right: 58%;
+}
+
+.mail {
+    height: 24px;
+}

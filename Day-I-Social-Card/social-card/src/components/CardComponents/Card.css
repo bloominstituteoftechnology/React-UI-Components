@@ -1,1 +1,45 @@
 /* All styles for your Card Components live here */
+.cardBanner {
+    background-image: url(https://ibin.co/3wnC6SgIOJud.png);
+    background-size: 150% 150%;
+    background-position: center;
+    height: 252px;
+    margin-left: 11%;
+    margin-right: 1%;
+    border-radius: 5px 5px 0 0;
+}
+
+a.fill-div {
+    display: block;
+    height: 50%;
+    width: 98%;
+    text-decoration: none;
+    position: absolute;
+}
+
+.content {
+    margin-left: 11%;
+    margin-right: 1%;
+    margin-bottom: 4px;
+    border: 1px solid grey;
+    border-radius: 0 0 5px 5px;
+    padding-left: 12px;
+    padding-bottom: 11px;
+}
+
+.content h2 {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.content p {
+    margin-bottom: 5px;
+    font-size: 14px;
+    padding-right: 13px;
+    margin-left: 0;
+}
+
+.content a {
+    text-decoration-line: none;
+    color: grey;
+}

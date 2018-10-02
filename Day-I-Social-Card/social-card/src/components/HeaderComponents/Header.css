@@ -1,1 +1,38 @@
 /* All styles for your header Components live here */
+
+.headerContainer {
+  max-width: 1000px;
+  display: flex;
+  border: 1px solid grey;
+  margin-bottom: 1px;
+}
+
+.headerContainer img {
+  width: 57px;
+  height: 57px;
+  /* border: 1px solid grey; */
+}
+
+.headerTitle {
+  display: flex;
+  align-items: baseline;
+  flex-flow: wrap;
+}
+
+h1 {
+  font-size: 14px;
+  margin-right: 7px;
+  margin-left: 3px;
+}
+
+h2 {
+  font-size: 12px;
+  font-weight: 100;
+  margin-right: 10px;
+}
+
+p {
+  font-size: 15px;
+  margin-top: -4px;
+  margin-left: 3px;
+}

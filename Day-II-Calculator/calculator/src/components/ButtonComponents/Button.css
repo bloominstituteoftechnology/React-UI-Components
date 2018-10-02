@@ -1,0 +1,22 @@
+.actionBtn {
+    width: 74.4%;
+    height: 95px;
+    font-size: 41px;
+    background-color: white;
+    margin-left: 3px;
+}
+
+.numberBtns {
+    width: 33%;
+    height: 95px;
+    font-size: 41px;
+    background-color: white;
+}
+
+.calcBtns {
+    width: 100%;
+    height: 95px;
+    font-size: 65px;
+    background-color: #A0001E;
+    color: white;
+}
