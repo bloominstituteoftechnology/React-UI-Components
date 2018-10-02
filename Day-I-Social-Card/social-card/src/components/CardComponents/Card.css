@@ -6,6 +6,7 @@
     flex-direction: column;
     border: solid lightgray 1px;
     border-radius: 0.5rem;
+    cursor: pointer;
 }
 .card-banner {
     background: #222222;
