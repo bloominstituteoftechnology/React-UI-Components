@@ -1,13 +1,13 @@
 import React from "react";
 import "./Display.css";
 import DisplayContainer from "./CalculatorDisplay";
-import NumberButtons from "../ButtonComponents/NumberButton";
+import ButtonContainer from "../ButtonComponents/ButtonContainer";
 
 const CalcContainer = props => {
   return (
     <div className="calc-container">
       <DisplayContainer />
-      <NumberButtons />
+      <ButtonContainer />
     </div>
   );
 };
