@@ -13,11 +13,11 @@ class App extends React.Component {
 		total: 4
 	}
 	
-	// clear() {
-	// 	this.setState(state => ({
-	// 		total: 0
-	// 	}));
-	// }
+	clear = () => {
+		this.setState({
+			total: 0
+		});
+	}
 
 	render() {
 		return (
@@ -25,7 +25,7 @@ class App extends React.Component {
 				<CalculatorDisplay text={this.state.total} />
 				<div className='buttons'>
 					<div className='white-buttons'>
-						<ActionButton text='clear'/>
+						<ActionButton text='clear' click={this.clear}/>
 						{numbers.map((num, ind) => <NumberButton text={num} key={ind}/>)}
 						<ActionButton text='0' />
 					</div>
