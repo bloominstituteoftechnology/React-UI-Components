@@ -1,0 +1,21 @@
+.keypad {
+  width: 100%;
+}
+
+button {
+  height: 94px;
+  font-size: 47px;
+}
+
+.sm-btn {
+  width: 25%;
+}
+
+.lg-btn {
+  width: 75%;
+}
+
+.red {
+  background-color: #931c24;
+  color: white;
+}
