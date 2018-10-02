@@ -7,29 +7,52 @@
     border:1px solid black;
     display: flex;
     justify-content: flex-end;
-    padding-right:10px;
+    padding:10px;
+    background-color:#222222;
 }
 .total h1{
     font-size:80px;
     font-weight: 100;
     margin:10px 0 10px 0;
+    color:white;
 }
-.button-container{
-    border:1px solid pink;
-}
-.number-button{
-    padding:32.25px;
+
+.number-button{ 
     width:25%;
+    background-color: white;
+    color: black;
+    border: 1px solid gray;
+    font-weight: bold;
 }
-.operator{
-    padding:32.25px;
+.operator{ 
     width:25%;
+    background-color: #A0001E;
+    color: white;
+    border: 1px solid gray;
+    font-weight: 300;  
 }
-.clear-button{
-    padding:32.25px;
+.operator:active{
+    background-color:lightcoral; 
+}
+.clear-button{ 
     width:75%;
+    background-color: white;
+    color: black;
+    border: 1px solid gray;
+    font-weight: 200;
 }
 .zero-button{
-    padding:32.25px;
     width:75%;
+    background-color: white;
+    color: black;
+    border: 1px solid gray;
+    font-weight: bold;
+}
+button{
+    padding:20px;
+    outline:none;
+    font-size:50px;
+}
+:active{
+    background-color:lightcoral; 
 }

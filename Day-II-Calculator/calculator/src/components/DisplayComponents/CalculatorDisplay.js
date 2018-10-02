@@ -19,14 +19,14 @@ const CalculatorDisplay = () =>{
                 <NumberButton buttonStyle="number-button" text="7" />
                 <NumberButton buttonStyle="number-button" text="8" />
                 <NumberButton buttonStyle="number-button" text="9" />
-                <ActionButton buttonStyle="operator" text="x" />
+                <ActionButton buttonStyle="operator" text="×" />
             </div>
 
             <div className="button-container">
                 <NumberButton buttonStyle="number-button" text="4" />
                 <NumberButton buttonStyle="number-button" text="5" />
                 <NumberButton buttonStyle="number-button" text="6" />
-                <ActionButton buttonStyle="operator" text="-" />
+                <ActionButton buttonStyle="operator" text="−" />
             </div>
 
             <div className="button-container">
