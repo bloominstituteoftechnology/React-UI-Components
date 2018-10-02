@@ -1,14 +1,14 @@
 .display {
     display: flex;
     justify-content: flex-end;
-    width: 99.5%;
+    width: 100%;
     background-color: black;
     color: white;
-    height: 60px;
+    height: 40px;
 }
 
 .display p {
-    margin-top: -30px;
+    margin-top: -1px;
     margin-right: 5px;
-    font-size: 80px;
+    font-size: 35px;
 }
