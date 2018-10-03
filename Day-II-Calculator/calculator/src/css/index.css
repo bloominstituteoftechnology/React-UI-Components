@@ -137,7 +137,7 @@ table {
   border-spacing: 0;
 }
 .calc-container {
-  max-width: 500px;
+  max-width: 400px;
   width: 100%;
   margin: 50px auto;
   border: 4px solid #ccc;
@@ -145,11 +145,16 @@ table {
   flex-flow: row wrap;
 }
 .calc-container .calc-body {
+  width: 100%;
   display: flex;
   flex-flow: columns wrap;
 }
+.calc-container .calc-body .left-column {
+  display: flex;
+  flex-flow: row wrap;
+}
 .calc-container .calc-display {
-  max-width: 500px;
+  max-width: 400px;
   width: 100%;
   padding: 25px;
   background-color: #000;
@@ -157,4 +162,15 @@ table {
   font-size: 4rem;
   text-align: right;
   border-bottom: 4px solid #ccc;
+}
+.calc-body .left-column .actionBtn {
+  width: 300px;
+  font-size: 3rem;
+  text-align: center;
+  border: 1px solid blue;
+}
+.calc-body .left-column .numberBtn {
+  width: 100px;
+  padding: 40px;
+  border: 1px solid blue;
 }

@@ -1,6 +1,7 @@
 import React from 'react';
 import CalculatorDisplay from '../CalculatorDisplay/CalculatorDisplay';
 import ActionButton from '../ButtonComponents/ActionButton';
+import NumberButton from '../ButtonComponents/NumberButton';
 
 
 
@@ -12,11 +13,24 @@ const CalculatorLayout = props => {
                 <CalculatorDisplay />
             </div>
             <div className="calc-body">
-            <div className="left-column">
-                <ActionButton class={""} text={props.actions[1]}/>
-                <ActionButton class={""} text={props.actions[0]}/>
-            </div>
-            <div className="right-column"></div>
+                <div className="left-column">
+                    <div className="action-btn-contaner">
+                    <ActionButton class={"actionBtn"} text={props.actions[1]}/>
+                    </div>
+                    <div className="numbers-container">
+                    {props.nums.map(number => {
+                        return (
+                            <NumberButton text={number} class={"numberBtn"} />
+                        );
+                    })}
+
+                    </div>
+                    <div className="action-btn-container">
+                    <ActionButton class={"actionBtn"} text={props.actions[0]}/>
+                    </div>
+                </div>
+                <div className="right-column">
+                </div>
             </div>
             
         </div>
