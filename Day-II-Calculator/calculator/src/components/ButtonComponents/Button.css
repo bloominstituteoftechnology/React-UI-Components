@@ -1,0 +1,27 @@
+.number {
+    height: 94px;
+    width: 111px;
+    background: white;
+    font-size: 44px;
+    font-weight: bold;
+    border: 1px solid lightgrey;
+}
+
+.action {
+    width: 333px;
+    height: 94px;
+    background: white;
+    font-size: 44px;
+    font-weight: bold;
+    border: 1px solid lightgrey;
+}
+
+.function {
+    width: 122px;
+    height: 94px;
+    background: #a0001e;
+    color: white;
+    font-size: 44px;
+    font-weight: bold;
+    border: 1px solid lightgrey;
+}

@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+}
+
+.display {
+    display: inline-block;
+    width: 455px;
+    height: 126px;
+    background: #222222;
+    text-align: right;
+    color: white;
+    font-size: 76px;
+    padding: 25px 13px;
+    border: 1px solid lightgray;
+}

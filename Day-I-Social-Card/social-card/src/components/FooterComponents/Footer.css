@@ -1,0 +1,22 @@
+footer {
+    display: flex;
+    flex-direction: row;  
+    width: 319px;
+    height: 35px;
+    margin-left: 32px;
+    justify-content: space-around;
+    align-items: flex-end; 
+}
+
+footer i {
+    color: grey;
+    font-weight: 300;
+    font-family: Helvetica;
+}
+
+footer .count {
+    display: inline;
+    font-size: 14px;
+    color: grey;
+    padding-left: 5px;
+}

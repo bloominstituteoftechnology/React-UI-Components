@@ -3,3 +3,12 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+.buttonwrap {
+  width: 333px;
+}
+
+.flex {
+  display: flex;
+  flex-flow: row nowrap;
+}
