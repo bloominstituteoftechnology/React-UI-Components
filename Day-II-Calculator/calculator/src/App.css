@@ -1,0 +1,7 @@
+.calculator-container {
+    height: 100%;
+    width: 450px;
+    margin: 0 auto;
+    border: 5px solid lightgrey;
+    font-family: Roboto, sans-serif;
+}

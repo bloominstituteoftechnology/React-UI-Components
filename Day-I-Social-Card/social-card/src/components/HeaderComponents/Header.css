@@ -1,1 +1,54 @@
 /* All styles for your header Components live here */
+.header-container {
+    display: flex;
+    flex-direction: row; /* EXPLICIT, BUT NECESSARY */
+    padding: 10px 10px 20px 10px;
+}
+
+.header-title-and-content-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0 10px;
+}
+
+.header-title-container {
+    display: flex;
+    flex-direction: row;
+    padding: 10px 0;
+}
+
+.img {
+    max-width: 100%;
+    max-height: 100%;
+    margin-top: 5px;
+}
+
+.header-image {
+    width: 50px;
+}
+
+.header-username {
+    font-weight: bold;
+    padding: 0 5px;
+}
+
+.header-usertag {
+    font-weight: 400;
+    color: #888;
+    padding-right: 5px;
+}
+.header-bullet {
+    color: #888;
+}
+.header-creation-date {
+    font-weight: 200;
+    color: #888;
+    padding-left: 5px;
+}
+
+.header-text {
+    display: flex;
+    padding-left: 5px;
+    width: 600px;
+}

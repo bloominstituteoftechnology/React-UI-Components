@@ -1,0 +1,17 @@
+.calculator-display {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-family: Roboto, sans-serif;
+    font-size: 75px;
+    font-weight: 300;
+    height: 120px;
+    width: 450px;
+    background-color: black;
+    color: white;
+}
+
+.result-numbers {
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
