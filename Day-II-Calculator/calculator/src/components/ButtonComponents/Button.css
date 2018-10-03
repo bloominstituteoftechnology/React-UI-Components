@@ -1,0 +1,52 @@
+
+.smallNumBtn {
+  background-color: white;
+  color: black;
+  border: 1px solid grey;
+  text-align: center;
+  font-size: 50px;
+  margin: 0;
+  height: 90px;
+  line-height: 90px;
+  font-weight: 200;
+  width: 110px;
+}
+
+.zeroNumBtn {
+  background-color: white;
+  color: black;
+  border: 1px solid grey;
+  text-align: center;
+  font-size: 50px;
+  margin: 0;
+  height: 90px;
+  line-height: 90px;
+  font-weight: 200;
+  width: 330px;
+}
+
+.actionBtn {
+  background-color: rgb(165, 35, 31);;
+  color: white;
+  border: 1px solid grey;
+  text-align: center;
+  font-size: 50px;
+  margin: 0;
+  height: 90px;
+  line-height: 90px;
+  font-weight: 200;
+  width: 120px;
+}
+
+.clearBtn {
+  background-color: white;
+  color: black;
+  border: 1px solid grey;
+  text-align: center;
+  font-size: 50px;
+  margin: 0;
+  height: 90px;
+  line-height: 90px;
+  font-weight: 200;
+  width: 330px;
+}

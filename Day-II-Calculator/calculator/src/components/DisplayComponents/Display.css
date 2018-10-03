@@ -1,0 +1,12 @@
+.display p {
+  color: white;
+  border: 1px solid grey;
+  background: #222222;
+  text-align: right;
+  font-size: 75px;
+  margin: 0;
+  height: 125px;
+  line-height: 125px;
+  font-weight: 200;
+  padding-right: 10px;
+}
