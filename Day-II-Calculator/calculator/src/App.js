@@ -20,7 +20,10 @@ class App extends React.Component {
 }	
 	clear = () => {
 		this.setState({
-			total: '0'
+			total: '0',
+			num1: null,
+			num2: null,
+			operator: null
 		});
 	}
 
