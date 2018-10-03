@@ -1,5 +1,6 @@
 import React from 'react';
-import CalculatorDisplay from './components/DisplayComponents/CalculatorDisplay';
+import CalculatorLayout from './components/CalculatorLayout/CalculatorLayout';
+
 
 
 const numArray = [1, 2, 3, 4, 5, 6, 7, 8, 9];
@@ -8,7 +9,7 @@ const calcOperators = ["÷", "x", "-", "+", "="];
 
 const App = () => {
   return (
-    <CalculatorDisplay nums={numArray} actions={actionBtn} operators={calcOperators} />
+    <CalculatorLayout nums={numArray} actions={actionBtn} operators={calcOperators} />
   );
 };
 
