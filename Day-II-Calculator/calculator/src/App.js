@@ -34,9 +34,7 @@ class App extends Component {
       operation: '',
       value: 0
     };
-    // this.handleInput = this.handleInput.bind(this);
-    // this.handleClear = this.handleClear.bind(this);
-    // this.handleCalculate = this.handleCalculate.bind(this);
+
   }
   handleInput = (e) => {
     if (this.state.value !== 0) {
