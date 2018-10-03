@@ -1,0 +1,60 @@
+.app {
+  height: 500px;
+  width: 400px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.display {
+  background:black;
+  height: 120px;
+  width: 400px;
+  color: white;
+  border:solid grey 1px;
+  font-size: 5rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 15px;
+}
+
+.clearBtn {
+  border:solid grey 1px;
+  height: 95px;
+  width: 300px;
+  font-size:2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.operatorBtn {
+  border:solid grey 1px;
+  height: 95px;
+  width: 100px;
+  background:darkred;
+  color: white;
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+}
+
+.numberBtn {
+  border:solid grey 1px;
+  height: 95px;
+  width: 100px;
+  font-size:2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.zeroBtn{
+  border:solid grey 1px;
+  height: 95px;
+  width: 300px;
+  font-size:2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
