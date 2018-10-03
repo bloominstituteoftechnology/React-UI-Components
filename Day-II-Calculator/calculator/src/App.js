@@ -57,47 +57,71 @@ const actions = [
 const functions = [
   {
     text: '÷',
-    buttonStyle: 'function'
+    buttonStyle: 'function',
+    value: '/'
   },
   {
     text: '×',
-    buttonStyle: 'function'
+    buttonStyle: 'function',
+    value: '*'
   },
   {
     text: '−',
-    buttonStyle: 'function'
+    buttonStyle: 'function',
+    value: '-'
   },
   {
     text: '+',
-    buttonStyle: 'function'
+    buttonStyle: 'function',
+    value: '+'
   },
   {
     text: '=',
-    buttonStyle: 'function'
+    buttonStyle: 'function',
+    value: '='
   }
 ]
 
-const App = () => {
-  return (
-    <div>
-      <Display />
-      <div className="flex">
+class App extends React.Component {
 
-        <div className="buttonwrap">
-          <ActionButton action={actions[0]}/>
-          <div className='numbers'>
-            {numbers.map(number => {return <NumberButton number={number}/>;})}
+  state = {
+    output: '0'
+  };
+
+  inputDigit(digit) {
+    const {output} = this.state;
+
+    this.setState({
+      output: output === '0' ? String(digit) : output + digit
+    })
+  } 
+
+  render() {
+
+    return (
+      <div>
+        <Display output={this.state.output}/>
+        <div className="flex">
+  
+          <div className="buttonwrap">
+            
+            <ActionButton action={actions[0]}/>
+            
+            <div className='numbers'>
+              {numbers.map(number => {return <NumberButton onClick={()=>{this.inputDigit(number)}} number={number}/>;})}
+            </div>
+            
+            <ActionButton action={actions[1]}/>
           </div>
-          <ActionButton action={actions[1]}/>
+  
+          <div className='functions'>
+            {functions.map(fx => {return <NumberButton number={fx} />;})}
+          </div>
+  
         </div>
-
-        <div className='functions'>
-          {functions.map(fx => {return <NumberButton number={fx} />;})}
-        </div>
-
       </div>
-    </div>
-  );
-};
+    );
+  }
+}
 
 export default App;
