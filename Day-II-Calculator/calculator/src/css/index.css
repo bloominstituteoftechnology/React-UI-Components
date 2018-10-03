@@ -140,7 +140,7 @@ table {
   max-width: 500px;
   width: 100%;
   margin: 50px auto;
-  border: 1px solid #000;
+  border: 4px solid #ccc;
   display: flex;
   flex-flow: row wrap;
 }
@@ -156,4 +156,5 @@ table {
   color: #fff;
   font-size: 4rem;
   text-align: right;
+  border-bottom: 4px solid #ccc;
 }

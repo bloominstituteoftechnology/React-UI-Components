@@ -3,7 +3,7 @@ import React from 'react';
 const ActionButton = props => {
 
     return(
-        <button>{props.text}</button>
+        <button className={props.class}>{props.text}</button>
     );
 }
 
