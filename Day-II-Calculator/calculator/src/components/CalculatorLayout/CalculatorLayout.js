@@ -14,20 +14,22 @@ const CalculatorLayout = props => {
             </div>
             <div className="calc-body">
                 <div className="left-column">
-                    <div className="action-btn-contaner">
+
+                    {/* Action Buttons */}
                     <ActionButton class={"actionBtn"} text={props.actions[1]}/>
-                    </div>
+          
+                    {/* Number Buttons */}
                     <div className="numbers-container">
                     {props.nums.map(number => {
                         return (
                             <NumberButton text={number} class={"numberBtn"} />
                         );
                     })}
-
                     </div>
-                    <div className="action-btn-container">
-                    <ActionButton class={"actionBtn"} text={props.actions[0]}/>
-                    </div>
+            
+                    {/* Action Button */}
+                    <ActionButton class={"actionBtn zero"} text={props.actions[0]}/>
+    
                 </div>
                 <div className="right-column">
 
@@ -49,6 +51,3 @@ const CalculatorLayout = props => {
 export default CalculatorLayout;
 
 
-// <h1>{props.nums}</h1>
-// <h2>{props.actions}</h2>
-// <h3>{props.operators}</h3>

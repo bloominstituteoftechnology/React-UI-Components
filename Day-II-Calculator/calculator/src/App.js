@@ -14,31 +14,3 @@ const App = () => {
 };
 
 export default App;
-
-
-
-
-//   {/* number butttons */}
-//   {numArray.map(num =>{
-//     return(
-//       <NumberButton text={num} class={"numberBtn"}/>
-//     );
-//   })}
-
-//   {/* operator buttons */}
-//   {calcOperators.map(operator =>{
-//     return(
-//       <NumberButton text={operator} class={"operatorBtn"} />
-//     );
-//   })}
-
-//   {/* action buttons */}
-//   {
-//     actionBtn.map(action => {
-//       return(
-//         <ActionButton text={action} />
-//       );
-//     })
-//   }
-
-// </div>

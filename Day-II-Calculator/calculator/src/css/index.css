@@ -1,8 +1,8 @@
 @font-face {
-  font-family: 'Roboto';
+  font-family: 'Oswald';
   font-style: normal;
   font-weight: 400;
-  src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu4mxP.ttf) format('truetype');
+  src: local('Oswald Regular'), local('Oswald-Regular'), url(https://fonts.gstatic.com/s/oswald/v16/TK3iWkUHHAIjg752GT8D.ttf) format('truetype');
 }
 * {
   box-sizing: border-box;
@@ -146,6 +146,7 @@ table {
 }
 .calc-container .calc-body {
   width: 100%;
+  font-family: 'Oswald', sans-serif;
   display: flex;
   flex-flow: columns wrap;
 }
@@ -163,6 +164,7 @@ table {
   padding: 25px;
   background-color: #000;
   color: #fff;
+  font-family: 'Oswald', sans-serif;
   font-size: 4rem;
   text-align: right;
   border-bottom: 4px solid #ccc;
@@ -171,17 +173,40 @@ table {
   width: 300px;
   height: 100px;
   margin: 0;
+  font-family: 'Oswald', sans-serif;
   font-size: 3rem;
   text-align: center;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 2px solid #ccc;
+}
+.calc-body .left-column .actionBtn:hover {
+  background-color: #eee;
+  color: #333;
+}
+.calc-body .left-column .zero {
+  font-weight: bold;
 }
 .calc-body .left-column .numberBtn {
   width: 100px;
   height: 100px;
-  border: 1px solid #ccc;
+  font-family: 'Oswald', sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+  border: 2px solid #ccc;
+}
+.calc-body .left-column .numberBtn:hover {
+  background-color: #eee;
+  color: #333;
 }
 .calc-body .right-column .operatorBtn {
   width: 100px;
   height: 100px;
-  border: 1px solid #ccc;
+  font-family: 'Oswald', sans-serif;
+  font-size: 3.3rem;
+  border: 2px solid #ccc;
+  background-color: #A0001E;
+  color: #fff;
+}
+.calc-body .right-column .operatorBtn:hover {
+  background-color: #eee;
+  color: #333;
 }
