@@ -1,4 +1,9 @@
-/* 
-  Write your styles/CSS for App.js here and import into the component that you need 
+/*
+  Write your styles/CSS for App.js here and import into the component that you need
   IF you'd like to attempt to use less you'll have to research how to do this with Create React App
 */
+.container {
+  width: 550px;
+  margin: 0 auto;
+  box-shadow: 10px 10px 49px -15px rgba(0,0,0,0.75);
+}
