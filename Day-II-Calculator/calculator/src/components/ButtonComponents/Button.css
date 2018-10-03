@@ -1,8 +1,54 @@
 .clear-button{
     border: solid grey 1px;
-    width: 225px;
-    height: 70px;
+    width: 74%;
+    height: 15%;
     background-color: white;
     color: black;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.function-button{
+    width: 24%;
+    height: 15%;
+    background-color: maroon;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid grey 1px;
+}
+
+.function-button h1{
+    font-size: 45px;
+}
+
+.number-button{
+    width: 24%;
+    height: 15%;
+    background-color: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid grey 1px;
+}
+
+.number-button h1{
+    font-size: 45px;
+}
+
+.zero-button{
+    border: solid grey 1px;
+    width: 74%;
+    height: 15%;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.zero-button h1{
+    font-size: 45px;
 }

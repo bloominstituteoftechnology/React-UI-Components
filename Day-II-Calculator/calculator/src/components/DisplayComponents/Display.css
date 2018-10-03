@@ -1,0 +1,9 @@
+.calc-display{
+    width: 100%;
+    background: black;
+    color:white;
+    display: flex;
+    justify-content: flex-end;
+    height:22%;
+    padding-top:2%;
+}
