@@ -5,7 +5,7 @@ import FunctionButton from './components/ButtonComponents/FunctionButton';
 import MainButtons from './components/ButtonComponents/MainButtons';
 
 const functionButtons = [
-  {function: '%'},
+  {function: '÷'},
   {function: 'x'},
   {function: '-'},
   {function: '+'},

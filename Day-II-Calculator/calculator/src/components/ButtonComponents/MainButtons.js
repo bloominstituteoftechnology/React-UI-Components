@@ -24,7 +24,7 @@ const MainButtons = props => {
     return (
         <div className="main-buttons">
       <div className="action">
-        <ActionButton action={actionButtons[0]} />
+        <ActionButton action={actionButtons[0]}/>
       </div>
 
     <div className="numbers">
