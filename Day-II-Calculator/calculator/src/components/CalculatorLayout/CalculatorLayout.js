@@ -30,6 +30,14 @@ const CalculatorLayout = props => {
                     </div>
                 </div>
                 <div className="right-column">
+
+                    <div className="operators-container">
+                    {props.operators.map(operator => {
+                        return (
+                            <NumberButton text={operator} class={"operatorBtn"} />
+                        );
+                    })}
+                    </div>
                 </div>
             </div>
             
