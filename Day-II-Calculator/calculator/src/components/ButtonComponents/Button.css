@@ -1,0 +1,36 @@
+.defaultStyles {
+    color: black;
+    font-size: 50px;
+    font-weight: bold;
+
+}
+
+button {
+    width: 25%;
+    padding: 15px;
+    border: 1px solid gray;
+    font-size: 50px;
+    font-weight: bold;
+    background: white;
+    cursor: pointer;
+    transition: .5s;
+    
+}
+
+button:hover {
+    color: #A0001E;
+    background: #222222;
+}
+
+.red {
+    background: #A0001E;
+    color: white; 
+}
+
+.action {
+    width: 75%;
+}
+
+.action.clear {
+    font-weight: 100;
+}

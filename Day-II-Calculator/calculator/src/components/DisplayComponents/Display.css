@@ -1,0 +1,56 @@
+.display {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 23px;
+    font-size: 70px;
+    background: #222222;
+    border: 1px solid gray;
+    color: white;
+    align-items: flex-end;
+}
+
+.displayNum {
+    margin-right: 15px;
+}
+
+.op-row {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 50%;
+    height: 23px;
+    justify-content: flex-start;
+    margin-bottom: 8px;
+
+}
+
+.disOps{
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+.op-row .op {
+    color: lightgray;
+    opacity: .4;
+    font-size: 20px;
+    margin-right: 9px; 
+
+}
+
+
+.active.op {
+    color: #A0001E;
+    opacity: unset;
+}
+
+.operand-display{
+    width: 50%;
+    display: flex;
+    color: white;
+    opacity: .6;
+    font-size: 25px;
+    justify-content: flex-end;
+}
+

@@ -1,1 +1,46 @@
 /* All styles for your Card Components live here */
+.card-container{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    align-self: flex-end;
+    border-bottom: 1px solid gray;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    border-radius: 5px;
+    
+}
+
+.card-container img {
+    width: 100%;
+    height: auto;
+}
+
+
+.card-container a{
+    text-decoration: inherit;
+    color: inherit;
+    cursor: pointer;
+}
+
+.card-container h1{
+    margin-top: 0;
+}
+
+.card-container a:visited{
+    text-decoration: inherit;
+    color: inherit;
+    cursor: pointer;
+}
+
+.banner-img{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.banner-content {
+    padding: 5px;
+    
+
+}
+

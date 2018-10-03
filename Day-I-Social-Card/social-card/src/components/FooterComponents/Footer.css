@@ -1,0 +1,30 @@
+footer{
+    width: 90%;
+    flex-direction: row;
+    align-self: flex-end;
+    margin-top: 5px;
+}
+.heart{
+    cursor: pointer;
+    color: gray;
+    transition: .5s;
+}
+
+.heart:hover{
+    color: #A0001E;
+    transform: scale(1.3);
+    
+}
+
+.heart-div {
+    display: flex;
+    width: 15%;
+
+}
+
+.heart-count {
+    
+    margin: unset;
+    margin-left: 3px;
+}
+
