@@ -2,7 +2,7 @@ import React from 'react';
 import './Button.css';
 
 const NumberButton = props => (
-    <div className='num-btn'>{props.text}</div>
+    <div onClick={() => props.click(props.text)} className='num-btn'>{props.text}</div>
 );
 
 export default NumberButton;
