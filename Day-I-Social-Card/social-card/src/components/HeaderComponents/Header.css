@@ -1,1 +1,23 @@
 /* All styles for your header Components live here */
+
+.header-container {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.header-container .user-logo {
+  border-radius: 50%;
+  width: 10%;
+}
+
+.header-container .header-text {
+  margin-left: 2%;
+}
+
+.header-container header {
+  width: 55%;
+  display: flex;
+  justify-content: space-between;
+}
