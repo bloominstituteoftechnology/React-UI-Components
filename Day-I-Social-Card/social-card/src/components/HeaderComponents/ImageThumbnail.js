@@ -1,2 +1,9 @@
 import React from 'react';
-import './Header.css';
+
+const ImageThumbNail = props => {
+    return(
+          <img className="header-logo" src={props.src} alt="Lambda School Logo"/>
+    );
+}
+
+export default ImageThumbNail;

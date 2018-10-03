@@ -1,0 +1,60 @@
+.calc-body{
+
+    .left-column{
+
+        .actionBtn{
+            width: @actionBtnWidth;
+            height: 100px;
+            margin: 0;
+            font-family: @fontFamily;
+            font-size: 3rem;
+            text-align: center;
+            border-bottom: 2px solid @greyBorder;
+
+            &:hover{
+                background-color: @hoverBtn;
+                color: @darkHover;
+
+            }
+        }
+
+        .zero{
+            font-weight: bold;
+        }
+
+        .numberBtn{
+            width: 100px;
+            height: 100px;
+            font-family: @fontFamily;
+            font-size: 3rem;
+            font-weight: bold;
+            border: 2px solid @greyBorder;
+
+            &:hover{
+                background-color: @hoverBtn;
+                color: @darkHover;
+
+            }
+        }
+    }
+
+    .right-column{
+
+        .operatorBtn{
+            width: 100px;
+            height: 100px;
+            font-family: @fontFamily;
+            font-size: 3.3rem;
+            border: 2px solid @greyBorder;
+            background-color: @operatorBg;
+            color: @white;
+
+            &:hover{
+                background-color: @hoverBtn;
+                color: @darkHover;
+
+            }
+        }
+    }
+}
+
