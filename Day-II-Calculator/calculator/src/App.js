@@ -18,6 +18,8 @@ class App extends React.Component {
       this.numberSeven = '7';
       this.setState({total: this.numberSeven});
       this.numberSeven += '7';
+    } else if (this.numberSeven.length === 9) {
+      this.setState({total: this.numberSeven});
     } else {
       this.setState({total: this.numberSeven});
       this.numberSeven += '7';
