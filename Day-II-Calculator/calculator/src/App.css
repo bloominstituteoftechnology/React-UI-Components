@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Heebo:300');
+
+.calc-box{
+    display: flex;
+    width: 1024px;
+    justify-content: center;
+    
+}
+
+.calc-cont{
+    height: 608px;
+    width: 456px;
+    border: 2px solid grey;
+    margin-top: 20px;
+}
+
+.button-house{
+    display: flex;
+}
+
+h2 {
+    margin: 0px;
+    font-family: 'Heebo', sans-serif;
+}

@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Heebo:300');
+
+.calc-display{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 126px;
+    border: 2px solid white;
+    background-color: #262626;
+}
+
+p{
+    font-size: 80px;
+    color: white;
+    margin-right: 10px;
+    font-weight: lighter;
+    font-family: 'Heebo', sans-serif;
+}
+
+h2 {
+    margin: 0px;
+    font-family: 'Heebo', sans-serif;
+}

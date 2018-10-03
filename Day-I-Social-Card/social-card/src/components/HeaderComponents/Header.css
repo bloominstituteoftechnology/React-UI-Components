@@ -1,1 +1,36 @@
 /* All styles for your header Components live here */
+.head-cont{
+display: flex;
+width: 600px;
+margin: 0 auto;
+
+}
+
+.lambda-logo-cont{
+    display: flex;
+    align-items: center;
+    height: 100px;
+    margin-right: 15px;
+
+}
+
+.lambda-logo{
+height: 55px;
+width: 55px;
+border-radius: 30px;
+}
+
+.lambda-school-bold{
+    margin-right: 20px;
+
+}
+
+/* .header-content{
+
+
+} */
+
+.header-title {
+display: flex;
+align-items: center;
+}
