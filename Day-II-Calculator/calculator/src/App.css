@@ -54,3 +54,7 @@ table {
 .btn-container{
     display: flex;
 }
+
+.blur{
+    filter: blur(4px);
+}
