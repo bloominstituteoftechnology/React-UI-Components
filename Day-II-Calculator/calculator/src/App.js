@@ -40,14 +40,29 @@ const rowFive = {
   symbol: "+",
 }
 
+  
 
+class App extends React.Component {
 
+    state = {
+      total: "7",
+    };
 
-const App = () => {
-  return (
-    <div className = "calc-box">
+    Clear = () => {
+      console.log(this.state);
+      if (this.state.total > 0) {
+        this.setState({
+          total: 0,
+        });
+      }
+    };
+
+  render() {
+
+    return(
+      <div className = "calc-box">
       <div className = "calc-cont">
-        <CalculatorDisplay />
+        <CalculatorDisplay state={this.state} />
         <ActionButtons symbol ={rowTopButtons} />
         <NumberButton symbol={rowThree} />
         <NumberButton symbol={rowFour} />
@@ -55,8 +70,25 @@ const App = () => {
         <ActionButtons symbol ={rowBottomButtons} />
       </div>
     </div>
-  );
-};
+    );
+  }
+
+}
+
+// const App = () => {
+//   return (
+//     <div className = "calc-box">
+//       <div className = "calc-cont">
+//         <CalculatorDisplay />
+//         <ActionButtons symbol ={rowTopButtons} />
+//         <NumberButton symbol={rowThree} />
+//         <NumberButton symbol={rowFour} />
+//         <NumberButton symbol={rowFive} />
+//         <ActionButtons symbol ={rowBottomButtons} />
+//       </div>
+//     </div>
+//   );
+// };
 
 export default App;
 
