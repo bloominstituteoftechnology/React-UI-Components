@@ -7,4 +7,6 @@ const ActionButton = props => {
             {props.text}
         </button>
     );
-}
+};
+
+export default ActionButton;
