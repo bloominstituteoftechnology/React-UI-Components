@@ -3,7 +3,7 @@ import './Display.css';
 
 const CalculatorDisplay = props => {
   return (
-    <div>
+    <div className="calcDisplay">
      {props.number}
     </div>
   )

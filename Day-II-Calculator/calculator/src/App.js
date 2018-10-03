@@ -12,30 +12,34 @@ const App = () => {
       </div>
       <div className="Buttons">
         <div className="WhiteButtons">
-          <ActionButton className="clearBtn" number="clear" />
-          <div className='NumRow'>
-            <NumberButton className="btnSmall number" number="7" />
-            <NumberButton className="btnSmall number" number="8" />
-            <NumberButton className="btnSmall number" number="9" />
+          <div className="clearBtn">
+            <ActionButton number="clear" />
           </div>
           <div className='NumRow'>
-            <NumberButton className="btnSmall number" number="4" />
-            <NumberButton className="btnSmall number" number="5" />
-            <NumberButton className="btnSmall number" number="6" />
+            <NumberButton number="7" />
+            <NumberButton number="8" />
+            <NumberButton number="9" />
           </div>
           <div className='NumRow'>
-            <NumberButton className="btnSmall number" number="1" />
-            <NumberButton className="btnSmall number" number="2" />
-            <NumberButton className="btnSmall number" number="3" />
+            <NumberButton number="4" />
+            <NumberButton number="5" />
+            <NumberButton number="6" />
           </div>
-          <ActionButton className="zeroBtn" number="0" />
+          <div className='NumRow'>
+            <NumberButton number="1" />
+            <NumberButton number="2" />
+            <NumberButton number="3" />
+          </div>
+          <div className="zeroBtn">
+            <ActionButton number="0" />
+          </div>
         </div>
         <div className="RedButtons">
-          <NumberButton className="btnSmall operators" number="÷" />
-          <NumberButton className="btnSmall operators" number="X" />
-          <NumberButton className="btnSmall operators" number="-" />
-          <NumberButton className="btnSmall operators" number="+" />
-          <NumberButton className="btnSmall operators" number="=" />
+          <NumberButton number="÷" />
+          <NumberButton number="x" />
+          <NumberButton number="―" />
+          <NumberButton number="+" />
+          <NumberButton number="=" />
         </div>      
       </div>  
     </div>  

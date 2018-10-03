@@ -1,7 +1,49 @@
-.btnSmall {
-  padding: 4px;
+.actionBtn {
+  display: flex;
+  justify-content: center;
+  padding: 21px 0;
+  border: 1px solid gray;
 }
 
-.number {
-  border: 1px solid black;
+.clearBtn .actionBtn{
+  font-size: 44px;
+  font-weight: lighter;
+}
+
+.zeroBtn .actionBtn {
+  font-size: 44px;
+  font-weight: bold;
+}
+
+.WhiteButtons {
+  width: 74%;
+}
+
+.WhiteButtons .NumRow {
+  width: 74%
+}
+
+.btnSmall {
+  font-size: 44px;
+  font-weight: bold;
+  /* padding: 20.3px 17.2%; */
+  border: 1px solid gray;
+}
+
+.NumRow .btnSmall {
+  padding: 20px 17.2%;
+}
+
+.RedButtons {
+  width: 26%;
+}
+
+.RedButtons .btnSmall {
+  background-color: #A0001E;
+  /* display: flex; */
+  color: white;
+  /* align-content: center; */
+  padding: 13.5px 31%;
+  font-size: 56px;
+  font-weight: 300;
 }
