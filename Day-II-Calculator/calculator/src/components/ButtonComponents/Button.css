@@ -1,36 +1,40 @@
-.actionButtonContainer {
-  width: 560px;
-  height: 100%;
-  margin: 0 auto;
+.button-container {
+  height: 100px;
   display: flex;
 }
 
-.actionButtonContainer .clear .actionButton {
+.number-button {
+  width: 100px;
+  border: 1px solid #e3e3e3;
+  cursor: pointer;
+  border: 1px solid #979797;
+}
+
+.three-quarter-button {
+  width: 300px;
+  border: 1px solid #e3e3e3;
+  cursor: pointer;
+  border: 1px solid #979797;
+}
+
+.red-button {
+  background: #9e0523;
+  color: #ffffff;
+  text-align: center;
+  line-height: 100px;
   font-size: 50px;
-  width: 420px;
-  height: 109px;
-  background-color: white;
-  cursor: pointer;
+  font-weight: 200;
 }
-
-.actionButtonContainer .clear .Number {
+.num-button {
+  text-align: center;
+  line-height: 100px;
   font-size: 50px;
-  width: 140px;
-  height: 109px;
-  background-color: white;
-  cursor: pointer;
+  font-weight: 200;
 }
 
-.actionButtonContainer .action {
-  display: flex;
-  flex-direction: column;
-}
-
-.actionButtonContainer .action .Button {
-  width: 140px;
-  height: 109px;
-  font-size: 65px;
-  background-color: #A0001E;
-  color: white;
-  cursor: pointer;
+.three-text {
+  text-align: center;
+  line-height: 100px;
+  font-size: 50px;
+  font-weight: 200;
 }
