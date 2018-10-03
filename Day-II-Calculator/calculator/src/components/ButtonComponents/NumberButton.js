@@ -3,7 +3,7 @@ import './Button.css';
 
 const NumberButton = props => {
   return(
-    <button className={`btn-default ${props.customButton}`} onClick={props.onClick}>{props.text}</button>
+    <button value={props.value} className={`btn-default ${props.customButton}`} onClick={props.clickDoer}>{props.value}</button>
   );
 }
 

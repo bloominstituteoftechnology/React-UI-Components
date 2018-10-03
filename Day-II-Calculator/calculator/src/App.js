@@ -10,19 +10,17 @@ class App extends React.Component {
     this.state = {
       total: '0'
     };
-    this.numberSeven = '7';
   }
 
-  clickNumberSeven = () => {
+  clickNumber(value) {
+    let incrementor = this.state.total;
     if (this.state.total === '0') {
-      this.numberSeven = '7';
-      this.setState({total: this.numberSeven});
-      this.numberSeven += '7';
-    } else if (this.numberSeven.length === 9) {
-      this.setState({total: this.numberSeven});
+      incrementor = value;
+      this.setState({total: incrementor});
+    } else if (incrementor.length === 9) {
+      this.setState({total: incrementor});
     } else {
-      this.setState({total: this.numberSeven});
-      this.numberSeven += '7';
+      this.setState({total: incrementor + value});
     }
   };
 
@@ -36,34 +34,34 @@ class App extends React.Component {
         <CalculatorDisplay total={this.state.total}/>
 
         <div className="container">
-          <ActionButton customButton="wide-button" text="clear" onClick={this.clear} />
-          <NumberButton customButton="op-button" text="&#247;" /> {/* ÷ */}
+          <ActionButton customButton="wide-button" value="clear" clickDoer={this.clear} />
+          <NumberButton customButton="op-button" value="&#247;" /> {/* ÷ */}
         </div>
 
         <div className="container">
-          <NumberButton text="7" onClick={this.clickNumberSeven}/>
-          <NumberButton text="8"/>
-          <NumberButton text="9"/>
-          <NumberButton customButton="op-button" text="&#215;" /> {/* x */}
+          <NumberButton value="7" clickDoer={() => this.clickNumber("7")} />
+          <NumberButton value="8" clickDoer={() => this.clickNumber("8")} />
+          <NumberButton value="9" clickDoer={() => this.clickNumber("9")} />
+          <NumberButton customButton="op-button" value="&#215;" /> {/* x */}
         </div>
 
         <div className="container">
-          <NumberButton text="4"/>
-          <NumberButton text="5"/>
-          <NumberButton text="6"/>
-          <NumberButton customButton="op-button" text="&#8722;" /> {/* - */}
+          <NumberButton value="4" clickDoer={() => this.clickNumber("4")}/>
+          <NumberButton value="5" clickDoer={() => this.clickNumber("5")}/>
+          <NumberButton value="6" clickDoer={() => this.clickNumber("6")}/>
+          <NumberButton customButton="op-button" value="&#8722;" /> {/* - */}
         </div>
 
         <div className="container">
-          <NumberButton text="1"/>
-          <NumberButton text="2"/>
-          <NumberButton text="3"/>
-          <NumberButton customButton="op-button" text="&#43;" /> {/* + */}
+          <NumberButton value="1" clickDoer={() => this.clickNumber("1")}/>
+          <NumberButton value="2" clickDoer={() => this.clickNumber("2")}/>
+          <NumberButton value="3" clickDoer={() => this.clickNumber("3")}/>
+          <NumberButton customButton="op-button" value="&#43;" /> {/* + */}
         </div>
 
         <div className="container">
-          <ActionButton customButton={`wide-button bold`} text="0" />
-          <NumberButton customButton="op-button" text="=" />
+          <ActionButton customButton={`wide-button bold`} value="0" clickDoer={() => this.clickNumber("0")}/>
+          <NumberButton customButton="op-button" value="=" />
         </div>
       </div>
 
