@@ -1,0 +1,7 @@
+.calculator-wrapper {
+    height: 595px;
+    width: 450px;
+    margin: 0 auto;
+    border: 5px solid lightgrey;
+    font-family: sans-serif;
+}

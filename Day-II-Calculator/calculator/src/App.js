@@ -5,7 +5,7 @@ import CalculatorDisplay from './components/DisplayComponents/CalculatorDisplay'
 class App extends React.Component {
   render() {
     return (
-      <div className="calculator-wrapper">
+      <div className="calculator-container">
         <CalculatorDisplay />
       </div>  
     );
