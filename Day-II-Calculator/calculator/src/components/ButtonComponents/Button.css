@@ -12,6 +12,8 @@
     border: 1px solid #979797;
     text-align: center;
     line-height: 100%;
+    font-size: 50px;
+    font-weight: 200;
 }
 .number-button {
     width: 25%;
@@ -26,6 +28,9 @@
 .action-button {
     width: 75%;
     height: 90px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 }
 
 .operand-button {
