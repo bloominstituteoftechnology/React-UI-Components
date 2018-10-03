@@ -73,16 +73,13 @@ const actionList = [
 
 
 const ActionButton = (props) => {
-  const buttonClick = (e) => {
-    console.log(NumberButton.props)
-  }
+
 
   const NumberButton = () => {
     return (
       numberList.map((obj, key) => {
         return (
           <button key={key}
-            onClick={() => { buttonClick() }}
             className={obj.class}>
             {obj.text}
           </button>
@@ -91,21 +88,24 @@ const ActionButton = (props) => {
     )
   }
 
+  const ActionButton = () => {
+    return (
+      actionList.map((obj, key) => {
+        return (
+          <button key={key} className={obj.class}>{obj.text}</button>
+        )
+      })
+    )
+  }
 
 
   return (
     <div className="actionButtonContainer">
       <div className="clear">
-        <NumberButton buttonClick={buttonClick} />
+        <NumberButton />
       </div>
       <div className="action">
-        {
-          actionList.map((obj, key) => {
-            return (
-              <button key={key} className={obj.class}>{obj.text}</button>
-            )
-          })
-        }
+        <ActionButton />
       </div>
     </div>
   )

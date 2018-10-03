@@ -1,7 +1,7 @@
 import React from 'react';
 import './Display.css';
 
-const CalculatorDisplay = (props) => {
+const CalculatorDisplay = () => {
   const DisplayProps = {
     number: 0
   }
