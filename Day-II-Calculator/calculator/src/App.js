@@ -55,18 +55,20 @@ class App extends React.Component {
 				operator: op,
 				total: total+op
 			})
-		} else if (op === '=',this.state.num1, this.state.num2) {
+		} else if (op === '=' && this.state.num1 && this.state.num2) {
 			this.setState({
-				operator: op,
 				total: eval(total)
 			})
-		} else if (this.state.operator, this.state.num1, this.state.num2) {
+		} else if (this.state.operator && this.state.num1 &&this.state.num2) {
 			this.setState({
 				operator: op,
 				num1: total,
 				num2: '',
 				total: total+op
 			})
+			// this.setState({
+				
+			// })
 		}
 	}
 
