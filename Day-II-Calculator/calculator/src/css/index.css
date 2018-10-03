@@ -137,11 +137,23 @@ table {
   border-spacing: 0;
 }
 .calc-container {
-  max-width: 700px;
+  max-width: 500px;
   width: 100%;
-  padding: 20px;
   margin: 50px auto;
   border: 1px solid #000;
   display: flex;
   flex-flow: row wrap;
+}
+.calc-container .calc-body {
+  display: flex;
+  flex-flow: columns wrap;
+}
+.calc-container .calc-display {
+  max-width: 500px;
+  width: 100%;
+  padding: 25px;
+  background-color: #000;
+  color: #fff;
+  font-size: 4rem;
+  text-align: right;
 }

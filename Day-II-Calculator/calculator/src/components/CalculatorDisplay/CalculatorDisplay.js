@@ -2,7 +2,7 @@ import React from 'react';
 
 const CalculatorDisplay =  () => {
     return(
-        <h1>test</h1>
+        <h1>0</h1>
     );
 }
 
