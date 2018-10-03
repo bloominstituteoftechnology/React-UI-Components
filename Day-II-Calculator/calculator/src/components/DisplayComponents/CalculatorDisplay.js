@@ -5,7 +5,7 @@ const CalculatorDisplay = () => {
     return (
     <div className="calculator-display">
         <div className="result-numbers">
-            0.00
+            70
         </div>
     </div>
     );

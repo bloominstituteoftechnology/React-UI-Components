@@ -3,3 +3,8 @@
     max-width: 455px;
     display: flex;
 }
+
+.number-button {
+    width: 100%;
+    border: 1px solid #979797;
+}
