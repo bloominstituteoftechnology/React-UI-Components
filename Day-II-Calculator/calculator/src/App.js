@@ -12,7 +12,7 @@ class App extends React.Component {
 	constructor() { 
 		super();
 		this.state = {
-			total: '',
+			total: '0',
 			num1: null,
 			num2: null,
 			operator: null
@@ -34,7 +34,7 @@ class App extends React.Component {
 		}	else {
 			this.setState({
 				num1: num,
-				total: total+num,
+				total: total.substring(1)+num,
 			})
 		}
 	}
