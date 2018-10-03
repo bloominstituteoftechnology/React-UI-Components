@@ -1,0 +1,15 @@
+.calculatorDisplay {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background: #222222;
+  height: 150px;
+  width: 500px;
+}
+
+.calculatorDisplayNumber {
+  font-size: 60px;
+  color: white;
+  font-weight: 100;
+  margin-right: 15px;
+}

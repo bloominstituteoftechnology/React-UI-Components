@@ -1,1 +1,33 @@
-/* All styles for your header Components live here */
+.headerContainer {
+  border: 2px solid grey;
+  display: flex;
+  padding: 5px;
+  
+}
+
+.avatarBox {
+  margin-right: 2rem;
+}
+
+.imageThumbnail {
+  height: 60px;
+  width: 60px;
+  border-radius: 100px;
+}
+
+.displayName {
+  font-weight: bold;
+  margin-right: 1rem;
+}
+
+.username {
+  color: grey;
+  font-size: .8rem;
+  margin-right: .5rem;
+}
+
+.date {
+  color: grey;
+  font-size: .8rem;
+}
+
