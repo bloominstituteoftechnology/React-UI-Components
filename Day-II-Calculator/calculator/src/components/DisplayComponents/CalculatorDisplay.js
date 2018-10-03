@@ -10,10 +10,19 @@ const CalculatorDisplay = (props) => {
             </div>
 
             <div className="op-row">
-                    <div className="div op">÷</div>
-                    <div className="mult op">x</div>
-                    <div className="min op">−</div>
-                    <div className="plus op">+</div>
+                <div className="disOps">
+                    <div className={`${props.active === 'div'? 'active' : null} op`}>÷</div>
+                    <div className={`${props.active === 'mult'? 'active' : null} op`}>x</div>
+                    <div className={`${props.active === 'min'? 'active' : null} op`}>−</div>
+                    <div className={`${props.active === 'plus'? 'active' : null} op`}>+</div>
+                </div>
+
+                <div className="operand-display">
+                    {props.operandOne !== '' ? props.operandOne : null}
+
+                </div>
+
+
              </div>
         
         </div>
