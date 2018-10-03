@@ -1,0 +1,15 @@
+.calc-display{
+    width: 100%;
+    background: black;
+    color:white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height:22%;
+    padding-top:2%;
+}
+
+.calc-display h1{
+    padding-right: 10%;
+    font-size: 60px;
+}
