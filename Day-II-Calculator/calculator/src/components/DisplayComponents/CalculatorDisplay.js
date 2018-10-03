@@ -3,7 +3,7 @@ import './Display.css';
 
 const Display = props => {
     return (
-        <p class='display'>I am the Display</p>
+        <p class='display'>0</p>
     )
 }
 
