@@ -2,11 +2,16 @@
     width: 33.3333333%;
     text-align: center;
     background-color: white;
+    padding: 2.35rem 0;
+    border: 0.05rem solid #222222;
 }
 
 .actButton {
+    color: white;
     background-color: #A0001E;
+    padding: 2.35rem 0;
     width: 100%;
+    border: 0.05rem solid white;
 }
 
 .fullLength {
