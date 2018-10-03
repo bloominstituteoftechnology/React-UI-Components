@@ -1,23 +1,72 @@
-import React from 'react';
+import React, {Component} from 'react';
 import './App.css';
+import Display from './components/DisplayComponents/CalculatorDisplay';
+import Keys from './components/ButtonComponents/Keys';
 
-const App = () => {
-  return (
-    <div>
-      <h3>Welcome to React Calculator</h3>
-      <p>
-        We have given you a starter project. You'll want to build out your
-        components in their respective files, remove this code and replace it
-        with the proper components.
-      </p>
-      <p>
-        <strong>
-          Don't forget to `default export` your components and import them here
-          inside of this file in order to make them work.
-        </strong>
-      </p>
-    </div>
-  );
+// const App = () => {
+//   return (<div className='container'>
+//     <Display text='0'/>
+//     {/* <ActionButton buttonStyle='long' label='clear'/>
+//     <NumberButton buttonStyle='operation-button' label='&divide;'/>
+//     <NumberButton buttonStyle='number-button' label='7'/>
+//     <NumberButton buttonStyle='number-button' label='8'/>
+//     <NumberButton buttonStyle='number-button' label='9'/>
+//     <NumberButton buttonStyle='operation-button' label='&times;'/>
+//     <NumberButton buttonStyle='number-button' label='4'/>
+//     <NumberButton buttonStyle='number-button' label='5'/>
+//     <NumberButton buttonStyle='number-button' label='6'/>
+//     <NumberButton buttonStyle='operation-button' label='&minus;'/>
+//     <NumberButton buttonStyle='number-button' label='1'/>
+//     <NumberButton buttonStyle='number-button' label='2'/>
+//     <NumberButton buttonStyle='number-button' label='3'/>
+//     <NumberButton buttonStyle='operation-button' label='+'/>
+//     <NumberButton buttonStyle='number-button long' label='0'/>
+//     <ActionButton buttonStyle='operation-button' label='='/> */}
+//     <Keys />
+//
+//   </div>);
+// };
+
+class App extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      operation: '',
+      value: 0
+    };
+
+  }
+  handleInput = (e) => {
+    if (this.state.value !== 0) {
+      this.setState((prevState => ({
+        value: prevState.value + '' + e,
+        operation: prevState.operation += e
+      })));
+    } else {
+      this.setState((prevState => ({
+        value: e,
+        operation: prevState.operation += e
+      })));
+    };
+  };
+
+
+  handleClear = () => {
+    this.setState({value: 0, operation: ''})
+  };
+
+  handleCalculate = () => {
+    this.setState({
+      value: eval(this.state.operation)
+    });
+  };
+
+  render() {
+    return (<div className='container'>
+      <Display value={this.state.value}/>
+      <Keys handleInput={this.handleInput} handleClear={this.handleClear} handleCalculate={this.handleCalculate}/>
+    </div>)
+  }
 };
 
 export default App;

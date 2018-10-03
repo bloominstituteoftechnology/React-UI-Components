@@ -1,0 +1,27 @@
+.keys {
+  width: 100%;
+}
+
+.button {
+  height: 100px;
+  border: 1px solid gray;
+  font-size: 50px;
+  width: 25%;
+  cursor: pointer;
+  background: white;
+}
+.button:active {
+  outline: 1px solid black;
+}
+
+.long {
+  width: 75%;
+}
+
+.number-button {
+  font-weight: bold;
+}
+.operation-button {
+  background: #A0001E;
+  color: white;
+}

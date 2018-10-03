@@ -1,0 +1,14 @@
+.display {
+  width:100%;
+    background:black;
+    padding: 25px 0;
+    height:auto;
+}
+
+.output {
+   color: white;
+    margin: auto;
+    padding-right: 20px;
+    text-align: end;
+    font-size: 70px;
+}

@@ -1,1 +1,40 @@
 /* All styles for your Card Components live here */
+
+.card-container{
+  display: flex;
+  flex-direction: column;
+
+
+
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  width: 80%;
+  margin: -5px 20px 0 100px;
+
+}
+
+.card-banner {
+  background: url('https://ibin.co/3wnC6SgIOJud.png');
+  width: 500px;
+  border-radius: 5px 5px 0 0;
+  height: 250px;
+  background-size: cover;
+}
+
+.card-content {
+  padding: 0 15px;
+  font-size: 14px;
+  line-height: 1;
+}
+.card-title {
+  font-weight: bold;
+}
+
+.link {
+  color: gray;
+  font-size: 14px;
+  margin-top: 0;
+}

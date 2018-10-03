@@ -1,0 +1,43 @@
+.footer-container {
+  display: flex;
+  width: 43%;
+  justify-content: space-between;
+  margin: 15px 15px 0 100px;
+  font-size: 16px;
+  color: gray;
+
+}
+
+.fa-comment {
+  transform: rotateY(180deg);
+  cursor: pointer;
+}
+
+.fa-comment:active{
+  color: lightblue;
+}
+
+.fa-sync-alt {
+  cursor: pointer;
+}
+
+.fa-sync-alt:active {
+  cursor: pointer;
+  color: green;
+}
+
+.fa-heart {
+  cursor: pointer;
+}
+
+.fa-heart:active {
+  color: pink;
+}
+
+.fa-envelope {
+  cursor: pointer;
+}
+
+.fa-envelope:active {
+  color: blue;
+}
