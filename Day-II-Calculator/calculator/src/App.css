@@ -1,0 +1,29 @@
+.second-row {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.third-row {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.fourth-row {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.fifth-row{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.sixth-row{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
