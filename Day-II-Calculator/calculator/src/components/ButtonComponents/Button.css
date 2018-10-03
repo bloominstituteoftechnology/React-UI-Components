@@ -26,11 +26,12 @@
 }
 
 .WhiteButtons {
-  width: 74%;
+  width: 75%;
 }
 
 .WhiteButtons .NumRow {
-  width: 74%
+  width: 79%;
+  justify-content: space-between;
 }
 
 .btnSmall {
