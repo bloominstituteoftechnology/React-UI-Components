@@ -10,9 +10,19 @@
   font-weight: lighter;
 }
 
+.clearBtn .actionBtn:hover {
+  background-color: gray;
+  color: white;
+}
+
 .zeroBtn .actionBtn {
   font-size: 44px;
   font-weight: bold;
+}
+
+.zeroBtn .actionBtn:hover {
+  background-color: gray;
+  color: white;
 }
 
 .WhiteButtons {
@@ -33,7 +43,10 @@
 .NumRow .btnSmall {
   padding: 20px 17.2%;
 }
-
+.NumRow .btnSmall:hover {
+  background-color: gray;
+  color: white;
+}
 .RedButtons {
   width: 26%;
 }
@@ -46,4 +59,9 @@
   padding: 13.5px 31%;
   font-size: 56px;
   font-weight: 300;
+}
+
+.RedButtons .btnSmall:hover {
+  background-color: gray;
+  color: white;
 }
