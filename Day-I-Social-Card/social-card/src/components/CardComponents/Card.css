@@ -1,1 +1,22 @@
 /* All styles for your Card Components live here */
+.banner-img {
+    width: 85%;
+    height: auto;
+    margin: 0px;
+    margin-left: 15%;
+}
+
+.card-content {
+    margin-left: 15%;
+    padding: 15px;
+    border: 2px solid lightgray;
+    border-top: none;
+}
+
+.react-link {
+    color: gray;
+}
+
+.card-container {
+    border-radius: 5%;
+}

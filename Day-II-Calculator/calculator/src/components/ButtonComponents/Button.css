@@ -1,0 +1,40 @@
+.action {
+    width: 75%;
+}
+
+button {
+    font-size: 35px;
+}
+
+.main-buttons {
+    box-sizing: border-box;
+}
+
+.numbers button {
+    box-sizing: border-box;
+    width: 99px;
+    height: 85px;
+    border: 1px solid gray;
+}
+
+.numbers {
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+
+.action button {
+    box-sizing: border-box;
+    width: 300px;
+    height: 85px;
+    border: 1px solid gray;
+}
+
+.math-functions button {
+    box-sizing: border-box;
+    width: 100px;
+    height: 85px;
+    border: 1px solid gray;
+    background-color: #a0001f;
+    color: white;
+    font-size: 60px;
+}
