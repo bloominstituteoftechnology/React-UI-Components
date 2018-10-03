@@ -34,10 +34,15 @@ class App extends React.Component {
 				num2: num,
 				total: total+num
 			})
+		}	else if (this.state.num1){
+			this.setState({
+				num1: num,
+				total: total+num,
+			})
 		}	else {
 			this.setState({
 				num1: num,
-				total: total.substring(1)+num,
+				total: total.substring(1)+num
 			})
 		}
 	}
@@ -50,15 +55,16 @@ class App extends React.Component {
 				operator: op,
 				total: total+op
 			})
-		} else if (op === '=') {
+		} else if (op === '=',this.state.num1, this.state.num2) {
 			this.setState({
+				operator: op,
 				total: eval(total)
 			})
 		} else if (this.state.operator, this.state.num1, this.state.num2) {
 			this.setState({
+				operator: op,
 				num1: total,
 				num2: '',
-				operator: op,
 				total: total+op
 			})
 		}
