@@ -1,0 +1,29 @@
+
+.display {
+  /* fibonaci code */
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto; height: 20%;
+
+  /* my code */
+  box-sizing: border-box;
+  height: "80%";
+  width: "60%";
+  float: left;
+  color: white;
+  background: black;
+  font-size: 24pt;
+  
+  /* 
+  box-sizing: border-box;
+  height: "20%";
+  width: "60%";
+  float: left;
+  color: grey;
+  background: whitesmoke;
+  border: solid;
+  border-color: black;
+  border-width: 2px; 
+  */
+}

@@ -2,3 +2,77 @@
   Write your styles/CSS for App.js here and import into the component that you need 
   IF you'd like to attempt to use less you'll have to research how to do this with Create React App
 */
+body {
+  margin: 0;
+  padding: 0.4rem;
+  font-family: sans-serif;
+}`
+
+.container {
+  display: flex; 
+  flex-direction: row;
+  /* height: 600px;
+  width: 400px; */
+  border: solid;
+  border-color: grey;
+  border-width: .75px;
+  margin: 30px;
+
+  /* DEV SETTINGS */
+  border-color: blue;
+}
+.headerContainer{
+  display: flex;
+  flex-direction: row; 
+  height:20%;
+  width: 100%;
+border-color: black;
+  /* DEV SETTINGS */
+  border: solid;
+  /* border-width: 2px; */
+  border-color: rgb(0, 60, 255);
+
+}
+.cardContainer{
+  display: flex;
+  flex-direction: row;
+
+}
+.cardBanner{
+  display: flex;
+
+}
+.headerRow {
+  display: flex; 
+  height:40%;
+  width: 100%;
+border-color: black;
+  /* DEV SETTINGS */
+  border: solid;
+  /* border-width: 2px; */
+  border-color: orange;
+}
+.row {
+/* ☞ 1ea47807-049f-461f-81b5-743a3a2d2a05 */
+  display: inline-block; 
+  flex-direction: row;
+  height: 40%;
+  width: 100%;
+/* border-color: black; */
+
+  /* DEV SETTINGS */
+  border: solid;
+  /* border-width: 2px; */
+  /* border-color: green; */
+}
+.footer{
+  display: flex;
+  flex-direction: row; 
+  height:20%;
+  width: 100%;
+  /* DEV SETTINGS */
+  border: solid;
+  border-width: 2px;
+  border-color: rgb(97, 44, 108);
+  /* border-color: rgb(0, 60, 255); */
+}
