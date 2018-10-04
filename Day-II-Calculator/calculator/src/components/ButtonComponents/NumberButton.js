@@ -7,13 +7,7 @@ const NumberButton = (props) => {
             </div>)
 }
 
-const FullDisplayButton= (props) => {
-    return (
-        <div className="Full-Display-Button">
-            <h1>{props.text}</h1>
-        </div>
-    )
-}
+
 
 
 
