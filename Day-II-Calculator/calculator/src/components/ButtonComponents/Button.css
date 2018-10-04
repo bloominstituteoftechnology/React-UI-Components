@@ -1,0 +1,31 @@
+.number-btn, .action-btn, .blank-btn, .black-btn{
+width: 100px;
+height: 100px;
+background-color: white;
+font-size: 1.9rem;
+font-weight: bold;
+font-family: sans-serif;
+line-height: 1.9;
+border: 1px solid gray;
+//border-right: none;
+}
+
+.action-btn{
+background-color: maroon;
+color: white;
+font-weight: 100;
+}
+
+.blank-btn{
+width: 300px;
+border-right: none;
+font-weight: 100;
+}
+
+.black-btn{
+	background-color: black;
+	color: white;
+	width: 400px;
+	text-align: end;
+
+}

@@ -1,11 +1,11 @@
 import React from 'react';
 import './Button.css';
 
-const NumberButton = props =>{
+
+const EmptyButton = props =>{
 
 return <button className={props.customClass}>{props.number}</button>
 };
 
 
-
-export default NumberButton;
+export default EmptyButton;
