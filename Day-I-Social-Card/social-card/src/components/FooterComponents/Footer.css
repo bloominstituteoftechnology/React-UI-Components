@@ -1,0 +1,22 @@
+.card-footer {
+    margin-left: 68px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.card-footer a {
+    font-size: 1.6rem;
+    color: #888888;
+    width: 15.5%;
+    display: flex;
+    align-items: flex-start;
+    cursor: pointer;
+}
+
+.card-footer a .social-counter {
+    margin-top: 1px;
+    margin-left: 15%;
+    font-size: 1.2rem;
+}
