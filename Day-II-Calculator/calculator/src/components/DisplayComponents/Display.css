@@ -1,0 +1,13 @@
+.Calculator-Display {
+    width:100%;
+    background-color: black;
+    color: #ffffff;
+    display:flex;
+    height:128px;
+    justify-content: flex-end;
+    align-items: center;
+}
+.Calculator-Display h1 {
+    font-size:80px;
+    padding:0px 10px;
+}
