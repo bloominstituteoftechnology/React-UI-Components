@@ -32,7 +32,7 @@ const ButtonContainer = props => {
   return (
       <div className='buttonContainer'>
         <div className='rowOne'>
-          <NumberButton text='Clear' type='bigButton'/>
+          <NumberButton text='clear' type='bigButton'/>
           <NumberButton text='÷' type='operatorButton'/>
         </div>
 
