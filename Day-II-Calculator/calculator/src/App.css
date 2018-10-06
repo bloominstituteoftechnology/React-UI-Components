@@ -1,0 +1,10 @@
+* {
+    box-sizing: border-box;
+  }
+
+.container {
+  max-width: 250px;
+  display: flex;
+  flex-wrap: wrap;
+}
+

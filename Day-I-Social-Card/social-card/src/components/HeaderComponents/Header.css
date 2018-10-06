@@ -1,1 +1,45 @@
 /* All styles for your header Components live here */
+
+.container {
+  display: flex;
+  justify-content: space-between;
+
+
+}
+
+img {
+  height: 100%;
+  margin-right: 3%;
+}
+
+.contentTitleContainer {
+  width: 92%;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  width: 100%;
+  height: 70px;
+  margin: 0;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 30px;
+}
+
+.title h5 {
+  margin: 0 1.5% 0 0;
+}
+.title h6 {
+  margin: 0 1.5%;
+  color: #9e9e9e;
+
+}
+
+.content p {
+}
+
