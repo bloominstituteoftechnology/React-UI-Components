@@ -1,4 +1,11 @@
 /* All styles for your Card Components live here */
 .cardContainer {
-  
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 0 11%;
+}
+
+.cardBannerImage {
+  width: 100%;
+  height: auto;
 }

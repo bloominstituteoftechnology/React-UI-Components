@@ -1,8 +1,35 @@
 /* All styles for your header Components live here */
 .header {
   display: flex;
+  margin: 8px 4.5px;
+}
+
+.lambdaLogo {
+  height: 50px;
 }
 
 .headerTitleBox {
   display: flex;
+  padding: 0;
+}
+
+.headerTitleBox h3 {
+  font-size: 14px;
+  padding: 0;
+  line-height: 0%;
+  margin: 2%;
+}
+
+.headerTitleBox p {
+  font-size: 14px;
+  padding: 0;
+  line-height: 0%;
+  margin: 2% 0;
+  color: #808080;
+}
+
+.headerContent p {
+  font-size: 14px;
+  margin: 1% 2%;
+  line-height: 18px;
 }
