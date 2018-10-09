@@ -1,9 +1,10 @@
 import React from 'react';
 import './Display.css';
-import NumberButton from './components/ButtonComponents/NumberButton';
-import ActionButton from './components/ButtonComponents/ActionButton';
-import ClearButton from './components/ButtonComponents/ClearButton';
 
-const app = () => {
-    
+const CalculatorDisplay = (prop) => {
+    return (
+        <h2 className='display'>{prop.buttonText}</h2>
+    )
 }
+
+export default CalculatorDisplay;

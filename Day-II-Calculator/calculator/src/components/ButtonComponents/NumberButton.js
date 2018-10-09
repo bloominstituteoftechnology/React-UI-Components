@@ -1,9 +1,9 @@
 import React from 'react';
 import './Button.css';
 
-const NumberButton = props => {
+const NumberButton = (prop) => {
     return (
-        <button className={props.buttonStyle}>{props.text}</button>
+        <button className={prop.buttonStyle}>{prop.buttonText}</button>
     )
 }
 

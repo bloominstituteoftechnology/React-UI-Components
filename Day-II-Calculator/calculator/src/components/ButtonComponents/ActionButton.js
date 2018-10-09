@@ -1,10 +1,10 @@
 import React from 'react';
 import './Button.css';
 
-const ActionButton = props => {
+const ActionButton = (prop) => {
     return (
        <div className= 'action'>
-            <button className='actionButton'>{props.buttonText}</button>
+            <button className='actionButton'>{prop.buttonText}</button>
        </div>
     )
 }
