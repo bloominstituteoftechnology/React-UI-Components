@@ -5,8 +5,9 @@
 
 .container {
   display: flex;
+  flex-direction: column;
   align-content: center;
-  max-width: 590px;
+  max-width: 585px;
   height: 510px;
   border: 1px solid blue;
   margin: 0 auto;

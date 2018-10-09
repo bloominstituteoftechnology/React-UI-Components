@@ -1,1 +1,10 @@
 /* All styles for your Card Components live here */
+.cardContainer {
+  /* display: flex;
+  align-content: center; */
+  width: 580px;
+  height: 365px;
+  padding: 3px 1px 0px;
+  border: 1px solid red;
+  margin: 0 auto;
+}
