@@ -1,0 +1,48 @@
+.plainActionButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 100px;
+    border: 1px solid grey;
+    background-color: white;
+    font-size: 40px;
+    font-weight: 100;
+}
+
+.boldActionButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 100px;
+    border: 1px solid grey;
+    background-color: white;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.numberButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    font-size: 60px;
+    font-weight: bold;
+    border: 1px solid grey;
+}
+
+.numberButtonRed{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: darkred;
+    font-size: 60px;
+    font-weight: bold;
+    width: 100px;
+    height: 100px;
+    border: 1px solid grey;
+
+}

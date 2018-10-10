@@ -1,1 +1,45 @@
 /* All styles for your header Components live here */
+.headerContainer {
+    display: flex;
+    width: 580px;
+    height: 101px;
+    margin: 3px 1px 0;
+    /* border: 1px dotted red; */
+}
+
+.imageThumbnail {
+    width: 53px;
+    height: 56px;
+    margin: 3px 2px 0 3px;
+    /* border: 1px solid green; */
+}
+
+.imageThumbnail img {
+    width: 52px;
+    height: auto;
+}
+
+.headerContent {
+    width: 513px;
+    height: 93px;
+    margin: 3px 1px 2px;
+    /* border: 1px solid lightblue; */
+    font-size: 14px;
+
+}
+
+.headerTitle{
+    display: flex;
+    /* border: 1px solid green; */
+    height: 20px;
+    
+}
+
+.title{
+    padding-right: 15px;
+    font-weight: bold;
+}
+
+.at{
+    color: rgb(156, 156, 156);
+}
