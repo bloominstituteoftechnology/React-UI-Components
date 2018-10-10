@@ -1,0 +1,10 @@
+.app{
+    height: 500px;
+    width: 400px;
+    border: 1px solid #979797;
+    margin: 0 auto;
+}
+.row{
+    width: 400px;
+    border: 3px solid red;
+}
