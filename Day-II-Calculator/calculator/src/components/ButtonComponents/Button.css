@@ -1,0 +1,8 @@
+button {
+    background-color: #FFFFFF;
+    width: 100px;
+    height:100px;
+    border: 1px solid black;
+    font-weight: bold;
+    font-size: 25px,
+}
