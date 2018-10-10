@@ -1,9 +1,17 @@
 import React from 'react';
 import './App.css';
+import CalculatorDisplay from './components/DisplayComponents/CalculatorDisplay';
+
+const buttons = [
+  {
+
+  }
+]
 
 const App = () => {
   return (
     <div className="App">
+    <CalculatorDisplay />
       <h3>Welcome to React Calculator</h3>
       <p>
         We have given you a starter project. You'll want to build out your
