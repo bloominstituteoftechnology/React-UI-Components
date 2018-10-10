@@ -1,1 +1,4 @@
 /* All styles for your header Components live here */
+.header-border {
+    border: 1px solid blue;
+}
