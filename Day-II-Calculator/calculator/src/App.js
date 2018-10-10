@@ -3,7 +3,7 @@ import './App.css';
 
 const App = () => {
   return (
-    <div>
+    <div className="App">
       <h3>Welcome to React Calculator</h3>
       <p>
         We have given you a starter project. You'll want to build out your
