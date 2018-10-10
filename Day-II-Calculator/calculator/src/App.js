@@ -1,22 +1,42 @@
 import React from 'react';
 import './App.css';
 import CalculatorDisplay from './components/DisplayComponents/CalculatorDisplay';
+import ActionButton from './components/ButtonComponents/ActionButton';
+import NumberButton from './components/ButtonComponents/NumberButton';
 
-const buttons = [
-  {
-
-  }
-]
 
 const App = () => {
   return (
     <div className="App">
-    <CalculatorDisplay />
-      <p>clear &#247;</p>
-      <p>7 8 9 &#215;</p>
-      <p>4 5 6 &#8722;</p>
-      <p>1 2 3 &#43;</p>
-      <p>0 &#61;</p>
+      <div>
+        <CalculatorDisplay />
+      </div>
+      <div className="row">
+        <ActionButton style="plainActionButton" text="clear" />
+        <NumberButton style="numberButtonRed" text="&#247;" />
+      </div>
+      <div className="row">
+        <NumberButton style="numberButton" text="7" />
+        <NumberButton style="numberButton" text="8" />
+        <NumberButton style="numberButton" text="9" />
+        <NumberButton style="numberButtonRed" text="&#215;" />
+      </div>
+      <div className="row">
+        <NumberButton style="numberButton" text="4" />
+        <NumberButton style="numberButton" text="5" />
+        <NumberButton style="numberButton" text="6" />
+        <NumberButton style="numberButtonRed" text="&#8722;" />
+      </div>
+      <div className="row">
+        <NumberButton style="numberButton" text="3" />
+        <NumberButton style="numberButton" text="2" />
+        <NumberButton style="numberButton" text="1" />
+        <NumberButton style="numberButtonRed" text="&#43;" />
+      </div>
+      <div className="row">
+        <ActionButton style="boldActionButton"text="0" />
+        <NumberButton style="numberButtonRed" text="&#61;" />
+      </div>
     </div>
   );
 };
