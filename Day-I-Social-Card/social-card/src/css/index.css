@@ -1,0 +1,231 @@
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu4mxP.ttf) format('truetype');
+}
+* {
+  box-sizing: border-box;
+}
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 1rem;
+  font: inherit;
+  vertical-align: baseline;
+  font-family: 'Roboto', sans-serif;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: ’’;
+  content: none;
+}
+ins {
+  text-decoration: none;
+}
+del {
+  text-decoration: line-through;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.main-container {
+  max-width: 700px;
+  width: 100%;
+  margin: 100px auto;
+  padding: 20px;
+  border-radius: 20px;
+  display: flex;
+  flex-flow: row wrap;
+}
+.header-container {
+  max-width: 700px;
+  width: 100%;
+  display: flex;
+  flex-flow: columns nowrap;
+  justify-content: flex-start;
+}
+.image-column {
+  width: 250px;
+  padding: 10px 0;
+  text-align: center;
+}
+.image-column .header-logo {
+  width: 50px;
+  height: 50px;
+}
+.header-content {
+  padding: 10px 0;
+  lign-items: flex-end;
+}
+.header-content .header-content-txt {
+  padding-right: 0px;
+  line-height: 1.2;
+}
+.header-title-container {
+  width: 100%;
+  padding: 10px 0;
+  display: flex;
+  flex-flow: columns nowrap;
+  align-items: flex-end;
+}
+.header-title-container .header-title {
+  font-size: 1rem;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+}
+.header-title-container .date-stamp {
+  margin-left: 10px;
+  font-size: 0.8rem;
+  font-family: 'Roboto', sans-serif;
+  color: #999;
+}
+.card-container {
+  max-width: 700px;
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+}
+.card-container .card-link {
+  max-width: 555px;
+  width: 100%;
+  margin-right: 10px;
+  text-decoration: none;
+  color: #000;
+  display: flex;
+}
+.card-container .card-banner {
+  width: 100%;
+  margin-bottom: 0;
+  border: 10px 0;
+  border-radius: 10px 10px 0 0;
+}
+.card-box .card-content-container {
+  border: 1px solid #ccc;
+  margin: -2px 0 20px 0;
+  padding: 20px;
+  border-radius: 0 0 10px 10px;
+}
+.card-box .card-content-container .card-title {
+  font-weight: bolder;
+  margin: 20px 0;
+}
+.card-box .card-content-container .card-txt {
+  padding-right: 0px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+.card-box .card-content-container .card-content-link {
+  margin: 20px 0 10px 0;
+  text-decoration: none;
+  color: #999;
+}

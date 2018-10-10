@@ -1,2 +1,16 @@
 import React from 'react';
-import './Header.css';
+
+
+const HeaderContent = props => {
+        return(
+            <div className="header-content">
+               <p className="header-content-txt">
+                    {props.headerDescription}
+                </p>
+            </div>
+    );
+}
+
+
+
+export default HeaderContent;

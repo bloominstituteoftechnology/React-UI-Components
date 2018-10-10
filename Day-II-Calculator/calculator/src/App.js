@@ -1,22 +1,17 @@
 import React from 'react';
-import './App.css';
+import CalculatorLayout from './components/CalculatorLayout/CalculatorLayout';
+
+
+
+
 
 const App = () => {
+  const numArray = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+  const actionBtn = [0, "clear"];
+  const calcOperators = ["÷", "x", "-", "+", "="];
+  
   return (
-    <div>
-      <h3>Welcome to React Calculator</h3>
-      <p>
-        We have given you a starter project. You'll want to build out your
-        components in their respective files, remove this code and replace it
-        with the proper components.
-      </p>
-      <p>
-        <strong>
-          Don't forget to `default export` your components and import them here
-          inside of this file in order to make them work.
-        </strong>
-      </p>
-    </div>
+    <CalculatorLayout nums={numArray} actions={actionBtn} operators={calcOperators} />
   );
 };
 
