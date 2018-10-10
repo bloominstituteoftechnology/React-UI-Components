@@ -13,15 +13,15 @@ const App = () => {
         <div class="clear"><ClearButton buttonText="clear" /></div>
         
        <div class='buttons'>
-       <NumberButton buttonText='1' />
-       <NumberButton buttonText='2' />
-       <NumberButton buttonText='3' />
-       <NumberButton buttonText='4' />
-       <NumberButton buttonText='5' />
-       <NumberButton buttonText='6' />
-       <NumberButton buttonText='7' /> 
-       <NumberButton buttonText='8' />
        <NumberButton buttonText='9' />
+       <NumberButton buttonText='8' />
+       <NumberButton buttonText='7' />
+       <NumberButton buttonText='6' />
+       <NumberButton buttonText='5' />
+       <NumberButton buttonText='4' />
+       <NumberButton buttonText='3' /> 
+       <NumberButton buttonText='2' />
+       <NumberButton buttonText='1' />
        </div>
        
        <div class="clear"><ClearButton buttonText="0" /></div>
