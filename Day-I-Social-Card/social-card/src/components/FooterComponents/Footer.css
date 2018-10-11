@@ -1,0 +1,6 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid dodgerblue;
+    justify-content: flex-end;
+}
