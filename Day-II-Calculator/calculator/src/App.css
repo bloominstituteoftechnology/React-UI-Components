@@ -1,0 +1,19 @@
+.container {
+  max-width: 500px;
+  height: auto;
+  margin: 0 auto;
+}
+
+/* .container .myCalculator {
+  width: 100%;
+} */
+
+.Buttons {
+  display:flex;
+}
+
+.NumRow {
+  display: flex;
+  justify-content: space-between;
+}
+

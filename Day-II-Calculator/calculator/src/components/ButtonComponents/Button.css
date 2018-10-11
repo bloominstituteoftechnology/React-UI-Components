@@ -1,0 +1,68 @@
+.actionBtn {
+  display: flex;
+  justify-content: center;
+  padding: 21px 0;
+  border: 1px solid gray;
+}
+
+.clearBtn .actionBtn{
+  font-size: 44px;
+  font-weight: lighter;
+}
+
+.clearBtn .actionBtn:hover {
+  background-color: gray;
+  color: white;
+}
+
+.zeroBtn .actionBtn {
+  font-size: 44px;
+  font-weight: bold;
+}
+
+.zeroBtn .actionBtn:hover {
+  background-color: gray;
+  color: white;
+}
+
+.WhiteButtons {
+  width: 75%;
+}
+
+.WhiteButtons .NumRow {
+  width: 79%;
+  justify-content: space-between;
+}
+
+.btnSmall {
+  font-size: 44px;
+  font-weight: bold;
+  /* padding: 20.3px 17.2%; */
+  border: 1px solid gray;
+}
+
+.NumRow .btnSmall {
+  padding: 20px 17.2%;
+}
+.NumRow .btnSmall:hover {
+  background-color: gray;
+  color: white;
+}
+.RedButtons {
+  width: 26%;
+}
+
+.RedButtons .btnSmall {
+  background-color: #A0001E;
+  /* display: flex; */
+  color: white;
+  /* align-content: center; */
+  padding: 13.5px 31%;
+  font-size: 56px;
+  font-weight: 300;
+}
+
+.RedButtons .btnSmall:hover {
+  background-color: gray;
+  color: white;
+}
