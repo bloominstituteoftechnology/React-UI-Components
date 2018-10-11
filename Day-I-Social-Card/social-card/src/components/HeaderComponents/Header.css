@@ -1,1 +1,14 @@
 /* All styles for your header Components live here */
+.header-border {
+    display: flex;
+    border: 1px solid blue;
+
+}
+
+.header-content {
+    border: 1px solid red;
+    width: 100%;
+}
+h3 {
+    color: blueviolet;
+}
