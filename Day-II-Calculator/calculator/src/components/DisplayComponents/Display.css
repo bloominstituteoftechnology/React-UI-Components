@@ -1,0 +1,9 @@
+.displayStyle {
+    width: 360px;
+    height: 100px;
+    background: black;
+    font-weight: bold;
+    font-size: 60px;
+    color: white;
+    text-align: right;
+}
