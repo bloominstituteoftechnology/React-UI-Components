@@ -1,0 +1,20 @@
+.btn-large {
+    width: 360px;
+    background: white;
+    border: 1px solid #979797;
+}
+
+.btn-large p {
+    text-align: center;
+    font-size: 2.6rem;
+    margin-bottom: 0px;
+    margin-top: 22px;
+    font-weight: lighter;
+}
+
+.btn-row .btn-bold p {
+    margin-top: 0px;
+    font-size: 2.6rem;
+    padding-top: 21px;
+    font-weight: bolder;
+}

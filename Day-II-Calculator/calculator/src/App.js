@@ -1,21 +1,18 @@
 import React from 'react';
 import './App.css';
+import CalculatorDisplay from './components/DisplayComponents/CalculatorDisplay.js';
+import ButtonRowTwo from './components/ButtonComponents/ButtonRowTwo.js';
+import ButtonRowFour from './components/ButtonComponents/ButtonRowFour.js';
 
 const App = () => {
   return (
     <div>
-      <h3>Welcome to React Calculator</h3>
-      <p>
-        We have given you a starter project. You'll want to build out your
-        components in their respective files, remove this code and replace it
-        with the proper components.
-      </p>
-      <p>
-        <strong>
-          Don't forget to `default export` your components and import them here
-          inside of this file in order to make them work.
-        </strong>
-      </p>
+      <CalculatorDisplay />
+      <ButtonRowTwo name="clear" action="&divide;"/>
+      <ButtonRowFour one="7" two="8" three="9" action="&#215;"/>
+      <ButtonRowFour one="4" two="5" three="6" action="&#8722;"/>
+      <ButtonRowFour one="1" two="2" three="3" action="+"/>
+      <ButtonRowTwo name="0" action="=" extra="btn-bold"/>
     </div>
   );
 };

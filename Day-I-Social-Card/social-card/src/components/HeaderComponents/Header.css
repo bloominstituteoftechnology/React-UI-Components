@@ -1,1 +1,47 @@
 /* All styles for your header Components live here */
+.hc-main {
+    display: flex;
+    height: auto;
+}
+
+.hc-main img {
+    background: white;
+    border-radius: 100%;
+    height: 48px;
+    width: 48px;
+    margin-top: 9px;
+    margin-left: 10px;
+    margin-right: 9px;
+}
+
+.hc-main .ht-main {
+    display: flex;
+}
+
+.ht-main .ht-main-name {
+    margin-top: 10px;
+    margin-left: 2px;
+    margin-bottom: 0px;
+    font-size: 0.87rem;
+}
+
+.ht-main .ht-username {
+    margin-left: 5px;
+    margin-right: 6px;
+    margin-bottom: 0px;
+}
+
+.ht-main p {
+    font-size: 0.78rem;
+    margin-top: 11px;
+    margin-bottom: 0px;
+}
+
+.hc-main .hc-main-content p {
+    margin-top: 8px;
+    margin-left: 2px;
+    font-size: 0.9rem;
+    line-height: 1.13rem;
+    margin-right: 1px;
+    margin-bottom: 13px;
+}
