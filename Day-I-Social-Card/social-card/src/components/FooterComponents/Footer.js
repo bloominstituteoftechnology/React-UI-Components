@@ -6,7 +6,7 @@ import { faComment, faHeart, faSyncAlt, faEnvelope } from '@fortawesome/free-sol
 
 const Footer = props => {
     const comment = <FontAwesomeIcon icon={faComment} flip='horizontal' />;
-    const shared = <FontAwesomeIcon icon={faSyncAlt} />;
+    const shared = <FontAwesomeIcon icon={faSyncAlt} color={!props.shared ? 'null' : 'green'} />;
     const likeHeart = <FontAwesomeIcon icon={faHeart} color={!props.liked ? 'null' : 'red'} />;
     const email = <FontAwesomeIcon icon={faEnvelope} />;
 
@@ -14,7 +14,7 @@ const Footer = props => {
         <div className='footerIcons'>
             <p>{comment}</p>
             <p>
-                <span className='shareIcon'>{shared}</span>
+                <span onClick={props.shareIt} className='shareIcon'>{shared}</span>
                 <span className='shareCount'>{props.shares}</span>
             </p>
             <p>
