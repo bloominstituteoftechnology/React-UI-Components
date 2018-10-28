@@ -1,0 +1,14 @@
+.footerIcons {
+    display: flex;
+    margin-left: 6.5rem;
+    padding-top: 2rem;
+}
+
+.footerIcons p {
+    font-size: 1.8rem;
+    width: 8rem;
+}
+
+.shareCount, .likeCount {
+    padding-left: 0.5rem;
+}
