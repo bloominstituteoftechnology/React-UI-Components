@@ -1,0 +1,39 @@
+.large {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 2.5rem;
+  font-weight: 300;
+  border: 1px solid #979797;
+  width: 335px;
+  height: 93px;
+}
+
+.operation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 300;
+  color: black;
+  font-size: 4rem;
+  border: 1px solid #979797;
+  display: flex;
+  width: 121px;
+  height: 93px;
+  background: #A0001E;
+  color: white;
+}
+
+.number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  color: black;
+  font-size: 3rem;
+  border: 1px solid #979797;
+  display: flex;
+  width: 111.5px;
+  height: 93px;
+}
