@@ -1,0 +1,11 @@
+.display {
+    height: 12.5rem;
+    color: white;
+    background-color: #222222;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 7.2rem;
+    padding-top: 1rem;
+    padding-right: 1.4rem;
+}
