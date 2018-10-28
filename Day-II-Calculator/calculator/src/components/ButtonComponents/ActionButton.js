@@ -4,7 +4,7 @@ import './ActionButton.css';
 
 const ActionButton = props => {
     return (
-        <div class='actionButtons'>
+        <div className='actionButtons'>
             <Button text="&#247;" cName='actButton' />
             <Button text="&#215;" cName='actButton' />
             <Button text="&#8722;" cName='actButton' />

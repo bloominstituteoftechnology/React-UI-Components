@@ -5,8 +5,8 @@ import './ControlContainer.css';
 
 const ButtonContainer = props => {
   return (
-      <div class='controlContainer'>
-        <NumberButtons />
+      <div className='controlContainer'>
+        <NumberButtons clearButton={props.clearButton} />
         <ActionButtons />
       </div>
   );

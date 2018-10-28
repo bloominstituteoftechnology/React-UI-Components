@@ -5,9 +5,9 @@ import './Container.css';
 
 const Container = props => {
     return (
-        <div class='appContainer'>
-            <Display />
-            <ButtonContainer />
+        <div className='appContainer'>
+            <Display total={props.total}/>
+            <ButtonContainer clearButton={props.clearButton} />
         </div>
     )
 };

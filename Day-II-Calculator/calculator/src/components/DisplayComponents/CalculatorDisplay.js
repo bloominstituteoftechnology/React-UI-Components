@@ -3,7 +3,7 @@ import './Display.css';
 
 const Display = props => {
     return (
-        <p class='display'>0</p>
+        <p className='display'>{props.total}</p>
     )
 }
 
