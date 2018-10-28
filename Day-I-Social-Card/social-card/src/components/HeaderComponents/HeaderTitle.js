@@ -2,11 +2,11 @@ import React from 'react';
 import './Header.css';
 
 const HeaderTitle = () => {
-    return <div class="profileHeader">
-        <p class="name">Lambda School</p>
-        <p class="username light">@LambdaSchool</p>
-        <p class='light'>&#9679;</p>
-        <p class="date light">26 jan</p>
+    return <div className="profileHeader">
+        <p className="name">Lambda School</p>
+        <p className="username light">@LambdaSchool</p>
+        <p className='light'>&#9679;</p>
+        <p className="date light">26 jan</p>
       </div>;
 };
           

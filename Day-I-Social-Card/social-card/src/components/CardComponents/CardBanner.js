@@ -1,11 +1,12 @@
 import React from 'react';
-import './Card.css';
 import reactBanner from '../../img/react-logo-og.png';
+
+import './Card.css';
 
 const CardBanner = () => {
     return (
         <div>
-            <img class='banner' src={reactBanner} alt='react logo' />
+            <img className='banner' src={reactBanner} alt='react logo' />
         </div>
     )
 };

@@ -5,7 +5,7 @@ import './Card.css';
 
 const CardContainer = () => {
     return (
-        <div class='cardContainer'>
+        <div className='cardContainer'>
             <CardBanner />
             <CardContent />
         </div>

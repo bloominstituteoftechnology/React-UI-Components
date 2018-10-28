@@ -5,7 +5,7 @@ import './Header.css';
 
 const HeaderContainer = () => {
     return (
-        <div class='profileInfo'>
+        <div className='profileInfo'>
             <ImageThumbnail />
             <HeaderContent />
         </div>

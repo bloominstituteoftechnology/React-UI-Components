@@ -3,12 +3,12 @@
 .profileInfo {
     display: flex;
     align-items: flex-start;
-    padding-top: 1.6rem;
+    padding-top: 1rem;
 }
 
 /* ImageThumbnail */
 .imgWrapper {
-    padding: 0 1.5rem 1.5rem 1.5rem;
+    padding: 0 1rem 2.5rem 0.5rem;
 }
 
 #profilePicture {
@@ -19,28 +19,36 @@
 
 /* HeaderContent */
 .profileContent {
+    line-height: 2rem;
     padding-right: 2rem;
     display: flex;
     flex-direction: column;
     align-items: space-between;
 }
 
-.profileContent p {
-    line-height: 2rem;
+.headContent {
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    letter-spacing: 0.01rem;
 }
 
 /* HeaderTitle */
 .profileHeader {
+    font-size: 1.4rem;
     display: flex;
-    padding-bottom: 10px;
+    padding-bottom: 0.5rem;
 }
 .profileHeader p {
-    padding-right: 10px;
+    padding-right: 0.5rem;
 }
 .name {
     font-weight: bold;
 }
+.username, .date {
+    font-size: 1.2rem;
+}
 .light {
+    font-size: 1.2rem;
     color: gray;
 }
 
