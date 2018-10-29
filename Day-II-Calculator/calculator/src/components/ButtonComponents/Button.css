@@ -1,0 +1,52 @@
+.Number-Buttons{
+    
+    display: flex;
+    flex-wrap: wrap;
+    width: 75%;
+
+}
+
+.Number-Button{
+    width: 33.3%;
+}
+.Number-Button h1{
+    width: 100%;
+    border: 1.5px solid lightgray;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0%;
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.ActionButtons{
+    width: 25%;;
+}
+
+.ActionButtons h1{
+    width: 100%;
+    border: 1.5px solid lightgray;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0%;
+    background-color: #A0001E;
+    font-size: 4rem;
+    font-weight: bold;
+    color: white;
+}
+
+.bigButtons{
+     width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3.8rem;
+    font-weight: bold;
+
+}
+

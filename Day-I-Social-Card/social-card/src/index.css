@@ -1,5 +1,43 @@
+*{
+  box-sizing: border-box;
+  
+}
+
+html {
+  font-size: 62.5%;
+}
+
 body {
   margin: 0;
   padding: 0.4rem;
   font-family: sans-serif;
+
+  border: 1px solid blue;
+  width: 590px;
+  margin: 0 auto;
+  
 }
+
+/* .headerContainer{
+  border: 1px solid darkorange;
+  display: flex;
+}
+
+.headerContainer p{
+    font-size: 1.6rem
+}
+
+.headerContainer img{
+  border: 1px solid blue;
+  width: 12%;
+  height: 0%;
+
+}
+
+.headerContainer header{
+  display: flex;
+  border: 1px solid blue;
+  align-items: center;
+
+  
+} */

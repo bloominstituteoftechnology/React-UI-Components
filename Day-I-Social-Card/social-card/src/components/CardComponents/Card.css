@@ -1,1 +1,27 @@
 /* All styles for your Card Components live here */
+.cardInfo{
+    margin: 0px 3% 0 14%;
+}
+
+.cardInfo img{
+    width: 100%;
+}
+
+.mainContent{
+    padding-left: 20px;
+}
+
+.cardInfo h3{
+    font-size: 1.6rem;
+    margin-bottom: 5px;
+}
+
+.cardInfo p{
+    font-size: 1.4rem;
+    margin-top:0px;
+    margin-bottom: 0px;
+}
+
+.cardInfo .reactLink{
+    color: #BAC3CB;
+}

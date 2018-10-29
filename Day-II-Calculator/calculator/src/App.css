@@ -1,0 +1,16 @@
+.allButtons{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border: 1.5px solid lightgray;
+
+}
+
+.allButtons:hover{
+    cursor: pointer;
+}
+
+.App{
+    border: 1px solid lightgray;
+    width: 100%;
+}
