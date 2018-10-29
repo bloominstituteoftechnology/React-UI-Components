@@ -3,23 +3,26 @@ import './App.css';
 import './components/HeaderComponents/HeaderContainer';
 import HeaderContainer from './components/HeaderComponents/HeaderContainer';
 import CardContainer from './components/CardComponents/CardContainer';
+// import Footer from './components/FooterComponents/Footer';
+// import { library } from '@fortawesome/fontawesome-svg-core'
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// import { faStroopwafel } from '@fortawesome/free-solid-svg-icons'
+// import { faComment } from '@fortawesome/free-regular-svg-icons'
+// import { faSync } from '@fortawesome/free-solid-svg-icons'
+// import { faHeart } from '@fortawesome/free-regular-svg-icons'
+
+
+
+
+// library.add(faStroopwafel);
+// library.add(faComment);
+// library.add(faSync);
+// library.add(faHeart);
 
 const App = () => {
   return (
     <div className= 'componentContainer'>
-      {/* <h3>Welcome to React Social Card!</h3>
-      <p>
-        Begin by exploring the `components` directory. You'll notice we have a
-        few files that we've already included in there to get you started right
-        away building components. You'll need to make sure you include your
-        components that you build in this file to watch your app come to life
-      </p>
-      <p>
-        <strong>
-          Don't forget to `default export` your components and import them here
-          inside of this file in order to make them work.
-        </strong>
-      </p> */}
+     
       <HeaderContainer />
       <CardContainer />
     </div>
