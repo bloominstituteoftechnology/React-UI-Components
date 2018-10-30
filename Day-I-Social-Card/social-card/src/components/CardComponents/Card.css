@@ -1,1 +1,40 @@
 /* All styles for your Card Components live here */
+
+
+.card-container {
+    margin-left: 10%;
+    cursor: pointer;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+}
+.react-image {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-content-container {
+    padding: 1rem 2%;
+}
+
+.card-content-container > * {
+    margin-bottom: .5rem;
+}
+
+.title {
+    font-weight: bold;
+}
+.fill-link {
+    height: 100%;
+    width: 100%;
+}
+.link {
+    color: darkgrey;
+}
+/* <div class="card-content-container">
+            <div class = "title">Get started with React</div>
+            <p class="content">React makes it paineless to create interactive Uls.
+                Design simple views for each state in your application.
+            </p>
+            <p class = "link">reactjs.org</p>
+        </div> */

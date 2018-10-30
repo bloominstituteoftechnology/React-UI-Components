@@ -1,1 +1,41 @@
 /* All styles for your header Components live here */
+
+.header-container {
+    display: flex;
+    padding: 1rem 0;
+    
+}
+
+.lambda-logo {
+    height: 50px;
+    margin-right: 2%;
+}
+
+
+
+
+.header-title-container {
+    display: flex;
+    margin-bottom: 7px;
+}
+.header-title-container > * {
+   margin-right: 12px;
+}
+
+.lambda-title {
+    font-weight: bold;
+}
+
+.lambda-handle {
+    color: darkgrey;
+}
+
+.timestamp {
+    color: darkgrey;
+}
+
+/* <div className ="header-title-container">
+<h2 className = 'lambda-title'>Lambda School</h2>
+<p className = 'lambda-handle'>LambdaSchool</p>
+<p className = 'timestamp'>26 jan</p>
+</div> */
