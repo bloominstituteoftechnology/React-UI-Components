@@ -1,22 +1,24 @@
 /* All styles for your header Components live here */
-* {
+/* * {
     box-sizing: border-box;
-}
-.app {
-    width: 590px;
-    margin: 0 auto;
-    border:1px solid black;
-    padding-right: 0px;
-}
+} */
+
 
 h1 {
-    font-size: 16px;
+    font-size: 14px;
 }
 
 p {
-    font-size: 14px;
-    margin-bottom: 10px;
-    line-height: 18px;
+    /* font-size: 14px; */
+    /* margin-bottom: 10px; */
+    /* line-height: 18px; */
+}
+
+.header-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 
 .header-container {
@@ -25,14 +27,19 @@ p {
 }
 
 .img-container {
-    width: 10%;
+    width: 60px;
+    /* border:1px solid black; */
+    /* border: 1px solid green; */
 }
 img {
-    max-width: 100%;
-    padding: 10px;
+    max-width: 90%;
+    padding: 13px;
+    margin-top: 6px;
+    margin-left: 1px;
 }
-.body {
-    width: 90%;
+.header-body {
+    width: 500px;
+    padding-left: 1px;
 }
 
 .title {
@@ -41,38 +48,38 @@ img {
     justify-content: flex-start;
     align-items: baseline;
     width: 100%;
+    margin-top: 10px;
+    margin-bottom: 7px;
 }
 
 .title h1 {
-    padding-right: 10px;
+    padding-right: 6px;
+    margin: 0;
 }
 
 .greytext {
     color: grey;
-    padding-right: 15px;
-    font-size: 14px;
+    padding-right: 5px;
+    font-size: 12px;
+    margin: 0;
+    width: auto;
+}
+
+.greytext li {
+    /* margin-left: 2px; */
 }
 
 span {
     margin-left: -10px;
 }
 
-.body {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-}
-
 .header-content {
-    padding-right: 25px;
     margin: 0;
+    /* width: 99%; */
+    font-size: .89rem;
+    line-height: 1.175rem;
 }
 
-.heading {
-    padding-bottom: 10px;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
+
+
+

@@ -8,7 +8,7 @@ const HeaderContainer = props => {
     return (
         <div className='header-container'>
             <ImageThumbnail />
-            <div className='body'>
+            <div className='header-body'>
                 <HeaderTitle />
                 <HeaderContent />
             </div>
