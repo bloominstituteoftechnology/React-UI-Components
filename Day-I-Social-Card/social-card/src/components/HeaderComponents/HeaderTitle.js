@@ -2,7 +2,7 @@ import React from 'react';
 import moment from 'moment';
 import './Header.css';
 
-const today = moment().format('D MMM');
+const today = moment().format('DD MMM');
 
 const HeaderTitle = props => {
     return (
