@@ -9,6 +9,9 @@
     align-items: baseline;
     
 }
+.headerTitle .title{
+    margin-right: 10px;
+}
 .header img{
     height: 10%;
     width: 10%;

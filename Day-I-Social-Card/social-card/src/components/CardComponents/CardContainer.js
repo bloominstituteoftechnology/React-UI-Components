@@ -8,7 +8,6 @@ function CardContainer() {
     return(
         <div className="card"><div className="cardContent">
         <a href="https://www.reactjs.org" >
-        
             <CardBanner />
             <CardContent />
         </a>

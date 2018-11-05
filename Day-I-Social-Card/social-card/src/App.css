@@ -7,7 +7,10 @@
 
 
 .app{
-  border: 1px dashed green;
-  width: 880px;
+  
+  width: 650px;
   margin: 0 auto;
+}
+.info{
+  color: rgb(169, 169, 170);
 }
