@@ -5,15 +5,15 @@
 
 /* Header Styles*/
 .header {
-  width: 65%;
-  margin-top: 10px;
-  margin-left: 10px;
+  width: 58%;
+  margin-top: 11px;
+  margin-left: 7px;
   display: flex;
 }
 
 .header .header-img {
-  width: 8%;
-  height: 8%;
+  width: 8.5%;
+  height: 8.5%;
   border-radius: 50%;
 }
 
@@ -26,28 +26,28 @@
 }
 
 .header .header-title h2 {
-  font-size: 1.7rem;
+  font-size: 1.4rem;
   font-weight: bold;
 }
 
 .header .header-title p {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   color: #B6BFC8;
 }
 
 .header .header-content {
-  margin-left: 10px;
-  margin-top: 10px;
+  margin-left: 11px;
+  margin-top: 6px;
 }
 
 /* Card Styles */
 
 .card {
-  width: 59%;
+  width: 53%;
   border: 1px solid lightgray;
   border-radius: 1%;
-  margin-top: 20px;
-  margin-left: 70px;
+  margin-top: 15px;
+  margin-left: 65px;
 }
 
 .card a {
@@ -61,7 +61,7 @@
 }
 
 .card .card-text {
-  margin: 15px;
+  margin: 0 12px;
 }
 
 .card .card-text .card-title {
@@ -69,11 +69,12 @@
 }
 
 .card .card-text .card-content {
-  margin-top: 10px;
+  margin-top: 1px;
 }
 
 .card .card-text .card-source {
-  margin-top: 10px;
+  margin-top: 3px;
+  margin-bottom: 10px;
   font-size: 1.4rem;
   color: #B6BFC8;
 }
