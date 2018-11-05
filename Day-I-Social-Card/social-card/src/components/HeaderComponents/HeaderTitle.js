@@ -13,4 +13,4 @@ function HeaderTitle(props) {
     );
 }
 
-export default HeadeTitle;
+export default HeaderTitle;
