@@ -10,13 +10,13 @@ function HeaderContainer(props) {
 
   return (
 
-    <React.Fragment>
+    <>
 
       <ImageThumbnail src="https://ibin.co/3whrpKSBbZ81.png" />
       <HeaderTitle title="Lambda School" handle="@LambdaSchool" timestamp="26 jan" />
       <HeaderContent content={textContent}/>
 
-    </React.Fragment>
+    </>
 
   );
 
