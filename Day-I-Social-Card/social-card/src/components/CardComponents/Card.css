@@ -1,1 +1,22 @@
 /* All styles for your Card Components live here */
+
+.card-banner {
+    background-image: url('https://ibin.co/3wnC6SgIOJud.png');
+    background-repeat: no-repeat;
+    object-fit: contain;  
+    height: 600px;
+    /* width: 600px; */
+}
+
+.card-container a {
+    text-decoration: none;
+    color: black;
+}
+
+.card-content {
+
+}
+
+.link {
+    color: lightgray;
+}
