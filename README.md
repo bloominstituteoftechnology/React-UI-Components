@@ -55,7 +55,7 @@
 - Ensure that your product is as pixel perfect as possible using any tools that you were introduced to in previous weeks.
 - Look up the `moment.js` library and figure out how to format your `time-stamp` in your header to be today's date.
 
-## _Day II - React Calculator_
+## _Day II x- React Calculator_
 
 - For this project you're not going to be given any tips on how to break down the image file into components. Now that you've had some practice with the social card, this should be something you can start doing on your own. Just think about the image, and what potentially looks like a component.
 - For the MVP the calculator just needs to be displayed properly. Functionality will be a part of the stretch requirement.
