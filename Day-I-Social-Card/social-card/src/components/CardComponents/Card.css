@@ -1,1 +1,28 @@
 /* All styles for your Card Components live here */
+
+.card-wrapper {
+    max-width: 45%;
+    border: 0.2px solid lightgrey;
+    margin: 0 auto;
+}
+
+.my-URL {
+    background-color: red;
+    display: flex;
+    height: 400px;
+    width: 640px;
+    text-indent: -9999px;
+    z-index: -20;
+}
+
+.card-text {
+    padding: 0% 1.5% 3% 2.5%;
+}
+
+.card-text .website {
+    color: #7B8E9F;
+}
+
+.my-img {
+    width: 100%;
+}
