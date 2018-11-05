@@ -4,7 +4,7 @@ import './Header.css';
 function HeaderContent(props){
     return(
         <div>
-            <p className= "text-content">{props.text}</p>
+            <p>{props.text}</p>
         </div>
     );
 }

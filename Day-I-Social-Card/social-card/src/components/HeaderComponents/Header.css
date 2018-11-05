@@ -1,4 +1,19 @@
 /* All styles for your header Components live here */
 .container{
     display:flex;
+    /* border:1px solid red; */
+}
+.text-content{
+    padding:1rem;
+
+}
+.text-content>div{
+    display:flex;
+    margin:1rem 0;
+}
+.title,p{
+    font-size:1.6rem;
+}
+.handle{
+    color:rgb(155, 155, 155);
 }
