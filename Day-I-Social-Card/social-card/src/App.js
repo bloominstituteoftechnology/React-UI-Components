@@ -9,6 +9,7 @@ const App = () => {
     <div className="card">
       <HeaderContainer />
       <CardContainer />
+      <Footer />
     </div>
   );
 };

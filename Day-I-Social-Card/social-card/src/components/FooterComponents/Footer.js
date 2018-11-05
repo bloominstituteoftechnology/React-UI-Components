@@ -7,7 +7,10 @@ function Footer(props) {
 
     <div className="footer">
 
-
+      <p className="far fa-comment"></p>
+      <p className="fas fa-sync"></p>
+      <p className="far fa-heart"></p>
+      <p className="far fa-envelope"></p>
 
     </div>
 
