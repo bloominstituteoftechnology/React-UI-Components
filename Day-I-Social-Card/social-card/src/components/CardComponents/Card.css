@@ -1,1 +1,21 @@
 /* All styles for your Card Components live here */
+
+.card-container {}
+
+.card-container img {
+    width: 80%;
+    padding-left: 100px;
+}
+
+.card-container {
+    /* width: 100%; */
+}
+
+.card-container a {
+    text-decoration: none;
+}
+
+.get-started {
+    margin: 0 auto;
+    padding-left: 100px;
+}
