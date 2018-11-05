@@ -1,6 +1,8 @@
 import React from 'react';
 import './Header.css';
 
+import moment from 'moment';
+
 import ImageThumbnail from './ImageThumbnail';
 import HeaderTitle from './HeaderTitle';
 import HeaderContent from './HeaderContent';
@@ -17,7 +19,7 @@ function HeaderContainer(props) {
 
       <div>
 
-        <HeaderTitle title="Lambda School" handle="@LambdaSchool" timestamp="26 jan" />
+        <HeaderTitle title="Lambda School" handle="@LambdaSchool" timestamp={moment().format('MMM Do YY')} />
         <HeaderContent content={textContent}/>
 
       </div>
