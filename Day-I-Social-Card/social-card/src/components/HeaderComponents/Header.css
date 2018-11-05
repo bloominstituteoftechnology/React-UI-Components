@@ -1,1 +1,58 @@
 /* All styles for your header Components live here */
+
+.header-container {
+    display:flex;
+    flex-wrap: wrap;
+    max-width: 55%;
+    margin: 0 auto;
+    /* position: relative; */
+    left: 14px;
+}
+
+.header-text {
+    width:81%;
+    flex-direction: row-reverse;
+    font-size: 0.9rem;
+    line-height: 1.3rem;
+}
+
+.header-text .handle {
+    color: #7B8E9F;
+    margin-left: 1.5%;
+    font-weight: 200;
+}
+
+.header-content {
+    position: relative;
+    bottom: 20px;
+    margin: 1% 0% 0% 0%;
+}
+
+.header-text li {
+    color: #7B8E9F;
+    font-weight: 200;
+}
+
+.header-text .handle{
+    font-size:0.8rem;
+}
+
+.header-text ul{
+    font-size:0.8rem;
+    padding-inline-start: 30px;
+}
+
+.lambda-title {
+    display: flex;
+    flex-direction:row;
+    align-items:center;
+}
+
+.LS-Logo {
+    width:7.45%;
+    height:7.45%;
+    position: relative;
+    top:20px;
+    margin-right:2%;
+    border-radius:100%;
+}
