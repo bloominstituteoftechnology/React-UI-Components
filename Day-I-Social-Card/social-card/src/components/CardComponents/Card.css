@@ -1,1 +1,40 @@
 /* All styles for your Card Components live here */
+
+.card-content img {
+
+  float: right;
+  padding: 20px;
+  margin-left: 50px;
+  width: 540px;
+  height: 294px;
+  margin-bottom: -5px;
+
+}
+
+.card-text {
+
+  padding-left: 83px;
+
+}
+
+.card-text h3 {
+
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+
+}
+
+.card-text p {
+
+  font-size: 1rem;
+  margin-bottom: 5px;
+
+}
+
+.card-text a {
+
+  text-decoration: none;
+  color: grey;
+
+}

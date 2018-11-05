@@ -13,9 +13,14 @@ function HeaderContainer(props) {
 
     <div className="card-header">
 
-      <ImageThumbnail src="https://ibin.co/3whrpKSBbZ81.png" />
-      <HeaderTitle title="Lambda School" handle="@LambdaSchool" timestamp="26 jan" />
-      <HeaderContent content={textContent}/>
+      <ImageThumbnail src="https://yt3.ggpht.com/a-/AN66SAw9C1HPxBru_POv5bcGj8yLp8OSc18VosnELA=s288-mo-c-c0xffffffff-rj-k-no" />
+
+      <div>
+
+        <HeaderTitle title="Lambda School" handle="@LambdaSchool" timestamp="26 jan" />
+        <HeaderContent content={textContent}/>
+
+      </div>
 
     </div>
 
