@@ -3,9 +3,9 @@ import './Card.css';
 
 function CardBanner(props) {
     return (
-        <React.Fragment>
+        <div className="card-banner">
             <img className="card-img" src={props.src} alt={props.alt} />
-        </React.Fragment>
+        </div>
     );
 }
 

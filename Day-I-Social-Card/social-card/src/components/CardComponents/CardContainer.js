@@ -6,10 +6,12 @@ import CardBanner from './CardBanner';
 
 function CardContainer() {
     return (
-        <React.Fragment>
-            <CardBanner src = {image} alt = 'React Logo' />
-            <CardContent title = 'Get Started with React' source = 'reactjs.org' content = 'React makes it painless to create interactive UIs. Design simple views for each state in your application.' />
-        </React.Fragment>
+        <div className="card">
+            <a href='https://www.reactjs.org' >
+                <CardBanner src = {image} alt = 'React Logo' />
+                <CardContent title = 'Get Started with React' source = 'reactjs.org' content = 'React makes it painless to create interactive UIs. Design simple views for each state in your application.' />
+            </a>
+        </div>
     );
 }
 

@@ -5,7 +5,7 @@
 
 /* Header Styles*/
 .header {
-  width: 70%;
+  width: 65%;
   margin-top: 10px;
   margin-left: 10px;
   display: flex;
@@ -42,3 +42,38 @@
 
 /* Card Styles */
 
+.card {
+  width: 59%;
+  border: 1px solid lightgray;
+  border-radius: 1%;
+  margin-top: 20px;
+  margin-left: 65px;
+}
+
+.card a {
+  color: black;
+  text-decoration: none;
+}
+
+.card .card-banner img{
+  width: 100%;
+  border-radius: 1% 1% 0 0;
+}
+
+.card .card-text {
+  margin: 15px;
+}
+
+.card .card-text .card-title {
+  font-weight: bold;
+}
+
+.card .card-text .card-content {
+  margin-top: 10px;
+}
+
+.card .card-text .card-source {
+  margin-top: 10px;
+  font-size: 1.4rem;
+  color: gray;
+}
