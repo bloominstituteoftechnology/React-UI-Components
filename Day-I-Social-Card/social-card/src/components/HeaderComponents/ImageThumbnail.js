@@ -3,6 +3,8 @@ import './Header.css';
 
 function ImageThumbnail(props) {
 
-  return <img src={props.src}>;
+  return <img src={props.src} />;
 
 }
+
+export default ImageThumbnail;
