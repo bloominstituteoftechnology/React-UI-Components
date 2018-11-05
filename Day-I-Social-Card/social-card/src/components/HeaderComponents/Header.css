@@ -1,1 +1,21 @@
 /* All styles for your header Components live here */
+.container{
+    margin:  10% 20%;
+    max-width: 800px;
+}
+.container .content .logo-img{
+    width: 10%;
+    height: 10%;
+    margin-right: 10px;
+}
+.container .content{
+        display: flex;
+    }
+.title-content{
+ margin: 0px;
+}
+.title-content span{
+    color: gray;
+    opacity: .7;
+   
+}
