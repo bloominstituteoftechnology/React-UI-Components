@@ -1,1 +1,44 @@
 /* All styles for your header Components live here */
+
+.header-container {
+    display: flex;
+    border: 1px solid pink;
+    width: 700px;
+}
+
+.thumbnail-wrapper {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    width: 10%;
+}
+.thumbnail {
+    margin: auto 0;
+    width: 100%;
+}
+
+.header-content {
+    border: 1px solid red;
+}
+
+.header-title {
+    display: flex;
+    align-items: flex-end;
+    border: 1px solid green;
+    padding: 10px 0;
+}
+
+.lambdaTitle {
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+.twitterHandle {
+    margin-right: 15px;
+    color: grey;
+}
+
+.timestamp {
+    color: grey;
+}
