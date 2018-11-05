@@ -1,0 +1,77 @@
+.header-container {
+	border: 1px solid green;
+	display: flex;
+	width: 100%;
+
+	.header-image {
+		border: 1px solid purple;
+		border-radius: 50%;
+		width: 10%;
+		height: 10%;
+		padding: 5px;
+
+	}
+
+	.header-title-content-container {
+
+		border: 1px solid yellow;
+		padding: 5px;
+		display: flex;
+		flex-direction: column;
+
+		.header-title {
+			border: 1px solid blue;
+			display: flex;
+			flex-direction: row;
+			margin-bottom: 0.5%;
+
+			.twitter-name {
+				font-weight: bold;
+				font-size: 14px;
+				font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+				margin-right: 0.5%;
+				color: #14171a;
+				border: 1px dashed yellow;
+			}
+			
+			//create a contrainer for these 2 b/c they are styled the same
+			//change!!!
+		    .twitter-screen-name {
+		    	color: #657786;
+		    	margin-right: 0.5%;
+		    	font-size: 12px;
+		    	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+		    	border: 1px dashed green;
+		    	display: flex;
+		    	align-items: center;
+		    }
+		    .tweet-created-at {
+		    	color: #657786;
+		    	margin-right: 0.5%;
+		    	font-size: 12px;
+		    	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+		    	border: 1px dashed red;
+		    	display: flex;
+		    	align-items: center;
+		    }
+
+		    .tweet-created-at::before {
+		    	//having trouble correctly spacing the dot. can't use the standard 0.5% width from above (diff reference i believe)
+		    	//but I want the spacing to be consistent
+	    		content: "\00b7";
+	   			width: 10px;
+	   			font-size: 12px;
+	   			display: inline-block;
+	   			border: 1px dashed cyan;
+	    	}
+		}
+
+		.header-content {
+			font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+			font-size: 14px;
+			color: #14171a;
+			border: 1px solid red;
+			line-height: 1rem;
+		}
+	}
+}

@@ -1,5 +1,323 @@
-body {
+/* Your Code Goes Here */
+/*
+.width-100 {
+  width: 100%;
+}
+
+.border-bottom-grey {
+  border-bottom: 1px solid @lambda-times-color-lightgrey;
+}
+
+.flex(@jc: none, @ai: none, @dir: row) {
+  display: flex;
+  justify-content: @jc;
+  align-items: @ai;
+  flex-direction: @dir;
+}
+
+*/
+/*------------------------------------*\
+RESET
+\*------------------------------------*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+v2.0b1 | 201101 
+NOTE:WORK IN PROGRESS
+USE WITH CAUTION AND TEST WITH ABANDON */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
   margin: 0;
-  padding: 0.4rem;
-  font-family: sans-serif;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: ’’;
+  content: none;
+}
+ins {
+  text-decoration: none;
+}
+del {
+  text-decoration: line-through;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+* {
+  box-sizing: border-box;
+}
+/*
+html, body {
+  margin: 0; 
+  padding: 0;
+  font-size: 62.5%;
+}
+*/
+.social-card {
+  max-width: 600px;
+}
+.card-container {
+  width: 86%;
+  margin-left: 12%;
+  border-radius: 10px;
+  border: 1px solid #E1E8ED;
+  overflow: hidden;
+  margin-top: 5px;
+}
+.card-container .card-banner {
+  width: 100%;
+}
+.card-container .card-content {
+  padding: 0 2.5%;
+}
+.card-container .card-content .card-title {
+  font-weight: bold;
+  font-size: 14px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #14171a;
+  margin-top: 10px;
+}
+.card-container .card-content .card-text {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #14171a;
+  line-height: 1rem;
+  margin-top: 10px;
+}
+.card-container .card-content .card-source {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /*
+			font-size: 12px;
+			color: #8899A6;
+			border: 1px solid red;
+			margin-top: 10px;
+			margin-bottom: 10px;*/
+  font-size: 12px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-transform: lowercase;
+  color: #8899A6;
+  max-height: 1.3em;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.header-container {
+  border: 1px solid green;
+  display: flex;
+  width: 100%;
+}
+.header-container .header-image {
+  border: 1px solid purple;
+  border-radius: 50%;
+  width: 10%;
+  height: 10%;
+  padding: 5px;
+}
+.header-container .header-title-content-container {
+  border: 1px solid yellow;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+}
+.header-container .header-title-content-container .header-title {
+  border: 1px solid blue;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 0.5%;
+}
+.header-container .header-title-content-container .header-title .twitter-name {
+  font-weight: bold;
+  font-size: 14px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-right: 0.5%;
+  color: #14171a;
+  border: 1px dashed yellow;
+}
+.header-container .header-title-content-container .header-title .twitter-screen-name {
+  color: #657786;
+  margin-right: 0.5%;
+  font-size: 12px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  border: 1px dashed green;
+  display: flex;
+  align-items: center;
+}
+.header-container .header-title-content-container .header-title .tweet-created-at {
+  color: #657786;
+  margin-right: 0.5%;
+  font-size: 12px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  border: 1px dashed red;
+  display: flex;
+  align-items: center;
+}
+.header-container .header-title-content-container .header-title .tweet-created-at::before {
+  content: "\00b7";
+  width: 10px;
+  font-size: 12px;
+  display: inline-block;
+  border: 1px dashed cyan;
+}
+.header-container .header-title-content-container .header-content {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #14171a;
+  border: 1px solid red;
+  line-height: 1rem;
+}
+.card-footer {
+  width: 86%;
+  margin-left: 12%;
+  border: 1px solid #E1E8ED;
+  overflow: hidden;
+  margin-top: 10px;
+  display: flex;
+  border: 1px solid green;
+}
+.card-footer .comments {
+  font-family: "Font Awesome 5 Pro";
+  margin-right: 12%;
+  color: #657786;
+}
+.card-footer .comments::before {
+  font-family: "Font Awesome 5 Pro";
+  content: '\f151';
+  margin-right: 10px;
+  color: #657786;
+}
+.card-footer .retweets {
+  margin-right: 12%;
+  color: #657786;
+}
+.card-footer .retweets::before {
+  content: '\f152';
+  margin-right: 10px;
+  color: #657786;
+}
+.card-footer .likes {
+  margin-right: 12%;
+  color: #657786;
+}
+.card-footer .likes::before {
+  content: '\f148';
+  margin-right: 10px;
+  color: #657786;
+}
+.card-footer .direct-message {
+  margin-right: 12%;
+  color: #657786;
+}
+.card-footer .direct-message::before {
+  content: '\f054';
+  margin-right: 10px;
+  color: #657786;
 }

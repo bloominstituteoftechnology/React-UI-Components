@@ -1,1 +1,20 @@
 /* All styles for your header Components live here */
+
+.header-container {
+	border: 1px solid green;
+}
+
+.header-image {
+	border: 1px solid purple;
+	border-radius: 50%;
+	width: 5%;
+
+}
+
+.header-title {
+	border: 1px solid blue;
+}
+
+.header-content {
+	border: 1px solid red;
+}
