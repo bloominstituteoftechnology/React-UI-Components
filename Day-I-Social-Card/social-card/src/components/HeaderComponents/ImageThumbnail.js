@@ -1,13 +1,14 @@
 import React from 'react';
 import './Header.css';
+import logo from 'https://ibin.co/3whrpKSBbZ81.png'
 
 
-function headerImg(props) {
+function ImageThumbnail(props) {
     return (
-      <div><img src={".jpg"}
+      <div><img src={logo} alt= {"logo"}/>
 
         </rdiv>
     );
 }
 
-export default HeaderImg;
+export default ImageThumbnail;
