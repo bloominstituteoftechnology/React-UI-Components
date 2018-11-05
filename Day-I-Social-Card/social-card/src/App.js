@@ -8,7 +8,9 @@ const App = () => {
   return (
     <div class="app-container">
       <HeaderContainer />
-      <CardContainer />
+      <a href="https://www.google.com">
+        <CardContainer />
+      </a>
       <Footer />
     </div>
   );
