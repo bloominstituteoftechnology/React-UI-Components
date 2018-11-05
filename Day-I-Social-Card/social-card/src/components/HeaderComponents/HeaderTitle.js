@@ -3,7 +3,10 @@ import './Header.css';
 
 function HeaderTitle(props){
     return(
-        <h1 title='header'>{props.title}</h1>
+        <div>
+            <h1 className= "title">{props.title}</h1>
+        </div>
     );
 }
+
 export default HeaderTitle;
