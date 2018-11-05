@@ -1,1 +1,35 @@
 /* All styles for your header Components live here */
+
+.header {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 15px;
+    justify-content: space-between;
+}
+
+
+.flex-img img {
+    width: 80px;
+    height: 90px;
+}
+
+.flex-content {
+    width: 91%;
+}
+
+.main-title {
+    font-size: 2rem;
+    font-weight: 700;
+    
+}
+
+.main-title__timestamp {
+    color: #c9cacc;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+.header-description {
+    font-size: 1.6rem;
+    margin-top: 10px;
+}
