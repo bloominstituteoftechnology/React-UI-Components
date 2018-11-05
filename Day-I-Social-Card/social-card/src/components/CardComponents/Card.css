@@ -1,1 +1,24 @@
 /* All styles for your Card Components live here */
+.card{
+    
+    display: flex;
+    justify-content: flex-end;
+}
+
+.cardContent{
+    width: 85%;
+    border: 1px solid lightgray;
+    border-radius: 8px;
+}
+.card img{
+    width: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.cardText{
+    margin-left: 20px;
+}
