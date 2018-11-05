@@ -12,8 +12,8 @@
 }
 
 .header .header-img {
-  width: 7%;
-  height: 7%;
+  width: 8%;
+  height: 8%;
   border-radius: 50%;
 }
 
@@ -32,7 +32,7 @@
 
 .header .header-title p {
   font-size: 1.3rem;
-  color: gray;
+  color: #B6BFC8;
 }
 
 .header .header-content {
@@ -47,7 +47,7 @@
   border: 1px solid lightgray;
   border-radius: 1%;
   margin-top: 20px;
-  margin-left: 65px;
+  margin-left: 70px;
 }
 
 .card a {
@@ -75,5 +75,5 @@
 .card .card-text .card-source {
   margin-top: 10px;
   font-size: 1.4rem;
-  color: gray;
+  color: #B6BFC8;
 }
