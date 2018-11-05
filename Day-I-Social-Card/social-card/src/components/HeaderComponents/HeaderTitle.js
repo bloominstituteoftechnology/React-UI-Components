@@ -7,8 +7,8 @@ const today = moment().format('DD MMM');
 const HeaderTitle = props => {
     return (
         <div className='title'>
-            <h1>Lambda School</h1>
-            <p className='greytext'>@Lambda School</p>
+            <h1>{props.name}</h1>
+            <p className='greytext'>@{props.name}</p>
             <li className='greytext'><span>{today}</span></li>
         </div>
     );

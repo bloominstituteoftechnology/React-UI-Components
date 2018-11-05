@@ -1,17 +1,6 @@
 /* All styles for your header Components live here */
-/* * {
-    box-sizing: border-box;
-} */
-
-
 h1 {
     font-size: 14px;
-}
-
-p {
-    /* font-size: 14px; */
-    /* margin-bottom: 10px; */
-    /* line-height: 18px; */
 }
 
 .header-body {
@@ -26,16 +15,12 @@ p {
     flex-direction: row;
 }
 
-.img-container {
-    width: 60px;
-    /* border:1px solid black; */
-    /* border: 1px solid green; */
-}
 img {
-    max-width: 90%;
-    padding: 13px;
-    margin-top: 6px;
-    margin-left: 1px;
+    max-width: 60px;
+    padding: 16px;
+    margin-top: 3px;
+    margin-left: -2px;
+    margin-right: 3px;
 }
 .header-body {
     width: 500px;
@@ -65,19 +50,15 @@ img {
     width: auto;
 }
 
-.greytext li {
-    /* margin-left: 2px; */
-}
-
 span {
     margin-left: -10px;
 }
 
 .header-content {
     margin: 0;
-    /* width: 99%; */
     font-size: .89rem;
     line-height: 1.175rem;
+    width: 100%;
 }
 
 

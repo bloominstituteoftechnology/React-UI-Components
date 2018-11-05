@@ -1,0 +1,21 @@
+.footer {
+    display: flex;
+    justify-content: flex-start;
+    width: 500px;
+    border: 1px dashed grey;
+    margin-left: 65px;
+    margin-right: 0;
+    padding: 15px 0;
+}
+
+.button {
+    display: flex;
+    justify-content: flex-start;
+    width: 20%;
+}
+
+.number {
+    margin-left: 5px;
+    font-size: 13.5px;
+}
+
