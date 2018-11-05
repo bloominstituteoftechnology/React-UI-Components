@@ -5,7 +5,7 @@ function HeaderTitle(props) {
 
   return (
 
-    <div className="card-header">
+    <div className="card-header-headings">
 
       <h3>{props.title}</h3>
       <h4>{`${props.handle} · ${props.timestamp}`}</h4>

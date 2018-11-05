@@ -11,13 +11,13 @@ function HeaderContainer(props) {
 
   return (
 
-    <>
+    <div className="card-header">
 
       <ImageThumbnail src="https://ibin.co/3whrpKSBbZ81.png" />
       <HeaderTitle title="Lambda School" handle="@LambdaSchool" timestamp="26 jan" />
       <HeaderContent content={textContent}/>
 
-    </>
+    </div>
 
   );
 
