@@ -1,9 +1,23 @@
 /* All styles for your header Components live here */
 .header-container {
-  border: 1px solid green;
-  text-align: center;
-  /* max-width: 100%; */
-  width: 80%;
   display: flex;
-  justify-content: center;
+}
+.header-content {
+  margin-top: -10px;
+  padding-left: 10px;
+}
+.header-title {
+  padding-left: 10px;
+  display: flex;
+}
+.header-title p {
+  color: gray;
+  padding: 5px 2px;
+}
+.img-container {
+  margin-right: 10px;
+}
+
+.header-img {
+  height: 80px;
 }
