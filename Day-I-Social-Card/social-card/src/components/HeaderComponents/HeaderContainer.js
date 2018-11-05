@@ -6,7 +6,7 @@ import HeaderContent from './HeaderContent';
 
 function HeaderContainer() {
     return (
-        <div className='headerContainer'>
+        <div className='header-container'>
             <ImageThumbnail source='https://ibin.co/3whrpKSBbZ81.png' alt='Lambda Thumbnail'/>
             <div className='header-content'>
                 <HeaderTitle title='Lambda School' userName='@LambdaSchool' date='26 Jan' />
