@@ -4,7 +4,7 @@ import './Header.css';
 
 function headerTitle(props) {
     return (
-      <react.Fragment >
+        <react.Fragment >
             <h1 className="header title" > Lambda School </h1>  <h5 className = "header titleb">@LambdaSchool * 26 jan </h5>
 
 
