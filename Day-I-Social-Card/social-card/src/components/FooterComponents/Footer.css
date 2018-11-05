@@ -1,0 +1,11 @@
+footer {
+    display: flex;
+    /* border: 1px solid red; */
+    width: 80%;
+    justify-content: flex-start;
+    margin: 20px 2px;
+}
+.icon {
+    margin-right: 55px;
+    color: lightgrey;
+}

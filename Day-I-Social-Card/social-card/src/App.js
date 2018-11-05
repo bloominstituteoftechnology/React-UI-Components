@@ -9,7 +9,7 @@ const App = () => {
     <div className="container">
       <HeaderContainer />
       <CardContainer />
-      {/* <FooterContainer /> */}
+      <FooterContainer />
     </div>
   );
 };
