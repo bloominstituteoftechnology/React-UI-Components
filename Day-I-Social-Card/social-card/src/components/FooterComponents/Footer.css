@@ -1,0 +1,21 @@
+.FooterContainer {
+    margin-top: 2rem;
+    margin-left: 7rem;
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.retweet, 
+.like {
+    display: flex;
+}
+
+.FooterContainer p {
+    margin-left: .7rem;
+    color: #A9A9A9;
+}
+
+.FooterContainer i {
+    color: #A9A9A9;
+}
