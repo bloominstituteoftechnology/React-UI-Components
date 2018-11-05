@@ -4,6 +4,8 @@
   width: 52rem;
   padding-right: 1.6rem;
   align-self: flex-end;
+  color: inherit;
+  text-decoration: none;
 }
 
 .card .banner {

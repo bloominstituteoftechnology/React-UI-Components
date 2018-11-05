@@ -1,0 +1,15 @@
+.footer {
+  margin-top: 3rem;
+  display: flex;
+  font-size: 1.2rem;
+  padding-left: 7rem;
+}
+
+.footer i {
+  font-size: 1.8rem;
+  padding-right: .8rem;
+}
+
+.button {
+  width: 8rem;
+}
