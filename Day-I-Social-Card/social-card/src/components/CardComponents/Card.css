@@ -1,5 +1,11 @@
 /* All styles for your Card Components live here */
 
+.card-content {
+
+  cursor: pointer;
+
+}
+
 .card-content img {
 
   float: right;

@@ -9,7 +9,7 @@ function CardContent(props) {
 
       <h3>{props.title}</h3>
       <p>{props.content}</p>
-      <a href={props.href}>{props.href}</a>
+      <a href={'https://www.' + props.href}>{props.href}</a>
 
     </div>
 
