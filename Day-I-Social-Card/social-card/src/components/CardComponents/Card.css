@@ -5,13 +5,13 @@
     flex-wrap:wrap;
     border-radius:0.5rem;
     border:1px solid lightgray;
-    margin:0 0 0 14.5rem;
+    margin:0 0 0 5.5rem;
 }
 .card__img{
     width:100%;
     height:auto;
     object-fit: cover;
-    border-radius:0.5rem;
+    border-radius:0.5rem 0.5rem 0 0;
 }
 .card__text-content{
     width:100%;
