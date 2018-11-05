@@ -1,1 +1,20 @@
 /* All styles for your header Components live here */
+
+header {
+    display: flex;
+    align-items: flex-end;
+    /* justify-content: space-between; */
+}
+
+img {
+    height: 100px;
+}
+
+.header-title {
+    display: flex;
+    align-items: baseline;
+}
+
+.header-title p {
+    color: gray;
+}
