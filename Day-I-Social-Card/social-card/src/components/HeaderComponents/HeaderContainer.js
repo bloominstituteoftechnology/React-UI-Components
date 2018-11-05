@@ -4,16 +4,13 @@ import './Header.css';
 function headerContainer(props) {
     return (
       <div >
-       <div>
-       <imageThumbnail />
+       <div><imageThumbnail /></div>
+       <div><headerContent /></div>
+
+      </div>
 
 
-       </div>
-       <div>
-       <headerContent />
 
-
-       
     );
 }
 
