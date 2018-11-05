@@ -1,11 +1,10 @@
 import React from 'react';
 import './Header.css';
-import HeaderTitle from './HeaderTitle';
 
 function HeaderContent(props){
     return(
         <div>
-        <HeaderTitle title ='testing'/>
+            <p className= "text-content">{props.text}</p>
         </div>
     );
 }
