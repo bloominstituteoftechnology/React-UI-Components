@@ -1,6 +1,6 @@
 /* All styles for your Card Components live here */
 .card-container{
-    width: 88%;
+    width: 86%;
     margin-left: 11%;
     border: 1px solid #DCDCDC;
     border-top-left-radius: 12px;
@@ -18,20 +18,19 @@
 .card-content{
     padding: 20px;
 }
-.card-content strong{
-    margin: 10px 0px;
+a{
+    text-decoration: none;
 }
-.card-content p{
+.card-container .card-anchor .card-content strong{
     margin: 10px 0px;
+    color: black;
+}
+.card-anchor .card-content p{
+    margin: 10px 0px;
+    color: black;
 }
 .card-content .web-link{
     margin: 10px 0px;
     text-decoration: none;
     color: gray;
 }
-/* 
-        <div className = "card-content">
-            <strong>Get Started with React</strong>
-            <p>React makes it painless to creat interactive UIs. Design simple views for each state in your application</p>
-            <a className = "web-link" href="#">reactjs.org</a>
-        </div> */

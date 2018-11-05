@@ -1,6 +1,6 @@
 /* All styles for your header Components live here */
 .container{
-    margin:  10% 20%;
+    margin:  2.5% 20%;
     max-width: 800px;
     padding-bottom: 5px;
     border-bottom: 1px solid gray;
@@ -12,6 +12,7 @@
 }
 .container .header-content{
         display: flex;
+        width: 95%;
     }
 .title-content{
  margin: 0px;
