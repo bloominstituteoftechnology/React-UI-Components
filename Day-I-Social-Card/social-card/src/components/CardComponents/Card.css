@@ -1,1 +1,24 @@
-/* All styles for your Card Components live here */
+.CardContainer {
+    border: 1px solid #eee;
+    margin-left: 7rem;
+    border-radius: .5rem;
+    overflow: hidden
+}
+
+.CardBanner img {
+    width: 100%;
+    height: 30rem;
+}
+
+.CardContent {
+    padding: 1rem;
+}
+
+.CardContent h2, p {
+    font-size: 1.6rem;
+    margin-bottom: .5rem;
+}
+
+#lighter {
+    color: #A9A9A9;
+}
