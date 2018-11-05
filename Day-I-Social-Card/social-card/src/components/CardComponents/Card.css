@@ -1,11 +1,16 @@
 /* All styles for your Card Components live here */
 
+.card-container {
+    padding: 10px 10px 20px 80px;
+}
+
 .card-banner {
     background-image: url('https://ibin.co/3wnC6SgIOJud.png');
     background-repeat: no-repeat;
-    object-fit: contain;  
-    height: 600px;
-    /* width: 600px; */
+    object-fit: contain;
+    height: 350px;
+    background-size: 100%;  
+    max-width: 100%;
 }
 
 .card-container a {
@@ -18,5 +23,5 @@
 }
 
 .link {
-    color: lightgray;
+    color: gray;
 }
