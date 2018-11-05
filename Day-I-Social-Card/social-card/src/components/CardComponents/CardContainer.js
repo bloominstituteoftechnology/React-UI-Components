@@ -5,14 +5,16 @@ import CardContent from './CardContent.js';
 
 const CardContainer = (props) => {
   return (
-    <a href={`http://${props.url}`}>
-      <div className={'card-container'}>
+    <div className={'card-container'}>
+      <a href={`http://${props.url}`}>
         <CardBanner image={props.image} />
+      </a>
+      <a href={`http://${props.url}`}>
         <CardContent heading={props.heading} 
         content={props.content}
         url={props.url} />
-      </div>
-    </a>
+      </a>
+    </div>
   );
 };
 
