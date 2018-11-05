@@ -1,1 +1,11 @@
 /* All styles for your Card Components live here */
+.cardContainer div {
+    width: 100%;
+    border: 1px solid lightgrey;
+}
+ .cardContainer .cardBanner .bannerStyle{
+    width: 100%;
+}
+.cardContent div {
+    text-decoration: none;
+} 

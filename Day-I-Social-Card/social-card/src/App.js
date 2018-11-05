@@ -1,14 +1,14 @@
-import React from 'react';
-import './App.css';
-import HeaderContainer from './components/HeaderComponents/HeaderContainer.js';
-import CardContainer from './components/CardComponents/CardContainer.js';
+import React from "react";
+import "./App.css";
+import HeaderContainer from "./components/HeaderComponents/HeaderContainer.js";
+import CardContainer from "./components/CardComponents/CardContainer.js";
 
 const App = () => {
   return (
-    <div className = "appContainer">
-    <HeaderContainer></HeaderContainer>
-    <CardContainer></CardContainer>
+    <div className="appContainer">
+      <HeaderContainer />
+      <CardContainer />
     </div>
-   );
-  };
-  export default App;
+  );
+};
+export default App;
