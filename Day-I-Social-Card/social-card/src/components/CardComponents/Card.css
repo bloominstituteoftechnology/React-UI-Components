@@ -1,1 +1,26 @@
 /* All styles for your Card Components live here */
+
+.card-container {
+  border-radius: 5px;
+  overflow: hidden;
+  margin-left: 12%;
+  margin-right: 2%;
+  font-size: 16px;
+  border: 1px solid #EDF1F4;
+}
+
+h3 {
+  font-size: 16px;
+}
+
+.card-content {
+  margin-left: 10px;
+}
+
+.card-container span {
+  color: #657887;
+}
+
+img {
+  width: 100%;
+}

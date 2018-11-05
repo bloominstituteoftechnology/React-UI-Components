@@ -1,1 +1,21 @@
 /* All styles for your header Components live here */
+.header {
+  display: flex;
+  font-size: 16px;
+}
+
+h3 {
+  font-size: 16px;
+}
+
+.header span {
+  color: #7C8C9B;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.header img {
+  width: 12%;
+  height: 100%;
+  margin-right: 5px;
+}
