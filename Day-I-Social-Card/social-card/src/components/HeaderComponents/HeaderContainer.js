@@ -5,10 +5,10 @@ import HeaderContent from './HeaderContent';
 
 const HeaderContainer = () => {
     return (
-        <React.Fragment>
+        <div className="header">
             <ImageThumbnail />
             <HeaderContent />
-        </React.Fragment>
+        </div>
     );
 } 
 
