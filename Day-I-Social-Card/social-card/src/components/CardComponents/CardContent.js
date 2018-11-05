@@ -6,8 +6,9 @@ function CardContent (props){
         <div className='card__text-content'>
             <h2>{props.title}</h2>
             <p>{props.text}</p>
-            <a href='reactjs.org' target='_blank'>{props.handle}</a>
+            <a className="handle" href='https://www.reactjs.org'>{props.handle}</a>
         </div>
     );
 }
+
 export default CardContent;
