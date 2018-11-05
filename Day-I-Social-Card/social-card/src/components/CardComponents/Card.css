@@ -1,1 +1,43 @@
 /* All styles for your Card Components live here */
+.CardContainer {
+  text-decoration: none;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 2px;
+}
+
+.CardContent {
+  width: 81%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid gray;
+  margin: 0 14px 0 0;
+  padding: 10px 20px 10px 10px;
+}
+
+.CardContent .CardTitle {
+  margin: 0 0 5px 0;
+  font-size: 14px;
+}
+
+.CardContent .CardParagraph {
+  margin: 0 0 5px 0;
+  font-size: 14px;
+}
+
+.CardContent .CardHttpSig {
+  color: #7e8e9d;
+  margin: 0;
+  font-size: 14px;
+}
+
+.CardBanner {
+  max-width: 86.5%;
+  width: 100%;
+  height: auto;
+  margin: 0 14px 0 0;
+  border-radius: 5px 5px 0 0;
+}

@@ -1,16 +1,24 @@
 /* All styles for your header Components live here */
 .HeaderContainer {
-  border: 1px solid #dc978a;
   display: flex;
   flex-direction: row;
+  padding: 3px;
 }
 
 .img-logo {
   width: 10%;
   height: 10%;
-  border: 1px solid #acc19c;
+  margin: 0 5px 0 0;
 }
 
-.HeaderContent {
-  border: 1px solid #bed5fe
+.HeaderTitle {
+  font-size: 14.5px;
+  letter-spacing: -0.25px;
+  margin: 5px 0 0 0;
+}
+
+.HeaderParagraph {
+  font-size: 14.3px;
+  margin: 9px 0 10px 0;
+  line-height: 17px;
 }

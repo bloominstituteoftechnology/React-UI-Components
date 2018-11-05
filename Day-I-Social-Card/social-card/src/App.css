@@ -2,9 +2,9 @@
   Write your styles/CSS for App.js here and import into the component that you need 
   IF you'd like to attempt to use less you'll have to research how to do this with Create React App
 */
-div {
-  border: 1px solid #8ea1ff;
-  max-width: 800px;
+
+.App {
+  max-width: 588px;
   margin: 0 auto;
-  /* border: 1px solid #6a737d; */
+  padding: 2px;
 }
