@@ -1,7 +1,7 @@
 import React from 'react';
 import './Card.css';
 
-function(props) {
+function CardBanner(props) {
     return (
         <div class='card-banner'>
 
