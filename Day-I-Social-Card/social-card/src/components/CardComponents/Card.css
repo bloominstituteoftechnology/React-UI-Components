@@ -1,1 +1,26 @@
 /* All styles for your Card Components live here */
+.card__container{
+    display:flex;
+    justify-content: flex-end;
+    flex-wrap:wrap;
+    border-radius:0.5rem;
+    border:1px solid lightgray;
+    margin:0 0 0 14.5rem;
+}
+.card__img{
+    width:100%;
+
+    height:auto;
+    object-fit: cover;
+    border-radius:0.5rem;
+}
+.card__text-content{
+    width:100%;
+    padding:1rem 2rem;
+}
+
+a{
+    font-size:1.6rem;
+    text-decoration: none;
+    color:rgb(155, 155, 155);
+}

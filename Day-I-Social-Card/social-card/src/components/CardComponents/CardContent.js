@@ -3,7 +3,7 @@ import './Card.css';
 
 function CardContent (props){
     return(
-        <div>
+        <div className='card__text-content'>
             <h2>{props.title}</h2>
             <p>{props.text}</p>
             <a href='reactjs.org' target='_blank'>{props.handle}</a>

@@ -5,6 +5,7 @@ function HeaderTitle(props){
     return(
         <div>
             <h1 className= "title">{props.title}</h1>
+            <p className= "handle">@Lambda School · 26 jan</p>
         </div>
     );
 }

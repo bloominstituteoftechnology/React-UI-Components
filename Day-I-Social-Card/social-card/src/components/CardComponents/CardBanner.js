@@ -3,7 +3,7 @@ import './Card.css';
 
 function CardBanner(props){
     return(
-        <img src = {props.src} alt="react logo"/>
+        <img className="card__img" src = {props.src} alt="react logo"/>
     );
 }
 

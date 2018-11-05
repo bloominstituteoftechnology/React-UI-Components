@@ -3,7 +3,7 @@ import './Header.css';
 
 function ImageThumbnail (props){
     return(
-        <img src = {props.src} alt ='Lambda Logo'/>
+        <img className="logo" src = {props.src} alt ='Lambda Logo'/>
     );
 }
 

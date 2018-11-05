@@ -1,5 +1,16 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:inherit;
+}
+html{
+  font-size:62.5%;
+  box-sizing:border-box;
+}
 body {
   margin: 0;
   padding: 0.4rem;
   font-family: sans-serif;
+  line-height:2.4rem;  
 }
+
