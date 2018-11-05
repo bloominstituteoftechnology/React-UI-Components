@@ -4,12 +4,12 @@ import './Footer.css';
 const Footer = () => {
   return (
     <div className="footerContainer">
-      <i class="far fa-comment"></i>
-      <i class="fas fa-sync"></i>
+      <i className="far fa-comment"></i>
+      <i className="fas fa-sync"></i>
       <p>6</p>
-      <i class="far fa-heart"></i>
+      <i className="far fa-heart"></i>
       <p>4</p>
-      <i class="far fa-envelope"></i>
+      <i className="far fa-envelope"></i>
     </div>
   )
 }
