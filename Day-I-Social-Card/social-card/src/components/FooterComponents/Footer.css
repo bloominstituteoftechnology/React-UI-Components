@@ -3,7 +3,7 @@
     margin-left: 7rem;
     display: flex;
     justify-content: space-between;
-    width: 50%;
+    width: 45%;
 }
 
 .retweet, 
@@ -12,10 +12,11 @@
 }
 
 .FooterContainer p {
-    margin-left: .7rem;
+    margin-left: 1rem;
     color: #A9A9A9;
 }
 
 .FooterContainer i {
+    font-size: 2rem;
     color: #A9A9A9;
 }
