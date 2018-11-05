@@ -4,7 +4,11 @@ import "./Card.css";
 function CardBanner(props) {
   return (
     <React.Fragment>
-      <img className="CardComponents_CardBanner" src={props.src} />
+      <img
+        className="CardComponents_CardBanner"
+        src={props.src}
+        alt={props.alt}
+      />
     </React.Fragment>
   );
 }

@@ -1,1 +1,34 @@
 /* All styles for your header Components live here */
+
+.Header-Container {
+  display: flex;
+  justify-content: space-between;
+  height: 25vh;
+  /* background: red; */
+}
+
+.Header-Text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 25px;
+}
+
+.HeaderTitle_header {
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+.HeaderTitle_supplimental-data {
+  font-size: 16px;
+  color: lightgrey;
+}
+
+.HeaderContent_p {
+  margin: 0;
+}
+
+.Header_ImageThumbnail {
+  width: 100px;
+  height: 100px;
+}

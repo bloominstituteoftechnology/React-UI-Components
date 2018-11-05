@@ -3,3 +3,12 @@ body {
   padding: 0.4rem;
   font-family: sans-serif;
 }
+
+img {
+  max-width: 100%;
+}
+
+#root {
+  width: 98%;
+  margin: 0 auto;
+}
