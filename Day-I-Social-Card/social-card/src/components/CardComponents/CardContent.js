@@ -5,11 +5,11 @@ function CardContent(props) {
     return ( <
         react.Fragment >
         <
-        h1 className = "header title" > Lambda School < /h1>  <
-        h5 className = "header titleb" > @LambdaSchool * 26 jan < /h5>  <
-        h4 className = "header Para" > Let 's learn React by building simple interfaces with components. Don'
-        t
-        try to overthink it, just keep it simple and have fun.Once you feel confortable using components you are well o your way to mastering React! < /h4>
+        h1 className = "card title" > Get Started With React < /h1>
+        <p className = "header Para" > React makes it painless to create interactive UIs. Design simple views for each state in your application< /p>
+
+        <
+        h5 className = "card titleb" > @LambdaSchool * 26 jan < /h5>
 
 
         <
@@ -17,4 +17,4 @@ function CardContent(props) {
     );
 }
 
-export default HeaderContent;
+export default CardContent;
