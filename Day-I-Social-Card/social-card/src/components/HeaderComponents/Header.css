@@ -31,3 +31,9 @@
     padding-left: 60px;
     margin-top: -30px;
 }
+
+.date {
+    color: gray;
+    padding-left: 10px;
+    font-size: 14px;
+}
