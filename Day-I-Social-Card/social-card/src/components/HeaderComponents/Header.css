@@ -1,5 +1,6 @@
 /* All styles for your header Components live here */
 .header-container {
+  width: 80%;
   display: flex;
 }
 .header-content {
@@ -20,4 +21,6 @@
 
 .header-img {
   height: 80px;
+  padding-top: 15px;
+  padding-left: 5px;
 }

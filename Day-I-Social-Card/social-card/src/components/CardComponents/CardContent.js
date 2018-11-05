@@ -6,7 +6,7 @@ const CardContent = () => {
     <div class="card-content">
       <h3>Get Started with React</h3>
       <p>
-        React makes it painless to create interactive UIs. Designe simple views
+        React makes it painless to create interactive UIs. Design simple views
         for each state of your application.
       </p>
       <a className="card-link" href="https://react.js.org/">

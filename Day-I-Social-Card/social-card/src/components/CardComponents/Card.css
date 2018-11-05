@@ -1,22 +1,23 @@
 /* All styles for your Card Components live here */
 .card-content {
   position: relative;
-  left: 80px;
-  max-width: 85%;
+  left: 95px;
+  max-width: 70%;
 }
 .card-content h3 {
-  margin: 10px 0;
+  margin: 5px 0;
 }
 .card-content-p {
-  margin: 10px 0;
+  margin: 5px 0;
 }
 .card-link {
   color: gray;
   text-decoration: none;
-  margin: 10px 0;
+  margin: 5px 0;
 }
 .card-img {
   position: relative;
-  left: 80px;
-  max-width: 85%;
+  left: 50px;
+  max-width: 100%;
+  width: 80%;
 }
