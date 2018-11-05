@@ -3,6 +3,7 @@
   IF you'd like to attempt to use less you'll have to research how to do this with Create React App
 */
 
+/* Header Styles*/
 .header {
   width: 70%;
   margin-top: 10px;
@@ -38,3 +39,6 @@
   margin-left: 10px;
   margin-top: 10px;
 }
+
+/* Card Styles */
+
