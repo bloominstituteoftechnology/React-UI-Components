@@ -1,1 +1,42 @@
 /* All styles for your header Components live here */
+
+.header {
+    border:1px solid red;
+    display: flex;
+}
+
+.header-content{
+    border:1px solid blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.image {
+    border:1px solid purple;
+    height: 50px;
+    width: 50px;
+}
+
+.header-text {
+    border:2px solid black;
+    max-width: 950px;
+}
+
+.titles {
+    border:1px solid blueviolet;
+
+}
+
+.h1{
+    border:1px solid green;
+    display:inline;
+}
+
+.h2{
+    border:1px solid gold;
+    display:inline;
+    color: gray;
+    font-size:16px;
+    font-weight: lighter;
+}

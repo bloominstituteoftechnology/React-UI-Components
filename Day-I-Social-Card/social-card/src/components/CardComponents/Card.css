@@ -1,1 +1,32 @@
 /* All styles for your Card Components live here */
+.card {
+    border:1px solid red;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.card-banner {
+    width: 95%;
+    border:1px solid blue;
+    color:black;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.card-content {
+    border:1px solid gold;
+    width: 97%;
+}
+
+.react-image {
+    border:1px solid green;
+    width:100%;
+}
+
+.react-url {
+    color:gray;
+}
