@@ -3,7 +3,7 @@ import './Header.css';
 
 function HeaderTitle(props) {
     let date = new Date();
-    let month = new Array();
+    let month = [];
     month[0] = "Jan";
     month[1] = "Feb";
     month[2] = "Mar";
