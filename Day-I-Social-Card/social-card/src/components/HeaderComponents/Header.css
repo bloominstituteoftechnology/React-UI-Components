@@ -7,15 +7,15 @@
 }
 
 .header-container .logo {
-    max-width: 40px;
-    max-height: 40px;
+    max-width: 50px;
+    max-height: 50px;
     margin-right: 15px;
 }
 
 .header-title {
     display: flex;
-    margin-bottom: 10px;
-    font-size: 1.1rem;
+    margin-bottom: 7px;
+    font-size: 1rem;
 }
 
 .header-title .date {
@@ -23,5 +23,6 @@
 }
 
 .header-content {
-    font-size: 1rem;
+    font-size: 0.875rem;
+    line-height: 1.2rem;
 }

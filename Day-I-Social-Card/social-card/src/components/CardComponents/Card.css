@@ -9,7 +9,7 @@
     flex-direction: column-reverse;
     background-image: url('https://ibin.co/3wnC6SgIOJud.png');
     background-repeat: no-repeat;
-    object-fit: contain;
+    object-fit: cover;
     /* height: 350px; */
     background-size: 100%;  
     max-width: 100%;
@@ -23,12 +23,14 @@
 }
 
 .card-banner .card-content {
-    margin-top: 350px;
+    margin-top: 285px;
     padding: 5px 10px 20px;
+    font-size: 0.9rem;
 }
 
 .card-banner .card-content h3 {
     margin-bottom: 10px;
+    font-size: 0.9rem;
 }
 
 .card-banner .card-content .link {

@@ -2,7 +2,7 @@
     max-width: 50%;
     display: flex;
     justify-content: space-around;
-    margin: 10px 47px;
+    margin: 0 50px 10px;
     
 }
 
@@ -15,4 +15,8 @@
 .footer-container .icon {
     color: gray;
     margin: 5px;
+}
+
+.footer-container .icon:hover {
+    color: red;
 }
