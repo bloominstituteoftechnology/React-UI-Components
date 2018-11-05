@@ -5,7 +5,7 @@ import HeaderTitle from './HeaderTitle';
 //Create a <HeaderContent /> component that displays the copy provided 
 //in the headers content.
 
-function HeaderContent(props){
+function HeaderContent(){
     return (
         <div className="header-text">
             <HeaderTitle />

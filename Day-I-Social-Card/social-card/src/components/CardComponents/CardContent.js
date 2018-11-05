@@ -3,7 +3,7 @@ import './Card.css';
 
 //Create a <CardContent /> component that displays the card copy provided.
 
-function CardContent(props){
+function CardContent(){
     return (
         <div className="card-content">
             <h1>Get started with React</h1>

@@ -6,7 +6,7 @@ import ImageThumbnail from './ImageThumbnail';
 //Create a <HeaderContainer /> container component that will 
 //hold your header components.
 
-function HeaderContainer(props){
+function HeaderContainer(){
     return (
         <header className="header">
             <ImageThumbnail />

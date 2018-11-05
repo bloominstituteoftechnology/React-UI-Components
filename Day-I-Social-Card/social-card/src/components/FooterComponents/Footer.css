@@ -1,0 +1,15 @@
+.footer {
+    width:100%;
+    display: flex;
+    justify-content: flex-end; 
+}
+
+.icon-wrapper {
+    width:95%;
+}
+
+.icon-container {
+    width:40%;
+    display: flex;
+    justify-content: space-between; 
+}

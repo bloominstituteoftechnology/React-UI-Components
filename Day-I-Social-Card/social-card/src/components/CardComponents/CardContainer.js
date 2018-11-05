@@ -10,7 +10,7 @@ import CardBanner from './CardBanner';
 //to https://www.reactjs.org when clicked.
 
 
-function CardContainer(props){
+function CardContainer(pops){
     return (
         <div className="card">
             <CardBanner />
