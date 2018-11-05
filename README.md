@@ -44,7 +44,7 @@
   [ x ] - Create a `<HeaderContent />` component that displays the copy provided in the headers content.
 
 [  ] - Create a `<CardContainer/ >` container component that will hold your card components.
-  [  ] - Create a `<CardBanner />` component that will display this image as it's background: https://ibin.co/3wnC6SgIOJud.png
+  [ x ] - Create a `<CardBanner />` component that will display this image as it's background: https://ibin.co/3wnC6SgIOJud.png
   [  ] - Create a `<CardContent />` component that displays the card copy provided.
   [  ] - The entire `<CardContainer />` should take a user to `https://www.reactjs.org` when clicked.
 
