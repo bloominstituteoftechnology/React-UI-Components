@@ -4,8 +4,8 @@ import './Card.css';
 function CardContent(props){
     return (
         <React.Fragment>
-        <h2>{props.title}</h2>
-        <p>{props.content}</p>
+        <h2 class="card-title">{props.title}</h2>
+        <p class="card-content">{props.content}</p>
         <p class='link'>{props.href}</p>
         </React.Fragment>
     );

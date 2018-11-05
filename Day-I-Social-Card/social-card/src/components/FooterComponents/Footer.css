@@ -1,0 +1,22 @@
+
+
+.footer-container {
+    border-bottom: 1px solid lightgray;
+    width: 100%;
+}
+.icon-box {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    margin-left: 10%;
+}
+
+.icon{
+    display: flex;
+}
+
+.icon p {
+    margin: 0;
+    padding-left: 10px;
+}

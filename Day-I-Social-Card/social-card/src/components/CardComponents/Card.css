@@ -4,11 +4,33 @@
 }
 
 .card-container {
-    width: 100%;
+    width: 88%;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    margin-right: 10px;
 }
 
 .banner-image {
     width: 100%;
     height: auto;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.link {
+    color: gray;
+    padding: 10px;
+    margin: 0;
+}
+
+.card-title {
+    font-size: 20px;
+    margin: 0;
+    padding: 10px;
+}
+
+.card-content {
+    margin: 0;
+    padding: 10px;
 }
 
