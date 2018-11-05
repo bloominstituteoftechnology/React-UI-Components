@@ -3,7 +3,7 @@ import './Header.css';
 
 function HeaderContent(props) {
 
-  return <p>{props.textContent}</p>
+  return <p>{props.content}</p>
 
 }
 
