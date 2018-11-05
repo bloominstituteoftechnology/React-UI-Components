@@ -5,10 +5,10 @@ import CardContainer from './components/CardComponents/CardContainer';
 
 const App = () => {
   return (
-    <React.Fragment>
+    <div className="cardContainer">
       <HeaderContainer />
       <CardContainer />
-    </React.Fragment>
+    </div>
   );
 };
 

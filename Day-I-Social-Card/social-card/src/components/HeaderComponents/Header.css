@@ -1,1 +1,52 @@
 /* All styles for your header Components live here */
+
+.cardContainer {
+  width: 100%;
+  max-width: 590px;
+  margin: 0 auto;
+}
+
+.container {
+  display: flex;
+}
+
+.headerTitle {
+  display: flex;
+  width: 85%;
+}
+
+.headerImageContainer {
+  width: 15%;
+  max-width: 30px;
+  padding: 10px;
+  background-color: white;
+  max-height: 28px;
+  border-radius: 50%;
+  margin: 13px 6px 0 10px;
+  border: 1px solid red;
+}
+
+.headerImage {
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+}
+
+.headerTitle h1 {
+  font-size: 14px;
+  font-weight: bold;
+  margin: 15px 0 8px;
+}
+
+.headerTitle h1 span {
+  font-weight: normal;
+  font-size: 11px;
+  color: grey;
+  letter-spacing: 0;
+}
+
+.headerParagraph {
+  font-size: 12.5px;
+  margin-top: 0;
+  line-height: 1.3;
+}
