@@ -1,1 +1,16 @@
 /* All styles for your header Components live here */
+.HeaderContainer {
+  border: 1px solid #dc978a;
+  display: flex;
+  flex-direction: row;
+}
+
+.img-logo {
+  width: 10%;
+  height: 10%;
+  border: 1px solid #acc19c;
+}
+
+.HeaderContent {
+  border: 1px solid #bed5fe
+}
