@@ -6,7 +6,7 @@ const CardContent = (props) => {
     <div className={'card-content'}>
       <h3>{props.heading}</h3>
       <p>{props.content}</p>
-      <span>{props.additional}</span>
+      <span>{props.url}</span>
     </div>
   ) 
 };

@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import Header from './components/HeaderComponents/HeaderContainer.js';
 import CardContainer from './components/CardComponents/CardContainer.js'; 
+import Footer from './components/FooterComponents/Footer.js';
 
 const App = () => {
   return (
@@ -19,7 +20,9 @@ const App = () => {
       image={'https://ibin.co/3wnC6SgIOJud.png'}
       heading={`Get Started with React`}
       content={`React makes it painless to create interactive UIs. Design simple views for each state in your applicaiton.`}
-      additional={'reactjs.org'} />
+      url={'reactjs.org'} />
+
+      <Footer />
       {/* <h3>Welcome to React Social Card!</h3>
       <p>
         Begin by exploring the `components` directory. You'll notice we have a
@@ -33,6 +36,7 @@ const App = () => {
           inside of this file in order to make them work.
         </strong>
       </p> */}
+      
     </div>
   );
 };
