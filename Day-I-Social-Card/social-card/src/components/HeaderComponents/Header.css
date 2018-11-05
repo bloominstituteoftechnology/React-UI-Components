@@ -1,1 +1,28 @@
 /* All styles for your header Components live here */
+
+
+
+/*******************************************/
+
+
+
+.heading {
+    display: flex;
+    margin: 0 auto;
+    width: 800px;
+    border: 1px solid red;
+};
+
+.heading .headingImg {
+    width: 5%;
+    height: 5%;
+    border: 1px solid red;
+};
+
+
+
+.headerTitle {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid red;
+};
