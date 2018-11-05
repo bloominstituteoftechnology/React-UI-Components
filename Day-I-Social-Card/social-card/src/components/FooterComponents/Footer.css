@@ -1,0 +1,18 @@
+footer {
+    max-width: 400px;
+    margin-left: 80px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+  }
+
+i {
+    color: gray;
+    font-size: .9rem;
+    font-style: italic;
+  }
+  
+  i:hover {
+    color: red;
+    cursor: pointer;
+  }

@@ -1,2 +1,35 @@
 /* All styles for your header Components live here */
 
+header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: flex-start;
+}
+
+header img {
+    height: 75px;
+}
+
+header .text-content {
+    margin: 0 0 0 1%;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1rem;
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+}
+
+header h1 span {
+    margin: 0 2%;
+}
+
+span {
+    color: gray;
+    font-size: .9rem;
+    font-style: italic;
+}
