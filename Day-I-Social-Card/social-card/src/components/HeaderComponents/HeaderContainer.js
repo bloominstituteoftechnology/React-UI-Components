@@ -3,7 +3,7 @@ import './Header.css';
 import './ImageThumbnail.js';
 import './HeaderContent.js';
 
-function headerContainer(props) {
+function HeaderContainer(props) {
     return (
       <div >
        <div><imageThumbnail /></div>
