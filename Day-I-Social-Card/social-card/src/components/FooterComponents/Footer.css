@@ -1,0 +1,18 @@
+footer {
+    margin-top: 20px;
+}
+
+footer hr {
+    color: gray;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    width: 505px;
+    margin: 0 auto;
+}
+
+footer .stats-num {
+    font-size: 60%;
+}

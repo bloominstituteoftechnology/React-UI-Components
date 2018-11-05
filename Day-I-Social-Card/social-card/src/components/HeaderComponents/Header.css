@@ -1,1 +1,23 @@
 /* All styles for your header Components live here */
+.thumbnail {
+    transform: scale(.35);
+    position: absolute;
+    left: -100px;
+    top: -45px;
+}
+
+.headerTitle {
+    font-weight: 600;
+    font-size: 90%;
+}
+
+.headerInfo {
+    font-size: 75%;
+    color: gray;
+}
+
+.headerContent {
+    margin-top: 7px;
+    font-size: 87%;
+    line-height: 18px;
+}

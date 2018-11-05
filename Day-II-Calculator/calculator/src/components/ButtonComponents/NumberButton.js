@@ -1,2 +1,7 @@
 import React from 'react';
-import './Button.css';
+
+const NumberButton = props => (
+    <span className='num-btn'>{props.num}</span>
+);
+
+export default NumberButton;
