@@ -2,7 +2,39 @@
 header {
     display: flex;
     flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
 }
 header img {
+    height: auto; 
+    width: auto; 
+    max-width: 150px; 
+    max-height: 200px;
+    padding: 3%;
+}
+header div{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
 
+}
+header div h1{
+
+       font-size: 3rem;
+       padding: 0 1%;
+}
+
+header div h2{
+    padding: 1% 0;
+    color: grey;
+    font-weight: normal;
+    font-size: 1.6rem;
+
+}
+
+header div p {
+       padding: 1%;
+       font-size: 1.6rem;
+       width: 75%;
 }
