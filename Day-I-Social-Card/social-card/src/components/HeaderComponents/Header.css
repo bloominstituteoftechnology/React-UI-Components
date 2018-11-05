@@ -12,11 +12,14 @@
     margin:1rem 0;
 }
 .title,p{
-    font-size:1.6rem;
+    font-size:1.4rem;
 }
 .handle{
     color:rgb(155, 155, 155);
 }
 .logo{
-    max-width: 15rem;
+    max-width:100%;
+    height:auto;
+    object-fit: contain;
+    margin-top:2rem;
 }
