@@ -2,13 +2,15 @@
 .container{
     margin:  10% 20%;
     max-width: 800px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid gray;
 }
-.container .content .logo-img{
+.container .header-content .logo-img{
     width: 10%;
     height: 10%;
     margin-right: 10px;
 }
-.container .content{
+.container .header-content{
         display: flex;
     }
 .title-content{
