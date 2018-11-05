@@ -6,7 +6,7 @@ function HeaderTitle(props) {
         <div className="header-title">
             <h2 className="header-name">{props.name}</h2>
             <p className="header-username">{props.username}</p>
-            <p>&#9679;</p>
+            <p>·</p>
             <p className="header-date">{props.date}</p>
         </div>
     );
