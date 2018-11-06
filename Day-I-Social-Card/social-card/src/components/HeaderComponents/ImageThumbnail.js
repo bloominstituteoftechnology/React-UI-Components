@@ -9,6 +9,6 @@ function ImageThumbnail(props) {
 
         </rdiv>
     );
-}
+};
 
 export default ImageThumbnail;

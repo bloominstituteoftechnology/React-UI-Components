@@ -7,11 +7,11 @@ import CardContent from './CardContent.js';
 function CardContainer(props) {
     return (
         <div>
-            <div>
+            <div className="cardBannerDiv">
 
                 <CardBanner />
             </div>
-            <div>
+            <div className="cardContentDiv" >
 
                 <CardContent />
 
@@ -20,7 +20,7 @@ function CardContainer(props) {
 
 
     );
-}
+};
 
 
 
