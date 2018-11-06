@@ -1,9 +1,9 @@
 import React from "react";
 import "./App.css";
 
-import Header from "./HeaderComponents/HeaderContainer.js";
-import CardContent from "./CardComponents/CardContainer.js";
-import Footer from "./FooterComponents/Footer.js";
+import Header from "./components/HeaderComponents/HeaderContainer";
+import CardContent from "./components/CardComponents/CardContent";
+import Footer from "./components/FooterComponents/Footer";
 
 const App = () => {
   return (
