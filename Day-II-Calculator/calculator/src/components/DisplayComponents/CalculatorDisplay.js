@@ -8,3 +8,5 @@ function CalculatorDisplay(props) {
         </div>
     );
 }
+
+export default CalculatorDisplay;
