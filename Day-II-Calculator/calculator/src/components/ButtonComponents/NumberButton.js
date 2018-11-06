@@ -5,7 +5,7 @@ import ClearButton from './ClearButton';
 function NumberButton(){
     return(
         <div className="calculator__buttons--number">
-            <ClearButton className="calculator__button--clear"/>
+            <ClearButton />
             <div className="calculator__button--number">1</div>
             <div className="calculator__button--number">2</div>
             <div className="calculator__button--number">3</div>
