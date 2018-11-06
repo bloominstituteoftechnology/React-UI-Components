@@ -1,8 +1,10 @@
+*{
+    box-sizing: border-box;
+}
 .container{
     /* 456 598 */
     width: 456px;
     height: 600px;
-    box-sizing: border-box;
 }
 .buttons{
     display: flex;

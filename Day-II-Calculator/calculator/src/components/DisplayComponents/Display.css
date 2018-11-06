@@ -1,17 +1,19 @@
-div{ 
+.display{ 
     
     width: 456px;
     height: 125px;
     display: block;
-    background: #000000;
+    background: #222222;
+    border: 1px solid grey;
     position: relative;
 }
 h3{
+    font-weight: lighter;
     color: white;
     margin: 0;
     position: absolute;
     bottom: 10px;
     right: 30px;
     text-align: center;
-    font-size: 60px;
+    font-size: 65px;
 }
