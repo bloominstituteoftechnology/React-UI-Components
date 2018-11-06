@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+}
+
+.calculator-container {
+  display: flex;
+  flex-wrap: wrap;
+
+  width: 456px;
+  height: 598px;
+  margin: 0 auto;
+
+  font-size: 45px;
+  border: 1px solid #979797;
+}
