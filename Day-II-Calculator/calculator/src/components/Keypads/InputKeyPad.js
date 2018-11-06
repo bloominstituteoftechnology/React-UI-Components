@@ -22,22 +22,22 @@ const InputKeyPad = () => {
         <button className="InputKeyPadButton InputKeyPadButtonClear_Zero">{InputKeyPadText.clear}</button>
       </div>
       <div className="Row">
-        <button className="InputKeyPadButton InputKeyPadButtonOne_Nine">{InputKeyPadText.seven}</button>
-        <button className="InputKeyPadButton InputKeyPadButtonOne_Nine">{InputKeyPadText.eight}</button>
-        <button className="InputKeyPadButton InputKeyPadButtonOne_Nine">{InputKeyPadText.nine}</button>
+        <button className="InputKeyPadButton InputKeyPadButtonOne_Nine fontBold">{InputKeyPadText.seven}</button>
+        <button className="InputKeyPadButton InputKeyPadButtonOne_Nine fontBold">{InputKeyPadText.eight}</button>
+        <button className="InputKeyPadButton InputKeyPadButtonOne_Nine fontBold">{InputKeyPadText.nine}</button>
       </div>
       <div className="Row">
-        <button className="InputKeyPadButton InputKeyPadButtonOne_Nine">{InputKeyPadText.four}</button>
-        <button className="InputKeyPadButton InputKeyPadButtonOne_Nine">{InputKeyPadText.five}</button>
-        <button className="InputKeyPadButton InputKeyPadButtonOne_Nine">{InputKeyPadText.six}</button>
+        <button className="InputKeyPadButton InputKeyPadButtonOne_Nine fontBold">{InputKeyPadText.four}</button>
+        <button className="InputKeyPadButton InputKeyPadButtonOne_Nine fontBold">{InputKeyPadText.five}</button>
+        <button className="InputKeyPadButton InputKeyPadButtonOne_Nine fontBold">{InputKeyPadText.six}</button>
       </div>
       <div className="Row">
-        <button className="InputKeyPadButton InputKeyPadButtonOne_Nine">{InputKeyPadText.one}</button>
-        <button className="InputKeyPadButton InputKeyPadButtonOne_Nine">{InputKeyPadText.two}</button>
-        <button className="InputKeyPadButton InputKeyPadButtonOne_Nine">{InputKeyPadText.three}</button>
+        <button className="InputKeyPadButton InputKeyPadButtonOne_Nine fontBold">{InputKeyPadText.one}</button>
+        <button className="InputKeyPadButton InputKeyPadButtonOne_Nine fontBold">{InputKeyPadText.two}</button>
+        <button className="InputKeyPadButton InputKeyPadButtonOne_Nine fontBold">{InputKeyPadText.three}</button>
       </div>
       <div className="Row">
-        <button className="InputKeyPadButton InputKeyPadButtonClear_Zero">{InputKeyPadText.zero}</button>
+        <button className="InputKeyPadButton InputKeyPadButtonClear_Zero fontBold">{InputKeyPadText.zero}</button>
       </div>
     </div>
   );
