@@ -1,0 +1,18 @@
+
+
+.footer-content {
+    /* border: 1px solid red; */
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 60px;
+    width: 260px;
+}
+
+.footer-content .comment-icon {
+    transform: scaleX(-1);
+}
+
+.footer-content .icons {
+    cursor: pointer;
+}
