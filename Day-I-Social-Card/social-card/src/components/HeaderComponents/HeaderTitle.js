@@ -1,13 +1,14 @@
 import React from 'react';
 import './Header.css';
 
+const dateSig = new Date();
+const day = dateSig.toDateString().split(" ");
 function HeaderTitle(){
-    // const timeSig = new Date.UTC();
 
     return (
         <div className='header-title'>
             <h1>Lambda School</h1>
-            <p>@LambdaSchool · 26 jan</p>
+            <p>@LambdaSchool · {day[2]} {day[1]}</p>
         </div>        
     );
 }

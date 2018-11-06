@@ -45,6 +45,7 @@
 .header-text {
     width: 85%;
     margin-right: 30px;
+    word-spacing: 1px;
     /* border: 1px solid red; */
     /* margin-left: 10px; */
 }
