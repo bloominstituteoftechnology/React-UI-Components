@@ -3,7 +3,7 @@ import './Button.css';
 
 function ClearButton(){
     return(
-        <div className ="calculator__button--clear">Clear</div>
+        <div className ="calculator__button--clear"><span>Clear</span></div>
     );
 }
 

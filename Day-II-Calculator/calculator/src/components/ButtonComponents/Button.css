@@ -1,6 +1,6 @@
 .calculator__buttons--number{
     flex:3;
-    border:1px solid red;
+    border:1px solid gray;
     display:flex;
     flex-wrap:wrap;
     height:80%;
@@ -9,13 +9,16 @@
 }
 .calculator__button--clear{
     flex-basis: 100%;
-    border:1px solid black;
+    border:1px solid gray;
     height:20%;
+}
+span{
+    vertical-align:middle;
 }
 .calculator__button--number{
     width:33.33333%;
     height:20%;
-    border:1px solid blue;
+    border:1px solid gray;
     /* flex:1; */
 }
 .calculator__button--number:last-child{
@@ -23,12 +26,15 @@
 }
 .calculator__buttons--operator{
     flex:1;
-    border:1px solid blue;
+    border:1px solid gray;
     display:flex;
     flex-direction: column;
     justify-content: center;
 }
 .calculator__button--operator{
-    border:1px solid black;
+    color:white;
+    border:1px solid gray;
     flex:1;
+    background:rgb(160,0,30);
+    vertical-align:center;
 }

@@ -5,7 +5,7 @@
 .calculator-container{
     width:45.6rem;
     height:59.8rem;
-    border:1px solid red;
+    border:1px solid gray;
     display:flex;
     flex-wrap:wrap;
     margin:0 auto;
