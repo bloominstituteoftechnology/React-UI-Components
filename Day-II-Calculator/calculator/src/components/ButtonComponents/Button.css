@@ -1,0 +1,24 @@
+.action-button {
+    width: 100%;
+    background-color: white;
+    font-size: 4.5rem;
+    padding-top: 17px;
+    padding-bottom: 22px;
+}
+
+.arithmetic {
+    width: 100%;
+    background-color: #A0001E;
+    font-size: 4.5rem;
+    color: white;
+    padding-top: 17px;
+    padding-bottom: 22px;
+}
+
+.number {
+    width: 33.3%;
+    font-size: 4.5rem;
+    background-color: white;
+    padding-top: 17px;
+    padding-bottom: 22px;
+}
