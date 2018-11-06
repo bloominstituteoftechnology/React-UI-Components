@@ -1,0 +1,29 @@
+.Footer  {
+  display: flex;
+}
+
+.Footer__action {
+  color: #777;
+  cursor: pointer;
+  transition: all .3s;
+}
+
+.Footer__action:hover {
+  color: #007fff;
+}
+
+.Footer__icon:not(:only-child) {
+  margin-right: 10px;
+}
+
+.Footer__icon--liked {
+  color: #f44336;
+}
+
+.Footer__icon--retweeted {
+  color: #007fff;
+}
+
+.Footer__action:not(:last-child) {
+  margin-right: 40px;
+}

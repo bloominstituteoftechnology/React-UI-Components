@@ -1,4 +1,28 @@
-/* 
-  Write your styles/CSS for App.js here and import into the component that you need 
+/*
+  Write your styles/CSS for App.js here and import into the component that you need
   IF you'd like to attempt to use less you'll have to research how to do this with Create React App
 */
+.container {
+  max-width: 700px;
+  /* border: 1px solid grey; */
+  padding: 30px;
+}
+
+.card-link:link,
+.card-link:hover,
+.card-link:visited,
+.card-link:active {
+  color: inherit;
+
+}
+
+.card-wrapper,
+.footer-wrapper {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.card-section,
+.footer-section {
+  flex-basis: 88%;
+}

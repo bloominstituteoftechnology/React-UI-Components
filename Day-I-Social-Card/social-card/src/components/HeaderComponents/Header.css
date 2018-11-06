@@ -1,1 +1,30 @@
 /* All styles for your header Components live here */
+.header {
+  display: flex;
+
+}
+
+.header__image {
+  flex-basis: 12%;
+  padding-right: .8rem;
+}
+
+.header__text {
+  flex-basis: 88%;
+
+}
+
+.header__title {
+  font-weight: bold;
+
+  margin-right: .5rem;
+}
+
+.header__handle,
+.header__timestamp  {
+  color: #999;
+  font-size: 0.9rem;
+}
+.header__handle {
+  margin-right: .5rem;
+}

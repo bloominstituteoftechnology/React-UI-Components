@@ -1,0 +1,39 @@
+.ActionButton,
+.NumberButton {
+  padding: 1.8rem 0;
+  text-align: center;
+  font-size: 4.8rem;
+  border: 1px solid #8c8c8c;
+  cursor: pointer;
+}
+
+.ActionButton:hover,
+.NumberButton:hover {
+  background-color: #eee;
+  color: black;
+}
+
+.w-25 {
+  flex: 0 0 25%;
+}
+
+.w-50 {
+  flex: 0 0 50%;
+}
+
+.w-75 {
+  flex: 0 0 75%;
+}
+
+.bg-attention {
+  background-color: darkred;
+  color: white;
+}
+
+.ActionButton {
+  font-weight: 300;
+}
+
+.NumberButton {
+  font-weight: 700;
+}
