@@ -5,17 +5,25 @@
 }
 
 h3 {
-  font-size: 16px;
+  font-size: 14px;
+  margin-top: 3px;
+  margin-bottom: 8px;
+}
+
+p {
+  font-size: 14px;
+  line-height: 1.3;
+  margin-top: 0px;
 }
 
 .header span {
   color: #7C8C9B;
-  font-size: 16px;
+  font-size: 12px;
   font-weight: 400;
 }
 
 .header img {
-  width: 12%;
+  width: 8%;
   height: 100%;
-  margin-right: 5px;
+  margin-right: 10px;
 }

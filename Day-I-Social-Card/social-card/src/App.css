@@ -6,6 +6,7 @@
 .app {
   display: flex;
   flex-direction: column;
-  max-width: 650px;
+  max-width: 580px;
   padding: 5px;
+  border-bottom: 1px solid #EDF1F4;
 }
