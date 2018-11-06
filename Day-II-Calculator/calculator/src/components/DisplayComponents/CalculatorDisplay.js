@@ -83,8 +83,7 @@ function CalculatorDisplay(){
                 {
                     numPadAction.map( action => {
                         return <ActionButton class="action-button" text={action.text}/>
-                    }
-                    )
+                    })
                 }
             </div>
         </div>
@@ -92,5 +91,3 @@ function CalculatorDisplay(){
 }
 
 export default CalculatorDisplay;
-
-{/* <ActionButton /> */}

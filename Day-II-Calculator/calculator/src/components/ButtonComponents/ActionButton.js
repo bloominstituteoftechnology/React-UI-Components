@@ -8,8 +8,3 @@ function ActionButton(props){
 }
 
 export default ActionButton;
-
-{/* <div className="action-button">x</div>
-<div className="action-button">&#8722;</div>
-<div className="action-button">+</div>
-<div className="action-button">=</div> */}
