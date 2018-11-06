@@ -9,6 +9,7 @@
     width: 85%;
     border: 1px solid lightgray;
     border-radius: 8px;
+    cursor: pointer;
 }
 .card img{
     width: 100%;
