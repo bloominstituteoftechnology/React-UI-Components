@@ -1,0 +1,59 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.display {
+  border: 1px red solid;
+  width: 100%;
+  height: 100px;
+}
+.buttons {
+  display: flex;
+  flex-flow: row nowrap;
+  width: 100%;
+  height: 300px;
+  border: 1px red solid;
+}
+.buttons .left {
+  width: 75%;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: stretch;
+  justify-content: center;
+  border: 1px red solid;
+}
+.buttons .left div {
+  width: 100%;
+  height: 20%;
+  border: 1px black solid;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.buttons .left .numbers {
+  width: 33.25%;
+  height: 20%;
+  border: 1px black solid;
+}
+.buttons .right {
+  width: 25%;
+  border: 1px red solid;
+  display: flex;
+  flex-flow: column nowrap;
+}
+.buttons .right .action {
+  width: 100%;
+  height: 20%;
+  border: 1px black solid;
+}
+* {
+  box-sizing: border-box;
+}
+main {
+  display: flex;
+  flex-flow: column wrap;
+  border: 1px black solid;
+}

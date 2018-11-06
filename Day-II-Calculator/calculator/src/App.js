@@ -1,22 +1,34 @@
 import React from 'react';
-import './App.css';
+import './less/App.less';
+
+import DisplayScreen from './components/DisplayComponents/Display';
+import ActionButtons from './components/ButtonComponents/Action';
+import NumberButtons from './components/ButtonComponents/Numbers';
+
+const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+const operators = ['\u00F7', 'x', '-', '+', '='];
 
 const App = () => {
   return (
-    <div>
-      <h3>Welcome to React Calculator</h3>
-      <p>
-        We have given you a starter project. You'll want to build out your
-        components in their respective files, remove this code and replace it
-        with the proper components.
-      </p>
-      <p>
-        <strong>
-          Don't forget to `default export` your components and import them here
-          inside of this file in order to make them work.
-        </strong>
-      </p>
-    </div>
+    <React.Fragment>
+      <main>
+        <DisplayScreen />
+        <section className="buttons">
+          <div className="left">
+            <div>clear</div>
+            {numbers.map(button => (
+              <NumberButtons button={button} />
+            ))}
+            <div>0</div>
+          </div>
+          <div className="right">
+            {operators.map(button => (
+              <ActionButtons button={button} />
+            ))}
+          </div>
+        </section>
+      </main>
+    </React.Fragment>
   );
 };
 
