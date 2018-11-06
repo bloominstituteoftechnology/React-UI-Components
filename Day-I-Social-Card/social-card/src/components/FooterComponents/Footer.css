@@ -1,0 +1,20 @@
+.FooterContainer {
+  margin-left: 83px;
+  margin-top: 15px;
+  width: 50%;
+}
+
+.FooterIcons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.FooterIcons a {
+  /* margin: 0 40px 0 0; */
+  font-size: 20px;
+  color: grey;
+}
+
+.FooterIcons a:after {
+  margin-left: 4px;
+}
