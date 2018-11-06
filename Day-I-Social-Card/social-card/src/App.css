@@ -79,3 +79,23 @@
   font-size: 1.4rem;
   color: #B6BFC8;
 }
+
+/* Footer Styles */
+
+.footer {
+  width: 27%;
+  margin-top: 21px;
+  margin-left: 65px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.comments, .retweet, .likes {
+  width: 14%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer i, .comments i, .retweet i, .likes i {
+  font-size: 1.7rem;
+}
