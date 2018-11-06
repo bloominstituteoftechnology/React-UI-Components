@@ -1,0 +1,8 @@
+.calculator__buttons--number{
+    flex:3;
+    border:1px solid red;
+}
+.calculator__buttons--operator{
+    flex:1;
+    border:1px solid blue;
+}
