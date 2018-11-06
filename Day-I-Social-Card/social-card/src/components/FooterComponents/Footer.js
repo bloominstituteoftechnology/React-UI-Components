@@ -4,10 +4,7 @@ import "./Footer.css";
 const Footer = () => {
   return (
     <div>
-      <img src="" alt="" />
-      <img src="" alt="" />
-      <img src="" alt="" />
-      <img src="" alt="" />
+      <i />
     </div>
   );
 };
