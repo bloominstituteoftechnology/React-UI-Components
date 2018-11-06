@@ -4,9 +4,9 @@
     width: 100%;
     min-height: 100px;
     color: white;
-    background-color: black;
+    background-color: #222222;
     font-family: 'Roboto', Arial, sans-serif;
-    font-size: 6rem;
+    font-size: 7rem;
     font-weight: 300;
-    padding: 5px 20px;
+    padding: 7px 15px 15px;
 }

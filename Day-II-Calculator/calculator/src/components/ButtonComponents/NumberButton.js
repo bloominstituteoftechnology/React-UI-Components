@@ -1,9 +1,8 @@
 import React from 'react';
 import './Button.css';
 
-// let buttonNumber = () => {
-//     for
-// }
+const numbers = Array.from(Array(9).keys());
+
 
 let NumberButton = (props) => {
     return (

@@ -11,7 +11,7 @@
     width: 25%;
     border: 1px solid black;
     color: black;
-    font-size: 4rem;
+    font-size: 4.5rem;
     font-weight: 900;
     font-family: 'Roboto', Arial, sans-serif;
     padding: 20px;
@@ -29,6 +29,7 @@
     background-color:#A0001E;
     font-size: 6rem;
     font-weight: 300;
+    padding: 10px;
 }
 
 .button-container .wide-button {

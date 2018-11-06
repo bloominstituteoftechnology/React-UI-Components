@@ -3,18 +3,19 @@ import './App.css';
 import './components/ButtonComponents/NumberButton'
 import NumberButton from './components/ButtonComponents/NumberButton';
 import CalculatorDisplay from './components/DisplayComponents/CalculatorDisplay';
+import ActionButton from './components/ButtonComponents/ActionButton';
 
 
 const App = () => {
   return (
     <div className="app">
       <div className="calc">
-        <CalculatorDisplay num="0"/>
+        <CalculatorDisplay num="0" />
       
         <div className="button-container">
           <div className="row">
             <NumberButton text="&#247;" buttonStyle="operation"/>
-            <NumberButton text="clear" buttonStyle="number wide-button clear"/>
+            <ActionButton text="clear" buttonStyle="number wide-button clear"/>
           </div>
           <div className="row">
             <NumberButton text="&times;" buttonStyle="operation"/>
@@ -23,7 +24,7 @@ const App = () => {
             <NumberButton text="7" buttonStyle="number"/>
           </div>
           <div className="row">
-            <NumberButton text="-" buttonStyle="operation"/>
+            <NumberButton text="&mdash;" buttonStyle="operation"/>
             <NumberButton text="6" buttonStyle="number"/>
             <NumberButton text="5" buttonStyle="number"/>
             <NumberButton text="4" buttonStyle="number"/>
@@ -36,7 +37,7 @@ const App = () => {
           </div>
           <div className="row">
             <NumberButton text="=" buttonStyle="operation"/>
-            <NumberButton text="0" buttonStyle="number wide-button"/>
+            <ActionButton text="0" buttonStyle="number wide-button"/>
             
           </div>
         </div>
