@@ -1,0 +1,17 @@
+.container{
+    /* 456 598 */
+    width: 456px;
+    height: 600px;
+    box-sizing: border-box;
+}
+.buttons{
+    display: flex;
+}
+.btn-content{
+    width:75%;
+    height: 475px;
+}
+.operator-content{
+    width: 25%;
+    height: 475px;
+}
