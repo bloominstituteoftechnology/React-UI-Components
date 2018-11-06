@@ -4,10 +4,11 @@
     /* line-height: 20px; */
     color: black;
     background-color: white;
-    font-size: 52px;
+    font-size: 45px;
     padding: 0;
     margin: 0;
     border: 0.1px solid silver;
+    font-weight: bold;
 }
 
 .red-btn {
