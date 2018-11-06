@@ -1,6 +1,18 @@
 .calculator__buttons--number{
     flex:3;
     border:1px solid red;
+    display:flex;
+    flex-wrap:wrap;
+}
+.calculator__button--clear{
+    flex-basis: 100%;
+    border:1px solid black;
+}
+.calculator__button--number{
+    width:33%;
+}
+.calculator__button--number:last-child{
+    flex-basis:100%;
 }
 .calculator__buttons--operator{
     flex:1;
