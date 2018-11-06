@@ -1,0 +1,19 @@
+
+.footer {
+    margin: 10px 215px 0 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding-bottom: 3px;
+}
+
+.footer .btn {
+    width: 30px;
+
+}
+
+.footer img {
+    width: 100%;
+    height: auto;
+}
