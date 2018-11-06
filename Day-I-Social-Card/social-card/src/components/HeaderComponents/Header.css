@@ -1,1 +1,36 @@
 /* All styles for your header Components live here */
+
+.header {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.header .img-thumbnail {
+  width: 7rem;
+  padding: 1.2rem .6rem;
+}
+
+.header .img-thumbnail img {
+  width: 100%;
+}
+
+.header .header--title {
+  font-weight: bold;
+  margin-bottom: .8rem;
+}
+
+.header span {
+  color: gray;
+  font-weight: normal;
+  font-size: 1.3rem;
+}
+
+.header .header--text {
+  padding: 1.6rem;
+  padding-left: 0;
+  width: 57rem;
+  letter-spacing: .2px;
+  line-height: 1.7rem;
+}

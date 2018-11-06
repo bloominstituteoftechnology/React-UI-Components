@@ -1,0 +1,38 @@
+.btn--container .row {
+  width: 100%;
+  height: 46px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-top: 1px solid gray;
+}
+
+.btn--number,
+.btn--operator {
+  width: 57px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid black;
+}
+
+.btn--number,
+.btn--white {
+  background-color: white;
+}
+
+.btn--operator {
+  background-color: maroon;
+  color: white;
+}
+
+.btn--white {
+  flex-grow: 1;
+  height: 100%;
+  text-align: center;
+  border-right: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
