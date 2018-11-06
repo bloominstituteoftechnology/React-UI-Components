@@ -1,0 +1,49 @@
+.buttons{
+    position: absolute;
+    max-width: 500px;
+    height: 500px;
+    left: 50%;
+    top: 50%;
+}
+.btn{
+    font-weight: bold;
+    background-color: white;
+    border: 1px solid gray;
+    width: 25%;
+    height: 50px;
+    font-size: 20px;
+}
+
+.btn:nth-child(4){
+    background-color: red;
+    color: white;
+}
+.btn:nth-child(8){
+    background-color: red;
+    color: white;
+}
+.btn:nth-child(12){
+    background-color: red;
+    color: white;
+}
+.top-buttons{
+    width: 100%;
+}
+
+.top-btn:nth-child(1){
+    width: 75%;
+    font-weight: normal;
+}
+.top-btn:nth-child(2){
+    background-color: red;
+    color: white;
+}
+
+.btm-btn:nth-child(1){
+    width: 75%;
+    
+}
+.btm-btn:nth-child(2){
+    background-color: red;
+    color: white;
+}
