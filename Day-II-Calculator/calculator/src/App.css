@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    /* 456 598 */
+    width: 456px;
+    height: 600px;
+}
+.buttons{
+    display: flex;
+}
+.btn-content{
+    width:75%;
+    height: 475px;
+}
+.operator-content{
+    width: 25%;
+    height: 475px;
+}

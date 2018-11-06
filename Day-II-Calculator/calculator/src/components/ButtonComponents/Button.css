@@ -1,0 +1,17 @@
+.num{
+    width:33.3%;
+    height: 20%;
+    background: white;
+    border: 1px solid grey;
+    font-size: 40px;
+    font-weight: bolder;
+}
+.action-btn{
+    width: 100%;
+}
+.operator{
+    background: red;
+    color: white;
+    width: 100%;
+    height: 20%;
+}

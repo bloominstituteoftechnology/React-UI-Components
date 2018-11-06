@@ -1,0 +1,18 @@
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-around;
+    margin: 20px 20px;
+}
+.footer p{
+    width: 100px;
+    padding: 20px 0;
+    border: 1px solid lightblue;
+
+}
+.footer p:hover{
+    cursor: pointer;
+    background: lightgray;
+    
+}

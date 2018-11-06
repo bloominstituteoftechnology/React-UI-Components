@@ -2,3 +2,16 @@
   Write your styles/CSS for App.js here and import into the component that you need 
   IF you'd like to attempt to use less you'll have to research how to do this with Create React App
 */
+/* @import './components/HeaderComponents/Header.css';
+@import './components/CardComponents/Card.css';
+@import './components/FooterComponents/Footer.css'; */
+
+
+.app{
+  
+  width: 650px;
+  margin: 0 auto;
+}
+.info{
+  color: rgb(169, 169, 170);
+}

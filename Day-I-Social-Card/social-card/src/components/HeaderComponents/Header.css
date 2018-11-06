@@ -1,1 +1,26 @@
 /* All styles for your header Components live here */
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+.headerTitle{
+    display:flex;
+    align-items: baseline;
+    
+}
+.headerTitle .title{
+    margin-right: 10px;
+}
+.header img{
+    height: 10%;
+    width: 10%;
+   
+}
+/* .headerText, .headerTitle{
+    width: 40%;
+} */
+.headerContent{
+    width: 85%;
+    margin-left: 20px;
+}
