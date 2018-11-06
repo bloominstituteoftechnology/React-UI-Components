@@ -1,0 +1,15 @@
+.card {
+    max-width: 625px;
+    margin: 0 auto;
+  }
+
+.footer {
+    margin: 25px 0 0 60px;
+}
+
+.footer i {
+    color: gray;
+    margin-right: 70px;
+    letter-spacing: 10px;
+    font-size: 18px;
+}
