@@ -9,7 +9,7 @@ function CardContent () {
             <div className='card-text'>
                 <h3>Get started with React</h3>
                 <p>React Makes it painless to create interactive UIs. Design simple views for each state in your application.</p>
-                <a href='https://www.reactjs.org'>reactjs.org</a>
+                <div className='card-link'>reactjs.org</div>
             </div>            
         </a>        
     );
