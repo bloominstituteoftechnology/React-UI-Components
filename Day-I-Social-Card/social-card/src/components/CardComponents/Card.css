@@ -5,7 +5,8 @@
     flex-wrap:wrap;
     border-radius:0.5rem;
     border:1px solid lightgray;
-    margin:0 0 0 5.5rem;
+    margin:0 2rem 0 5.5rem;
+    /* padding:0 1rem 0 0; */
 }
 .card__img{
     width:100%;
