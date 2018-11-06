@@ -19,4 +19,13 @@
 .FooterContainer i {
     font-size: 2rem;
     color: #A9A9A9;
+    cursor: pointer;
+}
+
+i:hover{
+    color: blue;
+}
+
+.fa-heart-o:hover {
+    color: red
 }
