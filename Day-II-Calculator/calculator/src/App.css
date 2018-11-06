@@ -1,0 +1,17 @@
+.calculator {
+    width: 455px;
+}
+
+.calculator-functions {
+    display: flex;
+}
+
+.numbers {
+    width: 75%;
+}
+
+.operators {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+}
