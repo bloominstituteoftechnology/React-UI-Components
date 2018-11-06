@@ -1,0 +1,6 @@
+.number-container{
+    width: 66.6666666666%;
+    display: flex;
+    flex-flow: wrap;
+    height: 100%;
+}

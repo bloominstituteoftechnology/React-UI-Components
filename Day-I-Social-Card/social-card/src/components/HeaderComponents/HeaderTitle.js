@@ -4,8 +4,10 @@ import './Header.css';
 function HeaderTitle(props){
     return(
         <React.Fragment>
-            <h4>{props.user}</h4>
-            <p className='time-stamp'>{props.stamp}</p>
+            <div className='title'>
+                <h4>{props.user}</h4>
+                <p className='time-stamp'>{props.stamp}</p>
+            </div>
             <p>{props.post}</p>
         </React.Fragment>
     );
