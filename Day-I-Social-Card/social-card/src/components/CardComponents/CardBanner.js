@@ -3,7 +3,7 @@ import './Card.css';
 
 function CardBanner() {
     return (
-        <img className="banner" src="https://ibin.co/3wnC6SgIOJud.png" alt="React" />
+        <img className="banner" src="./react-banner.png" alt="React" />
     );
 }
 
