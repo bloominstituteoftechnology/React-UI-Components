@@ -8,11 +8,32 @@ class App extends Component {
     super(props);
     this.state = {
       displayValue: ""
+    };
+    this.number1 = this.state.displayValue;
+    this.operator = '';
+    this.number2 = '';
+    this.calculate = {
+      '+': function(x, y) {return x + y},
+      '-': function(x, y) {return x - y},
+      'x': function(x, y) {return x * y},
+      '÷': function(x, y) {return x / y}
     }
   }
 
   changeDisplayValue(value) {
-    if (value === '') {
+    if (this.operator !== '') {
+      if (value !== ('+' || '-' || 'x' || '÷')) {
+        this.number2 = value;
+        this.setState({
+          displayValue: this.calculate[this.operator](this.number1, this.number2)
+        })
+        console.log(this.state.displayValue);
+      }
+    }
+    else if (value === ('+' || '-' || 'x' || '÷')) {
+      this.operator = value;
+    }
+    else if (value === '') {
       this.setState({
         displayValue: ''
       })
@@ -21,7 +42,7 @@ class App extends Component {
       this.setState({
         displayValue: this.state.displayValue + value
       })
-    };
+    }
   }
   
   render() {
