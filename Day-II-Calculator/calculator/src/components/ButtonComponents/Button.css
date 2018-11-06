@@ -1,0 +1,38 @@
+.NumberContainer, .ActionContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    outline: 1px solid var(--gray);
+}
+
+.NumberContainer {
+    background: var(--white);
+    color: var(--black);   
+}
+
+
+.ActionContainer {
+    background: var(--red);
+    color: var(--white);   
+    height: 100%;
+}
+
+.LargeButtonContainer,
+.LargeNumberContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--white);
+    color: var(--black);   
+    width: 75%;
+    border-top: 1px solid var(--gray);
+}
+
+.Container .NumberContainer p {
+    font-weight: bolder;
+}
+
+.Container .LargeNumberContainer p {
+    font-weight: bolder;
+}

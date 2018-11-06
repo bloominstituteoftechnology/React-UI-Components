@@ -8,7 +8,7 @@
     align-items: center
 }
 
-.DisplayContainer p {
+.Container .DisplayContainer p {
     margin-right: 1rem;
-    font-weight: 200;
+    font-size: 7rem;
 }

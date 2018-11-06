@@ -6,5 +6,12 @@
 }
 
 .Container p {
-    font-size: 7rem;
+    font-size: 5rem;
+    font-weight: lighter;
+}
+
+.Container .Row {
+    display: flex;
+    height: 9.5rem;
+    width: 100%;
 }

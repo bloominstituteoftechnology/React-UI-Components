@@ -2,12 +2,13 @@ import React from 'react';
 import './Button.css';
 
 
-const ActionButtons = (props) => {
+
+const LargeNumbers = (props) => {
     return (
-        <div className="ActionContainer">
+        <div className='LargeNumberContainer'>
             <p>{props.text}</p>
         </div>
     );
-}
+};
 
-export default ActionButtons;
+export default LargeNumbers;

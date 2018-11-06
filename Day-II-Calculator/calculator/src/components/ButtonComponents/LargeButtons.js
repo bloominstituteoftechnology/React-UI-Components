@@ -2,12 +2,13 @@ import React from 'react';
 import './Button.css';
 
 
-const ActionButtons = (props) => {
+
+const LargeButtons = (props) => {
     return (
-        <div className="ActionContainer">
+        <div className='LargeButtonContainer'>
             <p>{props.text}</p>
         </div>
     );
-}
+};
 
-export default ActionButtons;
+export default LargeButtons;
