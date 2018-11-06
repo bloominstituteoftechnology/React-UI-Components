@@ -26,9 +26,9 @@ class Button extends React.Component {
 }
 
 class Footer extends React.Component {
-  constructor(props) {
-    super(props);
-  }
+  // constructor(props) {
+  //   super(props);
+  // }
 
   render() {
     return (

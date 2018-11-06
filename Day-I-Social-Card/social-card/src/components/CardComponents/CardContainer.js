@@ -6,7 +6,7 @@ import CardContent from "./CardContent";
 
 const CardContainer = () => {
   return (
-    <a href="https://www.reactjs.org" target="_blank" className="card">
+    <a href="https://www.reactjs.org" rel="noopener noreferrer" target="_blank" className="card">
       <CardBanner />
       <CardContent />
     </a>
