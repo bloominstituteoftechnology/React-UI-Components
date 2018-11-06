@@ -1,1 +1,40 @@
 /* All styles for your Card Components live here */
+.cardContainer {
+  margin-top: 2rem;
+  margin-left: 7rem;
+  margin-right: 1.8rem;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.bannerImg {
+  background-image: url("https://ibin.co/3wnC6SgIOJud.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /* margin-top: 2rem;
+  margin-left: 7rem;
+  margin-right: 1.8rem; */
+  height: 25rem;
+}
+
+.cardContent {
+  padding: 1.4rem;
+  color: black;
+}
+
+a {
+  text-decoration: none;
+}
+
+.cardContent h3 {
+  color: #7a8b99;
+  font-size: 100%;
+}
+
+.cardContent p {
+  font-size: 1.4rem;
+  margin: 0.5rem 0;
+}

@@ -1,0 +1,25 @@
+.bottomContainer{
+    height:47rem;
+    display: flex;
+    
+}
+.leftCon{
+    /* border: 1px solid red; */
+    width: 74%;
+    height: 100%;
+}
+
+.numberButtonDiv{
+    height: 60%;
+    /* border: 1px solid grey; */
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: row-reverse; */
+
+}
+
+.operationButtonDiv{
+    height: 100%;
+    width: 26%;
+    border: 1px solid grey;
+}

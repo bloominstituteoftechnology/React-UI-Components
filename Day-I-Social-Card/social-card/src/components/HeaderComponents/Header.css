@@ -1,1 +1,35 @@
 /* All styles for your header Components live here */
+.headerImg{
+    width: 5rem;
+    height: 5rem;
+    margin: 0 1rem;
+}
+
+.headerContainer{
+    display: flex;
+    /* border: 1px solid red; */
+}
+
+.headerInfo{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.headerTitle{
+    display: flex;
+}
+/* .headerTitle h2{
+    
+} */
+
+.headerTitle h3{
+    color: #7A8B99;
+    font-size: 1.5em;
+    margin-left: 1rem;
+}
+
+p{
+    font-size: 1.4rem;
+    margin-top: 1rem;
+}

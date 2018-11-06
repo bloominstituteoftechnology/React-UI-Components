@@ -1,0 +1,11 @@
+.operationButton{
+    background: red;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 8rem;
+    color: white;
+    border: 1px solid black;
+    /* cursor: pointer; */
+}
