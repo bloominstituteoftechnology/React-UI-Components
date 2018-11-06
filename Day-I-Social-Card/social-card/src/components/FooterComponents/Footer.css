@@ -1,0 +1,24 @@
+.footer-container {
+    max-width: 916px;
+    width: 100%;
+    margin: 20px 0 0 95px;
+}
+
+.footer-flex {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.flex-item {
+    font-size: 1.8rem;
+    color: #848587;
+}
+
+.flex-item span {
+    padding-left: 12px;
+}
+
+.fa-comment {
+    transform: scaleX(-1);
+}
