@@ -1,0 +1,39 @@
+
+.buttonNums {
+    width: 114px;
+    height: 93px;
+    background-color: #ffffff;
+    /* padding: 10px 10px; */
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.buttonSigns {
+    width: 114px;
+    height: 93px;
+    max-height: 93px;
+    background-color: #A0001E;
+    /* padding: 10px 10px; */
+    font-size: 42px;
+    color: #ffffff;
+    /* border: 1px solid yellow; */
+}
+
+.displayBtn{
+    width: 100%;
+    height: 130px;
+    background-color: #222222;
+    text-align: right;
+    padding: 25px 15px;
+    font-size: 72px;
+    color: #ffffff;
+    
+}
+
+.actionBtn {
+    width: 75%;
+    height: 94px;
+    background-color: #ffffff;
+    /* padding: 10px 10px; */
+    font-size: 42px;
+}
