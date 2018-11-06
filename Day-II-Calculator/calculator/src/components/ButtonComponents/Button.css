@@ -1,0 +1,12 @@
+.btn-styles {
+    height: 40px;
+    width: 150px;
+    line-height: 20px;
+    color: black;
+    background-color: white;
+    font-size: 18px;
+}
+
+.red {
+    background-color: red;
+}
