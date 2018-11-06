@@ -1,0 +1,32 @@
+.button-container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    border-top: 2px solid gray;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    font-size: 30px;
+}
+
+.long-btn {
+    width: 75%;
+    background-color: white;
+}
+
+.number-btn, .operator-btn {
+    width: 25%;
+}
+
+.number-btn {
+    background-color: white;
+}
+
+.operator-btn {
+    background-color: red;
+    color: white;
+}
