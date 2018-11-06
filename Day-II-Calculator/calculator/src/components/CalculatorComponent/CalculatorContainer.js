@@ -1,6 +1,7 @@
 import React from 'react'
 import './CalculatorContainer.css';
 import Display from '../DisplayComponents/CalculatorDisplay';
+import ButtonRow from "../ButtonComponents/ButtonRow";
 import NumberButton from '../ButtonComponents/NumberButton';
 import ActionButton from '../ButtonComponents/ActionButton';
 
@@ -11,9 +12,24 @@ const Calculator = props => {
   return (
     <div className="calculator">
       <Display />
-      <NumberButton className="numberSmall" text="0"/>
-      <NumberButton />
-      <ActionButton />
+      <ButtonRow>
+        <NumberButton buttonStyle="wide narrow" text="clear"/>
+        <ActionButton text="/"/>
+        <NumberButton text="7"/>
+        <NumberButton text="8"/>
+        <NumberButton text="9"/>
+        <ActionButton text="*"/>
+        <NumberButton text="4"/>
+        <NumberButton text="5"/>
+        <NumberButton text="6"/>
+        <ActionButton text="-"/>
+        <NumberButton text="1"/>
+        <NumberButton text="2"/>
+        <NumberButton text="3"/>
+        <ActionButton text="+"/>
+        <NumberButton buttonStyle="wide" text="0"/>
+        <ActionButton text="="/>
+      </ButtonRow>
     </div>
   )
 }

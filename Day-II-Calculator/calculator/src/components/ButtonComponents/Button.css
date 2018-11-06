@@ -1,4 +1,30 @@
-.numberSmall {
-  width: 33%;
-  padding: 4rem;
+.btnRow {
+  width: 100%
+}
+
+
+.numberBtn {
+  width: 25%;
+  border: 1px solid #979797;
+  background: white;
+  padding: .9rem 0;
+  color: #222;
+  font-size: 45px;
+  display: inline-block;
+  float: left;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.bgRed {
+  background: #a0001e;
+  color: white;
+}
+
+.wide {
+  width: 75%;
+}
+
+.narrow {
+  font-weight: normal;
 }
