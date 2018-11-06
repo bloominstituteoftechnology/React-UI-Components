@@ -1,5 +1,15 @@
-.fa{
+.footer-container {
     display:flex;
     flex-direction: row;
-    
+    justify-content: flex-start;
+    width:45%;
+    margin:0 auto;
+}
+
+.fa {
+    font-size:1.3rem;
+    display:flex;
+    padding-top:25px;
+    color:#7B8E9F;
+    margin-right:35px;
 }
