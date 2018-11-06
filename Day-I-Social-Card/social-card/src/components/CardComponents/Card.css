@@ -1,1 +1,28 @@
 /* All styles for your Card Components live here */
+.banner {
+    width: 100%;
+    border-radius: 4px;
+}
+
+.banner-content {
+    width: 82%;
+}
+
+.card-container {
+    display: flex;
+    justify-content: flex-end;
+    border: 2px solid pink;
+}
+
+.card-content {
+    border: 2px solid lightgray;
+}
+
+
+.stamp {
+    border: 2px solid red;
+    color: gray;
+    display: flex;
+    align-items: center;
+    margin-left: 3%;
+}
