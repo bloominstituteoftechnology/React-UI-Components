@@ -26,7 +26,7 @@
     background: var(--white);
     color: var(--black);   
     width: 75%;
-    border-top: 1px solid var(--gray);
+    outline: 1px solid var(--gray);
 }
 
 .Container .NumberContainer p {

@@ -1,7 +1,7 @@
 .Container {
     height: 60rem;
     width: 45rem;
-    border: 1px solid var(--gray);
+    /* border: 1px solid var(--gray); */
     margin: 5rem auto;
 }
 
@@ -12,6 +12,6 @@
 
 .Container .Row {
     display: flex;
-    height: 9.5rem;
     width: 100%;
+    height: 9.5rem;
 }
