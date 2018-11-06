@@ -35,7 +35,7 @@ class App extends React.Component {
     return (
       <div className="calculator">
 
-        <CalculatorDisplay />
+        <CalculatorDisplay total={this.state.total} />
         <ButtonContainer />
 
       </div>

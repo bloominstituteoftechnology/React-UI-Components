@@ -1,13 +1,13 @@
 import React from 'react';
 import './Display.sass';
 
-const CalculatorDisplay = () => {
+const CalculatorDisplay = ({total}) => {
 
   return (
 
     <div className="display">
 
-      <p>0</p>
+      <p>{total}</p>
 
     </div>
 
