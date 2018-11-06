@@ -6,7 +6,6 @@ header {
     flex-flow: row nowrap;
     justify-content: space-between;
     align-items: center;
-    background: #DDD2C5;
     
 }
 header img {
