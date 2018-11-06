@@ -1,0 +1,30 @@
+.footer-bar {
+    display: flex;
+    margin-left: 8%;
+    margin-top: 3%;
+    padding-top: 1%;
+}
+
+.message-img {
+    height: 25px;
+    width: 25px;
+    margin: 0 5%;
+}
+
+.share-img {
+    height: 25px;
+    width: 25px;
+    margin-right: 5%;
+}
+
+.favorite-img {
+    height: 25px; 
+    width: 25px;
+    margin-right: 5%;
+}
+
+.email-img {
+    height: 30px;
+    width: 25px;
+    margin-right: 5%;
+}
