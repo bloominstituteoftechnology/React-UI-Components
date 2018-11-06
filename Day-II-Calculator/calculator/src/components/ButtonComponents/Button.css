@@ -29,3 +29,13 @@
     font-weight: bold;
     background-color: white;
 }
+
+.calculator-buttons-area {
+    display: flex;
+}
+
+.number-buttons-area {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+}
