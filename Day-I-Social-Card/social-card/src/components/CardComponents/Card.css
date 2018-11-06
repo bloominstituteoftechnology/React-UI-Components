@@ -1,1 +1,16 @@
 /* All styles for your Card Components live here */
+.CardContainer {
+  margin-left: 83px;
+  margin-right: 20px;
+}
+
+.Card_link {
+  text-decoration: none;
+  color: grey;
+}
+
+.CardContent {
+  border: 1px solid black;
+  margin-top: -4px;
+  padding-left: 10px;
+}

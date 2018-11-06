@@ -5,7 +5,7 @@ import "./Card.css";
 
 function CardContainer() {
   return (
-    <React.Fragment>
+    <div className="CardContainer">
       <CardBanner src="https://ibin.co/3wnC6SgIOJud.png" alt="React Image" />
       <CardContent
         title="Get started with React"
@@ -13,7 +13,7 @@ function CardContainer() {
         link="https://reactjs.org/"
         linkContent="reactjs.org"
       />
-    </React.Fragment>
+    </div>
   );
 }
 

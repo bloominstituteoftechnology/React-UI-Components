@@ -3,7 +3,7 @@
 .Header-Container {
   display: flex;
   justify-content: space-between;
-  height: 25vh;
+  padding: 10px;
   /* background: red; */
 }
 
@@ -17,18 +17,20 @@
   display: flex;
   align-items: center;
   margin: 0;
+  font-size: 18px;
 }
 
 .HeaderTitle_supplimental-data {
-  font-size: 16px;
-  color: lightgrey;
+  margin-left: 10px;
+  color: grey;
+  font-weight: 300;
 }
 
 .HeaderContent_p {
-  margin: 0;
+  margin-top: 10px;
 }
 
 .Header_ImageThumbnail {
-  width: 100px;
-  height: 100px;
+  width: 50px;
+  height: 50px;
 }
