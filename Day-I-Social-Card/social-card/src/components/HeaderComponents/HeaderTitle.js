@@ -14,6 +14,7 @@ function HeaderTitle() {
     fontSize: '12.5px',
     letterSpacing: '0.1px'
   }
+  
   return <h3 className="HeaderTitle">Lambda School <span style={lambdaSpanStyle}>@LambdaSchool</span> <span style={dateSpanStyle}>&middot; 26 jan</span></h3>
 }
 
