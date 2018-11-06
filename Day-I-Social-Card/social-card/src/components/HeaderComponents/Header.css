@@ -11,10 +11,15 @@
     display:flex;
     margin:1rem 0;
 }
-.title,p{
+.title{
+    font-size:1.6rem;
+}
+p{
     font-size:1.4rem;
 }
-.handle{
+p.handle{
+    margin-left:1rem;
+    font-size:1.4rem;
     color:rgb(155, 155, 155);
 }
 .logo{
