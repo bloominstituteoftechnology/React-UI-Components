@@ -1,1 +1,50 @@
 /* All styles for your header Components live here */
+
+.header-container {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.thumbnail-wrapper {
+    display: flex;
+    align-items: flex-start;
+    width: 170px;
+}
+.thumbnail {
+    margin: auto 0;
+    width: 100%;
+    height: auto;
+    padding-bottom: 15px;
+}
+
+.header-content {
+    padding: 0 10px 0 10px;
+}
+
+.header-content p {
+    line-height: 17px;
+    font-size: 14px;
+}
+
+.header-title {
+    display: flex;
+    align-items: flex-end;
+    padding: 10px 0;
+}
+
+.lambdaTitle {
+    font-size: 14px;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+.twitterHandle {
+    margin-right: 15px;
+    color: grey;
+    font-size: 13px;
+}
+
+.timestamp {
+    color: grey;
+    font-size: 13px;
+}
