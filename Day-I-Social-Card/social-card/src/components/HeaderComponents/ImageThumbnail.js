@@ -4,7 +4,7 @@ import './Header.css';
 
 function ImageThumbnail() {
     
-    return <img class="img-logo" src="https://ibin.co/3whrpKSBbZ81.png" />
+    return <img class="image-logo" src="https://ibin.co/3whrpKSBbZ81.png" />
   }
 
 
