@@ -1,0 +1,12 @@
+.calc-display {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    min-height: 100px;
+    color: white;
+    background-color: #222222;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 7rem;
+    font-weight: 300;
+    padding: 7px 15px 15px;
+}

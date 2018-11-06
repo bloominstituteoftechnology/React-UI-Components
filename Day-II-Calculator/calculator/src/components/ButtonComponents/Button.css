@@ -1,0 +1,41 @@
+.button-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.button-container .number, .operation {
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    border: 1px solid black;
+    color: black;
+    font-size: 4.5rem;
+    font-weight: 900;
+    font-family: 'Roboto', Arial, sans-serif;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.button-container .row {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+}
+
+.button-container .operation {
+    color: white;
+    background-color:#A0001E;
+    font-size: 6rem;
+    font-weight: 300;
+    padding: 10px;
+}
+
+.button-container .wide-button {
+    width: 75%;
+}
+
+.button-container .clear {
+    font-weight: normal;
+}

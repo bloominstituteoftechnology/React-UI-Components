@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,900');
+
+.app {
+    max-width: 600px;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    align-items: center;
+}
+
+.app .calc {
+    height: 600px;
+    width: 455px;
+}

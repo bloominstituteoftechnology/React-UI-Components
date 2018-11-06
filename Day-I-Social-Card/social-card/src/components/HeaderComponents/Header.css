@@ -1,1 +1,28 @@
 /* All styles for your header Components live here */
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px 10px 10px;
+}
+
+.header-container .logo {
+    max-width: 50px;
+    max-height: 50px;
+    margin-right: 15px;
+}
+
+.header-title {
+    display: flex;
+    margin-bottom: 7px;
+    font-size: 1rem;
+}
+
+.header-title .date {
+    color: gray;
+}
+
+.header-content {
+    font-size: 0.875rem;
+    line-height: 1.2rem;
+}

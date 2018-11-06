@@ -1,0 +1,22 @@
+.footer-container {
+    max-width: 50%;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 50px 10px;
+    
+}
+
+.footer-container a{
+    font-family: Helvetica, Arial, sans-serif;
+    text-decoration: none;
+    color: gray;
+}
+
+.footer-container .icon {
+    color: gray;
+    margin: 5px;
+}
+
+.footer-container .icon:hover {
+    color: red;
+}
