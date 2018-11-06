@@ -1,14 +1,18 @@
 import React from 'react';
 import './Footer.css'; 
-import 'font-awesome/css/font-awesome.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
+
 
 const FooterButton = props => {
     return (
         <div className='button'>
-            <i className={props.font} aria-hidden="true"></i>
-            <span className='number'>{props.number}</span>
+            <FontAwesomeIcon icon={props.symbol} flip="horizontal" />
+            <span className='number'></span>
         </div>
     );
 }
 
-export default FooterButton;
+export default FooterButton
+
+
