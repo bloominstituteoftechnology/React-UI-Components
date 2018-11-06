@@ -1,0 +1,29 @@
+.number-button {
+  width: 25%;
+  background: white;
+  font-size: 30px;
+  padding: 20px 0px;
+  border: 1px solid gray;
+  outline: none;
+  font-weight: bold;
+}
+
+.number-button.zero {
+  width: 75%;
+}
+
+.action-button {
+  width: 25%;
+  background: #c1180c;
+  color: white;
+  font-size: 30px;
+  padding: 20px 0px;
+  border: 1px solid gray;
+  outline: none;
+}
+
+.action-button.clear {
+  width: 75%;
+  background: white;
+  color: black;
+}
