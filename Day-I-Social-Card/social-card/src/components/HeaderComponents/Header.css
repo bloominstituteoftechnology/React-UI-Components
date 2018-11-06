@@ -1,40 +1,41 @@
 /* All styles for your header Components live here */
 
 .header {
-    border:1px solid red;
+    /* border:1px solid red; */
     display: flex;
+    max-width:700px;
 }
 
 .header-content{
-    border:1px solid blue;
+    /* border:1px solid blue; */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
 .image {
-    border:1px solid purple;
+    /* border:1px solid purple; */
     height: 50px;
     width: 50px;
 }
 
 .header-text {
-    border:2px solid black;
-    max-width: 950px;
+    /* border:2px solid black; */
+    max-width: 600px;
 }
 
 .titles {
-    border:1px solid blueviolet;
+    /* border:1px solid blueviolet; */
 
 }
 
 .h1{
-    border:1px solid green;
+    /* border:1px solid green; */
     display:inline;
 }
 
 .h2{
-    border:1px solid gold;
+    /* border:1px solid gold; */
     display:inline;
     color: gray;
     font-size:16px;

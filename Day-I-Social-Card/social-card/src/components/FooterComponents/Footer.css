@@ -1,5 +1,5 @@
 .footer {
-    width:100%;
+    width:97%;
     display: flex;
     justify-content: flex-end; 
 }
@@ -9,7 +9,17 @@
 }
 
 .icon-container {
-    width:40%;
+    padding-top:1%;
+    width:55%;
     display: flex;
     justify-content: space-between; 
+}
+
+.fa {
+    font-size:24px;
+    font-weight: lighter;
+}
+
+.fa-comment-o{
+    transform: scaleX(-1);
 }
