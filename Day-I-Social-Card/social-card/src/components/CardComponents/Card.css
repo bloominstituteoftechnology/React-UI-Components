@@ -24,7 +24,6 @@
 .card-content-bottom h1 {
     font-weight: bold;
     font-size: 14px;
-    /* border: 1px solid orange; */
     margin-top: 12px;
     margin-bottom: 0px;
 }
@@ -34,5 +33,5 @@
 } 
 
 .react{
-    color: lightgrey;
+    color: grey;
 }
