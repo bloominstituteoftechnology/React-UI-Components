@@ -3,9 +3,9 @@
     justify-content: flex-end;
     align-items: center;
     height: 15%;   
-    width: 99.99999%;
+    width: 100%;
     border: 1px solid gray;
     background-color: black;
     color: white;
-    
+    padding-right: 5%;
 }
