@@ -4,3 +4,14 @@
     background: red;
     margin: 0 auto;
 }
+
+.clear {
+    height: 100px;
+    width: 345px;
+    border: 1px solid white;
+    background: lightgray;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
