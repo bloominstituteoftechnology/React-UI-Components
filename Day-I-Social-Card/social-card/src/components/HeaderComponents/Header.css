@@ -1,15 +1,17 @@
 /* All styles for your header Components live here */
+
+  
 header {
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
     align-items: center;
+    background: #DDD2C5;
+    
 }
 header img {
     height: auto; 
     width: auto; 
-    max-width: 150px; 
-    max-height: 200px;
     padding: 3%;
 }
 header div{
@@ -17,7 +19,7 @@ header div{
     flex-flow: row wrap;
     justify-content: flex-start;
     align-items: center;
-
+    padding: 0 0 0 2.5%;
 }
 header div h1{
        font-size: 2.5rem;
@@ -38,3 +40,4 @@ header div p {
        font-size: 1.6rem;
        width: 80%;
 }
+

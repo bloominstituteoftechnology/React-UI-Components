@@ -7,18 +7,24 @@ main {
 }
 
 main section {
-    border: 1px lightgrey solid;
-    border-radius: 5px;
+    border: 2px lightgrey solid;
+    border-radius: 10px;
 }
 
 main section img {
     height: auto; 
     width: 100%;
+     border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 
 }
 main section div {
      padding: 1%;
      color: black;
+     background: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
 }
 main section div h1{
     font-size: 2.5rem;

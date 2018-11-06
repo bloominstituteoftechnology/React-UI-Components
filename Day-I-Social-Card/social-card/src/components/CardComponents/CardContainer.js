@@ -4,16 +4,18 @@ import CardBanner from './CardBanner';
 import CardContent from './CardContent';
 
 function CardContainer() {
-  return <a href="https://www.reactjs.org" target="_blank" rel="noopener"> 
-        <main>
-          <section>
-            <CardBanner source="https://ibin.co/3wnC6SgIOJud.png" />
-            <div>
-              <CardContent />
-            </div>
-          </section>
-        </main>
-      </a>;
+  return (
+    <main>
+      <a href="https://www.reactjs.org">
+        <section>
+          <CardBanner source="https://ibin.co/3wnC6SgIOJud.png" />
+          <div>
+            <CardContent />
+          </div>
+        </section>
+      </a>
+    </main>
+  );
 }
 
 
