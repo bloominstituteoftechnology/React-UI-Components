@@ -1,1 +1,54 @@
 /* All styles for your header Components live here */
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    
+    border: 1px solid black;
+}
+
+.thumbnail {
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 24px;
+    /* filter:  hue-rotate(-180deg) grayscale(100%);   */
+    height: 85px;
+    background-color: lightgray;
+    /* background-color:  #932527;   */
+    
+}
+
+.thumbnail-img {
+    width: 60%;
+    color: white;
+    height: auto;
+    
+}
+
+.content {
+     margin-left: 17px; 
+}
+
+.headers {
+    display: flex;
+    align-items: baseline;
+    flex-wrap: nowrap;
+    margin-top: 10px;
+     
+}
+
+.header-2 {
+    color: #B3BDC5;
+    margin-left: 20px;
+    font-weight: lighter;
+}
+
+.header-content {
+    width: 80%;
+}
+
+
+
+
+
