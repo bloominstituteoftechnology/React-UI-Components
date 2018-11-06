@@ -1,0 +1,6 @@
+.Container {
+    height: 60rem;
+    width: 45rem;
+    border: 1px solid var(--gray);
+    margin: 5rem auto;
+}

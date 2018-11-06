@@ -1,5 +1,24 @@
-body {
+* {
   margin: 0;
   padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  box-sizing: border-box;
   font-family: sans-serif;
+  background-color: var(--white);
+  color: var(--black);
+}
+
+:root {
+  --white: #fafbfa;
+  --red: #9e0523;
+  --black: #222222;
+  --gray: #e5e5e5;
 }
