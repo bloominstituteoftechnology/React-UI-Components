@@ -1,4 +1,12 @@
 .displayDiv {
-    width: 100%;
-    border: 1px solid gray;
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.displayValue {
+    margin: 10px;
+    font-size: 4.8rem;
 }

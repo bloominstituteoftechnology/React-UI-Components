@@ -4,7 +4,7 @@ import './Button.css';
 function ActionButton(props) {
     return (
         <Fragment>
-            <div className={`${props.buttonColor} ${props.buttonWidth}`} onClick={props.whenClicked(props.value)}>
+            <div className={`actionButton ${props.buttonColor} ${props.buttonWidth}`} onClick={() => props.whenClicked(props.value)}>
                 {props.value}
             </div>
         </Fragment>
