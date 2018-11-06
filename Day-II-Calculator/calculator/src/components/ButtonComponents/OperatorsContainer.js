@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
 import NumberButton from './NumberButton';
 
-function OperatorsContainer () {
+function OperatorsContainer() {
     return (
         <div className='operators'>
             <NumberButton buttonStyle='arithmetic' text='&divide;' />
