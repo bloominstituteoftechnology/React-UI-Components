@@ -1,6 +1,6 @@
 import React from 'react';
 import './Header.css';
-import 'HeaderTitle';
+import HeaderTitle from 'HeaderTitle.js';
 
 function headerContent(props) {
     return (
