@@ -1,1 +1,6 @@
 /* All styles for your Card Components live here */
+
+.cardcontainer {
+    max-width: 590px;
+    height: 100%;
+}

@@ -1,1 +1,23 @@
 /* All styles for your header Components live here */
+
+.container {
+    max-width: 590px;
+    height: 100%;
+}
+
+.HeaderContent {
+    display: flex;
+    content: flex-wrap;
+}
+
+.handle {
+    color: lightgray;
+    font-weight: lighter;
+    font-size: 12px;
+}
+
+.img {
+    justify-content: flex-start;
+}
+
+
