@@ -2,6 +2,11 @@
     font-size: 48px;
     text-align: center;
     padding-top: 20px;
+    
+}
+.number:hover{
+    cursor: pointer;
+    background-color: whitesmoke;
 }
 
 .action {
@@ -10,6 +15,12 @@
     padding-top: 20px;
     background-color: rgb(147, 28, 37);
     color: white;	
+}
+
+.action:hover{
+    cursor: pointer;
+    background-color: lightgrey;
+    background-color: rgb(121, 22, 30);
 }
 
 .clear-button{
@@ -49,67 +60,61 @@
     border: 1px solid grey;
 }
 
-.zero-button{
+.n0-button{
     grid-column: 1 / 4;
     grid-row: 6;
     border: 1px solid grey;
 }
 
-.zero-button{
-    grid-column: 1 / 4;
-    grid-row: 6;
-    border: 1px solid grey;
-}
-
-.one-button{
+.n1-button{
     grid-column: 1;
     grid-row: 5;
     border: 1px solid grey;
 }
 
-.two-button{
+.n2-button{
     grid-column: 2;
     grid-row: 5;
     border: 1px solid grey;
 }
 
-.three-button{
+.n3-button{
     grid-column: 3;
     grid-row: 5;
     border: 1px solid grey;
 }
 
-.four-button{
+.n4-button{
     grid-column: 1;
     grid-row: 4;
     border: 1px solid grey;
 }
 
-.five-button{
+.n5-button{
     grid-column: 2;
     grid-row: 4;
     border: 1px solid grey;
 }
 
-.six-button{
+.n6-button{
     grid-column: 3;
     grid-row: 4;
     border: 1px solid grey;
 }
 
-.seven-button{
+.n7-button{
     grid-column: 1;
     grid-row: 3;
     border: 1px solid grey;
 }
 
-.eight-button{
+.n8-button{
     grid-column: 2;
     grid-row: 3;
     border: 1px solid grey;
 }
 
-.nine-button{
+.n9-button{
     grid-column: 3;
     grid-row: 3;
     border: 1px solid grey;

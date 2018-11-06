@@ -5,24 +5,39 @@ import NumberButton from './components/ButtonComponents/NumberButton';
 import CalculatorDisplay from './components/DisplayComponents/CalculatorDisplay';
 
 
+
+
 const App = () => {
-  return (
+  
+  let total = 0;
+
+  function clickHandler (item){
+    console.log(item, " button was clicked");
+    total = item;
+  }
+  
+  function populate(num){
+    let arr = [];
+    for (let i = 0; i<num; i++){
+      arr.push(i);
+    }
+    console.log(fill(arr));
+    return fill(arr);
+  }
+  
+  function fill(arr){
+    
+    return arr.map( item => (
+        <NumberButton onClick={clickHandler} number={item} displayType={`n${item.toString()}-button number`}/>
+    ));
+  }
+
+    return (
     <div className="container">
-      <CalculatorDisplay display="0" displayType = "hodisplay"/>
-      
-      {/* <NumberButton number={0} displayType = {"n" + i.toString() + "-button"} /> */}
-      <NumberButton number={0} displayType = "zero-button number"/>
-      <NumberButton number={1} displayType = "one-button number"/>
-      <NumberButton number={2} displayType = "two-button number"/>
-      <NumberButton number={3} displayType = "three-button number"/>
-      <NumberButton number={4} displayType = "four-button number"/>
-      <NumberButton number={5} displayType = "five-button number"/>
-      <NumberButton number={6} displayType = "six-button number"/>
-      <NumberButton number={7} displayType = "seven-button number"/>
-      <NumberButton number={8} displayType = "eight-button number"/>
-      <NumberButton number={9} displayType = "nine-button number"/>
-      
+      <CalculatorDisplay display={total} displayType = "hodisplay"/>
+      {populate(10)}
       <ActionButton type='clear' displayType = "clear-button number"/>
+    
       <ActionButton type='÷' displayType = "divide-button action"/>
       <ActionButton type='x' displayType = "multiply-button action"/>
       <ActionButton type='-' displayType = "minus-button action"/>
