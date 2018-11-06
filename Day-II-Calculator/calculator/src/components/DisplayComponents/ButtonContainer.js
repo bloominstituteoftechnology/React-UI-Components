@@ -1,5 +1,5 @@
 import React from 'react';
-import './Display.css';
+import './Display.sass';
 
 import NumberButton from '../ButtonComponents/NumberButton';
 
