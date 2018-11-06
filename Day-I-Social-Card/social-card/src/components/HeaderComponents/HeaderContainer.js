@@ -1,13 +1,13 @@
 import React from 'react';
 import './Header.css';
-import './ImageThumbnail.js';
-import './HeaderContent.js';
+import ImageThumbnail from './ImageThumbnail.js';
+import HeaderContent from './HeaderContent.js';
 
 function HeaderContainer(props) {
     return (
       <div >
-       <div><imageThumbnail /></div>
-       <div><headerContent /></div>
+       <div><ImageThumbnail /></div>
+       <div><HeaderContent /></div>
 
       </div>
 
