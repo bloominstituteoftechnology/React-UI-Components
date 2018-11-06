@@ -19,7 +19,7 @@ function CardContainer(props) {
 
 
     );
-};
+}
 
 
 
