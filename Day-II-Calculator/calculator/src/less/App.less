@@ -1,12 +1,23 @@
-@import './Display.less';
-@import './Button.less';
 
 *{
   box-sizing: border-box;
 }
-
-main {
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 25%;
+  background: #B8BDB5;
+  main {
   display: flex;
   flex-flow: column wrap;
-  border: 1px black solid;
+  border: 5px black solid;
+  width: 400px;
 }
+}
+
+
+
+@import './Display.less';
+@import './Button.less';
