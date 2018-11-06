@@ -23,10 +23,14 @@ class App extends React.Component {
 
     this.state = {
 
-      total: 0,
-      accumulator: 0
+      total: "0",
+      accumulator: 0,
+      operation: '+'
 
     }
+
+    this.onNumClick = this.onNumClick.bind(this);
+    this.onActionClick = this.onActionClick.bind(this);
 
   }
 
@@ -36,10 +40,98 @@ class App extends React.Component {
       <div className="calculator">
 
         <CalculatorDisplay total={this.state.total} />
-        <ButtonContainer />
+        <ButtonContainer onBtnClick={this.onNumClick} onActionClick={this.onActionClick}/>
 
       </div>
     );
+
+  }
+
+  onActionClick(action) {
+
+    switch(action) {
+
+      case '-':
+
+        this.setState({
+          accumulator: parseInt(this.state.total),
+          total: "0",
+          operation: '-'
+        });
+
+        break;
+
+      case '+':
+
+        this.setState({
+          accumulator: parseInt(this.state.total),
+          total: "0",
+          operation: '+'
+        });
+
+        break;
+
+      case 'x':
+
+        this.setState({
+          accumulator: parseInt(this.state.total),
+          total: "0",
+          operation: '*'
+        });
+
+        break;
+
+      case '÷':
+
+        this.setState({
+          accumulator: parseInt(this.state.total),
+          total: "0",
+          operation: '/'
+        });
+
+        break;
+
+      case '=':
+
+        this.setState({
+
+          total: eval(`${this.state.accumulator} ${this.state.operation} ${parseInt(this.state.total)}`)
+
+        });
+
+        break;
+
+      case 'clear':
+
+        this.setState({
+
+          total: '0'
+
+        });
+
+      break;
+
+    }
+
+  }
+
+  onNumClick(id) {
+
+    if (this.state.total == "0") {
+
+      this.setState({
+        total: "" + id
+      });
+
+    }
+
+    else {
+
+      this.setState({
+        total: this.state.total + id
+      });
+
+    }
 
   }
 

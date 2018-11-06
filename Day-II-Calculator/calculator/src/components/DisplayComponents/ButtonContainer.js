@@ -4,11 +4,11 @@ import './Display.sass';
 import NumberButton from '../ButtonComponents/NumberButton';
 import ActionButton from '../ButtonComponents/ActionButton';
 
-const ButtonContainer = () => {
+const ButtonContainer = (props) => {
 
   let numBtns = [7, 8, 9, 4, 5, 6, 1, 2, 3];
 
-  numBtns = numBtns.map(btn => <NumberButton id={btn} />);
+  numBtns = numBtns.map(btn => <NumberButton id={btn} onBtnClick={props.onBtnClick}/>);
 
   return (
 
@@ -16,21 +16,21 @@ const ButtonContainer = () => {
 
       <div className="nums-container">
 
-        <ActionButton action="clear" />
+        <ActionButton action="clear" onClick={props.onActionClick}/>
 
         {numBtns}
 
-        <ActionButton action="0" />
+        <ActionButton action="0" onClick={props.onBtnClick} />
 
       </div>
 
       <div className="action-container">
 
-        <ActionButton action="÷" />
-        <ActionButton action="x" />
-        <ActionButton action="-" />
-        <ActionButton action="+" />
-        <ActionButton action="=" />
+        <ActionButton action="÷" onClick={props.onActionClick} />
+        <ActionButton action="x" onClick={props.onActionClick} />
+        <ActionButton action="-" onClick={props.onActionClick} />
+        <ActionButton action="+" onClick={props.onActionClick} />
+        <ActionButton action="=" onClick={props.onActionClick} />
 
       </div>
 

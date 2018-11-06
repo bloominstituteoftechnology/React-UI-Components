@@ -1,9 +1,9 @@
 import React from 'react';
 import './Button.sass';
 
-const NumberButton = ({id}) => {
+const NumberButton = (props) => {
 
-  return <button>{id}</button>;
+  return <button onClick={() => props.onBtnClick(props.id)}>{props.id}</button>;
 
 }
 
