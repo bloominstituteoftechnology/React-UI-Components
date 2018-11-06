@@ -1,0 +1,45 @@
+.numPad {
+    width: 74%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.operators {
+    width: 26%;
+    display: flex;
+    flex-direction: column;
+}
+
+.number {
+    width: 33.333%;
+    height: 94px;
+    background-color: #FFFFFF;
+    color: #222222;
+    text-align: center;
+    outline: 1px solid grey;
+    font-size: 2.75rem;
+    font-weight: bold;
+    padding: 20px 0;
+}
+
+.operator {
+    width: 100%;
+    height: 94px;
+    background-color: #A0001F;
+    color: #FFFFFF;
+    font-size: 3.75rem;
+    outline: 1px solid grey;
+    text-align: center;
+    padding-bottom: 7px;
+    /* padding-right: 2px; */
+}
+
+.action {
+    background-color: #FFFFFF;
+    color: #222222;
+    width: 100%;
+    height: 94px;
+    /* font-weight: normal; */
+    font-size: 3rem;
+    /* padding: 10px 0; */
+}
