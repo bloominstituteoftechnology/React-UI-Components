@@ -5,7 +5,9 @@ function NumberButton(props){
 
     return (
         <React.Fragment>
-            <button className={props.buttonStyle}>{props.text}</button>
+            <button className={props.buttonStyle} onClick={() => {
+                props.inputHandler();
+            }}>{props.text}</button>
         </React.Fragment>
     );
 }

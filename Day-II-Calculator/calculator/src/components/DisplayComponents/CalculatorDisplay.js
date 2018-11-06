@@ -7,8 +7,10 @@ function CalculatorDisplay(){
 
     return (
         <div className='calc-display-content'>
-            <NumberButton buttonStyle={'displayBtn'} text={'0'} />
-            <ActionButton  buttonStyle={'actionBtn'} text={'clear'}/> 
+        <div className='displayTotal'>
+            <h1 className='displayInput'>0</h1>
+        </div>
+            <ActionButton buttonStyle={'actionBtn'} text={'clear'}/> 
             <NumberButton buttonStyle={'buttonSigns'} text={'/'} />
             <NumberButton buttonStyle={'buttonNums'} text={'7'} />
             <NumberButton buttonStyle={'buttonNums'} text={'8'} />
