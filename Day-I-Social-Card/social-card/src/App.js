@@ -11,6 +11,7 @@ const App = () => {
      <HeaderContainer />
      <div>
         <CardContainer />
+        <Footer />
       </div>
       // <h3>Welcome to React Social Card!</h3>
       // <p>
