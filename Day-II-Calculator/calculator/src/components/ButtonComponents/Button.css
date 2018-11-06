@@ -1,0 +1,20 @@
+.actionButton{
+    height: 20%;
+    border: 1px solid black;
+    font-size: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* cursor: pointer; */
+}
+
+.numberButton{
+    height:33.3333333%;
+    width:33.333333333333333333333333333333333333333333333%;
+    border: 1px solid black;
+    font-size: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* cursor: pointer; */
+}

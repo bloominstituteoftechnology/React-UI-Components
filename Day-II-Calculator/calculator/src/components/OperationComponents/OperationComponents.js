@@ -1,7 +1,7 @@
 import React from 'react';
-import './Button.css';
+import './Operation.css';
 
-function NumberButton(props){
+function OperationButton(props){
     return(
         <div className={props.style}>
             {props.text}
@@ -9,4 +9,4 @@ function NumberButton(props){
     );
 }
 
-export default NumberButton;
+export default OperationButton;

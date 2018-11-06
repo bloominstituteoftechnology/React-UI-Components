@@ -1,5 +1,23 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
 body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+}
+
+#root{
+  max-width: 45rem;
+  margin: 0 auto;
+  margin-top: 0rem;
+  border: 1px solid black;
 }
