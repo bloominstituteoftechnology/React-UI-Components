@@ -95,7 +95,7 @@ class App extends React.Component {
 
         this.setState({
 
-          total: eval(`${this.state.accumulator} ${this.state.operation} ${parseInt(this.state.total)}`)
+          total: "" + eval(`${this.state.accumulator} ${this.state.operation} ${parseInt(this.state.total)}`)
 
         });
 
