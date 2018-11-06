@@ -13,22 +13,22 @@ const Calculator = props => {
     <div className="calculator">
       <Display />
       <ButtonRow>
-        <NumberButton buttonStyle="wide narrow" text="clear"/>
-        <ActionButton text="/"/>
-        <NumberButton text="7"/>
-        <NumberButton text="8"/>
-        <NumberButton text="9"/>
-        <ActionButton text="*"/>
-        <NumberButton text="4"/>
-        <NumberButton text="5"/>
-        <NumberButton text="6"/>
-        <ActionButton text="-"/>
-        <NumberButton text="1"/>
-        <NumberButton text="2"/>
-        <NumberButton text="3"/>
-        <ActionButton text="+"/>
-        <NumberButton buttonStyle="wide" text="0"/>
-        <ActionButton text="="/>
+        <ActionButton buttonStyle="wide numberBtn narrow" text="clear"/>
+        <NumberButton buttonStyle="numberBtn bgRed" text="/"/>
+        <NumberButton buttonStyle="numberBtn" text="7"/>
+        <NumberButton buttonStyle="numberBtn" text="8"/>
+        <NumberButton buttonStyle="numberBtn" text="9"/>
+        <NumberButton buttonStyle="numberBtn bgRed" text="*"/>
+        <NumberButton buttonStyle="numberBtn" text="4"/>
+        <NumberButton buttonStyle="numberBtn" text="5"/>
+        <NumberButton buttonStyle="numberBtn" text="6"/>
+        <NumberButton buttonStyle="numberBtn bgRed" text="-"/>
+        <NumberButton buttonStyle="numberBtn" text="1"/>
+        <NumberButton buttonStyle="numberBtn" text="2"/>
+        <NumberButton buttonStyle="numberBtn" text="3"/>
+        <NumberButton buttonStyle="numberBtn bgRed" text="+"/>
+        <ActionButton buttonStyle="wide numberBtn" text="0"/>
+        <NumberButton buttonStyle="numberBtn bgRed" text="="/>
       </ButtonRow>
     </div>
   )
