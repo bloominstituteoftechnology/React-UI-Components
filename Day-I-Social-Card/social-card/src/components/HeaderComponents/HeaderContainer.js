@@ -5,7 +5,7 @@ import HeaderContent from './HeaderContent';
 
 function HeaderContainer(props) {
     return (
-      <div >
+      <div ClassName="headerContainerFlexing">
        <div><ImageThumbnail /></div>
        <div><HeaderContent /></div>
 
