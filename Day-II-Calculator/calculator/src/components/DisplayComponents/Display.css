@@ -1,0 +1,11 @@
+.hodisplay {
+    grid-column: 1 / 5;
+    grid-row: 1;
+    font-size: 48px;
+    text-align: right;
+    padding-top: 20px;
+    padding-right: 20px;
+    background-color: rgb(34, 34, 34);
+    color: white;
+    border: 1px solid grey;
+}
