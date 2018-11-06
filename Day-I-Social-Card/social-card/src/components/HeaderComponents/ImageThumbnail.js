@@ -3,7 +3,7 @@ import './Header.css';
 
 function ImageThumbnail(props) {
     return (
-        <img src ='https://ibin.co/3whrpKSBbZ81.png' className='img' alt='thumbnail' />
+        <img src ='https://ibin.co/3whrpKSBbZ81.png' className='logoimg' alt='thumbnail' />
     )
 }
 

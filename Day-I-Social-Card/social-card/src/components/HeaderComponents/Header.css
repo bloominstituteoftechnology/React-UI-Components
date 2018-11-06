@@ -3,21 +3,50 @@
 .container {
     max-width: 590px;
     height: 100%;
+
 }
 
 .HeaderContent {
     display: flex;
-    content: flex-wrap;
+    justify-content: space-between;
+   
 }
 
 .handle {
-    color: lightgray;
-    font-weight: lighter;
+    color: #7e8e9d;
+    font-weight: 100;
     font-size: 12px;
+    position: relative;
+    right: 220px;
 }
 
-.img {
-    justify-content: flex-start;
+.header {
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: -15px;
+    margin-left: -37px;
+}
+.logoimg {
+    width: 5%;
+    height: 5%;
+    position: relative;
+    top: 22px;
+    left: 10px;
 }
 
+.text {
+    
+    font-size: 14px; 
+    font-weight: lighter;
+    margin-top: 0px;
+}
+
+.Ptext {
+    width: 80%;
+    line-height: 1.25;
+    margin-left: 58px;
+    position: relative;
+    bottom: 15px;
+    height: 50px;
+}
 

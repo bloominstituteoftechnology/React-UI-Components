@@ -9,7 +9,7 @@ function HeaderContent(props) {
         <ImageThumbnail /> 
         <HeaderTitle title="Lambda School" />
         <HeaderTitle handle = "@LambdaSchool 26 Jan"/>
-         </div>   )
+        </div> )
 };
 
 export default HeaderContent;
