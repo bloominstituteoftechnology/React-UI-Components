@@ -1,7 +1,6 @@
 import React from 'react';
 import TotalBar from '../TotalBar/TotalBar';
-import InputKeyPad from '../Keypads/InputKeyPad';
-import OperatorKeyPad from '../Keypads/OperatorKeyPad';
+import KeyPad from '../Keypads/KeyPad';
 import './CalculatorContainer.css';
 
 const CalculatorContainer = () => {
@@ -10,8 +9,7 @@ const CalculatorContainer = () => {
   return (
     <div className="CalculatorContainer">
       <TotalBar total={total} />
-      <InputKeyPad />
-      <OperatorKeyPad />
+      <KeyPad />
     </div>
   );
 };
