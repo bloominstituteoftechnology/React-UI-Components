@@ -1,0 +1,8 @@
+.display {
+  text-align: right;
+  padding: 20px 10px;
+  font-size: 70px;
+  background: #222222;
+  color: white;
+  border: 1px solid #979797;
+}
