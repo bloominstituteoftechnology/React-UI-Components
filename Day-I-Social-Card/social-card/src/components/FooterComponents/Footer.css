@@ -5,6 +5,7 @@
 
 .far, .fas {
   color: gray;
+  cursor: pointer;
 }
 
 .far:not(:first-of-type), .fas {
@@ -21,7 +22,7 @@
   pointer-events: none;
 }
 
-.fa-comment {
+.fa-comment {  /* mirrors icon...the font awesome comment cloud was facing the wrong direction */
   -moz-transform: scale(-1, 1);
 -webkit-transform: scale(-1, 1);
 -o-transform: scale(-1, 1);
