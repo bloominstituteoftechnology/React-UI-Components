@@ -1,0 +1,14 @@
+.calculator-display {
+    width: 432px;
+    height: 90px;
+    background: #2D2D2E;
+    font-size: 4rem;
+    color: #fff;
+    text-align: right; 
+}
+
+.calculator-display span {
+    display: inline-block;
+    padding-top: 15px;
+    margin-right: 10px;
+}
