@@ -3,6 +3,8 @@
     height: 500px;
     background: red;
     margin: 0 auto;
+    display: flex;
+    flex-direction: row;
 }
 
 .clear {
@@ -14,4 +16,37 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
+}
+
+.clear:hover{
+    color: lightgray;
+    background: transparent;
+}
+
+.actions {
+    width: 115px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+}
+
+.action {
+    height: 100px;
+    width: 115px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: orange;
+    border: 1px solid white;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.action:hover{
+    color: orange;
+    background: transparent;
 }

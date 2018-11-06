@@ -1,7 +1,7 @@
 import React from 'react';
 import './Button.css';
 
-const ClearButton = (props) => {
+const ClearButton = props => {
     return (
         <div className='clear'>
             <p>{props.text}</p>
