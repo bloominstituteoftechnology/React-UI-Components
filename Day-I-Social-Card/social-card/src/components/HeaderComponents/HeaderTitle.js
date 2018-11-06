@@ -1,10 +1,10 @@
 import React from 'react';
 import './Header.css';
 
-function HeaderTitle(){
+function HeaderTitle(props){
     return(
-        <h3 className="title">Lambda School
-            <span className="handle"> @LambdaSchool • 26 Jan</span>
+        <h3 className="title">{props.accountName}
+            <span className="handle"> @{props.accountHandle} • 26 Jan</span>
         </h3>
     );
 }

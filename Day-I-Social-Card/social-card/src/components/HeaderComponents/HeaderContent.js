@@ -5,7 +5,7 @@ import HeaderTitle from './HeaderTitle';
 function HeaderContent(){
     return(
         <div className="header-content">
-            <HeaderTitle />
+            <HeaderTitle accountName="Lambda School" accountHandle="LambdaSchool"/>
             <p>Let's learn React by building simple interfaces with components. Don't try to overthink it, jsut keep it simple and have fun. Once you feel comfortable using components you are well on your way to mastering React!</p>
         </div>
     );
