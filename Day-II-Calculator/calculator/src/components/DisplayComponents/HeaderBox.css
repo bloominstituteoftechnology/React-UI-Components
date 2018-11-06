@@ -1,0 +1,8 @@
+.HeaderBox {
+    display: block;
+    border: 2px solid lightgray;
+    background-color: rgb(41, 39, 39);
+    color: bisque;
+    text-align: end;
+    padding: 0 15px 0 0;
+}

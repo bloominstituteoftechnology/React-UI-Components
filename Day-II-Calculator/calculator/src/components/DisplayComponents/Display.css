@@ -1,0 +1,13 @@
+.CalculatorDisplay {
+    width: 600px;
+    height: 800px;
+}
+
+.CalculatorButtonsDisplay {
+    height: 75%;
+    width: 100%;
+    /* display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: stretch; */
+}

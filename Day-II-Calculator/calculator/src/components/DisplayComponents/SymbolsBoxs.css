@@ -1,0 +1,50 @@
+.SymbolsBoxs {
+    border: 1px solid lightgrey;
+    width: 23%;
+    height: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: rgb(131, 7, 7);
+    color: beige;
+    font: 5rem;
+    /* border-radius: 10px; */
+    /* margin-bottom: 10px; */
+    /* text-align: left; */
+    /* padding: 10px; */
+}
+
+.SymbolsBoxs p {
+    text-align: center;
+    /* border: 1px solid lightgrey; */
+    font: 8rem;
+}
+
+.NumbersBoxs {
+    border: 4px solid lightgrey;
+    width: 23%;
+    height: 15%;
+    display: flex;
+    flex-direction: row;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: white;
+    color: black;
+    font: 5rem;
+    /* border-radius: 10px; */
+    /* margin-bottom: 10px; */
+    /* text-align: left; */
+    /* padding: 10px; */
+}
+
+.NumbersBoxs p {
+    text-align: center;
+    /* border: 1px solid lightgrey; */
+    font: 8rem;
+}
+
+.NumbersBoxs :first-child {
+    display: inline-block;
+}
