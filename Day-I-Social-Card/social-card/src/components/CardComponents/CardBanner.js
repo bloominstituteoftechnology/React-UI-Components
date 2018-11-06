@@ -1,5 +1,6 @@
 import React from 'react';
 import './Card.css';
+import Biglogo from 'https://ibin.co/3wnC6SgIOJud.png'
 
 
 
@@ -7,7 +8,7 @@ import './Card.css';
 function CardBanner(props) {
     return (
         <div>
-        <img src="https://ibin.co/3wnC6SgIOJud.png" alt+"background Image" />
+        <img src={Biglogo} alt="background Image" />
         </div>
 
 

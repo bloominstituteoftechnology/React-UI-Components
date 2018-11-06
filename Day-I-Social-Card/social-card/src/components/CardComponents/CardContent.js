@@ -1,6 +1,6 @@
 import React from 'react';
 import './Card.css';
-import HeaderContent from './HeaderContent.js';
+
 
 function CardContent(props) {
     return (
