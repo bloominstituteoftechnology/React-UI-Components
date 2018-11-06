@@ -1,1 +1,37 @@
 /* All styles for your Card Components live here */
+
+
+.card {
+    max-width: 625px;
+    margin: 0 auto;
+}
+
+.card-container {
+    margin: 0 0 0 60px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+}
+
+.banner-img {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.content {
+    padding: 0 15px;
+}
+
+p {
+    margin: 10px 0;
+}
+
+.title {
+    font-weight: bold;
+}
+
+.url {
+    font-size: 16px;
+    color: gray;
+}
