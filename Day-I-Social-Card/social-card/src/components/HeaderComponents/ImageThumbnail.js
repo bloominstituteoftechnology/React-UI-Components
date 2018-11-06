@@ -1,12 +1,12 @@
-import React, { Fragment } from 'react';
-import './Header.css';
+import React from 'react';
+import './Header.sass';
 
 const ImageThumbnail = props => {
     console.log(props);
     return (
-        <Fragment>
-            <img src={props.user.avatarUrl} alt="" />
-        </Fragment>
+        <div className="image-thumbnail">
+            <img className="image-thumbnail" src={props.user.avatarUrl} alt="" />
+        </div>
     );
 };
 

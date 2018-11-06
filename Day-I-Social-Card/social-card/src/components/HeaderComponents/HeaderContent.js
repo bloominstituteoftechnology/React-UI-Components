@@ -1,8 +1,12 @@
-import React, { Fragment } from 'react';
-import './Header.css';
+import React from 'react';
+import './Header.sass';
 
 const HeaderContent = props => {
-    return <Fragment />;
+    return (
+        <>
+            <p className="header-content">{props.content}</p>
+        </>
+    );
 };
 
 export default HeaderContent;

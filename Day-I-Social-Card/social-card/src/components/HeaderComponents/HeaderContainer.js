@@ -1,21 +1,26 @@
-import React, { Fragment } from 'react';
-import './Header.css';
+import React from 'react';
+import './Header.sass';
 import ImageThumbnail from './ImageThumbnail';
 import HeaderTitle from './HeaderTitle';
 import HeaderContent from './HeaderContent';
 
 const HeaderContainer = props => {
     let user = {
-        avatarUrl: 'https://ibin.co/3whrpKSBbZ81.png',
+        avatarUrl: './assets/avatar.jpg',
         name: 'Lambda School',
-        profile: '#'
+        profile: '#',
+        handle: '@LambdaSchool'
+    };
+    let post = {
+        summary:
+            "Let's learn React by building simple interfaces with components. Don't try to overthink it. Just keep it simple and have fun. Once you feel comfortable using components you are well on your way to mastering React!"
     };
     return (
-        <Fragment>
+        <div className="header-container">
             <ImageThumbnail user={user} />
             <HeaderTitle user={user} />
-            <HeaderContent />
-        </Fragment>
+            <HeaderContent content={post.summary} />
+        </div>
     );
 };
 

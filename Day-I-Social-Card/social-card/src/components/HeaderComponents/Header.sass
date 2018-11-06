@@ -1,0 +1,50 @@
+.header-container
+    margin-left: 6px
+    margin-top: 11px
+    display: grid
+    grid-template-columns: 48px
+    width: 100%
+    .image-thumbnail
+            grid-column-start: 1
+            grid-row-start: 1
+            grid-row-end: 3
+            border-radius: 100%
+            width: 48px
+            height: 48px
+            display: flex
+            align-items: center
+            justify-content: center
+            background-color: rgb(171,35,23)
+            img
+                height: 40px
+                width: 40px
+    .header-title-container
+        grid-column-start: 2
+        grid-row-start: 1
+        display: flex
+        margin-top: 3px
+        .header-title
+            font-weight: bold
+            font-size: 1.2rem
+            margin-left: 10px
+            letter-spacing: 0.14rem
+            a
+                text-decoration: none
+                color: black
+        .user-handle 
+            margin-left: 4px
+            font-size: 1.2rem
+            text-decoration: none
+            color: black
+        .post-date
+            margin-left: 13px
+            font-size: 1.2rem
+    .header-content
+        margin-top: 11px
+        margin-left: 9px 
+        width: 90%
+        grid-row-start: 2
+        grid-column-start: 2
+        font-size: 1.5rem
+        word-spacing: -2px
+        line-height: 1.6rem
