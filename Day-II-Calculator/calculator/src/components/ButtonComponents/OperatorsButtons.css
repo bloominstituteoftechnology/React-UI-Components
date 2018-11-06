@@ -1,3 +1,16 @@
 .buttons-container-sm {
     width: 280px;
+    margin-left: -10px;
+}
+
+.buttons-wrapper-sm {
+    width: 100%;
+}
+
+.button-red {
+    background: #990000;
+}
+
+.button-component:last-child {
+    border-bottom: 1.3px solid gray;
 }
