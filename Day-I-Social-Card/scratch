@@ -1,0 +1,28 @@
+this.state{
+    total: "0",
+    arrray: [],
+    placeholder: "",
+}
+
+
+method()
+onClick(placeholder += buttonValue)
+
+if onClick === actionButton
+ array.push(placeholder)
+ placeholder=""
+ array.push(actionButton)
+
+ onClick(placeholder += buttonValue)
+
+ if onClick === `=`
+
+  array.push(placeholder)
+  placeholder === ""
+
+
+  result [NUMBER, OPERATOR, NUMBER]
+
+  if array[1] === '+'{
+      array[0] + array[1]
+  } 

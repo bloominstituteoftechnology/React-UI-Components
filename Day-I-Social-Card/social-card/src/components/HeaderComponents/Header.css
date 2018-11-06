@@ -1,1 +1,29 @@
 /* All styles for your header Components live here */
+/* .headerContainer{
+    display: flex;
+} */
+
+.headerContainer{
+    display: flex;
+    width: 100%;
+}
+
+.header__text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 2%;
+}
+
+.header__title--bold{
+    font-weight: bold;
+}
+
+.header__title--grey{
+    color: gray;
+}
+
+.header__thumbnail{
+    width: 100%;
+    height:auto;
+}
