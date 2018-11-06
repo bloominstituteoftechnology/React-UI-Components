@@ -1,0 +1,31 @@
+.number-button {
+    font-size: 50px;
+    font-weight: bold;
+    border: 1px solid grey;
+    width: 125px;
+    height: 125px;
+}
+
+.operator-button {
+    font-size: 80px;
+    border: 1px solid grey;
+    width: 125px;
+    height: 125px;
+    background-color: #A0001E;
+    color: white;
+}
+
+.clear {
+    width: 375px;
+    height: 125px;
+    font-size: 50px;
+    background-color: white;
+}
+
+.zero {
+    width: 375px;
+    height: 125px;
+    font-size: 50px;
+    font-weight: bold;
+    background-color: white;
+}
