@@ -7,7 +7,7 @@ function ImageThumbnail(props) {
     return (
       <div><img src={logo} alt= {"logo"}/>
 
-        </rdiv>
+        </div>
     );
 };
 
