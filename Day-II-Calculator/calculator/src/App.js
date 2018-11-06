@@ -4,7 +4,7 @@ import './App.sass';
 import ButtonContainer from './components/DisplayComponents/ButtonContainer';
 import CalculatorDisplay from './components/DisplayComponents/CalculatorDisplay';
 
-const App = () => {
+/*const App = () => {
   return (
     <div className="calculator">
 
@@ -13,6 +13,36 @@ const App = () => {
 
     </div>
   );
-};
+};*/
+
+class App extends React.Component {
+
+  constructor() {
+
+    super();
+
+    this.state = {
+
+      total: 0,
+      accumulator: 0
+
+    }
+
+  }
+
+  render() {
+
+    return (
+      <div className="calculator">
+
+        <CalculatorDisplay />
+        <ButtonContainer />
+
+      </div>
+    );
+
+  }
+
+}
 
 export default App;
