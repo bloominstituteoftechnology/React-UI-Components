@@ -1,7 +1,7 @@
 import React from 'react';
 import './Header.css';
-import ImageThumbnail from './ImageThumbnail.js';
-import HeaderContent from './HeaderContent.js';
+import ImageThumbnail from './ImageThumbnail';
+import HeaderContent from './HeaderContent';
 
 function HeaderContainer(props) {
     return (
