@@ -4,9 +4,7 @@ import './Card.css';
 
 function CardBanner(){
   return(
-    <React.Fragment>
-      <img src={'./favicon.ico'} />
-    </React.Fragment>
+    <div className='banner' style={{backgroundImage:`url(https://ibin.co/3wnC6SgIOJud.png)`}} />
   )
 }
 

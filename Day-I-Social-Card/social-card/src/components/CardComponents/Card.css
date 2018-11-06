@@ -1,1 +1,11 @@
 /* All styles for your Card Components live here */
+.banner{
+  height: 20rem;
+  margin: 0 auto;
+  background-size: 155%;
+  background-position-x: 53%;
+  background-position-y: 46%;
+  margin-left: 3.25rem;
+  margin-right: 0.8rem;
+  border-radius: 0.5rem;
+}
