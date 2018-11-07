@@ -1,0 +1,31 @@
+.FooterContainer {
+    margin-top: 2rem;
+    margin-left: 7rem;
+    display: flex;
+    justify-content: space-between;
+    width: 45%;
+}
+
+.retweet, 
+.like {
+    display: flex;
+}
+
+.FooterContainer p {
+    margin-left: 1rem;
+    color: #A9A9A9;
+}
+
+.FooterContainer i {
+    font-size: 2rem;
+    color: #A9A9A9;
+    cursor: pointer;
+}
+
+i:hover{
+    color: blue;
+}
+
+.fa-heart-o:hover {
+    color: red
+}

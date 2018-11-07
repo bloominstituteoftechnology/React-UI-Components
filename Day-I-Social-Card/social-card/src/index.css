@@ -1,5 +1,15 @@
-body {
-  margin: 0;
-  padding: 0.4rem;
-  font-family: sans-serif;
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+  }
+  
+html {
+	font-size: 62.5%;
+	font-family: sans-se
 }
+
+body {
+	font-size: 1.6rem;
+  }
+  

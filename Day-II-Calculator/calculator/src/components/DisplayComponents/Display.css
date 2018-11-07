@@ -1,0 +1,14 @@
+.DisplayContainer {
+    background: var(--black);
+    color: var(--white);
+    height: 12rem;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center
+}
+
+.Container .DisplayContainer p {
+    margin-right: 1rem;
+    font-size: 7rem;
+}

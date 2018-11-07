@@ -2,13 +2,13 @@ import React from 'react';
 import './Button.css';
 
 
-const NumberButtons = (props) => {
+
+const LargeNumbers = (props) => {
     return (
-        <div className='NumberContainer'>
+        <div className='LargeNumberContainer'>
             <p>{props.text}</p>
         </div>
     );
 };
 
-
-export default NumberButtons; 
+export default LargeNumbers;
