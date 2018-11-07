@@ -1,0 +1,5 @@
+.container {
+    max-width: 456px;
+    max-height: 598px;
+    border: 1px solid black;
+}

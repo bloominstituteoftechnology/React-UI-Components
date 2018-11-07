@@ -1,0 +1,24 @@
+
+.buttons {
+    max-width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+}
+button {
+    display: flex;
+    flex-wrap: wrap;
+    width: 60px;
+    height: 60px;
+    border: 1px solid black;
+    margin: 0px;
+}
+
+h4 {
+    border: 1px solid black;
+    width: 200px;
+    height: 50px;
+    Background-color: white;
+    color:black;
+    text-align: center;
+
+}

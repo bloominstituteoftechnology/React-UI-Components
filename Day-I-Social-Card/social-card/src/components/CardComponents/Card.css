@@ -1,1 +1,52 @@
 /* All styles for your Card Components live here */
+
+.cardcontainer {
+    max-width: 590px;
+    height: 100%;
+    display: flex;
+    
+} 
+
+.Card {
+    width: 90%;
+    position: relative;
+    left: 58px;
+    border: 1px solid lightgray;
+    border-radius: 7px;
+}
+
+.Banner {
+    width: 100%;
+}
+
+.cardtitle {
+    font-size: 14px;
+    margin-bottom: -10px;
+    margin-left:15px;
+}
+
+.cardtext {
+    font-size: 14px;
+    font-weight: lighter;
+    line-height: 1.25;
+    margin-bottom: -15px;
+    margin-left:15px;
+}
+
+.cardsite {
+    color: #7e8e9d;
+    font-weight: lighter;
+    font-size: 14px;
+    margin-left:15px;
+    margin-bottom: 10px
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:visited {
+    text-decoration: none;
+    color: black;
+}
