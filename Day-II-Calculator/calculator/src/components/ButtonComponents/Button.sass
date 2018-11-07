@@ -1,0 +1,43 @@
+.buttons-container
+    display: flex
+    justify-content: flex-start
+.left-buttons
+    flex-grow: 3
+    
+.action-button 
+    width: 100%
+    height: 94px
+    border: 1px solid grey
+    font-size: 2.8rem
+    background-color: rgb(255,255,255)
+    &:active
+        border: 3px inset grey
+    
+.number-pad
+    height: 282px
+    display: grid
+    grid-template-columns: 1fr 1fr 1fr
+    grid-template-rows: 1fr 1fr 1fr
+    direction: rtl
+    .number-button
+        border: 1px solid grey
+        background-color: white
+        font-size: 2.7rem
+        padding: 0
+        &:active
+            border: 3px inset grey
+
+.operator-container
+    flex-direction: column
+    display: flex
+    width: 26%
+    align-content: flex-start
+    .operator-buttons
+        border: 1px gray solid
+        height: calc(100% / 5)
+        font-size: 2.7rem
+        padding: 0
+        background-color: rgb(160, 0, 30)
+        color: white
+        &:active
+            border: 3px inset grey
