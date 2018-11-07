@@ -58,62 +58,74 @@ class myCalculator extends React.Component {
   constructor(props) {
       super(props);
       this.state = {
-          total: 0
+          total: 0,
+          symbol: ''
       };
 
-      this.addition = this.addition.bind(this)
-      this.subtraction = this.subtraction.bind(this)
-      this.multiplication = this.multiplication.bind(this)
-      this.division = this.division.bind(this)
+      this.calculate = this.calculate.bind(this)
       this.currentSymbol = this.currentSymbol.bind(this)
-  }
-  addition(event) {
-    const myValue = parseInt(event.target.name, 10);
-      this.setState({
-          total: this.state.total + myValue
-      })
-  }
-
-  subtraction(event) {
-    const myValue = parseInt(event.target.name, 10);
-      this.setState({
-          total: this.state.total - myValue
-      })
-  }
-
-  multiplication(event) {
-    const myValue = parseInt(event.target.name, 10);
-      this.setState({
-          total: this.state.total * myValue
-      })
-  }
-
-  division(event) {
-    const myValue = parseInt(event.target.name, 10);
-      this.setState({
-          total: this.state.total / myValue
-      })
   }
 
   currentSymbol(event) {
-    const mySymbol = parseInt(event.target.name, 10);
+    const mySymbol = event.target.name;
     console.log(mySymbol);
+    this.setState({
+      symbol: mySymbol
+  })
+  console.log(this.state.symbol)
   }
+
+  calculate(event) {
+    const myValue = parseInt(event.target.name, 10);
+    console.log("my value", myValue)
+    console.log("current total", this.state.total)
+    if (this.state.symbol === '+') {
+      console.log("plus")
+    }
+      this.setState({
+          // total: this.state.total + myValue
+          total: myValue
+      })
+
+    if (this.state.symbol === '*') {
+      console.log("times")
+    }
+    this.setState({
+      total: this.state.total * myValue
+    })
+
+    if (this.state.symbol === '-') {
+      console.log("minus")
+    }
+    this.setState({
+      total: this.state.total - myValue
+  })
+
+    if (this.state.symbol === '÷') {
+    console.log("divide")
+    }
+      this.setState({
+        total: this.state.total / myValue
+      })
+    }
 
   render() {
       return (
           <div>
-            <button onClick={this.addition} className="btn-styles" name="1">1</button>
-            <button onClick={this.addition} className="btn-styles" name="2">2</button>
-            <button onClick={this.addition} className="btn-styles" name="3">3</button>
-            <button onClick={this.addition} className="btn-styles" name="4">4</button>
-            <button onClick={this.addition} className="btn-styles" name="5">5</button>
-            <button onClick={this.addition} className="btn-styles" name="6">6</button>
-            <button onClick={this.addition} className="btn-styles" name="7">7</button>
-            <button onClick={this.addition} className="btn-styles" name="8">8</button>
-            <button onClick={this.addition} className="btn-styles" name="9">9</button>  
+            <button onClick={this.calculate} className="btn-styles" name="1">1</button>
+            <button onClick={this.calculate} className="btn-styles" name="2">2</button>
+            <button onClick={this.calculate} className="btn-styles" name="3">3</button>
+            <button onClick={this.calculate} className="btn-styles" name="4">4</button>
+            <button onClick={this.calculate} className="btn-styles" name="5">5</button>
+            <button onClick={this.calculate} className="btn-styles" name="6">6</button>
+            <button onClick={this.calculate} className="btn-styles" name="7">7</button>
+            <button onClick={this.calculate} className="btn-styles" name="8">8</button>
+            <button onClick={this.calculate} className="btn-styles" name="9">9</button>  
             <button onClick={this.currentSymbol} className="btn-styles" name="+">+</button>  
-              My total: {this.state.total}
+            <button onClick={this.currentSymbol} className="btn-styles" name="*">*</button>  
+            <button onClick={this.currentSymbol} className="btn-styles" name="-">-</button> 
+            <button onClick={this.currentSymbol} className="btn-styles" name="÷">÷</button> 
+            <h1>My total: {this.state.total}</h1>
           </div>
       )
   }
