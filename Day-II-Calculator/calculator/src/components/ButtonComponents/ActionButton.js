@@ -1,15 +1,12 @@
 import React from "react";
 import "./Button.css";
 
-const ActionButton = () => {
+function ActionButton(props) {
   return (
-    <div className="action-btn">
-      <button>Clear</button>
-      <button>
-        <i class="fas fa-divide" />
-      </button>
-    </div>
+    <React.Fragment>
+      <button className={props.buttonStyle}>{props.text}</button>
+    </React.Fragment>
   );
-};
+}
 
 export default ActionButton;

@@ -1,14 +1,16 @@
-.calc-display {
-    width: 100%;
-    height: 75px;
-    position: relative;
+.displayNum {
+    height: 130px;
+    background-color: #222222;
+    text-align: right;
+    padding-top: 30px;
+    padding-right: 20px;
+    font-size: 72px;
+    color: #ffffff;
+    margin: 0 0;
 }
 
-.calc-display input {
+.displayTotal {
+    margin: 0 0;
     width: 100%;
-    height: 100%;
-    background-color: #000;
-    color: #fff;
-    font-size: 72px;
-    position: absolute;
+    height: 130px;
 }

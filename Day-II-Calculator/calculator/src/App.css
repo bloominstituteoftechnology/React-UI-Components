@@ -1,5 +1,5 @@
-.calc-wrapper {
-    width: 400px;
+.app-container {
+    width: 456px;
     margin: 70px auto;
-    height: 100%;
+    background-color: lightgray;
 }

@@ -1,34 +1,34 @@
-.num-btn {
-    /* width: 100%;
-    display: flex;
-    flex-wrap: wrap; */
-    display: grid;
-    grid-template-columns: auto auto auto;
+.buttonNum {
+    width: 114px;
+    height: 93px;
+    background-color: #ffffff;
+    /* padding: 10px 10px; */
+    font-size: 42px;
+    font-weight: bold;
 }
 
-.num-btn button {
-    /* /* /* display: flex;
-    flex-wrap: wrap; */
-    /* width: 50px;
-    height: 50px; */
-    /* height: 80px; */
+.buttonOps {
+    width: 114px;
+    height: 93px;
+    max-height: 93px;
+    background-color: #A0001E;
+    font-size: 42px;
+    color: #ffffff;
+}
+
+.displayBtn {
     width: 100%;
-    .num-btn border: 1px solid grey;
-    background-color: white;
-    font-size: 2.7rem;
+    height: 130px;
+    background-color: #222222;
+    text-align: right;
+    padding: 25px 15px;
+    font-size: 72px;
+    color: #ffffff;
 }
 
-.num-btn button i {
-    color: #fff;
-    width: 100%;
-    background-color: red;
+.actionBtn {
+    width: 75%;
+    height: 94px;
+    background-color: #ffffff;
+    font-size: 42px;
 }
-
-.action-btn button {
-    width: 80%;
-    height: 70px;
-    font-size: 40px;
-    letter-spacing: 2px;
-}
-
-.grid-item {}
