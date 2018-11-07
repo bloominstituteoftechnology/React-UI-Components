@@ -1,2 +1,9 @@
 import React from 'react';
-import './Button.css';
+
+function ActionButton(props) {
+  return (
+    <div className="function">{props.label}</div>
+  );
+}
+
+export default ActionButton;
