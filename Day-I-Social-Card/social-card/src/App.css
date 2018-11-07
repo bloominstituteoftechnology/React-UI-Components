@@ -2,3 +2,25 @@
   Write your styles/CSS for App.js here and import into the component that you need 
   IF you'd like to attempt to use less you'll have to research how to do this with Create React App
 */
+* {
+  box-sizing: border-box;
+}
+
+.app {
+  width: 590px;
+  /* margin: 0 auto; */
+  padding-right: 0px;
+}
+
+.heading {
+  padding-bottom: 15px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.card {
+  display: flex;
+  justify-content: flex-end;
+}

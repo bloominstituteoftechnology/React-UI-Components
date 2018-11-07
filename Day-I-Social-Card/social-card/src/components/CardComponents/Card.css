@@ -1,1 +1,52 @@
 /* All styles for your Card Components live here */
+.link {
+    display: flex;
+    width: 527px;
+    flex-direction: column;
+    padding-right: 5px;
+    align-items: flex-end;
+    margin-bottom: 5px;
+}
+
+.banner {
+    background-image: url('https://ibin.co/3wnC6SgIOJud.png');
+    background-position: 54% 47%;
+    background-size: 155%;
+    height: 250px;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+    margin-right: 15px;
+    border:1px solid lightgrey;
+    border-radius: 10px;
+}
+
+.card-content {
+    /* padding: 10px; */
+    padding-bottom: 0;
+    padding-left: 12px;
+}
+
+.card-content p {
+    margin-top: 0px;
+    font-size: 0.8875rem;
+    line-height: 1.15rem;
+    margin-bottom: 4px;
+    /* padding-right: 15px; */
+}
+
+.card-content .greytext {
+    padding-bottom:5px;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 0.89rem;
+    margin-top: 14px;
+    margin-bottom: 6px;
+    /* color: black; */
+    /* margin: 5px 0; */
+}

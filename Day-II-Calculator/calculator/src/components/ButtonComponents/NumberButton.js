@@ -1,2 +1,13 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import './Button.css';
+
+
+function NumberButton(props) {
+  return (
+    <Fragment>
+      <button className={props.button.buttonStyle}>{props.button.text}</button>
+    </Fragment>
+  );
+}
+
+export default NumberButton;
