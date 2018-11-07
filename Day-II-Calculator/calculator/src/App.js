@@ -59,7 +59,7 @@ const mathButtons = [
 const App = () => {
   return (
     <Fragment>
-      <h1>Calculator:</h1>
+     
       <div class="calculator">
         <CalculatorDisplay />
 

@@ -7,10 +7,12 @@
 
 .display {
     border: 2px solid gray;
-    width: 98.7%;
+    width: 95.7%;
     background-color: black;
     color: white;
     padding: 5% 0;
+    padding-right: 3%;
+    text-align: right;
     
 }
 

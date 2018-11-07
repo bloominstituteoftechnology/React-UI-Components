@@ -4,7 +4,7 @@ import './Button.css';
 function ActionButton(props) {
     return (
         <div class="act-btn">
-            <h1>{props.action}</h1>
+            <h1 class="act-btn-txt">{props.action}</h1>
         </div>
     );
   }
