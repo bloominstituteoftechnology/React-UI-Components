@@ -1,0 +1,11 @@
+*{
+    box-sizing:border-box;
+}
+.calculator__container{
+    width:45.6rem;
+    height:59.8rem;
+    border:1px solid lightgray;
+    display:flex;
+    flex-wrap:wrap;
+    margin:15rem auto;
+}

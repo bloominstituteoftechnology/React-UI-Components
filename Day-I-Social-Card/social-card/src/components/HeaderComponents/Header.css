@@ -1,1 +1,30 @@
 /* All styles for your header Components live here */
+.container{
+    display:flex;
+    /* border:1px solid red; */
+}
+.text-content{
+    padding:1rem;
+
+}
+.text-content>div{
+    display:flex;
+    margin:1rem 0;
+}
+.title{
+    font-size:1.6rem;
+}
+p{
+    font-size:1.4rem;
+}
+p.handle{
+    margin-left:1rem;
+    font-size:1.4rem;
+    color:rgb(155, 155, 155);
+}
+.logo{
+    max-width:100%;
+    height:auto;
+    object-fit: contain;
+    margin-top:2rem;
+}

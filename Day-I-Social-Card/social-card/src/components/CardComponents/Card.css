@@ -1,1 +1,31 @@
 /* All styles for your Card Components live here */
+.card__container{
+    display:flex;
+    justify-content: flex-end;
+    flex-wrap:wrap;
+    border-radius:0.5rem;
+    border:1px solid lightgray;
+    margin:0 2rem 0 5.5rem;
+    /* padding:0 1rem 0 0; */
+}
+.card__img{
+    width:100%;
+    height:auto;
+    object-fit: cover;
+    border-radius:0.5rem 0.5rem 0 0;
+}
+.card__text-content{
+    width:100%;
+    padding:1rem 2rem;
+    font-size:1.6rem;
+    color:black;
+}
+.card__text-content h2{
+    margin-bottom:0.5rem;
+}
+
+.handle{
+    font-size:1.6rem;
+    text-decoration: none;
+    color:rgb(155, 155, 155);
+}
