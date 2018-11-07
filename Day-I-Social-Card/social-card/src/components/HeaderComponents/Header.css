@@ -1,1 +1,15 @@
 /* All styles for your header Components live here */
+.header-text {
+    border: 2px solid black;
+    /* display: flex; */
+}
+
+.header-container {
+    border: 2px solid orange;
+    display: flex;
+  }
+
+  .header-title {
+      border: 2px solid blue;
+      display: flex;
+  }
