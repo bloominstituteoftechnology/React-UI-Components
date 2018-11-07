@@ -14,7 +14,6 @@ p{
 }
 
 .bigContainer{
-  width: 640px;
-  margin: 0 auto;
+  width: 36.85rem;
   border: 1px solid blue;
 }

@@ -1,11 +1,34 @@
-/* All styles for your Card Components live here */
 .banner{
-  height: 20rem;
-  margin: 0 auto;
-  background-size: 155%;
-  background-position-x: 53%;
-  background-position-y: 46%;
-  margin-left: 3.25rem;
-  margin-right: 0.8rem;
+  height: 16rem;
+  background-size: 153%;
+  background-position-x: 51%;
+  background-position-y: 45%;
+  margin-left: 4.2rem;
+  margin-right: 1rem;
   border-radius: 0.5rem;
+}
+
+.allContent{
+  margin-left: 5.12rem;
+  margin-right: 1rem;
+  margin-top: 0rem;
+  margin-bottom: 0;
+  line-height: 0.2rem;
+}
+
+.allContent .header{
+  font-size: 13.5px;
+  margin-bottom: 0;
+  margin-top: 1rem;
+}
+
+.allContent .content{
+  margin-top: 0;
+  line-height: 1rem;
+  margin-right: 1rem;
+}
+
+.allContent .footer{
+  color: lightgrey;
+  margin-top: 0;
 }

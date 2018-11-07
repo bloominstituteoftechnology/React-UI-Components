@@ -5,12 +5,12 @@ import CardContent from './CardContent';
 
 function CardContainer(){
   return(
-    <React.Fragment>
+    <div className='cardContainer'>
       <CardBanner />
       <CardContent title='Get Started with React' />
       <CardContent description='React makes it painless to create interactive UIs. Design simple views for each state in your application.' />
       <CardContent link='reactjs.org' />
-    </React.Fragment>
+    </div>
   );
 }
 
