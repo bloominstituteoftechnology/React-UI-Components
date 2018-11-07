@@ -13,9 +13,16 @@ function CalculatorDisplay(props) {
     <div className = "CalculatorDisplay">
         <HeaderBox />
         <div className="CalculatorButtonsDisplay">
-                <NumbersBox />;
+            <div className="whiteButtons" >
+                <NumbersBox />
+
+            </div>
+                <div className="redButtons" >
+                <ColomnBox /> 
+            </div>
                 
-                <ColomnBox /> ;
+                
+                
 
         </div>
 

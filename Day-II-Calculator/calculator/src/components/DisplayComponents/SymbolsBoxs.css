@@ -22,8 +22,8 @@
 }
 
 .NumbersBoxs {
-    border: 4px solid lightgrey;
-    width: 23%;
+    border: 3px solid lightgrey;
+    width: 20%;
     height: 15%;
     display: flex;
     flex-direction: row;
@@ -45,6 +45,12 @@
     font: 8rem;
 }
 
-.NumbersBoxs :first-child {
+.NumbersBoxs:first-child {
     display: inline-block;
+    width: 95%;
+}
+
+.NumbersBoxs:last-child {
+    display: inline-block;
+    width: 95%;
 }

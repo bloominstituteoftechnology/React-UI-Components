@@ -66,4 +66,3 @@ function NumbersBox(props) {
 
 
 export default NumbersBox;
-;
