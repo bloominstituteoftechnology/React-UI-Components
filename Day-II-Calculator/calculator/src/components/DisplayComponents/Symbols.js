@@ -5,7 +5,7 @@ import "./SymbolsBoxs.css";
 function Symbols(props){
     return(
         <div className="SymbolsBoxs" >
-            <p>{props.symbol.symbol}</p>
+            <p>{props.symbol.symbolType}</p>
             {/*<p></p>*/}
             
         </div>

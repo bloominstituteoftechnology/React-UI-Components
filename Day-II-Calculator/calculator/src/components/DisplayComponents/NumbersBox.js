@@ -6,49 +6,49 @@ import Numbers from "./Numbers"
 const NumberArr = [
     {
         name: 'Clear',
-        symbol: "clear"
+        Digits: "clear"
     },
     {
         name: 'Nine',
-        symbol: '9'
+        Digits: '9'
 
     },
     {
         name: 'eight',
-        symbol: "8"
+        Digits: "8"
     },
     {
         name: 'seven',
-        symbol: '7'
+        Digits: '7'
     },
     {
         name: 'Six',
-        symbol: "6"
+        Digits: "6"
     },
     {
         name: 'Five',
-        symbol: "5"
+        Digits: "5"
     },
     {
         name: 'Four',
-        symbol: '4'
+        Digits: '4'
 
     },
     {
         name: 'Three',
-        symbol: "3"
+        Digits: "3"
     },
     {
         name: 'Two',
-        symbol: '2'
+        Digits: '2'
     },
     {
         name: 'One',
-        symbol: "1"
+        Digits: "1"
     },
     {
         name: 'Zero',
-        symbol: "0"
+        Digits: "0"
     },
 ];
 

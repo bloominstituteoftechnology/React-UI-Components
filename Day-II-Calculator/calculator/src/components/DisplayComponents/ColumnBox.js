@@ -1,40 +1,41 @@
 import React, { Fragment } from 'react';
-import Symbols from "./Symbols"
-{/*import './ColumnBox.css';*/ }
+import Symbols from "./Symbols"; { /*import './ColumnBox.css';*/ }
 
 
-const ColumnArr = [
-    { 
+const ColumnArr = [{
         name: 'Divide',
-        symbol: "/"
+        symbolType: "/"
     },
     {
         name: 'Multiply',
-        symbol: 'X'
+        symbolType: 'X'
 
     },
     {
         name: 'Subtract',
-        symbol: "-"
+        symbolType: "-"
     },
     {
         name: 'Add',
-        symbol: '+'
+        symbolType: '+'
     },
     {
         name: 'Equals',
-        symbol: "="
+        symbolType: "="
     },
 ];
 
 function ColumnBox(props) {
-    return (
-        <Fragment>
+    return ( <
+        Fragment >
 
-            {ColumnArr.map((banana) => {
-                return <Symbols symbol={banana}  />
-            })}
-        </Fragment>
+        {
+            ColumnArr.map((banana) => {
+                return <Symbols symbol = { banana }
+                />
+            })
+        } <
+        /Fragment>
 
     );
 }
