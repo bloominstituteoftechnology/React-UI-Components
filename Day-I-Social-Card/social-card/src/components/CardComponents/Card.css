@@ -1,1 +1,17 @@
 /* All styles for your Card Components live here */
+.cardContainer {
+    border: 2px solid purple;
+    width: 80%;
+    margin-right: 30px;
+
+}
+
+
+.cardBanner {
+    background-image: url(https://ibin.co/3wnC6SgIOJud.png);
+    width: 100%;
+    height:300px;
+    background-size: 130%;
+    background-position: center;
+    
+}
