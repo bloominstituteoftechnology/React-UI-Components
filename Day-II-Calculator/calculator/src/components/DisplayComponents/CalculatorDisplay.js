@@ -3,7 +3,9 @@ import './Display.css';
 
 function CalculatorDisplay() {
     return (
-      <input type="number"} />
+      <div class="display-div">
+        <h1 class="display">0</h1>
+      </div>
     );
   }
 
