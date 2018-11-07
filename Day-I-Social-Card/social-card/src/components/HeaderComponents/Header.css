@@ -1,1 +1,24 @@
 /* All styles for your header Components live here */
+
+.redLogo {
+    display: inline;
+    width: 60px;
+}
+
+.header title {
+    display: inline;
+}
+
+.header titleb {
+    display: inline;
+}
+
+.header Para {
+    display: inline-block
+}
+
+.headerContainerFlexing {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
