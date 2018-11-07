@@ -41,17 +41,16 @@ operationsArr[1]['id'] = 'multiply';
 operationsArr[2]['id'] = 'subtract';
 operationsArr[3]['id'] = 'add';
 operationsArr[4]['id'] = 'equals';
-console.log(operationsArr);
 
 const NumberPad = (props) => {
     return (
         <div className='button-container'>
             <div className="numPad">
-                <ActionButton class='action' text='clear' onClick={props.onClick}/>
+                <ActionButton class='action' text='clear' />
                 {buttonArray.map(item => {
-                    return <NumberButton button={item} onClick={props.onClick} />;
+                    return <NumberButton button={item} />;
                 })}
-            <ActionButton class='action' text='0' onClick={props.onClick} />
+            <ActionButton class='action' text='0' />
         </div>
             <div className='operators'>
                 {operationsArr.map(item => {

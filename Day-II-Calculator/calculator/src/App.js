@@ -6,29 +6,48 @@ import Display from './components/DisplayComponents/CalculatorDisplay';
 class App extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { displayContent: 3 };
-  }
-  
-  changeDisplay = (event) => {
-    if (event.target.className === 'number') {
-      (this.state.displayContent < 1) ? this.setState({displayContent: event.target.textContent}) : this.setState({ displayContent: this.state.displayContent + event.target.textContent }); 
-    }
-    if (event.target.className === 'action') {
-      this.setState({ displayContent: 0 });
-    }
-    
+    this.state = { displayContent: 0 };
+    this.element = React.createRef();
   }
 
-  clearDisplay = (event) => {
-    console.log(event.target);
-    this.setState({ displayContent: ''});
+  componentDidMount() {
+    this.element.current.addEventListener('click', this)
   }
+
+  handleEvent(event) {
+    event.target.className === 'number' && this.updateDisplay(event.target.textContent)
+    event.target.className === 'action' && this.clearDisplay()
+  }
+
+  updateDisplay(value) {
+    this.setState(prevState => {
+      prevState.displayContent === 0 ? prevState.displayContent = value : prevState.displayContent += value;
+      return prevState
+    })
+  }
+
+  clearDisplay() {
+    this.setState(prevState => {
+      prevState.displayContent = 0;
+      return prevState;
+    })
+  }
+
+  
+  // changeDisplay = (event) => {
+  //   if (event.target.className === 'number') {
+  //     (this.state.displayContent < 1) ? this.setState({displayContent: event.target.textContent}) : this.setState({ displayContent: this.state.displayContent + event.target.textContent }); 
+  //   }
+  //   if (event.target.className === 'action') {
+  //     this.setState({ displayContent: 0 });
+  //   } 
+  // }
 
   render() {
     return (
-      <div className='calculator'>
+      <div ref={this.element} className='calculator'>
         <Display displayContent={this.state.displayContent} />
-        <NumberPad onClick={this.changeDisplay} />
+        <NumberPad  />
       </div>
     )
   }
