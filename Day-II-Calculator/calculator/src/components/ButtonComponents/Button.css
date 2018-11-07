@@ -1,0 +1,28 @@
+.btn-styles {
+    height: 100px;
+    width: 100px;
+    /* line-height: 20px; */
+    color: black;
+    background-color: white;
+    font-size: 45px;
+    padding: 0;
+    margin: 0;
+    border: 0.1px solid silver;
+    font-weight: bold;
+}
+
+.red-btn {
+    background-color: #A12820;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+.action-btn-styles {
+    width: 300px;
+    height: 100px;
+    /* line-height: 20px; */
+    font-size: 52px;
+    color: black;
+    background-color: white;
+}
