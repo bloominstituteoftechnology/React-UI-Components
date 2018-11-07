@@ -1,0 +1,10 @@
+* {
+    box-sizing: border-box;
+}
+
+
+.container {
+    width: 456px;
+    height: 598px;
+    margin: 0 auto;
+}
