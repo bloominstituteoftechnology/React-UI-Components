@@ -7,41 +7,52 @@ import NumberButtons from './components/ButtonComponents/Numbers';
 import ClearButton from './components/ButtonComponents/Clear';
 import ZeroButton from './components/ButtonComponents/Zero';
 
-const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
-const operators = ['\u00F7', '\u00D7', '\u2212', '\u002B', '\u003D'];
+
 
 class App extends Component {
   constructor(props) {
     super(props);
-
+    this.numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+    this.operators = ['\u00F7', '\u00D7', '\u2212', '\u002B', '\u003D'];
     this.state = {
       input: '',
       clear: 'clear',
       zero: '0'
     };
   }
-  display = (value) => {
+  display = value => {
     this.setState({ input: this.state.input + value });
   };
-  reset = () => this.setState({input: '' })
+  reset = () => this.setState({ input: '' });
+
+  add = (num1, num2) => (num1 + num2);
+  subtract = (num1, num2) => (num1 - num2);
+  multiply = (num1, num2) => (num1 * num2);
+  divide = (num1, num2) => (num1 / num2);
 
   render() {
-    return <React.Fragment>
+    return (
+      <React.Fragment>
         <main>
           <DisplayScreen input={this.state.input} />
           <section className="buttons">
             <div className="left">
-            <ClearButton clear={this.state.clear} reset={this.reset} />
-              {numbers.map(button => <NumberButtons button={button} handleClick={this.display} />)}
-            <ZeroButton zero={this.state.zero}/>
+              <ClearButton clear={this.state.clear} reset={this.reset} />
+              {this.numbers.map(number => (
+                <NumberButtons button={number} click={this.display}/>
+              ))}
+              <ZeroButton zero={this.state.zero} />
             </div>
             <div className="right">
-              {operators.map(button => <ActionButtons button={button} />)}
+              {this.operators.map(button => (
+                <ActionButtons button={button} />
+              ))}
             </div>
           </section>
         </main>
-      </React.Fragment>;
-  }   
+      </React.Fragment>
+    );
+  }
 }
 
 export default App;
