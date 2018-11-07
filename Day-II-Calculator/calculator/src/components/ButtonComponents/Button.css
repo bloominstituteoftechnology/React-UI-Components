@@ -36,6 +36,10 @@
   border: 1px solid #a0001e;
 }
 
+.numberBtn:active {
+  transform: scale(1.01);
+}
+
 .bgRed {
   background: #a0001e;
   width: 100%;
