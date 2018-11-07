@@ -1,0 +1,10 @@
+
+* {
+    box-sizing: border-box;
+  }
+
+.app {
+    border: 3px solid red;
+    width: 800px;
+    margin: 10px auto;
+}
