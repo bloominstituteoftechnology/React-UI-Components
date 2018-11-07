@@ -4,7 +4,6 @@ import './Header.css';
 
 
 const HeaderTitle = () => {
-    //const dateToFormat = Moment().format("DD MMM");
     return (
 
         <div className='header'>

@@ -1,10 +1,12 @@
 import React from 'react';
 import './Footer.css';
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {faEnvelope} from '@fortawesome/free-solid-svg-icons'
-import {faHeart} from '@fortawesome/free-solid-svg-icons'
-import {faComment} from '@fortawesome/free-solid-svg-icons'
-import {faSync} from '@fortawesome/free-solid-svg-icons'
+import {
+    faEnvelope,
+    faHeart,
+    faComment,
+    faSync
+} from '@fortawesome/free-solid-svg-icons';
 
 const Footer = () => {
     return (
