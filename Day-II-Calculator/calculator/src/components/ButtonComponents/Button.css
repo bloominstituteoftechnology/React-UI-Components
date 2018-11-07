@@ -4,6 +4,7 @@
   flex-grow: 3;
   height: 79%;
   max-width: 336px;
+  background-color: #979797;
 }
 
 .calculator-container .action-components {
@@ -24,12 +25,16 @@
   flex-grow: 4;
   flex-wrap: wrap;
   min-width: 32%;
+  cursor: pointer;
+  transition: .3s;
+  background-color: white;
+}
 
+.number-key:hover {
+  transform: scale(1.05);
 }
 
 .number-key-0, .number-key-clear {
-  /* background-color: yellow;
-  width: 100%; */
   min-width: 100%;
 }
 
@@ -41,9 +46,13 @@
   order: -9;
 }
 
-
+.number-key:active {
+  transition: .3s;
+  transform: scale(.9);
+}
 
 .action-button {
+  cursor: pointer;
   display: flex;
   flex-grow: 1;
   justify-content: center;
@@ -53,3 +62,10 @@
   color: white;
 }
 
+.action-button:hover {
+  transform: scale(1.05);
+}
+.action-button:active {
+  transition: .3s;
+  transform: scale(.9);
+}
