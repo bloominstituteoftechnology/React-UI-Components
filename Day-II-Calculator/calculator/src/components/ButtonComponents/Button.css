@@ -28,10 +28,12 @@
   cursor: pointer;
   transition: .3s;
   background-color: white;
+  user-select: none;
 }
 
 .number-key:hover {
   transform: scale(1.05);
+  user-select: none;
 }
 
 .number-key-0, .number-key-clear {
@@ -60,10 +62,12 @@
   background-color: #A0001E;
   border: 1px solid #979797;
   color: white;
+  user-select: none;
 }
 
 .action-button:hover {
   transform: scale(1.05);
+  user-select: none;
 }
 .action-button:active {
   transition: .3s;

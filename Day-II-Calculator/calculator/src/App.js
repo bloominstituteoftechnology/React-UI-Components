@@ -8,6 +8,7 @@ import ActionButton from './components/ButtonComponents/ActionButton.js';
 
 
 
+
 class App extends React.Component {
   constructor() {
     super();
@@ -19,9 +20,9 @@ class App extends React.Component {
       prevOp: '',
       solved: false,
     }
-    // this.key = window.addEventListener('keydown', () => {
-    //   this.handleButton(event);
-    // })
+    window.addEventListener('keyup', (event) => {
+      this.keyPress(event);
+    })
 
   }
 
@@ -62,11 +63,30 @@ class App extends React.Component {
     this.setState({total: event.target.textContent});
   }
 
+  keyPress = (event) => {
+    if('1234567890+'.includes(event.key) !== true) return;
+    console.log(event)
+    if(event.key === 'Enter') this.calculate(event);
+    else if(this.state.solved && '0123456789'.includes(event.key)) {
+      this.setState({solved: false})
+      this.setState({total: event.key})
+    } else if(('+-*/'.includes(this.state.total) && '+-*/'.includes(event.key) !== true) || this.state.total === '0') this.setState({total: event.key});
+    else if('+-*/'.includes(event.key)) this.operator(event);
+    else if('0123456789'.includes(event.key)) this.setState({total: `${this.state.total}${event.key}`});
+
+    if(event.target.textContent === 'clear') {
+      this.setState({total: '0'})
+      this.setState({solved: false})
+      this.setState({value1: ''})
+      this.setState({value2: ''})
+      this.setState({operator: ''})
+      this.setState({prevOp: ''})
+    }
+  }
 
   handleButton = (event) => {
-    console.log(event)
-
-    if(event.target.textContent === '=') this.calculate(event);
+    
+    if(event.target.textContent === '=' || event.key === 'Enter') this.calculate(event);
     else if(this.state.solved && '0123456789'.includes(event.target.textContent)) {
       this.setState({solved: false})
       this.setState({total: event.target.textContent})
@@ -84,13 +104,9 @@ class App extends React.Component {
     }
   }
 
-  onKeyPressed(e) {
-    console.log(e.key);
-  }
-
   render() {
     return (
-      <div className={'calculator-container'} onKeyUp={() => console.log('asdf')}>
+      <div className={'calculator-container'} >
   
         <CalculatorDisplay className={'display'} data={this.state.total}/>
         
