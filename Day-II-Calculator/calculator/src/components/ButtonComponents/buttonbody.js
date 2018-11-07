@@ -1,10 +1,10 @@
 import React from 'react';
 import './Button.css';
-import ActionButton from './ActionButton';
+// import ActionButton from './ActionButton';
 import NumberButton from './NumberButton';
 
-{/*const ActionButtonsArray = ['÷', 'x', '-', '+', '='];*/}
-{/*const NumberButtonsArray = ['0','1', '2', '3', '4', '5', '6', '7', '8', '9', 'clear'];*/}
+// {/*const ActionButtonsArray = ['÷', 'x', '-', '+', '='];*/}
+// {/*const NumberButtonsArray = ['0','1', '2', '3', '4', '5', '6', '7', '8', '9', 'clear'];*/}
 
 const row2Array = ["7", "8", "9", "x"];
 const row3Array = ["4", '5', '6', '-'];
