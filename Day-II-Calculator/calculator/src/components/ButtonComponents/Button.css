@@ -30,6 +30,12 @@
   cursor: pointer;
 }
 
+.numberBtn:hover {
+  background: #979797;
+  color: #a0001e;
+  border: 1px solid #a0001e;
+}
+
 .bgRed {
   background: #a0001e;
   width: 100%;

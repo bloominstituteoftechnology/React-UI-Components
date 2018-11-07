@@ -70,8 +70,8 @@ class Calculator extends Component {
             <ActionButton buttonStyle="wide numberBtn" text="0"/>
           </ButtonContainer>
           <ButtonContainer containerStyle="operationsSide">
-            <NumberButton buttonStyle="numberBtn bgRed" text="/"/>
-            <NumberButton buttonStyle="numberBtn bgRed" text="*"/>
+            <NumberButton buttonStyle="numberBtn bgRed" text="&#247;"/>
+            <NumberButton buttonStyle="numberBtn bgRed" text="X"/>
             <NumberButton buttonStyle="numberBtn bgRed" text="-"/>
             <NumberButton buttonStyle="numberBtn bgRed" text="+"/>
             <NumberButton buttonStyle="numberBtn bgRed" text="="/>
