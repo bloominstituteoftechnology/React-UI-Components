@@ -1,10 +1,9 @@
 import React from 'react';
 import './Display.css';
 
-function Display(){
+function Display(props){
     return(
-        <div className="calculator__display">0</div>
+        <div className={props.className}>{props.text}</div>
     );
 }
-
 export default Display;

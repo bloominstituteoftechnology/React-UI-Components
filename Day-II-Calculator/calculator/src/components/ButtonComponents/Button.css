@@ -1,4 +1,6 @@
-.calculator__buttons--number{
+
+
+/* .calculator__buttons--number{
     flex:3;
     border:1px solid gray;
     display:flex;
@@ -19,7 +21,6 @@ span{
     width:33.33333%;
     height:20%;
     border:1px solid gray;
-    /* flex:1; */
 }
 .calculator__button--number:last-child{
     flex-basis:100%;
@@ -37,4 +38,4 @@ span{
     flex:1;
     background:rgb(160,0,30);
     vertical-align:center;
-}
+} */
