@@ -47,11 +47,11 @@ const NumberPad = (props) => {
     return (
         <div className='button-container'>
             <div className="numPad">
-                <ActionButton class='action' text='clear' onClick={props.click}/>
+                <ActionButton class='action' text='clear' onClick={props.onClick}/>
                 {buttonArray.map(item => {
                     return <NumberButton button={item} onClick={props.onClick} />;
                 })}
-            <ActionButton class='action' text='0' onClick={props.click} />
+            <ActionButton class='action' text='0' onClick={props.onClick} />
         </div>
             <div className='operators'>
                 {operationsArr.map(item => {

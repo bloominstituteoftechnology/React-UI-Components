@@ -10,28 +10,25 @@ class App extends React.Component {
   }
   
   changeDisplay = (event) => {
-    console.log(event.target.classList);
     if (event.target.className === 'number') {
-      console.log(this);
-      this.setState({ displayContent: this.state.displayContent + event.target.textContent }); 
+      (this.state.displayContent < 1) ? this.setState({displayContent: event.target.textContent}) : this.setState({ displayContent: this.state.displayContent + event.target.textContent }); 
     }
     if (event.target.className === 'action') {
-      console.log(this);
-      this.setState({ displayContent: null });
+      this.setState({ displayContent: 0 });
     }
     
   }
 
   clearDisplay = (event) => {
     console.log(event.target);
-    this.setState({ displayContent: 0});
+    this.setState({ displayContent: ''});
   }
 
   render() {
     return (
       <div className='calculator'>
         <Display displayContent={this.state.displayContent} />
-        <NumberPad onClick={this.changeDisplay} click={this.clearDisplay}/>
+        <NumberPad onClick={this.changeDisplay} />
       </div>
     )
   }
