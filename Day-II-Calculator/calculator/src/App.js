@@ -68,48 +68,53 @@ class myCalculator extends React.Component {
 
   currentSymbol(event) {
     const mySymbol = event.target.name;
-    console.log(mySymbol);
+    console.log("my symbol", mySymbol);
     this.setState({
       symbol: mySymbol
   })
-  console.log(this.state.symbol)
+  console.log("state symbol", this.state.symbol)
   }
 
   calculate(event) {
     const myValue = parseInt(event.target.name, 10);
-    console.log("my value", myValue)
-    console.log("current total", this.state.total)
+    console.log("my value", myValue, typeof(myValue))
     if (this.state.symbol === '+') {
       console.log("plus")
-    }
       this.setState({
-          // total: this.state.total + myValue
-          total: myValue
+        total: this.state.total + myValue
+        // total: myValue
       })
+    }
+    
+    
 
     if (this.state.symbol === '*') {
       console.log("times")
-    }
-    this.setState({
-      total: this.state.total * myValue
-    })
-
-    if (this.state.symbol === '-') {
-      console.log("minus")
-    }
-    this.setState({
-      total: this.state.total - myValue
-  })
-
-    if (this.state.symbol === '÷') {
-    console.log("divide")
-    }
       this.setState({
-        total: this.state.total / myValue
+        total: this.state.total * myValue
       })
     }
 
+
+    if (this.state.symbol === '-') {
+      console.log("minus")
+      this.setState({
+        total: this.state.total - myValue
+    })
+    }
+
+
+    if (this.state.symbol === '÷') {
+    console.log("divide")
+    this.setState({
+      total: this.state.total / myValue
+    })
+  }
+    }
+
+
   render() {
+    console.log("current total", this.state.total, typeof(this.state.total))
       return (
           <div>
             <button onClick={this.calculate} className="btn-styles" name="1">1</button>
