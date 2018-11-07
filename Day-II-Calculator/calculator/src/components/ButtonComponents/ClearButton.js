@@ -1,9 +1,9 @@
 import React from 'react';
 import './Button.css';
 
-function ClearButton(){
+function ClearButton(props){
     return(
-        <div className ="calculator__button--clear"><span>Clear</span></div>
+        <button className= {props.buttonStyle}>{props.text}</button>
     );
 }
 
