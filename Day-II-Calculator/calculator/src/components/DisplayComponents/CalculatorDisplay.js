@@ -5,7 +5,7 @@ import './Display.css';
 function Display(props) {
     return (
         <div className='display'>
-            <p>0</p>
+            <p>{props.displayContent}</p>
         </div>
     )
 }

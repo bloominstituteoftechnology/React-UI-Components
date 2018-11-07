@@ -26,34 +26,41 @@ var buttonArray = [];
 for (let i = 0; i < number.length; i++) {
     buttonArray.push({
         buttonStyle: "number",
-        text: number[i]
+        text: number[i],
     });
 }
 var operationsArr = [];
 for (let i = 0; i < operators.length; i++) {
     operationsArr.push({
         buttonStyle: "operator",
-        text: operators[i]
+        text: operators[i],
     })
 }
+operationsArr[0]['id'] = 'divide';
+operationsArr[1]['id'] = 'multiply';
+operationsArr[2]['id'] = 'subtract';
+operationsArr[3]['id'] = 'add';
+operationsArr[4]['id'] = 'equals';
+console.log(operationsArr);
 
-const NumberPad = () => {
+const NumberPad = (props) => {
     return (
         <div className='button-container'>
             <div className="numPad">
-                <ActionButton class='action' text='clear' />
+                <ActionButton class='action' text='clear' onClick={props.click}/>
                 {buttonArray.map(item => {
-                    return <NumberButton button={item} />;
+                    return <NumberButton button={item} onClick={props.onClick} />;
                 })}
-            <ActionButton class='action' text='0' />
+            <ActionButton class='action' text='0' onClick={props.click} />
         </div>
             <div className='operators'>
                 {operationsArr.map(item => {
-                    return <NumberButton button={item} />;
+                    return <NumberButton button={item} id={item.id}/>;
                 })}
             </div>
         </div>
     );
 };
+
 
 export default NumberPad;

@@ -5,7 +5,7 @@ import './Button.css';
 function NumberButton(props) {
   return (
     <Fragment>
-      <button className={props.button.buttonStyle}>{props.button.text}</button>
+      <button className={props.button.buttonStyle} onClick={props.onClick}>{props.button.text}</button>
     </Fragment>
   );
 }
