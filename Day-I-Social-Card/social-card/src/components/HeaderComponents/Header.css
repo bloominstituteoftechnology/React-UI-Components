@@ -1,1 +1,40 @@
 /* All styles for your header Components live here */
+.headerStyle {
+    width: 100%;
+}
+.headerStyle .logoStyle{
+    width: 10%;
+}
+.headerStyle h2 {
+    color: lightslategray;
+    font-weight: normal;
+    font-size: 14px;
+    margin-right: 15px;
+ }
+ .headerStyle time{
+    color: lightslategray;
+    font-weight: normal;
+    font-size: 14px;
+ }
+.headerStyle div {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.headerStyle h1{
+    margin-right: 15px;
+    font-size: 20px;
+}
+div.headerTitle {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.headerText div {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    
+}

@@ -1,1 +1,18 @@
 /* All styles for your Card Components live here */
+.cardContainer {
+    width: 100%;
+    border: 1px solid lightgrey;
+}
+ .cardContainer .cardBanner .bannerStyle{
+    width: 100%;
+}
+.cardContent  {
+    text-decoration: none;
+    padding: 0 20px;
+} 
+.cardContent h1, p{
+    color: black;
+}
+.cardContent h2 {
+color: gray;
+}

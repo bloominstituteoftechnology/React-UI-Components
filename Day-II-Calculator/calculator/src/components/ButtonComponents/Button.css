@@ -1,0 +1,44 @@
+.calculator-container .button-components {
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 3;
+  height: 75%;
+  max-width: 330px;
+}
+.calculator-container .action-components {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  height: 75%;
+}
+.number-key {
+  display: flex;
+  border: 1px solid gray;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 4;
+  flex-wrap: wrap;
+  min-width: 30%;
+  background-color: green;
+}
+.number-key-0,
+.number-key-clear {
+  min-width: 100%;
+}
+.number-key-0 {
+  order: 9;
+}
+.number-key-clear {
+  order: -9;
+  background-color: red;
+  font-weight: bold;
+}
+.action-button {
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+  background-color: orange;
+  border: 1px solid gray;
+  color: white;
+}
