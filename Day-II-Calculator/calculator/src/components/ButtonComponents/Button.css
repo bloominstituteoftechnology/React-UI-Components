@@ -12,10 +12,14 @@
 }
 
 
-.ActionContainer {
+.ActionContainer .red {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background: var(--red);
     color: var(--white);   
     height: 100%;
+    width: 100%;
 }
 
 .LargeButtonContainer,

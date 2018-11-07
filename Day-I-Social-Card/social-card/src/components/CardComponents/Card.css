@@ -2,12 +2,16 @@
     border: 1px solid #eee;
     margin-left: 7rem;
     border-radius: .5rem;
-    overflow: hidden
+    overflow: hidden;
+}
+
+.CardContainer a {
+    text-decoration: none;
 }
 
 .CardBanner img {
     width: 100%;
-    height: 30rem;
+    height: 25rem;
 }
 
 .CardContent {
@@ -15,8 +19,9 @@
 }
 
 .CardContent h2, p {
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     margin-bottom: .5rem;
+    color: black;
 }
 
 #lighter {

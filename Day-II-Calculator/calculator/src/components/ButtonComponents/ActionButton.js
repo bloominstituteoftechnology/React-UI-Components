@@ -5,7 +5,7 @@ import './Button.css';
 const ActionButtons = (props) => {
     return (
         <div className="ActionContainer">
-            <p>{props.text}</p>
+            <p className={` ${props.buttonColor}`} >{props.text}</p>
         </div>
     );
 }

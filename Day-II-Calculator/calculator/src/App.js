@@ -15,29 +15,29 @@ const App = () => {
       <CalculatorDisplay text="0" />
       <div className="Row">
         <LargeButtons text="clear" />
-        <ActionButtons text="÷" />
+        <ActionButtons buttonColor="red" text="÷" />
       </div>
       <div className="Row">
         <NumberButtons text="7" />
         <NumberButtons text="8" />
         <NumberButtons text="9" />
-        <ActionButtons text="x" />
+        <ActionButtons buttonColor="red" text="x" />
       </div>
       <div className="Row">
         <NumberButtons text="4" />
         <NumberButtons text="5" />
         <NumberButtons text="6" />
-        <ActionButtons text="-" />
+        <ActionButtons buttonColor="red" text="-" />
       </div>
       <div className="Row">
         <NumberButtons text="1" />
         <NumberButtons text="2" />
         <NumberButtons text="3" />
-        <ActionButtons text="+" />
+        <ActionButtons buttonColor="red"  text="+" />
       </div>
       <div className="Row">
         <LargeNumbers text="0" />
-        <ActionButtons text="=" />
+        <ActionButtons buttonColor="red" text="=" />
       </div>
     </div>
   );
