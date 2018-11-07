@@ -1,0 +1,8 @@
+footer div {
+    padding: 0 16.5%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    color: grey;
+    font-size: 1.6rem;
+}
