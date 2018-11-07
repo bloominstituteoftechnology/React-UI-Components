@@ -2,7 +2,7 @@
     width: 100%;
     display: flex;
     flex-direction: row;
-    border-top: 3px solid lightgray;
+    border-top: 2px solid lightgray;
 }
 
 .actionButton, .numberButton {
@@ -15,7 +15,7 @@
 }
 
 .numberButton {
-    border-right: 3px solid lightgray;
+    border-right: 2px solid lightgray;
     font-size: 2.8rem;
     font-weight: bold;
 }
@@ -26,8 +26,8 @@
 }
 
 .wide {
-    width: 77%;
-    border-right: 3px solid lightgray;
+    width: 76%;
+    border-right: 2px solid lightgray;
 }
 
 .clear {
