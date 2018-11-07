@@ -4,6 +4,10 @@ import CalculatorDisplay from './components/DisplayComponents/CalculatorDisplay.
 import NumberButton from './components/ButtonComponents/NumberButton.js';
 import ActionButton from './components/ButtonComponents/ActionButton.js';
 
+//onKeyUp={props.handlerButton}
+
+
+
 class App extends React.Component {
   constructor() {
     super();
@@ -12,13 +16,22 @@ class App extends React.Component {
       operator: '',
       value1: '',
       value2: '',
+      prevOp: '',
+      solved: false,
     }
+    // this.key = window.addEventListener('keydown', () => {
+    //   this.handleButton(event);
+    // })
 
   }
 
+  // onKeyUp() {console.log('working')}//{props.handlerButton}
+
   calculate = (event) => {
+    this.setState({solved: true});
+    if('+-*/'.includes(this.state.total)) return;
     let value;
-    switch(this.state.operator) {
+    switch(this.state.operator || this.state.prevOp) {
       case '+':  // if (x === 'value1')
         value = (Number(this.state.value1) + Number(this.state.total));
         break;
@@ -32,11 +45,13 @@ class App extends React.Component {
         value = (Number(this.state.value1) / Number(this.state.total));
         break;
       default:
-        console.log('here')
-        break;
+        console.log('here');  
+        return;
     }
+    this.state.operator !== '' ? this.setState({prevOp: this.state.operator})  : false;
     this.setState({operator: ''});
     this.setState({total: `${value}`});
+
   }
 
 
@@ -49,27 +64,38 @@ class App extends React.Component {
 
 
   handleButton = (event) => {
-    if(('+-*/'.includes(this.state.total) && '+-*/'.includes(event.target.textContent) !== true) || this.state.total === '0') {
-      this.setState({total: event.target.textContent});
-    } else if(event.target.textContent === '=') this.calculate(event);
+    console.log(event)
+
+    if(event.target.textContent === '=') this.calculate(event);
+    else if(this.state.solved && '0123456789'.includes(event.target.textContent)) {
+      this.setState({solved: false})
+      this.setState({total: event.target.textContent})
+    } else if(('+-*/'.includes(this.state.total) && '+-*/'.includes(event.target.textContent) !== true) || this.state.total === '0') this.setState({total: event.target.textContent});
     else if('+-*/'.includes(event.target.textContent)) this.operator(event);
     else if('0123456789'.includes(event.target.textContent)) this.setState({total: `${this.state.total}${event.target.textContent}`});
 
     if(event.target.textContent === 'clear') {
       this.setState({total: '0'})
+      this.setState({solved: false})
+      this.setState({value1: ''})
+      this.setState({value2: ''})
+      this.setState({operator: ''})
+      this.setState({prevOp: ''})
     }
+  }
+
+  onKeyPressed(e) {
+    console.log(e.key);
   }
 
   render() {
     return (
-      <div className={'calculator-container'}>
+      <div className={'calculator-container'} onKeyUp={() => console.log('asdf')}>
   
         <CalculatorDisplay className={'display'} data={this.state.total}/>
         
         <div className={'button-components'}>
-
-          {[0,7,8,9,4,5,6,1,2,3,'clear'].map( (num) => <NumberButton className={'number-key'} number={num} handlerButton={this.handleButton} /> )}
-
+          {[0,7,8,9,4,5,6,1,2,3,'clear'].map( (num, index) => <NumberButton className={'number-key'} keys={index} number={num} handlerButton={this.handleButton} /> )}
         </div>
   
         <div className={'action-components'}>
