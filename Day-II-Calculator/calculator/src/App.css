@@ -1,0 +1,12 @@
+* {
+  box-sizing: border-box;
+}
+.calculator-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 450px;
+  height: 600px;
+  margin: 10% auto;
+  font-size: 50px;
+  border: 2px solid gray;
+}
