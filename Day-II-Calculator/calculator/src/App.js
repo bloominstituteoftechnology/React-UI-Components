@@ -4,6 +4,7 @@ import NumberButton from './components/ButtonComponents/NumberButton'
 import ActionButton from './components/ButtonComponents/ActionButton'
 
 const numberButtons = [
+  
   {
     number: '7',
   },
@@ -13,7 +14,10 @@ const numberButtons = [
   {
     number: '9',
   },
-  
+  {
+    number: '/',
+  },
+
   {
     number: '4',
   },
@@ -23,7 +27,10 @@ const numberButtons = [
   {
     number: '6',
   },
-  
+  {
+    number: 'x',
+  },
+
   {
     number: '1',
   },
@@ -33,9 +40,14 @@ const numberButtons = [
   {
     number: '3',
   },
-  
   {
-    number: '0',
+    number: '-',
+  },
+  {
+    number: '+',
+  },
+  {
+    number: '=',
   },
 ];
 
@@ -61,15 +73,9 @@ const App = () => {
   return (
     <Fragment>
       <h1>Calculator:</h1>
-      <div class="buttons">
-        <div class="daNumbers">
-          {numberButtons.map(number => {return (<NumberButton theNumbers={number} />)})}
-        </div>
-        <div class="daActions">
-          {actionButtons.map(action => {return (<ActionButton theActions={action} />)})}
-        </div>
-      </div>
-      
+      <div class="daNumbers">
+        {numberButtons.map(number => {return (<NumberButton theNumbers={number} />)})}
+      </div> 
     </Fragment>
 );
 }
