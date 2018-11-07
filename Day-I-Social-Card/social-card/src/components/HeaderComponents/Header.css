@@ -1,1 +1,37 @@
 /* All styles for your header Components live here */
+
+.header-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.logo {
+    height: 3.8rem;
+    width: auto;
+    background-color: #942624;
+    border-radius: 50%;
+    margin-top: 5px;
+    padding: 5px;
+}
+
+.header-text {
+    padding-top: 5px;
+    margin-left: 10px;
+    padding-right: 5px;
+}
+
+.bold {
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+.pale {
+    color: gray;
+    font-size: 1.3rem;
+}
+
+.paragraph {
+    margin-top: 8px;
+    font-size: 1.45rem;
+    line-height: 1.3;
+}

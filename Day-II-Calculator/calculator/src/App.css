@@ -1,0 +1,6 @@
+.appDiv {
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid lightgray;
+}

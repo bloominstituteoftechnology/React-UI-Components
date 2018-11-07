@@ -1,0 +1,40 @@
+.row {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    border-top: 2px solid lightgray;
+}
+
+.actionButton, .numberButton {
+    width: 25%;
+    height: 92px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.numberButton {
+    border-right: 2px solid lightgray;
+    font-size: 2.8rem;
+    font-weight: bold;
+}
+
+.actionButton {
+    font-size: 4rem;
+    font-weight: 100;
+}
+
+.wide {
+    width: 76%;
+    border-right: 2px solid lightgray;
+}
+
+.clear {
+    font-size: 2.8rem;
+}
+
+.red {
+    background-color: #931C24;
+    color: #FFF;
+}

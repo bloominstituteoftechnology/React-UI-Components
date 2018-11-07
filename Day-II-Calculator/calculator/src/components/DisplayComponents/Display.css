@@ -1,0 +1,15 @@
+.displayDiv {
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    background-color: black;
+}
+
+.displayValue {
+    margin: 15px;
+    font-size: 4.4rem;
+    color: #FFF;
+    font-weight: 100;
+}
