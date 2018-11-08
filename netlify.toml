@@ -1,6 +1,6 @@
 https://www.netlify.com/img/global/meta-image.jpg
 
-```[Settings]
+[Settings]
 ID = "57e3186c-901e-4841-9f66-3cffa5eccbe7"
 
 # Settings in the [build] context are global and are applied to all contexts unless otherwise overridden by more specific contexts.  
@@ -12,4 +12,4 @@ ID = "57e3186c-901e-4841-9f66-3cffa5eccbe7"
   # This is the directory that you are publishing from (relative to root of your repo)
   publish = "Day-II-Calculator/calculator/build"
   # This will be your default build command
-  command = "yarn build"```
+  command = "yarn build"
