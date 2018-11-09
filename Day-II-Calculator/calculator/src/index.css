@@ -1,5 +1,217 @@
+/* Your Code Goes Here */
+/*
+.width-100 {
+  width: 100%;
+}
+
+.border-bottom-grey {
+  border-bottom: 1px solid @lambda-times-color-lightgrey;
+}
+
+.flex(@jc: none, @ai: none, @dir: row) {
+  display: flex;
+  justify-content: @jc;
+  align-items: @ai;
+  flex-direction: @dir;
+}
+
+*/
+/*------------------------------------*\
+RESET
+\*------------------------------------*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+v2.0b1 | 201101 
+NOTE:WORK IN PROGRESS
+USE WITH CAUTION AND TEST WITH ABANDON */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: ’’;
+  content: none;
+}
+ins {
+  text-decoration: none;
+}
+del {
+  text-decoration: line-through;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+* {
+  box-sizing: border-box;
+}
+html,
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-size: 62.5%;
+}
+.calculon {
+  width: 500px;
+  height: 700px;
+  border: 1px solid grey;
+  border-radius: 15px;
+  background: white;
+  margin: 10% auto;
+  padding: 2% 0;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+.display {
+  height: 14%;
+  width: 90%;
+  font-size: 4rem;
+  text-align: right;
+  border: 1px solid grey;
+  margin: 5% 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 0 2% 1% 2%;
+  font-size: 7rem;
+}
+.calc-buttons-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5% 5% 5%;
+  height: 79%;
+}
+.calc-buttons-container .calc-button {
+  width: 22%;
+  height: 16%;
+  font-size: 4rem;
+  border: 1px solid grey;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.calc-buttons-container .calc-button:hover {
+  background-color: rgba(0, 0, 255, 0.3);
+  cursor: pointer;
+}
+.calc-buttons-container .calc-button:focus {
+  outline: 0;
+}
+.calc-buttons-container .calc-button.large {
+  width: 74%;
 }

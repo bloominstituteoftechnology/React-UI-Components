@@ -1,0 +1,38 @@
+.calc-buttons-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 5% 5% 5%;
+	height: 79%;
+	
+	.calc-button {
+		//border: 1px solid purple;
+		width: 22%; //calc(80% / 3);
+		height: 16%;
+		font-size: 4rem;
+		//margin-right: 4%;
+		border: 1px solid grey;
+		border-radius: 15px;
+		//margin-bottom: 4%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		//background: grey;
+	}
+
+	.calc-button:hover { 
+	    background-color: rgba(0, 0, 255, 0.3);
+	    cursor:pointer;
+	}
+
+	.calc-button:focus {
+		outline:0;
+	}
+
+	.calc-button.large{
+		width: 74%;
+	}
+
+}
