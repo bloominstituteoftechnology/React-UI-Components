@@ -160,51 +160,90 @@ body {
   padding: 0;
   font-size: 62.5%;
 }
+.number {
+  width: 28%;
+  height: 16%;
+  font-size: 4rem;
+  border: 1px solid grey;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.number:hover {
+  background-color: rgba(0, 0, 255, 0.3);
+  cursor: pointer;
+}
+.number.large {
+  width: 92%;
+}
+.function {
+  width: 84%;
+  height: 16%;
+  font-size: 4rem;
+  border: 1px solid grey;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.function:hover {
+  background-color: rgba(0, 0, 255, 0.3);
+  cursor: pointer;
+}
+.function.large {
+  width: 92%;
+  height: 16%;
+}
 .calculon {
   width: 500px;
   height: 700px;
-  border: 1px solid gold;
+  border: 1px solid grey;
+  border-radius: 15px;
+  background: white;
   margin: 10% auto;
   display: flex;
   flex-wrap: wrap;
   flex-direction: flex-start;
+  justify-content: center;
 }
 .display {
-  height: 21.875%;
-  width: 100%;
+  height: 14%;
+  width: 94%;
+  font-size: 4rem;
+  text-align: right;
+  border: 1px solid grey;
+  margin: 5% 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 1%;
+  font-size: 7rem;
 }
-.calc-numbers-container {
-  border: 1px solid blue;
+.calc-left-buttons-container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: flex-start;
+  justify-content: space-evenly;
   height: 78.125%;
   width: 75%;
 }
-.calc-numbers-container .number {
-  border: 1px solid purple;
-  width: calc(100% / 3);
-  height: 25%;
-  font-size: 4rem;
-}
-.calc-numbers-container .number-large {
-  width: 100%;
-  border: 5px solid cyan;
-}
-.calc-actions-container {
-  border: 1px solid red;
+.calc-right-buttons-container {
   display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
+  flex-direction: row;
   justify-content: flex-start;
+  flex-wrap: wrap;
   height: 78.125%;
   width: 25%;
-}
-.calc-actions-container .function {
-  border: 1px solid purple;
-  width: calc(100% / 3);
-  height: 25%;
-  width: 100%;
-  font-size: 4rem;
+  /*
+	.function {
+		//border: 1px solid cyan;
+		width: 100%;
+		height: 25%;
+		font-size: 4rem;	
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-end;
+	}
+	*/
 }

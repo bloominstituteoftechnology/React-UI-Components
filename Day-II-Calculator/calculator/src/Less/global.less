@@ -8,12 +8,51 @@ html, body {
   font-size: 62.5%;
 }
 
-.calculon {
-	width: 500px;
-	height: 700px;
-	border: 1px solid gold;
-	margin: 10% auto;
+.number {
+	//border: 1px solid purple;
+	width: 28%; //calc(80% / 3);
+	height: 16%;
+	font-size: 4rem;
+	//margin-right: 4%;
+	border: 1px solid grey;
+	border-radius: 15px;
+	//margin-bottom: 4%;
 	display: flex;
-	flex-wrap: wrap;
-	flex-direction: flex-start;
+	justify-content: center;
+	align-items: center;
+	//background: grey;
+}
+
+.number:hover { 
+    background-color: rgba(0, 0, 255, 0.3);
+    cursor:pointer;
+}
+
+.number.large{
+	width: 92%;
+}
+
+.function {
+	width: 84%; //calc(80% / 3);
+	height: 16%;
+	font-size: 4rem;
+	//margin-right: 4%;
+	border: 1px solid grey;
+	border-radius: 15px;
+	//margin-bottom: 10%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	//background: grey;
+}
+
+.function:hover { 
+    background-color: rgba(0, 0, 255, 0.3);
+    cursor:pointer;
+}
+
+.function.large{
+	//margin-bottom: 4%;
+	width: 92%;
+	height: 16%;
 }

@@ -1,9 +1,13 @@
 import React from 'react';
 
 function ActionButton(props) {
-  return (
-    <div className="function">{props.label}</div>
-  );
+	let className = 'function';
+	if (props.large) {
+		className += ' large';
+	}
+	return (
+		<button className={className}>{props.label}</button>
+	);
 }
 
 export default ActionButton;

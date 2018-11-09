@@ -4,14 +4,14 @@ import React from 'react';
 function NumberButton(props) {
   let className = 'number';
   if (props.large) {
-  	className += ' number-large';
+  	className += ' large';
   }
-  return (
-    
-	<React.Fragment>
-    	<div className={className}>{props.number}</div>
-    </React.Fragment>
 
+  return (
+	<React.Fragment>
+    	<button className={className} onClick={props.onClick} >{props.number}</button>
+
+    </React.Fragment>
   );
 }
 
