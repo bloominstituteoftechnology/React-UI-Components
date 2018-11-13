@@ -21,9 +21,9 @@ class App extends React.Component {
   clear() {
     let disp = this.state.displayVal;
     if (this.state.postOp) {
-      this.setState({ displayVal: "continue?" });
+      this.setState({ displayVal: "confirm clear" });
     }
-    if (!this.state.postOp || disp === "continue?") {
+    if (!this.state.postOp || disp === "confirm clear") {
       this.setState({
         displayVal: "0",
         postOp: false,
@@ -37,10 +37,10 @@ class App extends React.Component {
   numInput(num) {
     let disp = this.state.displayVal;
     if (disp.length > 11) {
-      this.setState({ displayVal: "you broke it" });
+      this.setState({ displayVal: "it done broke" });
       return;
     }
-    if (disp === "0" || disp === this.state.storedVal || this.state.postEqual || disp === "continue?") {
+    if (disp === "0" || disp === this.state.storedVal || this.state.postEqual || disp === "confirm clear") {
       this.setState({ displayVal: String(num), postEqual:false});
     } else {
       this.setState({ displayVal: disp + num });
