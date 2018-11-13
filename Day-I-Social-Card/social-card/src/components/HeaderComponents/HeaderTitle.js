@@ -8,9 +8,10 @@ const HeaderTitle = () => {
     return (
         <React.Fragment>
             <div className='header-title'>
-                Lambda School
+                Lambda School                
                 <span className='time-stamp'>
-                {time.format('MMM Do ')}
+                @LambdaSchool 
+                {time.format('D MMM')}
                 </span>
                 <HeaderContent />
             </div>

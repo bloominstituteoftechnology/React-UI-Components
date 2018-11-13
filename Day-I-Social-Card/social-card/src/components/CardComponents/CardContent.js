@@ -13,7 +13,7 @@ const CardContent = () => {
                 className='text-content header-content link'
                 href='http://reactjs.org'
             >
-            Reactjs.org
+            ReactJS.org
             </a>    
         </div>
     );
