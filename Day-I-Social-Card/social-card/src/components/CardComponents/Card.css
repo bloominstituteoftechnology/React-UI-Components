@@ -1,1 +1,8 @@
 /* All styles for your Card Components live here */
+
+.card-container{
+    margin: 50px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
