@@ -1,17 +1,19 @@
-import React from 'react';
-import './Card.css';
-import './CardBanner';
-import CardBanner from './CardBanner';
-import CardContent from './CardContent';
+import React, { Component } from 'react';
+import './Card.css'
 
-const CardContainer = () => {
-    return (
-        <div className="card-content">
-            <CardContainer />
-            <CardBanner />
-            <CardContent />
-        </div>     
-    )
+import Banner from './CardBanner';
+import Cardcontent from './CardContent';
+class Card extends Component {
+
+    render() {
+        return (
+            <div className="bannerborder">
+                <Banner />
+                <Cardcontent />
+            </div>
+        );
+    }
+
 }
 
-export default CardContainer;
+export default Card;

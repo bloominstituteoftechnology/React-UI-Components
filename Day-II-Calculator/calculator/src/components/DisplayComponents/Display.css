@@ -1,0 +1,14 @@
+.Calculator {
+    width: 500px;
+    margin: 0 auto;
+    border: 1px solid white;
+}
+
+.TopDisplay {
+    width: 500px;
+    height: 50px;
+    background-color: black;
+    border: 1px solid black;
+}
+
+

@@ -1,14 +1,18 @@
-import React from 'react';
-import './Card.css';
+import React, { Component } from 'react';
 
-const CardContent = () => {
-    return (
-        <div className="card-content">
-            <h1>Get Started with React</h1>
-            <p className="card-p">React makes it painless to create interactive UIs. Design simple views for each state in your application. </p>
-            <span>reactjs.org</span>
-        </div>
-        
-    )
+class Cardcontent extends React.Component {
+
+    render() {
+        return (
+            <div>
+                <h3>Get Started With React</h3>
+                <p>React makes it painless to create interactive UIs.
+                    Design simple views for each state in your application.
+                </p>
+                <h4>reactjs.org</h4>
+            </div>
+        )
+    }
 }
- export default CardContent; 
+
+export default Cardcontent

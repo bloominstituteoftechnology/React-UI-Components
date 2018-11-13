@@ -1,14 +1,22 @@
-import React from 'react';
-import './Header.css';
+import React, { Component } from 'react';
+import './Header.css'
 
-const HeaderContent = () => {
-    return (
-        <div>
-            <img src="C:\Users\Marcus\Desktop\React-UI-Components\Day-I-Social-Card\social-card\public\favicon.ico" alt="cardlogo"/>
-        <p>Let's learn React by building simple interfaces with components. Don't try to overthink it, just keep it simple and have fun. Once you feel comfortable using components you are well on your way to mastering React!</p>
+class Content extends Component {
+
+    render() {
+        return (
+            <div>
+                <p>Let's learn React by building simple interfaces
+                    with components. Don't try to overthink it, just
+                    keep it simple and have fun. Once you feel 
+                    comfortable using components you are well on your
+                    way to mastering React!
+                </p>
+                </div>
             
-            </div>
-    )
-};
+        );
+    }
 
-export default HeaderContent;
+}
+
+export default Content;

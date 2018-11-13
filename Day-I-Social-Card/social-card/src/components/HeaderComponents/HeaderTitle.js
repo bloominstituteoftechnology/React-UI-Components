@@ -1,14 +1,19 @@
-import React from 'react';
-import './Header.css';
+import React, { Component } from 'react';
+import './Header.css'
 
-const HeaderTitle = () => {
-    return (
-        <div className = "Title">
+class Title extends Component {
+    
+    render() {
+        return (
+            <div className="headertitle">
             <h1>Lambda School</h1>
-            <p>@LambdaSchool</p>
-            <p>-26 Jan</p>
-        </div>
-    )
-};
+            <h5>@Lambda School - 26 Jan</h5>
+            </div>
+            
+        )
+    }
 
-export default HeaderTitle;
+
+}
+
+export default Title;

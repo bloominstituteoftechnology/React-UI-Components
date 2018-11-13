@@ -1,11 +1,15 @@
-import React from 'react';
-import './Card.css';
+import React, { Component } from 'react';
+import './Card.css'
 
-const CardBanner = () => {
-    return (
-        <div className="card-banner">
-            <img id="banner" src="https://ibin.co/3wnC6SgIOJud.png" alt="card banner"/>
-        </div>
-    )
+class Banner extends Component {
+    render() {
+        return (
+            <div>
+                <img className="banner" alt="React banner" src="https://ibin.co/3wnC6SgIOJud.png"/>
+            </div>
+        );
+    }
+
 }
- export default CardBanner; 
+
+export default Banner;

@@ -1,11 +1,23 @@
-/* All styles for your header Components live here */
-.Title {
+.imgthumbnail {
+    height: 50px;
+}
+
+h5 {
+    color: grey;
+    margin-top: 36px;
+    margin-left: 15px;
+}
+
+.header {
     display: flex;
     flex-direction: row;
 }
 
-.header-container {
-    width: 550px;
-    margin: 0 auto;
-    border: 1px solid black;
+.headercontent {
+    width: 600px;
+}
+
+.headertitle {
+    display: flex;
+    flex-direction: row;
 }
