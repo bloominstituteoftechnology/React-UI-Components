@@ -1,0 +1,21 @@
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 350px;
+    margin-top: 10px;
+}
+
+.footerimages {
+    height: 25px;
+}
+
+.refresh {
+    display: flex;
+    flex-direction: row;
+}
+
+.heart {
+    display: flex;
+    flex-direction: row;
+}
