@@ -3,14 +3,21 @@
   background-size: 153%;
   background-position-x: 51%;
   background-position-y: 45%;
-  margin-left: 4.2rem;
-  margin-right: 1rem;
+
+
   border-radius: 0.5rem;
 }
 
+.cardContainer{
+  border: 1px solid lightgrey;
+  border-radius: 0.5rem;
+  margin-left: 4.2rem;
+  margin-right: 2rem;
+}
+
 .allContent{
-  margin-left: 5.12rem;
-  margin-right: 1rem;
+  margin-left: 1rem;
+
   margin-top: 0rem;
   margin-bottom: 0;
   line-height: 0.2rem;

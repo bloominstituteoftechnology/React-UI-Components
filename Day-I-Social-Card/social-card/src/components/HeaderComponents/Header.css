@@ -3,7 +3,6 @@
 .container{
   width: 36.85rem;
   margin: 0 auto;
-  border: 1px solid red;
   display: flex;
   flex-flow: row nowrap;
 }
@@ -41,7 +40,6 @@
   display: flex;
   flex-flow: row wrap;
   margin: 0;
-  border: 1px solid purple;
 }
 
 .container .titleContainer h1{
