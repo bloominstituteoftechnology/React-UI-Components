@@ -8,8 +8,8 @@
 
 .header-container{
     display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
     width: 100%;
     margin: 13px 8px;
 }
