@@ -26,3 +26,8 @@
 .card-content h2 {
     font-size: 20px;
 }
+
+.card-content a {
+    text-decoration: none;
+    color: #6D7F8E;
+}
