@@ -1,0 +1,22 @@
+.medium-btn {
+  background-color: #ffffff;
+  color: #222222;
+  width: 300px;
+  font-size: 45px;
+}
+
+.small-btn {
+  width: 100px;
+  height: 80px;
+  font-size: 45px;
+}
+
+.red {
+  background-color: #a0001e;
+  color: #ffffff;
+}
+
+.white {
+  background-color: #ffffff;
+  color: #222222;
+}

@@ -1,21 +1,39 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+import "./App.css";
+import ActionButton from "./components/ButtonComponents/ActionButton";
+import NumberButton from "./components/ButtonComponents/NumberButton";
+import CalculatorDisplay from "./components/DisplayComponents/CalculatorDisplay";
 
 const App = () => {
   return (
-    <div>
-      <h3>Welcome to React Calculator</h3>
-      <p>
-        We have given you a starter project. You'll want to build out your
-        components in their respective files, remove this code and replace it
-        with the proper components.
-      </p>
-      <p>
-        <strong>
-          Don't forget to `default export` your components and import them here
-          inside of this file in order to make them work.
-        </strong>
-      </p>
+    <div className='app-container'>
+    <CalculatorDisplay text = '0'  buttonStyle ='top-btn'/>
+    <div className='box'>
+      <ActionButton text = 'clear' buttonStyle = 'medium-btn'/>
+      <NumberButton text = '÷' buttonStyle = 'small-btn red'/>
+    </div>
+    <div className='box'>
+      <NumberButton text = '7' buttonStyle = 'small-btn white'/>
+      <NumberButton text = '8' buttonStyle = 'small-btn white'/>
+      <NumberButton text = '9' buttonStyle = 'small-btn white'/>
+      <NumberButton text = 'x' buttonStyle = 'small-btn red'/>
+    </div>
+    <div className='box'>
+      <NumberButton text = '4' buttonStyle = 'small-btn white'/>
+      <NumberButton text = '5' buttonStyle = 'small-btn white'/>
+      <NumberButton text = '6' buttonStyle = 'small-btn white'/>
+      <NumberButton text = '-' buttonStyle = 'small-btn red'/>
+    </div>
+    <div className='box'>
+      <NumberButton text = '1' buttonStyle = 'small-btn white'/>
+      <NumberButton text = '2' buttonStyle = 'small-btn white'/>
+      <NumberButton text = '3' buttonStyle = 'small-btn white'/>
+      <NumberButton text = '+' buttonStyle = 'small-btn red'/>
+    </div>
+    <div className='box'>
+      <ActionButton text = '0' buttonStyle = 'medium-btn'/>
+      <NumberButton text = '=' buttonStyle = 'small-btn red'/>
+    </div>
     </div>
   );
 };

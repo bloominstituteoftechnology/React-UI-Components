@@ -1,0 +1,11 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  margin: 1rem auto;
+}
+
+.box {
+  display: flex;
+  flex-direction: row;
+}
