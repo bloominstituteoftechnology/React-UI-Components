@@ -1,1 +1,25 @@
 /* All styles for your Card Components live here */
+.card-container {
+  border: 1px solid red;
+}
+.card-content {
+  border: 1px solid lightgrey;
+}
+h3 {
+  font-size: 14px;
+  font-weight: 600;
+}
+p {
+  font-size: 13px;
+  font-weight: 400;
+}
+a {
+  text-decoration: none;
+  color: #657887;
+}
+.banner-img {
+
+}
+.content {
+
+}
