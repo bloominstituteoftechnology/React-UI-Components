@@ -3,7 +3,7 @@ import './Header.css';
 
 const ImageThumbnail = () => {
     return (
-        <div className='logo-wrapper'>
+        <div className='image-thumbnail'>
             <img
                 alt= 'Lambda logo'
                 className='thumb-img'

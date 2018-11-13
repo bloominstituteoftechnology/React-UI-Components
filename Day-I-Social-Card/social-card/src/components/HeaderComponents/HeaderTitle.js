@@ -6,8 +6,8 @@ const time = moment();
 
 const HeaderTitle = () => {
     return (
-        <React.Fragment>
-            <div className='header-title'>
+        <div className='header-title'>
+            <div className='header-info'>
                 Lambda School                
                 <span className='time-stamp'>
                 @LambdaSchool 
@@ -15,7 +15,7 @@ const HeaderTitle = () => {
                 </span>
                 <HeaderContent />
             </div>
-        </React.Fragment>
+        </div>
     );
 }
 
