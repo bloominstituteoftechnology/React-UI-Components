@@ -1,5 +1,6 @@
 import React from 'react';
 import './Card.css';
+import '../../App.css';
 
 function CardContent(props) {
     return (
