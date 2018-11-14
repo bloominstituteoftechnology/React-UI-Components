@@ -5,6 +5,7 @@ const ImageThumbnail = () => {
   return (
     <React.Fragment>
       <img
+        alt="logo img"
         className="header-img"
         src="https://ibin.co/3whrpKSBbZ81.png"
       />
