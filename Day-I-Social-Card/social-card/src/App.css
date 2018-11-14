@@ -4,8 +4,11 @@
 */
 
 .App {
-  margin: 50px;
-  padding: 20px;
-  border: 3px solid red;
+  height: 500px;
+  width: 45%;
+  margin: 1em auto;
+  border: 0.5px solid #000;
+  font-family: sans-serif;
+  /* border: 3px solid red; */
 }
 
