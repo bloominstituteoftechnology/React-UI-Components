@@ -1,1 +1,41 @@
 /* All styles for your Card Components live here */
+
+.baner-wrapper {
+    display: flex;
+}
+
+.banner-container-wrapper {
+    height: 269px;
+    width: 80%;
+    margin: 30px auto 0 auto;
+    border-radius: 4px;
+    background: hsl(0, 0%, 100%);
+    background-size: contain;
+}
+
+.banner-img {
+    border-radius: 4px 4px 0 0;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.banner-bottom {
+    height: 90px;
+    width: 80%;
+    background: #FFFFFF;
+    margin: 0 auto;
+    border-bottom: 1px solid #E3E3E3;
+    border-left: 1px solid #E3E3E3;
+    border-right: 1px solid #E3E3E3;
+    border-radius: 0 0 4px 4px;
+}
+
+.banner-content {
+    margin: 0;
+    padding: 0.3em;
+}
+
+.link {
+    text-decoration: none;
+    color: #D1D2D3;
+}
