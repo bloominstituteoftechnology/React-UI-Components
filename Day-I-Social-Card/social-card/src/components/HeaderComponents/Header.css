@@ -1,5 +1,5 @@
 /* All styles for your header Components live here */
-.header-container {
+/* .header-container {
     border: 3px dashed blue;
     margin: 50px;
     padding: 10px;
@@ -25,6 +25,43 @@ p{
 .header-span{
     font-size: 16px;
     border: 3px dashed yellow;
-}
+} */
 
 
+.container-header {
+    height: 50px;
+    padding: 10px;
+    display: flex;
+  }
+  
+  .thumb-wrapper {
+    height: 50px;
+    padding: 0.3em;
+  }
+  
+  .thumb-img {
+    height: 100%;
+  }
+  
+  .time-stamp {
+    font-weight: 300;
+    padding: 5px;
+  }
+  
+  .header-title {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 0 0.3em;
+  }
+  
+  .header-title-wrapper {
+    flex-direction: column;
+    margin-top: 0.6em;
+  }
+  
+  .header-content {
+    font-size: 13px;
+    font-weight: 400;
+    width: 93%;
+    line-height: 1.3;
+  }
