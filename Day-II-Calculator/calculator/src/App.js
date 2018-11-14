@@ -12,29 +12,29 @@ class App extends React.Component {
         <CalculatorDisplay />
         <ButtonContainer className="clear-button">
           <ActionButton className="three-text" text="clear" />
-          <NumberButton bgColor="red-button" text="/" />
+          <NumberButton buttonStyle="red-button" text="/" />
         </ButtonContainer>
         <ButtonContainer>
-          <NumberButton bgColor="num-button" text="7" />
-          <NumberButton bgColor="num-button" text="8" />
-          <NumberButton bgColor="num-button" text="9" />
-          <NumberButton bgColor="red-button" text="X" />
+          <NumberButton buttonStyle="num-button" text="7" />
+          <NumberButton buttonStyle="num-button" text="8" />
+          <NumberButton buttonStyle="num-button" text="9" />
+          <NumberButton buttonStyle="red-button" text="X" />
         </ButtonContainer>
         <ButtonContainer>
-          <NumberButton bgColor="num-button" text="4" />
-          <NumberButton bgColor="num-button" text="5" />
-          <NumberButton bgColor="num-button" text="6" />
-          <NumberButton bgColor="red-button" text="-" />
+          <NumberButton buttonStyle="num-button" text="4" />
+          <NumberButton buttonStyle="num-button" text="5" />
+          <NumberButton buttonStyle="num-button" text="6" />
+          <NumberButton buttonStyle="red-button" text="-" />
         </ButtonContainer>
         <ButtonContainer>
-          <NumberButton bgColor="num-button" text="1" />
-          <NumberButton bgColor="num-button" text="2" />
-          <NumberButton bgColor="num-button" text="3" />
-          <NumberButton bgColor="red-button" text="+" />
+          <NumberButton buttonStyle="num-button" text="1" />
+          <NumberButton buttonStyle="num-button" text="2" />
+          <NumberButton buttonStyle="num-button" text="3" />
+          <NumberButton buttonStyle="red-button" text="+" />
         </ButtonContainer>
         <ButtonContainer>
           <ActionButton className="three-text" text="0" />
-          <NumberButton bgColor="red-button" text="=" />
+          <NumberButton buttonStyle="red-button" text="=" />
         </ButtonContainer>          
       </div>
     );
