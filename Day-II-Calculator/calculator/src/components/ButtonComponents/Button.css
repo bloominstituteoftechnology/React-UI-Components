@@ -1,0 +1,17 @@
+.actionContainer{
+  display: flex;
+  flex-direction: column;
+}
+
+.actionContainer button{
+  font-size: 4.5rem;
+  color: white;
+  background-color: #AD280B;
+  width: 7.3rem;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+}
+
+.numbersContainer .wide{
+  width:21rem;
+}
