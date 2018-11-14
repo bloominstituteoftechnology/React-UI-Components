@@ -11,7 +11,7 @@ const time = moment();
 function HeaderTitle(props) {
     return (
       <React.Fragment>
-        <h1 className="header">Lambda School <span>@Lambda School {time.format('D MMM')} </span></h1>
+        <h1 className="header-header">Lambda School <span className="header-span">@Lambda School {time.format('D MMM')} </span></h1>
       </React.Fragment>
     );
   }

@@ -1,5 +1,6 @@
 /* All styles for your header Components live here */
 .header-container {
+    border: 3px dashed blue;
     margin: 50px;
     padding: 10px;
     display: flex;
@@ -12,3 +13,18 @@
     height: 75px;
     width: 75px;
 }
+
+p{
+    font-size: 28px;
+}
+
+.header-header{
+    border: 3px solid green;
+}
+
+.header-span{
+    font-size: 16px;
+    border: 3px dashed yellow;
+}
+
+

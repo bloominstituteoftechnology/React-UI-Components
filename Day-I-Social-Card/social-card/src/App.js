@@ -1,7 +1,5 @@
 import React from 'react';
 import './App.css';
-// import  HeaderTitle from './components/HeaderComponents/HeaderTitle';
-// import HeaderContent from './components/HeaderComponents/HeaderContent';
 import HeaderContainer from './components/HeaderComponents/HeaderContainer';
 import CardContainer from './components/CardComponents/CardContainer';
 
@@ -14,13 +12,12 @@ function App() {
   );
 }
 
-
+//See use of const and naming convention for div
 // const App = () => {
 //   return (
-//     <div>
-//       <HeaderTitle />
-//       <HeaderContent />
+//     <div className="card-container">
 //       <HeaderContainer />
+//       <CardContainer />
 //     </div>
 //   );
 // };
