@@ -4,6 +4,9 @@
 */
 
 .app {
-  max-width: 400px;
-  margin: 50px;
+  height: 500px;
+  width: 45%;
+  margin: 1em auto;
+  border: 0.5px solid #000;
+  font-family: sans-serif;
 }
