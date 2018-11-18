@@ -1,13 +1,12 @@
 .display {
   text-align: right;
-  padding: 20px 10px;
+  padding: 55px 10px;
   font-size: 80px;
   background: #222222;
   color: white;
   border: 1px solid #979797;
   flex: 1;
   line-height: 110px;
-  height: 75px;
 }
 
 .auto-scaling-text {
