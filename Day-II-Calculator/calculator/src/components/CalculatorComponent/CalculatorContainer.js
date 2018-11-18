@@ -14,6 +14,7 @@ class Calculator extends Component {
   handleClick = e => {
     if (e.target.innerText === "=") {
       let sum = [...this.state.evalArr];
+      while (sum[0] === "0") sum.shift();
       return this.setState({
         calcDisplay: eval(sum.join("")),
         evalArr: [eval(sum.join(""))]
