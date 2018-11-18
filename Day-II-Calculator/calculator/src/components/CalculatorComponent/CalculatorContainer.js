@@ -1,84 +1,132 @@
-import React, { Component } from 'react'
-import './CalculatorContainer.css';
-import Display from '../DisplayComponents/CalculatorDisplay';
+import React, { Component } from "react";
+import "./CalculatorContainer.css";
+import Display from "../DisplayComponents/CalculatorDisplay";
 import ButtonContainer from "../ButtonComponents/ButtonContainer";
-import NumberButton from '../ButtonComponents/NumberButton';
-import ActionButton from '../ButtonComponents/ActionButton';
-
-// const Calculator = props => {
-//   return (
-//     <div className="calculator">
-//       <Display />
-//       <ButtonContainer containerStyle="btnContainer">
-//         <ButtonContainer containerStyle="numberSide">
-//           <ActionButton buttonStyle="wide numberBtn narrow" text="clear"/>
-//           <NumberButton buttonStyle="numberBtn" text="7"/>
-//           <NumberButton buttonStyle="numberBtn" text="8"/>
-//           <NumberButton buttonStyle="numberBtn" text="9"/>
-//           <NumberButton buttonStyle="numberBtn" text="4"/>
-//           <NumberButton buttonStyle="numberBtn" text="5"/>
-//           <NumberButton buttonStyle="numberBtn" text="6"/>
-//           <NumberButton buttonStyle="numberBtn" text="1"/>
-//           <NumberButton buttonStyle="numberBtn" text="2"/>
-//           <NumberButton buttonStyle="numberBtn" text="3"/>
-//           <ActionButton buttonStyle="wide numberBtn" text="0"/>
-//         </ButtonContainer>
-//         <ButtonContainer containerStyle="operationsSide">
-//           <NumberButton buttonStyle="numberBtn bgRed" text="/"/>
-//           <NumberButton buttonStyle="numberBtn bgRed" text="*"/>
-//           <NumberButton buttonStyle="numberBtn bgRed" text="-"/>
-//           <NumberButton buttonStyle="numberBtn bgRed" text="+"/>
-//           <NumberButton buttonStyle="numberBtn bgRed" text="="/>
-//         </ButtonContainer>
-//       </ButtonContainer>
-//     </div>
-//   )
-// }
+import NumberButton from "../ButtonComponents/NumberButton";
+import ActionButton from "../ButtonComponents/ActionButton";
 
 class Calculator extends Component {
   state = {
-    calcDisplay: '0',
-  }
+    calcDisplay: "0",
+    evalArr: []
+  };
 
-  handleInputChange = event => {
-    this.setState({
-      calcDisplay: event.target.value
-    })
-  }
+  handleClick = e => {
+    if (e.target.innerText === "=") {
+      let sum = [...this.state.evalArr];
+      return this.setState({
+        calcDisplay: eval(sum.join("")),
+        evalArr: [eval(sum.join(""))]
+      });
+    }
+    if (e.target.innerText === "clear") {
+      return this.setState({
+        calcDisplay: "0",
+        evalArr: []
+      });
+    } else {
+      let currentVal = e.target.innerText;
+      console.log(currentVal);
+
+      return this.setState(prevState => ({
+        calcDisplay: eval([...prevState.evalArr, currentVal]),
+        evalArr: [...prevState.evalArr, currentVal]
+      }));
+    }
+  };
 
   render() {
-    // if(this.state.calcDisplay !== '') {
-    //   this.state.calcDisplay = 
-    // }
-
-
     return (
       <div className="calculator">
-        <Display handleInputChange={this.handleInputChange} calcDisplay={this.state.calcDisplay}/>
+        <Display calcDisplay={this.state.calcDisplay} />
         <ButtonContainer containerStyle="btnContainer">
           <ButtonContainer containerStyle="numberSide">
-            <ActionButton buttonStyle="wide numberBtn narrow" text="clear"/>
-            <NumberButton buttonStyle="numberBtn" text="7"/>
-            <NumberButton buttonStyle="numberBtn" text="8"/>
-            <NumberButton buttonStyle="numberBtn" text="9"/>
-            <NumberButton buttonStyle="numberBtn" text="4"/>
-            <NumberButton buttonStyle="numberBtn" text="5"/>
-            <NumberButton buttonStyle="numberBtn" text="6"/>
-            <NumberButton buttonStyle="numberBtn" text="1"/>
-            <NumberButton buttonStyle="numberBtn" text="2"/>
-            <NumberButton buttonStyle="numberBtn" text="3"/>
-            <ActionButton buttonStyle="wide numberBtn" text="0"/>
+            <ActionButton
+              handleClick={this.handleClick}
+              buttonStyle="wide numberBtn narrow"
+              text="clear"
+            />
+            <NumberButton
+              handleClick={this.handleClick}
+              buttonStyle="numberBtn"
+              text="7"
+            />
+            <NumberButton
+              handleClick={this.handleClick}
+              buttonStyle="numberBtn"
+              text="8"
+            />
+            <NumberButton
+              handleClick={this.handleClick}
+              buttonStyle="numberBtn"
+              text="9"
+            />
+            <NumberButton
+              handleClick={this.handleClick}
+              buttonStyle="numberBtn"
+              text="4"
+            />
+            <NumberButton
+              handleClick={this.handleClick}
+              buttonStyle="numberBtn"
+              text="5"
+            />
+            <NumberButton
+              handleClick={this.handleClick}
+              buttonStyle="numberBtn"
+              text="6"
+            />
+            <NumberButton
+              handleClick={this.handleClick}
+              buttonStyle="numberBtn"
+              text="1"
+            />
+            <NumberButton
+              handleClick={this.handleClick}
+              buttonStyle="numberBtn"
+              text="2"
+            />
+            <NumberButton
+              handleClick={this.handleClick}
+              buttonStyle="numberBtn"
+              text="3"
+            />
+            <ActionButton
+              handleClick={this.handleClick}
+              buttonStyle="wide numberBtn"
+              text="0"
+            />
           </ButtonContainer>
           <ButtonContainer containerStyle="operationsSide">
-            <NumberButton buttonStyle="numberBtn bgRed" text="&divide;"/>
-            <NumberButton buttonStyle="numberBtn bgRed" text="&times;"/>
-            <NumberButton buttonStyle="numberBtn bgRed" text="&minus;"/>
-            <NumberButton buttonStyle="numberBtn bgRed" text="+"/>
-            <NumberButton buttonStyle="numberBtn bgRed" text="="/>
+            <NumberButton
+              handleClick={this.handleClick}
+              buttonStyle="numberBtn bgRed"
+              text="/"
+            />
+            <NumberButton
+              handleClick={this.handleClick}
+              buttonStyle="numberBtn bgRed"
+              text="*"
+            />
+            <NumberButton
+              handleClick={this.handleClick}
+              buttonStyle="numberBtn bgRed"
+              text="-"
+            />
+            <NumberButton
+              handleClick={this.handleClick}
+              buttonStyle="numberBtn bgRed"
+              text="+"
+            />
+            <NumberButton
+              handleClick={this.handleClick}
+              buttonStyle="numberBtn bgRed"
+              text="="
+            />
           </ButtonContainer>
         </ButtonContainer>
       </div>
-    )
+    );
   }
 }
 
