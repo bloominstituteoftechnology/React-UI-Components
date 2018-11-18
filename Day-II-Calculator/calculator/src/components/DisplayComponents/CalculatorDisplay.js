@@ -1,8 +1,15 @@
-import React from "react";
+import React, { Component } from "react";
 import "./Display.css";
+import AutoScalingText from "./AutoScalingDisplay";
 
-const Display = props => {
-  return <div className="display">{props.calcDisplay}</div>;
-};
+class Display extends Component {
+  render(props) {
+    return (
+      <div {...props} className="display">
+        <AutoScalingText>{this.props.calcDisplay}</AutoScalingText>
+      </div>
+    );
+  }
+}
 
 export default Display;
