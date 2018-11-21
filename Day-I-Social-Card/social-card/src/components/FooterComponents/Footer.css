@@ -1,0 +1,23 @@
+
+.footer {
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center; 
+    margin-top: 10px; 
+    width: 50%; 
+    margin-left: 4%; 
+}
+
+.font-awesome {
+    font-size: 2rem; 
+}
+
+.footer p {
+    font-size: 1.4rem; 
+}
+
+.footer i {
+    margin-right: 3px;
+}
+
+
