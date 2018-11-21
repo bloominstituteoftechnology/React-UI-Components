@@ -1,1 +1,38 @@
 /* All styles for your header Components live here */
+.header-container-wrapper {
+    /* border: 1px solid salmon; */
+    display: flex;
+    height: 50px;
+    padding: 10px;
+}
+
+.lambda-img-wrapper {
+    height: 50px;
+    padding: .4em;
+}
+
+.lambda-img {
+    height: 100%;
+}
+
+.date {
+    padding: 6px;
+    font-weight: 400;
+    color: lightgray;
+}
+
+.header-title {
+    font-size: 15px;
+    padding: .4em;
+}
+
+.header-title-wrapper {
+    flex-direction: column;
+    margin-top: .5em;
+}
+
+.header-content {
+    width: 90%;
+    line-height: 1.2;
+    font-size: 14px;
+}

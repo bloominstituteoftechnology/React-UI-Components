@@ -1,0 +1,8 @@
+.calculator-wrapper {
+    display:flex;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    flex: 0 1 60%;
+    min-width: 400px;
+    min-height: 90vh;
+}
