@@ -1,1 +1,34 @@
 /* All styles for your header Components live here */
+.header-container {
+  height: 100px;
+  display: flex;
+}
+.header-container img {
+  width: 7%;
+  align-self: flex-start;
+  margin-right: 2%;
+}
+.header-material {
+  display: flex;
+  flex-direction: column;
+}
+.header-title {
+  display: flex;
+  align-items: center;
+  align-self: flex-start;
+  justify-content: space-evenly;
+  margin-bottom: 10px;
+}
+.header-title a {
+  text-decoration: none;
+  color: gray;
+}
+date {
+  color: gray;
+}
+.header-title * {
+  margin-right: 15px;
+}
+.header-title *:last-child{
+  margin-right: 0;
+}

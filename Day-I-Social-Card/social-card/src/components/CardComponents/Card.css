@@ -1,1 +1,17 @@
 /* All styles for your Card Components live here */
+.card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.card-container img {
+  width: 90%;
+  margin-bottom: 10px;
+}
+.card-content {
+  width: 90%;
+}
+.card-content a {
+  text-decoration: none;
+  color: gray;
+}
