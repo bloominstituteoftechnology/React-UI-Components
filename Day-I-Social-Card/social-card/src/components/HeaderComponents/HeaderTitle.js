@@ -6,7 +6,7 @@ const HeaderTitle = props => {
     <div className='header-title'>
       <strong>{props.name}</strong>
       <a href='#'>{props.handle}</a>
-      <date>26 jan</date>
+      <time>26 jan</time>
     </div>
   );
 }
