@@ -1,1 +1,13 @@
 /* All styles for your Card Components live here */
+
+.card {
+  width: 85.5%;
+  margin-left: 11.5%;
+  margin-top: 15px;
+  border: 1px solid black;
+}
+
+.card .cardImg {
+  background-color: #222222;
+  text-align: center;
+}

@@ -13,7 +13,7 @@
 }
 
 .headerText {
-  margin-top: 3px;
+  margin-top: 2px;
   margin-left: 1.6%;
 }
 
@@ -30,5 +30,5 @@
 .headerText p {
   font-size: 1.4rem;
   line-height: 18px;
-  margin-top: 8px;
+  margin-top: 6px;
 }
