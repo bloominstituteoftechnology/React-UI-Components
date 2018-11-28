@@ -1,1 +1,40 @@
 /* All styles for your header Components live here */
+header {
+    font-size: 0.9rem;
+    width: 590px;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.thumb {
+    padding-left: 10px;
+    width: 50px;
+    align-self: flex-start;
+}
+
+.header__title {
+    font-size: 0.9rem;
+    padding: 0;
+    margin: 0;
+}
+
+.header__name {
+    margin: 0 0.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.header__info {
+    color: rgb(156, 156, 170);
+    font-size: 0.75rem;
+    display: inline;
+    margin: 0;
+    margin-left: 10px;
+}
+
+.message {
+    padding: 0.5rem;
+    line-height: 1.29;
+}
