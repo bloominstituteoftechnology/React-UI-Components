@@ -2,7 +2,7 @@ import React from 'react';
 import './Card.css';
 
 const CardBanner = () => {
-   return <img className="banner" alt="bannerpic" src="https://ibin.co/3wnC6SgIOJud.png"></img>
+   return <img className="banner" alt="bannerpic" src="./images/reactSpaceImg.PNG"></img>
 }
 
 export default CardBanner;
