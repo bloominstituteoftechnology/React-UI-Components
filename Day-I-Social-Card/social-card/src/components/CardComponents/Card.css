@@ -11,3 +11,24 @@
   background-color: #222222;
   text-align: center;
 }
+
+.cardText h4 {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.cardText {
+  margin-top: 12px;
+  margin-left: 3%;
+  font-size: 1.4rem;
+}
+
+.cardText p {
+  margin-top: 7px;
+  line-height: 17px;
+  margin-bottom: 6px;
+}
+
+.cardText .web {
+  color: lightgray;
+}
