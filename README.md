@@ -20,7 +20,7 @@
 - Each file has been set up to work within a `react.js` environment. Pay attention to the notes found within each project.
 - Don't forget about `className` vs `class` on your `JSX elements`!!
 
-## _Day I - Social Card_
+## _Project I - Social Card_
 
 - We're going to break down this assignment in terms of how you should be starting to think in react. Remember that everything is a component.
 - All the files you'll need for this project are found in `Day-I-Social-Card/social-card/src/components`. You can find all the component files you should need in their respective directory. i.e. inside of the `HeaderComponents` directory you should see a few `.js` files and a `.css` file.
@@ -35,7 +35,7 @@
 
 ![Social Components](sc-component-outline.png)
 
-#### Day 1 MVP requirements
+#### Project 1 MVP requirements
 
 - Create a `<HeaderContainer />` container component that will hold your header components.
 
@@ -48,14 +48,14 @@
   - Create a `<CardContent />` component that displays the card copy provided.
   - The entire `<CardContainer />` should take a user to `https://www.reactjs.org` when clicked.
 
-#### Day 1 Stretch Problems
+#### Project 1 Stretch Problems
 
 - Create a `<Footer/>` component that pulls in the icons and displays them properly.
   - Build out the functionality so that a user can click on the icons and have them react to events.
 - Ensure that your product is as pixel perfect as possible using any tools that you were introduced to in previous weeks.
 - Look up the `moment.js` library and figure out how to format your `time-stamp` in your header to be today's date.
 
-## _Day II - React Calculator_
+## _Project II - React Calculator_
 
 - For this project you're not going to be given any tips on how to break down the image file into components. Now that you've had some practice with the social card, this should be something you can start doing on your own. Just think about the image, and what potentially looks like a component.
 - For the MVP the calculator just needs to be displayed properly. Functionality will be a part of the stretch requirement.
@@ -68,7 +68,7 @@
 - **BEFORE YOU DO ANYTHING ELSE READ [This](https://reactjs.org/docs/thinking-in-react.html)**
 - This is the time to stop and break down this image in terms of components. Each container on the screen should give you an idea of what your components should be. You're now about to begin your journey into learning how to think in React.
 
-#### Day 2 MVP requirements
+#### Project 2 MVP requirements
 
 - Create a `<NumberButton />` component that can accept `props` and display any number/symbol passed down as `text`.
   - Example your component should be able to render a dynamic prop called text:
