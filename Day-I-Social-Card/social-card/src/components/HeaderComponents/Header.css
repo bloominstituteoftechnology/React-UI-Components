@@ -1,1 +1,47 @@
 /* All styles for your header Components live here */
+*{
+    box-sizing: border-box;
+}
+
+.header{
+
+
+    width:600px;
+    height:100px;
+   //border:1px solid red;
+
+
+
+
+}
+
+.header .header-first{
+
+    display:flex;
+    justify-content: flex-start;
+    margin-bottom: 0%;
+
+
+}
+
+.header .header-first .logo{
+
+    width:10%;
+    height:10%;
+    
+
+
+}
+.header header-title{
+
+
+}
+.header .header-content{
+
+    margin-top:10px ;
+}
+
+.header .headerTitleContent {
+    display: flex;
+    flex-direction: column;
+}
