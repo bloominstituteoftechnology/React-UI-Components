@@ -4,7 +4,7 @@ import thumbnail from '../../img/thumbnail-lambda.jpg';
 
 const ImageThumbnail = props => {
   return (
-    <img src={thumbnail} alt="lambda logo" />
+    <img className = {props.className} src={thumbnail} alt="lambda logo" />
   );
 }
 
