@@ -1,1 +1,28 @@
 /* All styles for your header Components live here */
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+.container {
+  width: 85%;
+}
+
+.HeaderHOne {
+  font-size: 20px;
+}
+
+.hashTag {
+  color: gray;
+}
+
+.headImg {
+  width: 50px;
+  height: 60px;
+  order: -1;
+  padding-top: 15px;
+  padding-right: 15px;
+}

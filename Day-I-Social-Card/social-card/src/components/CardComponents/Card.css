@@ -1,1 +1,25 @@
 /* All styles for your Card Components live here */
+
+.CardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.CardContainer:hover {
+  cursor: pointer;
+}
+
+.banner-img {
+  max-width: 800px;
+  width: 85%;
+  height: 85%;
+}
+
+.CardContainer h2 {
+  font-size: 20px;
+}
+
+.CardContainer div {
+  width: 85%;
+}
