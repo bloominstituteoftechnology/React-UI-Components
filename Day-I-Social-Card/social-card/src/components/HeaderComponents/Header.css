@@ -1,1 +1,34 @@
 /* All styles for your header Components live here */
+
+.header {
+  margin: 11px 1.5%;
+  display: flex;
+}
+
+.header img {
+  width: 100%;
+  height: 49px;
+  max-width: 49px;
+  border-radius: 50%;
+}
+
+.headerText {
+  margin-top: 3px;
+  margin-left: 1.6%;
+}
+
+.headerText h4 {
+  margin: 0;
+  font-size: 1.4rem;
+}
+
+.headerText .date {
+  font-size: 1.2rem;
+  margin-left: 1%;
+}
+
+.headerText p {
+  font-size: 1.4rem;
+  line-height: 18px;
+  margin-top: 8px;
+}
