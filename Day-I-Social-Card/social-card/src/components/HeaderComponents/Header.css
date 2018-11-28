@@ -1,9 +1,6 @@
 /* All styles for your header Components live here */
 .Header {
   display: flex;
-  border: 1px solid red;
-  width: 100%;
-  max-width: 600px;
   margin: 0 auto;
   padding: 20px;
 }
@@ -15,16 +12,12 @@
   margin-right: 15px;
 }
 
-.Header__content {
-
-}
-
 .Header__content__title {
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
 
-  width: 55%;
+  width: 50%;
 }
 
 .Header__content__title h2, h3 {
@@ -39,4 +32,8 @@
 .Header__content__title h3, date {
   font-size: 13px;
   opacity: .5
+}
+
+.Header__content p {
+  margin: 10px 0 0 0;
 }
