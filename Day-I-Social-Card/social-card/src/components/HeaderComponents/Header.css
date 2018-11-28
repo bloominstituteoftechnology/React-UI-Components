@@ -2,7 +2,6 @@
 .header {
     width: 650px;
     width: 100%;
-    border: 1px solid red;
     display: flex;
 }
 
@@ -21,6 +20,7 @@
 }
 
 .content-container {
-    width: 90%;
-    border: 1px solid dodgerblue;
+    width: 93%;
+    margin-left: 2%;
+    margin-right: 5%;
 }

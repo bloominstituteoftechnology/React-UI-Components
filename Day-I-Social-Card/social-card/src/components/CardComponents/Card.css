@@ -1,13 +1,16 @@
 /* All styles for your Card Components live here */
 .card-container {
-    width: 88%;
+    width: 85.5%;
     margin-left: 12%;
-    border: 1px solid purple;
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+    border-bottom: 1px solid grey;
+    border-radius: 5px;
 }
 
 .card-content {
-    border: 1px solid grey;
-    height: 115px;
+    height: 105px;
+    
 }
 
 h4 {
