@@ -18,3 +18,8 @@ html {
   width: 100%;
   margin: 0 auto;
 }
+
+.App a {
+  text-decoration: none;
+  color: black;
+}
