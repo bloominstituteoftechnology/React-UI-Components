@@ -1,1 +1,26 @@
 /* All styles for your header Components live here */
+.header {
+    width: 650px;
+    width: 100%;
+    border: 1px solid red;
+    display: flex;
+}
+
+.header-title {
+    font-size: 1rem;
+}
+
+.header-p {
+    font-size: .875rem;
+    color: grey;
+}
+
+.header-content {
+     line-height: 20px;
+     padding: 0;
+}
+
+.content-container {
+    width: 90%;
+    border: 1px solid dodgerblue;
+}
