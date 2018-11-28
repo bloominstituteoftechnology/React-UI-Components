@@ -1,21 +1,19 @@
 /* All styles for your header Components live here */
 header {
-    font-size: 0.9rem;
-    width: 590px;
-    margin: auto;
+    font-size: 0.89rem;
     padding: 10px;
+    padding-bottom: 5px;
     display: flex;
     align-items: center;
 }
 
 .thumb {
-    padding-left: 10px;
     width: 50px;
     align-self: flex-start;
 }
 
 .header__title {
-    font-size: 0.9rem;
+    font-size: 0.89rem;
     padding: 0;
     margin: 0;
 }

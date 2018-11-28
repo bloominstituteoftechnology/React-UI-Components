@@ -1,5 +1,16 @@
-body {
+* {
+  padding: 0;
   margin: 0;
+  /* box-sizing: border-box; */
+}
+
+body {
+  width: 590px;
+  margin: 0 auto;
   padding: 0.4rem;
   font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
 }

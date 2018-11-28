@@ -1,1 +1,39 @@
 /* All styles for your Card Components live here */
+.card {
+    font-size: 0.89rem;
+    margin-left: calc(60px + 0.5rem);
+    margin-right: calc(10px + 0.5rem);
+    padding-bottom: 5px;
+    border: 1px solid rgb(226, 226, 240);
+    border-radius: 5px;
+}
+
+.card__banner {
+    width: 100%;
+    height: 253px;
+    background-image: url('./reactlogo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.card__content {
+    padding: 4px 15px;
+}
+
+.card__title {
+    font-size: 0.89rem;
+    padding-top: 9px;
+    margin-bottom: 6px;
+}
+
+.card__description {
+    padding: 0 0 5px 0;
+    margin: 0;
+    line-height: 1.27;
+}
+
+.card__site__link {
+    color: rgb(156, 156, 170);
+}
