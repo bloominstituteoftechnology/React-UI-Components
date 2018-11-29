@@ -1,9 +1,15 @@
 /* All styles for your Card Components live here */
-
+a {
+  text-decoration: none;
+  color: #000000;
+}
 .card-container {
   border: 1px solid #e6ecf0;
-  border-radius: .5rem;
+  border-radius: .3rem;
   margin-left: 10%;
+}
+.card-container a {
+  text-decoration: none;
 }
 .card-content {
   padding: 1rem 1.5rem;
@@ -24,6 +30,6 @@
 }
 .card-banner img {
   max-width: 100%;
-  border-top-left-radius: .5rem;
-  border-top-right-radius: .5rem;
+  border-top-left-radius: .3rem;
+  border-top-right-radius: .3rem;
 }

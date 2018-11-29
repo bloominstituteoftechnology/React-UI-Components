@@ -6,8 +6,10 @@ import ImageThumbnail from './ImageThumbnail';
 const HeaderTitle = (props) => {
   return (    
     <div className="header-title">
-      <ImageThumbnail />
-      <HeaderContent />
+      <div className="header-title-name">Lambda School</div>
+      <div className="header-title-handle">@LambdaSchool</div>
+      <div className="header-title-separator">&middot;</div>
+      <div className="header-title-date">26 jan</div>
     </div>
   )
 }

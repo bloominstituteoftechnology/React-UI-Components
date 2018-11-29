@@ -1,21 +1,20 @@
 /* All styles for your header Components live here */
 
+.header-container{
+  display: flex;
+}
+.header-text {
+  width: 90%;
+}
+.header-img {
+  width: 10%;
+}
 .header-title {
   display: flex;
   width: 100%;
   padding-top: .2rem;
 }
-.header-title-right {
-  width: 90%;
-  padding-bottom: .5rem;
-}
-.header-title-right p {
-  margin: 0.5rem 0;
-}
-.header-title-top {
-  display: flex;
-}
-.header-title-top > * {
+.header-title > * {
   padding-right: .5rem;
   color: #7d8d9c;
 }
@@ -23,13 +22,13 @@
   font-weight: bold;
   color: #000000;
 }
+.header-content p {
+  margin: .5rem 0;
+}
 .image-thumbnail {
-  width: 10%;
+  width: 100%;
   padding-right: .7rem;
 }
 .image-thumbnail img {
   max-width: 100%;
-}
-.header-content {
-  width: 90%;
 }
