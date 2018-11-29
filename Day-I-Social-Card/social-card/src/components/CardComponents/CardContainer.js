@@ -18,10 +18,12 @@ class CardContainer extends React.Component {
     return (
       <div className='card-container'
       onClick={() => window.location.href=this.state.url}>
-        <CardBanner img={this.state.banner}/>
-        <CardContent copy={this.state.copy}
-          title={this.state.title}
-        />
+        <div className='inner-shell'>
+          <CardBanner img={this.state.banner}/>
+          <CardContent copy={this.state.copy}
+            title={this.state.title}
+          />
+        </div>
       </div>
     );
   }

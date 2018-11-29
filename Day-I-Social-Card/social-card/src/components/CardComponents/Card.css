@@ -6,13 +6,20 @@
   cursor: pointer;
 }
 .card-container img {
-  width: 90%;
+  width: 100%;
   margin-bottom: 10px;
 }
 .card-content {
-  width: 90%;
+  width: 100%;
+  padding: 0 2%;
+  padding-bottom: 2%;
 }
 .card-content a {
   text-decoration: none;
   color: gray;
+}
+.inner-shell {
+  border: 1px solid rgba(211, 211,	211, 0.4);
+  border-radius: 5px;
+  width: 90%;
 }
