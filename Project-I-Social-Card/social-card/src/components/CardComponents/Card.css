@@ -1,15 +1,25 @@
 /* All styles for your Card Components live here */
 .card-container {
-    width: 100%;
-    border: 1px solid green;
+    display: flex;
+    align-self: flex-end;
+    flex-direction: column;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin: 2px 3%;
+
 }
 
 .card-container .card-banner {
-    width: 100%;
-    border: 1px solid green;
+    width: 460px;
+    height: 300px;
+    background-image: url('https://tk-assets.lambdaschool.com/fcd75197-7d12-46ec-bc9e-4130f34822fa_reactbackground.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 0;
+    margin: 0;
+    
 }
 
 .card-container .card-content {
-    width: 100%;
-    border: 1px solid green;
+    
 }
