@@ -9,7 +9,7 @@ const HeaderTitle = () => {
                 <span className="time-stamp">
                    
                 </span>
-                <HeaderContent />;
+                <HeaderContent />
             </div>
         </div>
     );
