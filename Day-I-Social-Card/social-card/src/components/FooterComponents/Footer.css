@@ -1,0 +1,11 @@
+.footer {
+  display: flex;
+  width: 90%;
+  padding-top: 1.5rem;
+}
+.footer-icon {
+  padding-right: 3rem;
+  display: flex;
+  align-items: center;
+  color: #7d8d9c;
+}
