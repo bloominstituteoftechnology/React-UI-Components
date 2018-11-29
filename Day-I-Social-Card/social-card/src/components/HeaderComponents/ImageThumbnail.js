@@ -1,8 +1,8 @@
 import React from 'react';
 import './Header.css';
 
-const imageThumbnail = ()=>{
-    return (<img src="https://tk-assets.lambdaschool.com/1c1b7262-cf23-4a9f-90b6-da0d3c74a5c6_lambdacrest.png"  alt = 'Lambda School Logo'></img>);
+const ImageThumbnail = ()=>{
+    return (<img src = 'https://ibin.co/3whrpKSBbZ81.png' alt = 'Lambda School Logo'></img>);
 };
 
-export default imageThumbnail;
+export default ImageThumbnail;
