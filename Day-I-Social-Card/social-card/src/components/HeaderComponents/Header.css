@@ -1,1 +1,39 @@
 /* All styles for your header Components live here */
+.headerContainer{
+    margin: 0 auto;
+    max-width: 650px;
+    height: auto;
+    display: flex;
+    width: 100%;
+}
+.rightPart{
+    width: 85%;
+    font-size: 1rem;
+}
+.headerTitle{
+    display: flex;
+}
+.handle{
+    font-size: 0.9rem
+}
+.timestamp{
+    font-size: 0.8rem
+}
+p{
+    padding-right: 5px;
+    color: grey;
+    margin-top:1px;
+}
+p:first-child{
+font-weight: 600;
+color:black;
+}
+.message{
+    font-weight: 540;
+}
+.thumbnailImg {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+  
+}
