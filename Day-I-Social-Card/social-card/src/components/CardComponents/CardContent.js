@@ -4,9 +4,10 @@ import './Card.css';
 const CardContent = () => {
     return (
         <div>
-            <img
-            src="./../src/img/react.png"
-            />
+            <h1>Get started with React</h1>
+            <p>React makes it painless to create interactive UIs.</p><p>Design simple views for each state in your application</p>
+            <br></br>
+            <span>reactj.irg</span>
         </div>
     )
 }
