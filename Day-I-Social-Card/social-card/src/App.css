@@ -2,6 +2,7 @@
   Write your styles/CSS for App.js here and import into the component that you need 
   IF you'd like to attempt to use less you'll have to research how to do this with Create React App
 */
+
 @import url('./components/HeaderComponents/Header.css');
 @import url('./components/CardComponents/Card.css');
 
@@ -10,9 +11,11 @@
 }
 #app {
   width: 100%;
-  max-width: 1024px;
+  max-width: 40rem;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+  padding-top: 3rem;
+  font-size: 1rem;
 }

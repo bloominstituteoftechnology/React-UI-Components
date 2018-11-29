@@ -3,13 +3,29 @@
 .header-title {
   display: flex;
   width: 100%;
+  padding-top: .2rem;
 }
 .header-title-right {
   width: 90%;
+  padding-bottom: .5rem;
+}
+.header-title-right p {
+  margin: 0.5rem 0;
+}
+.header-title-top {
+  display: flex;
+}
+.header-title-top > * {
+  padding-right: .5rem;
+  color: #7d8d9c;
+}
+.header-title-name {
+  font-weight: bold;
+  color: #000000;
 }
 .image-thumbnail {
   width: 10%;
-  padding: 2rem;
+  padding-right: .7rem;
 }
 .image-thumbnail img {
   max-width: 100%;
