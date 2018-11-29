@@ -1,1 +1,59 @@
 /* All styles for your header Components live here */
+.header {
+	display: flex;
+	margin-bottom: 100px;
+	/* flex-wrap: wrap; */
+}
+.header-title {
+	display: flex;
+
+	/* display: flex;
+	flex-direction: column; */
+}
+.header-title h1 {
+	/* width: 90%; */
+	font-size: 1.4rem;
+	width: 30%;
+	margin-top: 15px;
+}
+.header-title h2 {
+	/* width: 90%; */
+	font-size: 1.2rem;
+	width: 26%;
+	font-weight: 300;
+}
+.logo {
+	width: 17%;
+	/* border-radius: 70px; */
+	margin-left: 2%;
+	margin-top: 10px;
+	height: 170px;
+	background-color: darkred;
+	margin-right: 3%;
+	position: relative;
+
+	border-radius: 40px;
+}
+.logo1 {
+	border-radius: 40px;
+	margin-left: 3%;
+	margin-top: 10px;
+}
+.upper-p {
+	margin-top: 100px;
+	width: 100%;
+	margin-left: -80%;
+}
+.CTA {
+	max-width: 800px;
+	margin-left: 3%;
+	width: 100%;
+}
+.card-container {
+	margin-left: 23%;
+	border: solid 1px lightgray;
+	border-radius: 10px;
+}
+.content h3 {
+	font-weight: 200;
+}
