@@ -1,1 +1,35 @@
 /* All styles for your Card Components live here */
+
+.cardContainer{
+  max-width: 504px;
+  display: flex;
+  flex-direction: column;
+  padding-right: 15px;
+  align-items: center;
+}
+
+.cardBanner{
+  border-radius: 5px 5px 0px 0px;
+}
+
+.cardContent{
+  width: 95%;
+  font-size: .9rem;
+  margin: 0px;
+}
+
+.cardContentHeader{
+  margin: 1rem 0px .3rem 0px;
+}
+
+.cardContentParagraph{
+  margin: 0px;
+}
+
+.srcLink{
+  margin: 0px;
+  padding: 10px 0px 10px 0px;
+  display: block;
+  color: #657786;
+  text-decoration: none;
+}
