@@ -16,3 +16,8 @@
   flex-direction: column;
   align-items: flex-end;
 }
+
+a{
+  text-decoration: none;
+  color: #000;
+}

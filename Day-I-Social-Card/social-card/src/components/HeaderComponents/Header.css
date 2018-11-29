@@ -30,7 +30,7 @@
   border-radius: 50%;
 }
 
-.userName h3, .userName h4{
+.userName h3, .userName h4, .timeStamp{
   font-size: 1rem;
   line-height: 14px;
   margin: 0px;
@@ -38,7 +38,7 @@
   padding-top: 14px;
 }
 
-.userName h4{
+.userName h4, .timeStamp{
   font-size: .8rem;
   padding-left: .5rem;
 }
