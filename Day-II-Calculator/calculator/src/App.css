@@ -1,5 +1,16 @@
 .app{
     margin: 100px auto;
     border: 1px solid white;
-    width: 50%;
+    width: 30%;
+}
+
+.mainContainer{
+    display: flex;
+    border: 1px solid red;
+    justify-content: space-between;
+}
+
+.leftContainer{
+    width: 70%;
+    border: 1px solid blue;
 }

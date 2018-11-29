@@ -7,11 +7,15 @@ import Operators from './components/ButtonComponents/Operators';
 
 const App = () => {
   return (
-    <div className = "app">
+    <div className="app">
       <CalculatorDisplay />
-      <ActionButton />
-      <NumberButton />
-      <Operators />
+      <div className="mainContainer">
+        <div className="leftContainer">
+          <ActionButton />
+          <NumberButton />
+        </div>
+        <Operators />
+      </div>
       {/* <h3>Welcome to React Calculator</h3>
       <p>
         We have given you a starter project. You'll want to build out your

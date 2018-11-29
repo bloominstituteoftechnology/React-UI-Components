@@ -1,21 +1,24 @@
 .clear{
     background-color: white;
     border: 1px solid black;
-    width: 70%;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-p{
+
+.clear p{
     font-size: 26px;
     text-align: center;
 }
 .numbers{
     display: flex;
     flex-wrap: wrap;
-    width: 70%;
     height: 200px;
 }
 
 .digit{
-    width: 32.61%;
+    width: 32.3%;
     border: 1px solid black;
     display: flex;
     justify-content: center;
@@ -36,6 +39,10 @@ p{
 
 .operator{
     border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
+    height: 19.3%;
     text-align: center;
 }
