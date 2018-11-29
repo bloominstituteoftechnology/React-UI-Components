@@ -1,0 +1,41 @@
+.clear{
+    background-color: white;
+    border: 1px solid black;
+    width: 70%;
+}
+p{
+    font-size: 26px;
+    text-align: center;
+}
+.numbers{
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    height: 200px;
+}
+
+.digit{
+    width: 32.61%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.digit:last-child{
+    width: 100%;
+}
+
+.operations{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    width: 30%;
+}
+
+.operator{
+    border: 1px solid black;
+    width: 100%;
+    text-align: center;
+}

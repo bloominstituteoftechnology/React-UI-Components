@@ -1,1 +1,24 @@
 /* All styles for your header Components live here */
+.headerParent{
+    display: flex;
+    width: 100%;
+}
+.textContainer{
+    display: flex;
+    flex-wrap: wrap;
+}
+.headerImg{
+    width: 10%;
+    height: 10%;
+}
+.myHeader{
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+}
+h1{
+    font-size: 18px;
+}
+span{
+    align-self: center;
+}
