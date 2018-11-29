@@ -6,6 +6,7 @@
     padding-bottom: 5px;
     border: 1px solid rgb(226, 226, 240);
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .card__banner {
