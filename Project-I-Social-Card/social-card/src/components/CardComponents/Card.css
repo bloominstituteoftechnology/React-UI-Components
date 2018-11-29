@@ -1,1 +1,39 @@
 /* All styles for your Card Components live here */
+/* All styles for your Card Components live here */
+.card-container {
+    width: 85.5%;
+    margin-left: 12%;
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+    border-bottom: 1px solid grey;
+    border-radius: 5px;
+}
+
+.card-content {
+    height: 105px;
+    
+}
+
+h4 {
+    padding-left: 10px;
+    margin-top: 8px;
+    margin-bottom: 0;
+}
+
+p {
+    padding-left: 10px;
+    padding-right: 15px;
+    margin: 8px 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.react-link {
+    padding-left: 10px;
+    text-decoration: none;
+    color: grey;
+    margin-bottom: 16px;
+}
