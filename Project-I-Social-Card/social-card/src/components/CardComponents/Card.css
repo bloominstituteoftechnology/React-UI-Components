@@ -1,8 +1,8 @@
 /* All styles for your Card Components live here */
 /* All styles for your Card Components live here */
 .card-container {
-    width: 85.5%;
-    margin-left: 12%;
+    width: 80%;
+    margin-left: 10%;
     border-left: 1px solid grey;
     border-right: 1px solid grey;
     border-bottom: 1px solid grey;
@@ -11,7 +11,6 @@
 
 .card-content {
     height: 105px;
-    
 }
 
 h4 {
