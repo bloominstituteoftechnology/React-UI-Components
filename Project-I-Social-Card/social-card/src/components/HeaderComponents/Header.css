@@ -1,7 +1,8 @@
 /* All styles for your header Components live here */
 header {
   display: flex;
-  margin: 10px auto;
+  margin: 0 auto;
+  margin-top: 10px;
 }
 
 header img {
