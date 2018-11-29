@@ -1,1 +1,13 @@
 /* All styles for your Card Components live here */
+
+.card-container {
+    display: flex;
+    max-width: 700px;
+    width: 100%;
+
+}
+
+.card-banner {
+    margin-left: 8%;
+
+}
