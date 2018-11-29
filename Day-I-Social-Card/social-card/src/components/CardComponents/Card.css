@@ -1,1 +1,27 @@
 /* All styles for your Card Components live here */
+.cardContainer {
+  width: 89%;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: flex-end;
+  margin-left: auto;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+
+.cardContainer img {
+  width: 100%;
+  border-radius: 5px 5px 0 0;
+}
+
+.cardContent h3 {
+  padding: 0 10px 0 10px;
+}
+
+.cardContent p {
+  padding: 0 10px 0 10px;
+}
+
+.cardContent p:last-child {
+  color: lightgray;
+}

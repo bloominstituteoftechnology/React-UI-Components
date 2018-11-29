@@ -1,1 +1,32 @@
 /* All styles for your header Components live here */
+.headerContainer {
+  width: 600px;
+  margin: 0px auto;
+  display: flex;
+  margin-top: 15px;
+}
+
+.headerWrap {
+  display: flex;
+  flex-flow: column;
+  margin-top: -20px;
+}
+
+  .headerTitle {
+    display: flex;
+  }
+
+    .headerTitle p {
+      padding: 5px 0 0 8px;
+    }
+
+    .headerContainer img {
+      width: 60px;
+      height: 70px;
+      padding-right: 10px;
+    }
+    
+  .headerContent {
+    margin-top: -24px;
+    line-height: 22px;
+  }
