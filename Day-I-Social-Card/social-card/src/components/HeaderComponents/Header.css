@@ -22,10 +22,11 @@
 .header-content {
     font-size: 1rem;
     line-height: 20px;
-    height: 125px;
+    display: flex;
     /* background: yellow; */
 }
 
 .content-container {
     width: 90%;
+    margin-left: 2%;
 }
