@@ -2,6 +2,7 @@ import React from 'react';
 import './Card.css';
 import CardBanner from './CardBanner';
 import CardContent from './CardContent';
+import Footer from "../FooterComponents/Footer";
 
 const CardContainer=()=>{
 
@@ -9,8 +10,7 @@ const CardContainer=()=>{
         <div className="card-container">
         <CardBanner />
         <CardContent />
-
-
+        <Footer/>
         </div>
 );
 }
