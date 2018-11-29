@@ -5,10 +5,8 @@ const HeaderTitle = () => {
     return (
         <div className="header-title-wrapper">
             <div className="header-title">
-                Lambda School
-                <span className="time-stamp">
-                   
-                </span>
+                <h3>Lambda School</h3>
+                
                 <HeaderContent />
             </div>
         </div>
