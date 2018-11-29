@@ -6,3 +6,9 @@
     display: flex;
     flex-direction: column;
 }
+
+.image-thumbnail{
+    max-width: 50px;
+    width:  100%;
+    height: 100%;
+}
