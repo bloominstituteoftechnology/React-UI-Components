@@ -5,7 +5,7 @@ const CardContent = () => {
    return <div className ="card-content">
         <h1 className="get-started">Get Started with React</h1>
         <div className="card-main-content">
-            React makes it painless to create interactive Uls. Design simple views for each state in your application.
+            <p>React makes it painless to create interactive Uls. Design simple views for each state in your application.</p>
         </div>
         <h2>reactjs.org</h2>
     </div>
