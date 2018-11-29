@@ -1,2 +1,39 @@
 /* All styles for your Card Components live here */
 
+
+.card_contain {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin: 0px 0px 0px 560px;
+
+	padding: 0px;
+}
+
+.card_img {
+	width: 800px;
+	height: 400px;
+	margin: 30px 0px 0px 0px;
+
+}
+
+.card_content {
+	display: flex;
+	flex-direction: column;
+	padding: 0px 50px 0px 0px;
+	border: 1px solid black;
+
+}
+
+.card_content h3 {
+	padding: 0px 0px 0px 10px;
+}
+
+.card_content p {
+	padding: 0px 0px 0px 10px;
+
+}
+
+.card_content a {
+	padding: 0px 0px 20px 10px;
+}
