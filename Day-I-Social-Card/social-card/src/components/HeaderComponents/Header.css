@@ -7,20 +7,19 @@
 
 }
 
-
 .header-title {
     font-size: 1rem;
     font-weight: 600;
 }
 
 .header-details {
-    font-size: .8rem;
+    font-size: .875rem;
     color: grey;
     font-weight: 300;
 }
 
 .header-content {
-    font-size: 1rem;
+    font-size: .85rem;
     line-height: 20px;
     display: flex;
     /* background: yellow; */
