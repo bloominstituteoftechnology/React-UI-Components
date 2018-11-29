@@ -1,7 +1,7 @@
 import React from 'react';
 import './Button.css';
 
-const NumberButtons = () => {
+const NumberButtons = props => {
   return (
     <div className="numbers">
       <ClearButton />
@@ -20,46 +20,92 @@ const NumberButtons = () => {
 };
 
 const ClearButton = () => {
-  return <div className="clear">Clear</div>;
+  return <button className="clear">Clear</button>;
 };
 const NumOne = () => {
-  return <div className="nButtons">1</div>;
+  return (
+    <button className="nButtons" text="1">
+      1
+    </button>
+  );
 };
 
 const NumTwo = () => {
-  return <div className="nButtons">2</div>;
+  return (
+    <button className="nButtons" text="2">
+      2
+    </button>
+  );
 };
 
 const NumThree = () => {
-  return <div className="nButtons">3</div>;
+  return (
+    <button className="nButtons" text="3">
+      3
+    </button>
+  );
 };
 
 const NumFour = () => {
-  return <div className="nButtons">4</div>;
+  return (
+    <button className="nButtons" text="4">
+      4
+    </button>
+  );
 };
 
 const NumFive = () => {
-  return <div className="nButtons">5</div>;
+  return (
+    <button className="nButtons" text="5">
+      5
+    </button>
+  );
 };
 
 const NumSix = () => {
-  return <div className="nButtons">6</div>;
+  return (
+    <button className="nButtons" text="6">
+      6
+    </button>
+  );
 };
 
 const NumSeven = () => {
-  return <div className="nButtons">7</div>;
+  return (
+    <button className="nButtons" text="7">
+      7
+    </button>
+  );
 };
 
 const NumEight = () => {
-  return <div className="nButtons">8</div>;
+  return (
+    <button className="nButtons" text="8">
+      8
+    </button>
+  );
 };
 
 const NumNine = () => {
-  return <div className="nButtons">9</div>;
+  return (
+    <button className="nButtons" text="9">
+      9
+    </button>
+  );
 };
 
 const NumZero = () => {
-  return <div className="nButtons zero">0</div>;
+  return (
+    <button className="nButtons zero" text="0">
+      0
+    </button>
+  );
 };
 
 export default NumberButtons;
+
+// const NumButton = props => {
+//   return <button className={props.className}>{props.text}</div>;
+// };
+//
+// export default NumButton;

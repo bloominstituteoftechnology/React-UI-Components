@@ -13,23 +13,23 @@ const ActionButtons = () => {
   );
 };
 
-const DivideButton = () => {
+const DivideButton = props => {
   return <div className="aButtons divide">/</div>;
 };
 
-const MultiplyButton = () => {
+const MultiplyButton = props => {
   return <div className="aButtons multiply">x</div>;
 };
 
-const SubtractButton = () => {
+const SubtractButton = props => {
   return <div className="aButtons subtract">-</div>;
 };
 
-const AddButton = () => {
+const AddButton = props => {
   return <div className="aButtons add">+</div>;
 };
 
-const EqualsButton = () => {
+const EqualsButton = props => {
   return <div className="aButtons equals">=</div>;
 };
 
