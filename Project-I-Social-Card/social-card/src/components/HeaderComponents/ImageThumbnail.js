@@ -4,7 +4,7 @@ import './Header.css';
 const ImageThumbnail = () => {
     return (
       <div className="thumbnail">
-        <img src="https://pbs.twimg.com/profile_images/973277209644249089/0Te2jtBH_bigger.jpg"></img>
+        <img src="https://tk-assets.lambdaschool.com/1c1b7262-cf23-4a9f-90b6-da0d3c74a5c6_lambdacrest.png"></img>
       </div>
     );
   };
