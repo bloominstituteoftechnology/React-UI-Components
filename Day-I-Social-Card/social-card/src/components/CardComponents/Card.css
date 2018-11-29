@@ -24,8 +24,9 @@
 
 .cardText p {
   margin-top: 7px;
-  line-height: 17px;
+  line-height: 18px;
   margin-bottom: 6px;
+  word-spacing: 0.4px;
 }
 
 .cardText .web {
