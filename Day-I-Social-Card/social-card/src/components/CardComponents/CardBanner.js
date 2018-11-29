@@ -5,7 +5,7 @@ import banner from './../../img/react.png';
 const CardBanner = () => {
     return (
         <div>
-            <img src={banner}/>
+            <img src={banner} alt="React Logo"/>
         </div>
     )
 }
