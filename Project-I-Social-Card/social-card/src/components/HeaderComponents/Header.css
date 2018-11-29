@@ -10,9 +10,10 @@
     font-size: 1rem;
 }
 
-.header-p {
+.time-stamp {
     font-size: .875rem;
     color: grey;
+    font-weight: 300;
 }
 
 .header-content {
