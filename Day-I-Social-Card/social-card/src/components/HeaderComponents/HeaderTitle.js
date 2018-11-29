@@ -6,7 +6,7 @@ const HeaderTitle = props => {
     <div className = {props.className}>
       <h2>{props.name}</h2>
       <h3>@{props.name}</h3>
-      <date>{props.date}</date>
+      <time>{props.date}</time>
     </div>
   );
 }

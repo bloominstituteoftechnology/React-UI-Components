@@ -29,7 +29,7 @@
   font-size: 16px;
 }
 
-.Header__content__title h3, date {
+.Header__content__title h3, time {
   font-size: 13px;
   opacity: .5
 }
