@@ -21,7 +21,7 @@ class Footer extends React.Component {
       this.setState((prevState) => {
         prevState.icons.forEach(x => {
           if (x.name === icon.name){
-            x.count = x.active ? x.count-1 : x.count+1;
+            x.active ? x.count-- : x.count++;
             x.active = !x.active;
           }
         });
@@ -37,7 +37,7 @@ class Footer extends React.Component {
       <footer>
         {this.state.icons.map((x, y) => {
           return (
-            <div className='footer-item' onClick={() => this.handleCountChange(x)}>
+            <div className='footer-item' onClick={() => this.handleCountChange(x)} key={x.name}>
               <img src={x.url} alt={x.alt} />
               {x.count ? <span style={x.active ? {color: 'red', fontWeight: 'bold'} : null}>{x.count}</span> : null}
             </div>
