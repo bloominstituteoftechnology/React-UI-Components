@@ -3,19 +3,50 @@
   IF you'd like to attempt to use less you'll have to research how to do this with Create React App
 */
 
+/* Header CSS */
 .main-app-container {
-  max-width: 800px;
+  max-width: 1000px;
+  
 }
 
 .header-container {
   display: flex;
+  /* justify-content: center; */
   width: 100%;
   background-color: lavender;
 }
 
 .thumbnail {
   margin-top: 10px;
-  height: 50px;
+  height: 100px;
+  margin-right: 10px;
+}
+
+.header-title{
+  width: 90%;
+}
+
+.title{
+  display: flex;
+  align-items: center;
+}
+
+h1{
+  font-weight: bold;
+  /* font-size: 1.5rem; */
+}
+
+.title-htwo{
+  margin-left: 1%;
+  font-weight: 200;
+}
+
+.header-content{
+ width: 90%;
+}
+
+p{
+  font-size: 2.3rem;
 }
 
 /* export default App; */
