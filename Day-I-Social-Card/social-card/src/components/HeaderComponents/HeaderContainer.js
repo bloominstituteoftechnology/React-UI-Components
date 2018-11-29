@@ -1,11 +1,13 @@
 import React from 'react';
 import './Header.css';
 import HeaderContent from './HeaderContent';
+import HeaderTitle from './HeaderTitle';
 
 const HeaderComponent = () => {
     return (
         <div>
-        <h1>Hello</h1>
+
+        <HeaderTitle />
         <HeaderContent />
         </div>
     )
