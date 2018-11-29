@@ -4,7 +4,6 @@
 */
 .container {
   width: 540px;
-  border: 1px solid red;
   display: flex;
   flex-direction: column;
 }
