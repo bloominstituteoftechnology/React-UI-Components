@@ -3,8 +3,7 @@ import './Header.css';
 
 const HeaderContent = () => {
     return (
-        <div> This HTML file is a template.
-        If you open it directly in the browser, you will see an empty page.</div>
+        <div>Let's learn React by building simple interfaces with components. Don't try ot overthink it, just keep it simple and have fun. Once you feel comfortable using components you are well on your way to mastering React!</div>
     )
 }
 
