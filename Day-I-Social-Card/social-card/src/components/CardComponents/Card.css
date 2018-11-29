@@ -7,15 +7,18 @@
     max-width:590px;
     width: 100%;
 
-    border: 1px solid black;
+    
 }
 
 /* content container */
 .card-content-container{
     box-sizing: border-box;
-    padding-right:1rem;
-    max-width:540px;
+    margin-right:.5rem;
+    margin-bottom: .5rem;
+    max-width:525px;
     width: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 .banner-image{
@@ -27,5 +30,21 @@
 .card-content{
     display: flex;
     flex-direction: column;
-    border: 1px solid black;
+    border-left: 1px solid lightgrey;
+    border-right: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
+    border-radius:5px;
+    padding:1rem;
+}
+.content-header{
+    font-weight: bold;
+    margin-bottom: .5rem;
+}
+
+.content-text{
+    margin-bottom:.5rem;
+}
+.content-url{
+    text-decoration: none;
+    color:lightgrey;
 }
