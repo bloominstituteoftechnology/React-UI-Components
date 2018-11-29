@@ -5,7 +5,7 @@ import './Card.css';
 
 const CardContainer = () => {
     return (
-      <div className="card-container" onclick="">
+      <div className="card-container" onClick={() => window.location = "https://www.reactjs.org"}>
         <CardBanner />
         <CardContent />
       </div>
