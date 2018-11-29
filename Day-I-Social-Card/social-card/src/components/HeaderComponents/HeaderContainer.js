@@ -5,7 +5,6 @@ import HeaderTitle from './HeaderTitle'
 const HeaderContainer = (props) => {
   return (
   <div className="header-container">
-  <p>Testing!!!! </p>
     <HeaderTitle />
   </div>
   )

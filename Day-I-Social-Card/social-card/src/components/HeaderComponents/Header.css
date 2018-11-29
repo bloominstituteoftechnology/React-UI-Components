@@ -1,1 +1,19 @@
 /* All styles for your header Components live here */
+
+.header-title {
+  display: flex;
+  width: 100%;
+}
+.header-title-right {
+  width: 90%;
+}
+.image-thumbnail {
+  width: 10%;
+  padding: 2rem;
+}
+.image-thumbnail img {
+  max-width: 100%;
+}
+.header-content {
+  width: 90%;
+}

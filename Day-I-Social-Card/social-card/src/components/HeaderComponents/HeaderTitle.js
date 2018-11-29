@@ -1,12 +1,13 @@
 import React from 'react';
 import './Header.css';
+import HeaderContent from './HeaderContent';
+import ImageThumbnail from './ImageThumbnail';
 
 const HeaderTitle = (props) => {
-  return (
+  return (    
     <div className="header-title">
-      <div className="header-title-name">Lambda School</div>
-      <div className="header-title-handle">@LambdaSchool</div>
-      <div className="header-title-date">&middot; 26 jan</div>
+      <ImageThumbnail />
+      <HeaderContent />
     </div>
   )
 }
