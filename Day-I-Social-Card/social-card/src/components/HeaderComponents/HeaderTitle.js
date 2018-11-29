@@ -22,7 +22,7 @@ const HeaderTitle = () => {
       <p className="header__info">
         @LambdaSchool *{" "}
         <span>
-          {date.getDay()} {monthNames[date.getMonth()]}
+          {date.getDate()} {monthNames[date.getMonth()]}
         </span>
       </p>
     </div>
