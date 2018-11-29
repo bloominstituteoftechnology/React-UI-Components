@@ -4,10 +4,11 @@
 */
 
 .body-container {
-  max-width: 800px;
+  max-width: 700px;
   margin-left: auto;
   margin-right: auto;
   font-family: sans-serif;
+  color: black;
 }
 .header-container {
   display: flex;
@@ -20,11 +21,23 @@
   padding: 4px;
   margin-right: 20px;
 }
-.header-container h1 {
+h1 {
   font-weight: bold;
   font-size: 20px;
 }
-.header-container span {
+a, a:hover {
+  text-decoration: none;
+  color: black;
+}
+span {
   color: #bebebe;
   font-size: 13px;
+  font-weight: lighter;
+
+}
+.header-container span {
+  margin-left: 15px;
+}
+.card-container img {
+  width: 100%;
 }
