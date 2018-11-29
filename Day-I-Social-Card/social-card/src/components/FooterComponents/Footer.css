@@ -1,0 +1,26 @@
+.footer {
+    display: flex;
+    width: 54%;
+    padding: 1.4rem 0 .6rem 0;
+    margin-left: calc(60px + 0.5rem);
+}
+
+i {
+    /* padding: 1rem; */
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.footer__item {
+    text-align: center;
+    flex: 1 1 auto;
+    font-weight: normal;
+    font-family: arial;
+    font-size: 0.75rem;
+    display: flex;
+    align-items: center;
+}
+
+.number {
+    padding-left: 6px;
+}
