@@ -5,7 +5,7 @@ import ImageThumbnail from './ImageThumbnail.js';
 const HeaderContainer = () => {
     return (
       <div className = 'header'>
-       <imageThumbnail />
+       <ImageThumbnail />
       </div>
     );
   };
