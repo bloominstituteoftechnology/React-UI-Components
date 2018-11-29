@@ -3,7 +3,9 @@ import './Card.css';
 
 const CardBanner = props => {
   return (
-    <img src={props.img} />
+    <img src={props.img}
+      alt='content banner'
+    />
   );
 }
 

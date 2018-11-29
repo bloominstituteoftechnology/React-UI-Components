@@ -10,6 +10,7 @@ footer {
   display: flex;
   align-items: center;
   cursor: pointer;
+  user-select: none;
 }
 .footer-item *:nth-child(2){
   margin-left: 10px;
