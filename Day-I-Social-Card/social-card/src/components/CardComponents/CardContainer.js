@@ -7,7 +7,7 @@ class CardContainer extends React.Component {
   constructor(props){
     super(props);
     this.state = {
-      banner: 'https://i.imgur.com/ey4oVZx.png',
+      banner: 'https://tk-assets.lambdaschool.com/fcd75197-7d12-46ec-bc9e-4130f34822fa_reactbackground.png',
       title: 'Get started with React',
       copy: "React makes it painless to create interactive UIs. Design simple views for each state in your application.",
       url: 'https://www.reactjs.org',
