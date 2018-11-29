@@ -10,5 +10,6 @@ return(
     <CardBanner />
     <CardContent />
     </div>
-)
-}
+);
+};
+export default CardContainer;
