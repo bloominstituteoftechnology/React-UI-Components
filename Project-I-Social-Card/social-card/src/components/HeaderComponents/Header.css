@@ -1,1 +1,42 @@
 /* All styles for your header Components live here */
+.header_logo {
+	width: 30px;
+	background-color: black;
+	padding: 10px;
+	margin: 0px 10px 0px 0px;
+	border-radius: 50px;	
+
+}
+
+
+.header {
+	/*display: flex;*/
+	justify-content: center;
+	flex-wrap: wrap;
+	width: 100%;
+}
+
+.header_content {
+	width: 600px;
+
+	margin: 0px 0px 0px 715px;
+}
+.header_title {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	height: 50px;
+	align-items: center;
+}
+
+.header_title h1 {
+	font-size: 15px;
+
+
+}
+
+.header_title h3 {
+	opacity: 0.5;
+	font-size: 11px;
+	padding: 0px 10px 0px 10px;
+}
