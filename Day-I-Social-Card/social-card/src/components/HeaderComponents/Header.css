@@ -9,8 +9,8 @@
     width:600px;
     height:100px;
    //border:1px solid red;
-
-
+    margin-left: 1%;
+    margin-top: 2%;
 
 
 }
@@ -32,13 +32,15 @@
 
 
 }
-.header header-title{
-
+.header .header-title{
+  margin-left: 1%;
+  color: gray;
 
 }
 .header .header-content{
 
     margin-top:10px ;
+    margin-left: 1%;
 }
 
 .header .headerTitleContent {

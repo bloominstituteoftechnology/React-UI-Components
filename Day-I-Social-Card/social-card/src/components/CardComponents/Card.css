@@ -1,8 +1,7 @@
 /* All styles for your Card Components live here */
 .card-container{
 
-    box-sizing: border-box;
-    display: flex;
+
     flex-direction: column;
 
     height: 500px;
@@ -12,17 +11,21 @@
 
 }
 .card-container .image {
-    width: 89%;
-    margin-left:11%;
+    width: 88.3%;
+    margin-left:10.4%;
+
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+
 //margin-right:2%;
 }
 
 .card-container .main{
-    display:flex;
-    flex-direction: column;
-    margin-top:0%;
-    margin-left:11%;
+    padding-top: 0%;
+    margin-left:12%;
     border:1px solid grey;
+    margin-top: -4px;
+
 }
 
 .card-container .main h6{
@@ -32,11 +35,18 @@
     margin-left:1.5%;
     margin-bottom: 1%;
 }
-.card-container .main p{
-    margin-top:0;
+.card-container .main .one{
+    margin-top:0%;
     margin-left:1.5%;
+    margin-bottom: 0%;
 }
-.card-container .main a{
+.card-container .main .two{
+    margin-top:1%;
+    margin-left:1.5%;
+    color:gray;
+
+}
+.card-container a{
     margin-left:1.5%;
     margin-top: 0;
     text-decoration:none;

@@ -9,10 +9,13 @@ const Footer=()=>{
 
     return (
         <div className="footer">
-            <HeartImage />
+
             <MessageBubble/>
-            <MessageImage/>
             <RefreshImage/>
+            <HeartImage />
+            <MessageImage/>
+
+
         </div>
 
     );

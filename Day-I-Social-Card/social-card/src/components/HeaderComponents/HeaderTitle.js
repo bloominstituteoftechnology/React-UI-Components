@@ -11,7 +11,7 @@ const Header=()=>{
     var moment = require('moment');
     let timeToDisplay = moment().format("MMM D");
     return(
-        <div className="header-title"> <strong>Lambda School </strong> @LamdaSchool . {timeToDisplay} </div>
+        <div className="header-title"> <b>Lambda School </b> @LamdaSchool . {timeToDisplay} </div>
 
 );
 }
