@@ -1,0 +1,26 @@
+.numbers {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.nButtons {
+  display: flex;
+  flex-wrap: wrap;
+  width: 32.5%;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid gray;
+}
+
+.zero {
+  width: 100%;
+}
+
+.clear {
+  width: 100%;
+  text-align: center;
+  align-items: space-around;
+  border: 1px solid gray;
+  color: gray;
+}

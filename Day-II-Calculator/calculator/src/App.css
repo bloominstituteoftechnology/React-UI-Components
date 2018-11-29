@@ -1,0 +1,23 @@
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.actionButtons {
+  display: flex;
+  flex-wrap: wrap;
+  width: 20%;
+  order: 2;
+}
+
+.aButtons {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid gray;
+  background-color: red;
+  color: white;
+}

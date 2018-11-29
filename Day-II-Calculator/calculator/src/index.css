@@ -1,5 +1,18 @@
+html {
+  font-size: 62.5%;
+}
+
 body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+}
+
+.calculator {
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 100px;
+  border: solid 3px black;
+  vertical-align: center;
+  font-size: 5rem;
 }

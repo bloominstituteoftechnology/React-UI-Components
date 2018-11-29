@@ -4,7 +4,6 @@ import './Button.css';
 const ActionButtons = () => {
   return (
     <div className="actionButtons">
-      <ClearButton />
       <DivideButton />
       <MultiplyButton />
       <SubtractButton />
@@ -13,28 +12,25 @@ const ActionButtons = () => {
     </div>
   );
 };
-const ClearButton = () => {
-  return <div className="clear">Clear</div>;
-};
 
 const DivideButton = () => {
-  return <div classname="divide">/</div>;
+  return <div className="aButtons divide">/</div>;
 };
 
 const MultiplyButton = () => {
-  return <div className="multiply">X</div>;
+  return <div className="aButtons multiply">x</div>;
 };
 
 const SubtractButton = () => {
-  return <div className="subtract">-</div>;
+  return <div className="aButtons subtract">-</div>;
 };
 
 const AddButton = () => {
-  return <div className="add">+</div>;
+  return <div className="aButtons add">+</div>;
 };
 
 const EqualsButton = () => {
-  return <div className="equals">=</div>;
+  return <div className="aButtons equals">=</div>;
 };
 
 export default ActionButtons;
