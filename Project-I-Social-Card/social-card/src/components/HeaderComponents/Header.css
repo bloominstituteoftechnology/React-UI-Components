@@ -1,1 +1,35 @@
 /* All styles for your header Components live here */
+
+.el-header-container{
+  margin: 0 auto;
+  width: 39%;
+  border: 1px solid green;
+}
+header{
+    display: flex;
+    justify-content: center;
+}
+
+header img{
+  height: 32px;
+  padding: 16px;
+  border: 1px solid purple;
+}
+
+.title-container{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  border: 1px solid red;
+}
+
+.header-title{
+  font-size: 10.5pt;
+  font-weight: bold;
+  margin-right: 4px;
+}
+
+.time-stamp{
+  font-size: 9pt;
+  color: darkgray;
+}
