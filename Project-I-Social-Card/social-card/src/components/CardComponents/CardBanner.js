@@ -3,7 +3,7 @@ import './Card.css';
 
 const CardBanner = () => {
     return (
-        <div class='cardBanner'></div>
+        <div className='cardBanner'></div>
     )
 }
 
