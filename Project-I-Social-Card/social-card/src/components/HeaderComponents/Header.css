@@ -1,1 +1,8 @@
 /* All styles for your header Components live here */
+.thumbnail {
+    background-image: url('https://pbs.twimg.com/profile_images/973277209644249089/0Te2jtBH_bigger.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 48px;
+    height: 48px;
+}

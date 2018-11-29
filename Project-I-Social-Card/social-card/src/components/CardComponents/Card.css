@@ -1,1 +1,15 @@
 /* All styles for your Card Components live here */
+.card-container {
+    width: 100%;
+    border: 1px solid green;
+}
+
+.card-container .card-banner {
+    width: 100%;
+    border: 1px solid green;
+}
+
+.card-container .card-content {
+    width: 100%;
+    border: 1px solid green;
+}
