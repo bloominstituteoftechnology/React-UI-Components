@@ -1,7 +1,7 @@
 /* All styles for your header Components live here */
 .header {
 	display: flex;
-	margin-bottom: 100px;
+	margin-bottom: 20px;
 	/* flex-wrap: wrap; */
 }
 .header-title {
@@ -54,6 +54,16 @@
 	border: solid 1px lightgray;
 	border-radius: 10px;
 }
+.card-container a {
+	text-decoration: none;
+}
 .content h3 {
 	font-weight: 200;
+}
+.content h2 {
+	font-size: 1.2rem;
+}
+.CTA a {
+	text-decoration: none;
+	color: inherit;
 }
