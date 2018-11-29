@@ -1,0 +1,27 @@
+.footer-container{
+  display: flex;
+  width: 65%;
+  padding-left: 75px;
+  justify-content: flex-start;
+
+}
+
+.icons{
+  display: inline-block;
+  margin-right: 70px
+}
+
+.iconImage{
+  width: 20px;
+  height: 20px;
+}
+
+.heart, .repost {
+  display: flex;
+  align-items: center;
+}
+
+.heart button, .repost button{
+  font-size: 1rem;
+  color: #99A6B0;
+}
