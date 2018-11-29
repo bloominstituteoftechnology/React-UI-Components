@@ -1,1 +1,28 @@
 /* All styles for your header Components live here */
+
+.header-container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 700px;
+    width: 100%;
+
+}
+
+
+.header-title {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.header-details {
+    font-size: .8rem;
+    color: grey;
+    font-weight: 300;
+}
+
+.header-content {
+    font-size: 1rem;
+    line-height: 20px;
+    height: 125px;
+    background: yellow;
+}

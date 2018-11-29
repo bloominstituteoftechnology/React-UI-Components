@@ -5,8 +5,8 @@ const HeaderTitle = () => {
 
     return (
         <h1 className="header-title">
-            Lambda School 
-            <span className="header-username">
+            Lambda School  
+            <span className="header-details">
                 @LambdaSchool 28 nov
             </span>
 
