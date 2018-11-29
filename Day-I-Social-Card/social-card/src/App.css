@@ -38,6 +38,12 @@ span {
 .header-container span {
   margin-left: 15px;
 }
+.card-content {
+  margin-top: 10px;
+  border: 1px solid #bebebe;
+  border-radius: 3px;
+  padding: 10px 15px;
+}
 .card-container img {
   width: 100%;
 }
