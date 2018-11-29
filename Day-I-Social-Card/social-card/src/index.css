@@ -7,3 +7,7 @@ body {
   padding: 0.4rem;
   font-family: sans-serif;
 }
+
+a{
+  text-decoration: none;
+}

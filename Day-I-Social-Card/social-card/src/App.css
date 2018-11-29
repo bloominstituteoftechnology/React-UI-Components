@@ -3,17 +3,17 @@
   IF you'd like to attempt to use less you'll have to research how to do this with Create React App
 */
 
-/* Header CSS */
 .main-app-container {
   max-width: 1000px;
   
 }
 
+/* HeaderContainer CSS */
 .header-container {
   display: flex;
   /* justify-content: center; */
   width: 100%;
-  background-color: lavender;
+  /* background-color: lavender; */
 }
 
 .thumbnail {
@@ -36,6 +36,10 @@ h1{
   /* font-size: 1.5rem; */
 }
 
+h2{
+  font-size: 2rem;
+}
+
 .title-htwo{
   margin-left: 1%;
   font-weight: 200;
@@ -47,6 +51,52 @@ h1{
 
 p{
   font-size: 2.3rem;
+}
+
+/* CardContainer CSS */
+.card-container{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 90%;
+  margin-left: 10%;
+  /* background-color: lavender; */
+}
+
+.banner-content{
+  width: 100%;
+}
+
+.banner{
+  width: 90%;
+  padding-right: 10%;
+}
+
+.card-content{
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+}
+
+/* footer images */
+
+.footer{
+width: 100%;
+}
+
+.footerFavicons{
+ display: flex;
+ justify-content: flex-start;
+ align-items: center;
+/* margin-left: 10%;    */
+ margin-left: 6%;
+ width: 90%;
+}
+.footer-image{
+  height: 30px;
+  padding: 30px;
+  /* width: 100px; */
 }
 
 /* export default App; */
