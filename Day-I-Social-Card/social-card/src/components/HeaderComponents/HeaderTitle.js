@@ -20,7 +20,7 @@ const HeaderTitle = () => {
     <div className="header__name">
       <h1 className="header__title">Lambda School</h1>
       <p className="header__info">
-        @LambdaSchool *{" "}
+        @LambdaSchool ·&nbsp;
         <span>
           {date.getDate()} {monthNames[date.getMonth()]}
         </span>
