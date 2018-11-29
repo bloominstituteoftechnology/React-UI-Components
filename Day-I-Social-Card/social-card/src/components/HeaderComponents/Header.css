@@ -1,1 +1,43 @@
 /* All styles for your header Components live here */
+
+.headerContent{
+  display: flex;
+}
+
+.textContent{
+  display: flex;
+  padding-left: 5px;
+  flex-direction: column;
+}
+
+.userName{
+  display: flex;
+}
+
+.atNameAndDate{
+  color: #7d8d9c;
+  font-size: 1rem;
+}
+
+.headerParagraph p{
+  margin-top: 0px;
+  margin-bottom: 12px;
+}
+
+.imageThumbnail{
+  max-height: 48px;
+  width: auto;
+  border-radius: 50%;
+}
+
+.userName h3, .userName h4{
+  font-size: 1rem;
+  line-height: 14px;
+  margin: 0px;
+  padding-bottom: 14px;
+  padding-top: 14px;
+}
+
+.userName h4{
+  font-size: .8rem;
+}
