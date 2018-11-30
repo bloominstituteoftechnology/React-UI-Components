@@ -1,0 +1,19 @@
+.action {
+  width: 120px;
+  height: 93.5px;
+  background-color: #A0001E;
+  color: white;
+  border: 1px solid #979797;
+  font-size: 7rem;
+  text-align: center;
+}
+
+.numberBtn {
+  width: 33.2%;
+  height: 93.5px;
+  font-size: 5rem;
+  text-align: center;
+  border: 2px solid #979797;
+  padding: 15px;
+  font-weight: bold;
+}
