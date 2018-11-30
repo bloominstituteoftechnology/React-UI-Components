@@ -3,15 +3,35 @@
     max-width: 800px;
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    font-size: 20px;
 }
 .header ul{
+    color: slategrey;
     margin-top: 20px;
-    font-size: 32px;
-    color: slategrey
 }
 .header p {
-    margin-top: 20px;
-    font-size: 32px;
+    margin: 20px 10px;
     color: slategray;
+}
+.headerContent{
+    width: 80%;
+}
+.headerContent p{
+    font-size: 16px;
+    color: black;
+    position: absolute;
+    left: 26%;
+    top: 43px;
+    width: 53%;
+
+}
+img{
+    margin: 20px 10px 0 0;
+    width: 15%;
+}
+.header h1{
+    font-size: 20px;
+    margin:20px 10px;
 }
