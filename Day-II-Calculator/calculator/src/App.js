@@ -5,7 +5,7 @@ import CalculatorContainer from './components/CalculatorContainer/CalculatorCont
 
 const App = () => {
   return (
-    <div>
+    <div className="app">
       <h3>Welcome to React Calculator</h3>
       <CalculatorContainer />
     </div>

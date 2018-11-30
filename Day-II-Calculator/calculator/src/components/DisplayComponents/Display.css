@@ -1,0 +1,18 @@
+.display {
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.8);
+
+    color: white;
+
+    height: 100px;
+    width: 300px;
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+
+    padding: 0 8px 8px 0;
+    font-size: 56px;
+
+    box-sizing: border-box;
+}
