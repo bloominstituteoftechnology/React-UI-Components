@@ -35,10 +35,12 @@
 
 .card-content h1 {
   font-size: 1.4rem;
+  color: black;
 }
 
 .card-content p {
   font-size: 1.4rem;
+  color: black;
 }
 
 .card-container .card-content a {
