@@ -1,36 +1,60 @@
 import React from 'react';
 import './Button.css';
 
-const ActionButtons = () => {
-  return (
-    <div className="actionButtons">
-      <DivideButton />
-      <MultiplyButton />
-      <SubtractButton />
-      <AddButton />
-      <EqualsButton />
-    </div>
-  );
-};
-
-const DivideButton = props => {
-  return <div className="aButtons divide">/</div>;
-};
-
-const MultiplyButton = props => {
-  return <div className="aButtons multiply">x</div>;
-};
-
-const SubtractButton = props => {
-  return <div className="aButtons subtract">-</div>;
-};
-
-const AddButton = props => {
-  return <div className="aButtons add">+</div>;
-};
-
-const EqualsButton = props => {
-  return <div className="aButtons equals">=</div>;
+const ActionButtons = props => {
+  return <button className={props.class}>{props.text}</button>;
 };
 
 export default ActionButtons;
+// const ActionButtons = () => {
+//   return (
+//     <div className="actionButtons">
+//       <DivideButton />
+//       <MultiplyButton />
+//       <SubtractButton />
+//       <AddButton />
+//       <EqualsButton />
+//     </div>
+//   );
+// };
+//
+// const DivideButton = () => {
+//   return (
+//     <div className="aButtons divide" data-act="/">
+//       /
+//     </div>
+//   );
+// };
+//
+// const MultiplyButton = () => {
+//   return (
+//     <div className="aButtons multiply" data-act="*">
+//       x
+//     </div>
+//   );
+// };
+//
+// const SubtractButton = () => {
+//   return (
+//     <div className="aButtons subtract" data-act="-">
+//       -
+//     </div>
+//   );
+// };
+//
+// const AddButton = () => {
+//   return (
+//     <div className="aButtons add" data-act="+">
+//       +
+//     </div>
+//   );
+// };
+//
+// const EqualsButton = () => {
+//   return (
+//     <div className="aButtons equals" data-act="=">
+//       =
+//     </div>
+//   );
+// };
+//

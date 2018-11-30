@@ -12,6 +12,13 @@
   align-items: center;
   border: 1px solid gray;
   background-color: white;
+  font-size: 4rem;
+  padding: 10px;
+}
+
+.nButtons:hover {
+  cursor: pointer;
+  font-weight: bold;
 }
 
 .zero {
@@ -24,4 +31,37 @@
   align-items: space-around;
   border: 1px solid gray;
   color: gray;
+  font-size: 4rem;
+  background-color: white;
+  padding: 10px;
+}
+
+.clear:hover {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.actionButtons {
+  display: flex;
+  flex-wrap: wrap;
+  width: 20%;
+  order: 2;
+}
+
+.aButtons {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid gray;
+  background-color: red;
+  color: white;
+  font-size: 4rem;
+  padding: 10px;
+}
+
+.aButtons:hover {
+  cursor: pointer;
+  font-weight: bold;
 }

@@ -6,4 +6,6 @@
   align-items: flex-end;
   font-size: 5rem;
   border-bottom: solid 3px black;
+  background-color: darkgray;
+  color: white;
 }
