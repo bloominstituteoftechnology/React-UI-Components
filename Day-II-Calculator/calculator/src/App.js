@@ -12,7 +12,10 @@ class App extends React.Component {
       value: null,
       stored: null,
       active: null,
+      clear: false,
+      numWidth: 27.81,
     };
+    this.displayRef = React.createRef();
   }
 
   handlePress = (btn) => {
@@ -37,7 +40,8 @@ class App extends React.Component {
           value: null,
           stored: null,
           active: null,
-        });
+          clear: true,
+        }, () => this.setState({ clear: false }));
       }
       else this.handleOperators(btn);
   }
@@ -95,7 +99,10 @@ class App extends React.Component {
         value: btn,
       });
     }
-    else if (currentNumber.length < 11){
+    else if (this.displayRef.current.numRef.current.offsetWidth > this.displayRef.current.myRef.current.offsetWidth - 40){
+      return;
+    }
+    else {
       this.setState((prevState) => {
         return {
           display: currentNumber + btn,
@@ -103,7 +110,6 @@ class App extends React.Component {
         }
       });
     }
-    else return;
   }
 
   handleOperators = (btn) => {
@@ -121,21 +127,10 @@ class App extends React.Component {
       });
     }
   }
-  componentDidUpdate(){
-    if (this.state.display !== null){
-      const currentNum = this.state.display.toString();
-      if (currentNum.length > 11){
-        this.setState({
-          display: 'OVERFLOW',
-          value: 'OVERFLOW',
-        });
-      }
-    }
-  }
   render(){
     return(
       <div className='calculator'>
-        <CalculatorDisplay display={this.state.display}/>
+        <CalculatorDisplay clear={this.state.clear} display={this.state.display} ref={this.displayRef}/>
         <ActionButton btn='clear' handlePress={this.handlePress} />
         <NumberButton className='operator' btn='÷' handlePress={this.handlePress} />
         <NumberButton btn={7} handlePress={this.handlePress} />
