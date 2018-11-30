@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import ActionButton from './components/ButtonComponents/ActionButton';
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
           inside of this file in order to make them work.
         </strong>
       </p>
+      <ActionButton buttonAction="&divide;" />
     </div>
   );
 };
