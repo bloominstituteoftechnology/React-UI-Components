@@ -1,0 +1,12 @@
+#display {
+    width: 98.3%;
+    height: 80px;
+    font-size: 60px;
+    text-align: right;
+    background-color: #221E22;
+}
+
+::placeholder {
+    color: white;
+    padding-right: 10px;
+}

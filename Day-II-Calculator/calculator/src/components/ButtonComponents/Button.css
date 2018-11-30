@@ -1,0 +1,23 @@
+.btn {
+    height: 70px;
+    font-size: 40px;
+    background-color: #F0F2EF;
+}
+
+.baby-btn {
+    width: 25%;
+    
+}
+
+.big-btn {
+    width: 75%;
+}
+
+.blueBtn {
+    background-color: #087CA7;
+    color: #FFF;
+}
+
+button:focus {
+    outline: none;
+}

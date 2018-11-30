@@ -14,30 +14,30 @@ const App = () => {
       </div>
 
       <div className="rowOne">
-        <ActionButton name='Clear'/>
-        <NumberButton name='&#247;' extraStyle="redBtn"/>
+        <ActionButton name='clear'/>
+        <NumberButton name='&#247;' extraStyle="blueBtn"/>
       </div>
       <div className="rowTwo">
         <NumberButton name='7'/>
         <NumberButton name='8'/>
         <NumberButton name='9'/>
-        <NumberButton name='X' extraStyle="redBtn"/>
+        <NumberButton name='x' extraStyle="blueBtn"/>
       </div>
       <div className="rowThree">
         <NumberButton name='4'/>
         <NumberButton name='5'/>
         <NumberButton name='6'/>
-        <NumberButton name='-' extraStyle="redBtn"/>
+        <NumberButton name='-' extraStyle="blueBtn"/>
       </div>
       <div className="rowFour">
-        <NumberButton name='1' extraStyle="redBtn"/>
+        <NumberButton name='1'/>
         <NumberButton name='2'/>
         <NumberButton name='3'/>
-        <NumberButton name='+'/>  
+        <NumberButton name='+' extraStyle="blueBtn"/>  
       </div>
       <div className="rowFive">
         <ActionButton name='0'/>
-        <NumberButton name='=' extraStyle="redBtn"/>
+        <NumberButton name='=' extraStyle="blueBtn"/>
       </div>
     </div>
   );
