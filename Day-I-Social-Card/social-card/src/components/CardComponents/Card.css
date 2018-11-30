@@ -53,7 +53,7 @@ table {
   border: 1px solid grey;
   border-radius: 5px;
   margin-left: 69px;
-  margin-top: 32px;
+  margin-top: 7px;
 }
 
 .card-banner{
@@ -62,4 +62,13 @@ table {
   background-repeat: no-repeat;
   width: 502px;
   height: 250px;
+}
+
+.card-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-left: 17px;
+  height: 104px;
+  width: 502px;
 }
