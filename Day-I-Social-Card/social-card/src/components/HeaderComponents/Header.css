@@ -1,20 +1,30 @@
 /* All styles for your header Components live here */
 .headerParent{
     display: flex;
-    width: 100%;
+    width: 92%;
+    margin: 0 auto 15px;
 }
 .textContainer{
     display: flex;
     flex-wrap: wrap;
 }
 .headerImg{
-    width: 10%;
-    height: 10%;
+    width: 5%;
+    height: 5%;
+    margin-top: 12px;
+    margin-right: 1%;
 }
 .myHeader{
     display: flex;
-    justify-content: space-evenly;
-    width: 50%;
+    justify-content: space-between;
+    width: 38%;
+    margin-right: 2%;
+    margin-left: 1%;
+}
+
+.myHeaderContent{
+    width: 95%;
+    line-height: 20px;
 }
 h1{
     font-size: 18px;
