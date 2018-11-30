@@ -1,0 +1,19 @@
+.operator-btn{
+  background-color: #A0001E;
+  color: #000;
+}
+
+.number-btn{
+  background-color: #FFF;
+  color: #000;
+}
+
+.action-btn{
+  width: 342px;
+  height: 114px;
+}
+
+.number-btn{
+  width: 114px;
+  height: 114px;
+}
