@@ -5,11 +5,12 @@ footer {
   max-width: 600px;
   width: 40%;
   justify-content: space-between;
-  margin-top: 5px;
+  margin-top: 10px;
   margin-left: 11.66%;
 }
 
 .footer-counter {
   margin-left: 10px;
   font-size: 1.6rem;
+  
 }
