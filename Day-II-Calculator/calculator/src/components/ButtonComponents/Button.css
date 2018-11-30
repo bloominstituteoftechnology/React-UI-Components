@@ -1,0 +1,21 @@
+.num-btn {
+  height: 75px;
+  width: 75px;
+
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+
+  cursor: pointer;
+
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.num-btn:focus {
+  outline: none;
+}
+
+.operator {
+  background-color: maroon;
+  color: white;
+}
