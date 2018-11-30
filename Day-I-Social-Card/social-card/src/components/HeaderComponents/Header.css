@@ -57,6 +57,9 @@ table {
 .header-title{
   display: flex;
   flex-direction: row;
+	justify-content: space-between;
+	padding-bottom: 10px;
+	width: 275px;
 }
 
 .img-size{
