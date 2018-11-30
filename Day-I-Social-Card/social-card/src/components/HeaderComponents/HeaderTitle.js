@@ -9,7 +9,7 @@ const HeaderTitle = (props) => {
       <div className="header-title-name">Lambda School</div>
       <div className="header-title-handle">@LambdaSchool</div>
       <div className="header-title-separator">&middot;</div>
-      <div className="header-title-date">26 jan</div>
+      <div className="header-title-date">{moment().format('h:mm:ss a')} </div>
     </div>
   )
 }

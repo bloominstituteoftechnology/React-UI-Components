@@ -1,0 +1,17 @@
+@import url("./components/ButtonComponents/Button.css");
+@import url("./components/DisplayComponents/Display.css");
+
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 62.5%;
+}
+#app-container {
+  width: 100%;
+  max-width: 455px;
+  margin: 100px auto 0 auto;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #909090;
+}

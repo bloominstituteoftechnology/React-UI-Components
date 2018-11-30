@@ -1,0 +1,16 @@
+.display {
+  background-color: #323232;
+  color: #ffffff;
+  font-size: 3rem;
+  height: 125px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 20px;
+}
+.calculator-text {
+  font-size: 5rem;
+  font-weight: 300;
+  padding: 20px 2%;
+}

@@ -1,0 +1,51 @@
+.btn-square {
+  width: 33.33%;
+  height: 95px;
+}
+.btn-rectangle {
+  width: 100%;
+  height: 95px;
+}
+.btn-red {
+  background: #A0011E;
+  width: 100%;
+}
+.btn-white {
+  background: #ffffff;
+}
+.keypad {
+  display: flex;
+}
+.left-side {
+  width: 74%;
+}
+.right-side {
+  display: flex;
+  flex-direction: column;
+  width: 26%;
+}
+.buttons-container {
+  display: flex;
+  flex-direction: column;
+}
+.btn-nums {
+  display: flex;
+  flex-wrap: wrap;
+}
+button {
+  font-size: 3rem;
+  border: 1px solid #909090;
+  background: #ffffff;
+}
+.btn-number {
+  font-weight: bold;
+}
+
+.btn-symbol {
+  color: #ffffff; 
+  font-size: 5rem;
+}
+.btn-clear,
+.btn-symbol {
+  font-weight: 300;
+}
