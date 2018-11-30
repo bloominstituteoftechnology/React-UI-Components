@@ -1,1 +1,17 @@
 /* All styles for your header Components live here */
+.header{
+    max-width: 800px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.header ul{
+    margin-top: 20px;
+    font-size: 32px;
+    color: slategrey
+}
+.header p {
+    margin-top: 20px;
+    font-size: 32px;
+    color: slategray;
+}
