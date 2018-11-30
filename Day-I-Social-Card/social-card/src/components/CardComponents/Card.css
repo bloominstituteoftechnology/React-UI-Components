@@ -1,1 +1,36 @@
 /* All styles for your Card Components live here */
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+
+  width: 100%;
+  max-width: 565px;
+  margin-left: 13%;
+
+  text-decoration: none;
+}
+
+.cardContainer img {
+  width: 100%;
+  max-width: 565px;
+  height: 300px;
+
+  border-radius: 5px;
+}
+
+.cardContainer__content {
+  padding: 0 20px;
+}
+
+.cardContainer__content h1, p {
+  font-size: 16px;
+  color: black;
+  margin: 10px 0;
+}
+
+.source {
+  opacity: .5;
+}
