@@ -7,15 +7,26 @@
 
   cursor: pointer;
 
-  font-size: 40px;
+  font-size: 36px;
   font-weight: bold;
 }
 
-.num-btn:focus {
+.num-btn:focus, .act-btn {
   outline: none;
 }
 
 .operator {
   background-color: maroon;
   color: white;
+}
+
+.act-btn {
+  width: 225px;
+  height: 75px;
+
+  font-size: 36px;
+  letter-spacing: 2.25px;
+
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.5);
 }
