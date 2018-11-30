@@ -4,7 +4,12 @@ import CardBanner from './CardBanner';
 import CardContent from './CardContent';
 
 const CardContainer = () => {
-  return (<h1>Card Container Test</h1>);
+  return (
+    <div className="card-container">
+      <CardBanner />
+      <CardContent />
+    </div>
+  );
 };
 
 export default CardContainer;
