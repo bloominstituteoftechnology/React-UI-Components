@@ -52,7 +52,6 @@ table {
   flex-direction: row;
   width: 590px;
 	height: 100px;
-  border: 1px solid red;
 }
 
 .header-title{
@@ -63,9 +62,7 @@ table {
 .img-size{
   height: 72.5px;
   width: 67.5px;
-  border: 1px solid green;
 }
 
 .header-content{
-  border: 1px solid lightblue;
 }

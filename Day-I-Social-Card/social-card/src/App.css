@@ -51,7 +51,7 @@ table {
   IF you'd like to attempt to use less you'll have to research how to do this with Create React App
 */
 .app{
-  border: 2px solid blue;
   width: 590px;
   height: 514px;
+	margin: 0 auto;
 }
