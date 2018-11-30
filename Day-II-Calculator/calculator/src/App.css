@@ -1,0 +1,12 @@
+.calc-container {
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  height: 800px;
+  margin: 40px auto;
+}
+
+.calc-buttons {
+  width: 100%;
+  display: flex;
+}

@@ -1,0 +1,41 @@
+.number-pad {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+}
+
+.integers {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: space-between;
+  flex-direction: row-reverse;
+  width: 100%;
+}
+
+.number {
+  font-weight: bold;
+}
+
+.btn-large {
+  width: 100%;
+}
+
+.integers .btn-small {
+  width: 33.33333%;
+}
+
+button {
+  width: 100%;
+  height: 80px;
+  background-color: #fff;
+  border: 1px solid grey;
+}
+
+.operators {
+  width: 25%;
+}
+
+.operators .operator {
+  background-color: rgb(156, 26, 26);
+  color: #fff;
+}

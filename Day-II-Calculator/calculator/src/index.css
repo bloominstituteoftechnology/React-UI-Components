@@ -1,5 +1,14 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  /* font-size: 70px; */
+}
+
+button {
+  font-size: 40px;
 }
