@@ -72,3 +72,8 @@ table {
   height: 104px;
   width: 502px;
 }
+
+a{
+	text-decoration: none;
+	color: #000;
+}
