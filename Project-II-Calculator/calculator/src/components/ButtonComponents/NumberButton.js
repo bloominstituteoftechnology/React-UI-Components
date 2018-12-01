@@ -13,7 +13,7 @@ import './Button.css';
 
 const NumberButton = props => {
     return (
-      <div className="number-button button">
+      <div className={`number-button button ${props.type}`}>
         {props.text}
       </div>
     );
