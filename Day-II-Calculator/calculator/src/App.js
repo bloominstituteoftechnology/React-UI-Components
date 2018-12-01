@@ -1,23 +1,46 @@
 import React from 'react';
 import './App.css';
+import NumberButton from "./components/ButtonComponents/NumberButton";
+import CalculatorDisplay from "./components/DisplayComponents/CalculatorDisplay";
+import ActionButton from "./components/ButtonComponents/ActionButton";
+import DivideButton from "./components/ButtonComponents/DivideButton";
+import MultiplyButton from "./components/ButtonComponents/MultiplyButton";
 
-const App = () => {
-  return (
-    <div>
-      <h3>Welcome to React Calculator</h3>
-      <p>
-        We have given you a starter project. You'll want to build out your
-        components in their respective files, remove this code and replace it
-        with the proper components.
-      </p>
-      <p>
-        <strong>
-          Don't forget to `default export` your components and import them here
-          inside of this file in order to make them work.
-        </strong>
-      </p>
-    </div>
-  );
-};
 
+
+const App = props => {
+
+    let NumKeys=[];
+    for(let i=1;i<10;i++){
+
+        NumKeys.push(<NumberButton  text={i} buttonStyle="white"/>);
+
+    }
+
+    return (
+
+       <div className="container">
+           <CalculatorDisplay text="0 "/>
+           <div className="both">
+             <div className="first">
+                <ActionButton  text ="clear"/>
+                {NumKeys}
+                <ActionButton  text ="0"/>
+             </div>
+             <div className="second">
+                 <DivideButton buttonStyle="red"/>
+                 <MultiplyButton buttonStyle="red"/>
+                 <NumberButton text="+" buttonStyle="red"/>
+                 <NumberButton text="-" buttonStyle="red"/>
+                 <NumberButton text="=" buttonStyle="red"/>
+             </div>
+           </div>
+       </div>
+
+
+
+    );
+
+
+}
 export default App;

@@ -1,0 +1,12 @@
+.display{
+
+
+    width:398px;
+    height:100px;
+    background-color:black;
+    color:white;
+    font-size: 40px;
+    text-align: right;
+    border: 1px solid gray;
+
+}

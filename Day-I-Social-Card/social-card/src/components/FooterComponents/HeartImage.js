@@ -5,7 +5,7 @@ import heartImage from './heartImage.PNG'
 
 const HeartImage=()=>{
 
-   return <img  src={heartImage} ima />;
+   return <img  src={heartImage} />;
 
 }
 

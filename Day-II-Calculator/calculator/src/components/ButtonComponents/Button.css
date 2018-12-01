@@ -1,0 +1,57 @@
+.both{
+   display:flex;
+
+}
+
+
+.first{
+    width:300px;
+    height:500px;
+}
+
+.second{
+    width:100px;
+    height:500px;
+    border:1px solid grey;
+    border-top : none;
+    border-left : none;
+
+}
+
+
+
+.red{
+
+    width:100px;
+    height:100px;
+    background-color: darkred;
+    color:white;
+    margin-top:0;
+    font-size: 40px;
+    text-align: center;
+    border-color : darkgray;
+
+
+}
+.big-button{
+
+   width:300px;
+   height:100px;
+   border:1px solid darkgray;
+   background-color: white;
+    margin-top: 0%;
+    font-size: 40px;
+
+
+}
+
+.white{
+
+    width:100px;
+    height:100px;
+    border:1px solid grey;
+    font-size: 40px;
+    background-color: white;
+
+
+}
