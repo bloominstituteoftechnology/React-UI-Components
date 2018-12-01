@@ -7,13 +7,13 @@ const Footer = props => {
   return (
     <footer>
       <FiMessageCircle />
-      <div class="share-container">
+      <div className="share-container">
       <FiRefreshCw />
-      <span class="footer-counter">6</span>
+      <span className="footer-counter">6</span>
       </div>
-      <div class="favorite-container">
+      <div className="favorite-container">
       <FiHeart />
-      <span class="footer-counter">4</span>
+      <span className="footer-counter">4</span>
       </div>
       <FiMail />
     </footer>

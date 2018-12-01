@@ -7,7 +7,7 @@ import HeaderContent from './HeaderContent';
 const HeaderContainer = props => {
   return (<header>
     <ImageThumbnail/>
-    <div class="header-info">
+    <div className="header-info">
       <HeaderTitle/>
       <HeaderContent/>
     </div>
