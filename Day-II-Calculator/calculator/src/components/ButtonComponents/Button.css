@@ -4,7 +4,7 @@
     align-items: center;
     height:75px;
     background-color: white;
-    border-style: solid;
+    border: 1px solid grey;
     font-size: 4.5rem;
     padding: 0px;
     margin: 0px;
@@ -12,8 +12,21 @@
 
 .btn-action{
     flex-basis: 75%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     font-size: 2.5rem;
+}
+.btn-action-number{
+    flex-basis: 75%;
+    font-size: 3rem;
+}
+
+.btn-number{
+    flex-basis: 25%;
+    font-size: 3rem;
+}
+
+.btn-operation{
+    flex-basis: 25%;
+    font-size: 3rem;
+    background-color: #A0001E;
+    color:white;
 }
