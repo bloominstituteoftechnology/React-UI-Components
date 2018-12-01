@@ -1,48 +1,18 @@
-.clear{
+
+.buttonStyle{
+    width: 33.333%;
+    height: 50px;
     background-color: white;
-    border: 1px solid black;
-    height: 48px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    border: 1px solid grey;
+    font-size: 24px;
 }
 
-.clear p{
-    font-size: 26px;
-    text-align: center;
-}
-.numbers{
-    display: flex;
-    flex-wrap: wrap;
-    height: 200px;
-}
-
-.digit{
-    width: 32.3%;
-    border: 1px solid black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.digit:last-child{
+.actionButton{
     width: 100%;
 }
 
-.operations{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid black;
-    width: 30%;
-}
-
-.operator{
-    border: 1px solid black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.operatorButton{
+    background-color: maroon;
+    color: white;
     width: 100%;
-    height: 19.3%;
-    text-align: center;
 }

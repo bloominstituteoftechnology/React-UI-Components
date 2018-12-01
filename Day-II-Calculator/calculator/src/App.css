@@ -1,16 +1,24 @@
 .app{
     margin: 100px auto;
-    border: 1px solid white;
-    width: 30%;
+    max-width: 260px;
+    border: 1px solid grey;
 }
 
-.mainContainer{
+.buttonsContainer{
     display: flex;
-    border: 1px solid red;
     justify-content: space-between;
 }
 
 .leftContainer{
-    width: 70%;
-    border: 1px solid blue;
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.rightContainer{
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
 }
