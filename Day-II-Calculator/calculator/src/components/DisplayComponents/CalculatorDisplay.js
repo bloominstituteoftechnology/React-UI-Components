@@ -6,6 +6,7 @@ import NumberDisplay from './NumberDisplay'
 const CalculatorDisplay = props => {
   return (
       <div class="calc-container"></div>
+      fwew
   );
 };
 
