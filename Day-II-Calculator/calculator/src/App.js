@@ -11,7 +11,8 @@ const App = () => {
       <CalculatorDisplay />
       <div className="calculator">
         <div className="numbers">
-          <NumberButton className="wide" text="Clear" />
+          {/* <NumberButton className="wide" text="Clear" /> */}
+          <ActionButton className="wide" text="Clear" />
           <NumberButton text="7" />
           <NumberButton text="8" />
           <NumberButton text="9" />
