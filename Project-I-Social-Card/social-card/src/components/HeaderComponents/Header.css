@@ -1,1 +1,45 @@
 /* All styles for your header Components live here */
+
+
+/* Header */
+.content-wrapper{
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
+  width: 39%;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+}
+
+header img{
+  height: 32px;
+  padding: 16px;
+}
+
+.title-container{
+  display: flex;
+  height: 38px;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.header-title{
+  font-size: 10.5pt;
+  font-weight: bold;
+  margin-right: 4px;
+}
+
+.time-stamp{
+  font-size: 9pt;
+  color: darkgray;
+}
+
+.header-content{
+  margin: 0;
+  font-size: 10.2pt;
+}
+

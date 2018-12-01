@@ -1,0 +1,21 @@
+
+
+.num-btn{
+    background-color: #ffffff;
+    color: black;
+    border: 1px solid gray;
+    width: 97px;
+    height: 91px;
+    font-size: 2.5rem;
+}
+
+.full-btn{
+    width: 291px;
+    height: 91px;
+}
+
+.operator{
+    background: crimson;
+    color: white;
+    font-size: 3.5rem;
+}
