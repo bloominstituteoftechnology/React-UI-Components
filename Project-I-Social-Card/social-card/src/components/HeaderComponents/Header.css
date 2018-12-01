@@ -1,1 +1,25 @@
 /* All styles for your header Components live here */
+.container-header {
+display: flex;
+margin: 9px 0 0 6px;
+}
+.thumb-wrapper {
+width: 15%;
+}
+.thumb-img {
+width: 100%;
+margin: 02% 0% 0% 02%;
+}
+.time-stamp {
+
+}
+.header-title {
+ margin: 0 0 0 0;
+}
+.header-title-wrapper {
+  margin: 02% 0% -6% 02%;
+  width: 70%;
+}
+.header-content {
+
+} 
