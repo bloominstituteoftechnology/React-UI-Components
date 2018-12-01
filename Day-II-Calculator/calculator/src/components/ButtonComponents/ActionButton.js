@@ -10,5 +10,20 @@ const ActionButton = props => {
     );
 };
 
+// class ActionButton extends React.Component {
+//     constructor (props) {
+//         super(props);
+//         this.state = {}
+//     }
+
+//     render() {
+//         return (
+//             <div className={this.state.className}>
+//                        {this.state.text}
+//             </div>
+//         )
+//     }
+// }
+
 
 export default ActionButton;
