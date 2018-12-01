@@ -2,8 +2,9 @@ import React from 'react';
 import './Button.css';
 
 const ActionButton = props => {
+  console.log(props)
   return(
-    <button className={`act-btn ${props.styles}`}>{props.text}</button>
+    <button className={`act-btn ${props.styles}`} onClick={props.clear}>{props.text}</button>
   );
 }
 
