@@ -3,7 +3,7 @@ import "./Button.css";
 
 const ActionButton = props => {
   return (
-    <div className={`btn width-${props.width} ${props.type}`}>
+    <div className={`btn width-${props.width} ${props.action} ${props.type}`}>
       {props.text}
       <i className={`fas fa-${props.action}`} />
     </div>

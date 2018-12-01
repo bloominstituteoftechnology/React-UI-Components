@@ -4,14 +4,14 @@ import CalculatorDisplay from "./components/DisplayComponents/CalculatorDisplay"
 import ActionButton from "./components/ButtonComponents/ActionButton";
 import NumberButton from "./components/ButtonComponents/NumberButton";
 
-ActionButton.defaultProps = { width: "1" };
+ActionButton.defaultProps = { width: "1", type: "" };
 NumberButton.defaultProps = { width: "1" };
 
 const App = () => {
   return (
     <div className="calculator">
       <CalculatorDisplay />
-      <ActionButton width="3" text="clear" />
+      <ActionButton width="3" text="clear" action="clear" />
       <ActionButton type="func" action="divide" />
       <NumberButton text="7" />
       <NumberButton text="8" />
@@ -25,7 +25,7 @@ const App = () => {
       <NumberButton text="2" />
       <NumberButton text="3" />
       <ActionButton type="func" action="plus" />
-      <ActionButton width="3" text="0" />
+      <NumberButton width="3" text="0" />
       <ActionButton type="func" action="equals" />
     </div>
   );
