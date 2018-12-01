@@ -4,7 +4,7 @@ import React from 'react';
 const NumberDisplay = props => {
     return (
         <div className="numDisplay">
-          <div className="numberPrinted">{props.number}</div>
+          <div className="numPrinted">{props.number}</div>
         </div>
     );
 };

@@ -5,7 +5,9 @@ import CalculatorDisplay from './components/DisplayComponents/CalculatorDisplay'
 const App = () => {
   return (
     <div class="container">
-      <CalculatorDisplay />
+      <CalculatorDisplay 
+        number={0}
+      />
     </div>
   );
 };

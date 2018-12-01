@@ -8,6 +8,7 @@
     justify-content: center;
 }
 
+/* CalculatorDisplay Component */
 .calc-container{
     max-width: 500px;
     width: 100%;
@@ -27,3 +28,23 @@
     'one two three plus'
     'zero zero zero equals';
 }
+
+/* NumberDisplay Component */
+.numDisplay{
+    background: black;
+    grid-column: 1/5;
+    display: grid;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 2%;
+}
+
+.numPrinted{
+    /* justify-content: flex-end; */
+    font-size: 5rem;
+    color: white;
+}
+
+/* NumberDisplay Component */
+
+/* ActionDisplay Component */

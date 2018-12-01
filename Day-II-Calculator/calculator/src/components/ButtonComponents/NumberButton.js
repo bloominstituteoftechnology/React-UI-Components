@@ -1,5 +1,5 @@
 import React from 'react';
-import './Button.css';
+// import './Button.css';
 
 
 const NumberButton = props => {
@@ -10,4 +10,4 @@ const NumberButton = props => {
     )
 }
 
-export default NumberBox;
+export default NumberButton;
