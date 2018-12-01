@@ -12,7 +12,7 @@ const HeaderContainer = () => {
                             <ImageThumbnail />
                             <HeaderTitle />
                     </div>
-                    <div classname="headLower indent">
+                    <div className="headLower indent">
                         <HeaderContent />
                     </div>
 	            </div>

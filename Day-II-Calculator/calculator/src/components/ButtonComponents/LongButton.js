@@ -1,12 +1,12 @@
 import React from 'react';
 import './Button.css';
 
-const NumberButton = (props) => {
+const LongButton = (props) => {
     return (
-        <button className="numButt">
+        <button className="lngButton">
         {props.text}
         </button>
     )
 }
 
-export default NumberButton;
+export default LongButton;

@@ -1,0 +1,25 @@
+.numButt {
+    background-color: #FFFFFF;
+    color: #222222;
+    height: 94px;
+    width: 114px;
+    font-size: 70px;
+}
+
+.actButt {
+    background-color: #A0001E;
+    color: #FFFFFF;
+    height: 94px;
+    width: 114px;
+    height: 94px;
+    width: 112px;
+    font-size: 70px;
+}
+
+.lngButton {
+    background-color: #FFFFFF;
+    color: #222222;
+    height: 94px;
+    width: 342px;
+    font-size: 70px;
+}
