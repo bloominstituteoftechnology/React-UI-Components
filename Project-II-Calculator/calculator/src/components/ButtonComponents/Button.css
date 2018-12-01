@@ -1,0 +1,31 @@
+.btn-styles {
+  padding: 0;
+  margin: 0;
+  width: 115px;
+  height: 92px;
+  border-bottom: 2px solid olive;
+  border-right: 2px solid olive;
+  font-size: 3rem;
+  background-color: whitesmoke;
+}
+
+.btn-styles-lg {
+    padding: 0;
+    margin: 0;
+    width: 345px;
+    height: 92px;
+    border: 2px solid olive;
+    font-size: 3rem;
+    background-color: whitesmoke;
+  }
+
+  .action-btn-styles {
+    padding: 0;
+    margin: 0;
+    width: 115px;
+    height: 92px;
+    border: 2px solid olive;
+    font-size: 3rem;
+    background-color: maroon;
+    color: white;
+  }
