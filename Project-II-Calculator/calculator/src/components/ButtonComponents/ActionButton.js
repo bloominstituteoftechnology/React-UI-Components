@@ -9,11 +9,10 @@ import './Button.css';
 
 
 
-const ActionButton = () => {
+const ActionButton = props => {
     return (
-      <div className="action-button">
-          
-
+      <div className="action-button button">
+          {props.text}
       </div>
     );
   };

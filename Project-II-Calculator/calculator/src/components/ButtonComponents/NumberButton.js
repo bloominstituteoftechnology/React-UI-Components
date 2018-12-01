@@ -11,10 +11,10 @@ import './Button.css';
 // <button className={props.buttonStyle}>{props.text}</button>
 
 
-const NumberButton = () => {
+const NumberButton = props => {
     return (
-      <div className="number-button">
-     
+      <div className="number-button button">
+        {props.text}
       </div>
     );
   };

@@ -1,0 +1,20 @@
+.button {
+    border: solid 1px grey;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.action-button {
+    width: 75%;
+    
+    
+    background-color: white;
+    color: black;
+}
+
+.number-button {
+    width: 25%;
+    height: 60px;
+}
