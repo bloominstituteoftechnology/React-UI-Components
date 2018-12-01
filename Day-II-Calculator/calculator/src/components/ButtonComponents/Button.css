@@ -1,7 +1,19 @@
 .btn-default{
-    max-width:100px;
-    width: 100%;
     display: flex;
-    flex-direction: center;
+    justify-content: center;
     align-items: center;
+    height:75px;
+    background-color: white;
+    border-style: solid;
+    font-size: 4.5rem;
+    padding: 0px;
+    margin: 0px;
+}
+
+.btn-action{
+    flex-basis: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
 }

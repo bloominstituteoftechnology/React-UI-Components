@@ -1,10 +1,10 @@
 .calculator-container{
     /* box-sizing: border-box; */
     display: flex;
+    flex-wrap: wrap;
     max-width:400px;
     width: 100%;
-    border: 1px solid gray;
+    border: 2px solid gray;
     font-size: 4.6rem;
-    background-color: #222222;
     color:white;
 }
