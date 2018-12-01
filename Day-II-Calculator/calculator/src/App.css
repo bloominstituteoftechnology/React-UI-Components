@@ -1,11 +1,7 @@
 .cont {
-    border: 2px solid black;
     height: 598px;
     width: 456px;
     margin: 0 auto;
     margin-top: 100px;
 }
 
-.lngButton {
-    width: 336px;
-}

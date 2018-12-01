@@ -6,3 +6,8 @@
     font-size: 100px;
     text-align:  right;
     }
+
+.dispText {
+    box-sizing: border-box;
+    padding-right: 10px;
+}
