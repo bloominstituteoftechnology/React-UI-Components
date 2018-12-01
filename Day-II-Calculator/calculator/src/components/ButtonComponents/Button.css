@@ -1,0 +1,11 @@
+.btn {
+    font-size: 2.75rem;
+    padding: 1.25rem;
+    text-align: center;
+    border: 1px solid #969696;
+}
+
+.func {
+    background: #A30412;
+    color: white;
+}
