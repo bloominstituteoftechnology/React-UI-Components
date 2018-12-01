@@ -1,4 +1,6 @@
 .btn {
+    cursor: pointer;
+    user-select: none;
     font-size: 2.75rem;
     padding: 1.25rem;
     text-align: center;
