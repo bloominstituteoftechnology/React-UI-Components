@@ -19,4 +19,6 @@
 .functions {
   display: flex;
   flex-direction: column;
+  max-width: 114.5px;
+  width: 100%;
 }

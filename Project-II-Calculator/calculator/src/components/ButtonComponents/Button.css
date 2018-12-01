@@ -1,7 +1,6 @@
 button {
   border: 1px solid gray;
   font-size: 4.8rem;
-  width: 114.5px;
   height: 95px;
 }
 
@@ -9,10 +8,12 @@ button {
   background-color: red;
   color: white;
   font-size: 6.4rem;
+  width: 100%;
 }
 
 .number-button {
   background-color: white;
+  width: 33.33%;
 
 }
 
@@ -23,5 +24,5 @@ button {
 }
 
 .wide {
-  width: 343.5px;
+  width: 100%;
 }
