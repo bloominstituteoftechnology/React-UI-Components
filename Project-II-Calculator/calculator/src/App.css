@@ -1,0 +1,19 @@
+.container {
+    width: 344px;
+    border: 1px solid grey;
+}
+.calculator-display {
+    background-color: black;
+    color: grey;
+    width: 100%;
+}
+
+.action-button {
+    width: 75%;
+    border: 1px solid gray;
+}
+
+.number-button {
+    background-color: white;
+    color: black;
+}

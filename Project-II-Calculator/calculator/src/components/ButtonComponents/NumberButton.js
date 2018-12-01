@@ -10,4 +10,14 @@ import './Button.css';
 // buttonStyle for styling
 // <button className={props.buttonStyle}>{props.text}</button>
 
-// export default NumberButton;
+
+const NumberButton = () => {
+    return (
+      <div className="number-button">
+     
+      </div>
+    );
+  };
+
+
+export default NumberButton;
