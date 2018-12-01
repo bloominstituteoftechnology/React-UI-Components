@@ -1,5 +1,5 @@
 .calculator {
-    width: 456px;
+    max-width: 456px;
     margin: auto;
     border: 1px solid #969696;
     display: flex;
