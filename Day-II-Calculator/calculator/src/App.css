@@ -52,7 +52,7 @@
 /* NumberDisplay Component */
 .zero{
     display: flex;
-    grid-column: 1/5;
+    grid-column: 1/4;
     grid-area: 'multiply';
     align-items: center;
     justify-content: center;
@@ -167,6 +167,15 @@
 .minus{
     display: flex;
     grid-area: 'multiply';
+    align-items: center;
+    justify-content: center;
+    border: 1px solid darkgray;
+    background: darkred;
+    color: white;
+}
+.equals{
+    display: flex;
+    grid-area: 'equals';
     align-items: center;
     justify-content: center;
     border: 1px solid darkgray;

@@ -25,6 +25,7 @@ const CalculatorDisplay = props => {
        <NumberButton number= {3} className="three" />
        <ActionButton text="+" className="plus"/>
        <NumberButton number= {0} className="zero" />
+       <ActionButton text="=" className="equals" />
       </div>
   );
 };
