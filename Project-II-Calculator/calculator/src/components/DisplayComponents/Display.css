@@ -1,0 +1,24 @@
+.mainDisplay {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 100px 0px 0px 0px;
+}
+
+.firstRow {
+	background-color: black;
+	color: white;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.display {
+	padding: 0px 20px 0px 0px;
+	margin: 0px;
+	font-size: 60px;
+}
+
+.firstRow {
+	width: 280px;
+}

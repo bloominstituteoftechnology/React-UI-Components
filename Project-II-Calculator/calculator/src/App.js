@@ -1,9 +1,12 @@
 import React from 'react';
 import './App.css';
+import CalculatorDisplay from "./components/DisplayComponents/CalculatorDisplay";
+import ActionButton from './components/ButtonComponents/ActionButton.js';
+
 
 const App = () => {
   return (
-    <div>
+   /* <div>
       <h3>Welcome to React Calculator</h3>
       <p>
         We have given you a starter project. You'll want to build out your
@@ -16,6 +19,10 @@ const App = () => {
           inside of this file in order to make them work.
         </strong>
       </p>
+    </div>
+    */
+    <div>
+      <CalculatorDisplay/>
     </div>
   );
 };

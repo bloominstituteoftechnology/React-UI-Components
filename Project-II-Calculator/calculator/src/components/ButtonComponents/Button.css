@@ -1,0 +1,15 @@
+
+.btn-styles {
+	width: 70px;
+	height: 50px;
+	background-color: white;
+	border: 1px solid gray;
+}
+
+.action {
+	background-color: red;
+	color: white;
+}
+.big {
+	width: 210px;
+}
