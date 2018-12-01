@@ -1,0 +1,20 @@
+.action-btn-styles {
+  width: 300px;
+  height: 60px;
+  background-color: #fff;
+  border: 1px solid grey;
+  font-size: 34px;
+}
+
+.btn-styles {
+  width: 100px;
+  height: 60px;
+  background-color: #fff;
+  border: 1px solid grey;
+  font-size: 34px;
+}
+
+  .red {
+    background-color: crimson;
+    color: white;
+  }
