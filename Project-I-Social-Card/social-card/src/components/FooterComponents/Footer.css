@@ -1,13 +1,34 @@
 .footer-container {
-    width: 90%;
+    width: 40%;
     height: 30px;
     margin-left: 10%;
     padding-top: 15px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .material-icons {
     color: grey;
-    padding-right: 12%;
     padding-top: 1%;
     cursor: pointer;
+}
+
+.tweet-container {
+    display: flex;
+    align-content: center;
+}
+
+.like-container {
+    display: flex;
+    align-content: center;
+}
+
+.tweet-cntr {
+    padding-top: 5px;
+    padding-left: 3px;
+}
+
+.like-cntr {
+    padding-top: 5px;
+    padding-left: 3px;
 }
