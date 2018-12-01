@@ -26,14 +26,19 @@ class App extends Component {
                       currentOp: "",
                       displayNum: "0"});
     } else {
-      const current = this.state.currentNum;
-      this.setState({firstNum: current,
-                    currentNum: "",
-                    currentOp: event.target.innerText});  
-    }
+        if(this.state.currentOp !== "") {
+          this.operationHandler();
+          this.setState({currentNum: "", currentOp: event.target.innerText});
+        } else {
+          const current = this.state.currentNum;
+          this.setState({firstNum: current,
+                        currentNum: "",
+                        currentOp: event.target.innerText});  
+        }  
+      }
   }
 
-  operationHandler = (event) => {
+  operationHandler = () => {
     let result = 0;
     if(this.state.currentOp === "x") {
       result = Number(this.state.firstNum) * Number(this.state.currentNum);
