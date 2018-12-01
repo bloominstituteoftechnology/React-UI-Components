@@ -57,7 +57,7 @@ class CalculatorContainer extends React.Component {
        <NumberButton text="1"/>
        <NumberButton text="2"/>
        <NumberButton text="3"/>
-       <NumberButton text="&#xd7;" styles="operator"/>
+       <NumberButton text="&#xd7;" styles="operator" state={this.props.state}/>
      </div>
      <div className="container__row">
        <NumberButton text="4"/>
