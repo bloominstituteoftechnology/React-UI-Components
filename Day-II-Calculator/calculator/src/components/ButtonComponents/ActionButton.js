@@ -11,7 +11,10 @@ const ActionButton = props => {
     }
   }
   return (
-    <div className="actionBtn" style={style} >{props.text}</div>
+    <div className = "actionBtn" 
+         style = {style} 
+         onClick = {(event) => props.clickBtn(event)}
+    >{props.text}</div>
   );
 };
 
