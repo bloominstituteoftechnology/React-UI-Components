@@ -4,7 +4,7 @@ import NumberButton from './NumberButton';
 import ActionButton from './ActionButton';
 
 
-const NumberPad = () => {
+const NumberPad = props => {
   return (
     <div className="number-pad">
       <ActionButton text="clear" buttonStyle="" />
@@ -23,5 +23,30 @@ const NumberPad = () => {
     </div>
   )
 }
+
+// class NumberPad extends React.Component {
+//   constructor() {
+//     super();
+//     this.state = {
+//       values: [9,8,7,6,5,4,3,2,1]
+//     }
+//   }
+
+//   render() {
+//     return (
+//       <div className="number-pad">
+//         <ActionButton text="clear" buttonStyle="" />
+//         <div className="integers">
+//           {this.state.values.map(value => {
+//             return (
+//               <NumberButton text={`${value}`} buttonStyle="number" />
+//             )
+//           })}
+//         </div>
+//         <ActionButton text="0" buttonStyle="number" />
+//       </div>
+//     )
+//   }
+// }
 
 export default NumberPad;

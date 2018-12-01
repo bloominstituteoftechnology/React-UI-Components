@@ -9,6 +9,6 @@ body {
   /* font-size: 70px; */
 }
 
-button {
+button, .btn-small {
   font-size: 40px;
 }
