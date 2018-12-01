@@ -1,0 +1,13 @@
+.display {
+  width: 100%;
+  height: 70px;
+  background-color: #2B2B2B;
+}
+
+  .display h2 {
+    color: white;
+    text-align: right;
+    margin: 0 10px 0 0;
+    padding-top: 10px;
+    font-size: 44px;
+  }
