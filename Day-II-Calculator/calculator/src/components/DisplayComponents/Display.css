@@ -1,0 +1,10 @@
+.display-container{
+    box-sizing: border-box;
+    width:100%;
+    max-height: 100px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border:1px solid gray;
+    padding:1rem;
+}
