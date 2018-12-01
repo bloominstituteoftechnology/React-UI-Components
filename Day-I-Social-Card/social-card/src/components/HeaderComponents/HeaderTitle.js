@@ -6,7 +6,7 @@ import './Header.css';
 const HeaderTitle = () => {
     // const date = new Date();
     return (
-        <div><h1>Lambda School<span>{Moment().format("MMM Do YY")}</span></h1></div>
+        <div><h1>Lambda School<span>{Moment().startOf('hour').fromNow()}</span></h1></div>
     )
 }
 

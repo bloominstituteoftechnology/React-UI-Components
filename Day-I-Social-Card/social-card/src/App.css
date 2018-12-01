@@ -3,11 +3,28 @@
   IF you'd like to attempt to use less you'll have to research how to do this with Create React App
 */
 
-.body-container {
+body {
+  margin: 0px;
+}
+.btn-style {
+  padding: 18px 30px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.green {
+  background-color: darkcyan;
+}
+.salmon {
+  background-color: salmon;
+}
+.container {
   max-width: 700px;
   margin-left: auto;
   margin-right: auto;
-  font-family: sans-serif;
+}
+.body-container {
+  font-family: 'Courier New', Courier, monospace;
   color: black;
 }
 .header-container {
