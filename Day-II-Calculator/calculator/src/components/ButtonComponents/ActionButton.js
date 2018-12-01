@@ -4,8 +4,8 @@ import React from 'react';
 
 const ActionButton = props => {
     return (
-        <div className="action-button">
-        {props.text}
+        <div className={props.className}>
+            {props.text}
         </div>
     );
 };
