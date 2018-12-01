@@ -3,7 +3,9 @@ import React from 'react';
 
 const NumberDisplay = props => {
     return (
-        <div class="number-display"></div>
+        <div className="numDisplay">
+          <div className="numberPrinted">{props.number}</div>
+        </div>
     );
 };
 

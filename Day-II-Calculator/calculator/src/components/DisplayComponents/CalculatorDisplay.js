@@ -1,12 +1,13 @@
 import React from 'react';
-import './Display.css';
+// import './Display.css';
 import NumberDisplay from './NumberDisplay'
 
 
 const CalculatorDisplay = props => {
   return (
-      <div class="calc-container"></div>
-      fwew
+      <div class="calc-container">
+       <NumberDisplay />
+      </div>
   );
 };
 
