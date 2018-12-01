@@ -1,0 +1,24 @@
+
+
+.container{
+    border: 1px solid gray;
+    margin: 0 auto;
+    width: 390px;
+}
+
+.num-wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.row{
+    display: flex;
+}
+
+.num-pad{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+}
