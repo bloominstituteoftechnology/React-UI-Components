@@ -1,0 +1,27 @@
+button {
+  border: 1px solid gray;
+  font-size: 4.8rem;
+  width: 114.5px;
+  height: 95px;
+}
+
+.action-button {
+  background-color: red;
+  color: white;
+  font-size: 6.4rem;
+}
+
+.number-button {
+  background-color: white;
+
+}
+
+#clear-button {
+  background-color: white;
+  color: black;
+  font-size: 4.8rem;
+}
+
+.wide {
+  width: 343.5px;
+}
