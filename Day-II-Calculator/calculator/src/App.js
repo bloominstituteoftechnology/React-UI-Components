@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import CalculatorDisplay from './components/DisplayComponents/CalculatorDisplay';
 import ActionButton from './components/ButtonComponents/ActionButton';
-// import DisplayButton from './components/ButtonComponents/NumberButton';
+import NumberButton from './components/ButtonComponents/NumberButton';
 
 const App = () => {
   return (
@@ -11,13 +11,32 @@ const App = () => {
 
       <div className="row" id="row-one">
         <ActionButton name="clear" />
-        {/* <NumberButton name="&#038;" extraStyle="redButton"> */}
+        <NumberButton name="&#247;" extraStyle="red-button" />
       </div>
-
-
-
+      <div className="row" id="row-two">
+        <NumberButton name="7"/>
+        <NumberButton name="8"/>
+        <NumberButton name="9"/>
+        <NumberButton name="x" extraStyle="red-button" />
       </div>
-      );
-    };
-    
-    export default App;
+      <div className="row" id="row-three">
+        <NumberButton name="4"/>
+        <NumberButton name="5"/>
+        <NumberButton name="6"/>
+        <NumberButton name="-" extraStyle="red-button" />
+      </div>
+      <div className="row" id="row-four">
+        <NumberButton name="1"/>
+        <NumberButton name="2"/>
+        <NumberButton name="3"/>
+        <NumberButton name="+" extraStyle="red-button" />
+      </div>
+      <div className="row" id="row-five">
+        <ActionButton name="0" />
+        <NumberButton name="=" extraStyle="red-button" />
+      </div>
+    </div>
+  );
+};
+
+export default App;
