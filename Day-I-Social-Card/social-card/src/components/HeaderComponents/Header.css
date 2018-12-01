@@ -1,6 +1,6 @@
 /* All styles for your header Components live here */
 .header{
-    max-width: 800px;
+    max-width: 590px;
     width: 100%;
     display: flex;
     justify-content: flex-start;
@@ -22,14 +22,14 @@
     font-size: 16px;
     color: black;
     position: absolute;
-    left: 26%;
+    left: 30.2%;
     top: 43px;
-    width: 53%;
+    width: 48%;
 
 }
 img{
     margin: 20px 10px 0 0;
-    width: 15%;
+    width: 20%;
 }
 .header h1{
     font-size: 20px;

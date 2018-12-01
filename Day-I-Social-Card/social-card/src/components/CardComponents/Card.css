@@ -1,1 +1,10 @@
 /* All styles for your Card Components live here */
+
+.cardContainer{
+    width: 100%;
+
+}
+.cardBanner img {
+    width: 80%;
+    margin:0px 20%;
+}
