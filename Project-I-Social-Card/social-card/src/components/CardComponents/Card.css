@@ -1,1 +1,13 @@
 /* All styles for your Card Components live here */
+.card-container {
+    margin-left:10%;
+}
+
+.card-content-style {
+    margin-bottom:2.5%;
+}
+
+.link-style {
+    text-decoration:none;
+    color:black;
+}

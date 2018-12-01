@@ -1,16 +1,25 @@
 /* All styles for your header Components live here */
 .header-container {
-
+    display:flex;
+    justify-content:space-between;
 }
 
-.image-thumbnail {
-    
+
+.thumbnail {
+    width:100%;
+}
+
+.header-info {
+    display:flex;
+    flex-direction:column;
+    margin-left:2%;
 }
 
 .header-title {
-
+    display:flex;
 }
 
-.header-content {
-    
+.header-title-style {
+    margin-right:2%;
 }
+

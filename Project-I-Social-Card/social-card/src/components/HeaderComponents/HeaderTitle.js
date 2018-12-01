@@ -10,9 +10,9 @@ let date = function() {
 const HeaderTitle = () => {
     return (
         <div className = 'header-title'>
-            <h1>Lambda School</h1>
-            <h3>@LambdaSchool</h3>
-            <h3>{date()}</h3>
+            <h1 className = "title header-title-style">Lambda School</h1>
+            <p className = 'grey header-title-style'>@LambdaSchool</p>
+            <p className = 'grey header-title-style'>{date()}</p>
         </div>
     )
 };
