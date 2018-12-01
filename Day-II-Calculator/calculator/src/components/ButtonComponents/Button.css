@@ -1,19 +1,30 @@
-.operator-btn{
+.red-btn{
   background-color: #A0001E;
   color: #000;
 }
 
-.number-btn{
+.white-btn{
   background-color: #FFF;
   color: #000;
 }
 
 .action-btn{
-  width: 342px;
-  height: 114px;
+  width: 333px;
+  height: 95px;
+  border: 1px solid grey;
+  box-sizing: border-box;
 }
 
-.number-btn{
-  width: 114px;
-  height: 114px;
+.operator-btn{
+  width: 123px;
+  height: 95px;
+  border: 1px solid grey;
+  box-sizing: border-box;
+}
+
+.digit-btn{
+  width: 111px;
+  height: 95px;
+  border: 1px solid grey;
+  box-sizing: border-box;
 }

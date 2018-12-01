@@ -1,4 +1,11 @@
 import React from 'react';
 import './Display.css';
 
-export default Display;
+const CalculatorDisplay = () =>{
+  return (
+    <div className='display'>
+    </div>
+  );
+}
+
+export default CalculatorDisplay;

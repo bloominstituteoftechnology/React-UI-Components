@@ -1,6 +1,8 @@
 .display{
   width: 456px;
-  height: 114px;
+  height: 126px;
   background-color: #222;
   color: #FFF;
+  border: 1px solid grey;
+  box-sizing: border-box;
 }

@@ -1,6 +1,10 @@
 .app{
   width: 456px;
   height: 598px;
-  border: 1px solid black;
+  border: 1px solid grey;
   margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: flex-start;
 }
