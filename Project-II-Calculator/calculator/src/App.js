@@ -10,7 +10,7 @@ const App = () => {
     <CalculatorDisplay value="0" />
     <div class="button-pad">
     <div class="numbers">
-      <ActionButton actionType="clear" size="wide" id="clear-button"/>
+      <ActionButton actionType="clear" buttonStyle="wide" id="clear-button"/>
       <NumberButton number="7" />
       <NumberButton number="8" />
       <NumberButton number="9" />
@@ -20,7 +20,7 @@ const App = () => {
       <NumberButton number="1" />
       <NumberButton number="2" />
       <NumberButton number="3" />
-      <NumberButton number="0" size="wide" />
+      <NumberButton number="0" buttonStyle="wide" />
     </div>
     <div class="functions">
       <ActionButton actionType="&divide;" />
