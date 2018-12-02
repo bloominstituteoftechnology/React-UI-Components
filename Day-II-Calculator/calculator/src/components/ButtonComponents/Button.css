@@ -1,0 +1,11 @@
+.btn-default{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:75px;
+  padding: 0px;
+  margin: 0px;
+  background-color: white;
+  border: 1px solid grey;
+  font-size: 4.5rem;
+}
