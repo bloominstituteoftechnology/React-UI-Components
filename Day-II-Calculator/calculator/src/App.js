@@ -9,8 +9,22 @@ const App = () => {
   return (
     <div className="calculator" >
       <CalculatorDisplay />
-      <ActionButton text="clear" buttonStyle="" />
-      <NumberButton />
+      <NumberButton buttonStyle="three-btn" text="clear" />
+      <ActionButton buttonStyle="func-btn" text=" / " />
+      <NumberButton buttonStyle="num-btn" text="7" />
+      <NumberButton buttonStyle="num-btn" text="8" />
+      <NumberButton buttonStyle="num-btn" text="9" />
+      <ActionButton buttonStyle="func-btn" text=" X " />
+      <NumberButton buttonStyle="num-btn" text="4" />
+      <NumberButton buttonStyle="num-btn" text="5" />
+      <NumberButton buttonStyle="num-btn" text="6" />
+      <ActionButton buttonStyle="func-btn" text=" - " />
+      <NumberButton buttonStyle="num-btn" text="1" />
+      <NumberButton buttonStyle="num-btn" text="2" />
+      <NumberButton buttonStyle="num-btn" text="3" />
+      <ActionButton buttonStyle="func-btn" text=" + " />
+      <NumberButton buttonStyle="three-btn" text="0" />
+      <ActionButton buttonStyle="func-btn" text=" = " />      
     </div>
 
 
