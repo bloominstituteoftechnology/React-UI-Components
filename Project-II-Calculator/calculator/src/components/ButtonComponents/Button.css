@@ -1,0 +1,24 @@
+.button {
+  border: solid 1px grey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+}
+
+.action-button {
+  width: 75%;
+  background-color: white;
+  color: black;
+}
+
+.number-button {
+  width: 25%;
+  font-weight: bold;
+}
+
+.symbol {
+  background-color: darkred;
+  color: white;
+  font-weight: normal;
+}

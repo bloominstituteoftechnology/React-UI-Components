@@ -1,1 +1,43 @@
 /* All styles for your header Components live here */
+.header-container {
+    display: flex;
+    align-items: flex-start;
+    
+}
+.thumbnail {
+    width: 48px;
+    height: 48px;
+    margin: 5px 1%;
+    
+}
+
+.thumbnail img {
+    width: 100%;
+}
+
+.header-subcontainer-1{
+    width: 91%;
+}
+
+.header-title {
+    display: flex;
+    align-items: center;
+    margin: 0 1%;
+}
+
+.header-title h1 {
+    font-size: 14px;
+    padding: 0 5px;
+    font-weight: bold;
+}
+
+.header-title p {
+    font-size: 12px;
+    padding: 0 5px;
+}
+
+.header-content {
+    width: 91%;
+    padding: 0 10px;
+    font-size: 14px;
+}
