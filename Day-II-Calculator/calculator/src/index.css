@@ -42,6 +42,7 @@ html {
   font-weight: bold;
   border: 1px solid gray;
   font-size: 4rem;
+  cursor: pointer;
 }
 .buttons .numberpad .clear {
   font-weight: normal;
@@ -56,7 +57,7 @@ html {
   width: 30%;
 }
 .symbol .red {
-  background-color: #A0001E;
+  background-color: #a0001e;
   color: white;
   font-weight: normal;
   font-size: 5rem;
