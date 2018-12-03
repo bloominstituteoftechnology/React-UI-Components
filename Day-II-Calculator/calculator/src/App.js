@@ -23,6 +23,7 @@ class App extends React.Component {
   };
 
   operator = event => {
+    console.log(event.target.innerText);
     this.setState({
       ...this.state,
       display: '0',
@@ -42,10 +43,10 @@ class App extends React.Component {
       if (signs[0] === '+') {
         total += numbers[i];
         signs.shift();
-      } else if (signs[0] === '-') {
+      } else if (signs[0] === `-`) {
         total -= numbers[i];
         signs.shift();
-      } else if (signs[0] === 'X') {
+      } else if (signs[0] === 'x') {
         total *= numbers[i];
         signs.shift();
       } else if (signs[0] === '/') {
@@ -79,7 +80,12 @@ class App extends React.Component {
     return (
       <div className="calculator">
         <CalculatorDisplay display={this.state.display} />
-        <Buttons />
+        <Buttons
+          numberClick={this.numberClick}
+          operator={this.operator}
+          equal={this.equal}
+          clear={this.clear}
+        />
       </div>
     );
   }
