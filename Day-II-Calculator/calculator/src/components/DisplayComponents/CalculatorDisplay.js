@@ -1,6 +1,9 @@
 import React from 'react';
 import './Display.css';
 
-const CalculatorDisplay = props => <div className="calc-display">{props.total}</div>;
-
-export default CalculatorDisplay;
+const CalculatorDisplay = props => {
+    return <div className="calc-total">{props.display}</div>;
+  };
+  
+  export default CalculatorDisplay;
+  

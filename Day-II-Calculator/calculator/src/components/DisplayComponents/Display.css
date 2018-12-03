@@ -1,12 +1,10 @@
-.calc-display {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    color: FFFFFF;
+.calc-total {
+    height: 100px;
     background: #222222;
-    height: 125px;
-    border: 0.25px solid #A4A4A4;
-    font-size: 4.5rem;
-    padding-right: 20px;
-    font-weight: 100;
+    color: #ffffff;
+    font-size: 50px;
+    line-height: 100px;
+    padding: 5px;
+    text-align: right;
   }
+  
