@@ -1,1 +1,36 @@
 /* All styles for your header Components live here */
+
+.h2Class{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.h3Class {
+    color: gray;
+}
+
+.headerTitle{
+    display: flex;
+    align-items: baseline;
+    height: 3rem;
+}
+
+.header{
+    display: flex;
+    border: 2px solid red;
+    /* width: 50%; */
+    justify-items: center;
+}
+
+.headerText {
+    border: 3px solid blue;
+}
+
+.lambdaLogo {
+    border: 2px solid green;
+    height: 10%;
+    width: 10%;
+    /* width: 7vw;
+    height: 7vh; */
+    
+}
