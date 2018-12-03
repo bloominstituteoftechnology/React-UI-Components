@@ -17,8 +17,6 @@ class MessageBubble extends React.Component {
       return (
         <div className="message">
                  <div><img onClick= {this.IncrementItem} className="footer-image" id="messageImageB" alt="bannerpic" src="./images/reactImages/messageBubble.PNG" /> {this.state.clicks}</div>
-            {/* <img className="footer-image" id="messageImageB" alt="bannerpic" src="./images/reactImages/messageBubble.PNG" /> */}
-            {/* <button onClick= {this.IncrementItem}><img className="footer-image" id="messageImageB" alt="bannerpic" src="./images/reactImages/messageBubble.PNG" /> {this.state.clicks}</button> */}
         </div>
       )
   }
@@ -26,3 +24,6 @@ class MessageBubble extends React.Component {
 }
 
 export default MessageBubble;
+
+ {/* <img className="footer-image" id="messageImageB" alt="bannerpic" src="./images/reactImages/messageBubble.PNG" /> */}
+            {/* <button onClick= {this.IncrementItem}><img className="footer-image" id="messageImageB" alt="bannerpic" src="./images/reactImages/messageBubble.PNG" /> {this.state.clicks}</button> */}

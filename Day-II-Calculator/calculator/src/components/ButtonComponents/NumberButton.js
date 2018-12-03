@@ -4,7 +4,8 @@ import React from 'react';
 
 const NumberButton = props => {
     return (
-        <div className={props.className}>
+        <div className={props.className} 
+        onClick={props.handleClick}>
           {props.number}
         </div>
     )
