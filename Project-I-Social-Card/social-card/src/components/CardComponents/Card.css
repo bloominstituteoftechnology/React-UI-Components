@@ -28,7 +28,7 @@
 }
 
 .cardContainer {
-    border: 2px solid lightgray;
+    /* border: 2px solid lightgray; */
     border-radius: 0.5%;
     display: flex;   
     /* width: 90%; */

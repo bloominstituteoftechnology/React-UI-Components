@@ -17,17 +17,21 @@
 
 .header{
     display: flex;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     /* width: 50%; */
     justify-items: center;
 }
 
 .headerText {
-    border: 3px solid blue;
+    /* border: 3px solid blue; */
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    margin: 0;
 }
 
 .lambdaLogo {
-    border: 2px solid green;
+    /* border: 2px solid green; */
     height: 10%;
     width: 10%;
     /* width: 7vw;

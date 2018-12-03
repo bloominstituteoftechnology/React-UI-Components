@@ -5,4 +5,5 @@
 
 .App {
   width: 80vh;
+  border: 2px solid lightgray;
 }
