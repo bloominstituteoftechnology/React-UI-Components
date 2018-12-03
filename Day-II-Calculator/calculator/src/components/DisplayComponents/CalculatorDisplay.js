@@ -1,24 +1,23 @@
 import React from 'react';
 import './Display.css';
 
-import TotalComponent from './TotalComponent';
-import NumberComponent from '../ButtonComponents/NumberButton';
-import ActionComponent from '../ButtonComponents/ActionButton';
 
+class DisplayComponent extends React.Component {
 
-const CalculatorComponent = () => {
+    constructor(props) {
+        super(props);
+        this.state = {
+            display: 0
+        }
+    }
 
-    return (
-        <div className="calculator-container">
+    render() {
+        return (
             <div className="total-container">
-                <TotalComponent />
-            </div>   
-            <div className="button-container">
-                <NumberComponent />
-                <ActionComponent />
+                {this.state.display}
             </div>
-        </div>
-    );
+        )
+    }
 }
 
-export default CalculatorComponent;
+export default DisplayComponent;
