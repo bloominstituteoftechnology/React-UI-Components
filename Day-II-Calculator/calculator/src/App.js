@@ -5,8 +5,8 @@ import ActionButton from './components/ButtonComponents/ActionButton';
 import NumberButton from './components/ButtonComponents/NumberButton';
 
 class App extends React.Component {
-  constructor(props) {
-    super(props);
+  constructor() {
+    super();
     this.state = {
       display: 0,
       previousNum: 0,
@@ -58,34 +58,38 @@ class App extends React.Component {
   zeroDisplay = () => {
     this.setState({ display: this.state.display * 10 + 0});
   }
-  plus = () => {
-    this.setState({ oldNum: this.state.oldNum + this.state.total, total: 0, operator: '+' })
-  }
-  
-  minus = () => {
-    this.setState({ oldNum: this.state.oldNum === 0 ? this.state.total : this.state.oldNum - this.state.total, total: 0, operator: '-' })
-  }
-  
-  multiply = () => {
-    this.setState({ oldNum: this.state.oldNum === 0 ? this.state.total : this.state.oldNum * this.state.total, total: 0, operator: '*' })
-  }
   
   divide = () => {
-    this.setState({ oldNum: this.state.oldNum === 0 ? this.state.total : this.state.oldNum / this.state.total, total: 0, operator: '/' })
+    this.setState({ previousNum: this.state.previousNum === 0 ? this.state.display : this.state.previousNum / this.state.display, display: 0, operator: "/" })
+  }
+
+  multiply = () => {
+    this.setState({ oldNum: this.state.oldNum === 0 ? this.state.total : this.state.oldNum * this.state.total, total: 0, operator: "x" })
+  }
+
+  minus = () => {
+    this.setState({ previousNum: this.state.previousNum === 0 ? this.state.display : this.state.previousNum - this.state.display, display: 0, operator: "-" })
+  }
+  
+  plus = () => {
+    this.setState({ previousNum: this.state.previousNum + this.state.display, display: 0, operator: "+" })
   }
   
   equal = () => {
-    if (this.state.operator === "+") {
-      this.setState({ total: this.state.oldNum + this.state.total, oldNum: 0 })
-    }
-    if (this.state.operator === "-") {
-      this.setState({ total: this.state.oldNum - this.state.total, oldNum: 0 })
-    }
-    if (this.state.operator === "*") {
-      this.setState({ total: this.state.oldNum * this.state.total, oldNum: 0 })
-    }
     if (this.state.operator === "/") {
-      this.setState({ total: (this.state.oldNum / this.state.total).toFixed(1), oldNum: 0 })
+      this.setState({ display: (this.state.previousNum / this.state.display).toFixed(1), previousNum: 0 })
+    }
+    
+    if (this.state.operator === "x") {
+      this.setState({ display: this.state.previousNum * this.state.display, previousNum: 0 })
+    }
+    
+    if (this.state.operator === "-") {
+      this.setState({ display: this.state.previousNum - this.state.display, previousNum: 0 })
+    }
+    
+    if (this.state.operator === "+") {
+      this.setState({ display: this.state.previouNum + this.state.display, previousNum: 0 })
     }
   }
 
@@ -120,9 +124,9 @@ class App extends React.Component {
           <NumberButton text="=" style="sign" func={this.equal} />
         </div>
       </div>
-    )
-  }
-}
+    );
+  };
+};
 
 export default App;
 
