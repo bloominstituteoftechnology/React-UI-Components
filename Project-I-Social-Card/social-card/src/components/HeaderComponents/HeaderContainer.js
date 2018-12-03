@@ -3,7 +3,6 @@ import "./Header.css";
 import ImageThumbnail from "./ImageThumbnail";
 import HeaderTitle from "./HeaderTitle";
 
-
 const HeaderContainer = () => {
   return (
     <div className="container-header">
@@ -14,9 +13,3 @@ const HeaderContainer = () => {
 };
 
 export default HeaderContainer;
-
-
-//Create a <HeaderContainer /> container component that will hold your header components.
-
-
-
