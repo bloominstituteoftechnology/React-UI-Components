@@ -1,0 +1,7 @@
+.container{
+    max-width: 590px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
