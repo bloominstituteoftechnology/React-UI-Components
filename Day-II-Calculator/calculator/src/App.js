@@ -18,7 +18,7 @@ const App = () => {
 			<NumberButton className="eight" number={8} />
 			<NumberButton className="nine" number={9} />
 			<ActionButton className="clear" text="clear" />
-			<ActionButton className="divide" text="" />
+			<ActionButton className="divide" text="÷" />
 			<ActionButton className="multiply" text="x" />
 			<ActionButton className="minus" text="__" />
 			<ActionButton className="plus" text="+" />
