@@ -7,7 +7,8 @@
 }
 
 .icons{
-  display: inline-block;
+  display: flex;
+  justify-content: center;
   margin-right: 70px
 }
 
@@ -16,12 +17,7 @@
   height: 20px;
 }
 
-.heart, .repost {
-  display: flex;
-  align-items: center;
-}
-
-.heart button, .repost button{
+.icons button{
   font-size: 1rem;
-  color: #99A6B0;
+  border: none
 }

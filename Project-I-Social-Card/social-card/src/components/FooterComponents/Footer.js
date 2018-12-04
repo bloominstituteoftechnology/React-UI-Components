@@ -4,6 +4,7 @@ import ChatIcon from './Chat';
 import Repost from './Repost';
 import Heart from './Heart';
 import Message from './Message';
+import StateLess from './stateless_example';
 
 const Footer = (props) => {
   return (
@@ -12,6 +13,7 @@ const Footer = (props) => {
       <Repost />
       <Heart />
       <Message />
+      <StateLess />
     </div>
   )
 }

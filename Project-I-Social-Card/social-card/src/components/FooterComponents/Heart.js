@@ -18,9 +18,11 @@ class Heart extends React.Component {
 
   render() {
     return (
-      <div className="icons heart">
-        <img className="iconImage" src="./../heart.png" alt="heart" />
-        <button onClick = {this.handleClick}> {this.state.count} </button>
+      <div className="icons">
+        <img onClick = {this.handleClick} className="iconImage" src="./../heart.png" alt="heart" />
+        <div>
+          <button onClick= {this.handleClick}> {this.state.count} </button>
+        </div>
       </div>
     )
   }

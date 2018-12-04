@@ -19,8 +19,10 @@ class Repost extends React.Component {
   render() {
     return (
       <div className="icons repost">
-        <img className = "iconImage" src="./../reload.png" alt="heart" />
-        <button onClick = {this.handleClick}> {this.state.count} </button>
+        <img onClick = {this.handleClick} className = "iconImage" src="./../reload.png" alt="heart" />
+        <div>
+          <button onClick= {this.handleClick}> {this.state.count} </button>
+        </div>
       </div>
     )
   }
