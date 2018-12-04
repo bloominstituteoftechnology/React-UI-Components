@@ -1,0 +1,12 @@
+.cal-display {
+	background-color: black;
+	height: 100px;
+	width: 40.3%;
+	margin-left: 20%;
+	color: white;
+	display: flex;
+	justify-content: flex-end;
+}
+.all-numbers {
+	margin-right: 2%;
+}

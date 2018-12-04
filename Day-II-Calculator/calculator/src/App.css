@@ -1,0 +1,161 @@
+.container {
+	display: flex;
+}
+.clear {
+	margin-top: 91px;
+	position: absolute;
+	left: 246px;
+	width: 30%;
+	align-self: center;
+	text-align: center;
+	border: 1px solid black;
+}
+.divide {
+	margin-top: 91px;
+	position: absolute;
+	right: 489px;
+	height: 80px;
+	width: 10%;
+	align-self: center;
+	text-align: center;
+	border: 1px solid black;
+	background-color: darkred;
+}
+.multiply {
+	margin-top: 174px;
+	position: absolute;
+	right: 489px;
+	height: 80px;
+	width: 10%;
+	align-self: center;
+	text-align: center;
+	border: 1px solid black;
+	background-color: darkred;
+	color: white;
+}
+.minus {
+	margin-top: 257px;
+	position: absolute;
+	right: 489px;
+	height: 80px;
+	width: 10%;
+	align-self: center;
+	text-align: center;
+	border: 1px solid black;
+	background-color: darkred;
+	color: white;
+}
+.plus {
+	margin-top: 340px;
+	position: absolute;
+	right: 489px;
+	height: 80px;
+	width: 10%;
+	align-self: center;
+	text-align: center;
+	border: 1px solid black;
+	background-color: darkred;
+	color: white;
+}
+.equals {
+	margin-top: 423px;
+	position: absolute;
+	right: 489px;
+	height: 80px;
+	width: 10%;
+	align-self: center;
+	text-align: center;
+	border: 1px solid black;
+	background-color: darkred;
+	color: white;
+}
+.seven {
+	margin-top: 174px;
+	position: absolute;
+	left: 246px;
+	width: 10%;
+	align-self: center;
+	text-align: center;
+	border: 1px solid black;
+}
+.four {
+	margin-top: 256px;
+	position: absolute;
+	left: 246px;
+	width: 10%;
+	align-self: center;
+	text-align: center;
+	border: 1px solid black;
+}
+.one {
+	margin-top: 339px;
+	position: absolute;
+	left: 246px;
+	width: 10%;
+	align-self: center;
+	text-align: center;
+	border: 1px solid black;
+}
+.eight {
+	margin-top: 174px;
+	position: absolute;
+	left: 370px;
+	width: 10%;
+	align-self: center;
+	text-align: center;
+	border: 1px solid black;
+}
+.five {
+	margin-top: 256px;
+	position: absolute;
+	left: 370px;
+	width: 10%;
+	align-self: center;
+	text-align: center;
+	border: 1px solid black;
+}
+.two {
+	margin-top: 339px;
+	position: absolute;
+	left: 370px;
+	width: 10%;
+	align-self: center;
+	text-align: center;
+	border: 1px solid black;
+}
+.nine {
+	margin-top: 174px;
+	position: absolute;
+	left: 495px;
+	width: 10%;
+	align-self: center;
+	text-align: center;
+	border: 1px solid black;
+}
+.six {
+	margin-top: 256px;
+	position: absolute;
+	left: 495px;
+	width: 10%;
+	align-self: center;
+	text-align: center;
+	border: 1px solid black;
+}
+.three {
+	margin-top: 339px;
+	position: absolute;
+	left: 495px;
+	width: 10%;
+	align-self: center;
+	text-align: center;
+	border: 1px solid black;
+}
+.zero {
+	margin-top: 422px;
+	position: absolute;
+	left: 246px;
+	width: 30%;
+	align-self: center;
+	text-align: center;
+	border: 1px solid black;
+}
