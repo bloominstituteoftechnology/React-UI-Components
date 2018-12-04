@@ -1,1 +1,28 @@
 /* All styles for your Card Components live here */
+
+.CardContainer{
+  width: 65%;
+  padding-left: 75px;
+}
+
+.links{
+  text-decoration: none;
+  color: black;
+}
+.cardImage {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.cardContent{
+  text-decoration: none;
+  border: 1px solid #99A6B0;
+  padding: 10px;
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
+
+.reactLink{
+  color: #99A6B0;
+}

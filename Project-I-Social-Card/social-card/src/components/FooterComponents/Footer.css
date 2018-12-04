@@ -1,0 +1,23 @@
+.footer-container{
+  display: flex;
+  width: 65%;
+  padding-left: 75px;
+  justify-content: flex-start;
+
+}
+
+.icons{
+  display: flex;
+  justify-content: center;
+  margin-right: 70px
+}
+
+.iconImage{
+  width: 20px;
+  height: 20px;
+}
+
+.icons button{
+  font-size: 1rem;
+  border: none
+}

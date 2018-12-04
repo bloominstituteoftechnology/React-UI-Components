@@ -1,1 +1,23 @@
 /* All styles for your header Components live here */
+
+.ImageThumbnail{
+  display: inline-block;
+  height: 75px;
+  width: 75px;
+}
+.headerTitle, .headerPTag {
+  display: inline;
+}
+
+.headerPTag {
+  color: #99A6B0;
+}
+
+.headerContent{
+  width: 70%;
+}
+
+.Header-Header{
+  display: flex;
+  justify-content: flex-start;
+}
