@@ -11,6 +11,6 @@ const HeaderTitle = () => (
       </h2>
     </div>
   </div>
-);
+); 
 
 export default HeaderTitle;
