@@ -1,1 +1,43 @@
 /* All styles for your header Components live here */
+html {
+    font-size: 62.5%;
+}
+
+.thumbnail {
+    width: 4rem;
+    height: 4rem;
+    margin-top: 13px;
+}
+
+.headerTitle {
+    display: flex;
+    align-items: center;
+}
+
+.headerTitle h1 {
+    font-size: 1.8rem;
+}
+
+.headerContainer {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.gray {
+    color: lightgray;
+    margin-left: .7rem;
+  }
+
+.text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+}
+
+.header-text {
+    font-size: 1.4rem;
+    margin-right: 2rem;
+    margin-top: 0px;
+    line-height: 18px;
+}

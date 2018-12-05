@@ -1,1 +1,35 @@
 /* All styles for your Card Components live here */
+
+.cardContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 95%;
+    margin-right: 5%;
+    margin-left: 2%;
+}
+
+.card-banner-img {
+    width: 85%;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.cardContent {
+    width: 85%;
+}
+
+.cardContent h1 {
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+.main-text {
+    font-size: 1.4rem;
+}
+
+.gray {
+    color: gray;
+    font-size: 1.4rem;
+    margin-left: 0px;
+}
