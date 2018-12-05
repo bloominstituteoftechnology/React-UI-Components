@@ -1,0 +1,31 @@
+.squareButtonStyle {
+    width: 5rem;
+    height: 5rem;
+    background: white;
+    font-size: 2.5rem;
+    font-weight: bold;
+    border: 1px solid gray;
+    
+}
+
+.longButtonStyle {
+    width: 15rem;
+}
+
+.numberButton {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    width: 15rem;
+}
+
+.actionButton {
+    height: 5rem;
+    font-size: 2.5rem;
+    background: white;
+    border: 1px solid gray;
+}
+
+.operation {
+    background: red;
+    color: white;
+}
