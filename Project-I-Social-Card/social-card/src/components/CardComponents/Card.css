@@ -15,6 +15,10 @@
     height: auto;
 }
 
+.card_content {
+    padding: 3%;
+}
+
 .grey {
     color: grey;
 }
