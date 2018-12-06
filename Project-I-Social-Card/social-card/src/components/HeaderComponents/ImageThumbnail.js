@@ -5,7 +5,7 @@ import img from './Lambdaimage.png';
 const ImageThumbnail = () => {
     return (
         <div>
-            <img className='thumbnail' src={img} />;
+            <img className='thumbnail' src={img} />
         </div>
     )
 }
