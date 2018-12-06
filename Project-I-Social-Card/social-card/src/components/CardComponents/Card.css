@@ -6,8 +6,6 @@
     max-width: 800px;
     width: 100%;
     margin: 0 auto;
-    border: 1px solid grey;
-    border-top: none;
 }
 
 .cardbanner {
@@ -17,6 +15,9 @@
 
 .card_content {
     padding: 3%;
+    border: 1px solid grey;
+    border-top: none;
+    margin: 0 auto;
 }
 
 .grey {
