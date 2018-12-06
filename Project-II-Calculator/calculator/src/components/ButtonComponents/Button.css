@@ -27,8 +27,19 @@
     width: 15rem;
 }
 
-/* Allows numbers and operations to be side by side */
-.returnDiv {
+.operations {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Allows numbers clear and 0 to be one block with column display */
+.numbersAndActionButtons {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Allows numbersAndActionButtons and operations to be side by side */
+.numActAndOpBlock {
     display: flex;
 }
 
