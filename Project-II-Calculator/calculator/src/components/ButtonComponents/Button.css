@@ -27,3 +27,8 @@
     width: 15rem;
 }
 
+/* Allows numbers and operations to be side by side */
+.returnDiv {
+    display: flex;
+}
+
