@@ -1,0 +1,45 @@
+/* All buttons */
+.buttonStyle {
+    width: 5rem;
+    height: 5rem;
+    background: white;
+    font-size: 2.5rem;
+    font-weight: bold;
+    border: 1px solid gray;
+    
+}
+
+/* Operation buttons style only */
+.operationButtonStyle {
+    background: red;
+    color: white;
+}
+
+/* 0 and clear only */
+.longButtonStyle {
+    width: 15rem;
+}
+
+/* div style where number buttons are in */
+.numberButton {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    width: 15rem;
+}
+
+.operations {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Allows numbers clear and 0 to be one block with column display */
+.numbersAndActionButtons {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Allows numbersAndActionButtons and operations to be side by side */
+.numActAndOpBlock {
+    display: flex;
+}
+

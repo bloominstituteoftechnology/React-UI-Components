@@ -1,0 +1,8 @@
+.displayStyle {
+    width: 20rem;
+    height: 7rem;
+    background: black;
+    color: white;
+    font-size: 4rem;
+    text-align: end;
+}

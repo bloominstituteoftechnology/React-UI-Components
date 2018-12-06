@@ -1,1 +1,42 @@
 /* All styles for your Card Components live here */
+
+.cardBanner img{ 
+    width: 90%;
+    margin-left: 10%;
+}
+
+.cardContent .h2Class{
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.h3Class {
+    color: gray;
+    margin: 0;
+}
+
+.cardContent {
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    margin: 0;
+    width: 90%;
+    margin-left: 10%;
+    border: 2px solid gray;
+    /* align-content: flex-end; */
+}
+
+.cardContainer {
+    /* border: 2px solid lightgray; */
+    border-radius: 0.5%;
+    display: flex;   
+    /* width: 90%; */
+    flex-direction: column;
+    /* align-content: flex-end; */
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+}
