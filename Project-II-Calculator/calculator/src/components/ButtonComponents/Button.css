@@ -1,4 +1,5 @@
-.squareButtonStyle {
+/* All buttons */
+.buttonStyle {
     width: 5rem;
     height: 5rem;
     background: white;
@@ -8,24 +9,21 @@
     
 }
 
+/* Operation buttons style only */
+.operationButtonStyle {
+    background: red;
+    color: white;
+}
+
+/* 0 and clear only */
 .longButtonStyle {
     width: 15rem;
 }
 
+/* div style where number buttons are in */
 .numberButton {
     display: flex;
     flex-wrap: wrap-reverse;
     width: 15rem;
 }
 
-.actionButton {
-    height: 5rem;
-    font-size: 2.5rem;
-    background: white;
-    border: 1px solid gray;
-}
-
-.operation {
-    background: red;
-    color: white;
-}

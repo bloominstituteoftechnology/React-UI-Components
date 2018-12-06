@@ -6,7 +6,6 @@ import './App.css';
 const App = () => {
   return (
     <div>
-      div
       <ActionButton lengthStyle="longButtonStyle" text="clear"/>
       
       <div className="numberButton">
@@ -20,16 +19,16 @@ const App = () => {
         <NumberButton text="8"/>
         <NumberButton text="9"/>
       </div>  
-
-      <NumberButton lengthStyle="longButtonStyle" text="0" /> 
       
-      <div className="operations">
-        <ActionButton lengthStyle="squareButtonStyle" func="operation" text ="÷"/>
-        <ActionButton lengthStyle="squareButtonStyle" func="operation" text ="x"/>
-        <ActionButton lengthStyle="squareButtonStyle" func="operation" text ="-"/>
-        <ActionButton lengthStyle="squareButtonStyle" func="operation" text ="+"/>
-        <ActionButton lengthStyle="squareButtonStyle" func="operation" text ="="/>
+      <div className="operations ">
+       <NumberButton text="÷" functionality="operationButtonStyle" />
+       <NumberButton text="x" functionality="operationButtonStyle"/>
+       <NumberButton text="-" functionality="operationButtonStyle"/>
+       <NumberButton text="+" functionality="operationButtonStyle"/>
+       <NumberButton text="=" functionality="operationButtonStyle"/>
       </div>
+
+      <ActionButton lengthStyle="longButtonStyle" text="0"/>
       
     </div>
   );
