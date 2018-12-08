@@ -1,1 +1,17 @@
-
+.btn {
+    border: 1px solid #989898;
+    height: 92px;
+    font-size: 3rem;
+    background-color: #ffffff;
+    }
+    .one-quarter-button {
+    width: 25%;
+    }
+    .three-quarter-button {
+    width: 75%;
+    }
+    .red-buttons {
+    background-color: #A70029;
+    color: #ffffff;
+    font-size: 3rem;
+    }
