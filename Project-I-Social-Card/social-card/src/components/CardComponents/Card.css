@@ -1,1 +1,29 @@
 /* All styles for your Card Components live here */
+
+.card_container {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.cardbanner {
+    width: 100%;
+    height: auto;
+}
+
+.card_content {
+    padding: 3%;
+    border: 1px solid grey;
+    border-top: none;
+    margin: 0 auto;
+}
+
+.grey {
+    color: grey;
+}
+
+a:link {
+    text-decoration: none;
+}

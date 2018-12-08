@@ -1,0 +1,34 @@
+.clear-btn {
+    width: 100%;
+    background-color: #FFFFFF;
+    color: #222222;
+    padding: 15px 122px;
+    text-align: center;
+    font-size: 24px;
+}
+.number-btn {
+    width: 100%;
+    background-color: #FFFFFF;
+    color: #222222;
+    font-size: 24px;
+    padding: 15px;
+    font-weight: bold;
+}
+
+.action-btn {
+    width: 100%;
+    background-color: #A0001E;
+    color: #FFFFFF;
+    padding: 15px;
+    font-size: 24px;
+}
+
+.zero-btn {
+    width: 100%;
+    background-color: #FFFFFF;
+    color: #222222;
+    padding: 15px 141.5px;
+    font-size: 24px;
+    font-size: 24px;
+    font-weight: bold;
+}
