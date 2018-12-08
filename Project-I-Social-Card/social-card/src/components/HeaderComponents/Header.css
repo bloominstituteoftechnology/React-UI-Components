@@ -1,1 +1,29 @@
 /* All styles for your header Components live here */
+
+.header-container {
+    display: flex;
+    max-width: 700px;
+    width: 100%
+}
+
+.header-title {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.header-info {
+    font-size: .875rem;
+    color: grey;
+    font-weight: 300;
+}
+
+.header-content {
+    font-size: .85rem;
+    line-height: 20px;
+    display: flex;
+}
+
+.content-container {
+    width: 90%;
+    margin-left: 2%;
+}

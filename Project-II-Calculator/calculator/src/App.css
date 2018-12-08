@@ -1,0 +1,9 @@
+.calculator-container {
+    width: 100%;
+    max-width: 450px;
+    height: 500px;
+    border: 1px solid #989898;
+    }
+    .row {
+    border: 1px solid #989898;
+    }
