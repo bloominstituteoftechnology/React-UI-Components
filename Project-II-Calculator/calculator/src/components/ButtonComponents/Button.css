@@ -1,0 +1,17 @@
+.btn {
+    border: solid 1px #989898;
+    height: 92px;
+    font-size: 3rem;
+    background-color: #FFFFFF;
+}
+ .numberButton {
+    width: 25%;
+}
+ .actionButton {
+    width: 75%;
+}
+ .red-button {
+    background-color: #A70029;
+    color: #FFFFFF;
+    font-size: 3rem;
+ }
