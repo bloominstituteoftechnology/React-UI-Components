@@ -1,4 +1,7 @@
 import React from 'react';
+import NumberButton from './components/ButtonComponents/NumberButton';
+import ActionButton from './components/ButtonComponents/ActionButton';
+import CalculatorDisplay from './components/DisplayComponents/CalculatorDisplay'
 import './App.css';
 
 const App = () => {
@@ -19,5 +22,7 @@ const App = () => {
     </div>
   );
 };
+
+
 
 export default App;
