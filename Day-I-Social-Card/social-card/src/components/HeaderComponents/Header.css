@@ -62,10 +62,28 @@ table {
 	width: 275px;
 }
 
+.header-title span:nth-child(1) {
+	font-weight: 700;
+	position: relative;
+}
+.header-title span:nth-child(2) {
+	font-size: .8rem;
+	padding: 0;
+	margin: 0;
+	opacity: .7;
+}
+.header-title span:nth-child(3) {
+	font-size: .8rem;
+	padding: 0;
+	margin: 0;
+	opacity: .7;
+}
+
 .img-size{
   height: 72.5px;
   width: 67.5px;
 }
 
 .header-content{
+	padding: 10px;
 }
