@@ -10,7 +10,7 @@ const App = () => {
   return (
     <div className="app">
       <div>
-        <CalculatorDisplay/>
+        <CalculatorDisplay display="0"/>
       </div>
       <div>
         <Clear text="clear" />
