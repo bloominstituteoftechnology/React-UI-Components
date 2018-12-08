@@ -1,1 +1,29 @@
 /* All styles for your header Components live here */
+.header_container {
+    display: flex;
+    max-width: 800px;
+    margin: 0 auto;
+    width: 100%;
+}
+ .logo {
+    max-width: 60px;
+    height: auto;
+    margin:20px;
+
+}
+ .bold {
+    font-weight: bold;
+    color:black;
+    font-size: 25px;
+}
+.right_side{
+    margin: 10px;
+
+}
+.thumbnail-img{
+    margin-top: 30px;
+}
+.bold-top{
+    font-weight: bold;
+    font-size: 20px;
+}

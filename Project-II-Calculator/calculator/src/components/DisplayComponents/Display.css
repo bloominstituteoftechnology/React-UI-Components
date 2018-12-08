@@ -1,0 +1,12 @@
+#calculator-display {
+    width: 99%;
+    height: 122px;
+    font-size: 4.5rem;
+    text-align: right;
+    background-color: #292929;
+    
+   }
+    ::placeholder {
+       color: #FFFFFF;
+       padding-right: 2%;    
+   } 
