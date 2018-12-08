@@ -1,0 +1,41 @@
+.red-btn{
+  background-color: #A0001E;
+  color: #FFF;
+  font-size: 42px;
+}
+
+.white-btn{
+  background-color: #FFF;
+  color: #000;
+  font-size: 42px;
+}
+
+.action-btn{
+  width: 333px;
+  height: 95px;
+  border: 1px solid grey;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.operator-btn{
+  width: 123px;
+  height: 95px;
+  border: 1px solid grey;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.digit-btn{
+  width: 111px;
+  height: 95px;
+  border: 1px solid grey;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
