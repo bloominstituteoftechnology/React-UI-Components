@@ -7,12 +7,12 @@ const Footer = props => {
     <footer>
       <FiMessageCircle />
       <div className="share-container">
-        <FiRefreshCw />
-        <span className="footer-counter">6</span>
+        <FiRefreshCw className="share-icon" onClick={props.shareHandler} />
+        <span className="footer-counter">{props.numbers.shares}</span>
       </div>
       <div className="favorite-container">
-        <FiHeart />
-        <span className="footer-counter">4</span>
+        <FiHeart className="heart-icon" onClick={props.likeHandler} />
+        <span className="footer-counter">{props.numbers.likes}</span>
       </div>
       <FiMail />
     </footer>
