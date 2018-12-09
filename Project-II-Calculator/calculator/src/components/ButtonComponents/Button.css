@@ -1,0 +1,41 @@
+/* Button Container */
+.button-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    padding: 30px;
+    padding-top: 0;
+}
+
+/* Operator Buttons */
+.red-btn {
+    background-color: #a0001d;
+    color: #ffffff;
+    width: 70px;
+    padding: 20px;
+    border: 1px solid silver;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+/* Action Buttons */
+.action-btn {
+    width: 210px;
+    padding: 20px;
+    border: 1px solid silver;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+/* Nunber Button */
+.number-btn {
+    width: 70px;
+    padding: 20px;
+    border: 1px solid silver;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 20px;
+}
