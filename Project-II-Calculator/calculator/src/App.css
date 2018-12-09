@@ -1,0 +1,6 @@
+/* Calculator App Container */
+.calculator-wrapper {
+    width: 500px;
+    max-width: 100%;
+    margin: 0 auto;
+}
