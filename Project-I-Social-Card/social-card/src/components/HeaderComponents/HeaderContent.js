@@ -1,7 +1,7 @@
 import React from 'react';
 import './Header.css';
 
-const HeaderContent = () => {
+const HeaderContent = (props) => {
   return (
     <p>
       Let's Learn React by building simple interfaces with components. Don't try
