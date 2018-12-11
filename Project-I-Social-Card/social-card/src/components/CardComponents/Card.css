@@ -15,7 +15,6 @@
   max-width: 580px;
   margin-right: 20px;
   margin-bottom: 10px;
-  border: 1px solid gray;
   border-radius: 6px;
   line-height: 20px;
   text-decoration: none;
@@ -30,11 +29,11 @@
 #card-container .card-content h1 {
   font-size: 18px;
   font-weight: bold;
-  padding: 5px 0 0 10px;
+  padding: 0 10px;
 }
 
 #card-container .card-content p {
-  padding: 10px;
+  padding: 0 10px;
   margin: 0;
 }
 
