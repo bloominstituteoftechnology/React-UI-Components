@@ -26,7 +26,7 @@ import CardContainer from './components/CardComponents/CardContainer';
 
 const App = () => {
   return (
-    <div>
+    <div className="social-card">
       <HeaderContainer />
       <CardContainer />
     </div>

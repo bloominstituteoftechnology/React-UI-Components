@@ -1,13 +1,14 @@
 /* All styles for your header Components live here */
 .header-container {
-  border: 1px solid black;
   margin: 0 auto;
   width: 580px;
   height: 100px;
   display: flex;
+  border: 1px solid red;
 }
 .image-thumb {
-
+ width: 100%;
+ height: auto;
 }
 .header-title {
   font-size: 14px;
