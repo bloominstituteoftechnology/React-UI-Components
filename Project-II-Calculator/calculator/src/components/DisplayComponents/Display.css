@@ -1,0 +1,17 @@
+.calculator-container {
+    background: black;
+    color: white;
+    width: 25%;
+    height: 100px;
+    font-size: 4em;
+    border: 2px solid gray;
+    margin: 0 auto;
+    
+}
+
+.display-number {
+    margin-left: 88%;
+    margin-top: 5%;
+    display: inline-block;
+}
+

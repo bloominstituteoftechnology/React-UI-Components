@@ -1,0 +1,111 @@
+
+
+.number-button-clear {
+    width: 200px;
+    height: 70px;
+   
+}
+
+.action-buttons {
+    border: 1px solid gray;
+    height: 458px;
+    width: 7%;
+    font-size: 3em;
+    background: #A2001E;
+    color: #ffffff;
+    margin-left: 1064px;
+    
+}
+
+.multiplication-resize {
+    font-size: .7em;
+    font-weight: bold;
+    
+}
+
+.button-border {
+    border-bottom: 2px solid gray;
+    padding: 10px 0;
+    height: 70px;
+    text-align: center;
+}
+
+.button-border-num {
+    display: flex;
+
+    flex-direction: row;
+    border-bottom: 2px solid gray;
+    padding: 10px 0;
+    height: 70px;
+    text-align: center;
+    
+}
+
+.calc-clear-btn {
+    width: 350px;
+    height: 90px;
+    border: 2px solid gray;
+    margin-left: 718px;
+    margin-top: -464px;
+}   
+
+.calc-clear-text {
+    text-align: center;
+    font-size: 3em;
+}
+
+.numbers {
+    margin-left: 720px;
+    margin-top: 20px;  
+}
+
+.top-numbers {
+    display: flex;
+    width: 100px;
+    height: 50px;
+    margin-top: -20px;
+}
+
+.button-border-top {
+    border: 1px solid gray;
+    height: 8px;
+    width: 50px;
+    padding: 43px;
+    font-weight: bold;
+    font-size: 3em;
+    
+}
+
+.button-border-mid {
+    border: 1px solid gray;
+    height: 8px;
+    width: 50px;
+    padding: 43px;
+    font-weight: bold;
+    font-size: 3em;
+    margin-top: 65px;
+}
+
+.button-border-lower {
+    border: 1px solid gray;
+    height: 10px;
+    width: 50px;
+    padding: 43px;
+    font-weight: bold;
+    font-size: 3em;
+    margin-top: 130px;
+    
+}
+
+.bottom-number-zero {
+    border: 1px solid gray;
+    display: inline-block;
+    width: 340px;
+    text-align: center;
+    font-size: 3.5em;
+    height: 80px;
+    margin-left: 720px;
+    margin-top: 178px;
+}
+
+
