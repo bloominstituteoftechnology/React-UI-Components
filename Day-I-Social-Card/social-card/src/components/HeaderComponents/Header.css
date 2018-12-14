@@ -1,1 +1,26 @@
 /* All styles for your header Components live here */
+.header-container {
+  border: 1px solid black;
+  margin: 0 auto;
+  width: 580px;
+  height: 100px;
+  display: flex;
+}
+.image-thumb {
+
+}
+.header-title {
+  font-size: 14px;
+  font-weight: 600;
+}
+.header-name {
+
+}
+.header-date {
+
+}
+.header-content {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.3;
+}

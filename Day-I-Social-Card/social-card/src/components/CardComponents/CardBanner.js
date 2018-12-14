@@ -6,6 +6,7 @@ const CardBanner = () => {
     <div>
       <img
         src="https://ibin.co/3wnC6SgIOJud.png"
+        className="image-banner"
         alt="cardBanner" />
     </div>
   )
