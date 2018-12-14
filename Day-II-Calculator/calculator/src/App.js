@@ -11,30 +11,30 @@ class App extends React.Component {
       <div className="calculator">
         <CalculatorDisplay />
         <div>
-          <ActionButton text="clear" />
-          <NumberButton text="/" />
+          <ActionButton className="clear" text="clear" />
+          <NumberButton className="red" text="/" />
         </div>
         <div>
-          <NumberButton text="7" />
-          <NumberButton text="8" />
-          <NumberButton text="9" />
-          <NumberButton text="*" />
+          <NumberButton className="number" text="7" />
+          <NumberButton className="number" text="8" />
+          <NumberButton className="number" text="9" />
+          <NumberButton className="red" text="*" />
         </div>
         <div>
-          <NumberButton text="4" />
-          <NumberButton text="5" />
-          <NumberButton text="6" />
-          <NumberButton text="-" />
+          <NumberButton className="number" text="4" />
+          <NumberButton className="number" text="5" />
+          <NumberButton className="number" text="6" />
+          <NumberButton className="red" text="-" />
         </div>
         <div>
-          <NumberButton text="1" />
-          <NumberButton text="2" />
-          <NumberButton text="3" />
-          <NumberButton text="+" />
+          <NumberButton className="number" text="1" />
+          <NumberButton className="number" text="2" />
+          <NumberButton className="number" text="3" />
+          <NumberButton className="red" text="+" />
         </div>
         <div>
-          <ActionButton text="0" />
-          <NumberButton text="=" />
+          <ActionButton className="zero" text="0" />
+          <NumberButton className="red" text="=" />
         </div>
       </div>
     )
