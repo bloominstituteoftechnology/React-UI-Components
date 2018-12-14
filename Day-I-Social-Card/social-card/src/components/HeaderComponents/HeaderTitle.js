@@ -8,7 +8,7 @@ const HeaderTitle = () => {
     <div>
       <h1 className="header-title">Lambda School</h1>
       <p className="header-name">@LambdaSchool</p>
-      <p>{moment().format("MMM Do")}</p>
+      <p className="header-date">{moment().format("MMM Do")}</p>
     </div>
   )
 }
