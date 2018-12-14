@@ -18,9 +18,11 @@
 .header-title {
   font-size: 14px;
   font-weight: 600;
+  padding-right: 10px;
 }
 .header-name {
   font-size: 13px;
+  padding-right: 10px;
 }
 .header-date {
   font-size: 13px;
