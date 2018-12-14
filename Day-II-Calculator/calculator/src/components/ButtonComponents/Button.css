@@ -1,0 +1,13 @@
+.button {
+  border: 1px solid black;
+  width: 115px;
+  height: 100px;
+}
+.large {
+  border: 1px solid black;
+  width: 345px;
+  height: 100px;
+}
+.red {
+  background-color: red;
+}

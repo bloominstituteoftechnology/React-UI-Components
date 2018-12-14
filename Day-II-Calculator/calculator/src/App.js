@@ -12,29 +12,29 @@ class App extends React.Component {
         <CalculatorDisplay />
         <div>
           <ActionButton className="clear" text="clear" />
-          <NumberButton className="red" text="/" />
+          <NumberButton color="red" text="/" />
         </div>
         <div>
-          <NumberButton className="number" text="7" />
-          <NumberButton className="number" text="8" />
-          <NumberButton className="number" text="9" />
-          <NumberButton className="red" text="*" />
+          <NumberButton color="number" text="7" />
+          <NumberButton color="number" text="8" />
+          <NumberButton color="number" text="9" />
+          <NumberButton color="red" text="*" />
         </div>
         <div>
-          <NumberButton className="number" text="4" />
-          <NumberButton className="number" text="5" />
-          <NumberButton className="number" text="6" />
-          <NumberButton className="red" text="-" />
+          <NumberButton color="number" text="4" />
+          <NumberButton color="number" text="5" />
+          <NumberButton color="number" text="6" />
+          <NumberButton color="red" text="-" />
         </div>
         <div>
-          <NumberButton className="number" text="1" />
-          <NumberButton className="number" text="2" />
-          <NumberButton className="number" text="3" />
-          <NumberButton className="red" text="+" />
+          <NumberButton color="number" text="1" />
+          <NumberButton color="number" text="2" />
+          <NumberButton color="number" text="3" />
+          <NumberButton color="red" text="+" />
         </div>
         <div>
           <ActionButton className="zero" text="0" />
-          <NumberButton className="red" text="=" />
+          <NumberButton color="red" text="=" />
         </div>
       </div>
     )
