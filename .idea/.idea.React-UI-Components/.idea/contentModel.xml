@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\seanw\.Rider2018.2\config\scratches" t="IncludeRecursive" />
+    <e p="C:\Users\seanw\.Rider2018.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\seanw\.Rider2018.2\system\resharper-host\local\Transient\ReSharperHost\v182\SolutionCaches\_React-UI-Components.-1136563422.00" t="ExcludeRecursive" />
+    <e p="C:\Users\seanw\Desktop\Lambda School\6_React\React-UI-Components" t="IncludeFlat">
+      <e p="Project-I-Social-Card\social-card\node_modules" t="ExcludeRecursive">
+        <e p="react" t="IncludeRecursive" />
+        <e p="react-dom" t="IncludeRecursive" />
+        <e p="react-scripts" t="IncludeRecursive" />
+      </e>
+    </e>
+  </component>
+</project>
