@@ -1,1 +1,37 @@
 /* All styles for your Card Components live here */
+
+/*positions image div*/
+.card-image {
+    border-radius:5px;
+    width:89%;
+    padding-left:11%;
+}
+
+/*Positions text div*/
+.card-content {
+    width:89%;
+    padding-left:11%;
+}
+
+/* Positions the text*/
+.content {
+    border:1px grey solid;
+    padding-left:2.5%;
+    margin-top:-5px;
+}
+
+/*Styles text*/
+.card-text {
+    font-size:1rem;
+    color:black;
+}
+
+.link-style {
+    text-decoration: none;
+}
+
+.react-link {
+    color:grey;
+}
+
+
