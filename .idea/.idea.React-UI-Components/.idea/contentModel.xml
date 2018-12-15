@@ -10,6 +10,11 @@
         <e p="react-dom" t="IncludeRecursive" />
         <e p="react-scripts" t="IncludeRecursive" />
       </e>
+      <e p="Project-II-Calculator\calculator\node_modules" t="ExcludeRecursive">
+        <e p="react" t="IncludeRecursive" />
+        <e p="react-dom" t="IncludeRecursive" />
+        <e p="react-scripts" t="IncludeRecursive" />
+      </e>
     </e>
   </component>
 </project>

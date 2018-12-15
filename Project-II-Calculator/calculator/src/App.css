@@ -1,0 +1,24 @@
+body {
+    background-color:firebrick;
+}
+
+.app {
+    margin:0 auto;
+    max-width:200px;
+}
+
+button {
+    cursor:pointer;
+    height:50px;
+    width:50px;
+    text-decoration: none;
+    background-color:white;
+}
+button:hover {
+    background-color:black;
+    color:white;
+}
+
+.zero, .clear {
+    width:150px;
+}
