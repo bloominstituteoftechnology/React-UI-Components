@@ -1,0 +1,11 @@
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    width: 17%;
+    margin: 15px 0 0 3%;
+}
+
+.footer-container i{
+    font-size: 1.7rem;
+    color: grey;
+}
