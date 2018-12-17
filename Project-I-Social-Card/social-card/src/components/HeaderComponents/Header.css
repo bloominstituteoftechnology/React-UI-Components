@@ -1,1 +1,40 @@
 /* All styles for your header Components live here */
+.image-thumbnail{
+  width:10%;
+  height:70px;
+  margin-top: 13px;
+}
+
+.header-container{
+  width:100%;
+  display:flex;
+
+}
+
+.header-content-group{
+  display:flex;
+  flex-direction: column;
+
+}
+
+.header-content-group p{
+  font-size: 1rem;
+  margin-top:7px;
+}
+
+.header-title{
+  display:flex;
+  align-items: baseline;
+}
+
+.header-title h3{
+  margin-right:7px;
+  font-size:1rem;
+  margin-bottom: 3px;
+}
+
+.header-title span{
+  color:gray;
+  font-size:.9rem;
+  font-weight:lighter;
+}
