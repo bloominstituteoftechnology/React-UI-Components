@@ -1,0 +1,17 @@
+.calc__display {
+  background: #1f1f1f;
+  border: 1px solid #8c8c8c;
+  height: 126px;
+  padding-right: 3%;
+  width: 100%;
+}
+
+.display__text {
+  color: white;
+  display: flex;
+  font-size: 7rem;
+  font-weight: 300;
+  justify-content: flex-end;
+  margin: 24px 0 0;
+  width: 100%;
+}
