@@ -1,0 +1,23 @@
+.container{
+    margin: 10px auto;
+    width: 500px;
+    text-align: right;
+    border: 1px solid gray;
+}
+.top-display{
+    width: 100%;
+    background-color: #222;
+    color: white;
+    font-size: 40px;
+    padding-top: 15px;
+}
+.bottom-display{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.left{
+    width: 75%;
+}
+.right{
+    width: 25%;
+}

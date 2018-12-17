@@ -3,9 +3,9 @@ import './Button.css';
 
 //These are the following buttons: DIVISION MULTIPLY EQUAL PLUS MINUS and CLEAR
 
-const ActionButton = () => {
+const ActionButton = (props) => {
     return(
-        <h1>This is action</h1>
+        <button>{props.type}</button>
     );
 }
 

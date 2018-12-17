@@ -3,9 +3,11 @@ import './Button.css';
 
 //This will contain the props fro 0-9
 
-const NumberButton = () => {
+const NumberButton = (props) => {
     return(
-        <h1>This is numbers</h1>
+        <div className='left-buttons'>
+            <button className='number-button'>{props.number}</button>
+        </div>
     );
 }
 

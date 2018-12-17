@@ -1,0 +1,14 @@
+
+
+.left-buttons{
+    display: flex;
+    flex-direction: row;
+}
+
+.number-button{
+    width: 25%;
+    flex-wrap: wrap;
+}
+.large-button{
+    width: 100%;
+}
