@@ -1,1 +1,22 @@
 /* All styles for your Card Components live here */
+.card-content img{
+    width: 280px;
+    height:auto;
+    margin: 0 auto;
+}
+
+.image-details{
+    border: 1px solid gray;
+    padding: 15px;
+}
+.card-content h2{
+    font-size: 18px;
+}
+.card-content p{
+    font-size: 14px;
+}
+
+
+.source{
+    color: gray;
+}

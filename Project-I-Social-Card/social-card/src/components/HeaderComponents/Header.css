@@ -1,1 +1,29 @@
 /* All styles for your header Components live here */
+
+
+.header-top{
+    display:flex;
+}
+.header-img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top:10px;
+    margin-right: 10px;
+    background-color: rgb(235, 235, 235);
+}
+.header-title{
+    display: flex;
+    align-items: baseline;
+}
+.header-title p{
+    color: gray;
+    margin-right: 10px;
+}
+.header-title h2{
+    font-size: 18px;
+    margin-right: 10px;
+}
+.header-content{
+    margin: 0;
+}
