@@ -52,10 +52,8 @@ class App extends React.Component{
   }
 
    updateTotal = (input) =>{
-    console.log(input);
       if(input==="="){
         total = eval(formula);
-        console.log(total);
         this.setState({total: total});
         this.setState({display:total});
 
