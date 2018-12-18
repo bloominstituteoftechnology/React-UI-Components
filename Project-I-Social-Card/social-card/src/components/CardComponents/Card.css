@@ -1,1 +1,14 @@
 /* All styles for your Card Components live here */
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.banner {
+    border-radius: 5px;
+}
+
+.card-container {
+    margin: 0 0 0 50px;
+}

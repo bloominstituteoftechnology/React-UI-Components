@@ -1,1 +1,25 @@
 /* All styles for your header Components live here */
+.header-container {
+    display: flex;
+
+}
+
+.header-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.header-title {
+    display:flex;
+    flex-direction: row;
+}
+
+.grayed {
+    color: gray;
+    margin: 0 0 0 2%;
+}
+
+.logo {
+    height: 50px;
+    margin: 0 4.45px 0 0;
+}
