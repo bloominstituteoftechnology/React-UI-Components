@@ -3,8 +3,9 @@
   align-content: flex-start;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   height: 470px;
-  width: 100%;
+  width: 80%;
 }
 
 .number__btns__container {
