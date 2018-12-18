@@ -2,12 +2,13 @@ import React from 'react';
 import './Header.css';
 
 function HeaderTitle(props) {
-    return <h2 className="headerText">{props.title}</h2>
-
-
+    return (
+        <React.Fragment>
+            <h2 className="headerText">{props.title}</h2>
+            <p className="handle">{props.handle}</p>
+            <p className="date">{props.date}</p>
+        </React.Fragment>
+    );
 }
 
 export default HeaderTitle;
-
-/* <p className="handle">{props.handle}</p>
-<p className="date">{props.date}</p> */
