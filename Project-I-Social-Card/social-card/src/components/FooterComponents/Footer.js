@@ -9,7 +9,7 @@ import sync from "./sync-solid.svg";
 const Footer = () => {
   return (
     <div className="footer">
-      <div >
+      <div className="comment">
         <img src={commentIcon} alt="" />
       </div>
       <div className="share">
@@ -20,7 +20,7 @@ const Footer = () => {
         <img src={heartIcon} alt="" />
         <p className="like-num">4</p>
       </div>
-      <div >
+      <div className="email">
         <img src={email} alt="" />
       </div>
     </div>

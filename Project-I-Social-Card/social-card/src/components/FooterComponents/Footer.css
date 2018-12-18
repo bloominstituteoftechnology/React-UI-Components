@@ -6,10 +6,19 @@
   justify-content: space-between;
 }
 
+.comment {
+  cursor: pointer;
+}
+
+.email {
+  cursor: pointer;
+}
+
 .share {
   display: flex;
   align-items: flex-start;
   margin-left: 15px;
+  cursor: pointer;
 }
 
 .share-num {
@@ -21,6 +30,7 @@
   display: flex;
   align-items: flex-start;
   margin-left: 0px;
+  cursor: pointer;
 }
 
 .like-num {
