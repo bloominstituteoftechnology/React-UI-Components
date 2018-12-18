@@ -1,0 +1,29 @@
+.footer {
+  display: flex;
+  margin-left: 65px;
+  padding-top: 20px;
+  width: 45%;
+  justify-content: space-between;
+}
+
+.share {
+  display: flex;
+  align-items: flex-start;
+  margin-left: 15px;
+}
+
+.share-num {
+  margin-top: -1px;
+  padding-left: 11px;
+}
+
+.like {
+  display: flex;
+  align-items: flex-start;
+  margin-left: 0px;
+}
+
+.like-num {
+  margin-top: -1px;
+  padding-left: 11px;
+}

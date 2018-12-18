@@ -1,5 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  
+}
+
+h5 {
+  font-size: .88rem;
+}
+p {
+  line-height: 17px;
+  font-size: .89rem;
+}
 body {
-  margin: 0;
+  margin: 0 auto;
+  width: 595px;
   padding: 0.4rem;
   font-family: sans-serif;
 }
