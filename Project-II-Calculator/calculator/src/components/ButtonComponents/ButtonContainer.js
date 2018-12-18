@@ -7,8 +7,8 @@ const ButtonContainer = props => {
   return (
     <div className="btn__container">
       <ActionButton className="action" text="clear" />
-      {props.numbers.map(number => {
-        return <NumberButton className={"btn"} text={number} />;
+      {props.numbers.map((number, index) => {
+        return <NumberButton className={"btn"} text={number} key={index} />;
       })}
       <ActionButton className="action zero" text="0" />
     </div>
