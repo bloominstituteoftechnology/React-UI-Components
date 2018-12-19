@@ -8,11 +8,13 @@ const CardContainer = _ => {
   return (
     <div className='card-container'>
       <HeaderContainer />
-      <CardBanner imgSrc='https://tk-assets.lambdaschool.com/fcd75197-7d12-46ec-bc9e-4130f34822fa_reactbackground.png' />
-      <CardContent bannerTitle='Get started with React' 
-      bannerContent='React makes it painless to create interacive UIs. Design simple views for each state in your application.'  
-      bannerLink='reactjs.org' 
-      bannerLinkHref='https://reactjs.org/' />
+      <div className='card-bottom-cont'>
+        <CardBanner />
+        <CardContent bannerTitle='Get started with React' 
+        bannerContent='React makes it painless to create interacive UIs. Design simple views for each state in your application.'  
+        bannerLink='reactjs.org' 
+        bannerLinkHref='https://reactjs.org/' />
+      </div>
     </div>
   )
 }
