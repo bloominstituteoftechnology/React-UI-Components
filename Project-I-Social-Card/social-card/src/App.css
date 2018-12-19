@@ -7,3 +7,7 @@ body {
   width: 800px;
   margin: auto;
 }
+
+.gray-text {
+  color: gray;
+}
