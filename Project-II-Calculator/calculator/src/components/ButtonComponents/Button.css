@@ -1,0 +1,47 @@
+.number-button{
+    display: flex;
+    text-align: center;
+    width: 80px;
+    height: 80px;
+    border: 1px solid darkgrey;
+    cursor: pointer;
+}
+.number-button h1{
+    padding-left: 37%;
+}
+.number-button:hover{
+    background-color: lightgrey;
+    transition: .2s;
+}
+.number-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 246px;
+}
+
+.action-button{
+    display: flex;
+    text-align: center;
+    color: white;
+    background-color: #990000;
+    width: 80px;
+    height: 80px;
+    border: 1px solid darkgrey;
+    cursor: pointer;
+}
+.action-button h1{
+    padding-left: 37%;
+}
+.action-button:hover{
+    background-color: rgb(65, 6, 6);
+    transition: .2s;
+}
+
+.calculator{
+    border: 1px solid darkgrey;
+    width: 328px;
+}
+
+.calculator-bottom{
+    display: flex;
+}

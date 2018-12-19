@@ -1,2 +1,13 @@
 import React from 'react';
 import './Button.css';
+
+function ActionButton(props){
+    return(
+        <div className='action-button'>
+            <h1>{props.action}</h1>
+        </div>
+        
+    )
+}
+
+export default ActionButton;
