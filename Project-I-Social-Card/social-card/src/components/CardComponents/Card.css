@@ -1,1 +1,11 @@
 /* All styles for your Card Components live here */
+
+.card-container {
+    text-decoration: none;
+    color: black;
+}
+
+.card-container img {
+    width: 91%;
+    margin-left: 9%;
+}

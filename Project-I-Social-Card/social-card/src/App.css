@@ -11,3 +11,7 @@ body {
 .gray-text {
   color: gray;
 }
+
+.app {
+  display: relative;
+}

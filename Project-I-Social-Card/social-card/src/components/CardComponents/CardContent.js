@@ -3,12 +3,11 @@ import './Card.css';
 
 function CardContent(props) {
     return (
-        <React.Fragment>
+        <div className="card-text">
             <h2>{props.title}</h2>
             <p>{props.text}</p>
             <p className="gray-text">{props.linkName}</p>
-
-        </React.Fragment>
+        </div>
     )
 }
 
