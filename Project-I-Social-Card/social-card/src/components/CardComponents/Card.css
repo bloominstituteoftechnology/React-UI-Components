@@ -1,1 +1,7 @@
-/* All styles for your Card Components live here */
+.card-container {
+  max-width: 504px;
+}
+
+.card-container img {
+  max-width: 504px;
+}
