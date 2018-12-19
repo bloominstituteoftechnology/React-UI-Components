@@ -3,27 +3,17 @@ import './App.css';
 import ActionButton from './components/ButtonComponents/ActionButton.js'
 import NumberButton from './components/ButtonComponents/NumberButton.js'
 import CalculatorDisplay from './components/DisplayComponents/CalculatorDisplay.js';
-
-function calculate(obj, buttonText) {
-  if (buttonText === "clear") {
-    return {
-      total: null,
-      next: null,
-      operation: null,
-    };
-  }
-  return {
-    total: buttonText
-  }
-}
+import calculate from './calculation/calculate.js'
 
 class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-    next : null,
     total : 0,
+    next : null,
     operation: null,
+    prev : null,
+    prev_op : null,
     }
   }
 
@@ -35,17 +25,17 @@ class App extends React.Component {
     return (
       <div className="app">
         <div className="row">
-          <CalculatorDisplay display={this.state.total}/>
+          <CalculatorDisplay display={this.state.next || this.state.total || "0"} />
         </div>
         <div className="row">
           <ActionButton buttonStyle="fat" text="clear" clickHandler={this.handleClick}/>
-          <ActionButton buttonStyle="function" text="/" clickHandler={this.handleClick}/>
+          <ActionButton buttonStyle="function" text="÷" clickHandler={this.handleClick}/>
         </div>
         <div className="row">
           <NumberButton buttonStyle="number" text="7" clickHandler={this.handleClick}/>
           <NumberButton buttonStyle="number" text="8" clickHandler={this.handleClick}/>
           <NumberButton buttonStyle="number" text="9" clickHandler={this.handleClick}/>
-          <ActionButton buttonStyle="function" text="x" clickHandler={this.handleClick}/>
+          <ActionButton buttonStyle="function" text="×" clickHandler={this.handleClick}/>
         </div>
         <div className="row">
           <NumberButton buttonStyle="number" text="4" clickHandler={this.handleClick}/>
