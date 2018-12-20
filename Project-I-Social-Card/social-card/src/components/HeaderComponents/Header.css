@@ -1,1 +1,35 @@
 /* All styles for your header Components live here */
+
+.header-container {
+    display: flex;
+  }
+  
+  .header-image {
+    width: 10%;
+    height: 60px;
+    margin-top: 5px;
+  }
+  
+  .header-content {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 6px;
+  }
+  
+  .header-content h2 {
+    padding-right: 4px;
+    font-size: 14px;
+  }
+  
+  .header-content h3 {
+    color: grey;
+    font-size: 12px;
+    padding-top: 2px;
+    padding-right: 5px;
+  }
+  
+  
+  p {
+    margin-top: -3px;
+    font-size: 14px;
+  }
