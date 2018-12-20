@@ -6,7 +6,7 @@ const ImageThumbnail =()=>{
     return (
         
         <div>
-            <img style={{width:"100%",marginTop:"40%"}}src={source}/>
+            <img style={{width:"100%"}}src={source}/>
         </div>
     )
 }
