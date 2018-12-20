@@ -9,12 +9,11 @@ const CalculatorDisplay =()=>{
     return (
         <div className="Display">
                 <RectangleShape/>
-                <RectoSquareShape/>
-                <div style={{display:"flex"}}><ShapeSquare/><ShapeSquare/><ShapeSquare/></div>
-                <div style={{display:"flex"}}><ShapeSquare/><ShapeSquare/><ShapeSquare/></div>
-                <div style={{display:"flex"}}><ShapeSquare/><ShapeSquare/><ShapeSquare/></div>
-                <RectoSquareShape/>
-                
+                <div style={{display:"flex"}}><RectoSquareShape/><ShapeSquare/></div>
+                <div style={{display:"flex"}}><ShapeSquare/><ShapeSquare/><ShapeSquare/><ShapeSquare style={{backgroundColor:"#A0001E"}}/></div>
+                <div style={{display:"flex"}}><ShapeSquare/><ShapeSquare/><ShapeSquare/><ShapeSquare/></div>
+                <div style={{display:"flex"}}><ShapeSquare/><ShapeSquare/><ShapeSquare/><ShapeSquare/></div>
+               <div style={{display:"flex"}}><RectoSquareShape/><ShapeSquare/></div>
 
         </div>
     )
