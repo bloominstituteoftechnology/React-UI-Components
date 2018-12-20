@@ -28,7 +28,7 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      input: 0
+      input: ''
     };
   }
 
@@ -43,7 +43,7 @@ class App extends React.Component {
     // const value = e.target.getAttribute('data-value');
 
     this.setState({
-      input: e.target.value
+      [e.target.name]: e.target.value
     });
     console.log(e.target.value);
   };
@@ -76,11 +76,11 @@ class App extends React.Component {
           ))}
         </div>
         <ActionButton
-          text={num.text}
+          text='0'
           actionStyle='action bold'
-          handleClick={this.handleClick}
+          handleClick={e => this.handleClick(e)}
           name={0}
-          value={0}
+          value={this.state.input}
         />
       </div>
     );
