@@ -1,0 +1,7 @@
+.calc {
+  position: relative;
+  margin: 0 auto;
+  width: auto;
+  max-width: 450px;
+  border: 2px solid #979797;
+}
