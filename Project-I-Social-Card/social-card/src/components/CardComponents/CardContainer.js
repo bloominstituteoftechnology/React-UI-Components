@@ -1,15 +1,22 @@
 import React from 'react';
 import './Card.css';
-import CardContent from './components/CardComponents/CardContent';
-import CardBanner from './components/CardComponents/CardBanner';
+import CardContent from './CardContent';
+import CardBanner from './CardBanner';
+import HeaderContainer from '../HeaderComponents/HeaderContainer';
+import ImageThumbnail from '../HeaderComponents/ImageThumbnail';
 
 function CardContainer (){
     return(
-        <React.Fragment>
-            <p>Card</p>
-            <CardContent title='Card Content'/>;
-            <CardBanner  title='Card Content'/>;
-        </React.Fragment>
+        <div className='CardContainer'>
+            <div className='left'>
+                <ImageThumbnail />
+            </div>
+            <div className='right'>
+                <HeaderContainer />
+                <CardContent />
+                <CardBanner />
+            </div>
+        </div>
     )
 }
 

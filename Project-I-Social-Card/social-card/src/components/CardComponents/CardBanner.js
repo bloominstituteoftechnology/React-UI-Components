@@ -4,7 +4,7 @@ import './Card.css';
 function CardBanner (props) {
     return(
         <React.Fragment>
-            <p>{props.title}</p>
+            <img className='ContentImg' src="https://reactjs.org/logo-og.png" alt='react logo'/>
         </React.Fragment>
     )
 }

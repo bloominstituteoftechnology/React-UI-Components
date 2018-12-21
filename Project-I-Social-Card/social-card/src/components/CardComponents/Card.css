@@ -1,1 +1,17 @@
 /* All styles for your Card Components live here */
+.CardContainer{
+    display: flex;
+    width: 600px;
+    margin: 10px auto;
+    border: 1px solid lightgray;
+    padding: 10px;
+}
+
+.ContentImg{
+    width: 100%;
+    border-radius: 4px;
+}
+
+.left{
+    margin-right: 10px;
+}
