@@ -1,10 +1,10 @@
 import React from 'react';
 import './Button.css';
-import NumberButton from './NumberButton';
+import CalcButton from './CalcButton';
 
 const ButtonRow = props => (
   <div className={props.className}>
-    {props.range.map(num => num === props.range[1] ? <NumberButton btnBorder={true} num={num} /> : <NumberButton btnBorder={false} num={num} />)}
+    {props.range.map(num => num === props.range[1] ? <CalcButton btnBorder={true} num={num} /> : <CalcButton btnBorder={false} num={num} />)}
   </div>
 )
 
