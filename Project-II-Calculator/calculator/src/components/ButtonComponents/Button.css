@@ -3,6 +3,7 @@
   border-bottom: 2px solid gray;
   border-left: 2px solid gray;
   border-right: 2px solid gray;
+  max-height: 50px;
 }
 
 .num-btn {
@@ -12,6 +13,13 @@
   display: flex;
   justify-content: center; 
   align-items: center;
+  transition: color 0.2s ease, background-color 0.2s ease;
+  cursor: pointer;
+}
+
+.num-btn:hover {
+  background-color: #A0001E;
+  color: white;
 }
 
 .btn-borders {
@@ -23,4 +31,18 @@
   border: 2px solid gray;
   border-top: none;
   width: 100%;
+}
+
+.action-btn {
+  background-color: #A0001E;
+  color: white;
+  border-bottom: 2px solid gray;
+  border-right: 2px solid gray;
+  transition: color 0.2s ease, background-color 0.2s ease;
+  cursor: pointer;
+}
+
+.action-btn:hover {
+  background-color: white;
+  color: black;
 }

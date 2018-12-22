@@ -1,6 +1,7 @@
 import React from 'react';
 import MainNumberContainer from './MainNumberContainer'
 import CalcButton from '../ButtonComponents/CalcButton'
+import './LeftCalc.css';
 
 const LeftCalcContainer = _ => (
   <div className="left-calc-cont">
