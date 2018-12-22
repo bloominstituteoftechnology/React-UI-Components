@@ -1,0 +1,21 @@
+i{
+    font-size: 22px;
+    margin: 30px 50px 0 20px;
+    display: flex;
+    position: relative;
+    cursor: pointer;
+
+}
+i:first-child{
+    margin-left: 100px;
+}
+
+i:hover{
+ color: aqua;
+}
+i span{
+ font-size: 15px;
+ margin-left: 5px;
+ position: absolute;
+ top: 15%;
+}
