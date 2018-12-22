@@ -3,7 +3,6 @@
   border-bottom: 2px solid gray;
   border-left: 2px solid gray;
   border-right: 2px solid gray;
-  max-width: 150px;
 }
 
 .num-btn {
@@ -18,4 +17,10 @@
 .btn-borders {
   border-right: 2px solid gray;
   border-left: 2px solid gray;
+}
+
+.full-width-btn {
+  border: 2px solid gray;
+  border-top: none;
+  width: 100%;
 }
