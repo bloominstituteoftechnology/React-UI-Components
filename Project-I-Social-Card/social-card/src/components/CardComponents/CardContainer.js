@@ -1,9 +1,9 @@
 import React from 'react';
 import './Card.css';
 import CardContent from './CardContent';
-import CardBanner from './CardBanner';
 import HeaderContainer from '../HeaderComponents/HeaderContainer';
 import ImageThumbnail from '../HeaderComponents/ImageThumbnail';
+import Footer from '../FooterComponents/Footer';
 
 function CardContainer (){
     return(
@@ -14,7 +14,7 @@ function CardContainer (){
             <div className='right'>
                 <HeaderContainer />
                 <CardContent />
-                <CardBanner />
+                <Footer />
             </div>
         </div>
     )

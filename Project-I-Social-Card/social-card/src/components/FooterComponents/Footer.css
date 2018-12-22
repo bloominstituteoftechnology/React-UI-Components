@@ -1,0 +1,8 @@
+.footerIcons{
+    display: flex;
+    margin-top: 10px;
+}
+.footerIcons i{
+    margin-right: 30px;
+    color: gray;
+}
