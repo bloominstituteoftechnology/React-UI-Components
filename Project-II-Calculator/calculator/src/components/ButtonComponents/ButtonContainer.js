@@ -13,11 +13,11 @@ const ButtonContainer = props => {
         <div className="button-container">
             <div className="numbers">
                 <BigButton content={bigButtons[0]} />
-                {numberButtons.map(number => ( <NumberButton number={number} />))}
+                {numberButtons.map(number => ( <NumberButton key={number.toString()} number={number} /> ))}
                 <BigButton content={bigButtons[1]} />
             </div>
             <div className="actions">
-                {actionButtons.map(item => ( <ActionButton content={item} />))}
+                {actionButtons.map(item => ( <ActionButton key={item.toString()} content={item} /> ))}
             </div>
         </div>
     );
