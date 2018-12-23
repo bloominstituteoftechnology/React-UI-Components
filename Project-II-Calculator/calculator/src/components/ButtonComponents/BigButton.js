@@ -3,7 +3,7 @@ import './Button.css';
 
 const BigButton = props => {
     return (
-        <button className="big-button">{props.content}</button>
+        <div className="big-button">{props.content}</div>
     );
 };
 

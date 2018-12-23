@@ -13,7 +13,7 @@ const ButtonContainer = props => {
         <div className="button-container">
             <div className="numbers">
                 <BigButton content={bigButtons[0]} />
-                {numberButtons.map(item => ( <NumberButton content={item} />))}
+                {numberButtons.map(number => ( <NumberButton number={number} />))}
                 <BigButton content={bigButtons[1]} />
             </div>
             <div className="actions">
@@ -22,5 +22,6 @@ const ButtonContainer = props => {
         </div>
     );
 };
+
 
 export default ButtonContainer;
