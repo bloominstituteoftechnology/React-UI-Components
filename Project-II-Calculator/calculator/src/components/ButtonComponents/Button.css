@@ -1,15 +1,44 @@
 .button-container {
-    border: 1px solid red;
-    width: 73.5%;
+    width: 100%;
     height: 470px;
+    display: flex;
 }
 
-.numbers .big {
+.numbers {
+    width: 73.5%;
+    border-bottom: 1px solid grey;
+    margin-bottom: 3px;
+}
+
+.numbers .big-button {
     background-color: white;
     border-color: white;
-    border: 1px solid grey;
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
     width: 100%;
     height: 92px;
     font-size: 45px;
 
+}
+
+.numbers .num-button {
+    background-color: white;
+    border-color: white;
+    border: 1px solid grey;
+    width: 33.3%;
+    height: 94px;
+    font-size: 45px;
+}
+
+.actions {
+    width: 26.5%;
+}
+
+.actions .action-button {
+    width: 100%;
+    background-color: darkorange;
+    border-color: white;
+    border: 1px solid grey;
+    height: 93.2px;
+    font-size: 65px; 
 }
