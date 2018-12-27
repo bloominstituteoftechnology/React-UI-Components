@@ -20,12 +20,23 @@
     font-size: 2rem;
     color: #A9A9A9;
     cursor: pointer;
+    background-color: white;
 }
 
-i:hover{
+.fa-retweet:hover{
     color: blue;
 }
 
-.fa-heart-o:hover {
+.fa-heart:hover {
+    color: red;
+}
+
+.fa-heart.true { 
     color: red
 }
+
+.fa-retweet.true {
+    color: blue;
+}
+
+
