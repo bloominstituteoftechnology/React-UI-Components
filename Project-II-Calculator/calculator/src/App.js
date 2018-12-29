@@ -163,7 +163,7 @@ class App extends React.Component {
         switch(this.state.operand) {
           case '\u00F7':
             this.setState({
-              firstInput: (parseInt(this.state.firstInput, 10) / parseInt(this.state.secondInput, 10)).toFixed(9).toString(),
+              firstInput: (parseFloat(this.state.firstInput) / parseFloat(this.state.secondInput)).toFixed(9).toString().substring(0,10),
               operand: '',
               secondInput: '0'
             })
@@ -171,21 +171,21 @@ class App extends React.Component {
             // stopped here, working on making multiplacation work
           case '\u00D7':
             this.setState({
-              firstInput: (parseInt(this.state.firstInput, 10) * parseInt(this.state.secondInput, 10)).toFixed(9).toString(),
+              firstInput: (parseFloat(this.state.firstInput) * parseFloat(this.state.secondInput)).toString(),
               operand: '',
               secondInput: '0'
             })
             break;
           case '\u2212':
             this.setState({
-              firstInput: (this.state.firstInput - this.state.secondInput),
+              firstInput: (parseFloat(this.state.firstInput) - parseFloat(this.state.secondInput)).toString(),
               operand: '',
               secondInput: '0'
             })
             break;
           case '\u002B':
             this.setState({
-              firstInput: (this.state.firstInput + this.state.secondInput),
+              firstInput: (parseFloat(this.state.firstInput) + parseFloat(this.state.secondInput)).toString(),
               operand: '',
               secondInput: '0'
             })
