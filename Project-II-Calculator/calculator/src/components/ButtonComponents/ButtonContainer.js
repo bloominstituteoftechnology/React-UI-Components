@@ -12,9 +12,15 @@ const ButtonContainer = props => {
     return (
         <div className="button-container">
             <div className="numbers">
-                <BigButton content={bigButtons[0]} />
-                {numberButtons.map(number => ( <NumberButton key={number.toString()} number={number} /> ))}
-                <BigButton content={bigButtons[1]} />
+                <BigButton content={bigButtons[0]} clearDisplay={props.clearDisplay} />
+                {numberButtons.map(number => ( 
+                    <NumberButton 
+                        key={number.toString()} 
+                        number={number} 
+                        handleInput={props.handleInput}
+                    /> 
+                ))}
+                <BigButton content={bigButtons[1]} handleInput={props.handleInput} />
             </div>
             <div className="actions">
                 {actionButtons.map(item => ( <ActionButton key={item.toString()} content={item} /> ))}

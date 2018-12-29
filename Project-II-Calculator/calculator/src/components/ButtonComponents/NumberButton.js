@@ -3,7 +3,11 @@ import './Button.css';
 
 const NumberButton = props => {
     return (
-        <div className="num-button">{props.number}</div>
+        <div 
+            className="num-button"
+            onClick={props.handleInput}
+        >
+            {props.number}</div>
     );
 };
 
