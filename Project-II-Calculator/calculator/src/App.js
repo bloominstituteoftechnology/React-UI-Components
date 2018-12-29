@@ -7,7 +7,6 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      total: 0,
       input: '0'
     }
   }
@@ -33,7 +32,7 @@ class App extends React.Component {
     // if the display is in the cleared state
     if (this.state.input === '0') {
       // if the key pressed is a number
-      if (event.key >= 0 && event.key <= 9) {
+      if (event.key >= 0 && event.key <= 9 && event.key !== ' ') {
         this.setState({
           // set the state of the display to the key that was pressed
           input: event.key
@@ -43,7 +42,7 @@ class App extends React.Component {
     // set maximum lenght of input to be 9
     if (this.state.input.length < 10) {
       // if key pressed is a number
-      if (event.key >= 0 && event.charCode <= 9) {
+      if (event.key >= 0 && event.charCode <= 9 && event.key !== ' ') {
         this.setState({
           // add the key pressed to the currently state of the display
           input: `${this.state.input}${event.key}`
@@ -76,7 +75,6 @@ class App extends React.Component {
   return (
     <div className="container" tabIndex='0' onKeyDown={this.handleKeyDown}>
       <Display 
-        total={this.state.total}
         input={this.state.input}
       />
       <ButtonContainer 
