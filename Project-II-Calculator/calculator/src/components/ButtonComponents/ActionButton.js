@@ -3,7 +3,11 @@ import './Button.css';
 
 const ActionButton = props => {
     return (
-        <div className="action-button">{props.content}</div>
+        <div 
+            className="action-button"
+            onClick={props.handleOperand}
+        >
+            {props.content}</div>
     );
 };
 

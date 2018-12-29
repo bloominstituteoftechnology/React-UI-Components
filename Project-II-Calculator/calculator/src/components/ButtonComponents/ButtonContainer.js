@@ -23,7 +23,13 @@ const ButtonContainer = props => {
                 <BigButton content={bigButtons[1]} handleInput={props.handleInput} />
             </div>
             <div className="actions">
-                {actionButtons.map(item => ( <ActionButton key={item.toString()} content={item} /> ))}
+                {actionButtons.map(item => 
+                    ( <ActionButton 
+                        key={item.toString()} 
+                        content={item} 
+                        handleOperand={props.handleOperand}
+                      /> )
+                )}
             </div>
         </div>
     );

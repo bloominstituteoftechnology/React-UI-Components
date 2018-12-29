@@ -4,7 +4,7 @@ import './Display.css';
 const Display = props => {
     return (
         <div className="calc-display">
-            <h1>{props.firstInput}</h1>
+            <h1>{props.operand === '' ? props.firstInput : props.secondInput}</h1>
         </div>
     )
 }
