@@ -133,6 +133,8 @@ class App extends React.Component {
         case '+':
           this.setState({operand: '\u002B'})
           break;
+        default:
+          break;
       }
     } 
   };
@@ -152,8 +154,46 @@ class App extends React.Component {
         case '\u002B':
           this.setState({operand: '\u002B'})
           break;
+        default: 
+          break;
       };
-    };
+    }
+    if (event.target.textContent === '\u003D') {
+      if (this.state.operand) {
+        switch(this.state.operand) {
+          case '\u00F7':
+            this.setState({
+              firstInput: (parseInt(this.state.firstInput, 10) / parseInt(this.state.secondInput, 10)).toFixed(9).toString(),
+              operand: '',
+              secondInput: '0'
+            })
+            break;
+            // stopped here, working on making multiplacation work
+          case '\u00D7':
+            this.setState({
+              firstInput: (parseInt(this.state.firstInput, 10) * parseInt(this.state.secondInput, 10)).toFixed(9).toString(),
+              operand: '',
+              secondInput: '0'
+            })
+            break;
+          case '\u2212':
+            this.setState({
+              firstInput: (this.state.firstInput - this.state.secondInput),
+              operand: '',
+              secondInput: '0'
+            })
+            break;
+          case '\u002B':
+            this.setState({
+              firstInput: (this.state.firstInput + this.state.secondInput),
+              operand: '',
+              secondInput: '0'
+            })
+            break;
+        }
+      }
+    } 
+    
   };
 
   clearDisplay = () => {
