@@ -1,1 +1,11 @@
 /* All styles for your header Components live here */
+
+.headerContainer {
+    display: flex;
+}
+
+.headerContent {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
