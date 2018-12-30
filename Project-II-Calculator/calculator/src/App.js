@@ -7,24 +7,34 @@ class App extends React.Component {
   constructor() {
     super();
     this.state = {
+      // initial value
       firstInput: '0',
+      // operator
       operand: '',
+      // second value
       secondInput: '0',
     }
+    // create ref so we can bring focus to the container on page load
     this.container = React.createRef();
   }
 
+  // bring focus to container on pageload
   componentDidMount = () => {
     this.container.current.focus();
   }
 
+  // handle click events on the button container elements
   handleInput = event => {
+    // if no operand, thus on firstInput
     if (this.state.operand === '') {
+      // if at initial state
       if (this.state.firstInput === '0') {
+        // setState of first input to the clicked button
         this.setState({
           firstInput: event.target.textContent
         });
       } else {
+        // add any numbers clicked to the end of the string of numbers with max length 10
         if (this.state.firstInput.length < 10) {
           this.setState({
             firstInput: `${this.state.firstInput}${event.target.textContent}`
@@ -32,6 +42,7 @@ class App extends React.Component {
         } 
       };
     } else {
+      // if operand present, update state of secondInput
       if (this.state.secondInput === '0') {
         this.setState({
           secondInput: event.target.textContent
@@ -47,8 +58,8 @@ class App extends React.Component {
    
   };
 
+  // handle user typing on keyboard instead of clicking buttons
   handleKeyDown = (event) => {
-    console.log(event.key);
     if (this.state.operand === '') {
       // if the display is in the cleared state
     if (this.state.firstInput === '0') {
@@ -178,6 +189,7 @@ class App extends React.Component {
     }
   };
 
+  // handle operand clicks on the calc display
   handleOperand = event => {
     if (this.state.operand === '') {
       switch(event.target.textContent) {
@@ -237,6 +249,7 @@ class App extends React.Component {
     
   };
 
+  // clear the display and reset the App.state
   clearDisplay = () => {
     this.setState({
       firstInput: '0',
