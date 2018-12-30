@@ -144,7 +144,7 @@ class App extends React.Component {
         switch(this.state.operand) {
           case '\u00F7':
             this.setState({
-              firstInput: (parseFloat(this.state.firstInput) / parseFloat(this.state.secondInput)).toFixed(9).toString(),
+              firstInput: (parseFloat(this.state.firstInput) / parseFloat(this.state.secondInput)).toString(),
               operand: '',
               secondInput: '0'
             })
@@ -202,7 +202,7 @@ class App extends React.Component {
         switch(this.state.operand) {
           case '\u00F7':
             this.setState({
-              firstInput: (parseFloat(this.state.firstInput) / parseFloat(this.state.secondInput)).toFixed(9).toString(),
+              firstInput: (parseFloat(this.state.firstInput) / parseFloat(this.state.secondInput)).toString(),
               operand: '',
               secondInput: '0'
             })
