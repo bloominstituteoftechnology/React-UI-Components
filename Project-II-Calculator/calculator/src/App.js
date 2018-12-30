@@ -48,6 +48,7 @@ class App extends React.Component {
   };
 
   handleKeyDown = (event) => {
+    console.log(event.key);
     if (this.state.operand === '') {
       // if the display is in the cleared state
     if (this.state.firstInput === '0') {
@@ -136,7 +137,45 @@ class App extends React.Component {
         default:
           break;
       }
-    } 
+    }
+    // handle 'return' keyPress from keyboard as 'equals'
+    if (event.key === 'Enter') {
+      if(this.state.operand) {
+        switch(this.state.operand) {
+          case '\u00F7':
+            this.setState({
+              firstInput: (parseFloat(this.state.firstInput) / parseFloat(this.state.secondInput)).toFixed(9).toString().substring(0,10),
+              operand: '',
+              secondInput: '0'
+            })
+            break;
+            // stopped here, working on making multiplacation work
+          case '\u00D7':
+            this.setState({
+              firstInput: (parseFloat(this.state.firstInput) * parseFloat(this.state.secondInput)).toString(),
+              operand: '',
+              secondInput: '0'
+            })
+            break;
+          case '\u2212':
+            this.setState({
+              firstInput: (parseFloat(this.state.firstInput) - parseFloat(this.state.secondInput)).toString(),
+              operand: '',
+              secondInput: '0'
+            })
+            break;
+          case '\u002B':
+            this.setState({
+              firstInput: (parseFloat(this.state.firstInput) + parseFloat(this.state.secondInput)).toString(),
+              operand: '',
+              secondInput: '0'
+            })
+            break;
+          default: 
+            break;
+        }
+      }
+    }
   };
 
   handleOperand = event => {
@@ -189,6 +228,8 @@ class App extends React.Component {
               operand: '',
               secondInput: '0'
             })
+            break;
+          default:
             break;
         }
       }
