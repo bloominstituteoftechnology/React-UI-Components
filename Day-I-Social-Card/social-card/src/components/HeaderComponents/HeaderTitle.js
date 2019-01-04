@@ -3,12 +3,11 @@ import './Header.css';
 
 const HeaderTitle = () => {
 	return (
-		<div className="header__title">
-			<p className="header__title-title">Lambda School</p>
-			<p>@LambdaSchool </p>
-			<p> &bull; 26 jan</p>
+		<div>
+			<h1>Lambda School</h1>
+			<h2>@LambdaSchool · 26jan</h2>
 		</div>
 	)
-};
+}
 
-export default HeaderTitle;
+export default HeaderTitle

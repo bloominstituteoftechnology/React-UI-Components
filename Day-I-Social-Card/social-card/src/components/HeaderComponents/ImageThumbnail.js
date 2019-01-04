@@ -1,11 +1,11 @@
 import React from 'react';
 import './Header.css';
-import logo from "../img/lambda.png";
+import lambda from '../../images/lambda.png'
 
 const ImageThumbnail = () => {
 	return (
-		<img src="https://ibin.co/3whrpKSBbZ81.png" alt="Lambda School Logo" />
+		<img src={lambda} alt='Lambda Logo' />
 	)
-};
+}
 
-export default ImageThumbnail;
+export default ImageThumbnail

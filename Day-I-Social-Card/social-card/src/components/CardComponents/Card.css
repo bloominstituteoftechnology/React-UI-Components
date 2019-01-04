@@ -1,12 +1,23 @@
 /* All styles for your Card Components live here */
 
-.card__container {
-    margin-left: 60px;
+#card-content {
+    width: 1fr;;
+    margin-left: 140px;
+    padding: 0px 20px;
 }
 
-.card__banner {
-    background: url(https://ibin.co/3wnC6SgIOJud.png);
-    height: 250px;
-    width: 500px;
-    background-size: contain;
+img {
+    width: 100%;
+}
+
+#card-content h1 {
+    margin-bottom: 0px;
+}
+
+#card-content p {
+    margin-bottom: 0px;
+}
+
+#card-content h2 {
+    margin-left: 0px;
 }

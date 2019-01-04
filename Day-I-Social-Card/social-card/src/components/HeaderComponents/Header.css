@@ -1,50 +1,18 @@
-/* All styles for your header Components live here */
-
-.header__container {
+#header {
     display: flex;
-    justify-content: flex-start;
-    align-content: flex-start;
-    margin: 15px 10px;
 }
-img {
-    height: 45px;
-    width: 45px;
+
+#header img {
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
-    border: 1px solid #9F1C22;
-    margin-right: 6px;
+    padding: 5px 20px;
 }
 
-.header__text {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+#header-content {
     width: 1fr;
+    padding: 5px 20px;
 }
 
-.header__title {
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-end;
-    height: 45px;
-}
 
-.header__title-title {
-    color: black;
-    font-weight: bold;
-    font-size: 1.2rem;
-}
-
-.header__title p:nth-child(n+2) {
-    color: grey;
-    font-size: 1.1rem;
-    position: relative;
-    top: -4px;
-    margin-left: 2px;
-}
-
-.header__content {
-    font-size: 1.1rem;
-    position: relative;
-    top: -30px;
-}
 
