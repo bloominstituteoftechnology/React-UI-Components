@@ -1,0 +1,15 @@
+.numbers{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 200px;
+    border: 1px solid red;
+}
+button{
+    display: flex;
+    padding: 15px;
+    background-color: white;
+    border: 1px solid black;
+    margin: 5px;
+    font-size: 20px;
+}
