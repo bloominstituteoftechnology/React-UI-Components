@@ -13,3 +13,6 @@ button{
     margin: 5px;
     font-size: 20px;
 }
+button:last-child{
+    padding: 15px 70px;
+}
