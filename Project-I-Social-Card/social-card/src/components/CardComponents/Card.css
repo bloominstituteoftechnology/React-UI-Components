@@ -1,1 +1,6 @@
 /* All styles for your Card Components live here */
+
+.banner {
+    width: 80%;
+    margin: 0 0 0 20%;
+}
