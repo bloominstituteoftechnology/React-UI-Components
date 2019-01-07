@@ -1,13 +1,10 @@
 import React from 'react';
-import './Header.css';
-import moment from 'moment'
+import moment from 'moment';
 
-const HeaderTitle = (props) => {
+const HeaderTitle = () => {
     return (
-        <div>
-            <p>
-                <span className='main'>Lambda School</span> <span className="sub">@LambdaSchool &middot; {moment().format('D MMM')}</span>
-            </p>
+        <div className='headerContainer--title'>
+            <p>Lambda School <span>@LambdaSchool • {moment().format('DD MMM').toLowerCase()}</span></p>
         </div>
     )
 }
