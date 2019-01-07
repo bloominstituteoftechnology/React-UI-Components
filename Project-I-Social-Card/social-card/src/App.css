@@ -3,10 +3,17 @@
   IF you'd like to attempt to use less you'll have to research how to do this with Create React App
 */
 
+* {
+  box-sizing: border-box;
+}
 
 .container {
   width: 600px;
   margin: 0 auto;
   padding: 10px;
   border: 1px solid black;
+}
+
+h2 {
+  font-size: 16px;
 }
