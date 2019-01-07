@@ -1,1 +1,27 @@
 /* All styles for your Card Components live here */
+
+
+.card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 55px;
+}
+
+h2 {
+    display: flex;
+    font-size: 20px;
+    color: red;
+    font-weight: bold;
+
+}
+
+a {
+    display: flex;
+    color: #C8C8C8;
+    font-size: 14px;
+    font-weight: lighter;
+    padding-top: 4px; 
+    cursor: pointer;    
+
+}
