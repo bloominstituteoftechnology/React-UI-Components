@@ -3,6 +3,10 @@
   IF you'd like to attempt to use less you'll have to research how to do this with Create React App
 */
 
+* {
+  box-sizing: border-box;
+}
+
 .SocialCard {
-  width: 600px;
+  width: 650px;
 }

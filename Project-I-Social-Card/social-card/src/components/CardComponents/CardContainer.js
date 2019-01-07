@@ -7,8 +7,8 @@ const CardContainer = () => (
         e.stopPropagation();
         window.open("https://www.reactjs.org");
     }}>
-    <CardBanner />
-    <CardContent />
+        <CardBanner />
+        <CardContent />
     </div>
 )
 
