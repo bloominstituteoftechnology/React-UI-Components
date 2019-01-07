@@ -7,7 +7,7 @@ export function HeaderTitle() {
     <div>
       <h1> Lambda School </h1>
       <h3> @LambdaSchool </h3>
-      <Timestamp> 'time' </Timestamp>
+      <Timestamp> 'date' </Timestamp>
     </div>
   );
 }
