@@ -1,17 +1,15 @@
 .footer-container {
-  padding: 20px 0 0 85px;
+  padding: 20px 0 0 40px;
+  display: flex;
+  align-items: center;
 }
 
-.fa-comment {
-  transform: scaleX(-1);
+.footer-container img {
+  margin-left: 50px;
   cursor: pointer;
 }
 
-.icon {
-  margin-left: 60px;
-  cursor: pointer;
-}
 
 .number {
-  padding-left: 10px;
+  color: grey;
 }
