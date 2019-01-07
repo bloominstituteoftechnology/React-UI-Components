@@ -10,7 +10,7 @@ const App = () => {
     <div className="container">
       <HeaderContainer />
       <CardContainer />
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 };
