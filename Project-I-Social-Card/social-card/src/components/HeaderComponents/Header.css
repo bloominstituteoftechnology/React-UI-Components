@@ -1,1 +1,40 @@
 /* All styles for your header Components live here */
+
+.header-container {
+    border: solid red 2px;
+
+}
+
+.head {
+    border: solid yellow 2px;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    height: 50px;
+}
+
+.head p {
+    margin-left: 5%;
+    margin-top: 0%;
+}
+
+.head p span {
+    font-size: 12px;
+    color: gray;
+}
+
+.logo-container {
+    border: solid blue 2px;
+    width: 75px;
+}
+
+.title {
+    border: solid green 2px;
+
+}
+
+.header-content {
+    border: solid purple 2px;
+    margin-left: 12%;
+    margin-top: 0%;
+}
