@@ -6,8 +6,7 @@ let currentTime = Moment().format('D MMM');
 
 const HeaderTitle = () => (
     <div className="HeaderTitle">
-        <strong>Lambda School</strong><span>@LambdaSchool 
-· {currentTime}</span>
+        <strong>Lambda School</strong><span>@LambdaSchool • {currentTime}</span>
     </div>
 )
 
