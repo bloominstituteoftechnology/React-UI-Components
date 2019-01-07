@@ -6,6 +6,10 @@
  border-top-right-radius:5px;
 }
 
+a {
+    text-decoration: none;
+}
+
 .CardContent {
   margin-left:59px;  
   margin-top:-5px;

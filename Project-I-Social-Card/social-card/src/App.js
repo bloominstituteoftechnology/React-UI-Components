@@ -5,7 +5,7 @@ import './App.css';
 // import CardContainer from './components/CardComponents/CardContainer';
 // import CardContent from './components/CardComponents/CardContent';
 
-// import Footer from './components/FooterComponents/Footer';
+import Footer from './components/FooterComponents/Footer';
 
 import HeaderContainer from './components/HeaderComponents/HeaderContainer';
 import CardContainer from './components/CardComponents/CardContainer';
@@ -37,6 +37,7 @@ import CardContainer from './components/CardComponents/CardContainer';
       <div className="App">
         <HeaderContainer />
         <CardContainer />
+        <Footer />
       </div>
     )
   };
