@@ -1,20 +1,20 @@
 import React from 'react';
 import './Footer.css';
 
-const Footer = () => {
+const Footer = props => {
     return (
         <div className="footer">
             <div className='social-action'>
                 <i class="far fa-comment"></i>
-                <span className='social-number'></span>
+                <span className='social-number'>{props.comments}</span>
             </div>
             <div className='social-action'>
                 <i class="fas fa-retweet"></i>
-                <span className='social-number'>6</span>
+                <span className='social-number'>{props.retweets}</span>
             </div>
             <div className='social-action'>
                 <i class="far fa-heart"></i>
-                <span className='social-number'>4</span>
+                <span className='social-number'>{props.likes}</span>
             </div>
             <div className='social-action'>
                 <i class="far fa-envelope"></i>
