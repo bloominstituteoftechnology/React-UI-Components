@@ -1,17 +1,16 @@
 /* All styles for your header Components live here */
 
-.HeaderContainer {
-    display: flex;
-    
-  }
+
 
 .header-image {
     padding-top: 1%;
+    float: left;
+    padding-right: 2%;
 }
 
 .title {
-    margin-left: 6%;
-    
+    margin-top: 1%;
+    padding-top: 2%; 
 }
 
 .username {
@@ -26,7 +25,7 @@
 
 
 .header-paragraph {
-    margin-left: 6%;
     padding-bottom: 1%;
+    width: 100%;   
 }
 
