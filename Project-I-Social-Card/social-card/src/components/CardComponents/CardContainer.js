@@ -1,7 +1,7 @@
 import React from 'react';
 import './Card.css';
 
-import CardContainer from './CardContainer';
+import CardBanner from './CardBanner';
 import CardContent from './CardContent';
 
 const CardContainer = () => {
