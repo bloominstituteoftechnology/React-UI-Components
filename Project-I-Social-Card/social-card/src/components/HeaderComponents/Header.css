@@ -1,1 +1,25 @@
 /* All styles for your header Components live here */
+
+.header-image {
+
+}
+
+.title {
+    margin-left: 6%;
+    
+}
+
+.username {
+    font-weight: 700;
+}
+
+.handle-date {
+    color: gray;
+    font-style: normal;
+    font-weight: 400;
+}
+
+
+.header-paragraph {
+    margin-left: 6%;
+}

@@ -7,19 +7,22 @@
 
 .content-image {
     width: auto;
-    margin-left: 5%;
-    margin-right: 1%;
+    margin-left: 7%;
+    margin-right: 2%;
     
 }
 
 .content-text {
-    margin-left: 5%;
+    width: auto;
+    margin-left: 7%;
     border: 1px solid gray;
     border-radius: 4px;
     padding-left: 1%;
-    margin-right: 1%;
+    margin-right: 2%;
+    margin-bottom: 1%;
 }
 
 .link {
     color: gray;
+    
 }
