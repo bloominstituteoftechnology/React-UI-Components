@@ -6,3 +6,6 @@
     margin-right: 30px;
     color: gray;
 }
+.far, .fas{
+    cursor: pointer;
+}
