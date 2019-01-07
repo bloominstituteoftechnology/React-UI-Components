@@ -2,9 +2,13 @@
   width: 85%;
   margin-top: 1%;
   margin-left: 10%;
+  display: flex;
+}
+
+.icon {
+  margin: 3% 12% 3% 0;
 }
 
 i {
-  margin: 3% 12% 3% 0;
   cursor: pointer;
 }
