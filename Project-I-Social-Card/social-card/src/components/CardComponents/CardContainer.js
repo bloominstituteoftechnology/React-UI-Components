@@ -7,7 +7,7 @@ import Footer from '../FooterComponents/Footer';
 
 function CardContainer (){
     return(
-        <a href="https://www.reactjs.org" className='CardContainer'>
+        <div className='CardContainer'>
             <div className='left'>
                 <ImageThumbnail />
             </div>
@@ -16,7 +16,7 @@ function CardContainer (){
                 <CardContent />
                 <Footer />
             </div>
-        </a>
+        </div>
     )
 }
 

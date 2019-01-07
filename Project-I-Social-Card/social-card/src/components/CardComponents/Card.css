@@ -1,10 +1,18 @@
 /* All styles for your Card Components live here */
+a{
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+    vertical-align: baseline;
+    text-decoration: none;
+}
 .CardContainer{
     display: flex;
     width: 600px;
     margin: 10px auto;
     padding: 10px;
-    text-decoration: none;
     /* border: 1px solid lightgray; */
 
 }
@@ -20,6 +28,7 @@
 .cardWrapper{
     border: 1px solid lightgray;
     border-radius: 4px;
+    text-decoration: none;
     
 }
 .left{
