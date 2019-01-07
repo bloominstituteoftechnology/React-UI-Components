@@ -12,7 +12,6 @@ const HeaderContainer = () => (
             <HeaderTitle />
             <HeaderContent />
         </div>
-
     </div>
 )
 
