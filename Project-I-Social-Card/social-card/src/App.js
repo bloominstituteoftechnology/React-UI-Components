@@ -18,7 +18,7 @@ const postContent = {
   postImage:
     "https://tk-assets.lambdaschool.com/fcd75197-7d12-46ec-bc9e-4130f34822fa_reactbackground.png",
   postTitle: "Get started with React",
-  postContent: "Get started with React",
+  postContent: "React makes it painless to create interactive UIs. Design simple views for each state in your application.",
   postLink: "reactjs.org"
 };
 
@@ -33,7 +33,7 @@ const footerSymbols = {
 
 const App = () => {
   return (
-    <div>
+    <div className="app">
       <HeaderContainer profile={profileHeader} />
       <CardContainer post={postContent} />
       <Footer symbols={footerSymbols} />

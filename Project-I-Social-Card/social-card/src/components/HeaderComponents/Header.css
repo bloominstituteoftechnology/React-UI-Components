@@ -1,1 +1,36 @@
 /* All styles for your header Components live here */
+
+
+.header {
+  display: flex;
+  width: 59%;
+  margin: 2% auto 0;
+  justify-content: space-between;
+  align-items: flex-start;
+  border: 1px solid red;
+}
+
+.header-content-container {
+  width: 100%;
+}
+
+.header-image {
+  width: 75px;
+  height: 75px;
+  border-radius: 100px;
+  margin-top: 20px;
+  margin-right: 7%;
+}
+
+.header-title {
+  display: flex;
+  align-items: baseline;
+  width: 60%;
+  justify-content: space-between;
+  margin-bottom: -20px;
+}
+
+
+.header-item {
+  color: grey;
+}

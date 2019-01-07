@@ -4,7 +4,7 @@ import './Header.css';
 
 const ImageThumbnail = props => {
   return (
-    <img src={props.imageSource} alt="Lambda Logo" />
+    <img className="header-image" src={props.imageSource} alt="Lambda Logo" />
   );
 }
 
