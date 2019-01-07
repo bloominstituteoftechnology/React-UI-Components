@@ -1,2 +1,16 @@
 @import '../../variables.css';
 
+.card__footer {
+    display: flex;
+    align-items: center;
+    width: 88%;
+    margin: 20px 1.5% 20px auto;
+}
+
+.card__footer__social-icon {
+    margin-right: 20%;
+}
+
+.card__footer__social-icon > input[type="image"] {
+    width: 20px;
+}
