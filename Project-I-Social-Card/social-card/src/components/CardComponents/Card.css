@@ -1,9 +1,12 @@
 @import '../../variables.css';
 
 .card__body {
+    display: block;
     width: 88%;
-    border: 1px solid silver;
+    text-decoration: none;
+    color: black;
     padding-bottom: 10px;
+    border: 1px solid silver;
     border-radius: 5px;
     margin: 15px 1.5% 15px auto;
 }
