@@ -1,1 +1,33 @@
 /* All styles for your Card Components live here */
+
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.card-container {
+    margin-left: 53px;
+    border: 1px solid #d3d3d3;
+    border-radius: 5px;
+}
+
+.card-banner {
+    max-width: 100%;
+}   
+
+.card-content {
+    padding-left: 16px;
+}
+
+.card-content h1 {
+    font-size: 16px;
+    margin-bottom: 7px;
+}
+.card-content p {
+    margin: 0;
+}
+
+.card-content h2 {
+    margin: 6px 0 10px 0;
+}
