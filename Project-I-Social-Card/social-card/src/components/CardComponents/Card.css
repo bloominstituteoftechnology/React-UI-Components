@@ -8,12 +8,18 @@
     border: 1px solid grey;
     border-radius: 5px ;
 }
-
+.card-bottom{
+    padding:3%;
+}
 .card h4{
     font-size: 1.4rem;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
 }
 .card p{
     font-size: 1.2rem;
+    margin: 7px auto;
 }
 .card a{
     font-size: 1rem;
