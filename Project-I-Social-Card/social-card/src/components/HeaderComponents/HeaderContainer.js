@@ -1,6 +1,7 @@
 import React from 'react';
-import {HeaderTitle}  from './HeaderTitle';
+import HeaderTitle  from './HeaderTitle';
 import ImageThumbnail from './ImageThumbnail';
+import HeaderContent from './HeaderContent';
 import './Header.css';
 
 const HeaderContainer = ()=> {
@@ -12,8 +13,14 @@ const HeaderContainer = ()=> {
          
          
          
-         <div className = 'title'>
+         <div className = 'right-side'>
+             <div className ='account-info'>
              <HeaderTitle />
+             </div>
+             
+             <div className ='content'>
+             <HeaderContent />
+             </div>
         </div>
          
          </div>

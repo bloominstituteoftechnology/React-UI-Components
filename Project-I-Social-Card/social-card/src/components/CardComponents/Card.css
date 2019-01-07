@@ -1,1 +1,11 @@
 /* All styles for your Card Components live here */
+
+.cardContainer{
+    width: 800px;
+}
+
+.background-img{
+    width: 750px;
+    height: 380px;
+    background: 1px solid red;
+}
