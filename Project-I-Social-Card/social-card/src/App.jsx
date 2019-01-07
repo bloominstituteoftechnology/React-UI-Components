@@ -9,7 +9,7 @@ const App = () => {
   return (
     <div className="container">
       <HeaderContainer />
-      {/* <CardContainer /> */}
+      <CardContainer />
       {/* <Footer /> */}
     </div>
   );

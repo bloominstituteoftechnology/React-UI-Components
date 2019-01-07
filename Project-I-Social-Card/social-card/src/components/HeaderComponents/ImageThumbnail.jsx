@@ -5,9 +5,7 @@ import logo from './lambda-logo.jpg';
 
 const ImageThumbnail = () => {
   return (
-    <div>
-      <img src={logo} alt="Lambda School Logo" />
-    </div>
+    <img className="logo" src={logo} alt="Lambda School Logo" />
   )
 }
 
