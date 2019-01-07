@@ -4,7 +4,12 @@ import './Header.css';
 const HeaderTitle = () => {
     return (
       <div className="title">
-        <h1>Lambda School @lambdaschool 26 jan</h1>
+
+        <h1>Lambda School
+            &nbsp;&nbsp;
+            <span>@LambdaSchool &middot; 26 jan</span>
+            </h1>
+
       </div>
     );
   };

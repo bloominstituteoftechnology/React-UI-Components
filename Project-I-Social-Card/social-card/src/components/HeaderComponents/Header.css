@@ -1,1 +1,19 @@
 /* All styles for your header Components live here */
+
+
+h1 {
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+}
+
+span {
+    color: grey;
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+p {
+    font-size: 16px;
+    line-height: 18px; 
+}
