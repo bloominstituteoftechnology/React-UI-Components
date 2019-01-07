@@ -1,0 +1,13 @@
+.Footer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0 24px;
+    color: rgba(0, 0, 0, .5);
+}
+
+.Footer .social-button {
+    margin-left: 56px;
+    padding: 12px 0;
+    padding-right: 4px;
+}
