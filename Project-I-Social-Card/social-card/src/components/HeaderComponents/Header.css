@@ -1,1 +1,13 @@
 /* All styles for your header Components live here */
+.header-cont{
+    display: flex;
+}
+
+.logo{
+    max-width: 40px;
+    margin-right: 5%;
+}
+
+.header-text{
+    margin: 1%;
+}
