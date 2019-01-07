@@ -1,1 +1,10 @@
-/* All styles for your header Components live here */
+h1 {
+    font-size: .9rem;
+    margin-left: 5px;
+}
+
+h2 {
+    font-size: .8rem;
+    font-weight: normal;
+    color: grey;
+}
