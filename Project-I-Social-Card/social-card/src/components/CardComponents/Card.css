@@ -1,1 +1,11 @@
 /* All styles for your Card Components live here */
+
+.card-container {
+  padding-right: 18px;
+  padding-left: 70px;
+}
+
+.card-container img {
+  border-top-right-radius: 3px;
+  border-top-left-radius: 3px;
+}

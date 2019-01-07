@@ -15,7 +15,25 @@ img {
   padding: 10px;
 }
 
+.header-title-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 0;
+}
+
+.header-title-container h1 {
+  font-size: 1.41rem;
+}
+
+.header-container p {
+  margin-top: -13px;
+  padding-bottom: 20px;
+}
+
 .header-right {
   display: flex;
   flex-direction: column;
+  padding-left: 1px;
+  padding-top: 3px;
 }

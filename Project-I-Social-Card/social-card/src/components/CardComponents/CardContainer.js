@@ -2,13 +2,15 @@ import React from 'react';
 import './Card.css';
 import CardBanner from './CardBanner';
 import CardContent from './CardContent';
+import Footer from '../FooterComponents/Footer';
 
 const CardContainer = () => {
   return (
-    <React.Fragment>
+    <div className='card-container'>
       <CardBanner />
       <CardContent />
-    </React.Fragment>
+      <Footer />
+    </div>
   );
 };
 
