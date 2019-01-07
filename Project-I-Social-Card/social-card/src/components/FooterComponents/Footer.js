@@ -13,10 +13,10 @@ class Footer extends Component {
     render() {
         return(
             <div className="Footer">
-                <div className="social-button">
+                <div className="social-button hover-blue">
                     <i className="far fa-comment"></i>
                 </div>
-                <div className="social-button clickable" onClick={(e) => {
+                <div className="social-button hover-green" onClick={(e) => {
                     let newCount = this.state.retweets + 1;
                     this.setState({
                         retweets: newCount
@@ -24,7 +24,7 @@ class Footer extends Component {
                 }}>
                     <i className="fas fa-sync"></i>  {this.state.retweets}
                 </div>
-                <div className="social-button clickable" onClick={(e) => {
+                <div className="social-button hover-pink" onClick={(e) => {
                     let newCount = this.state.likes + 1;
                     this.setState({
                         likes: newCount
@@ -32,7 +32,7 @@ class Footer extends Component {
                 }}>
                     <i className="far fa-heart"></i>  {this.state.likes}
                 </div>
-                <div className="social-button">
+                <div className="social-button hover-orange">
                     <i className="far fa-envelope"></i>
                 </div>
             </div>

@@ -10,4 +10,25 @@
     margin-left: 56px;
     padding: 12px 0;
     padding-right: 4px;
+    transition: all .4s;
+}
+
+.Footer .social-button:hover {
+    cursor: pointer;
+}
+
+.hover-blue:hover {
+    color: #287eff;
+}
+
+.hover-green:hover {
+    color: #56ff56;
+}
+
+.hover-pink:hover {
+    color: #ff3859;
+}
+
+.hover-orange:hover {
+    color: #ffa928;
 }
