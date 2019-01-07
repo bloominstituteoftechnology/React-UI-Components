@@ -1,15 +1,37 @@
 import React from 'react';
 import './Footer.css'
 
-const Footer = () => {
-    return(
-        <div className='footer-container'>
-            <div><i class="far fa-comment"></i><p></p></div>
-            <div><i class="fas fa-retweet"></i><p>6</p></div>
-            <div><i class="far fa-heart"></i><p>4</p></div>
-            <div><i class="far fa-envelope"></i><p></p></div>
-        </div>
-    )
+function like(likes){
+    return likes++
+}
+
+class Footer extends React.Component{
+    constructor(){
+        super();
+        this.state = {
+            likes: 4,
+            retweets: 6
+        }
+    }
+
+    like(){
+        console.log('like was clicked')
+    }
+
+    retweet(){
+        console.log('retweet was clicked')
+    }
+
+    render(){
+        return(
+            <div className='footer-container'>
+                <div><i class="far fa-comment"></i><p></p></div>
+                <div onClick={this.retweet}><i class="fas fa-retweet"></i><p>6</p></div>
+                <div onClick={this.like}><i class="far fa-heart"></i><p>{this.state.likes}</p></div>
+                <div><i class="far fa-envelope"></i><p></p></div>
+            </div>
+        )
+    }
 }
 
 export default Footer;
