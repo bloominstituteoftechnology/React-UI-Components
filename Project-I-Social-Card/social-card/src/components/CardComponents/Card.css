@@ -1,24 +1,30 @@
 /* All styles for your Card Components live here */
 
 .content-link {
-    text-decoration: none;
-    color: black;
+    margin-left: 11%;
 }
 
-.content-image {
-    width: auto;
-    margin-left: 7%;
-    margin-right: 2%;
+.content-link a {
+    text-decoration: none;
+    color: black;
     
 }
 
+.content-image img {
+    width: 100%;
+    margin-left: 7%;
+    margin-right: 0%;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
 .content-text {
-    width: auto;
+    width: 100%;
     margin-left: 7%;
     border: 1px solid gray;
     border-radius: 4px;
-    padding-left: 1%;
-    margin-right: 2%;
+    
+    margin-right: 0%;
     margin-bottom: 1%;
 }
 

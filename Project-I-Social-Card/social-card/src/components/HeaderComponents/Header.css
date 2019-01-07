@@ -1,7 +1,12 @@
 /* All styles for your header Components live here */
 
-.header-image {
+.HeaderContainer {
+    display: flex;
+    
+  }
 
+.header-image {
+    padding-top: 1%;
 }
 
 .title {
@@ -22,4 +27,6 @@
 
 .header-paragraph {
     margin-left: 6%;
+    padding-bottom: 1%;
 }
+
