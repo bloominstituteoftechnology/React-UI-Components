@@ -1,12 +1,14 @@
 import React from 'react';
 import './Header.css';
-import HeadContent from './HeaderContent';
-import HeadTitle from './HeaderTitle';
 import HeadImage from './ImageThumbnail';
+import HeadContent from './HeaderContent';
 
 const Header = () => {
   console.log('Code me, Disney.');
-  return <div></div>
+  return <div className='header'>
+    <HeadImage />
+    <HeadContent />
+  </div>
 }
 
 export default Header;
