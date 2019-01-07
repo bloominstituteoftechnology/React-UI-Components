@@ -1,0 +1,17 @@
+.footer-container {
+  margin: 24px 12% 12px;
+  width: 78%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.footer-container div {
+  display: flex;
+  margin-right: 100px;
+  align-items: baseline;
+
+}
+
+.footer-container div p {
+  margin: 0px 0px 0px 14px;
+}
