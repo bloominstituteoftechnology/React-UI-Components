@@ -1,23 +1,34 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+import CalculatorDisplay from "./components/DisplayComponents/CalculatorDisplay";
+import ActionButton from "./components/ButtonComponents/ActionButton";
+import NumberButton from "./components/ButtonComponents/NumberButton";
+import FunctionButton from "./components/ButtonComponents/FunctionButton";
+import "./App.css";
 
-const App = () => {
+
+const numberDisplay = ['7', '8', '9', '4', '5', '6', '1', '2', '3'];
+const functionDisplay = ["÷", "×", "–", "+", "="]
+
+class App extends React.Component {
+  render() {
   return (
-    <div>
-      <h3>Welcome to React Calculator</h3>
-      <p>
-        We have given you a starter project. You'll want to build out your
-        components in their respective files, remove this code and replace it
-        with the proper components.
-      </p>
-      <p>
-        <strong>
-          Don't forget to `default export` your components and import them here
-          inside of this file in order to make them work.
-        </strong>
-      </p>
+    <div className="container">
+      <CalculatorDisplay calcDisplay='0' />
+      <div className="button-container">
+        <ActionButton buttonStyle="action-button" actionDisplay='clear' />
+        <div className="number-container">
+          {numberDisplay.map((object, i) => <NumberButton buttonStyle="number-button" text={object} key={i} />)}
+        </div>
+        <ActionButton buttonStyle="action-button" actionDisplay='0' />
+      </div>
+      <div className="function-container">
+        {functionDisplay.map((object, i) => <FunctionButton buttonStyle="function-button" text={object} key={i} />)}
+      </div>
     </div>
-  );
-};
-
-export default App;
+      );
+    };
+  }
+    
+    export default App;
+    
+    

@@ -1,0 +1,16 @@
+.calc-display {
+    background: black;
+    border: 1px solid gray;
+    height: 127px;
+    padding-right: 3%;
+    width: 100%;
+  }
+  
+  .calc-display-content {
+    color: white;
+    display: flex;
+    font-size: 7rem;    
+    justify-content: flex-end;
+    margin: 24px 0 0 0;
+    width: 100%;
+  }
