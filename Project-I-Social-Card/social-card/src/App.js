@@ -1,5 +1,7 @@
 import React from 'react';
 import './App.css';
+import Header from './components/HeaderComponents';
+import Card from './components/CardComponents';
 
 const App = () => {
   return (
