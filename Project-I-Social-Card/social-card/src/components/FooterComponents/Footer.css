@@ -16,3 +16,7 @@
 i {
   cursor: pointer;
 }
+
+i:hover {
+  transform: scale(1.15);
+}

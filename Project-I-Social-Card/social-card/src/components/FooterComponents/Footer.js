@@ -4,7 +4,7 @@ import "./Footer.css";
 const Footer = () => (
   <div className="footer">
     <div className="icon comment">
-      <i class="far fa-comment fa-lg icon-flip-horizontal" />
+      <i class="far fa-comment fa-lg" />
     </div>
     <div className="icon sync">
       <i class="fas fa-sync-alt fa-spin fa-lg" />
