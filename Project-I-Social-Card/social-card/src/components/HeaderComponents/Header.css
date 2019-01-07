@@ -1,1 +1,28 @@
 /* All styles for your header Components live here */
+
+
+.header {
+    border: 1px solid red;
+    width: 590px; 
+    display: flex;
+    padding: 15px 0;
+}
+
+.headerImgThumb {
+    width: 50px;
+    height: 100%;
+    margin: 0 8px;
+}
+
+.headerContent {
+    margin-right: 16px;
+}
+
+.headerTitle {
+    display: flex;
+    margin-bottom: 6px;
+}
+
+.titleBold {
+    margin-right: 10px;
+}
