@@ -2,7 +2,6 @@
 
 
 .header {
-    border: 1px solid red;
     width: 590px; 
     display: flex;
     padding: 15px 0;
@@ -21,6 +20,10 @@
 .headerTitle {
     display: flex;
     margin-bottom: 6px;
+}
+
+.handleText {
+    color: grey;
 }
 
 .titleBold {
