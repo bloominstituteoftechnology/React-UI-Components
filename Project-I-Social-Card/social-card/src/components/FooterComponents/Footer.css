@@ -7,3 +7,15 @@
 i {
     padding-right: 8%;
 }
+
+i:hover {
+    color: rgb(34, 148, 241);
+}
+
+.fa-heart:hover {
+    color: red;
+}
+
+.fa-sync-alt:hover {
+    color: green;
+}
