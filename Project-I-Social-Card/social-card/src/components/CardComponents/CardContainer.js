@@ -5,9 +5,11 @@ import './Card.css';
 
 const CardContainer = () => {
     return (
-        <div className="card-container">
-            <CardBanner />
-            <CardContent />
+        <div className="card-container" >
+            <a href="http://reactjs.org" target="_blank">
+                <CardBanner />
+                <CardContent />
+            </a>
         </div>
     )
 }
