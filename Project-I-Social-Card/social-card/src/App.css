@@ -1,5 +1,6 @@
 .social__card__wrapper {
-  width: 588px;
+  max-width: 588px;
+  width: 100%;
   border-bottom: 1px solid #e3eaee;
   padding-bottom: 7px;
 }
