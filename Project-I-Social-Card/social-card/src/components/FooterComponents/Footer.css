@@ -1,0 +1,16 @@
+.footer {
+    display: flex;
+    margin-left: 57px;
+    margin-top: 15px;
+    padding: 3px;
+}
+
+.social-action {
+    font-size: 1rem;
+    color: grey;
+    margin-right: 47px;
+}
+
+.social-number {
+    padding-left: 10px;
+}
