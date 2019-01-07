@@ -3,11 +3,11 @@ import './Header.css';
 
 function HeaderTitle() {
     return (
-        <div>
+        <div className="HeaderTitle">
             <ul>
-                <li>Lambda School</li>
+                <li className="bold">Lambda School</li>
                 <li>@LambdaSchool</li>
-                <li>26 jan</li>
+                <li className="bullet">26 jan</li>
             </ul>
         </div>
     )
