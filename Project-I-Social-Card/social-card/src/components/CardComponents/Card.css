@@ -3,6 +3,11 @@
 .card-container{
     margin-left: 8%;
     border: 1px solid lightgray;
+    border-radius: 2%;
+}
+
+.card-img{
+    border-radius: 2%;
 }
 
 .banner-img{
