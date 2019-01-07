@@ -1,1 +1,35 @@
 /* All styles for your Card Components live here */
+.CardContainer {
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-left: 140px;
+}
+
+.CardContainer a {
+    text-decoration: none;
+    color: black;
+}
+
+.CardContainer img {
+     max-width: 100%;
+ }
+
+ .CardContent {
+     padding: 5px;
+ }
+
+ .CardContent h1 {
+     font-weight: bold;
+     margin: 10px 5px;
+ }
+
+ .CardContent p {
+    margin: 10px 5px;
+}
+
+.CardContent a {
+    text-decoration: none;
+    color: grey;
+    margin: 10px 5px;
+}
