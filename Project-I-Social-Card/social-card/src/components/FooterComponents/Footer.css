@@ -9,6 +9,10 @@
   margin: 3% 12% 3% 0;
 }
 
+.comment {
+  transform: rotateY(180deg);
+}
+
 i {
   cursor: pointer;
 }
