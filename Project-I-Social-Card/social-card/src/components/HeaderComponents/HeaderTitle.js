@@ -1,6 +1,8 @@
 import React from "react";
 import "./Header.css";
-//import Timestamp from "react-timestamp";
+import Moment from "moment";
+
+let timeStamp = Moment().format("D MMM");
 
 export function HeaderTitle() {
   return (
@@ -8,9 +10,7 @@ export function HeaderTitle() {
       <h1> Lambda School </h1>
       <h3> @LambdaSchool </h3>
       <h3 className="dot">.</h3>
-      <h3>7 jan</h3>
-
-      {/* <Timestamp> 'date' </Timestamp> */}
+      <h3>{timeStamp}</h3>
     </div>
   );
 }
