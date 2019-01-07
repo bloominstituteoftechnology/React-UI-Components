@@ -5,11 +5,11 @@ import CardContent from './CardContent';
 
 const CardContainer = () => {
     return (
-        <div className = 'card-container'>
+        <div class = 'container'>
             <CardBanner />
             <CardContent />
         </div>
     );
-
 };
-export default CardContainer;
+
+export default CardContainer ;
