@@ -1,1 +1,40 @@
 /* All styles for your header Components live here */
+
+
+.flex{
+    display:flex;
+}
+.flex-col{
+    flex-direction: column;
+}
+
+/* Logo Styles */
+.header-logo{
+    width:7%;
+    margin: 20px 8px 0;
+}
+.header-logo img{
+    width: 100%;
+    height: auto;
+    border-radius: 100%;
+   
+}
+.header-content{
+    height: 140px;
+}
+.header-p{
+    margin-top: 0;
+}
+.w-100{
+    width: 100%
+}
+.w-70{
+    width: 70%
+}
+
+
+.title-content{
+    justify-content: space-between;
+    align-items: baseline;
+    width: 33%;
+}
