@@ -17,8 +17,14 @@
 }
 
 .CardText {
+  font-size: 0.8rem;
   max-width: 100%;
-  padding-right: 30%;
+  padding-right: 35%;
+}
+
+.CardTitle h1 {
+  font-size: 0.9rem;
+  line-height: 0;
 }
 
 .CardLink {

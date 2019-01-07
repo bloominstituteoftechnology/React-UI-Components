@@ -5,7 +5,9 @@ import CardLink from "./CardLink";
 function CardContent() {
   return (
     <div className="CardContent">
-      <div className="CardTitle">Get started with React</div>
+      <div className="CardTitle">
+        <h1>Get started with React</h1>
+      </div>
       <div className="CardText">
         React makes it painless to create interactive UIs. Design simple views
         for each state in your application.
