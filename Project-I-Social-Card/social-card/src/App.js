@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
-import Header from './components/HeaderComponents';
-import Card from './components/CardComponents';
+import Header from './components/HeaderComponents/HeaderContainer';
+import Card from './components/CardComponents/CardContainer';
 
 const App = () => {
   return (
@@ -19,6 +19,9 @@ const App = () => {
           inside of this file in order to make them work.
         </strong>
       </p>
+
+      <Header />
+      <Card />
     </div>
   );
 };
