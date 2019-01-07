@@ -1,10 +1,14 @@
 import React from 'react';
 import './Card.css';
 import Banner from './CardBanner';
+import CardContent from './CardContent';
 
 const CardContainer = () => {
     return (
-        <Banner />
+        <div className="cardContainer">
+            <Banner />
+            <CardContent />
+        </div>
     )
 };
 

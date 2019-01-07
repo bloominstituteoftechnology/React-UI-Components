@@ -11,7 +11,20 @@
 }
 
 .thumbnail {
-    width: 20%;
-    height: auto;
-    padding: 5px;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+}
+
+.title {
+    margin: 10px 0
+    0 0;
+    display: flex;
+}
+
+.date {
+    font-weight: lighter;
+    font-size: 95%;
+    color: grey;
+
 }
