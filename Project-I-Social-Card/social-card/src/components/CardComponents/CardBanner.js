@@ -5,7 +5,7 @@ import ReactBackground from './reactbackground.png'
 
 function CardBanner() {
     return (
-        <div>
+        <div className='CardBanner'>
             <img src={ReactBackground}></img>
         </div>
     )
