@@ -1,10 +1,12 @@
 import React from 'react';
 import './Card.css';
 
+import ReactBackground from './reactbackground.png'
+
 function CardBanner() {
     return (
         <div>
-            <img src='./reactbackground.png'></img>
+            <img src={ReactBackground}></img>
         </div>
     )
 }

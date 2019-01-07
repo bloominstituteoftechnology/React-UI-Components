@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 
 import HeaderContainer from './components/HeaderComponents/HeaderContainer'
+import CardBanner from './components/CardComponents/CardBanner';
 
 
 const App = () => {
@@ -23,6 +24,7 @@ const App = () => {
     // </div>
     <div className='App'>
       <HeaderContainer />
+      <CardBanner />
     </div>
   );
 };
