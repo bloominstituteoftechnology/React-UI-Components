@@ -2,6 +2,9 @@
 
 .card__body {
     width: 88%;
+    border: 1px solid silver;
+    padding-bottom: 10px;
+    border-radius: 5px;
     margin: 15px 1.5% 15px auto;
 }
 
