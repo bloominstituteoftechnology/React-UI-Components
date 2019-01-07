@@ -1,8 +1,14 @@
+.footerContainer {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    margin-top: 20px;
+    font-size: 1.5rem;
+}
+
 i{
     font-size: 22px;
     margin: 30px 50px 0 20px;
-    display: flex;
-    position: relative;
     cursor: pointer;
 
 }
