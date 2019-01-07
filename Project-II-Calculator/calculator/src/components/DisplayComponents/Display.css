@@ -1,0 +1,17 @@
+.calculator-display{
+  width:100%;
+  background-color: black;
+  color:white;
+  border-top: 2px solid gray;
+  border-right: 1px solid gray;
+  border-left: 2px solid gray;
+  border-bottom:1px solid gray;
+  text-align: right;
+  font-weight: 100;
+  font-size:78px;
+  padding: 10px 0% 10px 0;
+}
+
+.calculator-display span{
+  margin-right:7%;
+}

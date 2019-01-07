@@ -1,0 +1,11 @@
+
+.action-button{
+  border-top:1px solid lightgray;
+  border-bottom:1px solid lightgray;
+  border-right: 1px solid lightgray;
+  border-left: 2px solid lightgray;
+  font-size:40px;
+  width:100%;
+  text-align: center;
+  padding: 20px 0 20px 0;
+}

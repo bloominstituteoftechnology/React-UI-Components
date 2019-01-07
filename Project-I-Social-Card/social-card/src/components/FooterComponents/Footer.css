@@ -1,0 +1,47 @@
+
+.footer-container{
+  width:60%;
+  display:flex;
+  justify-content: space-between;
+  align-items:center;
+  margin-top:20px;
+}
+
+.footer-container span{
+  font-size:1rem;
+}
+
+.footer-group{
+  width:25%;
+  display: flex;
+  align-items: center;
+
+
+}
+
+.footer-group span{
+  margin-left:10%;
+}
+
+.fa-comment{
+  font-size:24px;
+  font-weight:100;
+  color:gray;
+  transform: scaleX(-1);
+
+}
+
+.fa-retweet{
+  font-size:24px;
+  font-weight:light;
+  color:gray;
+}
+
+.fa-heart{font-size:24px;
+font-weight:lighter;
+color:gray;}
+
+
+.fa-envelope{font-size:24px;
+font-weight:lighter;
+color:gray;}
