@@ -146,6 +146,10 @@ h1 {
   margin-right: 10px;
 }
 
+h2 {
+  font-size: 18px;
+}
+
 h3 {
   font-size: 14px;
   color: grey;
@@ -160,4 +164,5 @@ p {
 #root {
   max-width: 700px;
   margin: 0 auto;
+  border: 1px solid lightgrey;
 }

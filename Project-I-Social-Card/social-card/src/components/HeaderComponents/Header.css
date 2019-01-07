@@ -1,12 +1,11 @@
 /* All styles for your header Components live here */
 .header-container {
-  border: 1px solid red;
+  border-bottom: 1px solid lightgrey;
   display: flex;
   padding-top: 10px;
 }
 .header-container img {
   margin: 5px;
-  width: 80px;
   height: 90px;
   margin-right: 10px;
 }
