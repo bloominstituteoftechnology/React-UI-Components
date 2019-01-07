@@ -11,6 +11,10 @@
     margin-right: 47px;
 }
 
+.social-action:hover {
+    cursor: pointer;
+}
+
 .social-number {
     padding-left: 10px;
 }
