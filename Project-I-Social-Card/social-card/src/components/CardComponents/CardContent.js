@@ -5,11 +5,11 @@ const CardContent = () => {
   return (
     <div className="card__content">
       <h2>Get started with React</h2>
-      <p>
+      <p className="content__body-copy">
         React makes it painless to create interactive UIs. Design simple views
         for each state in your application.
       </p>
-      <p>reactjs.org</p>
+      <p className="content__link">reactjs.org</p>
     </div>
   );
 };
