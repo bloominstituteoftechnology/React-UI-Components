@@ -7,7 +7,9 @@ import { HeaderContent } from "./HeaderContent";
 function HeaderContainer() {
   return (
     <div className="Header-container">
-      <ImageThumbnail />
+      <div>
+        <ImageThumbnail />
+      </div>
       <div>
         <HeaderTitle />
         <HeaderContent />
