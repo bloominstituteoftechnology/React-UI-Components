@@ -7,11 +7,11 @@ const CardContent = () => {
 
         <h2>Get Started with React</h2>
 
-        <p>React makes it painless to create interactiveUIs.
+        <p>React makes it painless to create interactive UIs.
             Design simple views for each state in your application.
         </p>
 
-        <span>reactjs.org</span>
+        <a href="https://reactjs.org/">reactjs.org</a>
         
         </div>
     )
