@@ -9,6 +9,8 @@
 
 .header__thumbnail img {
   border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
 }
 
 .header__title__content {
