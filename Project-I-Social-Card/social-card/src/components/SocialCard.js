@@ -12,8 +12,8 @@ class SocialCard extends Component {
         this.like = this.like.bind(this);
 
         this.state = {
-            retweets: 0,
-            likes: 0
+            retweets: 6,
+            likes: 4
         }
     }
 

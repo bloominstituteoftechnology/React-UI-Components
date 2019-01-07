@@ -2,7 +2,7 @@ import React from 'react';
 import './Header.css';
 import Moment from 'moment';
 
-let currentTime = Moment().format('MMM Do');
+let currentTime = Moment().format('D MMM');
 
 const HeaderTitle = () => (
     <div className="HeaderTitle">
