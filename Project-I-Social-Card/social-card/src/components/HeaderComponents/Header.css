@@ -1,1 +1,38 @@
 /* All styles for your header Components live here */
+
+.header-container{
+    display: flex;
+}
+
+.thumbnail{
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    margin: 10px;
+}
+
+.header-title{
+    margin-top: 2px;
+}
+
+.header-title h1{
+    font-size: 1.7rem;
+}
+
+.header-username{
+    display: flex;
+}
+
+.header-username h2{
+    font-size: 1.3rem;
+    color: grey;
+    font-weight: 100;
+    margin: 13px 0 0 7px;
+}
+
+.post-content{
+    font-size: 1.4rem;
+    margin: unset;
+    margin-top: -8px;
+    line-height: 1.8rem;
+}
