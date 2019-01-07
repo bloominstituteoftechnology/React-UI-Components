@@ -1,1 +1,4 @@
 /* All styles for your Card Components live here */
+.card-container{
+    text-emphasis:  none;
+}

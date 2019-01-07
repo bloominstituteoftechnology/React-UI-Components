@@ -6,11 +6,13 @@ import ImageThumbnail from "./ImageThumbnail";
 
 const HeaderContainer = () => {
     return (
-        <React.Fragment>
+        <div class= 'header-container'>
         <ImageThumbnail />
+        <div class = "header-r">
         <HeaderTitle />
         <HeaderContent />
-        </React.Fragment >
+        </div>
+    </div>
     );
 };
 
