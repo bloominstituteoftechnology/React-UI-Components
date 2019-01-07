@@ -1,14 +1,14 @@
 
-
 .left-buttons{
-    display: flex;
-    flex-direction: row;
-}
-
-.number-button{
-    width: 25%;
+    display:flex;
     flex-wrap: wrap;
 }
-.large-button{
-    width: 100%;
+
+.number-buttons{
+    width: 20px;
+    display: inline-block;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0;
+    justify-content: flex-start;
 }
