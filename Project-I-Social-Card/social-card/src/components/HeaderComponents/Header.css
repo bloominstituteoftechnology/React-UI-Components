@@ -5,15 +5,16 @@
   }
   
   .header-image {
-    width: 10%;
-    height: 60px;
-    margin-top: 5px;
+    width: 48px;
+    height: 48px;
+    margin-top: 10px;
+    border-radius: 100px;
   }
   
   .header-content {
     display: flex;
     flex-wrap: wrap;
-    padding-left: 6px;
+    padding-left: 11px;
   }
   
   .header-content h2 {
@@ -31,5 +32,6 @@
   
   p {
     margin-top: -3px;
-    font-size: 14px;
+    font-size: 14.3px;
+    line-height: 1.2;
   }

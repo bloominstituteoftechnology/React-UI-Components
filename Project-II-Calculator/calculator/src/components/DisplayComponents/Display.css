@@ -14,6 +14,12 @@
     font-size: 36px;
 }
 
+@media (max-width: 500px) {
+    .calc-display h1 {
+        font-size: 30px;
+    }
+}
+
 .preview {
     padding-bottom: 65px;
     color: rgb(238, 223, 84);
