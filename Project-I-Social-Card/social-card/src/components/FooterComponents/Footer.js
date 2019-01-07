@@ -30,7 +30,7 @@ class Footer extends React.Component{
         return(
             <div className='footer-container'>
                 <div><i class="far fa-comment"></i><p></p></div>
-                <div onClick={this.retweet}><i class="fas fa-retweet"></i><p>6</p></div>
+                <div onClick={this.retweet}><i class="fas fa-retweet"></i><p>{this.state.retweets}</p></div>
                 <div onClick={this.like}><i class="far fa-heart"></i><p>{this.state.likes}</p></div>
                 <div><i class="far fa-envelope"></i><p></p></div>
             </div>
