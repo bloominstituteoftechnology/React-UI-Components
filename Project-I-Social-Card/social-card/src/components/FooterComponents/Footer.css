@@ -1,0 +1,17 @@
+footer {
+    height: 50px;
+    width: 45%;
+    margin-left: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .footer-item {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+  }
+  .footer-item *:nth-child(2){
+    margin-left: 10px;
+  } 
