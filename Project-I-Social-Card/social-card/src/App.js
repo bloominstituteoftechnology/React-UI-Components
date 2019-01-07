@@ -1,7 +1,8 @@
 import React from 'react';
 import './App.css';
 
-import HeaderContainer from '../src/components/HeaderComponents/HeaderContainer'
+import HeaderContainer from './components/HeaderComponents/HeaderContainer'
+
 
 const App = () => {
   return (
@@ -22,6 +23,7 @@ const App = () => {
     // </div>
     <div className='App'>
       <HeaderContainer />
+
     </div>
   );
 };
