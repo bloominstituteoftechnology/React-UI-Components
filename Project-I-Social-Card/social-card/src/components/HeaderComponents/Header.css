@@ -1,1 +1,21 @@
 /* All styles for your header Components live here */
+img {
+  width: 100%;
+  height: auto;
+}
+.header-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.header-container img {
+  border-radius: 50%;
+  width: 68px;
+  height: 68px;
+  padding: 10px;
+}
+
+.header-right {
+  display: flex;
+  flex-direction: column;
+}
