@@ -1,6 +1,12 @@
+
 .header-container {
     display: flex;
     border: 1px solid red;
+}
+
+.header-img {
+    max-width: 50px;
+    max-height: 50px;
 }
 
 .header-user {
@@ -12,4 +18,12 @@
     color: grey;
     font-size: 0.8rem;
     padding-left: 10px;
+}
+
+.header-text {
+    padding: 10px 0 0 10px;
+}
+
+.header-content {
+    padding-top: 5px;
 }
