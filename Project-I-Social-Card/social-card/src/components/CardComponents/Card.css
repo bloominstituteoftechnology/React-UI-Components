@@ -1,1 +1,27 @@
 /* All styles for your Card Components live here */
+
+.card-container{
+    margin-left: 8%;
+    border: 1px solid lightgray;
+}
+
+.banner-img{
+    max-width: 543px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.card-content{
+    margin-left: 3%;
+}
+
+.card-content-title{
+    font-weight: bold;
+}
+
+.card-content-link{
+    color: #B4BCC3;
+}
