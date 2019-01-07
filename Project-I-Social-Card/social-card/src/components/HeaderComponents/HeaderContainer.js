@@ -5,7 +5,7 @@ import HeaderTitle from "./HeaderTitle.js";
 import ImageThumbnail from "./ImageThumbnail";
 import HeaderContent from "./HeaderContent";
 
-const HeaderContent =()=> {
+const HeaderContainer =()=> {
     return (
         <div>
             <ImageThumbnail/>
@@ -16,7 +16,7 @@ const HeaderContent =()=> {
 
 }
 
-export default HeaderContent;
+export default HeaderContainer;
 
 
     
