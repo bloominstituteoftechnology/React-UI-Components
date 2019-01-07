@@ -4,5 +4,12 @@
 }
 
 .header-user {
-    
+    font-weight: bold;
+}
+
+.header-social, .header-date {
+    font-weight: initial;
+    color: grey;
+    font-size: 0.8rem;
+    padding-left: 10px;
 }
