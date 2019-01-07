@@ -6,8 +6,8 @@ import CardBanner from "./CardBanner";
 const CardContainer=()=>{
     return(
         <div>
-            <CardContent />
             <CardBanner />
+            <CardContent />
         </div>
     );
 }

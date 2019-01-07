@@ -3,9 +3,9 @@ import './Header.css';
 
 const HeaderTitle = () => {
     return (
-        <React.Fragment>
-             <h2>Lambda School<span>@LambdaSchool</span> - 07 Jan</h2>
-        </React.Fragment>
+        <h1 className="title">
+             Lambda School<span> @LambdaSchool - 07 Jan</span>
+        </h1>
     );
 }
 

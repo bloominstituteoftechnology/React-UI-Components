@@ -7,29 +7,29 @@
 }
 
 .cardContent {
-        margin-left: 90px;
-        padding: 15px 20px;
-        margin-right: 20px;
-      }
+    margin-left: 90px;
+    padding: 15px 20px;
+    margin-right: 20px;
+}
       
-      .cardContent h2 {
-        font-size: 20px;
-        font-weight: bold;
-        padding-bottom: 10px;
-        text-decoration: none;
-        color: black;
-      }
+.cardContent h1 {
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    text-decoration: none;
+    color: black;
+}
       
-      .cardContent p {
-        font-size: 20px;
-        margin-right: 20px;
-        padding-bottom: 15px;
-        text-decoration: none;
-        color: black;
-      }
+  .cardContent p {
+    font-size: 20px;
+    margin-right: 20px;
+    padding-bottom: 15px;
+    text-decoration: none;
+    color: black;
+}
       
-      .cardContent a {
-        font-size: 20px;
-        text-decoration: none;
-        color: gray;
-      }
+  .cardContent a {
+    font-size: 20px;
+    text-decoration: none;
+    color: gray;
+}
