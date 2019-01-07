@@ -5,7 +5,7 @@ import { CardContent } from "./CardContent";
 
 function CardContainer() {
   return (
-    <div>
+    <div className="card-container">
       <CardBanner />
       <CardContent />
     </div>
