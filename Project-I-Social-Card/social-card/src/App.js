@@ -23,7 +23,6 @@ const App = () => {
     // </div>
     <div className='App'>
       <HeaderContainer />
-
     </div>
   );
 };
