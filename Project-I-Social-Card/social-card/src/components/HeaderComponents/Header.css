@@ -1,11 +1,14 @@
+@import '../../variables.css';
+
 .card__header {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 10px;
 }
 
 .card__header__image {
     width: 50px;
-    margin-right: 1.75%;
+    margin-right: 1.5%;
 }
 
 .card__header__image > img {
@@ -31,6 +34,6 @@
 
 .card__header__text__heading__info {
     font-size: 1.35rem;
-    color: #B1BBC4;
+    color: var(--greyout);
     margin: 0 0.5%;
 }

@@ -7,7 +7,7 @@ import LambdaLogo from '../../images/lambda-logo.jpg';
 const ImageThumbnail = () => {
 	return (
 		<div className="card__header__image">
-			<img src={LambdaLogo} alt="Lambda Logo"/>
+			<img src={LambdaLogo} alt="Lambda profile icon"/>
 		</div>
 	);
 };
