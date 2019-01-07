@@ -1,1 +1,6 @@
-/* All styles for your Card Components live here */
+.card__container {
+  display: block;
+  border: 1px solid black;
+  text-decoration: none;
+  cursor: pointer;
+}

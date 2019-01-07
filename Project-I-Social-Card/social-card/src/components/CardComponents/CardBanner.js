@@ -1,2 +1,15 @@
-import React from 'react';
-import './Card.css';
+import React from "react";
+import "./Card.css";
+
+const CardBanner = () => {
+  return (
+    <div className="banner__image">
+      <img
+        src="https://tk-assets.lambdaschool.com/fcd75197-7d12-46ec-bc9e-4130f34822fa_reactbackground.png"
+        alt="Post banner preview"
+      />
+    </div>
+  );
+};
+
+export default CardBanner;
