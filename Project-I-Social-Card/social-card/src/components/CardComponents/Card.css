@@ -1,5 +1,9 @@
 /* All styles for your Card Components live here */
 
+a {
+  text-decoration: none;
+  color: black;
+}
 
 .card-container {
   width: 40%;

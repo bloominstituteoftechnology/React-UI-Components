@@ -23,13 +23,14 @@ const postContent = {
 };
 
 const footerSymbols = {
-  comment: <i className="far fa-comment" />,
-  sync: <i className="fas fa-sync" />,
-  like: <i className="far fa-heart" />,
-  mail: <i className="far fa-envelope" />
+  comment: <i className="far fa-comment footer-item" />,
+  sync: <i className="fas fa-sync footer-item" />,
+  like: <i className="far fa-heart footer-item" />,
+  mail: <i className="far fa-envelope footer-item" />
 };
 
 // imageSource = { imageSource } profileName = { profileName } profileHandle = { profileHandle } date = { date } headerContent = { headerContent }
+
 
 const App = () => {
   return (
