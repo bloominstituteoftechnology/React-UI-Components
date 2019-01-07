@@ -14,12 +14,16 @@ class Footer extends React.Component{
         }
     }
 
-    like(){
-        console.log('like was clicked')
+    like = e => {
+        this.setState({
+            likes: this.state.likes + 1
+        })
     }
 
-    retweet(){
-        console.log('retweet was clicked')
+    retweet = e => {
+        this.setState({
+            retweets: this.state.retweets + 1
+        })
     }
 
     render(){
