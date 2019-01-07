@@ -1,6 +1,6 @@
 /* All styles for your Card Components live here */
 .card{
-    width: 90%;
+    width: 87%;
     margin-right: 2%;
     display: flex;
     flex-direction: column;
@@ -20,8 +20,8 @@
 
 }
 .card p{
-    font-size: 1.2rem;
-    margin: 7px auto;
+    font-size: 1.4rem;
+    margin: 5px 0;
     color: black;
 }
 .card a{
