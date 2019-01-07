@@ -2,6 +2,7 @@
 .header-container {
     display: flex;
     border: 1px solid red;
+    padding-top: 7px;
 }
 
 .header-img {
@@ -21,9 +22,9 @@
 }
 
 .header-text {
-    padding: 10px 0 0 10px;
+    padding-left: 10px;
 }
 
 .header-content {
-    padding-top: 5px;
+    padding-top: 8px;
 }
