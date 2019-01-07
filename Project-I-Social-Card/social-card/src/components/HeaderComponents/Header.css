@@ -1,5 +1,11 @@
 /* All styles for your header Components live here */
-
+/* General Styles */
+.w-100{
+    width: 100%
+}
+.w-70{
+    width: 70%
+}
 
 .flex{
     display:flex;
@@ -19,6 +25,7 @@
     border-radius: 100%;
    
 }
+/* Header Styles */
 .header-content{
     height: 110px;
 }
@@ -27,18 +34,12 @@
     font-size: 1.4rem;
     
 }
-.w-100{
-    width: 100%
-}
-.w-70{
-    width: 70%
-}
 
-
+/* Title Style */
 .title-content{
     justify-content: flex-start;
     align-items: baseline;
-    width: 50%;
+    width: 52%;
 }
 .title-content h4{
     font-size: 1.4rem;

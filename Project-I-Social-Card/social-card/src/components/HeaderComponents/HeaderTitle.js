@@ -7,7 +7,7 @@ const HeaderTitle = () =>{
     return (
           <div className="flex title-content">
             <h4>Lambda School</h4>
-            <p>@LambdaSchool</p>
+            <p>@LambdaSchool • </p>
             <p>{moment().format("Do MMM ")}</p>
           </div>
     )

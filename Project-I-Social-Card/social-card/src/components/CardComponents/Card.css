@@ -1,4 +1,5 @@
 /* All styles for your Card Components live here */
+/* Card Styles */
 .card{
     width: 87%;
     margin-right: 2%;
@@ -8,6 +9,16 @@
     border: 1px solid grey;
     border-radius: 5px ;
 }
+.card-container{
+    justify-content: flex-end;
+}
+/* Card Top */
+.banner{
+    height: 250px;
+    background: url('https://tk-assets.lambdaschool.com/fcd75197-7d12-46ec-bc9e-4130f34822fa_reactbackground.png') no-repeat center;
+    background-size: cover;
+}
+/* Card Bottom */
 .card-bottom{
     padding:3%;
 }
@@ -29,12 +40,4 @@
     text-decoration: none;
     color: grey;
 }
-.card-container{
-    justify-content: flex-end;
-}
 
-.banner{
-    height: 250px;
-    background: url('https://tk-assets.lambdaschool.com/fcd75197-7d12-46ec-bc9e-4130f34822fa_reactbackground.png') no-repeat center;
-    background-size: cover;
-}
