@@ -1,1 +1,32 @@
 /* All styles for your header Components live here */
+
+.HeaderTitle{
+    display:flex;
+    flex-direction: row;
+    
+}
+
+.HeaderTitle h3 {
+    /* padding-top: 1px; */
+}
+
+.HeaderContainer{
+    display:flex;
+    flex-direction: row;
+}
+
+.HeaderTitle h1 {
+    font-size: .9rem;
+    margin-left: 5px;
+    
+}
+
+.HeaderTitle h3 {
+    font-size: .8rem;
+    font-weight: normal;
+    padding-bottom: 10px
+}
+
+.HeaderTitle  #date {
+    margin-left:10px;
+}
