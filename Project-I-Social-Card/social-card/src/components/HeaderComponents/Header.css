@@ -2,10 +2,11 @@
 .HeaderContainer{
     display: flex;
     font-size: 1 rem;
+    flex-direction: column;
+
 }
 .TitleContainer{
     display: flex;
-    flex-direction: column;
 }
 .HeaderTitle{
     display: flex;
