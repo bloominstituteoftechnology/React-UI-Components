@@ -12,14 +12,16 @@
 .header-title {
     display:flex;
     flex-direction: row;
+    align-items:baseline;
 }
 
 .grayed {
     color: gray;
+    font-weight: normal;
     margin: 0 0 0 2%;
 }
 
 .logo {
-    height: 50px;
+    height: 60px;
     margin: 0 4.45px 0 0;
 }

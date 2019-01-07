@@ -1,11 +1,13 @@
 import React from 'react';
 import './Header.css';
 
+var moment = require('moment');
+
 const HeaderTitle = () => {
     return (
     <div className = "header-title">
-    <h3>Lambda School</h3>
-    <h3 class="grayed">@LambdaSchool 26 jan</h3>
+        <h3>Lambda School</h3>
+        <h4 className="grayed">@LambdaSchool • {moment().format('D MMM YYYY')}</h4>
     </div>
     );
 }
