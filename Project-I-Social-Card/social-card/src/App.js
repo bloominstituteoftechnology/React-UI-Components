@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 
 import HeaderContainer from './components/HeaderComponents/HeaderContainer'
-import CardBanner from './components/CardComponents/CardBanner';
+import CardContainer from './components/CardComponents/CardContainer';
 
 
 const App = () => {
@@ -24,7 +24,7 @@ const App = () => {
     // </div>
     <div className='App'>
       <HeaderContainer />
-      <CardBanner />
+      <CardContainer />
     </div>
   );
 };
