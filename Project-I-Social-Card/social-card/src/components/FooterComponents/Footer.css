@@ -1,0 +1,9 @@
+.Footer {
+    display: flex;
+    margin: 2% 5%;
+    font-size: 18px;
+}
+
+i {
+    padding-right: 8%;
+}
