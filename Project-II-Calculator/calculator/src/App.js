@@ -4,7 +4,7 @@ import CalculatorContainer from './components/CalculatorWrapper/CalculatorContai
 
 const App = () => {
   return (
-    <CalculatorContainer />
+      <CalculatorContainer />
   )
 };
 

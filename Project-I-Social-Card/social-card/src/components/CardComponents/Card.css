@@ -1,7 +1,15 @@
 .card-container {
-  max-width: 504px;
-  margin-left: 69px;
+  max-width: 574px;
+  display: flex;
 
+}
+
+.card-prof-pic {
+  align-self: flex-start;
+  max-width: 49px;
+  height: auto;
+  margin: 14px 10px 0px 10px;
+  border-radius: 100%;
 }
 
 .card-container .card-bottom-cont {
