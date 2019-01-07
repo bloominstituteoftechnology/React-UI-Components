@@ -12,14 +12,22 @@
   border:1px solid lightgrey;
   width:499px;
   padding-top:5px;
+  text-decoration: none;
+  
 }
 
 .CardContent h2 {
     font-size: .9rem;
     margin-left:15px;
+    text-decoration: none;
 }
 
 .CardContent p {
     font-size:.8rem;
     margin-left:15px;
+    text-decoration: none;
+}
+
+.reactLink {
+    color:lightgrey;
 }
