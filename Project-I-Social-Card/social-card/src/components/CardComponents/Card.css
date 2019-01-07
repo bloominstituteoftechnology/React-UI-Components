@@ -1,1 +1,36 @@
 /* All styles for your Card Components live here */
+
+
+
+img {
+    width: 100%;
+    border-radius: 5px;
+    
+}
+
+.card {
+    width: 500px;
+    margin-left: 60px;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+
+}
+
+.card #bottom-text {
+    padding-left: 15px;
+    margin-top: -10px;
+ 
+
+}
+
+.card #bottom-text p {
+    font-size: .9rem;
+    margin-top: -8px;
+}
+
+.card #bottom-text h6 {
+    font-weight: lighter;
+    font-size: .9rem;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
