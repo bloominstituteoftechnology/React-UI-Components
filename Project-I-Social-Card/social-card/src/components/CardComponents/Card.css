@@ -1,11 +1,12 @@
 /* All styles for your Card Components live here */
 
 .banner-container {
-  padding-left: 80px;
+  padding: 0 15px 0 70px;
 }
 
 .banner-logo {
   width: 100%;
+  height: 255px;
   border-radius: 5px 5px 0 0;
 }
 

@@ -8,12 +8,18 @@
 }
 
 .container {
-  width: 650px;
+  width: 590px;
   margin: 0 auto;
-  padding: 10px;
   border: 1px solid black;
+  padding-bottom: 10px;
 }
 
 h2 {
-  font-size: 16px;
+  font-size: 14px;
+}
+
+p {
+  font-size: 14px;
+  margin: 0;
+  padding-bottom: 10px;
 }

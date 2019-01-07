@@ -5,13 +5,9 @@
   display: flex;
 }
 
-.header-content {
-  padding: 0 10px;
-}
-
 .title span {
   color: darkgrey;
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 400;
 }
 
