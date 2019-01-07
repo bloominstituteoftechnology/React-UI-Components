@@ -8,6 +8,7 @@ import './App.css';
 // import Footer from './components/FooterComponents/Footer';
 
 import HeaderContainer from './components/HeaderComponents/HeaderContainer';
+import CardContainer from './components/CardComponents/CardContainer';
 // import HeaderContent from './components/HeaderComponents/HeaderContent';
 // import HeaderTitle from './components/HeaderComponents/HeaderTitle';
 // import ImageThumbnail from './components/HeaderComponents/ImageThumbnail';
@@ -35,6 +36,7 @@ import HeaderContainer from './components/HeaderComponents/HeaderContainer';
     return(
       <div className="App">
         <HeaderContainer />
+        <CardContainer />
       </div>
     )
   };
