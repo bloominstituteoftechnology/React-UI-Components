@@ -1,1 +1,6 @@
 /* All styles for your header Components live here */
+.logo {
+  border-radius: 50%;
+  height: 120px;
+  width: 120px;
+}
