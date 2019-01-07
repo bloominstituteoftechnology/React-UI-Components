@@ -4,7 +4,11 @@
 */
 
 .container {
-  max-width: 1080px;
+  max-width: 590px;
+  height: 514px;
   margin: 100px auto;
   border: 1px solid red;
+}
+*{
+  font-size: 62.5%;
 }
