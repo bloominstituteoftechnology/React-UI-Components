@@ -25,6 +25,7 @@
 .header-p{
     margin-top: 0;
     font-size: 1.4rem;
+    
 }
 .w-100{
     width: 100%
@@ -46,6 +47,7 @@
 }
 
 .title-content p{
-    font-size: 1rem;
+    font-size: 1.2rem;
     margin-right: 7px;
+    color: grey;
 }

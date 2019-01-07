@@ -15,15 +15,19 @@
     font-size: 1.4rem;
     margin-top: 0px;
     margin-bottom: 0px;
+    color: black;
+    font-weight: 600;
 
 }
 .card p{
     font-size: 1.2rem;
     margin: 7px auto;
+    color: black;
 }
 .card a{
     font-size: 1rem;
     text-decoration: none;
+    color: grey;
 }
 .card-container{
     justify-content: flex-end;

@@ -12,3 +12,7 @@
 *{
   font-size: 62.5%;
 }
+
+.react-link{
+  text-decoration: none;
+}
