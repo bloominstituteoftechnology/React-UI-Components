@@ -1,10 +1,30 @@
 .card-container {
-    padding: 15px 5px 0 57px;
+    margin: 15px 5px 0 57px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+}
+
+.card-container a {
+    text-decoration: none;
 }
 
 .card-banner {
     background-image: url("https://tk-assets.lambdaschool.com/fcd75197-7d12-46ec-bc9e-4130f34822fa_reactbackground.png");
     background-position: center center;
-    background-size: 165%;
-    height: 250px;
+    background-repeat: no-repeat;
+    background-size: 155%;
+    height: 255px;
+}
+
+.card-content {
+    padding: 17px 0 10px 15px;
+    color: black;
+}
+
+.card-title, .card-description {
+    margin-bottom: 5px;
+}
+
+.card-link {
+    color: grey;
 }
