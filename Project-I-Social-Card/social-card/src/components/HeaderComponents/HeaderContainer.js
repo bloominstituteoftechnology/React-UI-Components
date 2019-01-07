@@ -1,4 +1,17 @@
 import React from 'react';
 import './Header.css';
+import HeaderContent from "./HeaderContent";
+import  HeaderTitle from "./HeaderTitle";
+import ImageThumbnail from "./ImageThumbnail";
 
-export const HeaderContainer = () => <h1>Is this working?</h1>
+const HeaderContainer = () => {
+    return (
+        <React.Fragment>
+        <ImageThumbnail />
+        <HeaderTitle />
+        <HeaderContent />
+        </React.Fragment >
+    );
+};
+
+export default HeaderContainer;
