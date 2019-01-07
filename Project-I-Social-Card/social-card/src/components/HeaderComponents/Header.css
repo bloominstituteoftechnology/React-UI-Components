@@ -1,16 +1,23 @@
 /* All styles for your header Components live here */
 
 .header-container {
-    border: solid red 2px;
+    display: flex;
+    flex-direction: row;
+    width: 700px;
+    height: 120px;
 
 }
 
+.logo-container {
+    height: 75px;
+    width: 100px;
+}
+
 .head {
-    border: solid yellow 2px;
     display: flex;
-    flex-direction: row;
-    padding: 10px;
-    height: 50px;
+    flex-direction: column;
+    width: 500px;
+    height: 110px;
 }
 
 .head p {
@@ -24,17 +31,16 @@
 }
 
 .logo-container {
-    border: solid blue 2px;
     width: 75px;
+    height: 50px;
 }
 
 .title {
-    border: solid green 2px;
+    width: 300px;
 
 }
 
 .header-content {
-    border: solid purple 2px;
-    margin-left: 12%;
+    margin-left: 11%;
     margin-top: 0%;
 }
