@@ -4,11 +4,13 @@
 
 h1 {
   font-size: .88rem;
+  text-decoration: none;
 }
 
 p {
   line-height: 17px;
   font-size: .89 rem;
+  text-decoration: none;
 }
 
 body {

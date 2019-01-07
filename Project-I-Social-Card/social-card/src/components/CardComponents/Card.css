@@ -13,18 +13,21 @@
 }
 
 .card-content-p {
-    margin-top: -19px;
+    margin-top: 2px;
+    text-decoration: none;
 }
 
 .card-content-a{
     margin-top: -9px;
     padding-bottom: 10px;
+    text-decoration: none;
 }
 
 .card-content-a a {
     text-decoration: none;
     font-size: .88rem;
     color: #8C9ca7;
+    text-decoration: none;
 }
 
 .card-container {
