@@ -6,11 +6,10 @@ import CardBanner from "./CardBanner";
 const CardContainer=()=>{
     return(
         <div>
-            
             <CardContent />
             <CardBanner />
         </div>
-    )
+    );
 }
 
 export default CardContainer;
