@@ -1,7 +1,6 @@
 .card-container {
   max-width: 574px;
   display: flex;
-
 }
 
 .card-prof-pic {
@@ -17,6 +16,12 @@
   border-radius: 6px;
   overflow: hidden;
   padding-bottom: 10px;
+  text-decoration: none;
+}
+
+.card-main {
+  text-decoration: none;
+  color: black;
 }
 
 .card-container .banner-img {
@@ -43,7 +48,7 @@
   line-height: 18px;
 }
 
-.banner-content a {
+.banner-content .react-text {
   text-decoration: none;
   color: gray;
   font-size: 14px;

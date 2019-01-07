@@ -9,7 +9,7 @@ const CardContainer = _ => {
   return (
     <div className='card-container'>
     <img src={lambdaImg} alt="" className="card-prof-pic"/>
-      <div className="card-main">
+      <a href="https://reactjs.org/" className="card-main">
         <HeaderContainer />
         <div className='card-bottom-cont'>
           <CardBanner />
@@ -18,7 +18,7 @@ const CardContainer = _ => {
           bannerLink='reactjs.org' 
           bannerLinkHref='https://reactjs.org/' />
         </div>
-      </div>
+      </a>
     </div>
   )
 }

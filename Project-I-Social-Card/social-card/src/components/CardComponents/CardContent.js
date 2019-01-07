@@ -6,7 +6,7 @@ const CardContent = props => {
   <div className='banner-content'>
     <h3>{props.bannerTitle}</h3>
     <p>{props.bannerContent}</p>
-    <a href={props.bannerLinkHref}>{props.bannerLink}</a>
+    <p className="react-text">{props.bannerLink}</p>
   </div>
   )
 }
