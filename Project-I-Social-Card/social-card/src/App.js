@@ -5,11 +5,15 @@ import CardContainer from "./components/CardComponents/CardContainer";
 import Footer from "./components/FooterComponents/Footer";
 import logo from "./images/lambda_logo.jpg";
 
+
+var moment = require("moment");
+const postDate = moment().format("DD MMM");
+
 const profileHeader = {
   imageSource: logo,
   profileName: "Lambda School",
   profileHandle: "@LambdaSchool",
-  date: "26 Jan",
+  date: postDate,
   headerContent:
     "Let's learn React by building simple interfaces with components. Don't try to overthink it, just keep it simple and have fun. Once you feel comfortable using components you are well on your way to mastering React!"
 };
