@@ -1,0 +1,49 @@
+.symbol-container {
+  position: absolute;
+  right: 0;
+  top: 125px;
+  width: auto;
+}
+
+.symbols {
+  height: 93.2px;
+  width: 113.1px;
+  background-color: #9E0523;
+  color: white;
+  font-size: 4.3rem;
+  font-weight: 200;
+  padding-bottom: 30px;
+}
+
+
+.numbers-container {
+  display: flex;
+  width: 75%;
+  flex-flow: wrap row-reverse;
+}
+
+.numbers {
+  height: 93.4px;
+  width: 112.4px;
+  background: transparent;
+  color: #222;
+  font-size: 2.7rem;
+}
+
+.action {
+  height: 93px;
+  width: 75%;
+  background: transparent;
+  color: #222;
+  font-size: 3rem;
+
+}
+
+.bold {
+  font-weight: 600;
+  font-size: 2.5rem;
+}
+
+.thin {
+  font-weight: 200;
+}
