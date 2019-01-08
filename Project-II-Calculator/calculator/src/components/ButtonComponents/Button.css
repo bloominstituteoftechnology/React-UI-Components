@@ -1,0 +1,46 @@
+.buttonContainer--main{
+    display: flex;
+}
+
+.buttonContainer--numbers{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+}
+.calculatorBtn {
+    border: 2px gray solid;
+    height: 125px;
+    display: flex;
+    justify-content:  center;
+    align-items: center;
+    font-size: 4rem;
+    font-weight: 300;
+}
+.calculatorBtn--clear {
+    background-color: #FFFFFF;
+    font-size: 4rem;
+    text-align: center;
+    font-weight: 300;
+
+}
+
+.numberContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.calculatorBtn--number{
+    width: 146px;
+}
+
+.calculatorBtn--number-zero{
+    width: 100%;
+}
+
+.actionContainer{ 
+    width: 24.5%;
+}
+.calculatorBtn--action{
+    width: 100%;
+}
+

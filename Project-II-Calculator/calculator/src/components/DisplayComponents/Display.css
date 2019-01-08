@@ -1,0 +1,16 @@
+
+.calculatorDisplay{
+    background-color: #1F1F1F;
+    position: relative;
+    height: 100px;
+}
+
+
+.calculatorDisplay--number {
+    color: white;
+    position: absolute;
+    right: 15px;
+    top: 25%;
+    font-weight: 300;
+    font-size: 4.5rem;
+}
