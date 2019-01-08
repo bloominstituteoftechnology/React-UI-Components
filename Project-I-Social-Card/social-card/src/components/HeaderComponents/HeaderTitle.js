@@ -8,8 +8,9 @@ const HeaderTitle = () => {
     return (
         <div className="header-title-container">
             <div className="header-title" >
-                Lambda School
-                <span className="time-stamp">{timer.format('MMM Do ')}</span>
+                Lambda School 
+                <a className="lambda-link" href="#"> @LambdaSchool •</a>
+                <span className="time-stamp">{timer.format('MMM Do')}</span>
                 <HeaderContent/>
             </div>
         </div>

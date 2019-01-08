@@ -19,6 +19,13 @@
     font-weight: bold;
     padding: 0 5px;
     width: 88%;
+
+}
+
+.header-title .lambda-link {
+    text-decoration: none;
+    font-weight: 300;
+    color: rgb(119, 119, 119)
 }
 
 .header-title-container {
