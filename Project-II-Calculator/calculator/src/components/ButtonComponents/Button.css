@@ -1,0 +1,47 @@
+.padContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.number-button {
+  border: 1px solid gray;
+  height: 138px;
+  width: 148px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.operator-button {
+  border: 1px solid gray;
+  height: 138px;
+  width: 148px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #96001c;
+  color: white;
+  font-size: 84px;
+  font-weight: lighter;
+}
+
+.action-button {
+  border: 1px solid gray;
+  width: 448px;
+  height: 138px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.action-button:first-of-type {
+  font-weight: lighter;
+}
+
+/* const actions = ['÷', 'x', '-', '+', '='];
+{<p>{actions.map(action => <ActionButton action={action} />)}</p>} */
+/* {actions.map(action => <ActionButton action={action} />)} */
