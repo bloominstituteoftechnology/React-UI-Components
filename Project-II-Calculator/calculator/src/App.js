@@ -1,23 +1,50 @@
-import React from 'react';
-import './App.css';
+import React, { Component } from "react";
+import "./App.css";
+import update from "immutability-helper";
+import math from "mathjs";
+import Display from "../src/components/Display";
+import Button from "../src/components/Button";
+import Buttons from "../src/components/Buttons";
 
-const App = () => {
-  return (
-    <div>
-      <h3>Welcome to React Calculator</h3>
-      <p>
-        We have given you a starter project. You'll want to build out your
-        components in their respective files, remove this code and replace it
-        with the proper components.
-      </p>
-      <p>
-        <strong>
-          Don't forget to `default export` your components and import them here
-          inside of this file in order to make them work.
-        </strong>
-      </p>
-    </div>
-  );
-};
+class App extends Component {
+  constructor() {
+    super();
+    this.state = { operations: [] };
+  }
+
+  calculatorOperations = () => {
+    let result = this.state.operations.join("");
+    if (result) {
+      result = math.eval(result);
+      result = math.format(result, { precision: 14 });
+      result = String(result);
+      this.setState({
+        operations: [result]
+      });
+    }
+  };
+
+  handleClick = e => {
+    const value = e.target.getAttribute("date-value");
+    switch (value) {
+      case "clear":
+        this.setState({
+          operations: []
+        });
+        break;
+      case "equal":
+        this.calculatorOperations();
+        break;
+      default:
+        const newOperations = update(this.state.operations, {
+          $push: [value]
+        });
+        this.setState({
+          operations: newOperations
+        });
+        break;
+    }
+  };
+}
 
 export default App;
