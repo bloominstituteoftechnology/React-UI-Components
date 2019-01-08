@@ -10,21 +10,27 @@ body {
   margin: 0 auto;
 }
 
+.calc-display {
+  width: 91%;
+  margin-bottom: -20px;
+}
+
 
 .button-container {
   display: flex;
   width: 100%;
+  /* justify-content: flex-start; */
 
 }
 
 .main-buttons {
   display: flex;
   flex-wrap: wrap;
-  width: 100%;
+  width: 80%;
+  
 }
 
 .button-symbol-container {
-  display: flex;
-  flex-direction: column;
-  width: 40%;
+ 
+  width: 50%;
 }

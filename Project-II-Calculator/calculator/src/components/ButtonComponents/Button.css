@@ -1,16 +1,40 @@
 .default-button {
   background: whitesmoke;
-  width: 30%;
+  width: 33.3%;
   padding: 6%;
   height: auto;
   font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.default-button:active {
+  background: lightgrey;
 }
 
 
-.default-action-button {
-  width: 90%;
-  padding: 2%;
+.action-button {
+  width: 100%;
+  padding: 7%;
   background: whitesmoke;
 
   font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.action-button:active {
+  background: lightgrey;
+}
+
+
+.symbol-button {
+  background: darkred;
+  width: 100%;
+  padding: 13%;
+  /* height: auto; */
+  font-size: 1.5rem;
+  color: white;
+}
+
+.symbol-button:active {
+  background: lightgray;
 }

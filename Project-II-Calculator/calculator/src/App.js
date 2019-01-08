@@ -29,15 +29,30 @@ const symbols = [
 const App = () => {
   return (
     <div className="app">
-      <CalculatorDisplay text="Calc Display"  />
+      <div className="calc-display">
+        <CalculatorDisplay text="0" />
+      </div>
+
       <div className="button-container">
         <div className="main-buttons">
           {calcNumbers.map(button => {
             if (button.id === "clear") {
-              return <ActionButton key={button.id} text={button.symbol} />;
+              return (
+                <ActionButton
+                  key={button.id}
+                  text={button.symbol}
+                  buttonStyle="action-button"
+                />
+              );
             }
             if (button.id === 0) {
-              return <ActionButton key={button.id} text={button.symbol} />;
+              return (
+                <ActionButton
+                  key={button.id}
+                  text={button.symbol}
+                  buttonStyle="action-button"
+                />
+              );
             }
 
             return <NumberButton key={button.id} text={button.symbol} />;
@@ -46,7 +61,11 @@ const App = () => {
         <div className="button-symbol-container">
           {symbols.map(button => {
             return (
-              <NumberButton key={button.symbol.key} text={button.symbol} />
+              <NumberButton
+                key={button.symbol.id}
+                text={button.symbol}
+                buttonStyle="symbol-button"
+              />
             );
           })}
         </div>
