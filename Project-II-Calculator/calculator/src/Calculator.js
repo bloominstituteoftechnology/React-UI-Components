@@ -3,14 +3,15 @@ import "./Calculator.css";
 import NumberButton from "./components/ButtonComponents/NumberButton";
 import ActionButton from "./components/ButtonComponents/ActionButton";
 import CalculatorDisplay from "./components/DisplayComponents/CalculatorDisplay";
-const Calculator = () => {
+
+function Calculator() {
   return (
     <div className="Calculator">
       <div className="row">
         <CalculatorDisplay buttonStyle="CalculatorDisplay" text="0" />
       </div>
       <div className="row">
-        <ActionButton buttonStyle="" text="clear" />
+        <ActionButton buttonStyle="actionBtn" text="clear" />
         <NumberButton buttonStyle="operator" text="÷" />
       </div>
       <div className="row">
@@ -32,11 +33,11 @@ const Calculator = () => {
         <NumberButton buttonStyle="operator" text="+" />
       </div>
       <div className="row">
-        <ActionButton buttonStyle="" text="0" />
+        <ActionButton buttonStyle="actionBtn" text="0" />
         <NumberButton buttonStyle="operator" text="=" />
       </div>
     </div>
   );
-};
+}
 
 export default Calculator;
