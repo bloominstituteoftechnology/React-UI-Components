@@ -3,7 +3,6 @@ import './App.css';
 import CalculatorDisplay from './components/DisplayComponents/CalculatorDisplay'
 import ActionButton from './components/ButtonComponents/ActionButton';
 import NumberButton from './components/ButtonComponents/NumberButton';
-import * as math from 'math.js';
 
 class App extends React.Component {
   constructor(){
