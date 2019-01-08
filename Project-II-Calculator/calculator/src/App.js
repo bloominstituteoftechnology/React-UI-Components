@@ -20,8 +20,36 @@ class App extends React.Component {
 
   handleClick = event => {
     console.log(event.target.getAttribute('data-value'));
+    const operation = event.target.getAttribute('data-value');
 
+    switch(operation) {
+      case 'clear':
+        this.setState({
+          operations: [],
+        });
+        break;
 
+      case '=':
+        this.calculate();
+        break;
+
+      default:
+        this.setState({
+          operations: [
+            ...this.state.operations,
+            operation
+          ]
+        });
+    }
+  }
+
+  calculate = () => {
+    console.log(this.state.operations.join(''));
+    let result = this.state.operations.join('');
+
+    if (result) {result = eval(result)};
+
+    console.log(result);
   }
 
   render() {
