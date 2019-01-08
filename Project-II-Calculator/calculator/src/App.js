@@ -9,14 +9,34 @@ const math = require('mathjs');
 
 
 const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
-const operators = ["÷", "×", "-", "+", "="];
+const operators = [{
+  display: "÷",
+  operation: "/"
+  }, 
+  {
+  display: "×",
+  operation: "*"
+  }, 
+  {
+  display: "-",
+  operation: "-"
+  }, 
+  {
+  display: "+",
+  operation: "+"
+  }, 
+  {
+  display: "=",
+  operation: "="
+  }];
+
 
 class App extends React.Component {
   constructor() {
     super();
     this.state = {
       operations: [],
-      result: 0
+      result: '0'
     }
   }
 
@@ -28,6 +48,7 @@ class App extends React.Component {
       case 'clear':
         this.setState({
           operations: [],
+          result: '0'
         });
         break;
 
@@ -40,7 +61,8 @@ class App extends React.Component {
           operations: [
             ...this.state.operations,
             operation
-          ]
+          ],
+          result: operation
         });
     }
   }
@@ -49,7 +71,12 @@ class App extends React.Component {
     console.log(this.state.operations.join(''));
     let result = this.state.operations.join('');
 
-    if (result) {result = math.eval(result)};
+    if (result) {
+      result = math.eval(result).toString();
+      this.setState({
+        result: result
+      })
+    };
 
     console.log(result);
   }
@@ -80,10 +107,10 @@ class App extends React.Component {
           <div className='symbols-container'>
             {operators.map(operator => {
               return <NumberButton
-                text={operator}
+                text={operator.display}
                 className='btn btn-operator'
-                key={operator}
-                dataValue={operator}
+                key={operator.display}
+                dataValue={operator.operation}
                 handleClick={this.handleClick} />
             })}
           </div>
