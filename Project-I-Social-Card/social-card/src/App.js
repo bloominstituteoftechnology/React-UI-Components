@@ -5,6 +5,7 @@ import './App.css';
 import HeaderContainer from './components/HeaderComponents/HeaderContainer';
 import CardContainer from './components/CardComponents/CardContainer';
 import Footer from './components/FooterComponents/Footer';
+import CommentContainer from './components/CommentComponents/CommentContainer';
 
 class App extends Component {
   constructor() {
@@ -15,11 +16,11 @@ class App extends Component {
     };
   }
 
-  comment() {
-    window.location.href = "https://twitter.com/login?lang=en";
+  comment = () => {
+    this.setState(prevState => ({showComment: !prevState.showComment}));
   }
 
-  retweet() {
+  retweet = () => {
     window.location.href = "https://twitter.com/login?lang=en";
   }
 
@@ -28,7 +29,7 @@ class App extends Component {
     localStorage.setItem('hasHearted', this.state.hasHearted);
   }
 
-  message() {
+  message = () => {
     window.location.href = "https://twitter.com/login?lang=en";
   }
 
@@ -43,6 +44,8 @@ class App extends Component {
           retweet={this.retweet}
           heart={this.heart}
           message={this.message} />
+        <CommentContainer
+          showComment={this.state.showComment} />
       </div>
     );
   }

@@ -1,0 +1,15 @@
+@import '../../variables.css';
+
+.card__comment {
+    width: 88%;
+    margin: 20px 1.5% 20px auto;
+}
+
+.card__comment--hidden {
+    display: none;
+}
+
+.card__comment__textarea {
+    width: 100%;
+    height: auto;
+}
