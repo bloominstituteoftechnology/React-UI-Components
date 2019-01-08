@@ -1,0 +1,6 @@
+.display {
+    background-color: black;
+    color: white;
+    border: solid 2px gray;
+    justify-content: right;
+}
