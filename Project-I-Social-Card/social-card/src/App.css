@@ -3,5 +3,8 @@
   IF you'd like to attempt to use less you'll have to research how to do this with Create React App
 */
 .App{
- font-size: 1.2rem;
+  margin: 0 auto;
+  height: 500px;
+  width: 600px;
+  font-size: 1.2rem;
 }
