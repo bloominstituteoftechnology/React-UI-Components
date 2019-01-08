@@ -1,0 +1,16 @@
+.display {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 500px;
+    height: 125px;
+    margin-right: 10px;
+    font-size: 75px;
+    font-weight: lighter;
+    color: white;
+    background: black;
+}
+
+.display p {
+    margin-right: 15px;
+}
