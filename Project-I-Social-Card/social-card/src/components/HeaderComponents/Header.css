@@ -1,1 +1,41 @@
 /* All styles for your header Components live here */
+.head-info {
+    display: flex;
+    align-items: baseline;
+    margin-bottom: -2%;
+    
+}
+
+.bottom-info p {
+    width: 500px;
+    font-size: .9rem;
+    margin-top: -10px;
+}
+
+
+.other-info p {
+    width: 50%;
+}
+
+.head-info h4 {
+    padding-right: 5px;
+    font-weight: bold;
+    font-size: .9rem;
+}
+
+.head-info p {
+    font-weight: lighter;
+    color: grey;
+    font-size: .8rem;
+}
+
+.logo img {
+    width: 50px;
+    margin-top: 30%;
+    margin-right: 15px;
+}
+
+.top-card {
+    display: flex;
+}
+
