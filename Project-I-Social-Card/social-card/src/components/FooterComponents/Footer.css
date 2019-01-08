@@ -1,0 +1,11 @@
+.Footer {
+    padding-left: 130px;
+    height: 40px;
+    position: absolute;
+    bottom: 0;
+}
+
+.Footer i {
+    margin-right: 8.2rem;
+    font-size: 2rem;
+}
