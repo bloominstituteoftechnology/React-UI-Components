@@ -1,1 +1,38 @@
 /* All styles for your header Components live here */
+
+.header-title-main {
+    display: inline-block;
+    margin-left: 2%;
+}
+
+.header-title {
+    font-size: 1rem;
+    display: inline-block;
+}
+
+.header-content {
+    padding: 0px;
+    margin: 0px;
+    font-size: 0.9rem;
+    padding-bottom: 2%;
+}
+
+.image-container {
+    padding-top: 2%;
+    display: inline-block;
+    width: 30%;
+    height: 60%
+}
+
+.header-handle {
+    color: gray;
+    font-size: .8rem;
+    display: inline-block;
+    padding-left: 2%;
+}
+
+.header-container {
+    display: flex;
+    justify-content: center;
+    max-width: 500px;
+}
