@@ -2,23 +2,19 @@
     box-sizing: border-box;
 } */
 
-.app {
-    width: 437px;
-    margin: auto;
-    display: flex;
-}
 
 .red {
-    background: red;
+    background: #A0001E;
     margin: 0;
+    color: white;
 }
 
 .reg-button {
-    padding: 30px 40px;
+    padding: 30px 41.7px;
     border: 1px solid gray;
-    font-weight: bold;
     margin: 0;
     font-size: 3rem;
+    text-align: center;
 }
 
 .action-button {
@@ -28,7 +24,16 @@
     text-align: center;
 }
 
-.numbers {
+.one-nine {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
+    font-weight: bold;
 }
+
+.numbers {
+    font-weight: bold;
+}
+
+/* .display {
+
+} */
