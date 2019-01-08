@@ -10,11 +10,11 @@ export const Footer = () =>
       </div>
 
       <div className = "footer">
-      <span className="fas fa-retweet"></span><em>6</em>
+      <span className="fas fa-retweet"></span><p>6</p>
       </div>
 
       <div className = "footer">
-      <span className="far fa-heart"></span><em>4</em>
+      <span className="far fa-heart"></span><p>4</p>
       </div>
 
       <div className = "footer">

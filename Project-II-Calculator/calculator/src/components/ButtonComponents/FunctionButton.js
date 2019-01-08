@@ -1,10 +1,7 @@
 import React from "react";
 import "./Button.css";
 
-const FunctionButton = props => {
-  return (
+export const FunctionButton = (props) => 
+  
     <button className={props.buttonStyle}>{props.text}</button>
-  );
-};
-
-export default FunctionButton;
+;

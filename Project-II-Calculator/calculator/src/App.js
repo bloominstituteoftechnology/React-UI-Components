@@ -1,8 +1,8 @@
 import React from "react";
-import CalculatorDisplay from "./components/DisplayComponents/CalculatorDisplay";
-import ActionButton from "./components/ButtonComponents/ActionButton";
-import NumberButton from "./components/ButtonComponents/NumberButton";
-import FunctionButton from "./components/ButtonComponents/FunctionButton";
+import { CalculatorDisplay } from "./components/DisplayComponents/CalculatorDisplay";
+import { ActionButton } from "./components/ButtonComponents/ActionButton";
+import { NumberButton } from "./components/ButtonComponents/NumberButton";
+import { FunctionButton } from "./components/ButtonComponents/FunctionButton";
 import "./App.css";
 
 
@@ -10,10 +10,17 @@ const numberDisplay = ['7', '8', '9', '4', '5', '6', '1', '2', '3'];
 const functionDisplay = ["÷", "×", "–", "+", "="]
 
 class App extends React.Component {
+  constructor() {
+    super(); 
+    this.state = {
+      display: 22,
+      input: ""
+    };
+  }
   render() {
   return (
     <div className="container">
-      <CalculatorDisplay calcDisplay='0' />
+      <CalculatorDisplay calcDisplay={this.state.display} />
       <div className="button-container">
         <ActionButton buttonStyle="action-button" actionDisplay='clear' />
         <div className="number-container">
