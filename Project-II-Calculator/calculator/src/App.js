@@ -11,30 +11,30 @@ const App = () => {
     <div className="container-wrapper">
       <CalculatorDisplay />
       <RowContainer>
-        <ActionButton className="action-button" text="clear" />
-        <NumberButton background="functional-btn" text="÷" />
+        <ActionButton text="clear" />
+        <NumberButton buttonStyle="functional-btn" text="÷" />
       </RowContainer>
       <RowContainer>
         <NumberButton text="7" />
         <NumberButton text="8" />
         <NumberButton text="9" />
-        <NumberButton text="x" />
+        <NumberButton buttonStyle="functional-btn" text="x" />
       </RowContainer>
       <RowContainer>
         <NumberButton text="4" />
         <NumberButton text="5" />
         <NumberButton text="6" />
-        <NumberButton text="-" />
+        <NumberButton buttonStyle="functional-btn" text="-" />
       </RowContainer>
       <RowContainer>
         <NumberButton text="1" />
         <NumberButton text="2" />
         <NumberButton text="3" />
-        <NumberButton text="+" />
+        <NumberButton buttonStyle="functional-btn" text="+" />
       </RowContainer>
       <RowContainer>
-        <ActionButton className="action-button" text="0" />
-        <NumberButton background="functional-btn" text="=" />
+        <ActionButton text="0" />
+        <NumberButton buttonStyle="functional-btn" text="=" />
       </RowContainer>
     </div>
   );
