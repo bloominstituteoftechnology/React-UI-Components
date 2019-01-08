@@ -1,0 +1,45 @@
+.allBtns {
+    display: flex;
+}
+
+.numBtns {
+    width: 100%;
+}
+
+.bigBtn {
+    width: 100%;
+    background-color: white;
+    border: 1px solid grey;
+    font-size: 4.5rem;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.smallButtons {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.smallbtn {
+    background-color: white;
+    text-align: center;
+    font-size: 4.5rem;
+    font-weight: bold;
+    border: 1px solid grey;
+    width: 33.3%;
+    padding: 21px 0;
+}
+
+.zero {
+    font-weight: bold;
+}
+
+.mathBtn {
+    border: 1px solid grey;
+    width: 111px;
+    padding: 14px 0;
+    text-align: center;
+    font-size: 6.5rem;
+    background-color: #A01921;
+    color: white;
+}
