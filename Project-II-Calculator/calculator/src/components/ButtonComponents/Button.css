@@ -1,0 +1,25 @@
+.digit, .action{
+    width: 25%;
+    font-size: 4rem;
+    padding: 1.5rem;
+    border-top: 2px solid gray;
+    border-left: 2px solid gray;
+}
+
+.digit {
+    color: black;
+    background-color: white;
+    font-weight: bold; 
+}
+
+.action {
+    color: white;
+    background-color: #940115;
+}
+
+.lg{
+    width: 75%;
+    color: black;
+    background-color: white;
+}
+
