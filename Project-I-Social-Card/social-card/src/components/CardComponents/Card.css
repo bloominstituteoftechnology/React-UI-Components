@@ -1,1 +1,49 @@
-/* All styles for your Card Components live here */
+/* CardBanner styles */
+
+.card-banner {
+    width: 500px;
+    height: auto;
+    border-radius: inherit;
+}
+
+/* CardContent styles */
+
+.card-content-title {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    color: black;
+    margin: 0 0 0.5rem;
+}
+
+.card-content-body {
+    text-decoration: none;
+    font-size: 12px;
+    color: black;
+    margin: 0 0 0.5rem;
+}
+
+.card-content-domain {
+    text-decoration: none;
+    font-size: 12px;
+    color: gray;
+    margin: 0 0 0.5rem;
+}
+
+.card-content {
+    text-decoration: none;
+    width: 100%;
+    padding: 0.75rem;
+}
+
+/* CardContainer styles */
+
+.card {
+    display: inline-flex;
+    flex-direction: column;
+    width: 500px;
+    margin: 0 0 0 62px;
+    text-decoration: none;
+    border: 1px solid lightgrey;
+    border-radius: 4px;
+}

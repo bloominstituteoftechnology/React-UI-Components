@@ -1,1 +1,57 @@
-/* All styles for your header Components live here */
+/* ImageThumbnail styles */
+
+.image-thumbnail {
+    max-width: 50px;
+    height: auto;
+    margin: 0.5rem 0.125rem 0 0;
+}
+
+/* HeaderTitle styles */
+
+.header-title-name {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+    margin-right: 0.5rem;
+}
+
+.header-title-handle {
+    display: inline-block;
+    text-decoration: none;
+    color: gray;
+    font-weight: lighter;
+    font-size: 12px;
+    margin-right: 0.5rem;
+}
+
+.header-title-date {
+    display: inline-block;
+    color: gray;
+    font-weight: lighter;
+    font-size: 12px;
+}
+
+/* HeaderContent styles */
+
+.header-content {
+    margin-top: 0;
+    font-size: 12px;
+}
+
+/* HeaderContainer styles */
+
+.header-textcontainer {
+    display: inline-flex;
+    flex-direction: column;
+    width: 512px;
+    margin: 0 0.75rem;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 590px;
+}

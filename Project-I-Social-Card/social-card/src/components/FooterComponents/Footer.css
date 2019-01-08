@@ -1,0 +1,26 @@
+/* FooterButton styles */
+
+.footer-button {
+    margin: 0 1.5rem 0 0;
+    background: unset;
+    border: unset;
+    display: inline-flex;
+}
+
+/* Footer styles */
+
+.footer {
+    width: 500px;
+    height: 40px;
+    margin: 0 0 0 62px;
+    display: flex;
+    align-items: center;
+}
+
+.footer-button * {
+    margin-right: 0.75rem;
+}
+
+.footer-button-counter {
+    margin-top: -0.2rem;
+}
