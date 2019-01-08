@@ -3,3 +3,28 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+
+.app {
+  width: 30%;
+  margin: 0 auto;
+}
+
+
+.button-container {
+  display: flex;
+  width: 100%;
+
+}
+
+.main-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.button-symbol-container {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}

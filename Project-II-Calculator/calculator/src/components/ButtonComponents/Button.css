@@ -1,0 +1,16 @@
+.default-button {
+  background: whitesmoke;
+  width: 30%;
+  padding: 6%;
+  height: auto;
+  font-size: 1.5rem;
+}
+
+
+.default-action-button {
+  width: 90%;
+  padding: 2%;
+  background: whitesmoke;
+
+  font-size: 1.5rem;
+}
