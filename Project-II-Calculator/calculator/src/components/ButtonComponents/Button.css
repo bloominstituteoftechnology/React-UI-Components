@@ -1,0 +1,24 @@
+@import '../../variables.css';
+
+.large-button {
+    grid-column-start: span 3;
+    grid-row-start: span 1;
+    text-align: center;
+    font-size: 4rem;
+    padding: 25px;
+    outline: 1px solid var(--calc-outline-color);
+}
+
+.small-button {
+    grid-column-start: span 1;
+    grid-row-start: span 1;
+    text-align: center;
+    font-size: 4rem;
+    padding: 25px;
+    outline: 1px solid var(--calc-outline-color);
+}
+
+.operator-button {
+    background-color: var(--calc-operator-btn-bg-color);
+    color: var(--calc-operator-btn-font-color);
+}

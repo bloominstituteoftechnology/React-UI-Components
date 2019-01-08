@@ -1,9 +1,9 @@
 @import '../../variables.css';
 
-.calculator__display {
+.display-area {
     grid-column-start: span 4;
     width: 100%;
-    height: 125px;
     background-color: var(--calc-display-bg-color);
     color: var(--calc-display-font-color);
+    outline: 1px solid var(--calc-outline-color);
 }

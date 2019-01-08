@@ -3,9 +3,12 @@
     --calc-outline-color: var(--silver);
     --calc-display-bg-color: var(--mine-shaft);
     --calc-display-font-color: var(--white);
+    --calc-operator-btn-bg-color: var(--carmine);
+    --calc-operator-btn-font-color: var(--white);
 
     /* Color values */
     --silver: #C0C0C0;
     --mine-shaft: #222222;
     --white: #FFFFFF;
+    --carmine: #A0001E;
 }
