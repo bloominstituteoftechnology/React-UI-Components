@@ -1,0 +1,14 @@
+.display {
+    width: 450px;
+    height: 120px;
+    background: black;
+    color: white;
+    font-size: 75px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.display p {
+    align-self: center;
+    padding-right: 10px;
+}
