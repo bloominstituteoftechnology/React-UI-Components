@@ -1,0 +1,10 @@
+.calc-display{
+    height: 100px;
+    background: black;
+    display:flex; 
+    justify-content: flex-end;
+    align-items: center;
+    color: white;
+    font-size: 6.5rem;
+    font-weight: 100;
+}
