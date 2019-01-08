@@ -4,6 +4,7 @@
     width:60px;
     border-radius: 30%;
     padding:10px;
+    margin-top:6px;
 }
 .header-container {
     display: flex;

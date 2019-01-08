@@ -1,8 +1,12 @@
 /* All styles for your Card Components live here */
 .card-container{
-    text-emphasis:  none;
     padding-left: 50px;
-    font-size:1.2rem;
+    font-size:1.4rem;
+    font:black;
+    border: 1px dotted gray;
+   
 }
 
-
+.link {
+    text-decoration: none;
+}
