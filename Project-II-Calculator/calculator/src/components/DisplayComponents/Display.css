@@ -1,0 +1,8 @@
+.calcDisplay {
+    border: 2px solid grey;
+    width: 455px;
+    height: 128px;
+    font-size: 7rem;
+    text-align: end;
+    padding: 30px 10px;
+}
