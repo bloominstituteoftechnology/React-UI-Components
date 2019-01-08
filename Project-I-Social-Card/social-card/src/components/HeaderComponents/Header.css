@@ -1,1 +1,37 @@
 /* All styles for your header Components live here */
+.logo{
+    height: 60px;
+    width:60px;
+    border-radius: 30%;
+    padding:10px;
+    margin-top:6px;
+}
+.header-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.header-title-container{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 0;
+}
+
+.header-title-container h1 {
+    font-size:1.6rem;
+}
+
+.header-container p{
+    margin-top: -5px;
+    font-size: 1.4rem;
+}
+.header-r{
+    display:flex;
+    flex-direction:column;
+    padding-left: 2px;
+    padding-top: 3px;
+}
+ .handle{
+    padding-left:8px;
+}
