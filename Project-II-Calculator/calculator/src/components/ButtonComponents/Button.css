@@ -1,18 +1,46 @@
 .numbers{
     display: flex;
     flex-wrap: wrap;
+    width: 300px;
     justify-content: center;
-    width: 200px;
-    border: 1px solid red;
+    justify-content: flex-start;
+}
+.number{
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+}
+.triple{
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+
+}
+.action{
+    width: 100px;
+    background-color: red;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+
 }
 button{
     display: flex;
     padding: 15px;
     background-color: white;
     border: 1px solid black;
-    margin: 5px;
+    /* margin: 5px; */
     font-size: 20px;
 }
-button:last-child{
+.buttonContainer{
+    display: flex;
+    flex-direction: row;
+}
+.clear{
     padding: 15px 70px;
+}
+.zero{
+    padding: 15px 70px;
+
 }
