@@ -13,6 +13,7 @@ const ButtonContainer = props => {
               number={number}
               key={"number" + index}
               className={"number__button"}
+              clicked={props.clicked}
             />
           );
         })}
@@ -24,6 +25,7 @@ const ButtonContainer = props => {
               operator={operator}
               key={"operator" + index}
               className={"operator__button"}
+              clicked={props.clicked}
             />
           );
         })}

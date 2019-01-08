@@ -5,4 +5,13 @@
   background: #1f1f1f;
   border: 1px solid #8c8c8c;
   color: white;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.display__text {
+  font-size: 4.5rem;
+  font-weight: 300;
+  margin: 0 3% 20px 0;
 }

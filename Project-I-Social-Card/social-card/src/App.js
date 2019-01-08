@@ -15,8 +15,21 @@ class App extends React.Component {
     };
   }
 
+  // componentDidMount = () => {
+  //   const initialShare = 6;
+  //   const initialShareClicked = false;
+  //   const initialLike = 4;
+  //   const initialLikeClicked = false;
+
+  //   // if (localStorage.get())
+  // };
+
   setLocalStorage = () => {
-    // localStorage
+    localStorage.clear();
+    localStorage.setItem("shareClicked", this.state.shareClicked);
+    localStorage.setItem("likeClicked", this.state.likeClicked);
+    localStorage.setItem("shareCount", this.state.shareCount);
+    localStorage.setItem("likeCount", this.state.likeCount);
   };
 
   shareClicked = event => {
@@ -33,6 +46,7 @@ class App extends React.Component {
         shareCount: tempNum
       });
     }
+    this.setLocalStorage();
   };
 
   likeClicked = event => {
@@ -49,6 +63,7 @@ class App extends React.Component {
         likeCount: tempNum
       });
     }
+    this.setLocalStorage();
   };
 
   render() {
