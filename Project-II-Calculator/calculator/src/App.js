@@ -13,8 +13,15 @@ class App extends React.Component {
   constructor() {
     super();
     this.state = {
+      operations: [],
       result: 0
     }
+  }
+
+  handleClick = event => {
+    console.log(event.target.getAttribute('data-value'));
+
+
   }
 
   render() {
@@ -23,21 +30,31 @@ class App extends React.Component {
         <CalculatorDisplay result={this.state.result} />
         <div className='buttons-container'>
           <div className='numbers-container'>
-            <ActionButton text='clear' />
+            <ActionButton 
+              text='clear'
+              dataValue='clear'
+              handleClick={this.handleClick} />
             {numbers.map(number => {
               return <NumberButton
                 text={number}
                 className='btn btn-number'
-                key={number} />
+                key={number} 
+                dataValue={number}
+                handleClick={this.handleClick} />
             })}
-            <ActionButton text='0' />
+            <ActionButton 
+              text='0'
+              dataValue='0'
+              handleClick={this.handleClick} />
           </div>
           <div className='symbols-container'>
             {operators.map(operator => {
               return <NumberButton
                 text={operator}
                 className='btn btn-operator'
-                key={operator} />
+                key={operator}
+                dataValue={operator}
+                handleClick={this.handleClick} />
             })}
           </div>
         </div>
