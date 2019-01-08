@@ -3,7 +3,7 @@
 .calculator {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 125px repeat(5, 1fr);
+    grid-template-rows: 125px repeat(5, 94.55px);
     width: 100%;
     max-width: 450px;
     outline: 1px solid var(--calculator-outline-color);

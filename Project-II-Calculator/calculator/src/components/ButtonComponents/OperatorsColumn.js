@@ -5,7 +5,7 @@ import './Button.css';
 import OperatorButton from "./OperatorButton";
 
 const OperatorsColumn = props => {
-  const operators = ["+", "−", "×", "÷", "="];
+  const operators = ["÷", "×", "−", "+", "="];
 
   return (
     <div className="operators-column">

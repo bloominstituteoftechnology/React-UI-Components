@@ -4,6 +4,10 @@
     grid-column-start: span 4;
     width: 100%;
     background-color: var(--calc-display-bg-color);
+    text-align: right;
+    font-size: 7rem;
+    font-weight: 400;
     color: var(--calc-display-font-color);
+    padding: 25px;
     outline: 1px solid var(--calc-outline-color);
 }
