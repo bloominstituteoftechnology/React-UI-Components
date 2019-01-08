@@ -8,12 +8,16 @@ import ImageThumbnail from './ImageThumbnail';
 
 const HeaderContainer = () => {
     return (
-        <div>
+        <div className="whole-section">
             <ImageThumbnail />
-
+        <div>
             <HeaderTitle />
+        
             <HeaderContent />
+
         </div>
+        
+        </div> // whole div 
         
     )
 }

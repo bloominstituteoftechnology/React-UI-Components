@@ -1,1 +1,22 @@
 /* All styles for your header Components live here */
+
+
+.whole-section {
+    display: flex;
+    border: 2px solid red;
+}
+
+
+.header-title {
+    display:flex;
+    align-items: center;
+    padding: 10px 0;
+
+}
+
+h2{
+    color: gray;
+}
+
+
+
