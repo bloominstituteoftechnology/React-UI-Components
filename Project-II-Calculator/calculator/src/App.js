@@ -15,7 +15,7 @@ const App = () => {
       <CalculatorDisplay />
       <div className='numbers-container'>
         <ActionButton text='clear' />
-        {numbers.map(number => {return <NumberButton text={number} className='btn-number'/>})}
+        {numbers.map(number => {return <NumberButton text={number} className='btn-number' />})}
         <ActionButton text='0' />
       </div>
       <div className='symbols-container'>

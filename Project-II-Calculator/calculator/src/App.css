@@ -1,0 +1,5 @@
+.calculator-container {
+    border: 1px solid black;
+    max-width: 450px;
+    margin: 0 auto;
+}
