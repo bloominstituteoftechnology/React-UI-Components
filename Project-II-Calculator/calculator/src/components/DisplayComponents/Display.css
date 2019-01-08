@@ -1,0 +1,16 @@
+.display{
+    width: 28.33rem;
+    height: 7.8rem;
+    text-align: right;
+    font-size: 2.8rem;
+    background-color: black;
+  
+  }
+  
+  .display h2{
+    margin-right: 0.9rem;
+    margin-top: 0;
+    padding-top: 1.8rem;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+  }
