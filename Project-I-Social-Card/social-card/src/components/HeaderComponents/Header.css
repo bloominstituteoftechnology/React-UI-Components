@@ -1,6 +1,6 @@
 /* All styles for your header Components live here */
 .header-container {
-  border-bottom: 1px solid lightgrey;
+  /* border-bottom: 1px solid lightgrey; */
   display: flex;
   padding-top: 10px;
 }

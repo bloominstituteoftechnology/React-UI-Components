@@ -164,5 +164,5 @@ p {
 #root {
   max-width: 700px;
   margin: 0 auto;
-  border: 1px solid lightgrey;
+  /* border: 1px solid lightgrey; */
 }

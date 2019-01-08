@@ -1,0 +1,20 @@
+.social-icons {
+  margin-left: 100px;
+  font-size: 18px;
+  padding: 10px;
+  display: flex;
+  color: grey;
+}
+
+.social-icon-count {
+  width: 100px;
+  cursor: pointer;
+}
+
+.social-icon-count:hover {
+  color: blue;
+}
+
+.social-count {
+  margin-left: 10px;
+}
