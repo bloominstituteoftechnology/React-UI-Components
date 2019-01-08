@@ -6,8 +6,7 @@ const HeadTitle = () => {
   return (
     <div className='headTitle'>
       <h2>Lambda School</h2>
-      <p>@LambdaSchool</p>
-      <p>{timeStamp}</p>
+      <p>@LambdaSchool * 07 Jan.</p>
     </div>
   );
 }

@@ -1,1 +1,13 @@
 /* All styles for your Card Components live here */
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding-right: 10px;
+}
+
+.cardBanner {
+  max-width: 500px;
+  width: 100%;
+  height: auto
+}

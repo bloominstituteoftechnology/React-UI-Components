@@ -1,5 +1,6 @@
 html {
   font-size: 62.5%;
+  box-sizing: border-box;
 }
 
 body {
@@ -9,5 +10,4 @@ body {
   padding: 0.4rem;
   font-family: sans-serif;
   font-size: 1.6rem;
-  box-sizing: border-box;
 }

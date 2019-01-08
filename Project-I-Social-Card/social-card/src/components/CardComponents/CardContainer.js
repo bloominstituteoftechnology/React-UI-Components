@@ -5,7 +5,10 @@ import CardContent from './CardContent';
 
 const Card = () => {
   console.log('Code me, Disney.');
-  return <div></div>
+  return <div className='card'>
+    <CardBanner />
+    <CardContent />
+  </div>
 }
 
 export default Card;

@@ -1,4 +1,9 @@
 /* All styles for your header Components live here */
+
+
+
+
+
 .header {
   display: flex;
   padding: 10px;
@@ -9,10 +14,23 @@
   height: 50px;
 }
 
-.headContent {
-  border: 1px solid black;
-}
-
 .headTitle {
   display: flex;
+}
+
+.headTitle h2 {
+  font-size: 1.4rem;
+  margin: 0;
+  padding: 0 10px;
+}
+
+.headTitle p {
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.headContentText {
+  margin: 0;
+  padding: 10px;
+  font-size: 1.4rem;
 }
