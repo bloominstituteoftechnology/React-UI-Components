@@ -7,12 +7,13 @@
 }
 
 .calc-wrapper {
-    width: 500px;
+    width: 30%;
     height: 600px;
 }
 
 .row {
     display: flex;
+    height: 100px;
     /* width: 100%; */
 }
 
@@ -20,9 +21,7 @@
     display: flex;
 }
 
-.last-row .zero {
-    border: none;
-}
+
 
 
 

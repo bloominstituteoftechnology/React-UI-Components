@@ -35,7 +35,7 @@ class App extends Component {
                   <Button handleClick={this.addToInput}>7</Button>
                   <Button handleClick={this.addToInput}>8</Button>
                   <Button handleClick={this.addToInput}>9</Button>
-                  <Button handleClick={this.addToInput}>X</Button>
+                  <Button handleClick={this.addToInput}>*</Button>
                 </div>
                 <div className="row">
                   <Button handleClick={this.addToInput}>4</Button>

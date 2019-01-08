@@ -1,12 +1,17 @@
 .wrapper {
     display: flex;
-    height: 4em;
+    height: 100px;
     justify-content: center;
     align-items: center;
     background-color: white;
     color: black;
     border: 1px solid black;
     width: 25%;
+    font-weight: bold;
+    font-size: 60px;
+    
+    
+    
     /* width: 124px; */
 }
 
@@ -16,18 +21,20 @@
 }
 
 .input {
-    height: 4em;
+    height: 100px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
     background-color: black;
     color: white;
-    padding: 2.5em;
+    padding-right: 5%;
     border: black;
+    font-size: 60px;
+    
 }
 
 .action-button {
-    height: 4em;
+    height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -36,16 +43,22 @@
     /* flex: 1; */
     width: 75%;
     border: 1px solid black;
+    font-size: 60px;
+    font-weight: lighter;
+    
 }
 
 .button-wrapper {
     display: flex;
-    height: 4em;
+    height: 100px;
     justify-content: center;
     align-items: center;
     background-color: white;
     color: black;
     border: 1px solid black;
     width: 75%;
+    font-size: 60px;
+    font-weight: bold;
+    
     /* width: 124px; */
 }
