@@ -8,13 +8,23 @@ const ButtonContainer = props => {
     <div className="buttons__container">
       <div className="number__container">
         {props.numbers.map((number, index) => {
-          return <NumberButton number={number} key={"number" + index} />;
+          return (
+            <NumberButton
+              number={number}
+              key={"number" + index}
+              className={"number__button"}
+            />
+          );
         })}
       </div>
       <div className="operator__container">
         {props.operators.map((operator, index) => {
           return (
-            <OperatorButtons operator={operator} key={"operator" + index} />
+            <OperatorButtons
+              operator={operator}
+              key={"operator" + index}
+              className={"operator__button"}
+            />
           );
         })}
       </div>

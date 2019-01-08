@@ -5,7 +5,7 @@ const NumberButton = props => {
   return (
     <button
       name={props.number}
-      className={`${props.number}__button number__button`}
+      className={`${props.number}__button ${props.className}`}
     >
       {props.number}
     </button>

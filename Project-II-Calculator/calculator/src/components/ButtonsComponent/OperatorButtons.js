@@ -3,7 +3,7 @@ import "./Button.css";
 
 const OperatorButton = props => {
   return (
-    <button name={props.operator} className="operator__button">
+    <button name={props.operator} className={props.className}>
       {props.operator}
     </button>
   );
