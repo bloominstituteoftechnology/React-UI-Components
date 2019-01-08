@@ -3,6 +3,7 @@ import './Display.css';
 import ShapeSquare from './ShapeSquare';
 import RectangleShape from './RectangleShape';
 import RectoSquareShape from './RectoSquareShape';
+import NumberButton from "../ButtonComponents/NumberButton"
 
 
 const CalculatorDisplay =()=>{
@@ -13,14 +14,10 @@ const CalculatorDisplay =()=>{
         symbols:["+","X","/","=","-"]
         }
 
-    
-    
-    function switchStyle(variable){
-        return variable.backgroundColor="red";
-    }
-
     return (
         <div className="Display">
+
+                <NumberButton style={{color:"white",marginBottom:"10%"}} /> 0
                 <RectangleShape digit={data.numbers[0]}/>
                     <div style={{display:"flex"}}>
                     <RectoSquareShape name="clear"/>

@@ -4,7 +4,7 @@ import './Button.css';
 
 const NumberButton = (props) =>{
     return (
-            <h3>{props.number}</h3>
+            <h3 style={{color:"black"}}>The Number is :{props.number}</h3>
     )
 }
 export default NumberButton;
