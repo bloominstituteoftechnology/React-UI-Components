@@ -1,0 +1,78 @@
+.button-container{
+   display: flex;
+    width:100%;
+    
+    
+}
+.number-button{
+    display: inline-block;
+    background: white;
+}
+.row{
+    display: flex;
+}
+
+.clear{
+    color: red;
+}
+
+.clear button{
+    width: 236px;
+    height: 56px;
+    background: white;
+    font-size: 22px;
+}
+
+.divide button{
+    width: 67px;
+    height: 56px;
+    background: red;
+    color: white;
+    font-size: 22px;
+}
+.number-button{
+    width: 25px;
+    width: 78.5px;
+    height: 57px;
+    color: black;
+    font-size: 22px;
+
+}
+.ex button{
+    width: 67px;
+    height: 57px;
+    background: red;
+    color: white;
+    font-size: 22px;
+}
+.minus button{
+    width: 67px;
+    height: 57px;
+    background: red;
+    color: white;
+    font-size: 22px;
+
+}
+.plus button{
+    width: 67px;
+    height: 57px;
+    background: red;
+    color: white;
+    font-size: 22px;
+
+}
+.zero button{
+    width: 236px;
+    height: 56px;
+    background: white;
+    font-size: 22px;
+
+}
+.equal button{
+    width: 67px;
+    height: 57px;
+    background: red;
+    color: white;
+    font-size: 22px;
+
+}
