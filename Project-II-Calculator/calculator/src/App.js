@@ -5,6 +5,8 @@ import CalculatorDisplay from './components/DisplayComponents/CalculatorDisplay'
 import NumberButton from './components/ButtonComponents/NumberButton';
 import ActionButton from './components/ButtonComponents/ActionButton';
 
+const math = require('mathjs');
+
 
 const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 const operators = ["÷", "×", "-", "+", "="];
@@ -47,7 +49,7 @@ class App extends React.Component {
     console.log(this.state.operations.join(''));
     let result = this.state.operations.join('');
 
-    if (result) {result = eval(result)};
+    if (result) {result = math.eval(result)};
 
     console.log(result);
   }
