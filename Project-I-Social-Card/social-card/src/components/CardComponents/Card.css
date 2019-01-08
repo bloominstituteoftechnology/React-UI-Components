@@ -1,46 +1,46 @@
 /* All styles for your Card Components live here */
 .card-container {
-    display: flex;
-    flex-direction: column;
-    padding-left: 12.5%;
-    max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 12.5%;
+  max-width: 500px;
 }
 
 .card-container:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .card-container a {
-    border: 1px solid rgb(149, 160, 170);
-    border-radius: 5px;
-    text-decoration: none;
+  border: 1px solid rgb(149, 160, 170);
+  border-radius: 5px;
+  text-decoration: none;
 }
 
 .card-container img {
-    width: 100%;
-    height: 250px;
-    border-radius: 5px 5px 0 0;
+  width: 100%;
+  height: 250px;
+  border-radius: 5px 5px 0 0;
 }
 
 .card-container .embed-content {
-    padding-left: 10px;
-    border-top: none;
-    margin: 10px 0;
-    /* border-radius: 0 0 5px 5px; */
+  padding-left: 10px;
+  border-top: none;
+  margin: 10px 0;
+  /* border-radius: 0 0 5px 5px; */
 }
 
 .card-container .embed-content h4 {
-    color: black;
-    margin: 5px 0 5px 0;
+  color: black;
+  margin: 5px 0 5px 0;
 }
 
 .card-container .embed-content p {
-    font-size: 14px;
-    color: black;
-    line-height: 18px;
-    margin: 5px 0 5px 0;
+  font-size: 14px;
+  color: black;
+  line-height: 18px;
+  margin: 5px 0 5px 0;
 }
 
 .card-container .embed-content .embed-link {
-    color: lightgrey;
+  color: lightgrey;
 }

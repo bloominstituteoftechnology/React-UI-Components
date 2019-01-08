@@ -5,7 +5,7 @@ import moment from 'moment';
 const HeaderTitle = (props) => {
     let name = "Lambda School";
     let handle = "LambdaSchool";
-    let date = moment().format("D MMM YY");
+    let date = moment().format("D MMM YY");;
     
     return (
       <div className="title-container">
