@@ -6,7 +6,7 @@ const HeaderTitle = () => {
         <div className="owner-data">
         <span className="account-name">Lambda School</span>
         <span className="account-handle">@LambdaSchool</span>
-        <span className="date">26 Jan</span>
+        <span className="date">• 26 Jan</span>
         </div>
     );
 }

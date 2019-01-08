@@ -1,9 +1,5 @@
 .footer{
-    height: 30px;
     display: flex;
     flex-direction: row;
-}
-
-.fa-comment{
-    width: 50px;
+    justify-content: flex-start;
 }
