@@ -8,7 +8,7 @@ function HeaderTitle (){
         <div className='HeaderTitle'>
             <div className='name'>Lambda School</div>
             <div className='handle'>@LambdaSchool</div>
-            <div className='date'> {moment().format("Do YYYY")}</div>
+            <div className='date'>&#183; {moment().format("Do MMM ")}</div>
         </div>
     ) 
 }
