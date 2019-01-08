@@ -120,7 +120,7 @@ blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-  content: "";
+  content: '';
   content: none;
 }
 table {
@@ -128,21 +128,18 @@ table {
   border-spacing: 0;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 img {
   max-width: 100%;
   height: auto;
 }
 
-* {
-  font-size: 62.5%;
-}
-
 .container {
-  border-top: 1px solid gray;
-  border-bottom: 1px solid gray;
-  max-width: 785px;
+  max-width: 800px;
   margin: 0 auto;
-  margin-top: 45px;
   height: 685px;
 }
 
