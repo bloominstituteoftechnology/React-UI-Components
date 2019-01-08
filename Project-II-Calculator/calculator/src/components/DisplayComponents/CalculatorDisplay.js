@@ -37,15 +37,15 @@ function CalculatorDisplay() {
                 <div className="numSec">
                     <NumberButton className='Clear' num={NumbersObj.num10} />
 
-                    <NumberButton num={NumbersObj.num1} />
-                    <NumberButton num={NumbersObj.num2} />
-                    <NumberButton num={NumbersObj.num3} />
-                    <NumberButton num={NumbersObj.num4} />
-                    <NumberButton num={NumbersObj.num5} />
-                    <NumberButton num={NumbersObj.num6} />
                     <NumberButton num={NumbersObj.num7} />
                     <NumberButton num={NumbersObj.num8} />
                     <NumberButton num={NumbersObj.num9} />
+                    <NumberButton num={NumbersObj.num4} />
+                    <NumberButton num={NumbersObj.num5} />
+                    <NumberButton num={NumbersObj.num6} />
+                    <NumberButton num={NumbersObj.num1} />
+                    <NumberButton num={NumbersObj.num2} />
+                    <NumberButton num={NumbersObj.num3} />
 
                     <NumberButton num={NumbersObj.num0} />
 
