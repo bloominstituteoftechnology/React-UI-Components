@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { CalculatorDisplay } from "./components/DisplayComponents";
 import "./App.css";
 
 class App extends Component {
@@ -12,7 +13,9 @@ class App extends Component {
   render() {
     return (
       <div className="container">
-        <div />
+        <div className="calculator__container">
+          <CalculatorDisplay />
+        </div>
       </div>
     );
   }

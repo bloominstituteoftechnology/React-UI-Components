@@ -1,0 +1,8 @@
+.calculator__display {
+  width: 100%;
+  max-width: 452px;
+  height: 124px;
+  background: #1f1f1f;
+  border: 1px solid #8c8c8c;
+  color: white;
+}
