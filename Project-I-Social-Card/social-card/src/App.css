@@ -5,7 +5,8 @@
 .app {
   max-width: 100%;
   width: 700px;
-  border: 1px solid black;
+
+  margin: 0 auto;
 }
 img {
   max-width: 100%;
