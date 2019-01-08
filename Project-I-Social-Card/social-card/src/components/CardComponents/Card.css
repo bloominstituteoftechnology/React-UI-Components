@@ -1,4 +1,8 @@
 /* All styles for your Card Components live here */
+* {
+    box-sizing: border-box;
+}
+
 .card-wrapper {
     display: flex;
     flex-direction: column;
@@ -7,7 +11,7 @@
   .banner-container-wrapper {
     height: 269px;
     width: 80%;
-    margin: 30px auto 0 auto;
+    margin: 50px auto 0 auto;
     background-size: contain;
     background: white;
     border-radius: 4px;
@@ -17,14 +21,34 @@
     max-height: 100%;
     max-width: 100%;
     border-radius: 4px 4px 0 0;
+    margin-top: 5px;
+
   }
   
   .banner-content {
     margin: 0;
     padding: 0.3em;
+    font-size: 13px;
+    font-family: 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana;
+  }
+
+  .head {
+    font-weight: bold;
   }
   
   .link {
     text-decoration: none;
-    color: #cdd0d3;
+    color: #707070;
+  }
+
+  .banner-bottom {
+    width: 80%;
+    z-index: -2;
+    padding: 10px 0 0 10px;
+    margin: 0 auto;
+    margin-top: -6px;
+    background: white;
+    height: 100px;
+    border-radius: 0 0 4px 4px;
+    border: 1px solid rgb(173, 173, 173);
   }
