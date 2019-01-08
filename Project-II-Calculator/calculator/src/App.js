@@ -12,7 +12,7 @@ class App extends Component {
     this.state = { operations: [] };
   }
 
-  calculatorOperations = () => {
+  calculateOperations = () => {
     let result = this.state.operations.join("");
     if (result) {
       result = math.eval(result);
@@ -25,7 +25,7 @@ class App extends Component {
   };
 
   handleClick = e => {
-    const value = e.target.getAttribute("date-value");
+    const value = e.target.getAttribute("data-value");
     switch (value) {
       case "clear":
         this.setState({
@@ -33,7 +33,7 @@ class App extends Component {
         });
         break;
       case "equal":
-        this.calculatorOperations();
+        this.calculateOperations();
         break;
       default:
         const newOperations = update(this.state.operations, {

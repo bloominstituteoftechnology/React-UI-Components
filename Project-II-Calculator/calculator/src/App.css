@@ -1,0 +1,202 @@
+@import "https://fonts.googleapis.com/css?family=Share+Tech+Mono";
+body {
+  background: #ebebeb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  font-family: "Share Tech Mono";
+}
+
+.App {
+  height: 400px;
+  width: 300px;
+  perspective: 0 200px;
+  background: #ebebeb;
+  position: relative;
+}
+
+.Display {
+  background: black;
+  color: white;
+  opacity: 0.8;
+  display: grid;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0 29px;
+  box-sizing: border-box;
+  height: 20%;
+  overflow: hidden;
+  font-size: 24px;
+  position: relative;
+}
+
+.Display::after {
+  background: white;
+  background: -moz-linear-gradient(
+    top,
+    white 0%,
+    #f1f1f1 50%,
+    #e1e1e1 51%,
+    #f6f6f6 100%
+  );
+  background: -webkit-linear-gradient(
+    top,
+    white 0%,
+    #f1f1f1 50%,
+    #e1e1e1 51%,
+    #f6f6f6 100%
+  );
+
+  background: linear-gradient(
+    to bottom,
+    white 0%,
+    #f1f1f1 50%,
+    #e1e1e1 51%,
+    #f6f6f6 100%
+  );
+
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f6f6f6', GradientType=0);
+
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  pointer-events: none;
+  height: 100%;
+  mix-blend-mode: overlay;
+  display: block;
+  z-index: 2;
+}
+
+.Buttons {
+  display: grid;
+  flex-wrap: wrap;
+  flex-direction: column;
+  height: 80%;
+}
+
+.Button {
+  background: #cad2c5;
+  background: -moz-linear-gradient(45deg, #cad2c5 0%, #abb5aa 100%);
+  background: -webkit-linear-gradient(45deg, #cad2c5 0%, #abb5aa 100%);
+  background: linear-gradient(45deg, #cad2c5 0%, #abb5aa 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cad2c5', endColorstr='#abb5aa', GradientType=1);
+  display: flex;
+  box-sizing: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  font-size: 24px;
+  color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  min-width: 25%;
+}
+
+.Button[data-value="clear"] {
+  grid-column: 1/4;
+  grid-row: 1/2;
+}
+
+.Button[data-value="7"] {
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+
+.Button[data-value="4"] {
+  grid-column: 1/2;
+  grid-row: 3/4;
+}
+
+.Button[data-value="1"] {
+  grid-column: 1/2;
+  grid-row: 4/5;
+}
+
+.Button[data-value="0"] {
+  grid-column: 1/3;
+  grid-row: 5/6;
+}
+
+.Button[data-value="/"] {
+  grid-column: 4/5;
+  grid-row: 1/2;
+  background: #842323;
+  color: white;
+}
+
+.Button[data-value="8"] {
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+
+.Button[data-value="5"] {
+  grid-column: 2/3;
+  grid-row: 3/4;
+}
+
+.Button[data-value="2"] {
+  grid-column: 2/3;
+  grid-row: 4/5;
+}
+
+.Button[data-value="."] {
+  grid-column: 3/4;
+  grid-row: 5/6;
+}
+
+.Button[data-value="*"] {
+  grid-column: 4/5;
+  grid-row: 2/3;
+  background: #842323;
+  color: white;
+}
+
+.Button[data-value="9"] {
+  grid-column: 3/4;
+  grid-row: 2/3;
+}
+
+.Button[data-value="6"] {
+  grid-column: 3/4;
+  grid-row: 3/4;
+}
+.Button[data-value="3"] {
+  grid-column: 3/4;
+  grid-row: 4/5;
+}
+.Button[data-value="-"] {
+  grid-column: 4/5;
+  grid-row: 3/4;
+  background: #842323;
+  color: white;
+}
+.Button[data-value="+"] {
+  grid-column: 4/5;
+  grid-row: 4/5;
+  background: #842323;
+  color: white;
+}
+.Button[data-value="equal"] {
+  grid-column: 4/5;
+  grid-row: 5/6;
+  background: #842323;
+  color: white;
+}
+
+.Button[data-value="null"] {
+  pointer-events: none;
+}
+
+.Button:hover {
+  background: #d7ddd3;
+  cursor: pointer;
+}
+
+.Button:active {
+  background: #bdc7b7;
+}
