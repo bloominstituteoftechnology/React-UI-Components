@@ -1,1 +1,41 @@
 /* All styles for your header Components live here */
+.HeaderContainer {
+  display: flex;
+  padding-top: 16px;
+  margin: 24px;
+}
+
+.HeaderContainer .Thumbnail {
+  width: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.HeaderContainer .HeadContent {
+  padding-top: 8px;
+}
+
+.HeaderContainer .HeadContent p {
+  padding-top: 8px;
+  margin: 2px 8px;
+}
+
+.HeaderContainer .Thumbnail img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.HeaderContainer .HeaderTitle {
+  flex-grow: 1;
+}
+
+.HeaderContainer .HeaderTitle h1 {
+  margin: 2px 8px;
+}
+
+.HeaderContainer .HeaderTitle span {
+  margin: 2px 8px;
+  font-size: 95%;
+  opacity: 0.5;
+}
