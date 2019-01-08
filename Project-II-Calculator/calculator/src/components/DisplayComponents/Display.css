@@ -1,0 +1,12 @@
+.calculator-display-wrapper {
+    font-size: 4rem;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 125px;
+    border-bottom: 2px solid grey;
+    padding-right: 3%;
+    padding-top: 10px;
+}   

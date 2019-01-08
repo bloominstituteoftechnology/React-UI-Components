@@ -1,0 +1,21 @@
+.action-button-wrapper {
+    width: 74%;
+}
+
+.number-button-wrapper {
+    width: 26%;
+}
+
+.operator-button {
+    font-size: 4rem;
+    height: 94px;
+    width: 100%;
+    background-color: red;
+    color: white;
+}
+
+.clear-button {
+    font-size: 2.7rem;
+    width: 100%;
+    height: 94px;
+}
