@@ -41,6 +41,12 @@ class Calculator extends Component {
                 case 'subtract':
                     final = final + '-'
                 break;
+                case 'multiply':
+                    final = final + '*'
+                break;
+                case 'divide':
+                    final = final + '/' // /
+                break;
             }
             this.setState({ operator, equationStr: final });
         } else {
@@ -54,6 +60,16 @@ class Calculator extends Component {
                 break;
                 case 'subtract':
                     opChar = '-';
+                    equationStr = `${this.state.equationStr} ${this.state.activeInput} ${opChar}`;
+                    this.setState({ operator, activeInput: '0', equationStr });
+                break;
+                case 'multiply':
+                    opChar = '*';
+                    equationStr = `${this.state.equationStr} ${this.state.activeInput} ${opChar}`;
+                    this.setState({ operator, activeInput: '0', equationStr });
+                break;
+                case 'divide':
+                    opChar = '/'; // /
                     equationStr = `${this.state.equationStr} ${this.state.activeInput} ${opChar}`;
                     this.setState({ operator, activeInput: '0', equationStr });
                 break;
@@ -104,7 +120,7 @@ class Calculator extends Component {
     }
 
     render() {
-        console.log(`${this.state.preString} ${this.state.opChar}`);
+
         return(
             <div className="Calculator">
                 <CalculatorDisplay activeInput={this.state.activeInput} equation={this.state.equationStr}/>
