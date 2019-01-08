@@ -1,0 +1,39 @@
+.Calculator {
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    width: 455px;
+}
+
+.Calculator .CalculatorDisplay {
+    background: black;
+    color: white;
+    width: 100%;
+    font-size: 76px;
+    text-align: right;
+    line-height: 118px;
+    padding: 4px;
+}
+
+.Calculator button {
+    line-height: 92px;
+    background: #FFFFFF;
+    border: none;
+    outline: 1px solid black;
+    font-size: 46px;
+}
+
+.Calculator .ActionButton {
+    width: 74%;
+}
+
+.Calculator .NumberButton {
+    width: 24.66%;
+}
+
+.Calculator .NumberButtonRed {
+    width: 26%;
+    background: red;
+    color: white;
+    font-size: 72px;
+}
