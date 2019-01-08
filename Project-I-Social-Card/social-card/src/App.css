@@ -7,7 +7,7 @@
 .card-container {
   margin: 0 auto;
   font-family: 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana;
-  height: 500px;
+  height: 100%;
   width: 50%;
   border: 1px solid grey;
 }
