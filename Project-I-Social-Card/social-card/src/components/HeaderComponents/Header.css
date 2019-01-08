@@ -1,1 +1,33 @@
 /* All styles for your header Components live here */
+header {
+    display: flex;
+}
+
+h1 {
+    font-weight: bold;
+    padding-right: .7rem;
+}
+
+/* header img {
+    height: 40%;
+} */
+
+.headerText{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    /* justify-content: space-evenly; */
+}
+
+.headerContent{
+    line-height: 1.2rem;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+}
+
+.gray {
+    color: gray;
+}
