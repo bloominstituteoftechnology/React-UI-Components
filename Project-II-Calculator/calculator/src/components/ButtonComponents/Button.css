@@ -1,0 +1,15 @@
+.actionButton {
+    width: 75%;
+    background-color: white;
+    border: 2px solid gray;
+    font-size: 55px;
+}
+
+.numberButton {
+    width: 25%;
+    background-color: white;
+    border: 2px solid gray;
+    font-size: 55px;
+    display: flex;
+    flex-wrap: wrap-reverse;
+}

@@ -3,8 +3,10 @@ import './Button.css';
 
 function NumberButton(props) {
     return (
-    // <h3> {props.text} </h3>
+   
+    <div className="allButtons">  
     <button className={props.buttonStyle}>{props.text}</button>
+    </div>
     );
 }
 
