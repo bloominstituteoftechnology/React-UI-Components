@@ -1,0 +1,22 @@
+
+.btn-primary {
+    background-color: #23aa4e;
+    border-color: #177d37;
+    width: 20%;
+    margin-left: 32%;
+    cursor: pointer;
+  }
+  
+  #example {
+    margin: 3rem;
+  }
+  
+  .customContainer {
+    border: 1px solid black;
+    display: flex;
+  }
+  .btn-primary:hover {
+    color: #fff;
+    background-color: #e20606;
+    border-color: #204d74;
+  }

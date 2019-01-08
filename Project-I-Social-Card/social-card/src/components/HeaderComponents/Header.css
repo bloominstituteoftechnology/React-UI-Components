@@ -1,1 +1,34 @@
 /* All styles for your header Components live here */
+.HeaderContainer{
+    border: 1.5px solid rgb(235, 180, 189);
+}
+.header{
+   display: flex;
+   
+}
+.header img {
+    height: 50px;
+    grid-row: 1;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border: 1.5px solid rgb(186, 240, 208);
+  }
+  .HeaderContent {
+    flex-direction: row;
+    border: 1.5px solid rgb(221, 221, 238);
+  }
+  .HeaderContent .lambdahead {
+    display: inline-block;
+    font-size: 1rem;
+  }
+  .HeaderContent .lambdahead2 {
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 1rem;
+    color: grey;
+    font-weight: 500;
+  }
+  .HeaderContent p {
+    margin-top: -10px;
+  }
