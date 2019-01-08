@@ -1,0 +1,13 @@
+.calculator-container {
+    border: 1px solid rgb(149,149,149);
+    width: 500px;
+    height: auto;
+    margin: 20px auto;
+}
+
+.button-container {
+    border: 1px solid rgb(149,149,149);
+    display: flex;
+    height: 100px;
+}
+
