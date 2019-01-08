@@ -10,7 +10,7 @@ const HeaderContainer = () => {
     <div className="container-header-img">
         <ImageThumbnail />
 
-<div>
+<div className="container-header-t-c">
 
     <HeaderTitle />
     <HeaderContent />

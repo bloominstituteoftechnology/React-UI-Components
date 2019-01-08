@@ -1,1 +1,16 @@
 /* All styles for your header Components live here */
+
+.container-header-img{
+display: flex;
+border: 2px solid red;
+
+}
+
+
+.container-header-t-c{
+    display: flex;
+    flex-wrap:none;
+    font-size:12px;
+    border: 2px solid purple;
+}
+
