@@ -1,0 +1,23 @@
+.btn-general{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 24px;
+    height: 85px;
+    width: 25%;
+}
+
+.action{
+    width: 75%;
+}
+
+.operand{
+    background-color: darkred;
+    color: white;
+    font-size: 32px;
+    font-weight: 300;
+}
+
+.num{
+    font-weight: bold;
+}
