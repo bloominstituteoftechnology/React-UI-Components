@@ -8,6 +8,7 @@ function ButtonContainer(props){
         <div className="buttonContainer">
             <NumberButton 
                 handleClear = {props.handleClear}
+                handleClick = {props.handleClick}
                 state = {props.state}
                 buttons = {props.buttons}
             />

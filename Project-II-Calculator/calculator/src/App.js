@@ -117,12 +117,17 @@ class App extends React.Component{
     this.setState({total: 0})
   }
 
+  handleClick = () => {
+    console.log('clicked')
+  }
+
   render(){
     return(
       <div className='App'>
         <Display total = {this.state.total}/>
         <ButtonContainer 
             handleClear = {this.handleClear}
+            handleClick = {this.handleClick}
             state = {this.state}
             buttons = {buttons}
           />

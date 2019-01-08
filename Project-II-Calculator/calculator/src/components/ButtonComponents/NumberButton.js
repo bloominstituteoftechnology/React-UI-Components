@@ -6,7 +6,16 @@ import './Button.css';
 function NumberButton(props){
     return(
         <div className="numbers">
-            {props.buttons.filter(item=>item.type==="number").map( button => < Button item = {button} key={button.id} onClick={button.onClick} state = {props.state} />)}
+            {props.buttons.filter(item=>item.type==="number").map( button => 
+                    < Button 
+                        item = {button} 
+                        key={button.id} 
+                        onClick={props.handleClick} 
+                        state = {props.state} 
+                    />
+                    
+                )
+            }
         </div>       
     );
 }
