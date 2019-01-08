@@ -1,14 +1,22 @@
 
-.left-buttons{
-    display:flex;
-    flex-wrap: wrap;
+.button{
+    width: 32.6%;
+    border: 1px solid gray;
+    padding: 14px 0;
+    font-size: 4rem;
+    background-color:white
+}
+.button:hover{
+    background-color: antiquewhite;
+    color: black;
+}
+.big{
+    width: 100%;
+    margin: 2px;
 }
 
-.number-buttons{
-    width: 20px;
-    display: inline-block;
-    flex-direction: row;
-    flex-wrap: wrap;
-    padding: 0;
-    justify-content: flex-start;
+.red{
+    width: 100%;
+    color: white;
+    background-color: #931C24;
 }
