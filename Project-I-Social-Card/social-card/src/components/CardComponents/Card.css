@@ -4,12 +4,25 @@
   flex-direction: column;
 }
 .banner {
-  width: 70%;
+  width: 50%;
   margin: 0 5%;
-  height: 400px;
+  padding-top: 2%;
 }
 .banner-text {
   margin: 0 5%;
   border: 1px solid rgb(218, 223, 228);
-  width: 70%;
+  border-top: none;
+  width: 50%;
+}
+.banner-heading {
+  padding-left: 2%;
+}
+.text-section {
+  padding-left: 2%;
+  width: 85%;
+}
+.react-url {
+  text-decoration: none;
+  padding-left: 2%;
+  opacity: 0.6;
 }
