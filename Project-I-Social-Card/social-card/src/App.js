@@ -5,7 +5,6 @@ import CardContainer from "./components/CardComponents/CardContainer";
 import Footer from "./components/FooterComponents/Footer";
 import logo from "./images/lambda_logo.jpg";
 
-
 var moment = require("moment");
 const postDate = moment().format("DD MMM");
 
@@ -22,7 +21,8 @@ const postContent = {
   postImage:
     "https://tk-assets.lambdaschool.com/fcd75197-7d12-46ec-bc9e-4130f34822fa_reactbackground.png",
   postTitle: "Get started with React",
-  postContent: "React makes it painless to create interactive UIs. Design simple views for each state in your application.",
+  postContent:
+    "React makes it painless to create interactive UIs. Design simple views for each state in your application.",
   postLink: "reactjs.org"
 };
 
@@ -32,9 +32,6 @@ const footerSymbols = {
   like: <i className="far fa-heart footer-item" />,
   mail: <i className="far fa-envelope footer-item" />
 };
-
-// imageSource = { imageSource } profileName = { profileName } profileHandle = { profileHandle } date = { date } headerContent = { headerContent }
-
 
 const App = () => {
   return (
