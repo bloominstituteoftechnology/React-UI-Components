@@ -13,7 +13,7 @@ const ButtonPad = () => {
     <div>
       <div className="row">
         <ActionButton text="clear"/>
-        <MathButton text="/"/>
+        <MathButton text="÷"/>
       </div>
       <div className="row">
         <NumberButton text={7}/>
@@ -25,7 +25,7 @@ const ButtonPad = () => {
         <NumberButton text={4}/>
         <NumberButton text={5}/>
         <NumberButton text={6}/>
-        <MathButton text="-"/>
+        <MathButton buttonStyle="large-math" text="-"/>
       </div>
       <div className="row">
         <NumberButton text={1}/>
