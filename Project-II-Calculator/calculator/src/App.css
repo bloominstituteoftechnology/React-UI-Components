@@ -1,0 +1,28 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background: darkgrey;
+}
+
+.main-container {
+  border: 2px solid gray;
+  width: 15%;
+  margin: 15% auto;
+}
+
+.display {
+  padding: 3%;
+  display: flex;
+  justify-content: flex-end;
+  background: #222222;
+  color: white;
+  font-size: 5rem;
+}
+
+.rows {
+  border: 1px solid gray;
+  display: flex;
+  justify-content: space-around;
+}
