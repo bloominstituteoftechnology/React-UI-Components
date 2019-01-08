@@ -15,6 +15,7 @@
     line-height: 118px;
     padding: 4px;
     position: relative;
+    overflow-x: auto;
 }
 
 .Calculator .CalculatorDisplay .Equation {
@@ -45,7 +46,7 @@
 
 .Calculator .NumberButtonRed {
     width: 26%;
-    background: red;
+    background: #A0001E;
     color: white;
     font-size: 72px;
 }
