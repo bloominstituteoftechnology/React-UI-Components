@@ -2,4 +2,6 @@ body {
   margin: 0;
   padding: 0.4rem;
   font-family: sans-serif;
+  width: 600px;
+  margin: auto;
 }

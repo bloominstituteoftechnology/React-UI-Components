@@ -1,1 +1,13 @@
-/* All styles for your Card Components live here */
+.card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 500px;
+
+    
+ } 
+ 
+ .card-image{
+     width: 400px;
+ }
+ /* All styles for your Card Components live here */

@@ -1,1 +1,6 @@
 /* All styles for your header Components live here */
+
+
+.header-content p {
+    font-size: 12px;
+}
