@@ -1,8 +1,8 @@
 import React from "react";
 
-const ShapeSquare =()=>{
+const ShapeSquare =(props)=>{
     return (
-        <div style={{backgroundColor :"white",height:"7rem",width:"7rem",margin:"0.5%"}}>
+        <div style={{backgroundColor :"purple",height:"7rem",width:"7rem",margin:"0.5%"}} >{props.data}
         </div>
     )
 }
