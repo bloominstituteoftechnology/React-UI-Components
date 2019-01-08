@@ -7,7 +7,7 @@
 .operator-btn {
     width: 25%;
     height: 95px;
-    border: .5px solid slategray;
+    border: 1px solid slategray;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,7 +22,7 @@
 .action-btn {
     width: 75%;
     height: 95px;
-    border: .5px solid slategray;
+    border: 1px solid slategray;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -31,11 +31,16 @@
 .number-btn {
     width: 25%;
     height: 95px;
-    border: .5px solid slategray;
+    border: 1px solid slategray;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+button:hover {
+    filter: invert(100%);
+}
+
 
 /* .actionButton {
     width: 75%;
