@@ -1,2 +1,31 @@
 /* All styles for your Card Components live here */
 
+.card-container {
+    margin-left: 80px;
+    margin-top: 15px;
+    
+}
+.card-banner {
+    width: 520px;
+    height: 300px;
+}
+.card-content {
+    padding: 20px;
+    border: 1px solid lightgrey;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top: none;
+}   
+.card-content h4 {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.card-content p {
+    margin-bottom: 10px;
+    font-size: 0.9 rem;
+    line-height: 1.25;
+}
+.card-content a {
+    text-decoration: none;
+    color: grey;
+}
