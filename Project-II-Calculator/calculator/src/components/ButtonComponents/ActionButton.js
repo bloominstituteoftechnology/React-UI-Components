@@ -3,7 +3,7 @@ import './Button.css';
 
 const ActionButton = (props) => {
     return (
-        <div>
+        <div className="action-button">
             <h1>{props.action}</h1>
         </div>
     )

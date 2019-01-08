@@ -7,7 +7,7 @@ import ActionButton from './ActionButton';
 
 const NumberButtonContainer = () => {
     return (
-        <div>
+        <div className="button-container">
             <div className="number-container">
                 <ZeroButton number="0"/>
                 <NumberButton number="1"/>
@@ -21,8 +21,12 @@ const NumberButtonContainer = () => {
                 <NumberButton number="9"/>
                 <ClearButton number="Clear"/>
             </div>
-            <div>
-                <ActionButton />
+            <div className="action-button-container">
+                <ActionButton action="/"/>
+                <ActionButton action="x"/>
+                <ActionButton action="-"/>
+                <ActionButton action="+"/>
+                <ActionButton action="="/>
             </div>
         </div>
     )

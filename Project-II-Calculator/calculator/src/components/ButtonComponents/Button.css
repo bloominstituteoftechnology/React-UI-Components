@@ -1,3 +1,21 @@
+.button-container {
+    display: flex; 
+}
+
+.action-button-container {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+}
+
+.action-button {
+    width: 100%;
+    border: 2px darkgrey solid;
+    text-align: center;
+    background-color: red;
+    color: white;
+}
+
 .number-container {
     display: flex;
     flex-wrap: wrap-reverse;
