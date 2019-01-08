@@ -1,0 +1,14 @@
+.display {
+  max-width: 400px;
+  width: 100%;
+  background: #222222;
+  font-size: 60px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 15px;
+  color: white;
+  line-height: 1px;
+  border: 2px solid #979797;
+  height: 110px;
+}
