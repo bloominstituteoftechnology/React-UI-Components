@@ -1,12 +1,12 @@
 import React from 'react';
 import './Button.css';
 
-const NumberButton = function(props) {
+const ClearButton = function(props) {
     return (
-        <div className="number-button">
+        <div className="clear-button">
             <h1>{props.number}</h1>
         </div>
     )
 } 
 
-export default NumberButton;
+export default ClearButton;

@@ -1,15 +1,23 @@
-.numberContainer {
+.number-container {
     display: flex;
     flex-wrap: wrap-reverse;
     width: 75%;
 }
 
-.numberButton {
+.number-button {
     width: 33.3%;
     border: 2px darkgrey solid;
     text-align: center;
 }
 
-.zero {
+.zero-button {
     width: 100%;
+    border: 2px darkgrey solid;
+    text-align: center;
+}
+
+.clear-button {
+    width: 100%;
+    border: 2px darkgrey solid;
+    text-align: center;
 }
