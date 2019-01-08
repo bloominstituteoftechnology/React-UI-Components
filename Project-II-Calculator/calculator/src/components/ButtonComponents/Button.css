@@ -1,0 +1,48 @@
+.function {
+    width: 125px;
+    font-size: 60px;
+    font-weight: lighter;
+    background: rgb(158,6,35);
+    color: white;
+    cursor: pointer;
+}
+
+.number:active {
+    background: rgb(125, 5, 27);
+}
+
+.number {
+ width: 125px;
+ font-size: 48px;
+ font-weight: bold;
+ background: rgb(254,254,254);
+ cursor: pointer;
+}
+
+.number:active {
+    background: rgb(237,237,237);
+}
+
+.zero {
+    width: 375px;
+    font-size: 48px;
+    font-weight: bold;
+    background: rgb(254,255,255);
+    cursor: pointer;
+}
+
+.zero:active {
+    background: rgb(237,237,237);
+}
+
+.clear {
+    width: 375px;
+    font-size: 48px;
+    font-weight: lighter;
+    background: rgb(254, 255, 255);
+    cursor: pointer;
+}
+
+.clear:active {
+    background: rgb(237, 237, 237);
+}
