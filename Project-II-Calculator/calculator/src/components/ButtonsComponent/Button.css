@@ -1,6 +1,60 @@
 .buttons__container {
   width: 100%;
-  max-width: 452px;
+  max-width: 454px;
   height: 468px;
+  display: flex;
+}
+
+.number__container {
+  max-width: 334px;
+  width: 100%;
+  height: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+  align-content: flex-start;
+}
+
+.number__button {
+  width: 100%;
+  max-width: 33.32%;
+  height: 94px;
   border: 1px solid #8c8c8c;
+  font-weight: 500;
+}
+
+.clear__button {
+  display: inline-block;
+  max-width: 334px;
+  width: 100%;
+  height: 94px;
+  border: 1px solid #8c8c8c;
+  font-weight: 300;
+}
+
+.number__button:last-child {
+  display: inline-block;
+  max-width: 334px;
+  width: 100%;
+  height: 94px;
+  border: 1px solid #8c8c8c;
+  font-weight: 500;
+}
+
+.operator__container {
+  width: 100%;
+  max-width: 120px;
+  display: flex;
+  flex-direction: column;
+  height: 470px;
+}
+
+.operator__button {
+  display: inline-block;
+  height: 20%;
+  border: 1px solid #8c8c8c;
+  font-size: 4rem;
+  background: #96001c;
+  color: white;
+  padding-bottom: 15px;
 }

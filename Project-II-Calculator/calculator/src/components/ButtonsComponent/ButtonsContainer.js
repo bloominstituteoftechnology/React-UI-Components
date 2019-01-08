@@ -1,5 +1,5 @@
 import React from "react";
-import NumberButtons from "./NumberButton";
+import NumberButton from "./NumberButton";
 import OperatorButtons from "./OperatorButtons";
 import "./Button.css";
 
@@ -7,12 +7,17 @@ const ButtonContainer = props => {
   return (
     <div className="buttons__container">
       <div className="number__container">
-        <button>clear</button>
-        {props.number.map({})}
+        {props.numbers.map((number, index) => {
+          return <NumberButton number={number} key={"number" + index} />;
+        })}
       </div>
-
-      <NumberButtons numbers={props.numbers} />
-      <OperatorButtons operators={props.operators} />
+      <div className="operator__container">
+        {props.operators.map((operator, index) => {
+          return (
+            <OperatorButtons operator={operator} key={"operator" + index} />
+          );
+        })}
+      </div>
     </div>
   );
 };

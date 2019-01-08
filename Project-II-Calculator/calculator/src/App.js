@@ -3,8 +3,8 @@ import { CalculatorDisplay } from "./components/DisplayComponents";
 import { ButtonsContainer } from "./components/ButtonsComponent";
 import "./App.css";
 
-const operators = ["÷", "x", "-", "+", "="];
-const numbers = [9, 8, 7, 6, 5, 4, 3, 2, 1, 0];
+const operators = ["÷", "×", "-", "+", "="];
+const numbers = ["clear", 9, 8, 7, 6, 5, 4, 3, 2, 1, 0];
 
 class App extends Component {
   constructor(props) {
@@ -13,6 +13,10 @@ class App extends Component {
       total: 0
     };
   }
+
+  // operators = event => {
+  //   event.target.name
+  // }
 
   render() {
     return (
