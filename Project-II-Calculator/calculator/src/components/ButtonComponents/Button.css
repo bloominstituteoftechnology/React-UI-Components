@@ -1,0 +1,39 @@
+.white-btn, .number-btn, .action-btn, .clear-btn {
+    height: 90px;
+    font-size: 1.9rem;
+    font-weight: bold;
+    font-family: sans-serif;
+    border: 1px solid gray;
+}
+
+.black-btn {
+    background-color: black;
+    color: white;
+    width: 400px;
+    height: 110px;
+    text-align: end;
+    font-size: 3.2rem;
+    font-weight: lighter;
+}
+
+.clear-btn {
+    background-color: white;
+    width: 300px;
+    font-weight: lighter;
+}
+
+.white-btn {
+    background-color: white;
+    width: 300px;
+}
+
+.number-btn {
+    background-color: white;
+    width: 100px;
+}
+
+.action-btn {
+    background-color: #a0001e;
+    color: white;
+    width: 100px;
+}
