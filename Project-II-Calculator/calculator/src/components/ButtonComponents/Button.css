@@ -1,23 +1,29 @@
+
+
 .actionButton {
     width: 75%;
     background-color: white;
     border: 2px solid gray;
-    font-size: 55px;
+    font-size: 60px;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
 
 .numberButton {
     width: 25%;
     background-color: white;
     border: 2px solid gray;
-    font-size: 55px;
-    display: flex;
-    flex-wrap: wrap-reverse;
+    font-size: 60px;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
 
 .mathFunction {
     width: 25%;
-    background-color: red;
+    background-color: darkred;
     color: white;
     border: 2px solid gray;
-    font-size: 55px;
+    font-size: 60px;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }

@@ -1,12 +1,11 @@
 import React from 'react';
 import './Button.css';
 
-function MathFuntionButton(props) {
+function MathFunctionButton(props) {
     return (
-   
-    <div className="allButtons">  
+
     <button className={props.buttonStyle}>{props.text}</button>
-    </div>
+   
     );
 }
 
