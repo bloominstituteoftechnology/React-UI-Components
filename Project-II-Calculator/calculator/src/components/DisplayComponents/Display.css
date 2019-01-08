@@ -1,6 +1,6 @@
 .calc-display{
-    height: 100px;
-    background: black;
+    height: 119px;
+    background: #222222;
     display:flex; 
     justify-content: flex-end;
     align-items: center;
