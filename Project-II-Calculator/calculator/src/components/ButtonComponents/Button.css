@@ -1,0 +1,20 @@
+.row{
+    display: flex;
+    height: 99px;
+}
+.action-btn{
+    background: teal;
+    width: 75%;
+    font-size: 4.5rem;
+}
+
+.math-btn{
+    background: crimson;
+    width: 25%;
+    font-size: 4.5rem;
+}
+.number-btn{
+    background: purple;
+    width: 25%;
+    font-size: 4.5rem;
+}

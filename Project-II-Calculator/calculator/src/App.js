@@ -7,7 +7,7 @@ import ButtonPad from './components/ButtonComponents/ButtonPad';
 
 const App = () => {
   return (
-    <div class="container">
+    <div className="container">
       <CalculatorDisplay/>
       <ButtonPad/>
     </div>

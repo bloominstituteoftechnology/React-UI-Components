@@ -1,14 +1,16 @@
 import React from 'react';
 import './Button.css';
 
-const NumberButton = props => {
+
+
+
+const MathButton = props => {
     return (
         <button className={props.buttonStyle}>{props.text}</button>
     );
   };
-
-  NumberButton.defaultProps = {
-    buttonStyle: 'number-btn',
+  
+  MathButton.defaultProps = {
+    buttonStyle: 'math-btn',
   }
-
-export default NumberButton;
+export default MathButton;
