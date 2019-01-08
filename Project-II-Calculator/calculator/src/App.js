@@ -74,6 +74,7 @@ class App extends React.Component {
     if (result) {
       result = math.eval(result).toString();
       this.setState({
+        operations: [],
         result: result
       })
     };
