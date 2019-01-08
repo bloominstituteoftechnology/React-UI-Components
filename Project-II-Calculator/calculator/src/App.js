@@ -1,6 +1,8 @@
 import React from 'react';
 import './App.css';
-import CalculatorDisplay from './components/DisplayComponents/CalculatorDisplay'
+import CalculatorDisplay from './components/DisplayComponents/CalculatorDisplay';
+import NumberButton from './components/ButtonComponents/NumberButton';
+import ActionButton from './components/ButtonComponents/ActionButton';
 
 const ClearButton = {
   buttonStyle: 'action-button',
@@ -16,7 +18,7 @@ const DivideButton = {
 }
 const MultiplyButton = {
   buttonStyle: 'operand-button',
-  text: 'x'
+  text: '×'
 }
 const SubtractionButton = {
   buttonStyle: 'operand-button',
@@ -25,6 +27,10 @@ const SubtractionButton = {
 const AdditionButton = {
   buttonStyle: 'operand-button',
   text: '+'
+}
+const EqualsButton = {
+  buttonStyle: 'operand-button',
+  text: '='
 }
 const NineButton = {
   buttonStyle: 'integer-button',
@@ -68,7 +74,22 @@ const App = () => {
   return (
     <div className="calc-app">
       <CalculatorDisplay />
-      
+      <ActionButton buttonType={ClearButton} />
+      <NumberButton buttonType={DivideButton} /> 
+      <NumberButton buttonType={SevenButton} />
+      <NumberButton buttonType={EightButton} />
+      <NumberButton buttonType={NineButton} />
+      <NumberButton buttonType={MultiplyButton} />
+      <NumberButton buttonType={FourButton} />
+      <NumberButton buttonType={FiveButton} />
+      <NumberButton buttonType={SixButton} />
+      <NumberButton buttonType={SubtractionButton} />
+      <NumberButton buttonType={OneButton} />
+      <NumberButton buttonType={TwoButton} />
+      <NumberButton buttonType={ThreeButton} />
+      <NumberButton buttonType={AdditionButton} />
+      <ActionButton buttonType={ZeroButton} />
+      <NumberButton buttonType={EqualsButton} />
     </div>
   );
 };

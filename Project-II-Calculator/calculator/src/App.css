@@ -1,0 +1,6 @@
+.calc-app {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid gray;
+    cursor: pointer;
+}
