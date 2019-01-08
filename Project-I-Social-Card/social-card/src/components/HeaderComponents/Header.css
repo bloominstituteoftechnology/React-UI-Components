@@ -1,1 +1,28 @@
 /* All styles for your header Components live here */
+.header-cont{
+    display: flex;
+}
+
+.logo{
+    max-width: 40px;
+    margin-right: 5%;
+}
+
+.header-text{
+    margin-left: 1.5%;
+}
+
+.account-name{
+    margin-right: 1%;
+    font-weight: 600;
+}
+
+.account-handle{
+    margin-right: 1%;
+    color: #B4BCC3;
+}
+
+.date{
+    margin-right: 1%;
+    color: #B4BCC3;
+}

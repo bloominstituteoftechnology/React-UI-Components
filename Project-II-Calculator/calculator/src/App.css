@@ -1,0 +1,12 @@
+.container{
+    width: 458px;
+    /* height: 600px; */
+    border: 1px solid gray;
+    margin: 0 auto;
+}
+
+.button-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}

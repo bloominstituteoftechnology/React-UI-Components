@@ -1,5 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   padding: 0.4rem;
   font-family: sans-serif;
+}
+
+body, html {
+  font-size: 62.5%;
+}
+
+p {
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+}
+
+span {
+  font-size: 1.4rem;
+  line-height: 2rem;
 }
