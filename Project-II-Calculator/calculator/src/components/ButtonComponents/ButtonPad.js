@@ -6,10 +6,13 @@ import NumberButton from './NumberButton';
 
 
 
-
-
-const ButtonPad = () => {
-    return (
+class ButtonPad extends React.Component {
+  constructor(){
+    super();
+  }
+  render() {
+    console.log(this.state);
+  return (
     <div>
       <div className="row">
         <ActionButton text="clear"/>
@@ -37,8 +40,14 @@ const ButtonPad = () => {
         <ActionButton text={0}/>
         <MathButton text="="/>
       </div>
+      <div>
+       
+          
+      </div>
     </div>
+   
     );
+  }
   };
 
   export default ButtonPad;

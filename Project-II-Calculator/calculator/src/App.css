@@ -9,3 +9,17 @@
     height: 598px;
     border: 2px solid gray;
 }
+.test-full-pad{
+    display: flex;
+    flex-wrap: wrap;
+}
+.test-num-pad{
+    display: flex;
+    flex-wrap:wrap;
+    width: 75%;
+}
+
+.test-algo-pad{
+    display: flex;
+    flex-direction: column;
+}
