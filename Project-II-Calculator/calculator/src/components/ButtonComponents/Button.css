@@ -4,9 +4,19 @@
     padding: 1.5rem;
     border-top: 2px solid gray;
     border-left: 2px solid gray;
+
 }
 
+.digit:hover {
+    background-color: gray;
+    border: 2px solid black;
+}
 
+.digit:active {
+    color: white;
+    background-color: black;
+    border: 2px solid white;
+}
 
 .digit {
     color: black;
@@ -19,8 +29,29 @@
     background-color: #940115;
 }
 
+.action:hover {
+    background-color: #47000a;
+    border: 2px solid white;
+}
+
+.action:active {
+    color: black;
+    background-color: rgb(255, 65, 65);
+    border: 2px solid black;
+}
+
+
 .big {
     width: 75%;
     color: black;
     background-color: white;
+}
+
+.big:hover {
+    background-color: gray;
+}
+
+.big:active {
+    color: white;
+    background-color: black;
 }
