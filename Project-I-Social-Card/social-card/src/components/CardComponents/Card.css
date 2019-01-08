@@ -1,1 +1,33 @@
 /* All styles for your Card Components live here */
+.CardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0 24px;
+}
+
+.CardContainer:hover {
+    cursor: pointer;
+}
+
+.CardContainer .CardBanner {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    margin-left: 56px;
+    width: 544px;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://tk-assets.lambdaschool.com/fcd75197-7d12-46ec-bc9e-4130f34822fa_reactbackground.png);
+}
+
+.CardContainer .CardContent {
+    padding: 12px;
+    margin-left: 56px;
+    width: 544px;
+    border: 1px solid rgba(0, 0, 0, .2);
+}
+
+.CardContainer .CardContent span {
+    opacity: 0.5;
+}

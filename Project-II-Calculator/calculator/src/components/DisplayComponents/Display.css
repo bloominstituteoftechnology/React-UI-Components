@@ -1,0 +1,52 @@
+.Calculator {
+    border: 1px solid #979797;
+    display: flex;
+    flex-wrap: wrap;
+    width: 455px;
+    margin: 0 auto;
+}
+
+.Calculator .CalculatorDisplay {
+    background: #222222;
+    color: white;
+    width: 100%;
+    font-size: 76px;
+    text-align: right;
+    line-height: 118px;
+    padding: 4px;
+    position: relative;
+    overflow-x: auto;
+}
+
+.Calculator .CalculatorDisplay .Equation {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 12px;
+    opacity: 0.6;
+    line-height: 20px;
+    margin: 6px 6px 0 0;
+}
+
+.Calculator button {
+    line-height: 92px;
+    background: #FFFFFF;
+    border: none;
+    outline: 1px solid #979797;
+    font-size: 46px;
+}
+
+.Calculator .ActionButton {
+    width: 74%;
+}
+
+.Calculator .NumberButton {
+    width: 24.66%;
+}
+
+.Calculator .NumberButtonRed {
+    width: 26%;
+    background: #A0001E;
+    color: white;
+    font-size: 72px;
+}
