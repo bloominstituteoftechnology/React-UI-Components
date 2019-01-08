@@ -1,0 +1,7 @@
+.calc-cont {
+  max-width: 456px;
+}
+
+.calc-flex-cont {
+  display: flex;
+}

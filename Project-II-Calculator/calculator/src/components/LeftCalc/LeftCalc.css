@@ -1,0 +1,4 @@
+.left-calc-cont {
+   display: flex;
+   flex-direction: column;
+}
