@@ -5,12 +5,12 @@ import NumberButton from "./NumberButton.js"
 
 function OperatorContainer(props) {
     return (
-        <div className="red">
-            <NumberButton symbol="÷"/>
-            <NumberButton symbol="x"/>
-            <NumberButton symbol="-"/>
-            <NumberButton symbol="+"/>
-            <NumberButton symbol="="/>
+        <div className={props.buttonStyle}>
+            <NumberButton text="÷"/>
+            <NumberButton text="x"/>
+            <NumberButton text="-"/>
+            <NumberButton text="+"/>
+            <NumberButton text="="/>
         </div>
     )
 }

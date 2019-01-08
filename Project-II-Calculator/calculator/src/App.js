@@ -13,7 +13,7 @@ const App = () => {
       </div>
       <div className="row">
         <NumberContainer/>
-        <OperatorContainer/>
+        <OperatorContainer buttonStyle="red"/>
       </div>
     </div>
   );
