@@ -1,0 +1,11 @@
+.displaybar {
+    width: 100%;
+    color: white;
+    background-color: black;
+    border: 2px solid gray;
+    border-bottom: none;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 8rem;
+    padding: 2rem 1rem;
+}
