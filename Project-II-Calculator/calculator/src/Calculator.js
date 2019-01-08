@@ -2,10 +2,13 @@ import React from "react";
 import "./Calculator.css";
 import NumberButton from "./components/ButtonComponents/NumberButton";
 import ActionButton from "./components/ButtonComponents/ActionButton";
-
+import CalculatorDisplay from "./components/DisplayComponents/CalculatorDisplay";
 const Calculator = () => {
   return (
     <div className="Calculator">
+      <div className="row">
+        <CalculatorDisplay buttonStyle="CalculatorDisplay" text="0" />
+      </div>
       <div className="row">
         <ActionButton buttonStyle="" text="clear" />
         <NumberButton buttonStyle="operator" text="÷" />
