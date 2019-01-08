@@ -9,7 +9,7 @@ const DigitSquare = props => {
 
   return (
     <div className="digit-square">
-      {digits.map(digit => <NumberButton buttonSize="small-button" text={digit} />)}
+      {digits.map(digit => <NumberButton key={digit} buttonSize="small-button" text={digit} function={props.function} />)}
     </div>
   );
 };

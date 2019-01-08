@@ -2,7 +2,7 @@ import React from 'react';
 
 const OperatorButton = props => {
   return (
-    <div className="small-button operator-button">{props.text}</div>
+    <div className="small-button operator-button" onClick={e => props.function(e)}>{props.text}</div>
   );
 };
 

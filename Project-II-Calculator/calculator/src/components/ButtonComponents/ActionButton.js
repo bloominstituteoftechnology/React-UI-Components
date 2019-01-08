@@ -4,7 +4,7 @@ import './Button.css';
 
 const ActionButton = props => {
   return (
-    <div className={`${props.buttonSize} action-button`}>{props.text}</div>
+    <div className={`${props.buttonSize} action-button`} onClick={e => props.function(e)}>{props.text}</div>
   );
 };
 
