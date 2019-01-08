@@ -1,0 +1,34 @@
+/* * {
+    box-sizing: border-box;
+} */
+
+.app {
+    width: 437px;
+    margin: auto;
+    display: flex;
+}
+
+.red {
+    background: red;
+    margin: 0;
+}
+
+.reg-button {
+    padding: 30px 40px;
+    border: 1px solid gray;
+    font-weight: bold;
+    margin: 0;
+    font-size: 3rem;
+}
+
+.action-button {
+    padding: 30px;
+    font-size: 3rem;
+    border: 1px solid gray;
+    text-align: center;
+}
+
+.numbers {
+    display: flex;
+    flex-wrap: wrap;
+}
