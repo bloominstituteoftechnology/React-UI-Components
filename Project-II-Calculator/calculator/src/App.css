@@ -1,6 +1,9 @@
 .container-wrapper {
   width: 458px;
-  height: 600px;
-  border: 1.5px solid lightgrey;
+  height: 640px;
+  /* border: 1px solid grey; */
   margin: 5%;
+}
+button {
+  border: 1px solid grey;
 }
