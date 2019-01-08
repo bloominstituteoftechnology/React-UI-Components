@@ -5,8 +5,10 @@ const HeaderTitle = props => {
   return (
     <div className="title">
       <p className="name">{props.name}</p>
-      <p className="handle">{props.handle}</p>
-      <p className="timestamp">26 jan</p>
+      <div className="small-font">
+        <p className="handle">{props.handle}</p>
+        <p className="timestamp">26 jan</p>
+      </div>
     </div>
   )
 }

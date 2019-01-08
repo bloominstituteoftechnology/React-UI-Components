@@ -3,7 +3,7 @@ import './Header.css';
 
 const ImageThumbnail = props => {
   return(
-    <img className="lambda-logo" src="https://tk-assets.lambdaschool.com/1c1b7262-cf23-4a9f-90b6-da0d3c74a5c6_lambdacrest.png" alt="Lambda Logo"/>
+    <img className="lambda-logo" src="https://yt3.ggpht.com/a-/AN66SAw9C1HPxBru_POv5bcGj8yLp8OSc18VosnELA=s900-mo-c-c0xffffffff-rj-k-no" alt="Lambda Logo"/>
   )
 };
 
