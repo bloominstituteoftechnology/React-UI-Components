@@ -7,9 +7,10 @@ const CardContent = () => {
 
         <h2>Get Started with React</h2>
 
-        <p>React makes it painless to create interactive UIs.
-            Design simple views for each state in your application.
-        </p>
+<div className="otherFont">
+        <p> React makes it painless to create interactive UIs.
+        Design simple views for each state in your application.
+        </p></div>
 
         <a href="https://reactjs.org/">reactjs.org</a>
         
