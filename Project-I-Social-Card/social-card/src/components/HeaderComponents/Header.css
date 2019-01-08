@@ -1,1 +1,31 @@
 /* All styles for your header Components live here */
+
+
+
+.header-image {
+    padding-top: 1%;
+    float: left;
+    padding-right: 2%;
+}
+
+.title {
+    margin-top: 1%;
+    padding-top: 2%; 
+    padding-bottom: 2%;
+}
+
+.username {
+    font-weight: 700;
+}
+
+.handle-date {
+    color: gray;
+    font-style: normal;
+    font-weight: 400;
+}
+
+
+.header-paragraph {
+    width: 100%;   
+}
+

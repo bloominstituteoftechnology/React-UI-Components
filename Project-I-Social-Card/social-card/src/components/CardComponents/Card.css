@@ -1,1 +1,34 @@
 /* All styles for your Card Components live here */
+
+.content-link {
+    margin-left: 11%;
+}
+
+.content-link a {
+    text-decoration: none;
+    color: black;
+    
+}
+
+.content-image img {
+    width: 100%;
+    margin-left: 7%;
+    margin-right: 0%;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.content-text {
+    width: 100%;
+    margin-left: 7%;
+    border: 1px solid gray;
+    border-radius: 4px;
+    
+    margin-right: 0%;
+    margin-bottom: 1%;
+}
+
+.link {
+    color: gray;
+    
+}

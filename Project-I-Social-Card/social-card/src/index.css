@@ -1,5 +1,24 @@
 body {
   margin: 0;
-  padding: 0.4rem;
+  /*padding: 0.4rem;*/
   font-family: sans-serif;
+  
+  
 }
+
+#root {
+  align-content: center;
+  width: 50%;
+}
+
+
+
+h2 {
+  margin: 1%;
+}
+
+p {
+  margin: 1%;
+  
+}
+

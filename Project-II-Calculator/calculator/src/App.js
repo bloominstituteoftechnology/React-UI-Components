@@ -1,21 +1,40 @@
 import React from 'react';
 import './App.css';
+import NumberButton from './components/ButtonComponents/NumberButton';
+import ActionButton from './components/ButtonComponents/ActionButton';
+import MathFunctionButton from './components/ButtonComponents/MathFunctionButton';
+// import AllButtons from './components/ButtonComponents/AllButtons';
+import CalculatorDisplay from "./components/DisplayComponents/CalculatorDisplay";
+
+ 
 
 const App = () => {
   return (
-    <div>
-      <h3>Welcome to React Calculator</h3>
-      <p>
-        We have given you a starter project. You'll want to build out your
-        components in their respective files, remove this code and replace it
-        with the proper components.
-      </p>
-      <p>
-        <strong>
-          Don't forget to `default export` your components and import them here
-          inside of this file in order to make them work.
-        </strong>
-      </p>
+    <div className="calculator">
+      
+      <CalculatorDisplay />
+      
+      <ActionButton buttonStyle={"actionButton"} text={"clear"}/>
+      <MathFunctionButton buttonStyle={"mathFunction"} text={"÷"}/>
+
+      <NumberButton buttonStyle={"numberButton"} text={"7"}/>
+      <NumberButton buttonStyle={"numberButton"} text={"8"}/>
+      <NumberButton buttonStyle={"numberButton"} text={"9"}/>
+      <MathFunctionButton buttonStyle={"mathFunction"} text={"x"}/>
+      
+      <NumberButton buttonStyle={"numberButton"} text={"4"}/>
+      <NumberButton buttonStyle={"numberButton"} text={"5"}/>
+      <NumberButton buttonStyle={"numberButton"} text={"6"}/>
+      <MathFunctionButton buttonStyle={"mathFunction"} text={"-"}/>
+
+      <NumberButton buttonStyle={"numberButton"} text={"1"}/>
+      <NumberButton buttonStyle={"numberButton"} text={"2"}/>
+      <NumberButton buttonStyle={"numberButton"} text={"3"}/>  
+      <MathFunctionButton buttonStyle={"mathFunction"} text={"+"}/>
+      
+      <ActionButton buttonStyle={"actionButton"} text={"0"}/>
+      <MathFunctionButton buttonStyle={"mathFunction"} text={"="}/>
+      
     </div>
   );
 };

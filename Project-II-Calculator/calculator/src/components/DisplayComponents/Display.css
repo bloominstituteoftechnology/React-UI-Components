@@ -1,0 +1,14 @@
+.display {
+    background-color: black;
+    color: white;
+    border: solid 2px gray;
+    width: 100%;
+
+}
+
+h1 {
+    text-align: right;
+    padding-right: 2%;
+    font-weight: 400;
+    font-size: 65px;
+}
