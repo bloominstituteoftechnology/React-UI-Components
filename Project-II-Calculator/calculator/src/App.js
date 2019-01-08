@@ -37,8 +37,8 @@ class App extends React.Component {
     };
   }
   
-  handleClick = e =>{
-
+  handleClick = () =>{
+    console.log('click');
   }
   render() {
     return(
@@ -47,15 +47,15 @@ class App extends React.Component {
       {/* <ButtonPad number={this.numberList}  total={this.state.total} /> */}
       <div className="test-full-pad">
       <div className="test-num-pad">
-        <ActionButton text= "clear"/>
+        <ActionButton onClick={this.handleClick()}text= "clear"/>
         {this.state.numbers.map((number, i) =>(
-          <NumberButton text = {number.text}/>
+          <NumberButton key ={i} text = {number.text}/>
           ))}
         <ActionButton text= {0}/>
       </div>
         <div className="test-algo-pad">
           {this.state.symbols.map((sym, i) =>(
-          <MathButton text = {sym.text}/>
+          <MathButton key ={i} text = {sym.text}/>
           ))}
         </div>
         
