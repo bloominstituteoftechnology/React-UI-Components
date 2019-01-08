@@ -1,14 +1,16 @@
 .footer {
     display: flex;
-    margin-left: 57px;
-    margin-top: 15px;
+    margin-left: 50px;
+    margin-top: 7px;
     padding: 3px;
 }
 
 .social-action {
+    display: flex;
+    align-items: center;
     font-size: 1rem;
     color: grey;
-    margin-right: 47px;
+    margin-right: 40px;
 }
 
 .social-action:hover {
@@ -16,5 +18,5 @@
 }
 
 .social-number {
-    padding-left: 10px;
+    padding-left: 2px;
 }

@@ -1,23 +1,28 @@
 import React from 'react';
 import './Footer.css';
 
+import CommentIcon from '../../assets/comment.png';
+import RetweetIcon from '../../assets/retweet.png';
+import LikeIcon from '../../assets/like.png';
+import EmailIcon from '../../assets/email.png';
+
 const Footer = props => {
     return (
         <div className="footer">
             <div className='social-action' onClick={props.increaseComments}>
-                <i className="far fa-comment"></i>
+                <img src={CommentIcon}></img>
                 <span className='social-number'>{props.commentCount}</span>
             </div>
             <div className='social-action' onClick={props.increaseRetweets}>
-                <i className="fas fa-retweet"></i>
+                <img src={RetweetIcon}></img>
                 <span className='social-number'>{props.retweets}</span>
             </div>
             <div className='social-action' onClick={props.increaseLikes}>
-                <i className="far fa-heart"></i>
+                <img src={LikeIcon}></img>
                 <span className='social-number'>{props.likes}</span>
             </div>
             <div className='social-action'>
-                <i className="far fa-envelope"></i>
+                <img src={EmailIcon}></img>
             </div>
         </div>
     );
