@@ -1,0 +1,10 @@
+.calculatorContainer {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    height: 598px;
+    width: 455px;
+    margin: 0 auto;
+    border: 2px solid rgb(185, 185, 185);
+    font-family: sans-serif;
+}

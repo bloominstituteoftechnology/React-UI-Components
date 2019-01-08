@@ -1,1 +1,54 @@
 /* All styles for your Card Components live here */
+* {
+    box-sizing: border-box;
+}
+
+.card-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+  
+.banner-container-wrapper {
+    height: 100%;
+    width: 80%;
+    margin: 0px auto 0 auto;
+    background-size: contain;
+    border-radius: 4px;
+}
+
+.banner-img {
+    max-height: 100%;
+    width: 100%;
+    border-radius: 4px 4px 0 0;
+    margin-top: 5px;
+
+}
+
+.banner-content {
+    margin: 0;
+    padding: 0.3em;
+    font-size: 13px;
+    font-family: 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana;
+}
+
+.head {
+    font-weight: bold;
+}
+
+.link {
+    text-decoration: none;
+    color: #707070;
+}
+
+.banner-bottom {
+    width: 80%;
+    z-index: -2;
+    padding: 10px 0 10px 10px;
+    margin: 0 auto;
+    background: white;
+    height: 50%;
+    border-radius: 0 0 4px 4px;
+    border: 1px solid rgb(173, 173, 173);
+    margin-top: -6px;
+    margin-bottom: 8px;
+}
