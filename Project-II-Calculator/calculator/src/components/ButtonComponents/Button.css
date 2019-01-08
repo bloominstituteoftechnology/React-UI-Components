@@ -1,0 +1,32 @@
+.action-button {
+    width: 75%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gray;
+    font-size: 3.2rem;
+    cursor: pointer;
+}
+.integer-button {
+    width: 25%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gray;
+    font-size: 3.2rem;
+    cursor: pointer;
+}
+.operand-button {
+    width: 25%;
+    height: 100px;
+    background-color: #A0001F;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gray;
+    font-size: 4rem;
+    cursor: pointer;
+}

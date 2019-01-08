@@ -1,1 +1,36 @@
 /* All styles for your header Components live here */
+
+.HeaderContainer {
+    /* border: 1px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+}
+.logo {
+    border-radius: 50%;
+    height: 10%;
+    width: 10%;
+    margin: 10px;
+}
+.header-title {
+    width: 80%;
+    height: 20%;
+    display: flex;
+    align-items: baseline;
+    /* border: 1px solid red; */
+}
+.header-title h3 {
+    margin: 10px 10px 0 0;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.header-title h4 {
+    font-size: .8rem;
+    color: grey;
+    margin: 20px 10px 0 0;
+}
+.header-content {
+    margin-left: 80px;
+    margin-top: -30px;
+    font-size: 0.9rem;
+    line-height: 1.25;
+}
