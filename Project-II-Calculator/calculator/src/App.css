@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+    font-size: 62.5%
+}
+
+.calculator-container{
+    width: 465px;
+    height: 598px;
+    background-color: green;
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom{
+    display: flex;
+}

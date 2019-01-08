@@ -1,0 +1,5 @@
+.actions-container{
+    width: 116px;
+    display: flex;
+    flex-direction: column;
+}

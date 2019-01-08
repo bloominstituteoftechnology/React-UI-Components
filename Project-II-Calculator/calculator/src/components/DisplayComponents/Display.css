@@ -1,0 +1,25 @@
+.calculator-display{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-content: flex-end;
+    align-items: flex-end;
+    height: 100px;
+    width: 464px;
+    border: 1px solid grey;
+    background-color: #1e1e1e;
+}
+.calculator-display h2{
+    color: lightgrey;
+    font-size: 2.6rem;
+    text-align: right;
+    margin: 5px 5px 10px 0;
+}
+
+.calculator-display h1{
+    color: white;
+    font-size: 5rem;
+    font-weight: 100;
+    margin: unset;
+    text-align: right;
+}
