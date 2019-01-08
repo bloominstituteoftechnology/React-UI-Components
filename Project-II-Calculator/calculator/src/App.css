@@ -1,0 +1,8 @@
+html {
+    font-size: 62.5%;
+}
+
+* {
+    display: block;
+    box-sizing: border-box;
+}
