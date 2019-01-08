@@ -5,12 +5,18 @@ body {
   font-family: sans-serif;
   max-width: 800px;
   line-height: 19px;
-  border-bottom: 1px solid gray;
+  
+}
+
+em {
+  font-size: 14px;
+  margin-left: 10px;
 }
 
 .app {
   width: 100%;
-
+  border-bottom: 1px solid lightgray;
+  max-width: 800px;
 }
 
 .logo {
@@ -124,6 +130,3 @@ a:hover {
 }
 
 
-.fa-comment{
-      transform: scaleX(-1);  
-}
