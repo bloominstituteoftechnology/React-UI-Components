@@ -1,0 +1,46 @@
+.buttons {
+    width: 100%;
+    display: flex;
+}
+
+.buttons p {
+    font-size: 5rem;
+    text-align: center;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.buttons .NumberButtons {
+    display: flex;
+    flex-wrap: wrap;
+    width: 75%;
+}
+
+.buttons .NumberButtons .number-short {
+    width: 33.3%;
+    background: white;
+    color: black;
+}
+
+.buttons .NumberButtons p:active {
+    background: lightgrey;;
+}
+
+.buttons .NumberButtons .number-long {
+    width: 100%;
+}
+
+.buttons .NumberButtons .clear{
+    font-weight: 200;
+}
+
+.buttons .ActionButtons {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    background: rgb(189, 19, 19);
+}
+
+.buttons .ActionButtons :active{
+    background: rgb(247, 93, 93);
+}
