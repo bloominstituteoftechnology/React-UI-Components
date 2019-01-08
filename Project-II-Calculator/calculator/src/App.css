@@ -4,11 +4,11 @@
 }
 
 .calculator-container{
-    width: 465px;
+    width: 466px;
     height: 598px;
-    background-color: green;
     display: flex;
     flex-direction: column;
+    border: 1px solid grey;
 }
 
 .bottom{

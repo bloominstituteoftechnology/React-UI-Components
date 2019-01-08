@@ -1,9 +1,20 @@
 .number-button{
     font-size: 5rem;
     width: 116px;
-    height: 100px;
+    height: 99px;
     border: 1px solid grey;
     background-color: white;
+    cursor: pointer;
+}
+
+.number-button:hover{
+    transition: 0.1s;
+    color: white;
+    background-color: black;
+}
+
+.number-button:active {
+    color: grey;
 }
 
 .action-button{
@@ -13,6 +24,17 @@
     background-color: darkred;
     color: white;
     border: 1px solid grey;
+    cursor: pointer;
+}
+
+.action-button:hover{
+    transition: 0.1s;
+    color: white;
+    background-color: black;
+}
+
+.action-button:active {
+    color: grey;
 }
 
 .wide-button{
@@ -21,4 +43,15 @@
     font-size: 5rem;
     border: 1px solid grey;
     background-color: white;
+    cursor: pointer;
+}
+
+.wide-button:hover{
+    transition: 0.1s;
+    color: white;
+    background-color: black;
+}
+
+.wide-button:active {
+    color: grey;
 }
