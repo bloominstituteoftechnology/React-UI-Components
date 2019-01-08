@@ -85,7 +85,9 @@ class App extends React.Component {
   render() {
     return (
       <div className='calculator-container'>
-        <CalculatorDisplay result={this.state.result} />
+        <CalculatorDisplay 
+          result={this.state.result}
+          operations={this.state.operations} />
         <div className='buttons-container'>
           <div className='numbers-container'>
             <ActionButton 
