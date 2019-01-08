@@ -1,0 +1,17 @@
+.footer {
+    width: 91%;
+    margin-left: 9%;
+
+}
+
+.footer img {
+    height: 1rem;
+    width: auto;
+    margin-right: 15%;
+    padding: 10px 0;
+
+}
+
+img:hover {
+    cursor: pointer;
+}

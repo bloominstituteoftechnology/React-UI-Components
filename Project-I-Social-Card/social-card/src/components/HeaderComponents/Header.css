@@ -1,1 +1,30 @@
 /* All styles for your header Components live here */
+
+.header img {
+    width: 8%;
+    height: 8%;
+}
+.header {
+    display: flex;
+}
+
+.header .header-text {
+    margin: 0px 10px 10px 10px;
+
+}
+
+.header .header-title {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.header h2 {
+    margin: 0 10px 0 0;
+    font-size: 1.1rem;
+}
+
+.header p {
+    margin: 0 10px 0 0;
+    font-size: 14px;
+}

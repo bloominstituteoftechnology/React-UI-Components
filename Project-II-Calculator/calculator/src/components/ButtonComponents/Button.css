@@ -1,0 +1,39 @@
+/* * {
+    box-sizing: border-box;
+} */
+
+
+.red {
+    background: #A0001E;
+    margin: 0;
+    color: white;
+}
+
+.reg-button {
+    padding: 30px 41.7px;
+    border: 1px solid gray;
+    margin: 0;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.action-button {
+    padding: 30px;
+    font-size: 3rem;
+    border: 1px solid gray;
+    text-align: center;
+}
+
+.one-nine {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    font-weight: bold;
+}
+
+.numbers {
+    font-weight: bold;
+}
+
+/* .display {
+
+} */
