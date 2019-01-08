@@ -1,1 +1,29 @@
 /* All styles for your Card Components live here */
+
+.card-container{
+    max-width: 500px;
+    padding-bottom: 1%;
+}
+
+.card-banner {
+    width: 89%;
+    padding-left: 11%;
+}
+
+.card-title {
+    font-size: .9rem;
+    padding-left: 12%;
+    padding-bottom: 0%;
+}
+
+.card-url {
+    color: gray;
+    font-size: .8rem;
+    padding-left: 12%;
+    padding-bottom: 1%;
+}
+
+p {
+    font-size: .9rem;
+    padding: .1% 0% .1% 12%;
+}
