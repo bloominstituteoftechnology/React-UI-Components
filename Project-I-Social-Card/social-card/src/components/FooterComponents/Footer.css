@@ -1,0 +1,7 @@
+.footer-icons {
+  max-width: 600px;
+  width: 45%;
+  margin-left: 60px;
+  justify-content: space-between;
+  display: flex;
+}
