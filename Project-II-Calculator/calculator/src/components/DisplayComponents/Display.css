@@ -1,0 +1,9 @@
+.calc-display {
+    width: 100%;
+    background-color: black;
+    color: white;
+    border: 1px solid grey;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10%;
+}

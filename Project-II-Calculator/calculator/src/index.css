@@ -33,6 +33,9 @@ body {
   font-family: sans-serif;
   box-sizing: border-box;
   font-size: 10px;
+  width: 50%;
+  height: 600px;
+  margin: 10% auto;
 }
 ol, ul {
 	list-style: none;
