@@ -4,8 +4,9 @@
     width: 300px;
     justify-content: center;
     justify-content: flex-start;
+    flex-wrap: wrap-reverse;
 }
-.number{
+.single{
     width: 100px;
     justify-content: center;
     align-items: center;

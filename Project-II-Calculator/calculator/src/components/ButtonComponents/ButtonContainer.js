@@ -3,11 +3,19 @@ import NumberButton from './NumberButton';
 import ActionButton from './ActionButton';
 
 
-function ButtonContainer(){
+function ButtonContainer(props){
     return(
         <div className="buttonContainer">
-            <NumberButton />
-            <ActionButton />
+            <NumberButton 
+                handleClear = {props.handleClear}
+                state = {props.state}
+                buttons = {props.buttons}
+            />
+            <ActionButton 
+                handleClear = {props.handleClear}
+                state = {props.state}
+                buttons = {props.buttons}
+            />
         </div>
     )
 }

@@ -2,9 +2,9 @@ import React from 'react';
 import './Display.css';
 import './Display.css'
 
-function Display(){
+function Display(props){
     return(
-        <div className="display">0</div>
+        <div className="display">{props.total}</div>
     )
 }
 

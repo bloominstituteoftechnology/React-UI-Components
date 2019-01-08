@@ -2,38 +2,11 @@ import React from 'react';
 import Button from './Button'
 import './Button.css';
 
-const actions = [
-    {
-        id: '1',
-        name: '÷',
-        style: 'action'
-    },
-    {
-        id: '2',
-        name: 'x',
-        style: 'action'
-    },
-    {
-        id: '3',
-        name: '-',
-        style: 'action'
-    },
-    {
-        id: '4',
-        name: '+',
-        style: 'action'
-    },
-    {
-        id: '5',
-        name: '=',
-        style: 'action'
-    }
-]
 
-function ActionButton(){
+function ActionButton(props){
     return(
         <div className="numbers">
-            {actions.map( button => < Button item = {button} key={button.id} />)}
+            {props.buttons.filter(item=>item.type==="action").map( button => < Button item = {button} key={button.id} />)}
         </div>       
     );
 }
