@@ -1,9 +1,11 @@
 import React from 'react';
 import './Display.css';
 
-const CalulatorDisplay = () => {
+const CalculatorDisplay = () => {
     return (
-        <div></div>
+        <div className="calculatorDisplay">
+        <h1>hi</h1>
+        </div>
     );
 };
 
