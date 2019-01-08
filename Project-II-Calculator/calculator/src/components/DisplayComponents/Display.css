@@ -1,0 +1,13 @@
+.display {
+  height: 125px;
+  background: #262626;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.result {
+  color: #ffffff;
+  font-size: 70px;
+  font-weight: normal;
+  padding: 30px 15px;
+}
