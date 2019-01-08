@@ -1,8 +1,9 @@
 .button {
   width: 33.33%;
   height: 95px;
-  background: white;
   border: 1px solid #8c8c8c;
+  color: #1F1F1F;
+  background: white;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -10,14 +11,20 @@
   font-weight: 700;
 }
 
-.action-button {
-  width: 75%;
+.button:hover {
+  background: #dddddd;
 }
 
 .operator-button {
   width: 100%;
+  background-color: #96001C;
+  color: white;
+  font-weight: 300;
 }
 
+.operator-button:hover {
+  background: #7f0017;
+}
 
 .button-container {
   width: 75%;
@@ -28,20 +35,12 @@
 
 .operator-container {
   width: 25%;
-  display: flex;
-  justify-content: flex-end;
-}
-
-
-
-
-.crimson {
-  background: #96001c;
-  color: white;
-  font-weight: 300;
-  font-size: 50px;
 }
 
 .light {
   font-weight: 300;
+}
+
+.wide {
+  width: 100%;
 }
