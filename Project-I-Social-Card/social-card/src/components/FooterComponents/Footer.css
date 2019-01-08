@@ -6,6 +6,7 @@
 
 span {
     padding-right: 8%;
+    cursor: pointer;
 }
 
 i:hover {
