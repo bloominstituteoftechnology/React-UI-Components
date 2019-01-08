@@ -1,1 +1,30 @@
 /* All styles for your header Components live here */
+.header {
+  display: grid;
+}
+.header img {
+  height: 50px;
+  grid-column: 1/2;
+  grid-row: 1/2;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.headerContent {
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+.headerContent .lambdahead {
+  display: inline-block;
+  font-size: 1rem;
+}
+.headerContent .lambdahead2 {
+  display: inline-block;
+  margin-left: 10px;
+  font-size: 1rem;
+  color: grey;
+  font-weight: 500;
+}
+.headerContent p {
+  margin-top: -10px;
+}
