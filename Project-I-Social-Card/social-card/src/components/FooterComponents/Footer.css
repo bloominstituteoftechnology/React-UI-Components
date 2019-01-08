@@ -1,10 +1,10 @@
 .Footer {
     display: flex;
-    margin: 2% 5%;
+    margin: 2% 7%;
     font-size: 18px;
 }
 
-i {
+span {
     padding-right: 8%;
 }
 
