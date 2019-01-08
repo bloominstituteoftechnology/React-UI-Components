@@ -10,7 +10,7 @@ const HeaderContainer = () => {
     return (
         <div className="whole-section">
             <ImageThumbnail />
-        <div>
+        <div className="titles">
             <HeaderTitle />
         
             <HeaderContent />

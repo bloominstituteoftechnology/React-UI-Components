@@ -1,14 +1,28 @@
 /* All styles for your Card Components live here */
 
-.card-whole {
-    display:flex;
-}
+
 
 .image {
-    width:100%;
-    padding-left: 4rem;
+    margin: 10px 0;
+    padding-left: 8rem;
+
 }
 
 .card-bottom {
+    padding-top: 30px;
     padding-left: 8rem;
+    
+    
 }
+
+.space {
+    padding: 20px 0;
+}
+
+.text{
+    text-decoration: none;
+    color: gray;
+    font-size: 1.7rem;
+}
+
+

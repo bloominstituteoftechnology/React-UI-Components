@@ -1,10 +1,11 @@
 /* All styles for your header Components live here */
 
 
-.whole-section {
+ .whole-section {
     display: flex;
-    border: 2px solid red;
-}
+    /* border: 2px solid red; */
+ }
+  
 
 
 .header-title {
@@ -13,10 +14,25 @@
     padding: 10px 0;
 
 }
-
+h1{
+ font-size: 2.2rem;
+}
 h2{
     color: gray;
+    padding: 0 10px;
 }
 
+.titles {
+    width: 100%;
+}
 
+.para {
+    
+    width:70%;
+    padding: 10px 0;
+    /* width: 900px; */
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1.8rem;
+}
 
