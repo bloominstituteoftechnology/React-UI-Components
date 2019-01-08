@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 
-import Display from "./components/DisplayComponents/CalculatorDisplay";
+import CalculatorDisplay from "./components/DisplayComponents/CalculatorDisplay";
 import NumberButton from "./components/ButtonComponents/NumberButton";
 import ActionButton from "./components/ButtonComponents/ActionButton";
 
@@ -78,7 +78,7 @@ const Equals = {
 const App = () => {
   return (
     <div className ="App">
-      <Display display={CalDisplay}/>
+      <CalculatorDisplay display={CalDisplay}/>
       <ActionButton action={Clear}/>
       <ActionButton action={Divide}/>
       <NumberButton number={Seven}/>
