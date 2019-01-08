@@ -1,0 +1,29 @@
+@import './variables.css';
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: "Calibri";
+}
+
+p {
+    font-size: 1.6rem;
+    line-height: 1.2;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.calculator {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 100%;
+    max-width: 450px;
+    outline: 1px solid var(--calculator-outline-color);
+    margin: 20px auto;
+}

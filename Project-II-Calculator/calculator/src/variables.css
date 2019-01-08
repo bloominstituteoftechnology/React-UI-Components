@@ -1,0 +1,11 @@
+:root {
+    /* Color assignments */
+    --calc-outline-color: var(--silver);
+    --calc-display-bg-color: var(--mine-shaft);
+    --calc-display-font-color: var(--white);
+
+    /* Color values */
+    --silver: #C0C0C0;
+    --mine-shaft: #222222;
+    --white: #FFFFFF;
+}
