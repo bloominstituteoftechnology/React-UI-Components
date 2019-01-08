@@ -9,16 +9,3 @@
     outline: 1px solid var(--calculator-outline-color);
     margin: 20px auto;
 }
-
-.operator-button-column {
-    grid-column-start: span 1;
-    grid-row-start: span 5;
-}
-
-.digit-square {
-    grid-column-start: span 3;
-    grid-row-start: span 3;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-}
