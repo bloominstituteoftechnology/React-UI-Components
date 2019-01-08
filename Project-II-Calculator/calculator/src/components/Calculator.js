@@ -22,9 +22,24 @@ class Calculator extends Component {
     }
 
     setOperator(operator) {
+        let opChar;
+        switch(operator) {
+            case 'add':
+                opChar = '+';
+            break;
+            case 'subtract':
+                opChar = '-';
+            break;
+            case 'multiply':
+                opChar = '*';
+            break;
+            case 'divide':
+                opChar = '/';
+            break;
+        }
 
         if(this.state.answered) {
-            this.clear();
+            this.clear('0', opChar, operator);
             return;
         }
 
@@ -34,52 +49,20 @@ class Calculator extends Component {
             let str = this.state.equationStr.split('');
             str.pop();
             let final = str.join('');
-            switch(operator) {
-                case 'add':
-                    final = final + '+'
-                break;
-                case 'subtract':
-                    final = final + '-'
-                break;
-                case 'multiply':
-                    final = final + '*'
-                break;
-                case 'divide':
-                    final = final + '/' // /
-                break;
-            }
+            final = final + opChar;
             this.setState({ operator, equationStr: final });
         } else {
-            let opChar;
             let equationStr;
-            switch(operator) {
-                case 'add':
-                    opChar = '+';
-                    equationStr = `${this.state.equationStr} ${this.state.activeInput} ${opChar}`;
-                    this.setState({ operator, activeInput: '0', equationStr });
-                break;
-                case 'subtract':
-                    opChar = '-';
-                    equationStr = `${this.state.equationStr} ${this.state.activeInput} ${opChar}`;
-                    this.setState({ operator, activeInput: '0', equationStr });
-                break;
-                case 'multiply':
-                    opChar = '*';
-                    equationStr = `${this.state.equationStr} ${this.state.activeInput} ${opChar}`;
-                    this.setState({ operator, activeInput: '0', equationStr });
-                break;
-                case 'divide':
-                    opChar = '/'; // /
-                    equationStr = `${this.state.equationStr} ${this.state.activeInput} ${opChar}`;
-                    this.setState({ operator, activeInput: '0', equationStr });
-                break;
-            }
+            equationStr = `${this.state.equationStr} ${this.state.activeInput} ${opChar}`;
+            this.setState({ operator, activeInput: '0', equationStr });
         }
     }
 
     equals() {
         if(this.state.answered) {
             this.clear();
+            return;
+        } else if(this.state.activeInput === '0' && this.state.equationStr === '') {
             return;
         }
 
@@ -98,9 +81,30 @@ class Calculator extends Component {
     }
 
     numberButtonPress(num) {
+        
+
         if(this.state.answered) {
-            this.setState({ activeInput: num, answered: false });
-            return
+            let opChar;
+            switch(this.state.operator) {
+                case 'add':
+                    opChar = '+';
+                break;
+                case 'subtract':
+                    opChar = '-';
+                break;
+                case 'multiply':
+                    opChar = '*';
+                break;
+                case 'divide':
+                    opChar = '/';
+                break;
+            }
+            if(this.state.operator === '') {
+                this.clear(num, '+', 'add');
+            } else {
+                this.clear(num, opChar, this.state.operato);
+            }
+            return;
         }
         if(this.state.activeInput === '0') {
             this.setState({ activeInput: num });
@@ -111,11 +115,21 @@ class Calculator extends Component {
         this.setState({ activeInput: newInput });
     }
 
-    clear() {
+    clear(n, op, opType) {
+        if(n !== undefined && n !== 'clear') {
+            this.setState({
+                operator: opType,
+                activeInput: n,
+                equationStr: this.state.activeInput + ` ${op}`,
+                answered: false
+            });
+            return;
+        }
         this.setState({
             operator: '',
             activeInput: '0',
-            equationStr: ''
+            equationStr: '',
+            answered: false
         });
     }
 

@@ -1,5 +1,5 @@
 .Calculator {
-    border: 1px solid black;
+    border: 1px solid #979797;
     display: flex;
     flex-wrap: wrap;
     width: 455px;
@@ -7,7 +7,7 @@
 }
 
 .Calculator .CalculatorDisplay {
-    background: black;
+    background: #222222;
     color: white;
     width: 100%;
     font-size: 76px;
@@ -32,7 +32,7 @@
     line-height: 92px;
     background: #FFFFFF;
     border: none;
-    outline: 1px solid black;
+    outline: 1px solid #979797;
     font-size: 46px;
 }
 
