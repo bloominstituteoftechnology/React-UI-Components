@@ -9,7 +9,7 @@ class App extends React.Component {
   constructor() {
     super();
     this.state = {
-      comments: 0,
+      commentCount: 0,
       retweets: 0,
       likes: 0
     };
@@ -23,7 +23,7 @@ class App extends React.Component {
 
   increaseComments = () => {
     this.setState({
-      comments: this.state.comments + 1
+      commentCount: this.state.commentCount + 1
     })
   }
 
@@ -39,7 +39,7 @@ class App extends React.Component {
         <HeaderContainer />
         <CardContainer />
         <Footer 
-          comments={this.state.comments}
+          commentCount={this.state.commentCount}
           increaseComments={this.increaseComments}
           retweets={this.state.retweets}
           increaseRetweets={this.increaseRetweets}

@@ -5,19 +5,19 @@ const Footer = props => {
     return (
         <div className="footer">
             <div className='social-action' onClick={props.increaseComments}>
-                <i class="far fa-comment"></i>
-                <span className='social-number'>{props.comments}</span>
+                <i className="far fa-comment"></i>
+                <span className='social-number'>{props.commentCount}</span>
             </div>
             <div className='social-action' onClick={props.increaseRetweets}>
-                <i class="fas fa-retweet"></i>
+                <i className="fas fa-retweet"></i>
                 <span className='social-number'>{props.retweets}</span>
             </div>
             <div className='social-action' onClick={props.increaseLikes}>
-                <i class="far fa-heart"></i>
+                <i className="far fa-heart"></i>
                 <span className='social-number'>{props.likes}</span>
             </div>
             <div className='social-action'>
-                <i class="far fa-envelope"></i>
+                <i className="far fa-envelope"></i>
             </div>
         </div>
     );
