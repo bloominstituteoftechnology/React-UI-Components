@@ -17,6 +17,12 @@ class App extends React.Component {
     }
   }
 
+  componentDidUpdate() {
+    if (this.state.total > 999999999 || this.state.next > 999999999) {
+      this.setState({total : "overflow", next: "overflow"})
+    }
+  }
+
   handleClick = buttonText => {
     this.setState(calculate(this.state, buttonText));
   };

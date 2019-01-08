@@ -27,7 +27,15 @@ function calculate(obj, buttonText) {
         prev_op: null,
       };
     }
-
+  if (obj.total === "overflow") {
+    return {
+      total: "overflow",
+      next: null,
+      operation: null,
+      prev: null,
+      prev_op: null,
+    }
+  }
   if (/[0-9]+/.test(buttonText)) { // regex to test if it is a number
     if (buttonText === "0" && obj.next === "0") {
       return {};
@@ -79,6 +87,12 @@ function calculate(obj, buttonText) {
     return {};
   }
 
+  if (obj.operation && !obj.next) {
+    return {
+      operation: buttonText,
+    }
+  }
+  
   if (obj.operation) {
     return {
       total: operate(obj.total, obj.next, obj.operation),
