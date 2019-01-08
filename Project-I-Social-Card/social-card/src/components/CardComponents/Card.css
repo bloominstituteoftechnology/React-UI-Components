@@ -1,1 +1,16 @@
 /* All styles for your Card Components live here */
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.atom {
+  display: flex;
+  justify-content: flex-end;
+}
+
+img {
+  width: 93.5%;
+  height: 465px;
+}

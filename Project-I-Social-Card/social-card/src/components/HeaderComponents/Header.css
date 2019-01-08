@@ -1,6 +1,25 @@
 /* All styles for your header Components live here */
 .logo {
   border-radius: 50%;
-  height: 120px;
-  width: 120px;
+  height: 60px;
+  width: 60px;
+}
+
+.container {
+  border: 2px solid greenyellow;
+  display: flex;
+  flex-direction: row;
+}
+
+.header-title {
+  border: 2px solid blue;
+  display: flex;
+  flex-direction: row;
+  width: 40%;
+}
+
+.content {
+  border: 2px solid hotpink;
+  display: flex;
+  width: 70%;
 }
