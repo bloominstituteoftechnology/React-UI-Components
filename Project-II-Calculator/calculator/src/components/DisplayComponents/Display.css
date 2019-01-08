@@ -1,0 +1,10 @@
+.displayContainer{
+    display: flex;
+    justify-content:flex-end;
+    align-items: flex-end;
+    width: 300px;
+    height: 70px;
+    background-color: black;
+    color: white;
+    font-size: 30px;
+}
