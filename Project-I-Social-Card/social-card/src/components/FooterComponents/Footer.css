@@ -1,0 +1,9 @@
+.footer {
+    display: flex;
+    margin: 10px auto 0 auto;
+    width: 85%;
+}
+
+.footer-img {
+    padding: 10px 20px;
+}

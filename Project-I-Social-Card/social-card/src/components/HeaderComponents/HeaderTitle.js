@@ -10,7 +10,7 @@ const HeaderTitle = () => {
     return (
         <div className= "header-title-wrapper">
         <div className= "header-title">
-           Lambda School <span className= "handle">@LambdaSchool</span>
+           Lambda School <span className= "handle">@LambdaSchool  •</span>
             <span className= "time-stamp">{time.format('D MMM')}</span>
             <HeaderContent />
         </div>
