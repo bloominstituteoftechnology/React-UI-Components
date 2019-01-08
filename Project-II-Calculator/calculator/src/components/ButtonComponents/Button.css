@@ -1,0 +1,77 @@
+.btns {
+  display: flex;
+  height: 470px;
+  border: 1px solid #969696;
+}
+
+.numberBtns {
+  /* display: flex; */
+  width: 75%;
+  border: 1px solid #969696;
+}
+
+.bigNumber {
+  display: flex;
+  height: 92px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #969696;
+}
+.bigNumber:hover {
+  background: #969696;
+  color: #ffffff;
+}
+
+.bigNumber:active {
+  background: #a30029;
+  color: #ffffff;
+}
+
+.bigNumber button {
+  font-size: 50px;
+}
+
+.row {
+  height: 92px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #969696;
+}
+
+.number {
+  width: 100%;
+  text-align: center;
+  font-size: 50px;
+  border: 1px solid #969696;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.number:hover {
+  background: #969696;
+  color: #ffffff;
+}
+
+.number:active {
+  background: #a30029;
+  color: #ffffff;
+}
+
+.symbols {
+  width: 26%;
+  background: #a30029;
+  color: #ffffff;
+}
+
+button {
+  background: none;
+  border: none;
+}
+
+.symbols button {
+  color: #ffffff;
+}
