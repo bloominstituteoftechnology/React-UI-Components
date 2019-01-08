@@ -4,6 +4,7 @@
     width: 300px;
     justify-content: center;
     justify-content: flex-start;
+    flex-wrap: wrap-reverse;
 }
 .number{
     width: 100px;

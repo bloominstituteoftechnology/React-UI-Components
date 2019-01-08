@@ -63,7 +63,7 @@ const buttons = [
 function NumberButton(){
     return(
         <div className="numbers">
-            {buttons.map( button => < Button item = {button} key={button.id} />).reverse()}
+            {buttons.map( button => < Button item = {button} key={button.id} />)}
         </div>       
     );
 }
