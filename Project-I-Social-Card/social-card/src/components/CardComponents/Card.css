@@ -1,4 +1,8 @@
 /* All styles for your Card Components live here */
 .card-container{
     text-emphasis:  none;
+    padding-left: 50px;
+    font-size:1.2rem;
 }
+
+
