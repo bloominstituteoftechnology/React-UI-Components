@@ -3,7 +3,8 @@ import React, { Component } from 'react';
 import './App.css';
 
 import CalculatorDisplay from './components/DisplayComponents/CalculatorDisplay';
-import NumberButton from './components/ButtonComponents/NumberButton';
+import ButtonContainer from './components/ButtonComponents/ButtonContainer';
+import OperatorContainer from './components/ButtonComponents/OperatorContainer';
 
 const buttons = ['clear', '9', '8', '7', '6', '5', '4', '3', '2', '1'];
 
@@ -15,10 +16,8 @@ class App extends Component {
     return (
       <div className="container">
         <CalculatorDisplay display="0" />
-        <NumberButton text="9" />
-        <NumberButton text="9" />
-        <NumberButton text="9" />
-        <NumberButton text="9" />
+        <ButtonContainer />
+        <OperatorContainer />
       </div>
     );
   }

@@ -1,5 +1,5 @@
 .button {
-  width: 25%;
+  width: 33.33%;
   height: 95px;
   background: white;
   border: 1px solid #8c8c8c;
@@ -13,6 +13,26 @@
 .action-button {
   width: 75%;
 }
+
+.operator-button {
+  width: 100%;
+}
+
+
+.button-container {
+  width: 75%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+}
+
+.operator-container {
+  width: 25%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+
 
 
 .crimson {
