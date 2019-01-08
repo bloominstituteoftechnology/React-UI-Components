@@ -1,0 +1,30 @@
+.regular{
+width:80px;
+height: 70px;
+background-color: white;
+color: black;
+font-weight:bold;
+font-size: 20px;
+
+}
+.action{
+    width:240px;
+    height:70px;
+    font-size: 20px;
+    
+}
+.symbol{
+    width: 60px;
+    height: 70px;
+    background-color:#9F001D;
+    color:white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.zero{
+    width:240px;
+    height:70px;
+    font-weight: bold;
+    font-size:20px;
+}

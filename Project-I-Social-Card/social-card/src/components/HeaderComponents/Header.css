@@ -1,1 +1,19 @@
 /* All styles for your header Components live here */
+.headerContainer{
+    display:flex;
+    width: 800px;
+}
+.lambda-img{
+    width: 30px;
+    height:40px;
+    margin-top: 12px;
+    margin-right: 5px;
+}
+.account-info{
+    display:flex;
+    
+}
+.info{
+    display: flex;
+}
+
