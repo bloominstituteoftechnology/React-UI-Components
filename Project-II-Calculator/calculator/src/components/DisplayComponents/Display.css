@@ -1,0 +1,9 @@
+.display {
+  border: 2px solid greenyellow;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: flex-end;
+  color: #fff;
+  background-color: black;
+}

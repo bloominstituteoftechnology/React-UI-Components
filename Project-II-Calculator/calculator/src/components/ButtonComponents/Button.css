@@ -1,0 +1,15 @@
+.number-butts {
+  display: flex;
+}
+
+.number-butts {
+  display: flex;
+  flex-wrap: wrap;
+  border: 2px solid blue;
+  width: 80%;
+}
+
+.clear-butt {
+  border: 2px solid black;
+  width: 100%;
+}
