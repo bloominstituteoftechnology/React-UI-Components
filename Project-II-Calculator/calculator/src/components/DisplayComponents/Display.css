@@ -1,3 +1,14 @@
 h1 {
-    color: red;
+    color: white;
+    border: 2px solid grey;
+    width: 400px;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-weight: lighter;
+    font-size: 65px;
+    text-transform: uppercase;
+    /* font-family: 'Digital'; */
 }
