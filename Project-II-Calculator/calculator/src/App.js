@@ -16,11 +16,17 @@ const App = () => {
       <div className='buttons-container'>
         <div className='numbers-container'>
           <ActionButton text='clear' />
-          {numbers.map(number => { return <NumberButton text={number} className='btn-number' /> })}
+          {numbers.map(number => { return <NumberButton 
+            text={number} 
+            className='btn btn-number'
+            key={number} /> })}
           <ActionButton text='0' />
         </div>
         <div className='symbols-container'>
-          {operators.map(operator => { return <NumberButton text={operator} className='btn-operator' /> })}
+          {operators.map(operator => { return <NumberButton 
+            text={operator} 
+            className='btn btn-operator'
+            key={operator} /> })}
         </div>
       </div>
 

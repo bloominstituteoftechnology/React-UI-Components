@@ -1,0 +1,23 @@
+.btn {
+    height: 94px;
+    border: 1px solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    color: black;
+    font-size: 3rem;
+}
+
+.btn-action {
+    width: 100%;
+}
+
+.btn-number {
+    width: 33.3%;
+}
+
+.btn-operator {
+    background: firebrick;
+    color: white;
+}

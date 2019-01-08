@@ -1,7 +1,7 @@
 .calculator-container {
-    border: 1px solid black;
-    max-width: 450px;
+    max-width: 455px;
     margin: 0 auto;
+    border: 1px solid grey;
 }
 
 .buttons-container {
@@ -9,12 +9,11 @@
 }
 
 .numbers-container {
-    width: 74%;
-    border: 1px solid grey;
+    width: 335px;
     display: flex;
     flex-wrap: wrap;
 }
 
 .symbols-container {
-    width: 26%;
+    width: 120px;
 }
