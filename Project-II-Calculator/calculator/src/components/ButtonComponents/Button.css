@@ -1,0 +1,16 @@
+
+h2 {
+    color: red;
+    border: 2px solid grey;
+    width: 300px;
+    height: 80px;
+    color: black;
+    font-weight: lighter;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    text-transform: lowercase;
+    letter-spacing: 2px;
+
+}

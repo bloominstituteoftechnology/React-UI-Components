@@ -3,8 +3,10 @@ import './Button.css';
 
 const ActionButton = () => {
     return (
-        <div></div>
-    )
-}
+        <div className="action">
+            <h2>clear</h2>
+        </div>
+    );
+};
 
 export default ActionButton;

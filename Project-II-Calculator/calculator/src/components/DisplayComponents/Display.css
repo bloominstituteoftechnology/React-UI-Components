@@ -10,5 +10,6 @@ h1 {
     font-weight: lighter;
     font-size: 65px;
     text-transform: uppercase;
+    letter-spacing: 3px;
     /* font-family: 'Digital'; */
 }
