@@ -1,1 +1,36 @@
 /* All styles for your header Components live here */
+/* All styles for your header Components live here */
+.headerContainer{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+}
+
+.titleContainer {
+  display: flex;
+  width: 80%;
+}
+
+.titleContainer h1 {
+  font-size: 1rem;
+  margin: 12px 1%;
+  align-items: baseline;
+}
+
+.titleContainer p {
+  font-size: .9rem;
+  margin: 12px 1%;
+  align-items: baseline;
+  color: grey;
+}
+
+.headerContent {
+  width: 78%;
+  margin: 0 auto;
+  margin: -75px 11.3% 0px;
+  margin-right: 0;
+}
