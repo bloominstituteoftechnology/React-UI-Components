@@ -1,14 +1,18 @@
 import React from "react";
-import "./Buttons.css";
-
-const operators = ["÷", "x", "-", "+", "="];
-const numbers = [9, 8, 7, 6, 5, 4, 3, 2, 1, 0];
+import NumberButtons from "./NumberButton";
+import OperatorButtons from "./OperatorButtons";
+import "./Button.css";
 
 const ButtonContainer = props => {
   return (
     <div className="buttons__container">
-      <NumberButtons />
-      <OperatorButtons />
+      <div className="number__container">
+        <button>clear</button>
+        {props.number.map({})}
+      </div>
+
+      <NumberButtons numbers={props.numbers} />
+      <OperatorButtons operators={props.operators} />
     </div>
   );
 };
