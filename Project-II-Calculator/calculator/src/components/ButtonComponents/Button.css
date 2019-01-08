@@ -3,13 +3,13 @@
   border-bottom: 2px solid gray;
   border-left: 2px solid gray;
   border-right: 2px solid gray;
-  max-height: 50px;
+  max-height: 93px;
 }
 
 .num-btn {
-  width: 50px;
-  height: 50px;
-
+  width: 110px;
+  height: 93px;
+  font-size: 40px;
   display: flex;
   justify-content: center; 
   align-items: center;
@@ -35,6 +35,7 @@
 
 .action-btn {
   background-color: #A0001E;
+  width: 122px;
   color: white;
   border-bottom: 2px solid gray;
   border-right: 2px solid gray;
