@@ -4,6 +4,7 @@
     text-align: right;
     font-size: 2.8rem;
     background-color: black;
+ 
   
   }
   
@@ -12,5 +13,5 @@
     margin-top: 0;
     padding-top: 1.8rem;
     color: white;
-    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
   }

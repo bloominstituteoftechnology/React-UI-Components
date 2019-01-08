@@ -10,8 +10,9 @@ button{
   
   button:hover{
       background-color: #c5c8e9;
+      cursor: pointer;
   }
-  
+
   .app {
     margin: 0 10%;
     width: 28.33rem;

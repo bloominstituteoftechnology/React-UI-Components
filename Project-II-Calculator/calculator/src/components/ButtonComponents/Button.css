@@ -6,13 +6,14 @@
   .action-container button{
     font-size: 4.5rem;
     color: white;
-    background-color: #AD280B;
+    background-color: #A0001E;
     width: 7.3rem;
     
   }
   
   .action-container button:hover{
       background-color: #f0ad9c;
+      cursor: pointer;
   }
   .numbers-container .wide{
     width:21rem;
