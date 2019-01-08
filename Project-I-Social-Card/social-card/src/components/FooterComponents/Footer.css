@@ -15,3 +15,10 @@
     display: flex;
 }
 
+#retweets {
+    color:gray;
+}
+
+#likes {
+    color: gray;
+}
