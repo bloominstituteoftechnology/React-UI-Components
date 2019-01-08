@@ -12,7 +12,8 @@ const CardContent = () => {
         Design simple views for each state in your application.
         </p></div>
 
-        <a href="https://reactjs.org/">reactjs.org</a>
+<div className="other">
+        <a href="https://reactjs.org/">reactjs.org</a></div>
         
         </div>
     )
