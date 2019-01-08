@@ -1,4 +1,9 @@
 /* All styles for your Card Components live here */
+.cardHref {
+  color: black;
+  text-decoration: none;
+}
+
 .card {
   display: flex;
   flex-direction: column;
