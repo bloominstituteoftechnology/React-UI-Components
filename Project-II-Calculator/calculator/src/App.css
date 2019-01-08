@@ -1,0 +1,25 @@
+button{
+    width: 7rem;
+    height: 5.89rem;
+    padding: 0;
+    font-size: 2.5rem;
+    background-color: white;
+    border: 1px solid grey;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  button:hover{
+      background-color: #c5c8e9;
+      cursor: pointer;
+  }
+
+  .app {
+    margin: 0 10%;
+    width: 28.33rem;
+    height: 37.21rem;
+  }
+  
+  .app .button-container{
+    display: flex;
+    flex-direction: row;
+  }

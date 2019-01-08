@@ -1,1 +1,49 @@
 /* All styles for your header Components live here */
+.container-header{
+    height: 50px;
+    padding: 10px;
+    padding-bottom: 55px;
+    display: flex;
+    
+}
+
+.thumb-wrapper {
+    height: 50px;
+    padding: 0.3em;
+}
+
+.thumb-img {
+    height: 100%;
+    border-radius: 100px;
+}
+
+.time-stamp {
+    font-weight: 400;
+    padding: 5px;
+    color: #727272;
+
+}
+
+.handle {
+    font-weight: 400;
+    padding: 5px;
+    color: #727272;
+}
+
+.header-title {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 0 0.3em;
+  }
+  
+  .header-title-wrapper {
+    flex-direction: column;
+    margin-top: 0.6em;
+  }
+  
+  .header-content {
+    font-size: 14px;
+    font-weight: 400;
+    width: 93%;
+    line-height: 1.3;
+  }
