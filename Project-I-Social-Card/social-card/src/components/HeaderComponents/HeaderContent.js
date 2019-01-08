@@ -1,7 +1,7 @@
 import React from 'react';
 import './Header.css';
 
-function HeaderContent(props) {
+function HeaderContent() {
     return (
         <div className="header-paragraph">
             <p>Let's learn React by building simple interfaces with components. Don't try to overthink it,
