@@ -1,1 +1,28 @@
 /* All styles for your header Components live here */
+.header-container {
+  display: flex;
+  flex-direction: column;
+  height: 80px;
+}
+.lambda-logo {
+  width: 3.5%;
+  /* margin-top: 2%; */
+}
+.header-wrapper {
+  flex-direction: column;
+  width: 50%;
+  margin: -3% 5%;
+}
+.header-title {
+  font-weight: 700;
+}
+.time-stamp {
+  padding-left: 2%;
+  opacity: 0.5;
+  font-size: 14px;
+}
+.header-content {
+  margin: 4% 5%;
+  font-size: 16px;
+  width: 50%;
+}

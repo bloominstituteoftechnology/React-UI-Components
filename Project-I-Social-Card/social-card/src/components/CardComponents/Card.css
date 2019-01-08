@@ -1,1 +1,28 @@
 /* All styles for your Card Components live here */
+.banner-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.banner {
+  width: 50%;
+  margin: 0 5%;
+  padding-top: 2%;
+}
+.banner-text {
+  margin: 0 5%;
+  border: 1px solid rgb(218, 223, 228);
+  border-top: none;
+  width: 50%;
+}
+.banner-heading {
+  padding-left: 2%;
+}
+.text-section {
+  padding-left: 2%;
+  width: 85%;
+}
+.react-url {
+  text-decoration: none;
+  padding-left: 2%;
+  opacity: 0.6;
+}

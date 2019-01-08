@@ -1,0 +1,24 @@
+.row-container {
+  height: 100px;
+  text-align: right;
+  font-size: 70px;
+  padding: 0%;
+}
+
+.action-button {
+  height: 100px;
+  width: 342px;
+  font-size: 50px;
+  background: white;
+}
+.number-button {
+  height: 100px;
+  width: 114px;
+  font-size: 50px;
+  background: white;
+}
+
+.functional-btn {
+  background: darkred;
+  color: white;
+}

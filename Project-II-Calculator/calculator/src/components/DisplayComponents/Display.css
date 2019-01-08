@@ -1,0 +1,8 @@
+.total {
+  height: 100px;
+  text-align: right;
+  font-size: 70px;
+  padding: 3%;
+  background: black;
+  color: white;
+}
