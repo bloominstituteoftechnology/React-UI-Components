@@ -1,0 +1,43 @@
+ 
+  .number-container {
+    width: 100%;
+  }
+  
+  .number-button {
+    border: 1px solid gray;
+    color: black;
+    font-size: 4.5rem;
+    font-weight: bold;
+    text-align: center;
+    width: 33.33%;
+    height: 94px;
+    background: white;
+    }
+  
+  .action-button {
+    border: 1px solid gray;
+    background: white;
+    font-size: 4.7rem;
+    font-weight: 300;
+    height: 94px;
+    width: 100%;
+ }  
+    
+  .function-cont {
+    width: 100%;
+  }  
+  
+
+  .function-button {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-bottom: 20px;
+    height: 94px;
+    width: 100%;
+    border: 1px solid gray;
+    background: maroon;
+    color: white;
+    font-size: 7rem;
+    font-weight: 200;
+   }
