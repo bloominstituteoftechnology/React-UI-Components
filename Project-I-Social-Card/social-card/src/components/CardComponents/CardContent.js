@@ -7,9 +7,10 @@ const CardContent = () => {
     <h2>Get started with React</h2>
       <p>
         React makes it painless to create interactive UIs. Design simple views
-        for each state in your application
+        for each state in your application test
       </p>
       <p className="footerCardContent">reactjs.org</p>
+   
       </div>
     )
 }
