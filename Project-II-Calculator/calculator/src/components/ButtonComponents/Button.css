@@ -1,0 +1,27 @@
+.button {
+  width: 25%;
+  height: 95px;
+  background: white;
+  border: 1px solid #8c8c8c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 42px;
+  font-weight: 700;
+}
+
+.action-button {
+  width: 75%;
+}
+
+
+.crimson {
+  background: #96001c;
+  color: white;
+  font-weight: 300;
+  font-size: 50px;
+}
+
+.light {
+  font-weight: 300;
+}

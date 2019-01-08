@@ -6,6 +6,7 @@
   background: #1F1F1F;
   color: white;
   font-size: 80px;
+  font-weight: 300;
   padding: 10px;
-  border: 2px solid #8C8C8C;
+  width: 100%;
 }
