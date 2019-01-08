@@ -2,10 +2,12 @@ import React from 'react';
 import './Button.css';
 
 function NumberButton(props) {
-    console.log(props)
     return (
         <div className='NumberButton'>
-            <p>{props.num}</p>
+            <div>
+                <p className="Nums">{props.num}</p>
+            </div>
+
         </div>
     );
 }

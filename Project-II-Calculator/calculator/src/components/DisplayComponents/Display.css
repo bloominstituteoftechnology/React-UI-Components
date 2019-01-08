@@ -1,0 +1,38 @@
+.CalculatorDisplay {
+    width: 400px;
+}
+
+.Display {
+    display: flex;
+}
+
+.Result {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.Result p {
+    font-size: 80px;
+    text-align: ;
+}
+
+.numSec {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.actSec {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.Clear {
+    flex-grow: 1;
+}
