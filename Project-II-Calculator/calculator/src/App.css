@@ -3,3 +3,18 @@
     max-width: 450px;
     margin: 0 auto;
 }
+
+.buttons-container {
+    display: flex;
+}
+
+.numbers-container {
+    width: 74%;
+    border: 1px solid grey;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.symbols-container {
+    width: 26%;
+}
