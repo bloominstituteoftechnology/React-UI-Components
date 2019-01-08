@@ -1,9 +1,8 @@
 
 h2 {
-    color: red;
     border: 2px solid grey;
-    width: 300px;
-    height: 80px;
+    width: 304px;
+    height: 100px;
     color: black;
     font-weight: lighter;
     display: flex;
@@ -12,6 +11,216 @@ h2 {
     font-size: 35px;
     text-transform: lowercase;
     letter-spacing: 2px;
-    margin-top: -45px;
+    margin-top: -2px;
 
 }
+
+.seven {
+    color: black;
+    border: 2px solid grey;
+    width: 100px;
+    height: 100px;
+    font-weight: bolder;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -31px;
+}
+
+.four {
+    color: black;
+    border: 2px solid grey;
+    width: 100px;
+    height: 100px;
+    font-weight: bolder;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -2px;
+}
+
+.one {
+    color: black;
+    border: 2px solid grey;
+    width: 100px;
+    height: 100px;
+    font-weight: bolder;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -2px;
+}
+
+.eight {
+    color: black;
+    border: 2px solid grey;
+    width: 100px;
+    height: 100px;
+    font-weight: bolder;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -31px;
+    margin-left: 102px;
+    margin-top: -308px;
+}
+
+.five {
+    color: black;
+    border: 2px solid grey;
+    width: 100px;
+    height: 100px;
+    font-weight: bolder;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -31px;
+    margin-left: 102px;
+    margin-top: -2px;
+}
+
+.two {
+    color: black;
+    border: 2px solid grey;
+    width: 100px;
+    height: 100px;
+    font-weight: bolder;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -31px;
+    margin-left: 102px;
+    margin-top: -2px;
+    
+}
+
+
+.nine {
+    color: black;
+    border: 2px solid grey;
+    width: 100px;
+    height: 100px;
+    font-weight: bolder;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -31px;
+    margin-left: 204px;
+    margin-top: -308px;
+}
+
+.six {
+    color: black;
+    border: 2px solid grey;
+    width: 100px;
+    height: 100px;
+    font-weight: bolder;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -2px;
+    margin-left: 204px;
+
+}
+
+.three {
+    color: black;
+    border: 2px solid grey;
+    width: 100px;
+    height: 100px;
+    font-weight: bolder;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -31px;
+    margin-left: 204px;
+    margin-top: -2px;
+}
+
+.divide {
+    color: white;
+    background-color: darkred;
+    border: 2px solid grey;
+    width: 100px;
+    height: 100px;
+    font-weight: bolder;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -410px;
+    margin-left: 306px;
+}
+
+.multiply {
+    color: white;
+    background-color: darkred;
+    border: 2px solid grey;
+    width: 100px;
+    height: 100px;
+    font-weight: bolder;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 306px;
+    margin-top: -2px;
+    
+}
+
+.minus {
+    color: white;
+    background-color: darkred;
+    border: 2px solid grey;
+    width: 100px;
+    height: 100px;
+    font-weight: bolder;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 306px;
+    margin-top: -2px;
+    
+
+}
+
+.add {
+    color: white;
+    background-color: darkred;
+    border: 2px solid grey;
+    width: 100px;
+    height: 100px;
+    font-weight: bolder;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 306px;
+    margin-top: -2px;
+}
+
+.equal {
+    color: white;
+    background-color: darkred;
+    border: 2px solid grey;
+    width: 100px;
+    height: 100px;
+    font-weight: bolder;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 306px;
+    margin-top: -2px;
+}
+
