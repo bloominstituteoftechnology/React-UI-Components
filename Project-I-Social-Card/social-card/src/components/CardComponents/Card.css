@@ -7,25 +7,39 @@
     flex-direction: row;
     flex-wrap: wrap;
     padding: 55px;
-    border: 2px solid #E8E8E8;
+    /* border: 2px solid #E8E8E8;
+    border-radius: 5px; */
+    margin-left: 50px;
+    margin-top: -70px;
+}
+
+.bannerImage {
+    display: flex;
+    width: 550px;
+    height: 300px;
     border-radius: 5px;
+    /* margin-left: 50px; */
+
 }
 
 h2 {
     display: flex;
-    font-size: 20px;
+    font-size: 14px;
     color: black;
     font-weight: bold;
+    /* margin-left: 50px; */
 
 }
+
 
 a {
     display: flex;
     color: #C8C8C8;
-    font-size: 14px;
+    font-size: 15px;
     font-weight: lighter;
     padding-top: 4px; 
     cursor: pointer; 
-    text-decoration: none;   
+    text-decoration: none;  
+    /* margin-left: 50px;  */
 
 }

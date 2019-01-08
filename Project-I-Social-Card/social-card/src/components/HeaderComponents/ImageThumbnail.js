@@ -1,17 +1,29 @@
 import React from 'react';
 import './Header.css';
-import './lambdacrest.png';
+
 
 const ImageThumbnail = () => {
     return (
-        <div>
-            <img className="logo" 
-            src="https://tk-assets.lambdaschool.com/fcd75197-7d12-46ec-bc9e-4130f34822fa_reactbackground.png" 
-            alt="Lambda School Logo" />
+        <div className="logoThumbnail">
+        <img src="https://tk-assets.lambdaschool.com/1c1b7262-cf23-4a9f-90b6-da0d3c74a5c6_lambdacrest.png"
+        alt="logo"
+        className="thumbnail"/>
         </div>
-    )
-}
+    );
+
+};
 
 export default ImageThumbnail;
+
+// const ImageThumbnail = () => {
+//     return (
+//         <div className="logoHeader">
+//         <img src="./lambdacrest.png" alt="logo"/>
+//         </div>
+//     );
+
+// };
+
+// export default ImageThumbnail;
 
 
