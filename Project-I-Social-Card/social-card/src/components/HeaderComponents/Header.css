@@ -1,1 +1,28 @@
-/* All styles for your header Components live here */
+.headerContainer {
+    display: flex;
+}
+
+.headerContainer--logo {
+    width: 30%;
+}
+
+.headerContainer--logo img{
+    width: 70%;
+}
+
+.headerContainer--title{
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.headerContainer--title span{
+    font-weight: 300;
+    font-size: 1.1rem;
+    color: lightgray;
+    margin-left: 12px;
+}
+
+.headerContainer--content {
+    line-height: 1.5rem;
+    font-size: 1rem;
+}

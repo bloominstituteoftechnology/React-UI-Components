@@ -1,1 +1,33 @@
 /* All styles for your Card Components live here */
+
+
+.mainContent{
+    width: 85%;
+    margin: 10px 0 0 auto;
+    border: lightgray 1px solid;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.mainContent--container{
+    padding: 10px;
+}
+
+.mainContent h2{
+    margin-top: 10px
+}
+
+.mainContent--text{
+    line-height: 1.2;
+    margin-bottom: 10px;
+    font-size: 1rem;
+    
+}
+
+.mainContent--web a{
+    color: lightgrey;
+}
+
+.mainContent img{
+    width: 100%;
+}
