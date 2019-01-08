@@ -8,72 +8,72 @@ import ActionButton from "./components/ButtonComponents/ActionButton";
 const CalDisplay = {
   text: 0,
   buttonStyle: "displaybar"
-};
+}
 const Clear = {
   text: "clear",
-  buttonStyle: "action"
-};
+  buttonStyle: "action lg"
+}
 
 const One = {
   text: 1,
   buttonStyle: "digit"
-};
+}
 const Two = {
   text: 2,
   buttonStyle: "digit"
-};
+}
 const Three = {
   text: 3,
   buttonStyle: "digit"
-};
+}
 const Four = {
   text: 4,
   buttonStyle: "digit"
-};
+}
 const Five = {
   text: 5,
   buttonStyle: "digit"
-};
+}
 const Six = {
   text: 6,
   buttonStyle: "digit"
-};
+}
 const Seven = {
   text: 7,
   buttonStyle: "digit"
-};
+}
 const Eight = {
   text: 8,
   buttonStyle: "digit"
-};
+}
 const Nine = {
   text: 9,
   buttonStyle: "digit"
-};
+}
 const Zero = {
   text: 0,
-  buttonStyle: "digit"
-};
+  buttonStyle: "digit lg"
+}
 const Add = {
   text: "+",
   buttonStyle: "action"
-};
+}
 const Subtract = {
   text: "-",
   buttonStyle: "action"
-};
+}
 const Multiply = {
   text: "x",
   buttonStyle: "action"
-};
+}
 const Divide = {
   text: "/",
   buttonStyle: "action"
-};
+}
 const Equals = {
   text: "=",
   buttonStyle: "action"
-};
+}
 
 const App = () => {
   return (
