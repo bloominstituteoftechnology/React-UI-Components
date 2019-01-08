@@ -14,9 +14,29 @@
 }  */
 
 .buttonStyle {
-width:100px;
+width:110px;
 height:100px;
 display: flex;
 flex-wrap: wrap;
 justify-content: space-around;
+/* margin-top: -60px; */
+}
+
+.buttonStyle1 {
+    width:110px;
+    height:100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: -124px;
+    
+}
+
+.buttonStyle2 {
+    width:110px;
+    height:100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: -148px;
 }

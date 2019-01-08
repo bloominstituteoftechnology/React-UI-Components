@@ -70,15 +70,20 @@ const App = () => {
       <Display />
 
       <div className="numbersArea">
-      <NumberButton className='buttonStyle'  text={SevenButton}/>
-      <NumberButton className='buttonStyle'  text={EightButton}/>
-      <NumberButton className='buttonStyle'  text={NineButton}/>
-      <NumberButton className='buttonStyle'  text={FourButton}/>
-      <NumberButton className='buttonStyle'  text={FiveButton}/>
-      <NumberButton className='buttonStyle'  text={SixButton}/>
-      <NumberButton className='buttonStyle'  text={OneButton}/>
-      <NumberButton className='buttonStyle'  text={TwoButton}/> 
-      <NumberButton className='buttonStyle'  text={ThreeButton}/> 
+        <NumberButton className='buttonStyle'  text={SevenButton}/>
+        <NumberButton className='buttonStyle'  text={EightButton}/>
+        <NumberButton className='buttonStyle'  text={NineButton}/>
+        
+        <NumberButton className='buttonStyle1'  text={FourButton}/>
+        <NumberButton className='buttonStyle1'  text={FiveButton}/>
+        <NumberButton className='buttonStyle1'  text={SixButton}/>
+       
+        
+       <NumberButton className='buttonStyle2'  text={OneButton}/>
+       <NumberButton className='buttonStyle2'  text={TwoButton}/> 
+       <NumberButton className='buttonStyle2'  text={ThreeButton}/> 
+
+       
       </div>
       
 

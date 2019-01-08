@@ -2,8 +2,10 @@
     border: 1px solid purple;
     width: 331px;
     height: 468px;
+    
     display: flex;
     flex-wrap: wrap;
     align-content: space-around;
-    align-items:space-around;
+    
 } 
+
