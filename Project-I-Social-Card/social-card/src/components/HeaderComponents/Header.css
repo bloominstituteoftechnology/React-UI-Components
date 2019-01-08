@@ -2,7 +2,9 @@
 .header-container {
     display: flex;
     padding-top: 10px;
-}
+    max-width: 500px;
+    margin-left: 195px;
+  }
 
 .header-container p {
     font-size: 14px;
