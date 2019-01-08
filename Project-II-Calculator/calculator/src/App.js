@@ -3,42 +3,27 @@ import './App.css';
 import CalculatorDisplay from './components/DisplayComponents/CalculatorDisplay'
 import ActionButton from './components/ButtonComponents/ActionButton';
 import NumberButton from './components/ButtonComponents/NumberButton';
+import * as math from 'math.js';
 
 class App extends React.Component {
   constructor(){
     super();
     this.state = {
-      didEqual: false,
-      displayBox: '0'
+      displayBox: ''
     }
   }
 
   displayNum = (num) => {
-    if(this.state.didEqual){
+    if(num === '='){
       this.setState({
-        displayBox: '',
-        didEqual: false
+        displayBox: eval(this.state.displayBox)
       })
     }
-    this.setState({
-      displayBox: this.displayBox += num
-    }) 
-    if(num === "clear"){      
+    else {
       this.setState({
-        displayBox: '',
+        displayBox: this.state.displayBox + num
       })
     }
-  }
-
-  equals = () => {
-    if(this.state.displayBox.slice(-2) === "/0"){
-      this.setState({
-        displayBox: 'stop that',
-    })}
-    this.setState({
-      displayBox: eval(this.state.displayBox),
-      didEqual: true
-    })
   }
 
   render(){
@@ -47,24 +32,24 @@ class App extends React.Component {
         <CalculatorDisplay displayBox={this.state.displayBox}/>
         <div className="buttons">
           <div className="NumberButtons">
-            < NumberButton name="clear" symbol="clear" buttonStyle="number-long" />
-            < NumberButton name="seven" symbol="7" buttonStyle="number-short" />
-            < NumberButton name="eight" symbol="8" buttonStyle="number-short" />
-            < NumberButton name="nine" symbol="9" buttonStyle="number-short" />
-            < NumberButton name="four" symbol="4" buttonStyle="number-short" />
-            < NumberButton name="five" symbol="5" buttonStyle="number-short" />
-            < NumberButton name="six" symbol="6" buttonStyle="number-short" />
-            < NumberButton name="one" symbol="1" buttonStyle="number-short" />
-            < NumberButton name="two" symbol="2" buttonStyle="number-short" />
-            < NumberButton name="three" symbol="3" buttonStyle="number-short" />
-            < NumberButton name="zero" symbol="0" buttonStyle="number-long" />
+            < NumberButton name="clear" symbol="clear" buttonStyle="number-long" handleClick={this.displayNum} />
+            < NumberButton name="seven" symbol="7" buttonStyle="number-short" handleClick={this.displayNum} />
+            < NumberButton name="eight" symbol="8" buttonStyle="number-short" handleClick={this.displayNum} />
+            < NumberButton name="nine" symbol="9" buttonStyle="number-short" handleClick={this.displayNum} />
+            < NumberButton name="four" symbol="4" buttonStyle="number-short" handleClick={this.displayNum} />
+            < NumberButton name="five" symbol="5" buttonStyle="number-short" handleClick={this.displayNum} />
+            < NumberButton name="six" symbol="6" buttonStyle="number-short" handleClick={this.displayNum} />
+            < NumberButton name="one" symbol="1" buttonStyle="number-short" handleClick={this.displayNum} />
+            < NumberButton name="two" symbol="2" buttonStyle="number-short" handleClick={this.displayNum} />
+            < NumberButton name="three" symbol="3" buttonStyle="number-short" handleClick={this.displayNum} />
+            < NumberButton name="zero" symbol="0" buttonStyle="number-long" handleClick={this.displayNum} />
           </div>
           <div className="ActionButtons">
-            < ActionButton symbol="÷" name="divide" />
-            < ActionButton symbol="X" name="multiply" />
-            < ActionButton symbol="-" name="minus" />
-            < ActionButton symbol="+" name="plus" />
-            < ActionButton symbol="=" name="equals" />
+            < ActionButton symbol="/" name="divide" handleClick={this.displayNum} />
+            < ActionButton symbol="*" name="multiply" handleClick={this.displayNum} />
+            < ActionButton symbol="-" name="minus" handleClick={this.displayNum} />
+            < ActionButton symbol="+" name="plus" handleClick={this.displayNum} />
+            < ActionButton symbol="=" name="equals" handleClick={this.displayNum} />
           </div>        
         </div>
       </div>
