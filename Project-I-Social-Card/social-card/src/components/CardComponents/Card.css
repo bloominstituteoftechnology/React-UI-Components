@@ -1,1 +1,30 @@
 /* All styles for your Card Components live here */
+.card-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .banner-container-wrapper {
+    height: 269px;
+    width: 80%;
+    margin: 30px auto 0 auto;
+    background-size: contain;
+    background: white;
+    border-radius: 4px;
+  }
+  
+  .banner-img {
+    max-height: 100%;
+    max-width: 100%;
+    border-radius: 4px 4px 0 0;
+  }
+  
+  .banner-content {
+    margin: 0;
+    padding: 0.3em;
+  }
+  
+  .link {
+    text-decoration: none;
+    color: #cdd0d3;
+  }

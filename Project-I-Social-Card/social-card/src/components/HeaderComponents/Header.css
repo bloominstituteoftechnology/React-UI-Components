@@ -1,1 +1,33 @@
 /* All styles for your header Components live here */
+.header-container {
+    height: 50px;
+    padding: 10px;
+    display: flex;
+}
+
+.thumbnail {
+    height: 50px;
+    padding: 0.3em;
+}
+
+.img-logo {
+    height: 100%;
+}
+
+.header-title {
+    font-size: 14px;
+    font-weight: bold;
+    padding: 0 0.3em;
+}
+
+.header-title-container {
+    flex-direction: column;
+    margin-top: 0.6em;
+}
+
+.header-content {
+    font-size: 13px;
+    font-weight: bold;
+    width: 93%;
+    line-height: 1.3;
+}
