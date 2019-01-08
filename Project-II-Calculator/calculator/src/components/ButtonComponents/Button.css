@@ -1,0 +1,13 @@
+.row-container {
+  height: 100px;
+  border: 1px solid grey;
+  text-align: right;
+  font-size: 70px;
+  padding: 0%;
+}
+
+.action-button {
+  height: 100px;
+  width: 328px;
+  border: 1px solid black;
+}
