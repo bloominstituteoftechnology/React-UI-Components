@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import Display from './components/DisplayComponents/CalculatorDisplay.js'
-
+import NumberButton from './components/ButtonComponents/NumberButton.js'
 
 // const App = () => {
 //   return (
@@ -22,11 +22,66 @@ import Display from './components/DisplayComponents/CalculatorDisplay.js'
 //   );
 // };
 
+// const clearButton = {
+//   name: 'clear'
+// }
+
+const SevenButton = {
+  name: '7'
+}
+
+const EightButton = {
+  name: '8'
+}
+
+const NineButton = {
+  name: '9'
+}
+
+const FourButton = {
+  name: '4'
+}
+
+const FiveButton = {
+  name: '5'
+}
+
+const SixButton = {
+  name: '6'
+}
+
+const OneButton = {
+  name: '1'
+}
+
+const TwoButton = {
+  name: '2'
+}
+
+const ThreeButton = {
+  name: '3'
+}
+
+
 
 const App = () => {
   return(
     <div>
       <Display />
+
+      <div className="numbersArea">
+      <NumberButton className='buttonStyle'  text={SevenButton}/>
+      <NumberButton className='buttonStyle'  text={EightButton}/>
+      <NumberButton className='buttonStyle'  text={NineButton}/>
+      <NumberButton className='buttonStyle'  text={FourButton}/>
+      <NumberButton className='buttonStyle'  text={FiveButton}/>
+      <NumberButton className='buttonStyle'  text={SixButton}/>
+      <NumberButton className='buttonStyle'  text={OneButton}/>
+      <NumberButton className='buttonStyle'  text={TwoButton}/> 
+      <NumberButton className='buttonStyle'  text={ThreeButton}/> 
+      </div>
+      
+
     </div>
   )
 }

@@ -4,7 +4,7 @@ import './Display.css';
 function Display () {
     return (
         <div>
-            <input type="number" class="result-display"></input>
+            <input type="number" class="result-display" value="0"></input>
         </div>
     )
 }

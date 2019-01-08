@@ -1,0 +1,22 @@
+
+
+/* .numbersArea .clearButton {
+    width: 331px;
+    height: 70px;
+    border: 1px solid lightgray;
+    margin-top:0px;
+    text-align: center;
+    font-weight: normal;
+    padding-top:20px;
+    font-size: 2.5rem;
+
+    
+}  */
+
+.buttonStyle {
+width:100px;
+height:100px;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+}

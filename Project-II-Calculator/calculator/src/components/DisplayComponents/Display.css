@@ -1,0 +1,14 @@
+.result-display {
+    width:445px;
+    height:120px;
+    background-color: black;
+    color: whitesmoke; 
+    font-size: 4.3rem;
+    display:flex;
+    justify-content: flex-end; 
+   
+}
+
+/* .display-text {
+  
+} */
