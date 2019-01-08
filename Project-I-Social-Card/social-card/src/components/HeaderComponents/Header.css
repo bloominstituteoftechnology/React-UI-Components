@@ -26,9 +26,26 @@ img {
   font-size: 1.41rem;
 }
 
+.header-at-lambda {
+  padding-left: 4px;
+  font-size: 1.27rem;
+}
+
+.header-dot {
+  padding-left: 4px;
+  font-size: 20px;
+}
+
+.header-date {
+  padding-left: 4px;
+  font-size: 1.2rem;
+}
+
 .header-container p {
-  margin-top: -13px;
+  margin-top: 0px;
   padding-bottom: 20px;
+  line-height: 1.7rem;
+  font-size: 1.44rem;
 }
 
 .header-right {

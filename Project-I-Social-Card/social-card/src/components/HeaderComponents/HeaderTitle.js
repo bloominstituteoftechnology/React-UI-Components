@@ -5,9 +5,9 @@ const HeaderTitle = () => {
   return (
     <div className='header-title-container'>
       <h1>Lambda School</h1>
-      <div>@LambdaSchool</div>
-      <div>&#183;</div>
-      <div>26 jan</div>
+      <div className='header-at-lambda'>@LambdaSchool</div>
+      <div className='header-dot'>&#183;</div>
+      <div className='header-date'>26 jan</div>
     </div>
   );
 };
