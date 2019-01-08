@@ -1,0 +1,22 @@
+.footer-container{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0 0 80px;
+}
+
+.footer-container div i{
+    font-size: 2.5rem;
+    color: grey;
+}
+
+.footer-container div{
+    display: flex;
+}
+
+.footer-container div p{
+    font-size: 1.5rem;
+    margin: 6px 7px;
+    font-weight: bold;
+    color: grey;
+}

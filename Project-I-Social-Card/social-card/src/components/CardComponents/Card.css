@@ -1,1 +1,36 @@
 /* All styles for your Card Components live here */
+
+.card-container{
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    margin: 10px 0 0 80px;
+}
+
+.card-container a{
+    text-decoration: none;
+    color: black;
+}
+
+.react-img{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    width: 510px;
+}
+
+.card-content{
+    margin: 10px;
+    font-size: 2rem;
+}
+
+.card-content h1{
+    font-weight: 700;
+}
+
+.card-content p{
+    margin: unset;
+    line-height: 1.7rem;
+}
+
+.card-content a{
+    color: grey;
+}
