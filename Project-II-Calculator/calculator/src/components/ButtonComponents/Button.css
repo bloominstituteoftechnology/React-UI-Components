@@ -8,11 +8,13 @@
 .small {
     height:60px;
     width:73px;
+    font-weight:bold;
 }
 
 .large{
     height:60px;
     width:219px;
+    font-weight: bold;
 }
 .action {
     width:10%;
@@ -22,4 +24,5 @@
 
 .action .small{
     background: #96001c;
+    color:white;
 }
