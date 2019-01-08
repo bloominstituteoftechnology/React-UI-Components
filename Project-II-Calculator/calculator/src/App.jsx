@@ -11,15 +11,25 @@ const numbers = ['9', '8', '7', '6', '5', '4', '3', '2', '1'];
 const operators = ['÷', 'x', '-', '+', '='];
 
 class App extends Component {
-  state = {
-    total: 0
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      total: 0
+    };
+  }
+
+  clicked = event => {
+    console.log('clicked');
+    // console.log(event.target.name);
   };
+
   render() {
     return (
       <div className="container">
         <CalculatorDisplay display={this.state.total} />
-        <ButtonContainer numbers={numbers} />
-        <OperatorContainer operators={operators} />
+        <ButtonContainer numbers={numbers} clicked={this.clicked} />
+        <OperatorContainer operators={operators} clicked={this.clicked} />
       </div>
     );
   }
