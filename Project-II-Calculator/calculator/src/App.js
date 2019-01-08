@@ -25,6 +25,8 @@ const App = () => {
     <NumberButton buttonStyles="regular" text="2"/>
     <NumberButton buttonStyles="regular" text="3"/>
     <NumberButton buttonStyles="symbol" text="+"/>
+    <NumberButton buttonStyles="zero" text="0"/>
+    <NumberButton buttonStyles="symbol" text="="/>
     </div>
     
   );

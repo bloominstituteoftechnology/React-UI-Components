@@ -3,10 +3,14 @@ width:83.2px;
 height: 70px;
 background-color: white;
 color: black;
+font-weight:bold;
+font-size: 20px;
+
 }
 .action{
     width:250px;
     height:70px;
+    font-size: 20px;
 }
 .symbol{
     width: 50px;
@@ -14,4 +18,11 @@ color: black;
     background-color:red;
     color:white;
     font-size: 30px;
+}
+
+.zero{
+    width:250px;
+    height:70px;
+    font-weight: bold;
+    font-size:20px;
 }
