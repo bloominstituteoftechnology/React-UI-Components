@@ -1,1 +1,29 @@
 /* All styles for your Card Components live here */
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.banner {
+    border-radius: 5px;
+}
+
+.card-container {
+    margin: 0 0 0 60px;
+}
+
+.card-content {
+    border: 1px solid rgb(221, 221, 221);
+    border-radius: 3px;
+    padding: 0 15px 0 15px;
+    transform: translateY(-5px);
+}
+
+.card-content-title {
+    font-weight: bold;
+}
+
+.card-content-link {
+    color: gray;
+}

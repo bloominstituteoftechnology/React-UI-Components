@@ -1,0 +1,22 @@
+.fat {
+    background-color: white;
+    width: 300px;
+    height: 100px;
+    font-size: 32px;
+}
+
+.function {
+    background-color: rgb(161, 26, 26);
+    color: white;
+    width: 100px;
+    height: 100px;
+    font-size: 32px;
+}
+
+.number {
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    font-size: 32px;
+    font-weight: bold;
+}
