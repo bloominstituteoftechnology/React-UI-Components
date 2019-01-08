@@ -1,21 +1,36 @@
 .action-button-wrapper {
-    width: 74%;
+    width: 75%;
 }
 
 .number-button-wrapper {
-    width: 26%;
+    width: 25%;
 }
 
 .operator-button {
     font-size: 4rem;
     height: 94px;
     width: 100%;
-    background-color: red;
+    background-color: #9B0813;
     color: white;
+}
+
+.number-button {
+    font-size: 2.5rem;
+    width: 100%;
+    height: 94px;
+    background-color: white;
 }
 
 .clear-button {
     font-size: 2.7rem;
     width: 100%;
     height: 94px;
+    background-color: white;
+}
+
+.zero-button {
+    font-size: 2.7rem;
+    width: 100%;
+    height: 94px;
+    background-color: white;
 }
