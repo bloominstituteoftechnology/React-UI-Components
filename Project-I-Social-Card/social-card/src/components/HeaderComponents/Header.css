@@ -1,1 +1,35 @@
 /* All styles for your header Components live here */
+
+.posthold {
+    display: flex;
+    flex-direction: column;
+}
+
+.postcomplete {
+    display: flex;
+    align-items: center;
+    width: 590px;
+}
+
+.unamedate {
+    display: flex;
+
+}
+
+.unamedate h3 {
+ display: flex;
+ font-size: 1.1em;
+}
+
+.unamedate h4 {
+ margin: auto 9px;
+ display: flex;
+ font-size: 0.9em;
+ color: rgb(182, 182, 182);
+}
+
+img {
+    width: 75px;
+    height: 75px;
+    padding: 7px;
+}

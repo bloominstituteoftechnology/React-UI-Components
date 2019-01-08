@@ -1,1 +1,21 @@
 /* All styles for your Card Components live here */
+.cardcontain {
+    margin-top: 5px;
+    margin-left: 90px;
+    width: 500px;
+    height: 400px;
+    border: 1px solid grey;
+    border-radius: 3px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.thehulk {
+    background-image: url('https://tk-assets.lambdaschool.com/fcd75197-7d12-46ec-bc9e-4130f34822fa_reactbackground.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 500px;
+    height: 275px;
+}
