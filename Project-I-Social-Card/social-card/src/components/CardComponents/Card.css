@@ -1,1 +1,82 @@
 /* All styles for your Card Components live here */
+
+
+.card {
+    width: 550px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 55px;
+    border-radius: 5px;
+    margin-left: 50px;
+    margin-top: -70px;
+    
+}
+
+.cardContent {
+    border-bottom: 2px solid #E8E8E8;
+    border-left: 2px solid #E8E8E8;
+    border-right: 2px solid #E8E8E8;
+    border-radius: 5px;
+    width: 550px;
+    height: 115px;
+    margin-top: -35px;
+}
+
+.bannerImage {
+    display: flex;
+    width: 550px;
+    height: 300px;
+    border-radius: 5px;
+    
+    
+
+}
+
+h2 {
+    display: flex;
+    font-size: 14px;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    
+
+} 
+
+.otherFont {
+    display: flex;
+    font-size: 14px;
+    line-height: 18px; 
+    margin-top: 0px;
+    margin-left: -50px;
+    margin-bottom: -10px;
+    color: black;
+    font-weight: normal;
+    padding-left: 10px;
+}
+
+
+a {
+    display: flex;
+    color: #C8C8C8;
+    font-size: 15px;
+    font-weight: lighter;
+    padding-top: 4px; 
+    cursor: pointer; 
+    text-decoration: none;  
+    margin-bottom: 30px;
+
+}
+
+.other {
+    display: flex;
+    color: #C8C8C8;
+    font-size: 15px;
+    font-weight: lighter;
+    padding-top: 4px; 
+    cursor: pointer; 
+    text-decoration: none;  
+    margin-bottom: 30px;
+    padding-left: 10px;
+}

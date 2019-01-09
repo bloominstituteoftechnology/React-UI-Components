@@ -1,0 +1,15 @@
+.calculatorDisplay {
+    color: white;
+    border: 2px solid grey;
+    width: 406px;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-weight: lighter;
+    font-size: 85px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    /* font-family: 'Digital'; */
+}

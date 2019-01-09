@@ -1,0 +1,10 @@
+.footerCard {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: grey;
+    width: 550px;
+    margin-top: -60px;
+    margin-left: 100px;
+    
+}

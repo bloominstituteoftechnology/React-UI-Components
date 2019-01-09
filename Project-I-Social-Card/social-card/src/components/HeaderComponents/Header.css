@@ -1,1 +1,41 @@
 /* All styles for your header Components live here */
+
+
+.header {
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 55px;
+
+}
+
+.thumbnail {
+    width: 50px;
+    padding-right: 20px;
+    margin-left: -18px;
+}
+
+h1 {
+    display: flex;
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+
+}
+
+span {
+    display: flex;
+    color: #C8C8C8;
+    font-size: 14px;
+    font-weight: lighter;
+    padding-top: 1px;
+}
+
+p {
+    display: flex;
+    font-size: 14px;
+    line-height: 18px; 
+    margin-left: 50px;
+    margin-top: -10px;
+}
