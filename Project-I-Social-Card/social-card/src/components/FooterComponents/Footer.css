@@ -1,0 +1,17 @@
+
+
+.footer {
+  width: 40%;
+  margin: 0 auto;
+}
+
+.footer-container {
+  margin-left: 4%;
+  margin-top: 3%;
+  font-size: 1.4rem;
+  color: grey;
+}
+
+.footer-item {
+  margin-right: 12%;
+}

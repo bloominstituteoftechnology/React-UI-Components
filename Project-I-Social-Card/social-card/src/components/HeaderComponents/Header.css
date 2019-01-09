@@ -1,1 +1,42 @@
 /* All styles for your header Components live here */
+
+
+.header {
+  display: flex;
+  width: 45%;
+  margin: 2% auto 0;
+  /* justify-content: space-between; */
+  align-items: flex-start;
+  /* border: 1px solid red; */
+}
+
+.header-content-container {
+  width: 87%;
+}
+
+.header-image {
+  width: 55px;
+  height: 55px;
+  border-radius: 100px;
+  margin-top: 18px;
+  margin-right: 2%;
+}
+
+.header-title {
+  display: flex;
+  align-items: baseline;
+  width: 60%;
+  
+  margin-bottom: -20px;
+  font-size: 1.0rem;
+}
+
+
+
+.header-item {
+  margin-right: 2%;
+}
+
+.header-item.grey {
+  color: grey;
+}
