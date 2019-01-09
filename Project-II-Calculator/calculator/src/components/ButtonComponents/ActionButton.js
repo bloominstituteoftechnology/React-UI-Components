@@ -1,10 +1,40 @@
 import React from 'react';
 import './Button.css';
+import NumberButtons from './NumberButton';
+import FunctionButtons from './FunctionButton';
 
-const ActionButton = (props) => {
+const ClearButton = {
+  buttonStyle: 'actionButton',
+  text: 'clear'
+};
+
+const ZeroButton = {
+  buttonStyle: 'actionButton',
+  text: '0'
+};
+
+const ImputButtons = () => {
   return (
-    <button className={props.ClearButton.buttonStyle}>{props.ClearButton.text}</button>
+    <div className='all-buttons'>
+      <div>
+        <ActionButton button ={ClearButton} />
+        <NumberButtons />
+        <ActionButton button ={ZeroButton} />
+      </div>
+      <div>
+        <FunctionButtons />
+      </div>
+    </div>
   );
 }
 
-export default ActionButton;
+
+const ActionButton = (props) => {
+  return (
+    <div className='actionButtons'>
+      <button className={props.button.buttonStyle}>{props.button.text}</button>
+    </div>
+  );
+}
+
+export default ImputButtons;

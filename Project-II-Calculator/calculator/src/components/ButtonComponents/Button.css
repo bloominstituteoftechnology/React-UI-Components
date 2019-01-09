@@ -1,4 +1,39 @@
-.ActionButton {
-  width: 75%;
-  border-right: 2px solid gray;
+.all-buttons {
+  display: flex;
+}
+
+.actionButton {
+  width: 339px;
+  height: 100px;
+  color: black;
+  background-color: white;
+  font-size: 4.3rem;
+}
+
+.numbers {
+  width: 339px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.numberButton {
+  width: 113px;
+  height: 94px;
+  color: black;
+  background-color: white;
+  font-size: 4.3rem;
+}
+
+.functions {
+  width: 339px;
+  display: flex;
+  flex-direction: column;
+}
+
+.functionButton {
+  width: 113px;
+  height: 96px;
+  color: white;
+  background-color: maroon;
+  font-size: 4.3rem;
 }
