@@ -24,33 +24,41 @@ class App extends React.Component {
         {buttonStyle:"operator-button", text:'='},
       ];
     this.action = [{actionButtonStyle:"zero-button", text:0}, {actionButtonStyle:"clear-button", text:"clear"}];
-    this.state = {total: 0}
-    console.log(this.numbers[0]);
-    console.log(this.action[0]);
+    this.state = {total: [0] };
+  }
+
+  add (){
+    return this.state.total.join('');
+  }
+
+  handleClick = (e) => {
+    const temp = e.target.getAttribute('value');
+    
+    console.log(temp);
   }
 
   render(){
     return(
       <div className="app">
          <div className="calculator">
-           <CalculatorDisplay state ={this.state}/>
-           <div className="buttons">
+           <CalculatorDisplay state ={this.state.total}/>
+           <div  className="buttons">
              <ActionButton action={this.action[1]}/>
-             <NumberButton number={this.numbers[9]}/>
-             <NumberButton number={this.numbers[6]}/>
-             <NumberButton number={this.numbers[7]}/>
-             <NumberButton number={this.numbers[8]}/>
-             <NumberButton number={this.numbers[10]}/>
-             <NumberButton number={this.numbers[3]}/>
-             <NumberButton number={this.numbers[4]}/>
-             <NumberButton number={this.numbers[5]}/>
-             <NumberButton number={this.numbers[11]}/>
-             <NumberButton number={this.numbers[0]}/>
-             <NumberButton number={this.numbers[1]}/>
-             <NumberButton number={this.numbers[2]}/>
-             <NumberButton number={this.numbers[12]}/>
+             <NumberButton onClick={this.handleClick} number={this.numbers[9]}/>
+             <NumberButton onClick={this.handleClick} number={this.numbers[6]}/>
+             <NumberButton onClick={this.handleClick} number={this.numbers[7]}/>
+             <NumberButton onClick={this.handleClick} number={this.numbers[8]}/>
+             <NumberButton onClick={this.handleClick} number={this.numbers[10]}/>
+             <NumberButton onClick={this.handleClick} number={this.numbers[3]}/>
+             <NumberButton onClick={this.handleClick} number={this.numbers[4]}/>
+             <NumberButton onClick={this.handleClick} number={this.numbers[5]}/>
+             <NumberButton onClick={this.handleClick} number={this.numbers[11]}/>
+             <NumberButton onClick={this.handleClick} number={this.numbers[0]}/>
+             <NumberButton onClick={this.handleClick} number={this.numbers[1]}/>
+             <NumberButton onClick={this.handleClick} number={this.numbers[2]}/>
+             <NumberButton onClick={this.handleClick} number={this.numbers[12]}/>
              <ActionButton action={this.action[0]}/>
-             <NumberButton number={this.numbers[13]}/>
+             <NumberButton onClick={this.handleClick} number={this.numbers[13]}/>
            </div>
          </div>
      </div>
