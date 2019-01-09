@@ -1,0 +1,22 @@
+.Footer {
+    display: flex;
+    margin: 2% 7%;
+    font-size: 18px;
+}
+
+span {
+    padding-right: 8%;
+    cursor: pointer;
+}
+
+i:hover {
+    color: rgb(34, 148, 241);
+}
+
+.fa-heart:hover {
+    color: red;
+}
+
+.fa-sync-alt:hover {
+    color: green;
+}
