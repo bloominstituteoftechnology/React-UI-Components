@@ -1,6 +1,7 @@
 import React from 'react';
 import './Display.css';
 
+
 import Result from '../ButtonComponents/Result';
 import NumberButton from '../ButtonComponents/NumberButton'
 import ActionButton from '../ButtonComponents/ActionButton';
@@ -36,37 +37,60 @@ function CalculatorDisplay() {
             <div className="Display">
 
                 <div className="numSec">
-                    <div>
+
+                    <div className="GridNumClear">
                         <NumberButton num={NumbersObj.num10} />
                     </div>
-
-                    <div className="Nums">
+                    <div className="GridNum7">
                         <NumberButton num={NumbersObj.num7} />
+                    </div>
+                    <div className="GridNum8">
                         <NumberButton num={NumbersObj.num8} />
+                    </div>
+                    <div className="GridNum9">
                         <NumberButton num={NumbersObj.num9} />
+                    </div>
+                    <div className="GridNum4">
                         <NumberButton num={NumbersObj.num4} />
+                    </div>
+                    <div className="GridNum5">
                         <NumberButton num={NumbersObj.num5} />
+                    </div>
+                    <div className="GridNum6">
                         <NumberButton num={NumbersObj.num6} />
+                    </div>
+                    <div className="GridNum1">
                         <NumberButton num={NumbersObj.num1} />
+                    </div>
+                    <div className="GridNum2">
                         <NumberButton num={NumbersObj.num2} />
+                    </div>
+                    <div className="GridNum3">
                         <NumberButton num={NumbersObj.num3} />
                     </div>
-
-
-                    <div>
+                    <div className="GridNumZero">
                         <NumberButton num={NumbersObj.num0} />
                     </div>
 
-                </div>
+                    <div className="divide">
+                        <ActionButton action={ActionObj.divide} />
+                    </div>
+                    <div className="multiply">
+                        <ActionButton action={ActionObj.multiply} />
+                    </div>
+                    <div className="subtract">
+                        <ActionButton action={ActionObj.subtract} />
+                    </div>
+                    <div className="add">
+                        <ActionButton action={ActionObj.add} />
+                    </div>
+                    <div className="equals">
+                        <ActionButton action={ActionObj.equals} />
+                    </div>
 
 
-                <div className="actSec">
-                    <ActionButton action={ActionObj.divide} />
-                    <ActionButton action={ActionObj.multiply} />
-                    <ActionButton action={ActionObj.subtract} />
-                    <ActionButton action={ActionObj.add} />
-                    <ActionButton action={ActionObj.equals} />
                 </div>
+
             </div>
         </div>
 

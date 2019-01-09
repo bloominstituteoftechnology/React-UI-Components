@@ -4,6 +4,7 @@
 
 .Display {
     display: flex;
+    text-align: center;
 }
 
 .Result {
@@ -16,28 +17,77 @@
 
 .Result p {
     font-size: 80px;
-    text-align: ;
+    text-align: center;
 }
 
 .numSec {
-    width: 80%;
-    display: flex;
-    flex-wrap: wrap;
-    text-align: center;
-    flex-direction: column;
-}
-
-.Nums {
-    display: flex;
-}
-
-.actSec {
-    width: 20%;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-}
-
-.Clear {
     width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: "gridnumclear gridnumclear gridnumclear divide" "gridnum7 gridnum8 gridnum9 multiply" "gridnum4 gridnum5 gridnum6 subtract" "gridnum1 gridnum2 gridnum3 add" "gridnumzero gridnumzero gridnumzero equals";
+}
+
+.GridNumClear {
+    grid-area: gridnumclear;
+}
+
+.GridNumZero {
+    grid-area: gridnumzero;
+}
+
+.GridNum1 {
+    grid-area: gridnum1;
+}
+
+.GridNum2 {
+    grid-area: gridnum2;
+}
+
+.GridNum3 {
+    grid-area: gridnum3;
+}
+
+.GridNum4 {
+    grid-area: gridnum4;
+}
+
+.GridNum5 {
+    grid-area: gridnum5;
+}
+
+.GridNum6 {
+    grid-area: gridnum6;
+}
+
+.GridNum7 {
+    grid-area: gridnum7;
+}
+
+.GridNum8 {
+    grid-area: gridnum8;
+}
+
+.GridNum9 {
+    grid-area: gridnum9;
+}
+
+.divide {
+    grid-area: divide;
+}
+
+.multiply {
+    grid-area: multiply;
+}
+
+.subtraact {
+    grid-area: subtraact;
+}
+
+.add {
+    grid-area: add;
+}
+
+.equals {
+    grid-area: equals;
 }

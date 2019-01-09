@@ -1,21 +1,8 @@
 .NumberButton {
-    width: 100%;
-}
-
-.NumberButton div {
-    width: 33%;
-}
-
-.NumberButton p {
     font-size: 35px;
 }
 
 .ActionButton {
-    width: 100%;
-}
-
-.Acts {
-    width: 100%;
     font-size: 35px;
 }
 
