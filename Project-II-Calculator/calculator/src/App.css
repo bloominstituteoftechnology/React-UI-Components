@@ -1,0 +1,13 @@
+.Calc{
+
+width:500px;
+
+}
+
+.calc-subcontent{
+    display:flex;
+    justify-content: space-between;
+    width:500px;
+    border: 2px solid black;
+    
+}
