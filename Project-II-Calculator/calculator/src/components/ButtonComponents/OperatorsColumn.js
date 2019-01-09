@@ -9,7 +9,7 @@ const OperatorsColumn = props => {
 
   return (
     <div className="operators-column">
-      {operators.map(operator => <OperatorButton key={operator} text={operator} function={props.function} />)}
+      {operators.map(operator => <OperatorButton key={operator} buttonName={operator} function={props.function} />)}
     </div>
   );
 };

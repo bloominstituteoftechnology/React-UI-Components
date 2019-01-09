@@ -38,7 +38,7 @@ class App extends Component {
 
   operatorPressed(e) {
     if (this.state.a !== null) {
-      const operator = e.currentTarget.textContent;
+      const operator = e.currentTarget.dataset.button;
 
       if (operator === "=") {
         this.evaluate();
@@ -93,9 +93,9 @@ class App extends Component {
   }
 
   numPressed(e) {
-    const newDisplay = this.state.displayText === "0" || this.state.nextNum || this.state.newOperation ? 
-                        e.currentTarget.textContent :
-                        this.state.displayText + e.currentTarget.textContent;;
+    const newDisplay = this.state.displayText === "0"  || this.state.newOperation || this.state.nextNum ? 
+                        e.currentTarget.dataset.button :
+                        this.state.displayText + e.currentTarget.dataset.button;
 
     if (this.state.operator) {
       this.setState({
@@ -118,10 +118,10 @@ class App extends Component {
     return (
       <div className="calculator">
         <CalculatorDisplay displayText={this.state.displayText} />
-        <ActionButton buttonSize="large-button" text="clear" function={this.clear} />
+        <ActionButton buttonSize="large-button" buttonName="clear" function={this.clear} />
         <OperatorsColumn function={this.operatorPressed} />
         <DigitSquare function={this.numPressed} />
-        <NumberButton buttonSize="large-button" text={0} function={this.numPressed} />
+        <NumberButton buttonSize="large-button" buttonName={0} function={this.numPressed} />
       </div>
     );
   }
