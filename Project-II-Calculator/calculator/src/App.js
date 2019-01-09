@@ -41,14 +41,20 @@ class App extends Component {
       if (operator === "=") {
         this.evaluate();
       } else {
-        const newDisplay = this.state.operator ?
-                            this.state.displayText.substring(0, this.state.displayText.length - 1) + operator :
-                            this.state.displayText + operator;
-        this.setState({
-          displayText: newDisplay,
-          operator,
-          nextNum: true
-        });
+        if (this.state.b !== null) {
+          this.setState({
+            operator
+          }, () => this.evaluate());
+        } else {
+          const newDisplay = this.state.operator ?
+                              this.state.displayText.substring(0, this.state.displayText.length - 1) + operator :
+                              this.state.displayText + operator;
+          this.setState({
+            displayText: newDisplay,
+            operator,
+            nextNum: true
+          });
+        }
       }
     }
   }
