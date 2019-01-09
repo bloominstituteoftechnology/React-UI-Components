@@ -5,15 +5,15 @@ import CardContainer from './components/CardComponents/CardContainer';
 
 class App extends React.Component {
   state = {
-    shareCounter: 0,
-    heartCounter: 0,
+    shareCounter: 23,
+    heartCounter: 52,
     isLiked: false
   };
 
   shareHandler = () => {
-    this.setState({
-      shareCounter: 1
-    });
+    this.setState(prevState => ({
+      shareCounter: prevState.shareCounter + 1
+    }));
   };
 
   heartHandler = () => {
@@ -22,13 +22,13 @@ class App extends React.Component {
     }));
 
     if (!this.state.isLiked) {
-      this.setState({
-        heartCounter: 1
-      });
+      this.setState(prevState => ({
+        heartCounter: (prevState.heartCounter += 1)
+      }));
     } else {
-      this.setState({
-        heartCounter: 0
-      });
+      this.setState(prevState => ({
+        heartCounter: (prevState.heartCounter -= 1)
+      }));
     }
   };
 
