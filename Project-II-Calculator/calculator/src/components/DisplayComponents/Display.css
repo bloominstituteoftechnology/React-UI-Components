@@ -23,6 +23,7 @@
 .numSec {
     width: 100%;
     display: grid;
+    align-items: center;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     grid-template-areas: "gridnumclear gridnumclear gridnumclear divide" "gridnum7 gridnum8 gridnum9 multiply" "gridnum4 gridnum5 gridnum6 subtract" "gridnum1 gridnum2 gridnum3 add" "gridnumzero gridnumzero gridnumzero equals";
