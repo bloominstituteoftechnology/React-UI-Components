@@ -4,14 +4,13 @@ import './Button.css';
 
 
 
-const ActionButton = props => {
-
+const MathButton = props => {
     return (
         <button onClick={props.fun} className={props.buttonStyle}>{props.text}</button>
     );
   };
   
-  ActionButton.defaultProps = {
-    buttonStyle: 'action-btn',
+  MathButton.defaultProps = {
+    buttonStyle: 'math-btn',
   }
-export default ActionButton;
+export default MathButton;

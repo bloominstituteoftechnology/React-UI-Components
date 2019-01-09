@@ -1,1 +1,54 @@
 /* All styles for your header Components live here */
+/* General Styles */
+.w-100{
+    width: 100%
+}
+.w-70{
+    width: 70%
+}
+
+.flex{
+    display:flex;
+}
+.flex-col{
+    flex-direction: column;
+}
+
+/* Logo Styles */
+.header-logo{
+    width: 20%;
+    margin: 20px 8px 0;
+}
+.header-logo img{
+    width: 100%;
+    height: auto;
+    border-radius: 100%;
+   
+}
+/* Header Styles */
+.header-content{
+    height: 110px;
+}
+.header-p{
+    margin-top: 0;
+    font-size: 1.4rem;
+    
+}
+
+/* Title Style */
+.title-content{
+    justify-content: flex-start;
+    align-items: baseline;
+    width: 52%;
+}
+.title-content h4{
+    font-size: 1.4rem;
+    margin-bottom: 0;
+    margin-right: 7px;
+}
+
+.title-content p{
+    font-size: 1.2rem;
+    margin-right: 7px;
+    color: grey;
+}

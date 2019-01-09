@@ -1,0 +1,16 @@
+.footer-container{
+    width: 90%;
+    justify-content: flex-end;
+    height: 45px;
+}
+.footer{
+    justify-content: flex-start;
+    width: 87%;
+    font-size: 2.4rem;
+    margin: 5px 0px;
+    align-items: flex-end;
+}
+.footer i{
+    margin-right: 50px; 
+    color: grey;
+}

@@ -1,0 +1,31 @@
+.row{
+    display: flex;
+    height: 95px;
+}
+.action-btn{
+    background:  #FFFFFF;
+    width: 100%;
+    font-size: 4.5rem;
+    height: 95px;
+}
+
+.math-btn{
+    background: #A0001E;
+    width: 100%;
+    font-size: 4.5rem;
+    color: #FFFFFF;
+    height: 95px;
+}
+.number-btn{
+    background: #FFFFFF;
+    width: 33.3%;
+    font-size: 4.5rem;
+    height: 95px;
+}
+
+.large-math{
+    font-size: 7rem;
+    background: #A0001E;
+    width: 25%;
+    color: #FFFFFF;
+}
