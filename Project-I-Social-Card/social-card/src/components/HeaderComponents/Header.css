@@ -1,1 +1,37 @@
 /* All styles for your header Components live here */
+
+
+
+
+
+.header {
+  display: flex;
+  padding: 10px;
+}
+
+.headImage {
+  width: 50px;
+  height: 50px;
+}
+
+.headTitle {
+  display: flex;
+}
+
+.headTitle h2 {
+  font-size: 1.4rem;
+  margin: 0;
+  padding: 0 10px;
+}
+
+.headTitle p {
+  font-size: 1.2rem;
+  margin: 0;
+  padding: 0 5px;
+}
+
+.headContentText {
+  margin: 0;
+  padding: 10px;
+  font-size: 1.4rem;
+}

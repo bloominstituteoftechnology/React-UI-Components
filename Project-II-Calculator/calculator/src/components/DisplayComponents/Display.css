@@ -1,0 +1,16 @@
+.calcDisplay {
+  width: 100%;
+  height: 120px;
+  color: white;
+  background-color: black;
+  border-bottom: 2px solid gray;
+  display: flex;
+  justify-content: flex-end;
+  align-content: center;
+}
+
+.numbDisplay {
+  margin: 0;
+  padding: 27px 1.5rem;
+  font-size: 7rem;
+}
