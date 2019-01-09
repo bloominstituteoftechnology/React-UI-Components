@@ -1,1 +1,26 @@
 /* All styles for your header Components live here */
+.header-container {
+  /* border-bottom: 1px solid lightgrey; */
+  display: flex;
+  padding-top: 10px;
+}
+.header-container img {
+  margin: 5px;
+  height: 90px;
+  margin-right: 10px;
+}
+.header-text {
+  padding-bottom: 10px;
+}
+
+.heading {
+  display: flex;
+  padding: 8px 0;
+  align-items: center;
+}
+
+.dot {
+  padding-bottom: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
