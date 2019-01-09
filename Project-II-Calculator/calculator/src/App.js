@@ -8,15 +8,28 @@ class App extends React.Component {
   constructor(){
     super();
     this.state = {
-      displayBox: '',
-      didEqual: false
+      displayBox: '0',
+      didEqual: true
     }
   }
 
   displayNum = (num) => {
     if(num === '='){
+      if (this.state.displayBox.charAt(0) === "0"){
+        this.setState({
+          displayBox: 'Not Valid',
+          didEqual: true
+        })
+      } else {
+        this.setState({
+          displayBox: eval(this.state.displayBox),
+          didEqual: true
+        })
+      }
+    }
+    else if (num === 'clear'){
       this.setState({
-        displayBox: eval(this.state.displayBox),
+        displayBox: '0',
         didEqual: true
       })
     }
@@ -24,11 +37,6 @@ class App extends React.Component {
       this.setState({
         displayBox: num,
         didEqual: false
-      })
-    }
-    else if (num === 'clear'){
-      this.setState({
-        displayBox: '0',
       })
     }
     else {
