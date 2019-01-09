@@ -1,1 +1,43 @@
 /* All styles for your header Components live here */
+
+
+.dot {
+    padding-left: 2px;
+    color: #8C9CA7
+}
+
+.header-container {
+    display: flex;
+}
+
+.thumbnail {
+    margin-top: 9px;
+    margin-left: 5.5px;
+    padding: 8px;
+    width: 46px;
+}
+
+.header-text {
+    margin-top: -15px;
+}
+
+.head-title {
+    padding-left: 10px;
+}
+
+.atLambda  {
+    font-size: .80rem;
+    color: #8C9CA7;
+    font-weight: 400;
+}
+
+.date {
+    font-size: .80rem;
+    color: #8C9CA7;
+    font-weight: 400;
+}
+
+.header-content {
+    margin-top: -15px;
+    padding-left: 11px;
+}

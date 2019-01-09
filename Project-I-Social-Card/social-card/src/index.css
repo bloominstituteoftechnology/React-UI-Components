@@ -1,5 +1,21 @@
+*{
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: .88rem;
+  text-decoration: none;
+}
+
+p {
+  line-height: 17px;
+  font-size: .89 rem;
+  text-decoration: none;
+}
+
 body {
-  margin: 0;
+  margin: 0 auto;
   padding: 0.4rem;
+  width: 595px;
   font-family: sans-serif;
 }

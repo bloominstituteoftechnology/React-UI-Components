@@ -1,0 +1,89 @@
+.red-btn {
+    background-color: #a0001e;
+    color: #fff;
+    font-size: 42px;
+}
+
+.operator-btn {
+    width: 25%;
+    height: 95px;
+    border: 1px solid slategray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.white-btn {
+    background-color: #fff;
+    color: #000;
+    font-size: 42px;
+}
+
+.action-btn {
+    width: 75%;
+    height: 95px;
+    border: 1px solid slategray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.number-btn {
+    width: 25%;
+    height: 95px;
+    border: 1px solid slategray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button:hover {
+    filter: invert(100%);
+}
+
+
+/* .actionButton {
+    width: 75%;
+    font-size: 32px;
+    padding: 28px 0px;
+    border: 1px solid slategray;
+    margin: none;
+    text-align: center;
+    border-bottom: none;
+    border-right: none;
+    background-color: white;
+}
+
+.operationButton {
+    width: 25%;
+    background-color: #a0001e;
+    font-size: 2rem;
+    padding: 27px 5px;
+    border: 1px solid slategray;
+    margin: none;
+    text-align: center;
+    border-bottom: none;
+    color: white;
+}
+
+.numberButton {
+    width: 25%;
+    font-size: 32px;
+    font-weight: bold;
+    padding: 27px 0;
+    border: 1px solid slategray;
+    margin: none;
+    text-align: center;
+    border-bottom: none;
+    border-right: none;
+    background-color: white;
+}
+
+
+.actionButton:nth-child(16) {
+    font-weight: bold;
+}
+
+.actionButton:nth-child(16), .operationButton:last-child {
+    border-bottom: 1px solid slategray;
+} */
