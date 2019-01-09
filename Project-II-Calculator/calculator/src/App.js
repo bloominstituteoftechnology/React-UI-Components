@@ -28,15 +28,15 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      input: ''
+      input: `${0}`,
+      inputChange: false
     };
   }
 
   clearDisplay = () => {
     console.log('hello from cd');
     this.setState({
-      input: 0,
-      inputChange: false
+      input: `${0}`
     });
   };
 
@@ -46,7 +46,6 @@ class App extends React.Component {
     this.setState(prevState => ({
       input: `${prevState.input + value}`
     }));
-    console.log(value);
   };
 
   render() {
@@ -56,7 +55,7 @@ class App extends React.Component {
         <ActionButton
           text='clear'
           actionStyle='action thin'
-          clearDisplay={this.clearDisplay}
+          handleClick={this.clearDisplay}
         />
         <div className='numbers-container'>
           {nums.map((num, i) => (
