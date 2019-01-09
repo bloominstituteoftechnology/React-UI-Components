@@ -19,21 +19,21 @@ const App = () => {
         <NumberButton type='number' text='7' />
         <NumberButton type='number' text='8' />
         <NumberButton type='number' text='9' />
-        <NumberButton type='number' text='x' />
+        <NumberButton type='function' text='x' />
       </div>
 
       <div className='button-container'>
         <NumberButton type='number' text='4' />
         <NumberButton type='number' text='5' />
         <NumberButton type='number' text='6' />
-        <NumberButton type='number' text='-' />
+        <NumberButton type='function' text='-' />
       </div>
 
       <div className='button-container'>
         <NumberButton type='number' text='1' />
         <NumberButton type='number' text='2' />
         <NumberButton type='number' text='3' />
-        <NumberButton type='number' text='+' />
+        <NumberButton type='function' text='+' />
       </div>
 
       <div className='button-container'>
