@@ -16,7 +16,8 @@ class App extends Component {
       a: null,
       operator: null,
       nextNum: false,
-      b: null
+      b: null,
+      newOperation: true
     };
 
     this.clear = this.clear.bind(this);
@@ -30,29 +31,78 @@ class App extends Component {
       a: null,
       operator: null,
       nextNum: false,
-      b: null
+      b: null,
+      newOperation: true
     });
   }
 
   operatorPressed(e) {
-    const operator = e.currentTarget.textContent;
+    if (this.state.a !== null) {
+      const operator = e.currentTarget.textContent;
 
-    if (operator === "=") {
-      this.evaluate();
-    } else {
-      this.setState({
-        operator,
-        nextNum: true
-      });
+      if (operator === "=") {
+        this.evaluate();
+      } else {
+        const newDisplay = this.state.displayText + operator
+        this.setState({
+          displayText: newDisplay,
+          operator,
+          nextNum: true
+        });
+      }
     }
   }
 
   evaluate() {
-    alert("hey");
+    if (this.state.a !== null) {
+      if(this.state.operator) {
+        if (this.state.b !== null) {
+          let result;
+          switch(this.state.operator) {
+            case "+" :
+              result = this.state.a + this.state.b;
+              break;
+
+            case "−" :
+              result = this.state.a - this.state.b;
+              break;
+
+            case "×" :
+              result = this.state.a * this.state.b;
+              break;
+
+            case "÷" :
+              result = this.state.a / this.state.b;
+          }
+
+          this.setState({
+            displayText: result,
+            a: null,
+            operator: null,
+            nextNum: false,
+            b: null,
+            newOperation: true
+          });
+        } else {
+          this.setState(prevState => ({
+            displayText: prevState.a,
+            a: null,
+            operator: null,
+            nextNum: false,
+            newOperation: true
+          }));
+        }
+      } else {
+        this.setState({
+          a: null,
+          nextNum: true
+        });
+      }
+    }
   }
 
   numPressed(e) {
-    const newDisplay = this.state.displayText === "0" || this.state.nextNum ? 
+    const newDisplay = this.state.displayText === "0" || this.state.nextNum || this.state.newOperation ? 
                         e.currentTarget.textContent :
                         this.state.displayText + e.currentTarget.textContent;;
 
@@ -60,13 +110,15 @@ class App extends Component {
       this.setState({
         displayText: newDisplay,
         b: Number(newDisplay),
-        nextNum: false
+        nextNum: false,
+        newOperation: false
       });
     } else {        
       this.setState({
         displayText: newDisplay,
         a: Number(newDisplay),
-        nextNum: false
+        nextNum: false,
+        newOperation: false
       });
     }
   }
