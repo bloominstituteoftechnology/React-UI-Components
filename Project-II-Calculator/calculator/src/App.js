@@ -12,8 +12,8 @@ class App extends Component {
     this.state = {
       usedAlready: false,
       total: [],
-      operator: "",
-      content: []
+      firstNum: "",
+      operator: ""
     };
   }
 
@@ -24,13 +24,61 @@ class App extends Component {
   }
 
   clearInput = () => {
-    const newTotal = [0]; // Used an extra variable here as [0] turned into 0 without an array otherwise
     this.setState({
-      firstNum: [],
-      total: newTotal,
+      firstNum: "",
+      total: [0],
       operator: "",
       usedAlready: false
     });
+  };
+
+  equalsInput = () => {
+    if (this.state.total[0] !== 0 && this.state.operator) {
+      const firstNum = parseFloat(this.state.firstNum);
+      const secondNum = parseFloat(this.state.total.join(""));
+      let newTotal;
+      if (this.state.operator === "÷") {
+        newTotal = firstNum / secondNum;
+      } else if (this.state.operator === "×") {
+        newTotal = firstNum * secondNum;
+      } else if (this.state.operator === "-") {
+        newTotal = firstNum - secondNum;
+      } else if (this.state.operator === "+") {
+        newTotal = firstNum + secondNum;
+      }
+      if (newTotal.length > 11) {
+        newTotal = "ERROR";
+      }
+      this.setState({
+        total: [newTotal],
+        operator: "",
+        firstNum: "",
+        usedAlready: true
+      });
+    } else {
+      return;
+    }
+  };
+
+  numberInput = event => {
+    if (this.state.operator && this.state.firstNum === "") {
+      // Logic that moves total to firstNum only after the operator has been selected and then when another number is clicked
+      const currentDisplay = parseFloat(this.state.total.join(""));
+      this.setState({
+        firstNum: currentDisplay,
+        total: [event.target.name] // Sets the number being displayed to whatever you clicked after total moved to firstNum
+      });
+    } else if (this.state.total.length === 1 && this.state.total[0] === 0) {
+      const newTotal = parseFloat(event.target.name);
+      this.setState({
+        total: [newTotal]
+      });
+    } else {
+      const newTotal = [...this.state.total, parseFloat(event.target.name)];
+      this.setState({
+        total: newTotal
+      });
+    }
   };
 
   clicked = event => {
@@ -44,52 +92,15 @@ class App extends Component {
       event.target.name === "+"
     ) {
       // Operator input (excluding "=") case
-      const currentDisplay = Number(this.state.total.join(""));
-      const newTotal = [0];
       this.setState({
-        firstNum: currentDisplay,
-        operator: event.target.name,
-        total: newTotal
+        operator: event.target.name
       });
     } else if (event.target.name === "=") {
       // Equals input case
-      if (this.state.total) {
-        const firstNum = Number(this.state.firstNum);
-        const secondNum = Number(this.state.total.join(""));
-        let newTotal;
-        if (this.state.operator === "÷") {
-          newTotal = [firstNum / secondNum];
-        } else if (this.state.operator === "×") {
-          newTotal = [firstNum * secondNum];
-        } else if (this.state.operator === "-") {
-          newTotal = [firstNum - secondNum];
-        } else if (this.state.operator === "+") {
-          newTotal = [firstNum + secondNum];
-        } else {
-          alert("Something went wrong.");
-        }
-        this.setState({
-          total: newTotal,
-          operator: "",
-          firstNum: [],
-          usedAlready: true
-        });
-      } else {
-        return;
-      }
+      this.equalsInput();
     } else {
-      // Number input case
-      if (this.state.total.length === 1 && this.state.total[0] === 0) {
-        const newTotal = Number(event.target.name);
-        this.setState({
-          total: [newTotal]
-        });
-      } else {
-        const newTotal = [...this.state.total, Number(event.target.name)];
-        this.setState({
-          total: newTotal
-        });
-      }
+      // Number input (0 - 9) cases
+      this.numberInput(event);
     }
   };
 
@@ -97,7 +108,7 @@ class App extends Component {
     return (
       <div className="container">
         <div className="calculator__container">
-          <CalculatorDisplay content={this.state.total} />
+          <CalculatorDisplay total={this.state.total} />
           <ButtonsContainer
             operators={operators}
             numbers={numbers}
