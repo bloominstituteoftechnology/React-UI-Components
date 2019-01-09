@@ -24,17 +24,54 @@ class App extends React.Component {
         {buttonStyle:"operator-button", text:'='},
       ];
     this.action = [{actionButtonStyle:"zero-button", text:0}, {actionButtonStyle:"clear-button", text:"clear"}];
-    this.state = {total: [0] };
+    this.state = {total: [] };
+    this.temp = [];
+    this.addition = false;
+    this.equalUsed = false;
+    
   }
 
-  add (){
-    return this.state.total.join('');
+  add (a,b){
+    let x = Math.floor(a);
+    let y = Math.floor(b);
+    return x+y;
   }
 
   handleClick = (e) => {
-    const temp = e.target.getAttribute('value');
-    
-    console.log(temp);
+    const value = e.target.getAttribute('value');    
+
+    this.setState(prevState => ({
+      total: [...prevState.total, value]
+    }));
+
+    if(value === 'clear'){
+      this.setState({total: []});
+    }
+
+    if(value === '+'){
+      this.temp = this.state.total.join('').toString();
+      this.setState({total: [] });
+      this.addition = true;
+      // console.log(`temp value: ${this.temp}`);
+    }
+
+    if(value === '='){
+      let current = this.state.total.join('').toString();
+      // console.log(this.addition)
+      if(this.addition === true){
+        let result = this.add(current, this.temp);
+        this.setState({total: [result]});
+        this.addition = false;
+        // console.log(`result value: ${result}`)
+        // console.log(`current value: ${current}`)
+      }
+      this.equalUsed = true;
+    }
+    if (this.equalUsed === true && (value === '1' || value === '2' ||value === '3'||value === '4'||value === '5'||value === '6'||value === '7'||value === '8'||value === '9'||value === '0')){
+      this.setState({total: [value]});
+      this.equalUsed = false;
+    }
+    // console.log(this.addition);
   }
 
   render(){
@@ -43,7 +80,7 @@ class App extends React.Component {
          <div className="calculator">
            <CalculatorDisplay state ={this.state.total}/>
            <div  className="buttons">
-             <ActionButton action={this.action[1]}/>
+             <ActionButton onClick={this.handleClick} action={this.action[1]}/>
              <NumberButton onClick={this.handleClick} number={this.numbers[9]}/>
              <NumberButton onClick={this.handleClick} number={this.numbers[6]}/>
              <NumberButton onClick={this.handleClick} number={this.numbers[7]}/>
@@ -57,7 +94,7 @@ class App extends React.Component {
              <NumberButton onClick={this.handleClick} number={this.numbers[1]}/>
              <NumberButton onClick={this.handleClick} number={this.numbers[2]}/>
              <NumberButton onClick={this.handleClick} number={this.numbers[12]}/>
-             <ActionButton action={this.action[0]}/>
+             <ActionButton onClick={this.handleClick} action={this.action[0]}/>
              <NumberButton onClick={this.handleClick} number={this.numbers[13]}/>
            </div>
          </div>

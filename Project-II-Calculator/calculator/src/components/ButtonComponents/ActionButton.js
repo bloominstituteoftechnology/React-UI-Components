@@ -5,7 +5,7 @@ import './Button.css';
 function ActionButton(props){
     return(
         <div className="action-button-wrapper">
-            <button className={props.action.actionButtonStyle}>{props.action.text}</button>
+            <button onClick={props.onClick} className={props.action.actionButtonStyle}  value={props.action.text}>{props.action.text}</button>
         </div>
     );
 }
