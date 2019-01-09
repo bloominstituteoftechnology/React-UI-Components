@@ -31,25 +31,37 @@ class App extends React.Component {
     super();
     this.state ={
       total: 0,
-      next: 0,
+      firstInput: 0,
+      secondInput: 0,
       numbers: numberList,
-      symbols: mathList
+      symbols: mathList,
+      actionBtnStyle: 'action.btn',
     };
   }
   
-  handleClick = () =>{
-    console.log('click');
+  handleChangeFunction = event => {
+    console.log(event.target);
+    console.log(event.target.innerText);
+    this.setState({total: event.target.innerText});
+    this.setState({firstInput: event.target.innerText});
   }
+
+  clearCal = event =>{
+    this.setState({total: 0});
+  }
+
+  
   render() {
+  
     return(
     <div className="container">
       <CalculatorDisplay total={this.state.total}/>
       {/* <ButtonPad number={this.numberList}  total={this.state.total} /> */}
       <div className="test-full-pad">
       <div className="test-num-pad">
-        <ActionButton onClick={this.handleClick()}text= "clear"/>
+        <ActionButton fun={this.clearCal}className={this.state.actionBtnStyle}text= "clear"/>
         {this.state.numbers.map((number, i) =>(
-          <NumberButton key ={i} text = {number.text}/>
+          <NumberButton fun={this.handleChangeFunction} key ={i} text = {number.text}/>
           ))}
         <ActionButton text= {0}/>
       </div>
@@ -62,6 +74,7 @@ class App extends React.Component {
         </div>
     </div>
   );
+
     }
 };
 
