@@ -1,8 +1,28 @@
 /* All styles for your Card Components live here */
 
 .card-container {
-    border: solid red 2px;
-    margin-left: 100px;
+    border: solid gray 1px;
+    margin-left: 96px;
     width: 650px;
-    height: 400px;
+    height: 485px;
+    border-radius: 5px;
+}
+
+.card-banner {
+    width: 650px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.card-content {
+    margin: 15px;
+}
+
+.card-content h2 {
+    font-size: 19px;
+}
+
+.card-content p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }

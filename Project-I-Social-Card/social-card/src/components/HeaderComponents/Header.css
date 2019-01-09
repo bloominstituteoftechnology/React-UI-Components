@@ -8,9 +8,9 @@
 
 }
 
-.logo-container {
-    height: 75px;
-    width: 100px;
+.logo {
+    height: 60px;
+    width: 60px;
 }
 
 .head {
@@ -21,26 +21,26 @@
 }
 
 .head p {
-    margin-left: 5%;
+    margin-left: 8%;
     margin-top: 0%;
 }
 
 .head p span {
     font-size: 12px;
     color: gray;
+    font-weight: 300;
 }
 
-.logo-container {
-    width: 75px;
-    height: 50px;
-}
 
 .title {
     width: 300px;
+    font-weight: bold;
+    font-size: 19px;
 
 }
 
 .header-content {
     margin-left: 11%;
     margin-top: 0%;
+    width: 650px;
 }
