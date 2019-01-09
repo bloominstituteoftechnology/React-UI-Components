@@ -5,29 +5,30 @@ import CalculatorDisplay from './components/DisplayComponents/CalculatorDisplay'
 import NumberButton from './components/ButtonComponents/NumberButton';
 import ActionButton from './components/ButtonComponents/ActionButton';
 
+//instantiate math variable to utilize math.js
 const math = require('mathjs');
 
 
 const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 const operators = [{
-  display: "÷",
-  operation: "/"
+    display: "÷",
+    operation: "/"
   }, 
   {
-  display: "×",
-  operation: "*"
+    display: "×",
+    operation: "*"
   }, 
   {
-  display: "-",
-  operation: "-"
+    display: "-",
+    operation: "-"
   }, 
   {
-  display: "+",
-  operation: "+"
+    display: "+",
+    operation: "+"
   }, 
   {
-  display: "=",
-  operation: "="
+    display: "=",
+    operation: "="
   }];
 
 
@@ -41,7 +42,6 @@ class App extends React.Component {
   }
 
   handleClick = event => {
-    console.log(event.target.getAttribute('data-value'));
     const operation = event.target.getAttribute('data-value');
 
     switch(operation) {
@@ -68,7 +68,6 @@ class App extends React.Component {
   }
 
   calculate = () => {
-    console.log(this.state.operations.join(''));
     let result = this.state.operations.join('');
 
     if (result) {
@@ -78,8 +77,6 @@ class App extends React.Component {
         result: result
       })
     };
-
-    console.log(result);
   }
 
   render() {
