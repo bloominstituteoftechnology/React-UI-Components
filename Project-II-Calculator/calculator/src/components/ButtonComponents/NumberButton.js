@@ -3,7 +3,7 @@ import './Button.css';
 
 const NumberButton = function(props) {
     return (
-        <div className="number-button">
+        <div className="number-button"  onClick={function() { alert('click'); }}>
             <h1>{props.number}</h1>
         </div>
     )

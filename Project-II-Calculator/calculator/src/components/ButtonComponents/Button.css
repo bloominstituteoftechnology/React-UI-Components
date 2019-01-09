@@ -16,6 +16,10 @@
     color: white;
 }
 
+.action-button:hover {
+    background-color: rgb(94, 2, 2);
+}
+
 .number-container {
     display: flex;
     flex-wrap: wrap-reverse;
@@ -28,14 +32,26 @@
     text-align: center;
 }
 
+.number-button:hover {
+    background-color: lightgrey;
+}
+
 .zero-button {
     width: 100%;
     border: 2px darkgrey solid;
     text-align: center;
 }
 
+.zero-button:hover {
+    background-color: lightgrey;
+}
+
 .clear-button {
     width: 100%;
     border: 2px darkgrey solid;
     text-align: center;
+}
+
+.clear-button:hover {
+    background-color: lightgrey;
 }
