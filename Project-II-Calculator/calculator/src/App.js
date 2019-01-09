@@ -56,42 +56,32 @@ class App extends Component {
   evaluate() {
     if (this.state.a !== null) {
       if(this.state.operator) {
-        if (this.state.b !== null) {
-          let result;
-          switch(this.state.operator) {
-            case "+" :
-              result = "=" + (this.state.a + this.state.b);
-              break;
+        let a = this.state.a, b = this.state.b === null ? this.state.a : this.state.b, result;
+        switch(this.state.operator) {
+          case "+" :
+            result = "=" + (a + b);
+            break;
 
-            case "−" :
-              result = "=" + this.state.a - this.state.b;
-              break;
+          case "−" :
+            result = "=" + (a - b);
+            break;
 
-            case "×" :
-              result = "=" + this.state.a * this.state.b;
-              break;
+          case "×" :
+            result = "=" + a * b;
+            break;
 
-            case "÷" :
-              result = "=" + (this.state.b ? this.state.a / this.state.b : "Error");
-          }
-
-          this.setState({
-            displayText: result,
-            a: null,
-            operator: null,
-            nextNum: false,
-            b: null,
-            newOperation: true
-          });
-        } else {
-          this.setState(prevState => ({
-            displayText: "=" + prevState.a,
-            a: null,
-            operator: null,
-            nextNum: false,
-            newOperation: true
-          }));
+          case "÷" :
+            result = "=" + (b ? a / b : "Error");
         }
+
+        this.setState({
+          displayText: result,
+          a: null,
+          operator: null,
+          nextNum: false,
+          b: null,
+          newOperation: true
+        });
       } else {
         this.setState(prevState => ({
           displayText: "=" + prevState.a,
