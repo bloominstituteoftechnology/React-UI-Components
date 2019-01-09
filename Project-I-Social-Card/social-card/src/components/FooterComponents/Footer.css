@@ -1,0 +1,12 @@
+.footer {
+    width: 80%;
+    margin: 0 0 0 100px;
+    display: flex;
+    justify-content: left;
+}
+
+.icon {
+    margin: 10px;
+    width: 40px;
+    height: 40px;
+}

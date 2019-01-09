@@ -1,0 +1,57 @@
+.button-container {
+    display: flex; 
+}
+
+.action-button-container {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+}
+
+.action-button {
+    width: 100%;
+    border: 2px darkgrey solid;
+    text-align: center;
+    background-color: maroon;
+    color: white;
+}
+
+.action-button:hover {
+    background-color: rgb(94, 2, 2);
+}
+
+.number-container {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    width: 75%;
+}
+
+.number-button {
+    width: 33.3%;
+    border: 2px darkgrey solid;
+    text-align: center;
+}
+
+.number-button:hover {
+    background-color: lightgrey;
+}
+
+.zero-button {
+    width: 100%;
+    border: 2px darkgrey solid;
+    text-align: center;
+}
+
+.zero-button:hover {
+    background-color: lightgrey;
+}
+
+.clear-button {
+    width: 100%;
+    border: 2px darkgrey solid;
+    text-align: center;
+}
+
+.clear-button:hover {
+    background-color: lightgrey;
+}

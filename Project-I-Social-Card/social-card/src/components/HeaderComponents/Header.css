@@ -1,1 +1,30 @@
 /* All styles for your header Components live here */
+
+.headerContainer {
+    display: flex;
+}
+
+.headerContent {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.thumbnail {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+}
+
+.title {
+    margin: 10px 0
+    0 0;
+    display: flex;
+}
+
+.date {
+    font-weight: lighter;
+    font-size: 95%;
+    color: grey;
+
+}

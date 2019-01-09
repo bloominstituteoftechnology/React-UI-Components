@@ -1,0 +1,14 @@
+.display {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100px;
+    background-color: black;
+    color: white;
+}
+
+.displayDigits {
+    padding: 10px;
+    font-weight: lighter;
+    font-size: 80px;
+}
