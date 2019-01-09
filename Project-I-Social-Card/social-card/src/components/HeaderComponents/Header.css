@@ -22,6 +22,10 @@ img {
   padding-left: 0;
 }
 
+.header-title-container div {
+  color: #8c9ca7;
+}
+
 .header-title-container h1 {
   font-size: 1.41rem;
 }
