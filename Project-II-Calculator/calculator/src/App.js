@@ -1,23 +1,79 @@
-import React from 'react';
-import './App.css';
+import React, { Component } from "react";
+// import update from "immutability-helper";
+// import math from "mathjs";
+import "./App.css";
 
-const App = () => {
+import { CalcDisp } from "./components/DisplayComponents/CalculatorDisplay";
+import { NumBtn } from "./components/ButtonComponents/NumberButton";
+import { ActBtn } from "./components/ButtonComponents/ActionButton";
+
+export const App = () => {
+  // constructor() {
+  //   super();
+  //   this.state = { operations: [] };
+  // }
+
+  // calculateOperations = () => {
+  //   let result = this.state.operations.join("");
+  //   if (result) {
+  //     result = math.eval(result);
+  //     result = math.format(result, { precision: 14 });
+  //     result = String(result);
+  //     this.setState({
+  //       operations: [result]
+  //     });
+  //   }
+  // };
+  // handleClick = e => {
+  //   const value = e.target.getAttribute("data-value");
+  //   switch (value) {
+  //     case "clear":
+  //       this.setState({
+  //         operations: []
+  //       });
+  //       break;
+  //     case "equal":
+  //       this.calculateOperations();
+  //       break;
+  //     default:
+  //       const newOperations = update(this.state.operations, {
+  //         $push: [value]
+  //       });
+  //       this.setState({
+  //         operations: newOperations
+  //       });
+  //       break;
+  //   }
+  // };
+
   return (
-    <div>
-      <h3>Welcome to React Calculator</h3>
-      <p>
-        We have given you a starter project. You'll want to build out your
-        components in their respective files, remove this code and replace it
-        with the proper components.
-      </p>
-      <p>
-        <strong>
-          Don't forget to `default export` your components and import them here
-          inside of this file in order to make them work.
-        </strong>
-      </p>
+    <div className="App">
+      <CalcDisp value={0} />
+      <ActBtn text="clear" buttonStyle="ActBtn" />
+
+      <NumBtn text="÷" buttonStyle="OpBtn" />
+
+      <NumBtn text="7" buttonStyle="NumBtn" />
+      <NumBtn text="8" buttonStyle="NumBtn" />
+      <NumBtn text="9" buttonStyle="NumBtn" />
+
+      <NumBtn text="x" buttonStyle="OpBtn" />
+
+      <NumBtn text="4" buttonStyle="NumBtn" />
+      <NumBtn text="5" buttonStyle="NumBtn" />
+      <NumBtn text="6" buttonStyle="NumBtn" />
+
+      <NumBtn text="-" buttonStyle="OpBtn" />
+
+      <NumBtn text="1" buttonStyle="NumBtn" />
+      <NumBtn text="2" buttonStyle="NumBtn" />
+      <NumBtn text="3" buttonStyle="NumBtn" />
+
+      <NumBtn text="+" buttonStyle="OpBtn" />
+
+      <ActBtn text="0" buttonStyle="ActBtn" />
+
+      <NumBtn text="=" buttonStyle="OpBtn" />
     </div>
   );
 };
-
-export default App;

@@ -1,0 +1,39 @@
+.App {
+  border: 1px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  width: 500px;
+}
+
+.App .CalcDisp {
+  background: black;
+  color: white;
+  width: 100%;
+  font-size: 80px;
+  text-align: right;
+  line-height: 100px;
+  padding: 10px;
+}
+
+.App button {
+  line-height: 100px;
+  background: white;
+  border: none;
+  outline: 1px solid black;
+  font-size: 50px;
+}
+
+.App .ActBtn {
+  width: 74%;
+}
+
+.App .NumBtn {
+  width: 24.66%;
+}
+
+.App .OpBtn {
+  width: 26%;
+  background: red;
+  color: white;
+  font-size: 65px;
+}
