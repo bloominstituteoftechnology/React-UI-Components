@@ -4,7 +4,9 @@ import "./Button.css";
 function NumberButton(props) {
   return (
     <div className="NumberButton">
-      <button className={props.buttonStyle}>{props.text}</button>
+      <button className={props.buttonStyle} onClick={props.onClick}>
+        {props.text}
+      </button>
     </div>
   );
 }
