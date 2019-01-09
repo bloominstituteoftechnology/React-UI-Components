@@ -1,1 +1,44 @@
 /* All styles for your header Components live here */
+.header-container {
+  display: flex;
+  padding-top: 10px;
+  max-width: 500px;
+  margin-left: 195px;
+}
+
+.header-container p {
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.header-container a {
+  text-decoration: none;
+}
+
+.header-container img {
+  max-width: 50px;
+  width: 50px;
+  height: auto;
+  border-radius: 50%;
+  margin: 5px 10px 0 10px;
+}
+
+.header-container .title-container {
+  display: flex;
+  align-items: center;
+  height: 25px;
+  padding-top: 5px;
+}
+
+.header-container .title-container p {
+  margin-left: 5px;
+  color: rgb(149, 160, 170);
+}
+
+.header-container .header-content {
+  margin-bottom: 5px;
+}
+
+.header-container .header-content .tweet-content {
+  margin: 5px 0px;
+}
