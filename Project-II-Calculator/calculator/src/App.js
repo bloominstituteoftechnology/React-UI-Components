@@ -35,17 +35,18 @@ class App extends React.Component {
   clearDisplay = () => {
     console.log('hello from cd');
     this.setState({
-      input: 0
+      input: 0,
+      inputChange: false
     });
   };
 
   handleClick = e => {
-    // const value = e.target.getAttribute('data-value');
+    const value = e.target.getAttribute('datavalue');
 
-    this.setState({
-      [e.target.name]: e.target.value
-    });
-    console.log(e.target.value);
+    this.setState(prevState => ({
+      input: `${prevState.input + value}`
+    }));
+    console.log(value);
   };
 
   render() {
@@ -60,7 +61,7 @@ class App extends React.Component {
         <div className='numbers-container'>
           {nums.map((num, i) => (
             <NumberButton
-              value={num.text}
+              datavalue={'datavalue'}
               text={num.text}
               key={i}
               buttonStyle={'numbers'}
@@ -72,7 +73,13 @@ class App extends React.Component {
 
         <div className='symbol-container'>
           {symbs.map((symb, i) => (
-            <NumberButton text={symb.text} key={i} buttonStyle={'symbols'} />
+            <NumberButton
+              text={symb.text}
+              key={i}
+              buttonStyle={'symbols'}
+              datavalue={'datavalue'}
+              handleClick={e => this.handleClick(e)}
+            />
           ))}
         </div>
         <ActionButton
@@ -81,6 +88,7 @@ class App extends React.Component {
           handleClick={e => this.handleClick(e)}
           name={0}
           value={this.state.input}
+          datavalue={'datavalue'}
         />
       </div>
     );
