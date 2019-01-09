@@ -1,0 +1,13 @@
+
+
+.calculator {
+    border: 2px solid black;
+    width: 515px;
+}
+.calc-num {
+    /* border: 1px solid blue; */
+    display: flex;
+    /* justify-content: space-between; */
+    width: 515px;
+    
+}

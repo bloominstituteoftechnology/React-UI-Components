@@ -1,0 +1,39 @@
+
+.num {
+    
+     width: 27.8%;
+    /* height: 90px;  */
+    /* padding: 0 20px; */
+    /* padding-left: 10px; */
+   /* margin: 0 auto; */
+
+    font-size: 50px;
+    text-align: center;
+    text-decoration: none;
+    /* border: 1px solid pink; */
+}
+
+
+
+.color {
+
+    width: 90px;
+    height: 90px;
+    /* padding-right: 70px; */
+    font-size: 50px;
+    background-color: #9a011c;
+    color: white;
+}
+
+
+.action {
+    padding: 0 160px;
+    font-size: 50px;
+    
+}
+
+.actions {
+    font-size: 50px;
+    padding: 0 196px;
+    font-size: 50px;
+}
