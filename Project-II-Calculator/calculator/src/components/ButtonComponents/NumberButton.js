@@ -6,11 +6,11 @@ import './Button.css';
 function NumberButton(props){
     return(
         <div className="numbers">
-            {props.buttons.filter(item=>item.type==="number").map( button => 
+            {props.buttons.filter(item=>item.type==="number" || item.type==='clear').map( button => 
                     < Button 
                         item = {button} 
                         key={button.id} 
-                        onClick={props.handleClick} 
+                        handleClick={props.handleClick} 
                         state = {props.state} 
                     />
                     

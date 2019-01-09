@@ -68,7 +68,7 @@ const buttons = [
       id: '10',
       name: 'clear',
       style: 'triple',
-      type: 'number'
+      type: 'clear'
   },
   {
       id: '1',
@@ -106,19 +106,44 @@ class App extends React.Component{
   constructor(props){
     super(props);
     this.state = {
-      total: 0,
-      first: '',
-      second: '',
-      operator: ''
+      total: [],
+      first: [],
+      second: [],
+      operator: '',
+      click: ''
     }
   }
  
-  handleClear = () => {
-    this.setState({total: 0})
-  }
+  // handleClear = (event) => {
+  //   let x = event.target.textContent;
+  //   if(x ===  'clear'){
+  //     this.setState({
+  //       total: [],
+  //       first: [],
+  //       second: [],
+  //       operator: ''
+  //     })  
+  //   }else{
+  //     null
+  //   }
+  // }
 
-  handleClick = () => {
-    console.log('clicked')
+  handleClick = (event) => {
+    console.log(event.target.textContent )
+    let x = event.target.textContent;
+    this.setState({click:[this.state.click, x] });
+
+    if(x ===  'clear'){
+      this.setState({
+        total: [],
+        first: [],
+        second: [],
+        operator: ''
+      }) 
+    }else{
+      this.setState({first:[...this.state.first, x] });
+      this.setState({total:[...this.state.total, x] }) 
+    }
   }
 
   render(){
