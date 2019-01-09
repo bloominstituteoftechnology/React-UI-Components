@@ -60,7 +60,7 @@ class App extends Component {
           let result;
           switch(this.state.operator) {
             case "+" :
-              result = "=" + this.state.a + this.state.b;
+              result = "=" + (this.state.a + this.state.b);
               break;
 
             case "−" :
@@ -85,7 +85,7 @@ class App extends Component {
           });
         } else {
           this.setState(prevState => ({
-            displayText: prevState.a,
+            displayText: "=" + prevState.a,
             a: null,
             operator: null,
             nextNum: false,
@@ -93,10 +93,11 @@ class App extends Component {
           }));
         }
       } else {
-        this.setState({
+        this.setState(prevState => ({
+          displayText: "=" + prevState.a,
           a: null,
-          nextNum: true
-        });
+          newOperation: true
+        }));
       }
     }
   }
