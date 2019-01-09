@@ -41,7 +41,9 @@ class App extends Component {
       if (operator === "=") {
         this.evaluate();
       } else {
-        const newDisplay = this.state.displayText + operator
+        const newDisplay = this.state.operator ?
+                            this.state.displayText.substring(0, this.state.displayText.length - 1) + operator :
+                            this.state.displayText + operator;
         this.setState({
           displayText: newDisplay,
           operator,
@@ -57,23 +59,23 @@ class App extends Component {
         let a = this.state.a, b = this.state.b === null ? this.state.a : this.state.b, result;
         switch (this.state.operator) {
           case "+" :
-            result = "=" + (a + b);
+            result = a + b;
             break;
 
           case "−" :
-            result = "=" + (a - b);
+            result = a - b;
             break;
 
           case "×" :
-            result = "=" + a * b;
+            result = a * b;
             break;
 
           case "÷" :
-            result = "=" + (b ? a / b : "Error");
+            result = b ? a / b : "Error";
         }
 
         this.setState({
-          displayText: result,
+          displayText: "=" + (Math.round(result * 100) / 100),
           a: null,
           operator: null,
           nextNum: false,
@@ -113,8 +115,12 @@ class App extends Component {
 
   handleBackspace() {    
     if (this.state.displayText !== "0") {
-      if (isNaN(this.state.displayText) && !this.state.nextNum) {
-        this.setState({displayText: "0"});
+      if (isNaN(this.state.displayText) && this.state.nextNum) {
+        this.setState({
+          displayText: this.state.displayText.substring(0, this.state.displayText.length - 1),
+          operator: null,
+          nextNum: false
+        });
       } else if (this.state.displayText < 10) {
         if (this.state.b === null) {
           this.setState({
@@ -149,7 +155,7 @@ class App extends Component {
     const button = e.currentTarget.dataset.button;
 
     if(isNaN(button)) {
-      if (["+−×÷"].includes(button)) {
+      if ("+−×÷".includes(button)) {
         this.operatorPressed(button);
       } else if (button === "clear") {
         this.clear();
@@ -171,7 +177,7 @@ class App extends Component {
         "106": "×",
         "107": "+",
         "109": "−",
-        "106": "÷",
+        "111": "÷",
         "189": "−",
         "191": "÷"
       }
