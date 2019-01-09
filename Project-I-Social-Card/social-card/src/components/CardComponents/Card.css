@@ -8,6 +8,11 @@
     border-radius: 5px;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
 .card-banner {
     width: 650px;
     border-radius: 5px 5px 0px 0px;
@@ -15,6 +20,10 @@
 
 .card-content {
     margin: 15px;
+}
+.card-content a {
+    color: gray;
+    font-weight: 300;
 }
 
 .card-content h2 {

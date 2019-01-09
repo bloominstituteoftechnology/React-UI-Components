@@ -3,7 +3,7 @@
 .header-container {
     display: flex;
     flex-direction: row;
-    width: 700px;
+    width: 850px;
     height: 120px;
 
 }
@@ -16,19 +16,21 @@
 .head {
     display: flex;
     flex-direction: column;
-    width: 500px;
+    width: 800px;
     height: 110px;
 }
 
 .head p {
-    margin-left: 8%;
+    margin-left: 4%;
     margin-top: 0%;
+    width: 650px;
 }
 
 .head p span {
-    font-size: 12px;
+    font-size: 14px;
     color: gray;
     font-weight: 300;
+    width: 100%;
 }
 
 
