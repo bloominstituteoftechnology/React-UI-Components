@@ -24,6 +24,11 @@
     display: flex;
     flex-wrap: wrap;
     text-align: center;
+    flex-direction: column;
+}
+
+.Nums {
+    display: flex;
 }
 
 .actSec {
@@ -34,5 +39,5 @@
 }
 
 .Clear {
-    flex-grow: 1;
+    width: 100%;
 }

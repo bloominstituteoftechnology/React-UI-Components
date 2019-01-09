@@ -1,8 +1,12 @@
 .NumberButton {
+    width: 100%;
+}
+
+.NumberButton div {
     width: 33%;
 }
 
-.Nums {
+.NumberButton p {
     font-size: 35px;
 }
 

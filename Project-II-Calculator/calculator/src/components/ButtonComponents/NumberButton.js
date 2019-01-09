@@ -5,9 +5,8 @@ function NumberButton(props) {
     return (
         <div className='NumberButton'>
             <div>
-                <p className="Nums">{props.num}</p>
+                <p>{props.num}</p>
             </div>
-
         </div>
     );
 }

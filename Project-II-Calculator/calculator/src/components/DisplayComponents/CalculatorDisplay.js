@@ -34,22 +34,31 @@ function CalculatorDisplay() {
                 <Result />
             </div>
             <div className="Display">
+
                 <div className="numSec">
-                    <NumberButton className='Clear' num={NumbersObj.num10} />
+                    <div>
+                        <NumberButton num={NumbersObj.num10} />
+                    </div>
 
-                    <NumberButton num={NumbersObj.num7} />
-                    <NumberButton num={NumbersObj.num8} />
-                    <NumberButton num={NumbersObj.num9} />
-                    <NumberButton num={NumbersObj.num4} />
-                    <NumberButton num={NumbersObj.num5} />
-                    <NumberButton num={NumbersObj.num6} />
-                    <NumberButton num={NumbersObj.num1} />
-                    <NumberButton num={NumbersObj.num2} />
-                    <NumberButton num={NumbersObj.num3} />
+                    <div className="Nums">
+                        <NumberButton num={NumbersObj.num7} />
+                        <NumberButton num={NumbersObj.num8} />
+                        <NumberButton num={NumbersObj.num9} />
+                        <NumberButton num={NumbersObj.num4} />
+                        <NumberButton num={NumbersObj.num5} />
+                        <NumberButton num={NumbersObj.num6} />
+                        <NumberButton num={NumbersObj.num1} />
+                        <NumberButton num={NumbersObj.num2} />
+                        <NumberButton num={NumbersObj.num3} />
+                    </div>
 
-                    <NumberButton num={NumbersObj.num0} />
+
+                    <div>
+                        <NumberButton num={NumbersObj.num0} />
+                    </div>
 
                 </div>
+
 
                 <div className="actSec">
                     <ActionButton action={ActionObj.divide} />
