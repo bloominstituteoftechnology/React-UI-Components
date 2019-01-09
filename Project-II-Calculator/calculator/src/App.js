@@ -81,7 +81,7 @@ class App extends Component {
         }
 
         this.setState({
-          displayText: "=" + (Math.round(result * 100) / 100),
+          displayText: "=" + (String(result).length > 9 ? result.toExponential(2) : result),
           a: null,
           operator: null,
           nextNum: false,
