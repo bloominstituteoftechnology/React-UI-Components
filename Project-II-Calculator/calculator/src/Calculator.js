@@ -9,106 +9,117 @@ class Calculator extends React.Component {
     super();
     this.state = {
       input: "",
-      total: ""
+      total: "0"
     };
   }
 
   addtoInput = val => {
-    this.setState({ input: this.state.input + val });
+    console.log(val);
+    this.setState({
+      input: this.state.input + val,
+      total: this.state.input + val
+    });
+  };
+
+  clearDisplay = () => {
+    this.setState({ input: "", total: "0" });
   };
 
   render() {
     return (
       <div className="Calculator">
         <div className="row">
-          <CalculatorDisplay buttonStyle="CalculatorDisplay" text="0" />
+          <CalculatorDisplay
+            buttonStyle="CalculatorDisplay"
+            text={this.state.total}
+          />
         </div>
         <div className="row">
           <ActionButton
-            OnClick={this.addtoInput}
+            onClick={this.clearDisplay}
             buttonStyle="actionBtn"
             text="clear"
           />
           <NumberButton
-            OnClick={this.addtoInput}
+            onClick={this.addtoInput}
             buttonStyle="operator"
             text="÷"
           />
         </div>
         <div className="row">
           <NumberButton
-            OnClick={this.addtoInput}
+            onClick={this.addtoInput}
             buttonStyle="numBtnStyle"
             text="7"
           />
           <NumberButton
-            OnClick={this.addtoInput}
+            onClick={this.addtoInput}
             buttonStyle="numBtnStyle"
             text="8"
           />
           <NumberButton
-            OnClick={this.addtoInput}
+            onClick={this.addtoInput}
             buttonStyle="numBtnStyle"
             text="9"
           />
           <NumberButton
-            OnClick={this.addtoInput}
+            onClick={this.addtoInput}
             buttonStyle="operator"
             text="x"
           />
         </div>
         <div className="row">
           <NumberButton
-            OnClick={this.addtoInput}
+            onClick={this.addtoInput}
             buttonStyle="numBtnStyle"
             text="4"
           />
           <NumberButton
-            OnClick={this.addtoInput}
+            onClick={this.addtoInput}
             buttonStyle="numBtnStyle"
             text="5"
           />
           <NumberButton
-            OnClick={this.addtoInput}
+            onClick={this.addtoInput}
             buttonStyle="numBtnStyle"
             text="6"
           />
           <NumberButton
-            OnClick={this.addtoInput}
+            onClick={this.addtoInput}
             buttonStyle="operator"
             text="-"
           />
         </div>
         <div className="row">
           <NumberButton
-            OnClick={this.addtoInput}
+            onClick={this.addtoInput}
             buttonStyle="numBtnStyle"
             text="1"
           />
           <NumberButton
-            OnClick={this.addtoInput}
+            onClick={this.addtoInput}
             buttonStyle="numBtnStyle"
             text="2"
           />
           <NumberButton
-            OnClick={this.addtoInput}
+            onClick={this.addtoInput}
             buttonStyle="numBtnStyle"
             text="3"
           />
           <NumberButton
-            OnClick={this.addtoInput}
+            onClick={this.addtoInput}
             buttonStyle="operator"
             text="+"
           />
         </div>
         <div className="row">
           <ActionButton
-            OnClick={this.addtoInput}
+            onClick={this.addtoInput}
             buttonStyle="actionBtn"
             text="0"
           />
           <NumberButton
-            OnClick={this.addtoInput}
+            onClick={this.addtoInput}
             buttonStyle="operator"
             text="="
           />
