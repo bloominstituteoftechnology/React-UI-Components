@@ -1,1 +1,22 @@
 /* All styles for your header Components live here */
+.header-container {
+  display: flex;
+}
+
+.thumbnail img {
+  margin-left: 15%;
+  margin-top: 35%;
+  width: 80%;
+}
+
+.title-content {
+  padding: 1% 2%;
+}
+
+.main-title {
+  font-weight: bold;
+}
+
+.secondary-title {
+  color: gray;
+}

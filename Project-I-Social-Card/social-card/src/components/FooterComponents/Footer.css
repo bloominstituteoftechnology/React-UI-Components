@@ -1,0 +1,22 @@
+.footer {
+  width: 85%;
+  margin-top: 1%;
+  margin-left: 10%;
+  display: flex;
+}
+
+.icon {
+  margin: 3% 12% 3% 0;
+}
+
+.comment {
+  transform: rotateY(180deg);
+}
+
+i {
+  cursor: pointer;
+}
+
+i:hover {
+  transform: scale(1.15);
+}

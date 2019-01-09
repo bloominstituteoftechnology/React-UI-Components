@@ -1,0 +1,33 @@
+.button {
+  width: 25%;
+  border: 1px solid gray;
+  font-size: 5rem;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  background: white;
+}
+
+.button:hover {
+  background: orange;
+  color: white;
+}
+
+.divide,
+.multiply,
+.minus,
+.plus,
+.equals {
+  background: #a0001e;
+  color: white;
+}
+
+.zero,
+.clear {
+  width: 75%;
+}
+
+.clear {
+  font-size: 3rem;
+  align-items: center;
+}

@@ -1,1 +1,28 @@
 /* All styles for your Card Components live here */
+.card-container {
+  width: 85%;
+  margin: 0 5% 0 10%;
+  border: 1px solid gray;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.card-container img {
+  width: 100%;
+}
+
+.card-container p {
+  padding: 1%;
+}
+
+.get-started {
+  font-weight: bold;
+}
+
+.website {
+  color: gray;
+  cursor: pointer;
+}
+
+.website:hover {
+  color: #61dafb;
+}
