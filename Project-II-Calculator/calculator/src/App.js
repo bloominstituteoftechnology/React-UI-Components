@@ -1,5 +1,5 @@
-import React from "react";
-import "./App.css";
+import React, { Component } from "react";
+// import "./App.css";
 import ActionButton from "./components/ButtonComponents/ActionButton";
 import NumberButton from "./components/ButtonComponents/NumberButton";
 import CalculatorDisplay from "./components/DisplayComponents/CalculatorDisplay";
@@ -19,59 +19,132 @@ const calcNumbers = [
 ];
 
 const symbols = [
-  { symbol: <i class="fas fa-divide" />, id: "divide" },
-  { symbol: <i class="fas fa-times" />, id: "multiply" },
-  { symbol: <i class="fas fa-minus" />, id: "minus" },
-  { symbol: <i class="fas fa-plus" />, id: "plus" },
-  { symbol: <i class="fas fa-equals" />, id: "equals" }
+  {
+    symbol: <i className="fas fa-divide" />,
+    id: "divide",
+    operator: "/"
+  },
+  {
+    symbol: <i className="fas fa-times" />,
+    id: "multiply",
+    operator: "*"
+  },
+  {
+    symbol: <i className="fas fa-minus" />,
+    id: "minus",
+    operator: "-"
+  },
+  {
+    symbol: <i className="fas fa-plus" />,
+    id: "plus",
+    operator: "+"
+  },
+  {
+    symbol: <i className="fas fa-equals" />,
+    id: "equals",
+    operator: "="
+  }
 ];
 
-const App = () => {
-  return (
-    <div className="app">
-      <div className="calc-display">
-        <CalculatorDisplay text="0" />
-      </div>
+const initialState = "0";
 
-      <div className="button-container">
-        <div className="main-buttons">
-          {calcNumbers.map(button => {
-            if (button.id === "clear") {
+class App extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      input: "",
+      total: ""
+    };
+
+    // this.baseDisplay = "0";
+
+    this.handleClick = this.handleClick.bind(this);
+    this.handleClear = this.handleClear.bind(this);
+  }
+
+  handleClick(event) {
+    const { value } = event.target;
+
+    if (value === "=") {
+      return this.handleEqual(value);
+    }
+
+    this.setState({
+      input: this.state.input + value
+    });
+
+    console.log("Clicked");
+  }
+
+  handleClear(event) {
+    this.setState({ input: "" });
+  }
+
+  handleEqual(value) {
+    this.setState({
+      input: eval(this.state.input)
+    });
+  }
+
+  render() {
+    return (
+      <div className="app">
+        <div className="calc-display">
+          <CalculatorDisplay text={this.state.input} />
+        </div>
+
+        <div className="button-container">
+          <div className="main-buttons">
+            {calcNumbers.map(button => {
+              if (button.id === "clear") {
+                return (
+                  <ActionButton
+                    key={button.id}
+                    text={button.symbol}
+                    buttonStyle="action-button"
+                    handleClick={this.handleClear}
+                  />
+                );
+              }
+              if (button.id === 0) {
+                return (
+                  <ActionButton
+                    key={button.id}
+                    text={button.symbol}
+                    buttonStyle="action-button"
+                    handleClick={this.handleClick}
+                    value={button.symbol}
+                  />
+                );
+              }
+
               return (
-                <ActionButton
+                <NumberButton
                   key={button.id}
                   text={button.symbol}
-                  buttonStyle="action-button"
+                  value={button.symbol}
+                  handleClick={this.handleClick}
                 />
               );
-            }
-            if (button.id === 0) {
+            })}
+          </div>
+          <div className="button-symbol-container">
+            {symbols.map(button => {
               return (
-                <ActionButton
+                <NumberButton
                   key={button.id}
                   text={button.symbol}
-                  buttonStyle="action-button"
+                  buttonStyle="symbol-button"
+                  value={button.operator}
+                  handleClick={this.handleClick}
                 />
               );
-            }
-
-            return <NumberButton key={button.id} text={button.symbol} />;
-          })}
-        </div>
-        <div className="button-symbol-container">
-          {symbols.map(button => {
-            return (
-              <NumberButton
-                key={button.symbol.id}
-                text={button.symbol}
-                buttonStyle="symbol-button"
-              />
-            );
-          })}
+            })}
+          </div>
         </div>
       </div>
-    </div>
-  );
-};
+    );
+  }
+}
 
 export default App;

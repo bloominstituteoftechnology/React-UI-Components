@@ -1,7 +1,9 @@
 .default-calc-display {
-  width: 100%;
+  width: 90%;
+  height: 30px;
   padding: 5%;
   background: #303133;
   color: white;
   text-align: right;
+  font-size: 1.8rem;
 }

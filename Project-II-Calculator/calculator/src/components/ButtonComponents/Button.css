@@ -1,7 +1,7 @@
 .default-button {
   background: whitesmoke;
   width: 33.3%;
-  padding: 6%;
+  padding: 5%;
   height: auto;
   font-size: 1.5rem;
   font-weight: bold;
@@ -10,7 +10,6 @@
 .default-button:active {
   background: lightgrey;
 }
-
 
 .action-button {
   width: 100%;
@@ -25,11 +24,10 @@
   background: lightgrey;
 }
 
-
 .symbol-button {
   background: darkred;
   width: 100%;
-  padding: 13%;
+  padding: 20%;
   /* height: auto; */
   font-size: 1.5rem;
   color: white;
