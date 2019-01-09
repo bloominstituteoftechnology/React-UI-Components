@@ -60,19 +60,19 @@ class App extends Component {
           let result;
           switch(this.state.operator) {
             case "+" :
-              result = this.state.a + this.state.b;
+              result = "=" + this.state.a + this.state.b;
               break;
 
             case "−" :
-              result = this.state.a - this.state.b;
+              result = "=" + this.state.a - this.state.b;
               break;
 
             case "×" :
-              result = this.state.a * this.state.b;
+              result = "=" + this.state.a * this.state.b;
               break;
 
             case "÷" :
-              result = this.state.a / this.state.b;
+              result = "=" + (this.state.b ? this.state.a / this.state.b : "Error");
           }
 
           this.setState({
