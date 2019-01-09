@@ -1,1 +1,30 @@
 /* All styles for your Card Components live here */
+.CardContainer {
+    margin-left: 60px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    border: 1px solid grey;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  .CardContent {
+    margin-left: 8px;
+    margin-right: 8px;
+    
+  }
+  .CardContent h2,
+  p {
+    font-size: 1rem;
+    display: inline-block;
+    color: black;
+  }
+  .CardContent .footerCardContent {
+    color: grey;
+  }
+  .CardContainer img {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    width: 100%;
+  }

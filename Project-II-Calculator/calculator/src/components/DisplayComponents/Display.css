@@ -1,0 +1,15 @@
+.display {
+    background-color:black;
+    color:white;
+    width: 67%;
+    height: 68px;
+    display:flex;
+   
+}
+
+.display-text {
+    padding-right: 5%;
+    font-size: 35px;
+    margin-left: 259px;
+    margin-top: 19px;
+}
