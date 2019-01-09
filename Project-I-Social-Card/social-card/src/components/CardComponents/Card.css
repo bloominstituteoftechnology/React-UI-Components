@@ -1,1 +1,12 @@
 /* All styles for your Card Components live here */
+
+.react-description{
+    padding-left:50px;
+    width:755px;
+}
+
+
+.link{
+    color:lightsteelblue;
+    font-size:1.4rem;
+}

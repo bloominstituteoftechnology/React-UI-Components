@@ -1,0 +1,30 @@
+.number{
+    
+    height: 80px;
+    width:28.5%;
+    font-size:2rem;
+    font-weight: bolder;
+    background-color:#fff;
+    border:1px solid darkgrey;
+    
+
+}
+
+.action{
+    height: 80px;
+    width:427.8px;
+    font-size:2rem;
+    font-weight: bolder;
+    background-color:#dde;
+    border:1px solid darkgrey;
+}
+
+.operators{
+    height: 80px;
+    width:80px;
+    font-size:2rem;
+    font-weight: bolder;
+    background-color:#667;
+    border:1px solid darkgrey;
+    margin: auto;
+}

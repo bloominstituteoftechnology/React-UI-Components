@@ -1,0 +1,18 @@
+.Calc{
+display:flex;
+flex-direction:column;
+/* flex-wrap: wrap; */
+width:500px;
+/* height: 500px; */
+/* border:2px solid red; */
+
+}
+
+.calc-subcontent{
+    display:flex;
+    justify-content: space-between;
+    width:500px;
+    /* border: 2px solid black; */
+    
+    
+}
