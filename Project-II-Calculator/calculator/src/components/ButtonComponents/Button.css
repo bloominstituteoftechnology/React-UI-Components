@@ -1,0 +1,13 @@
+.NumberButton {
+    font-size: 35px;
+    height: 90px;
+}
+
+.ActionButton {
+    font-size: 35px;
+}
+
+.Result {
+    background-color: black;
+    color: white;
+}
