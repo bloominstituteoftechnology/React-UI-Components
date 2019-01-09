@@ -3,7 +3,7 @@ import "./Display.css";
 
 class CalculatorDisplay extends Component {
   render() {
-    return <div className="display">0</div>;
+    return <div className="display">{this.props.display}</div>;
   }
 }
 
