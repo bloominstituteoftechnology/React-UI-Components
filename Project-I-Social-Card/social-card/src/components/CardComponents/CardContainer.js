@@ -4,12 +4,18 @@ import CardBanner from './CardBanner';
 import CardContent from './CardContent';
 import Footer from '../FooterComponents/Footer';
 
-const CardContainer = () => {
+const CardContainer = props => {
   return (
     <div className='card-container'>
       <CardBanner />
       <CardContent />
-      <Footer />
+      <Footer
+        shareCounter={props.shareCounter}
+        heartCounter={props.heartCounter}
+        isLiked={props.isLiked}
+        shareHandler={props.shareHandler}
+        heartHandler={props.heartHandler}
+      />
     </div>
   );
 };
