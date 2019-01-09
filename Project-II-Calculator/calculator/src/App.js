@@ -30,10 +30,11 @@ class App extends React.Component {
   constructor(){
     super();
     this.state ={
-      total: 0,
-      firstInput: null,
-      secondInput: null,
+      total: null,
+      firstInput: [],
+      secondInput: [],
       symbolTarget: null,
+      secondNumTrig: false,
       numbers: numberList,
       symbols: mathList,
       actionBtnStyle: 'action.btn',
@@ -41,23 +42,31 @@ class App extends React.Component {
   }
   
   handleChangeFunction = event => {
-    if(this.state.firstInput != null){
-      this.setState({secondInput: Number(event.target.innerText)});
-      this.setState({total: Number(event.target.innerText)});
-      return
+    if(this.state.secondNumTrig === true){
+      this.state.secondInput.push( Number(event.target.innerText));
+      console.log(this.state.secondInput);
+      console.log(this.state.secondInput.join(''))
+      this.setState({total: parseInt(this.state.secondInput.join(''))})
+
     }
-    console.log(event.target);
-    console.log(event.target.innerText);
-    this.setState({total: Number(event.target.innerText)});
-    this.setState({firstInput: Number(event.target.innerText)});
+    if(this.state.secondNumTrig === false){
+      this.state.firstInput.push( Number(event.target.innerText));
+      console.log(this.state.firstInput);
+      console.log(typeof this.state.firstInput.join(''))
+      this.setState({total: parseInt(this.state.firstInput.join(''))})
+      console.log( this.state.total)
+      }
+    
+    
    
   }
   symbolUpdate = event =>{
     if(event.target.innerText === '+' || event.target.innerText === '-' || event.target.innerText === '÷' || event.target.innerText === 'x'){
       this.setState({symbolTarget: event.target.innerText});
+      this.setState({secondNumTrig: true});
     } 
     if(event.target.innerText === '='){
-      this.calculation(this.state.firstInput, this.state.secondInput);
+      this.calculation( parseInt(this.state.firstInput.join('')), parseInt(this.state.secondInput.join('')));
     }
     
   }
@@ -78,8 +87,9 @@ class App extends React.Component {
   } 
   clearCal = event =>{
     this.setState({total: 0});
-    this.setState({firstInput: null});
-    this.setState({secondInput: null});
+    this.setState({firstInput: []});
+    this.setState({secondInput: []});
+    this.setState({secondNumTrig: false});
   }
   
   // addition = (x,y) =>{
@@ -101,7 +111,7 @@ class App extends React.Component {
         {this.state.numbers.map((number, i) =>(
           <NumberButton fun={this.handleChangeFunction} key ={i} text = {number.text}/>
           ))}
-        <ActionButton  text= {0}/>
+        <ActionButton fun={this.handleChangeFunction} text= {0}/>
       </div>
         <div className="test-algo-pad">
           {this.state.symbols.map((sym, i) =>(
