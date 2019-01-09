@@ -1,0 +1,20 @@
+ .numbersArea {
+    /* border: 1px solid purple; */
+    width: 331px;
+    height: 468px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    margin-top:-63px;
+    margin-bottom:-53px;
+} 
+
+.redButtons{
+    width:115px;
+    height:554px;
+    display: flex;
+    flex-direction: column;
+    /* border:solid 1px black; */
+    margin-left:333px;
+    margin-top:-469px;
+}
