@@ -1,1 +1,52 @@
-/* All styles for your header Components live here */
+.header__container {
+  display: flex;
+}
+
+.header__thumbnail {
+  width: 123px;
+  margin: 14px 1.7% 0;
+}
+
+.header__thumbnail img {
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+}
+
+.header__title__content {
+  margin-top: 16px;
+  font-size: 1.4rem;
+}
+
+.header__content__title {
+  display: flex;
+}
+
+.header__content__title h1 {
+  font-weight: bold;
+}
+
+.header__content__title .header__tag {
+  font-size: 1.25rem;
+  display: inline-block;
+  margin: 2px 0 0 5px;
+  color: #929faa;
+}
+
+.header__content__title .header__dot {
+  font-size: 1.25rem;
+  margin: 2px 0 0 5px;
+  color: #929faa;
+}
+
+.header__content__title .header__date {
+  font-size: 1.25rem;
+  margin: 2px 0 0 5px;
+  color: #929faa;
+}
+
+.header__content__body {
+  margin-top: 10px;
+  font-size: 1.43rem;
+  line-height: 1.3;
+}

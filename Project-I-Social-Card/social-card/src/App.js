@@ -1,24 +1,85 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+import "./App.css";
+import HeaderContainer from "./components/HeaderComponents/HeaderContainer";
+import CardContainer from "./components/CardComponents/CardContainer";
+import Footer from "./components/FooterComponents/Footer";
 
-const App = () => {
-  return (
-    <div>
-      <h3>Welcome to React Social Card!</h3>
-      <p>
-        Begin by exploring the `components` directory. You'll notice we have a
-        few files that we've already included in there to get you started right
-        away building components. You'll need to make sure you include your
-        components that you build in this file to watch your app come to life
-      </p>
-      <p>
-        <strong>
-          Don't forget to `default export` your components and import them here
-          inside of this file in order to make them work.
-        </strong>
-      </p>
-    </div>
-  );
-};
+class App extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      shareClicked: false,
+      likeClicked: false,
+      shareCount: 6,
+      likeCount: 4
+    };
+  }
+
+  // componentDidMount = () => {
+  //   const initialShare = 6;
+  //   const initialShareClicked = false;
+  //   const initialLike = 4;
+  //   const initialLikeClicked = false;
+
+  //   // if (localStorage.get())
+  // };
+
+  setLocalStorage = () => {
+    localStorage.clear();
+    localStorage.setItem("shareClicked", this.state.shareClicked);
+    localStorage.setItem("likeClicked", this.state.likeClicked);
+    localStorage.setItem("shareCount", this.state.shareCount);
+    localStorage.setItem("likeCount", this.state.likeCount);
+  };
+
+  shareClicked = event => {
+    if (this.state.shareClicked === false) {
+      const tempNum = this.state.shareCount + 1;
+      this.setState({
+        shareClicked: true,
+        shareCount: tempNum
+      });
+    } else {
+      const tempNum = this.state.shareCount - 1;
+      this.setState({
+        shareClicked: false,
+        shareCount: tempNum
+      });
+    }
+    this.setLocalStorage();
+  };
+
+  likeClicked = event => {
+    if (this.state.likeClicked === false) {
+      const tempNum = this.state.likeCount + 1;
+      this.setState({
+        likeClicked: true,
+        likeCount: tempNum
+      });
+    } else {
+      const tempNum = this.state.likeCount - 1;
+      this.setState({
+        likeClicked: false,
+        likeCount: tempNum
+      });
+    }
+    this.setLocalStorage();
+  };
+
+  render() {
+    return (
+      <div className="social__card__wrapper">
+        <HeaderContainer />
+        <CardContainer />
+        <Footer
+          shareCount={this.state.shareCount}
+          likeCount={this.state.likeCount}
+          shareClicked={this.shareClicked}
+          likeClicked={this.likeClicked}
+        />
+      </div>
+    );
+  }
+}
 
 export default App;

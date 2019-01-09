@@ -1,0 +1,36 @@
+.footer__container {
+  display: flex;
+  margin: 10px 0 0 11.5%;
+}
+
+.icon {
+  width: 4%;
+}
+
+.comment__icon {
+  margin-top: 10px;
+  margin-right: 11%;
+}
+
+.share__icon {
+  width: 5%;
+  margin-top: 7px;
+}
+
+.share__count {
+  margin: 12px 1.2% 0;
+  font-size: 1.4rem;
+}
+
+.heart__icon {
+  margin: 10px 0 0 6.8%;
+}
+
+.like__count {
+  margin: 12px 1.8% 0;
+  font-size: 1.4rem;
+}
+
+.envelope__icon {
+  margin: 10px 0 0 6.4%;
+}

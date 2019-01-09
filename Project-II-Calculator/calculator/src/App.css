@@ -1,0 +1,11 @@
+.container {
+  width: 100%;
+}
+
+.calculator__container {
+  border: 1px solid #8c8c8c;
+  width: 100%;
+  max-width: 454px;
+  height: 596px;
+  margin: 50px auto 0;
+}
