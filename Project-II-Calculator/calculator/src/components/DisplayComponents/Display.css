@@ -1,0 +1,19 @@
+.calculator-display {
+  background-color: #222222;
+  width: 100%;
+  padding: 16px 0;
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+  border-bottom: 2px solid #979797;
+  margin-right: 5px;
+  height: 91px;
+}
+
+.num-display {
+  font-size: 4.5rem;
+  right: 0;
+  font-weight: 200;
+  padding-right: 11px;
+  padding-top: 8px;
+}

@@ -1,0 +1,43 @@
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  width: 51.3%;
+  height: 56px;
+  justify-content: space-between;
+}
+
+/* .footer-container img {
+  width: 45%;
+} */
+
+.footer-img {
+  width: 6%;
+  padding-left: 0;
+}
+
+.footer-container .num {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.num img {
+  width: 20%;
+  padding-left: 0;
+}
+
+.num p {
+  margin-left: 13px;
+  font-size: 1.2rem;
+  color: #8c9ca7;
+}
+
+.sync-num {
+  margin-left: 43px;
+}
+
+.heart-num {
+  margin-right: 23px;
+}

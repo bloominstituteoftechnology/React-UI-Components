@@ -1,1 +1,60 @@
 /* All styles for your header Components live here */
+img {
+  width: 100%;
+  height: auto;
+}
+.header-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.header-container img {
+  border-radius: 50%;
+  width: 68px;
+  height: 68px;
+  padding: 10px;
+}
+
+.header-title-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 0;
+}
+
+.header-title-container div {
+  color: #8c9ca7;
+}
+
+.header-title-container h1 {
+  font-size: 1.41rem;
+}
+
+.header-at-lambda {
+  padding-left: 4px;
+  font-size: 1.27rem;
+}
+
+.header-dot {
+  padding-left: 4px;
+  font-size: 20px;
+}
+
+.header-date {
+  padding-left: 4px;
+  font-size: 1.2rem;
+}
+
+.header-container p {
+  margin-top: 0px;
+  padding-bottom: 20px;
+  line-height: 1.7rem;
+  font-size: 1.44rem;
+}
+
+.header-right {
+  display: flex;
+  flex-direction: column;
+  padding-left: 1px;
+  padding-top: 3px;
+}
