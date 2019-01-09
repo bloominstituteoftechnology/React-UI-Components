@@ -12,26 +12,39 @@ import CalculatorDisplay from './components/DisplayComponents/CalculatorDisplay'
 
 const App = () => {
   return (
-    <div>
+    <div className="calculator">
      <CalculatorDisplay />
+
+     <div className="calc-num">
+      <ActionButton buttonStyle="action" text="clear" />
+     <NumberButton buttonStyle="color" text="/" />
+     </div>
      
-     <ActionButton buttonStyle="" text="clear" />
-     <NumberButton buttonStyle="" text="/" />
-     <NumberButton buttonStyle="" text="7" />
-     <NumberButton buttonStyle="" text="8" />
-     <NumberButton buttonStyle="" text="9" />
-     <NumberButton buttonStyle="" text="X" />
-    
-     <NumberButton buttonStyle="" text="4" />
-     <NumberButton buttonStyle="" text="5" />
-     <NumberButton buttonStyle="" text="6" />
-     <NumberButton buttonStyle="" text="-" />
-     <NumberButton buttonStyle="" text="1" />
-     <NumberButton buttonStyle="" text="2" />
-     <NumberButton buttonStyle="" text="3" />
-     <NumberButton buttonStyle="" text="+" />
-     <ActionButton buttonStyle="" text="0" />
-     <NumberButton buttonStyle="" text="=" />
+     <div className="calc-num">
+     <NumberButton buttonStyle="num" text="7" />
+     <NumberButton buttonStyle="num" text="8" />
+     <NumberButton buttonStyle="num" text="9" />
+     <NumberButton buttonStyle="color" text="X" />
+    </div>
+
+    <div className="calc-num">
+     <NumberButton buttonStyle="num" text="4" />
+     <NumberButton buttonStyle="num" text="5" />
+     <NumberButton buttonStyle="num" text="6" />
+     <NumberButton buttonStyle="color" text="-" />
+     </div>
+
+     <div className="calc-num">
+     <NumberButton buttonStyle="num" text="1" />
+     <NumberButton buttonStyle="num" text="2" />
+     <NumberButton buttonStyle="num" text="3" />
+     <NumberButton buttonStyle="color" text="+" />
+     </div>
+
+     <div className="calc-num">
+     <ActionButton buttonStyle="actions" text="0" />
+     <NumberButton buttonStyle="color" text="=" />
+     </div>
 
     </div>
   );
