@@ -6,20 +6,26 @@ import NumberButton from "./components/ButtonComponents/NumberButton";
 
 class App extends Component {
   state = {
-    total: 0
+    total: ""
   };
 
   handledisplayChange = value => {
     this.setState({
-      total: (this.state.total = value)
+      total: (this.state.total += value)
+    });
+    console.log(this.state.total);
+  };
+
+  handleClear = () => {
+    this.setState({
+      total: (this.state.total = "")
     });
   };
 
-  handleOperator = value => {
-    // this.setState({
-    //   math: this.state.math.push(value)
-    // });
-    // console.log(this.state.math);
+  handleEquals = () => {
+    this.setState({
+      total: eval(this.state.total)
+    });
   };
 
   render() {
@@ -32,12 +38,12 @@ class App extends Component {
           <ActionButton
             action="Clear"
             btnClass="button action-button clear"
-            operator={this.handleOperator}
+            click={this.handleClear}
           />
           <ActionButton
             action="&divide;"
             btnClass="button action-button divide"
-            operator={this.handleOperator}
+            click={this.handledisplayChange}
           />
         </div>
 
@@ -60,7 +66,7 @@ class App extends Component {
           <ActionButton
             action="&#215;"
             btnClass="button action-button multiply"
-            operator={this.handleOperator}
+            click={this.handledisplayChange}
           />
         </div>
 
@@ -83,7 +89,7 @@ class App extends Component {
           <ActionButton
             action="&#45;"
             btnClass="button action-button minus"
-            operator={this.handleOperator}
+            click={this.handledisplayChange}
           />
         </div>
 
@@ -106,7 +112,7 @@ class App extends Component {
           <ActionButton
             action="&#43;"
             btnClass="button action-button plus"
-            operator={this.handleOperator}
+            click={this.handledisplayChange}
           />
         </div>
 
@@ -119,7 +125,7 @@ class App extends Component {
           <ActionButton
             action="&#61;"
             btnClass="button action-button equals"
-            operator={this.handleOperator}
+            click={this.handleEquals}
           />
         </div>
       </div>

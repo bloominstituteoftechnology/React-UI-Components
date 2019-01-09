@@ -6,7 +6,7 @@ class ActionButton extends Component {
     return (
       <div
         className={this.props.btnClass}
-        onClick={() => this.props.operator(this.props.action)}
+        onClick={() => this.props.click(this.props.action)}
       >
         <span>{this.props.action}</span>
       </div>
