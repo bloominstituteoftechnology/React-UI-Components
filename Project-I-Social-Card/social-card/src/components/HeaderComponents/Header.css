@@ -1,1 +1,30 @@
 /* All styles for your header Components live here */
+.HeaderContainer {
+    display: flex;
+    width: 800px;
+    justify-content: space-between;
+}
+.HeaderText {
+    margin: 10px;
+}
+.HeaderTitle {
+    display: flex;
+}
+
+.HeaderTitle .name {
+    font-weight: 540;
+}
+
+.HeaderTitle .handle-date {
+    margin: 0 5px;
+    color: grey;
+}
+
+.HeaderText {
+    display: flex;
+    flex-direction: column;
+}
+
+.HeaderContent {
+    margin: 10px 0;
+}

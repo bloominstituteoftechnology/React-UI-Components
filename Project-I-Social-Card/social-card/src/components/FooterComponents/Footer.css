@@ -1,0 +1,11 @@
+.Footer {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin: 20px 0 20px 140px;
+}
+
+.Footer i {
+    color: grey;
+}
+
