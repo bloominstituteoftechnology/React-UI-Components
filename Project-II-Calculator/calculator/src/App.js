@@ -50,21 +50,30 @@ export const App = () => {
     <div className="App">
       <CalcDisp value={0} />
       <ActBtn text="clear" buttonStyle="ActBtn" />
-      <NumBtn text="÷" buttonStyle="NumBtnRed" />
+
+      <NumBtn text="÷" buttonStyle="OpBtn" />
+
       <NumBtn text="7" buttonStyle="NumBtn" />
       <NumBtn text="8" buttonStyle="NumBtn" />
       <NumBtn text="9" buttonStyle="NumBtn" />
-      <NumBtn text="x" buttonStyle="NumBtnRed" />
+
+      <NumBtn text="x" buttonStyle="OpBtn" />
+
       <NumBtn text="4" buttonStyle="NumBtn" />
       <NumBtn text="5" buttonStyle="NumBtn" />
       <NumBtn text="6" buttonStyle="NumBtn" />
-      <NumBtn text="-" buttonStyle="NumBtnRed" />
+
+      <NumBtn text="-" buttonStyle="OpBtn" />
+
       <NumBtn text="1" buttonStyle="NumBtn" />
       <NumBtn text="2" buttonStyle="NumBtn" />
       <NumBtn text="3" buttonStyle="NumBtn" />
-      <NumBtn text="+" buttonStyle="NumBtnRed" />
+
+      <NumBtn text="+" buttonStyle="OpBtn" />
+
       <ActBtn text="0" buttonStyle="ActBtn" />
-      <NumBtn text="=" buttonStyle="NumBtnRed" />
+
+      <NumBtn text="=" buttonStyle="OpBtn" />
     </div>
   );
 };
