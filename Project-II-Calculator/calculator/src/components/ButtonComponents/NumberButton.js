@@ -5,6 +5,7 @@ const NumberButton = (props) => {
     return (
         <div className={props.className}>
             <p>{props.number}</p>
+            <p>{props.text}</p>
         </div>
     );
 };

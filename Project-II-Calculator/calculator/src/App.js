@@ -18,11 +18,12 @@ const App = () => {
       <NumberButton className="nine" number={9} />
       <NumberButton className="six" number={6} />
       <NumberButton className="three" number={3} />
-      <NumberButton className="divide" number={8} />
-      <NumberButton className="multiply" number={9} />
-      <NumberButton className="minus" number={4} />
-      <NumberButton className="add" number={3} />
-      <NumberButton className="equal" number={2} />
+      <NumberButton className="divide" text="÷" />
+      <NumberButton className="multiply" text="x" />
+      <NumberButton className="minus" text="-" />
+      <NumberButton className="add" text="+" />
+      <NumberButton className="equal" text="=" />
+      <ActionButton className="zero" number={0}/>
     </div>
   );
 };
