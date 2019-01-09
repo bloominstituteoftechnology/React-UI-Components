@@ -8,9 +8,27 @@
     border: 1px solid #E3E3E3;
 }
 
+.number-button:active {
+    background: #bbbbbb;
+    transform: translateY(2px);
+}
+
+.number-button:focus {
+    outline: 0;
+}
+
 .three-quarter-button {
     width: 300px;
     border: 1px solid #E3E3E3;
+}
+
+.three-quarter-button:active {
+    background: #bbbbbb;
+    transform: translateY(2px);
+}
+
+.three-quarter-button:focus {
+    outline: 0;
 }
 
 .red-button {
@@ -21,6 +39,15 @@
     line-height: 100px;
     font-size: 50px;
     font-weight: 200;
+}
+
+.red-button:active {
+    background: #86061f;
+    transform: translateY(2px);
+}
+
+.red-button:focus {
+    outline: 0;
 }
 
 .num-button {
