@@ -8,26 +8,55 @@ const App = () => {
   return (
     <div className='app-container'>    
       <CalculatorDisplay total={0}/>
-      <ActionButton display='clear'/>
-      <div className='symbols'>
-        <ActionButton display='='/>
-        <ActionButton display='+'/>
-        <ActionButton display='-'/>
-        <ActionButton display='/'/>
-        <ActionButton display='x'/>
+
+      <div className='top-content'>
+        <div className='wider'>
+          <ActionButton display='clear'/>
+        </div>
+        <div className='narrower action'>
+          <ActionButton display='/'/>
+        </div>
       </div>
-      <div className='numbers'>
-        <NumberButton num='1'/>
-        <NumberButton num='2'/>
-        <NumberButton num='3'/>
-        <NumberButton num='4'/>
-        <NumberButton num='5'/>
-        <NumberButton num='6'/>
-        <NumberButton num='7'/>
-        <NumberButton num='8'/>
-        <NumberButton num='9'/>
+
+      <div className='buttons'>
+ 
+        <div className='numbers'>
+          <div className='line'>
+            <NumberButton num='7'/>
+            <NumberButton num='8'/>
+            <NumberButton num='9'/>
+            <div className='action'>
+              <ActionButton display='x'/>
+            </div>
+          </div>
+          <div className='line'>
+            <NumberButton num='4'/>
+            <NumberButton num='5'/>
+            <NumberButton num='6'/>
+            <div className='action'>
+              <ActionButton display='+'/>
+            </div>
+          </div>
+          <div className='line'>
+            <NumberButton num='1'/>
+            <NumberButton num='2'/>
+            <NumberButton num='3'/>
+            <div className='action'>
+              <ActionButton display='-'/>
+            </div>
+          </div>
+        </div>
       </div>
-      <ActionButton display='0'/>
+
+      <div className='top-content'>
+        <div className='wider'>
+          <ActionButton display='0'/>
+        </div>
+        <div className='narrower action'>
+          <ActionButton display='='/>
+        </div>
+      </div>
+
     </div>
   );
 };
