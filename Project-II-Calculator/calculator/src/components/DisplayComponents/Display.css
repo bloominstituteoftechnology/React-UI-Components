@@ -6,9 +6,10 @@
     font-size: 4.3rem;
     display:flex;
     justify-content: flex-end; 
-   
+    
 }
 
-/* .display-text {
-  
-} */
+.test input{
+    display: flex;
+    justify-content: flex-end;
+}

@@ -1,6 +1,17 @@
 import React from 'react';
 import './Button.css';
 
-const divide = {
-    name: '÷'
+function ActionButtons (props){
+
+    const { name } = props.text;
+
+    return (
+        
+
+        <button className={props.className}>{props.text.name}</button>
+        
+       
+    )
 }
+
+export default ActionButtons

@@ -3,8 +3,10 @@ import './Display.css';
 
 function Display () {
     return (
-        <div>
-            <input type="number" class="result-display" value="0"></input>
+        <div className="result-display">
+        0
+        
+            {/* <input type="number" class="" value="0" style></input> */}
         </div>
     )
 }
