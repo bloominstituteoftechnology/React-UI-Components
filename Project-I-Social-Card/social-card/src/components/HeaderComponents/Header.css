@@ -1,1 +1,39 @@
-/* All styles for your header Components live here */
+@import '../../variables.css';
+
+.card__header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.card__header__image {
+    width: 50px;
+    margin-right: 1.5%;
+}
+
+.card__header__image > img {
+    border-radius: 100%;
+}
+
+.card__header__text {
+    width: 90%;
+}
+
+.card__header__text__heading {
+    display: flex;
+    align-items: center;
+    margin: 2.5px 0 5px;
+}
+
+.card__header__text__heading__profile-name {
+    display: inline;
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin-right: 1%;
+}
+
+.card__header__text__heading__info {
+    font-size: 1.35rem;
+    color: var(--greyout);
+    margin: 0 0.5%;
+}

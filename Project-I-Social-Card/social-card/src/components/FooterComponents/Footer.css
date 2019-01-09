@@ -1,0 +1,29 @@
+@import '../../variables.css';
+
+.card__footer {
+    display: flex;
+    align-items: center;
+    width: 88%;
+    margin: 20px 1.5% 20px auto;
+}
+
+.card__footer__social-icon {
+    display: flex;
+    align-items: center;
+    margin-right: 20%;
+}
+
+.card__footer__social-icon > input[type="image"] {
+    width: 20px;
+}
+
+.card__footer__social-icon__counter {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: var(--greyout);
+    margin-left: 5px;
+}
+
+.card__footer__social-icon__counter--hidden {
+    display: none;
+}

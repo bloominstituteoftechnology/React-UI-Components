@@ -1,4 +1,26 @@
-/* 
-  Write your styles/CSS for App.js here and import into the component that you need 
-  IF you'd like to attempt to use less you'll have to research how to do this with Create React App
-*/
+@import './variables.css';
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: "Calibri";
+}
+
+p {
+    font-size: 1.6rem;
+    line-height: 1.2;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.card {
+    width: 100%;
+    max-width: 571.5px;
+    margin: 15px auto;
+}

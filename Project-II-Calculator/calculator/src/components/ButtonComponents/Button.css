@@ -1,0 +1,59 @@
+@import '../../variables.css';
+
+.operators-column {
+    grid-column-start: span 1;
+    grid-row-start: span 5;
+    grid-template-rows: repeat(5, 94.55px);
+}
+
+.digit-square {
+    grid-column-start: span 3;
+    grid-row-start: span 3;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.large-button, .small-button {
+    grid-row-start: span 1;
+    text-align: center;
+    font-size: 4.5rem;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 25px;
+    outline: 1px solid var(--calc-outline-color);
+}
+
+.large-button:hover, .small-button:hover {
+    background-color: var(--calc-display-bg-color);
+    color: var(--calc-display-font-color);
+}
+
+.large-button:active, .small-button:active {
+    outline: 3.75px double var(--calc-outline-color);
+}
+
+.large-button {
+    grid-column-start: span 3;
+}
+
+.small-button {
+    grid-column-start: span 1;
+}
+
+.action-button {
+    font-weight: 300;
+}
+
+.operator-button {
+    background-color: var(--calc-operator-btn-bg-color);
+    font-size: 6.5rem;
+    font-weight: 300;
+    color: var(--calc-operator-btn-font-color);
+    padding: 15px;
+}
+
+.operator-button:hover {
+    background-color: var(--calc-operator-btn-font-color);
+    color: var(--calc-operator-btn-bg-color);
+}
