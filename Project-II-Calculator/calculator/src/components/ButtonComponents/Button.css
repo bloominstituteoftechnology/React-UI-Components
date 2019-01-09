@@ -1,7 +1,21 @@
-
-h2 {
+/* .NumberButtton {
     border: 2px solid grey;
-    width: 304px;
+    width: 305px;
+    height: 100px;
+    color: black;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    text-transform: lowercase;
+    letter-spacing: 2px;
+    margin-top: -103px;
+} */
+
+.clear {
+    border: 2px solid grey;
+    width: 306px;
     height: 100px;
     color: black;
     font-weight: lighter;
@@ -11,23 +25,23 @@ h2 {
     font-size: 35px;
     text-transform: lowercase;
     letter-spacing: 2px;
-    margin-top: -2px;
+    margin-top: -1px;
 
 }
 
 .zero {
     border: 2px solid grey;
-    width: 304px;
+    width: 305px;
     height: 100px;
     color: black;
-    font-weight: lighter;
+    font-weight: bolder;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 35px;
     text-transform: lowercase;
     letter-spacing: 2px;
-    margin-top: 15px;
+    margin-top: -103px;
 }
 
 .seven {
@@ -40,7 +54,7 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: -31px;
+    margin-top: -2px;
 }
 
 .four {
@@ -172,7 +186,7 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: -410px;
+    margin-top: -411px;
     margin-left: 306px;
 }
 

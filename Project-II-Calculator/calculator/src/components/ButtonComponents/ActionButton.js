@@ -4,7 +4,13 @@ import './Button.css';
 const ActionButton = (props) => {
     return (
         <div className={props.className}>
-            <h2>{props.number}</h2>
+
+        <div className="clear">
+        <p>{props.text}</p>
+        <p>{props.number}</p>
+        </div>
+            
+            {/* <h2>{props.number}</h2> */}
         </div>
     );
 };
