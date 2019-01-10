@@ -1,1 +1,32 @@
 /* All styles for your header Components live here */
+.logo {
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+}
+
+.header-container {
+  display: flex;
+}
+
+.container {
+  border: 2px solid greenyellow;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.header-title {
+  border: 2px solid blue;
+  display: flex;
+  flex-direction: row;
+  width: 40%;
+}
+
+.content {
+  border: 2px solid hotpink;
+  display: flex;
+  width: 70%;
+  height: 105px;
+  margin-left: 60px;
+}

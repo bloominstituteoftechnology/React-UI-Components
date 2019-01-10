@@ -1,0 +1,22 @@
+.large-button {
+  width: 82.56%;
+  font-size: 40px;
+  padding: 15px 0;
+}
+
+.number {
+  width: 27.52%;
+  font-size: 40px;
+  padding: 15px 50px;
+}
+
+.operator {
+  width: 17.4%;
+  background-color: red;
+  color: #fff;
+  border-top: 0;
+  border-bottom: 0.5px solid #222;
+  border-right: 0;
+  border-left: 0;
+  font-size: 40px;
+}
