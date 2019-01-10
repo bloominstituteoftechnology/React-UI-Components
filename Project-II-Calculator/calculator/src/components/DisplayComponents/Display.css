@@ -1,9 +1,9 @@
 .display {
-  border: 2px solid greenyellow;
   display: flex;
-  flex-direction: row;
   width: 100%;
-  justify-content: flex-end;
+  background-color: #222;
   color: #fff;
-  background-color: black;
+  justify-content: flex-end;
+  padding: 15px 15px;
+  font-size: 50px;
 }

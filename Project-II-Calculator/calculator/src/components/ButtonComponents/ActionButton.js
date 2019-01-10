@@ -3,16 +3,8 @@ import "./Button.css";
 
 // ÷
 
-const ActionButtons = () => {
-  return (
-    <div className="action-butts">
-      <h1>÷</h1>
-      <h1>X</h1>
-      <h1>-</h1>
-      <h1>+</h1>
-      <h1>=</h1>
-    </div>
-  );
-};
+function ActionButton(props) {
+  return <button className={props.actionStyle}>{props.text}</button>;
+}
 
-export default ActionButtons;
+export default ActionButton;

@@ -1,15 +1,22 @@
-.number-butts {
-  display: flex;
+.large-button {
+  width: 82.56%;
+  font-size: 40px;
+  padding: 15px 0;
 }
 
-.number-butts {
-  display: flex;
-  flex-wrap: wrap;
-  border: 2px solid blue;
-  width: 80%;
+.number {
+  width: 27.52%;
+  font-size: 40px;
+  padding: 15px 50px;
 }
 
-.clear-butt {
-  border: 2px solid black;
-  width: 100%;
+.operator {
+  width: 17.4%;
+  background-color: red;
+  color: #fff;
+  border-top: 0;
+  border-bottom: 0.5px solid #222;
+  border-right: 0;
+  border-left: 0;
+  font-size: 40px;
 }
