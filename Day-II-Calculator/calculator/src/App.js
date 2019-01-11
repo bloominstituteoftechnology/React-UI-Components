@@ -1,20 +1,15 @@
-import React from 'react';
-import './App.css';
-import ButtonContainer  from './components/ButtonComponents/ButtonContainer';
-import CalculatorDisplay from './components/DisplayComponents/CalculatorDisplay';
+import React, { useState } from "react";
+import "./App.css";
+import ButtonContainer from "./components/ButtonComponents/ButtonContainer";
+import CalculatorDisplay from "./components/DisplayComponents/CalculatorDisplay";
 
 const App = () => {
-
-  const display = {
-    text: 0,
-    style: "output-display"
-  };
-
+  const [display, setDisplay] = useState(0);
 
   return (
     <div className="container">
-      <CalculatorDisplay number={display} class={display}/>
-      <ButtonContainer />
+      <CalculatorDisplay number={display} />
+      <ButtonContainer setDisplay={setDisplay} />
     </div>
   );
 };
