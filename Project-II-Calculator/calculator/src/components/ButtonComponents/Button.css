@@ -65,3 +65,21 @@
 .numbers .num-button.active {
     background-color: darkorange;
 }
+
+.big-button.zero {
+    width: 66.7%;
+}
+
+.decimal {
+    width: 33.3%;
+    border: 1px solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    padding-bottom: 30px;
+}
+
+.decimal.active {
+    background: darkorange;
+}

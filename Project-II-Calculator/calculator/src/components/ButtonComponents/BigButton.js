@@ -8,7 +8,7 @@ const BigButton = props => {
         )
     }
     return (
-        <div className="big-button" onClick={props.handleInput}>{props.content}</div>
+        <div className="big-button zero" onClick={props.handleInput}>{props.content}</div>
     );
 };
 
