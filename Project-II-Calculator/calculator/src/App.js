@@ -109,16 +109,33 @@ class App extends React.Component {
     if (this.state.operand === '') {
       // if the display is in the cleared state
     if (this.state.firstInput === '0') {
-      // if the key pressed is a number
-      if (event.key >= 0 && event.key <= 9 && event.key !== ' ') {
-        this.setState({
-          // set the state of the display to the key that was pressed
-          firstInput: event.key
-      });
-    };
+      // handle decimal
+      if (event.key !== '.') {
+        if (event.key >= 0 && event.key <= 9 && event.key !== ' ') {
+          this.setState({
+            // set the state of the display to the key that was pressed
+            firstInput: event.key
+        });
+      };
+    } else {
+      this.setState({
+        firstInput: '0.'
+      })
+    }
   } else {
     // set maximum lenght of input to be 9
     if (this.state.firstInput.length < 10) {
+      if (event.key === '.') {
+        if (this.state.firstInput.includes('.')) {
+          this.setState({
+            firstInput: this.state.firstInput
+          })
+        } else {
+          this.setState({
+            firstInput: `${this.state.firstInput}${event.key}`
+          })
+        }
+      }
       // if key pressed is a number
       if (event.key >= 0 && event.charCode <= 9 && event.key !== ' ') {
         this.setState({
@@ -143,16 +160,33 @@ class App extends React.Component {
     }
     } else {
       if (this.state.secondInput === '0') {
-        // if the key pressed is a number
-        if (event.key >= 0 && event.key <= 9 && event.key !== ' ') {
-          this.setState({
-            // set the state of the display to the key that was pressed
-            secondInput: event.key
-        });
-      };
+        // handle decimal
+        if (event.key !== '.') {
+          if (event.key >= 0 && event.key <= 9 && event.key !== ' ') {
+            this.setState({
+              // set the state of the display to the key that was pressed
+              secondInput: event.key
+          });
+        };
+      } else {
+        this.setState({
+          secondInput: '0.'
+        })
+      }   
     } else {
       // set maximum lenght of input to be 9
       if (this.state.secondInput.length < 10) {
+        if (event.key === '.') {
+          if (this.state.secondInput.includes('.')) {
+            this.setState({
+              secondInput: this.state.secondInput
+            })
+          } else {
+            this.setState({
+              secondInput: `${this.state.secondInput}${event.key}`
+            })
+          }
+        }
         // if key pressed is a number
         if (event.key >= 0 && event.charCode <= 9 && event.key !== ' ') {
           this.setState({
