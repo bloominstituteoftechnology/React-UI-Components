@@ -1,0 +1,15 @@
+.footer {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 19px;
+}
+
+.fa-heart:hover {
+    color: red;
+}
+
+.fa-retweet:hover {
+    color: blue;
+}

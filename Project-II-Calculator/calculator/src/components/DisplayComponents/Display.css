@@ -1,0 +1,26 @@
+.calc-display {
+    background: black;
+    color: white;
+    text-align: right;
+    height: 127px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.calc-display h1 {
+    padding-right: 4%;
+    padding-top: 3px;
+    font-size: 36px;
+}
+
+@media (max-width: 500px) {
+    .calc-display h1 {
+        font-size: 30px;
+    }
+}
+
+.preview {
+    padding-bottom: 65px;
+    color: rgb(238, 223, 84);
+}

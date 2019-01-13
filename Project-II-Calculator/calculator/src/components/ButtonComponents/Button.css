@@ -1,0 +1,85 @@
+.button-container {
+    width: 100%;
+    height: 470px;
+    display: flex;
+}
+
+.numbers {
+    width: 73.5%;
+    border-bottom: 1px solid grey;
+    margin-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.numbers .big-button {
+    background-color: white;
+    border: 1px solid grey;
+    width: 100%;
+    height: 92px;
+    font-size: 45px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.numbers .num-button {
+    border: 1px solid grey;
+    width: 33.3%;
+    height: 92px;
+    font-size: 45px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.actions {
+    width: 26.5%;
+}
+
+.actions .action-button {
+    width: 100%;
+    background-color: #A0001E;
+    color: white;
+    border: 1px solid grey;
+    height: 92px;
+    font-size: 65px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+    padding-right: 2%;
+}
+
+.actions .action-button.active {
+    background-color: darkorange;
+}
+
+.numbers .big-button.active {
+    background-color: darkorange;
+}
+
+.numbers .num-button.active {
+    background-color: darkorange;
+}
+
+.big-button.zero {
+    width: 66.6%;
+}
+
+.decimal {
+    width: 33.3%;
+    border: 1px solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    padding-bottom: 30px;
+}
+
+.decimal.active {
+    background: darkorange;
+}
