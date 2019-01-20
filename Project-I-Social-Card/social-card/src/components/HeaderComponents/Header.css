@@ -1,1 +1,25 @@
-/* All styles for your header Components live here */
+.header {
+  border: 5px solid red;
+}
+
+.header-title {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start
+}
+
+.strong {
+  font-weight: bold;
+}
+
+.pads {
+  padding-right: 10px;
+}
+
+.foggy {
+  color: gray;
+}
+
+.flexy {
+  display: flex;
+}
