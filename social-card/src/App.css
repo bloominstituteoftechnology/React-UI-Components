@@ -1,0 +1,18 @@
+.container{
+  display:flex;
+  border: 1px solid black;
+  width:640px;
+  height: auto;
+  margin: 20px auto;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: .75px;
+
+
+}
+
+.card-wrapper{
+  display:flex;
+  flex-direction: column;
+  margin-right:10px;
+}
+
