@@ -1,0 +1,34 @@
+
+.display{
+    width: 100%;
+    background-color: #222222;
+    height: 123px;
+}
+.display h1{
+    text-align: right;
+    color: white;
+    font-size: 4.5rem;
+    padding-right: 0.8rem;
+    padding:2rem 0.8rem;
+    font-weight: 300;
+}
+.buttons{
+    width: 100%;
+    height: 473px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: baseline;
+
+}
+.left-buttons{
+    width: 335px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.right-buttons{
+    color: white;
+    width: 120px;
+    display: flex;
+    flex-direction: column;
+}
