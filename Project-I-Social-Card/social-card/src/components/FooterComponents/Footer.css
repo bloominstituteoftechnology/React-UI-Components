@@ -1,0 +1,9 @@
+.footer-icons{
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    color: rgb(97, 97, 97);
+}
+.footer-icons i{
+    margin-right: 50px;
+}

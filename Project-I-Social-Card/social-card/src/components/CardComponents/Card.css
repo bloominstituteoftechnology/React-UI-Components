@@ -1,1 +1,35 @@
 /* All styles for your Card Components live here */
+.card-content img{
+    width: 100%;
+    height:auto;
+    margin: 0 auto;
+    margin-top: 10px;
+    border-top-left-radius:4%;
+    border-top-right-radius:4%;
+}
+
+.image-details{
+    border-right: 1px solid rgb(181, 181, 181);
+    border-left: 1px solid rgb(181, 181, 181);
+    border-bottom: 1px solid rgb(181, 181, 181);
+    border-bottom-left-radius: 2%;
+    border-bottom-right-radius: 2%;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    margin-top: -7px;
+
+}
+.card-content h2{
+    font-size: 18px;
+    margin: 0;
+    margin-top: 10px; 
+}
+.card-content p{
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+
+.source{
+    color: gray;
+}
