@@ -1,6 +1,0 @@
-[build]
-    base = 'Project-I-Social-Card/social-card'
-    publish = 'Project-I-Social-Card/social-card/build/index.html'
-    command = 'yarn build'
-[build.environment]
-    YARN_FLAGS = '--no-ignore-optional'
