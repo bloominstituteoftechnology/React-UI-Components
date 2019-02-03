@@ -1,2 +1,4 @@
 [build]
     base = 'Project-I-Social-Card/social-card'
+    command = 'yarn build'
+    
