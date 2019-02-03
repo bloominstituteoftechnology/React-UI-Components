@@ -1,2 +1,2 @@
 [build]
-    base: 'Project-I-Social-Card/social-card/build'
+    base = 'Project-I-Social-Card/social-card/build'
