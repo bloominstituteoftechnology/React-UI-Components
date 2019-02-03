@@ -9,14 +9,13 @@ const CardContainer = () => {
     return(
         <div className='container'>
             <div className='left'>
-            <ImageThumbnail />
+                <ImageThumbnail />
             </div>
             <div className='right'>
                 <HeaderContainer />
                 <CardContent />
                 <CardBanner />
             </div>
-
         </div>
     );
 }

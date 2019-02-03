@@ -3,11 +3,12 @@ import './App.css';
 import CalculatorDisplay from './components/DisplayComponents/CalculatorDisplay';
 
 const App = () => {
-  return (
-    <div>
+  return(
+    <div className='container'>
       <CalculatorDisplay />
     </div>
-  );
+    
+  ); 
 };
 
 export default App;

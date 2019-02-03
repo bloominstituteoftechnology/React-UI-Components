@@ -5,8 +5,10 @@ import './Button.css';
 
 const ActionButton = (props) => {
     return(
-        <button>{props.type}</button>
-    );
+        <React.Fragment>
+            <a className={props.styles}>{props.type}</a>
+        </React.Fragment>
+    )
 }
 
 export default ActionButton;
