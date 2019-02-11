@@ -9,7 +9,7 @@ import HeaderContent from './HeaderContent';
 function HeaderContainer(){
     return (
         <div className ="header-container"> 
-            <ImageThumbnail />
+            {/* <ImageThumbnail /> */}
             <div className = "header-text">
                 <HeaderTitle />
                 <HeaderContent />

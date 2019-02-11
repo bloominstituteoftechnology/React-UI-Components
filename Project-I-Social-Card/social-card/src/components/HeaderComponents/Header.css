@@ -1,18 +1,40 @@
 /* All styles for your header Components live here */
+/* 
+
+
+
+
+
+
+
+*/
 
 .header-container {
     display: flex;
     max-width: 600px;
-    
+    margin: 0 1rem 1rem 1rem;   
 }
 
 .header-title {
     display: flex;
     justify-content: flex-start;
     align-items: baseline;
-
+    margin-block-end: 0;
 }
 
-.header-text {
+.header-title .link-text {
     margin-left: 1rem;
 }
+
+.header-image {
+    width: 4rem;
+    height: 4.3rem;
+    margin-top: 1rem;
+} 
+
+.body-text {
+    margin-block-end: 0;
+    margin-block-start: 0;
+}
+
+
