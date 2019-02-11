@@ -1,20 +1,20 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import HeaderContent from './components/HeaderContent';
-import HeaderTitle from './components/HeaderTitle';
-import imageThumnail from '/components/imageThumnail';
-import './Header.css';
+import React from "react";
+import HeaderContent from "./HeaderContent";
+import HeaderTitle from "./HeaderTitle";
+import ImageThumbnail from "./ImageThumbnail";
+import "./Header.css";
 
+function HeaderContainer() {
+  return (
+    <div className="HeaderContainer">
+      <ImageThumbnail />
+      <HeaderTitle />
+      <HeaderContent />
+    </div>
+  );
+}
 
-function App() {
-    return (
-      <div className="App">
-        <HeaderContent />
-        <HeaderTitle />
-        <imageThumnail />
-      </div>
-    );
-  }
-  
-  const rootElement = document.getElementById('root');
-  ReactDOM.render(<App />, rootElement);
+export default HeaderContainer;
+
+//   const rootElement = document.getElementById('root');
+//   ReactDOM.render(<App />, rootElement);
