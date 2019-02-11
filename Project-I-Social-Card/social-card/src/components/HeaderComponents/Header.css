@@ -1,1 +1,46 @@
 /* All styles for your header Components live here */
+.header {
+  display: grid;
+  grid-template-columns: 0.2fr 1.8fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "thumbnail post";
+  grid-area: header;
+}
+
+.thumbnail {
+  grid-area: thumbnail;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.header-content {
+  grid-area: content;
+}
+
+.post {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.5fr 1.5fr;
+  grid-template-areas: "title" "content";
+  grid-area: post;
+}
+
+.header-title {
+  display: flex;
+  align-items: flex-end;
+  margin: 10px 0;
+}
+
+.header-title > h1 {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.header-title > h5 {
+  font-size: smaller;
+  color: grey;
+}
+
+.profile-pic {
+  width: 65%;
+}

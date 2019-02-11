@@ -1,1 +1,37 @@
 /* All styles for your Card Components live here */
+
+.card-container {
+  max-width: 710px;
+  align-self: right;
+}
+
+.card-container img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.card-content {
+  padding: 5px 10px;
+  border: 1px solid lightgrey;
+  margin-top: -5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.title { grid-area: title; }
+
+.card {
+  grid-area: card;
+  display: flex;
+  justify-content: flex-end;
+}
+
+h3 {
+  font-weight: bold;
+  margin: 5px 0;
+}
+
+h5 {
+    color: grey;
+    margin-top: 5px;
+}

@@ -1,5 +1,8 @@
+@import 'minireset.min.css';
+
 body {
-  margin: 0;
+  margin: 0 auto;
+  max-width: 800px;
   padding: 0.4rem;
   font-family: sans-serif;
 }
