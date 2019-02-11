@@ -1,0 +1,45 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 60px;
+  margin-right: 160px;
+}
+
+.button-1{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.button-2{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.button-3{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.button-4{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+svg {
+  fill: #657786;
+}
+
+p {
+  color: #657786;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+}
