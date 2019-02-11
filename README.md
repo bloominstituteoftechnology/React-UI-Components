@@ -51,9 +51,9 @@
 
 #### Project 1 Stretch Problems
 
-- Create a `<Footer/>` component that pulls in the icons and displays them properly.
+- [x] Create a `<Footer/>` component that pulls in the icons and displays them properly.
   - Build out the functionality so that a user can click on the icons and have them react to events.
-- Ensure that your product is as pixel perfect as possible using any tools that you were introduced to in previous weeks.
+- [x] Ensure that your product is as pixel perfect as possible using any tools that you were introduced to in previous weeks.
 - Look up the `moment.js` library and figure out how to format your `time-stamp` in your header to be todays date.
 
 ## _Project II - React Calculator_

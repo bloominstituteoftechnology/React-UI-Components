@@ -9,6 +9,7 @@ function CardContainer() {
             className="CardContainer"
             href="https://www.reactjs.org"
             target="_blank"
+            rel="noopener noreferrer"
         >
             <div className="card">
                 <CardBanner />

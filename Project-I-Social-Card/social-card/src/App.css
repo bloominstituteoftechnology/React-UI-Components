@@ -16,3 +16,20 @@
   color: black;
   padding: 5px;
 }
+
+.footer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.ibar {
+  max-width: 89%;
+  border: 1px solid gray;
+  border-radius: 5px;
+  margin-right: 10px;
+  width: 100%
+}
+
+.ibar p {
+  text-align: center;
+}
