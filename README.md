@@ -10,10 +10,11 @@
 - Inside of `../../social-card` you'll then need to run `yarn start` to open up a React Development Server that can take your `.js` files as components and bundle them up to work in your new environment.
 - **You'll repeat this last two steps for the calculator project, but you'll need to make sure that you're inside of `../../calculator` directory to make this work.**
 
+
 ## Instructions
 
 
-- For the first project you'll work on the project found in `Project-I-Social-Card`.
+- For the first project you'll work on the project found in `Project-I-Social-Card`. -- x
 - For the second project you'll work on the project found in `Project-II-Calculator`.
 - Use the design files to build out your User Interfaces.
 - All components can be built out using the provided html files found in their respective directories.
