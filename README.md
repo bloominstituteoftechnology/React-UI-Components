@@ -14,35 +14,35 @@
 ## Instructions
 
 
-- For the first project you'll work on the project found in `Project-I-Social-Card`. -- x
-- For the second project you'll work on the project found in `Project-II-Calculator`.
-- Use the design files to build out your User Interfaces.
-- All components can be built out using the provided html files found in their respective directories.
-- Each file has been set up to work within a `react.js` environment. Pay attention to the notes found within each project.
-- Don't forget about `className` vs `class` on your `JSX elements`!!
+- [x] For the first project you'll work on the project found in `Project-I-Social-Card`.
+- [x] For the second project you'll work on the project found in `Project-II-Calculator`.
+- [x] Use the design files to build out your User Interfaces.
+- [x] All components can be built out using the provided html files found in their respective directories.
+- [x] Each file has been set up to work within a `react.js` environment. Pay attention to the notes found within each project.
+- [x] Don't forget about `className` vs `class` on your `JSX elements`!!
 
 ## _Project I - Social Card_
 
-- We're going to break down this assignment in terms of how you should be starting to think in react. Remember that everything is a component.
-- All the files you'll need for this project are found in `Project-I-Social-Card/social-card/src/components`. You can find all the component files you should need in their respective directory. i.e. inside of the `HeaderComponents` directory you should see a few `.js` files and a `.css` file.
-- Feel free to add any files for any extra components you may feel the need to build.
-- Any of the styles you write in your respective `.css` file should be available for your the components where the `.css` file is being imported.
-- We have drawn boxes around possible areas that could be components.
-  - The outer box will represent the `App.js` file.
-  - The red box around the header could represent the `header` directory with a few nested components inside, the thumbnail image and the header content.
-  - You could go so far as to break down the header content into a header and body component.
-  - The next box around the social card represents the React Banner image and some copy found underneath.
-  - And then of course the footer (**Stretch Problem 1**) which contains your icons, could be a container for all of your icon components.
+- [x] We're going to break down this assignment in terms of how you should be starting to think in react. Remember that everything is a component.
+- [x] All the files you'll need for this project are found in `Project-I-Social-Card/social-card/src/components`. You can find all the component files you should need in their respective directory. i.e. inside of the `HeaderComponents` directory you should see a few `.js` files and a `.css` file.
+- [x] Feel free to add any files for any extra components you may feel the need to build.
+- [x] Any of the styles you write in your respective `.css` file should be available for your components where the `.css` file is being imported.
+- [x] We have drawn boxes around possible areas that could be components.
+  - [x] The outer box will represent the `App.js` file.
+  - [x] The red box around the header could represent the `header` directory with a few nested components inside, the thumbnail image and the header content.
+  - [x] You could go so far as to break down the header content into a header and body component.
+  - [x] The next box around the social card represents the React Banner image and some copy found underneath.
+  - [x] And then of course the footer (**Stretch Problem 1**) which contains your icons, could be a container for all of your icon components.
 
 ![Social Components](sc-component-outline.png)
 
 #### Project 1 MVP requirements
 
-- Create a `<HeaderContainer />` container component that will hold your header components.
+- [x] Create a `<HeaderContainer />` container component that will hold your header components.
 
-  - Create an `<ImageThumbnail />` component using this image url https://tk-assets.lambdaschool.com/1c1b7262-cf23-4a9f-90b6-da0d3c74a5c6_lambdacrest.png as it's img src.
-  - Create a `<HeaderTitle />` component that displays the Lambda School header text, @LambdaSchool handle and timestamp.
-  - Create a `<HeaderContent />` component that displays the copy provided in the headers content.
+  - [x] Create an `<ImageThumbnail />` component using this image url https://tk-assets.lambdaschool.com/1c1b7262-cf23-4a9f-90b6-da0d3c74a5c6_lambdacrest.png as it's img src.
+  - [x] Create a `<HeaderTitle />` component that displays the Lambda School header text, @LambdaSchool handle and timestamp.
+  - [x] Create a `<HeaderContent />` component that displays the copy provided in the headers content.
 
 - Create a `<CardContainer/ >` container component that will hold your card components.
   - Create a `<CardBanner />` component that will display this image as it's background: https://tk-assets.lambdaschool.com/fcd75197-7d12-46ec-bc9e-4130f34822fa_reactbackground.png
