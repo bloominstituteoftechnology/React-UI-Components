@@ -4,7 +4,7 @@
   justify-content: space-between;
   align-items: center;
   margin-left: 60px;
-  margin-right: 160px;
+  margin-right: 180px;
 }
 
 .button-1{
@@ -37,6 +37,7 @@ svg {
 
 p {
   color: #657786;
+  margin-left: 10px;
 }
 
 .icon {
