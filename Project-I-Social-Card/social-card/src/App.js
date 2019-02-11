@@ -9,7 +9,7 @@ const styles = {
   margin: "0 auto",
   // border:"1px solid gray",
   // borderRadius:"2%",
-  marginTop:"10%"
+  marginTop:"5%"
 }
 
 
