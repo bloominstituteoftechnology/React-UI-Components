@@ -1,2 +1,12 @@
 import React from 'react';
-import './Header.css';
+
+
+const ImageThumbnail = () => {
+    return(
+        <div className="image-thumbnail">
+            image thumbnail
+        </div>
+    );
+}
+
+export default ImageThumbnail;
