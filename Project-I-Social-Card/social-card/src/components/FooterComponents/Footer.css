@@ -1,0 +1,12 @@
+.footer-container {
+    margin: 1rem 0 0 1rem;
+
+}
+.footer-container img{
+    margin-right: 3rem;
+    transition: transform .2s;
+}
+
+.footer-container img:hover{
+    transform: scale(1.25);
+}
