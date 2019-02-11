@@ -1,1 +1,16 @@
 /* All styles for your header Components live here */
+.header-container {
+    display: flex;
+    width:100%;
+/* ****NOT LETTING ME NEST/ CSS IS NOT IN THE MVP
+    .img-container {
+        height: 50px;
+        width: 50px;   
+    
+        img {
+            height: 100%;
+            width: 100%;
+        }
+    }
+    */
+}
