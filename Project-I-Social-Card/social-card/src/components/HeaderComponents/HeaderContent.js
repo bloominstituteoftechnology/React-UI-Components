@@ -1,2 +1,10 @@
 import React from 'react';
-import './Header.css';
+
+
+const HeaderContent = () => {
+    return(
+        <div>Test</div>
+    );
+}
+
+export default HeaderContent;

@@ -1,9 +1,12 @@
 import React from 'react';
-import './Header.css';
+
+
+//Header Components
+import HeaderContent from './HeaderContent';
 
 const HeaderContainer = () => {
     return(
-        <div>Test</div>
+        <HeaderContent />
     );
 }
 
