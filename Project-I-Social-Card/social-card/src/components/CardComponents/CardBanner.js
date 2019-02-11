@@ -1,2 +1,12 @@
 import React from 'react';
-import './Card.css';
+
+
+const CardBanner = () => {
+    return(
+        <div className="card-banner-container">
+            card   bannercontainer
+        </div>
+    );
+}
+
+export default CardBanner;
