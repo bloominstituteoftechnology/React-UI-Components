@@ -1,1 +1,7 @@
 /* All styles for your Card Components live here */
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+}
