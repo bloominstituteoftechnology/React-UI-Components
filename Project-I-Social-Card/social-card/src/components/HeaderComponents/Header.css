@@ -1,1 +1,46 @@
 /* All styles for your header Components live here */
+.HeaderContainer {
+    display: flex;
+    padding: 5px;
+}
+
+.HeaderContentContainer {
+}
+
+.HeaderContent {
+    padding: 5px 7px;
+    font-size: 15px;
+    line-height: 1.2;
+}
+
+.HeaderTitle {
+    display: flex;
+    padding: 5px 0 7px 0;
+}
+
+.HeaderTitle h4 {
+    font-weight: bold;
+    padding-left: 7px;
+    font-size: 15px;
+}
+
+.HeaderTitle a {
+    padding-left: 4px;
+    text-decoration: none;
+    color: gray;
+    font-size: 14px;
+}
+
+.HeaderTitle p {
+    padding-left: 4px;
+    color: gray;
+    font-size: 14px;
+}
+
+.ImageThumbnail {
+}
+
+.logo {
+    max-width: 45px;
+    padding: 2px;
+}

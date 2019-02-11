@@ -3,6 +3,16 @@
   IF you'd like to attempt to use less you'll have to research how to do this with Create React App
 */
 
+/* Custom Styles */
+
 .App {
-  border: 1px dotted black;
+  border: 1px solid gray;
+  max-width: 590px;
+  margin: 10% auto;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: black;
+  padding: 5px;
 }
