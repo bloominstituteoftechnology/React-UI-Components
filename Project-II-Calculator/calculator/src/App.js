@@ -22,9 +22,10 @@ class App extends Component {
   };
   render() {
     const { clear, num } = this;
+    const { total } = this.state;
     return (
       <div className="cal-container">
-        <CalculatorDisplay display="display" total={this.state.total} />
+        <CalculatorDisplay display="display" total={total} />
         <ActionButton onClick={clear} buttonStyle="action" text="clear" />
 
         <NumberButton buttonStyle="symbol" text="÷" />
