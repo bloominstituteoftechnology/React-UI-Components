@@ -21,24 +21,26 @@ class App extends Component {
     });
   };
   render() {
+    const { clear, num } = this;
     return (
       <div className="cal-container">
         <CalculatorDisplay display="display" total={this.state.total} />
-        <ActionButton onClick={this.clear} buttonStyle="action" text="clear" />
+        <ActionButton onClick={clear} buttonStyle="action" text="clear" />
+
         <NumberButton buttonStyle="symbol" text="÷" />
-        <NumberButton onClick={this.num} buttonStyle="num" text="7" />
-        <NumberButton onClick={this.num} buttonStyle="num" text="8" />
-        <NumberButton onClick={this.num} buttonStyle="num" text="9" />
-        <NumberButton onClick={this.num} buttonStyle="symbol" text="x" />
-        <NumberButton onClick={this.num} buttonStyle="num" text="4" />
-        <NumberButton onClick={this.num} buttonStyle="num" text="5" />
-        <NumberButton onClick={this.num} buttonStyle="num" text="6" />
-        <NumberButton onClick={this.num} buttonStyle="symbol" text="-" />
-        <NumberButton onClick={this.num} buttonStyle="num" text="1" />
-        <NumberButton onClick={this.num} buttonStyle="num" text="2" />
-        <NumberButton onClick={this.num} buttonStyle="num" text="3" />
-        <NumberButton onClick={this.num} buttonStyle="symbol" text="+" />
-        <ActionButton onClick={this.num} buttonStyle="action" text="0" />
+        <NumberButton onClick={num} buttonStyle="num" text="7" />
+        <NumberButton onClick={num} buttonStyle="num" text="8" />
+        <NumberButton onClick={num} buttonStyle="num" text="9" />
+        <NumberButton onClick={num} buttonStyle="symbol" text="x" />
+        <NumberButton onClick={num} buttonStyle="num" text="4" />
+        <NumberButton onClick={num} buttonStyle="num" text="5" />
+        <NumberButton onClick={num} buttonStyle="num" text="6" />
+        <NumberButton onClick={num} buttonStyle="symbol" text="-" />
+        <NumberButton onClick={num} buttonStyle="num" text="1" />
+        <NumberButton onClick={num} buttonStyle="num" text="2" />
+        <NumberButton onClick={num} buttonStyle="num" text="3" />
+        <NumberButton onClick={num} buttonStyle="symbol" text="+" />
+        <ActionButton onClick={num} buttonStyle="action" text="0" />
         <NumberButton buttonStyle="symbol" text="=" />
       </div>
     );
