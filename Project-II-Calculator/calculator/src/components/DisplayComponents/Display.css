@@ -1,9 +1,11 @@
 .calculator {
     width: 500px;
-    border: 1px solid red;
+    border: 1px solid grey;
+    border-bottom: none;
     display: flex;
     flex-wrap: wrap;
-    font-size: 20px;
+    font-size: 50px;
+    box-sizing: border-box;
 
 }
 
@@ -13,10 +15,15 @@
     background-color: #222222;
     color: white;
     text-align: end;
-    border: 1px solid black;
+    border-bottom: .25px solid grey;
+    padding: 20px 40px 20px 20px;
 }
 .action-button {
     width: 75%;
     text-align: center;
-    border: 1px solid black;
+    /* border: 1px solid black; */
+    padding: 20px 0;
+    border-bottom: .25px solid grey;
+    border-right: .25px solid grey;
+
 }
