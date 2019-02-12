@@ -141,28 +141,56 @@ table {
 .calc-layout .calc-display-box {
   width: 100%;
   height: 70px;
-  background-color: black;
+  background-color: #222;
+  border: 1px solid #979797;
   color: white;
   text-align: right;
 }
 .calc-layout .calc-body-box {
   width: 100%;
   padding: 0;
-  border: 1px solid blue;
   display: flex;
 }
 .calc-layout .calc-body-box .calc-body-left-col {
-  width: 200px;
-  height: 400px;
+  width: 225px;
   padding: 0;
-  border: 1px solid red;
+  color: #000;
   display: flex;
   flex-flow: row wrap;
 }
 .calc-layout .calc-body-box .calc-body-right-col {
-  width: 100px;
+  width: 75px;
   padding: 0px;
   display: flex;
   flex-flow: column wrap;
-  border: 1px solid green;
+}
+.calc-body-box .calc-body-left-col .actionBtn {
+  width: 100%;
+  height: 80px;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 200;
+  color: #222;
+  background-color: #fff;
+  border: 1px solid #979797;
+}
+.calc-body-box .calc-body-left-col .numberBtn {
+  width: 33.34%;
+  height: 80px;
+  background-color: #fff;
+  border: 1px solid #979797;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #000;
+}
+.calc-body-box .calc-body-right-col .operatorBtn {
+  width: 100%;
+  height: 80px;
+  background-color: #A0001E;
+  border: 1px solid #979797;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #fff;
 }
