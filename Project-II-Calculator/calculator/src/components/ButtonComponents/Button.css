@@ -1,0 +1,16 @@
+.actionButton {
+    font-size: 3em;
+    background: #9F1C22;
+    border: 1px solid black;
+    padding: 5px 10px;
+    width: 100%;
+    text-align: center;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.actionButton:hover {
+    opacity: 0.5;
+}
