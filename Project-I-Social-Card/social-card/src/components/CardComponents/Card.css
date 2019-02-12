@@ -1,1 +1,33 @@
 /* All styles for your Card Components live here */
+.card {
+    display: flex;
+    flex-direction: column;
+
+}   
+
+.banner {
+    max-width: 85%;
+    align-self: flex-end;
+    margin-right: 20px;
+}
+
+.cardCon {
+    box-sizing: border-box;
+    max-width: 85%;
+    align-self: flex-end;
+    margin-right: 20px;
+    border: 1px solid #d3d3d3;
+    padding-left: 15px;
+}
+    .cardCon h2 {
+        font-size: 1rem;
+    }
+
+    .cardCon p {
+        margin: 10px 0;
+    }
+
+    .cardCon h4 {
+        margin-top: 0;
+        color: #d3d3d3;
+    }
