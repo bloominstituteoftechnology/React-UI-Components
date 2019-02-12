@@ -1,12 +1,15 @@
 import React from 'react';
 import './App.css';
-import CalculatorDisplay from './components/DisplayComponents/CalculatorDisplay';
+import CalculatorLayout from './components/CalculatorLayout/CalculatorLayout';
+
+const numArray = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+const actionArray = ['clear', 0];
+const operatorsArray = ["÷", "x", "-", "+", "="];
+
 
 const App = () => {
   return (
-    <div className="calc-container">
-      <CalculatorDisplay />
-    </div>
+    <CalculatorLayout num={numArray} actions={actionArray} operators={operatorsArray} />
   );
 };
 
