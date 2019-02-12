@@ -1,0 +1,54 @@
+.calc-container {
+    margin:0 auto;
+    width: 450px;
+    
+}
+
+.row {
+    width:100%px;
+    height: 100px;
+    font-weight: bold;
+    font-size: 50px;
+    
+   
+}
+
+.action-btn {
+    width: 75%;
+    height:100%;
+    font-size: 50px;
+    background-color: white;
+    border: 1px solid gray;
+}
+
+.zero {
+    font-weight: bold;
+}
+
+.math-btn {
+    width: 25%;
+    height:100%;
+    font-size: 50px;
+    background-color: maroon;
+    color: white;
+    border: 1px solid gray;
+}
+
+.number-btn {
+    width:25%;
+    height: 100%;
+    font-weight: bold;
+    font-size: 50px;
+    background-color: white;
+    border: 1px solid gray;
+}
+
+ .uno {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    background-color:  rgb(20, 20, 24);
+    color:white;
+    padding-right:20px;
+    border: 1px solid gray;
+}

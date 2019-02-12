@@ -1,1 +1,45 @@
 /* All styles for your header Components live here */
+.header-container {
+    margin: 0 auto;
+    display: flex;
+    width:600px;
+    
+    
+
+    
+/* ****NOT LETTING ME NEST***********
+Realized this is not a SCSS file. 
+Don't know how to create and link an scss file
+Never went over than in lectures or TK
+    .img-container {
+        height: 50px;
+        width: 50px;   
+    
+        img {
+            height: 100%;
+            width: 100%;
+        }
+    }
+    */
+}
+
+.header-title {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: baseline;
+}
+
+h1 {
+    padding-right:15px;
+}
+
+.img-container {
+    width: 100px;
+    height: 100px;
+}
+
+.thumbnail-img {
+    height: 100%;
+    width: 100%;
+}
