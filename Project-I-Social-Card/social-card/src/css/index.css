@@ -104,7 +104,6 @@ section {
 }
 body {
   line-height: 1;
-  background-color: #fff;
 }
 ol,
 ul {
@@ -143,5 +142,21 @@ body {
 .main-container {
   max-width: 700px;
   width: 100%;
-  border: 1px solid black;
+  margin: 50px auto;
+  border: 1px solid blue;
+}
+/* All styles for your header Components live here */
+.main-container .header-container {
+  border: 1px solid red;
+}
+.main-container .header-container .img-column {
+  width: 75px;
+  border: 1px solid blue;
+}
+.main-container .header-container .img-column .image-thumb-container .img-thumbnail {
+  width: 70px;
+  border-radius: 100%;
+}
+.main-container .header-container .header-txt-column {
+  width: 50px;
 }
