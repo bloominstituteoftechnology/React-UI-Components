@@ -1,6 +1,16 @@
 .cal-dis {
-    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    width: 200px;
+    padding-top: 10px;
     padding: 0 11px;
-    height: 200px;
-    background: black;
+    height: 400px;
+    background: lightblue;
+}
+
+.sol-dis{
+    padding: 0 11px;
+    width: 100%;
+    display: flex;
+    border: 1px solid red;
 }
