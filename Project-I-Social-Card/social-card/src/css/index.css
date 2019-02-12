@@ -143,6 +143,7 @@ body {
   max-width: 700px;
   width: 100%;
   margin: 50px auto;
+  display: flex;
   border: 1px solid blue;
 }
 /* All styles for your header Components live here */
@@ -158,5 +159,6 @@ body {
   border-radius: 100%;
 }
 .main-container .header-container .header-txt-column {
-  width: 50px;
+  border: 1px solid yellow;
+  width: 80%;
 }
