@@ -1,0 +1,10 @@
+.number-button {
+    width: 25%;
+    text-align: center;
+    border: .25px solid grey
+}
+
+.operator-button {
+    text-align: center;
+
+}

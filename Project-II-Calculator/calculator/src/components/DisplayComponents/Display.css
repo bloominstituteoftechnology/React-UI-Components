@@ -1,0 +1,22 @@
+.calculator {
+    width: 500px;
+    border: 1px solid red;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 20px;
+
+}
+
+.display {
+    width: 100%;
+    height: auto;
+    background-color: #222222;
+    color: white;
+    text-align: end;
+    border: 1px solid black;
+}
+.action-button {
+    width: 75%;
+    text-align: center;
+    border: 1px solid black;
+}
