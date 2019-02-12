@@ -5,6 +5,21 @@ import NumberButton from './components/ButtonComponents/NumberButton';
 import ActionButton from './components/ButtonComponents/ActionButton';
 
 class App extends Component {
+  state = {
+    total: 0
+  };
+
+  clear = () => {
+    this.setState({
+      total: 0
+    });
+  };
+
+  num = e => {
+    this.setState({
+      total: e.target.textContent
+    });
+  };
   render() {
     return (
       <div className="cal-container">
