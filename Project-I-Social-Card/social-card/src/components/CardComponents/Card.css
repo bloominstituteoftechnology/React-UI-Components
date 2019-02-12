@@ -1,1 +1,7 @@
 /* All styles for your Card Components live here */
+
+.img2{
+    display: flex;
+    max-width: 100%;
+    
+  }

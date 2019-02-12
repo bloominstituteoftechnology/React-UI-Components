@@ -4,7 +4,7 @@ import "./Header.css";
 function HeaderContent() {
   return (
     <div className = "HeaderContent">
-      <h1>Lambda School</h1>
+      <h3>Lambda School</h3>
       <p>
         Let's learn React by buiding simple interfaces with components. Dont try
         to overthink it, just keep it simple and have fun. Once you feel
