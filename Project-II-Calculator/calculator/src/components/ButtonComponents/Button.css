@@ -1,0 +1,27 @@
+.num {
+  width: 112px;
+
+  border-style: none;
+  border: solid gray 1px;
+  font-size: 50px;
+  font-weight: bold;
+  background-color: white;
+}
+
+.symbol {
+  width: 119px;
+  padding: 10px 0;
+  border: solid gray 1px;
+  font-size: 64px;
+  color: white;
+  background-color: firebrick;
+}
+
+.action {
+  width: 336px;
+  padding: 20px 0;
+  border-style: none;
+  background-color: rgb(255, 255, 255);
+  font-size: 47px;
+  border: 1px solid gray;
+}

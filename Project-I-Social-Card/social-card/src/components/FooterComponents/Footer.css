@@ -1,0 +1,7 @@
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px 0;
+  padding-right: 200px;
+  color: gray;
+}
