@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+}
+body.html{
+    margin: 0;
+    padding: 0;
+}
+.Display{
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 8%;
+}
+
+body{
+    background-color:white;
+}
+
+p{
+    color:red;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem
+}
