@@ -1,0 +1,11 @@
+.calc-total {
+    height: 100px;
+    background: #272727;
+    border: 1px solid #969696;
+    color: #ffffff;
+    font-size: 75px;
+    line-height: 100px;
+    font-weight: 300;
+    padding: 10px;
+    text-align: right;
+}
