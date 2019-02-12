@@ -1,8 +1,5 @@
 import React from 'react';
-import DynamicButtonGray from './components/ButtonComponents/NumberButtonGray';
-import DynamicButtonRed from './components/ButtonComponents/NumberButtonRed';
-import Display from './components/DisplayComponents/CalculatorDisplay';
-import ButtonWide from './components/ButtonComponents/WideGray';
+
 import './App.css';
 
 
