@@ -1,49 +1,51 @@
-.row-container {
+.btnrow {
   display: flex;
 }
 
-.number-button {
-  width: 100px;
-  border: 1px solid #969696;
+.key1 {
+  width: 25%;
 }
 
-.three-quarter-button {
-  background: #ffffff;
-  width: 300px;
-  border: 1px solid #969696;
+.key3 {
+  width: 75%;
 }
 
-.red-button {
+.redkey {
   font-family: 'Roboto';
-  background: #9e0523;
+  border: 1px solid #969696;
+  background: #a00027;
   color: #ffffff;
   text-align: center;
-  line-height: 100px;
-  font-size: 75px;
-  font-weight: 200;
-}
-
-.num-button {
-  font-family: 'Roboto';
-  background: #ffffff;
-  text-align: center;
-  line-height: 100px;
-  font-size: 50px;
-  font-weight: 600;
-}
-
-.three-num {
-  font-family: 'Roboto';
-  text-align: center;
-  line-height: 100px;
-  font-size: 50px;
-  font-weight: 600;
-}
-
-.three-text {
-  font-family: 'Roboto';
-  text-align: center;
-  line-height: 100px;
-  font-size: 50px;
+  font-size: 5rem;
   font-weight: 300;
+}
+
+.numkey {
+  font-family: 'Roboto';
+  color: black;
+  background: #ffffff;
+  border: 1px solid #969696;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.textkey {
+  font-family: 'Roboto';
+  color: black;
+  background: #ffffff;
+  border: 1px solid #969696;
+  text-align: center;
+  line-height: 100px;
+  font-size: 3rem;
+  font-weight: 300;
+}
+
+.numkey:hover {
+  filter: invert(100%);
+}
+
+.action-btn:hover {
+  background: #ffffff;
+  color: #a00027;
 }

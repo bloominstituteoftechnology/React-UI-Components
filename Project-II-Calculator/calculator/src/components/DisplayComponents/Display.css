@@ -1,9 +1,10 @@
 .calc-total {
+    font-family: 'Roboto';
     height: 100px;
     background: #272727;
     border: 1px solid #969696;
     color: #ffffff;
-    font-size: 75px;
+    font-size: 5rem;
     line-height: 100px;
     font-weight: 300;
     padding: 10px;

@@ -1,41 +1,41 @@
 import React from 'react';
 import './App.css';
-import CalculatorDisplay from './components/DisplayComponents/CalculatorDisplay';
-import ButtonContainer from './components/ButtonComponents/ButtonContainer';
-import ActionButton from './components/ButtonComponents/ActionButton';
-import NumberButton from './components/ButtonComponents/NumberButton';
+import Display from './components/DisplayComponents/Display';
+import Button from './components/ButtonComponents/Button';
+import Action from './components/ButtonComponents/Action';
+import Number from './components/ButtonComponents/Number';
 
 class App extends React.Component {
   render() {
     return (
       <div className="calculator-wrapper">
-        <CalculatorDisplay />
-        <ButtonContainer>
-          <ActionButton className="three-text" text="clear" />
-          <NumberButton bgColor="red-button" text="÷" />
-        </ButtonContainer>
-        <ButtonContainer>
-          <NumberButton bgColor="num-button" text="7" />
-          <NumberButton bgColor="num-button" text="8" />
-          <NumberButton bgColor="num-button" text="9" />
-          <NumberButton bgColor="red-button" text="×" />
-        </ButtonContainer>
-        <ButtonContainer>
-          <NumberButton bgColor="num-button" text="4" />
-          <NumberButton bgColor="num-button" text="5" />
-          <NumberButton bgColor="num-button" text="6" />
-          <NumberButton bgColor="red-button" text="−" />
-        </ButtonContainer>
-        <ButtonContainer>
-          <NumberButton bgColor="num-button" text="1" />
-          <NumberButton bgColor="num-button" text="2" />
-          <NumberButton bgColor="num-button" text="3" />
-          <NumberButton bgColor="red-button" text="+" />
-        </ButtonContainer>
-        <ButtonContainer>
-          <ActionButton className="three-num" text="0" />
-          <NumberButton bgColor="red-button" text="=" />
-        </ButtonContainer>
+        <Display />
+        <Button>
+          <Action className="key3 textkey" text="clear" />
+          <Action className="key1 redkey" text="÷" />
+        </Button>
+        <Button>
+          <Number bgColor="key1 numkey" text="7" />
+          <Number bgColor="key1 numkey" text="8" />
+          <Number bgColor="key1 numkey" text="9" />
+          <Action className="key1 redkey" text="×" />
+        </Button>
+        <Button>
+          <Number bgColor="key1 numkey" text="4" />
+          <Number bgColor="key1 numkey" text="5" />
+          <Number bgColor="key1 numkey" text="6" />
+          <Action className="key1 redkey" text="−" />
+        </Button>
+        <Button>
+          <Number bgColor="key1 numkey" text="1" />
+          <Number bgColor="key1 numkey" text="2" />
+          <Number bgColor="key1 numkey" text="3" />
+          <Action className="key1 redkey" text="+" />
+        </Button>
+        <Button>
+          <Number bgColor="key3 numkey" text="0" />
+          <Action className="key1 redkey" text="=" />
+        </Button>
       </div>
     );
   }
