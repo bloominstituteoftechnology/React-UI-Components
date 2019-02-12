@@ -7,6 +7,12 @@
     width: 50px;
     height: 50px;
     margin-top: 10px;
+    /* border-radius: 5rem; */
+    align-items: center;
+  }
+
+  .header-container img{
+/*  */
   }
 
   .header-post {
@@ -32,24 +38,5 @@
   }
   
   .header-content {
-    font-size: 15px;
+    font-size: 14px;
   }
-
-
-  div.lambda-logo {
-    display: flex;
-    width: 100px;
-    height: 100px;
-    border-radius: 5rem;
-    justify-content: center;
-    align-items: center;
-    grid-column-start: 1;
-    position: relative;
-    background-color: #c01;
-   }
-   
-   div.lambda-logo img {
-    padding-top: 0.5rem;
-    max-width: 60%;
-    filter: grayscale(100%) contrast(200%) invert(100%);
-   }
