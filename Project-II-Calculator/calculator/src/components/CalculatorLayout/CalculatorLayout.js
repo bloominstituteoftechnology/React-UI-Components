@@ -16,14 +16,18 @@ const CalculatorLayout = props => {
                     <ActionButton buttonStyle={"actionBtn"} action={props.actions[0]}/>
                     {props.num.map(number => {
                         return(
-                            <NumberButton buttonStyle={"numberBtn"} numbers={number}/>
+                            <NumberButton buttonStyle={"numberBtn"} button={number}/>
                         );
                     })}
                     
                     <ActionButton buttonStyle={"actionBtn"} action={props.actions[1]}/>
                 </div>
                 <div className="calc-body-right-col">
-                    <NumberButton buttonStyle={"operatorBtn"} operators={props.operators} />
+                    {props.operators.map(operator => {
+                        return(
+                            <NumberButton buttonStyle={"operatorBtn"} button={operator} />
+                        );
+                    })}
                 </div>
             </div>
         </div>

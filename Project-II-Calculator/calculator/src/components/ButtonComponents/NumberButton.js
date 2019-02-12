@@ -1,11 +1,10 @@
 import React from 'react';
-import './Button.css';
 
 
 const NumberButton = props => {
     return(
-        <div>
-            {props.numbers}
+        <div className={props.buttonStyle}>
+            {props.button}
         </div>
     );
 }
