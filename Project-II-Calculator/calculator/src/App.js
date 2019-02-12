@@ -27,8 +27,7 @@ class App extends Component {
       <div className="cal-container">
         <CalculatorDisplay display="display" total={total} />
         <ActionButton onClick={clear} buttonStyle="action" text="clear" />
-
-        <NumberButton buttonStyle="symbol" text="÷" />
+        <NumberButton onClick={num} buttonStyle="symbol" text="÷" />
         <NumberButton onClick={num} buttonStyle="num" text="7" />
         <NumberButton onClick={num} buttonStyle="num" text="8" />
         <NumberButton onClick={num} buttonStyle="num" text="9" />
