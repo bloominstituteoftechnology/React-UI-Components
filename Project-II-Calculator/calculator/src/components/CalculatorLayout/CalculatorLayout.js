@@ -8,7 +8,7 @@ import ActionButton from '../ButtonComponents/ActionButton';
 const CalculatorLayout = props => {
     return(
         //Calculator Container
-        <div className="cal-layout">
+        <div className="calc-layout">
             {/* Calculator Display */}
             <div className="calc-display-box">
                 <CalculatorDisplay numDisplay={props.actions[1]} />
@@ -18,24 +18,24 @@ const CalculatorLayout = props => {
                 {/* Left Column (Action Btns, Number Btns) */}
                 <div className="calc-body-left-col">
                     {/* Clear Action Btn */}
-                    <ActionButton buttonStyle={"actionBtn"} button={props.actions[0]}/>
-                    
+                    <ActionButton buttonStyle={"actionBtn"} text={props.actions[0]}/>
+
                     {/* Number Btns - Mapping Numbers Array to button */}
                     {props.num.map(number => {
                         return(
-                            <NumberButton buttonStyle={"numberBtn"} button={number}/>
+                            <NumberButton buttonStyle={"numberBtn"} text={number} key={number.toString()}/>
                         );
                     })}
 
                     {/* Zero Action Btn */}
-                    <ActionButton buttonStyle={"actionBtn"} button={props.actions[1]}/>
+                    <ActionButton buttonStyle={"actionBtn"} text={props.actions[1]}/>
                 </div>
                 {/* Right Column (Operator Btns) */}
                 <div className="calc-body-right-col">
                     {/* Operator Btns - Mapping Operators Array to button */}
-                    {props.operators.map(operator => {
+                    {props.operators.map((operator, index) => {
                         return(
-                            <NumberButton buttonStyle={"operatorBtn"} button={operator} />
+                            <NumberButton buttonStyle={"operatorBtn"} text={operator} key={index.toString()} />
                         );
                     })}
                 </div>

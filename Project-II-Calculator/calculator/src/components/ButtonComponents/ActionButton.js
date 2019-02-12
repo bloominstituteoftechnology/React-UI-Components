@@ -4,9 +4,8 @@ import React from 'react';
 
 const ActionButton = props =>{
     return(
-        <div className={props.buttonStyle}>
-            {props.button}
-        </div>
+        <button className={props.buttonStyle}>{props.text}</button>
+      
     );
 }
 
