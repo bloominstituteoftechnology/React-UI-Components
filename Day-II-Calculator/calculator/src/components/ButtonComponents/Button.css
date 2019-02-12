@@ -12,6 +12,7 @@
 .equals {
     background: red;
     width: 98px;
+    height: 98px;
     border: 1px solid grey;
     font-size: 48px;
     color: white;
@@ -21,7 +22,7 @@
 }
 
 .zero {
-    width: 300px;
+    width: 296px;
     height: 98px;
     border: 1px solid grey;
     display: flex;

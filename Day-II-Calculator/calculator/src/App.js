@@ -20,113 +20,43 @@ const numberButtons = [
   { key: "12", text: "3", style: "number" },
   { key: "13", text: "+", style: "operator" }
 ];
-const App = () => {
-  return (
-    <div className="appContainer">
-      <CalculatorDisplay />
-      <div className="numberButtonDiv">
-        <ActionButton
-          actionClickHandler={actionClickHandler}
-          text="clear"
-          buttonStyle="clear"
-        />
 
-        {numberButtons.map(number => {
-          return (
-            <NumberButton
-              numberClickHandler={numberClickHandler}
-              key={number.key}
-              text={number.text}
-              buttonStyle={number.style}
-            />
-          );
-        })}
-        <ActionButton
-          actionClickHandler={actionClickHandler}
-          text="0"
-          buttonStyle="zero"
-        />
-        <ActionButton
-          actionClickHandler={actionClickHandler}
-          text="="
-          buttonStyle="equals"
-        />
+class App extends React.Component {
+  constructor() {
+    super();
+    this.state = {
+      display: "0"
+    };
+  }
+  numClick(e) {
+    console.log("clicked");
+  }
+  render() {
+    return (
+      <div className="calculator">
+        <CalculatorDisplay text={this.state.display}/>
+        <div className="numberButtonDiv">
+          <ActionButton text="clear" buttonStyle="clear" />
+          {numberButtons.map(button => {
+            return (
+              <NumberButton onClick={console.log('clikkk')}
+                key={button.key}
+                text={button.text}
+                buttonStyle={button.style}
+              />
+            );
+          })}
+          ;
+          <ActionButton text="0" buttonStyle="zero" />
+          <ActionButton text="=" buttonStyle="equals" />
+        </div>
       </div>
-    </div>
-  );
-};
+    );
+  }
 
-function actionClickHandler(text) {
-  if (text === "clear") {
-    clear(true);
-  }
-  if (text === "0") {
-    zero();
-  }
-  if (text === "=") {
-    equals();
+  updateDisplay(text){
+    this.state.setState = {display: text};
   }
 }
-let string = "";
-let stringTemp = "";
-let counter = 0;
-function numberClickHandler(text) {
-  if (parseInt(text) < 10) {
-    console.log(stringBuilder(text));
-  } else {
-    console.log(text);
-    if (text === "/") {
-      divide(string);
-    }
-    if (text === "X") {
-      multiply(string);
-    }
-    if (text === "-") {
-      subtract(string);
-    }
-    if (text === "+") {
-      add(string);
-    }
-  }
-}
-
-// function updateDisplay(text) {
-//   return (
-//     <div>hello</div>
-//   );
-// }
-
-function stringBuilder(text) {
-  string += text;
-  return string;
-}
-
-function divide(string) {
-  if (counter === 0) {
-    stringTemp = "1";
-  }
-  console.log(
-    `${stringTemp} divided by ${string} is ${parseInt(stringTemp) / parseInt(string)}`
-  );
-  stringTemp = string;
-  console.log(stringTemp);
-  clear(false);
-  counter++;
-}
-function multiply(string, stringTemp) {}
-function subtract(string, stringTemp) {}
-function add(string, stringTemp) {}
-
-function clear(clear) {
-  string = "";
-  if (clear) {
-    console.log("cleared");
-    counter = 0;
-  }
-}
-
-function zero() {}
-
-function equals() {}
 
 export default App;

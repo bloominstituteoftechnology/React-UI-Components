@@ -1,6 +1,35 @@
 /* All styles for your Card Components live here */
 
-.bannerImage {
+.cardContainer {
     width: 542px;
     margin-left: 50px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+}
+
+.bannerImage {
+    width: 542px;
+}
+
+.cardContent {
+    margin: 15px;
+}
+
+.contentP {
+    font-size: 15px;
+    margin: 5px 0;
+}
+
+.cardContent h2 {
+    font-size: 16px;
+    margin: 0;
+}
+
+.linkP {
+    color: grey;
+}
+
+a {
+    text-decoration: none;
+    color: black;
 }
