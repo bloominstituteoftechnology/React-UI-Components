@@ -1,0 +1,15 @@
+import React from 'react';
+
+const today = new Date();
+const months = ["jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sept", "oct", "nov", "dec"];
+
+const HeaderTag = () => {
+    return(
+       
+            <p className="header-tag-txt">
+                @LambdaSchool &middot; {today.getDate()} {months[today.getMonth()]}
+            </p>
+    );
+}
+
+export default HeaderTag;
