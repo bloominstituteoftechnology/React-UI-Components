@@ -5,11 +5,10 @@ const months = ["jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sept", 
 
 const HeaderTag = () => {
     return(
-        <div className="header-date">
-            <p className="tag-txt">
+       
+            <p className="header-tag-txt">
                 @LambdaSchool &middot; {today.getDate()} {months[today.getMonth()]}
             </p>
-        </div>
     );
 }
 

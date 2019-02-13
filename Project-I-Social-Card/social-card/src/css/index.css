@@ -144,21 +144,48 @@ body {
   width: 100%;
   margin: 50px auto;
   display: flex;
+  flex-flow: row wrap;
   border: 1px solid blue;
 }
 /* All styles for your header Components live here */
 .main-container .header-container {
-  border: 1px solid red;
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
 }
 .main-container .header-container .img-column {
   width: 75px;
-  border: 1px solid blue;
+  margin: 10px;
 }
-.main-container .header-container .img-column .image-thumb-container .img-thumbnail {
+.main-container .header-container .img-column .img-thumbnail {
   width: 70px;
   border-radius: 100%;
 }
 .main-container .header-container .header-txt-column {
-  border: 1px solid yellow;
-  width: 80%;
+  width: 100%;
+  margin: 10px;
+  font-size: 1.2rem;
+  display: flex;
+  flex-flow: row wrap;
+}
+.main-container .header-container .header-txt-column .header-title-container {
+  width: 100%;
+  margin-bottom: 10px;
+  display: flex;
+}
+.main-container .header-container .header-txt-column .header-title-container .header-title-txt {
+  font-weight: bold;
+}
+.main-container .header-container .header-txt-column .header-title-container .header-tag-txt {
+  margin-left: 10px;
+  padding-top: 4px;
+  font-size: 0.9rem;
+  vertical-align: text-bottom;
+  color: #999;
+}
+.main-container .header-container .header-txt-column .header-description-container {
+  width: 100%;
+}
+.main-container .header-container .header-txt-column .header-description-container .header-description-txt {
+  line-height: 24px;
 }
