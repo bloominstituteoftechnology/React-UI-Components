@@ -1,0 +1,15 @@
+
+
+.display {
+
+    height: 50px;
+    width: 120px;
+    background: black;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    text-align: flex-end;
+    border: 1px solid gray;
+
+}

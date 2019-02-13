@@ -14,33 +14,33 @@ const App = () => {
             <CalculatorDisplay />   
 
             <ButtonContainer >
-              <ActionButton style = "wide" text = "clear" />
+              <ActionButton style = "wide clear" text = "clear" />
               <ActionButton style = "operation" text = "/" />
             </ButtonContainer>  
 
             <ButtonContainer >
-              <NumberButton style = "operation" text = "7" />
-              <NumberButton style = "operation" text = "8" />
-              <NumberButton style = "operation" text = "9" />
+              <NumberButton style = "num" text = "7" />
+              <NumberButton style = "num" text = "8" />
+              <NumberButton style = "num" text = "9" />
               <ActionButton style = "operation" text = "X" />
             </ButtonContainer>  
 
             <ButtonContainer >
-              <NumberButton style = "operation" text = "4" />
-              <NumberButton style = "operation" text = "5" />
-              <NumberButton style = "operation" text = "6" />
+              <NumberButton style = "num" text = "4" />
+              <NumberButton style = "num" text = "5" />
+              <NumberButton style = "num" text = "6" />
               <ActionButton style = "operation" text = "-" />
             </ButtonContainer>  
 
             <ButtonContainer >
-              <NumberButton style = "operation" text = "1" />
-              <NumberButton style = "operation" text = "2" />
-              <NumberButton style = "operation" text = "3" />
+              <NumberButton style = "num" text = "1" />
+              <NumberButton style = "num" text = "2" />
+              <NumberButton style = "num" text = "3" />
               <ActionButton style = "operation" text = "+" />
             </ButtonContainer>  
 
             <ButtonContainer >
-              <ActionButton style = "wide" text = "0" />
+              <ActionButton style = "wide zero" text = "0" />
               <ActionButton style = "operation" text = "=" />
             </ButtonContainer> 
 

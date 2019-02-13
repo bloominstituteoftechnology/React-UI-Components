@@ -1,0 +1,52 @@
+
+
+.num {
+
+    height: 30px;
+    width: 30px;
+    background: white;
+    color: black;
+    
+    display: flex;
+    text-align: center;
+    
+    font-weight: bold;
+    font-size: 16px;
+    border: 1px solid gray;
+
+}
+
+.operation {
+
+    height: 30px;
+    width: 30px;
+    background: red;
+    color: white;
+    
+    display: flex;
+    text-align: center;
+    
+    font-weight: bold;
+    font-size: 20px;
+    border: 1px solid gray;
+
+}
+
+.wide {
+
+    height: 30px;
+    width: 90px;
+    background: white;
+    color: black;
+    
+    display: flex;
+    text-align: center;
+    
+    font-weight: bold;
+    font-size: 16px;
+    border: 1px solid gray;
+}
+
+.clear {
+    font-weight: 300;
+}
