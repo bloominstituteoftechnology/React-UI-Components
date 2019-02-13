@@ -1,0 +1,50 @@
+.actionButton {
+    font-size: 15px;
+    background: #9F1C22;
+    border: 1px solid black;
+    padding: 5px 10px;
+    width: 100%;
+    text-align: center;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px 0px;
+}
+
+
+
+
+.num-b {
+    text-align: center;
+    height: auto;
+    margin: 0 2px;
+    width: 60px;
+    height: 60px;
+    border: 1px solid black;
+    background: white;
+  }
+
+  .num-0 {
+    text-align: center;
+    height: auto;
+    width: 100%;
+    height: 60px;
+    border: 1px solid black;
+    background: white;
+    margin-top: 3px;
+  }
+
+.clear-b{
+    text-align: center;
+    height: auto;
+    margin: 0 2px;
+    width: 100%;
+    height: auto;
+    border: 1px solid black;
+    background: white;  
+}
+
+.clear-b:hover ,.num-0:hover ,.num-b:hover, .actionButton:hover {
+    opacity: 0.5;
+}
