@@ -1,12 +1,9 @@
+import React from "react";
+import "./Button.css";
 
-
-import React from 'react';
-import './Display.css';
-
-
-        // Not sure if it should be simply <div>
+// Not sure if it should be simply <div>
 const ButtonContainer = () => {
-  return <div className = "button-container"></div>;
+  return <div className="button-container" />;
 };
 
 export default ButtonContainer;
