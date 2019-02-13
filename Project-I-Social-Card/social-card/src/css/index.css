@@ -234,3 +234,19 @@ body {
 .main-container .card-container .card-txt-container .card-link-txt:hover {
   color: #a0001e;
 }
+.main-container .footer-container {
+  width: 100%;
+  height: 50px;
+  margin-top: 30px;
+  padding: 0;
+  border: 1px solid red;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: flex-end;
+}
+.main-container .footer-container .icon-list {
+  border: 1px solid green;
+}
+.main-container .footer-container .icon-list .icon {
+  width: 100px;
+}
