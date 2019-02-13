@@ -15,7 +15,8 @@ const Footer = () => {
                 </li>
                 <li className="icon">
                     <FontAwesomeIcon icon={faHeart} /> 4
-                
+                </li>
+                <li className="icon">
                     <FontAwesomeIcon icon={faEnvelope} />
                 </li>
             </ul>  

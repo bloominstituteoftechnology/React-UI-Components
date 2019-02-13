@@ -145,7 +145,6 @@ body {
   margin: 50px auto;
   display: flex;
   flex-flow: row wrap;
-  border: 1px solid blue;
 }
 /* All styles for your header Components live here */
 .main-container .header-container {
@@ -236,18 +235,16 @@ body {
 }
 .main-container .footer-container {
   width: 100%;
-  height: 50px;
   margin-top: 30px;
   padding: 0;
-  border: 1px solid red;
   display: flex;
-  flex-flow: column wrap;
-  justify-content: flex-end;
 }
 .main-container .footer-container .icon-list {
-  border: 1px solid green;
+  margin-left: 120px;
+  display: flex;
 }
 .main-container .footer-container .icon-list .icon {
   width: 100px;
-  border: 1px solid purple;
+  font-size: 1.2rem;
+  color: #999;
 }
