@@ -189,3 +189,48 @@ body {
 .main-container .header-container .header-txt-column .header-description-container .header-description-txt {
   line-height: 24px;
 }
+.main-container a {
+  text-decoration: none;
+  color: #000;
+}
+.main-container .card-container {
+  max-width: 700px;
+  width: 100%;
+  margin-top: 20px;
+  font-size: 1.2rem;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+}
+.main-container .card-container .card-banner {
+  width: 575px;
+  height: 302px;
+  margin-right: 15px;
+  padding: 0;
+}
+.main-container .card-container .card-banner img {
+  width: 575px;
+  padding: 0;
+  border-radius: 10px 10px 0 0;
+}
+.main-container .card-container .card-txt-container {
+  width: 575px;
+  margin-right: 15px;
+  padding: 20px;
+  border: 1px solid #999;
+  border-radius: 0 0 10px 10px;
+}
+.main-container .card-container .card-txt-container .card-header {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+.main-container .card-container .card-txt-container .card-txt {
+  line-height: 24px;
+  margin-bottom: 10px;
+}
+.main-container .card-container .card-txt-container .card-link-txt {
+  color: #999;
+}
+.main-container .card-container .card-txt-container .card-link-txt:hover {
+  color: #a0001e;
+}
