@@ -1,21 +1,44 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+import "./App.css";
+// import CalculatorDisplay from "./components/DisplayComponents/CalculatorDisplay";
+import NumberButton from "./components/ButtonComponents/NumberButton";
+import ActionButton from "./components/ButtonComponents/ActionButton";
 
 const App = () => {
   return (
     <div>
-      <h3>Welcome to React Calculator</h3>
-      <p>
-        We have given you a starter project. You'll want to build out your
-        components in their respective files, remove this code and replace it
-        with the proper components.
-      </p>
-      <p>
-        <strong>
-          Don't forget to `default export` your components and import them here
-          inside of this file in order to make them work.
-        </strong>
-      </p>
+      <div className="calc-display">0</div>
+      
+      <div className="other-button">
+      <NumberButton class="long-num" text="clear" />
+      <ActionButton class="short-num" text="÷" />
+    </div>
+      
+      <div className="num-button">
+        <NumberButton class="short-num" text="7" />
+        <NumberButton class="short-num" text="8" />
+        <NumberButton class="short-num" text="9" />
+        <ActionButton class="short-num1" text="x" />
+      </div>
+
+      <div className="num-button">
+        <NumberButton class="short-num" text="4" />
+        <NumberButton class="short-num" text="5" />
+        <NumberButton class="short-num" text="6" />
+        <ActionButton class="short-num1" text="-" />
+      </div>
+
+      <div className="num-button">
+        <NumberButton class="short-num" text="1" />
+        <NumberButton class="short-num" text="2" />
+        <NumberButton class="short-num" text="3" />
+        <ActionButton class="short-num1" text="+" />
+      </div>
+
+      <div className="other-button">
+        <NumberButton class="long-num" text="0" />
+        <ActionButton class="short-num" text="=" />
+      </div>
     </div>
   );
 };

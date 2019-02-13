@@ -1,1 +1,30 @@
 /* All styles for your header Components live here */
+.img{
+    height: 100px;
+    width: 80px;
+    
+    
+}
+.HeaderContainer{
+    display: flex;
+    
+}
+    
+ .HeaderContent{
+display: flex;
+
+ }   
+ .HeaderContent p{
+     max-width: 100%;
+ }
+ .HeaderTitle{
+     display: flex;
+     justify-content: flex-start;
+     align-content: center;
+     
+   
+ } 
+
+.HeaderTitle h1{
+    font-size: 16px;
+}
