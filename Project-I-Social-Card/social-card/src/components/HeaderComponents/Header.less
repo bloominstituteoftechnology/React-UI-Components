@@ -1,1 +1,56 @@
 /* All styles for your header Components live here */
+.main-container{
+    .header-container{
+        width: 100%;
+        display: flex;
+        flex-flow: row nowrap;
+
+        .img-column{
+            width: 75px;
+            margin: 10px;
+            
+
+            .img-thumbnail{
+                width: 70px;
+                border-radius: @border-radius-rnd;
+            }
+        
+        }
+
+        .header-txt-column{
+            width: 100%;
+            margin: 10px;
+            font-size: 1.2rem;
+            display: flex;
+            flex-flow: row wrap;
+
+            .header-title-container{
+                width: 100%;
+                margin-bottom: 10px;
+                display: flex;
+                
+
+                .header-title-txt{
+                    font-weight: bold;
+                }
+
+                .header-tag-txt{
+                    margin-left: 10px;
+                    padding-top: 4px;
+                    font-size: .9rem;
+                    vertical-align: text-bottom;
+                    color: #999;
+                }
+            }
+
+            .header-description-container{
+                width: 100%;
+
+                .header-description-txt{
+                   line-height: 24px;
+                }
+            }
+        }
+      
+    }
+}

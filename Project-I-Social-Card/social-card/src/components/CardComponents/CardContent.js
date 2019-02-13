@@ -1,12 +1,20 @@
 import React from 'react';
-import CardBanner from './CardBanner';
+
 
 const CardContent = () => {
     return(
 
-        <div className="card-content">
-            <CardBanner />
-        </div>
+        <div className="card-txt-container">
+            <h4 className="card-header">
+                Get started with React
+            </h4>
+            <p className="card-txt">
+                React makes it painless to create interactive UIs. Design simple views for each state in your application.
+            </p>
+            <p className="card-link-txt">
+                reactjs.org
+            </p>
+    </div>
     );
 }
 

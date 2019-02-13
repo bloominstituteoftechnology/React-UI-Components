@@ -104,7 +104,6 @@ section {
 }
 body {
   line-height: 1;
-  background-color: #fff;
 }
 ol,
 ul {
@@ -143,5 +142,111 @@ body {
 .main-container {
   max-width: 700px;
   width: 100%;
-  border: 1px solid black;
+  margin: 50px auto;
+  display: flex;
+  flex-flow: row wrap;
+  border: 1px solid blue;
+}
+/* All styles for your header Components live here */
+.main-container .header-container {
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+}
+.main-container .header-container .img-column {
+  width: 75px;
+  margin: 10px;
+}
+.main-container .header-container .img-column .img-thumbnail {
+  width: 70px;
+  border-radius: 100%;
+}
+.main-container .header-container .header-txt-column {
+  width: 100%;
+  margin: 10px;
+  font-size: 1.2rem;
+  display: flex;
+  flex-flow: row wrap;
+}
+.main-container .header-container .header-txt-column .header-title-container {
+  width: 100%;
+  margin-bottom: 10px;
+  display: flex;
+}
+.main-container .header-container .header-txt-column .header-title-container .header-title-txt {
+  font-weight: bold;
+}
+.main-container .header-container .header-txt-column .header-title-container .header-tag-txt {
+  margin-left: 10px;
+  padding-top: 4px;
+  font-size: 0.9rem;
+  vertical-align: text-bottom;
+  color: #999;
+}
+.main-container .header-container .header-txt-column .header-description-container {
+  width: 100%;
+}
+.main-container .header-container .header-txt-column .header-description-container .header-description-txt {
+  line-height: 24px;
+}
+.main-container a {
+  text-decoration: none;
+  color: #000;
+}
+.main-container .card-container {
+  max-width: 700px;
+  width: 100%;
+  margin-top: 20px;
+  font-size: 1.2rem;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+}
+.main-container .card-container .card-banner {
+  width: 575px;
+  height: 302px;
+  margin-right: 15px;
+  padding: 0;
+}
+.main-container .card-container .card-banner img {
+  width: 575px;
+  padding: 0;
+  border-radius: 10px 10px 0 0;
+}
+.main-container .card-container .card-txt-container {
+  width: 575px;
+  margin-right: 15px;
+  padding: 20px;
+  border: 1px solid #999;
+  border-radius: 0 0 10px 10px;
+}
+.main-container .card-container .card-txt-container .card-header {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+.main-container .card-container .card-txt-container .card-txt {
+  line-height: 24px;
+  margin-bottom: 10px;
+}
+.main-container .card-container .card-txt-container .card-link-txt {
+  color: #999;
+}
+.main-container .card-container .card-txt-container .card-link-txt:hover {
+  color: #a0001e;
+}
+.main-container .footer-container {
+  width: 100%;
+  height: 50px;
+  margin-top: 30px;
+  padding: 0;
+  border: 1px solid red;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: flex-end;
+}
+.main-container .footer-container .icon-list {
+  border: 1px solid green;
+}
+.main-container .footer-container .icon-list .icon {
+  width: 100px;
 }
