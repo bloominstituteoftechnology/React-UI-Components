@@ -4,3 +4,20 @@
     height: 400px;
     border: 2px solid black;
 }
+
+#screen {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-end;
+    width: 240px;
+    height: 70px;
+    border: 2px solid black;
+}
+
+#number-entry {
+    display: flex;
+    width: 50px;
+    height: 60px;
+    border: 2px solid black;
+}
