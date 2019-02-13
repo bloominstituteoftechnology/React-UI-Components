@@ -1,0 +1,45 @@
+.num {
+  height: 100px;
+  width: 100px;
+  background: white;
+  color: black;
+
+  display: flex;
+  justify-content: center;
+
+  font-weight: bold;
+  font-size: 60px;
+  border: 1px solid gray;
+}
+
+.operation {
+  height: 100px;
+  width: 100px;
+  background: red;
+  color: white;
+
+  display: flex;
+  justify-content: center;
+
+  font-weight: bold;
+  font-size: 50px;
+  border: 1px solid gray;
+}
+
+.wide {
+  height: 100px;
+  width: 300px;
+  background: white;
+  color: black;
+
+  display: flex;
+  justify-content: center;
+
+  font-weight: bold;
+  font-size: 60px;
+  border: 1px solid gray;
+}
+
+.clear {
+  font-weight: lighter;
+}
