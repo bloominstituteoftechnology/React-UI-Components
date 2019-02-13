@@ -1,23 +1,44 @@
 import React from 'react';
 import './App.css';
+import Display from './components/DisplayComponents/Display';
+import Button from './components/ButtonComponents/Button';
+import Action from './components/ButtonComponents/Action';
+import Number from './components/ButtonComponents/Number';
 
-const App = () => {
-  return (
-    <div>
-      <h3>Welcome to React Calculator</h3>
-      <p>
-        We have given you a starter project. You'll want to build out your
-        components in their respective files, remove this code and replace it
-        with the proper components.
-      </p>
-      <p>
-        <strong>
-          Don't forget to `default export` your components and import them here
-          inside of this file in order to make them work.
-        </strong>
-      </p>
-    </div>
-  );
-};
+class App extends React.Component {
+  render() {
+    return (
+      <div className="calculator-wrapper">
+        <Display />
+        <Button>
+          <Action className="key3 textkey" text="clear" />
+          <Action className="key1 redkey" text="÷" />
+        </Button>
+        <Button>
+          <Number bgColor="key1 numkey" text="7" />
+          <Number bgColor="key1 numkey" text="8" />
+          <Number bgColor="key1 numkey" text="9" />
+          <Action className="key1 redkey" text="×" />
+        </Button>
+        <Button>
+          <Number bgColor="key1 numkey" text="4" />
+          <Number bgColor="key1 numkey" text="5" />
+          <Number bgColor="key1 numkey" text="6" />
+          <Action className="key1 redkey" text="−" />
+        </Button>
+        <Button>
+          <Number bgColor="key1 numkey" text="1" />
+          <Number bgColor="key1 numkey" text="2" />
+          <Number bgColor="key1 numkey" text="3" />
+          <Action className="key1 redkey" text="+" />
+        </Button>
+        <Button>
+          <Number bgColor="key3 numkey" text="0" />
+          <Action className="key1 redkey" text="=" />
+        </Button>
+      </div>
+    );
+  }
+}
 
 export default App;

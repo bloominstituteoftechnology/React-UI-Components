@@ -1,0 +1,28 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 60px;
+  margin-right: 180px;
+}
+
+.button{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+svg {
+  fill: #657786;
+}
+
+.footer p {
+  color: #657786;
+  margin: 10px;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+}
