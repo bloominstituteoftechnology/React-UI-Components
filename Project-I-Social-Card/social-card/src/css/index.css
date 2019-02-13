@@ -249,4 +249,5 @@ body {
 }
 .main-container .footer-container .icon-list .icon {
   width: 100px;
+  border: 1px solid purple;
 }
