@@ -11,6 +11,7 @@
 - **You'll repeat this last two steps for the calculator project, but you'll need to make sure that you're inside of `../../calculator` directory to make this work.**
 
 ## Instructionss
+are here
 
 
 - For the first project you'll work on the project found in `Project-I-Social-Card`.
