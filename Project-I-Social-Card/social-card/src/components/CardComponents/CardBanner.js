@@ -10,4 +10,4 @@ function CardBanner ({children}) {
     )
   }
   
-  export default CardBanner
+  export default CardBanner;

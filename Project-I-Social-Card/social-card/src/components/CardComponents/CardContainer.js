@@ -9,4 +9,4 @@ function CardContainer({children}) {
     )
   }
   
-  export default CardContainer
+  export default CardContainer;
