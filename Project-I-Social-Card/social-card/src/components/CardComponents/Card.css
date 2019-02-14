@@ -1,1 +1,20 @@
 /* All styles for your Card Components live here */
+.card-container {
+    width: 500px;
+  }
+  
+  .card-banner-container {
+    display: flex;
+    width: 33%;
+  }
+  
+  .logo-container {
+    height: 100%;
+  }
+  
+  .logo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #ad0f0f;
+  }
