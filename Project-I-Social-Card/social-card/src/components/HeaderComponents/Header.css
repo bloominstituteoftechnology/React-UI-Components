@@ -1,1 +1,44 @@
 /* All styles for your header Components live here */
+.header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.logo {
+    border-radius: 50%;
+    width: 53px;
+    height: 53px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 15px;
+}
+
+.hdText {
+    font-size: 0.9rem;
+    margin-left: 2px;
+    margin-top: 15px;
+}
+
+.handle {
+    font-size: 0.8rem;
+    color: gray;
+    margin-top: -36px;
+    margin-left: 115px;
+}
+
+.date {
+    font-size: 0.8rem;
+    color: gray;
+    margin-top: -29px;
+    margin-left: 221px;
+}
+
+.hdContent {
+    font-size: 0.8rem;
+    width: 85%;
+    margin-left: 73px;
+    margin-top: -25px;
+    letter-spacing: .5px;
+    color: #383636;
+}
