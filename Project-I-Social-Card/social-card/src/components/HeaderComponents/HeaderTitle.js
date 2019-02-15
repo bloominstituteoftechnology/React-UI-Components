@@ -5,8 +5,8 @@ function HeaderTitle() {
     return (
         <div classname="title">
             <h4 className="hdText">Lambda School</h4>
-            <p className="ltText">@LambdaSchool</p>
-            <p className="ltText">14 feb</p>
+            <p className="handle">@LambdaSchool</p>
+            <p className="date"> - 14 feb</p>
         </div>
     )
 }
