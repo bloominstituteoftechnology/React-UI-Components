@@ -5,6 +5,7 @@
   "dependencies": {
     "feather-icons": "^4.17.0",
     "feathericon": "^1.0.2",
+    "moment": "^2.24.0",
     "react": "^16.4.0",
     "react-dom": "^16.4.0",
     "react-feather": "^1.1.6",
