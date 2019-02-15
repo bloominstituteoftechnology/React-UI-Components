@@ -3,11 +3,11 @@ import './Card.css';
 
 function CardContent() {
     return (
-        <div>
-            <h3>Get started with React</h3>
-            <p>React makes it painless to create interactive UIs. Design 
+        <div className="contentContainer">
+            <h3 className="mcTitle">Get started with React</h3>
+            <p className="mcText">React makes it painless to create interactive UIs. Design 
                 simple views for each state in your application.</p>
-            <p>reactjs.org</p>
+            <p className="url">reactjs.org</p>
         </div>
     )
 }
