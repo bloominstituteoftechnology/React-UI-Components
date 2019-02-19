@@ -1,5 +1,14 @@
 /* All styles for your Card Components live here */
 .cardcontainer {
-    width: 600px;
+    width: 90%;
     border: 1px solid blue;
+    margin-left: 58px;
+}
+.card {
+    width: 100%;
+    border: 1px solid red;
+}
+.card-banner {
+    width: 540px;
+    height: 300px;
 }

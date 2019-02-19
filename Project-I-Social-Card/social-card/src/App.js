@@ -4,7 +4,7 @@ import './App.css';
 import HeaderContainer from './components/HeaderComponents/HeaderContainer';
 import CardContainer from './components/CardComponents/CardContainer';
 
-const App = () => (
+const App = () => {
   return (
     <div className='app-container'>
       <HeaderContainer />
@@ -12,6 +12,6 @@ const App = () => (
     </div>
 
   );
-);
+  };
 
-m
+  export default App;

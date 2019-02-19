@@ -1,1 +1,20 @@
 /* All styles for your header Components live here */
+.headercont {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap
+}
+.top {
+    margin-top: 21px;
+    margin-left: 10px;
+}
+img {
+    height: 60px;
+}
+.hcontent {
+    display: flex;
+}
+.headp {
+    margin-left: 58px;
+    margin-top: 0;
+}
