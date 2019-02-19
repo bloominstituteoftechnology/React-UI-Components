@@ -41,7 +41,7 @@ x - Create a `<HeaderContainer />` container component that will hold your heade
 
   x - Create an `<ImageThumbnail />` component using this image url https://tk-assets.lambdaschool.com/1c1b7262-cf23-4a9f-90b6-da0d3c74a5c6_lambdacrest.png as it's img src.
   - Create a `<HeaderTitle />` component that displays the Lambda School header text, @LambdaSchool handle and timestamp.
-  - Create a `<HeaderContent />` component that displays the copy provided in the headers content.
+  x- Create a `<HeaderContent />` component that displays the copy provided in the headers content.
 
 - Create a `<CardContainer/ >` container component that will hold your card components.
   - Create a `<CardBanner />` component that will display this image as it's background: https://tk-assets.lambdaschool.com/fcd75197-7d12-46ec-bc9e-4130f34822fa_reactbackground.png
