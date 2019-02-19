@@ -2,7 +2,7 @@ import React from 'react';
 import './Display.css';
 
 
-const CalculatorDisplay = () {
+const CalculatorDisplay = () => {
 //   number: '1',
 };
 
