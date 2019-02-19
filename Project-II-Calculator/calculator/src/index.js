@@ -1,6 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+// import App from './App';
+// import DisplayComponents from './components/DisplayComponents/';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+
+function App() {
+  return (
+    <div className="App">
+      <DisplayComponents />
+    </div>
+  );
+}
+
+// ReactDOM.render(<App />, document.getElementById('root'));
+// ReactDOM.render(<App />, rootElement);
+
