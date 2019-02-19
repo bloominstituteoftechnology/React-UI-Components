@@ -1,1 +1,5 @@
 /* All styles for your Card Components live here */
+.cardcontainer {
+    width: 600px;
+    border: 1px solid blue;
+}

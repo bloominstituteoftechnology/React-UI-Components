@@ -2,7 +2,12 @@ import React from 'react';
 import './Header.css';
 
 const HeaderTitle = () => {
-    return <h2>Lambda School</h2>
-}
+    return (
+    <div>
+        <h2>Lambda School</h2> 
+        <p>@LambdaSchool - 18 Feb</p>
+    </div>
+    );
+};
 
 export default HeaderTitle; 
