@@ -3,9 +3,7 @@ import './Display.css';
 
 const CalculatorDisplay = () => {
     return (
-        <div class="">
-            
-        </div>
+        <div className="display">0</div>
     )
 };
 

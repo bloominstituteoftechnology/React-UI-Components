@@ -1,0 +1,10 @@
+.display {
+    height:110px;
+    width: 470px;
+    background: rgb(39, 38, 38);
+    color: rgb(255, 255, 255);
+    font-size: 70px;
+    text-align: right;
+    line-height: 125px;
+    padding: 5px; 
+}

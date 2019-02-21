@@ -1,0 +1,37 @@
+.btn-container {
+    height: 100px;
+    display: flex;
+  }
+  
+  .number-btn {
+    width: 120px;
+    border: 1px solid slategrey;
+  }
+  
+  .action-btn {
+    width: 360px;
+    border: 1px solid gray;
+    font-size: 50px;
+  }
+  
+  .red-btn {
+    background: maroon;
+    color: white;
+    text-align: center;
+    line-height: 100px;
+    font-size: 50px;
+    font-weight: 200;
+  }
+  .num-btn {
+    text-align: center;
+    line-height: 100px;
+    font-size: 50px;
+    font-weight: 200;
+  }
+  
+  .zero {
+    text-align: center;
+    line-height: 100px;
+    font-size: 50px;
+    font-weight: 200;
+  }
