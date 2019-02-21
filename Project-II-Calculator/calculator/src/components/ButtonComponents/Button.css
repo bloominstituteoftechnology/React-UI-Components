@@ -11,10 +11,11 @@
   .zero-clear-button {
     width: 300px;
     border: 1px solid lightgray;
+    padding: 0 100px;
   }
   
   .red-button {
-    background: #9e0523;
+    background: red;
     color: white;
     text-align: center;
     line-height: 100px;

@@ -1,9 +1,9 @@
 import React from 'react';
 import './App.css';
-import NumberButton from './components/ButtonComponents';
-import ActionButton from './components/ButtonComponents';
-import CalculatorDisplay from './components/DisplayComponents';
-import ButtonContainer from './components/ButtonComponents';
+import CalculatorDisplay from './components/DisplayComponents/CalculatorDisplay';
+import NumberButton from './components/ButtonComponents/NumberButton';
+import ActionButton from './components/ButtonComponents/ActionButton';
+import ButtonContainer from './components/ButtonComponents/ButtonContainer';
 
 const App = () => {
   return (
