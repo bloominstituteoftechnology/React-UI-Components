@@ -1,1 +1,28 @@
 /* All styles for your header Components live here */
+
+.header-container {
+    display: flex;
+    width: 600px;
+    height: 100px;
+
+}
+
+.lambda {
+    width: 50px;
+    height: 50px;
+    padding-top: 5px;
+}
+
+.hdcont {
+    font-size: 15px;
+    margin: 3px;
+}
+
+.top {
+    color: gray;
+    font-size: 13px;
+}
+
+.title {
+    margin: 10px 3px;
+}

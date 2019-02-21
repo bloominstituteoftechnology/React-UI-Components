@@ -1,0 +1,6 @@
+.calculator-app {
+    border: 2px solid gray;
+    width: 480px;
+    min-height: 600px;
+    margin: 20px 40px;
+}
