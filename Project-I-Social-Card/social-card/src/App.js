@@ -1,21 +1,14 @@
 import React from 'react';
 import './App.css';
 import HeaderContainer from "./components/HeaderComponents/HeaderContainer";
-import HeaderContentHeader from "./components/HeaderComponents/HeaderContentHeader";
-import HeaderContentBody from "./components/HeaderComponents/HeaderContentBody";
-import HeaderTitle from "./components/HeaderComponents/HeaderTitle";
-import ImageThumbnail from "./components/HeaderComponents/ImageThumbnail";
+import CardContainer from "./components/CardComponents/CardContainer";
 
 const App = () => (
-  <div>
-    <HeaderContainer />
-    <ImageThumbnail />
-    <HeaderTitle />
-    <HeaderContentHeader />
-    <HeaderContentBody />
-  </div>   
-  );
-
+    <div>
+      <HeaderContainer />
+      <CardContainer />
+    </div>  
+);
 
 export default App;
 
