@@ -1,9 +1,21 @@
+// import React
 import React from 'react';
+// import APP component from App.js file
 import './App.css';
+
+// import individual components
+import HeaderContainer from './components/HeaderComponents/HeaderContainer';
+import ImgThumbnail from './components/HeaderComponents/ImageThumbnail';
 
 const App = () => {
   return (
     <div>
+      <HeaderContainer />
+      <ImgThumbnail />
+      <p>
+        ** -- ** -- ** -- ** -- ** -- ** -- ** -- ** -- ** -- ** -- ** -- ** -- **
+        ** -- ** -- ** -- ** -- ** -- ** -- ** -- ** -- ** -- ** -- ** -- ** -- **
+      </p>
       <h3>Welcome to React Social Card!</h3>
       <p>
         Begin by exploring the `components` directory. You'll notice we have a
@@ -22,3 +34,13 @@ const App = () => {
 };
 
 export default App;
+
+// NEW APP
+// const NewApp = () => {
+//   return (
+//     <div className="headerContainer">
+
+//     </div>
+//   )
+// }
+// export default NewApp;
