@@ -6,12 +6,14 @@ import './App.css';
 // import individual components
 import HeaderContainer from './components/HeaderComponents/HeaderContainer';
 import ImgThumbnail from './components/HeaderComponents/ImageThumbnail';
+import HeaderTitle from './components/HeaderComponents/HeaderTitle';
 
 const App = () => {
   return (
     <div>
       <HeaderContainer />
       <ImgThumbnail />
+      <HeaderTitle />
       <p>
         ** -- ** -- ** -- ** -- ** -- ** -- ** -- ** -- ** -- ** -- ** -- ** -- **
         ** -- ** -- ** -- ** -- ** -- ** -- ** -- ** -- ** -- ** -- ** -- ** -- **
