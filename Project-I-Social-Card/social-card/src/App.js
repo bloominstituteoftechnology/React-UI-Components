@@ -7,7 +7,7 @@ const App = () => {
   return (
     <div className="container">
       <HeaderContainer imageLink={thumbnailImagesLinks[0]} title={headerTitleTitles[0]} timestamp={headerTitleTimestamp[0]} text={headerTexts[0]} />
-      <CardContainer src= {cardBannerLinks[0]} header={cardContentHeaders[0]} text={cardContentTexts[0]} link={cardContentLinks[0]} />
+      <CardContainer src= {cardBannerLinks[0]} header={cardContentHeaders[0]} text={cardContentTexts[0]} link={cardContentLinks[0]} redirect={cardContentRedirect[0]} />
     </div>
   );
 };
@@ -25,6 +25,7 @@ const cardBannerLinks = ['https://tk-assets.lambdaschool.com/fcd75197-7d12-46ec-
 const cardContentHeaders = ['Get started with React'];
 const cardContentTexts = ['React makes it painless to create interactive UIs. Design simple views for each state in your application.'];
 const cardContentLinks = ['reactjs.org'];
+const cardContentRedirect = ['https://reactjs.org/'];
 
 
 export default App;
