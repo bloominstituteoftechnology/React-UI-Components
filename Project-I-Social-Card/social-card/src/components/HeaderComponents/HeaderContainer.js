@@ -8,8 +8,10 @@ function HeaderContainer () {
     return (
         <header>
             <ImageThumbnail src="https://tk-assets.lambdaschool.com/1c1b7262-cf23-4a9f-90b6-da0d3c74a5c6_lambdacrest.png" />
-            <HeaderTitle title='Lambda School' timestamp='26 jan' />
-            <HeaderContent text={texts[0]} />
+            <div>
+                <HeaderTitle title='Lambda School' timestamp='26 jan' />
+                <HeaderContent text={texts[0]} />
+            </div>
         </header>
     );
 } 

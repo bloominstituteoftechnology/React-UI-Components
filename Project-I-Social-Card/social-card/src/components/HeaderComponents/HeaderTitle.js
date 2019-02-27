@@ -4,8 +4,8 @@ import './Header.css';
 function HeaderTitle (props) {
     return (
         <div>
-            <div>
-                <h2>{props.title}</h2>
+            <div className="header-title">
+                <h4>{props.title}</h4>
                 <p className='small-text'>@{props.title}</p>
                 <p className='small-text'>{props.timestamp}</p>
             </div>
