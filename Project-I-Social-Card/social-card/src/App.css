@@ -13,14 +13,18 @@ html {
 }
 body {
   color: rgb(37, 37, 37);
-  font-size: 1.6rem;
+  font-size: 1.4rem;
 }
 
 .container {
   max-width: 650px;
   margin: 0 auto;
+  margin-top: 20px;
   padding: 2%;
+  padding-bottom: 0; 
   border: 1px solid rgba(37, 37, 37, .5);
+  border-radius: 10px;
+  box-shadow: 0 10px 6px -6px #777;
   display: flex;
   flex-direction: column;
   align-items: flex-end;

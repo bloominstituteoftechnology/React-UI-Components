@@ -2,8 +2,8 @@
 header {
     display: flex;
     width: 100%;
-    padding: 2%;
-    /* border: 2px solid purple; */
+    padding: 2% 4% 2% 0;
+    /* border: 2px solid rgb(175, 161, 175); */
 }
 .image-thumbnail {
     width: 10%;
@@ -13,7 +13,7 @@ header {
 }
 .header-text {
     width: 90%;
-    padding-left: 2%;
+    padding-left: 4%;
     /* border: 1px dotted orange; */
 }
 .header-title {
@@ -24,7 +24,7 @@ header {
     margin-bottom: 2%;
 }
 .small-text {
-    color: lightgray;
+    color: rgb(155, 155, 155);
     margin: 0 5px;
     font-size: 1.2rem;
 }

@@ -1,13 +1,17 @@
 import React from 'react';
 import './App.css';
-import HeaderContainer from "./components/HeaderComponents/HeaderContainer";
-import CardContainer from "./components/CardComponents/CardContainer";
+import HeaderContainer from './components/HeaderComponents/HeaderContainer';
+import CardContainer from './components/CardComponents/CardContainer';
+import Footer from './components/FooterComponents/Footer';
 
 const App = () => {
   return (
     <div className="container">
       <HeaderContainer imageLink={thumbnailImagesLinks[0]} title={headerTitleTitles[0]} timestamp={headerTitleTimestamp[0]} text={headerTexts[0]} />
+
       <CardContainer src= {cardBannerLinks[0]} header={cardContentHeaders[0]} text={cardContentTexts[0]} link={cardContentLinks[0]} redirect={cardContentRedirect[0]} />
+
+      <Footer />
     </div>
   );
 };
