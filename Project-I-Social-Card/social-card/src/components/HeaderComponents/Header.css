@@ -8,7 +8,10 @@
   align-content: center;
   align-items: center;
   justify-content: center;
-  background-color: black;
+  text-align: center;
+  flex-shrink: 0;
+  background-color: white;
+  border: 3px solid #a20623;
   border-radius: 50%;
   height: 50px;
   width: 50px;
@@ -18,5 +21,19 @@
 .headerThumbnail {
   width: 30px;
   height: 30px;
-  //margin: 0 auto;
+  margin-top: 5px;
+}
+
+.headerTitleHolder {
+  display: flex;
+}
+
+.headerTitle {
+  font-size: 2.2vw;
+}
+
+.headerSubtitle {
+  font-size: 2vw;
+  color: grey;
+  margin-left: 2%;
 }

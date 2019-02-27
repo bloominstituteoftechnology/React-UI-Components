@@ -5,18 +5,12 @@ import ImageThumbnail from "./ImageThumbnail";
 import HeaderTitle from "./HeaderTitle";
 import HeaderContent from "./HeaderContent";
 
-const HeaderContainer = ({ direction, children }) => {
+const HeaderContainer = ({ headerContainerStyles, children }) => {
   return (
-    <div className="headertainer" style={getStyle(direction)}>
+    <div className="headertainer" style={headerContainerStyles}>
       {children}
     </div>
   );
-};
-
-const getStyle = direction => {
-  return {
-    flexDirection: direction
-  };
 };
 
 export default HeaderContainer;

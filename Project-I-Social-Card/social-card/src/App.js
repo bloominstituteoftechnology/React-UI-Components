@@ -2,24 +2,17 @@ import React from "react";
 import "./App.css";
 
 // Components
-import HeaderContainer from "./components/HeaderComponents/HeaderContainer";
-import ImageThumbnail from "./components/HeaderComponents/ImageThumbnail";
-import HeaderTitle from "./components/HeaderComponents/HeaderTitle";
-import HeaderContent from "./components/HeaderComponents/HeaderContent";
+import Header from "./components/HeaderComponents/Header";
 
 const App = () => {
   return (
     <div>
-      <HeaderContainer direction="row">
-        <ImageThumbnail
-          thumbnailImage="https://tk-assets.lambdaschool.com/1c1b7262-cf23-4a9f-90b6-da0d3c74a5c6_lambdacrest.png"
-          imageAlt="Lambda School Logo"
-        />
-        <HeaderContainer direction="column">
-          <HeaderTitle />
-          <HeaderContent />
-        </HeaderContainer>
-      </HeaderContainer>
+      <Header
+        headerTitle="Lambda School"
+        headerSubtitle="@LambdaSchool · 26 jan"
+        thumbnailImage="https://tk-assets.lambdaschool.com/1c1b7262-cf23-4a9f-90b6-da0d3c74a5c6_lambdacrest.png"
+        headerContent="Let's learn React by buyilding simple interfaces with component Don't try to overthink it, just keep it simple and have fun. Once you feel comfortable using components you are well on your way to mastering REACT!"
+      />
     </div>
   );
 };
