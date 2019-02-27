@@ -6,6 +6,7 @@
     color: rgb(37, 37, 37);
     border: 1px solid lightgray;
     border-radius: 7px;
+    cursor: pointer;
 }
 .card-content-banner {
     width: 100%;

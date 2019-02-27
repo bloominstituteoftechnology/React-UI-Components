@@ -2,18 +2,15 @@ import React from 'react';
 import './Card.css';
 import CardBanner from './CardBanner';
 import CardContent from './CardContent';
+// import { prependOnceListener } from 'cluster';
 
-function CardContainer () {
+function CardContainer (props) {
     return (
-        <div className="card-container" onClick={()=> window.open('https://reactjs.org/', "_blank")}>
-            <CardBanner src="https://tk-assets.lambdaschool.com/fcd75197-7d12-46ec-bc9e-4130f34822fa_reactbackground.png" />
-            <CardContent header={cardContentHeaders[0]} text={cardContentTexts[0]} link={cardContentLinks[0]} />
+        <div className="card-container" onClick={(props)=> window.open('https://reactjs.org/', "_blank")}>
+            <CardBanner src={props.src} />
+            <CardContent header={props.header} text={props.text} link={props.link} />
         </div>
     );
 }
-
-const cardContentHeaders = ['Get started with React'];
-const cardContentTexts = ['React makes it painless to create interactive UIs. Design simple views for each state in your application.'];
-const cardContentLinks = ['reactjs.org'];
 
 export default CardContainer;
