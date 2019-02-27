@@ -6,7 +6,7 @@ import Footer from './components/FooterComponents/Footer';
 
 const App = () => {
   return (
-    <div className="container">
+    <div className='container'>
       <HeaderContainer imageLink={thumbnailImagesLinks[0]} title={headerTitleTitles[0]} timestamp={headerTitleTimestamp[0]} text={headerTexts[0]} />
 
       <CardContainer src= {cardBannerLinks[0]} header={cardContentHeaders[0]} text={cardContentTexts[0]} link={cardContentLinks[0]} redirect={cardContentRedirect[0]} />
@@ -19,7 +19,7 @@ const App = () => {
 // header content
 const thumbnailImagesLinks = ['https://tk-assets.lambdaschool.com/1c1b7262-cf23-4a9f-90b6-da0d3c74a5c6_lambdacrest.png'];
 const headerTitleTitles = ['Lambda School'];
-const headerTitleTimestamp = ['26 jan'];
+const headerTitleTimestamp = ['27 feb'];
 const headerTexts = [
   "Let's learn React by building simple interfaces with components. Don't try to overthink it, just keep it simple and have fun. Once you feel comfortable using components you are well on your way to mastering React!"
 ];

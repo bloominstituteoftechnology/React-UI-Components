@@ -2,25 +2,21 @@
 header {
     display: flex;
     width: 100%;
-    padding: 2% 4% 2% 0;
-    /* border: 2px solid rgb(175, 161, 175); */
+    padding: 2% 3% 2% 1%;
 }
 .image-thumbnail {
     width: 10%;
     height: 100%;
     padding: 0 1% 1% 0;
-    /* border: 1px dashed violet; */
 }
 .header-text {
     width: 90%;
-    padding-left: 4%;
-    /* border: 1px dotted orange; */
+    padding-left: 3%;
 }
 .header-title {
     display: flex;
     justify-content: flex-start;
     align-items: baseline;
-    /* border: 1px solid green; */
     margin-bottom: 2%;
 }
 .small-text {

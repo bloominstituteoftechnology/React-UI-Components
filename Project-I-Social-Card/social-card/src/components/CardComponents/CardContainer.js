@@ -2,8 +2,6 @@ import React from 'react';
 import './Card.css';
 import CardBanner from './CardBanner';
 import CardContent from './CardContent';
-// import { getPortPromise } from 'portfinder';
-// import { prependOnceListener } from 'cluster';
 
 function CardContainer (props) {
     return (
