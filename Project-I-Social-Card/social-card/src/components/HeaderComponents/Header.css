@@ -29,11 +29,17 @@
 }
 
 .headerTitle {
-  font-size: 2.2vw;
+  font-size: 1.6rem;
+  font-weight: bold;
 }
 
 .headerSubtitle {
-  font-size: 2vw;
-  color: grey;
+  font-size: 1.4rem;
+  color: #a3b0b9;
   margin-left: 2%;
+}
+
+.headerContent p {
+  font-size: 1.2rem;
+  padding-right: 5px;
 }

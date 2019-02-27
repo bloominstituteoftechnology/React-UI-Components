@@ -2,3 +2,10 @@
   Write your styles/CSS for App.js here and import into the component that you need 
   IF you'd like to attempt to use less you'll have to research how to do this with Create React App
 */
+.apptainer {
+  max-width: 600px;
+  width: 90%;
+  border: 1px solid black;
+  padding: 5px;
+  margin: 5px;
+}

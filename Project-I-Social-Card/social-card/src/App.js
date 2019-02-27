@@ -6,7 +6,7 @@ import Header from "./components/HeaderComponents/Header";
 
 const App = () => {
   return (
-    <div>
+    <div className="apptainer">
       <Header
         headerTitle="Lambda School"
         headerSubtitle="@LambdaSchool · 26 jan"
