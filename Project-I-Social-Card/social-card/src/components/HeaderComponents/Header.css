@@ -21,7 +21,7 @@
   width: 30px;
   height: 30px;
   margin-top: 5px;
-  filter: grayscale(100%) invert(1);
+  filter: grayscale(1) contrast(150%) invert(1);
 }
 
 .headerTitleHolder {
