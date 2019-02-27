@@ -1,10 +1,12 @@
 import React from "react";
 import "./Header.css";
 
+import ImageThumbnail from "./ImageThumbnail";
+
 const HeaderContainer = () => {
   return (
     <div>
-      <h1>This is a container</h1>
+      <ImageThumbnail />
     </div>
   );
 };
