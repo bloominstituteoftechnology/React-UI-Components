@@ -1,8 +1,8 @@
 import React from "react";
 import "./Card.css";
 
-const CardBanner = () => {
-  return <p>CardBanner</p>;
+const CardBanner = ({ bannerImage, bannerAlt }) => {
+  return <img src={bannerImage} alt={bannerAlt} />;
 };
 
 export default CardBanner;

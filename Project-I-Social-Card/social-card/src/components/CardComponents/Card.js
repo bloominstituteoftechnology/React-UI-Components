@@ -1,17 +1,17 @@
-import React from "react";
+import React, { Fragment } from "react";
 
 import CardBanner from "./CardBanner";
 import CardContent from "./CardContent";
 import CardContainer from "./CardContainer";
 
-const Card = () => {
+const Card = ({ bannerImage, bannerAlt }) => {
   return (
-    <React.Fragment>
+    <Fragment>
       <CardContainer>
-        <CardBanner />
+        <CardBanner bannerImage={bannerImage} bannerAlt={bannerAlt} />
         <CardContent />
       </CardContainer>
-    </React.Fragment>
+    </Fragment>
   );
 };
 
