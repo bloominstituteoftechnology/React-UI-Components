@@ -10,11 +10,10 @@
   justify-content: center;
   text-align: center;
   flex-shrink: 0;
-  background-color: white;
-  border: 3px solid #a20623;
+  background-color: #a20623;
   border-radius: 50%;
-  height: 50px;
-  width: 50px;
+  height: 55px;
+  width: 55px;
   margin: 5px;
 }
 
@@ -22,6 +21,7 @@
   width: 30px;
   height: 30px;
   margin-top: 5px;
+  filter: grayscale(100%) invert(1);
 }
 
 .headerTitleHolder {

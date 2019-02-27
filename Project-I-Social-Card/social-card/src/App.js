@@ -15,8 +15,11 @@ const App = () => {
         headerContent="Let's learn React by buyilding simple interfaces with component Don't try to overthink it, just keep it simple and have fun. Once you feel comfortable using components you are well on your way to mastering REACT!"
       />
       <Card
+        cardLink="https://reactjs.org"
         bannerImage="https://tk-assets.lambdaschool.com/fcd75197-7d12-46ec-bc9e-4130f34822fa_reactbackground.png"
         bannerAlt="React.js logo"
+        cardTitle="Get started with React"
+        cardContent="React makes it painless to create interactive UIs. Design simple views for each state in your application."
       />
     </div>
   );

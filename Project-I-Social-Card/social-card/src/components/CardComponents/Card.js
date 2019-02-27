@@ -4,12 +4,12 @@ import CardBanner from "./CardBanner";
 import CardContent from "./CardContent";
 import CardContainer from "./CardContainer";
 
-const Card = ({ bannerImage, bannerAlt }) => {
+const Card = ({ bannerImage, bannerAlt, cardLink, cardTitle, cardContent }) => {
   return (
     <Fragment>
-      <CardContainer>
+      <CardContainer cardLink={cardLink}>
         <CardBanner bannerImage={bannerImage} bannerAlt={bannerAlt} />
-        <CardContent />
+        <CardContent cardTitle={cardTitle} cardContent={cardContent} />
       </CardContainer>
     </Fragment>
   );
