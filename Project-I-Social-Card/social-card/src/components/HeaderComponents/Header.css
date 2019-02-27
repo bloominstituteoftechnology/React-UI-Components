@@ -1,1 +1,22 @@
 /* All styles for your header Components live here */
+.headertainer {
+  display: flex;
+}
+
+.thumbtainer {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  margin: 10px;
+}
+
+.headerThumbnail {
+  width: 30px;
+  height: 30px;
+  //margin: 0 auto;
+}
