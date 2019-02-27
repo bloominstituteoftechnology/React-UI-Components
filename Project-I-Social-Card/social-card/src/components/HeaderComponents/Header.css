@@ -2,10 +2,17 @@
 header {
     display: flex;
 }
-img {
+.image-thumbnail {
     margin: 10px;
-    width: 7%;
-    height: 7%;
+    width: 10%;
+    height: 100%;
+    /* width: 7%;
+    height: 7%; */
+    border: 1px dashed violet;
+}
+.header-text {
+    width: 90%;
+    border: 1px dotted orange;
 }
 .header-title {
     display: flex;
@@ -19,6 +26,6 @@ img {
     margin: 0 5px;
     font-size: 1.2rem;
 }
-p {
+.header-content {
     margin: 10px;
 }

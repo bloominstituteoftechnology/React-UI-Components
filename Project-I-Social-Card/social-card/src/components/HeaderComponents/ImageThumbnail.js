@@ -4,8 +4,8 @@ import './Header.css';
 
 function ImageThumbnail (props) {
     return (
-        <img src={props.src} />
-    )
+        <img src={props.src} className='image-thumbnail'/>
+    );
 }
 
 export default ImageThumbnail;

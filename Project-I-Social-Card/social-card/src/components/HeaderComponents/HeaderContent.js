@@ -4,7 +4,7 @@ import HeaderContainer from './HeaderContainer';
 
 function HeaderContent(props) {
     return (
-        <p>{props.text}</p>
+        <p className="header-content">{props.text}</p>
     );
 }
 
