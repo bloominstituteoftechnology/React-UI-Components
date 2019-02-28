@@ -1,6 +1,8 @@
 /* All styles for your Card Components live here */
 .twitter-link-img {
     width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 
 .twitter-body {
