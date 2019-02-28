@@ -1,0 +1,38 @@
+
+.calcContainer {
+    width: 50%;
+    padding: 15px;
+    margin: 15px;
+}
+
+.content-row {
+    display: flex;
+}
+
+.component-border {
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    flex-grow: 1;
+}
+
+p {
+    display: flex;
+    flex-grow: 1;
+}
+
+[data-line="2"] .component-border:nth-child(2), 
+[data-line="3"] .component-border:nth-child(4), 
+[data-line="4"] .component-border:nth-child(4), 
+[data-line="5"] .component-border:nth-child(4), 
+[data-line="6"] .component-border:nth-child(2) {
+    background-color: pink;
+    flex-grow: 0;
+    width: 25%;
+}
+
+
+/* [data-line="6"] .numberButton {
+    width: 75%;
+    background-color: pink;
+} */
