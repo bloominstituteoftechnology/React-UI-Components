@@ -27,13 +27,13 @@ function Footer(){
     return (
         <footer>
             <div className="icon">
-            <i onClick={addComment} className="far fa-comment"><span>{comment}</span></i>
+            <i onClick={addComment} className="far fa-comment"><span>&nbsp;&nbsp;</span></i>
             </div>
             <div className="icon">
-            <i onClick={addSync} className="fas fa-sync"><span>{synBtn}</span></i>
+            <i onClick={addSync} className="fas fa-sync"><span>&nbsp;&nbsp;</span></i>
             </div>
             <div className="icon">
-            <i onClick={addHeart} className="far fa-heart"><span>{heart}</span></i>
+            <i onClick={addHeart} className="far fa-heart"><span>&nbsp;&nbsp;</span></i>
             </div>
             <div className="icon">
             <i className="far fa-envelope"></i>
