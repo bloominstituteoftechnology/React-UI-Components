@@ -12,6 +12,9 @@ const HeaderTitle = props => {
                 @LambdsSchool
             </div>
             <div className='date'>
+                <p className='dot'>
+                    •
+                </p>
                 <p className='dayNumber'>
                     26
                 </p>

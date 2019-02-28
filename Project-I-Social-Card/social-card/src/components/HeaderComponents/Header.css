@@ -1,1 +1,38 @@
 /* All styles for your header Components live here */
+.HeaderContainer {
+    /* background-color:  orange; */
+
+    display: flex;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+}
+
+.HeaderTitle {
+    display: flex;
+    align-items: center;
+}
+
+.userHandle {
+    display: flex;
+    margin-left: 10px;
+}
+
+.date {
+    display: flex;
+    flex-direction: row;
+}
+
+.dot {
+    margin: auto 10px;
+}
+
+.monthText {
+    margin-left: 5px;
+}
+
+
+
+

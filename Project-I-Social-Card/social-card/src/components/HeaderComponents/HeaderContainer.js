@@ -2,16 +2,24 @@ import React from "react";
 import "./Header.css";
 
 
-{/* <script type='text/babel'> */ }
+import ImgThumbnail from './ImageThumbnail';
+import HeaderTitle from './HeaderTitle';
+import HeaderContent from './HeaderContent';
+
+
 
 const HeaderContainer = props => {
   return (
-    <div className='headerContainer'>
-      headerContainer
+    <div className='HeaderContainer'>
+      <ImgThumbnail />
+      <div className="right">
+        <HeaderTitle />
+        <HeaderContent />
+      </div>
     </div>
   )
 }
 
 export default HeaderContainer;
 
-{/* </script> */ }
+
