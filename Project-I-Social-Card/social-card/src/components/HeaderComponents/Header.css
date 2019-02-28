@@ -1,6 +1,7 @@
 /* All styles for your header Components live here */
 
 .Header {
+    width: 100%;
     display: flex;
     align-items: flex-start;
 }
@@ -12,16 +13,17 @@
 }
 
 .Title h1 {
-   font-size: 1.5rem;
+   font-size: 1rem;
    font-weight: bold;
    margin: 5px; 
 }
 
-.Title h2 {
+.H2 {
     font-size: .8rem;
     font-weight: normal;
 }
 
 .Logo {
-    width: 5%;
+    width: 8%;
+    margin: 5px;
 }
