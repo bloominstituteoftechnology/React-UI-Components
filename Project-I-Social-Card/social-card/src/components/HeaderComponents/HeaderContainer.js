@@ -7,8 +7,10 @@ import './Header.css';
 const HeaderContainer = props => (
     <div className='header-container'>
         <ImageThumbnail thumbnail={props.header.thumbnail}/>
-        <HeaderTitle title={props.header.title}/>
-        <HeaderContent content={props.header.content}/>
+        <div className='header-text'>
+            <HeaderTitle title={props.header.title}/>
+            <HeaderContent content={props.header.content}/>
+        </div>
     </div>
 )
 
