@@ -6,13 +6,13 @@ import CardContainer from './components/CardComponents/CardContainer'
 import Footer from './components/FooterComponents/Footer'
 
 const App = () => {
-  let twitterHeading = {
+  let author = {
     name: "Lambda School",
     handle: "@LambdaSchool"
   }
   return (
     <div className="twitter-card">
-      <HeaderContainer twitterHeading={twitterHeading} />
+      <HeaderContainer author={author} />
       <CardContainer />
       <Footer />
     </div>

@@ -5,11 +5,10 @@ import HeaderContent from './HeaderContent'
 import ImageThumbnail from './ImageThumbnail'
 
 function HeaderContainer(props) {
-    console.log(props)
     return (
         <div className="twitter-header">
             <ImageThumbnail />
-            <HeaderContent name={props.twitterHeading.name} handle={props.twitterHeading.handle} />
+            <HeaderContent name={props.author.name} handle={props.author.handle} />
         </div>
     )
 }
