@@ -4,11 +4,12 @@ import './Header.css';
 import HeaderContent from './HeaderContent'
 import ImageThumbnail from './ImageThumbnail'
 
-function HeaderContainer() {
+function HeaderContainer(props) {
+    console.log(props)
     return (
         <div className="twitter-header">
             <ImageThumbnail />
-            <HeaderContent />
+            <HeaderContent  />
         </div>
     )
 }
