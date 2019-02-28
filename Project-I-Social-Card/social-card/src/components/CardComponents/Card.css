@@ -1,1 +1,16 @@
 /* All styles for your Card Components live here */
+/* .logo {
+    width: 25px;
+    height: 25px;
+} */
+
+.banner {
+    margin-left: 80px;
+    max-width: 670px;
+}
+
+.cardContent {
+    margin-left: 80px;
+    max-width: 650px;
+
+}
