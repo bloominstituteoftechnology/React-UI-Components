@@ -1,1 +1,38 @@
 /* All styles for your Card Components live here */
+
+.cardContainer{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    border: 1px solid #672470;
+    width: 99.5%;
+    margin-left: .1%;
+
+}
+
+.reactLogo {
+    height: 275px;
+    width: 100%;
+}
+
+span {
+    font-weight: normal;
+    color: #7E8890;
+    font-size: .8rem;
+}
+
+.content {
+    font-size: .9rem;
+    padding-top: 10px; 
+    padding-left: .5%;
+}
+
+.cardContent {
+    border: 1px solid #9A929B;
+    
+}
+
+.react {
+    padding-left: 12%;
+    margin-right: 2%;
+}
