@@ -21,6 +21,11 @@
 .H2 {
     font-size: .8rem;
     font-weight: normal;
+    color: darkgray;
+}
+
+.Header-Content {
+    margin: 5px;
 }
 
 .Logo {

@@ -1,5 +1,32 @@
 /* All styles for your Card Components live here */
 
+.Card-Container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin: 5px;
+}
+
 .Card-Banner {
-    width: 100%;
+    width: 90%;
+}
+
+.Card-Content {
+    width: 89.6%;
+
+    border: 1px solid darkgray;   
+}
+
+.Card-Content h2 {
+    font-size: 1rem;
+    padding-left: 5%;
+}
+
+.Card-Content p {
+    padding-left: 5%;
+}
+
+.Card-Content .Link {
+    padding-left: 5%;
+    color: darkgray;
 }
