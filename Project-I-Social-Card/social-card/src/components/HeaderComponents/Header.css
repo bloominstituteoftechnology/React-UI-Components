@@ -1,4 +1,25 @@
 /* All styles for your header Components live here */
-img {
+.titter-profile {
     width: 48px;
+    height: 48px;
+}
+
+.twitter-header {
+    display: flex;
+    
+}
+
+.twitter-title {
+    font-weight: bold;
+}
+
+.twitter-title span {
+    font-weight: normal;
+    color: darkgray;
+    font-size: 14px;
+}
+
+.twitter-content {
+    margin-left: 15px;
+    margin-top: -10px;
 }

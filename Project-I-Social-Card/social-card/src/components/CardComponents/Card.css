@@ -1,1 +1,32 @@
 /* All styles for your Card Components live here */
+.twitter-link-img {
+    width: 100%;
+}
+
+.twitter-body {
+    margin-left: 65px;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.card-body {
+    border: 1px solid lightgray;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: -5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.twitter-link {
+    font-weight: 12px;
+    color: darkgray;
+}
+
+.card-link {
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+}
