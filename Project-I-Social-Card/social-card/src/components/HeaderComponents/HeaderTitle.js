@@ -4,8 +4,8 @@ import moment from 'moment';
 
 const date = new Date();
 const format = 'D MMM';
-let time = moment(date).format(format);
-let currentDate = time.toLowerCase();
+const time = moment(date).format(format);
+const currentDate = time.toLowerCase();
 
 function HeaderTitle (props) {
     return (
@@ -13,6 +13,7 @@ function HeaderTitle (props) {
             <div className="header-title">
                 <h4>{props.title}</h4>
                 <p className='small-text'>@{props.title}</p>
+                <p class='small-text'>•</p>
                 <p className='small-text'>{currentDate}</p>
             </div>
         </div>  
