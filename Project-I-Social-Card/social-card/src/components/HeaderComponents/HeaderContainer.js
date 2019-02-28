@@ -1,14 +1,14 @@
 import React from 'react';
 import './Header.css';
 
-import ImageThumbNail from "./ImageThumbnail";
+import ImageThumbnail from "./ImageThumbnail";
 import HeaderTitle from "./HeaderTitle";
 
 
 function HeaderContainer() {
     return (
         <div className="HeadCon">
-            <ImageThumbNail />
+            <ImageThumbnail />
             <HeaderTitle />
         </div>
     );

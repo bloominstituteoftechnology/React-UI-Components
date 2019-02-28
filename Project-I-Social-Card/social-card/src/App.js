@@ -9,8 +9,8 @@ const App = () => {
   return (
     <div className = "App">
     <HeaderContainer />
-    <CardContainer />
-    <Footer />
+    {/* <CardContainer /> */}
+    {/* <Footer /> */}
 
     </div>
   );
