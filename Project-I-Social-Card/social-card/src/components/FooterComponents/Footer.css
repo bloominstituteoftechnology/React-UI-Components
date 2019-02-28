@@ -1,0 +1,27 @@
+.footerContainer, .iconContainer, p {
+    display: flex;
+}
+
+.iconContainer {
+    margin: 0px 0px 0px 135px;
+    /* flex-grow: 1; */
+    width: 50%;
+    justify-content: space-around;
+}
+
+.fa-comment { // COMMENT ICON
+    font-size: 30px;
+}
+
+.fa-retweet { // RETWEET ITON
+    font-size: 30px;
+}
+
+.fa-heart { // HEART
+    font-size: 30px;
+}
+
+.fa-envelope { // Email
+    font-size: 30px;
+}
+

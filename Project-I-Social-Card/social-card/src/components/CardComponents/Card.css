@@ -4,7 +4,12 @@
     flex-direction: column;
     border: .5px solid black;
 
-    margin: 0px 0px 0px 150px;
+    margin: 0px 0px 0px 135px;
+}
+
+.cardContainer img {
+    display: flex; 
+    max-width: 800px;
 }
 
 .cardBanner, .cardContent {
