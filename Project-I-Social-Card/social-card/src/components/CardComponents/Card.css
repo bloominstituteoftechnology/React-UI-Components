@@ -1,1 +1,27 @@
 /* All styles for your Card Components live here */
+
+.imgBanner{
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+#card {
+    width: 600px;
+    margin: auto;
+    border: 1px solid lightgrey;
+    box-shadow: 0 4px 8px 0 grey;
+    border-radius: 5px;
+}
+
+
+h1{
+    font-size: 16px;
+}
+
+.reactJS{
+    color: grey;
+}
+
+.cardInfo{
+    margin-left: 15px;
+}

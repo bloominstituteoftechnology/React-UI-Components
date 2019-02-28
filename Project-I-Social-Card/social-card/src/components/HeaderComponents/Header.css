@@ -1,6 +1,7 @@
 /* All styles for your header Components live here */
 .headerMain{
-    display: inline-flex;
+    display: flex;
+    justify-content: center;
 }
 
 .imgHeader {
