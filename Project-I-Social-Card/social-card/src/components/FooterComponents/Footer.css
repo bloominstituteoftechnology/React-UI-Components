@@ -1,0 +1,11 @@
+.footer { 
+    width:100%;
+    max-width: 59rem;
+    margin: 0 auto;
+    padding-left: 15%;
+}
+
+.footer>svg {
+    padding-right: 1.5rem;
+
+}
