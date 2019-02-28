@@ -1,9 +1,16 @@
 footer {
     margin-left: 65px;
     margin-top: 20px;
+    display: flex;
 }
 
 .far, .fas {
     margin-right: 40px;
     color: darkgray;
+    cursor:pointer;
+    
+}
+
+.far span, .fas span {
+    padding-left: 10px;
 }

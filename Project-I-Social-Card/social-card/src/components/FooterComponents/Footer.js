@@ -1,12 +1,43 @@
 import React from 'react'
 import "./Footer.css"
 function Footer(){
+    let comment = 0;
+    let synBtn = 0;
+    let heart = 0;
+
+
+    function addComment(e) {
+        e.preventDefault();
+        comment++
+        e.target.innerHTML = `<span>${comment}</span>`
+    }
+    function addSync(e) {
+        e.preventDefault();
+        synBtn++
+        e.target.innerHTML = `<span>${synBtn}</span>`
+    }
+    function addHeart(e) {
+        e.preventDefault();
+        let heartIcon = document.querySelector('.fa-heart');
+        heartIcon.style.color = 'red';
+        heart++
+        e.target.innerHTML = `<span>${heart}</span>`
+    }
+
     return (
         <footer>
-            <i className="far fa-comment"></i>
-            <i className="fas fa-sync"> 6</i>
-            <i className="far fa-heart"> 4</i>
+            <div className="icon">
+            <i onClick={addComment} className="far fa-comment"><span>{comment}</span></i>
+            </div>
+            <div className="icon">
+            <i onClick={addSync} className="fas fa-sync"><span>{synBtn}</span></i>
+            </div>
+            <div className="icon">
+            <i onClick={addHeart} className="far fa-heart"><span>{heart}</span></i>
+            </div>
+            <div className="icon">
             <i className="far fa-envelope"></i>
+            </div>
         </footer>
     )
 }
