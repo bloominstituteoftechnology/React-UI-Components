@@ -1,1 +1,19 @@
 /* All styles for your header Components live here */
+.headerMain{
+    display: inline-flex;
+}
+
+.imgHeader {
+    width: 45px;
+    margin-top: 15px;
+    padding-right: 10px;
+}
+
+span {
+    color: grey;
+    font-size: 14px;
+}
+
+.content {
+    width: 600px;
+}
