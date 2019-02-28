@@ -7,11 +7,9 @@ footer {
 }
 
 .icon-container {    
-    /* border: 1px dotted orange; */
     width: 17%;
     display: flex;
     justify-content: flex-start;
-    /* padding: 0 3%; */
     align-items: center;
     cursor: pointer;
 }
