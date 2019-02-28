@@ -6,7 +6,7 @@ const CardContent = () => {
         <React.Fragment>
             <h2>Get started with React</h2>
             <p>React Makes it painless to create interactive UIs.  Design simple views for each state in your application.</p>
-            <a href="reactjs.org">reactjs.org</a>
+            <a href="https://reactjs.org" target="_blank">reactjs.org</a>
         </React.Fragment>
     );
 }

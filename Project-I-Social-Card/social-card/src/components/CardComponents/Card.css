@@ -1,1 +1,24 @@
 /* All styles for your Card Components live here */
+.cardContainer {
+    margin: 0 140px;
+
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 36px;
+    margin: 10px;
+}
+
+a {
+    color: #C3CAD1;
+    font-size: 24px;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.cardContent {
+    border: 1px solid #EBEFF3;
+    padding: 10px 0;
+    width: 1200px;
+}

@@ -5,7 +5,7 @@ const HeaderTitle = () => {
     return (
         <React.Fragment>
         <h1>Lambda School</h1>
-        <span>@LambdaSchool - 26 jan</span>
+        <span>@LambdaSchool  •  26 jan</span>
         </React.Fragment>
     );
 }
