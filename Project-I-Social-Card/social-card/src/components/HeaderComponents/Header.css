@@ -1,1 +1,47 @@
-/* All styles for your header Components live here */
+.header-container {
+  display: flex;
+  border: 1px solid #c13232;
+  padding: 2px;
+}
+
+.header-container img {
+  width: 14%;
+  height: 100%;
+  border: 1px solid gray;
+  padding: 5px;
+  margin: 1px;
+  padding-bottom: 15px;
+}
+
+.header-content {
+  border: 1px solid #3d6d8d;
+  padding: 5px;
+  margin: 1px;
+}
+
+.header-content p {
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.header-content .header-title-container {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+.header-content .header-title-container h1 {
+  font-size: 1.2rem;
+}
+
+.header-content .header-title-container p {
+  margin-left: 15px;
+  font-size: 1rem;
+}
+
+.header-content .header-title-container .header-time {
+  display: list-item;
+  list-style-type: disc;
+  margin-left: 30px;
+}
