@@ -1,5 +1,10 @@
 /* All styles for your header Components live here */
 
+.Header {
+    display: flex;
+    align-items: flex-start;
+}
+
 .Title {
     display: flex;
     justify-content: flex-start;
@@ -7,11 +12,16 @@
 }
 
 .Title h1 {
-   font-size: 2rem;
-   font-weight: bold; 
+   font-size: 1.5rem;
+   font-weight: bold;
+   margin: 5px; 
 }
 
 .Title h2 {
-    font-size: 1rem;
+    font-size: .8rem;
     font-weight: normal;
+}
+
+.Logo {
+    width: 5%;
 }
