@@ -10,7 +10,7 @@ function HeaderTitle(props) {
     <p className="twitter-title">
       {props.name}
       <span>
-        {props.handle} &#183; {postDate}
+         {props.handle} &#183; {postDate}
       </span>
     </p>
   );
