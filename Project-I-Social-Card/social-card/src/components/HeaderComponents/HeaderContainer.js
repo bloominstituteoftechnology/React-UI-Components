@@ -9,7 +9,7 @@ function HeaderContainer(props) {
     return (
         <div className="twitter-header">
             <ImageThumbnail />
-            <HeaderContent  />
+            <HeaderContent name={props.twitterHeading.name} handle={props.twitterHeading.handle} />
         </div>
     )
 }
