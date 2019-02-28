@@ -1,1 +1,46 @@
 /* All styles for your header Components live here */
+
+.header-container {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.header-title {
+    display: flex;
+}
+
+.header-title p {
+    margin-right: 10px;
+}
+
+.header-content {
+    width: 75%;
+}
+
+.header-content-text {
+    font-size: 20px;
+    margin: 0;
+}
+
+.image-thumbnail {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.image-thumbnail img {
+    min-width: 70px;
+    max-width: 70px;
+    min-height: 75px;
+    max-height: 75px;
+}
+
+
+/* global styles */
+.strong {
+    font-weight: bold;
+}
+
+.grey-font {
+    color: grey;
+}
