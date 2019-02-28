@@ -1,1 +1,17 @@
 /* All styles for your header Components live here */
+
+.Title {
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+}
+
+.Title h1 {
+   font-size: 2rem;
+   font-weight: bold; 
+}
+
+.Title h2 {
+    font-size: 1rem;
+    font-weight: normal;
+}
