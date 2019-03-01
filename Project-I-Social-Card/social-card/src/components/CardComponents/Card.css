@@ -1,1 +1,84 @@
 /* All styles for your Card Components live here */
+
+h3 {
+    color: black;
+}
+
+.card-container {
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+}
+
+.background-image {
+    background-image: url("https://tk-assets.lambdaschool.com/fcd75197-7d12-46ec-bc9e-4130f34822fa_reactbackground.png");
+    width: 550px;
+    height: 350px;
+    background-position: center;
+    border-radius: 5px;
+}
+
+.header-content {
+    align-items: flex-end;
+    width: 80%;
+    display: flex;
+    margin-left: 20%;
+    margin-bottom: 2%;
+}
+
+.head-contain {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right: 134px;
+}
+
+.lambda-headers {
+    width: 100%;
+    display: flex;
+    padding-left: 20%;
+}
+
+h1,
+h2 {
+    font-size: 12px;
+}
+
+h1 {
+    padding-top: 0.2%;
+}
+
+h2 {
+    color: grey;
+    margin-left: 5px;
+    opacity: 0.4;
+}
+
+img {
+    width: 60px;
+    height: 50px;
+    ;
+}
+
+.thumb-contain {
+    position: relative;
+    top: 70px;
+    left: 75px;
+}
+
+.App {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.bottom-content {
+    border: 1px solid grey;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.reactjs-org {
+    margin-top: -5%;
+    color: grey;
+    opacity: 0.8;
+}
