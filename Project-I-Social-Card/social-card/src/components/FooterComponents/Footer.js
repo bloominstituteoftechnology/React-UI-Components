@@ -52,32 +52,55 @@ function commentClicked() {
     } else {
         commentIconText.innerHTML = parseInt(commentIconText.innerHTML, 10) + 1;
     }
+
+    if (parseInt(commentIconText.innerHTML, 10) > 10) {
+        commentIconText.style.color = 'red';
+        commentIcon.style.opacity = '1';
+    }
 }
 
 function refreshClicked() {
+    const commentIcon = document.querySelector('.refresh');
     const commentIconText = document.querySelector('.footer-text-refresh');
     if (commentIconText.innerHTML === '') {
         commentIconText.innerHTML = '1';
     } else {
         commentIconText.innerHTML = parseInt(commentIconText.innerHTML, 10) + 1;
     }
+
+    if (parseInt(commentIconText.innerHTML, 10) > 10) {
+        commentIconText.style.color = 'red';
+        commentIcon.style.opacity = '1';
+    }
 }
 
 function heartClicked() {
+    const commentIcon = document.querySelector('.heart');
     const commentIconText = document.querySelector('.footer-text-heart');
     if (commentIconText.innerHTML === '') {
         commentIconText.innerHTML = '1';
     } else {
         commentIconText.innerHTML = parseInt(commentIconText.innerHTML, 10) + 1;
     }
+
+    if (parseInt(commentIconText.innerHTML, 10) > 10) {
+        commentIconText.style.color = 'red';
+        commentIcon.style.opacity = '1';
+    }
 }
 
 function envelopeClicked() {
+    const commentIcon = document.querySelector('.envelope');
     const commentIconText = document.querySelector('.footer-text-envelope');
     if (commentIconText.innerHTML === '') {
         commentIconText.innerHTML = '1';
     } else {
         commentIconText.innerHTML = parseInt(commentIconText.innerHTML, 10) + 1;
+    }
+
+    if (parseInt(commentIconText.innerHTML, 10) > 10) {
+        commentIconText.style.color = 'red';
+        commentIcon.style.opacity = '1';
     }
 }
 

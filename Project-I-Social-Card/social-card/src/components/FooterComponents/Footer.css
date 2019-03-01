@@ -6,7 +6,7 @@ footer {
 
 }
 
-.icon-container {    
+.icon-container {  
     width: 17%;
     display: flex;
     justify-content: flex-start;
@@ -16,7 +16,7 @@ footer {
 
 .icon-image {
     width: 25%;
-    margin-right: 10px;
+    margin-right: 5px;
     opacity: 0.5;
 }
 .icon-image:first-child {
