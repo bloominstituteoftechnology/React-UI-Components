@@ -1,0 +1,27 @@
+footer {
+    width: 85%;
+    margin-right: 2%;
+    display: flex;
+    padding: 4% 0;
+
+}
+
+.icon-container {  
+    width: 17%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    cursor: pointer;
+}
+
+.icon-image {
+    width: 25%;
+    margin-right: 5px;
+    opacity: 0.5;
+}
+.icon-image:first-child {
+    transform: scaleX(-1);
+}
+.footer-text-comment, .footer-text-refresh, .footer-text-heart, .footer-text-envelope {
+    color: rgb(155, 155, 155);
+}

@@ -1,1 +1,26 @@
 /* All styles for your header Components live here */
+header {
+    display: flex;
+    width: 100%;
+    padding: 2% 3% 2% 1%;
+}
+.image-thumbnail {
+    width: 10%;
+    height: 100%;
+    padding: 0 1% 1% 0;
+}
+.header-text {
+    width: 90%;
+    padding-left: 3%;
+}
+.header-title {
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+    margin-bottom: 2%;
+}
+.small-text {
+    color: rgb(155, 155, 155);
+    margin: 0 5px;
+    font-size: 1.2rem;
+}

@@ -1,1 +1,23 @@
 /* All styles for your Card Components live here */
+.card-container {
+    width: 85%;
+    margin-right: 2%;
+    text-decoration: none;
+    color: rgb(37, 37, 37);
+    border: 1px solid rgba(155, 155, 155, .2);
+    border-radius: 7px;
+    cursor: pointer;
+}
+.card-content-banner {
+    width: 100%;
+    border-radius: 7px 7px 0 0;
+}
+.card-content {
+    padding: 3%;
+}
+.card-content-header, .card-content-text {
+    margin-bottom: 2%;
+}
+.card-content-link {
+    color: rgb(155, 155, 155);
+}
