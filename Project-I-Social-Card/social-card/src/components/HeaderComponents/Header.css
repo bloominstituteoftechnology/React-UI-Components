@@ -1,1 +1,45 @@
 /* All styles for your header Components live here */
+.headertainer {
+    display: flex;
+  }
+  
+   .thumbtainer {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-shrink: 0;
+    background-color: #a20623;
+    border-radius: 50%;
+    height: 55px;
+    width: 55px;
+    margin: 5px;
+  }
+  
+   .headerThumbnail {
+    width: 30px;
+    height: 30px;
+    margin-top: 5px;
+    filter: grayscale(1) contrast(150%) invert(1);
+  }
+  
+   .headerTitleHolder {
+    display: flex;
+  }
+  
+   .headerTitle {
+    font-size: 1.6rem;
+    font-weight: bold;
+  }
+  
+   .headerSubtitle {
+    font-size: 1.4rem;
+    color: #a3b0b9;
+    margin-left: 2%;
+  }
+  
+   .headerContent p {
+    font-size: 1.2rem;
+    padding-right: 5px;
+  }
