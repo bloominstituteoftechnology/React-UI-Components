@@ -13,7 +13,7 @@ function HeaderTitle (props) {
             <div className="header-title">
                 <h4>{props.title}</h4>
                 <p className='small-text'>@{props.title}</p>
-                <p class='small-text'>•</p>
+                <p className='small-text'>•</p>
                 <p className='small-text'>{currentDate}</p>
             </div>
         </div>  
