@@ -2,8 +2,11 @@ import React from 'react';
 import './Button.css';
 
 const NumberButton = props => {
+    let className = 'btn num span' + props.num.span
     return (
-        <div className='btn'>{props.value}</div>
+        <div className={className}>
+            <pre>{props.num.value}</pre>
+        </div>
     )
 }
 

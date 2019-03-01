@@ -8,16 +8,51 @@ const App = () => {
   return (
     <div className='calculator'>
       <Display value='0' />
-      {props.buttons.oporators.map((oper, i) => {return <ActionButton value={oper} key={i}/>})}
-      {props.buttons.numbers.map((num, i) => {return <NumberButton value={num} key={i}/>})}
+      {props.buttons.oporators.map((oper, i) => {return <ActionButton oper={oper} key={i}/>})}
+      {props.buttons.numbers.map((num, i) => {return <NumberButton num={num} key={i}/>})}
     </div>
   );
 };
 
 let props = {
   buttons: {
-    numbers: [9,8,7,6,5,4,3,2,1,0],
-    oporators: ['clear','÷','x','-','+','='],
+    numbers: [
+      { value: 9,
+        span: 1},
+      { value: 8,
+        span: 1},
+      { value: 7,
+        span: 1},
+      { value: 6,
+        span: 1},
+      { value: 5,
+        span: 1},
+      { value: 4,
+        span: 1},
+      { value: 3,
+        span: 1},
+      { value: 2,
+        span: 1},
+      { value: 1,
+        span: 1},
+      { value: 0,
+        span: 3},
+    ],
+    oporators: [
+      { value: 'clear',
+        span: 3,},
+      { value: '÷',
+        span: 1,},
+      { value: 'x',
+        span: 1,},
+      { value: '-',
+        span: 1,},
+      { value: '+',
+        span: 1,},
+      { value: '=',
+        span: 1,},
+    ],
+    // oporators: ['clear','÷','x','-','+','='],
   }
 }
 

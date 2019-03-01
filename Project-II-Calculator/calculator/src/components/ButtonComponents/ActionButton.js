@@ -2,8 +2,11 @@ import React from 'react';
 import './Button.css';
 
 const ActionButton = props => {
+    let className = 'btn oper span' + props.oper.span
     return (
-        <div className='opor'>{props.value}</div>
+        <div className={className}>
+            <pre>{props.oper.value}</pre>
+        </div>
     )
 }
 

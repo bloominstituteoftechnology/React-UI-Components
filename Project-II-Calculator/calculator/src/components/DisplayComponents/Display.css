@@ -1,0 +1,19 @@
+/*___ ___ ___ ___ _      ___   __
+ |   \_ _/ __| _ \ |    /_\ \ / /
+ | |) | |\__ \  _/ |__ / _ \ V / 
+ |___/___|___/_| |____/_/ \_\_|  
+*/
+.calculator .display {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 7rem;
+    border: 1px solid #979797;
+    background-color: #222;
+    color: #fff;
+    padding: 0 10px;
+    grid-column: 1 / -1;
+}
+.calculator .display pre {
+    width: 100%;
+}
