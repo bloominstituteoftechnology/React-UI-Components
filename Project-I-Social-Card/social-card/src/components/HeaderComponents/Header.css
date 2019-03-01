@@ -1,1 +1,15 @@
 /* All styles for your header Components live here */
+.HeaderContainer {
+    border: 1px solid red;
+}
+
+.ImageThumbnail {
+    border: 1px solid green;
+}
+
+.HeaderContent {
+    border: 1px solid lightblue;
+}
+
+.HeaderTitle {
+    border: 1px solid pink;

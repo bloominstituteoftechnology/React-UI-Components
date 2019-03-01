@@ -1,1 +1,4 @@
 /* All styles for your Card Components live here */
+CardContainer {
+    border: 1px solid purple;
+}
