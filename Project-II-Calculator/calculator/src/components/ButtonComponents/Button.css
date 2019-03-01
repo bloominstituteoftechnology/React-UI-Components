@@ -1,3 +1,4 @@
+/* Default styling  for buttons */
 .btn {
     width: 25%;
     height: 100px;
@@ -11,16 +12,18 @@
     border-top: none;
     cursor: pointer;
 }
+.btn:focus {
+    outline: 0;
+    background: rgba(151, 36, 55, .5);
+}
+/* Additional styling for red number buttons */
 .red {
     background: rgb(151, 36, 55);
     color: white;
     border-right: 2px solid rgb(185, 185, 185);
 }
+/* Additional styling for wide action buttons */
 .big {
     width: 75%;
     border-right: none;
-}
-.btn:focus {
-    outline: 0;
-    background: rgba(151, 36, 55, .5);
 }
