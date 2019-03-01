@@ -5,6 +5,7 @@ const icons = [
     {
         id: 1,
         name: 'icon-image comment',
+        textClass: 'footer-text-comment',
         eventFunction: commentClicked,
         src: 'https://img.icons8.com/ios/30/000000/speech-bubble.png',
         text: null,
@@ -12,6 +13,7 @@ const icons = [
     {
         id: 2,
         name: 'icon-image refresh',
+        textClass: 'footer-text-refresh',
         eventFunction: refreshClicked,
         src: 'https://img.icons8.com/ios-glyphs/30/000000/refresh.png',
         text: 6,
@@ -19,6 +21,7 @@ const icons = [
     {
         id: 3,
         name: 'icon-image heart',
+        textClass: 'footer-text-heart',
         eventFunction: heartClicked,
         src: 'https://img.icons8.com/ios/30/000000/hearts.png',
         text: 4,
@@ -26,6 +29,7 @@ const icons = [
     {
         id: 4,
         name: 'icon-image envelope',
+        textClass: 'footer-text-envelope',
         eventFunction: envelopeClicked,
         src: 'https://img.icons8.com/ios/30/000000/new-post.png',
         text: null,
@@ -37,24 +41,44 @@ function commentClicked() {
     if (commentIcon.style.opacity === '0.5') {
         commentIcon.style.opacity = '1';
         commentIcon.style.transform = 'none';
-        commentIcon.style.width = '35%';
     } else {
         commentIcon.style.opacity = '0.5';
         commentIcon.style.transform = 'scaleX(-1)';
-        commentIcon.style.width = '25%';
+    }
+
+    const commentIconText = document.querySelector('.footer-text-comment');
+    if (commentIconText.innerHTML === '') {
+        commentIconText.innerHTML = '1';
+    } else {
+        commentIconText.innerHTML = parseInt(commentIconText.innerHTML, 10) + 1;
     }
 }
 
 function refreshClicked() {
-    console.log("Refresh Clicked!");
+    const commentIconText = document.querySelector('.footer-text-refresh');
+    if (commentIconText.innerHTML === '') {
+        commentIconText.innerHTML = '1';
+    } else {
+        commentIconText.innerHTML = parseInt(commentIconText.innerHTML, 10) + 1;
+    }
 }
 
 function heartClicked() {
-    console.log("Heart Clicked!");
+    const commentIconText = document.querySelector('.footer-text-heart');
+    if (commentIconText.innerHTML === '') {
+        commentIconText.innerHTML = '1';
+    } else {
+        commentIconText.innerHTML = parseInt(commentIconText.innerHTML, 10) + 1;
+    }
 }
 
 function envelopeClicked() {
-    console.log("Envelope Clicked!");
+    const commentIconText = document.querySelector('.footer-text-envelope');
+    if (commentIconText.innerHTML === '') {
+        commentIconText.innerHTML = '1';
+    } else {
+        commentIconText.innerHTML = parseInt(commentIconText.innerHTML, 10) + 1;
+    }
 }
 
 function Icon (props) {
@@ -62,7 +86,7 @@ function Icon (props) {
     return (
         <div onClick={icon.eventFunction} className='icon-container'>
             <img src={icon.src} className={icon.name} alt={icon.name} />
-            <p className='footer-text'>{icon.text}</p>
+            <p className={icon.textClass}>{icon.text}</p>
         </div>
     )
 }

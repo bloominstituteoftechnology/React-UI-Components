@@ -22,6 +22,6 @@ footer {
 .icon-image:first-child {
     transform: scaleX(-1);
 }
-.footer-text {
+.footer-text-comment, .footer-text-refresh, .footer-text-heart, .footer-text-envelope {
     color: rgb(155, 155, 155);
 }
