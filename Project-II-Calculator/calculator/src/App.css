@@ -1,5 +1,15 @@
 .container {
-    max-width: 650px;
+    max-width: 400px;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
     margin-top: 20px;
+}
+.top {
+    width: 100%;
+}
+.bottom {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
 }

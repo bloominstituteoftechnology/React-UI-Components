@@ -1,0 +1,26 @@
+.btn {
+    width: 25%;
+    height: 100px;
+    font-size: 4rem;
+    text-align: center;
+    vertical-align: center;
+    border: 2px solid rgb(185, 185, 185);
+    padding: 0;
+    background: white;
+    border-right: none;
+    border-top: none;
+    cursor: pointer;
+}
+.red {
+    background: rgb(151, 36, 55);
+    color: white;
+    border-right: 2px solid rgb(185, 185, 185);
+}
+.big {
+    width: 75%;
+    border-right: none;
+}
+.btn:focus {
+    outline: 0;
+    background: rgba(151, 36, 55, .5);
+}
