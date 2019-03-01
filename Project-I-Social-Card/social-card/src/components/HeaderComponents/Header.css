@@ -1,1 +1,48 @@
-/* All styles for your header Components live here */
+.headerContainer {
+  height: 200px;
+  display: flex;
+  width: 100%;
+  max-width: 59rem;
+  margin: 0 auto;
+}
+
+.rightPartition {
+  width: 85%;
+  font-size: 2rem;
+  padding-left: 3%;
+}
+
+.pHandle {
+  font-size: 1rem;
+  color: grey;
+  margin-left: 10px;
+}
+
+.pTimeStamp {
+  font-size: 1rem;
+  color: grey;
+  margin-left: 10px;
+}
+
+.pName {
+  font-size: 1.2rem;
+  font-weight: 650;
+}
+
+.headerContent {
+  font-size: 1.2rem;
+  line-height: .8;
+  display: flex;
+}
+
+.lambdaLogo {
+  content: url('https://tk-assets.lambdaschool.com/1c1b7262-cf23-4a9f-90b6-da0d3c74a5c6_lambdacrest.png');
+  width: 80px;
+  height: 80px;
+  padding-top: 20px;
+}
+
+.headerTitle {
+  display: flex;
+  align-items: baseline;
+}
