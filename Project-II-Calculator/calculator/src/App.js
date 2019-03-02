@@ -1,59 +1,50 @@
 import React from 'react';
 import './App.css';
 import Display from './components/DisplayComponents/CalculatorDisplay'
-import NumberButton from './components/ButtonComponents/NumberButton'
-import ActionButton from './components/ButtonComponents/ActionButton'
+import Button from './components/ButtonComponents/Button'
 
 const App = () => {
   return (
     <div className='calculator'>
       <Display value='0' />
-      {props.buttons.oporators.map((oper, i) => {return <ActionButton oper={oper} key={i}/>})}
-      {props.buttons.numbers.map((num, i) => {return <NumberButton num={num} key={i}/>})}
+      {buttons.map((btn, i) => {return <Button btn={btn} key={i}/>})}
     </div>
   );
 };
 
-let props = {
-  buttons: {
-    numbers: [
-      { value: 9,
-        span: 1},
-      { value: 8,
-        span: 1},
-      { value: 7,
-        span: 1},
-      { value: 6,
-        span: 1},
-      { value: 5,
-        span: 1},
-      { value: 4,
-        span: 1},
-      { value: 3,
-        span: 1},
-      { value: 2,
-        span: 1},
-      { value: 1,
-        span: 1},
-      { value: 0,
-        span: 3},
-    ],
-    oporators: [
-      { value: 'clear',
-        span: 3,},
-      { value: '÷',
-        span: 1,},
-      { value: 'x',
-        span: 1,},
-      { value: '-',
-        span: 1,},
-      { value: '+',
-        span: 1,},
-      { value: '=',
-        span: 1,},
-    ],
-    // oporators: ['clear','÷','x','-','+','='],
-  }
-}
+let buttons = [
+    { value: 'clear',
+      class: 'btn oper span3'},
+    { value: '÷',
+      class: 'btn oper'},
+    { value: 'x',
+      class: 'btn oper'},
+    { value: '-',
+      class: 'btn oper'},
+    { value: '+',
+      class: 'btn oper'},
+    { value: '=',
+      class: 'btn oper'},
+    { value: 9,
+      class: 'btn num'},
+    { value: 8,
+      class: 'btn num'},
+    { value: 7,
+      class: 'btn num'},
+    { value: 6,
+      class: 'btn num'},
+    { value: 5,
+      class: 'btn num'},
+    { value: 4,
+      class: 'btn num'},
+    { value: 3,
+      class: 'btn num'},
+    { value: 2,
+      class: 'btn num'},
+    { value: 1,
+      class: 'btn num'},
+    { value: 0,
+      class: 'btn num span3'},
+]
 
 export default App;

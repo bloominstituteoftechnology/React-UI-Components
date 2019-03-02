@@ -5,33 +5,18 @@
 */
 .calculator .btn {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100px;
-    font-size: 7rem;
+        align-items: center;
+        justify-content: center;
     border: 1px solid #979797;
     cursor: pointer;
-    transition: background-color 100ms ease-in-out;
-}
-.calculator .num:hover {
-    background-color: #ccc;
-}
-.calculator .btn.span3 {
-    grid-column: span 3;
 }
 .calculator .btn.oper {
     background-color: #A0001E;
     color: #fff;
-}
-.calculator .btn.oper.span3 {
-    grid-column: 2/-1;
-}
-.calculator .btn.oper:hover {
-    background-color: #800006;
-}
-.calculator .btn.oper:not(.span3) {
     grid-column: 1;
 }
-.calculator .btn.oper:first-of-type {
-    width: 300px;
+.calculator .btn.span3 {
+    background-color: inherit;
+    color: inherit;
+    grid-column: 2/-1;
 }
