@@ -1,31 +1,32 @@
-/* All styles for your Card Components live here */
-.cardContainer {
+.content-top {
     display: flex;
     flex-direction: column;
+}
+
+    img {
+        max-width: 500px;
+        width: 100%;
+        height: auto;
+    }
+
+.content-bottom {
+    display: flex;
+    flex-direction: column;
+
+    padding: 15px;
     border: .5px solid black;
-
-    margin: 0px 0px 0px 135px;
 }
+    .content-bottom a {
+        text-decoration: none;
+        color: black;
+    }
 
-.cardContainer img {
-    display: flex; 
-    max-width: 800px;
-}
-
-.cardBanner, .cardContent {
-    display: flex;
-}
-
-a {
-    text-decoration: none;
-}
-
-.cardBanner {
-    flex-direction: column;
-    padding: 10px;
-}
-
-.cardBanner h2 {
-    margin: 10px 0px 0px 0px;
-}
-
+    a h2{
+        margin: 0px;
+    }
+    a p {
+        margin: 10px 0px;
+    }
+    .source a {
+        color: lightgray;
+    }

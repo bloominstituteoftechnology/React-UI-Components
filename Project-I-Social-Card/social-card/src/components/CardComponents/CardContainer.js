@@ -7,9 +7,9 @@ import CardContent from './CardContent';
 
 const CardContainer = props => {
     return (
-        <div className='cardContainer'>
+        <div className='content-top'>
             <CardBanner />
-            <div className='cardContent'>
+            <div className='content-bottom'>
                 <CardContent />
             </div>
         </div>

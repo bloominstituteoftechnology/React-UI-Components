@@ -5,16 +5,35 @@ const FooterIcons = props => {
     return (
         <div className='iconContainer'>
             <p>
-                <i class="far fa-comment"></i>
+                <div className="footerIcon">
+                    <i class="far fa-comment"></i>
+                </div>
             </p>
             <p>
-                <i class="fas fa-retweet"></i>
+                <div className="footerIcon">
+                    <i class="fas fa-retweet"></i>
+                </div>
+                <div className="footerIconCounter">
+                    <div>
+                        ##
+                    </div>
+                </div>
+                
             </p>
             <p>
-                <i class="far fa-heart"></i>
+                <div>
+                    <i class="far fa-heart"></i>
+                </div>
+                <div className="footerIconCounter">
+                    <div>
+                        ##
+                    </div>
+                </div>
             </p>
             <p>
-                <i class="far fa-envelope"></i>
+                <div className="footerIcon">
+                    <i class="far fa-envelope"></i>
+                </div>
             </p>
         </div>
     )

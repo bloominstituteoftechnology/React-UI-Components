@@ -1,27 +1,22 @@
-.footerContainer, .iconContainer, p {
+.footerContainer {
     display: flex;
 }
 
 .iconContainer {
-    margin: 0px 0px 0px 135px;
-    /* flex-grow: 1; */
-    width: 50%;
-    justify-content: space-around;
+    display: flex; 
+    width:50%;
+    justify-content: space-between
 }
 
-.fa-comment { // COMMENT ICON
-    font-size: 30px;
+p {
+    display: flex; 
 }
 
-.fa-retweet { // RETWEET ITON
-    font-size: 30px;
+.footerIcon, .footerIconCounter {
+    display: flex;
 }
 
-.fa-heart { // HEART
-    font-size: 30px;
-}
-
-.fa-envelope { // Email
-    font-size: 30px;
+.footerIconCounter {
+    margin-left: 5px
 }
 
