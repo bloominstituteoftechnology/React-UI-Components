@@ -1,50 +1,48 @@
 import React from 'react';
-import './App.css';
 import Display from './components/DisplayComponents/CalculatorDisplay'
 import Button from './components/ButtonComponents/Button'
+import './App.css';
 
-const App = () => {
-  return (
-    <div className='calculator'>
-      <Display value='0' />
-      {buttons.map((btn, i) => {return <Button btn={btn} key={i}/>})}
-    </div>
-  );
-};
+let numbers = [9,8,7,6,5,4,3,2,1]
+let opers = ['÷','x','-','+','=']
 
-let buttons = [
-    { value: 'clear',
-      class: 'btn oper span3'},
-    { value: '÷',
-      class: 'btn oper'},
-    { value: 'x',
-      class: 'btn oper'},
-    { value: '-',
-      class: 'btn oper'},
-    { value: '+',
-      class: 'btn oper'},
-    { value: '=',
-      class: 'btn oper'},
-    { value: 9,
-      class: 'btn num'},
-    { value: 8,
-      class: 'btn num'},
-    { value: 7,
-      class: 'btn num'},
-    { value: 6,
-      class: 'btn num'},
-    { value: 5,
-      class: 'btn num'},
-    { value: 4,
-      class: 'btn num'},
-    { value: 3,
-      class: 'btn num'},
-    { value: 2,
-      class: 'btn num'},
-    { value: 1,
-      class: 'btn num'},
-    { value: 0,
-      class: 'btn num span3'},
-]
+class App extends React.Component {
+  constructor() {
+    super()
+    this.state = {
+      total: 0,
+      num1: null,
+      num2: null,
+      oper: null,
+    }
+  }
+  clear = () => {
+    this.setState({total: '0'})
+  }
+  selectNum = num => {
+    const total = this.state.total.toString()
+    if(total !== '0') this.setState({total: total + num})
+    else this.setState({total: num})
+  }
+  selectOper = oper => {
+    //temp doesn't work
+    this.setState({
+      total: oper,
+      num1: this.state.total,
+      oper: oper,
+    })
+  }
+  render() {
+    return (
+      <div className='calculator'>
+        <Display value={this.state.total} />
+        <Button value='clear' class='btn span3' click={this.clear}/>
+        {opers.map((oper, i) => {return <Button value={oper} class='btn oper' click={this.selectOper} key={i}/>})}
+        {numbers.map((num, i) => {return <Button value={num} class='btn num' click={this.selectNum} key={i}/>})}
+        <Button value='0' class='btn num span3' click={this.selectNum}/>
+      </div>
+    )
+  }
+}
 
 export default App;

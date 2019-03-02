@@ -2,10 +2,9 @@ import React from 'react';
 import './Button.css';
 
 const Button = props => {
-    let className = props.btn.class
     return (
-        <div className={className}>
-            <pre>{props.btn.value}</pre>
+        <div className={props.class} onClick={() => props.click(props.value)}>
+            <pre>{props.value}</pre>
         </div>
     )
 }
