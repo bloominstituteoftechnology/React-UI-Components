@@ -10,27 +10,47 @@ class App extends React.Component {
   constructor() {
     super()
     this.state = {
-      total: 0,
       num1: null,
       num2: null,
       oper: null,
+      total: '0',
     }
   }
   clear = () => {
-    this.setState({total: '0'})
+    this.setState({
+      num1: null,
+      num2: null,
+      oper: null,
+      total: '0',
+    })
   }
   selectNum = num => {
     const total = this.state.total.toString()
-    if(total !== '0') this.setState({total: total + num})
+    if(total !== '0') this.setState({total: total.concat(num)})
     else this.setState({total: num})
   }
   selectOper = oper => {
-    //temp doesn't work
-    this.setState({
-      total: oper,
-      num1: this.state.total,
-      oper: oper,
-    })
+    if(!this.state.num1) {
+      this.setState({
+        num1: this.state.total,
+        oper: oper,
+        total: '',
+      })
+    }
+    if(this.state.num1 && this.state.oper) {
+      this.setState({
+        num2: this.state.total,
+        total: this.eval(this.state.total)
+      })
+    }
+  }
+  eval = num2 => {
+    switch(this.state.oper) {
+      case '÷': return this.state.num1 / num2
+      case 'x': return this.state.num1 * num2
+      case '-': return this.state.num1 - num2
+      case '+': return this.state.num1 + num2
+    }
   }
   render() {
     return (
