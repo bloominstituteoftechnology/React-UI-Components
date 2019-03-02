@@ -1,0 +1,10 @@
+#root {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.container-App {
+    background-color: pink;
+    width: 80%;
+}

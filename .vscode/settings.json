@@ -2,13 +2,4 @@
     "emmet.includeLanguages": {
         "javascript": "javascriptreact"
     },
-
-    //SIDEBAR 
-    // "workbench.colorCustomizations": {
-	// 	"activityBar.background": "#00AA00"
-    // }
-    
-    "workbench.colorCustomizations": {
-		"badge.background": "#00AA00"
-    }
 }
