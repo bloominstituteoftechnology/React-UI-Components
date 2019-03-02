@@ -1,47 +1,44 @@
 import React from 'react';
 import './Display.css';
+import ActionButton from '../ButtonComponents/ActionButton';
+import NumberButton from '../ButtonComponents/NumberButton';
 
 const Calculator = () => {
     return (
       <div id="container">
         <div className="display row">
-          <h2 className='none'>0</h2>
+          <h2 className="none">0</h2>
         </div>
 
         <div className="top row">
-          <div className="clearNum bordRight med">
-          </div>
-
-          <div className="divide operator sm">
-            <h2>&divide;</h2>
-          </div>
+          <ActionButton className="med" text="clear" />
+          <ActionButton className="operator" text="&#247;" />
         </div>
 
         <div className="topNums row">
-          <div className="seven bordRight sm"></div>
-
-          <div className="eight bordRight sm" />
-          <div className="nine bordRight sm" />
-          <div className="multiply operator sm" />
+          <NumberButton className="sm" text="7" />
+          <NumberButton className="sm" text="8" />
+          <NumberButton className="sm" text="9" />
+          <ActionButton className="operator" text="&#215;" />
         </div>
 
         <div className="middleNums row">
-          <div className="four bordRight sm" />
-          <div className="five bordRight sm" />
-          <div className="six bordRight sm" />
-          <div className="subtract operator sm" />
+          <NumberButton className="sm" text="4" />
+          <NumberButton className="sm" text="5" />
+          <NumberButton className="sm" text="6" />
+          <ActionButton className="operator" text="&#8722;" />
         </div>
 
         <div className="bottomNums row">
-          <div className="one bordRight sm" />
-          <div className="two bordRight sm" />
-          <div className="three bordRight sm" />
-          <div className="add operator sm" />
+          <NumberButton className="sm" text="1" />
+          <NumberButton className="sm" text="2" />
+          <NumberButton className="sm" text="3" />
+          <ActionButton className="operator" text="&#43;" />
         </div>
 
         <div className="bottom row">
-          <div className="zero bordRight med" />
-          <div className="equal operator sm" />
+          <ActionButton className='med' text='0' />
+          <ActionButton className='operator' text='&#61;' />
         </div>
       </div>
     );
