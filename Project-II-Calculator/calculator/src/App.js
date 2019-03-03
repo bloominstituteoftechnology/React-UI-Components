@@ -1,11 +1,10 @@
 import React from 'react';
 import './App.css';
-import CalculatorDisplay from './components/DisplayComponents/CalculatorDisplay';
-
+import Handlers from './components/ButtonComponents/Handlers';
 const App = () => {
   return (
-    <div>
-      <CalculatorDisplay />
+    <div className ='app'>
+      <Handlers />
     </div>
   );
 };
