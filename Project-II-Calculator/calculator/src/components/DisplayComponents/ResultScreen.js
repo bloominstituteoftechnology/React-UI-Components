@@ -3,7 +3,7 @@ import './Display.css';
 
 const ResultScreen = props => {
     return (
-        <div data-line="1" className="result">
+        <div className="result line-container">
             <div className="calculatedResult">
                 RESULT
             </div>

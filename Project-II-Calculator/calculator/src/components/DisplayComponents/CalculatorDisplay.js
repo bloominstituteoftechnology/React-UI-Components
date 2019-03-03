@@ -12,6 +12,9 @@ const CalculatorDisplay = props => {
             <ResultScreen />
             <DisplayLineLARGE />
             <DisplayLineSTANDARD />
+            <DisplayLineSTANDARD />
+            <DisplayLineSTANDARD />
+            <DisplayLineLARGE />
         </div>
     )
 }

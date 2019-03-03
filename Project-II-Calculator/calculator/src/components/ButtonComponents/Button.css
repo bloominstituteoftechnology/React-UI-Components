@@ -1,0 +1,26 @@
+.actionButton {
+    display: flex;
+    width: 25%;
+}
+
+.standardButton {
+    display: flex;
+    flex-grow: 1;
+    /* width: 25%; */
+    justify-content: center;
+    border: 1px solid black;
+}
+
+.largeButton {
+    display: flex;
+    justify-content: center;
+    width: 75%;
+}
+
+.actionButton {
+    background-color: red;
+}
+
+.standardButton {
+    background-color: white;
+}

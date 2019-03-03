@@ -1,7 +1,5 @@
 
-
-
-[data-line="1"] {
+.result {
     display: flex;
     justify-content: flex-end;
 
@@ -14,14 +12,9 @@
 }
 
 
-[data-line="2"] {
+.line-container {
     display: flex;
 }
-    [data-line="2"] .clearButton {
-        display: flex;
-        justify-content: center;
-        width: 75%;
-    }
 
 
 

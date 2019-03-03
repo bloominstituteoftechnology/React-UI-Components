@@ -1,14 +1,14 @@
 import React from 'react';
 import './Display.css';
 
-import ClearBtn from '../ButtonComponents/ClearBtn'
-import StandardButton from '../ButtonComponents/Button'
+import LargeButton from '../ButtonComponents/LargeButton'
+import ActionButton from '../ButtonComponents/ActionButton'
 
 const DisplayLineLARGE = props => {
     return (
-        <div data-line="2">
-            <ClearBtn />
-            <StandardButton />
+        <div className='line-container'>
+            <LargeButton />
+            <ActionButton />
         </div>
     )
 }
