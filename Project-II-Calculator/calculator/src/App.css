@@ -1,0 +1,6 @@
+.app {
+    border: 1px solid lightgray;
+    display: flex;
+    width: 400px;
+    flex-wrap: wrap;
+}

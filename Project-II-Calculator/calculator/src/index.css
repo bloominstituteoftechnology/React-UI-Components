@@ -1,5 +1,29 @@
-body {
-  margin: 0;
-  padding: 0;
+html {
+  box-sizing: border-box;
+}
+
+.App {
   font-family: sans-serif;
+  text-align: center;
+  background: #0a001c;
+  color: orange;
+  min-height: 105vh;
+  padding: 0;
+}
+.box-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.box {
+  border: 3px solid orange;
+  font-size: 42px;
+  background: linear-gradient(red, yellow);
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: darkred;
 }

@@ -1,1 +1,35 @@
 /* All styles for your header Components live here */
+.headerContainer {
+    display: flex;
+    flex-wrap: wrap;
+    height: 200px;
+}
+
+.imageThumbnail {
+    display: flex;
+    border: 1px solid yellow;
+    height: 120px;
+}
+
+.headerContent {
+    border: 1px solid #EBEFF3;
+    width: 1200px;
+    display: inline;
+
+}
+
+h1 {
+    display: inline;
+    font-size: 48px;
+    margin: 10px 20px;
+}
+
+p {
+    margin: 10px;
+    font-size: 32px;
+}
+
+span {
+    font-size: 24px;
+    color: #C3CAD1;
+}

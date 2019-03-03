@@ -1,0 +1,29 @@
+button {
+    padding: 0;
+    margin: 0;
+    font-size: 36px;
+    height: 100px;
+    width: 100px;
+    border: 1px solid lightgray;
+}
+
+.action {
+    background: #9F0510;
+    color: white;
+}
+
+.numberButton {
+    font-weight: bold;
+    background: white;
+}
+
+.bigButton {
+    background: white;
+    width: 75%;
+}
+
+.actionButton {
+    font-size: 52px;
+    background: #990414;
+    color: white;
+}
