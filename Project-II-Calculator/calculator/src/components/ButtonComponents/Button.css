@@ -1,21 +1,35 @@
-.actionButton {
+
+.actionButton, .standardButton, .largeButton, .result{
     display: flex;
-    width: 25%;
     justify-content: center;
+    align-items: center;
+    height: 50px;
+} 
+
+.result {
+    justify-content: flex-end;
+
+    background-color: black;
+    color: white;
+}
+
+    .calculatedResult {
+        margin-right: 15px;
+    }
+
+.actionButton {
+    width: 25%;
     border: 1px solid black;
 }
 
 .standardButton {
-    display: flex;
     flex-grow: 1;
-    /* width: 25%; */
-    justify-content: center;
     border: 1px solid black;
 }
 
 .largeButton {
-    display: flex;
-    justify-content: center;
+
+
     width: 75%;
     border: 1px solid black;
 }

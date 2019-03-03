@@ -1,29 +1,3 @@
-
-.result {
-    display: flex;
-    justify-content: flex-end;
-
-    background-color: black;
-    color: white;
-}
-
-.calculatedResult {
-    margin-right: 15px;
-}
-
-
 .line-container {
     display: flex;
 }
-
-
-
-/* [data-line="2"] .component-border:nth-child(2), 
-[data-line="3"] .component-border:nth-child(4), 
-[data-line="4"] .component-border:nth-child(4), 
-[data-line="5"] .component-border:nth-child(4), 
-[data-line="6"] .component-border:nth-child(2) {
-    background-color: pink;
-    flex-grow: 0;
-    width: 25%;
-} */

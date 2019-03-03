@@ -5,7 +5,7 @@ const ResultScreen = props => {
     return (
         <div className="result line-container">
             <div className="calculatedResult">
-                RESULT
+                0 ... I CHEATED...this is hard coded
             </div>
         </div>
     )
