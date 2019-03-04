@@ -1,0 +1,13 @@
+* {
+    font-size: 24px;
+}
+
+.calc-display {
+    width: 419px;
+    background: black;
+}
+
+body {
+    width: 880px;
+    margin: 0 auto;
+}
