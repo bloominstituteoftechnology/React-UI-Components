@@ -9,13 +9,13 @@
     
     .number-button {
         width: 4.165rem;
-        border: 1px solid #e3e3e3;
+        border: 1px solid #222222;
         background: white
     }
     
     .large-button {
-        width: 12.5rem;
-        border: 1px solid #e3e3e3;
+        width: 12.6rem;
+        border: 1px solid #222222;
         background: white
     }
     
@@ -25,7 +25,7 @@
         font-size: 50px;
         font-weight: 200;
         width: 120px;
-        border: 1px solid #e3e3e3;
+        border: 1px solid #222222;
     }
     
     .number-button {
