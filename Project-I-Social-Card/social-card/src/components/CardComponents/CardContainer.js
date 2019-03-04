@@ -5,11 +5,15 @@ import CardBanner from './CardBanner';
 import CardContent from './CardContent'
 
 
+
+
 const CardContainer = () => {
-    
+    const click = () => {
+        document.innerHTML = 'fdsfsd'
+    }
     return (
         <a href="https://reactjs.org">
-        <div className='card-container'>
+        <div onClick={this.click} className='card-container'>
             <CardBanner />
             <CardContent />
             
@@ -17,5 +21,8 @@ const CardContainer = () => {
         </a>
     )
 }
+
+
+
 
 export default CardContainer;

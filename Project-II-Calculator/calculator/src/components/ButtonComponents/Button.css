@@ -1,0 +1,39 @@
+    .app {
+        margin: 0 auto;
+    }
+    
+    .button-container {
+        display: flex;
+        margin: 0 auto;
+    }
+    
+    .number-button {
+        width: 4.165rem;
+        border: 1px solid #e3e3e3;
+        background: white
+    }
+    
+    .large-button {
+        width: 12.5rem;
+        border: 1px solid #e3e3e3;
+        background: white
+    }
+    
+    .small-button {
+        background: #9e0523;
+        color: #ffffff;
+        font-size: 50px;
+        font-weight: 200;
+        width: 120px;
+        border: 1px solid #e3e3e3;
+    }
+    
+    .number-button {
+        font-size: 2.0834rem;
+        font-weight: 200;
+    }
+    
+    .row {
+        height: 120px;
+        display: flex;
+    }

@@ -1,0 +1,13 @@
+.row {
+    background: black;
+    width: 399px;
+}
+
+p {
+    color: white;
+    position: relative;
+    bottom: 30px;
+    left: 355px;
+    font-size: 64px;
+    font-weight: 100;
+}
