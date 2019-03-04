@@ -3,3 +3,8 @@ body {
   padding: 0.4rem;
   font-family: sans-serif;
 }
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
