@@ -8,7 +8,7 @@ const ActionButton = props => {
     return (
         <div className='actionButton'>
             {/* {testAction} */}
-            {/* {displayProps.mathContent} */}
+            {displayProps.mathContent}
         </div>
     )
 }

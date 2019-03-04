@@ -3,10 +3,10 @@ import './Button.css';
 
 const StandardButton = props => {
     const { displayProps } = props;
-    // console.log(displayProps)
+
     return (
         <div className='standardButton'>
-            
+            {displayProps}
         </div>
     )
 }

@@ -6,13 +6,14 @@ import ActionButton from '../ButtonComponents/ActionButton'
 
 const DisplayLineSTANDARD = props => {
     const { displayProps } = props;
-    // console.log(props)
+    console.log(props)
+
 
     return (
         <div className='line-container'>
-            <StandardButton displayProps={displayProps}/>
-            <StandardButton displayProps={displayProps}/>
-            <StandardButton displayProps={displayProps}/>
+            <StandardButton displayProps={displayProps.numberContent1}/>
+            <StandardButton displayProps={displayProps.numberContent2}/>
+            <StandardButton displayProps={displayProps.numberContent3}/>
             <ActionButton displayProps={displayProps}/> 
         </div>
     )
