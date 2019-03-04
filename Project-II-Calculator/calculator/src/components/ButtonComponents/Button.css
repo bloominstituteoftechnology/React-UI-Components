@@ -8,6 +8,7 @@
 
 .result {
     justify-content: flex-end;
+    padding-right: 25px;
 
     background-color: black;
     color: white;

@@ -2,13 +2,12 @@ import React from 'react';
 import './Button.css';
 
 const LargeButton = props => {
-    const { passedPROPS } = props;
+    const { displayProps } = props;
+
     return (
         <div className='largeButton'>
-            <p>
-                {/* {passedPROPS.textContent} */}
-                
-            </p>
+            {/* {testText} */}
+            {displayProps.textContent}
         </div>    
     )
 }

@@ -5,12 +5,15 @@ import StandardButton from '../ButtonComponents/StandardButton'
 import ActionButton from '../ButtonComponents/ActionButton'
 
 const DisplayLineSTANDARD = props => {
+    const { displayProps } = props;
+    // console.log(props)
+
     return (
         <div className='line-container'>
-            <StandardButton />
-            <StandardButton />
-            <StandardButton />
-            <ActionButton /> 
+            <StandardButton displayProps={displayProps}/>
+            <StandardButton displayProps={displayProps}/>
+            <StandardButton displayProps={displayProps}/>
+            <ActionButton displayProps={displayProps}/> 
         </div>
     )
 }

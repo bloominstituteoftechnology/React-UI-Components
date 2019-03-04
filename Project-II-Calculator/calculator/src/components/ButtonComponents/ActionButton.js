@@ -2,12 +2,13 @@ import React from 'react';
 import './Button.css';
 
 const ActionButton = props => {
-    // const {mathButtonTextPROPS } = props;
+    const { displayProps } = props;
+    // console.log(displayProps)
+
     return (
         <div className='actionButton'>
-            <p>
-                fill w/props
-            </p>
+            {/* {testAction} */}
+            {/* {displayProps.mathContent} */}
         </div>
     )
 }

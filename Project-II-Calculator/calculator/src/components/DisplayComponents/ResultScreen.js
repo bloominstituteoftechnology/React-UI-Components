@@ -3,13 +3,10 @@ import './Display.css';
 
 const ResultScreen = props => {
     const { displayProps } = props;
+    // console.log(props)
     return (
         <div className="result line-container">
-            <div className="calculatedResult">
-                <p>
-                    {displayProps.resultValue}
-                </p>
-            </div>
+            {displayProps.resultValue}
         </div>
     )
 }
