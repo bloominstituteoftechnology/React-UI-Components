@@ -1,0 +1,22 @@
+/*___ _   _ _____ _____ ___  _  _ 
+ | _ ) | | |_   _|_   _/ _ \| \| |
+ | _ \ |_| | | |   | || (_) | .` |
+ |___/\___/  |_|   |_| \___/|_|\_|
+*/
+.calculator .btn {
+    display: flex;
+        align-items: center;
+        justify-content: center;
+    border: 1px solid #979797;
+    cursor: pointer;
+}
+.calculator .btn.oper {
+    background-color: #A0001E;
+    color: #fff;
+    grid-column: 1;
+}
+.calculator .btn.span3 {
+    background-color: inherit;
+    color: inherit;
+    grid-column: 2/-1;
+}
