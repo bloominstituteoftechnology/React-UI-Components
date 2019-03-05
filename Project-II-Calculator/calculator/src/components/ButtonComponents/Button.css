@@ -18,27 +18,37 @@
         margin-right: 15px;
     }
 
-.actionButton {
-    width: 25%;
-    border: 1px solid black;
+
+
+/* Styles With VARIABLES */
+
+const buttonStyle = '1px solid black'
+
+const lrgBtnStyles = {
+    border-right: 
 }
 
 .standardButton {
     flex-grow: 1;
-    border: 1px solid black;
+    width: 25%;
+
+    background-color: white;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
 }
 
 .largeButton {
-
-
     width: 75%;
-    border: 1px solid black;
+    border-bottom: 1px solid black;
 }
 
 .actionButton {
+    width: 25%;
     background-color: red;
+
+    border-bottom: 1px solid black;
 }
 
-.standardButton {
-    background-color: white;
-}
+
+
+

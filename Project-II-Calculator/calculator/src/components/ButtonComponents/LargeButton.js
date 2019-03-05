@@ -4,9 +4,14 @@ import './Button.css';
 const LargeButton = props => {
     const { displayProps } = props;
 
+
+    const buttonStyle = {
+        borderRight: '1px solid black'
+    };
+
+
     return (
-        <div className='largeButton'>
-            {/* {testText} */}
+        <div style={buttonStyle} className='largeButton'>
             {displayProps.textContent}
         </div>    
     )
