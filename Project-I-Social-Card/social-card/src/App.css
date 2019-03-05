@@ -1,4 +1,16 @@
 /* 
   Write your styles/CSS for App.js here and import into the component that you need 
-  IF you'd like to attempt to use less you'll have to research how to do this with Create React App
+  IF you'd like to attempt to use less you'll have to research how to do this with Create React App -- NOPE!
 */
+.social-card {
+  display: grid;
+  grid-template-columns: 55px 1fr;
+  max-width: 590px;
+  padding: 15px 15px;
+
+  background-color: #fff;
+}
+.social-card .info {
+  color: #888;
+  font-size: 1.2rem;
+}

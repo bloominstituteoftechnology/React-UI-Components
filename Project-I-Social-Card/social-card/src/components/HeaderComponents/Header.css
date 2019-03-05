@@ -1,1 +1,45 @@
 /* All styles for your header Components live here */
+.social-card .header-container {
+    grid-column: 1/-1;
+    display: flex;
+}
+.social-card .header-container .header-text {
+    display: flex;
+    flex-direction: column;
+    width: 504px;
+}
+.social-card .header-container .header-text .title-container {
+    display: flex;
+    font-size: 1.4rem;
+}
+.social-card .header-container .header-text .title-container .acnt-name {
+    font-weight: 600;
+    margin-right: 5px;
+}
+.social-card .header-container .header-text .content-container {
+    margin: 10px 0;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+}
+.social-card .header-container .thumbnail-container {
+    width: 48px;
+    height: 48px;
+    margin-right: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    transform: translateX(-5px)
+}
+.social-card .header-container .thumbnail-container .thumbnail-background {
+    height: 100%;
+    width: 100%;
+    border-radius: 100%;
+    position: absolute;
+    background-color: #A0161D;
+}
+.social-card .header-container .thumbnail {
+    width: 27px;
+    filter: contrast(0) brightness(100);
+    transform: translateY(2px);
+}
