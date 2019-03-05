@@ -20,25 +20,25 @@
             mathContent: 'x'
         },
     
-        // line4: {
-        //     numberContent1: 4,
-        //     numberContent2: 5,
-        //     numberContent3: 6,
-        //     mathContent: '-'
-        // },
+        line4: {
+            numberContent1: 4,
+            numberContent2: 5,
+            numberContent3: 6,
+            mathContent: '-'
+        },
     
-        // line5: {
-        //     numberContent1: 1,
-        //     numberContent2: 2,
-        //     numberContent3: 3,
-        //     mathContent: '+'
-        // },
+        line5: {
+            numberContent1: 1,
+            numberContent2: 2,
+            numberContent3: 3,
+            mathContent: '+'
+        },
 
         // // Large Line Display
-        // line6: {
-        //     textContent: 0,
-        //     mathContent: '='
-        // }
+        line6: {
+            textContent: 0,
+            mathContent: '='
+        }
     }
 
     export default myProps;
