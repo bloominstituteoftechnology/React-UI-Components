@@ -1,5 +1,40 @@
 /* All styles for your header Components live here */
 
+/* HeaderText */
+.HeaderText {
+  border: 1px solid orange;
+  display: flex;
+  flex-flow: row wrap;
+  width: 86%;
+  margin: 0 1%;
+}
+
+/* Header Container */
 .HeaderContainer {
   border: 1px solid red;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+/* Image Thumbnail */
+.ImageThumbnail img {
+  border: 1px solid green;
+  max-width: 100%;
+}
+
+/* Header Title */
+.HeaderTitle {
+  border: 1px solid blue;
+  margin: 0;
+  padding-bottom: 2.5%;
+}
+.HeaderTitle .greyText {
+  color: lightgrey;
+}
+
+/* Header Content */
+.HeaderContent {
+  border: 1px solid lightskyblue;
+  margin: 0;
+
 }
