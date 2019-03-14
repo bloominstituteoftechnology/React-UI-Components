@@ -2,4 +2,10 @@
   Write your styles/CSS for App.js here and import into the component that you need 
   IF you'd like to attempt to use less you'll have to research how to do this with Create React App
 */
-/* The Matrix has you */
+.Container {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  /* border: 2px solid red; */
+}
+
