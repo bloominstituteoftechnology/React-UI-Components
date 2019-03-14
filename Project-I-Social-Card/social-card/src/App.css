@@ -4,7 +4,7 @@
 */
 
 .App {
-  border: 1px solid purple;
+  /* border: 1px solid purple; */
   width: 700px;
   max-width: 100%;
   margin: 0 auto;
@@ -14,3 +14,7 @@
   color: lightgrey;
 }
 
+.reactSite {
+  text-decoration: none;
+  color: inherit;
+}

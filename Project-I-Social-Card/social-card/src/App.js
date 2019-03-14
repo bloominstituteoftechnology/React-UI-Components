@@ -8,7 +8,7 @@ import CardContainer from './components/CardComponents/CardContainer';
 const App = () => {
   return (
     <div className="App">
-      <h3>Welcome to React Social Card!</h3>
+      {/*<h3>Welcome to React Social Card!</h3>
       <p>
         Begin by exploring the `components` directory. You'll notice we have a
         few files that we've already included in there to get you started right
@@ -20,10 +20,12 @@ const App = () => {
           Don't forget to `default export` your components and import them here
           inside of this file in order to make them work.
         </strong>
-      </p>
+      </p>*/}
       <div>
         <HeaderContainer />
+        <a href="https://tk-assets.lambdaschool.com/fcd75197-7d12-46ec-bc9e-4130f34822fa_reactbackground.png" className="reactSite">
         <CardContainer />
+        </a>
       </div>
     </div>
   );
