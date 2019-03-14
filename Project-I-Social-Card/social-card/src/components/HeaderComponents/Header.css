@@ -1,1 +1,52 @@
 /* All styles for your header Components live here */
+
+.container {
+  box-sizing: border-box;
+  max-width: 590px;
+  margin: 0 auto;
+}
+
+.header-container {
+  box-sizing: border-box;
+  max-width: 590px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.logo {
+  margin-top: 5px;
+  margin-left: 10%;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.title-content-top {
+  margin-top: 2%;
+  margin-left: 1.8%;
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+.title-content-bottom {
+  margin-left: 1.8%;
+  width: 100%;
+  font-size: .9rem;
+  padding-left: .8%;
+  line-height: 1.2rem;
+}
+
+.lambda-name {
+  margin-left: 5px;
+  font-size: .9rem;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.twitterlink {
+  font-size: .8rem;
+  text-decoration: none;
+}
+
+.timestamp {
+  font-size: .8rem;
+}
