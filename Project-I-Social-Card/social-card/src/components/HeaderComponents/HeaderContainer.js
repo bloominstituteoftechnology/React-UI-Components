@@ -6,7 +6,7 @@ import ImageThumbnail from './ImageThumbnail';
 
 import './Header.css';
 
-const HeaderContainer = props => {
+const HeaderContainer = () => {
     return (
         <div className = "header-container">
             <ImageThumbnail />

@@ -1,9 +1,10 @@
 import React from 'react';
 import './Card.css';
 
-const CardBanner = props => {
+const CardBanner = () => {
     return (
         <div className = "card-banner">
+        Hello
         </div>
     );
 };
