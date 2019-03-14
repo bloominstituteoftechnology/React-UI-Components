@@ -8,7 +8,11 @@ import Footer from './components/FooterComponents/Footer';
 
 const App = () => {
   return (
-    <HeaderContainer />
+    <div className = "App-container">
+      <HeaderContainer />
+      <CardContainer />
+      <Footer />
+    </div>  
   );
 };
 
