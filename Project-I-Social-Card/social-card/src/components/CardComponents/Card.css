@@ -1,1 +1,40 @@
-/* All styles for your Card Components live here */
+All styles for your Card Components live here
+.card-container {
+  font-size: 1.3rem;
+}
+
+.card-container .card-banner {
+  width: 83%;
+  height: 300px;
+  margin-left: 90px;
+  background-image: url("https://tk-assets.lambdaschool.com/fcd75197-7d12-46ec-bc9e-4130f34822fa_reactbackground.png");
+  background-size: contain;
+  border-radius: 5px 5px 0 0;
+}
+
+.card-container .card-content {
+  width: 83%;
+  margin-left: 90px;
+  /* border: 1px solid grey; */
+  border-radius: 0 0 5px 5px;
+  padding: 20px;
+  font-size: 1.3rem;
+}
+
+.card-container .card-content h2 {
+  margin: 0;
+  font-size: 1.3rem;
+}
+
+.card-container .card-content p {
+  margin: 0;
+  margin-top: 10px;
+  font-size: 1.3rem;
+}
+
+.card-container .card-content a {
+  margin-top: 10px;
+  text-decoration: none;
+  font-size: 1.3rem;
+  color: grey;
+}

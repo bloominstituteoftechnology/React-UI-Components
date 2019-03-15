@@ -1,17 +1,12 @@
-import React from 'react';
-import './Header.css';
+import React from "react";
+import "./Header.css";
 
-const HeaderTitle = props => {
+const HeaderTitle = () => {
     return (
-        <div className = "header-title-container">
-            <h1 className = "header-title">
-                Lambda School
-            </h1>
-            <div className = "handle">
-                @LambdaSchool
-            </div>
-            <div className = "timestamp">• 26 jan
-            </div>
+        <div className="header-title-container">
+            <h2 className="header-title">Lambda School</h2>
+            <div className="header-link">@LambdaSchool</div>
+            <div className="header-time">• 26 jan</div>
         </div>
     );
 };
