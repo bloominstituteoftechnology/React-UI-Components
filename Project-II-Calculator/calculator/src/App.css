@@ -1,0 +1,13 @@
+.calc-wrapper {
+  border: 1px solid #7A7A7A;
+  box-sizing: border-box;
+  max-width: 230px;
+  height: 299px;
+  margin: 50px auto;
+}
+
+.row {
+  display: flex;
+  justify-content: flex-end;
+  height: 47px;
+}
