@@ -1,9 +1,9 @@
-.operation {
+.action{
   color: #FFFFFF;
   background-color: #9F001E;
   font-size: 2.3rem;
   font-weight: 200;
-  width: 60px;
+  width: 58px;
   border: 0;
   border-bottom: 1px solid #7A7A7A;
   text-align: center;
@@ -22,7 +22,8 @@
 }
 
 .zero {
-  font-weight: 600;
+  font-size: 1.3rem;
+  font-weight: 700;
 }
 
 .number {
@@ -30,6 +31,6 @@
   width: 24.7%;
   border-left: 0;
   border-top: 0;
-  font-size: 1.4rem;
-  font-weight: 600;
+  font-size: 1.3rem;
+  font-weight: 700;
 }
