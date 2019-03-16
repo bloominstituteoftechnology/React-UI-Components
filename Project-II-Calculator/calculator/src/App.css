@@ -1,9 +1,9 @@
 .calc-wrapper {
   border: 1px solid #7A7A7A;
   box-sizing: border-box;
-  max-width: 228px;
+  width: 228px;
   height: 299px;
-  margin: 50px auto;
+  margin: 100px auto;
 }
 
 .row {
