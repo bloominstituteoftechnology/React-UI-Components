@@ -10,8 +10,9 @@ const App = () => {
   return (
     <div className='calc-wrapper'>
 
-      <CalculatorDisplay text='0' />
-
+      <div className='zero-display'>
+        <CalculatorDisplay text='0' />
+      </div>
 
       <div className='row'>
         <ActionButton buttonStyle='clear' text='clear' />

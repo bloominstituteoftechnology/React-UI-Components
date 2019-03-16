@@ -1,7 +1,6 @@
 .display {
   background-color: #222222;
   color: #FFFFFF;
-  border-bottom: 1px solid #7A7A7A;
   height: 62px;
   width: 100%;
   font-size: 2.3rem;
@@ -9,5 +8,11 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
+}
+
+.zero-display {
+  padding-right: 10px;
+  background-color: #222222;
+  border-bottom: 1px solid #7A7A7A;
 }
 
