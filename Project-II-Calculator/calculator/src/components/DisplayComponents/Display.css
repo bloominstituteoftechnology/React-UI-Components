@@ -1,10 +1,16 @@
+/* .displayContent {
+    background: black;
+    height: 130px;
+    width: 470px;
+    margin: 0 auto;   
+} */
+
 .display-container {
    background: black;
    height: 130px;
    width: 470px;
    margin: 0 auto;   
 }
- 
 .display-number {
     font-size: 84px;
     color: white;

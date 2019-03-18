@@ -2,11 +2,14 @@ import React from 'react';
 import './Button.css';
 
 
-const NumberButtons = () => {
+const NumberButtons = props => {
     return (
         <div>
             <div className="button-position">
-                <div className="action-clear-button">Clear</div>
+                {/* <div className="action-clear-button">{props.text}</div> */}
+                <div>
+                    <div className={props.buttonStyles}>{props.text}</div>
+                </div>
                 <div className="number-container-flex">
                     <div className="number-container">7</div>
                     <div className="number-container">8</div>
@@ -26,6 +29,10 @@ const NumberButtons = () => {
             </div>
         </div>
     );
+};
+
+NumberButtons.defaultProps = {
+    buttonStyles: 'orange',
 };
 
 export default NumberButtons; 

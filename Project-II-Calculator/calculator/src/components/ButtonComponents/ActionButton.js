@@ -1,8 +1,12 @@
 import React from 'react';
 import './Button.css';
 
+// ActionButton.defaultProps = {
+//     buttonStyles: 'orange',
+// };
 
-const ActionButton = () => {
+
+const ActionButton = props => {
     return (
         <div>
             <div className="action-button-position">
@@ -12,8 +16,13 @@ const ActionButton = () => {
                 <div className="border">&#x2b;</div>
                 <div className="border">&#x3d;</div>
             </div>
+            <div className={props.buttonStyles}></div>
         </div>
     );
 };
+
+ActionButton.defaultProps = {
+    buttonStyles: 'orange',
+}
 
 export default ActionButton;

@@ -1,3 +1,4 @@
+
 .action-button-position {
     display: flex;
     flex-direction: column;
@@ -22,7 +23,18 @@
     margin-top: -510px;
     cursor: pointer;
 }
+.orange {
+    width: 347px;
+    height: 73px;
+    border: 1px solid gray;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 40px;
+    padding-top: 28px;
+    background: blue;
+}
 
+/* 
 .action-clear-button {
     width: 347px;
     height: 73px;
@@ -31,7 +43,7 @@
     padding-top: 10px;
     font-size: 40px;
     padding-top: 28px;
-}
+} */
 
 .number-container-flex {
     display: flex;
