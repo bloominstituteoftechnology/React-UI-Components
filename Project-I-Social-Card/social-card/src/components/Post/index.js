@@ -1,9 +1,10 @@
 import React from 'react';
+import HeaderContainer from '../HeaderComponents';
 
-class Post extends React.Component {
-    render() {
-        return <div><h2>{this.props.post.header.name}</h2><p>{this.props.post.header.content}</p></div>;
-    }
-}
+const Post = (props) => {
+    return <div className="post">
+             <HeaderContainer {...props.post.header} />
+           </div>;
+};
 
 export default Post;
