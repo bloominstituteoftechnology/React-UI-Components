@@ -19,7 +19,7 @@ class App extends React.Component {
     }
     handleNumber(num) {
         this.setState({ total: (this.state.stack === this.state.total ? num : (10 * this.state.total) + num),
-                        stack: (this.state.stack ? this.state.total : this.state.stack) });
+                        stack: (this.state.stack ? this.state.stack : this.state.total) });
     }
     handleAction(action) {
         if (action === true) { // '=' triggers stacked action
