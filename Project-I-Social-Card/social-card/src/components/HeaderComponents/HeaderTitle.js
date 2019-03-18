@@ -6,8 +6,7 @@ const HeaderTitle = () => {
     return (   
 
     <div className ="headerTitle">
-       <h1>Lambda School</h1>
-       <h1>@LambdaSchool Jan 26</h1>
+       <h1 className = "omg">Lambda School @LambdaSchool 26 Jan</h1>
        </div>
     )
     };

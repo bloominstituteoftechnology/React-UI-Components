@@ -1,20 +1,20 @@
 /* All styles for your header Components live here */
 
-.logo {
-  height: 50px;
-  padding: 5px;
-}
 
 .logoo {
-  height: 100%;
+  height: 60px;
+  padding-top:10px;
+  padding-left:10px;
 }
 
 .header {
   display: flex;
+  height: 20px;
 }
 
-h1 {
+.omg {
   font-size: 16px;
+  margin-left: 11px;
 }
 
 .headerTitle {
@@ -26,3 +26,5 @@ h1 {
   width: 30%;
   margin-left: 80px;
 }
+
+
