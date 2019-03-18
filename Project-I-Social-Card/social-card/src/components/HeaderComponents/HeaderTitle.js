@@ -1,6 +1,6 @@
 import React from 'react';
 import './Header.css';
-let moment = require('moment');
+import moment from 'moment';
 
 let date = moment().format('DD MMM');
 
