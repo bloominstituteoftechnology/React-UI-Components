@@ -2,4 +2,15 @@ import React from 'react';
 import './Header.css';
 
 import ImageThumbnail from 'ImageThumbnail.js';
-import CardContent from 'CardContent.js';
+import HeaderTitle from './HeaderTitle';
+
+const HeaderContainer = () => {
+    return (
+        <div>
+            <ImageThumbnail />
+            <HeaderTitle />
+        </div>
+    );
+};
+  
+export default HeaderContainer;

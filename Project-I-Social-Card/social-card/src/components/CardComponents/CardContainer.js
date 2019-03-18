@@ -5,7 +5,12 @@ import CardBanner from 'CardBanner.js';
 import CardContent from 'CardContent.js';
 
 const CardContainer = () => {
-    return {
-        
-    }
-}
+    return (
+      <div>
+        <CardBanner />
+        <CardContent />
+      </div>
+    );
+  };
+  
+  export default CardContainer;
