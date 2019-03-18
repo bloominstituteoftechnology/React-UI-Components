@@ -1,0 +1,30 @@
+.post .post-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 80px;
+    margin-top: 20px;
+    max-width: 400px;
+    color: grey;
+}
+
+.post .post-footer div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.post .post-footer div span {
+    margin-left: 15px;
+}
+
+.post .post-footer svg {
+    fill: grey;
+    transition: fill 0.3s;
+}
+
+.post .post-footer svg:hover {
+    fill: black;
+}
