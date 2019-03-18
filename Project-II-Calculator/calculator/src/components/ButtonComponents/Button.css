@@ -1,8 +1,8 @@
 .action-button-position {
     display: flex;
     flex-direction: column;
-    margin-left: 708px;
-
+    margin-left: 1073px;
+    cursor: pointer;
 }
 
 .border {
@@ -18,8 +18,9 @@
 }
 
 .button-position {
-    margin-left: 360px;
+    margin-left: 726px;
     margin-top: -510px;
+    cursor: pointer;
 }
 
 .action-clear-button {
