@@ -1,0 +1,10 @@
+.display {
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-size: 3.0rem;
+    text-align: right;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid grey;
+}

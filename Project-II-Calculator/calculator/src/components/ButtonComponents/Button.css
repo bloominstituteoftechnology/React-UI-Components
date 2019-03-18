@@ -1,0 +1,21 @@
+.calculator .keypad .numbers div,
+.calculator .keypad .sidepanel div {
+    display: inline-block;
+    border: 1px solid grey;
+    font-size: 2.6rem;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 10px 0;
+}
+.calculator .keypad .numbers .number-default {
+    width: 33.33%;
+}
+
+.calculator .keypad .numbers .number-wide {
+    width: 100%;
+}
+
+.calculator .keypad .sidepanel .action-default {
+    width: 100%;
+    background-color: #a0001e;
+}

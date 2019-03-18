@@ -37,19 +37,29 @@ class App extends React.Component {
     render() {
         return <div className="calculator">
                  <Display total={this.state.total} />
-                 <ActionButton action={false}
-                               text={'clear'}
-                               handleAction={this.handleAction}/>
-                 {[...Array(9)].map((_, idx) =>
-                                    <NumberButton key={idx+1}
-                                                  number={idx+1}
-                                                  handleNumber={this.handleNumber}/>)}
-                 <NumberButton key={0} number={0} handleNumber={this.handleNumber}/>
-                 {this.actions.map(({action, text}, idx) =>
-                                   <ActionButton key={idx}
-                                                 action={action}
-                                                 text={text}
-                                                 handleAction={this.handleAction}/>)}
+                 <div className="keypad">
+                   <div className="numbers">
+                     <ActionButton action={false}
+                                   text={'clear'}
+                                   buttonStyle="number-wide"
+                                   handleAction={this.handleAction}/>
+                     {[...Array(9)].map((_, idx) =>
+                                        <NumberButton key={idx+1}
+                                                      number={idx+1}
+                                                      handleNumber={this.handleNumber}/>)}
+                     <NumberButton key={0}
+                                   number={0}
+                                   buttonStyle="number-wide"
+                                   handleNumber={this.handleNumber}/>
+                   </div>
+                   <div className="sidepanel">
+                     {this.actions.map(({action, text}, idx) =>
+                                       <ActionButton key={idx}
+                                                     action={action}
+                                                     text={text}
+                                                     handleAction={this.handleAction}/>)}
+                   </div>
+                 </div>
                </div>;
     }
 }
