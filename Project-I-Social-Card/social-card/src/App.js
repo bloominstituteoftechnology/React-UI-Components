@@ -13,13 +13,13 @@ const post = {
            content: "React makes it painless to create interactive UIs. Design simple views for each state in your application",
            url: "https://www.reactjs.org"},
     reposts: 6,
+    reposted: false,
     likes: 4,
+    liked: true,
 };
 
 const App = () => {
-  return (
-      <Post post={post}/>
-  );
+    return <Post {...post} />;
 };
 
 export default App;

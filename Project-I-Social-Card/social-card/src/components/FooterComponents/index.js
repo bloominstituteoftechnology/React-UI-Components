@@ -5,23 +5,27 @@ import { ReactComponent as Heart } from './heart.svg';
 import { ReactComponent as Repost } from './repost.svg';
 import { ReactComponent as Email } from './email.svg';
 
-const Footer = (props) => {
+class Footer extends React.Component {
+    render() {
     return <div className="post-footer">
              <Comment />
              <div>
-               <Repost />
+               <Repost className={this.props.reposted ? "reposted" : ""}
+                       onClick={this.props.handleReposting}/>
                <span>
-                 {props.reposts}
+                 {this.props.reposts}
                </span>
              </div>
              <div>
-               <Heart />
+               <Heart className={this.props.liked ? "liked" : ""}
+                       onClick={this.props.handleLiking}/>
                <span>
-                 {props.likes}
+                 {this.props.likes}
                </span>
              </div>
              <Email />
            </div>;
-};
+    }
+}
 
 export default Footer;
