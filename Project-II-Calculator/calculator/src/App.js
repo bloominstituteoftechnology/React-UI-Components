@@ -7,12 +7,13 @@ class App extends React.Component {
     constructor(props) {
         super(props);
         this.state = { total: 0,
-                       action: null };
+                       stack: false,
+                       action: false };
         this.handleNumber = this.handleNumber.bind(this);
     }
     handleNumber(num) {
-        this.setState({ total: (this.state.action ? this.state.action(this.state.total, num) : num),
-                        action: null });
+        this.setState({ total: (this.state.stack === false ? num : (10 * this.state.total) + num),
+                        stack: (this.state.stack === false ? this.state.total : this.state.stack) });
     }
     render() {
         return <div className="calculator">
