@@ -1,0 +1,14 @@
+.display-container {
+   background: black;
+   height: 130px;
+   width: 470px;
+   margin: 0 auto;   
+}
+ 
+.display-number {
+    font-size: 84px;
+    color: white;
+    position: relative;
+    left: 415px;
+    top: 20px;
+}

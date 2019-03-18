@@ -1,0 +1,32 @@
+.action-button-position {
+    display: flex;
+    flex-direction: column;
+    margin-left: 708px;
+
+}
+
+.border {
+    border: 1px solid skyblue;
+    display: inline-block;
+    font-size: 60px;
+    width: 120px;
+    height: 80px;
+    text-align: center;
+    background: #A2001E;
+    color: white;
+    padding-top: 20px;
+}
+
+.number-container-flex {
+    display: flex;
+    
+}
+
+.number-container {
+    width: 120px;
+    height: 80px;
+    text-align: center;
+    border: 1px solid gray;
+    color: black;
+    font-size: bold;
+}
