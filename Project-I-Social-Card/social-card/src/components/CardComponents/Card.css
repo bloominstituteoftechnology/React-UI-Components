@@ -1,1 +1,6 @@
 /* All styles for your Card Components live here */
+.react {
+    border-radius: 4px 4px 0 0;
+  max-height: 100%;
+  max-width: 100%;
+}

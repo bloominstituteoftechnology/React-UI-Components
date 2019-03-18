@@ -1,1 +1,18 @@
 /* All styles for your header Components live here */
+
+.logo {
+  height: 50px;
+  padding: 0.3em;
+}
+
+.logoo {
+  height: 100%;
+}
+
+.header {
+    font-size: 13px;
+    font-weight: 400;
+    width: 93%;
+    line-height: 1.3;
+}
+

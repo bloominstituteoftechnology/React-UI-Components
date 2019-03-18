@@ -5,7 +5,10 @@ import './Header.css';
 const ImageThumbnail = () => {
     return (
         <div className = "logo">
-            <img src = "https://tk-assets.lambdaschool.com/1c1b7262-cf23-4a9f-90b6-da0d3c74a5c6_lambdacrest.png" />
+            <img
+            alt="lambda logo"
+            className="logoo"
+            src = "https://tk-assets.lambdaschool.com/1c1b7262-cf23-4a9f-90b6-da0d3c74a5c6_lambdacrest.png" />
         </div>
     );
 }
