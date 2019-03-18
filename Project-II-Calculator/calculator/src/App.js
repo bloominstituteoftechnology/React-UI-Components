@@ -7,16 +7,13 @@ import CalculatorDisplay from './components/DisplayComponents/CalculatorDisplay'
 
 const App = () => {
   const text = [1, 2, 3, 4, 5, 6, 7, 8, 9, '=', '+', '-', '*', '/']
-  const action = [0, 'clear']
 
   return (
     <div className="app">
       {text.map(text => (
         <NumberButton text={text} />
       ))}
-      {action.map(action => (
-        <ActionButton action={action} />
-      ))}
+      <ActionButton />
       <CalculatorDisplay />
     </div>
   )

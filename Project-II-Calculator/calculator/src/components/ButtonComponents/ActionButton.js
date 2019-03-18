@@ -1,8 +1,13 @@
-import React from 'react';
-import './Button.css';
+import React from 'react'
+import './Button.css'
 
-const ActionButton = props => {
-    return <button>{props.action}</button>
-  }
-  
-  export default ActionButton
+const ActionButton = () => {
+  return (
+    <React.Fragment>
+      <button>clear</button>
+      <button>0</button>
+    </React.Fragment>
+  )
+}
+
+export default ActionButton

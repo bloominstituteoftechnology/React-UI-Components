@@ -1,0 +1,10 @@
+body {
+    max-width: 500px;
+    margin: auto;
+}
+
+.app {
+    display: grid;
+    grid-template-columns: repeat(1fr, 4);
+    grid-template-rows: repeat(1fr, 6);
+}
