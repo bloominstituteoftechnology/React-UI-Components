@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import Post from './components/Post';
 
 const post = {
     header: {name: "Lambda School",
@@ -15,15 +16,9 @@ const post = {
     likes: 4,
 };
 
-class Post extends React.Component {
-    render() {
-        return <div><h2>{post.header.name}</h2><p>{post.header.content}</p></div>;
-    }
-}
-
 const App = () => {
   return (
-      <Post />
+      <Post post={post}/>
   );
 };
 
