@@ -4,7 +4,12 @@ import "./Footer.css";
 const Footer = () => {
   return (
     <div className="footer">
-      <i class="fab fa-accusoft" />
+      <div className="footer-icons">
+        <i class="far fa-comment" />
+        <i class="fas fa-retweet" />
+        <i class="far fa-heart" />
+        <i class="far fa-envelope" />
+      </div>
     </div>
   );
 };

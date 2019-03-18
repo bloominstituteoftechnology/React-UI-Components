@@ -4,5 +4,9 @@
 */
 
 .App {
+  display: flex;
+  flex-direction: column;
+  border: solid 2px gainsboro;
   width: 700px;
+  border-radius: 7px;
 }

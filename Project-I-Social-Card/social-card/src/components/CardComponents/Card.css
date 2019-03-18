@@ -1,7 +1,6 @@
 /* All styles for your Card Components live here */
 
 .CardContainer {
-  border: solid 1px orange;
 }
 
 .CardBanner {
@@ -30,5 +29,5 @@
 
 .CardContent h4 {
   font-size: 0.8rem;
-  color: rgba(128, 128, 128, 0.667);
+  color: gray;
 }
