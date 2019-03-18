@@ -1,1 +1,40 @@
-/* All styles for your header Components live here */
+.post .post-header {
+    display: flex;
+    flex-direction: row;
+    align-items: space-between;
+}
+
+.post .post-header img {
+    width: 80px;
+    height: 80px;
+    padding: 10px;
+    box-sizing: border-box;
+    /* border-radius: 100%; */
+}
+
+.post .post-header .post-header-copy .post-header-title {
+    margin: 10px 0;
+}
+
+.post .post-header .post-header-copy .post-header-title h2,
+.post .post-header .post-header-copy .post-header-title h3 {
+    font-weight: normal;
+    display: inline-block;
+    padding-right: 10px;
+    margin: 0;
+}
+
+.post .post-header .post-header-copy .post-header-title h2 {
+    font-size: 1.2rem;
+}
+
+.post .post-header .post-header-copy .post-header-title h3 {
+    font-size: 1.0rem;
+    color: grey;
+}
+
+.post .post-header .post-header-copy .post-header-content {
+    margin: 10px 0;
+    font-size: 1.0rem;
+    line-height: 1.3;
+}

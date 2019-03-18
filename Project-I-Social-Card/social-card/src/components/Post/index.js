@@ -1,4 +1,5 @@
 import React from 'react';
+import './Post.css';
 import HeaderContainer from '../HeaderComponents';
 import CardContainer from '../CardComponents';
 import Footer from '../FooterComponents';
