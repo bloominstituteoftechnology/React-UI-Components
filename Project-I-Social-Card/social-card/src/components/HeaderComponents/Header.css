@@ -1,1 +1,18 @@
 /* All styles for your header Components live here */
+header {
+  float: right;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  text-align: center;
+  width: 100%;
+  background: maroon;
+  color: white;
+  border-radius: 1rem;
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+
+img {
+  width: 100px;
+}

@@ -6,10 +6,12 @@ import ImageThumbnail from './ImageThumbnail';
 
 export default function HeaderContainer({ title, body, img }) {
   return (
-    <div>
+    <header>
+      <div className="image-wrapper">
+        <ImageThumbnail img={img} />
+      </div>
       <HeaderTitle title={title} />
-      <ImageThumbnail img={img} />
       <HeaderContent body={body} />
-    </div>
+    </header>
   );
 }
