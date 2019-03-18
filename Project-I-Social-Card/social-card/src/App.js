@@ -12,7 +12,7 @@ const post = {
            title: "Get started with React",
            content: "React makes it painless to create interactive UIs. Design simple views for each state in your application",
            url: "https://www.reactjs.org"},
-    shares: 6,
+    reposts: 6,
     likes: 4,
 };
 
