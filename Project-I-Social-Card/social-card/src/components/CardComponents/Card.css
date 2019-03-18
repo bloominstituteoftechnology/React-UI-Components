@@ -1,6 +1,35 @@
 /* All styles for your Card Components live here */
-.react {
-    border-radius: 4px 4px 0 0;
-  max-height: 100%;
-  max-width: 100%;
+.card {
+  padding-top: 30px;
+  padding-left: 80px;
 }
+
+
+
+.link {
+  text-decoration: none;
+  color: grey;
+  font-size: 16px;
+}
+
+.bottom {
+  width: 32%;
+}
+
+.containerLink {
+  text-decoration: none;
+}
+a:hover {color: black;}
+a:visited {color: black;}
+
+img.img {
+  width: 90%;
+  margin-left: 80px;
+}
+
+h6 {
+  margin-left: 80px;
+  font-size: 14px;
+  color: grey;
+}
+
