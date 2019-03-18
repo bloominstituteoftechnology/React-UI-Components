@@ -6,10 +6,12 @@ import Footer from "./components/FooterComponents/Footer.js";
 
 const App = () => {
   return (
-    <div className="App">
-      <HeaderContainer />
-      <CardContainer />
-      <Footer />
+    <div className="body">
+      <div className="App">
+        <HeaderContainer />
+        <CardContainer />
+        <Footer />
+      </div>
     </div>
   );
 };
