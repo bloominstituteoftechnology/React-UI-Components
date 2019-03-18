@@ -1,1 +1,24 @@
 /* All styles for your Card Components live here */
+
+.card *{
+  margin: 0;
+  padding: 0;
+}
+.card {
+  width: 20rem;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: .25rem;
+  border: 1px solid black;
+}
+.card-header {
+  background: lightgrey;
+  padding: 1rem;
+  border-bottom: 2px solid grey;
+}
+
+.card-body {
+  padding: 1.25rem;
+}

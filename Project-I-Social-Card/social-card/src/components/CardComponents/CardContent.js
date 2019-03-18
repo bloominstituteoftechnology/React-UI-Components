@@ -1,2 +1,5 @@
 import React from 'react';
-import './Card.css';
+
+export default function CardContent({ body }) {
+  return <div className="card-body">{body}</div>;
+}
