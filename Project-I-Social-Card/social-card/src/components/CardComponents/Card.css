@@ -13,6 +13,11 @@ a {
 #card-content {
   margin-left: 10%;
 }
+
+#card-content p {
+  margin-right: 10%;
+}
+
 #react-link {
   color: gray;
 }
