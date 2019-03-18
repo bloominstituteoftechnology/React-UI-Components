@@ -1,1 +1,40 @@
 /* All styles for your header Components live here */
+
+#header-image {
+  width: 10%;
+}
+
+#header-image img {
+  width: 50%;
+  margin: 20px 0 0 30px;
+}
+
+
+#header {
+  display: flex;
+  justify-content: flex-start;
+}
+
+#header-right {
+  width: 90%;
+}
+
+#header-right p {
+  margin-right: 10%;
+}
+
+#title {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#title span {
+  margin-left: 10px;
+  color: gray;
+}
+
+#title ul {
+  padding-inline-start: 30px;
+  color: gray;
+}
