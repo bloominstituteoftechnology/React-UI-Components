@@ -17,16 +17,44 @@
     padding-top: 20px;
 }
 
+.button-position {
+    margin-left: 360px;
+    margin-top: -510px;
+}
+
+.action-clear-button {
+    width: 347px;
+    height: 73px;
+    border: 1px solid gray;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 40px;
+    padding-top: 28px;
+}
+
 .number-container-flex {
     display: flex;
     
 }
 
 .number-container {
-    width: 120px;
-    height: 80px;
+    width: 114px;
+    height: 85px;
     text-align: center;
     border: 1px solid gray;
     color: black;
     font-size: bold;
+    font-size: 50px;
+    font-weight: bold;
+    padding-top: 15px;
+}
+
+.number-container-zero {
+    font-weight: bold;
+    font-size: 50px;
+    width: 347px;
+    height: 73px;
+    border: 1px solid gray;
+    text-align: center;
+    padding-top: 25px;
 }
