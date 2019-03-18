@@ -1,1 +1,24 @@
 /* All styles for your header Components live here */
+.Header-Container{
+    margin:30px;
+    display:flex;
+    flex-wrap:wrap;
+    
+   
+    
+}
+
+.Title{
+   
+   display:flex;
+   align-items:center;
+   width:45%;
+   
+   justify-content:space-around;
+   
+  
+}
+.HeadContent{
+    display:flex;
+    align-items:flex-end;
+}

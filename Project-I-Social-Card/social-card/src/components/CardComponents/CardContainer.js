@@ -1,10 +1,16 @@
 import React from 'react';
 import './Card.css';
-import from './CardBanner';
+import CardBanner from './CardBanner'
+import CardContent from './CardContent'
 
-const Card = () => {
-    return <div className = "CardContainer">
+const CardContainer = () => {
+    return (
+        <a href="https://www.reactjs.org">
+    <div className = "Card">
     <CardBanner />
+    <CardContent />
     </div>
+    </a>)
+    
  }
- export default app.js
+ export default CardContainer;
