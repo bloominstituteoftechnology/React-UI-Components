@@ -1,1 +1,44 @@
-/* All styles for your Card Components live here */
+.post .post-card {
+    margin-left: 80px;
+    margin-right: 5px;
+    max-width: 100%;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.post .post-card .post-card-img-container {
+    height: 300px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.post .post-card .post-card-img-container img {
+    min-height: 150%;
+}
+
+.post .post-card .post-card-content {
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.post .post-card .post-card-content h2 {
+    font-size: 1.0rem;
+    margin: 0;
+}
+
+.post .post-card .post-card-content p {
+    font-size: 1.0rem;
+    margin: 10px 0;
+}
+
+.post .post-card .post-card-content a {
+    color: grey;
+}
+
+.post .post-card .post-card-content a:link {
+    text-decoration: none;
+}
