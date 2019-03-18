@@ -8,6 +8,14 @@
     box-sizing: border-box;
 }
 
+.post .post-card a {
+    color: black;
+}
+
+.post .post-card a:link {
+    text-decoration: none;
+}
+
 .post .post-card .post-card-img-container {
     height: 300px;
     overflow: hidden;

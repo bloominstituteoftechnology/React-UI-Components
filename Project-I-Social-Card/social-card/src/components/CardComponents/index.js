@@ -5,8 +5,10 @@ import CardContent from './CardContent.js';
 
 const CardContainer = (props) => {
     return <div className="post-card">
-             <CardBanner src={props.img} />
-             <CardContent title={props.title} content={props.content} url={props.url} />
+             <a href={props.url}>
+               <CardBanner src={props.img} />
+               <CardContent title={props.title} content={props.content} url={props.url} />
+             </a>
            </div>;
 };
 

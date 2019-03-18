@@ -11,7 +11,7 @@ const post = {
     card: {img: "https://tk-assets.lambdaschool.com/fcd75197-7d12-46ec-bc9e-4130f34822fa_reactbackground.png",
            title: "Get started with React",
            content: "React makes it painless to create interactive UIs. Design simple views for each state in your application",
-           url: "https://www.reactjs.org"},
+           url: "https://reactjs.org"},
     reposts: 6,
     reposted: false,
     likes: 4,
