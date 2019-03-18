@@ -1,1 +1,22 @@
 /* All styles for your header Components live here */
+
+.HeaderContainer {
+  border: solid 1px red;
+  display: flex;
+  align-content: center;
+}
+
+.HeaderLambda h1 {
+  border: solid 1px rgb(89, 89, 198);
+  font-size: 1.5rem;
+}
+
+.HeaderContent {
+  border: solid 1px rgb(0, 251, 255);
+  align-self: flex-end;
+}
+
+img {
+  border: solid 1px green;
+  width: 60px;
+}
