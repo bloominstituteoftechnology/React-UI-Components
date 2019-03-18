@@ -1,0 +1,9 @@
+#footer-icons {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 10%;
+}
+
+#footer-icons i {
+  margin-right: 30px;
+}
