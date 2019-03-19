@@ -1,0 +1,23 @@
+.sign {
+    color: white;
+    
+    background-color: maroon;
+    width: 100px;
+    height: 100px;
+}
+
+.number {
+    width: 100px;
+    height: 100px;
+
+}
+
+.clear {
+    width: 300px;
+    height: 100px;
+}
+
+.zero {
+    width: 300px;
+    height:100px; 
+}
