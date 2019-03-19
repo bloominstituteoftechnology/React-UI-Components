@@ -1,0 +1,20 @@
+.action-btn {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.action-btn button {
+  width: 150px;
+  height: 140px;
+  background: rgb(151, 34, 34);
+}
+
+.num-btn .clear {
+  width: 450px;
+  height: 140px;
+  background:white;
+  font-size: 3rem;
+  text-align: center;
+  font-weight: 100;
+}

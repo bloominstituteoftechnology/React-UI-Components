@@ -1,0 +1,20 @@
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  border: 1px solid red;
+}
+
+.keypad {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.keypad-left {
+  width: 75%;
+}
+
+.keypad-right {
+  width: 25%;
+}
+
