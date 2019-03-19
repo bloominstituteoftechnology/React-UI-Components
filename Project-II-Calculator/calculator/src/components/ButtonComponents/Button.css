@@ -18,8 +18,8 @@
   width: 150px;
   height: 130px;
   font-size: 3rem;
-  color: rgb(125, 124, 124);
-  background-color: azure;
+  color: rgb(0, 0, 0);
+  background-color: royalblue;
 }
 
 .number-btn:first-child {
@@ -28,12 +28,17 @@
 
 .number-btn:last-child {
   width: 450px;
+  border-bottom-left-radius: 7px;
 }
 
 .action-btn {
   width: 150px;
   height: 130px;
   font-size: 3rem;
-  color: gainsboro;
+  color: white;
   background-color: crimson;
+}
+
+.action-btn:last-child {
+  border-bottom-right-radius: 7px;
 }
