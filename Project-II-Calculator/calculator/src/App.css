@@ -1,0 +1,27 @@
+.row{
+    display:flex;
+    
+    
+    
+}
+.number{
+    width:25%;
+}
+.operator{
+    background:maroon;
+    color:whitesmoke;
+    width:25%;
+
+}
+.clear{
+    width:75%;
+    /* height:30px; */
+}
+.calc-container{
+    border: 2px solid gray;
+    width:100px;
+}
+
+.zero{
+    width:75%;
+}
