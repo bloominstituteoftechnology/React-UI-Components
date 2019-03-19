@@ -1,0 +1,16 @@
+.calc-display {
+  width: 100%;
+  height: 150px;
+  background: rgba(75, 75, 75, 0.598);
+  text-align: right;
+  font-size: 6rem;
+  font-weight: 100;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.calc-display p {
+  margin: 0;
+  padding-right: 20px;
+}
