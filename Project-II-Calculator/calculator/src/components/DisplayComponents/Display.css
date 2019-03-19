@@ -1,4 +1,8 @@
 .disply {
     width: 400px;
     height: 130px;
+    background-color: teal;
+    font-size: 5rem;
+    padding-left: 300px;
+    color: white;
 }

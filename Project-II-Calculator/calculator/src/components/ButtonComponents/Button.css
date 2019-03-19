@@ -1,23 +1,27 @@
 .sign {
     color: white;
-    
     background-color: maroon;
     width: 100px;
     height: 100px;
+    font-size: 3.3rem;
 }
 
 .number {
     width: 100px;
     height: 100px;
+    font-size: 3rem;
+    
 
 }
 
 .clear {
     width: 300px;
     height: 100px;
+    font-size: 3rem;
 }
 
 .zero {
     width: 300px;
     height:100px; 
+    font-size: 3rem;
 }
