@@ -1,0 +1,18 @@
+.FooterContainer {
+    width: 1000px;
+    height: 50px;
+    border-bottom: 1px solid gray;
+    /* display: flex;
+    justify-content: flex-start; */
+}
+.FooterIcons {
+    /* background: orange; */
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-left: -80px;
+}
+.IconSize {
+    padding-left: 100px;
+}

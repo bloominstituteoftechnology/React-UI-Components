@@ -1,1 +1,6 @@
 /* All styles for your header Components live here */
+.HeadContainer {
+ width: 100%;
+ line-height: 25px;
+}
+
