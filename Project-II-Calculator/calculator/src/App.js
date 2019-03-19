@@ -1,22 +1,47 @@
 import React from 'react';
 import './App.css';
+import CalculatorDisplay from './components/DisplayComponents/CalculatorDisplay'
+import NumberButton from './components/ButtonComponents/NumberButton'
+import ActionButton from './components/ButtonComponents/ActionButton'
 
 const App = () => {
   return (
+    <div className = "container">
+
     <div>
-      <h3>Welcome to React Calculator</h3>
-      <p>
-        We have given you a starter project. You'll want to build out your
-        components in their respective files, remove this code and replace it
-        with the proper components.
-      </p>
-      <p>
-        <strong>
-          Don't forget to `default export` your components and import them here
-          inside of this file in order to make them work.
-        </strong>
-      </p>
+    <CalculatorDisplay displayStyle = "display" text = "0" />
     </div>
+
+    <div className = "row">
+    <ActionButton buttonstyle = "clear" text = "clear"/>
+    <ActionButton buttonstyle = "operator" text = "÷"/>
+    </div>
+    <div className = " row ">
+    <NumberButton buttonstyle ="number" text = "7"/>
+    <NumberButton buttonstyle ="number" text = "8"/>
+    <NumberButton buttonstyle ="number" text = "9"/>
+    <ActionButton buttonstyle = "operator" text = "X"/>
+    </div>
+    <div className = " row ">
+    <NumberButton buttonstyle ="number" text = "4"/>
+    <NumberButton buttonstyle ="number" text = "5"/>
+    <NumberButton buttonstyle ="number" text = "6"/>
+    <ActionButton buttonstyle = "operator" text = "-"/>
+    </div>
+    <div className = " row ">
+    <NumberButton buttonstyle ="number" text = "1"/>
+    <NumberButton buttonstyle ="number" text = "2"/>
+    <NumberButton buttonstyle ="number" text = "3"/>
+    <ActionButton buttonstyle = "operator" text = "+"/>
+    </div>
+    <div className = " row ">
+    <NumberButton buttonstyle = "zero" text = "0" />
+    <ActionButton buttonstyle = "operator" text = "="/>
+    </div>
+    </div>
+
+
+    
   );
 };
 
