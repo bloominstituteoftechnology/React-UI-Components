@@ -5,7 +5,7 @@ import ButtonContainer from '../src/components/ButtonComponents/Button-Container
 
 const App = () => {
   return (
-    <div>
+    <div className="container">
       <CalDisplay />
       <ButtonContainer />
     </div>

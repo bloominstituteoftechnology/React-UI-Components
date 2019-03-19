@@ -2,10 +2,10 @@ import React from 'react';
 import './Display.css';
 
 
-function calDisplay(props) {
+function calDisplay() {
    return (
-       <div>
-           
+       <div className="calcDisplay">
+           0
        </div>
    );
 };
