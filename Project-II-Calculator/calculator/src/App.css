@@ -1,6 +1,7 @@
 body {
   max-width: 400px;
   margin: auto;
+  margin-top: 20px;
 }
 
 .app {

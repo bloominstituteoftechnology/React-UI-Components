@@ -1,7 +1,8 @@
 .clear {
   grid-row: 2 / 3;
   grid-column: 1 / 4;
-  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
   background-color: oldlace;
   border: 1px solid grey;
   outline: none;
@@ -10,8 +11,9 @@
 .zero {
   grid-row: 6 / 7;
   grid-column: 1 / 4;
-  font-size: 20px;
-  font-weight: 600;
+  font-size: 25px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
   background-color: oldlace;
   border: 1px solid grey;
   outline: none;
@@ -20,8 +22,9 @@
 .number {
   width: 100px;
   height: 100px;
-  font-size: 20px;
-  font-weight: 600;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+  font-weight: 700;
   background-color: snow;
   border: 1px solid grey;
   outline: none;
@@ -30,7 +33,7 @@
 .symbol {
   width: 100px;
   height: 100px;
-  font-size: 30px;
+  font-size: 35px;
   background-color: darkred;
   color: white;
   border: 1px solid grey;
