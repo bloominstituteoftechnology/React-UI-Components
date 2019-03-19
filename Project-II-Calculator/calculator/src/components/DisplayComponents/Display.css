@@ -9,8 +9,8 @@
   justify-content: flex-end;
   align-items: center;
   background-color: rgb(140, 139, 139);
-  border-top-right-radius: 7px;
-  border-top-left-radius: 7px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
 }
 
 .calc-display p {

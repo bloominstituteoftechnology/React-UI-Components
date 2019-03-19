@@ -28,7 +28,7 @@
 
 .number-btn:last-child {
   width: 450px;
-  border-bottom-left-radius: 7px;
+  border-bottom-left-radius: 15px;
 }
 
 .action-btn {
@@ -40,5 +40,5 @@
 }
 
 .action-btn:last-child {
-  border-bottom-right-radius: 7px;
+  border-bottom-right-radius: 15px;
 }
