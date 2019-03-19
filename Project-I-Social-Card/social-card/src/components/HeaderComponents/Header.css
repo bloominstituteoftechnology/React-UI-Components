@@ -1,1 +1,23 @@
 /* All styles for your header Components live here */
+
+.HeaderContainer {
+  display: flex;
+  align-content: center;
+}
+
+.HeaderLambda {
+  margin-left: 1%;
+  margin-right: 4%;
+}
+
+.HeaderLambda h1 {
+  font-size: 1.5rem;
+}
+
+.HeaderContent {
+  align-self: flex-end;
+}
+
+img {
+  width: 65px;
+}

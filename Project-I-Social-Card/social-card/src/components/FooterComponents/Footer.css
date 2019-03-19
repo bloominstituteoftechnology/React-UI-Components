@@ -1,0 +1,12 @@
+.footer {
+  height: 25px;
+  border-radius: 7px;
+}
+
+.footer-icons {
+  display: flex;
+  justify-content: space-around;
+  height: 25px;
+  margin: 0 40% 0 4%;
+  align-items: center;
+}

@@ -1,1 +1,33 @@
 /* All styles for your Card Components live here */
+
+.CardContainer {
+}
+
+.CardBanner {
+  border: solid 1px gainsboro;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  margin: 0 3% 0 9%;
+  border-radius: 7px;
+}
+
+.banner-img img {
+  border-radius: 7px;
+  justify-content: flex-end;
+  width: 100%;
+  margin-right: 3%;
+}
+
+.CardContent {
+  margin: 0 4%;
+}
+
+.CardContent h3 {
+  font-size: 1rem;
+}
+
+.CardContent h4 {
+  font-size: 0.8rem;
+  color: gray;
+}

@@ -1,0 +1,44 @@
+.keypad {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.keypad-left {
+  width: 75%;
+}
+
+.keypad-right {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+}
+
+.number-btn {
+  width: 150px;
+  height: 130px;
+  font-size: 3rem;
+  color: rgb(0, 0, 0);
+  background-color: royalblue;
+}
+
+.number-btn:first-child {
+  width: 450px;
+}
+
+.number-btn:last-child {
+  width: 450px;
+  border-bottom-left-radius: 15px;
+}
+
+.action-btn {
+  width: 150px;
+  height: 130px;
+  font-size: 3rem;
+  color: white;
+  background-color: crimson;
+}
+
+.action-btn:last-child {
+  border-bottom-right-radius: 15px;
+}
