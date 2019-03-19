@@ -1,0 +1,14 @@
+.display {
+  grid-column: 1/5;
+  grid-row: 1/2;
+  background: black;
+  border: 1px solid black;
+  text-align: right;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 3rem;
+  padding: 0 1rem;
+  grid-column: 0 / 3;
+  color: white;
+}

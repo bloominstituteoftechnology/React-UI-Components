@@ -1,0 +1,17 @@
+.calculator {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-template-rows: repeat(6, 1fr);
+  width: 50%;
+  margin: 0 auto;
+  background: pink;
+  margin-top: 5rem;
+}
+
+.num-button {
+  font-size: 3rem !important;
+}
+
+#zero {
+  background: pink !important;
+}

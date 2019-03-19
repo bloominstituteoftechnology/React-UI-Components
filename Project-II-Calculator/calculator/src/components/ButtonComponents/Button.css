@@ -1,0 +1,27 @@
+button {
+border: 1px solid black;
+height: 4.75rem;
+text-align: center;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.action {
+  grid-column-start: 0/4;
+  background: red;
+  color: white;
+  font-size: 2.5rem;
+}
+
+.double {
+  grid-column: 1 / 4;
+}
+
+
+.num-button {
+  font-size: 3rem !important;
+}
+
+
