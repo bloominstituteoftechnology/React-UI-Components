@@ -1,0 +1,15 @@
+.clear {
+  grid-row: 2 / 3;
+  grid-column: 1 / 4;
+}
+
+.zero {
+  grid-row: 6 / 7;
+  grid-column: 1 / 4;
+}
+
+.number,
+.symbol {
+  width: 100px;
+  height: 100px;
+}

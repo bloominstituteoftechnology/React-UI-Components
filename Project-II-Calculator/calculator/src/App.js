@@ -6,12 +6,27 @@ import ActionButton from './components/ButtonComponents/ActionButton'
 import CalculatorDisplay from './components/DisplayComponents/CalculatorDisplay'
 
 const App = () => {
-  const text = [1, 2, 3, 4, 5, 6, 7, 8, 9, '=', '+', '-', '*', '/']
+  const button = [
+    ['/', 'symbol'],
+    [7, 'number'],
+    [8, 'number'],
+    [9, 'number'],
+    ['*', 'symbol'],
+    [4, 'number'],
+    [5, 'number'],
+    [6, 'number'],
+    ['-', 'symbol'],
+    [1, 'number'],
+    [2, 'number'],
+    [3, 'number'],
+    ['+', 'symbol'],
+    ['=', 'symbol']
+  ]
 
   return (
     <div className="app">
-      {text.map(text => (
-        <NumberButton text={text} />
+      {button.map(btn => (
+        <NumberButton text={btn[0]} style={btn[1]} />
       ))}
       <ActionButton />
       <CalculatorDisplay />
