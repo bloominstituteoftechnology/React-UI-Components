@@ -5,9 +5,13 @@ import HeaderTitle from './HeaderTitle';
 import HeaderContent from './HeaderContent';
 const HeaderContainer = () =>{
     return (<div className = "Header-Container">
+    <div className = "firstBit">
     <ImageThumbnail />
     <HeaderTitle />
+    </div>
+    <div className = "secondBit">
     <HeaderContent />
+    </div>
     </div>)
 
 };
