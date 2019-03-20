@@ -1,1 +1,37 @@
 /* All styles for your header Components live here */
+.header-container{
+    display:flex;
+    align-content: center;
+    margin: 20px;
+    border: 1px solid red;
+}
+
+.headerp{
+    display: flex;
+    align-content: center;
+    /* justify-content: space-between; */
+    
+    color: lightgray;
+    
+}
+.headerp p{
+    /* padding-right: 600px; */
+}
+.headerp h1{
+    font-size: 24px;
+  color:black;
+  font-family: Arial, Helvetica, sans-serif;
+
+
+}
+.title-content p{
+    display:flex;
+    flex-wrap: wrap;
+    font-size: 24px;
+}
+.picture1{
+    width: 300px;
+    height: 200px;
+
+
+}

@@ -1,0 +1,48 @@
+.display{
+    display:flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    font-size: 50px;
+    background-color: black;
+    color:white;
+    padding: 10px;
+    text-align: right;
+    height: 100px;
+    
+}
+.container{
+    width: 400px;
+    border: 3px solid gray;
+}
+.clear{
+    font-size: 24px;
+    width: 75%;
+    padding: 10px;
+    
+
+}
+.operator{
+    font-size: 24px;
+    width:25%;
+    height:100px;
+    padding: 10px;
+   background-color: maroon;
+   color:white;
+    
+
+}
+.number{
+font-size: 24px;
+width:25%;
+padding: 10px;
+ 
+}
+.row{
+    display:flex;
+
+}
+.zero{
+    font-size: 20px;
+    width:75%;
+    padding: 10px;
+}
