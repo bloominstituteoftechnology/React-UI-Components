@@ -1,0 +1,39 @@
+.number-container {
+  display: flex;
+  flex-direction: column;
+}
+.numbers-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  width: 400px;
+}
+.number-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  background: lightgray;
+}
+.operator-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  background: magenta;
+}
+
+.action-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 100px;
+  background: lightgrey;
+}
+.display {
+  width: 400px;
+  height: 100px;
+  background: darkgrey;
+}
