@@ -1,7 +1,16 @@
-.calc-container {
-  border: 1px solid red;
-  width: 600px;
-  max-width: 100%;
-  margin: 0 auto;
+* {
+  box-sizing: border-box;
 }
 
+.calc-container {
+  /* border: 1px solid red; */
+  width: 300px;
+  max-width: 100%;
+  margin: 10px auto;
+}
+
+.row {
+  height: 50px;
+  display: flex;
+  align-items: flex-start;
+}

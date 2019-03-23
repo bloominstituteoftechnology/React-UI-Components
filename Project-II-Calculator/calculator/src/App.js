@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-
+import './components/ButtonComponents/Button.css';
 import ActionButton from './components/ButtonComponents/ActionButton';
 import NumberButton from './components/ButtonComponents/NumberButton';
 import CalculatorDisplay from './components/DisplayComponents/CalculatorDisplay';
@@ -24,13 +24,13 @@ const App = () => {
         <CalculatorDisplay text="0" />
         <div className="row">
           <ActionButton buttonStyle="clear" text="clear" />
-          <NumberButton buttonStyle="operation" text="+"/>
+          <NumberButton buttonStyle="operation" text="÷"/>
         </div>
         <div className="row">
           <NumberButton buttonStyle="number" text="7"/>
           <NumberButton buttonStyle="number" text="8"/>
           <NumberButton buttonStyle="number" text="9"/>
-          <ActionButton buttonStyle="number" text="x"/>
+          <ActionButton buttonStyle="operation" text="x"/>
       </div>
         <div className="row">
           <NumberButton buttonStyle="number" text="4"/>
@@ -42,7 +42,11 @@ const App = () => {
           <NumberButton buttonStyle="number" text="1"/>
           <NumberButton buttonStyle="number" text="2"/>
           <NumberButton buttonStyle="number" text="3"/>
-          <ActionButton buttonStyle="operation" text="="/>
+          <ActionButton buttonStyle="operation" text="+"/>
+      </div>
+      <div>
+        <NumberButton buttonStyle="zero" text="0" />
+        <ActionButton buttonStyle="operation" text="=" />
       </div>
       
       </div>

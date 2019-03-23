@@ -1,0 +1,41 @@
+.clear, .zero {
+  width: 220px;
+  color: black;
+  background: white;
+  height: 50px;
+  font-size: 30px;
+  border: none;
+}
+
+.zero {
+  font-weight: bold;
+  border: 1px solid gray;
+  border-right: 0;
+}
+  
+.clear {
+  border-left: 1px solid gray;
+  border-top: 1px solid gray;
+}
+  
+.operation {
+  width: 80px;
+  border: none;
+  height: 50px;
+  background-color: maroon;
+  color: white;
+  font-size: 30px;
+  border: 1px solid gray;
+}
+  
+.number {
+  width: 74px;
+  border: none;
+  height: 50px;
+  background-color: white;
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
+  border-left: 1px solid gray;
+  border-top: 1px solid gray;
+}
