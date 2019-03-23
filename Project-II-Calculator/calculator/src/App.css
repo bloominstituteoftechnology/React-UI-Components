@@ -1,0 +1,7 @@
+.calc-container {
+  border: 1px solid red;
+  width: 600px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
