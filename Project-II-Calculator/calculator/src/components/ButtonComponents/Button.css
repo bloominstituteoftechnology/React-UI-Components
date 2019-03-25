@@ -1,0 +1,34 @@
+.NumberButton {
+    height:150px;
+    width: 150px;
+    font-size: 40px;
+}
+
+
+
+.NumberButton:first-child {
+    width: 450px;
+}
+
+.NumberButton:last-child {
+    width: 450px;
+}
+
+.ActionButton {
+    height:150px;
+    width: 150px;
+    background: rgb(175, 62, 62);
+    font-size: 50px;
+}
+
+.ButtonC {
+    display: flex;
+}
+
+.KeyL {
+    width: 75%;
+}
+
+.KeyR {
+    width: 25%;
+}
