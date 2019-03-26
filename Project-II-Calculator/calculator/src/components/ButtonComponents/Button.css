@@ -1,4 +1,28 @@
+.number-button .column-4 {
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+    flex-direction: column-reverse;
+    margin-bottom: 50;
+}
+
+.number-button .column-4 .function {
+    background-color: red;
+    font-size: 18px;
+    margin-top: 0;
+}
+
 .number-button {
-    width: 100px;
-    border: 1px solid #e3e3e3;
-  }
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left: 50px;
+    margin-bottom: -50;
+
+} 
+
+.action-button {
+height:
+width:
+margin-left:
+min-width: 150px;
+}
