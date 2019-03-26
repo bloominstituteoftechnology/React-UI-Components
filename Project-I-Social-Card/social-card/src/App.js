@@ -1,5 +1,7 @@
 import React from 'react';
 import './App.css';
+import './CardComponents/CardContainer.js';
+import CardContainer from './components/CardComponents/CardContainer';
 
 const App = () => {
   return (
@@ -11,6 +13,7 @@ const App = () => {
         away building components. You'll need to make sure you include your
         components that you build in this file to watch your app come to life
       </p>
+      <CardContainer />
       <p>
         <strong>
           Don't forget to `default export` your components and import them here
