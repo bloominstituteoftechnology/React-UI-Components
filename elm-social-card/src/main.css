@@ -5,6 +5,13 @@
   More context in the issue:
     https://github.com/halfzebra/create-elm-app/issues/320
 */
+
+/*
+
+    Initial Styles from CEA
+
+*/
+
 [data-elm-hot="true"] {
   height: inherit;
 }
@@ -23,4 +30,646 @@ h1 {
 img {
   margin: 20px 0;
   max-width: 200px;
+}
+
+
+
+
+
+
+
+
+/*
+
+  Import from TMSDNE
+
+*/
+
+
+/*
+
+  Start of Reset
+
+*/
+
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+html,
+body {
+  font-family: 'Roboto', sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Indie Flower', cursive;
+}
+h1 {
+  font-size: 4rem;
+}
+h2 {
+  font-size: 3.2rem;
+  padding-bottom: 10px;
+}
+h4 {
+  font-size: 2.5rem;
+  padding-bottom: 10px;
+}
+p {
+  line-height: 1.5;
+  font-size: 1.6rem;
+  padding-bottom: 10px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.container {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+}
+.content-margin {
+  margin: 0 2.8rem;
+}
+* {
+  box-sizing: border-box;
+}
+
+
+/*
+
+  -------Base Styles--------
+
+*/
+
+
+html {
+  font-size: 62.5%;
+}
+html,
+body {
+  font-family: 'Lato', sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Lato', sans-serif;
+}
+h1 {
+  font-size: 4rem;
+  margin: 0;
+}
+h2 {
+  font-size: 3.2rem;
+  padding-bottom: 10px;
+  margin: 0;
+}
+h4 {
+  font-size: 2.5rem;
+  padding-bottom: 10px;
+}
+p {
+  line-height: 1.5;
+  font-size: 1.6rem;
+  padding-bottom: 10px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.container {
+  max-width: 1000px;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+.content-margin {
+  margin: 0 2.8rem;
+}
+
+/*
+
+ -----Components-------
+
+*/
+
+
+/*
+
+ -----Main Header Component-----
+
+*/
+
+.main-header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 1rem;
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+  background-color: #FFFFFF;
+}
+@media (max-width: 520px) {
+  .main-header {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+.main-header__nav {
+  display: inline-flex;
+  justify-content: flex-end;
+  flex-basis: 33%;
+}
+.main-header__a {
+  padding: 1rem 1.5rem;
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #999;
+  border-bottom: 2px transparent #50b927ea;
+}
+.main-header__a:hover {
+  color: #222;
+  border-bottom: 1px solid #50b927ea;
+}
+.main-header__a--logo {
+  padding: 1rem 1.5rem;
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #999;
+}
+.main-header__a--logo:hover {
+  border: none;
+}
+.main-header__a--strikethrough {
+  padding: 1rem 1.5rem;
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #999;
+  text-decoration: line-through;
+}
+.main-header--logo {
+  font-size: 3rem;
+  font-family: 'Staatliches', cursive;
+  color: #222;
+  letter-spacing: 3px;
+  background: -webkit-linear-gradient(#50b927ea, #FFFFFF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 0;
+}
+.cta__h2 {
+  color: #222;
+}
+
+
+/*
+
+ --------Cards Component -----------
+
+*/
+
+.cards {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+@media (max-width: 920px) {
+  .cards {
+    justify-content: space-around;
+    margin: 0;
+  }
+}
+@media (max-width: 750px) {
+  .cards {
+    flex-direction: column;
+  }
+}
+.cards--background-color {
+  background-color: rgba(191, 231, 140, 0.424);
+  height: 600px;
+  clip-path: polygon(0 10%, 100% 0, 100% 90%, 0% 100%);
+}
+.cards--features {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+  flex-wrap: nowrap;
+  margin-top: 40px;
+}
+@media (max-width: 920px) {
+  .cards--features {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+.cards--features.rows-1 > .card--features {
+  flex-basis: 100%;
+}
+.cards--features.rows-2 > .card--features {
+  flex-basis: 45%;
+}
+.cards--features.rows-3 > .card--features {
+  flex-basis: 30%;
+}
+.cards--features.rows-4 > .card--features {
+  flex-basis: 22%;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 10px;
+  margin: 20px 0;
+  border-bottom: 1px solid #999;
+  flex-basis: 30%;
+  margin: 15px;
+  box-shadow: 1px 2px 3px rgba(50, 50, 50, 0.2);
+  justify-content: space-evenly;
+}
+.card__content {
+  height: 350px;
+}
+@media (max-width: 750px) {
+  .card__content {
+    height: 230px;
+  }
+}
+.card__h2 {
+  margin-top: 20px;
+}
+@media (max-width: 520px) {
+  .card {
+    flex-basis: 100%;
+  }
+}
+.card__i {
+  color: #222;
+  margin-left: 10px;
+}
+.card__i:hover {
+  color: #50b927ea;
+}
+.card__div.text-container,
+.card__span.text-container {
+  font-size: 3rem;
+  text-decoration: none;
+}
+.card__div.text-container--small,
+.card__span.text-container--small {
+  color: #999;
+  font-size: 2rem;
+  font-family: 'Staatliches', cursive;
+  letter-spacing: 2px;
+}
+.card__div.text-container--no-margin,
+.card__span.text-container--no-margin {
+  margin: 0;
+}
+.card__img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  padding: 0;
+  margin: 0;
+}
+.card__h1,
+.card__h2,
+.card__h3,
+.card__h4,
+.card__h5,
+.card__h6,
+.card__p {
+  color: #222;
+  margin: 0;
+  padding: 0.5rem 1rem;
+}
+.card--features {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 1px 2px 3px rgba(50, 50, 50, 0.2);
+  padding: 2rem;
+  background-color: #FFFFFF;
+  height: 380px;
+  align-content: center;
+  margin-top: 100px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+@media (max-width: 520px) {
+  .card--features {
+    margin-top: 4rem;
+  }
+}
+.card--features__h1,
+.card--features__h2,
+.card--features__h3,
+.card--features__h4,
+.card--features__h5,
+.card--features__h6,
+.card--features__p {
+  color: #222;
+  margin: 0;
+  padding: 0.5rem 1rem;
+}
+.card--features__i {
+  font-size: 5rem;
+}
+
+
+/*
+
+ ---- Hero Component ------
+
+*/
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: linear-gradient(hsla(0, 0%, 68%, 0.863), hsla(103, 65%, 44%, 0.918)), url(/assests/images/stock.jpg);
+  background-size: 100% 100%;
+  height: 400px;
+  clip-path: polygon(0 0, 100% 0, 100% 80%, 10% 100%);
+}
+.hero__content {
+  width: 80%;
+  color: white;
+  text-align: center;
+  margin-top: 100px;
+}
+@media (max-width: 920px) {
+  .hero__content {
+    margin-top: 20px;
+  }
+}
+@media (max-width: 520px) {
+  .hero__content {
+    margin-top: 10px;
+  }
+}
+.hero p {
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+}
+.hero__h1.tag-line {
+  letter-spacing: 2px;
+  margin-top: 8rem;
+  margin-bottom: 4rem;
+  color: #FFFFFF;
+  text-align: center;
+}
+.hero__p {
+  color: #FFFFFF;
+  margin: 0 100px;
+}
+@media (max-width: 520px) {
+  .hero__p {
+    margin: 0 50px;
+  }
+}
+.hero__p.subtitle {
+  color: #FFFFFF;
+}
+.hero__p.subtitle {
+  color: #FFFFFF;
+}
+.hero__a > *:hover {
+  transform: scale(1.15);
+  color: #222;
+  cursor: pointer;
+  transition: transform ease-in-out 0.5s;
+}
+.hero .hero__heading {
+  width: 80%;
+  color: white;
+  text-align: center;
+  margin-top: 8rem;
+}
+@media (max-width: 520px) {
+  .hero .hero__heading {
+    margin-top: 0rem;
+  }
+}
+.hero--alternative {
+  background-image: linear-gradient(hsla(92, 42%, 33%, 0.561), hsla(103, 65%, 44%, 0.918)), url(/assests/images/airport-bank-board-534216.jpg);
+  background-size: 100% 100%;
+  height: 400px;
+  background-attachment: fixed;
+}
+
+
+/*
+
+ ---- Footer Component -----
+
+*/
+
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  color: #FFFFFF;
+  background-color: #222;
+  margin-top: 50px;
+  position: sticky;
+  padding: 1rem 2rem;
+  height: 80px;
+}
+.footer__span {
+  margin-top: 20px;
+  margin-right: 60px;
+  padding: 0;
+  font-size: 1.5rem;
+}
+@media (max-width: 520px) {
+  .footer__span {
+    margin-right: 10px;
+  }
+}
+.footer__a {
+  text-decoration: none;
+}
+.footer__p {
+  padding: 0;
+  text-decoration: none;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+.footer__i {
+  margin-right: 45px;
+  margin-top: 7px;
+  font-size: 4rem;
+  padding: 0;
+  color: #FFFFFF;
+}
+.footer__i:hover {
+  color: #50b927ea;
+}
+
+/*
+
+ ---- Button Component -----
+
+*/
+
+
+.button-basic {
+  font-size: 2rem;
+  text-decoration: none;
+  padding: 10px 20px;
+  background: none;
+  color: #FFFFFF;
+  border: 2px solid white;
+  transition: all 0.2s;
+}
+.button-basic:hover {
+  transform: scale(1.1);
+}
+.button-basic--margin {
+  margin-top: 50px;
+}
+
+
+/*
+
+ ---- Demo Component -----
+
+*/
+
+
+.demo {
+  display: flex;
+  margin-top: 5rem;
+  justify-content: space-between;
+  align-items: center;
+}
+.demo > * {
+  flex-basis: 2500%;
+}
+@media (max-width: 920px) {
+  .demo {
+    flex-direction: column;
+  }
+}
+.demo .step {
+  margin: 0 10rem;
+  width: 400px;
+}
+@media (max-width: 920px) {
+  .demo .step {
+    margin: 0 2rem;
+  }
+}
+.demo .step.hidden {
+  display: none;
+}
+.demo .step__h2 {
+  color: #999;
+  font-family: 'Staatliches', cursive;
+  letter-spacing: 2px;
+}
+.demo .carousel {
+  max-width: 600px;
+  margin: 5rem auto 0;
+  position: relative;
+  height: 400px;
+}
+.demo .carousel__p {
+  color: #222;
+}
+.demo .carousel__img {
+  display: none;
+  box-shadow: 1px 2px 3px rgba(25, 25, 25, 0.8);
+  width: 100%;
+  height: 100%;
+  transition: fade 0.2s;
+  animation: fade 0.5s;
+}
+.demo .carousel__span.arrow {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 22%;
+  color: hsla(0, 0%, 100%, 0.827);
+  font-size: 7rem;
+}
+.demo .carousel__span.arrow:hover {
+  cursor: pointer;
+}
+.demo .carousel__span#arrowLeft {
+  left: 10px;
+}
+.demo .carousel__span#arrowRight {
+  right: 10px;
+}
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.section-header {
+  text-align: center;
+  margin-top: 50px;
+  color: #999;
+}
+
+
+/*
+
+  -----Accordion Component -----
+
+*/
+
+
+.accordion {
+  color: black;
+  height: 120px;
+  overflow: hidden;
+  border-bottom: 1px solid #999;
+  transition: all 0.2s;
+  margin-bottom: 10px;
+  margin-top: 50px;
+}
+.accordion__question {
+  height: 100px;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 520px) {
+  .accordion__question {
+    margin: 0 10px;
+  }
+}
+.accordion__question i {
+  font-size: 3rem;
+  margin-top: 35px;
+  color: #999;
+}
+.accordion__question i:hover {
+  color: #50b927ea;
+}
+.accordion.reveal {
+  height: 200px;
+}
+@media (max-width: 920px) {
+  .accordion.reveal {
+    height: 250px;
+  }
 }
