@@ -1,11 +1,19 @@
-module Main exposing (..)
+module Main exposing (Model, Msg(..), init, main, update, view)
 
 import Browser
-import Html exposing (Html, text, div, h1, img)
-import Html.Attributes exposing (src)
+import Html exposing (..)
+import Html.Attributes exposing (..)
+
 
 
 ---- MODEL ----
+
+
+type alias User =
+    { name : String
+    , bio : String
+    , social : List String
+    }
 
 
 type alias Model =
@@ -54,3 +62,38 @@ main =
         , update = update
         , subscriptions = always Sub.none
         }
+
+
+
+---- HELPERS ----
+
+
+socialCards : Html Msg
+socialCards =
+    div
+        [ classList
+            [ ( "cards", True )
+            , ( "cards--features", True )
+            ]
+        ]
+        [ text "Social Cards" ]
+
+
+socialCard : User -> Html Msg
+socialCard user =
+    article [ class "card" ]
+        [ div [ class "card", class "card--feature" ]
+            [ p [ class "card--feature__p" ] [ text user.name ]
+            , p [ class "card--feature__p" ] [ text user.bio ]
+            , div
+                [ classList
+                    [ ( "social", True )
+                    , ( "card--feature", True )
+                    , ( "social", True )
+                    ]
+                ]
+                [ text "why wont line 97 work?" ]
+
+            -- [ List.map (\x -> span [] [ text x.social ]) user.social ]
+            ]
+        ]
