@@ -5,3 +5,38 @@
     height: 50px;
     
 }
+
+.header-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   
+}
+
+.banner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 40%;
+    align-items: baseline;
+}
+.banner h1 {
+    margin: 0;
+}
+
+.banner a,
+.banner p {
+    color: lightgray;
+}
+
+.banner a::after {
+    content: ' ';
+    display: inline-flex;
+    width: 5px;
+    height: 5px;
+    color: gray;
+    background-color: lightgray;
+    border-radius: 50%;
+    margin: .5rem;
+    transform: translate(100%, -35%);
+}
