@@ -30,6 +30,15 @@
         font-size: 1.5rem;
     }
 }
+
+@media (max-width: 700px) {
+    .banner {
+        width: 100%;
+    }
+   
+}
+
+
 .banner h1 {
     margin: 0;
 }
@@ -49,6 +58,13 @@
     border-radius: 50%;
     margin: .5rem;
     transform: translate(210%, -35%);
+}
+
+@media (max-width: 982px) {
+    .banner a::after {
+        display: none;
+    }
+    
 }
 
 .header-body {
