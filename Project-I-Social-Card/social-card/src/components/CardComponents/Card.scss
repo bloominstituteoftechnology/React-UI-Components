@@ -1,0 +1,34 @@
+/* All styles for your Card Components live here */
+
+.main-container {
+    width: 100%;
+    .img-container {
+        width: 87%;
+        margin-left: 13%;
+        img {
+            width: 100%;
+        }
+    }
+
+    .content {
+        width: 87%;
+        margin-left: 15%;
+
+        h2{
+            margin-top: 1rem;
+            font-weight: bold;
+        }
+
+        p{
+            margin-top: 1rem;
+            width: 95%;
+        }
+
+        span {
+            display: block;
+            margin-top: 1rem;
+            color: gray;
+        }
+    }
+
+}

@@ -1,5 +1,5 @@
 import React from 'react';
-import './Header.css';
+import './Header.scss';
 import "./HeaderContent";
 import "./HeaderTitle";
 import "./ImageThumbnail";
@@ -8,10 +8,10 @@ import HeaderContent from './HeaderContent';
 
 const HeaderContainer = () => {
     return (
-        <div>
+        <header>
             <ImageThumbnail/>
             <HeaderContent/>
-        </div>
+        </header>
     )
 }
 
