@@ -1,1 +1,18 @@
 /* All styles for your Card Components live here */
+
+.card-content a {
+    text-decoration: none;
+    color: gray;
+
+}
+
+.card-container {
+    width: 75%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.react-img {
+    width: 800px;
+    max-width: 100%;
+}

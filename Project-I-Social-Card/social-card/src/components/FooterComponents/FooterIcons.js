@@ -1,10 +1,15 @@
 import React from 'react';
-import './Footer.css';
+
 
 const FooterIcons = () => {
     return (
         <div className='icons'>
-            
+            <i class="far fa-comment"></i>
+            <i class="fas fa-sync-alt"></i>
+            <i class="far fa-heart"></i>
+            <i class="far fa-envelope"></i>
         </div>
     );
 }
+
+export default FooterIcons;
