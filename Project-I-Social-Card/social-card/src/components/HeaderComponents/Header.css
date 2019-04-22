@@ -1,8 +1,8 @@
 /* All styles for your header Components live here */
 
 .lambda-logo {
-    width: 50px;
-    height: 50px;
+    width: 85px;
+    height: 85px;
     
 }
 
@@ -10,6 +10,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+    flex-wrap: wrap;
    
 }
 
@@ -17,8 +18,17 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    width: 40%;
+    width: 60%;
     align-items: baseline;
+}
+
+@media (max-width: 982px) {
+    .banner {
+        margin: 0 auto;
+    }
+    .banner h1 {
+        font-size: 1.5rem;
+    }
 }
 .banner h1 {
     margin: 0;
@@ -38,5 +48,9 @@
     background-color: lightgray;
     border-radius: 50%;
     margin: .5rem;
-    transform: translate(100%, -35%);
+    transform: translate(210%, -35%);
+}
+
+.header-body {
+    max-width: 885px
 }
