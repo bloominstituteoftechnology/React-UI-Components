@@ -2,11 +2,12 @@
 
 
 .CardContainer {
-  max-width: 500px;
-  margin: 0 auto;
+  width: 500px;
+  margin-top: 10px;
   border: 1px solid #E1E8ED;
   font-size: 14px;
   border-radius: 12px;
+  align-self: flex-end;
 }
 
 .CardContainer a {
@@ -42,6 +43,7 @@
 
 .CardBanner img {
   width: 100%;
+  border-top-left-radius: 0.
 }
 
 .CardContent {
