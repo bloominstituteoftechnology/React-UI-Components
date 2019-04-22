@@ -3,10 +3,9 @@ import './Header.css';
 
 
 function HeaderTitle () {
-    return(
-    <div class = "header-title"> 
-        <span className = "bold">Lambda School<strong class = "light-text">@Lambda School handle and timestamp</strong></span>
-      
+    return (
+    <div className="header-title"> 
+        <span className="bold">Lambda School<strong className= "light-text">@Lambda School handle and timestamp 26 jan</strong></span>
     </div>
     )
 }

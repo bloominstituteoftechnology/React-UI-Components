@@ -1,1 +1,24 @@
 /* All styles for your Card Components live here */
+
+.card-banner {
+    width: 600px;
+    margin-left: 140px;
+    height: 350px;
+}
+
+
+
+.Cardcotainer {
+    border: 4px solid blue;
+    width: 750px;
+    margin-left: 200px;
+    padding: 20px;
+}
+
+.cardcontent{
+    margin-left:140px;
+}
+
+.light{
+    color: gray;
+}
