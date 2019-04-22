@@ -1,30 +1,17 @@
-/* All styles for your header Components live here */
-
-
 
 .HeaderContainer {
   width: 564px;
   display: flex;
   font-size: 14px;
-  line-height: 20px;
-  border: 1px solid black;
 }
 
 .ImageThumbnail {
-  /* width: 48px; */
-  /* height: 48px; */
-  /* flex-basis: 50px; */
   margin-right: 10px;
-  /* background-color: #9F1C22;
-  width: 48px;
-  height: 48px;
-  border-radius: 100%; */
 }
 
 .ImageThumbnail img {
   width: 48px;
   height: 48px;
-  /* width: 100%; */
 }
 
 
@@ -34,7 +21,7 @@
 }
 
 .HeaderTitle {
-  /* display: flex; */
+  margin-bottom: 6px;
 }
 
 .HeaderTitle__name {
