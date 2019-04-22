@@ -1,1 +1,32 @@
 /* All styles for your header Components live here */
+.header-container {
+    display: flex;
+    border: 1px solid red;
+    padding: 1rem;
+}
+
+.header-main {
+    margin-left: .5rem;
+    border: 1px solid blue;
+    padding: 0 .5rem;
+}
+
+.header-main span {
+    color: gray;
+    margin-right: .5rem;
+}
+
+.header-title {
+    display: flex;
+    align-items: baseline;
+}
+
+.thumbnail-container {
+}
+
+
+
+.header-content {
+    margin: 0;
+    padding: 0;
+}
