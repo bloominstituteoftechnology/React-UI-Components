@@ -9,8 +9,10 @@ function HeaderContainer (){
     return (
         <div className = "headerContainer">
             < ImageThumbnail />
+            <div class = "headerContainer1">
             <HeaderTitle />
             <HeaderContent />
+            </div>
         </div>
     )
 }
