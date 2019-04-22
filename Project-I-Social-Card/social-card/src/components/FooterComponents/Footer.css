@@ -1,0 +1,14 @@
+
+.Footer {
+  margin-left: 63px;
+  padding-top: 25px;
+  padding-bottom: 10px;
+}
+
+.Footer__icon {
+  margin-right: 60px;
+}
+
+.Footer__icon:hover {
+  cursor: pointer;
+}
