@@ -8,17 +8,31 @@
   height: 50px;
   border-radius: 50%;
   border: 1px solid black;
+  margin-top: 20px;
 }
 
 .title  span {
-  font-size: 20px;
+  font-size: 18px;
   color: grey;
 }
 
-/* .App {
-  display: flex;
-} */
+.title h1 {
+  font-size: 25px;
+}
 
 .title {
-  margin-left: 55px;
+  margin-left: 10px;
+}
+
+.para {
+  margin-left: 10px;
+}
+
+.App {
+  display: flex;
+}
+
+.HeaderContainer {
+  width: 37%;
+  margin-bottom: 20px;
 }
