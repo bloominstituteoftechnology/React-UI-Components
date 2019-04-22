@@ -1,6 +1,11 @@
 import React from 'react';
 import './Button.css';
 
-export default function NumberButton({num}) {
-    return <div className="btn">{num}</div>
+
+export default function NumberButton({content, large}) {
+    return (
+        (large)
+            ? <div className="btn large">{content}</div> 
+            : <div className="btn">{content}</div>
+    )
 }
