@@ -3,8 +3,8 @@ import './Card.css';
 
 export default function CardBanner(props) {
     return (
-        <div classNmae="card-banner">
-            <img src={props.src} alt={props.alt} />
+        <div className="card-banner-container">
+            <img className="card-banner" src={props.src} alt={props.alt} />
         </div>
     )
 }

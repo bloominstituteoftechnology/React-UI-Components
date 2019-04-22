@@ -1,1 +1,21 @@
 /* All styles for your Card Components live here */
+.card-container {
+    width: 80%;
+    margin: 1rem auto;
+    box-shadow: 1px 1px 1px rgba(150,150,150,0.4);
+    border-radius: 8px;
+}
+
+.card-content {
+    margin: 0;
+    padding: 1rem 1.5rem 5rem;
+}
+
+.card-banner {
+    width: 100%;
+}
+
+.link {
+    color: gray;
+    text-decoration: none;
+}
