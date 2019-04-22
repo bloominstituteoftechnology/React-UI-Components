@@ -6,7 +6,8 @@
   max-width: 1000px;
   margin: 0 auto;
   justify-content: center;
-  width: 90%
+  width: 90%;
+  color: black
 }
 
 .grey{
@@ -15,5 +16,8 @@
 
 .padding-left{
     padding-left: 100px;
-  
+}
+
+.none{
+    text-decoration: none;
 }
