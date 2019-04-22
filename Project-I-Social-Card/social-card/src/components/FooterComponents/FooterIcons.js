@@ -1,11 +1,10 @@
 import React from 'react';
 import './Footer.css';
 
-const Footer = () => {
+const FooterIcons = () => {
     return (
-        <div className="footer">
+        <div className='icons'>
             
         </div>
     );
-
 }
