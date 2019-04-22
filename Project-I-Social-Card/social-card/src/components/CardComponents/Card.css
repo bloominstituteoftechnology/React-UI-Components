@@ -7,17 +7,17 @@
   margin: 0 auto;
   justify-content: center;
   width: 90%;
-  color: black
+  color: black;
 }
 
-.grey{
-    color:grey;
+.grey {
+  color: grey;
 }
 
-.padding-left{
-    padding-left: 100px;
+.padding-left {
+  padding-left: 100px;
 }
 
-.none{
-    text-decoration: none;
+.none {
+  text-decoration: none;
 }
