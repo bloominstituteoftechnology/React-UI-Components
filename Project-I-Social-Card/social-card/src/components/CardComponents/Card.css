@@ -1,1 +1,19 @@
 /* All styles for your Card Components live here */
+
+.container-card {
+  display: flex;
+  flex-direction: column;
+  max-width: 1000px;
+  margin: 0 auto;
+  justify-content: center;
+  width: 90%
+}
+
+.grey{
+    color:grey;
+}
+
+.padding-left{
+    padding-left: 100px;
+  
+}

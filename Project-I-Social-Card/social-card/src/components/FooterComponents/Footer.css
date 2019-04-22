@@ -1,0 +1,22 @@
+.border-box{
+    box-sizing: border-box
+}
+
+.flex{
+    display:flex;
+
+}
+
+.flex p{
+    margin:0;
+}
+
+.margin-right{
+    
+    margin-right: 70px;
+    font-size: 20px;
+}
+
+.tiny-padding{
+    padding-left: 9px;
+}

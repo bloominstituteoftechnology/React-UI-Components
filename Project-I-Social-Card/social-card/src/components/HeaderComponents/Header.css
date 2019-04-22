@@ -1,1 +1,24 @@
 /* All styles for your header Components live here */
+.container{
+    max-width: 1000px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: flex-start;
+
+}
+
+.header-title{
+    display:flex;
+    flex-direction: column;
+    
+}
+
+.header-text-date{
+    display:flex;
+    align-items: baseline;
+}
+
+.header-image{
+    width: 100px;
+    height: 100px;
+}
