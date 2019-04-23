@@ -4,19 +4,14 @@ import CalculatorDisplay from './components/DisplayComponents/CalculatorDisplay'
 import NumberButton from './components/ButtonComponents/NumberButton';
 import ActionButton from './components/ButtonComponents/ActionButton';
 import ActionsDisplay from './components/DisplayComponents/ActionsDisplay';
+import NumbersDisplay from './components/DisplayComponents/NumbersDisplay';
 
-const Numbers = [9,8,,7,6,5,4,3,2,1,0];
-
-//const Actions = ['-', '+', '=', 'X', 'clear'];
 
 
 const App = (props) => {
   return (
     <div>
-      <CalculatorDisplay />
-      {Numbers.map(number => {
-        return <NumberButton text={number}/>
-      })}
+      <NumbersDisplay />
 
       <ActionsDisplay />
       

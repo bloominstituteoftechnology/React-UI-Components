@@ -14,7 +14,3 @@ const ActionsDisplay = (props) => {
 
 export default ActionsDisplay;
 
-// Actions.map(action => {
-//   return <ActionButton text={action}/>
-//   //return console.log('ehlo')
-// })}
