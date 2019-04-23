@@ -1,10 +1,16 @@
 import React from 'react';
-import './App.css';
+import './App.scss';
+import CalculatorDisplay from './components/DisplayComponents/CalculatorDisplay';
+import ButtonContainer from './components/ButtonComponents/ButtonContainer';
+// import ActionButton from './components/ButtonComponents/ActionButton'
+// import NumberButton from './components/ButtonComponents/NumberButton'
 
 const App = () => {
   return (
-    <div>
+    <div className="App">
       <h3>Welcome to React Calculator</h3>
+      <CalculatorDisplay />
+      <ButtonContainer />
       <p>
         We have given you a starter project. You'll want to build out your
         components in their respective files, remove this code and replace it
@@ -16,8 +22,9 @@ const App = () => {
           inside of this file in order to make them work.
         </strong>
       </p>
-    </div>
-  );
-};
+    
+     </div>
+  )
+}
 
 export default App;
