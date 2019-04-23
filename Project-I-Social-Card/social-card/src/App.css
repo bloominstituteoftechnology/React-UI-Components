@@ -34,9 +34,9 @@
   padding-left: 350px;
 }
 
-.HeaderContainer {
+/* .HeaderContainer {
   margin-bottom: 20px;
-}
+} */
 
 .Clogo {
   height: 300px;
@@ -50,5 +50,7 @@ a {
 
 .lastPara {
   margin-left: 10px;
-  width: 600px;
+  width: 558px;
+  padding: 10px 20px;
 }
+
