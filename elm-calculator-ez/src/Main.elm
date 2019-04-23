@@ -50,10 +50,11 @@ update msg model =
 
 view : Model -> Html Msg
 view model =
-    div []
-        [ img [ src "/logo.svg" ] []
-        , h1 [] [ text "Your Elm App is working!" ]
-        ]
+    let
+        allBtns =
+            [ Action "clear", Action "/", Number "7", Number "8", Number "9", Action "x", Number "4", Number "5", Number "6", Number "1", Number "2", Number "3", Action "+", Number "0", Action "=" ]
+    in
+    div [] (renderBtns allBtns)
 
 
 
@@ -84,3 +85,8 @@ renderBtn btn =
         Number content ->
             div [ class "btn number", onClick BuildCalculation ]
                 [ text content ]
+
+
+renderBtns : List Button -> List (Html Msg)
+renderBtns btns =
+    List.map renderBtn btns
