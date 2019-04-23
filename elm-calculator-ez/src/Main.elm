@@ -1,20 +1,23 @@
-module Main exposing (..)
+module Main exposing (Model, Msg(..), init, main, update, view)
 
 import Browser
-import Html exposing (Html, text, div, h1, img)
+import Html exposing (..)
 import Html.Attributes exposing (src)
+
 
 
 ---- MODEL ----
 
 
 type alias Model =
-    {}
+    { value : String }
 
 
 init : ( Model, Cmd Msg )
 init =
-    ( {}, Cmd.none )
+    ( { value = "" }
+    , Cmd.none
+    )
 
 
 
