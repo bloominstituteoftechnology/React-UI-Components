@@ -1,8 +1,11 @@
 
 .calculator {
+    width: fit-content;
+}
+.calc-content {
     display: flex;
     flex-direction: row;
-    width: 35%;
+    width: 104%;
 }
 
 .numbers {
