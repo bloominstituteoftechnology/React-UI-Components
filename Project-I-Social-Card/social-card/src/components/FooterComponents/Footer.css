@@ -1,11 +1,10 @@
-.footer{
-    border:1px solid grey;
+.footer {
+    border: 1px solid grey;
     text-align: center;
-    height:30px;
-   
+    height: 30px;
 }
 
-.icon{
+.icon {
     text-align: center;
     margin-left: 30px;
 }

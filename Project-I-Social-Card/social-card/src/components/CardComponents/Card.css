@@ -2,15 +2,14 @@
 
 .card-banner {
     width: 600px;
-    margin-left: 140px;
+    margin-left:120px;
     height: 350px;
 }
 
-
-.cardcontent{
-    margin-left:140px;
+.cardcontent {
+    margin-left: 140px;
 }
 
-.light{
+.light {
     color: gray;
 }
