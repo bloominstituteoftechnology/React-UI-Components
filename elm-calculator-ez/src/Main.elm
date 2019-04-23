@@ -10,9 +10,15 @@ import Html.Events exposing (onClick)
 ---- TYPES ----
 
 
+type alias ButtonProps =
+    { content : String
+    , isLarge : Bool
+    }
+
+
 type Button
-    = Action String
-    | Number String
+    = Action ButtonProps
+    | Number ButtonProps
 
 
 
@@ -52,7 +58,7 @@ view : Model -> Html Msg
 view model =
     let
         allBtns =
-            [ Action "clear", Action "/", Number "7", Number "8", Number "9", Action "x", Number "4", Number "5", Number "6", Number "1", Number "2", Number "3", Action "+", Number "0", Action "=" ]
+            [ Action (bigBtn "clear"), Action (smallBtn "/"), Number (smallBtn "7"), Number (smallBtn "8"), Number (smallBtn "9"), Action (smallBtn "x"), Number (smallBtn "4"), Number (smallBtn "5"), Number (smallBtn "6"), Number (smallBtn "1"), Number (smallBtn "2"), Number (smallBtn "3"), Action (smallBtn "+"), Number (bigBtn "0"), Action (smallBtn "=") ]
     in
     div [] (renderBtns allBtns)
 
@@ -78,15 +84,39 @@ main =
 renderBtn : Button -> Html Msg
 renderBtn btn =
     case btn of
-        Action content ->
-            div [ class "btn action", onClick BuildCalculation ]
-                [ text content ]
+        Action props ->
+            div
+                [ classList
+                    [ ( "btn", True )
+                    , ( "action", True )
+                    , ( "large", props.isLarge )
+                    ]
+                , onClick BuildCalculation
+                ]
+                [ text props.content ]
 
-        Number content ->
-            div [ class "btn number", onClick BuildCalculation ]
-                [ text content ]
+        Number props ->
+            div
+                [ classList
+                    [ ( "btn", True )
+                    , ( "number", True )
+                    , ( "large", props.isLarge )
+                    ]
+                , onClick BuildCalculation
+                ]
+                [ text props.content ]
 
 
 renderBtns : List Button -> List (Html Msg)
 renderBtns btns =
     List.map renderBtn btns
+
+
+smallBtn : String -> ButtonProps
+smallBtn content =
+    ButtonProps content False
+
+
+bigBtn : String -> ButtonProps
+bigBtn content =
+    ButtonProps content True
