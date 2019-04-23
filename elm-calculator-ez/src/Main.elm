@@ -2,7 +2,17 @@ module Main exposing (Model, Msg(..), init, main, update, view)
 
 import Browser
 import Html exposing (..)
-import Html.Attributes exposing (src)
+import Html.Attributes exposing (..)
+import Html.Events exposing (onClick)
+
+
+
+---- TYPES ----
+
+
+type Button
+    = Action String
+    | Number String
 
 
 
@@ -25,7 +35,8 @@ init =
 
 
 type Msg
-    = NoOp
+    = BuildCalculation
+    | PerformCalculation
 
 
 update : Msg -> Model -> ( Model, Cmd Msg )
@@ -57,3 +68,19 @@ main =
         , update = update
         , subscriptions = always Sub.none
         }
+
+
+
+---- HELPERS ----
+
+
+renderBtn : Button -> Html Msg
+renderBtn btn =
+    case btn of
+        Action content ->
+            div [ class "btn action", onClick BuildCalculation ]
+                [ text content ]
+
+        Number content ->
+            div [ class "btn number", onClick BuildCalculation ]
+                [ text content ]
