@@ -1,1 +1,72 @@
 /* All styles for your header Components live here */
+
+.lambda-logo {
+    width: 85px;
+    height: 85px;
+    
+}
+
+.header-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+   
+}
+
+.banner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 60%;
+    align-items: baseline;
+}
+
+@media (max-width: 982px) {
+    .banner {
+        margin: 0 auto;
+    }
+    .banner h1 {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 700px) {
+    .banner {
+        width: 100%;
+    }
+   
+}
+
+
+.banner h1 {
+    margin: 0;
+}
+
+.banner a,
+.banner p {
+    color: lightgray;
+}
+
+.banner a::after {
+    content: ' ';
+    display: inline-flex;
+    width: 5px;
+    height: 5px;
+    color: gray;
+    background-color: lightgray;
+    border-radius: 50%;
+    margin: .5rem;
+    transform: translate(210%, -35%);
+}
+
+@media (max-width: 982px) {
+    .banner a::after {
+        display: none;
+    }
+    
+}
+
+.header-body {
+    max-width: 885px
+}
