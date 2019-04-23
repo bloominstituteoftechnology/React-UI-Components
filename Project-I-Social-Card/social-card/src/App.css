@@ -4,10 +4,9 @@
 */
 
 .logo {
-  width: 50px;
-  height: 50px;
+  width: 55px;
+  height: 55px;
   border-radius: 50%;
-  border: 1px solid black;
   margin-top: 20px;
 }
 
@@ -26,13 +25,30 @@
 
 .para {
   margin-left: 10px;
+  padding-right: 30px;
+  width: 600px;
 }
 
 .App {
   display: flex;
+  padding-left: 350px;
 }
 
 .HeaderContainer {
-  width: 37%;
   margin-bottom: 20px;
+}
+
+.Clogo {
+  height: 300px;
+  width: 600px;
+  margin-left: 10px;
+}
+
+a {
+  color: grey;
+}
+
+.lastPara {
+  margin-left: 10px;
+  width: 600px;
 }
