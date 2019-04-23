@@ -3,10 +3,8 @@
 .headerContainer {
     display: flex;
     flex-direction: row;
-    width: 750px;
-    margin-left: 200px;
     padding: 20px;
-    border: 5px solid red;
+   
 }
 
 .logo {
