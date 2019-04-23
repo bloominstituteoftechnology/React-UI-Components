@@ -1,0 +1,17 @@
+.display {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 400px;
+    height: 120px;
+    border: 1px solid grey;
+    background: rgb(63, 62, 62);
+    color: white;
+    font-size: 4rem;
+    border: 1px solid grey;
+
+
+}
+ p {
+     margin-right: 10px;
+ }
