@@ -1,16 +1,19 @@
 import React from 'react';
-import './Display.css';
+import './Display.scss';
 import ActionButton from '../ButtonComponents/ActionButton';
 
-const Actions = ['-', '+', '=', 'X', 'clear'];
+const Actions = ['/','-', '+', '=', 'X'];
 
 const ActionsDisplay = (props) => {
   return (
+
     Actions.map(action => {
-        return <ActionButton text={action}/>;
-       
+        return <ActionButton text={action} buttonStyle='actionButton' />;  
     })
-  );}
+    
+  );
+
+}
 
 export default ActionsDisplay;
 

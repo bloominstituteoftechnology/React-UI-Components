@@ -1,0 +1,35 @@
+
+.calculator {
+    display: flex;
+    flex-direction: row;
+    width: 35%;
+}
+
+.numbers {
+    width: 75%;
+    
+}
+
+.actions {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.numberButton {
+    width: 75px;
+    height: 75px;
+  &:last-child {
+      width: 100%;
+  }
+  &:first-child {
+      width: 100%;
+  }
+}
+
+.actionButton {
+    &:last-child {
+        width: 100%;
+    }
+}

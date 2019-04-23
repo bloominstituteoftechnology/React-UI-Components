@@ -1,0 +1,14 @@
+.numberButton {
+    width: 75px;
+    height: 75px;
+}
+
+.actionButton {
+    width: 75px;
+    height: 75px;
+    background: #A0001D;
+    color: white;
+    &:first-child {
+        width: 100%
+    }
+}
