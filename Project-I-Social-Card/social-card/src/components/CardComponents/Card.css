@@ -8,8 +8,15 @@
 
 .cardcontent {
     margin-left: 140px;
+    margin-top: 10px;
 }
 
 .light {
     color: gray;
+}
+
+.anchor{
+    text-decoration: none;
+    color:grey;
+    margin-top:0px;
 }

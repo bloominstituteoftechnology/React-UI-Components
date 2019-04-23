@@ -6,7 +6,7 @@ function CardContent () {
         <div className="cardcontent">
    <h3>Get Started with React</h3>
    <p>React makes it painless to create interactive UIS. Design simple views for each state in your application.</p>
-   <p className = "light"><a href="https://www.reactjs.org">reactjs.org</a></p>
+  <p><a class="anchor"href="https://www.reactjs.org">reactjs.org</a></p>
    </div>
     );
 };
