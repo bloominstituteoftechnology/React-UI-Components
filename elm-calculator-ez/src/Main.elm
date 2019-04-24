@@ -42,7 +42,7 @@ init =
 
 
 type Msg
-    = BuildCalculation
+    = BuildCalculation String
     | PerformCalculation
 
 
@@ -123,7 +123,7 @@ renderBtn btn =
                     , ( "action", True )
                     , ( "large", props.isLarge )
                     ]
-                , onClick BuildCalculation
+                , onClick (BuildCalculation props.content)
                 ]
                 [ text props.content ]
 
@@ -134,7 +134,7 @@ renderBtn btn =
                     , ( "number", True )
                     , ( "large", props.isLarge )
                     ]
-                , onClick BuildCalculation
+                , onClick (BuildCalculation props.content)
                 ]
                 [ text props.content ]
 
