@@ -48,10 +48,16 @@ type Msg
 
 update : Msg -> Model -> ( Model, Cmd Msg )
 update msg model =
-    ( model, Cmd.none )
+    case msg of
+        BuildCalculation operation ->
+            ( { model | value = model.value ++ operation }, Cmd.none )
+
+        PerformCalculation ->
+            ( model, Cmd.none )
 
 
 
+-- TODO: add `eval` helper to perfom calculation on line 55 ^
 ---- VIEW ----
 
 
