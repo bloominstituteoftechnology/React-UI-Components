@@ -1,0 +1,29 @@
+ .Display {
+     text-align: end;
+     border: 1px solid white;
+     background-color: black;
+     color: white;
+     height: 100px;
+     width: 400px;
+     font-size: 75px;
+ }
+
+.first-row {
+    display: flex;
+}
+
+.second-row {
+    display: flex;
+}
+
+.third-row {
+    display: flex;  
+}
+
+.forth-row {
+    display: flex; 
+}
+
+.fifth-row {
+    display: flex; 
+}

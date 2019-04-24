@@ -1,0 +1,22 @@
+.buttonsize {
+    height: 70px;
+    width: 300px;
+    font-size: 40px;
+    border: 1px solid black;
+}
+
+.colorbutton {
+    height: 70px;
+    width: 100px;
+    background-color: #B51A2B;
+    color: white;
+    font-size: 40px;
+    border: 1px solid black;
+}
+
+.number {
+    height: 70px;
+    width: 100px;
+    font-size: 40px;
+    border: 1px solid black;
+}
