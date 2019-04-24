@@ -4,6 +4,7 @@ import Browser
 import Html exposing (..)
 import Html.Attributes exposing (..)
 import Html.Events exposing (onClick)
+import List.FlatMap exposing (..)
 
 
 
@@ -57,10 +58,31 @@ update msg model =
 view : Model -> Html Msg
 view model =
     let
-        allBtns =
-            [ Action (bigBtn "clear"), Action (smallBtn "/"), Number (smallBtn "7"), Number (smallBtn "8"), Number (smallBtn "9"), Action (smallBtn "x"), Number (smallBtn "4"), Number (smallBtn "5"), Number (smallBtn "6"), Number (smallBtn "1"), Number (smallBtn "2"), Number (smallBtn "3"), Action (smallBtn "+"), Number (bigBtn "0"), Action (smallBtn "=") ]
+        row1 =
+            [ div [ id "display" ] [ text "0" ] ]
+
+        row2 =
+            renderBtns [ Action (bigBtn "clear"), Action (smallBtn "/") ]
+
+        row3 =
+            renderBtns [ Number (smallBtn "7"), Number (smallBtn "8"), Number (smallBtn "9"), Action (smallBtn "x") ]
+
+        row4 =
+            renderBtns [ Number (smallBtn "4"), Number (smallBtn "5"), Number (smallBtn "6"), Action (smallBtn "-") ]
+
+        row5 =
+            renderBtns [ Number (smallBtn "1"), Number (smallBtn "2"), Number (smallBtn "3"), Action (smallBtn "+") ]
+
+        row6 =
+            renderBtns [ Number (bigBtn "0"), Action (smallBtn "=") ]
+
+        allBtnRows =
+            [ row2, row3, row4, row5, row6 ]
     in
-    div [] (renderBtns allBtns)
+    div [ class "app" ]
+        [ div [ class "calculator-display" ]
+            (row1 ++ List.map renderRowFromList allBtnRows)
+        ]
 
 
 
@@ -79,6 +101,16 @@ main =
 
 
 ---- HELPERS ----
+
+
+renderRow : Html Msg -> Html Msg
+renderRow element =
+    div [ class "row" ] [ element ]
+
+
+renderRowFromList : List (Html Msg) -> Html Msg
+renderRowFromList elements =
+    div [ class "row" ] elements
 
 
 renderBtn : Button -> Html Msg
