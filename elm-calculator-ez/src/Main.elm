@@ -32,7 +32,7 @@ type alias Model =
 
 init : ( Model, Cmd Msg )
 init =
-    ( { value = "" }
+    ( { value = "0" }
     , Cmd.none
     )
 
@@ -65,7 +65,7 @@ view : Model -> Html Msg
 view model =
     let
         row1 =
-            [ div [ id "display" ] [ text "0" ] ]
+            [ div [ id "display" ] [ text model.value ] ]
 
         row2 =
             renderBtns [ Action (bigBtn "clear"), Action (smallBtn "/") ]
