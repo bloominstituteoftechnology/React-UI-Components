@@ -3,6 +3,7 @@ import './Display.css';
 import NumberButton from '../ButtonComponents/NumberButton';
 import ActionButton from '../ButtonComponents/ActionButton';
 
+//alt + numPad 0 + 2 + 4 + 7
 
 const CalcDisplay = props => {
     return (
@@ -10,13 +11,13 @@ const CalcDisplay = props => {
         <div className="answer">0</div>
         <div className="row1">
         <ActionButton text="clear"/> 
-        <NumberButton text="/"buttonStyle="redbutton"/>
+        <NumberButton text="÷"buttonStyle="redbutton"/>
         </div>
         <div className="row2">
         <NumberButton text="7"/>
         <NumberButton text="8"/>
         <NumberButton text="9"/>
-        <NumberButton text="x"buttonStyle="redbutton"/>
+        <NumberButton text="×"buttonStyle="redbutton"/>
         </div>
         <div className="row3">
         <NumberButton text="4"/>
