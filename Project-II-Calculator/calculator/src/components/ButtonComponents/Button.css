@@ -1,0 +1,21 @@
+.btn {
+    border: 1px solid black;
+    width: 100px;
+    flex-grow: 1;
+    padding: 1.5rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: self;
+}
+
+.action {
+    background: rgb(196, 26, 26);
+    color: white;
+    flex-grow: 0;
+}
+
+.large {
+  /* flex-basis: 75%; */
+  flex-grow: 3;
+}

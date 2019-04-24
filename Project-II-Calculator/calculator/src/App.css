@@ -1,0 +1,6 @@
+.app {
+   width: 50%;
+   margin: 3rem auto;
+   background: rgba(250,250,250, 0.8);
+   border: 1px solid black;
+}

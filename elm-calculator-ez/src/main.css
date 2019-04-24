@@ -1,0 +1,94 @@
+/*
+  elm-hot creates an additional div wrapper around the app to make HMR possible.
+  This could break styling in development mode if you are using Elm UI.
+
+  More context in the issue:
+    https://github.com/halfzebra/create-elm-app/issues/320
+*/
+[data-elm-hot="true"] {
+  height: inherit;
+}
+
+body {
+  font-family: 'Source Sans Pro', 'Trebuchet MS', 'Lucida Grande', 'Bitstream Vera Sans', 'Helvetica Neue', sans-serif;
+  margin: 0;
+  text-align: center;
+  color: #293c4b;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+img {
+  margin: 20px 0;
+  max-width: 200px;
+}
+
+
+
+/* ---- Top Level App Styles ---- */
+
+
+.app {
+  width: 50%;
+  margin: 3rem auto;
+  background: rgba(250,250,250, 0.8);
+  border: 1px solid black;
+}
+
+
+
+/* ---- Calculator Container Styles ---- */
+
+
+.calculator-display {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.row {
+  flex-basis: 100%;
+  flex-wrap: nowrap;
+
+  display: flex;
+  justify-content: flex-end;
+}
+
+#display {
+  background: rgb(50,50,50);
+  color: white;
+  padding: .75rem 1rem;
+  flex-basis: 100%;
+
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+
+/* ---- Button Styles ---- */
+
+
+.btn {
+  border: 1px solid black;
+  width: 100px;
+  flex-grow: 1;
+  padding: 1.5rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: self;
+}
+
+.action {
+  background: rgb(196, 26, 26);
+  color: white;
+  flex-grow: 0;
+}
+
+.large {
+/* flex-basis: 75%; */
+flex-grow: 3;
+}
