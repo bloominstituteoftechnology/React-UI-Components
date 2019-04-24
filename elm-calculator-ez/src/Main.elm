@@ -44,6 +44,7 @@ init =
 type Msg
     = BuildCalculation String
     | PerformCalculation
+    | ClearDisplay
 
 
 update : Msg -> Model -> ( Model, Cmd Msg )
@@ -54,6 +55,9 @@ update msg model =
 
         PerformCalculation ->
             ( model, Cmd.none )
+
+        ClearDisplay ->
+            ( { model | value = "0" }, Cmd.none )
 
 
 
@@ -129,7 +133,13 @@ renderBtn btn =
                     , ( "action", True )
                     , ( "large", props.isLarge )
                     ]
-                , onClick (BuildCalculation props.content)
+                , onClick
+                    (if props.content == "clear" then
+                        ClearDisplay
+
+                     else
+                        BuildCalculation props.content
+                    )
                 ]
                 [ text props.content ]
 
