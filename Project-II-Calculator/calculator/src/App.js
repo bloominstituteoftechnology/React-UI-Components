@@ -1,23 +1,23 @@
 import React from 'react';
 import './App.css';
+import CalculatorDisplay from './components/DisplayComponents/CalculatorDisplay'
+import Row2 from './components/RowComponents/Row2'
+import Row3 from './components/RowComponents/Row3'
+import Row4 from './components/RowComponents/Row4'
+import Row5 from './components/RowComponents/Row5'
+import Row6 from './components/RowComponents/Row6'
 
 const App = () => {
   return (
-    <div>
-      <h3>Welcome to React Calculator</h3>
-      <p>
-        We have given you a starter project. You'll want to build out your
-        components in their respective files, remove this code and replace it
-        with the proper components.
-      </p>
-      <p>
-        <strong>
-          Don't forget to `default export` your components and import them here
-          inside of this file in order to make them work.
-        </strong>
-      </p>
+    <div className="App">
+    <CalculatorDisplay />
+    <Row2 />
+    <Row3 />
+    <Row4 />
+    <Row5 />
+    <Row6 />
     </div>
-  );
-};
+  )
+}
 
-export default App;
+export default App
