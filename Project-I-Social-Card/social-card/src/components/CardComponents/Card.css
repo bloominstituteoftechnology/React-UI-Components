@@ -1,1 +1,37 @@
 /* All styles for your Card Components live here */
+
+.CardContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  max-width: 475px;
+  margin: 0;
+}
+
+.CardBanner {
+  background: url("https://ibin.co/3wnC6SgIOJud.png") center;
+  background-size: cover;
+  height: 200px;
+  width: 400px;
+  border-radius: 5px 5px 0 0;
+}
+
+.CardContent {
+  width: 370px;
+  margin-left: 5%;
+  padding: 1% 3%;
+  border: 1px solid lightgray;
+  border-radius: 0 0 5px 5px;
+}
+
+.title {
+  font-size: 14px;
+}
+
+.body {
+  font-size: 14px;
+}
+
+.source {
+  font-size: 13px;
+}
