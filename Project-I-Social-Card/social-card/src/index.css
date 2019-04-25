@@ -2,4 +2,19 @@ body {
   margin: 0;
   padding: 0.4rem;
   font-family: sans-serif;
+  width: 590px;
+  height: 514px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.gray {
+  color: gray;
 }
