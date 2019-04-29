@@ -1,1 +1,22 @@
 /* All styles for your Card Components live here */
+
+.card-banner {
+    width: 600px;
+    margin-left:120px;
+    height: 350px;
+}
+
+.cardcontent {
+    margin-left: 120px;
+    margin-top: 10px;
+}
+
+.light {
+    color: gray;
+}
+
+.anchor{
+    text-decoration: none;
+    color:grey;
+    margin-top:0px;
+}
