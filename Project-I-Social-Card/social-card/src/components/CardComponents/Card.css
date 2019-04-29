@@ -1,1 +1,15 @@
 /* All styles for your Card Components live here */
+
+/* CardBanner */
+.CardBanner img {
+  max-width: 100%;
+  padding-left: 70px;
+  padding-right: 30px;
+  padding-top: 20px;
+}
+
+/* Card Content */
+.CardContent {
+  padding-left: 70px;
+  padding-right: 30px;
+}
