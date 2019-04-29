@@ -1,1 +1,19 @@
 /* All styles for your header Components live here */
+.app-container {
+  width: 800px;
+  margin: 0 auto;
+}
+header {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+.thumbnail {
+  width: 200px;
+}
+.thumbnail img {
+  width: 100%;
+}
+.header-content {
+  padding-left: 15px;
+}
