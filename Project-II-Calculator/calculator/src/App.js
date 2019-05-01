@@ -62,9 +62,12 @@ const symbols = [
 const App = () => {
   return (
     <div>
-      <CalculatorDisplay />
-      <ButtonContainer numbers={numbers} symbols={symbols} />
+     <div className="card-container">
+        <CalculatorDisplay />
+        <ButtonContainer numbers={numbers} symbols={symbols} />
+      </div>
     </div>
+   
   );
 };
 

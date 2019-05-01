@@ -6,12 +6,16 @@ import ActionButton from './ActionButton';
 const ButtonContainer = props => {
     console.log(props);
     return (
-        <div>
+        <div className="button-container">
             <div className="left">
-                <NumberButton number="CLEAR" buttonStyle="big"/>
-                {props.numbers.map(number => (
-                    <NumberButton number={number.text} buttonStyle="number"/>
-                ))}
+                <NumberButton number="clear" buttonStyle="big"/>
+
+                <div className="numpad">
+                    {props.numbers.map(number => (
+                        <NumberButton number={number.text} buttonStyle="number"/>
+                    ))}
+                </div>
+              
                 <NumberButton number="0" buttonStyle="big" />
             </div>
 

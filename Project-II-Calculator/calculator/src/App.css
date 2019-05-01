@@ -1,0 +1,18 @@
+.card-container {
+    max-width: 452px;
+    width: 100%;
+    margin: 0 auto;
+    border: 2px solid #979797;
+}
+
+.display-container {
+    background-color: #222;
+    padding: 20px 12px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.display {
+    color: white;
+    font-size: 4.7rem;
+}

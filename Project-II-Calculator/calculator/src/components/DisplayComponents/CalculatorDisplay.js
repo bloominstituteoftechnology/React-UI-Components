@@ -18,7 +18,7 @@ const Display = () => {
 const CalculatorDisplay = (props) => {
     return (
         <div className="display-container">
-            <span>0</span>
+            <span className="display">0</span>
         </div>
     )
 }
