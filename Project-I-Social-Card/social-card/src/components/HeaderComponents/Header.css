@@ -1,1 +1,50 @@
 /* All styles for your header Components live here */
+
+.HeaderContainer {
+    margin-left: 1%;
+    display: flex;
+    height: 50px;
+    margin: 0 0 10% 2%;
+    padding: 0;
+  }
+  
+  .HeaderText {
+    margin-left: 1%;
+  }
+  
+  .HeaderTitle {
+    display: flex;
+    align-items: baseline;
+  }
+  
+  .HeaderTitle > * {
+    margin: 0;
+  }
+  
+  .displayName,
+  .HeaderContent {
+    font-size: 14px;
+  }
+  
+  .accountName,
+  .date,
+  .bullet {
+    font-size: 13px;
+  }
+  
+  .displayName {
+    margin-right: 1.5%;
+  }
+  
+  .accountName {
+    margin-right: 1%;
+  }
+  
+  .bullet {
+    margin-right: 1%;
+  }
+  
+  .lambda-logo {
+    width: 50px;
+    border-radius: 50%;
+  }
