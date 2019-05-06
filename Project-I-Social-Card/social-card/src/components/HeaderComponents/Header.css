@@ -9,12 +9,12 @@
 .header-content {
   width: 93%;
   font-size: 12px;
-  line-height: 1.2;
-  padding: 5px;
+  /* line-height: 1.2;
+  padding: 5px; */
 }
 
 .header-wrap {
-  flex-direction: column;
+  flex-direction: row;
   margin-top: 10px;
 }
 
@@ -29,7 +29,7 @@
 
 .header-title {
   font-size: 12px;
-  padding: 5px;
+  /* padding: 5px; */
   font-weight: 500;
 }
 
