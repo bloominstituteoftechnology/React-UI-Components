@@ -1,11 +1,15 @@
 import React from 'react';
 import './Header.css';
 
-const Header = () => {
+const HeaderTitle = () => {
   return (
-    <h3>Lambda School @LambdaSchool </h3>
+    <div className="header-wrap">
+      <div className="header-title">
+        <h3>Lambda School @LambdaSchool </h3>
+      </div>
+    </div>
   );
 }
 
 
-export default Header;
+export default HeaderTitle;
