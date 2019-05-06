@@ -3,7 +3,7 @@ import './Header.css';
 
 const Header = () => {
   return (
-    <h3>Lambda School </h3>
+    <h3>Lambda School @LambdaSchool </h3>
   );
 }
 
