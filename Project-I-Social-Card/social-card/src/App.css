@@ -2,3 +2,55 @@
   Write your styles/CSS for App.js here and import into the component that you need 
   IF you'd like to attempt to use less you'll have to research how to do this with Create React App
 */
+
+.logo {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
+.title  span {
+  font-size: 18px;
+  color: grey;
+}
+
+.title h1 {
+  font-size: 25px;
+}
+
+.title {
+  margin-left: 10px;
+}
+
+.para {
+  margin-left: 10px;
+  padding-right: 30px;
+  width: 600px;
+}
+
+.App {
+  display: flex;
+  padding-left: 350px;
+}
+
+/* .HeaderContainer {
+  margin-bottom: 20px;
+} */
+
+.Clogo {
+  height: 300px;
+  width: 600px;
+  margin-left: 10px;
+}
+
+a {
+  color: grey;
+}
+
+.lastPara {
+  margin-left: 10px;
+  width: 558px;
+  padding: 10px 20px;
+}
+
