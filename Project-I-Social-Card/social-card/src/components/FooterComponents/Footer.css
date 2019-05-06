@@ -1,0 +1,17 @@
+.footer {
+    margin-left: 58px;
+    margin-right: 17px;
+    margin-top: 20px;
+  }
+  
+  .footer .awesome {
+    margin-right: 70px;
+  }
+  
+  i {
+    margin-right: 10px;
+  }
+  
+  i:hover {
+    cursor: pointer;
+  }
