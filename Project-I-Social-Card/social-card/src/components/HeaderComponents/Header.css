@@ -1,1 +1,17 @@
 /* All styles for your header Components live here */
+.container {
+  max-width: 900px;
+  width: 100%;
+}
+
+.header {
+  margin-left: 15%;
+}
+
+.headerTitle {
+  margin-left: 15%;
+}
+
+.image {
+  margin-left: 2%;
+}
