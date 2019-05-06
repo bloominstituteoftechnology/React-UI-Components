@@ -1,0 +1,25 @@
+.preview-container {
+    border: 1px solid lightgray;
+    height: auto;
+    margin: 20px 20px 20px 0px;
+    border-radius: 10px
+}
+
+.preview-container #react-logo {
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;  
+}
+
+.slug-line {
+    margin: 20px;
+    word-spacing: 0;
+}
+#website {
+    font-weight: lighter;
+    color: gray;
+}
+
+#icons-container {
+    width: 300px;
+    margin-bottom: 20px;
+}

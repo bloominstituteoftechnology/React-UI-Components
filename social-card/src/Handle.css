@@ -1,0 +1,25 @@
+.div-handle {
+    display:flex;
+    width: 60%;
+    height: 30px;
+    margin-bottom: 15px;
+
+  }
+  
+  .twitter-handle-wrapper {
+    display:flex;
+    margin-left: 1em;
+  }
+  .twitter {
+    font-weight: lighter;
+    color: gray;
+  }
+  
+  .username {
+    font-weight: bold;
+  }
+  
+  .date {
+    margin-left: 0.5em;
+  }
+  

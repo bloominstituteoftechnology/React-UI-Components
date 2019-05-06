@@ -1,0 +1,155 @@
+ <html class="no-js"> 
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            .container{
+                display:flex;
+                border: 1px solid black;
+                width:640px;
+                font-family:Arial, sans-serif;
+            
+            }
+            
+            .card-wrapper{
+                display:flex;
+                flex-direction: column;
+                margin-right:10px;
+            }
+            
+            
+            .lambda-logo{
+                border-radius: 50%;
+                height:50px;
+                padding: 15px;
+            }
+            .username{
+                font-weight: bold;
+                margin-right:10px;
+            }
+            .twitter{
+                margin-right:10px;
+                color:grey;
+            }
+            .div-handle{
+                display:flex;
+            }
+            .react-logo{
+                width:549px;
+            
+            }
+            
+            .card{
+                border: 1px solid grey;
+                border-radius:5px;
+            }
+            .caption-bold{
+                font-weight:bold;
+            }
+            .website{
+                color:grey;
+            }
+            .button-time{
+                width:70px;
+                background-color:white;
+                color:gray;
+            }
+            .button-handle{
+                display:flex;
+                margin-bottom:10px;
+                
+            }
+        </style>
+    </head>
+    <body>
+        <div id="target"></div> <!--wrapper div for entire application-->
+    </body>
+    <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script> <!--React library-->
+    <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script> <!--ReactDOM library-->
+    <script src="https://unpkg.com/babel-standalone@6.26.0/babel.js"></script>
+    <script type="text/babel">
+    
+        const SideIcon = props => {
+            return(
+            <img className="lambda-logo"src="https://pbs.twimg.com/profile_images/973277209644249089/0Te2jtBH_400x400.jpg"/>
+            )
+        }
+        
+        const Handle = props =>{
+            return(
+            <div className="div-handle">
+            <p className="username">{props.user}</p>
+            <p className="twitter">{props.twitter}</p>
+            <p className ="twitter">· 26 jan</p>
+            </div>
+            )
+        }
+        
+        const Header = props =>{
+            return(
+            <Handle user="Lambda School" twitter="@LambdaSchool"/>
+            )
+        }
+        
+        const TextOne = props =>{
+            return(
+            <p>
+            Let's learn React by building simple interfaces with components.Don't try to overthink it.Just keep it simple and have fun.Once you feel comfortable using components you are well on your way to mastering React!
+            </p>
+            );
+        };
+        
+        const Logo = () =>{
+            return (
+            <div className="card">
+                <div>
+                <img className="react-logo" top-width="100%" src="https://s3.amazonaws.com/clarityfm-production/attachments/7299/default/React.jpg?1446242140" />
+                <p className = "caption-bold">Get Started With React!</p>
+                </div>
+                <p>React makes it painless to create interactive UIs. Design simple views for each state in your application.</p>
+                <p className="website">reactjs.org</p>
+                </div>
+            );
+        };
+        
+        const Button = props =>{
+            return(
+                <button className='button-time'>{props.text}</button>
+            );
+        };
+        
+        const App = props => {
+            return (
+            <div className="container">
+                <SideIcon />
+                <div className="card-wrapper">
+                <Header />
+                <TextOne />
+                <Logo />
+                <div className="button-handle">
+                <Button text ="comment"/>
+                <Button text ="retweet"/>
+                <Button text ="favorite"/>
+                <Button text ="share"/>
+                </div>
+        
+        
+        
+        
+                </div>
+                
+            </div>
+        )};
+
+        ReactDOM.render(<App/>, document.getElementById('target'))
+        
+
+            
+            
+            
+    </script>
+    
+</html>

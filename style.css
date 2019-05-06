@@ -1,0 +1,55 @@
+.container{
+    display:flex;
+    border: 1px solid black;
+    width:640px;
+    font-family:Arial, sans-serif;
+  
+  }
+  
+  .card-wrapper{
+    display:flex;
+    flex-direction: column;
+    margin-right:10px;
+  }
+  
+  
+  .lambda-logo{
+    border-radius: 50%;
+    height:50px;
+    padding: 15px;
+  }
+  .username{
+    font-weight: bold;
+    margin-right:10px;
+  }
+  .twitter{
+    margin-right:10px;
+    color:grey;
+  }
+  .div-handle{
+    display:flex;
+  }
+  .react-logo{
+    width:549px;
+  
+  }
+  
+  .card{
+    border: 1px solid grey;
+    border-radius:5px;
+  }
+  .caption-bold{
+    font-weight:bold;
+  }
+  .website{
+    color:grey;
+  }
+  .button-time{
+    width:70px;
+    background-color:white;
+    color:gray;
+  }
+  .button-handle{
+    display:flex;
+    
+  }

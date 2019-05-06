@@ -1,0 +1,142 @@
+<html class="no-js"> 
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            .container{
+                display:flex;
+                flex-direction:column;
+                border: 1px solid black;
+                width:360px;
+                max-width: 420px;
+                font-family:Arial, sans-serif;
+                border: 1px solid gray;
+            
+            }
+
+            .button-large{
+                width:75%;
+                background-color:white;
+                color:black;
+                height:80px;
+                font-size:30px;
+            }
+            .button-small{
+                width:25%;
+                height:80px;
+                color:black;
+                background-color: white;
+                font-size:30px;
+                font-weight:bold;
+            }
+
+            .button-red{
+                background-color:maroon;
+                color:white;
+                height:80px;
+                width:25%;
+                font-weight:normal;
+            }
+            .input-div{
+                width:100%;
+                height:80px;
+            }
+            .calculation{
+                width:100%;
+                background-color:black;
+                color:white;
+                font-size: 30px;
+                font-weight:bold;
+                height:80px;
+                text-align: right;
+                margin: 0;
+                
+
+            }
+            .bold{
+                font-weight:bold;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div id="target"></div> <!--wrapper div for entire application-->
+    </body>
+    <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script> <!--React library-->
+    <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script> <!--ReactDOM library-->
+    <script src="https://unpkg.com/babel-standalone@6.26.0/babel.js"></script>
+    <script type="text/babel">
+    
+        const ButtonSmall = props =>{
+            return(
+                <button className={`button-small ${props.className}`}>{props.text}</button>
+            )
+        }
+        const ButtonLarge = props =>{
+            return(
+                <button className={`button-large ${props.className}`}>{props.text}</button>
+            )
+        }
+
+        const InputCalc = props => {
+            return(
+                <p className ="calculation">{props.number}</p>
+            )
+        }
+        
+        const App = props => {
+            return (
+                            <div className="container">
+                <div className="input-div">
+                <InputCalc number = "0"/>
+                </div>
+                <div>
+                <ButtonLarge text ="clear"/>
+                <ButtonSmall className="button-red" text ="÷"/>
+                </div>
+                <div>
+                <ButtonSmall text = "7"/>
+                <ButtonSmall text = "8"/>
+                <ButtonSmall text = "9"/>
+                <ButtonSmall className="button-red" text = "×"/>
+                </div>
+                <div>
+                <ButtonSmall text = "4"/>
+                <ButtonSmall text = "5"/>
+                <ButtonSmall text = "6"/>
+                <ButtonSmall className="button-red" text = "-"/>
+                </div>
+                <div>
+                <ButtonSmall text = "1"/>
+                <ButtonSmall text = "2"/>
+                <ButtonSmall text = "3"/>
+                <ButtonSmall className="button-red" text = "+"/>
+                </div>
+                <div>
+                <ButtonLarge className = "bold" text ="0"/>
+                <ButtonSmall className="button-red" text ="="/>
+                </div>
+
+            </div>
+               
+        
+        
+        
+        
+           
+                
+  
+        )};
+
+        ReactDOM.render(<App/>, document.getElementById('target'))
+        
+
+            
+            
+            
+    </script>
+    
+</html>
