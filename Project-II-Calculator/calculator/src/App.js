@@ -25,10 +25,11 @@ const symbols = [
 
 const App = () => {
   return (
-    <div>
-      <DisplayScreen />
-      <ButtonContainer number={numbers} symbols={symbols} />
-
+    <div className="container">
+      <div className="card-container">
+        <DisplayScreen />
+        <ButtonContainer numbers={numbers} symbols={symbols} />
+      </div>
     </div>
   );
 };
