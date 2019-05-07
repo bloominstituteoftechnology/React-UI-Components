@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import DisplayScreen from './components/DisplayComponents/CalculatorDisplay';
+import ButtonContainer from './components/ButtonComponents/ButtonContainer';
 
 const numbers = [
   { text: 9 },
@@ -26,6 +27,7 @@ const App = () => {
   return (
     <div>
       <DisplayScreen />
+      <ButtonContainer number={numbers} symbols={symbols} />
 
     </div>
   );
