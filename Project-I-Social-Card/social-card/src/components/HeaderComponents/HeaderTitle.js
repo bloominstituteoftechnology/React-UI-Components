@@ -1,5 +1,5 @@
 import React from 'react';
-import HeaderContent from './HeaderContent';
+import HeaderContent from "./HeaderContent";
 import './Header.css';
 import moment from 'moment';
 
@@ -11,6 +11,7 @@ const HeaderTitle = () => {
         <div className="header-title">
         Lambda School
         <span className="time-stamp">{time.format('MMM Do ')}</span>
+        <HeaderContent />
         </div>
         </div>
     )

@@ -1,5 +1,5 @@
-import React from "react";
-import "./Display.css";
+import React from 'react';
+import './Display.css';
 
 const CalculatorDisplay = () => {
   return <div className="calc-total">0</div>;

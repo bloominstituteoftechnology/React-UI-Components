@@ -6,9 +6,7 @@ const CardBanner = () => {
         <a className="banner-container-wrapper" href="htts://reactjs.org">
         < img
         alt="react logo"
-        ClassName="banner-img"
-        src="https://ibin.co/3wnC6SgIOJud.png"
-        />
+        ClassName="banner-img"      />
         </a>
     )
 }
