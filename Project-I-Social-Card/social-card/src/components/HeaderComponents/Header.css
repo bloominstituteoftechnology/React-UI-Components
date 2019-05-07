@@ -2,16 +2,38 @@
 .container {
   max-width: 900px;
   width: 100%;
+
 }
 
 .header {
   margin-left: 15%;
+  width: 65%;
 }
 
 .headerTitle {
   margin-left: 15%;
+  margin-top: -90px;
 }
 
-.image {
+.image img {
   margin-left: 2%;
+  width: 8%;
+}
+
+.handle {
+  margin-left: 20%;
+  margin-top: -34.5px;
+  color: grey;
+}
+
+.period {
+  margin-left: 38%;
+  margin-top: -38px;
+  color: grey;
+}
+
+.date {
+  margin-left: 40%;
+  margin-top: -30px;
+  color: grey;
 }

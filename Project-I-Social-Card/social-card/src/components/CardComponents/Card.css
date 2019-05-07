@@ -1,8 +1,13 @@
 /* All styles for your Card Components live here */
 .banner{
-  display: flex;
-  justify-content: center;
+  margin-left: 15%;
+  width: 65%;
 }
 .content{
-  margin-left: 15%;
+  margin-left: 17%;
+  width: 65%;
+}
+
+.watermark{
+  color: grey;
 }
