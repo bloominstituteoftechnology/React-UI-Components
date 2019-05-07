@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import DisplayScreen from './components/DisplayComponents/CalculatorDisplay';
+import CalculatorDisplay from './components/DisplayComponents/CalculatorDisplay';
 import ButtonContainer from './components/ButtonComponents/ButtonContainer';
 
 const numbers = [
@@ -18,7 +18,7 @@ const numbers = [
 const symbols = [
   { text: "/" },
   { text: "*" },
-  { text: "_" },
+  { text: "-" },
   { text: "+" },
   { text: "=" },
 ]
@@ -27,7 +27,7 @@ const App = () => {
   return (
     <div className="container">
       <div className="card-container">
-        <DisplayScreen />
+        <CalculatorDisplay />
         <ButtonContainer numbers={numbers} symbols={symbols} />
       </div>
     </div>
