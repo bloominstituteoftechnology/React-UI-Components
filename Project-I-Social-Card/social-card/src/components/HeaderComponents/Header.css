@@ -1,1 +1,45 @@
 /* All styles for your header Components live here */
+h1 {
+  font-size: 14px;
+  font-weight: bolder;
+}
+
+.header-title {
+  display: flex;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.header {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+}
+
+.circle {
+  height: 5px;
+  width: 5px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 5px;
+  align-self: center;
+}
+
+.twitter-handle {
+  color: gray;
+  align-self: center;
+  margin-left: 5px;
+}
+
+.timestamp {
+  color: gray;
+  align-self: center;
+}
