@@ -1,0 +1,39 @@
+.main-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.numberButtons {
+  flex-wrap: wrap;
+}
+
+.display {
+  height: 100px;
+  width: 400px;
+}
+
+.top-buttons {
+  display: flex;
+
+}
+
+.rowOne {
+  display: flex;
+}
+
+.rowTwo {
+  display: flex;
+}
+
+.rowThree {
+  display: flex;
+}
+
+.zero{
+  display: flex;
+}
+
+.equal{
+  width: 10%;
+}
