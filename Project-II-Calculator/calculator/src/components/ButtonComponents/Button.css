@@ -1,0 +1,38 @@
+.button-container {
+  display: flex;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+}
+
+.number {
+  height: 94px;
+  font-size: 2.6rem;
+  width: 112px;
+}
+
+.numpad {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+}
+
+.big {
+  height: 94px;
+  font-size: 3rem;
+}
+
+.symbol {
+  height: 94px;
+  background-color: #a0001d;
+  color: white;
+  font-size: 4rem;
+  width: 116px;
+}

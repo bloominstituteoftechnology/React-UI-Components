@@ -1,1 +1,35 @@
 /* All styles for your header Components live here */
+.container-header {
+  display: flex;
+  height: 50px;
+  padding: 5px;
+}
+
+
+.header-content {
+  width: 93%;
+  font-size: 12px;
+  /* line-height: 1.2;
+  padding: 5px; */
+}
+
+.header-wrap {
+  flex-direction: row;
+  margin-top: 10px;
+}
+
+.img-container {
+  height: 50px;
+  padding: 0.3em;
+}
+
+.lambda-img {
+  height: 100%;
+}
+
+.header-title {
+  font-size: 12px;
+  /* padding: 5px; */
+  font-weight: 500;
+}
+
