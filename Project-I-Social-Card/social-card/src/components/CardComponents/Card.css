@@ -1,1 +1,10 @@
 /* All styles for your Card Components live here */
+.Content{
+    display: flex;
+    flex-direction: column;
+    padding-left: 300px;
+}
+
+.img{
+    padding-left: 200px;
+}

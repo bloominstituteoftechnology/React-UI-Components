@@ -1,0 +1,22 @@
+.footerImg{
+    display: flex;
+    flex-direction: row;
+    padding-left: 500px;
+    
+}
+
+.up{
+    width: 10%;
+}
+
+.down{
+    width: 10%;
+}
+
+.bubble{
+    width: 10%;
+}
+
+.mail{
+    width: 10%;
+}
