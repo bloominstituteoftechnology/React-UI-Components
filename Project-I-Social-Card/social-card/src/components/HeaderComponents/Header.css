@@ -1,1 +1,22 @@
 /* All styles for your header Components live here */
+.Header {
+    display: flex;
+    
+}
+
+img{
+    width: 70%;
+}
+
+.box1{
+    flex-direction: column;
+    width: 60%;
+}
+
+div.HeaderTitle {
+    vertical-align: bottom;
+}
+
+div.HeaderContent{
+    vertical-align: bottom;
+}
