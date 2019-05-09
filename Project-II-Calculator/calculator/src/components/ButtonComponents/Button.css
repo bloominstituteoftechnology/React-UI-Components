@@ -1,0 +1,16 @@
+.numberButton {
+  width: 110px;
+  height: 92px;
+  background-color: white;
+}
+
+.symbolButton {
+  width: 110px;
+  height: 92px;
+  background-color: red;
+}
+
+.actionButton {
+  width: 330px;
+  height: 92px;
+}
