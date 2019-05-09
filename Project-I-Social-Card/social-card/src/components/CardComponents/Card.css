@@ -1,1 +1,25 @@
 /* All styles for your Card Components live here */
+.banner-img {
+  width: 500px;
+}
+
+.banner-container {
+  margin-left: 55px;
+}
+
+.card-content {
+  width: 500px;
+  margin-left: 55px;
+}
+
+h2 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 1.3rem;
+}
+
+.card-content > p {
+  font-size: .9rem;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
