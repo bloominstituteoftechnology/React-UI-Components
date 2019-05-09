@@ -1,9 +1,14 @@
 import React from 'react';
 import './App.css';
+import HeaderContainer from './components/HeaderComponents/HeaderContainer';
+
 
 const App = () => {
   return (
-    <p>Hello World</p>
+    <div className="App">
+      <HeaderContainer />
+      
+    </div>
   );
 };
 
