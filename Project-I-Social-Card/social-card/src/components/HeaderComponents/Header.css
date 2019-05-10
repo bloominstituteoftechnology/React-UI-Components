@@ -1,1 +1,37 @@
 /* All styles for your header Components live here */
+
+.header-container {
+    /* border: 1px solid red; */
+    display: flex;
+}
+
+.header-container img {
+    width: 10%;
+    height: 50%;
+    margin-top: 10px;
+}
+
+.header-container .headerTitleContentContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.header-title {
+    display: flex;
+}
+
+.header-title h2 {
+    font-size: 16px;
+    margin-left: 5px;
+}
+
+.header-title h3 {
+    color: gray;
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+.header-title  p {
+    font-size: 14px;
+    margin: 0 5px 10px 5px;
+}
