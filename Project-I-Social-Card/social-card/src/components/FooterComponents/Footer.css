@@ -1,0 +1,14 @@
+.footer-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    width: 65%;
+    display: flex;
+    padding-top: 20px;
+    padding-left: 10px;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}

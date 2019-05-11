@@ -1,0 +1,12 @@
+.calculator {
+    width: 100%;
+    height: 600px;
+    border: 1px solid gray;
+}
+
+.row-calc {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: calc(640px/6);
+}

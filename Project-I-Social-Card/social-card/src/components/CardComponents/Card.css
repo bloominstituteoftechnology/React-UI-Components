@@ -1,1 +1,30 @@
-/* All styles for your Card Components live here */
+.card-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-left: 55px;
+    padding-top: 20px;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    justify-content: center;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+}
+
+.card-banner {
+    width: 100%;
+    height: 300px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.website {
+    padding: 0px;
+}
+
+.card-content{
+    padding: 20px;
+}
+
