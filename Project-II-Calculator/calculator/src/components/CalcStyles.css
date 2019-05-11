@@ -1,7 +1,51 @@
 .calc-container{
   border: 1px solid black;
+  margin: 0 auto;
+  width: 350px;
+  text-align: right;
 }
 
 .btn-row{
   display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #6E6E6E;
+}
+
+/* Component Styles */
+.calcDisplay {
+  border-bottom: 1px solid #6E6E6E
+}
+
+.calcDisplay > p {
+  font-size: 3.2em;
+  margin-right: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.btn > p {
+  margin-top: 29px;
+  margin-left: 0;
+  font-size: 1.4em;
+}
+
+.btn-large {
+  width: 300px;
+  height: 80px;
+  text-align: center;
+  border-right: 1px solid #6E6E6E
+}
+
+.btn-small {
+  width: 100px;
+  height: 80px;
+  text-align: center;
+  border-right: 1px solid #6E6E6E;
+}
+
+.end-btn {
+  border-right: 0;
+  color: black;
+  font-weight: bold;
+  background-color: #A4A4A4;
 }

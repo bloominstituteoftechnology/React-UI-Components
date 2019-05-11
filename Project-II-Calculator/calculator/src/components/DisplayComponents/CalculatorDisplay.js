@@ -2,8 +2,8 @@ import React from 'react';
 
 const CalcDisplay = (props) => {
   return (
-    <div className={`calcDisplay ${props.bgColor}`}>
-      <p>0</p>
+    <div className={`calcDisplay`}>
+      <p>{props.text}</p>
     </div>
   )
 }

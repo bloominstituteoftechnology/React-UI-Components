@@ -2,8 +2,8 @@ import React from 'react';
 
 const NumberButton = (props) => {
   return (
-    <div className={`btn-small ${props.bgColor}`}>
-      {props.text}
+    <div className={`btn btn-small ${props.bgColor}`}>
+      <p>{props.text}</p>
     </div>
   )
 }
