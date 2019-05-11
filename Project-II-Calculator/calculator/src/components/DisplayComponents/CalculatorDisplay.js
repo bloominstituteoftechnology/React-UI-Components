@@ -1,10 +1,12 @@
 import React from 'react';
-import './Button.css';
+import './Display.css';
 
 const CalcDisplay = (props) => {
-  <div className={`calcDisplay ${props.bgColor}`}>
-    <p>0</p>
-  </div>
+  return (
+    <div className={`calcDisplay ${props.bgColor}`}>
+      <p>0</p>
+    </div>
+  )
 }
 
-export default CalcButton
+export default CalcDisplay
