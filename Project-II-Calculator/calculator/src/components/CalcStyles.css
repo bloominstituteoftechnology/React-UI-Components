@@ -1,0 +1,7 @@
+.calc-container{
+  border: 1px solid black;
+}
+
+.btn-row{
+  display: flex;
+}
