@@ -5,3 +5,7 @@
  h3 {
    color: red;
  }
+
+ .app {
+   max-width: 590x;
+ }

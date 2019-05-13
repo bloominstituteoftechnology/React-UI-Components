@@ -1,5 +1,13 @@
 /* All styles for your Card Components live here */
 
+.card-container {
+    max-width: 590px;
+}
+
 .card-content {
     border: 1px grey solid;
+}
+
+.img-responsive {
+    width:590px;
 }

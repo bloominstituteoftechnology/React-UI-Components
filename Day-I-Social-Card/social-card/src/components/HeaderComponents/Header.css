@@ -3,15 +3,17 @@
 .header-wrapper {
     font-size: 50px;
     display: flex;
+    width: 590px;
+
 }
 
 .header-title {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    font-size: 12px;
 }
 
-.header-content {
-    font-size: 35px;
+.header-paragraph {
+    font-size: 12px;
     color: paleturquoise;
 }
