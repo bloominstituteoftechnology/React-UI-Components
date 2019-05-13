@@ -4,16 +4,19 @@
     font-size: 50px;
     display: flex;
     width: 590px;
+}
 
+.header-image {
+    width: 50px;
+    margin-right: 10px;
 }
 
 .header-title {
     display: flex;
     flex-direction: row;
-    font-size: 12px;
+    font-size: 11px;
 }
 
 .header-paragraph {
     font-size: 12px;
-    color: paleturquoise;
 }

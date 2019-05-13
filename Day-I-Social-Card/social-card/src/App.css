@@ -8,4 +8,5 @@
 
  .app {
    max-width: 590x;
+   display: flex;
  }

@@ -2,12 +2,25 @@
 
 .card-container {
     max-width: 590px;
+    border: 1px lightgrey solid;
+    border-radius: 5px;
+    font-size: 13px;
 }
 
 .card-content {
-    border: 1px grey solid;
+    margin: 0px;
+    padding: 10px;
+}
+
+.card-content h3 {
+    color: black;
+}
+
+.card-content p:nth-child(3) {
+    color: lightgrey;
 }
 
 .img-responsive {
     width:590px;
+    margin: 0px;
 }

@@ -7,9 +7,6 @@ import HeaderContent from './HeaderContent';
 const HeaderContainer = () => {
     return (
     <div className="header-wrapper">
-        <div className="image-thumbnail">
-            <ImageThumbnail />
-        </div>
         <div className="header-content">
             <HeaderTitle />
             <HeaderContent />
