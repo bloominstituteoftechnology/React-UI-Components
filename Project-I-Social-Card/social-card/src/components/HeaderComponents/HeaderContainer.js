@@ -7,7 +7,7 @@ import './Header.css';
 
 const HeaderContainer = () => {
 	return (
-		<div style={{ display: 'flex' }}>
+		<div style={{ display: 'flex'  }}>
 			<ImageThumbnail />
 			<div>
 				<HeaderTitle />
