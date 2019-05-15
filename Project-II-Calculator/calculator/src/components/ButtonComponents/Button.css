@@ -1,0 +1,27 @@
+.basicButtonStyle{
+    width: 100px;
+    height: 100px;
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+ .actionButton {
+    width: 300px;
+    height: 100px;
+    background: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+ .white {
+    background: white;
+}
+.redbutton{
+    background: #A0001E;
+    color: white;
+}
+
+ .buttonStyle{
+    display: none;
+} 

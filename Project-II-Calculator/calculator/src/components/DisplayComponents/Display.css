@@ -1,0 +1,54 @@
+.calcDisplay{
+    height: 500px;
+    width: 400px;
+}
+
+ .answer{
+    width: 400px;
+    background-color: black;
+    height: 100px;
+    color: white;
+    font-size: 80px;
+    display: flex;
+    align-content: center;
+    justify-content: flex-end;
+    margin-right: 10px;
+
+ }
+.row1{
+    display: flex;
+    width: 400px;
+}
+.row2{
+    display: flex;
+    width: 400px;
+}
+
+ .row3{
+    display: flex;
+    width: 400px;
+}
+.row4{
+    display: flex;
+    width: 400px;
+}
+.row5{
+    display: flex;
+    width: 400px;
+}
+
+ .numberContainer{
+    width: 400px;
+    flex-direction: row;
+
+ }
+
+ .numberContainer .numberbutton {
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.answerbutton {
+    width: 400px;
+    background-color: black;
+    height: 100px;
+} 
