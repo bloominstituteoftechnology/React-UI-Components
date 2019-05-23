@@ -3,6 +3,7 @@ import HeaderTitle from './components/HeaderComponents/HeaderTitle';
 import './App.css';
 import HeaderContent from './components/HeaderComponents/HeaderContent';
 import HeaderContainer from './components/HeaderComponents/HeaderContainer';
+import ImageThumbnail from './components/HeaderComponents/ImageThumbnail';
 
 const App = () => {
   return (
@@ -13,7 +14,7 @@ const App = () => {
       <p>
         <HeaderContent />
       </p>
-
+      <ImageThumbnail />
       <p>
         <strong>
           <HeaderContainer />
