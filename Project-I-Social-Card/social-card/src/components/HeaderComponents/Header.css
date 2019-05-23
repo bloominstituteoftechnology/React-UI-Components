@@ -5,4 +5,9 @@ h1 {
 }
 p {
     text-align: right;
+    font-size: 11px;
   }
+strong {
+    font-size: 15px;
+    text-align: left;
+}
