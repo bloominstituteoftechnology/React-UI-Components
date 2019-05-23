@@ -3,7 +3,7 @@ import './Header.css';
 import './dinner-egg.jpg';
 
 function ImageThumbnail(prop) {
-    return <img src={bread}  alt='Dinner On Bottom' />;
+    return <img  alt='Dinner On Bottom' />;
 }
 
 export default ImageThumbnail;
