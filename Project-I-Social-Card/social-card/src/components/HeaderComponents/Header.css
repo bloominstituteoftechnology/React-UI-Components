@@ -1,1 +1,5 @@
 /* All styles for your header Components live here */
+div {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
