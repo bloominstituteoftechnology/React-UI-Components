@@ -1,15 +1,22 @@
 /* All styles for your header Components live here */
 h1 {
     font-family: 'Courier New', Courier, monospace;
-    text-align: center;
+    text-align: left;
+    font-size: 20px;
+    background-color: rgb(85, 197, 241);
+    color: rgb(101, 141, 151);
+    display:inline;
 }
 p {
     text-align: right;
     font-size: 11px;
-    font-family:'Helvetica Neue', sans-serif
+    font-family:'Helvetica Neue', sans-serif;
+    color: yellow;
   }
 strong {
     font-size: 15px;
     text-align: left;
     font-family:'Times New Roman', Times, serif; 
+    color: rgb(252, 252, 252);
+    
 }

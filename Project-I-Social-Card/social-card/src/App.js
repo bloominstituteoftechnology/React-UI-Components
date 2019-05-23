@@ -8,12 +8,12 @@ import ImageThumbnail from './components/HeaderComponents/ImageThumbnail';
 const App = () => {
   return (
     <div>
-      <HeaderTitle title='This is' />
-      <HeaderTitle title='Just Spoken Codes' />
+      <ImageThumbnail />
+      <HeaderTitle title='This is Just Spoken Codes' />
       <p>
         <HeaderContent />
       </p>
-      <ImageThumbnail />
+     
       <p>
         <strong>
           <HeaderContainer />
