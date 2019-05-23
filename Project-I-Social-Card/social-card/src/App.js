@@ -1,16 +1,18 @@
 import React from 'react';
+import HeaderTitle from './components/HeaderComponents/HeaderTitle';
 import './App.css';
+import HeaderContent from './components/HeaderComponents/HeaderContent';
 
 const App = () => {
   return (
     <div>
       <h3>Welcome to React Social Card!</h3>
+      <HeaderTitle title='This is' />
+      <HeaderTitle title='Just Spoken Codes' />
       <p>
-        Begin by exploring the `components` directory. You'll notice we have a
-        few files that we've already included in there to get you started right
-        away building components. You'll need to make sure you include your
-        components that you build in this file to watch your app come to life
+        <HeaderContent />
       </p>
+
       <p>
         <strong>
           Don't forget to `default export` your components and import them here
