@@ -1,5 +1,8 @@
 /* All styles for your header Components live here */
-div {
+h1 {
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
 }
+p {
+    text-align: right;
+  }
