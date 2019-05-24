@@ -2,7 +2,8 @@
 .banner {
     width: 85%;
     height: auto;
+    padding-left: 75px;
 }
 .click-button {
-    
+    display: flex;
 }
