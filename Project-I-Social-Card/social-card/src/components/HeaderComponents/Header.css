@@ -5,7 +5,7 @@ h1 {
     font-size: 20px;
     background-color: rgb(85, 197, 241);
     color: rgb(101, 141, 151);
-    display:inline;
+    display:in;
 }
 p {
     text-align: right;
@@ -19,4 +19,8 @@ strong {
     font-family:'Times New Roman', Times, serif; 
     color: rgb(252, 252, 252);
     
+}
+.lambda {
+    width: 5%;
+    height: auto;
 }

@@ -3,6 +3,10 @@ body {
   padding: 0.4rem;
   font-family: sans-serif;
   background-image: url("bread.jpg");
-  background-size: 110%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-width: 800px;
+  max-height: 800px;
+  width: 100%;
 }
  
