@@ -6,6 +6,7 @@ import HeaderContainer from './components/HeaderComponents/HeaderContainer';
 import ImageThumbnail from './components/HeaderComponents/ImageThumbnail';
 import CardBanner from './components/CardComponents/CardBanner';
 import Button from './components/CardComponents/CardContainer';
+import CardContent from './components/CardComponents/CardContent';
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
       <HeaderTitle title='This is Just Spoken Codes' />
       <HeaderContent />
       <CardBanner />
+      <CardContent />
       <Button />
     </div>
   );

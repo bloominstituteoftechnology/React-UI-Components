@@ -7,3 +7,11 @@
 .click-button {
     display: flex;
 }
+
+.card-content{
+    text-align: right;
+    font-size: 14px;
+    font-family: 'Helvetica Neue', sans-serif;
+    color: white;
+    font-weight: 850;
+}
