@@ -1,1 +1,5 @@
 /* All styles for your Card Components live here */
+.banner {
+    width: 85%;
+    height: auto;
+}

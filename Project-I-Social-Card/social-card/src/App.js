@@ -4,6 +4,7 @@ import './App.css';
 import HeaderContent from './components/HeaderComponents/HeaderContent';
 import HeaderContainer from './components/HeaderComponents/HeaderContainer';
 import ImageThumbnail from './components/HeaderComponents/ImageThumbnail';
+import CardBanner from './components/CardComponents/CardBanner';
 
 const App = () => {
   return (
@@ -13,7 +14,7 @@ const App = () => {
       <p>
         <HeaderContent />
       </p>
-     
+     <CardBanner />
       <p>
         <strong>
       
