@@ -16,7 +16,7 @@ const App = () => {
      
       <p>
         <strong>
-          <HeaderContainer />
+      
         </strong>
       </p>
     </div>

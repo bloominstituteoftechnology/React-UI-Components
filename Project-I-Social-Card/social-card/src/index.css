@@ -5,8 +5,8 @@ body {
   background-image: url("bread.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  max-width: 800px;
-  max-height: 800px;
+  max-width: 450px;
+  max-height: 450px;
   width: 100%;
 }
  
