@@ -1,0 +1,9 @@
+.footerDiv{
+    display: flex;
+    margin-left: 70px;
+}
+.footerP{
+    margin-left: 10px;
+    background: blue;
+    padding: 5px;
+}
