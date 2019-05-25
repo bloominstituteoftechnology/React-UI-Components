@@ -1,0 +1,19 @@
+.icons-container{
+  border: 1px solid rgba(231, 225, 225, 0.973);
+  width: 40%;
+}
+
+.icon-box {
+  display: flex;
+  justify-content: space-around;
+  width: 60%;
+  margin-left: 20px;
+  padding: 5px 0;
+  font-size: 1rem;
+}
+
+label {
+  display: flex;
+  align-items: center;
+}
+

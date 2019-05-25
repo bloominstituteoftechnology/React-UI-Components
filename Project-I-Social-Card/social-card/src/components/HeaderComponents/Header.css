@@ -1,1 +1,35 @@
 /* All styles for your header Components live here */
+ .container {
+   border: 1px solid gray;
+   width: 40%;
+   display: flex;
+ }
+
+.logo {
+   width: 35px;
+   height: 35px;
+   margin-top: 5px;
+ }
+
+ .title {
+   display: flex;
+   align-items: center;
+ }
+
+ .title h1 {
+   margin-right: 5px;
+   margin-left: 3px;
+ }
+
+ .header-date {
+  color: gray;
+  margin-top: 8px;
+ }
+
+ .header-content {
+   font-size: 0.7rem;
+   margin-top: -8px;
+   margin-left: 3px;
+   line-height: 15px;
+ }
+
