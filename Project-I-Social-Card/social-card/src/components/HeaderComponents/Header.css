@@ -1,1 +1,26 @@
 /* All styles for your header Components live here */
+
+.header-container{
+    display: flex;
+    align-items: flex-start;
+}
+
+.header-info{
+    display: flex;
+    flex-direction: column;
+}
+
+.header-boxes{
+    display: flex;
+    align-items: flex-start;
+
+}
+
+.header-boxes .headertitle{
+    font-weight: bold;
+    margin: 1em;
+}
+
+.header-boxes .header-tag{
+    font-style: italic;
+}

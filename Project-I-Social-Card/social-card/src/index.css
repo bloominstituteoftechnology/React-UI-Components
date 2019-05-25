@@ -3,3 +3,8 @@ body {
   padding: 0.4rem;
   font-family: sans-serif;
 }
+
+.container {
+  width: 590px;
+  height: 514px;
+}
