@@ -1,1 +1,47 @@
 /* All styles for your Card Components live here */
+.card-link{
+    text-decoration: none;
+}
+
+.card-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 100%;
+    /* border: 1px solid grey; */
+}
+
+.card-box{
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 86%;
+    /* border: 1px solid grey; */
+    border-radius: 10px;
+}
+
+.card-box .img-box img{
+    border-radius: 10px;
+    width: 100%;
+}
+
+.card-content{
+    margin: 0;
+    border: 1px solid grey;
+    border-top: 0;
+    border-radius: 10px;
+}
+
+.card-content p{
+    padding: 0 10px;
+    color: black;
+}
+
+.card-title{
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.card-content .card-link{
+    color: grey;
+}
