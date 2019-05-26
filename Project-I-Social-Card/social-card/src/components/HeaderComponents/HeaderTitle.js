@@ -5,7 +5,7 @@ const HeaderTitle = (props) => {
     return (
         <div className="twitter-handle">
             <div className="twitter-account">{props.title}</div>
-            <div className="gray-font">{props.twitter} • {props.date}</div>
+            <div className="gray-font">{props.twitter} • {props.date()}</div>
         </div>
     )
 }
