@@ -12,7 +12,7 @@ const HeaderContainer = props => {
             <div className="header-title-content">
                 <HeaderTitle 
                     title="Lambda School" twitter="@LambdaSchool"
-                    date="27 Jan"/>
+                    date={props.retrieveDate}/>
                 <HeaderContent 
                     content="Let's learn React by building simple interfaces with components. Don't overthink it, just keep it simple and have fun. Once you feel comfortable with components you are well on your way to mastering React!"/>
             </div>
