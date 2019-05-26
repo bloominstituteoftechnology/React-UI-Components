@@ -1,0 +1,24 @@
+.calc-container {
+    display: block;
+    width: 400px;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    border: 1px solid #666;
+    background-color: white;
+    color: black;
+}
+.answer-bar {
+    display: block;
+    width: 405px;
+    height: 75px;
+    background-color: black;
+}
+.answer-text {
+    font-size: 4em;
+    padding-right: 15px;
+    text-align: right;
+    font-style: bold;
+    text-align: right;
+    color: white;
+}
