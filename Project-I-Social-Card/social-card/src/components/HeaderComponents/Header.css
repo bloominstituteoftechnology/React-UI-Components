@@ -1,6 +1,6 @@
 /* All styles for your header Components live here */
 
-.container {
+.wrapper {
     max-width: 900px;
     width: 100%;   
   }
@@ -12,7 +12,7 @@
       width: 300px;
       justify-content: space-between;
   }
-  .lambdaImg{
+  .lambdaLogo{
       background: blue;
       border-radius: 50%;
       height: 80px;
@@ -20,7 +20,7 @@
   .theImg{
       display: flex;
   }
-  .header{
+  .headerContent{
       width: 62%;
       margin-left: 8.9%;
       margin-top: -5%;
