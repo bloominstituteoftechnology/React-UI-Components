@@ -11,3 +11,5 @@ function CardContent({ title, text }) {
         </div>
     )
 }
+
+export default CardContent;
