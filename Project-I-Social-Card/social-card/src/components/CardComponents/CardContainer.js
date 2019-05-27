@@ -10,7 +10,7 @@ const link = 'reactjs.org'
 
 function CardContainer () {
     return (
-        <div className= 'card-container'>
+        <div className= 'card-container' onClick = { () => {window.location.href = 'https://reactjs.org'}}>
             <CardBanner />
             <CardContent title = {cardTitle} text = {cardPara} link = { link } />
         </div>
