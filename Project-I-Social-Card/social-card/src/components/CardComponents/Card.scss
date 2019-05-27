@@ -1,0 +1,42 @@
+/* All styles for your Card Components live here */
+
+
+.card-container{
+    margin-top:-5%;
+    cursor: pointer;
+    
+    .bannerImage{
+        width: 80%;
+        display: block;
+        margin: 0;
+        margin-left: 10%;
+        border-radius: 0.5rem 0.5rem 0 0;
+    }
+
+    .cardContent{
+        border: 1px solid lightgray;
+        border-radius: 0 0 0.5rem 0.5rem;
+        width: 80%;
+        display: block;
+        margin: 0;
+        margin-left: 10%;
+        h2{
+            margin-left: 2rem;
+        }
+        
+        .cardInfo{
+            margin: 0;
+            margin-left: 2rem;
+            font-size: 1.5em;
+        }
+
+        .link{
+            margin:0.5rem;
+            margin-left: 2rem;
+            font-size: 1.5em;
+            line-height: 1.5rem;
+            color: lightslategray;
+        }
+    }
+}
+

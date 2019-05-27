@@ -1,0 +1,27 @@
+.footerContainer{
+    margin-left: 10%;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+
+    i{
+        font-size: 1.5rem;
+    }
+
+    .fa-comment{
+        transform: scaleX(-1);
+    }
+
+    div{
+        display: flex;
+        justify-content: space-between;
+        width: 10%;
+    
+        span{
+            font-size: 1rem;
+            line-height: 1.5rem;
+            font-weight: bold;
+        }
+    }
+}
