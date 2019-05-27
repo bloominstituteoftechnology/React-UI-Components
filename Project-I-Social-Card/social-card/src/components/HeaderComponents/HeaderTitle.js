@@ -3,7 +3,7 @@ import './Header.css';
 
 function HeaderTitle({ text, handle, timestamp }) {
     return (
-        <div>
+        <div className = 'header-details'>
             <h2>{text}</h2>
             <p>{handle}</p>
             <p>{timestamp}</p>

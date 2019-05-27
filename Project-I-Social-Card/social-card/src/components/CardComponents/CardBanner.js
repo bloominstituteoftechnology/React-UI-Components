@@ -3,9 +3,11 @@ import './Card.css';
 
 const url = 'https://tk-assets.lambdaschool.com/fcd75197-7d12-46ec-bc9e-4130f34822fa_reactbackground.png'
 
-function CardBanner () {
+function CardBanner() {
     return (
-        <img src = {url} alt='banner'/>
+        <div className= 'banner'>
+            <img src={url} alt='banner' />
+        </div>
     )
 }
 

@@ -5,13 +5,14 @@ import CardContent from './CardContent'
 
 const cardTitle = 'Get started with React';
 const cardPara = `React makes it painless to create interactive UIs. Design simple views
-or each state in your application`;
+or each state in your application.`;
+const link = 'reactjs.org'
 
 function CardContainer () {
     return (
-        <div>
+        <div className= 'card-container'>
             <CardBanner />
-            <CardContent title = {cardTitle} text = {cardPara} />
+            <CardContent title = {cardTitle} text = {cardPara} link = { link } />
         </div>
     )
 }

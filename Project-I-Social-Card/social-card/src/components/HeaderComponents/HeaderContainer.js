@@ -9,7 +9,7 @@ your way mastering React!`;
 
 function HeaderContainer() {
     return (
-        <div>
+        <div className = 'header-container'>
             <ImageThumbnail />
             <HeaderContent text={headerText} />
         </div>

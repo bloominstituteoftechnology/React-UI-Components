@@ -8,7 +8,7 @@ const headerDate = '26 Jan'
 
 function HeaderContent ({ text }) {
     return (
-        <div>
+        <div className= 'header-content'>
             <HeaderTitle text={headerTitle} handle={headerHandle} timestamp={headerDate} />
             <p>{text}</p>
         </div>
