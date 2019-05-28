@@ -1,1 +1,25 @@
 /* All styles for your header Components live here */
+header {
+    display: flex; 
+
+}
+
+#logo {
+    height: 70px; 
+}
+
+h1 {
+    font-size: 1rem; 
+    margin: 0; 
+} 
+
+span {
+    color: gray; 
+    font-size: .8rem; 
+}
+
+p {
+    margin-top: 5px; 
+    margin-bottom: 7px;  
+    padding-right: 5px; 
+}
