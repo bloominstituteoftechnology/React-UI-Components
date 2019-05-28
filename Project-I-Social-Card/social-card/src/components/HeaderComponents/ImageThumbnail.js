@@ -4,8 +4,8 @@ import './Header.css';
 
 const ImageThumbnail = () => {
     return (
-        <div className="thumb">
-            <img alt="lambda logo" className="thumbimg" src="https://ibin.co/3whrpKSBbZ81.png"/>
+        <div className="thumb-wrapper">
+            <img alt="lambda logo" className="thumb-img" src="https://ibin.co/3whrpKSBbZ81.png"/>
         </div>
     );
 ;}
