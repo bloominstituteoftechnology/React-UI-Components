@@ -1,12 +1,46 @@
 /* All styles for your Card Components live here */
 .card-container {
-    border: 3px solid yellow;
+    margin-left: 47px;
 }
 
 .card-banner {
-    border: 1px solid red;
+    margin-top: 10px;
+}
+
+.card-banner img {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 5px 5px 0 0;
 }
 
 .card-content-container {
-    border: 1px solid blue;
+    padding: 10px 0;
+    border-color: lightgrey;
+    border-style: solid;
+    border-width: 0 1px 1px 1px;
+    border-radius: 0 0 5px 5px;
+}
+
+.card-container a {
+    text-decoration: none;
+    color: black;
+}
+
+.card-content-container {
+    padding: 10px;
+}
+
+.card-content-container p {
+    margin-bottom: 7px;
+}
+
+.card-content-container .card-title {
+    font-weight: bold;
+}
+.card-content-container .card-content {
+
+}
+.card-content-container .card-link {
+    color: grey;
 }

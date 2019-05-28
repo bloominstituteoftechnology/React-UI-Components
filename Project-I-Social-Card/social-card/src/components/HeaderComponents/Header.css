@@ -1,16 +1,46 @@
 /* All styles for your header Components live here */
 .header-container {
-    border: 3px solid yellow;
+    display: flex;
 }
 
 .image-thumbnail {
-    border: 1px solid red;
+    max-width: 40px;
+    min-width: 40px;
+    padding-right: 7px;
+    padding-top: 7px;
+}
+
+.image-thumbnail img {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
 }
 
 .header-title-container {
-    border: 1px solid blue;
+    display: flex;
+    align-items: baseline;
+    white-space: nowrap;
+    padding-top: 10px;
+}
+
+.header-title-container .header-text {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.header-title-container .header-handle {
+    padding-left: 5px;
+    font-size: 12px;
+    color: grey;
+}
+
+.header-title-container .header-timestamp {
+    padding-left: 5px;
+    font-size: 12px;
+    color: grey;
 }
 
 .header-content {
-    border: 1px solid green;
+    margin: 10px 0;
+    font-size: 14px;
 }
