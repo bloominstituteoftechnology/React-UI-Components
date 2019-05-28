@@ -15,6 +15,6 @@
 
 /*  Buttons "-","+","*","/"  */
 .operator {
-    background-color: #fe9241;
+    background-color: red;
     color: white;
 }
