@@ -3,8 +3,7 @@ import './Header.css';
 
 
 const HeaderContainer = () => {
-  return 
-  <div className="header-container">
+  return <div className="header-container">
       <ImageThumbnail />;
       <HeaderTitle />;
       <HeaderContent />;

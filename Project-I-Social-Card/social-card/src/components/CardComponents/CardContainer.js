@@ -3,9 +3,11 @@ import './Card.css';
 
 
 const CardContainer = () => {
-  return 
-  <CardBanner />;
-  <CardContent />;
+  return <div className="card-container">
+    <CardBanner />;
+    <CardContent />;
+  </div>
+
 }
 
 export default CardContainer;
