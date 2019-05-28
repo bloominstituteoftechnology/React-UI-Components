@@ -3,7 +3,7 @@ import './Header.css';
 
 const ImageThumbnail = () => {
   return <div className="image-thumbnail">
-          <img src="lambdacrest.png"></img>
+          <img src="../public/lambdacrest.png"></img>
   </div>
 }
 export default ImageThumbnail;
