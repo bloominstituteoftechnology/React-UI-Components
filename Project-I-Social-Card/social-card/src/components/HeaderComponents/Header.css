@@ -1,1 +1,16 @@
 /* All styles for your header Components live here */
+.header-container {
+    border: 3px solid yellow;
+}
+
+.image-thumbnail {
+    border: 1px solid red;
+}
+
+.header-title-container {
+    border: 1px solid blue;
+}
+
+.header-content {
+    border: 1px solid green;
+}

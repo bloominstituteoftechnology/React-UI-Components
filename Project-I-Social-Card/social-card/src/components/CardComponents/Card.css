@@ -1,1 +1,12 @@
 /* All styles for your Card Components live here */
+.card-container {
+    border: 3px solid yellow;
+}
+
+.card-banner {
+    border: 1px solid red;
+}
+
+.card-content-container {
+    border: 1px solid blue;
+}
