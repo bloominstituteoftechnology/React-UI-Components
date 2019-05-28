@@ -1,0 +1,12 @@
+.display {
+    width: 400px;
+    height: 100px;
+    background-color: #2F2F2F;
+    /* border: 1px white solid; */
+}
+.display h1 {
+    color: white;
+    font-size: 60px;
+    text-align: right;
+    padding: 20px 10px;
+}
