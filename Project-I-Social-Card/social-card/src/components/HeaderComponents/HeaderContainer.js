@@ -4,9 +4,12 @@ import './Header.css';
 
 const HeaderContainer = () => {
   return 
-    <ImageThumbnail />;
-    <HeaderTitle />;
-    <HeaderContent />;
+  <div className="header-container">
+      <ImageThumbnail />;
+      <HeaderTitle />;
+      <HeaderContent />;
+  </div>
+
 }
 
 export default HeaderContainer;
