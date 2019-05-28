@@ -1,1 +1,10 @@
 /* All styles for your header Components live here */
+.header-container {
+  height: 20%;
+  width: 98%;
+  display: inline-block;
+}
+.image-thumbnail {
+  width: 60px;
+  height: 60px;
+}
