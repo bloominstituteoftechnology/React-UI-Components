@@ -19,6 +19,8 @@ class App extends Component {
    this.setState({ input: this.state.input + val });
  };
 
+
+ //MathJS logic used to manipulate "=" to mean the math operation instead of a string
  handleEqual = () => {
    this.setState({ input: math.eval(this.state.input) });
  };
@@ -38,7 +40,7 @@ class App extends Component {
            <Button handleClick={this.addToInput}>4</Button>
            <Button handleClick={this.addToInput}>5</Button>
            <Button handleClick={this.addToInput}>6</Button>
-           <Button handleClick={this.addToInput}>X</Button>
+           <Button handleClick={this.addToInput}>*</Button>
          </div>
          <div className="row">
            <Button handleClick={this.addToInput}>1</Button>
