@@ -1,8 +1,6 @@
 /* All styles for your header Components live here */
 .header-container {
-  height: 50%;
-  width: 98%;
-  display: inline-block;
+  border: 1px solid blue;
 }
 .image-thumbnail {
   width: 60px;
