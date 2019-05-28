@@ -1,1 +1,8 @@
 /* All styles for your header Components live here */
+.header-container {
+  border: 1px solid blue;
+}
+.image-thumbnail {
+  width: 60px;
+  height: 60px;
+}
