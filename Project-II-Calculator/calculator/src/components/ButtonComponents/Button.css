@@ -1,3 +1,4 @@
+/*Numbers 0-9 aswell as "." and "="*/
 .button-wrapper {
     height: 4em;
     display: flex;
@@ -11,6 +12,8 @@
     outline: 1px solid #888; 
 }
 
+
+/*  Buttons "-","+","*","/"  */
 .operator {
     background-color: #fe9241;
     color: white;

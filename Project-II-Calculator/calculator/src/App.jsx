@@ -14,6 +14,7 @@ class App extends Component {
    };
  }
 
+ //adding the values together "concatenating"
  addToInput = val => {
    this.setState({ input: this.state.input + val });
  };

@@ -1,3 +1,4 @@
+/*Single page app*/
 .app {
     display: flex;
     justify-content: center;
@@ -6,11 +7,13 @@
     width: 100vh
 }
 
+/* Container around calculator*/
 .calc-wrapper {
     width: 400px;
     height: 600px;
 }
 
+/*Each row of numbers/buttons*/
 .row {
     display: flex;
     width: 100%;
