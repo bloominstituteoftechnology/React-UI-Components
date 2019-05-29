@@ -1,1 +1,27 @@
 /* All styles for your header Components live here */
+
+.wrapper {
+    max-width: 900px;
+    width: 100%;   
+  }
+  .headerTitle{
+      display: flex;
+      flex-direction: row;
+      margin: 5px;
+      align-items: baseline;
+      width: 300px;
+      justify-content: space-between;
+  }
+  .lambdaLogo{
+      background: blue;
+      border-radius: 50%;
+      height: 80px;
+  }
+  .theImg{
+      display: flex;
+  }
+  .headerContent{
+      width: 62%;
+      margin-left: 8.9%;
+      margin-top: -5%;
+  }

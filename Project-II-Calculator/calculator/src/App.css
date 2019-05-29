@@ -1,0 +1,20 @@
+/*Single page app*/
+.app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vh
+}
+
+/* Container around calculator*/
+.calc-wrapper {
+    width: 400px;
+    height: 600px;
+}
+
+/*Each row of numbers/buttons*/
+.row {
+    display: flex;
+    width: 100%;
+}
