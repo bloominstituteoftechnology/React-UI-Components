@@ -1,0 +1,18 @@
+.calculatorDisplay {
+    display: flex;
+    height: 800px;
+    font-size: 100px;
+    color: white;
+    background: #222222;
+}
+
+.result {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex: 1;
+    margin: 0;
+    padding: 0 10px;
+    overflow: hidden;
+    cursor: default;
+}
