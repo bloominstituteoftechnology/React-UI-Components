@@ -1,1 +1,14 @@
 /* All styles for your header Components live here */
+
+.header {
+  display: flex;
+  flex-direction: column;
+}
+
+.header-title {
+    display: flex;
+}
+
+.thumbnail {
+    width: 5rem;
+}
