@@ -14,21 +14,21 @@ const App = () => {
 
       <div className='row'>
       <ActionButton text="clear"/>
-      <NumberButton buttonStyle="red-button" text="/"/><br />
+      <NumberButton buttonStyle="red-button" text="÷"/><br />
       </div>
 
       <div className='row'>
       <NumberButton buttonStyle="regular-button" text="7"/>
       <NumberButton buttonStyle="regular-button" text="8"/>
       <NumberButton buttonStyle="regular-button" text="9"/>
-      <NumberButton buttonStyle="red-button" text="X"/><br />
+      <NumberButton buttonStyle="red-button" text="x"/><br />
       </div>
 
       <div className='row'>
       <NumberButton buttonStyle="regular-button" text="4"/>
       <NumberButton buttonStyle="regular-button" text="5"/>
       <NumberButton buttonStyle="regular-button" text="6"/>
-      <NumberButton buttonStyle="red-button" text="-"/><br />
+      <NumberButton buttonStyle="red-button" text="−"/><br />
       </div>
 
       <div className='row'>
