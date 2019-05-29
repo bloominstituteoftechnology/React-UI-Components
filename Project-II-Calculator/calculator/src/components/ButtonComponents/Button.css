@@ -1,0 +1,46 @@
+.buttonStyle {
+    font-size: 50px;
+    cursor: pointer;
+    border: 1px solid grey;
+}
+
+.buttonStyle:hover {
+    background: lightgrey;
+}
+
+.buttonStyle:active {
+    background: darkgrey;
+}
+
+/****** Number Buttons ******/
+.numberButton {
+    width: 25%;
+    font-weight: bold;
+    color: black;
+    background: white;
+}
+
+/****** Action Buttons ******/
+.actionButton {
+    width: 25%;
+    color: white;
+    background: #A0001E;
+}
+
+.row .actionButton:hover {
+    background: rgb(204, 0, 38);
+}
+
+.row .actionButton:active {
+    background: rgb(114, 0, 21);
+}
+
+/****** Large Buttons ******/
+.largeButton {
+    width: 75%;
+    background: white;
+}
+
+.zeroButton {
+    font-weight: bold;
+}
