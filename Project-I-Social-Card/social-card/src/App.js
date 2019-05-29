@@ -4,7 +4,7 @@ import Header from './components/HeaderComponents/HeaderContainer';
 
 const App = () => {
   return (
-    <div>
+    <div className="mainApp">
       <Header />
       <h3>Welcome to React Social Card!</h3>
       <p>
