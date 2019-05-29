@@ -8,7 +8,7 @@ const backImage = {
 }
 
 function CardBanner() {
-  return <div style= {backImage}></div>
+  return <div className='bannerImage' style= {backImage}></div>
 }
 
 export default CardBanner;

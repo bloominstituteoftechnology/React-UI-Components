@@ -1,10 +1,16 @@
 import React from 'react';
 import './Card.css';
 import CardBanner from './CardBanner';
+import CardContent from './CardContent';
 
 function CardContainer() {
   return (
-    <CardBanner />
+    <div className='cardContainer' onClick={() => {
+      window.location.href = 'https://reactjs.org';
+    }}>
+      <CardBanner />
+      <CardContent />
+    </div>
   );
 }
 
