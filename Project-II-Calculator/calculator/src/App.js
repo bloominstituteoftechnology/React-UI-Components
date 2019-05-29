@@ -1,15 +1,19 @@
 import React from 'react';
 import './App.css';
 import NumberButton from './components/ButtonComponents/NumberButton';
-// import ActionButton from './components/ButtonComponents/ActionButton';
-// import CalculatorDisplay from './components/DisplayComponents/CalculatorDisplay';
+import ActionButton from './components/ButtonComponents/ActionButton';
+import CalculatorDisplay from './components/DisplayComponents/CalculatorDisplay';
 
 const App = () => {
   return (
     <div className='container'>
 
       <div className='row'>
-      <NumberButton buttonStyle="long-button" text="clear"/>
+        <CalculatorDisplay />
+      </div>
+
+      <div className='row'>
+      <ActionButton text="clear"/>
       <NumberButton buttonStyle="red-button" text="/"/><br />
       </div>
 
@@ -35,8 +39,8 @@ const App = () => {
       </div>
 
       <div className='row'>
-      <NumberButton buttonStyle="long-button" text="0"/>
-      <NumberButton buttonStyle="regular-button" text="="/>
+      <ActionButton text="0"/>
+      <NumberButton buttonStyle="red-button" text="="/>
       </div>
       
     </div>

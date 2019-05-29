@@ -1,3 +1,20 @@
-.long-button {
-    width: 30%;
+button {
+    display: inline-block;
+    border-radius: 0%;
+    flex: 1;
+    height: 100%;
+    font-size: 130%;
+    outline: none;
+    font-weight: bold;
+}
+
+.red-button {
+    background-color: maroon;
+    color: white;
+}
+
+.action {
+    flex: 3.5;
+    font-weight: normal;
+    letter-spacing: 0.1rem;
 }
