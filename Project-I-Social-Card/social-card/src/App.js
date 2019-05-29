@@ -1,9 +1,11 @@
 import React from 'react';
 import './App.css';
+import Header from './components/HeaderComponents/HeaderContainer';
 
 const App = () => {
   return (
     <div>
+      <Header />
       <h3>Welcome to React Social Card!</h3>
       <p>
         Begin by exploring the `components` directory. You'll notice we have a
