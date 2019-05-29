@@ -1,1 +1,45 @@
 /* All styles for your header Components live here */
+
+.header {
+    display: flex;
+
+}
+
+
+.headertitle {
+    display: flex;
+    align-items: center;
+    height: 28px;
+}
+
+h3 {
+    margin-right: 10px;
+}
+
+h4 {
+    margin-right: 10px;
+    color: darkgrey;
+}
+
+h5 {
+    color: grey;
+}
+
+img {
+    height: 100%;
+    width: 70px;
+    padding: 15px 15px 0 15px;
+}
+
+p {
+    margin-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 20px;
+}
+
+.headermain {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px 10px 0;
+    height: 100px;
+}
