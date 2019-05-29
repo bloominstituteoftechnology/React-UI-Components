@@ -1,1 +1,6 @@
 /* All styles for your Card Components live here */
+
+
+.mainCard {
+    border: solid purple 3px;
+}
