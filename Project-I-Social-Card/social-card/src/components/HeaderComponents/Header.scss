@@ -1,0 +1,12 @@
+@import "./../../index.scss";
+/* All styles for your header Components live here */
+
+.headerContainer{
+  border: $mainBorder1;
+
+  // for the lambda image logo on the upper left
+  .lambdaLogo{
+    width: 5%;
+    max-width: 100%;
+  }
+}
