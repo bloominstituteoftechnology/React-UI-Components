@@ -1,0 +1,31 @@
+Arguments: 
+  I:\Program Files\nodejs\node.exe C:\Users\Ronald\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js start
+
+PATH: 
+  C:\Program Files\Java\jdk-11.0.2\bin;C:\Program Files\Microsoft VS Code\bin;D:\Program Files\Git\cmd;I:\Program Files\nodejs\;E:\Ruby24-x64\bin;C:\Users\Ronald\AppData\Local\Programs\Python\Python36-32\Scripts\;C:\Users\Ronald\AppData\Local\Programs\Python\Python36-32\;C:\Users\Ronald\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Docker Toolbox;C:\curl\AMD64;C:\Program Files (x86)\Heroku\bin;C:\Users\Ronald\AppData\Local\GitHubDesktop\bin;C:\Users\Ronald\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2018.3.3\bin;;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\bin;;C:\Users\Ronald\AppData\Roaming\npm
+
+Yarn version: 
+  1.5.1
+
+Node version: 
+  10.15.3
+
+Platform: 
+  win32 x64
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: Couldn't find a package.json file in "F:\\REACT\\GITHUB\\PROJECTS\\React-UI-Components\\Project-I-Social-Card"
+      at new MessageError (C:\Users\Ronald\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:186:110)
+      at C:\Users\Ronald\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:40048:15
+      at Generator.next (<anonymous>)
+      at step (C:\Users\Ronald\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:98:30)
+      at C:\Users\Ronald\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:109:13
