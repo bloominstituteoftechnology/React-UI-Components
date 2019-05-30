@@ -1,5 +1,6 @@
 import React from 'react';
 import './Header.css';
+import HeaderContent from './HeaderContent';
 
 function HeaderTitle() {
     return (
@@ -8,6 +9,6 @@ function HeaderTitle() {
             <HeaderContent />
         </div>
     );
-};
+}
 
 export default HeaderTitle;

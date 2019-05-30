@@ -4,6 +4,6 @@ body {
   font-family: sans-serif;
 }
 a {
-  color: #ffffff;
-  text-decoration: aqua; /* none */
+  color: aqua;
+  text-decoration: none; /* aqua */
 }

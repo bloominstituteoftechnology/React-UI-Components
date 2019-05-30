@@ -11,6 +11,6 @@ function CardBanner() {
         />
         </a>
     );
-};
+}
 
 export default CardBanner;

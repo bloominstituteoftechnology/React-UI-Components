@@ -3,12 +3,13 @@ import './Card.css';
 import CardContent from './CardContent';
 import CardBanner from './CardBanner';
 
-funciton CardContainer(){
+function CardContainer(){
     return (
         <div className="banner-wrapper">
-        <CardBanner />
+            <CardBanner />
+            <CardContent />
         </div>
     );
-};
+}
 
 export default CardContainer;
