@@ -5,8 +5,10 @@ import Content from './CardContent';
 
 function CardContainer() {
     return <div className="mainCard">
-              <Banner />
-              <Content />
+              <div className="card">
+                <Banner />
+                <Content />
+              </div>  
            </div>
 }
 
