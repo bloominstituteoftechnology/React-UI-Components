@@ -3,15 +3,16 @@
 /* All styles for your header Components live here */
 
 .headerContainer{
-  border: $mainBorder1;
+  // border: $mainBorder1;
   display: $displayGrid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 10% 90%;
+  grid-column-gap: .1rem;
   align-items: center;
   
   // for the image thumbnail container 
   .lambdaLogo{
-    border: $mainBorder1;
-    width: 40%;
+    // border: $mainBorder1;
+    width: 100%;
     max-width: 100%;
     align-items: center;
     justify-content: center;
@@ -20,6 +21,8 @@
   // for the header title component
   .headerTitle{
     // border: $mainBorder2;
+    margin-left: 1rem;
+
 
     .grey{
       color: lightgrey;
@@ -27,6 +30,6 @@
   }
   // for the header content component
   .headerContent{
-    border: $mainBorder3;
+    border: none;
   }
 }

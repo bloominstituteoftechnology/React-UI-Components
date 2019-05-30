@@ -5,7 +5,7 @@ import CardContent from './CardContent';
 
 export default function CardContainer() {
   return (
-    <div>
+    <div className="cardContainer">
       <CardBanner />
       <CardContent/>
     </div>
