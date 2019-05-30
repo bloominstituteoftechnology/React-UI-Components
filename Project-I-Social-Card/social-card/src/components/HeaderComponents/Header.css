@@ -3,6 +3,10 @@
     display: flex;
     
 }
+.Header > div {
+    margin: .5rem;
+    padding: 0px;
+}
 .header-title{
     font-weight: 700;
 
@@ -12,4 +16,7 @@
 }
 .header-title-container{
     display: flex;
+}
+.Header >p{
+    line-height: 1.5rem;
 }
