@@ -8,9 +8,9 @@
   height: 4.5rem;
   width: 4.5rem;
   color: white;
-  border: solid 2px crimson;
-  border-radius: 100%;
-  margin: .5rem;
+  /* border: solid 2px crimson;
+  border-radius: 100%; */
+  margin: .65rem;
 }
 
 .HeaderTitle {
