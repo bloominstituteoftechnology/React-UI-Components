@@ -1,0 +1,14 @@
+.footerdiv{
+    display: flex;
+    justify-content: flex-start;
+    padding-right:30%;
+       
+        
+        border: 1px solid #222222;
+        border-radius: 2%;
+        padding: 1%;
+        align-items: flex-start;
+        
+        line-height: 1.5rem;
+   
+}

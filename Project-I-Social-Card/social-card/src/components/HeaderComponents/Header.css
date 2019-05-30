@@ -13,10 +13,11 @@
 }
 .header-title-handle{
     opacity: .5;
+    white-space: pre;
 }
 .header-title-container{
     display: flex;
 }
-.Header >p{
-    line-height: 1.5rem;
+.Header > p {
+    line-height: 2.5rem;
 }
