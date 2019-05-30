@@ -2,4 +2,11 @@ body {
   margin: 0;
   padding: 0.4rem;
   font-family: sans-serif;
+ 
+  
+}
+#root{
+  max-width: 750px;
+  margin: 0 auto;
+  box-shadow: 1.1px 1.7px 3px 0px #4c0210;
 }
