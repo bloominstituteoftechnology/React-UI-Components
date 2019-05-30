@@ -8,5 +8,3 @@ const ImageThumbnail = () => {
 };
 
 export default ImageThumbnail;
-
-// " alt="Lambda Crest
