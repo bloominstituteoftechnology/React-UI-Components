@@ -6,4 +6,7 @@
 
 .container{
   border: $mainBorder;
+  max-width: 80%;
+  width: 800px;
+  margin: 0 auto;
 }

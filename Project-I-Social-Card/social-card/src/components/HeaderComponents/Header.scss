@@ -4,9 +4,21 @@
 .headerContainer{
   border: $mainBorder1;
 
-  // for the lambda image logo on the upper left
+// for the image thumbnail container 
   .lambdaLogo{
     width: 5%;
     max-width: 100%;
+  }
+// for the header title component
+  .headerTitle{
+    border: $mainBorder2;
+
+    .grey{
+      color: lightgrey;
+    }
+  }
+// for the header content component
+  .headerContent{
+    border: $mainBorder3;
   }
 }
