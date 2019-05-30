@@ -1,4 +1,9 @@
 import React from 'react';
+import HeaderContainer from './components/HeaderComponents/HeaderContainer';
+import CardContainer from './components/CardComponents/CardContainer';
+import Footer from './components/FooterComponents/Footer';
+
+// styling
 import './App.scss';
 
 const App = () => {
@@ -17,6 +22,9 @@ const App = () => {
           inside of this file in order to make them work.
         </strong>
       </p> */}
+      <HeaderContainer />
+      <CardContainer />
+      <Footer />
     </div>
   );
 };
