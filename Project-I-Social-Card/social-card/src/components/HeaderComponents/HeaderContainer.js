@@ -1,15 +1,13 @@
 import React from 'react';
 import './Header.css';
 
-function Lam() {
+const HeaderContainer = () => {
     return (
-        <div className="Lam">
+        <div className="container">
+            <ImageThumbnail />
             
-
-        
         </div>
     );
 }
 
-const rootElement = document.getElementById("root");
-ReactDOM.render(<Lam />, rootElement);
+export default HeaderContainer;
