@@ -3,7 +3,7 @@ import './Card.scss';
 
 export default function CardBanner() {
   return (
-    <div>
+    <div className="cardBanner">
       
     </div>
   )

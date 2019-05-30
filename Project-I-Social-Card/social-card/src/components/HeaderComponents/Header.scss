@@ -3,13 +3,20 @@
 
 .headerContainer{
   border: $mainBorder1;
-
-// for the image thumbnail container 
+  display: $displayGrid;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+  
+  // for the image thumbnail container 
   .lambdaLogo{
-    width: 5%;
+    border: $mainBorder1;
+    width: 40%;
     max-width: 100%;
+    align-items: center;
+    justify-content: center;
   }
-// for the header title component
+
+  // for the header title component
   .headerTitle{
     border: $mainBorder2;
 
@@ -17,7 +24,7 @@
       color: lightgrey;
     }
   }
-// for the header content component
+  // for the header content component
   .headerContent{
     border: $mainBorder3;
   }
