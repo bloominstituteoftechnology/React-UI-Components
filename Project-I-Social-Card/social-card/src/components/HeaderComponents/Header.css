@@ -1,1 +1,31 @@
 /* All styles for your header Components live here */
+.header {
+    display: flex;
+    max-width:700px;
+}
+
+ .headerContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+ .image {
+    height: 50px;
+    width: 50px;
+}
+
+ .headerText {
+    max-width: 600px;
+}
+
+ .h1{
+    display:inline;
+}
+
+ .h2{
+    display:inline;
+    color: gray;
+    font-size:16px;
+    font-weight: lighter;
+} 
