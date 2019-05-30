@@ -7,7 +7,7 @@ const App = () => {
   return (
     <div className="mainApp">
       <Header />
-      <Card />
+      <a href="https://www.reactjs.org"><Card /></a>
     </div>
   );
 };
