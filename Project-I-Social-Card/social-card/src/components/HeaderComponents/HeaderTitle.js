@@ -22,9 +22,9 @@ let dd = today.getDate();
 
 function HeaderTitle() {
 	return (
-		<h1>
-			<div> Lambda School </div> <div> @LambdaSchool {mm + dd} </div>
-		</h1>
+		<p className="header-title-container">
+			<div className="header-title"> Lambda School </div> <div className="header-title-handle"> @LambdaSchool   {mm + dd} </div>
+		</p>
 	);
 }
 export default HeaderTitle;
