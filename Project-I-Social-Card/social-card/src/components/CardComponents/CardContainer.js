@@ -1,9 +1,9 @@
-import React from 'react';
-import './Card.css';
-import CardBanner from './CardBanner';
-import CardContent from './CardContent';
+import React from "react";
+import "./Card.css";
+import CardBanner from "./CardBanner";
+import CardContent from "./CardContent";
 
-function CardContainer() {
+const CardContainer = () => {
     return (
         <div className="card-container">
             <a href="https://www.reactjs.org">
@@ -11,7 +11,7 @@ function CardContainer() {
                 <CardContent />
             </a>
         </div>
-    )
-}
+    );
+};
 
 export default CardContainer;
