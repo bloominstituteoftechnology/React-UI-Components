@@ -1,1 +1,9 @@
 /* All styles for your header Components live here */
+/* All styles for your header Components live here */
+.sample {
+    border: blue solid 5px;
+   }
+   
+   .headerT {
+       background: rebeccapurple;
+   }
