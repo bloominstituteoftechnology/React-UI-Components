@@ -1,0 +1,14 @@
+.allIcons {
+    display: flex;
+    border: solid dodgerblue 1px;
+    border-radius: 10px;
+    width: 580px;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+.allIcons img {
+    width: 20px;
+    height: 100%;
+    margin-right: 70px;
+}
