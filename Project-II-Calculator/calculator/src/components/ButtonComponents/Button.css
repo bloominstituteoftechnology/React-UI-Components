@@ -7,7 +7,7 @@
 .number button{
     background-color: #F7FBFC;
     border: 1px black solid;
-    font-size: 36px;
+    font-size: 42px;
     cursor: pointer;
     width: 100px;
     height: 100px;;
@@ -19,7 +19,7 @@ button:hover {
 .action button {
     background-color: red;
     border: 1px black solid;
-    font-size: 36px;
+    font-size: 42px;
     cursor: pointer;
     width: 100px;
     height: 100px;;
