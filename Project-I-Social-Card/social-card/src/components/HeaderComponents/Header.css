@@ -1,7 +1,7 @@
 /* All styles for your header Components live here */
 .Header{
     display: flex;
-    /* flex-direction: column; */
+    
 }
 .header-title{
     font-weight: 700;
