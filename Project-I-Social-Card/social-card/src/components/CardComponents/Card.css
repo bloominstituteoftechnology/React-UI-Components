@@ -1,1 +1,22 @@
 /* All styles for your Card Components live here */
+.CardContainer {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20%;
+    border: 1px solid #222222;
+    border-radius: 2%;
+    padding: 1%;
+    align-items: flex-end;
+    line-height: 1.5rem;
+}
+
+.CardBanner{
+    max-width: 100%;
+    width: 600px;
+    margin-left: left 20%;
+}
+.reactjslink{
+    font-weight: 600;
+    text-decoration: none;
+    color: #222222;
+}

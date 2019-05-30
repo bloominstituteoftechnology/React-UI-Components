@@ -1,8 +1,8 @@
 import React from 'react';
 import './Header.css';
 const style={    
-    // filter:"invert(100%)",   
-    border:"1px solid black",
+  
+    border:"5px inset firebrick",
 };
 function ImageThumbnail() {
     return (
