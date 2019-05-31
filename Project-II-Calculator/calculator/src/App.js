@@ -7,9 +7,8 @@ import CalculatorDisplay from './components/DisplayComponents/CalculatorDisplay'
 const App = () => {
   return (
     <div className='App'>
-      <NumberButton />
-      <ActionButton />
       <CalculatorDisplay />
+      <ActionButton />
     </div>
   );
 };
