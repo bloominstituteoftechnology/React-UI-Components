@@ -1,0 +1,12 @@
+.calculator-display {
+    width: 449px;
+    height: 121px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: white;
+    font-size: 4rem;
+    font-weight: lighter;
+    background-color: #222222;
+    margin-right: 15px;
+}

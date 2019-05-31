@@ -1,6 +1,4 @@
 import React from 'react';
-import './App.css';
-
 import NumberButton from './components/ButtonComponents/NumberButton';
 import ActionButton from './components/ButtonComponents/ActionButton';
 import CalculatorDisplay from './components/DisplayComponents/CalculatorDisplay';
@@ -15,36 +13,37 @@ const App = () => {
       
       <div className = "calculator-row">
         <NumberButton buttonStyle="action-button-clear"  text="clear" />
-        <ActionButton buttonStyle="action-button" text="÷" />
+        <ActionButton buttonStyle="red-number-button" text="÷" />
       </div>
 
       <div className="calculator-row">
         <NumberButton buttonStyle="number-button" text="7" />
         <NumberButton buttonStyle="number-button" text="8" />
         <NumberButton buttonStyle="number-button" text="9" />
-        <ActionButton buttonStyle="action-button" text="x" />
+        <ActionButton buttonStyle="red-number-button" text="x" />
       </div>
 
       <div className="calculator-row">
         <NumberButton buttonStyle="number-button" text="4" />
         <NumberButton buttonStyle="number-button" text="5" />
         <NumberButton buttonStyle="number-button" text="6" />
-        <ActionButton buttonStyle="action-button" text="-" />
+        <ActionButton buttonStyle="red-number-button" text="-" />
       </div>
 
       <div className="calculator-row">
         <NumberButton buttonStyle="number-button" text="1" />
         <NumberButton buttonStyle="number-button" text="2" />
         <NumberButton buttonStyle="number-button" text="3" />
-        <ActionButton buttonStyle="action-button" text="+" />
+        <ActionButton buttonStyle="red-number-button" text="+" />
       </div>
 
       <div className="calculator-row">
         <NumberButton buttonStyle="action-button-zero" text="0" />
-        <ActionButton buttonStyle="action-button" text="=" />
+        <ActionButton buttonStyle="red-number-button" text="=" />
       </div>
     </div>
   );
 };
 
 export default App;
+// MVP

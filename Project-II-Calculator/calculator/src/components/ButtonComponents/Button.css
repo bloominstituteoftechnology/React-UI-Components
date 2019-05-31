@@ -1,0 +1,51 @@
+.action-button-clear {
+    width: 336px;
+    height: 95px;
+    border: 1px solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+    font-weight: lighter;
+    color: #222222;
+    background-color: white;
+}
+
+.action-button-zero {
+    width: 336px;
+    height: 95px;
+    border: 1px solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #222222;
+    background-color: white;
+}
+
+.number-button {
+    width: 112px;
+    height: 95px;
+    border: 1px solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #222222;
+    background-color: white;
+}
+
+.red-number-button {
+    width: 114px;
+    height: 95px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    font-weight: lighter;
+    color: white;
+    background-color: #A0001E;
+    border: 1px solid grey;
+}
