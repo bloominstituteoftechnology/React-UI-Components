@@ -4,8 +4,8 @@ import './Button.css';
 function ActionButton(props) {
   return (
     <div className='actionButtons'>
-      <div className={props.zero}>{props.text}</div>;
-      <div className={props.clear}>{props.text}</div>;
+      <button className={props.zero}>{props.text}</button>;
+      <button className={props.clear}>{props.text}</button>;
     </div>
   );
 };
