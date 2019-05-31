@@ -1,0 +1,33 @@
+.number {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 300px;
+}
+.number button{
+    background-color: #F7FBFC;
+    border: 1px black solid;
+    font-size: 42px;
+    cursor: pointer;
+    width: 100px;
+    height: 100px;;
+}
+button:hover {
+    background-color: red;
+    color: white;
+}
+.action button {
+    background-color: red;
+    border: 1px black solid;
+    font-size: 42px;
+    cursor: pointer;
+    width: 100px;
+    height: 100px;;
+}
+.action {
+    display: flex;
+    flex-direction: column;
+}
+#wide {
+    width: 300px;
+}
