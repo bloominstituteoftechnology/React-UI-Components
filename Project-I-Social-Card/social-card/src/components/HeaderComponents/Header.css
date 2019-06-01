@@ -1,1 +1,23 @@
 /* All styles for your header Components live here */
+.Header{
+    display: flex;
+    
+}
+.Header > div {
+    margin: .5rem;
+    padding: 0px;
+}
+.header-title{
+    font-weight: 700;
+
+}
+.header-title-handle{
+    opacity: .5;
+    white-space: pre;
+}
+.header-title-container{
+    display: flex;
+}
+.Header > p {
+    line-height: 2.5rem;
+}

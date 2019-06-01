@@ -20,7 +20,7 @@
 - Each file has been set up to work within a `react.js` environment. Pay attention to the notes found within each project.
 - Don't forget about `className` vs `class` on your `JSX elements`!!
 
-## _Project I - Social Card_
+## _Project I - Social Card_ 
 
 - We're going to break down this assignment in terms of how you should be starting to think in react. Remember that everything is a component.
 - All the files you'll need for this project are found in `Project-I-Social-Card/social-card/src/components`. You can find all the component files you should need in their respective directory. i.e. inside of the `HeaderComponents` directory you should see a few `.js` files and a `.css` file.
