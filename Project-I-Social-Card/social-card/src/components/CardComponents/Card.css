@@ -13,7 +13,7 @@
     background-size: contain;
 }
 
-.banner-img{
+.banner-img {
     border-radius: 4px 4px 0 0;
     max-height: 100%;
     max-width: 100%;
@@ -21,7 +21,7 @@
 
 .banner-bottom {
     height: 90px;
-    backgorund: #ffffff;
+    background: #ffffff;
     width: 80%;
     margin: 0 auto;
     margin-top: -2px;
