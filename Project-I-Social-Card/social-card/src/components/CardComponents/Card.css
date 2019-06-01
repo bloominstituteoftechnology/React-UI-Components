@@ -20,5 +20,23 @@
 }
 
 .banner-bottom {
-    
+    height: 90px;
+    backgorund: #ffffff;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: -2px;
+    border-bottom: 1px solid #e3e3e3;
+    border-left: 1px solid #e3e3e3;
+    border-right: 1px solid #e3e3e3;
+    border-radius: 0 0 4px 4px;
+}
+
+.banner-content {
+    margin: 0;
+    padding: 0.3em;
+}
+
+.link {
+    text-decoration: none;
+    color: #d1d2d3;
 }
