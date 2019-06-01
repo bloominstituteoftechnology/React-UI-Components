@@ -1,1 +1,25 @@
 /* All styles for your Card Components live here */
+
+.card-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 2%;
+  width: 100%;
+}
+
+.card-content {
+  width:90%;
+}
+
+.card-image {
+  width:100%;
+  border-radius: 1rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+p {
+  font-size: 1.5rem;
+}

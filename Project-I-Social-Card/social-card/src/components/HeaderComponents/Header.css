@@ -4,12 +4,10 @@
   /* justify-content: space-evenly; */
   align-items: flex-start;
   flex-wrap: wrap;
-  border: 1px solid blue;
 }
 
 .header-img {
   width: 10%;
-  border: 1px solid blue;
 }
 
 .title {
@@ -18,23 +16,19 @@
   justify-content: flex-start;
   align-items: center;
   width: 90%;
-  border: 1px solid blue;
 }
 
 h1 {
   font-size: 1.5rem;
   margin: 10px;
-  border: 1px solid blue;
 }
 
 .span {
   font-size: 1.3rem;
   color: gray;
-  border: 1px solid blue;
 }
 
 .header-content {
   font-size: 1.4rem;
-  border: 1px solid blue;
   margin: 10px;
 }
