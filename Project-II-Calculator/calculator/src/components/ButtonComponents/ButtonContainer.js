@@ -1,4 +1,5 @@
 import React from 'react';
+import './Button.css';
 import NumberButton from './NumberButton';
 import ActionButton from './ActionButton';
 
@@ -13,6 +14,7 @@ function ButtonContainer(props) {
           return <NumberButton buttonStyle='number' text={num} />
         }))
       }
+      <ActionButton buttonStyle='zero' text='0' />
     </div>
   );
 };
