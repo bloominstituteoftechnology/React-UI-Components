@@ -1,0 +1,8 @@
+.calcdisplay{
+    width:600px;
+    background:black;
+    color:white;
+    font-size: 3.5rem;
+    text-align:right;
+    padding:1rem;
+}
