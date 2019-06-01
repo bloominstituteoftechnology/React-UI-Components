@@ -1,1 +1,28 @@
 /* All styles for your header Components live here */
+.head-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+.header-img {
+  width: 20%;
+}
+
+.title {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  width: 75%;
+  border: 1px solid blue;
+}
+
+h1 {
+  font-size: 1.5rem;
+  border: 1px solid blue;
+}
+
+h4 {
+  font-size: 1.3rem;
+  border: 1px solid blue;
+}
