@@ -2,5 +2,5 @@
   max-width: 500px;
   display: flex;
   flex-flow: row wrap;
-
+  margin: 20px 50px;
 }
