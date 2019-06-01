@@ -1,0 +1,58 @@
+.buttonContainer {
+  display: flex;
+  flex-flow: row wrap;
+  width: 375px;
+  margin: 0;
+}
+
+.actionButtons {
+  width: 100%;
+  height: 121px;
+  margin: 0;
+}
+
+.clear {
+  width: 100%;
+  height: 100%;
+  font-size: 40px;
+}
+.zero {
+  width: 100%;
+  height: 100%;
+  font-size: 50px;
+}
+
+.number {
+  width: 125px;
+  height: 123px;
+  font-size: 50px;
+  margin: 0;
+
+}
+
+.operatorContainer {
+  display: flex;
+  flex-flow: column;
+  margin: 0;
+}
+
+.operator {
+  width: 125px;
+  height: 123px;
+  font-size: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.calculatorDisplay {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 80px;
+  background: black;
+  color: white;
+}

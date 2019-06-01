@@ -2,7 +2,6 @@ import React from 'react';
 import './Button.css';
 import NumberButton from './NumberButton';
 import ActionButton from './ActionButton';
-import OperatorContainer from './OperatorContainer';
 
 let nums = [7, 8, 9, 4, 5, 6, 1, 2, 3];
 
@@ -16,7 +15,6 @@ function ButtonContainer() {
         }))
       }
       <ActionButton buttonStyle='zero' text='0' />
-      <OperatorContainer />
     </div>
   );
 };
