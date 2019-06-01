@@ -5,9 +5,7 @@ import NumberButton from './NumberButton';
 function ActionButton(props) {
   return (
     <div className='actionButtons'>
-      <button className={props.zero}>{props.text}</button>
-      <NumberButton />
-      <button className={props.clear}>{props.text}</button>
+      <button className={props.buttonStyle}>{props.text}</button>
     </div>
   );
 };
