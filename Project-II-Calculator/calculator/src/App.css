@@ -1,0 +1,13 @@
+.calculator-container {
+    margin: 0 auto;
+    width: 450px;
+    height: 597px;
+    border-right: 1px solid grey;
+    border-left: 1px solid grey;
+    border-top: 1px solid grey;
+}
+
+.calculator-row {
+    display: flex;
+    justify-content: flex-end;
+}

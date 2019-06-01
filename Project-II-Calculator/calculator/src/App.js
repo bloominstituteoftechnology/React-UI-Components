@@ -1,23 +1,49 @@
 import React from 'react';
+import NumberButton from './components/ButtonComponents/NumberButton';
+import ActionButton from './components/ButtonComponents/ActionButton';
+import CalculatorDisplay from './components/DisplayComponents/CalculatorDisplay';
 import './App.css';
 
 const App = () => {
   return (
-    <div>
-      <h3>Welcome to React Calculator</h3>
-      <p>
-        We have given you a starter project. You'll want to build out your
-        components in their respective files, remove this code and replace it
-        with the proper components.
-      </p>
-      <p>
-        <strong>
-          Don't forget to `default export` your components and import them here
-          inside of this file in order to make them work.
-        </strong>
-      </p>
+    <div className = 'calculator-container'>
+      <div className = 'calculator-display'>
+        <CalculatorDisplay text='0' />
+      </div> 
+      
+      <div className = "calculator-row">
+        <NumberButton buttonStyle="action-button-clear"  text="clear" />
+        <ActionButton buttonStyle="red-number-button" text="÷" />
+      </div>
+
+      <div className="calculator-row">
+        <NumberButton buttonStyle="number-button" text="7" />
+        <NumberButton buttonStyle="number-button" text="8" />
+        <NumberButton buttonStyle="number-button" text="9" />
+        <ActionButton buttonStyle="red-number-button" text="x" />
+      </div>
+
+      <div className="calculator-row">
+        <NumberButton buttonStyle="number-button" text="4" />
+        <NumberButton buttonStyle="number-button" text="5" />
+        <NumberButton buttonStyle="number-button" text="6" />
+        <ActionButton buttonStyle="red-number-button" text="-" />
+      </div>
+
+      <div className="calculator-row">
+        <NumberButton buttonStyle="number-button" text="1" />
+        <NumberButton buttonStyle="number-button" text="2" />
+        <NumberButton buttonStyle="number-button" text="3" />
+        <ActionButton buttonStyle="red-number-button" text="+" />
+      </div>
+
+      <div className="calculator-row">
+        <NumberButton buttonStyle="action-button-zero" text="0" />
+        <ActionButton buttonStyle="red-number-button" text="=" />
+      </div>
     </div>
   );
 };
 
 export default App;
+// MVP
