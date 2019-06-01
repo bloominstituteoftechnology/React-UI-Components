@@ -1,11 +1,21 @@
 /* 
   Write your styles/CSS for App.js here and import into the component that you need 
   IF you'd like to attempt to use less you'll have to research how to do this with Create React App
-*/
-.card-container {
+
+  div .appContainer {
+  max-width: 900px;
+  border: 1px solid darkblue;
+}
+
+
   height: 500px;
   width: 45%;
   margin: 1em auto;
-  border: 0.5px solid #000000;
+  border: 0.5px solid #bcbcbc; /*000000 */
   font-family: sans-serif;
+
+*/
+.card-container {
+  max-width: 900px;
+  border: 1px solid blue;
 }

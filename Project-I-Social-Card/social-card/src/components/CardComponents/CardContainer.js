@@ -3,6 +3,9 @@ import './Card.css';
 import CardContent from './CardContent';
 import CardBanner from './CardBanner';
 
+/*
+"banner-wrapper" = "CardContain" 
+*/
 function CardContainer(){
     return (
         <div className="banner-wrapper">
