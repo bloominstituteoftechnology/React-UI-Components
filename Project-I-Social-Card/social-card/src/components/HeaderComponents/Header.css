@@ -10,7 +10,7 @@
     padding: 0.3em;
 }
 
-.thum-img {
+.thumb-img {
     height: 100%;
 }
 
@@ -28,4 +28,11 @@
 .header-title-wrapper {
     flex-direction: column;
     margin-top: 0.6em;
+}
+
+.header-content {
+    font-size: 13px;
+    font-weight: 400;
+    width: 93%;
+    line-height: 1.3;
 }
