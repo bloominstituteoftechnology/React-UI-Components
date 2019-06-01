@@ -1,6 +1,13 @@
 import React from 'react';
 import './Card.css';
 
+
+/*
+banner-bottom = cardContentContain
+banner-content = cardContent
+<a href="https://www.reactjs.org" className="banner-content header-content link"
+<a href="https://www.reactjs.org">
+*/
 function CardContent() {
     return (
         <div className="banner-bottom">
@@ -11,7 +18,7 @@ function CardContent() {
                 React makes it painless to make interactive UI's. Design simple views
                 for each state in your application.
             </p>
-            <a href="http://reactjs.org/" className="banner-content header-content link">
+            <a href="https://www.reactjs.org" className="banner-content header-content link">
                 reactjs.org
             </a>
         </div>
