@@ -1,1 +1,48 @@
 /* All styles for your header Components live here */
+
+.header-container {
+    /* border: 1px solid red; */
+    max-width: 97%;
+    padding: 10px;
+    display: flex;
+}
+
+.title {
+    max-width: 90%;
+    padding-left: 5px;
+}
+
+.header-content {
+    /* border: 1px solid blue; */
+}
+
+.header-text {
+    font-weight: lighter;
+    margin: 0 auto;
+}
+
+.headerLogo {
+    display: flex;
+    margin: 0 auto;
+}
+
+.image {
+    /* border: 1px solid green; */
+    width: 50px;
+    height: 50px;
+}
+
+.lambdaSchool {
+    font-size: .9rem;
+    font-weight: normal;
+    color: rgb(143, 134, 134);
+}
+
+.lamHeader {
+    font-size: 1rem;
+    font-weight: normal;
+    padding-right: 5px;
+    padding-top: 3px;
+}
+
+

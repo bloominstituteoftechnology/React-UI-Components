@@ -1,0 +1,27 @@
+.footer {
+    /* border: 1px solid red; */
+    max-width: 97%;
+    height: 50px;
+}
+
+.iconContainer {
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+    height: 35px;
+    padding-top: 5px;
+}
+
+i.fa {
+    font-size: 20px;
+    color:#888;
+    opacity: 1;
+}
+
+.clickable {
+    cursor:pointer;
+}
+
+
+
