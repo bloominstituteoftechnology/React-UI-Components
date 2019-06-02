@@ -1,0 +1,23 @@
+.calcbox {
+    display: flex;
+    width: 429px;
+    height: 100%;
+    border: solid 3px black;
+    margin: 100px auto;
+    flex-direction: column;
+
+}
+
+
+.clearbutton {
+}
+
+.bottomcontent {
+    display: flex;
+    flex-direction: row;
+}
+
+.leftside {
+    display: flex;
+    flex-direction: column;
+}

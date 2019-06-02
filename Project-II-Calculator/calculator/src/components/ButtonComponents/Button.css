@@ -1,0 +1,43 @@
+.numberbox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.button {
+    display: flex;
+    border: solid gray 2px;
+    color: black;
+    font-size: 3em;
+    padding: 30px 38px;
+    align-items: center;
+    font-weight: bold;
+}
+
+.clearbutton {
+    display: flex;
+    justify-content: center;
+    font-size: 3em;
+    padding: 30px 38px; 
+    border: solid gray 2px;
+}
+
+.zero {
+    display: flex;
+    justify-content: center;
+    font-size: 3em;
+    padding: 30px 38px;
+    border: solid gray 2px;
+    font-weight: bold;
+}
+
+.action {
+    display: flex;
+    border: solid gray 2px;
+    color: white;
+    font-size: 3em;
+    padding: 30px 38px;
+    align-items: center;
+    font-weight: bold;
+    background: darkred;
+}

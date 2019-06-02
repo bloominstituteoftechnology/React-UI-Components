@@ -1,0 +1,37 @@
+.allIcons {
+    display: flex;
+    border: solid dodgerblue 1px;
+    border-radius: 10px;
+    width: 580px;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+.allIcons img {
+    width: 20px;
+    height: 100%;
+}
+
+.comment {
+    margin-right: 70px;
+}
+
+.retweet {
+    display: flex;
+    margin-right: 70px;
+    align-items: center;
+    width: 40px;
+    justify-content: space-between;
+}
+
+.like {
+    display: flex;
+    margin-right: 70px;
+    align-items: center;
+    width: 40px;
+    justify-content: space-between;
+}
+
+.share {
+
+}

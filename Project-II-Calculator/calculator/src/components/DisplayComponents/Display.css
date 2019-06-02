@@ -1,0 +1,15 @@
+.display {
+    color: white;
+    background: black;
+    font-size: 4em;
+    display: flex;
+    height: 110px;
+    flex-direction: row-reverse;
+    
+}
+
+.result {
+    color: white;
+    padding-top: 30px;
+    padding-right: 5px;
+}
