@@ -34,9 +34,10 @@
 .action {
     display: flex;
     border: solid gray 2px;
-    color: black;
+    color: white;
     font-size: 3em;
     padding: 30px 38px;
     align-items: center;
     font-weight: bold;
+    background: darkred;
 }
