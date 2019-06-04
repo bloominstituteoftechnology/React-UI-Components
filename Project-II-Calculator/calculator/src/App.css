@@ -1,3 +1,9 @@
 .app-container {
   width: 500px;
 }
+
+.numbers-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 75%;
+}
