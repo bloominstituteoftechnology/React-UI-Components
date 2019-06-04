@@ -1,1 +1,24 @@
 /* All styles for your header Components live here */
+.headercontainer {
+	display: flex;
+	align-items: flex-start;
+	flex-wrap: wrap;
+}
+.headerimg {
+	width: 10%;
+}
+.span {
+	font-size: 1.2rem;
+	color: lightgray;
+}
+h1 {
+	font-size: 1.4rem;
+}
+
+.Htitle {
+	width: 90%;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: flex-start;
+}
