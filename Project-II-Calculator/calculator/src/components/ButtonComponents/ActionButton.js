@@ -3,7 +3,7 @@ import './Button.scss';
 
 const ActionButton = props => {
   return(
-  <button></button>
+  <button className={props.buttonStyle}>{props.text}</button>
   )
 }
 
