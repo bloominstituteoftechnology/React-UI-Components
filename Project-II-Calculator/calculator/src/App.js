@@ -1,10 +1,12 @@
 import React from 'react';
 import './App.css';
+import Display from './components/DisplayComponents/CalculatorDisplay';
 
 const App = () => {
   return (
-    <div>
+    <div className="app-container">
       <h3>Welcome to React Calculator</h3>
+      <Display />
       <p>
         We have given you a starter project. You'll want to build out your
         components in their respective files, remove this code and replace it
