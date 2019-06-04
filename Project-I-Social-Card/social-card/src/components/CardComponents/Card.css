@@ -1,1 +1,49 @@
 /* All styles for your Card Components live here */
+* {
+    box-sizing: border-box;
+}
+.CardContainer {
+    width: 600px;
+    padding-left: 70px;
+    display: flex;
+    flex-direction: column;
+}
+.link-img {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.CardContent {
+    height: 120px;
+    border: 1px solid lightgray;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.CardContent h2 {
+    font-size: 1rem;
+}
+.url {
+    color: lightslategray;
+}
+.HeaderContainer {
+    width: 600px;
+}
+.HeaderContainer img {
+    width: 100%;
+    padding-top: 10px;
+    margin-right: 30px;
+}
+.HeaderTitle p{
+    margin: 5px;
+    color: lightslategray;
+}
+.HeaderTitle h2{
+    font-size: 1rem;
+}
+.HeaderContent p{
+    margin-top: 0px;
+}
+.headertitlecontent{
+    padding-left: 15px;
+}

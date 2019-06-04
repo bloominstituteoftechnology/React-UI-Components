@@ -1,1 +1,11 @@
 /* All styles for your header Components live here */
+
+.HeaderContainer {
+    display: flex;
+    align-items: flex-start;
+}
+
+.HeaderTitle {
+    display: flex;
+    align-items: center;
+}
