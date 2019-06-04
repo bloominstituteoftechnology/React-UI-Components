@@ -7,11 +7,12 @@
   .row1 {
     background: #222222;
     color: #fff;
-    // border: 1px solid red;
     display: grid;
     grid-template-columns: 1fr;
     padding: 20px 0;
-    font-size: 1.6rem;
+    font-size: 3.0rem;
+    justify-items: end;
+    padding-right: .7em;
   }
   
   .row2, .row6 {
