@@ -10,6 +10,9 @@
 
 }
 .operator-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 4rem;
   width: 100%;
   text-align: center;
