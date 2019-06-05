@@ -1,5 +1,14 @@
 .display { 
+  display:flex;
+  justify-content: flex-end;
+  align-items: center;
   width: 100%;
-  background-color: darkgray;
+  background-color: #1c1c1c;
   height: 100px;
+}
+
+.number-total {
+  color: white;
+  font-size: 4rem;
+  padding-right: 20px;
 }

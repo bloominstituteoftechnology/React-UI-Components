@@ -2,6 +2,8 @@ import React from 'react';
 import './App.css';
 import Display from './components/DisplayComponents/CalculatorDisplay';
 import NumberButton from './components/ButtonComponents/NumberButton';
+import Operators from './components/ButtonComponents/Operators';
+import ActionButtons from './components/ButtonComponents/ActionButton';
 
 
 const numbers = [
@@ -16,17 +18,34 @@ const numbers = [
   {text: '9', num: 9, buttonStyle: 'button'}
 ];
 
+const operators = [
+  {operator: '/', icon: 'divide'},
+  {operator: '*', icon: 'times'},
+  {operator: '+', icon: 'plus'},
+  {operator: '-', icon: 'minus'}
+]
+
 
 const App = () => {
   return (
     <div className="app-container">
       <h3>Welcome to React Calculator</h3>
       <Display />
-      <div className="numbers-container">
-        {numbers.map(function (numbtn)  {
-          return <NumberButton num={numbtn} />;
-        })}
-          
+      <div className='input-container'>
+        <div className="numbers-container">
+          <ActionButtons name='Clear' />
+          {numbers.map(function (numbtn)  {
+            return <NumberButton num={numbtn} />;
+          })}
+          <ActionButtons name='0' />
+        </div>
+        <div className='operators-container'>
+          {operators.map(function (operator) {
+            return <Operators opr={operator} />
+          })}
+        </div>
+        
+        
       </div>
       <p>
         <strong>
