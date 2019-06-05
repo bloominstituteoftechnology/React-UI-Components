@@ -1,0 +1,28 @@
+
+
+
+.button {
+  width: 32%;
+  padding: 10px 0 10px 0;
+  text-align: center;
+  font-size: 4rem;
+  border: 1px solid black;
+
+}
+.operator-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4rem;
+  width: 100%;
+  text-align: center;
+  background-color: red;
+  border: 1px solid black;
+}
+
+.action-buttons {
+  width: 100%;
+  font-size: 4rem;
+  text-align: center;
+  border: 1px solid black;
+}
