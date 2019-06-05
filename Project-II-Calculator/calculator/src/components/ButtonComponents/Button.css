@@ -6,8 +6,15 @@ button {
     border: solid 1px black;
     font-family: 'Roboto', sans-serif;
 
+}   
+.clear {
+    width: 282px;
+    height: 94px;;
+    font-size: 50px;
+    background: #fefefe;
+    color: #373737;
+    border: 1px solid grey;
 }
-
 .action {
     width: 94px;
     height: 94px;
@@ -16,4 +23,20 @@ button {
     color: #fefefe;
     border: 1px solid grey;
     margin: 0;
+}
+.number {
+    width: 94px;
+    height: 94px;
+    font-size: 50px;
+    background: #fefefe;
+    color: #373737;
+    border: 1px solid grey;
+}
+.zero {
+    width: 282px;
+    height: 94px;
+    font-size: 50px;
+    background: #fefefe;
+    color: #373737;
+    border: 1px solid #373737;
 }
