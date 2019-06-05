@@ -1,0 +1,10 @@
+.display{
+    width:100%;
+    display:flex;
+    justify-content: flex-end;
+    background-color: black;
+    border: 2px solid #373737;
+    color:white;
+    padding:1rem 10px;
+    font-size:70px;
+} 

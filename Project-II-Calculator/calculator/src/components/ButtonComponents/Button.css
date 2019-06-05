@@ -1,0 +1,19 @@
+button {
+    height: 96.5px;
+    background: white;
+    font-size: 2.5rem;
+    font-weight: 600;
+    border: solid 1px black;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.action {
+    width: 94px;
+    height: 94px;
+    font-size: 50px;
+    background: darkred;
+    color: #fefefe;
+    border: 1px solid grey;
+    margin: 0;
+}
