@@ -1,0 +1,6 @@
+.app-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 100px auto 0 auto;
+    width: 376px;
+}
