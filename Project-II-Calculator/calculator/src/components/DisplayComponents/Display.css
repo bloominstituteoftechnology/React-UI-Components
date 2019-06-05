@@ -1,0 +1,9 @@
+.calculator-total {
+    height: 100px;
+    background: black;
+    color: white;
+    font-size: 50px;
+    text-align: right;
+    padding: 5px;
+    line-height: 100px;
+}

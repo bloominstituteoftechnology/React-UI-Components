@@ -1,1 +1,48 @@
 /* All styles for your Card Components live here */
+
+.card-container {
+    /* border: 1px solid red; */
+    max-width: 97%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.react-image {
+    /* border: 1px solid dodgerblue; */
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.banner-box {
+    width: 89%;
+    border: 1px solid lightgrey;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+.reactOrg {
+    color: rgb(143, 134, 134);
+    margin-top: 5px;
+}
+
+.card-content {
+    padding-left: 20px;
+}
+
+.card-content p {
+    font-size: 1rem;
+    font-weight: lighter;
+    margin-bottom: 5px;
+}
+
+.h3 {
+    font-size: 1rem;
+}
+
