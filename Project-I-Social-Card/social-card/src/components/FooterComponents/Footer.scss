@@ -1,0 +1,11 @@
+@import "./../../index.scss";
+
+.footer{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-left: 6rem;
+
+  span{
+    padding-left: 1rem;
+  }
+}

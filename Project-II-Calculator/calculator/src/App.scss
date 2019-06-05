@@ -1,0 +1,30 @@
+.container{
+  max-width: 400px;
+  width: 100%;
+  margin: 0 auto;
+  // font-size: 1.8em;
+
+  .row1 {
+    background: #222222;
+    color: #fff;
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 20px 0;
+    font-size: 3.0rem;
+    justify-items: end;
+    padding-right: .7em;
+  }
+  
+  .row2, .row6 {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    font-size: 1.6rem;
+  }
+  
+  .row3, .row4, .row5 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    font-size: 1.6rem;
+  }
+}
+

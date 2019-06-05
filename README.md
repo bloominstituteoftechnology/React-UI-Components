@@ -1,8 +1,8 @@
-# React-UI-Components
+# React-UI-Components #
 
 - This repository is designed to be your first exposure into the world of ReactJS. There are 2 projects to complete in this repository. Project 1 is all about implementing a Social Card in ReactJS. On Project 2 you'll be implementing a Calculator. We've given you the file structure and have gone ahead and added all the files you'll need to be set up for success for each project.
 
-## Initializing the application.
+## Initializing the application. ##
 
 - This project was put together using `create-react-app` (CRA). **You will not need to install CRA in order to make this project work**
 - Each project has it's own `package.json` file in it, we'll chat more about this later. So it's already set up for you to install some dependencies that are needed for you to be able to work within the React Ecosystem.
@@ -10,7 +10,7 @@
 - Inside of `../../social-card` you'll then need to run `yarn start` to open up a React Development Server that can take your `.js` files as components and bundle them up to work in your new environment.
 - **You'll repeat this last two steps for the calculator project, but you'll need to make sure that you're inside of `../../calculator` directory to make this work.**
 
-## Instructions
+## Instructions ##
 
 
 - For the first project you'll work on the project found in `Project-I-Social-Card`.
