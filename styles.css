@@ -1,0 +1,169 @@
+/* minimal reset */
+html {
+  font-size: 62.5%;
+}
+.Card--container {
+  max-width: 600px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 10% 1fr;
+}
+
+.Card--logo {
+  width: 80%;
+}
+
+.Card {
+  display: grid;
+  grid-template-areas: "title handle date ." "message message message message" "hero hero hero hero" "hero hero hero hero" "hero hero hero hero";
+}
+
+.Card--title {
+  grid-area: title;
+}
+
+.Card--handle {
+  grid-area: handle;
+}
+
+.Card--date {
+  grid-area: date;
+}
+
+.Card--message {
+  grid-area: message;
+}
+
+.Hero {
+  grid-area: hero;
+}
+
+.Hero--image {
+  width: 100%;
+}
+
+/* Calculator */
+
+:root {
+  --funcColor: #9e0523;
+  --funcColorDark: rgb(90, 1, 20);
+  --numberColor: #fff;
+  --numberColorDark: rgb(168, 165, 165);
+  --curColor: #222222;
+}
+
+.Calc--container {
+  display: grid;
+  max-width: 320px;
+  grid-template-areas: "current current current current" "clear clear clear divide" "seven eight nine multiply" "four five six subtract" "one two three add" "zero zero zero equals";
+}
+
+.Calc--buttons {
+  border-radius: 25px;
+  height: 8rem;
+  font-size: 2.4em;
+  cursor: pointer;
+  color: #fff;
+  border: 2px solid grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Calc--funcs {
+  background-color: var(--funcColor);
+}
+
+.Calc--funcs:hover {
+  background-color: var(--funcColorDark);
+}
+
+.Calc--numbers {
+  background-color: var(--numberColor);
+  color: #222;
+}
+
+.Calc--numbers:hover {
+  background-color: var(--numberColorDark);
+}
+
+.Calc--clear {
+  color: #222;
+}
+
+.Calc--current {
+  background-color: var(--curColor);
+  cursor: auto;
+  padding: 1.2rem;
+  justify-content: flex-end;
+}
+
+/* Assign to grid areas */
+
+.Calc--numbers__seven {
+  grid-area: seven;
+}
+
+.Calc--numbers__eight {
+  grid-area: eight;
+}
+
+.Calc--numbers__nine {
+  grid-area: nine;
+}
+
+.Calc--numbers__four {
+  grid-area: four;
+}
+
+.Calc--numbers__five {
+  grid-area: five;
+}
+
+.Calc--numbers__six {
+  grid-area: six;
+}
+
+.Calc--numbers__one {
+  grid-area: one;
+}
+
+.Calc--numbers__two {
+  grid-area: two;
+}
+
+.Calc--numbers__three {
+  grid-area: three;
+}
+
+.Calc--numbers__zero {
+  grid-area: zero;
+}
+
+.Calc--current {
+  grid-area: current;
+}
+
+.Calc--clear {
+  grid-area: clear;
+}
+
+.Calc--funcs__divide {
+  grid-area: divide;
+}
+
+.Calc--funcs__multiply {
+  grid-area: multiply;
+}
+
+.Calc--funcs__subtract {
+  grid-area: subtract;
+}
+
+.Calc--funcs__add {
+  grid-area: add;
+}
+
+.Calc--funcs__equal {
+  grid-area: equals;
+}
