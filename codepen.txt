@@ -1,0 +1,3 @@
+Links to my code pens for React I
+social card: https://codepen.io/jshong/pen/NYzaOL?editors=0110
+calculator: https://codepen.io/jshong/pen/aYKELa
