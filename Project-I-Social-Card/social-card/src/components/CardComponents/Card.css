@@ -1,15 +1,10 @@
+.centerBox{
+    width: 70%;
+    margin: 0 auto;
+}
 .banner-img{
-    width: 62%;
-    margin-left: 80px;
+    width: 100%;
+    border-radius: 10%; 
 }
-h2{
-    margin-left: 80px;
-}
-.cardContentP{
-    margin-left: 80px;
-    width: 67%;
-}
-.reactLink{
-    margin-left: 80px;
-}
+
 /* All styles for your Card Components live here */

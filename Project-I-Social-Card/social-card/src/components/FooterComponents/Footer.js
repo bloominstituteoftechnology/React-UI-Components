@@ -1,16 +1,12 @@
 import React from 'react';
 import './Footer.css';
+import footerLogo from './footerLogos.png'
 
-
-const Footer = () => {
+const Footer = ()=>{
     return(
-    <div class="footerDiv">
-    <p class="footerP">Box</p>
-    <p class="footerP">Box</p>
-        <p class="footerP">Box</p>
-        <p class="footerP">Box</p>
-    </div>
-    );
-};
-
+        <div className="divFooter">
+            <img src={footerLogo}/>  
+        </div>
+    )
+}
 export default Footer;

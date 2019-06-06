@@ -1,9 +1,11 @@
 .footerDiv{
-    display: flex;
-    margin-left: 70px;
-}
-.footerP{
-    margin-left: 10px;
+    width: 70%;
+    margin: 0 auto;
     background: blue;
-    padding: 5px;
+}
+.divFooter{
+    margin: 0 auto;
+    width: 70%;
+    display: flex;
+
 }
