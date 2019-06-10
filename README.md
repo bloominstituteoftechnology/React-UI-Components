@@ -12,7 +12,6 @@
 
 ## Instructions
 
-
 - For the first project you'll work on the project found in `Project-I-Social-Card`.
 - For the second project you'll work on the project found in `Project-II-Calculator`.
 - Use the design files to build out your User Interfaces.
