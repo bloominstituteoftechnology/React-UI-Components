@@ -6,10 +6,13 @@ import ButtonContainer from './components/ButtonComponents/ButtonContainer';
 
 
 
+
 const App = () => {
   return (
-   <div>
-        <ButtonContainer/>
+   <div className="appContainer">
+      
+        <CalculatorDisplay />
+        <ButtonContainer />
       
    </div>  
      

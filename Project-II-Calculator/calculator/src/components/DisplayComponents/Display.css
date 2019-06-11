@@ -1,0 +1,13 @@
+.calcDigit{
+    background: black;
+    color:white;
+    height: 130px;
+    font-size:30px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.moveZero{
+    font-size: 60px;
+    margin-right: 10px;
+}

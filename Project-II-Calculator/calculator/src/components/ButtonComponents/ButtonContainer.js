@@ -1,53 +1,28 @@
 import React from 'react';
-import NumberButton from './NumberButton';
+import './Button.css';
 import ActionButton from './ActionButton';
+import NumberButton from './NumberButton';
 
-
-const ButtonContainer = () => {
+const ButtonContainer = (props) => {
+    
+    const numberValues=['clear',9,8,7,6,5,4,3,2,1,0];
+    const ActionNumbers=["%","X","-","+","="];
+    
+    
+    return(
+        <div className="Buttons">
+            <div className="Keys">
+                { numberValues.map(value=> <NumberButton text={value} />)
+                }
+            </div>
+            
+            <div className="KeysTwo">
+                 { ActionNumbers.map(value=> <ActionButton actionBtn={value} />)
+                }
+            </div>
         
-    const symbol=['7','8','9','x'];
-    const roww=['4','5','6','-'];
-    const secondLast=['1','2','3','+'];
-    
-    
-  return (
-      <div className="mainContainer">
-      
-      <div className="zeroDisplay">
-      
-            <NumberButton numberTest="0"/>
-      
-      </div>
-      
-      <div className="firstRow">
-            <NumberButton numberTest="clear"/>
-            <NumberButton numberTest="%"/>
-      </div>
-      
-      <div className="secondRow">
-      
-        {symbol.map(logo=>{
-               return <ActionButton symbol={logo}/>     
-        }) 
-        }
-
+        
         </div>
-      
-       <div className="thirdRow">
-            {secondLast.map(values=>{
-             return <NumberButton numberTest={values}/>
-            })
-           
-       }
-        </div>
-
-        <div className="fourthRow">
-            <NumberButton numberTest="0"/>
-                <NumberButton numberTest="="/>
-
-        </div>
-      </div>
-  )
+    )
 }
-
 export default ButtonContainer;

@@ -1,11 +1,28 @@
-.mainContainer{
-    
+.Buttons{
+    display: flex;
 }
-
-.keyNum{
-    
+.NumberButton {
+    height:130px;
+    width: 133.34px;
+    font-size: 40px;
 }
-
-.keySymbol{
-    
+.NumberButton:first-child{
+    width: 100%;
+}
+.NumberButton:last-child{
+    width: 100%;
+}
+.Keys{
+    width: 80%;
+}
+.KeysTwo{
+    display: flex;
+    flex-direction: column;
+}
+.ActionBtnCss{
+    height: 130px;
+    width: 100px;
+    background: #e63e3e;
+    color: white;
+    font-size: 30px;
 }
