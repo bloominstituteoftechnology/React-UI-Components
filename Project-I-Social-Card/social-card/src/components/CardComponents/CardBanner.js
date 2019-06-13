@@ -3,7 +3,7 @@ import './Card.css';
 
 const CardBanner = () => {
     return (
-        <div></div>
+        <div className='reactImg'></div>
     );
 };
 
