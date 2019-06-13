@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5bedf3f0-5780-4e41-a648-a46cd2820f27" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Project-I-Social-Card/social-card/src/components/CardComponents/CardContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/Project-I-Social-Card/social-card/src/components/CardComponents/CardContainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project-I-Social-Card/social-card/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/Project-I-Social-Card/social-card/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project-I-Social-Card/social-card/src/components/FooterComponents/Footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/Project-I-Social-Card/social-card/src/components/FooterComponents/Footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project-I-Social-Card/social-card/src/components/FooterComponents/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/Project-I-Social-Card/social-card/src/components/FooterComponents/Footer.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,7 +21,7 @@
         <splitter split-orientation="horizontal" split-proportion="0.43675417">
           <split-first>
             <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-              <file pinned="false" current-in-tab="true">
+              <file pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/README.md">
                   <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
                     <state split_layout="SECOND">
@@ -31,11 +33,11 @@
                   </provider>
                 </entry>
               </file>
-              <file pinned="false" current-in-tab="false">
+              <file pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/Project-I-Social-Card/social-card/src/App.js">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="196">
-                      <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+                    <state relative-caret-position="249">
+                      <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
                       <folding>
                         <element signature="e#0#26#0" expanded="true" />
                       </folding>
@@ -48,6 +50,15 @@
                   <provider selected="true" editor-type-id="text-editor">
                     <state relative-caret-position="115">
                       <caret line="5" selection-start-line="5" selection-end-line="5" />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/Project-I-Social-Card/social-card/src/components/CardComponents/Card.css">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="548">
+                      <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
                     </state>
                   </provider>
                 </entry>
@@ -66,67 +77,27 @@
         </splitter>
       </split-first>
       <split-second>
-        <splitter split-orientation="vertical" split-proportion="0.9">
+        <splitter split-orientation="vertical" split-proportion="0.3172691">
           <split-first>
-            <splitter split-orientation="vertical" split-proportion="0.35512367">
-              <split-first>
-                <leaf>
-                  <file pinned="false" current-in-tab="true">
-                    <entry file="file://$PROJECT_DIR$/Project-I-Social-Card/social-card/src/components/CardComponents/Card.css">
-                      <provider selected="true" editor-type-id="text-editor">
-                        <state relative-caret-position="38">
-                          <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
-                        </state>
-                      </provider>
-                    </entry>
-                  </file>
-                </leaf>
-              </split-first>
-              <split-second>
-                <splitter split-orientation="vertical" split-proportion="0.86520374">
-                  <split-first>
-                    <leaf>
-                      <file pinned="false" current-in-tab="true">
-                        <entry file="file://$PROJECT_DIR$/Project-I-Social-Card/social-card/src/components/CardComponents/CardContainer.js">
-                          <provider selected="true" editor-type-id="text-editor">
-                            <state relative-caret-position="117">
-                              <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
-                              <folding>
-                                <element signature="e#0#26#0" expanded="true" />
-                              </folding>
-                            </state>
-                          </provider>
-                        </entry>
-                      </file>
-                    </leaf>
-                  </split-first>
-                  <split-second>
-                    <leaf>
-                      <file pinned="false" current-in-tab="true">
-                        <entry file="file://$PROJECT_DIR$/Project-I-Social-Card/social-card/src/components/CardComponents/CardBanner.js">
-                          <provider selected="true" editor-type-id="text-editor">
-                            <state relative-caret-position="1">
-                              <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
-                              <folding>
-                                <element signature="e#0#26#0" expanded="true" />
-                              </folding>
-                            </state>
-                          </provider>
-                        </entry>
-                      </file>
-                    </leaf>
-                  </split-second>
-                </splitter>
-              </split-second>
-            </splitter>
+            <leaf>
+              <file pinned="false" current-in-tab="true">
+                <entry file="file://$PROJECT_DIR$/Project-I-Social-Card/social-card/src/components/FooterComponents/Footer.css">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="46">
+                      <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+            </leaf>
           </split-first>
           <split-second>
             <leaf>
               <file pinned="false" current-in-tab="true">
-                <entry file="file://$PROJECT_DIR$/Project-I-Social-Card/social-card/src/components/CardComponents/CardContent.js">
+                <entry file="file://$PROJECT_DIR$/Project-I-Social-Card/social-card/src/components/FooterComponents/Footer.js">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="12">
-                      <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
+                    <state relative-caret-position="92">
+                      <caret line="4" column="12" lean-forward="true" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
                       <folding>
                         <element signature="e#0#26#0" expanded="true" />
                       </folding>
@@ -166,8 +137,6 @@
         <option value="$PROJECT_DIR$/Project-I-Social-Card/social-card/card-styles/sass/index.scss" />
         <option value="$PROJECT_DIR$/Project-I-Social-Card/social-card/index.css" />
         <option value="$PROJECT_DIR$/Project-I-Social-Card/social-card/src/index.js" />
-        <option value="$PROJECT_DIR$/Project-I-Social-Card/social-card/src/components/FooterComponents/Footer.css" />
-        <option value="$PROJECT_DIR$/Project-I-Social-Card/social-card/src/components/FooterComponents/Footer.js" />
         <option value="$PROJECT_DIR$/Project-II-Calculator/calculator/src/app.scss" />
         <option value="$PROJECT_DIR$/Project-II-Calculator/calculator/src/components/DisplayComponents/CalculatorDisplay.js" />
         <option value="$PROJECT_DIR$/Project-II-Calculator/calculator/src/components/DisplayComponents/Display.css" />
@@ -181,11 +150,13 @@
         <option value="$PROJECT_DIR$/Project-I-Social-Card/social-card/src/components/HeaderComponents/HeaderTitle.js" />
         <option value="$PROJECT_DIR$/Project-I-Social-Card/social-card/src/components/HeaderComponents/ImageThumbnail.js" />
         <option value="$PROJECT_DIR$/Project-I-Social-Card/social-card/src/components/HeaderComponents/Header.css" />
-        <option value="$PROJECT_DIR$/Project-I-Social-Card/social-card/src/App.js" />
         <option value="$PROJECT_DIR$/Project-I-Social-Card/social-card/src/components/CardComponents/CardBanner.js" />
         <option value="$PROJECT_DIR$/Project-I-Social-Card/social-card/src/components/CardComponents/CardContent.js" />
         <option value="$PROJECT_DIR$/Project-I-Social-Card/social-card/src/components/CardComponents/Card.css" />
         <option value="$PROJECT_DIR$/Project-I-Social-Card/social-card/src/components/CardComponents/CardContainer.js" />
+        <option value="$PROJECT_DIR$/Project-I-Social-Card/social-card/src/App.js" />
+        <option value="$PROJECT_DIR$/Project-I-Social-Card/social-card/src/components/FooterComponents/Footer.css" />
+        <option value="$PROJECT_DIR$/Project-I-Social-Card/social-card/src/components/FooterComponents/Footer.js" />
       </list>
     </option>
   </component>
@@ -245,7 +216,7 @@
               <item name="social-card" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="CardComponents" type="462c0819:PsiDirectoryNode" />
+              <item name="FooterComponents" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -314,12 +285,12 @@
       <workItem from="1559151474683" duration="13940000" />
       <workItem from="1559206018990" duration="4344000" />
       <workItem from="1559346337357" duration="28573000" />
-      <workItem from="1560297610009" duration="11277000" />
+      <workItem from="1560297610009" duration="11773000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58134000" />
+    <option name="totallyTimeSpent" value="58630000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="768" extended-state="6" />
@@ -414,23 +385,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Project-I-Social-Card/social-card/yarn.lock">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Project-I-Social-Card/social-card/src/components/FooterComponents/Footer.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Project-I-Social-Card/social-card/src/components/FooterComponents/Footer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Project-II-Calculator/design-files/Project-2.png">
       <provider selected="true" editor-type-id="images" />
@@ -582,16 +536,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Project-I-Social-Card/social-card/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Project-I-Social-Card/social-card/src/components/HeaderComponents/Header.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
@@ -601,7 +545,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Project-I-Social-Card/social-card/src/components/CardComponents/CardBanner.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1">
+        <state relative-caret-position="115">
           <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
@@ -609,10 +553,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Project-I-Social-Card/social-card/src/components/CardComponents/CardContent.js">
+    <entry file="file://$PROJECT_DIR$/Project-I-Social-Card/social-card/src/components/CardComponents/CardContainer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12">
-          <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
+        <state relative-caret-position="150">
+          <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -621,7 +565,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Project-I-Social-Card/social-card/src/components/CardComponents/Card.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
+        <state relative-caret-position="548">
           <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
         </state>
       </provider>
@@ -636,10 +580,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Project-I-Social-Card/social-card/src/components/CardComponents/CardContainer.js">
+    <entry file="file://$PROJECT_DIR$/Project-I-Social-Card/social-card/src/components/CardComponents/CardContent.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+        <state relative-caret-position="345">
+          <caret line="15" column="2" lean-forward="true" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Project-I-Social-Card/social-card/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Project-I-Social-Card/social-card/src/components/FooterComponents/Footer.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Project-I-Social-Card/social-card/src/components/FooterComponents/Footer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="12" lean-forward="true" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
