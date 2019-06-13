@@ -1,13 +1,13 @@
 /* All styles for your header Components live here */
 
 /* Header Container */
-* {
-    border: 1px solid red;
-}
 .headCont {
     width: 55%;
     display: flex;
     margin-left: 23%;
+    border-left: 2px solid black;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
 }
 
 /* Lambda Logo */

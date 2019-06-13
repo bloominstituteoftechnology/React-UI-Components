@@ -1,12 +1,11 @@
 /* All styles for your Card Components live here */
-* {
-    border: 1px solid purple;
-}
 
 /* Card Container */
 .cardCont {
     width: 55%;
     margin-left: 23%;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
 }
 
 /* Banner Image in Background */
