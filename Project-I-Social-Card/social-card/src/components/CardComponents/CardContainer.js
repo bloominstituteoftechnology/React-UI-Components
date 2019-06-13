@@ -4,8 +4,12 @@ import CardBanner from "./CardBanner";
 import CardContent from "./CardContent";
 
 const CardContainer = () => {
+    function redirectToReact() {
+        window.location.href = "https://www.reactjs.org";
+    }
+    
     return (
-        <div className='cardCont'>
+        <div className='cardCont' onClick={redirectToReact}>
             <div className='subCardCont'>
                 <CardBanner/>
                 <CardContent/>
