@@ -1,1 +1,4 @@
 /* All styles for your Card Components live here */
+* {
+    border: 1px solid purple;
+}

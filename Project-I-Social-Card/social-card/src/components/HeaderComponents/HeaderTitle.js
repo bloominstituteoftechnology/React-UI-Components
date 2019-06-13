@@ -2,10 +2,15 @@ import React from 'react';
 import './Header.css';
 
 const HeaderTitle = () => {
-    let fecha = new Date();
+    // Javascript that gets the date for the title
+    let fecha = new Date();    // fecha is spanish for "date".
     let month = fecha.getMonth();
     let day = fecha.getDate();
+
+    // Array of Months
     let monthArr = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+
+    // If statements that transform month number into month word
     if (month === 0) {
         month = monthArr[0]
     } else if (month === 1) {
@@ -30,13 +35,11 @@ const HeaderTitle = () => {
         month = monthArr[10]
     } else if (month === 11) {
         month = monthArr[11]
-    } else if (month === 12) {
-        month = monthArr[12]
     }
 
     return (
-        <div>
-            <h2>Lambda School</h2>
+        <div className='headTitle'>
+            <h2 className='lambdaName'>Lambda School</h2>
             <p className='thinFont'>@LambdaSchool &#xb7; {`${day} ${month}`}</p>
         </div>
     );

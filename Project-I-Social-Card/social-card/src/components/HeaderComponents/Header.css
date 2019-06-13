@@ -1,1 +1,30 @@
 /* All styles for your header Components live here */
+
+/* Header Container */
+.headCont {
+    width: 55%;
+    display: flex;
+    margin-left: 23%;
+}
+
+/* Lambda Logo */
+.lambdaLogo {
+    margin-right: 10px;
+}
+
+/* Title in Header */
+.headTitle {
+    display: flex;
+    align-items: baseline;
+}
+
+/* Lambda Name */
+.lambdaName {
+    margin-right: 10px;
+}
+
+/* Light & Gray Font in Title */
+.thinFont {
+    font-weight: lighter;
+    color: darkgray;
+}
