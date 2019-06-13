@@ -1,6 +1,9 @@
 /* All styles for your header Components live here */
 
 /* Header Container */
+* {
+    border: 1px solid red;
+}
 .headCont {
     width: 55%;
     display: flex;
