@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5bedf3f0-5780-4e41-a648-a46cd2820f27" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Project-I-Social-Card/social-card/src/components/HeaderComponents/HeaderContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/Project-I-Social-Card/social-card/src/components/HeaderComponents/HeaderContainer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project-I-Social-Card/social-card/src/components/HeaderComponents/HeaderContent.js" beforeDir="false" afterPath="$PROJECT_DIR$/Project-I-Social-Card/social-card/src/components/HeaderComponents/HeaderContent.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Project-I-Social-Card/social-card/src/components/HeaderComponents/HeaderTitle.js" beforeDir="false" afterPath="$PROJECT_DIR$/Project-I-Social-Card/social-card/src/components/HeaderComponents/HeaderTitle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project-I-Social-Card/social-card/src/components/HeaderComponents/ImageThumbnail.js" beforeDir="false" afterPath="$PROJECT_DIR$/Project-I-Social-Card/social-card/src/components/HeaderComponents/ImageThumbnail.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -121,8 +118,8 @@
                   <file pinned="false" current-in-tab="true">
                     <entry file="file://$PROJECT_DIR$/Project-I-Social-Card/social-card/src/components/HeaderComponents/HeaderTitle.js">
                       <provider selected="true" editor-type-id="text-editor">
-                        <state relative-caret-position="80">
-                          <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+                        <state relative-caret-position="73">
+                          <caret line="39" column="59" selection-start-line="39" selection-start-column="59" selection-end-line="39" selection-end-column="59" />
                           <folding>
                             <element signature="e#0#26#0" expanded="true" />
                           </folding>
@@ -139,7 +136,7 @@
               <file pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/Project-I-Social-Card/social-card/src/components/HeaderComponents/HeaderContent.js">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="58">
+                    <state relative-caret-position="17">
                       <caret line="7" column="185" selection-start-line="7" selection-start-column="185" selection-end-line="7" selection-end-column="185" />
                       <folding>
                         <element signature="e#0#26#0" expanded="true" />
@@ -328,12 +325,12 @@
       <workItem from="1559151474683" duration="13940000" />
       <workItem from="1559206018990" duration="4344000" />
       <workItem from="1559346337357" duration="28573000" />
-      <workItem from="1560297610009" duration="4483000" />
+      <workItem from="1560297610009" duration="4892000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51340000" />
+    <option name="totallyTimeSpent" value="51749000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="768" extended-state="6" />
@@ -622,7 +619,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Project-I-Social-Card/social-card/src/components/HeaderComponents/HeaderContent.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
+        <state relative-caret-position="17">
           <caret line="7" column="185" selection-start-line="7" selection-start-column="185" selection-end-line="7" selection-end-column="185" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
@@ -652,8 +649,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Project-I-Social-Card/social-card/src/components/HeaderComponents/HeaderTitle.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+        <state relative-caret-position="73">
+          <caret line="39" column="59" selection-start-line="39" selection-start-column="59" selection-end-line="39" selection-end-column="59" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>

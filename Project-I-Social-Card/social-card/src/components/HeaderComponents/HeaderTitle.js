@@ -4,6 +4,7 @@ import './Header.css';
 const HeaderTitle = () => {
     let fecha = new Date();
     let month = fecha.getMonth();
+    let day = fecha.getDate();
     let monthArr = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
     if (month === 0) {
         month = monthArr[0]
@@ -36,7 +37,7 @@ const HeaderTitle = () => {
     return (
         <div>
             <h2>Lambda School</h2>
-            <p className='thinFont'>@LambdaSchool {month}</p>
+            <p className='thinFont'>@LambdaSchool &#xb7; {`${day} ${month}`}</p>
         </div>
     );
 };
