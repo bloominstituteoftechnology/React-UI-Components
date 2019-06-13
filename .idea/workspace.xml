@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5bedf3f0-5780-4e41-a648-a46cd2820f27" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Project-I-Social-Card/social-card/src/components/CardComponents/Card.css" beforeDir="false" afterPath="$PROJECT_DIR$/Project-I-Social-Card/social-card/src/components/CardComponents/Card.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project-I-Social-Card/social-card/src/components/CardComponents/CardContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/Project-I-Social-Card/social-card/src/components/CardComponents/CardContainer.js" afterDir="false" />
-    </list>
+    <list default="true" id="5bedf3f0-5780-4e41-a648-a46cd2820f27" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -75,8 +72,8 @@
                   <file pinned="false" current-in-tab="true">
                     <entry file="file://$PROJECT_DIR$/Project-I-Social-Card/social-card/src/components/CardComponents/Card.css">
                       <provider selected="true" editor-type-id="text-editor">
-                        <state relative-caret-position="116">
-                          <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+                        <state relative-caret-position="65">
+                          <caret line="22" column="15" lean-forward="true" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
                         </state>
                       </provider>
                     </entry>
@@ -315,12 +312,12 @@
       <workItem from="1559151474683" duration="13940000" />
       <workItem from="1559206018990" duration="4344000" />
       <workItem from="1559346337357" duration="28573000" />
-      <workItem from="1560297610009" duration="10500000" />
+      <workItem from="1560297610009" duration="10772000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57357000" />
+    <option name="totallyTimeSpent" value="57629000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="768" extended-state="6" />
@@ -642,8 +639,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Project-I-Social-Card/social-card/src/components/CardComponents/Card.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+        <state relative-caret-position="65">
+          <caret line="22" column="15" lean-forward="true" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
         </state>
       </provider>
     </entry>
