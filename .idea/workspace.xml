@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5bedf3f0-5780-4e41-a648-a46cd2820f27" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/React-UI-Components.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project-II-Calculator/calculator/src/.sass-cache/5b125152d83bdb27969b710c28ab87da834f7de2/App.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/Project-II-Calculator/calculator/src/.sass-cache/5b125152d83bdb27969b710c28ab87da834f7de2/App.scssc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Project-II-Calculator/calculator/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/Project-II-Calculator/calculator/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project-II-Calculator/calculator/src/components/ButtonComponents/NumberButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/Project-II-Calculator/calculator/src/components/ButtonComponents/NumberButton.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project-II-Calculator/calculator/src/App.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/Project-II-Calculator/calculator/src/App.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project-II-Calculator/calculator/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/Project-II-Calculator/calculator/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project-II-Calculator/calculator/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Project-II-Calculator/calculator/src/App.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project-II-Calculator/calculator/src/components/ButtonComponents/ActionButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/Project-II-Calculator/calculator/src/components/ButtonComponents/ActionButton.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project-II-Calculator/calculator/src/components/DisplayComponents/CalculatorDisplay.js" beforeDir="false" afterPath="$PROJECT_DIR$/Project-II-Calculator/calculator/src/components/DisplayComponents/CalculatorDisplay.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,47 +20,62 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.533829">
+    <splitter split-orientation="horizontal" split-proportion="0.72193307">
       <split-first>
-        <splitter split-orientation="horizontal" split-proportion="0.57679915">
+        <splitter split-orientation="horizontal" split-proportion="0.6452514">
           <split-first>
-            <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-              <file pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/Project-II-Calculator/calculator/src/App.js">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="207">
-                      <caret line="10" column="35" lean-forward="true" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file pinned="false" current-in-tab="true">
-                <entry file="file://$PROJECT_DIR$/README.md">
-                  <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-                    <state split_layout="SECOND">
-                      <first_editor relative-caret-position="184">
-                        <caret line="8" selection-start-line="8" selection-end-line="8" />
-                      </first_editor>
-                      <second_editor />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/Project-II-Calculator/calculator/src/App.scss">
-                  <provider selected="true" editor-type-id="text-editor" />
-                </entry>
-              </file>
-              <file pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/Project-II-Calculator/calculator/src/App.css">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="23">
-                      <caret line="1" selection-start-line="1" selection-end-line="1" />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-            </leaf>
+            <splitter split-orientation="vertical" split-proportion="0.5">
+              <split-first>
+                <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+                  <file pinned="false" current-in-tab="true">
+                    <entry file="file://$PROJECT_DIR$/Project-II-Calculator/calculator/src/App.js">
+                      <provider selected="true" editor-type-id="text-editor">
+                        <state relative-caret-position="218">
+                          <caret line="15" column="49" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
+                          <folding>
+                            <element signature="e#0#26#0" expanded="true" />
+                          </folding>
+                        </state>
+                      </provider>
+                    </entry>
+                  </file>
+                  <file pinned="false" current-in-tab="false">
+                    <entry file="file://$PROJECT_DIR$/README.md">
+                      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+                        <state split_layout="SECOND">
+                          <first_editor relative-caret-position="184">
+                            <caret line="8" selection-start-line="8" selection-end-line="8" />
+                          </first_editor>
+                          <second_editor />
+                        </state>
+                      </provider>
+                    </entry>
+                  </file>
+                </leaf>
+              </split-first>
+              <split-second>
+                <leaf>
+                  <file pinned="false" current-in-tab="false">
+                    <entry file="file://$PROJECT_DIR$/Project-II-Calculator/calculator/src/App.scss">
+                      <provider selected="true" editor-type-id="text-editor">
+                        <state relative-caret-position="115">
+                          <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+                        </state>
+                      </provider>
+                    </entry>
+                  </file>
+                  <file pinned="false" current-in-tab="true">
+                    <entry file="file://$PROJECT_DIR$/Project-II-Calculator/calculator/src/App.css">
+                      <provider selected="true" editor-type-id="text-editor">
+                        <state relative-caret-position="151">
+                          <caret line="8" selection-start-line="8" selection-end-line="8" />
+                        </state>
+                      </provider>
+                    </entry>
+                  </file>
+                </leaf>
+              </split-second>
+            </splitter>
           </split-first>
           <split-second>
             <leaf>
@@ -75,14 +89,14 @@
         </splitter>
       </split-first>
       <split-second>
-        <splitter split-orientation="vertical" split-proportion="0.21151271">
+        <splitter split-orientation="vertical" split-proportion="0.44712183">
           <split-first>
             <leaf>
               <file pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/Project-II-Calculator/calculator/src/components/DisplayComponents/CalculatorDisplay.js">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="46">
-                      <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+                    <state relative-caret-position="138">
+                      <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
                       <folding>
                         <element signature="e#0#26#0" expanded="true" />
                       </folding>
@@ -93,14 +107,14 @@
             </leaf>
           </split-first>
           <split-second>
-            <splitter split-orientation="vertical" split-proportion="0.7181664">
+            <splitter split-orientation="vertical" split-proportion="0.51331717">
               <split-first>
                 <leaf>
                   <file pinned="false" current-in-tab="true">
                     <entry file="file://$PROJECT_DIR$/Project-II-Calculator/calculator/src/components/ButtonComponents/NumberButton.js">
                       <provider selected="true" editor-type-id="text-editor">
-                        <state relative-caret-position="92">
-                          <caret line="4" column="47" lean-forward="true" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
+                        <state relative-caret-position="97">
+                          <caret line="6" column="27" lean-forward="true" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
                           <folding>
                             <element signature="e#0#26#0" expanded="true" />
                           </folding>
@@ -115,8 +129,8 @@
                   <file pinned="false" current-in-tab="true">
                     <entry file="file://$PROJECT_DIR$/Project-II-Calculator/calculator/src/components/ButtonComponents/ActionButton.js">
                       <provider selected="true" editor-type-id="text-editor">
-                        <state>
-                          <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
+                        <state relative-caret-position="50">
+                          <caret line="4" column="48" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
                           <folding>
                             <element signature="e#0#26#0" expanded="true" />
                           </folding>
@@ -159,10 +173,7 @@
         <option value="$PROJECT_DIR$/Project-I-Social-Card/social-card/index.css" />
         <option value="$PROJECT_DIR$/Project-I-Social-Card/social-card/src/index.js" />
         <option value="$PROJECT_DIR$/Project-II-Calculator/calculator/src/app.scss" />
-        <option value="$PROJECT_DIR$/Project-II-Calculator/calculator/src/components/DisplayComponents/CalculatorDisplay.js" />
         <option value="$PROJECT_DIR$/Project-II-Calculator/calculator/src/components/DisplayComponents/Display.css" />
-        <option value="$PROJECT_DIR$/Project-II-Calculator/calculator/src/components/ButtonComponents/ActionButton.js" />
-        <option value="$PROJECT_DIR$/Project-II-Calculator/calculator/src/App.js" />
         <option value="$PROJECT_DIR$/Project-II-Calculator/calculator/src/components/ButtonComponents/Button.css" />
         <option value="$PROJECT_DIR$/Project-I-Social-Card/social-card/src/components/HeaderComponents/HeaderContent.js" />
         <option value="$PROJECT_DIR$/Project-I-Social-Card/social-card/src/components/HeaderComponents/HeaderContainer.js" />
@@ -179,8 +190,11 @@
         <option value="$PROJECT_DIR$/Project-I-Social-Card/social-card/src/components/FooterComponents/Footer.css" />
         <option value="$PROJECT_DIR$/Project-II-Calculator/calculator/src/less/App.less" />
         <option value="$PROJECT_DIR$/Project-II-Calculator/calculator/src/App.css" />
-        <option value="$PROJECT_DIR$/Project-II-Calculator/calculator/src/App.scss" />
         <option value="$PROJECT_DIR$/Project-II-Calculator/calculator/src/components/ButtonComponents/NumberButton.js" />
+        <option value="$PROJECT_DIR$/Project-II-Calculator/calculator/src/components/DisplayComponents/CalculatorDisplay.js" />
+        <option value="$PROJECT_DIR$/Project-II-Calculator/calculator/src/components/ButtonComponents/ActionButton.js" />
+        <option value="$PROJECT_DIR$/Project-II-Calculator/calculator/src/App.scss" />
+        <option value="$PROJECT_DIR$/Project-II-Calculator/calculator/src/App.js" />
       </list>
     </option>
   </component>
@@ -317,12 +331,12 @@
       <workItem from="1559206018990" duration="4344000" />
       <workItem from="1559346337357" duration="28573000" />
       <workItem from="1560297610009" duration="16816000" />
-      <workItem from="1560561008854" duration="4202000" />
+      <workItem from="1560561008854" duration="6121000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67875000" />
+    <option name="totallyTimeSpent" value="69794000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="768" extended-state="0" />
@@ -634,46 +648,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Project-II-Calculator/calculator/src/App.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Project-II-Calculator/calculator/src/App.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/calculator-component.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Project-II-Calculator/calculator/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="10" column="35" lean-forward="true" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Project-II-Calculator/calculator/src/components/ButtonComponents/ActionButton.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Project-II-Calculator/calculator/src/components/DisplayComponents/CalculatorDisplay.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SECOND">
@@ -686,8 +660,55 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Project-II-Calculator/calculator/src/components/ButtonComponents/NumberButton.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="47" lean-forward="true" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
+        <state relative-caret-position="97">
+          <caret line="6" column="27" lean-forward="true" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Project-II-Calculator/calculator/src/components/DisplayComponents/CalculatorDisplay.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Project-II-Calculator/calculator/src/components/ButtonComponents/ActionButton.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="4" column="48" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/calculator-component.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Project-II-Calculator/calculator/src/App.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Project-II-Calculator/calculator/src/App.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Project-II-Calculator/calculator/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="15" column="49" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>

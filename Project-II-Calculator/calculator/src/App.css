@@ -1,3 +1,10 @@
+* {
+  border: 1px solid purple; }
 
+/* Body of Calculator */
+.calcBody {
+  width: 456px;
+  margin-left: 33%;
+  margin-top: 20px; }
 
 /*# sourceMappingURL=App.css.map */
