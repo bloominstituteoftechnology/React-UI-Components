@@ -1,17 +1,8 @@
-/* Variables */
-$black: #17191A;
-$red: #AC2C30;
-
-/* Mixins */
-@mixin button-size {
-  width: 113px;
-  height: 100px;
-  font-size: 20px;
-  font-weight: bold;
-}
+@import "variables";
+@import "mixins";
 
 * {
-  border: 1px solid purple;
+  border: 1px solid black;
 }
 /* Body of Calculator */
 .calcBody {
