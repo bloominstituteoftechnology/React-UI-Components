@@ -1,3 +1,7 @@
+/* Variables */
+$black: #17191A;
+$red: #AC2C30;
+
 * {
   border: 1px solid purple;
 }
@@ -6,4 +10,17 @@
   width: 456px;
   margin-left: 33%;
   margin-top: 20px;
+  .display {
+    background-color: $black;
+  }
+  .whiteButton {
+    width: 113px;
+    height: 100px;
+  }
+  .redButton {
+    width: 113px;
+    height: 100px;
+    background-color: $red;
+    color: white;
+  }
 }
