@@ -7,7 +7,7 @@ import ActionButton from "./components/ButtonComponents/ActionButton";
 const App = () => {
   return (
     <div className='calcBody'>
-        <CalculatorDisplay className='display'/>
+        <CalculatorDisplay displayStyle='display' />
         <div>
             <ActionButton buttonStyle='clearButton' text='clear'/>
             <NumberButton buttonStyle='redButton' text='/'/>

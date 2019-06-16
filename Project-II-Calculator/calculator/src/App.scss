@@ -2,6 +2,14 @@
 $black: #17191A;
 $red: #AC2C30;
 
+/* Mixins */
+@mixin button-size {
+  width: 113px;
+  height: 100px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
 * {
   border: 1px solid purple;
 }
@@ -12,15 +20,22 @@ $red: #AC2C30;
   margin-top: 20px;
   .display {
     background-color: $black;
+    height: 117px;
+    color: white;
+    text-align: end;
   }
   .whiteButton {
-    width: 113px;
-    height: 100px;
+    @include button-size;
   }
   .redButton {
-    width: 113px;
-    height: 100px;
+    @include button-size;
     background-color: $red;
     color: white;
+  }
+  .clearButton, .zeroButton {
+    width: 339px;
+    height: 100px;
+    font-size: 20px;
+    font-weight: bold;
   }
 }
