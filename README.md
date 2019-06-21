@@ -1,3 +1,12 @@
+https://codepen.io/jggarza5/pen/gzmmBj
+
+https://codepen.io/jggarza5/pen/XqMzrE
+
+React is formidable for creating components and reusing them to quickly build your app and roll it out. Thats what I took from it from creating the calculator front end and I am sure we will add event listeners later as well. 
+so it was done very quickly took 15 mins instead of hours doing it manually.
+
+
+
 # React-UI-Components
 
 - This repository is designed to be your first exposure into the world of ReactJS. There are 2 projects to complete in this repository. Project 1 is all about implementing a Social Card in ReactJS. On Project 2 you'll be implementing a Calculator. We've given you the file structure and have gone ahead and added all the files you'll need to be set up for success for each project.
