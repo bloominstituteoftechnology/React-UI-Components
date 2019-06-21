@@ -1,0 +1,69 @@
+@import 'reset.css';
+
+#target {
+  height: 100%;
+}
+
+.app {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.post {
+  top: auto;
+  left: auto;
+  display: grid;
+  grid-template: "avatar username" auto
+                 "avatar content" 1fr
+                 / 1fr 7fr;
+  grid-column-gap: 10px;
+  width: 500px;
+  padding: 15px 20px;
+  border: 1px solid grey;
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, .4);
+}
+
+.post__avatar {
+  grid-area: avatar;
+}
+
+.post__avatar img {
+  width: 100%;
+}
+
+.post__username {
+  grid-area: username;
+}
+
+.post__username h1 span {
+  font-weight: normal;
+  color: grey;
+}
+
+.post__content {
+  grid-area: content;
+}
+
+.post__content p {
+  margin-bottom: 15px;
+}
+
+.post__link-content {
+  padding: 15px;
+  margin: -3px 0 0;
+  border-color: grey;
+  border-style: solid;
+  border-width: 0 1px 1px 1px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+.post__link img {
+  width: 100%;
+}
+
+.post__link-content span {
+  color: grey;
+}

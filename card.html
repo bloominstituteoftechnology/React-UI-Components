@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="card.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <div id="target"></div>
+  <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+  <script crossorigin src="https://unpkg.com/babel-standalone@6.26.0/babel.js"></script>
+
+  <script type="text/babel">
+    const Post = (props) => {
+      return (
+        <div class="post">
+          <Avatar {...props.avatar} />
+          <UserName {...props.username} />
+          <Content {...props.content} />
+        </div>
+      );
+    };
+
+    const Avatar = (props) => {
+      console.log('avatar');
+      console.log(props);
+      return (
+        <div className="post__avatar">
+          <img src={props.image} />
+        </div>
+      );
+    };
+
+    const UserName = (props) => {
+      return (
+        <div className="post__username">
+          <h1>{props.name} <span>@{props.handle} - {props.date}</span></h1>
+        </div>
+      );
+    };
+
+    const Content = (props) => {
+      return (
+        <div className="post__content">
+          <p>{props.text}</p>
+          <Link {...props.link} />
+        </div>
+      );
+    };
+
+    const Link = (props) => {
+      return (
+        <div className="post__link">
+          <img src={props.image} />
+          <div className="post__link-content">
+            <h1>{props.title}</h1>
+            <p>{props.text}</p>
+            <span>{props.domain}</span>
+          </div>
+        </div>
+      );
+    };
+
+    const App = () => { 
+      let props = {
+        avatar: {
+          image: "https://ibin.co/3whrpKSBbZ81.png"
+        },
+        username: {
+          name: "Jared Cuffe",
+          handle: "jcuffe",
+          date: "26 Jan"
+        },
+        content: {
+          text: "Let's learn Reach by building simple interfaces with components. Don't try to overthink it, just keep it simple and have fun. Once you feel comfortable using components you are well on your way to mastering React!",
+          link: {
+            image: "https://ibin.co/3wnC6SgIOJud.png",
+            title: "Get started with React",
+            text: "React makes it painless to create interactive UIs. Design simple views for each state in your application",
+            domain: "reactjs.org"
+          }
+        }
+      }; 
+
+      return (
+        <div className="app">
+          <Post {...props} />
+        </div>
+      );
+    };
+    ReactDOM.render(<App />, document.getElementById('target'));
+  </script>
+</body>
+
+</html>
