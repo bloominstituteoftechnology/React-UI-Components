@@ -1,1 +1,14 @@
-/* All styles for your Card Components live here */
+.MainCardContainer {
+	display: flex;
+	justify-content: flex-end;
+	margin-right: 2%;
+	width: 100%;
+}
+.card-content {
+	width: 90%;
+}
+
+.bannerimg {
+	width: 100%;
+	border-radius: 1rem;
+}
