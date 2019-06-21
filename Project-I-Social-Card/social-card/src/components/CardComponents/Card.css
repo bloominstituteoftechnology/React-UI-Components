@@ -1,1 +1,18 @@
-/* All styles for your Card Components live here */
+.cardContainer {
+  margin-left: 5.8rem;
+  border: solid 2px rgba(0,0,0,.25);
+  border-radius: 10px;
+}
+
+.bannerImage {
+  border-top-right-radius: 7px;
+  border-top-left-radius: 7px;
+}
+
+.cardContent {
+  margin: 0 1.5rem;
+}
+
+.reactURL {
+  color: rgba(0,0,0,.5);
+}

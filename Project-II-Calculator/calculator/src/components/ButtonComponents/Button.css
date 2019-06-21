@@ -1,0 +1,69 @@
+.buttonContainer {
+  display: flex;
+  flex-flow: row wrap;
+  width: 375px;
+  margin: 0;
+}
+
+.actionButtons {
+  width: 100%;
+  height: 121px;
+  margin: 0;
+  border: solid 1px gray;  
+}
+
+.clear {
+  width: 100%;
+  height: 100%;
+  font-size: 40px;
+  background: white;
+  border: none;
+}
+.zero {
+  width: 100%;
+  height: 100%;
+  font-size: 50px;
+  background: white;
+  border: none;
+}
+
+.number {
+  width: 125px;
+  height: 123px;
+  font-size: 50px;
+  margin: 0;
+  background: white;
+  border: solid .5px gray;
+}
+
+.operatorContainer {
+  display: flex;
+  flex-flow: column;
+  margin: 0;
+}
+
+.operator {
+  width: 125px;
+  height: 123px;
+  font-size: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  background: darkred;
+  color: white;
+  border: solid .5px gray;
+}
+
+.calculatorDisplay {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 80px;
+  padding: 10px;
+  background: black;
+  color: white;
+  border: solid .5px gray;
+}
