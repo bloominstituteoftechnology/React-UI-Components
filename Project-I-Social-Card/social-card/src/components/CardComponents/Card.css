@@ -1,1 +1,14 @@
 /* All styles for your Card Components live here */
+header{
+    display: flex;
+    border: 1px solid black;
+}
+
+header div{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.headercontent p {
+    width: 100%;
+}

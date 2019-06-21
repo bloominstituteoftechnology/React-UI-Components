@@ -1,0 +1,43 @@
+.white {
+width: 100px;
+height: 100px;
+border: 1px solid black;
+font-size: 50px;
+}
+
+.red {
+ background-color: red;
+ width: 100px;
+height: 100px;
+border: 1px solid black;
+font-size: 50px;
+color: white;
+}
+
+.bigger {
+width: 300px;
+}
+
+.clear {
+    width: 300px;
+    height: 100px;
+    border: 1px solid black;
+    font-size: 50px;
+    font-weight: 200;
+}
+
+.zero {
+    width: 300px;
+    height: 100px;
+    border: 1px solid black;
+    font-size: 50px;
+}
+
+.display {
+    background-color: black;
+    text-align: right;
+    color: white;
+    width: 400px;
+    height: 120px;
+    font-size: 100px;
+}
