@@ -1,0 +1,22 @@
+#calculator {
+  max-width: 270px;
+}
+#calculator * {
+  border: 1px solid darkgreen;
+  cursor: pointer;
+}
+.SocialCard {
+  border: 1px solid aqua;
+}
+.SocialCard .Post {
+  border: 1px solid chartreuse;
+}
+.SocialCard .LinkedContent {
+  border: 1px solid coral;
+}
+.SocialCard .LinkedContent .card {
+  width: 18rem;
+}
+.SocialCard .SocialAndShare {
+  border: 1px solid darkgreen;
+}
