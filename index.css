@@ -1,0 +1,97 @@
+body {
+  background-color: black;
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  margin: 15px 0;
+}
+
+.overview {
+  display: flex;
+  border: 1.5px solid #E9ECFF;
+  padding: 13px;
+  padding-right: 13px;
+  border-radius: 7px;
+  background-color: #72EFFF;
+}
+
+.targets {
+  width: 30%;
+}
+
+.ProfileImage {
+  margin-right: 10px;
+  height: 50px;
+  padding: 5px;
+  padding-top: 0;
+}
+
+.MainContent {
+  width: 85%;
+  margin-right: 13px;
+}
+
+.TweetContent__text {
+  margin-top: 13px;
+}
+
+.TweetInfo {
+  display: flex;
+}
+
+.TweetInfo__sub {
+ margin-right: 10px;
+}
+
+.TweetInfo__sub--displayName {
+  font-weight: bold;
+}
+
+.TweetInfo__sub--gray {
+  color: gray; 
+}
+
+.TweetContent__link {
+  box-sizing: border-box;
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: #E9ECFF;
+}
+
+.Link {
+  margin: 0;
+}
+
+.Link__img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.Link__title {
+  padding: 5px;
+  margin: 3px 0;
+}
+
+.Link__summary {
+  padding-left: 5px;
+}
+
+.Link__link {
+  padding: 5px;
+  color: gray;
+}
+
+.icons {
+  width: 45%;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 10px;
+}
+
+.glyphicon:hover {
+  font-size: 25px;
+  padding: 0 20px;
+}

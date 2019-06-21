@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>React I</title>
+
+	<link rel="stylesheet" type="text/css" href="./index.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="./index.js" async></script>
+	
+</head>
+<body>
+
+  <div class="container">
+    <div class="targets target1"></div>
+    <div class="targets target2"></div>
+    <div class="targets target3"></div>
+  </div>
+
+  <!-- pulls React CDN (Content Delivery Network)  -->
+	<script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
+
+	<!-- pulls React-DOM from CDN  -->
+	<script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+
+	<!-- tansforms JSX to regular JavaScript via Babel compiler  -->
+	<script crossorigin src="https://unpkg.com/babel-standalone@6.26.0/babel.js"></script>
+
+	<!--  actual JavaScript / JSX code  -->
+	<script type="text/babel">
+
+		/***************************************************************/
+		// USER PROFILE IMAGE
+		const ProfileImage = () => {
+		  return (
+		  <img src="https://ibin.co/3whrpKSBbZ81.png" class="ProfileImage"/>
+		)};
+
+		/***************************************************************/
+		// TWEET INFO ... display name, user handle, date of tweet
+		const ProfileName = () => {
+		  return (
+		    <div className="TweetInfo__sub TweetInfo__sub--displayName">Lambda School</div>
+		)};
+
+		const UserHandle = () => {
+		  return (
+		    <div className="TweetInfo__sub TweetInfo__sub--gray">@LambdaSchool</div>
+		)};
+
+		const DatePosted = () => {
+		  return (
+		    <div className="TweetInfo__sub TweetInfo__sub--gray">26 Jan</div>
+		)};
+
+		const TweetInfo = () => {
+		  return (
+		    <div className="TweetInfo">
+		      <ProfileName/>
+		      <UserHandle/>
+		      <DatePosted/>
+		    </div>
+		)};
+
+		/***************************************************************/
+		// TWEET CONTENT -- TEXT
+		const TweetContent_Text = () => {
+		  return (
+		    <p className="TweetContent__text">Let's learn React by building simple interfaces with components. Don't try to overthink  it, just keep it simple and have fun. Once you feel comfortable using components you are well on your way to mastering React!</p>
+		)};
+
+		/***************************************************************/
+		// LINK CONTENT -- LINK
+		const LinkImage = () => {
+		  return (
+		    <div>
+		      <img src="https://ibin.co/3wnC6SgIOJud.png" className="Link Link__img"/>
+		    </div>
+		)};
+
+		const LinkTitle = () => {
+		  return (
+		    <h3 className="Link Link__title">Get Started with React</h3>
+		)};
+
+		const LinkSummary = () => {
+		  return (
+		    <p className="Link Link__summary">React makes it painless to create interavtive UIs. Design simple views for each state in your application.</p>
+		)};
+
+		const LinkLink = () => {
+		  return (
+		    <div className="Link Link__link">reactjs.org</div>
+		)};
+
+		/***************************************************************/
+		// ICONS
+		const Icons = () => {
+		  return (
+		    <div className="icons">
+		      <span class="glyphicon glyphicon-comment"></span>
+		      <span class="glyphicon glyphicon-refresh"></span>
+		      <span class="glyphicon glyphicon-heart-empty"></span>
+		      <span class="glyphicon glyphicon-envelope"></span>
+		    </div>
+		)};
+
+		/***************************************************************/
+
+		const TweetContent__Link = () => {
+		  return (
+		    <div className="TweetContent__link">
+		      <LinkImage/>
+		      <LinkTitle/>
+		      <LinkSummary/>
+		      <LinkLink/>
+		    </div>
+		)};
+
+		const MainContent = () => {
+		  return (
+		    <div className="MainContent">
+		      <TweetInfo/>
+		      <TweetContent_Text/>
+		      <TweetContent__Link/>
+		      <Icons/>
+		    </div>  
+		)};
+
+		const App = () => {
+		  return (
+		    <div className="overview">
+		      <ProfileImage/>
+		      <MainContent/>
+		    </div>
+		)};
+
+		const targetz = Array.from(document.getElementsByClassName('targets'));
+		targetz.map(target => {ReactDOM.render(<App/>, target)});
+
+	</script>
+
+</body>
+</html>
