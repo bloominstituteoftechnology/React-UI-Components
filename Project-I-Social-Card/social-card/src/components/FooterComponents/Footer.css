@@ -1,0 +1,23 @@
+/* Footer CSS */
+.footerCont {
+    width: 55%;
+    height: 50px;
+    margin-left: 23%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+/* Icons in Footer */
+.iconImg {
+    width: 35px;
+    height: 35px;
+}
+
+/* Div for two middle icons */
+.flexIcons {
+    display: flex;
+}

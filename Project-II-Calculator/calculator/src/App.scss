@@ -1,0 +1,32 @@
+@import "variables";
+@import "mixins";
+
+* {
+  border: 1px solid black;
+}
+/* Body of Calculator */
+.calcBody {
+  width: 456px;
+  margin-left: 33%;
+  margin-top: 20px;
+  .display {
+    background-color: $black;
+    height: 117px;
+    color: white;
+    text-align: end;
+  }
+  .whiteButton {
+    @include button-size;
+  }
+  .redButton {
+    @include button-size;
+    background-color: $red;
+    color: white;
+  }
+  .clearButton, .zeroButton {
+    width: 339px;
+    height: 100px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+}
