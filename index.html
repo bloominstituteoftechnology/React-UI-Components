@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<link rel="stylesheet" href="main.css" class="main">
+    <title>Welcome to React</title>
+</head>
+
+<body>
+    <div id="root"></div>
+</body>
+<script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+<script crossorigin src="https://unpkg.com/babel-standalone@6.26.0/babel.js"></script>
+
+
+<script type="text/babel">
+
+    const Logo = () => { 
+        return (
+            <div>
+                <img className="logo" src="https://ibin.co/3whrpKSBbZ81.png" />
+            </div>
+        ); 
+    }    
+    const TopHeader = () => { 
+        return (
+            <div>
+                <h1 className="headerEl">Lambda School<span class="small-text">   @LambdaSchool 26 Jan</span></h1>
+                <p>Let's learn React by building simple interfaces with components. Don't try to overthink it, just keep it simple and
+                have fun. Once you feel comfortable using components you are well on your way to mastering React.
+                </p>
+            </div>
+        ); 
+    } 
+
+    const MiddleImg = () => {
+        return (
+        <div>
+    <img src="https://ibin.co/3wnC6SgIOJud.png"/>
+            </div>
+        )
+    }
+
+     const App = () => { 
+         return (
+            <div className="App">
+                <div className="logo">
+                    <Logo />
+                </div>
+                <div className="top-header">
+                    <TopHeader />
+                </div>
+                <div className="middleImg">
+                <MiddleImg />
+                </div>
+            </div>
+        ); 
+    } 
+    ReactDOM.render(<App />, document.getElementById('root'));
+</script>
+
+</html>

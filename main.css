@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+.App {
+    display: flex;
+    padding: 5px;
+    width: 590px;
+}
+
+.small-text {
+    color: grey;
+    font-size: 13px;
+    margin-left: 26px;
+}
+
+.headerEl {
+    font-size: 20px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-right: 10px; 
+    height: 60px;
+}
+
+.top-header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    font-size: 15px;
+}
+
+.middleImg {
+    display: flex;
+    flex-direction: row;
+}
