@@ -1,0 +1,88 @@
+<html lang = 'en'>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA Compatible" content="ie=edge">
+        <title>calculator reacts!</title>
+        <link rel="stylesheet" type="text/css" href="card.css">
+    </head>
+    <body>
+        <div id ='target'></div> <!--wrapper div for entire application-->
+        <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script> <!--react 16 library-->
+        <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script> <!--react 16 dom-->
+        <script crossorigin src="https://unpkg.com/babel-standalone@6.26.0/babel.js"></script> <!--babel standalone script-->
+        <script type = "text/babel">
+
+const App = () => {
+  return (
+    <div>
+      <h1>React Social Card</h1>
+      <Container/>
+    </div>
+)};
+
+const Container = () => {
+  return (
+    <div class="container">
+      <LogoBody/>
+      <Body/>
+    </div>
+  );
+};
+
+const LogoBody = () => {
+  return (
+    <div class="logobody">
+      <img class="logo" src="https://ibin.co/3whrpKSBbZ81.png" alt="logo"/>
+    </div>
+  )
+}
+
+const Body = () => {
+  return (
+    <div class="body">
+      <Top/>
+      <Bottom/>
+      <Buttons/>
+    </div>
+  )
+}
+
+// const Test = (
+//   <div>TESTASDFASDF</div>
+// )
+
+const Top = () => {
+  return (
+    <div class="flex">
+      <div class="header">Lambda School</div>
+      <div class="grey">@LambdaSchool • May 2nd, 2018</div>
+      <div class="text">Let's learn React by building simple interfaces with components. Don't try to overthink it, just keep it simple and have fun. Once you feel comfortable using components you are well on your way to mastering React.</div>
+    </div>
+  )
+}
+
+const Bottom = () => {
+  return (
+    <div class="bottom">
+      <img class="image" src="https://ibin.co/3wnC6SgIOJud.png" alt="outdated electron model"/>
+      <div class="header">Get Started with React</div>
+      <div class="text">React makes it painless to create interactive UIs. Design simple views for each state in your application.</div>
+      <div class="grey website">reactjs.org</div>
+      
+    </div>
+  )
+}
+
+const Buttons = () => {
+  return (
+    <div>
+    </div>
+  )
+}
+      
+
+ReactDOM.render(<App />, document.getElementById('target'));
+    </script>
+    </body>
+</html>
