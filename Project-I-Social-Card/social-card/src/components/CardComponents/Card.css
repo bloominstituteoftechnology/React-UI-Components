@@ -1,1 +1,16 @@
 /* All styles for your Card Components live here */
+.banner {
+    width: 100%;
+    height: auto;
+}
+
+.cardContent {
+    width: 100%;
+    margin: 0 auto;
+    border: 1px solid rgba( 0, 0, 0, 0.3);
+    border-radius: 12px;
+}
+
+.lightText2 {
+    opacity: .5; 
+}

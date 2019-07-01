@@ -1,1 +1,19 @@
 /* All styles for your header Components live here */
+.imageBox {
+    width: 64px;
+    height: 64px;
+}
+
+.headerTitle {
+    display: flex;
+    align-items: center;
+}
+
+.title {
+    font-weight: 600;
+}
+
+.lightText {
+    opacity: .5; 
+    padding-left: 1rem;
+}
