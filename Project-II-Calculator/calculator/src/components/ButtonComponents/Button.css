@@ -36,3 +36,15 @@
     opacity: .7;
     cursor: pointer;
 }
+
+.nums {
+    display: flex;
+    flex-wrap: wrap;
+    width: 15rem;
+}
+
+.large {
+    border: 1px solid orange;
+    height: 5rem;
+    width: 15rem;
+}
