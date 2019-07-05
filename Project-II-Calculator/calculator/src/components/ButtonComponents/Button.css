@@ -1,0 +1,38 @@
+.btn {
+    background: white;
+    border: 1px solid #979797;
+    width: 5rem;
+    height: 5rem;
+    font-size: 4rem;
+    text-align: center;
+    line-height: 5rem;
+    transition: all .2s ease-in;
+}
+
+.sym {
+    background: #A0001E;
+    color: white;
+    border: 1px solid #979797;
+    width: 5rem;
+    height: 5rem;
+    font-size: 4rem;
+    text-align: center;
+    line-height: 5rem;
+    transition: all .2s ease-in;
+}
+
+.lgBtn {
+    background: white;
+    border: 1px solid #979797;
+    width: 15rem;
+    height: 5rem;
+    font-size: 4rem;
+    text-align: center;
+    line-height: 5rem;
+    transition: all .2s ease-in;
+}
+
+.lgBtn:hover, .sym:hover , .btn:hover {
+    opacity: .7;
+    cursor: pointer;
+}

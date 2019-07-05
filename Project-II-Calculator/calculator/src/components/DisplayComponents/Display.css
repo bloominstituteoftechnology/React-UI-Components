@@ -1,0 +1,11 @@
+.dis {
+    padding-right: 1.5rem;
+    background: #222222;
+    color: white;
+    border: 1px solid #979797;
+    width: 20rem;
+    height: 5rem;
+    font-size: 4rem;
+    text-align: right;
+    line-height: 5rem;
+}

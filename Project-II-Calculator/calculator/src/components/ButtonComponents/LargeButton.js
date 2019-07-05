@@ -1,16 +1,16 @@
 import React from 'react';
 import './Button.css';
 
-export class NumberButton extends React.Component {
+export class LargeButton extends React.Component {
     render() {
         const text = (this.props.text)
         
         return (
-                <div className="btn">
+                <div className="lgBtn">
                     {text}
                 </div>  
         );
     }
 }
 
-NumberButton.defaultProps = {text: 0}
+LargeButton.defaultProps = {text: 0}

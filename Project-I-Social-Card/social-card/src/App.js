@@ -9,19 +9,21 @@ import CardContainer from './components/CardComponents/CardContainer';
 
 const App = () => {
   return (
-    <div class="container">
+    <div className="container">
+    <a href="https://www.reactjs.org">
     <CardContainer />
-    <div class="header">
+    <div className="header">
         <ImageThumbnail />
-        <div class="center">        
+        <div className="center">        
             <HeaderTitle />
             <HeaderContent />
-            <div class="card">
+            <div className="card">
                 <CardBanner />
                 <CardContent />
             </div>
         </div>
     </div>
+    </a>
     </div>
   );
 };
