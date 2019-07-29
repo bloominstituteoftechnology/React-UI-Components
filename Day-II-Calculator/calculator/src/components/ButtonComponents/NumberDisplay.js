@@ -11,12 +11,13 @@ class NumberDisplay extends React.Component {
 
         // Initilizing the state
         this.state = {
-            input: ""
+            input: ''
         }
 
     }
     // Adds the current input(text) from what ever button was clicked
     addToInput = val => {
+    
         this.setState({ input: this.state.input + val })
     }
     // Added mathjs to do the calculations - this line takes what ever the input is and evaluates it.
@@ -25,7 +26,7 @@ class NumberDisplay extends React.Component {
     }
     // Clear the Display
     handleClear = () => {
-        this.setState({ input: "" })
+        this.setState({ input: '' })
     }
 
     render() {

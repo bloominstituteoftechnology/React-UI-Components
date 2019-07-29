@@ -4,22 +4,26 @@
     font-size: 35px;
     background-color: white;
     border: 1px solid lightgray;
+    outline: .05px solid white;
     cursor: pointer;
 }
 
 .action {
-    width: 74.9%;
-    height: 60.1px;
+    width: 75%;
+    height: 61px;
     font-size: 35px;
     letter-spacing: 8px;
     background-color: white;
     border: 1px solid lightgray;
+    outline: .05px solid white;
     cursor: pointer;
 }
 
 .math {
-    border-top: 2px solid darkred;
-    border-bottom: 1px solid gray;
+    border-top: 1px solid darkred;
+    border-right: 1px solid darkred;
+    border-left: 1px solid darkred;
+    border-bottom: 1px solid lightgray;
     width: 25%;
     height: 60.99px;
     font-size: 35px;
