@@ -8,7 +8,7 @@
 - Each project has it's own `package.json` file in it, we'll chat more about this later. So it's already set up for you to install some dependencies that are needed for you to be able to work within the React Ecosystem.
 - To start the `Social Card` project, you'll need to cd into `Project-1-Social-Card` and then into `social-card` and run `yarn install` to retrieve all the dependencies.
 - Inside of `../../social-card` you'll then need to run `yarn start` to open up a React Development Server that can take your `.js` files as components and bundle them up to work in your new environment.
-- **You'll repeat this last two steps for the calculator project, but you'll need to make sure that you're inside of `../../calculator` directory to make this work.**
+- **You'll repeat this last two steps for  the calculator project, but you'll need to make sure that you're inside of `../../calculator` directory to make this work.**
 
 ## Instructions
 
@@ -65,7 +65,7 @@
 
 ![Calculator](calculator-component.png)
 
-- **BEFORE YOU DO ANYTHING ELSE READ [This](https://reactjs.org/docs/thinking-in-react.html)**
+- **BEFORE YOU DO ANYTHING ELSE READ [This](https://reactjs.org/docs/thinking-~in-react.html)**
 - This is the time to stop and break down this image in terms of components. Each container on the screen should give you an idea of what your components should be. You're now about to begin your journey into learning how to think in React.
 
 #### Project 2 MVP requirements

@@ -1,1 +1,17 @@
 /* All styles for your Card Components live here */
+.banner {
+    width: 85%;
+    height: auto;
+    padding-left: 75px;
+}
+.click-button {
+    display: flex;
+}
+
+.card-content{
+    text-align: right;
+    font-size: 14px;
+    font-family: 'Helvetica Neue', sans-serif;
+    color: white;
+    font-weight: 850;
+}

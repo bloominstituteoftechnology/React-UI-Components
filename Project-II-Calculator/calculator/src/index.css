@@ -1,5 +1,6 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+.cal-container {
+  width: 600px;
+  border: 2px solid gray;
+  padding: 25px;
+  height: 500px;
 }
