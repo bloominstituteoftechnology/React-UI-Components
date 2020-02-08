@@ -1,52 +1,43 @@
-import React from 'react';
-import './App.css';
-import NumberButton from './components/ButtonComponents/NumberButton';
-import ActionButton from './components/ButtonComponents/ActionButton';
-import CaculatorDisplay from './components/DisplayComponents/CalculatorDisplay'
-import CalculatorDisplay from './components/DisplayComponents/CalculatorDisplay';
+import React, { useState } from "react";
+import "./App.css";
+import SmallButton from "./components/ButtonComponents/SmallButton";
+import BigButton from "./components/ButtonComponents/BigButton";
+import CalculatorDisplay from "./components/DisplayComponents/CalculatorDisplay";
 
 const App = () => {
+  // const [button, setButton] = useState(0);
+
   return (
     <div className="app">
-
-      <div className="display">
       <CalculatorDisplay />
+      <div className="buttons">
+        <div className="rowOne flex">
+          <BigButton class="clear" name="" />
+          <SmallButton />
+        </div>
+        <div className="rowTwo flex">
+          <SmallButton />
+          <SmallButton />
+          <SmallButton />
+          <SmallButton />
+        </div>
+        <div className="rowThree flex">
+          <SmallButton />
+          <SmallButton />
+          <SmallButton />
+          <SmallButton />
+        </div>
+        <div className="rowFour flex">
+          <SmallButton />
+          <SmallButton />
+          <SmallButton />
+          <SmallButton />
+        </div>
+        <div className="rowFive flex">
+          <BigButton />
+          <SmallButton />
+        </div>
       </div>
-
-      <div className="row">
-      <ActionButton />
-      <ActionButton />
-      </div>
-
-    <div className="row">
-      <NumberButton />
-      <NumberButton />
-      <NumberButton />
-      <ActionButton />
-    </div>
-
-    <div className="row">
-      <NumberButton />
-      <NumberButton />
-      <NumberButton />
-      <ActionButton />
-    </div>
-
-    <div className="row">
-    <NumberButton />
-    <NumberButton />
-    <NumberButton />
-    <ActionButton />
-    </div>
-
-    <div className="row">
-    <NumberButton />
-    <ActionButton />
-    </div>
-
-    <div>
-    </div>
-
     </div>
   );
 };

@@ -1,27 +1,12 @@
 .app {
-    width: 210px;
+  max-width: 500px;
+  max-height: 800px;
+  margin: auto;
+  border: 1px solid lightgrey;
+  display: flex;
+  flex-direction: column;
 }
 
-.display {
-    margin-left: 5px;
-    padding-left: 10px;
-    border: 1px black solid;
-}
-
-.row-one {
-    display: flex;
-    flex-direction: row;
-    margin:5px;
-}
-
-.row-two {
-    display: flex;
-    flex-direction: row;
-    margin: 5px;
-}
-
-.row-three {
-    display: flex;
-    flex-direction: row;
-    margin: 5px;
+.app .flex {
+  display: flex;
 }

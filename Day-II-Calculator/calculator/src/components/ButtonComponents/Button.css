@@ -1,3 +1,15 @@
 button {
-    border: 1px solid black;
+  border: 1px solid black;
+}
+
+.small-button {
+  border: 1px solid lightgrey;
+  width: 25px;
+  text-align: center;
+}
+
+.big-button {
+  border: 1px solid lightgrey;
+  width: 75px;
+  text-align: center;
 }
