@@ -1,4 +1,10 @@
 .calculator-display {
-    border: 2px solid black;
-    padding-left: 5px;
+  border: 2px solid black;
+  padding-left: 5px;
+  height: 90px;
+  font-size: 40px;
+  font-weight: 600;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }

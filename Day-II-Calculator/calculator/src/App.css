@@ -1,6 +1,6 @@
 .app {
-  max-width: 500px;
-  max-height: 800px;
+  max-width: 325px;
+  max-height: 425px;
   margin: auto;
   border: 1px solid lightgrey;
   display: flex;

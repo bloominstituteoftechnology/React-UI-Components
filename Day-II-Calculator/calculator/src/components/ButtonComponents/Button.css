@@ -4,12 +4,17 @@ button {
 
 .small-button {
   border: 1px solid lightgrey;
-  width: 25px;
+  width: 80px;
   text-align: center;
+  vertical-align: middle;
+  height: 70px;
+  font-size: 25px;
 }
 
 .big-button {
   border: 1px solid lightgrey;
-  width: 75px;
+  width: 240px;
   text-align: center;
+  height: 70px;
+  font-size: 25px;
 }
